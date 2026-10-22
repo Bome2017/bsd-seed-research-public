@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "date": "2026-10-22",
+  "prior_lab": "e79f03a8ee8a0eb4d2d9a95cfd8c905694c03ee6",
+  "prior_public": "f08cdfb3743b0e2a04443ad4a88c9d51d05a1bc6",
+  "target": "small complete faithful class and unit/local bound",
+  "new_arithmetic_result": "seven exact S-unit supports and fourteen vanishing faithful projections; no class bound",
+  "endpoints": {
+    "FIN": "OPEN",
+    "ORDER9": "OPEN",
+    "Q36": "OPEN"
+  },
+  "verdict": "NO_NEW_SMALL_CLASS_BOUND",
+  "retained_complete_relative_five_primary_length_upper": 97,
+  "analytic_certificate": "valid sufficient certificate; required unit lattice and analytic enclosure absent",
+  "uniform_result": false
+}

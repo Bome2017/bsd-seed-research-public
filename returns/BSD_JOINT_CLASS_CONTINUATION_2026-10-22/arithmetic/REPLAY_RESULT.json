@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "input_hashes_verified": 2,
+  "exact_seed_elements": 7,
+  "exact_principal_S_ideal_checks": 7,
+  "literal_fifth_power_checks": 14,
+  "result_sha256": "8f9b3693b3f61bc7a64eeac1591c35c3a338e1c9af23b0577cc5cbc0a2cde691",
+  "runtime_seconds": 0.824,
+  "no_BNF_or_Sha_input": true
+}

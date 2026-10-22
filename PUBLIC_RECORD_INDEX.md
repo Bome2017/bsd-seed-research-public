@@ -1,6 +1,6 @@
 # Public record index
 
-This edition contains 113 subsequent return dossiers. Each linked entry states its own mathematical grade. Failed tests, withdrawn assertions, and prepared-but-unsubmitted tasks are evidence of the research process, not proved theorems. Read [correction precedence](CORRECTIONS_AND_SCOPE.md) before using older assertions.
+This edition contains 114 subsequent return dossiers. Each linked entry states its own mathematical grade. Failed tests, withdrawn assertions, and prepared-but-unsubmitted tasks are evidence of the research process, not proved theorems. Read [correction precedence](CORRECTIONS_AND_SCOPE.md) before using older assertions.
 
 | Record | Source status wording (not upgraded here) |
 | --- | --- |
@@ -61,6 +61,7 @@ This edition contains 113 subsequent return dossiers. Each linked entry states i
 | [Derivative content gives a quantitative Sha bound](returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/REPORT.md) | KATO_DERIVATIVE_CONTENT_BOUND_DERIVED_CONDITIONALLY, CONTENT_BOUND_PROOF |
 | [K288 raw custody audit: RESULT](returns/BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/RESULT.md) | K288_CUSTODY_CONFIRMED |
 | [Joint repair experiment: arithmetic values, genuine unit excess, and point occupancy](returns/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/REPORT.md) | See retained entry for exact scope and dependencies |
+| [Continuation toward a complete FIN source bound](returns/BSD_JOINT_CLASS_CONTINUATION_2026-10-22/REPORT.md) | NO_NEW_SMALL_CLASS_BOUND, HISTORICAL_AND_OPERATOR_SCREEN, PRESENTATION_AND_PARITY_REVIEW |
 | [Actual joint upper-bound experiment at coefficient seven](returns/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/REPORT.md) | ACTUAL_P7_COMPLETE_UNIT_JOINT_KERNEL_ZERO_ON_CONTROL, CLASS_CONTRIBUTION_RETAINED, NO_SEED_BOUND |
 | [Joint admission experiment and distillation of successful seed methods](returns/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/REPORT.md) | SHARED_RESIDUAL_SCALAR, POINT_PLACEMENT_DISTINGUISHES_EQUAL_NORM_INDICES |
 | [Revised Heegner return and completed W3 constructor: review](returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/REPORT.md) | SOURCE_CERTIFICATES_REPLAYED, EXISTING_SEED_EVALUATOR_CONNECTED, UNIFORM_BOUND_OPEN |

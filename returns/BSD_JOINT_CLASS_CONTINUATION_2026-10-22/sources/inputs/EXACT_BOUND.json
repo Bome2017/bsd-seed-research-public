@@ -1,0 +1,69 @@
+{
+  "L_value_upper_ceiling": "1511064551295557957",
+  "arithmetic_conductor_Q": "28547674832087657668957548697971229827174630890330043601254247772342191764557483490297987200412941641241664000000000000",
+  "e_upper": {
+    "denominator": "250000000000000000",
+    "numerator": "679570457114761309"
+  },
+  "five_power_98": "315544362088404722164691426113114491869282574043609201908111572265625",
+  "five_primary_length_upper": 97,
+  "input_grade": "retained exact maximal-order discriminants and field signatures",
+  "input_sha256": "8e0e2a60d978a1783558346833191950fd418be6d3e9ebaa98da16112fefa0da",
+  "lambda_lower": {
+    "denominator": "1000000000000000000",
+    "numerator": "8559630657335159781"
+  },
+  "log_2_interval": [
+    {
+      "denominator": "1000000000000000000",
+      "numerator": "693147180559945309"
+    },
+    {
+      "denominator": "100000000000000000",
+      "numerator": "69314718055994531"
+    }
+  ],
+  "log_Q_interval": [
+    {
+      "denominator": "1000000000000000000",
+      "numerator": "272754031371130386939"
+    },
+    {
+      "denominator": "1000000000000000000",
+      "numerator": "272754031371130387333"
+    }
+  ],
+  "log_delta_interval": [
+    {
+      "denominator": "1000000000000000000",
+      "numerator": "54915364357623944939"
+    },
+    {
+      "denominator": "1000000000000000000",
+      "numerator": "54915364357623945019"
+    }
+  ],
+  "no_GRH": true,
+  "no_elliptic_Sha_or_BSD_input": true,
+  "pi_interval": [
+    {
+      "denominator": "500000000000000000",
+      "numerator": "1570796326794896619"
+    },
+    {
+      "denominator": "1000000000000000000",
+      "numerator": "3141592653589793239"
+    }
+  ],
+  "regulator_ratio_lower_floor": "15878",
+  "relative_class_order_bound_coarse_integer": "262000000000000000000000000000000000000000000000000000000000000000000",
+  "relative_class_order_bound_exact_rounded": "261318782779273993520744495465816232393900672206356842713859806329037",
+  "scope": "actual coefficient-five point field only; no sufficiently small seed bound or across-prime result",
+  "sqrt5_upper": {
+    "denominator": "100000000000000",
+    "numerator": "223606797749979"
+  },
+  "sqrtQ_upper_integer": "168960571826943275378497531250215852256375148863032392000001",
+  "status": "EXACT_OUTWARD_RELATIVE_CLASS_ORDER_BOUND",
+  "sum_of_two_faithful_five_ranks_upper": 97
+}

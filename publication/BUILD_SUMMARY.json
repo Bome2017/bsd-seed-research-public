@@ -9,8 +9,8 @@
     "8365c394f1017280a6463d7f25afac2e321c0c25": "BSD_QUINTIC_RELATIVE_LEADING_TERM_2026-10-12",
     "45821d2778ea277db2cbfaf5eed6e59dec392377": "BSD_VALUATION_MECHANISM_2026-10-13"
   },
-  "exported_files": 12246,
-  "exported_bytes": 554697964,
+  "exported_files": 12290,
+  "exported_bytes": 555078435,
   "redacted_files": 22,
   "omitted_files": 6177,
   "credential_pattern_files": [],
@@ -27,6 +27,10 @@
     {
       "commit": "d078b61482a57375aeb20eeeb2c72698a67f4a01",
       "folder": "BSD_PRIMARY_TORSION_BOUND_2026-10-22"
+    },
+    {
+      "commit": "1c782871e9b26787b6cd1909ee37bafe947b0a69",
+      "folder": "BSD_JOINT_CLASS_CONTINUATION_2026-10-22"
     }
   ],
   "public_edition_prepared": "2026-10-22",

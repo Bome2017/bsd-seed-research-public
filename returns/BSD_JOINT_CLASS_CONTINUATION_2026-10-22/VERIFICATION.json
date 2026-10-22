@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "manifest_entries": {
+    "MANIFEST.sha256": 42,
+    "arithmetic/MANIFEST.sha256": 20
+  },
+  "replays": [
+    {
+      "script": "arithmetic/replay.py",
+      "status": "PASS"
+    },
+    {
+      "script": "theory/check_incidence_gate.py",
+      "status": "PASS"
+    },
+    {
+      "script": "sources/check_reconstruction_gate.py",
+      "status": "PASS"
+    }
+  ],
+  "new_seed_class_bound": false,
+  "endpoints_changed": false
+}

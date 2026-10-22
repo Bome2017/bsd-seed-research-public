@@ -1,0 +1,5 @@
+Read REPORT.md and PROOF.md. The changed source was seven genuine torsion-coordinate S-units in the actual coefficient-five seed point field. Their exact ideal support is small, but both faithful projections are literal fifth powers. All14 exact identities and seven ideal reconstructions passed a fresh replay. No class computation or new complete bound is available. Do not expand this scalar-closed multiplicative family. Root extraction within the same real-embedded field also cannot change its parity.
+
+Run python3 replay.py. BSD_GP can override the retained PARI path. The two field input files are retained source data; their maximal-order construction is not rerun.
+
+The preliminary norm-only computation and the accepted exact ideal-support computation are separately retained. Empty GP stderr, completion marker and byte-identical algebra output are required; elapsed times may differ. A first script arrangement placed a GP function definition inside the outer block and produced no arithmetic or marker; it was rejected and corrected before acceptance.

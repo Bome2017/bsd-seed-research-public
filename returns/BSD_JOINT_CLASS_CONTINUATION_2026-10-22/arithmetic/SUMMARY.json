@@ -1,0 +1,9 @@
+[
+{"element":"x(P)","norm":"2075152329019181316386225242267725373305738089136576194481627309451645579925017992391678184390656/25","norm_exponents_2_3_5_2243_4547_5843":[24, 0, -2, 0, 12, 12],"tau_ratio":1,"exact_S_ideal_reconstruction":true,"faithful_projection_fifth_powers":2}
+,{"element":"x(2P)","norm":"2075152329019181316386225242267725373305738089136576194481627309451645579925017992391678184390656/25","norm_exponents_2_3_5_2243_4547_5843":[24, 0, -2, 0, 12, 12],"tau_ratio":1,"exact_S_ideal_reconstruction":true,"faithful_projection_fifth_powers":2}
+,{"element":"y(P)","norm":"1241167529821004292171242708031903978485087735772399219817132875811456079630932706796788671499589004030701708470007631004958190018689599816073216/125","norm_exponents_2_3_5_2243_4547_5843":[24, 12, -3, 6, 18, 12],"tau_ratio":-1,"exact_S_ideal_reconstruction":true,"faithful_projection_fifth_powers":2}
+,{"element":"y(2P)","norm":"1241167529821004292171242708031903978485087735772399219817132875811456079630932706796788671499589004030701708470007631004958190018689599816073216/125","norm_exponents_2_3_5_2243_4547_5843":[24, 12, -3, 6, 18, 12],"tau_ratio":-1,"exact_S_ideal_reconstruction":true,"faithful_projection_fifth_powers":2}
+,{"element":"x(P)-x(2P)","norm":"75689133653281110040474918216879250299270331025967025338431674153465740890090264353526121903524151296/25","norm_exponents_2_3_5_2243_4547_5843":[32, 8, -2, 4, 12, 8],"tau_ratio":1,"exact_S_ideal_reconstruction":true,"faithful_projection_fifth_powers":2}
+,{"element":"y(2P)/y(P)","norm":"1","norm_exponents_2_3_5_2243_4547_5843":[0, 0, 0, 0, 0, 0],"tau_ratio":1,"exact_S_ideal_reconstruction":true,"faithful_projection_fifth_powers":2}
+,{"element":"x(2P)/x(P)","norm":"1","norm_exponents_2_3_5_2243_4547_5843":[0, 0, 0, 0, 0, 0],"tau_ratio":1,"exact_S_ideal_reconstruction":true,"faithful_projection_fifth_powers":2}
+]
