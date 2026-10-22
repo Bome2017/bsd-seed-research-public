@@ -1,0 +1,86 @@
+{
+  "status": "NO_SAVED_FULL_RANK_SEED_RELATIVE_UNIT_SOURCE_IN_CHECKED_RECORD",
+  "scope": "Targeted files and relevant names in retained October18-22 lab returns; not an exhaustive host or archive search",
+  "files": [
+    {
+      "path": "BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/REPORT.md",
+      "bytes": 3800,
+      "sha256": "00e7967104c9750d17986ce8fb6bf4ab826e312bef8fecffa941ea1a76b59f0b"
+    },
+    {
+      "path": "BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/class_group.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/class_group.err",
+      "bytes": 333,
+      "sha256": "5f44e05eaf9078361a508b7d6cc0a60dbf940148cb6b0f9f9a3719e1169b66ca"
+    },
+    {
+      "path": "BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/same_curve_scaling/REPORT.md",
+      "bytes": 2063,
+      "sha256": "ae15b9b7deff68d95ed5a0444c6daa6cd1e2d381ed7c02aeea7b6beca62e922e"
+    },
+    {
+      "path": "BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/same_curve_scaling/authenticate_units.gp",
+      "bytes": 939,
+      "sha256": "a47271ffa7daa8bf74a70246f999568191746e7e0a9aa990fad7dde5c0bbaaab"
+    },
+    {
+      "path": "BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/REPORT.md",
+      "bytes": 9284,
+      "sha256": "ae5ac7539580251c00b93319cc9e7a20dbd4abb2a5c3d3210fa7159ace296d64"
+    },
+    {
+      "path": "BSD_GENUINE_RELATIVE_CLASS_METHOD_2026-10-20/REPORT.md",
+      "bytes": 8001,
+      "sha256": "22facd3945910f34b3824b3e3aa17cd8a008e8e06a74b1040e0549fb2cf2bb95"
+    },
+    {
+      "path": "BSD_GENUINE_RELATIVE_CLASS_METHOD_2026-10-20/arithmetic/unit_kernel_result.gp",
+      "bytes": 959,
+      "sha256": "0afb743e9e547fe4fba40a9511a62fe9fce80931a1e7305c4b0a9661477de373"
+    },
+    {
+      "path": "BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20/REPORT.md",
+      "bytes": 6302,
+      "sha256": "c8451e2af25f17870c13c1cdbfe833f4f54edcb4fb29d777e662f234bcbbe4ed"
+    },
+    {
+      "path": "BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20/arithmetic/geometric_units.out",
+      "bytes": 505,
+      "sha256": "e5c05b30cc2e0b7788f7694638e22484c97e2c5c0fd06ce0a84480266f2299b8"
+    },
+    {
+      "path": "BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/REPORT.md",
+      "bytes": 6590,
+      "sha256": "aa26fdc1b51891c1c1c20d36ba39a4349eb68c7de8511ed679e75abe28a1cfc8"
+    },
+    {
+      "path": "BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/RESULT.json",
+      "bytes": 2600,
+      "sha256": "a1059cef95488b23f9fb2945607733b5d2d68e3459f3cc0f49312471e99e4eae"
+    },
+    {
+      "path": "BSD_CLAUDE_SCALING_RECONCILIATION_2026-10-18/RECONCILIATION_NOTES.md",
+      "bytes": 3438,
+      "sha256": "ebaa8ab0f291fc12e1fbe168bf0e87525e0695b665bd69b700f0790365c59acc"
+    },
+    {
+      "path": "BSD_CLAUDE_SCALING_RECONCILIATION_2026-10-18/unit_rank/REPORT.md",
+      "bytes": 7178,
+      "sha256": "079637a44ca2513c0b9ee2cffffa2aa56d3af9f70e40ef14ef8b68be299d6690"
+    },
+    {
+      "path": "BSD_JOINT_CLASS_CONTINUATION_2026-10-22/arithmetic/REPORT.md",
+      "bytes": 2622,
+      "sha256": "86143595b84c883cf46049c456041c3a0bf6c0d0693ffc8f91c743df4d92fe66"
+    }
+  ],
+  "seed_relative_free_rank": 6,
+  "single_scalar_orbit_rank_at_most": 2,
+  "independent_scalar_orbits_required_at_least": 3,
+  "new_seed_units_found": 0,
+  "unit_rank_or_class_bound_added": false
+}

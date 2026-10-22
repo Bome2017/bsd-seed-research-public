@@ -1,0 +1,118 @@
+{
+  "status": "EXACT_THRESHOLD_ACCOUNTING_PASS_NOT_A_SEED_CERTIFICATE",
+  "source": "inputs/RETAINED_ANALYTIC_INPUT.json",
+  "source_provenance": "/Users/bsm/BSD_PRIMARY_TORSION_BOUND_2026-10-22/theory/RETAINED_ANALYTIC_INPUT.json",
+  "copied_input_bindings_verified": 4,
+  "source_sha256": "da70a294b50ac75737d2008ddbdecfa49d352563110e2a3324f35ed40ae35894",
+  "relative_log_covolume_lower_floor": 31756,
+  "retained_T_upper_rounded": "4200000000000000000000000000000000000000000000000000000000000000000000000",
+  "T_upper_fraction": {
+    "numerator": "62331623694902571175537558383538334352714673902877021762564997477757431532704345703125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "denominator": "15021706149614131815324242964645033612509414955269969912107173964114150844808546075683205719103889853246626281"
+  },
+  "ratio_upper_rounded": {
+    "numerator": "16406250000000000000000000000000000000000000000000000000000000000000000",
+    "denominator": "7939"
+  },
+  "precision_gate_examples_not_observed_unit_indices": [
+    {
+      "assumed_certified_unit_index_upper_J": "1",
+      "denominator_upper_D": "128",
+      "required_absolute_ratio_width_less_than": {
+        "numerator": "1",
+        "denominator": "16384"
+      },
+      "sufficient_relative_binary_precision_bits": 236,
+      "sufficient_relative_decimal_precision_digits": 72
+    },
+    {
+      "assumed_certified_unit_index_upper_J": "1000000",
+      "denominator_upper_D": "128000000",
+      "required_absolute_ratio_width_less_than": {
+        "numerator": "1",
+        "denominator": "16384000000000000"
+      },
+      "sufficient_relative_binary_precision_bits": 276,
+      "sufficient_relative_decimal_precision_digits": 84
+    },
+    {
+      "assumed_certified_unit_index_upper_J": "1000000000000",
+      "denominator_upper_D": "128000000000000",
+      "required_absolute_ratio_width_less_than": {
+        "numerator": "1",
+        "denominator": "16384000000000000000000000000"
+      },
+      "sufficient_relative_binary_precision_bits": 316,
+      "sufficient_relative_decimal_precision_digits": 96
+    },
+    {
+      "assumed_certified_unit_index_upper_J": "1000000000000000000000000",
+      "denominator_upper_D": "128000000000000000000000000",
+      "required_absolute_ratio_width_less_than": {
+        "numerator": "1",
+        "denominator": "16384000000000000000000000000000000000000000000000000"
+      },
+      "sufficient_relative_binary_precision_bits": 396,
+      "sufficient_relative_decimal_precision_digits": 120
+    }
+  ],
+  "optimistic_absolute_L_width_gate_for_this_reconstruction_only": {
+    "exact_upper_fraction": {
+      "numerator": "7632468807794341933415928218426379743965673903081386073652237469755142232889158595555257865675079550312792072789779",
+      "denominator": "84480285913471637689248765625107926128187574431516196000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "safe_upper_bound": {
+      "numerator": "91",
+      "denominator": "1000000000000000000000000000000000000000000000000000000"
+    },
+    "description": "Any admitted instance of the stated interval-width criterion needs absolute L interval width below 9.1e-53; this is not a runtime or algorithmic impossibility bound."
+  },
+  "finite_spacing_checks": [
+    {
+      "D": 2,
+      "minimum_observed_spacing": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "candidate_count": 13
+    },
+    {
+      "D": 3,
+      "minimum_observed_spacing": {
+        "numerator": "1",
+        "denominator": "6"
+      },
+      "candidate_count": 25
+    },
+    {
+      "D": 5,
+      "minimum_observed_spacing": {
+        "numerator": "1",
+        "denominator": "20"
+      },
+      "candidate_count": 61
+    },
+    {
+      "D": 8,
+      "minimum_observed_spacing": {
+        "numerator": "1",
+        "denominator": "56"
+      },
+      "candidate_count": 133
+    },
+    {
+      "D": 12,
+      "minimum_observed_spacing": {
+        "numerator": "1",
+        "denominator": "132"
+      },
+      "candidate_count": 277
+    }
+  ],
+  "seed_input_gate": {
+    "rank_six_authenticated_relative_unit_subgroup": "NOT_FOUND_IN_CHECKED_COMPLETED_PACKETS",
+    "five_saturation_of_that_subgroup": "NOT_SUPPLIED",
+    "two_sided_relative_L_value_enclosure": "NOT_SUPPLIED; retained value is a one-sided upper bound"
+  },
+  "endpoints_changed": false
+}

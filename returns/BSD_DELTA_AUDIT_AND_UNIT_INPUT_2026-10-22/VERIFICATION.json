@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "manifests": {
+    "MANIFEST.sha256": 43,
+    "source_recovery/MANIFEST.sha256": 13,
+    "supplied/BSD_GITHUB_DELTA_AUDIT_2026-10-22/MANIFEST.sha256": 5
+  },
+  "audit_replay": {
+    "status": "SUPPLIED_AUDIT_REPLAYED_EXACTLY_WITH_RETAINED_INPUT_SCOPE",
+    "manifest": 5,
+    "runs": 2,
+    "crosschecks": {
+      "packing_rows_radii_ranks_exact_order_bounds": 13,
+      "hypothetical_precision_rows": 4,
+      "finite_incidence_cases": 5,
+      "source_unchanged": true
+    }
+  },
+  "gp_replay": {
+    "status": "PASS",
+    "checked": 2232,
+    "ordinary_unit_candidates": 1,
+    "nontrivial_relative_units": 0,
+    "exact_result_matches": true,
+    "elapsed_seconds": 4.746014238102362,
+    "gp_stack_bytes": 512000000,
+    "timeout_seconds": 120,
+    "input_hashes_verified": true,
+    "scope": "Exact finite source pilot only; retained maximal order and scalar action, no class bound"
+  },
+  "sealed_inputs_unchanged": true,
+  "scope": "Exact replay using retained field inputs; no new complete seed bound"
+}

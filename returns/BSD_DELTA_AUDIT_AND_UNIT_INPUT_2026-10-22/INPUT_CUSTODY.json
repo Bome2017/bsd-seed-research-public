@@ -1,0 +1,11 @@
+{
+  "supplied_archive_name": "BSD_GITHUB_DELTA_AUDIT_2026-10-22.zip",
+  "supplied_sha256": "77da8e3f342f266c7b535b87af3bb540d32f1b01812aca504241760fe4d086fa",
+  "supplied_bytes": 11709,
+  "source_files": 6,
+  "manifest_covered_files": 5,
+  "safe_extraction": "No absolute/traversal/symlink members; expanded size bounded",
+  "lab_snapshot": "1c782871e9b26787b6cd1909ee37bafe947b0a69",
+  "public_snapshot_before_return": "c110d899d215c5caf2c0dcc058a5ad896199f47d",
+  "historical_release_tag_target": "f08cdfb3743b0e2a04443ad4a88c9d51d05a1bc6"
+}

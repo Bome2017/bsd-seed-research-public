@@ -1,0 +1,266 @@
+{
+  "all_prefixes": [
+    {
+      "five_torsion_rank_upper": 106,
+      "max_norm": 7,
+      "pairs": 2,
+      "radius_lower": [
+        "6889807",
+        "16777216"
+      ],
+      "radius_upper_for_this_test": [
+        "430613",
+        "1048576"
+      ],
+      "separation_upper_over_delta": [
+        "999999248939",
+        "1000000000000"
+      ],
+      "torsion_order_upper_integer": "334809554342956104676612913920139327331389754537007507521626340458250851040"
+    },
+    {
+      "five_torsion_rank_upper": 131,
+      "max_norm": 29,
+      "pairs": 4,
+      "radius_lower": [
+        "169974821345",
+        "344119977181184"
+      ],
+      "radius_upper_for_this_test": [
+        "21246854769",
+        "43014997147648"
+      ],
+      "separation_upper_over_delta": [
+        "99999989347",
+        "100000000000"
+      ],
+      "torsion_order_upper_integer": "55289487277769369727075369376210743441652714962176434015167861769412439249189370658526305928"
+    },
+    {
+      "five_torsion_rank_upper": 132,
+      "max_norm": 31,
+      "pairs": 6,
+      "radius_lower": [
+        "84987435883",
+        "240158725111808"
+      ],
+      "radius_upper_for_this_test": [
+        "169974888573",
+        "480317450223616"
+      ],
+      "separation_upper_over_delta": [
+        "499999985863",
+        "500000000000"
+      ],
+      "torsion_order_upper_integer": "272559553179520159462361249344513363772550057505446027637904875131093200759682637646371652758"
+    },
+    {
+      "five_torsion_rank_upper": 142,
+      "max_norm": 53,
+      "pairs": 8,
+      "radius_lower": [
+        "169974922187",
+        "7016156116287488"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "3508078058143744"
+      ],
+      "separation_upper_over_delta": [
+        "99999999493",
+        "100000000000"
+      ],
+      "torsion_order_upper_integer": "1985853341628460753389221681485748596159908888615251051391762661391735803111285868236607221146683546"
+    },
+    {
+      "five_torsion_rank_upper": 146,
+      "max_norm": 67,
+      "pairs": 10,
+      "radius_lower": [
+        "169974922187",
+        "22651340547162112"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "11325670273581056"
+      ],
+      "separation_upper_over_delta": [
+        "499999994989",
+        "500000000000"
+      ],
+      "torsion_order_upper_integer": "1798892255158840775297193342535961729797428842555124539207305374199792613016643413824535216640494267152"
+    },
+    {
+      "five_torsion_rank_upper": 147,
+      "max_norm": 73,
+      "pairs": 12,
+      "radius_lower": [
+        "169974922187",
+        "34780369899225088"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "17390184949612544"
+      ],
+      "separation_upper_over_delta": [
+        "39999999587",
+        "40000000000"
+      ],
+      "torsion_order_upper_integer": "19645614988002731576036328484400296133500755963836642308371472148951074690264272176976192240024739788615"
+    },
+    {
+      "five_torsion_rank_upper": 155,
+      "max_norm": 113,
+      "pairs": 14,
+      "radius_lower": [
+        "169974922187",
+        "309109329691148288"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "154554664845574144"
+      ],
+      "separation_upper_over_delta": [
+        "199999997891",
+        "200000000000"
+      ],
+      "torsion_order_upper_integer": "8298246660070826347243959034715563053447617877732247132969626269976829967818832246801701644702091516776474288"
+    },
+    {
+      "five_torsion_rank_upper": 159,
+      "max_norm": 137,
+      "pairs": 16,
+      "radius_lower": [
+        "169974922187",
+        "809697375747571712"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "404848687873785856"
+      ],
+      "separation_upper_over_delta": [
+        "999999989453",
+        "1000000000000"
+      ],
+      "torsion_order_upper_integer": "2345622414353648117831323564498616796094958680288994928436798089939950837047089936526845486721549363958540960129"
+    },
+    {
+      "five_torsion_rank_upper": 160,
+      "max_norm": 149,
+      "pairs": 18,
+      "radius_lower": [
+        "169974922187",
+        "1232114980732534784"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "616057490366267392"
+      ],
+      "separation_upper_over_delta": [
+        "249999997363",
+        "250000000000"
+      ],
+      "torsion_order_upper_integer": "25886695680653699540168218710608570604700362188591064712170807773595810831931077304973513178959511329198266897497"
+    },
+    {
+      "five_torsion_rank_upper": 161,
+      "max_norm": 151,
+      "pairs": 20,
+      "radius_lower": [
+        "169974922187",
+        "1317057186513289216"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "658528593256644608"
+      ],
+      "separation_upper_over_delta": [
+        "249999997363",
+        "250000000000"
+      ],
+      "torsion_order_upper_integer": "34756776732017145221266032535088421134898243362969965397797652124370563859324294613058824514750488758917458719670"
+    },
+    {
+      "five_torsion_rank_upper": 164,
+      "max_norm": 181,
+      "pairs": 22,
+      "radius_lower": [
+        "169974922187",
+        "3259213197780975616"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "1629606598890487808"
+      ],
+      "separation_upper_over_delta": [
+        "249999997363",
+        "250000000000"
+      ],
+      "torsion_order_upper_integer": "7255972636201251511394102510392330253742563269775665696772510466958320703362382569665408450198308081223124736939318"
+    },
+    {
+      "five_torsion_rank_upper": 168,
+      "max_norm": 223,
+      "pairs": 24,
+      "radius_lower": [
+        "169974922187",
+        "9252182936768217088"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "4626091468384108544"
+      ],
+      "separation_upper_over_delta": [
+        "249999997363",
+        "250000000000"
+      ],
+      "torsion_order_upper_integer": "3480933453096778200896316929757339444975432684131562814385045796652084300455810643339878421580809775481602834091073753"
+    },
+    {
+      "five_torsion_rank_upper": 168,
+      "max_norm": 229,
+      "pairs": 26,
+      "radius_lower": [
+        "169974922187",
+        "10565676458976477184"
+      ],
+      "radius_upper_for_this_test": [
+        "84987469497",
+        "5282838229488238592"
+      ],
+      "separation_upper_over_delta": [
+        "249999997363",
+        "250000000000"
+      ],
+      "torsion_order_upper_integer": "7126104606408157720041318543883486370795987932237432098861426498042757552753258320231694639124411536550823987145522726"
+    }
+  ],
+  "analytic_input_sha256": "da70a294b50ac75737d2008ddbdecfa49d352563110e2a3324f35ed40ae35894",
+  "analytic_product_upper_coarse_integer": "4200000000000000000000000000000000000000000000000000000000000000000000000",
+  "arithmetic_input_sha256": "c9e6014c372baec23b1d47fb2197d2f0bfb1219fcd9423aa628b36158e7c1b0f",
+  "best": {
+    "five_torsion_rank_upper": 106,
+    "max_norm": 7,
+    "pairs": 2,
+    "radius_lower": [
+      "6889807",
+      "16777216"
+    ],
+    "radius_upper_for_this_test": [
+      "430613",
+      "1048576"
+    ],
+    "separation_upper_over_delta": [
+      "999999248939",
+      "1000000000000"
+    ],
+    "torsion_order_upper_integer": "334809554342956104676612913920139327331389754537007507521626340458250851040"
+  },
+  "complete_relative_5_torsion": true,
+  "counts": "tau-pairs over distinct K primes, not individual A prime ideals",
+  "hypotheses": "written compact group and separation proof; retained field and analytic inputs; no GRH or Sha input",
+  "new_small_bound": false,
+  "retained_better_rank_bound": 97,
+  "scope": "bound on p-torsion rank, NOT total p-primary length",
+  "status": "EXPLICIT_PRIMARY_PACKING_BOUND_WEAKER_THAN_RETAINED_BOUND"
+}

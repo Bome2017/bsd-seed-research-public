@@ -51,3 +51,11 @@ The [uploaded Pro-packet review](returns/BSD_PRIMARY_TORSION_BOUND_2026-10-22/re
 The [next bounded continuation](returns/BSD_JOINT_CLASS_CONTINUATION_2026-10-22/REPORT.md) gives **no new small class bound**. Seven actual seed torsion-coordinate S-units pass exact support checks but their14faithful projections are literal fifth powers. All orbit-weighted point/covector correspondences restrict to scalar multiples of the existing incidence map. These specified variations are excluded; the entire class method is not.
 
 A separate [relative analytic reconstruction certificate](returns/BSD_JOINT_CLASS_CONTINUATION_2026-10-22/sources/RELATIVE_RECONSTRUCTION.md) can recover the complete relative primary class length from a genuine relative-unit lattice with controlled index and a narrow certified number-field L-value interval. The needed arithmetic inputs were not obtained. Its quantified precision gate does not establish computational feasibility or a uniform theorem. The retained97ceiling and all BSD endpoints remain unchanged. Exact isolated replays pass; the written deductions have same-session agent reviews, not human or formal certification.
+
+## October 22 audit replay and unit-input test
+
+The [latest return](returns/BSD_DELTA_AUDIT_AND_UNIT_INPUT_2026-10-22/REPORT.md) replays the supplied delta audit and tests an actual seed source family. Both supplied exact checkers reproduce their results. The coarse threshold r_U-k_C >= (p-5)/2 is sufficient, not necessary: authenticated connecting-map and local cuts can make the full source smaller.
+
+A targeted recovery distinguishes a control-curve unit table from seed data. A new exact norm test of 2,232 integral basis-pair candidates in the actual seed field finds only the constant1, hence no nontorsion relative-unit input. The isolated GP replay reproduces the result. The retained class-length ceiling97 and FIN/ORDER9/Q36 do not improve. This finite family is exhausted; it is not an impossibility result for unit constructions.
+
+The original `evidence-2026-10-22` release remains a historical 113-dossier snapshot. Revision `evidence-2026-10-22-r2` includes the later joint-class return and this audit/input test. Individual attached ZIPs are separate packets; use the revision's source-code archive for the entire tracked public evidence edition. Publication does not upgrade proof grades.

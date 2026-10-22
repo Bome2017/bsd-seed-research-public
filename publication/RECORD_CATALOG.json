@@ -854,6 +854,19 @@
     "publication_grade": "Retained source record; no new proof certification by this export."
   },
   {
+    "record": "BSD_DELTA_AUDIT_AND_UNIT_INPUT_2026-10-22",
+    "entry": "returns/BSD_DELTA_AUDIT_AND_UNIT_INPUT_2026-10-22/REPORT.md",
+    "title": "October 22 audit replay and actual seed unit-input test",
+    "quoted_status_tokens": [
+      "AUDIT_REPLAYED_NO_NEW_UNIT_INPUT_OR_SEED_BOUND",
+      "BSD_GITHUB_DELTA_AUDIT_2026",
+      "SUPPLIED_AUDIT_REVIEW",
+      "BASIS_UNIT_RESULT"
+    ],
+    "opening_excerpt": "Status: `AUDIT_REPLAYED_NO_NEW_UNIT_INPUT_OR_SEED_BOUND`. The supplied delta audit's exact checks reproduce. A new bounded search in the actual seed point field produced no nontorsion relative unit. The retained complete relative five-primary class-length ceiling remains **97**; FIN, ORDER9 and Q36 remain open. This return does not provide a route known to finish FIN.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
     "record": "BSD_DEFORMATION_FREEZE_CODEX_2026-10-06",
     "entry": "returns/BSD_DEFORMATION_FREEZE_CODEX_2026-10-06/REPORT.md",
     "title": "Finite-order deformation lane: frozen",

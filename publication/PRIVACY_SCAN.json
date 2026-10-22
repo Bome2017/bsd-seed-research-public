@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "scope": "Pattern scan of every public file plus text extraction of each included project PDF; no Git history is included. This is not a guarantee of all possible personal information. Names in literature and author provenance and local paths may remain.",
-  "scanned_files": 12300,
-  "scanned_bytes": 566119937,
+  "scanned_files": 12345,
+  "scanned_bytes": 566476117,
   "pdf_text_extractions": 9,
   "hits": [],
   "credentials_copied": false,

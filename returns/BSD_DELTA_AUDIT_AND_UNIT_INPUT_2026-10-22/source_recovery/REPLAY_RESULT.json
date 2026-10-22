@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checked": 2232,
+  "ordinary_unit_candidates": 1,
+  "nontrivial_relative_units": 0,
+  "exact_result_matches": true,
+  "elapsed_seconds": 4.562925802,
+  "gp_stack_bytes": 512000000,
+  "timeout_seconds": 120,
+  "input_hashes_verified": true,
+  "scope": "Exact finite source pilot only; retained maximal order and scalar action, no class bound"
+}

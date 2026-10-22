@@ -1,6 +1,6 @@
 # Public record index
 
-This edition contains 114 subsequent return dossiers. Each linked entry states its own mathematical grade. Failed tests, withdrawn assertions, and prepared-but-unsubmitted tasks are evidence of the research process, not proved theorems. Read [correction precedence](CORRECTIONS_AND_SCOPE.md) before using older assertions.
+This edition contains 115 subsequent return dossiers. Each linked entry states its own mathematical grade. Failed tests, withdrawn assertions, and prepared-but-unsubmitted tasks are evidence of the research process, not proved theorems. Read [correction precedence](CORRECTIONS_AND_SCOPE.md) before using older assertions.
 
 | Record | Source status wording (not upgraded here) |
 | --- | --- |
@@ -79,6 +79,7 @@ This edition contains 114 subsequent return dossiers. Each linked entry states i
 | [Direct base control: checked map and conditional Kato bound](returns/BSD_DIRECT_BASE_CONTROL_REVIEW_CODEX_2026-10-12/REPORT.md) | CLEAN_TAME_TARGET_MATCHED, CONDITIONAL_KATO_BOUND_AVAILABLE, NO_SMALL_VALUE_ESTABLISHED, NO_NEW_SEED_BOUND |
 | [Direct base-control probe](returns/BSD_DIRECT_BASE_CONTROL_PROBE_2026-10-12/REPORT.md) | NO_NEW_SEED_BOUND |
 | [Pro's direction assessment: checked against the two returns](returns/BSD_DIRECTION_REVIEW_CODEX_2026-10-06/REPORT.md) | ASSESSMENT_CONFIRMED_WITH_CORRECTIONS_AND_ORDINARY_CRITERION_MATCHED, BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026 |
+| [October 22 audit replay and actual seed unit-input test](returns/BSD_DELTA_AUDIT_AND_UNIT_INPUT_2026-10-22/REPORT.md) | AUDIT_REPLAYED_NO_NEW_UNIT_INPUT_OR_SEED_BOUND, BSD_GITHUB_DELTA_AUDIT_2026, SUPPLIED_AUDIT_REVIEW, BASIS_UNIT_RESULT |
 | [Finite-order deformation lane: frozen](returns/BSD_DEFORMATION_FREEZE_CODEX_2026-10-06/REPORT.md) | FROZEN_AT_ORDER3, NO_BSD_BOUND, MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY, ORDER3_EXCESS_IDENTIFIED_CONDITIONALLY |
 | [Review: the seed's cyclotomic 5-tower and single-table extraction](returns/BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12/REPORT.md) | CYCLOTOMIC_5_TOWER_DEDUCTION_SUPPORTED_UNDER_RETAINED_INPUTS, ONE_TABLE_EXTRACTION_SUPPORTED, BSD_CYCLOTOMIC5_AND_MOMENT_2026 |
 | [Seed arithmetic in the cyclotomic 5-tower, and a one-table numerator extractor](returns/BSD_CYCLOTOMIC5_AND_MOMENT_2026-10-12/REPORT.md) | CYCLOTOMIC_5_TOWER_VANISHING_DERIVED_UNDER_RETAINED_INPUTS, ONE_TABLE_QUADRATIC_EXTRACTION_DERIVED, OLD_SEED_NUMERATOR_REPLAYED |

@@ -1,0 +1,177 @@
+{
+  "status": "PASS_EXACT_NUMERICAL_RECONSTRUCTION",
+  "input_commit": "1c782871e9b26787b6cd1909ee37bafe947b0a69",
+  "packing_prefixes": [
+    {
+      "max_norm": 7,
+      "pairs": 2,
+      "radius": [
+        6889807,
+        16777216
+      ],
+      "computed_rank_upper": 106,
+      "computed_order_upper": "334809554342956104676612913920139327331389754537007507521626340458250851040",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 29,
+      "pairs": 4,
+      "radius": [
+        169974821345,
+        344119977181184
+      ],
+      "computed_rank_upper": 131,
+      "computed_order_upper": "55289487277769369727075369376210743441652714962176434015167861769412439249189370658526305928",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 31,
+      "pairs": 6,
+      "radius": [
+        84987435883,
+        240158725111808
+      ],
+      "computed_rank_upper": 132,
+      "computed_order_upper": "272559553179520159462361249344513363772550057505446027637904875131093200759682637646371652758",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 53,
+      "pairs": 8,
+      "radius": [
+        169974922187,
+        7016156116287488
+      ],
+      "computed_rank_upper": 142,
+      "computed_order_upper": "1985853341628460753389221681485748596159908888615251051391762661391735803111285868236607221146683546",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 67,
+      "pairs": 10,
+      "radius": [
+        169974922187,
+        22651340547162112
+      ],
+      "computed_rank_upper": 146,
+      "computed_order_upper": "1798892255158840775297193342535961729797428842555124539207305374199792613016643413824535216640494267152",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 73,
+      "pairs": 12,
+      "radius": [
+        169974922187,
+        34780369899225088
+      ],
+      "computed_rank_upper": 147,
+      "computed_order_upper": "19645614988002731576036328484400296133500755963836642308371472148951074690264272176976192240024739788615",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 113,
+      "pairs": 14,
+      "radius": [
+        169974922187,
+        309109329691148288
+      ],
+      "computed_rank_upper": 155,
+      "computed_order_upper": "8298246660070826347243959034715563053447617877732247132969626269976829967818832246801701644702091516776474288",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 137,
+      "pairs": 16,
+      "radius": [
+        169974922187,
+        809697375747571712
+      ],
+      "computed_rank_upper": 159,
+      "computed_order_upper": "2345622414353648117831323564498616796094958680288994928436798089939950837047089936526845486721549363958540960129",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 149,
+      "pairs": 18,
+      "radius": [
+        169974922187,
+        1232114980732534784
+      ],
+      "computed_rank_upper": 160,
+      "computed_order_upper": "25886695680653699540168218710608570604700362188591064712170807773595810831931077304973513178959511329198266897497",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 151,
+      "pairs": 20,
+      "radius": [
+        169974922187,
+        1317057186513289216
+      ],
+      "computed_rank_upper": 161,
+      "computed_order_upper": "34756776732017145221266032535088421134898243362969965397797652124370563859324294613058824514750488758917458719670",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 181,
+      "pairs": 22,
+      "radius": [
+        169974922187,
+        3259213197780975616
+      ],
+      "computed_rank_upper": 164,
+      "computed_order_upper": "7255972636201251511394102510392330253742563269775665696772510466958320703362382569665408450198308081223124736939318",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 223,
+      "pairs": 24,
+      "radius": [
+        169974922187,
+        9252182936768217088
+      ],
+      "computed_rank_upper": 168,
+      "computed_order_upper": "3480933453096778200896316929757339444975432684131562814385045796652084300455810643339878421580809775481602834091073753",
+      "separation_pass": true
+    },
+    {
+      "max_norm": 229,
+      "pairs": 26,
+      "radius": [
+        169974922187,
+        10565676458976477184
+      ],
+      "computed_rank_upper": 168,
+      "computed_order_upper": "7126104606408157720041318543883486370795987932237432098861426498042757552753258320231694639124411536550823987145522726",
+      "separation_pass": true
+    }
+  ],
+  "precision_table": [
+    {
+      "hypothetical_J": "1",
+      "bits": 236,
+      "decimal_digits": 72
+    },
+    {
+      "hypothetical_J": "1000000",
+      "bits": 276,
+      "decimal_digits": 84
+    },
+    {
+      "hypothetical_J": "1000000000000",
+      "bits": 316,
+      "decimal_digits": 96
+    },
+    {
+      "hypothetical_J": "1000000000000000000000000",
+      "bits": 396,
+      "decimal_digits": 120
+    }
+  ],
+  "absolute_L_width_gate_upper_decimal_for_display": 9.034615265876167e-53,
+  "norm_window_integer_bounds": [
+    15,
+    242
+  ],
+  "scope": "Exact calculations using retained field/analytic inputs. No new ideal decomposition, unit basis, class group, or Selmer result."
+}

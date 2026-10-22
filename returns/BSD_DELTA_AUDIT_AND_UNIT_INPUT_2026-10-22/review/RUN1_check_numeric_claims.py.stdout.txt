@@ -1,0 +1,33 @@
+{
+  "status": "PASS_EXACT_NUMERICAL_RECONSTRUCTION",
+  "input_commit": "1c782871e9b26787b6cd1909ee37bafe947b0a69",
+  "precision_table": [
+    {
+      "hypothetical_J": "1",
+      "bits": 236,
+      "decimal_digits": 72
+    },
+    {
+      "hypothetical_J": "1000000",
+      "bits": 276,
+      "decimal_digits": 84
+    },
+    {
+      "hypothetical_J": "1000000000000",
+      "bits": 316,
+      "decimal_digits": 96
+    },
+    {
+      "hypothetical_J": "1000000000000000000000000",
+      "bits": 396,
+      "decimal_digits": 120
+    }
+  ],
+  "absolute_L_width_gate_upper_decimal_for_display": 9.034615265876167e-53,
+  "norm_window_integer_bounds": [
+    15,
+    242
+  ],
+  "scope": "Exact calculations using retained field/analytic inputs. No new ideal decomposition, unit basis, class group, or Selmer result."
+}
+Verified all 13 common-radius prefixes; ranks: [106, 131, 132, 142, 146, 147, 155, 159, 160, 161, 164, 168, 168]

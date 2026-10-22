@@ -1,0 +1,118 @@
+{
+  "status": "PASS_FINITE_ALGEBRA",
+  "incidence_checks": [
+    {
+      "p": 3,
+      "modulus": 9,
+      "operator_span_rank": 1,
+      "N1_rank_mod_p": 2,
+      "coordinate_kernel_dimension": 2,
+      "orbit_sizes": [
+        16,
+        24,
+        24
+      ]
+    },
+    {
+      "p": 5,
+      "modulus": 25,
+      "operator_span_rank": 1,
+      "N1_rank_mod_p": 4,
+      "coordinate_kernel_dimension": 2,
+      "orbit_sizes": [
+        96,
+        120,
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "p": 7,
+      "modulus": 49,
+      "operator_span_rank": 1,
+      "N1_rank_mod_p": 6,
+      "coordinate_kernel_dimension": 2,
+      "orbit_sizes": [
+        288,
+        336,
+        336,
+        336,
+        336,
+        336,
+        336
+      ]
+    },
+    {
+      "p": 11,
+      "modulus": 121,
+      "operator_span_rank": 1,
+      "N1_rank_mod_p": 10,
+      "coordinate_kernel_dimension": 2,
+      "orbit_sizes": [
+        1200,
+        1320,
+        1320,
+        1320,
+        1320,
+        1320,
+        1320,
+        1320,
+        1320,
+        1320,
+        1320
+      ]
+    },
+    {
+      "p": 13,
+      "modulus": 169,
+      "operator_span_rank": 1,
+      "N1_rank_mod_p": 12,
+      "coordinate_kernel_dimension": 2,
+      "orbit_sizes": [
+        2016,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184,
+        2184
+      ]
+    }
+  ],
+  "fifth_power_monomial_checks": [
+    {
+      "weights": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "a_exponent": 5,
+      "s_exponent": 5,
+      "sign_exponent": 6,
+      "root_sign_exponent": 0
+    },
+    {
+      "weights": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "a_exponent": 5,
+      "s_exponent": 5,
+      "sign_exponent": 7,
+      "root_sign_exponent": 1
+    }
+  ],
+  "integral_presentation_counterexample": "Z/p^2 onto Z/p induces zero on p-torsion for all five tested primes",
+  "scaling_constant_integer_tests": "PASS",
+  "scope": "Finite algebra and exact monomial identities. Actual seed field, ideals, and scalar action remain retained inputs."
+}

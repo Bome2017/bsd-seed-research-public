@@ -1,0 +1,108 @@
+{
+  "status": "SUPPLIED_AUDIT_REPLAYED_EXACTLY_WITH_RETAINED_INPUT_SCOPE",
+  "python_version": "3.13.2 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 12:54:57) [Clang 14.0.6 ]",
+  "manifest_entries_verified": [
+    {
+      "file": "ALGEBRA_CHECK_RESULTS.json",
+      "sha256": "3d35bb142fdb8abe49e49a710647ff16fa6d22a8f10b748248e63289e5689be3"
+    },
+    {
+      "file": "NUMERIC_CHECK_RESULTS.json",
+      "sha256": "3093c8237c2a57a8ac86fa87b2608ed114f486be01360d6fd8a36139f6725e63"
+    },
+    {
+      "file": "REVIEW.md",
+      "sha256": "a7707503d3e1ee3406580da1d7bac458c10a7a3b034969103b773b395abd2c35"
+    },
+    {
+      "file": "check_algebra_claims.py",
+      "sha256": "b9a0ec2cae3895f6a0774419e16420d6630cdedb294be7cf343133b1168bb4ab"
+    },
+    {
+      "file": "check_numeric_claims.py",
+      "sha256": "a1f9b13a27ed5c93ccf96335faf4f89cb8cc0b7a93dbbb0682073ed4a3127720"
+    }
+  ],
+  "source_files": 6,
+  "imports": {
+    "check_numeric_claims.py": [
+      "fractions",
+      "json",
+      "math",
+      "pathlib"
+    ],
+    "check_algebra_claims.py": [
+      "json",
+      "pathlib"
+    ]
+  },
+  "runs": [
+    {
+      "run": 1,
+      "checks": [
+        {
+          "script": "check_numeric_claims.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.08444,
+          "output": "NUMERIC_CHECK_RESULTS.json",
+          "byte_equal": true,
+          "semantic_equal": true,
+          "sha256": "3093c8237c2a57a8ac86fa87b2608ed114f486be01360d6fd8a36139f6725e63"
+        },
+        {
+          "script": "check_algebra_claims.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.041284,
+          "output": "ALGEBRA_CHECK_RESULTS.json",
+          "byte_equal": true,
+          "semantic_equal": true,
+          "sha256": "3d35bb142fdb8abe49e49a710647ff16fa6d22a8f10b748248e63289e5689be3"
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "checks": [
+        {
+          "script": "check_numeric_claims.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.081448,
+          "output": "NUMERIC_CHECK_RESULTS.json",
+          "byte_equal": true,
+          "semantic_equal": true,
+          "sha256": "3093c8237c2a57a8ac86fa87b2608ed114f486be01360d6fd8a36139f6725e63"
+        },
+        {
+          "script": "check_algebra_claims.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.041959,
+          "output": "ALGEBRA_CHECK_RESULTS.json",
+          "byte_equal": true,
+          "semantic_equal": true,
+          "sha256": "3d35bb142fdb8abe49e49a710647ff16fa6d22a8f10b748248e63289e5689be3"
+        }
+      ]
+    }
+  ],
+  "crosschecks": {
+    "packing_rows_radii_ranks_exact_order_bounds": 13,
+    "hypothetical_precision_rows": 4,
+    "finite_incidence_cases": 5,
+    "source_unchanged": true
+  },
+  "comparison_bindings": [
+    {
+      "file": "review/inputs/BSD_PRIMARY_TORSION_BOUND_2026-10-22/theory/PRIMARY_PACKING_RESULT.json",
+      "sha256": "a14625f77a1029108e8be946d06d461ae263e90b1c08890e18f3329b1082a0d7"
+    },
+    {
+      "file": "review/inputs/BSD_JOINT_CLASS_CONTINUATION_2026-10-22/sources/RECONSTRUCTION_GATE_CHECK.json",
+      "sha256": "c0862b604bcb6875b567e40fb5c012f407ffe13163eddd2d25eb7925798cbe56"
+    },
+    {
+      "file": "review/inputs/BSD_JOINT_CLASS_CONTINUATION_2026-10-22/theory/INCIDENCE_GATE_RESULT.json",
+      "sha256": "e3ba007e8102a0037f59c268ef91f7c40ae020d33e5910edb5a2675f8a2fdc77"
+    }
+  ],
+  "scope": "Agent replay of supplied exact arithmetic and finite-algebra checks. No new number-field arithmetic, unit subgroup, class group, complete source bound, endpoint theorem, human review, or formal verification."
+}
