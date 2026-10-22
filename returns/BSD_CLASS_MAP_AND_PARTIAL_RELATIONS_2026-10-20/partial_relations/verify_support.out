@@ -1,0 +1,18 @@
+{
+  "status": "EIGHTY_AUTHENTICATED_PRIVATE_ANTI_DIVISOR_PIVOTS",
+  "full_saved_norm_rows": 14326,
+  "selected_rows": 80,
+  "unique_actual_prime_rows": 80,
+  "rank_over_Q": 80,
+  "rank_mod_7": 80,
+  "integer_kernel_dimension": 0,
+  "mod7_kernel_dimension": 0,
+  "global_norm_support_check": "every selected q occurs in exactly its own row in the full14326 log",
+  "old_twenty_overlap": [
+    2834,
+    11663,
+    75,
+    256
+  ],
+  "warning": "Ranks apply to this selected family only; scalar closure and all unselected element vectors were not computed."
+}

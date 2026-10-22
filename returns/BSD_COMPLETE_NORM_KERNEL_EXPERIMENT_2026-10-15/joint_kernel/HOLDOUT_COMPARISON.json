@@ -1,0 +1,35 @@
+{
+  "kernel_result_sha256": "5117fbd8eff72c011dcc026bf4f3d16837f39a782b72e6f2f83c3646f2e5ffbf",
+  "comparisons": [
+    {
+      "case": "1913b1",
+      "known_span_equals_reconstructed_kernel": true,
+      "known_classes_read_only_after_kernel_sha256": "5117fbd8eff72c011dcc026bf4f3d16837f39a782b72e6f2f83c3646f2e5ffbf",
+      "source_grade": "CERTIFIED_COMPLETE_RETAINED"
+    },
+    {
+      "case": "389a1",
+      "known_span_equals_reconstructed_kernel": true,
+      "known_classes_read_only_after_kernel_sha256": "5117fbd8eff72c011dcc026bf4f3d16837f39a782b72e6f2f83c3646f2e5ffbf",
+      "source_grade": "CERTIFIED_COMPLETE_RETAINED"
+    },
+    {
+      "case": "433a1",
+      "known_span_equals_reconstructed_kernel": true,
+      "known_classes_read_only_after_kernel_sha256": "5117fbd8eff72c011dcc026bf4f3d16837f39a782b72e6f2f83c3646f2e5ffbf",
+      "source_grade": "CERTIFIED_COMPLETE_RETAINED"
+    },
+    {
+      "case": "seed3",
+      "known_span_equals_reconstructed_kernel": true,
+      "known_classes_read_only_after_kernel_sha256": "5117fbd8eff72c011dcc026bf4f3d16837f39a782b72e6f2f83c3646f2e5ffbf",
+      "source_grade": "CONDITIONAL_OR_INCOMPLETE_DISPLAYED_SOURCE_ONLY"
+    },
+    {
+      "case": "28042a1",
+      "known_span_equals_reconstructed_kernel": true,
+      "known_classes_read_only_after_kernel_sha256": "5117fbd8eff72c011dcc026bf4f3d16837f39a782b72e6f2f83c3646f2e5ffbf",
+      "source_grade": "CONDITIONAL_OR_INCOMPLETE_DISPLAYED_SOURCE_ONLY"
+    }
+  ]
+}

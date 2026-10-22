@@ -1,0 +1,162 @@
+{
+  "cache_root": "/Users/bsm/BSD_NEW_SOURCE_DELTA_CODEX_2026-10-11_SOURCE_CACHE",
+  "publication": "Raw sources are not included; use cited public URLs. Hashes bind local reading copies, not theorem correctness.",
+  "files": [
+    {
+      "original_relative_path": "sources/DisegniZhang_2410.08401v2.html",
+      "cache_relative_path": "sources/DisegniZhang_2410.08401v2.html",
+      "bytes": 5172032,
+      "sha256": "13bdd3585d3cee04190277554e862f1246b88328968dd8448614615f7012efdc"
+    },
+    {
+      "original_relative_path": "sources/DisegniZhang_2410.08401v2.txt",
+      "cache_relative_path": "sources/DisegniZhang_2410.08401v2.txt",
+      "bytes": 775330,
+      "sha256": "253565f969d58075beb8cb0d38eee1b0dddae4290d4596d5247b9f2aceeeddc8"
+    },
+    {
+      "original_relative_path": "sources/openai_overlooked/01-introduction.tex",
+      "cache_relative_path": "sources/openai_overlooked/01-introduction.tex",
+      "bytes": 14664,
+      "sha256": "2480e5be420d61d7ea24c8c4ad1160fc65752704ef1ec8019d494b354d70e9b7"
+    },
+    {
+      "original_relative_path": "sources/openai_overlooked/08-global-sections.tex",
+      "cache_relative_path": "sources/openai_overlooked/08-global-sections.tex",
+      "bytes": 12941,
+      "sha256": "7857fb10b2882f88ffe6df4bf524e87251b5b9f0fe1d18fcfbfc4a019409b340"
+    },
+    {
+      "original_relative_path": "sources/openai_overlooked/07-sections.tex",
+      "cache_relative_path": "sources/openai_overlooked/07-sections.tex",
+      "bytes": 10029,
+      "sha256": "760f683e5e39bf6ff161e8255d9035caf1d68990b70e916660a021bdacba0576"
+    },
+    {
+      "original_relative_path": "sources/openai_overlooked/02-preliminaries.tex",
+      "cache_relative_path": "sources/openai_overlooked/02-preliminaries.tex",
+      "bytes": 3440,
+      "sha256": "277332a27a51f18d07bb9837033cafe9d4d14d1a0bac3d1605cff179665c51a0"
+    },
+    {
+      "original_relative_path": "sources/oxford/clay_workshop.html",
+      "cache_relative_path": "sources/oxford/clay_workshop.html",
+      "bytes": 86965,
+      "sha256": "d4a90f70f578d804f2d8c82ba6846d8838353cb1765fdff265c985a2e886d531"
+    },
+    {
+      "original_relative_path": "sources/oxford/clay_lecture.html",
+      "cache_relative_path": "sources/oxford/clay_lecture.html",
+      "bytes": 80784,
+      "sha256": "52a6cc377ca3c68a8c8c0f533cc6821c244936e0567f4f234f34bb19ce0fff2b"
+    },
+    {
+      "original_relative_path": "sources/oxford/masv_preprints.html",
+      "cache_relative_path": "sources/oxford/masv_preprints.html",
+      "bytes": 111466,
+      "sha256": "a54d3fc0da6b135e2afa207a4bba7bd6db3a5135eb15ac55df93f0c6acadcdf9"
+    },
+    {
+      "original_relative_path": "sources/oxford/SV2024_thesis.txt",
+      "cache_relative_path": "sources/oxford/SV2024_thesis.txt",
+      "bytes": 772875,
+      "sha256": "68e25d885c6876be608463def018f07eaa38e61cacd10ecc73633f2506716717"
+    },
+    {
+      "original_relative_path": "sources/oxford/masv_thesis.html",
+      "cache_relative_path": "sources/oxford/masv_thesis.html",
+      "bytes": 399407,
+      "sha256": "9729e6710a16b5bf303af7bc1fac4a2734fbc3de6b4c028b500edc64b5663334"
+    },
+    {
+      "original_relative_path": "sources/oxford/SV2024_thesis.pdf",
+      "cache_relative_path": "sources/oxford/SV2024_thesis.pdf",
+      "bytes": 1793413,
+      "sha256": "f2b5a1c23efc2ad931f77de58d07a74eae6446c9252fb5a69809eed496466512"
+    },
+    {
+      "original_relative_path": "sources/oxford/clay_lectures.html",
+      "cache_relative_path": "sources/oxford/clay_lectures.html",
+      "bytes": 104529,
+      "sha256": "f845f1d28d59f5bc339bb0cef6dfbdfcafee2b6e3208ffd375918c03a6a40414"
+    },
+    {
+      "original_relative_path": "sources/oxford/theorem_e.png",
+      "cache_relative_path": "sources/oxford/theorem_e.png",
+      "bytes": 155270,
+      "sha256": "ca68f54c7fc99acb81eb4b73e4620ab81d85a92d9a3391c19bed8ef02937322d"
+    },
+    {
+      "original_relative_path": "sources/external/2503.09034v1.html",
+      "cache_relative_path": "sources/external/2503.09034v1.html",
+      "bytes": 429585,
+      "sha256": "7d53c15af2989d4754a79d24339898ca3b68396ddd89bb53e0c4631b3378190e"
+    },
+    {
+      "original_relative_path": "sources/external/2605.29783v2.html",
+      "cache_relative_path": "sources/external/2605.29783v2.html",
+      "bytes": 535428,
+      "sha256": "270e548a0fe9aa95413b923b11d6fe043b51347eda7c5f1355b397f084081874"
+    },
+    {
+      "original_relative_path": "sources/external/2605.11100v1.html",
+      "cache_relative_path": "sources/external/2605.11100v1.html",
+      "bytes": 2016728,
+      "sha256": "fd3bded17cab661eec0c245cb3b09c6eafe2a2fad6881b05989bca70355108ac"
+    },
+    {
+      "original_relative_path": "sources/external/2511.08793v2.html",
+      "cache_relative_path": "sources/external/2511.08793v2.html",
+      "bytes": 1022895,
+      "sha256": "9eecfc3ec7ab2c6c5eea8db23cb81e0a905e3b7fa6a5cccdcbc8a9cb0fd60035"
+    },
+    {
+      "original_relative_path": "sources/external/2511.21979v2.html",
+      "cache_relative_path": "sources/external/2511.21979v2.html",
+      "bytes": 957513,
+      "sha256": "7200283ef037e14c10a2aac2b6c2cb12cb27b9e55098be81d8253f1d0cdb14f6"
+    },
+    {
+      "original_relative_path": "sources/lubin_tate/Sano_Venjakob_2412.12429v1.txt",
+      "cache_relative_path": "sources/lubin_tate/Sano_Venjakob_2412.12429v1.txt",
+      "bytes": 212233,
+      "sha256": "f66e95aca565c8575ef370b85cb29dda289ab3f5339f4ada2ec92679e6aea11e"
+    },
+    {
+      "original_relative_path": "sources/lubin_tate/Venjakob_2026_LT-maxabelian.pdf",
+      "cache_relative_path": "sources/lubin_tate/Venjakob_2026_LT-maxabelian.pdf",
+      "bytes": 643372,
+      "sha256": "8c054277a257c18a8040509a4bd5a198649180f2805e606da4b69ec65a6e4ea6"
+    },
+    {
+      "original_relative_path": "sources/lubin_tate/venjakob_theorem_1_3.png",
+      "cache_relative_path": "sources/lubin_tate/venjakob_theorem_1_3.png",
+      "bytes": 294026,
+      "sha256": "05ceb5e654ddfc825b6f50e9f3145e93dab081e4ea22b057e4d33eed036cf4c3"
+    },
+    {
+      "original_relative_path": "sources/lubin_tate/Venjakob_2026_LT-maxabelian.txt",
+      "cache_relative_path": "sources/lubin_tate/Venjakob_2026_LT-maxabelian.txt",
+      "bytes": 118788,
+      "sha256": "fbe29f235a3a916890716dba2ee8aed3022f135da7677a209469abb2554a5abb"
+    },
+    {
+      "original_relative_path": "sources/lubin_tate/Sano_Venjakob_2412.12429v1.pdf",
+      "cache_relative_path": "sources/lubin_tate/Sano_Venjakob_2412.12429v1.pdf",
+      "bytes": 485628,
+      "sha256": "88d5774abf108d5a2ee150e72f1333f6a7d7e82ef0967fdc1c39c56567812b97"
+    },
+    {
+      "original_relative_path": "sources/lubin_tate/Venjakob_2026_landing.html",
+      "cache_relative_path": "sources/lubin_tate/Venjakob_2026_landing.html",
+      "bytes": 1978,
+      "sha256": "12f2ded8b10021ef041b62348e6549da45f682c7ccb140b03c52a291bad0e9fe"
+    },
+    {
+      "original_relative_path": "checks/initial_prior_hits.txt",
+      "cache_relative_path": "checks/initial_prior_hits.txt",
+      "bytes": 34552159,
+      "sha256": "bb6b526d943bc5487f12e41fc71e9951436ca52d14a01da1cfed3f337cadf687"
+    }
+  ]
+}

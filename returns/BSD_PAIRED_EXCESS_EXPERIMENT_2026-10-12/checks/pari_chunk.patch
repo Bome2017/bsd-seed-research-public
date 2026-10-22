@@ -1,0 +1,56 @@
+--- pari-2.17.3/src/basemath/modsym.c
++++ modsym_chunk.c
+@@ -3916,7 +3916,7 @@
+ }
+ /* W an mspadic, phi eigensymbol, p \nmid D. Return C(x) mod FilM */
+ GEN
+-mspadicmoments(GEN W, GEN PHI, long D)
++mspadicmoments_chunk(GEN W, GEN PHI, long D, long lo, long hi)
+ {
+   pari_sp av = avma;
+   long na, ia, b, lphi, aD = labs(D), pp, p, k, n, vden;
+@@ -3924,6 +3924,7 @@
+   struct m_act S;
+   hashtable *H;
+ 
++  if (D == 1 || lo < 1 || hi > labs(D) || lo >= hi) pari_err_DOMAIN("mspadicmoments_chunk", "range", "invalid", stoi(lo), stoi(hi));
+   checkmspadic(W);
+   Wp = mspadic_get_Wp(W);
+   p = mspadic_get_p(W);
+@@ -3951,7 +3952,7 @@
+     if (!sisfundamental(D)) pari_err_TYPE("mspadicmoments", stoi(D));
+     if (D % p == 0) pari_err_DOMAIN("mspadicmoments","p","|", stoi(D), utoi(p));
+     Dact = cgetg(aD, t_VEC);
+-    for (b = 1; b < aD; b++)
++    for (b = lo; b < hi; b++)
+     {
+       GEN z = NULL;
+       long s = kross(D, b);
+@@ -3976,7 +3977,7 @@
+     if (Dact)
+     { /* twist by D */
+       La = cgetg(aD, t_VEC);
+-      for (b = 1; b < aD; b++)
++      for (b = lo; b < hi; b++)
+       {
+         GEN Actb = gel(Dact,b);
+         if (!Actb) continue;
+@@ -4006,7 +4007,8 @@
+     else
+     { /* twist by D */
+       vca = cgetg(lphi,t_VEC);
+-      for (b = 1; b < aD; b++)
++      for (i = 1; i < lphi; i++) gel(vca,i) = zerocol(S.dim);
++      for (b = lo; b < hi; b++)
+       {
+         GEN T, Actb = gel(Dact,b);
+         if (!Actb) continue;
+@@ -4014,7 +4016,7 @@
+         for (i = 1; i < lphi; i++)
+         {
+           GEN z = FpM_FpC_mul(Actb, gel(T,i), pn);
+-          gel(vca,i) = b==1? z: ZC_add(gel(vca,i), z);
++          gel(vca,i) = ZC_add(gel(vca,i), z);
+         }
+       }
+     }

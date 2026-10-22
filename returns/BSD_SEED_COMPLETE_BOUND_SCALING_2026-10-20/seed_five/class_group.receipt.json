@@ -1,0 +1,13 @@
+{
+  "script": "class_group.gp",
+  "sha256": "39fe5ed051e9c7d9fc502f53016b046d384fc1aef6681feafeb73d3ade45c1dd",
+  "marker": "CERTIFIED_SEED_P5_CLASS_GROUP_COMPLETE",
+  "wall_cap_seconds": 120.0,
+  "started_unix": 1792519123.8147688,
+  "elapsed_seconds": 18.41360162384808,
+  "exit_code": 0,
+  "timed_out": false,
+  "accepted": false,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "5f44e05eaf9078361a508b7d6cc0a60dbf940148cb6b0f9f9a3719e1169b66ca"
+}

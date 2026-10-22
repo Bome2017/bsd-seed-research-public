@@ -1,0 +1,23 @@
+# Local recompile of Aristotle return 69562e6c (Claude, 2026-10-06T21:56:40Z)
+toolchain: leanprover/lean4:v4.28.0; Mathlib 8f9d9cff (prebuilt, read-only LEAN_PATH recipe)
+Frontier: compiled (exit 0)
+ReducedTarget: compiled (exit 0)
+KolyvaginOrder: compiled (exit 0)
+KolyvaginCongruence: compiled (exit 0)
+KolyvaginPrime3391: compiled (exit 0)
+Descent: compiled (exit 0)
+
+'Frontier.bad_primes_dvd_fixed_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.finite_of_detector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.nu_collapses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.congruence_without_bridge_insufficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KolyvaginPrime3391.affine_count_3391' depends on axioms: [propext,
+ Classical.choice,
+ Lean.ofReduceBool,
+ Lean.trustCompiler,
+ Quot.sound]
+
+PARI 2.17 cross-check: a_3391 = 0; kronecker(-23,3391) = -1; 3392 mod 53 = 0; a_53 = -6
+manifest: 62/63 OK; STATE.json mismatch
+source tarball sha256: 38c8a499e7bf01825fd6b5bf29b42a4a2bff9c953f905b2e90226774eab84fa8
+second return (eb3e82a5) tarball sha256: e93e7c604a4d58c5dfb21aabda9d274406e4bb32023db9ede0b604ec77461556

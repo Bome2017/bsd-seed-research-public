@@ -1,0 +1,230 @@
+{
+  "actual_seed_jet_evaluated": false,
+  "grade": "EXACT_FORMAL_CONTROLS_NOT_SEED_KATO_VALUES",
+  "integer_grid_determinant": 576,
+  "nodes": [
+    {
+      "i": 0,
+      "j": 0,
+      "kato_twist": 4,
+      "s": 7,
+      "w": 10,
+      "weight": 12
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "kato_twist": 3,
+      "s": 8,
+      "w": 10,
+      "weight": 12
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "kato_twist": 5,
+      "s": 7,
+      "w": 11,
+      "weight": 13
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "kato_twist": 2,
+      "s": 9,
+      "w": 10,
+      "weight": 12
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "kato_twist": 4,
+      "s": 8,
+      "w": 11,
+      "weight": 13
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "kato_twist": 6,
+      "s": 7,
+      "w": 12,
+      "weight": 14
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "kato_twist": 1,
+      "s": 10,
+      "w": 10,
+      "weight": 12
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "kato_twist": 3,
+      "s": 9,
+      "w": 11,
+      "weight": 13
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "kato_twist": 5,
+      "s": 8,
+      "w": 12,
+      "weight": 14
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "kato_twist": 7,
+      "s": 7,
+      "w": 13,
+      "weight": 15
+    }
+  ],
+  "passed": true,
+  "prime_controls": [
+    {
+      "det_mod_p": 1,
+      "nonzero_jet_detection": true,
+      "p": 5,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 2,
+      "nonzero_jet_detection": true,
+      "p": 7,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 4,
+      "nonzero_jet_detection": true,
+      "p": 11,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 4,
+      "nonzero_jet_detection": true,
+      "p": 13,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 15,
+      "nonzero_jet_detection": true,
+      "p": 17,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 6,
+      "nonzero_jet_detection": true,
+      "p": 19,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 1,
+      "nonzero_jet_detection": true,
+      "p": 23,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 25,
+      "nonzero_jet_detection": true,
+      "p": 29,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 18,
+      "nonzero_jet_detection": true,
+      "p": 31,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 21,
+      "nonzero_jet_detection": true,
+      "p": 37,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 2,
+      "nonzero_jet_detection": true,
+      "p": 41,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 17,
+      "nonzero_jet_detection": true,
+      "p": 43,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 12,
+      "nonzero_jet_detection": true,
+      "p": 47,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 46,
+      "nonzero_jet_detection": true,
+      "p": 53,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 45,
+      "nonzero_jet_detection": true,
+      "p": 59,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 27,
+      "nonzero_jet_detection": true,
+      "p": 61,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 40,
+      "nonzero_jet_detection": true,
+      "p": 67,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 8,
+      "nonzero_jet_detection": true,
+      "p": 71,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 65,
+      "nonzero_jet_detection": true,
+      "p": 73,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 23,
+      "nonzero_jet_detection": true,
+      "p": 79,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 78,
+      "nonzero_jet_detection": true,
+      "p": 83,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 42,
+      "nonzero_jet_detection": true,
+      "p": 89,
+      "source_product_in_m4": true
+    },
+    {
+      "det_mod_p": 91,
+      "nonzero_jet_detection": true,
+      "p": 97,
+      "source_product_in_m4": true
+    }
+  ],
+  "random_jet_reconstructions": 2300,
+  "uniform_nonvanishing_proved": false
+}

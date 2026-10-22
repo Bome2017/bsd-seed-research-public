@@ -1,0 +1,36 @@
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "script": "replay_pivots.gp",
+      "status": "passed",
+      "required_marker": "INDEPENDENT_IDEAL_PIVOT_REPLAY_OK=80"
+    },
+    {
+      "script": "replay_scalar.gp",
+      "status": "passed",
+      "required_marker": "INDEPENDENT_SCALAR_ORBIT_REPLAY_OK=80"
+    },
+    {
+      "script": "replay_class_map.gp",
+      "status": "passed",
+      "required_marker": "INDEPENDENT_CLASS_IDEAL_AND_CONNECTING_REPLAY_OK=1664n1"
+    },
+    {
+      "script": "replay_faithful_class.gp",
+      "status": "passed",
+      "required_marker": "INDEPENDENT_FAITHFUL_CLASS_AND_RATIONAL_POINT_OCCUPANCY_OK=1664n1"
+    },
+    {
+      "script": "replay_complete_norm.gp",
+      "status": "passed",
+      "required_marker": "INDEPENDENT_FULL_UNIT_MAP_RANK_OK=1664n1"
+    },
+    {
+      "script": "replay_valuation_allowance.gp",
+      "status": "passed",
+      "required_marker": "INDEPENDENT_FAITHFUL_S_VALUATION_ALLOWANCE_ZERO=1664n1"
+    }
+  ],
+  "scope": "Exact saved arithmetic replay; no new BNF certification or source search"
+}

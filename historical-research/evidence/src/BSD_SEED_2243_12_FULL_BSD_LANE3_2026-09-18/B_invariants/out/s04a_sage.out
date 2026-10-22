@@ -1,0 +1,29 @@
+P1 = [-3031:327384:1]	  is generator number 1
+P2 = [-2394:281520:1]	  is generator number 2
+saturating basis (reg=17.79651747)...Saturation index bound (for points of good reduction)  = 2
+Tamagawa index primes are [ 2 ]
+Saturation primes are now[ 2 ]
+Checking saturation at [ 2 ]
+Checking 2-saturation 
+Points were proved 2-saturated (max q used = 31)
+done
+P1 = (4547 : 327384 : 1)  P2 = (5184 : 281520 : 1)
+E.gens(proof=True) = [(5184 : 281520 : 1), (5843 : 210348 : 1)]  gens_certain: True
+rank (proof=True): 2
+heights (Sage, BSD normalization): [8.3508930585026545041159517359, 4.1284775508657867469994460134]
+h(P1),h(P2) = 4.3111499832543796887601002076 8.3508930585026545041159517359
+height pairing matrix <P1,P2> (200 bits):
+ [ 4.3111499832543796887601002075848299713435063953599223452630 -4.2667827454456237229383029650166342978668059308999362654758]
+[-4.2667827454456237229383029650166342978668059308999362654758  8.3508930585026545041159517358634807847657791712616905848402]
+Reg(P1,P2) = 17.796517472490340299174941219436038416304972463778188532266
+Reg(gens) = 17.796517472490340299174941219436038416304972463778188532266
+generator (5184 : 281520 : 1)  = a*P1+b*P2+e*T with (a,b,e) in [(0, 1, 0)]
+generator (5843 : 210348 : 1)  = a*P1+b*P2+e*T with (a,b,e) in [(-1, -1, 1)]
+on minimal model: Q1 = (-3031 : 327384 : 1)  Q2 = (-2394 : 281520 : 1)
+--- eclib saturate(max_prime=-1) verbose ---
+result (ok, index, unsat) = (True, 1, '[ ]')
+saturated basis: [[-3031, 327384, 1], [-2394, 281520, 1]]  regulator: 17.79651747249034
+E.saturation([P1,P2]) = ([(4547 : 327384 : 1), (5184 : 281520 : 1)], 1, 17.7965174724903)
+CPS_height_bound(minimal reduced model) = 9.790064623083722
+silverman_height_bound(Emin, default) = 16.455005793735676  mwrank: 16.455005793735673
+CPS on original (globally minimal, not reduced) model: 9.790064623083722

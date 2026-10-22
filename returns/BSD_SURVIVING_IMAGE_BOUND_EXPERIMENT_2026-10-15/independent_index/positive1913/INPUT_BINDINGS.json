@@ -1,0 +1,17 @@
+[
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/data.gp",
+    "copy": "inputs/data.gp",
+    "sha256": "bdbac56d60e62907a577cee78d3e0a6c563f20bf41b3aab68bce8c9e39e6addf"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/bnf.bin",
+    "copy": "inputs/bnf.bin",
+    "sha256": "0bf32ae4691c9c180c2eaa0ebf0fe6189a6cd678b47c6c00b2f7a4394fea54a8"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/construct.out",
+    "copy": "inputs/construct.out",
+    "sha256": "51fe5c8a6b8b6d1c8aa26c07fd5dd8225e8c9e8274ecb416d65c91fd21d99c3e"
+  }
+]

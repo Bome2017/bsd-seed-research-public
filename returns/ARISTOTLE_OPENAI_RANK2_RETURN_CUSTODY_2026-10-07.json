@@ -1,0 +1,51 @@
+{
+ "return": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07",
+ "uploaded_utc": "2026-10-07T04:25:40Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "EXCESS_OBSTRUCTION_PROVED (Stage A; reformulation of the receiver kernel; no bound); Stage B first failure GENERIC_RANK1_ONLY (single-prime switch no-go proved; two-plane escape unsupported; no DVR carrier, heuristic); Stage C not entered",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/ARISTOTLE_SUMMARY.md",
+   "sha256": "078aec1981f1b98c122af1a71353886a929d7d9d70ec0cf2ef895d33744a2b78",
+   "bytes": 4651
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/CLAUDE_CHECK.md",
+   "sha256": "2701bebfe2c3bae43946c82f53f5749347d5cbb1e539d96a3e0a38809ab8bf37",
+   "bytes": 3610
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/EXCESS_OBSTRUCTION_RETURN.md",
+   "sha256": "4a91791009a03dbe883aa20c33775abd3d160cbf5cbd8c9f7a4ba51fe083694d",
+   "bytes": 17172
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/MANIFEST.sha256",
+   "sha256": "c07937c3cb07ee60c02a6a1216868f3076207004a1549f69d4f4a495b2038cb0",
+   "bytes": 457
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/README.md",
+   "sha256": "e2d5e2aa5db2dd0f80638ba5c6b328f2aecd56f9b5c8b2fe075c6194bf575dc4",
+   "bytes": 1681
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/RequestProject/Continuation/ExcessObstruction.lean",
+   "sha256": "926be37a88bb177645635cba7fa17bbffe5fe72e6e6a3a78dbd5341ba55ae237",
+   "bytes": 13580
+  },
+  {
+   "path": "archives/ed24e1f2-00e9-49d9-b79d-7054609c8a8d-aristotle.tar.gz",
+   "sha256": "f2f46fa2d245ccfbc284e4b72d1444469a751f45e61f4d6306c46aad7c1c88c0",
+   "bytes": 171816
+  }
+ ],
+ "inputs": {
+  "package_revision_used": "1 (lab 00f6d15; delta sha 4233a966...)",
+  "excluded": "Aristotle README banner"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

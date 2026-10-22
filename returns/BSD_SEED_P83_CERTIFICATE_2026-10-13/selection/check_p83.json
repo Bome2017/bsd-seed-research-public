@@ -1,0 +1,28 @@
+{
+  "N": 6503188012738584,
+  "Sha83": "NOT_DEDUCED",
+  "c2": "NOT_COMPUTED",
+  "ell": 167,
+  "ell_prime": true,
+  "gcd_p_6N_Tam_EFp": 1,
+  "ordinary": true,
+  "p": 83,
+  "p_prime": true,
+  "p_torsion_at_ell": "zero; order prime to p",
+  "point_count_ell": 168,
+  "point_count_p": 92,
+  "retained_inputs": [
+    "rank two",
+    "non-CM",
+    "full 83-adic image",
+    "Tamagawa product16",
+    "pipeline period and lattice authentication"
+  ],
+  "smallest_primitive_root": 5,
+  "status": "LOCAL_ADMISSIBILITY_PASS_RETAINED_GLOBAL_INPUTS_REQUIRED",
+  "symbol_denominator": 1024,
+  "symbol_denominator_mod_p": 28,
+  "trace_ell": 0,
+  "trace_p": -8,
+  "vp_ell_minus_one": 1
+}

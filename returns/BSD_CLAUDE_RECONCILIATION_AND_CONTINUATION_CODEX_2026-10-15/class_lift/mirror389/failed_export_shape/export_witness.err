@@ -1,0 +1,9 @@
+  ***   variable name expected: ...sslift notbasiscolumn"));
+  ***   I=D[28][idx];beta=pro
+  ***   ^---------------------
+  ***   at top-level: ...lam*DD*CL!=Mod(Mat(1),3),error("annihilator ce
+  ***                                             ^---------------------
+  ***   user error: annihilator certificate
+  ***   at top-level: ...int("CLASS_IDEAL_COORD=",bnfisprincipal(B,I,0)
+  ***                                             ^---------------------
+  *** bnfisprincipal: incorrect type in idealtyp (t_COMPLEX).

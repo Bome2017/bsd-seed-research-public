@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_BOUNDED_EXPERIMENT_NO_CROSS_PRIME_BOUND",
+  "parent": "6eb993b4e778eed5d74ace1fbea2cf4901835045",
+  "started_utc": "2026-10-18T05:27:53.493070+00:00",
+  "FIN": "open",
+  "ORDER9": "open",
+  "Q36": "open",
+  "branches": [
+    "p7_arithmetic",
+    "rank_mechanism",
+    "class_control",
+    "explicit_seed_functions"
+  ],
+  "completed_utc": "2026-10-18T05:45:11.230404+00:00",
+  "p7_bound_obtained": false,
+  "cofinite_bound_obtained": false,
+  "seed_p3_companion_result": "conditional exact ordinary (Z/3)^3 and S-class (Z/3)^2; GRH retained",
+  "reduced_ideal_completed": 253,
+  "reduced_ideal_planned": 432
+}

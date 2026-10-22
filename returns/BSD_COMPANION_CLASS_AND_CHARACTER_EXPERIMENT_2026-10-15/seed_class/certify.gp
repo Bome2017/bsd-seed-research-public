@@ -1,0 +1,1 @@
+alarm(180);gettime();B=read("bnf.bin");if(#B!=10,error("unexpected saved BNF wrapper"));print("CERTIFICATION_START;CLASS=",B.cyc);ok=bnfcertify(B);write("certification.gp",[ok,B.no,B.cyc]);if(ok!=1,error("class group not certified"));print("BNF_CERTIFIED=",ok,";CERT_MS=",gettime());print("BNF_CERTIFICATION_COMPLETE");quit;

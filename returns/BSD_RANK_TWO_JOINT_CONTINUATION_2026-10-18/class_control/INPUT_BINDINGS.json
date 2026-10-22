@@ -1,0 +1,70 @@
+{
+  "source_root": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18",
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/PROOF.md",
+      "bytes": 4621,
+      "sha256": "e72b4bade44dc2900dccdcf36e28cd90db28dd71b26bbf0db8dc23dab14170b8"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/REPORT.md",
+      "bytes": 7228,
+      "sha256": "2f653a010e8c15899c0cd33bbdeb46d0b068d86504807877002ce1eb814bb6af"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/field.gp",
+      "bytes": 45973,
+      "sha256": "be59747c899abdb87954f8fceb1c801f90d6b1a4d01b48b83bfe6afc5699f42b"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/nf.gp",
+      "bytes": 888239,
+      "sha256": "e73aaba169d89295a08c6b138487dcc1e353311242c7192b64525a92007dcc9e"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/class_init.gp",
+      "bytes": 49,
+      "sha256": "b86df1c1c0e82614841ec6355dc2465bf1553ac8db9594f24a2449838712112a"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/class_units.gp.out",
+      "bytes": 57,
+      "sha256": "51de6782dc2d8c06a883bc2e4b6f74613eb7747b56203914ff4087fc8fc8c115"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/class_units.gp.receipt.json",
+      "bytes": 166,
+      "sha256": "85edb910be2836666171c9dfd0ddb9b80821ccb88655731b0c8f2a7c0b958520"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_review/certify_quotient.gp",
+      "bytes": 370,
+      "sha256": "8da328c914d332f2523c260996cd3289ec14dbe8a69e020464b8c01fbf847b31"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_review/certify_quotient.gp.out",
+      "bytes": 35,
+      "sha256": "659391e9914cd8e173322045c4aba51d442b6e138c205ecb0fd49929670f16c9"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_review/certify_quotient.gp.err",
+      "bytes": 351,
+      "sha256": "6cbc212e0e46768dff2807cd9fd20f31e20db14252accfb24a45a96104debeaa"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_review/certify_quotient.gp.receipt.json",
+      "bytes": 211,
+      "sha256": "6e22e56044af24a229000cff50dab57b923f9749062ec5914225c8b1bd0ec22e"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_divisor/PROOF.md",
+      "bytes": 4450,
+      "sha256": "f39965d89a8aabdf5f94b90b02e64b8a72d0708e548f04f44a9b651cd7b99de3"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_divisor/ACTUAL_DIVISORS.json",
+      "bytes": 194,
+      "sha256": "20aa03b6d0d0c301db32a42a5983f48f2021da9bcb98f37da1709a57ae4ac9ef"
+    }
+  ]
+}

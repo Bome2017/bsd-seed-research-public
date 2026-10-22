@@ -1,0 +1,3 @@
+# This command starts a real Aristotle job; preparation has not run it.
+# Run inside the directory containing TASK.md, using your existing authentication.
+uvx --from aristotlelib==2.1.0 aristotle submit 'Read the root TASK.md, WHAT_WE_LEARNED.md and CONSTRUCTION_WORK.md. Continue mathematical research toward the fixed BSD seed from the accepted BFR review and complete retained reading set. Develop an actual arithmetic control mechanism; use useful partial results to continue it. Do not spend this run re-proving BFR or merely formalizing more local coverage.' --project-dir . --wait

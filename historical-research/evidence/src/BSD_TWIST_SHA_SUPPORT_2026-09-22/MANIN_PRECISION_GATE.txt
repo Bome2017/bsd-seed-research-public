@@ -1,0 +1,30 @@
+L_ratio = L/(2*omega_1).  Rational reconstruction pins a denominator D iff  2*halfwidth < 1/D.
+halfwidth(L_ratio) = halfwidth(L)/(2*omega_1)
+
+NOW:  halfwidth(L) = 5.1e-5  ->  halfwidth(L_ratio) = 0.002208
+      max pinnable D = 1/(2*halfwidth) = 226.45
+
+If Supp(c) = {2,7} and the denominator of L_ratio divides C * 7^k = 32 * 7^k:
+ v_7(c)=k    D = 32*7^k   pinnable NOW?   needed halfwidth(L)
+        0            32             YES             0.0003609
+        1           224             YES              5.156e-5
+        2          1568              no              7.365e-6
+        3         10976              no              1.052e-6
+        4         76832              no              1.503e-7
+        5        537824              no              2.147e-8
+        6       3764768              no              3.068e-9
+        7      26353376              no             4.382e-10
+
+Tail bound 2*tail_MS(c,T) at admissible cutoffs (T = m*2^24 - 1), and the largest k each supports:
+  segments             T   tail = halfwidth(L)   max v_7(c) handled     ~cost
+       120    2013265919              5.068e-5                    1      DONE
+       179    3003121663             9.045e-10                    6    ~6 min
+       239    4009754623             1.332e-14                   12    ~8 min
+       299    5016387583             1.945e-19                   18   ~11 min
+       418    7012876287             4.884e-29                   29   ~15 min
+
+READ-OFF: the current run (120 segments) handles v_7(c) <= 1 only, and only barely.
+          299 segments (~11 min) would handle v_7(c) <= 17.
+          418 segments (~16 min) would handle v_7(c) <= 29.
+So ANY published bound v_7(c) <= 17 is closed by a ~11-minute rerun. An UNBOUNDED v_7(c) is not
+closed by any amount of precision - which is exactly the user's point.

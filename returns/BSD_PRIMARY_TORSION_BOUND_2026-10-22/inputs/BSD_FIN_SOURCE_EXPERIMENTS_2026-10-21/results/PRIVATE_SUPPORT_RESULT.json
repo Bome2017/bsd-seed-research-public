@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED_PRIVATE_NORM_SUPPORT_TEST",
+  "original_rational_candidates": 20180,
+  "private_certified": 20180,
+  "unresolved_indices": [],
+  "after_small_and_discriminant_strip_one": 0,
+  "small_rational_prime_cutoff": 65536,
+  "field_polynomial_discriminant_digits": 1269,
+  "elapsed_seconds": 8.50434496999992,
+  "scope": "Every certified index has a rational prime absent from all other candidate norms and from the polynomial discriminant. This gives an independent private scalar orbit of valuations. Uncertified indices are not excluded."
+}

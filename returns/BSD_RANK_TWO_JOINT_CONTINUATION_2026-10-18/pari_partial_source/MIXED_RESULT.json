@@ -1,0 +1,11 @@
+{
+  "status": "BOUNDED_MIXED_SOURCE_FILTER_NO_EXPORTS",
+  "logged_filter_trials": 92544,
+  "logged_completed_ideal_invocations": 723,
+  "accepted_smooth_exports": 0,
+  "count_is_unique_candidates": false,
+  "all_candidates_independently_norm_factored": false,
+  "class_group_bound": null,
+  "unit_rank_bound": null,
+  "stop": "EXTERNAL_120_SECOND_WALL_LIMIT"
+}

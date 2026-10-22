@@ -1,0 +1,55 @@
+{
+  "scope": "Retained inputs, not freshly recertified foundations",
+  "files": [
+    {
+      "source": "/Users/bsm/BSD_G2_INDEPENDENT_AUDIT_CODEX_2026-09-26/inputs/G2_PROOF.md",
+      "retained_copy": "context/G2_PROOF.md",
+      "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60"
+    },
+    {
+      "source": "/Users/bsm/BSD_G2_INDEPENDENT_AUDIT_CODEX_2026-09-26/REPORT.md",
+      "retained_copy": "context/G2_REVIEW.md",
+      "sha256": "730797b16cc9b1ee18f70cc113e54c49eaf7928979a9e5fec19964b1c3b8bfe6"
+    },
+    {
+      "source": "/Users/bsm/BSD_UNIFORMITY_ATTEMPTS_CHECK_CODEX_2026-09-29/A_REPAIR.md",
+      "retained_copy": "context/THEOREM_W_REPAIRED.md",
+      "sha256": "26ceeff20cb7d6d0f8cf465835ccc487818fb99a844306a95ec45d018a200f01"
+    },
+    {
+      "source": "/Users/bsm/BSD_U22_ENGINE_LINK2_CHECK_CODEX_2026-09-29/REPORT.md",
+      "retained_copy": "context/U22_LINK2_REVIEW.md",
+      "sha256": "4f51a9dbc84fc44a100bf792e00248d3de5b9c7ac366d469b84a073093dd747b"
+    },
+    {
+      "source": "/Users/bsm/BSD_SEED_2243_12_RANK2_GLOBAL_OBJECT_2026-09-18/RANK2_GLOBAL_OBJECT_COMPOSITION.md",
+      "retained_copy": "context/HISTORICAL_LINE_SEP18.md",
+      "sha256": "6b347683743eee1ba21649c379b076b4e3c7bcd85d212fdafd69e13ebf138bcf"
+    },
+    {
+      "source": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/claims/spec/part2_bridges.py",
+      "retained_copy": "context/PART2_BRIDGES.py",
+      "sha256": "5f8b555dcf88e398a145056cca04cf9eca0644afb64eebbdff58a6fa0977e1da"
+    },
+    {
+      "source": "/Users/bsm/BSD_G2_INDEPENDENT_AUDIT_CODEX_2026-09-26/checks/pairing_check.gp",
+      "retained_copy": "checks/retained_pairing_check.gp",
+      "sha256": "0df7d46a29fff6a7faf83ca81265c29642dca8487ba9b032f8ee27fd1c795109"
+    },
+    {
+      "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt",
+      "retained_copy": "context/P17_MSL.txt",
+      "sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a"
+    },
+    {
+      "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json",
+      "retained_copy": "context/P17_RETAINED_RECEIPT.json",
+      "sha256": "a1336d55dd0edffea4aed20dc5fce53e3861c0e982cb804c5b64d4e35ba0ec20"
+    },
+    {
+      "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC_v1_audited.md",
+      "retained_copy": "context/SINGLETON_SPEC_RETAINED.md",
+      "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f"
+    }
+  ]
+}

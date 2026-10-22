@@ -1,0 +1,66 @@
+{
+ "lane": "BSD_CODEX6_MASTER_HANDOFF (final state architect; seed (2243,12))",
+ "status": "COMPLETE",
+ "return": "CODEX6_HANDOFF_PATCHED_CROSSFAMILY",
+ "started_utc": "2026-09-19T14:01:15Z",
+ "last_checkpoint_utc": "2026-09-19T16:51:45Z",
+ "top_level": {
+  "finish_line": "FULL BSD(E) = RANK ∧ FIN ∧ FORMULA",
+  "RANK": "PROVED_COMPUTER_ASSISTED (done)",
+  "remaining": [
+   "FIN",
+   "FORMULA"
+  ],
+  "rule": "this list must not grow; route-specific problems live under FIN"
+ },
+ "p3": "Sha[3^inf] = (Z/3)^2, PROVED_COMPUTER_ASSISTED relative to Skinner 2016 Thm A as printed; a_{4,2}=15480 = 9 mod 27, ord_3 = 2; R1 carried; R2 remains OPEN as a provenance seam, narrowed to the canonical-vs-Gross period comparison for p = 3 with 3 | N (addendum P3_R2_PERIOD_PROVENANCE_AUDIT.md)",
+ "p5": "Sha[5^inf] = 0 PROVED_COMPUTER_ASSISTED — P5_RIGOROUS_SHA5_ZERO_CONFIRMED (finished and sealed 2026-09-19; P5_MANIFEST.sha256, 9424 files): node N7 upgraded from CERT-NUM to PROVED_COMPUTER_ASSISTED; 20 symbols [b/25]^+ recovered rigorously by Arb, identical to LP5; a_{2,2} = 2 mod 5 (omega_1 normalisation), ord_5(a_2) = 0; frozen master certificate unedited; nothing merged",
+ "line": "FORMULATED candidate mechanism for part of FIN; hostile audit LINE_THEOREM_C_PASS_WITH_CORRECTIONS; Theorem C' CONDITIONAL; all content = cross-prime rationality; LINE<=>RZ withdrawn; silent on L'' and at {2,3,2243,4547,5843}",
+ "files": [
+  "00_READ_FIRST.md",
+  "MASTER_BSD_DAG.md",
+  "FIN_FRONTIER.md",
+  "FORMULA_FRONTIER.md",
+  "SEED_PROVED_STATE.md",
+  "ROUTES_AND_STOPS.md",
+  "DO_NOT_RESURRECT.md",
+  "CODEX_QUESTIONS.md",
+  "SOURCE_AND_HASH_INDEX.md",
+  "STATE.json",
+  "RESUME.md",
+  "MANIFEST.sha256"
+ ],
+ "unverified_or_carried": [
+  "Lane 2, H41/62a1/66b1, H9R19, C1 gates: carried from session records, not re-read",
+  "cost figures at 2243/5843 and the Ota certificate: not re-derived (CRITERION_SS cost re-derived by its gate: ~270/460 CPU-h at 23/29)",
+  "all audits same-model-family",
+  "P5_MANIFEST full verification is as reported by the owning session (this architect checked the five report files against it and the sealed STATE.json)",
+  "WC: Ota 5.17/6.4 hypotheses for p outside S0 as checked by Codex (Opus read Ota's statements, did not re-derive the seed checks); Kurihara/Kim-type converse NOT checked (Q0)"
+ ],
+ "unreconciled": "no mathematical contradiction found; seams listed in SOURCE_AND_HASH_INDEX.md section 3",
+ "merge_policy": "NOTHING MERGED; read-only outside this folder; no novelty claim",
+ "sha30": "#Sha[30^inf] = 9 PROVED_COMPUTER_ASSISTED; no CERT-NUM qualifier remains on the p = 5 input; inherits R1/R2 from p = 3",
+ "patch_log": [
+  "2026-09-19 ~14:30Z: p = 5 label patched to the sealed state in 00_READ_FIRST (table, section 5, section 8), MASTER_BSD_DAG (FIN.5, new FIN.30, FIN.3 wording), SEED_PROVED_STATE (rows 5, 30, R2), FIN_FRONTIER (line 4), DO_NOT_RESURRECT (row 23; new rows 26, 27), ROUTES_AND_STOPS (section 7), SOURCE_AND_HASH_INDEX (section 2 regenerated; section 3 items 1, 4, 5), STATE.json, RESUME.md, MANIFEST.sha256. FIN/FORMULA architecture unchanged. No novelty claim. Nothing merged.",
+  "2026-09-19T14:55:32Z: CRITERION_SS verdict patched (arrived after the p = 5 patch): 00_READ_FIRST (section 3 row, CRITERION_SS item with the surviving theorem and cost, section 7 count 27->29), MASTER_BSD_DAG (FIN.ss row, CRITERION_SS index row), FIN_FRONTIER (supersingular row), SEED_PROVED_STATE (supersingular row), DO_NOT_RESURRECT (row 6; new rows 28, 29), CODEX_QUESTIONS (Q8(a); cross-family note), SOURCE_AND_HASH_INDEX (new section 2b with gate hashes; section 3 item 10), STATE.json, RESUME.md, MANIFEST.sha256. Pre-patch backup: ~/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/. FIN/FORMULA architecture unchanged. No novelty claim. Nothing merged.",
+  "2026-09-19 ~15:12Z: compact R2-bridge record added (FORMULA_FRONTIER section 5; one pointer line in 00_READ_FIRST section 4; two rows in SOURCE_AND_HASH_INDEX section 1). No redesign; FIN/FORMULA architecture unchanged; nothing merged; no novelty claim.",
+  "2026-09-19 (later): FORMULA frontier frozen at two levels (FORMULA_FRONTIER section 0); denominator threshold reconciled to D <= 174; normalisation seam recorded; CODEX_QUESTIONS note; DO_NOT_RESURRECT rows 28-31; R2 source hashes refreshed. No redesign; nothing merged; no novelty claim.",
+  "2026-09-19T16:51:45Z: cross-family patch (Opus, user-authorised): stale 'Reg = PARI' statements corrected in 00_READ_FIRST §8, SEED_PROVED_STATE (Reg, C, quotient rows), SOURCE_AND_HASH_INDEX §3 item 4 (plus new §2c with Codex/Opus hashes; Lane 3 file kept as historical source); FORMULA_FRONTIER header + §0 threshold + new §0b (three incomparable certificates); MASTER_BSD_DAG (FIN.tail, §3 FOR.int/FOR.alg/FOR.B, §5 WC and B rows); FIN_FRONTIER new §5 (WC: weaker than LINE, not shown easier than FIN); DO_NOT_RESURRECT duplicate IDs fixed (28-31 -> 30-33) and rows 34-40; CODEX_QUESTIONS Q0 kill gate + FORMULA note; 00_READ_FIRST §3 rows, §4 cross-family bullet, §7 counts. Pre-patch backup: ~/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/. Top level unchanged; nothing merged; no novelty claim."
+ ],
+ "criterion_ss": "PROVED as a SEMI_DECISION: hostile gate CRITERION_SS_VALID_WITH_CORRECTIONS (2026-09-19; ~/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/CRITERION_SS_HOSTILE_GATE.md). Theorem: E/Q non-CM, p >= 5 good supersingular, rhobar_p surjective, r = rank E(Q) <= p-1, theta_1 from [a/p^2]^+; c_r(theta_1) != 0 mod p => Sel ~ (Q_p/Z_p)^r and Sha[p^inf] = 0. Corrections: congruence holds up to a unit (-1/2 in Kim-Kurihara conventions); p | Tam hypothesis superfluous; L_p^+ pairs with Kobayashi X^-. No bit computed for the seed; a failed bit proves nothing. Re-derived cost T_min(23^2)=1.76e11, T_min(29^2)=2.83e11 => ~270/460 CPU-h (~500 shared), witnesses not storable, cost ~ p^2: a per-prime FALLBACK, not the global FIN solution. Same-family gate.",
+ "r2_bridge": "R2_BRIDGE_ONE_MAJOR_THEOREM_MISSING; Lemma U = BKS I Thm 7.3 (published); sealed p=5 digit u_5 = 1 mod 5 (u_5 = 1 + 5a), k-independent, L-side closed at source, height side closed for the MTT/SW unit, BKS-unit identification pending Nekovar/Benois; consistency only",
+ "formula_frontier_levels": {
+  "minimal_target": "q_inf = L''/(2 Omega Reg) rational with explicit small denominator; D <= 174 with the rigorous ball once Omega*Reg is rigorous (rel. 7.7e-7); D < 3.3e14 at certified precision",
+  "structured_candidate_route": "GPR_an(p) or order-two Rankin-Selberg/Gross-Zagier comparison; stronger than needed; not known necessary",
+  "open": "whether rationality alone already contains the hard rank-two theory"
+ },
+ "regulator_certificate": "Reg, Omega, Omega*Reg rigorously enclosed (Codex REGULATOR_CERTIFICATE.md, 2026-09-19; Opus replay identical at 100/30 and 80/24, nested): q_inf in (35.99427, 36.00573) PROVED_COMPUTER_ASSISTED. Earlier 'Reg and C are PARI values, not Arb' was wrong (Lane 3 06_period_regulator.md had an Arb interval method; historical).",
+ "wc_route": "WC (Codex): J_E contains nonzero A => Sha[p^inf] finite for p not in S0={2,3,5,2243,4547,5843}, zero for p not dividing A; implication PROVED (conditional on Ota 5.17/6.4); antecedent OPEN. Weaker than LINE, NOT shown easier than FIN: Opus caveat (unchecked converse) that on the ordinary tail J_E != 0 may be FIN in Ota coordinates. Kill gate: CODEX_QUESTIONS Q0. A formal proof of WC proves only the implication.",
+ "formula_certificates": [
+  "bounded rationality: q in Q, den <= 174 (Lemma D)",
+  "bounded algebraicity: Lemma E",
+  "one-sided common certificate B: q = 4B, v_p(#Sha[p^inf]) <= v_p(B) for all p => B = 9 => FIN and FORMULA"
+ ],
+ "fin_order_caveat": "FIN alone gives #Sha = 9 t^2 with gcd(t,30) = 1; q = 36 is FORMULA only with #Sha = 9",
+ "dnr_renumbering": "2026-09-19: rows 28-31 of the later FORMULA-frontier patch renumbered 30-33 (duplicate IDs with the CRITERION_SS rows 28-29); new rows 34-40"
+}

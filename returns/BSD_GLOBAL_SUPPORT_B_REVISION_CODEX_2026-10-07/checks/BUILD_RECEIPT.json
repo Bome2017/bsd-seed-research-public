@@ -1,0 +1,50 @@
+{
+  "source_commit": "062b7f9c858e64cbf2037148c1d6c7fe635595ca",
+  "first_review_commit": "8ee52fb55c6788d48f288257ef12e6da7b4d8c4c",
+  "reviews_copied_from_git_blobs": true,
+  "review_manifest_counts": {
+    "BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07": 33,
+    "BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07": 1125
+  },
+  "archive_containers_not_duplicated": true,
+  "certificate_core_included": true,
+  "external_coefficient_prefix_included": false,
+  "runtime_included": false,
+  "new_finite_sum_replay": false,
+  "mathematical_grades_unchanged": true,
+  "source_urls": {
+    "BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07": "https://github.com/Bome2017/bsd-seed-lab/tree/062b7f9c858e64cbf2037148c1d6c7fe635595ca/work/returns/BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07",
+    "BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07": "https://github.com/Bome2017/bsd-seed-lab/tree/062b7f9c858e64cbf2037148c1d6c7fe635595ca/work/returns/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07"
+  },
+  "revision_scope": "Only the two reviewed October 7 A returns and the governing B instructions; no new whole-disk or Downloads scan.",
+  "old_project_manifest_entries": 28,
+  "original_reference_archives_unchanged": true,
+  "original_coverage_json_unchanged": true,
+  "added_reference_binding": {
+    "path": "payload/A_CORRECTIONS.zip",
+    "bytes": 1246941,
+    "sha256": "a67ad68f0e3bd5d2fa209fd943f9782a5b47664b7b2f81d7c5c16f5990fd5839",
+    "destination": "a_corrections",
+    "root": "BSD_A_CORRECTIONS_2026-10-07",
+    "manifest": "MANIFEST.sha256",
+    "manifest_entries": 1162,
+    "expanded_bytes": 2672970
+  },
+  "original_B_zip_sha256": "02b518dab19874e0f9c57fd00a667739bac6e99c25c0b9b368bad34901baeccd",
+  "all_computer_files_included": false,
+  "latest_remote_B_job_status_inspected": false,
+  "new_job_submitted": false,
+  "correction_overlay_manifest_entries": 1162,
+  "project_manifest_entries": 31,
+  "project_files": 32,
+  "modified_old_project_files": [
+    "COMMON_CONTRACT.md",
+    "REFERENCE_BINDINGS.json",
+    "START_HERE.md",
+    "SUBMISSION_PROMPT.txt",
+    "TASK.md",
+    "prepare_reference.py"
+  ],
+  "reference_entries_declared_for_extractor": 7728,
+  "note": "Builder verifies original project, review manifests, all new bound files and archive containers. Offline extractor checks all nested reference entries separately."
+}

@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-04",
+  "input_commit": "a87b1af093f56efb5bce384b36d2463db2aa2dde",
+  "input_read_scope": "Main text files read using live GitHub connector. Retained arithmetic/theory not re-certified. Input ZIP manifest not replayed.",
+  "input_files": [
+    {
+      "name": "REPORT.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/REPORT.md",
+      "git_blob_sha": "ed20d6ebdf66b7726e2e1c6dfdb88b2222f53cb2"
+    },
+    {
+      "name": "HANDOFF.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "git_blob_sha": "0f44d84bb4595fd70965add8bf6aed07cae5cdde"
+    },
+    {
+      "name": "ARITHMETIC_SOURCE.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_SOURCE.md",
+      "git_blob_sha": "dd06e5817b4e7574a610260117ed827706129d30"
+    },
+    {
+      "name": "ARITHMETIC_LOW_JETS.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_LOW_JETS.md",
+      "git_blob_sha": "69721618c4dd634d805b77c7a7a933e4581cbc4e"
+    },
+    {
+      "name": "VARIABLE_WEIGHT_INDEX.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/VARIABLE_WEIGHT_INDEX.md",
+      "git_blob_sha": "a54c0a5402ffbcb08be953d92261da2e2b2b1c03"
+    },
+    {
+      "name": "FINITE_ARITHMETIC_SOURCE.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/FINITE_ARITHMETIC_SOURCE.md",
+      "git_blob_sha": "0723296b40161fa65cda1fcd1e4dbb541d08dcb8"
+    },
+    {
+      "name": "TEN_POINT_CERTIFICATE.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/TEN_POINT_CERTIFICATE.md",
+      "git_blob_sha": "bf82647d14dc9f2f1e96ad5b4fc663ac9f9eec52"
+    },
+    {
+      "name": "SOURCES.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/a87b1af093f56efb5bce384b36d2463db2aa2dde/work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "git_blob_sha": "1e4fc1b1e31d64e98453da5f1b40ac035a9fd1e5"
+    }
+  ],
+  "primary_sources": [
+    {
+      "author": "Tadashi Ochiai",
+      "title": "Iwasawa Main Conjecture for p-adic families of elliptic modular cuspforms",
+      "url": "https://arxiv.org/html/1802.06427v3",
+      "version": "v3, 2019-03-05",
+      "read_scope": "Theorem B factor e_p and formula (2.7); Theorem B-prime formula (4.3); Theorem 4.12 and formula (4.12); representation/norm convention in Definition 4.4.",
+      "use": "Arithmetic source equals the analytic family L-function, and interpolation for the dense source-coordinate check."
+    },
+    {
+      "author": "Benjamin Howard",
+      "title": "Central derivatives of L-functions in Hida families",
+      "url": "https://arxiv.org/pdf/1202.6360v1",
+      "publication": "Mathematische Annalen 339 (2007), 803-818; source PDF author version",
+      "read_scope": "Section 4, displayed functional equation before (9), Lemma 6 and initial hypotheses p not dividing 6M phi(M).",
+      "use": "Reflection character and constant family root sign. No use of the generic nonvanishing conclusions as p-adic unit theorems.",
+      "access_limit": "Parsed PDF text read. Web screenshot attempts for PDF pages 9 and 10 failed with cache errors; no image inspection claimed."
+    },
+    {
+      "author": "Robert Pollack and Vlad Serban",
+      "title": "Non-vanishing of critical L-values in Hida families",
+      "url": "https://arxiv.org/pdf/2208.02769",
+      "read_scope": "Section 2.1.2 and bibliography to locate Howard source.",
+      "use": "Locator/background only; no nonvanishing theorem imported as a unit bound."
+    }
+  ],
+  "novelty_assessment": "Not performed. Results are derived within this turn under listed inputs; literature priority not claimed."
+}

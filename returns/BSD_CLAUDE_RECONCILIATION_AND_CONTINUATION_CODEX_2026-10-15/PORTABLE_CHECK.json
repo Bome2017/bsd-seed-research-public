@@ -1,0 +1,21 @@
+{
+  "status": "PORTABLE_DOWNSTREAM_CHECK_PASS",
+  "manifest_checked": false,
+  "mirror_unit_corrections": 81,
+  "mirror_valuation_zero_elements": 243,
+  "short_class_exclusion_row": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "hensel_samples": 6,
+  "hensel_minimum_margin": 40,
+  "exact_twist_sums": [
+    20,
+    20
+  ],
+  "rational_point_determinant_mod5": 3,
+  "scope": "Checks saved arithmetic, rational point group law and source bindings; not BNF certification, modular-symbol construction, source theorem verification or BSD proof"
+}

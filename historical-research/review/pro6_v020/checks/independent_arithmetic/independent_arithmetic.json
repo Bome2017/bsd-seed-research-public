@@ -1,0 +1,35 @@
+{
+  "zywina_primes": [
+    2243,
+    4547,
+    5843
+  ],
+  "family_matches": true,
+  "invariants": {
+    "c4": 3169004368,
+    "c6": 56243184546880,
+    "Delta": 16586638656786071143743744,
+    "N": 6503188012738584
+  },
+  "point_relation": true,
+  "traces": {
+    "5": -2,
+    "7": -2,
+    "11": -2,
+    "13": -4,
+    "17": -6,
+    "4099": 86
+  },
+  "j1728_trace_at_4547": 0,
+  "frobenius_witnesses_pass": true,
+  "arb_dump_exact_check": {
+    "midpoint": "35.9353137527517008919390307136892172179197205833604986190542",
+    "radius": "0.005709008823032490909099578857421875",
+    "paper_radius": "0.005709",
+    "certified_lower": "35.9296047439286684010299311348317953429197205833604986190542",
+    "certified_upper": "35.9410227615747333828481302925466390929197205833604986190542",
+    "safe_replacement_radius": "0.00570901"
+  },
+  "main_L2_interval_contains_dump": true,
+  "scope": "No Tate algorithm, full saturation, original L-series, Selmer computation, or full modular-curve geometry replay."
+}

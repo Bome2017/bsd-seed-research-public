@@ -1,0 +1,19 @@
+{
+  "date_utc": "2026-10-18T23:03:28.120804+00:00",
+  "baseline_commit": "89b0566ef61ba78d9d95853508f831ee3ee03440",
+  "branch": "research/state-sync-2026-10-04",
+  "return": "work/returns/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18",
+  "copied_regular_files": 119,
+  "byte_identical_copy": true,
+  "root_manifest_entries": 118,
+  "archive": "work/returns/archives/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18.zip",
+  "archive_bytes": 1731251,
+  "archive_sha256": "6b46b99e648e10ad21cffcdb63a9d35207a4ffafcd8a32767daee8383558ea5a",
+  "report_sha256": "aa26fdc1b51891c1c1c20d36ba39a4349eb68c7de8511ed679e75abe28a1cfc8",
+  "manifest_sha256": "3508681b245e7c55e53658ed9e42c999bbb1419cba1f36fcfc09a8af57409250",
+  "mathematical_status": "No admitted ordinary unit; no new joint rank or class bound; exact finite-family exclusion only",
+  "endpoints": "FIN ORDER9 Q36 and seed-prime coverage unchanged",
+  "verification": "Input/manifest checks plus saved-output consistency; additive review scope retained, including incomplete independent factor-product replay",
+  "publication_scope": "Authorized lab work branch only; no main merge or research-repository promotion",
+  "remote_readback": "Post-push receipt to be retained outside sealed return"
+}

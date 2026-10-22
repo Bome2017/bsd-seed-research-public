@@ -1,0 +1,1 @@
+REJECTED: exact X-coordinate assertion used original curve coordinates against the stored minimal model. The shift is x_original=x_minimal+7578. GP continued past its error; no printed PASS was accepted. Corrected producer includes the shift and requires clean stderr.

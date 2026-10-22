@@ -1,0 +1,86 @@
+{
+  "roots": [
+    {
+      "root": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "2f6ac5c8ace0c8037939e0e48cb462861ea332b9dcce62307c002e186bea5281",
+      "checked": 228,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_NEXT_PATHS_OPUS_2026-10-14",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_NEXT_PATHS_OPUS_2026-10-14/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "c6e9f86f55a9f2b97c7908ae13d14e4cf7eb696df7a7681d1bde0448b00576e7",
+      "checked": 7,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "d3f49c530f7befa0577145b0fdd93676fdb4f13b3c76f41258695dc57c62899b",
+      "checked": 531,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "075fc0e2c6f9dfbce68dfc088105ed6572e53519a45e6271489b443426aebe69",
+      "checked": 63933,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_TAME_LAW_PROOF_ATTEMPT_OPUS_2026-10-14",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_TAME_LAW_PROOF_ATTEMPT_OPUS_2026-10-14/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "62008c51094ceb8616ef1ded1c5b270b8f0578a10bb35e83c69443690d32e6e9",
+      "checked": 2,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_TWO_LEG_TAME_EXPERIMENT_2026-10-14",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_TWO_LEG_TAME_EXPERIMENT_2026-10-14/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "e48d5e9ea39d004b488379a1be058c40e1458bd668c2c1785c81370c7527026d",
+      "checked": 28,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_WILD_LEG_EXPERIMENT_2026-10-14",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_WILD_LEG_EXPERIMENT_2026-10-14/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "7c0484d148a66db3ebdefce0f494fc8af9594520fdeb1feaf02aedaa14c769b3",
+      "checked": 48,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "a4757cb513b3afbac0e98b0ddb262587acaf128528dfafe05c07a794e5c8e660",
+      "checked": 105,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    {
+      "root": "/Users/bsm/BSD_RANK2_KOLYVAGIN_BOUND_ATTEMPT_2026-10-15",
+      "prior_inventory": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/claude_record/BSD_RANK2_KOLYVAGIN_BOUND_ATTEMPT_2026-10-15/SOURCE_INVENTORY.json",
+      "prior_inventory_sha256": "1784d4bee110a0c0af3558160fae6a6174c4ed3eae74a7957bcc7f2302a3ba22",
+      "checked": 1,
+      "changed": [],
+      "missing": [],
+      "added": []
+    }
+  ],
+  "scope": "byte identity of nine previously archived Claude roots; hash-checking is not reading"
+}

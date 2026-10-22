@@ -1,0 +1,52 @@
+{
+  "scope": "Changed files reviewed; exact arithmetic and captured-bucket replay, no new prime-coefficient run or fresh Lean build",
+  "A6": {
+    "good_reduction_13": true,
+    "affine_point_count": 17,
+    "total_point_count": 18,
+    "a13": -4,
+    "C13_evaluated": false
+  },
+  "B3": {
+    "Lean_table_matches_certified_symbols": 45,
+    "JSON_table_matches_certified_symbols": 110,
+    "bucket_reconstruction_matches_after_documented_sign_conversion": 110,
+    "max_float_distance_to_integer": 8.191136657842435e-11,
+    "group_sums": {
+      "2": -110,
+      "3": -70,
+      "5": -10,
+      "6": 102,
+      "7": -46
+    },
+    "weighted_integer_sum": -190,
+    "C11_retained_convention": 8,
+    "C11_full_real_period": 4,
+    "folding_and_level_drop_independent_exact_check": true,
+    "supplied_stage3_raw_residues": {
+      "5": 3,
+      "7": 6,
+      "11": 3
+    },
+    "retained_convention_residues": {
+      "5": 2,
+      "7": 1,
+      "11": 8
+    },
+    "sign_caveat": "stage3.py implements PARI sign; README directs negation to retained convention; JSON and Lean tables already use retained sign",
+    "numerical_provenance_caveat": "Large coefficient stream and full run logs not contained in this archive; asymptotic tail and approximate floating bounds are not a complete independent certificate"
+  },
+  "new_Lean_source_scan": {
+    "A6/RequestProject/ReductionAt13.lean": [],
+    "B3/RequestProject/SeedC11Assembly.lean": [],
+    "B3/RequestProject/SeedC11Value.lean": []
+  },
+  "lean_build_independently_replayed": false,
+  "global_endpoints_changed": false,
+  "source_hashes": {
+    "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/scripts/c11/buckets_final.txt": "7c8f768c781e1dce15313da0a33eea37be6d4acbc60648463c57b9cce73249b4",
+    "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/scripts/c11/stage3.py": "68a096f7600a2a4edbd723ed20a3df16cf2f5cdeab5e2b63a0d74228697654be",
+    "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/scripts/c11/symbols_seed.json": "9f923c02ea10a71b059ef4c494f2542c56866e5fa90804b43fa2bfb89ee9ec0d",
+    "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/SYMBOLS_m121.txt": "97403b1840b46c67d7a72ec5f5824bb52a1541b6278f78caee9b5dce447ca95c"
+  }
+}

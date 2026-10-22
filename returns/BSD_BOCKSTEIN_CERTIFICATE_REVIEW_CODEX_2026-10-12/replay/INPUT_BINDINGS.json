@@ -1,0 +1,102 @@
+{
+  "retrieval_date": "2026-10-12",
+  "access_method": "connected GitHub read actions",
+  "snapshot_scope": "Selected active records, not exhaustive repository contents",
+  "remote_repositories_modified": false,
+  "remote_files_bundled_byte_for_byte": false,
+  "hash_type_note": "remote_git_blob_sha is a Git blob object ID, not a SHA-256 digest of a local file",
+  "records": [
+    {
+      "source_id": "S0",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "CURRENT_STATE.md",
+      "remote_git_blob_sha": "aadf7fb7c9497bd5982729c53676c94407f007b9",
+      "reading_scope": "full file; current status, not recertification",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/02e86ce876cb83cef314b53d86f73a193298b203/CURRENT_STATE.md"
+    },
+    {
+      "source_id": "S1",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+      "remote_git_blob_sha": "eaaa43d87af07fb5a8ed536b767e8f1de844395d",
+      "reading_scope": "full file; principal retained arithmetic and algebraic input",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/02e86ce876cb83cef314b53d86f73a193298b203/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md"
+    },
+    {
+      "source_id": "S2",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "work/returns/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/SOURCE_TESTS.md",
+      "remote_git_blob_sha": "72e80256a6f91dfed95fa307c0fc226a25401d8c",
+      "reading_scope": "full file; source tests and finite-error model",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/02e86ce876cb83cef314b53d86f73a193298b203/work/returns/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/SOURCE_TESTS.md"
+    },
+    {
+      "source_id": "S3a",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "work/returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/REPORT.md",
+      "remote_git_blob_sha": "68f0e7a801d11d85bf42f812c46137b0e88f8fdd",
+      "reading_scope": "full file; pending versus accepted distinction",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/02e86ce876cb83cef314b53d86f73a193298b203/work/returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/REPORT.md"
+    },
+    {
+      "source_id": "S3b",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "work/returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/context/EXIT1_PENDING_FORMULA.md",
+      "remote_git_blob_sha": "66b6417ff33a38a73a8ede0d62992e835ccb96e0",
+      "reading_scope": "full excerpt file, not the full underlying Exit 1 report",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/02e86ce876cb83cef314b53d86f73a193298b203/work/returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/context/EXIT1_PENDING_FORMULA.md"
+    },
+    {
+      "source_id": "S4",
+      "repository": "Bome2017/bsd-seed-research",
+      "commit": "8414aea58180f3a18bcee7fba23475c8cac90996",
+      "path": "README.md",
+      "remote_git_blob_sha": "2335c5a781256c33275380c3831ca4307c17c66b",
+      "reading_scope": "full file; release status, not complete release replay",
+      "url": "https://github.com/Bome2017/bsd-seed-research/blob/8414aea58180f3a18bcee7fba23475c8cac90996/README.md"
+    },
+    {
+      "source_id": "S5a",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "work/returns/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11/REPORT.md",
+      "remote_git_blob_sha": "f1d9c0dbd63d796955515e3364ded68540b9fec4",
+      "reading_scope": "full report; no coefficient computation",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/02e86ce876cb83cef314b53d86f73a193298b203/work/returns/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11/REPORT.md"
+    },
+    {
+      "source_id": "S6",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "work/returns/BSD_CM_SOURCE_INDEX_CODEX_2026-10-11/REPORT.md",
+      "remote_git_blob_sha": "69ed37cee90ca0de26e90e2dbdb24f19fac42eb8",
+      "reading_scope": "full report; no source-index computation replay",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/02e86ce876cb83cef314b53d86f73a193298b203/work/returns/BSD_CM_SOURCE_INDEX_CODEX_2026-10-11/REPORT.md"
+    }
+  ],
+  "additional_reading": [
+    {
+      "source_id": "S5b",
+      "repository": "Bome2017/bsd-seed-lab",
+      "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+      "path": "work/returns/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11/notes/INDEPENDENT_SEED_CONTROL.md",
+      "reading_scope": "substantive control sections including finite pair and complex-conjugation countercontrol",
+      "remote_git_blob_sha": null
+    },
+    {
+      "source_id": "S7",
+      "url": "https://arxiv.org/html/2103.11535v1",
+      "version": "v1",
+      "reading_scope": "primary HTML; Bockstein definition and determinant context; conjectural formula not imported"
+    }
+  ],
+  "inaccessible_full_texts": [
+    "https://arxiv.org/html/1910.07404",
+    "https://arxiv.org/html/1910.07404v1"
+  ]
+}

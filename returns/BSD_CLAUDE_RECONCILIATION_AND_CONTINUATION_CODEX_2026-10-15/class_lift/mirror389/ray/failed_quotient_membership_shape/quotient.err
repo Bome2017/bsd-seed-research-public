@@ -1,0 +1,7 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: SOL1=matsolvemod(matconcat([CY,3*KG,ALLOW]),ve
+  ***                      ^-----------------------------------------
+  *** matsolvemod: incorrect type in matsolvemod (D) (t_VEC).
+  ***   at top-level: ...*KG]),vector(#RAY.cyc),RB-BR);if(type(SOL2)=="
+  ***                                             ^---------------------
+  *** _-_: forbidden addition t_COL (6 elts) + t_MAT (6 x 1).

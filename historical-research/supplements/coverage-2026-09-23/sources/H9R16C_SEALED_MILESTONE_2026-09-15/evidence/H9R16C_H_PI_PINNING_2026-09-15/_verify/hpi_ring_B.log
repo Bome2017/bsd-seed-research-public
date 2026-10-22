@@ -1,0 +1,57 @@
+--- PART B  N_g=1 p=5 r=1  M=5->25  mod q=5^6=15625, monomial degree <= 3
+    dim MS(M)=3 dim MS(pM)=51
+    ordinary ranks: rho(M)=2, rho(pM)=10   (e'^2=e', e'U'=U'e', U' invertible on e': PASS)
+    (G2-e') varpi_{1,*} e'_(pM) = e'_(M) varpi_{1,*}                 PASS
+    (SURJ-coh) e' varpi_{1,*} : e'S_(pM) -> e'S_(M) onto  (rank_(F_p) = 2 / 2)  PASS
+    (contrast) varpi_{1,*} on the FULL space: rank_(F_p) = 3 / 3 onto
+    Z_p-rank R_(pM) on 56 monomials = 10 (max pivot val 0, reliable=True)
+    Z_p-rank R_(M)  on the same monomials   = 2 (max pivot val 0, reliable=True)
+    Z_p-rank [V;W]                          = 10 (max pivot val 0, reliable=True)
+    (WD-ord)  pi_r well defined on R_(r+1)->R_(r)        PASS
+    (SURJ-ord) pi_r onto R_(r): generators hit generators; rank drop 10 -> 2 (not injective)
+--- PART B  N_g=1 p=3 r=2  M=9->27  mod q=3^6=729, monomial degree <= 3
+    dim MS(M)=7 dim MS(pM)=55
+    ordinary ranks: rho(M)=3, rho(pM)=9   (e'^2=e', e'U'=U'e', U' invertible on e': PASS)
+    (G2-e') varpi_{1,*} e'_(pM) = e'_(M) varpi_{1,*}                 PASS
+    (SURJ-coh) e' varpi_{1,*} : e'S_(pM) -> e'S_(M) onto  (rank_(F_p) = 3 / 3)  PASS
+    (contrast) varpi_{1,*} on the FULL space: rank_(F_p) = 7 / 7 onto
+    Z_p-rank R_(pM) on 56 monomials = 9 (max pivot val 0, reliable=True)
+    Z_p-rank R_(M)  on the same monomials   = 3 (max pivot val 0, reliable=True)
+    Z_p-rank [V;W]                          = 9 (max pivot val 0, reliable=True)
+    (WD-ord)  pi_r well defined on R_(r+1)->R_(r)        PASS
+    (SURJ-ord) pi_r onto R_(r): generators hit generators; rank drop 9 -> 3 (not injective)
+--- PART B  N_g=5 p=3 r=1  M=15->45  mod q=3^6=729, monomial degree <= 3
+    dim MS(M)=17 dim MS(pM)=145
+    ordinary ranks: rho(M)=10, rho(pM)=30   (e'^2=e', e'U'=U'e', U' invertible on e': PASS)
+    (G2-e') varpi_{1,*} e'_(pM) = e'_(M) varpi_{1,*}                 PASS
+    (SURJ-coh) e' varpi_{1,*} : e'S_(pM) -> e'S_(M) onto  (rank_(F_p) = 10 / 10)  PASS
+    (contrast) varpi_{1,*} on the FULL space: rank_(F_p) = 17 / 17 onto
+    Z_p-rank R_(pM) on 120 monomials = 37 (max pivot val 5, reliable=False)
+    Z_p-rank R_(M)  on the same monomials   = 11 (max pivot val 5, reliable=False)
+    Z_p-rank [V;W]                          = 37 (max pivot val 5, reliable=False)
+    (WD-ord)  pi_r well defined on R_(r+1)->R_(r)        PASS
+    (SURJ-ord) pi_r onto R_(r): generators hit generators; rank drop 37 -> 11 (not injective)
+--- PART B  N_g=2 p=3 r=2  M=18->54  mod q=3^6=729, monomial degree <= 3
+    dim MS(M)=19 dim MS(pM)=163
+    ordinary ranks: rho(M)=6, rho(pM)=18   (e'^2=e', e'U'=U'e', U' invertible on e': PASS)
+    (G2-e') varpi_{1,*} e'_(pM) = e'_(M) varpi_{1,*}                 PASS
+    (SURJ-coh) e' varpi_{1,*} : e'S_(pM) -> e'S_(M) onto  (rank_(F_p) = 6 / 6)  PASS
+    (contrast) varpi_{1,*} on the FULL space: rank_(F_p) = 19 / 19 onto
+    Z_p-rank R_(pM) on 84 monomials = 18 (max pivot val 0, reliable=True)
+    Z_p-rank R_(M)  on the same monomials   = 6 (max pivot val 0, reliable=True)
+    Z_p-rank [V;W]                          = 18 (max pivot val 0, reliable=True)
+    (WD-ord)  pi_r well defined on R_(r+1)->R_(r)        PASS
+    (SURJ-ord) pi_r onto R_(r): generators hit generators; rank drop 18 -> 6 (not injective)
+--- PART B  N_g=7 p=3 r=1  M=21->63  mod q=3^6=729, monomial degree <= 3
+    dim MS(M)=33 dim MS(pM)=289
+    ordinary ranks: rho(M)=18, rho(pM)=54   (e'^2=e', e'U'=U'e', U' invertible on e': PASS)
+    (G2-e') varpi_{1,*} e'_(pM) = e'_(M) varpi_{1,*}                 PASS
+    (SURJ-coh) e' varpi_{1,*} : e'S_(pM) -> e'S_(M) onto  (rank_(F_p) = 18 / 18)  PASS
+    (contrast) varpi_{1,*} on the FULL space: rank_(F_p) = 33 / 33 onto
+    Z_p-rank R_(pM) on 120 monomials = 51 (max pivot val 5, reliable=False)
+    Z_p-rank R_(M)  on the same monomials   = 18 (max pivot val 5, reliable=False)
+    Z_p-rank [V;W]                          = 51 (max pivot val 5, reliable=False)
+    (WD-ord)  pi_r well defined on R_(r+1)->R_(r)        PASS
+    (SURJ-ord) pi_r onto R_(r): generators hit generators; rank drop 51 -> 18 (not injective)
+ALL PASS
+B exit 0

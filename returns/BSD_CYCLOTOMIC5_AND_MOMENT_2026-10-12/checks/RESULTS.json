@@ -1,0 +1,85 @@
+{
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "input_bindings": {
+    "SYMBOLS_m25.txt": {
+      "git_blob": "b0d766f63e90ac9d17b2ca15ee2e387cd6b34ff6",
+      "sha256": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e"
+    },
+    "SYMBOLS_m5.txt": {
+      "git_blob": "a9961d9d45bc22605a331c994a3dee4119c1c12b",
+      "sha256": "fb7b98d89b1885bacbb1d9d306c6c17fcefeafbb094baf1fcb5258756e6edf9c"
+    }
+  },
+  "invalid_input_cases": 8,
+  "new_actual_coefficients": 0,
+  "new_coefficient_primes_settled": 0,
+  "precision_boundary_cases": 4,
+  "seed_p5": {
+    "L2_valuation": 0,
+    "alpha_mod5": 3,
+    "neron_quadratic_moment": 304,
+    "new_base_field_primary_result": false,
+    "new_symbol_evaluation": false,
+    "raw_gamma_weights": [
+      -76,
+      0,
+      -76,
+      76,
+      76
+    ],
+    "raw_quadratic_moment": 608,
+    "standard_L2_mod5": 1
+  },
+  "sharpness_cases": [
+    {
+      "n": 2,
+      "p": 5,
+      "same_projection": true,
+      "valuations": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "p": 5,
+      "same_projection": true,
+      "valuations": [
+        2,
+        3
+      ]
+    },
+    {
+      "n": 2,
+      "p": 7,
+      "same_projection": true,
+      "valuations": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "p": 7,
+      "same_projection": true,
+      "valuations": [
+        2,
+        3
+      ]
+    },
+    {
+      "n": 2,
+      "p": 11,
+      "same_projection": true,
+      "valuations": [
+        1,
+        2
+      ]
+    }
+  ],
+  "status": "PASS_EXACT_REPLAY_AND_FORMAL_ARITHMETIC_CONTROLS",
+  "synthetic_one_table_cases": 84,
+  "tower_theorem_grade": "WRITTEN_DERIVATION_NOT_VERIFIED_BY_THIS_SCRIPT"
+}

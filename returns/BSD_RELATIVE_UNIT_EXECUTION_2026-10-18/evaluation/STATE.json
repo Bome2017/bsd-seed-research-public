@@ -1,0 +1,12 @@
+{
+  "status": "SOURCE_NOT_ADMITTED",
+  "actual_rank": "UNMEASURED",
+  "admitted_units": 0,
+  "new_arithmetic_rank_runs": 0,
+  "new_unit_kernel_bound": null,
+  "new_class_bound": null,
+  "code_reused_byte_identically": true,
+  "source_outcome": "no assigned-ideal generator; none of 20 changed candidates has stable actual principal ideal",
+  "endpoint_effect": "FIN ORDER9 Q36 and seed-prime coverage unchanged",
+  "report": "REPORT.md"
+}

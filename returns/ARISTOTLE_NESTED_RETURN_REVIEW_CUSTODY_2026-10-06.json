@@ -1,0 +1,14 @@
+{
+  "date_utc": "2026-10-06T17:04:13.792662+00:00",
+  "base_lab_commit": "dc9305239f6f36b23aa9a20a86e4c92ea054b232",
+  "status": "SMALL_NESTED_CONTENT_RECOVERY_CONFIRMED_EXECUTION_REPORTED",
+  "manifest_entries_verified": 54,
+  "source_copy_byte_identical": true,
+  "review_archive_bytes": 90134,
+  "review_archive_sha256": "1c6916b94c4f3f69c97b16127235fcaa7dc5029d0d97ff01935ce3e9c9363942",
+  "original_return_sha256": "65a3de1eb1df2cdb93cdce0603c53ff7e00e5b6987bd08a6fdeeaf92a75e95d5",
+  "new_aristotle_job_created": false,
+  "remote_execution_independently_attested": false,
+  "full_corpus_capacity_tested": false,
+  "research_repo_modified": false
+}

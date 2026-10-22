@@ -1,0 +1,92 @@
+== twist E^{-7}: bad primes [2, 3, 7, 2243, 4547, 5843]
+   phihat(d|b) d=          -1: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=           2: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=          -2: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=           7: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=          -7: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=        4547: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       -4547: excluded at p=2243; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=        5843: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       -5843: excluded at p=2243; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=          14: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=         -14: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=        9094: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       -9094: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       11686: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=      -11686: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       31829: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=      -31829: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       40901: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=      -40901: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=   -26568121: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       63658: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=      -63658: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       81802: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=      -81802: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=    53136242: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=   -53136242: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=   185976847: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=  -185976847: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=   371953694: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=  -371953694: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b): kept [1, 26568121]
+   phi(d|a2-4b) d=          -1: excluded at inf
+   phi(d|a2-4b) d=           3: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=          -3: excluded at inf
+   phi(d|a2-4b) d=           7: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=          -7: excluded at inf
+   phi(d|a2-4b) d=        2243: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=       -2243: excluded at inf
+   phi(d|a2-4b) d=        4547: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=       -4547: excluded at inf
+   phi(d|a2-4b) d=          21: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=         -21: excluded at inf
+   phi(d|a2-4b) d=        6729: excluded at p=4547; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=       -6729: excluded at inf
+   phi(d|a2-4b) d=       13641: excluded at p=4547; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=      -13641: excluded at inf
+   phi(d|a2-4b) d=       15701: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=      -15701: excluded at inf
+   phi(d|a2-4b) d=       31829: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=      -31829: excluded at inf
+   phi(d|a2-4b) d=   -10198921: excluded at inf
+   phi(d|a2-4b) d=       47103: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=      -47103: excluded at inf
+   phi(d|a2-4b) d=       95487: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=      -95487: excluded at inf
+   phi(d|a2-4b) d=    30596763: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=   -30596763: excluded at inf
+   phi(d|a2-4b) d=    71392447: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=   -71392447: excluded at inf
+   phi(d|a2-4b) d=   214177341: excluded at p=7; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=  -214177341: excluded at inf
+   phi(d|a2-4b): kept [1, 10198921]
+   exclusions 60, uncertified 0
+== seed E: bad primes [2, 3, 2243, 4547, 5843]
+   phihat(d|b) d=          -1: excluded at inf
+   phihat(d|b) d=           2: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=          -2: excluded at inf
+   phihat(d|b) d=       -4547: excluded at inf
+   phihat(d|b) d=       -5843: excluded at inf
+   phihat(d|b) d=        9094: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=       -9094: excluded at inf
+   phihat(d|b) d=       11686: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=      -11686: excluded at inf
+   phihat(d|b) d=   -26568121: excluded at inf
+   phihat(d|b) d=    53136242: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phihat(d|b) d=   -53136242: excluded at inf
+   phihat(d|b): kept [1, 4547, 5843, 26568121]
+   phi(d|a2-4b) d=          -1: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=           3: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=          -3: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=        2243: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=        4547: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=        6729: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=       -6729: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=       13641: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=      -13641: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=   -10198921: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=    30596763: excluded at p=2; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b) d=   -30596763: excluded at p=3; brute-force certifies insoluble: True  (0.0s)
+   phi(d|a2-4b): kept [1, -2243, -4547, 10198921]
+   exclusions 24, uncertified 0

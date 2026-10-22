@@ -1,0 +1,20 @@
+{
+  "summary_equal_excluding_seconds": true,
+  "outputs": [
+    {
+      "name": "CERT_ORDER0_MULTIPLIERS.json",
+      "byte_equal": true,
+      "sha256_replayed": "902099defaf2820bf860a4f2772fe03845f4934940703de53244d395c4c2f4e6"
+    },
+    {
+      "name": "CERT_ORDER1_RESIDUAL.json",
+      "byte_equal": true,
+      "sha256_replayed": "66b7773235c007245f073eb926ce3799d7f1c13a24263792b1b45e6524633c67"
+    },
+    {
+      "name": "CERT_ORDER2_RESIDUAL.json",
+      "byte_equal": true,
+      "sha256_replayed": "75b825f631de1f4049da6f04e35f632e728d4569fd97b9cfb0bdb48b65b5a6d6"
+    }
+  ]
+}

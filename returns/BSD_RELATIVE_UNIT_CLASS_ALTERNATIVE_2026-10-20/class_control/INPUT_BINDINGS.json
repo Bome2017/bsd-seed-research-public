@@ -1,0 +1,60 @@
+{
+  "purpose": "Bindings for exact field identity and retained scope; hashes are not class certifications.",
+  "inputs": [
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/relative_source/fields.gp",
+      "sha256": "5324c426b7e26663aed5432a32dfb9a6cfb8b929464b4cb4fa5d789769ac06ad",
+      "bytes": 11602
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/relative_source/FIELDS.json",
+      "sha256": "4301d225e6fe31876d248addb7398244020ac249f3d0b42141544cb2a1008905",
+      "bytes": 331
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/relative_source/base_bnf.gp.receipt.json",
+      "sha256": "7c421ca2edb31e78b38bc637cb8c654760d14f2eae2ec235fe299c9fdec4f73f",
+      "bytes": 443
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/relative_source/base_bnf.gp.err",
+      "sha256": "eb083a9a021eedee41c9ac1bf5b4af9980e0edf7baab7f37200828adb5a03196",
+      "bytes": 479
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/general_character/PROOF.md",
+      "sha256": "03aa6e0194f5c971f19ee2bed21c2d07aaa59a08e54e2a954ba6fe33fcb6c144",
+      "bytes": 10211
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/class_control/PROOF.md",
+      "sha256": "5634d03c507b19e33d8a901e9bd1e1a67ad59b404075c377cc92333f9b06d064",
+      "bytes": 3643
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/class_twist_notes/PROOF.md",
+      "sha256": "4b2874bca193f49ff814bd7a35ff68395c44bb25db1a2262362ffe921575fde7",
+      "bytes": 3963
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/field.gp",
+      "sha256": "d99280928c6581cf543f7505496af74c7cb507215b01cb3088467b3a1769b6a3",
+      "bytes": 10747
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/uniform_valuation/PROOF.md",
+      "sha256": "ca324b83a2225a27d1a6b5fc78f60bff95d1c798bb9217ea7849352b708fedb2",
+      "bytes": 9923
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/REPORT.md",
+      "sha256": "00e7967104c9750d17986ce8fb6bf4ab826e312bef8fecffa941ea1a76b59f0b",
+      "bytes": 3800
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/relative_source/REPORT.md",
+      "sha256": "84145c8c07a3b4c358b83afe245a9007d9d8d42d9b4fdcde61e4d88266407704",
+      "bytes": 2574
+    }
+  ]
+}

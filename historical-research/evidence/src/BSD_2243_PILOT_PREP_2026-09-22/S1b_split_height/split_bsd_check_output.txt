@@ -1,0 +1,26 @@
+PARI stack size set to 2000000000 bytes, maximum size set to 2000003072
+91b1 p=7 rank=1 r_L=2 BSDquot/Reg = 1 + O(7^5)  Sha_an = 1
+91b1 p=13 rank=1 r_L=2 BSDquot/Reg = 1 + O(13^6)  Sha_an = 1
+155a1 p=5 rank=1 r_L=2 BSDquot/Reg = 1 + O(5^4)  Sha_an = 1
+155a1 p=31 rank=1 r_L=2 BSDquot/Reg = 1 + O(31^6)  Sha_an = 1
+203b1 p=7 rank=1 r_L=2 BSDquot/Reg = 1 + O(7^4)  Sha_an = 1
+203b1 p=29 rank=1 r_L=2 BSDquot/Reg = 1 + O(29^6)  Sha_an = 1
+389a1 p=389 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc
+433a1 p=433 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc
+446d1 p=223 rank=2 r_L=3 BSDquot/Reg = 1 + O(223^5)  Sha_an = 1.00000000000000
+563a1 p=563 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc
+571b1 p=571 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc
+643a1 p=643 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc
+655a1 p=131 rank=2 r_L=3 BSDquot/Reg = 1 + O(131^5)  Sha_an = 1.00000000000000
+707a1 p=101 rank=2 r_L=3 BSDquot/Reg = 1 + O(101^5)  Sha_an = 1.00000000000000
+709a1 p=709 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc
+718b1 p=359 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc
+794a1 p=397 ERR the PARI stack overflows (current size: 2000003072; maximum size: 2000003072)
+You can use pari.alloc

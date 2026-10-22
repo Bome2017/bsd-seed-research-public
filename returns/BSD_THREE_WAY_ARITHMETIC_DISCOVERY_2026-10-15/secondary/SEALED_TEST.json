@@ -1,0 +1,13 @@
+{
+  "sealed_utc": "2026-10-15T19:14:50.005356+00:00",
+  "test": "affine norm-root integrality and norm-cube admission on literal unit representatives",
+  "prediction": {
+    "718 false antiunit": "no affine norm cube root",
+    "718 genuine point unit": "affine norm cube root is an algebraic unit",
+    "1913 two genuine excess units": "both affine norm cube roots are algebraic units",
+    "28042 two genuine excess units": "both affine norm cube roots are algebraic units"
+  },
+  "reason": "For a unit alpha the affine incidence norm is a unit; any cube root in the target field is automatically a unit. Thus root integrality adds no condition to exact first-descent norm admission.",
+  "stop": "Do not call norm-cube-root integrality a secondary discriminator if it accepts both point and excess controls. No nine-Selmer conclusion from norm roots.",
+  "runtime_seconds": 45
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independent_log_series_and_rational_mobius_controls": 96,
+  "primes": [
+    17,
+    31,
+    101
+  ],
+  "note": "Local coefficient/action checks, not global symbol authentication or a seed bound."
+}

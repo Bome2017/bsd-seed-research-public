@@ -1,0 +1,110 @@
+\documentclass[11pt]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{booktabs,longtable,array}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype,xurl}
+\setlength{\emergencystretch}{3em}
+\hypersetup{pdftitle={A rank-two elliptic curve: certified arithmetic and remaining BSD obligations},pdfauthor={Sanjit Singh Mehat}}
+
+% Tate--Shafarevich group
+\DeclareFontEncoding{OT2}{}{}
+\DeclareFontSubstitution{OT2}{wncyr}{m}{n}
+\DeclareSymbolFont{cyrletters}{OT2}{wncyr}{m}{n}
+\DeclareMathSymbol{\Sha}{\mathalpha}{cyrletters}{"58}
+
+\newcommand{\Q}{\mathbf{Q}}
+\newcommand{\Z}{\mathbf{Z}}
+\newcommand{\F}{\mathbf{F}}
+\newcommand{\Qp}{\mathbf{Q}_p}
+\newcommand{\Zp}{\mathbf{Z}_p}
+\newcommand{\Sel}{\operatorname{Sel}}
+\newcommand{\Reg}{\operatorname{Reg}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Gal}{\operatorname{Gal}}
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\cid}[1]{\texttt{#1}}      % claim id in claims/CLAIM_INDEX.md
+\newcommand{\grade}[1]{\textit{#1}}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{obstruction}[theorem]{Obstruction}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{obligation}[theorem]{Open obligation}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{researchrecord}[theorem]{Research record}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\title[A rank-two elliptic curve: certified arithmetic and remaining BSD obligations]{A rank-two elliptic curve of conductor $6503188012738584$:\\ certified arithmetic, conditional criteria,\\ and the remaining Birch--Swinnerton-Dyer obligations}
+\author{Sanjit Singh Mehat}
+\date{Private research-review draft 0.2.2, 23 September 2026}
+
+\begin{document}
+
+\begin{abstract}
+We study the elliptic curve $E\colon y^2=x^3-22735x^2+106272484x$ over $\Q$, of conductor $N=2^3\cdot3\cdot2243\cdot4547^2\cdot5843$. We record what is proved about the Birch--Swinnerton-Dyer conjecture for $E$, what is proved only conditionally, and exactly what remains.
+
+\emph{Proved.}
+\begin{itemize}[leftmargin=*]
+\item $E(\Q)\simeq\Z/2\oplus\Z^2$ with an explicit basis, and the analytic rank is exactly $2$; the analytic-rank statement is a computer-assisted certificate for $L''(E,1)$.
+\item The BSD quotient $q=L''(E,1)/(2\Omega_E\Reg)$ lies in $(35.99427,36.00573)$.
+\item The $p$-primary parts of $\Sha(E/\Q)$ for $p\le47$ are $0$ except at $p=3$, where $\Sha(E/\Q)[3^\infty]\simeq(\Z/3)^2$; at $17\le p\le47$ the certificates apply a theorem of Ota as stated in its arXiv version.
+\end{itemize}
+
+\emph{Conditional.}
+\begin{itemize}[leftmargin=*]
+\item For every good prime $p\ge5$, $p\nmid7N$, the nonvanishing modulo $p$ of one anticyclotomic Gross-point coefficient $M_2(p)$ implies $\Sha(E/\Q)[p^\infty]=0$. The algebraic core of the supersingular case is checked in Lean.
+\item At the split multiplicative prime $2243$, a single coefficient, not yet computed, would prove $\Sha(E/\Q)[2243^\infty]=0$ if it is nonzero modulo $2243$; a zero value would prove nothing. Every stated theoretical input is supplied at its recorded import or certificate grade, including an independent certificate that the split $2243$-adic height is nondegenerate.
+\end{itemize}
+
+\emph{Open.}
+\begin{itemize}[leftmargin=*]
+\item Full BSD for $E$ remains open: it requires $\Sha$ finite of order $9$ and the exact identity $q=36$. Finiteness is also tracked as a separate intermediate milestone.
+\end{itemize}
+
+We also record a family of scoped obstructions, and separate new results from applications of published theorems. Each principal claim carries an identifier into the accompanying claim-to-evidence index.
+\end{abstract}
+
+\maketitle
+\noindent\textbf{Private evidence release.}
+\url{https://github.com/Bome2017/bsd-seed-research}.
+Tag: \texttt{v0.2.2-private-review}.
+This is a provisional research dossier for targeted expert review, not an independently refereed proof paper. Repository access requires authorization. The quick replay verifies included downstream evidence; the large numerical corpus is external and is not reevaluated by that command.
+\input{release_id}
+
+\tableofcontents
+
+\input{sections/01_intro}
+\input{sections/02_curve}
+\input{sections/03_rank}
+\input{sections/04_primary}
+\input{sections/05_scalar}
+\input{sections/06_twists}
+\input{sections/07_good_primes}
+\input{sections/08_bad_primes}
+\input{sections/09_reductions}
+\input{sections/10_obstructions}
+\input{sections/11_remaining}
+\appendix
+\input{sections/A_grades}
+\input{sections/B_methods}
+\input{sections/D_register}
+\input{sections/F_lattice_proof}
+\input{sections/G_bridge_proof}
+\input{sections/H_verifier_proof}
+
+\bibliographystyle{amsplain}
+\bibliography{refs}
+\end{document}

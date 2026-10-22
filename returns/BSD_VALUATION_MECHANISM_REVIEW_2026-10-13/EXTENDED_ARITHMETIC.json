@@ -1,0 +1,40 @@
+{
+  "scope": "No new PARI coefficient/height/descent computation; exact operations on bound saved residues",
+  "paired_manifest_count": 86,
+  "paired_manifest_all_match": true,
+  "paired_source_hashes": {
+    "COMBINED_EXCESS_PROOF.md": "6890cd1f5b856772e7f175f761a88190d9e8631fde3eae3ff38613c451e794f4",
+    "outputs/combined_exact.json": "62f01bc77a4fc9ed875abe2c7893c73939497121d4386fd699733bfb2091cab0",
+    "outputs/combined329233_n8.out": "ed16d688124e9380d3e5261fda12b321fbf6b9babee6d97f8a9eea20064a6e83",
+    "outputs/combined329233_n8.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/DIGIT_COMPARISON.json": "924324aa64c40476546cf2dcaff9f52a3222689c41f2fcd94a4654881d6a96e1",
+    "outputs/normalization329233.out": "95879d5df6bc11db762319b8af062eb6332ff3c066781a553598f272dc7f0017",
+    "ENGINE_REPAIR.md": "93ae8d2a5514591c19d52ea1bd81aa242c1fc5da6d433d28029eb77fa72e2be4"
+  },
+  "d329233": {
+    "prime_fundamental_discriminant": true,
+    "d_mod5": 3,
+    "chi_Frob5": -1,
+    "F_count5": 7,
+    "a5": -1,
+    "v_L2": 4,
+    "v_HU": 2,
+    "Euler_mod5": 4,
+    "Tamagawa": 4,
+    "torsion": 1,
+    "corrected_valuation": 2,
+    "corrected_Q_residue": 25,
+    "corrected_precision_exponent": 3,
+    "deduction_if_main_conjecture_and_height_theorems_apply": "Sha(F)[5-infinity] has length 2; retained residual dimension >=2 then forces (Z/5)^2"
+  },
+  "seed17": {
+    "c2": 46298,
+    "c2_mod17": 7,
+    "native_height_entry_precision": 3,
+    "native_determinant_valuation": 3,
+    "v_log17_18": 1,
+    "HU_determinant_valuation": 1,
+    "HU_determinant_div17_mod17": 13,
+    "new_numerator": false
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "manifest": "input/heegner/MANIFEST.sha256",
+    "root": "input/heegner",
+    "matched": 26,
+    "total": 26,
+    "exceptions": []
+  },
+  {
+    "manifest": "input/heegner/research_return/MANIFEST.sha256",
+    "root": "input/heegner",
+    "matched": 27,
+    "total": 27,
+    "exceptions": []
+  },
+  {
+    "manifest": "input/jet/MANIFEST.sha256",
+    "root": "input/jet",
+    "matched": 166,
+    "total": 167,
+    "exceptions": [
+      {
+        "path": "README.md",
+        "status": "mismatch"
+      }
+    ]
+  }
+]

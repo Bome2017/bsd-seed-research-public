@@ -1,0 +1,66 @@
+{
+  "tame_rows": 16,
+  "ordinary_rows": 4,
+  "tame_all_defined_ratios_match": true,
+  "tame_zero_detector_rows": [
+    [
+      "seed",
+      29,
+      59
+    ],
+    [
+      "389a1",
+      7,
+      379
+    ]
+  ],
+  "positive_excess_row": [
+    {
+      "curve": "seed",
+      "p": 3,
+      "ell": 103,
+      "role": "positive_excess_control",
+      "raw_sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+      "symbols": 102,
+      "g": 5,
+      "moments_exact": [
+        "0",
+        "0",
+        "168"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        0
+      ],
+      "aell": -2,
+      "Euler_mod_p": 2,
+      "regulator_mod_p": 2,
+      "scalar": 0,
+      "arithmetic_normalized_scalar": 0,
+      "expected_scalar": 0,
+      "point_count_at_p": 5,
+      "ap": -1,
+      "primitive_root_checks": 32,
+      "two_generators": [
+        {
+          "g": 5,
+          "c2_mod_p": 0,
+          "regulator": 2,
+          "scalar": 0
+        },
+        {
+          "g": 6,
+          "c2_mod_p": 0,
+          "regulator": 2,
+          "scalar": 0
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    }
+  ],
+  "crossmethod_shared_prime": 5,
+  "uniform_theorem_proved": false,
+  "new_primary_vanishing": false
+}
+DISTILLATION_REPLAY_PASS

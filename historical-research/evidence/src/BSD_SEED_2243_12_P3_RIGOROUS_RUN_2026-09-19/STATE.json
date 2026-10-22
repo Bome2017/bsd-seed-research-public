@@ -1,0 +1,45 @@
+{
+ "task": "P3_RIGOROUS_RUN (seed 2243,12; p = 3 depth 4; m = 81 and 27 only)",
+ "started": "2026-09-19",
+ "phase": "DONE__P3_PROVED_SHA3_ORDER_9",
+ "authorization": "operator message 2026-09-19: P3 run authorized; J=W=16 max, <=12 GB RAM, <=10 GB swap emergency; no p=7, no depth 5",
+ "core": "~/BSD_RIGOROUS_STREAM_CORE_2026-09-19 (RIGOROUS_STREAM_CORE_READY)",
+ "run_out": "~/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run",
+ "done": [
+  "prelaunch gate: 8/8 items pass (prelaunch/PRELAUNCH_GATE.md)",
+  "targets.txt: m=81 T=14847836159 (TMIN 14832175873), m=27 T=4831838207 (TMIN 4830360876); NSEG=885; KEEP_WIT=1",
+  "prepared + tested (24a1): downstream/p3_downstream.py (exact a_{n,j} + forced checks; Lane 3 weights == recomputed),",
+  "downstream/p3_integrity.py (independent re-hash of all segments/units/roots), downstream/lane3_an2_eval.gp (Lane 3 an2 verbatim),",
+  "replay/replay_stageW_sample.sh (16 segments), replay/replay_msl.sh (m=81 W=12, m=27 W=16 fresh dirs), logs/summarize_resources.py",
+  "23:12: stage W 80/885 segments, 16 seg/min, 0 FATAL; RSS 0.3 GB; swap flat; CPU_Speed_Limit 84-86",
+  "23:24: stage W 256/885 segments (29%), 0 FATAL; ~10 seg/min at q ~ 4e9; RSS 0.3 GB; swap 1.85 GB (< baseline); CPU_Speed_Limit 86",
+  "STAGE W DONE 00:13:39 (66.5 min wall): 885/885 segments; 663685727 primes verified (663685161 witnesses + 566 exhaustive); 0 FATAL; aggregate a_q root 5f9994d95c31a49e7cbd91435fd33a9cbdadc81fcc4f47439fbbf2fa5bb4713f; root(0..287) ca234d65...",
+  "STAGE A m=81 done 00:25:07 (687.6 s wall, 10782+41 CPU-s, RSS 1.35 GB): 54/54 + 54/54 symbols identified in (1/1024)Z; AP_SEGROOT = aq_root_885; count identity",
+  "STAGE A m=27 done 00:28:40 (213.3 s wall, 3293+11 CPU-s): 18/18 + 18/18 identified; AP_SEGROOT = aq_root_288",
+  "STAGE C P3_CHECK_PASS (7/7 incl. 36 U_3 identities); INTEGRITY_PASS (19/19, independent re-hash of 24 GB)",
+  "DOWNSTREAM_CHECKS_PASS (20/20): a_{4,0}=0, a_{4,1}=-54 = 0 mod 27, a_{4,2}=15480 = 9 mod 27 (SW normalisation 18), ord_3 = 2 => CASE A",
+  "Lane 3 an2 verbatim: a_{4,2} = 3^2 + O(3^3); PARI primepi(T) = 663685727 = verifier count",
+  "replays: stage W sample 32/32 identical; msl m=81 (W=12) and m=27 (W=16) fresh-dir outputs byte-identical",
+  "reports: P3_FINAL_REPORT.md, P3_CERTIFICATE.md, SHA3_THEOREM.md, P3_REPLAY.md, P3_RESOURCE_LOG.md; P3_MANIFEST.sha256 (last)"
+ ],
+ "next": [
+  "(operator) review; nothing merged; do not launch p=7 or depth 5 without authorization"
+ ],
+ "anomalies": [],
+ "merged": false,
+ "launched": "2026-09-18T23:07:11-0700 (J=W=16, via monitor.sh governor)",
+ "coefficient_roots": {
+  "aq_root_885": "5f9994d95c31a49e7cbd91435fd33a9cbdadc81fcc4f47439fbbf2fa5bb4713f",
+  "aq_root_288": "ca234d65fa40332695f5f08675ade782c9a8439bee068b69ac9b64a470002084"
+ },
+ "result": {
+  "a42_exact_omega1": 15480,
+  "a42_mod27": 9,
+  "a42_mod27_SW": 18,
+  "ord3": 2,
+  "case": "A",
+  "a41": -54,
+  "a40": 0
+ },
+ "return": "P3_PROVED_SHA3_ORDER_9"
+}

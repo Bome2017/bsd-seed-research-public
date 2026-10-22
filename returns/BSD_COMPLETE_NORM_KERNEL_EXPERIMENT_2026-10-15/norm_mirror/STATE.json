@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_CLASS_SUPPORTED_NORM_KERNEL_AND_LOCAL_REJECTION_UNDER_RETAINED_SOURCE",
+  "source_dimension": 11,
+  "scalar_dimension": 5,
+  "norm_kernel_dimension": 3,
+  "kernel_valuation_rank": 2,
+  "kernel_class_rank": 1,
+  "kernel_unit_intersection": 0,
+  "local_block_ranks": [
+    2,
+    1
+  ],
+  "local_joint_rank": 3,
+  "admitted_kernel_dimension": 0,
+  "seed_endpoints_changed": false
+}

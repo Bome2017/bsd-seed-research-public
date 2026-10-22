@@ -1,0 +1,11 @@
+# Source custody and review scope
+
+- Input author: Bome2017/bsd-seed-lab at 3f49551ab14268be879eb7f31820aa604350d7e3, branch research/direct-base-control-probe-2026-10-12. Six files verified byte-for-byte; original retained under submitted/.
+- Review baseline: ad45789840b7a59e3d090b791bbfe66904924834 on research/state-sync-2026-10-04. INPUT_BINDINGS.json records four exact historical blob bindings.
+- K. Kato, p-adic Hodge theory and values of zeta functions of modular forms, Asterisque 295 (2004): https://www.numdam.org/item/AST_2004__295__117_0/ and https://www.numdam.org/article/AST_2004__295__117_0.pdf . Cached PDF SHA256 3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d. Printed pages 236, 244, 248–249 visually checked in the source audit; §§14.6 and 14.8 checked for comparison and local conditions. Parent also inspected the images of pp.244 and 248. INTEGRAL_BOUND_SCREEN.md records exact formulas and the printed cross-reference correction. Image renders are local working aids and are not republished.
+- Kato's character-part finiteness, Theorem 14.2(2)/Corollary 14.3, retained from the prior pinned source audit. Freshly checked integral statements are distinguished from that retained input.
+- Ota, On the rank-part of the Birch and Swinnerton-Dyer conjecture for modular elliptic curves, https://arxiv.org/html/1509.00682v1 : parent checked the ambient hypotheses and Theorem 1.5 / §6. No coefficient nonvanishing is obtained by citing this implication.
+- Milne, Arithmetic Duality Theorems, Chapter I local Tate duality: https://www.jmilne.org/math/Books/ADT.html . Used as the standard local norm/restriction duality framework. The application is written out in MAP_AUDIT.md.
+- Milne, Arithmetic Duality, https://www.jmilne.org/math/xnotes/Tate100.pdf , printed pp.7–8 checked for alternation and divisible kernels by the module audit.
+
+Retained, not recertified here: seed rank and saturated point lattice, rational torsion, Tamagawa data, full residual/integral image on the domain where invoked, and prior Kato source hypotheses. No exhausted literature search, novelty claim, formal proof, fresh seed modular-symbol evaluation, or human certification is claimed.

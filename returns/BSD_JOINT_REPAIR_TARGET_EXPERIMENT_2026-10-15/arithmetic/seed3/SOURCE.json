@@ -1,0 +1,35 @@
+{
+  "inputs": [
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/MATRICES.json",
+      "copied_to": "inputs/cached_matrices.json",
+      "sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+      "bytes": 95141
+    },
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/stage1_data.gp",
+      "copied_to": "inputs/stage1_data.gp",
+      "sha256": "cdd9f7e8cba2273bf43c7fde509cb35402ac905fdb6634c9c857531d0c2e26a3",
+      "bytes": 139135
+    },
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/inputs/previous/seed3/nf_only.gp",
+      "copied_to": "inputs/nf_only.gp",
+      "sha256": "0da92519de70b5b714a6147160e6a80e20acfcf8a22d148d26cea212d0085c4f",
+      "bytes": 12051
+    },
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/inputs/previous/seed3/actual_representatives.gp",
+      "copied_to": "inputs/actual_representatives.gp",
+      "sha256": "038a2f243e59fc6dffb4049eab2b5b3f937cafb44b949f4c36c98bef122b5b66",
+      "bytes": 5229
+    },
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/selmer.gp",
+      "copied_to": "inputs/selmer_original.gp",
+      "sha256": "44f173e694b102241534b403a2dab7ad35c4ae99fdc3e11228f60160604a83ef",
+      "bytes": 10364
+    }
+  ],
+  "scope": "Retained seed p=3 source only; complete 15-dimensional source remains GRH/cache-grade. Four actual classes and unit certificates retain exact source-binding grade. No class-group certification is rerun."
+}

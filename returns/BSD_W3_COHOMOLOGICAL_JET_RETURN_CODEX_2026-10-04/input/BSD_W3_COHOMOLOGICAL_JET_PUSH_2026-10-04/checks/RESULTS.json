@@ -1,0 +1,175 @@
+{
+  "countercontrols": [
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 5,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/5"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 7,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/7"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 11,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/11"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 13,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/13"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 17,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/17"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 19,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/19"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 23,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/23"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 29,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/29"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 31,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/31"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 37,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/37"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 41,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/41"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 43,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/43"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 47,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/47"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 53,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/53"
+      }
+    },
+    {
+      "b3_retained_by_mod_p2": true,
+      "nonzero_jet_diagonal_zero": true,
+      "p": 59,
+      "rational_anchor_not_integral": {
+        "u_at_0": "1",
+        "u_at_p": "1/59"
+      }
+    }
+  ],
+  "counts": {
+    "coefficient_precision": 18000,
+    "coordinate_roundtrip": 3600,
+    "evaluation_homomorphism": 3600,
+    "integral_multiple_implication": 1800,
+    "shifted_diagonal": 1800,
+    "signed_binomial_law": 4335,
+    "unit_invariance": 1800,
+    "valuation_shift": 1170
+  },
+  "not_computed": [
+    "seed Kato jet",
+    "eta_p",
+    "any new b_p",
+    "uniform nonvanishing"
+  ],
+  "primes": [
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59
+  ],
+  "seed_primary_conclusions": [],
+  "status": "PASS_FORMAL_ALGEBRA_ONLY",
+  "total_assertion_groups": 36105
+}

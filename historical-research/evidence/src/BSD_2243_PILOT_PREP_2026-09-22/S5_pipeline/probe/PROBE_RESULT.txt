@@ -1,0 +1,22 @@
+m 5031049 eps 4.400e-16 seconds 175.6  rad(Re F_j): max 1.5547e-02 min 1.5654e-04 mean 5.0719e-03   max/(m eps) = 7023226.4517
+m 5031049 eps 0.000e+00 seconds 231.8  rad(Re F_j): max 7.1536e-25 min 7.1350e-27 mean 2.3303e-25   max/(m eps) = 0.0000
+m 81 eps 1.000e-16 seconds 0.0  rad(Re F_j): max 1.8280e-14 min 5.4000e-15 mean 1.1875e-14   max/(m eps) = 2.2568
+m 2243 eps 1.000e-16 seconds 0.1  rad(Re F_j): max 3.7431e-10 min 4.2176e-11 mean 2.1317e-10   max/(m eps) = 1668.8094
+m 22430 eps 1.000e-16 seconds 0.6  rad(Re F_j): max 4.7267e-09 min 4.2176e-10 mean 2.5797e-09   max/(m eps) = 2107.2896
+
+## transform rounding on exact inputs: short vs long mantissas (dft_mantissa_probe)
+m 81 mantissa short(21b) prec 128  max|v| 9.189e-04  max rad(Re F_j) 4.0706e-38
+m 81 mantissa long(~110b) prec 128  max|v| 9.609e-04  max rad(Re F_j) 4.8161e-38
+m 2243 mantissa short(21b) prec 128  max|v| 9.311e-04  max rad(Re F_j) 7.7008e-32
+m 2243 mantissa long(~110b) prec 128  max|v| 9.765e-04  max rad(Re F_j) 7.8225e-32
+m 22430 mantissa short(21b) prec 128  max|v| 9.312e-04  max rad(Re F_j) 9.5930e-31
+m 22430 mantissa long(~110b) prec 128  max|v| 9.765e-04  max rad(Re F_j) 9.9968e-31
+
+## R5-A real class sums through acb_dft (merge_diag, 2026-09-23 01:33): input radius 0, max rad(Re F) 2.2263e-25 at j=3063060 (max|S| 1.39e-3, sum|S| 653)
+
+## arb_div of [x +/- 1.36804e-5] by Omega+ at prec 128 (div_diag): radius excess grows with |x| (reduced working precision)
+mid 0      rad(x) 1.3680395710e-05  rad(x/y) 4.8780330826e-04  rad(x)/|y| 4.8780330717e-04
+mid 0.001  rad(x) 1.3680395725e-05  rad(x/y) 4.8780348152e-04  rad(x)/|y| 4.8780330768e-04
+mid 0.19   rad(x) 1.3680395725e-05  rad(x/y) 4.8782303929e-04  rad(x)/|y| 4.8780330768e-04
+mid 1.5    rad(x) 1.3680395710e-05  rad(x/y) 4.8798322678e-04  rad(x)/|y| 4.8780330717e-04
+mid -0.37  rad(x) 1.3680395725e-05  rad(x/y) 4.8784911633e-04  rad(x)/|y| 4.8780330768e-04

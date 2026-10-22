@@ -1,0 +1,74 @@
+--- core/read_apseg
+
++++ review/read_apseg
+
+@@ -1,6 +1,6 @@
+
+-static u64 read_apseg(long s, unsigned char *comp, int32_t *buf, unsigned char *dg) {
+
++static u64 read_apseg(const char *dir, long s, unsigned char *comp, int32_t *buf, unsigned char *dg) {
+
+   u64 lo, hi; seg_bounds(s, &lo, &hi); sieve(lo, hi, comp); u64 np = 0; for (u64 q = lo; q < hi; q++) np += !comp[q - lo];
+
+-  char fn[2048]; snprintf(fn, sizeof fn, "%s/ap_%06ld.bin", APDIR, s); FILE *g = fopen(fn, "rb"); if (!g) fatal("missing ap file");
+
++  char fn[2048]; snprintf(fn, sizeof fn, "%s/ap_%06ld.bin", dir, s); FILE *g = fopen(fn, "rb"); if (!g) fatal("missing ap file");
+
+   if (fread(buf, 4, np, g) != np) fatal("short ap file"); int32_t x; if (fread(&x, 4, 1, g) == 1) fatal("ap file has trailing data");
+
+   fclose(g); CC_SHA256(buf, (CC_LONG)(4 * np), dg); return np;
+
+ }
+--- core/load_table
+
++++ review/load_table
+
+@@ -1,7 +1,7 @@
+
+-static void load_table(u64 top) {                   /* A[q] for primes q <= top; hashes of the segments read */
+
++static void load_table(u64 top) {
+
+   ATOP = top; A = calloc(top + 1, 4); if (!A) fatal("alloc A");
+
+   unsigned char *comp = malloc(SEGQ); int32_t *buf = malloc(4 * SEGQ);
+
+-  for (long s = 0; (u64)s * SEGQ <= top; s++) { u64 lo, hi; seg_bounds(s, &lo, &hi); read_apseg(s, comp, buf, APSH[s]);
+
++  for (long s = 0; (u64)s * SEGQ <= top; s++) { u64 lo, hi; seg_bounds(s, &lo, &hi); read_apseg(APDIR, s, comp, buf, APSH[s]);
+
+     u64 i = 0; for (u64 q = lo; q < hi; q++) if (!comp[q - lo]) { if (q <= top) A[q] = buf[i]; i++; } }
+
+   free(comp); free(buf);
+
+   APK = malloc(sizeof(*APK) * (NSP + 1));
+
+--- core/gen_block
+
++++ review/gen_block
+
+@@ -1,6 +1,5 @@
+
+-static void gen_block(u64 lo, u64 hi, u64 *rem, i64 *an, int use_table) {
+
++static void gen_block(u64 lo, u64 hi, u64 *rem, i64 *an) {
+
+   for (u64 n = lo; n < hi; n++) { rem[n - lo] = n; an[n - lo] = 1; }
+
+   for (long i = 0; i < NSP; i++) { u64 p = SP[i]; u64 st = (lo + p - 1) / p * p;
+
+     for (u64 m = st; m < hi; m += p) { u64 r = rem[m - lo]; int e = 0; while (r % p == 0) { r /= p; e++; } rem[m - lo] = r; an[m - lo] *= APK[i][e]; } }
+
+-  if (use_table) for (u64 n = lo; n < hi; n++) { u64 r = rem[n - lo]; if (r > 1) { if (r > ATOP) fatal("cofactor beyond table"); an[n - lo] *= A[r]; } }
+
+ }
+--- core/invmod
+
++++ review/invmod
+
+@@ -1 +1,2 @@
+
+-static u64 invmod(u64 a, u64 m) { for (u64 x = 1; x < m; x++) if ((a % m) * x % m == 1) return x; fatal("no inverse"); return 0; }
++static u64 invmod(u64 a, u64 m) { i128 t = 0, nt = 1, r = m, nr = a % m; while (nr) { i128 q = r / nr, x = t - q * nt; t = nt; nt = x; x = r - q * nr; r = nr; nr = x; }
+
++  if (r != 1) fatal("no inverse"); if (t < 0) t += m; return (u64)t; }

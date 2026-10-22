@@ -1,0 +1,16 @@
+{
+  "status": "ORDER3_EXCESS_IDENTIFIED_CONDITIONALLY",
+  "bsd_bound": "NONE",
+  "baseline_commit": "423fdd10f0f0a0d27c819b664c0e7c4eed2e2bd6",
+  "previous_status_preserved": "MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY",
+  "review_grade": "SAME_AUTHOR_SOURCE_RECHECK_AND_WRITTEN_DERIVATION",
+  "independent_audit": false,
+  "new_statement": "Sel(M3)[t]/t^2 Sel(M3) is canonically Sha[p], conditional on the retained local conditions and tuning properties",
+  "seed_cohomology_computed": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "fourth_order_campaign": "NOT_LAUNCHED",
+  "publication_destination": "Bome2017/bsd-seed-lab research/state-sync-2026-10-04",
+  "updated_utc": "2026-10-07T05:34:42.837041+00:00"
+}

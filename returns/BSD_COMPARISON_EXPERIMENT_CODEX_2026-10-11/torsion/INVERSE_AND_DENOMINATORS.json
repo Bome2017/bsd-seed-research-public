@@ -1,0 +1,49 @@
+{
+  "source_division_polynomial_irreducible": true,
+  "maps": [
+    {
+      "map": "map_113_0_0.json",
+      "forward_x_denominator": "3361743",
+      "forward_x_denominator_factors": "3^4 * 7^3 * 11^2",
+      "forward_Y_denominator": "305613",
+      "forward_Y_denominator_factors": "3^4 * 7^3 * 11",
+      "inverse_x_denominator_factors": "3^7 * 7^17 * 11^18 * 113^13",
+      "inverse_Y_denominator_factors": "3^7 * 7^19 * 11^20 * 113^15",
+      "power_basis_change_determinant": "-19525253819218137245590783392887019117293467421971708555572112645881748208551180530405228360995954442087493440585685910674336924199304922761563421694739450964039440339409287707698214675848733900088045903574566916161074217667156691953987621035796754118153757",
+      "power_basis_change_determinant_factors": "-1 * 3^11 * 7^55 * 11^88 * 113^55"
+    },
+    {
+      "map": "map_113_1_0.json",
+      "forward_x_denominator": "480249",
+      "forward_x_denominator_factors": "3^4 * 7^2 * 11^2",
+      "forward_Y_denominator": "43659",
+      "forward_Y_denominator_factors": "3^4 * 7^2 * 11",
+      "inverse_x_denominator_factors": "3^7 * 7^17 * 11^18 * 113^13",
+      "inverse_Y_denominator_factors": "3^7 * 7^17 * 11^20 * 113^15",
+      "power_basis_change_determinant": "-19525253819218137245590783392887019117293467421971708555572112645881748208551180530405228360995954442087493440585685910674336924199304922761563421694739450964039440339409287707698214675848733900088045903574566916161074217667156691953987621035796754118153757",
+      "power_basis_change_determinant_factors": "-1 * 3^11 * 7^55 * 11^88 * 113^55"
+    },
+    {
+      "map": "map_167_0_0.json",
+      "forward_x_denominator": "28761579",
+      "forward_x_denominator_factors": "3^2 * 7^4 * 11^3",
+      "forward_Y_denominator": "28761579",
+      "forward_Y_denominator_factors": "3^2 * 7^4 * 11^3",
+      "inverse_x_denominator_factors": "3^36 * 7 * 11^3 * 167^13",
+      "inverse_Y_denominator_factors": "3^40 * 7 * 11^3 * 167^15",
+      "power_basis_change_determinant": "-169594411067206288338643888311320006047203181135660380304429067449358525731946982745615631592278875865898607519544800347929603975182875368433159646218494478534555392902107878794381984263/1977326743",
+      "power_basis_change_determinant_factors": "-1 * 3^132 * 7^-11 * 167^55"
+    },
+    {
+      "map": "map_167_1_0.json",
+      "forward_x_denominator": "22370117",
+      "forward_x_denominator_factors": "7^5 * 11^3",
+      "forward_Y_denominator": "22370117",
+      "forward_Y_denominator_factors": "7^5 * 11^3",
+      "inverse_x_denominator_factors": "3^34 * 7^2 * 11^3 * 167^13",
+      "inverse_Y_denominator_factors": "3^38 * 7^2 * 11^3 * 167^15",
+      "power_basis_change_determinant": "-169594411067206288338643888311320006047203181135660380304429067449358525731946982745615631592278875865898607519544800347929603975182875368433159646218494478534555392902107878794381984263/1977326743",
+      "power_basis_change_determinant_factors": "-1 * 3^132 * 7^-11 * 167^55"
+    }
+  ]
+}

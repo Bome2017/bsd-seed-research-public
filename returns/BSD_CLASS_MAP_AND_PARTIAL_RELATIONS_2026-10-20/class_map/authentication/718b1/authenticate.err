@@ -1,0 +1,30 @@
+  ***   variable name expected: ...urceclassrank changed"));
+  ***   I=idealpow(nf,B.gen[i
+  ***   ^---------------------
+  ***   at top-level: nu=u(beta);FAC=idealfactor(NB,nu);J=matid(8)
+  ***                                ^-----------------------------
+  *** idealfactor: inconsistent variables in nf_to_scalar_or_basis, beta != z.
+  ***   at top-level: for(i=1,matsize(FAC)[1],if(FAC[i,2]%3,error("p
+  ***                         ^--------------------------------------
+  *** matsize: incorrect type in matsize (t_POL).
+  ***   at top-level: if(idealpow(NB,J,3)!=idealhnf(NB,nu),error("ta
+  ***                    ^-------------------------------------------
+  *** idealpow: inconsistent variables in nf_to_scalar_or_basis, J != z.
+  ***   at top-level: pr=bnfisprincipal(BB,J,1);if(pr[1]!=0*pr[1],er
+  ***                    ^-------------------------------------------
+  *** bnfisprincipal: inconsistent variables in poltobasis, J != z.
+  ***   at top-level: ...=D[22];uf=vector(#fu,j,u(nfbasistoalg(nf,fu[j]
+  ***                                             ^---------------------
+  *** nfbasistoalg: incorrect type in basistoalg (t_MAT).
+  ***   at top-level: for(j=1,#fu,UV[,j]=bnfisunit(BB,uf[j]);if(#UV[
+  ***                               ^--------------------------------
+  ***   incorrect type in &_[,_] OCcompoCptr [not a matrix] (t_POL).
+  ***   at top-level: cc=bnfisunit(BB,vunit);if(#cc!=#BB.fu+1,error(
+  ***                    ^-------------------------------------------
+  *** bnfisunit: inconsistent variables in nf_to_scalar_or_basis, vunit != z.
+  ***   at top-level: repair=prod(j=1,#fu,uf[j]^lift(sol[j]));rts=nf
+  ***                                       ^------------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: ...vunit,fu,uf,UV,cc,sol,rts[1],B.cyc,BB.cyc])
+  ***                                             ^------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).

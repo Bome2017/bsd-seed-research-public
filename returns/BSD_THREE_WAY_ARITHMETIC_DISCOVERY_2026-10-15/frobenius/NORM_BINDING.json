@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-15T19:17:36.581055+00:00",
+  "files": {
+    "norm.json": "0165ead00d24d125ed8b017e20c3e49aa09d21c3f94e136c91087412f56b6419",
+    "affine_norm_certificate.gp": "d2541c79b6118e32e220e514a96f3ff674d9b495a5a6627d3ac395a16012f498",
+    "odd_cube_certificate.gp": "b093d711e5c756de8e4f9782b457301e4823d4bec220b1e7d24d4a182f6b6622",
+    "construct_norm.gp": "35b4e28529e6133b83745a457b54e0765e9681c0567eab3333ad781e6f856877"
+  },
+  "fresh_outcomes_not_generated": true,
+  "serialization_repair": "SERIALIZATION_REPAIR.json"
+}

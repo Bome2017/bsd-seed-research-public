@@ -1,0 +1,46 @@
+{
+  "grade": "exact integer arithmetic; retained conductor and full residual image not recertified",
+  "model": [
+    0,
+    -1,
+    0,
+    -66020924,
+    -65074271436
+  ],
+  "N": 6503188012738584,
+  "N_plus": 165401672,
+  "N_minus": 39317547,
+  "D_K": -7,
+  "gcd_DK_N": 1,
+  "two_split_DK_mod8": 1,
+  "delta": 16586638656786071143743744,
+  "delta_factorization_matches": true,
+  "c4": 3169004368,
+  "odd_prime_rows": [
+    {
+      "ell": 3,
+      "kronecker_D_K": -1,
+      "v_delta": 2,
+      "c4_mod_ell": 1
+    },
+    {
+      "ell": 2243,
+      "kronecker_D_K": -1,
+      "v_delta": 1,
+      "c4_mod_ell": 2005
+    },
+    {
+      "ell": 4547,
+      "kronecker_D_K": 1,
+      "v_delta": 3,
+      "c4_mod_ell": 0
+    },
+    {
+      "ell": 5843,
+      "kronecker_D_K": -1,
+      "v_delta": 2,
+      "c4_mod_ell": 731
+    }
+  ],
+  "class_number_argument": "Minkowski bound (2/pi)*sqrt(7)<2, so every ideal class has an integral ideal of norm 1; h_K=1."
+}

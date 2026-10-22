@@ -1,0 +1,24 @@
+{
+  "presentation_cases": 288,
+  "status": "PASS",
+  "finite_specialization_error_retained": true,
+  "missing_p_inequality_countercontrol": {
+    "tau": 2,
+    "derivative_content": 0,
+    "U_local_bound_holds": true,
+    "p_local_bound_holds": false,
+    "full_hypotheses_satisfied": false
+  },
+  "review_residue_multiplier_mod17": [
+    11,
+    2
+  ],
+  "fixed_smoothing_mod17": [
+    11,
+    4
+  ],
+  "fixed_smoothing_augmentation_mod17": 11,
+  "fixed_smoothing_excludes_5": true,
+  "seed_kato_value_computed": false,
+  "new_seed_primary_result": false
+}

@@ -1,0 +1,119 @@
+==================== CERTIFICATE CHECK: seed curve ====================
+calibration constants [k4, k6, kA] (computed from the generic Weierstrass cubic) = [12, 16, 48]
+E = [0, -1, 0, -66020924, -65074271436]   N = 6503188012738584 = [2, 3; 3, 1; 2243, 1; 4547, 2; 5843, 1]   torsion = [2]
+L-rational subgroup <T> unique: psi3/(X-xT) has no root mod (p, w - r) = [13, 1]
+--- cubic 1: 61*x^3 + (31*y + 15*z)*x^2 + (-7*y^2 - 56*z*y - 139*z^2)*x + (20*y^3 + 75*z*y^2 - 23*z^2*y + 27*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: odd-degree binary cubic on z=0 has a real root
+  Q_2: Hensel point [1, 1, 1]  v(U(P)) = 2  min v(grad) = 0
+  Q_3: Hensel point [0, 0, 1]  v(U(P)) = 3  min v(grad) = 0
+  Q_2243: Hensel point [0, 2190, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [0, 1019, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [0, 4267, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+--- cubic 2: 92*x^3 + (49*y + 73*z)*x^2 + (-61*y^2 + 50*z*y + 31*z^2)*x + (-35*y^3 + 58*z*y^2 - 58*z^2*y - 31*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: odd-degree binary cubic on z=0 has a real root
+  Q_2: Hensel point [0, 1, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_3: Hensel point [0, 1, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_2243: Hensel point [1, 1133, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [0, 2364, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [0, 4914, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+cubic residue symbol matrix: 79 degree-1 primes x 4 classes; F3-rank = 4
+certifying primes (p, w mod p, symbols): [[13, 1, [1, 1, 0, 1]], [13, 12, [2, 0, 0, 0]], [67, 50, [2, 1, 2, 0]], [97, 92, [1, 1, 2, 1]]]
+CERTIFICATE RESULT: PASS
+=> kappa(P1), kappa(P2), [C1], [C2] are F3-independent in Sel_3(E/Q): dim Sel_3 >= 4.
+   With rank E(Q) = 2 (imported) and E(Q)[3] = 0 (torsion Z/2, checked): dim Sha(E/Q)[3] >= 2, #Sha(E/Q)[3] >= 9.
+==================== NEGATIVE CONTROLS ====================
+NEG(b) C2 replaced by the Kummer cubic of P1 (class kappa(P1)):
+E = [0, -1, 0, -66020924, -65074271436]   N = 6503188012738584 = [2, 3; 3, 1; 2243, 1; 4547, 2; 5843, 1]   torsion = [2]
+L-rational subgroup <T> unique: psi3/(X-xT) has no root mod (p, w - r) = [13, 1]
+--- cubic 1: 61*x^3 + (31*y + 15*z)*x^2 + (-7*y^2 - 56*z*y - 139*z^2)*x + (20*y^3 + 75*z*y^2 - 23*z^2*y + 27*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: odd-degree binary cubic on z=0 has a real root
+  Q_2: Hensel point [1, 1, 1]  v(U(P)) = 2  min v(grad) = 0
+  Q_3: Hensel point [0, 0, 1]  v(U(P)) = 3  min v(grad) = 0
+  Q_2243: Hensel point [0, 2190, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [0, 1019, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [0, 4267, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+--- cubic 2: -z*x^2 + (y^2 + 3032*z^2)*x + (3031*z*y^2 - 654768*z^2*y + 56830932*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: [1, 0, 0]
+  Q_2: Hensel point [0, 1, 0]  v(U(P)) = oo  min v(grad) = 0
+  Q_3: Hensel point [0, 0, 1]  v(U(P)) = 2  min v(grad) = 0
+  Q_2243: Hensel point [2, 860, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [5, 240, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [5, 526, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+cubic residue symbol matrix: 77 degree-1 primes x 4 classes; F3-rank = 3
+FAIL: classes dependent in L^x/L^x3
+NEG(b) RESULT (must be 0): 0
+NEG(b') C2 replaced by the Kummer cubic of P1+P2:
+E = [0, -1, 0, -66020924, -65074271436]   N = 6503188012738584 = [2, 3; 3, 1; 2243, 1; 4547, 2; 5843, 1]   torsion = [2]
+L-rational subgroup <T> unique: psi3/(X-xT) has no root mod (p, w - r) = [13, 1]
+--- cubic 1: 61*x^3 + (31*y + 15*z)*x^2 + (-7*y^2 - 56*z*y - 139*z^2)*x + (20*y^3 + 75*z*y^2 - 23*z^2*y + 27*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: odd-degree binary cubic on z=0 has a real root
+  Q_2: Hensel point [1, 1, 1]  v(U(P)) = 2  min v(grad) = 0
+  Q_3: Hensel point [0, 0, 1]  v(U(P)) = 3  min v(grad) = 0
+  Q_2243: Hensel point [0, 2190, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [0, 1019, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [0, 4267, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+--- cubic 2: -z*x^2 + (y^2 - 10609*z^2)*x + (-10610*z*y^2 - 1309536*z^2*y - 46540566*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: [1, 0, 0]
+  Q_2: Hensel point [0, 0, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_3: Hensel point [0, 0, 1]  v(U(P)) = 2  min v(grad) = 0
+  Q_2243: Hensel point [2, 284, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [5, 240, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [5, 1015, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+cubic residue symbol matrix: 77 degree-1 primes x 4 classes; F3-rank = 3
+FAIL: classes dependent in L^x/L^x3
+NEG(b') RESULT (must be 0): 0
+NEG(c2) C2 replaced by the Weierstrass cubic of the Q(i)-twist (c6 sign):
+E = [0, -1, 0, -66020924, -65074271436]   N = 6503188012738584 = [2, 3; 3, 1; 2243, 1; 4547, 2; 5843, 1]   torsion = [2]
+L-rational subgroup <T> unique: psi3/(X-xT) has no root mod (p, w - r) = [13, 1]
+--- cubic 1: 61*x^3 + (31*y + 15*z)*x^2 + (-7*y^2 - 56*z*y - 139*z^2)*x + (20*y^3 + 75*z*y^2 - 23*z^2*y + 27*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: odd-degree binary cubic on z=0 has a real root
+  Q_2: Hensel point [1, 1, 1]  v(U(P)) = 2  min v(grad) = 0
+  Q_3: Hensel point [0, 0, 1]  v(U(P)) = 3  min v(grad) = 0
+  Q_2243: Hensel point [0, 2190, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [0, 1019, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [0, 4267, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+--- cubic 2: -x^3 - 4*z*x^2 + 1056334784*z^2*x + (z*y^2 - 4164753371904*z^3)
+FAIL: Jacobian: c4,c6 = [50704069888, -3599563811000320] not (s^4 c4(E), s^6 c6(E))
+NEG(c2) RESULT (must be 0): 0
+NEG(c3) C2 with one coefficient perturbed by 1:
+E = [0, -1, 0, -66020924, -65074271436]   N = 6503188012738584 = [2, 3; 3, 1; 2243, 1; 4547, 2; 5843, 1]   torsion = [2]
+L-rational subgroup <T> unique: psi3/(X-xT) has no root mod (p, w - r) = [13, 1]
+--- cubic 1: 61*x^3 + (31*y + 15*z)*x^2 + (-7*y^2 - 56*z*y - 139*z^2)*x + (20*y^3 + 75*z*y^2 - 23*z^2*y + 27*z^3)
+  Jacobian: c4(C) = s^4 c4(E), c6(C) = s^6 c6(E) with s^2 = 1
+  disc(C) = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]   primes to check: [2, 3, 2243, 4547, 5843]   (all other l: good reduction, soluble by Hasse-Weil + Hensel)
+  R: odd-degree binary cubic on z=0 has a real root
+  Q_2: Hensel point [1, 1, 1]  v(U(P)) = 2  min v(grad) = 0
+  Q_3: Hensel point [0, 0, 1]  v(U(P)) = 3  min v(grad) = 0
+  Q_2243: Hensel point [0, 2190, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_4547: Hensel point [0, 1019, 1]  v(U(P)) = 1  min v(grad) = 0
+  Q_5843: Hensel point [0, 4267, 1]  v(U(P)) = 1  min v(grad) = 0
+  class image in L^x/L^x3: t0 = Mod(-1/941492689162788696*w^6 + 1/792251092*w^2 + 42505/5692159443, w^8 - 1188376638*w^4 - 7030398068360*w^2 - 117686586145348587)   line = [[1, 0, 0], [0, 1, 0]]
+--- cubic 2: 93*x^3 + (49*y + 73*z)*x^2 + (-61*y^2 + 50*z*y + 31*z^2)*x + (-35*y^3 + 58*z*y^2 - 58*z^2*y - 31*z^3)
+FAIL: Jacobian: c4,c6 = [3182949280, 60001085003176] not (s^4 c4(E), s^6 c6(E))
+NEG(c3) RESULT (must be 0): 0
+==================== SELF-TEST ====================
+self-test P = [-3031, 327384]: class(Kummer cubic) == kappa(P)^(+1): 0  ^(-1): 1   (80 primes)
+self-test P = [-2394, 281520]: class(Kummer cubic) == kappa(P)^(+1): 0  ^(-1): 1   (80 primes)
+self-test P = [10610, 654768]: class(Kummer cubic) == kappa(P)^(+1): 0  ^(-1): 1   (80 primes)
+SELF-TEST RESULT (must be 1): 1

@@ -1,0 +1,89 @@
+{
+ "bindings": {
+  "N": 6503188012738584,
+  "N_factorisation": {
+   "2": 3,
+   "3": 1,
+   "2243": 1,
+   "4547": 2,
+   "5843": 1
+  },
+  "N_check": true,
+  "discriminant_min_model": 16586638656786071143743744,
+  "disc_old_model_equal": true,
+  "p": 31,
+  "p_good": true,
+  "a_p": -8,
+  "#E(F_p)": 40,
+  "ordinary": true,
+  "a_p_not_pm1_mod_p": true,
+  "roots_mod_p4_of_X2-apX+p": [
+   57776,
+   865737
+  ],
+  "unit_root_alpha0": [
+   57776
+  ],
+  "a_q_q_lt_100": {
+   "5": -2,
+   "7": -2,
+   "11": -2,
+   "13": -4,
+   "17": -6,
+   "19": 4,
+   "23": 0,
+   "29": 0,
+   "31": -8,
+   "37": 10,
+   "41": 6,
+   "43": -8,
+   "47": 4,
+   "53": -6,
+   "59": -4,
+   "61": -12,
+   "67": 8,
+   "71": -2,
+   "73": -6,
+   "79": 16,
+   "83": -8,
+   "89": -14,
+   "97": 2
+  }
+ },
+ "tame_characters": {
+  "generator_mod_31": 3,
+  "weight5_w3": {
+   "nebentypus": "omega^(-3)",
+   "order": 10,
+   "conductor": 31,
+   "parity_ok": true
+  },
+  "weight6_w4": {
+   "nebentypus": "omega^(-4)",
+   "order": 15,
+   "conductor": 31,
+   "parity_ok": true
+  },
+  "consequence": "g_3, g_4 are p-new of level 31N with ramified wild character; they are not p-stabilisations of level-N forms, and their symbols are not determined by the seed's weight-two symbols without Hida lifting."
+ },
+ "presentation_sizes": {
+  "|P^1(Z/31N)| (Manin symbols for Gamma_0(31N))": 416552442899890176,
+  "|P^1(Z/N)| (Manin symbols for Gamma_0(N))": 13017263840621568,
+  "coefficient slots per symbol (ten-moment quotient)": 10,
+  "unknown Z/p-digits in a full order-3 jet over Gamma_0(31N)": 8331048857997803520
+ },
+ "weight2_route_support": {
+  "divisors": "{infinity}-{a/31}, 1<=a<=30, and {infinity}-{a/961}, 31 not dividing a (and their negatives)",
+  "number_of_divisors": 960,
+  "distinct_level_N_manin_symbols_needed": 3608,
+  "support_sha256": "1e1d8b16d0185493f46ba2febfdd4f724e44c43009276f0e55e3d0a15d233dc1",
+  "what_is_missing": "the values of the seed's primitive plus eigen-functional on these Manin symbols"
+ },
+ "FIRST_FAILURE": {
+  "gate": "W2-ORACLE: seed primitive plus modular symbol on the support above",
+  "exact_reason": "no seed eigen-symbol oracle exists in the supplied material, and neither standard construction can be executed here: (a) Hecke/Manin linear algebra over 13017263840621568 level-N Manin symbols; (b) period integrals of f along paths to a/961.",
+  "ESTIMATE_terms_per_period_integral_at_denominator_961": "~ 961*sqrt(N)*O(1) = 7.750e+10",
+  "ESTIMATE_note": "requires a_n for n up to ~1e11 and a p-adic/archimedean comparison to the primitive integral normalisation; this is a resource statement, not a theorem that no cheaper method exists.",
+  "seed_values_computed": 0
+ }
+}

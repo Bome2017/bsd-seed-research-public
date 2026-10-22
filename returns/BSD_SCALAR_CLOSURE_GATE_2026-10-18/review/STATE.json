@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_INDEPENDENT_SCOPED_REVIEW",
+  "actual_generator": 3,
+  "support": 331,
+  "faithful_ranks": {
+    "3": 20,
+    "5": 20
+  },
+  "other_odd_rank": 20,
+  "full_rank": 60,
+  "half_rank_mod7": 60,
+  "ordinary_unit_products_in_generated_subgroup": "only1",
+  "seven_saturated": true,
+  "complete_unit_bound": false,
+  "ordinary_class_bound": false,
+  "seed_endpoint_change": false
+}

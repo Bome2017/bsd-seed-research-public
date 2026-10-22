@@ -1,0 +1,216 @@
+{
+ "scenarios": {
+  "low": {
+   "f": 1.25,
+   "price": 0.015,
+   "ops": 0.01,
+   "label": "spot, fast cores"
+  },
+  "central": {
+   "f": 1.0,
+   "price": 0.0187,
+   "ops": 0.03,
+   "label": "spot at the listed price, local-speed cores"
+  },
+  "high-spot": {
+   "f": 0.75,
+   "price": 0.025,
+   "ops": 0.06,
+   "label": "spot, slow cores, frequent interruptions"
+  },
+  "on-demand": {
+   "f": 1.0,
+   "price": 0.0513,
+   "ops": 0.01,
+   "label": "on-demand, local-speed cores"
+  },
+  "worst": {
+   "f": 0.75,
+   "price": 0.0513,
+   "ops": 0.06,
+   "label": "on-demand, slow cores"
+  }
+ },
+ "rows": [
+  [
+   "per-symbol exact identification (T_run, the design)",
+   "low",
+   "spot, fast cores",
+   110622.48013242683,
+   89382.96394700088,
+   1340.7444592050133,
+   20.35530204571933,
+   6.569,
+   1367.6687612507326,
+   69.83044058359444
+  ],
+  [
+   "per-symbol exact identification (T_run, the design)",
+   "central",
+   "spot at the listed price, local-speed cores",
+   110622.48013242683,
+   113941.15453639964,
+   2130.6995898306736,
+   24.560471667191717,
+   6.569,
+   2161.8290614978655,
+   89.01652698156222
+  ],
+  [
+   "per-symbol exact identification (T_run, the design)",
+   "high-spot",
+   "spot, slow cores, frequent interruptions",
+   110622.48013242683,
+   156346.43858716325,
+   3908.6609646790816,
+   31.821650443007403,
+   6.569,
+   3947.051615122089,
+   122.14565514622129
+  ],
+  [
+   "per-symbol exact identification (T_run, the design)",
+   "on-demand",
+   "on-demand, local-speed cores",
+   110622.48013242683,
+   111728.7049337511,
+   5731.682563101431,
+   24.18162755714916,
+   6.569,
+   5762.43319065858,
+   87.28805072949305
+  ],
+  [
+   "per-symbol exact identification (T_run, the design)",
+   "worst",
+   "on-demand, slow cores",
+   110622.48013242683,
+   156346.43858716325,
+   8020.572299521475,
+   31.821650443007403,
+   6.569,
+   8058.9629499644825,
+   122.14565514622129
+  ],
+  [
+   "nonzero-only scalar screen, best case",
+   "low",
+   "spot, fast cores",
+   173587.8576859354,
+   140258.98901023582,
+   2103.884835153537,
+   29.06695017298559,
+   6.569,
+   2139.520785326523,
+   109.57733516424673
+  ],
+  [
+   "nonzero-only scalar screen, best case",
+   "central",
+   "spot at the listed price, local-speed cores",
+   173587.8576859354,
+   178795.49341651346,
+   3343.475726888802,
+   35.665666680909844,
+   6.569,
+   3385.710393569712,
+   139.68397923165114
+  ],
+  [
+   "nonzero-only scalar screen, best case",
+   "high-spot",
+   "spot, slow cores, frequent interruptions",
+   173587.8576859354,
+   245337.50552945537,
+   6133.437638236384,
+   47.05984683723551,
+   6.569,
+   6187.06648507362,
+   191.669926194887
+  ],
+  [
+   "nonzero-only scalar screen, best case",
+   "on-demand",
+   "on-demand, local-speed cores",
+   173587.8576859354,
+   175323.73626279476,
+   8994.107670281372,
+   35.07118771623198,
+   6.569,
+   9035.747857997603,
+   136.97166895530842
+  ],
+  [
+   "nonzero-only scalar screen, best case",
+   "worst",
+   "on-demand, slow cores",
+   173587.8576859354,
+   245337.50552945537,
+   12585.81403366106,
+   47.05984683723551,
+   6.569,
+   12639.442880498294,
+   191.669926194887
+  ],
+  [
+   "exact scalar identification",
+   "low",
+   "spot, fast cores",
+   211768.6016312865,
+   171109.03011807948,
+   2566.635451771192,
+   34.34949145857525,
+   6.569,
+   2607.5539432297674,
+   133.67892977974958
+  ],
+  [
+   "exact scalar identification",
+   "central",
+   "spot at the listed price, local-speed cores",
+   211768.6016312865,
+   218121.6596802251,
+   4078.87503602021,
+   42.39959926031252,
+   6.569,
+   4127.843635280523,
+   170.40754662517585
+  ],
+  [
+   "exact scalar identification",
+   "high-spot",
+   "spot, slow cores, frequent interruptions",
+   211768.6016312865,
+   299299.6236388849,
+   7482.490590972124,
+   56.299935554603586,
+   6.569,
+   7545.359526526728,
+   233.82783096787884
+  ],
+  [
+   "exact scalar identification",
+   "on-demand",
+   "on-demand, local-speed cores",
+   211768.6016312865,
+   213886.28764759935,
+   10972.366556321847,
+   41.67436432321907,
+   6.569,
+   11020.609920645065,
+   167.098662224687
+  ],
+  [
+   "exact scalar identification",
+   "worst",
+   "on-demand, slow cores",
+   211768.6016312865,
+   299299.6236388849,
+   15354.070692674795,
+   56.299935554603586,
+   6.569,
+   15416.939628229398,
+   233.82783096787884
+  ]
+ ]
+}

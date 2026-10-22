@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "exact_export_binds_authenticated_compact_units_to_residue_input",
+    "complete_unit_projection_and_norm_residue_matrices_byte_identical",
+    "check_characters.py_byte_identical",
+    "check_local_divisors.py_byte_identical",
+    "independent_minimal_direct_product_witness_byte_identical",
+    "all_root_and_nested_manifest_entries_match"
+  ],
+  "manifest_entries": 173,
+  "no_BNF_or_class_certification_rerun": true
+}

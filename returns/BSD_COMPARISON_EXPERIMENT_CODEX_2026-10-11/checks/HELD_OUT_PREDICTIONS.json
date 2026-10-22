@@ -1,0 +1,22 @@
+{
+  "sealed_at_utc": "2026-10-12T05:06:20.333216+00:00",
+  "discovery_data_sha256": "11557f154c5b32b2bd44d71a2dbd593b669893ab23793de751e78e84d29c42e7",
+  "new_test_domain": "500 <= ell2 < 2000; same admissibility, no fitted new units",
+  "predictions": {
+    "113": {
+      "instrument_scalar_mod5": 4,
+      "cohomology_coordinates": [
+        4,
+        0
+      ]
+    },
+    "167": {
+      "instrument_scalar_mod5": 1,
+      "cohomology_coordinates": [
+        2,
+        1
+      ]
+    }
+  },
+  "grade": "finite-data conjecture about control-point classes, not CM source or seed"
+}

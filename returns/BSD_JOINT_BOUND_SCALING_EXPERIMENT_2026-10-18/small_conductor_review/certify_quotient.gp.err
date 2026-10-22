@@ -1,0 +1,5 @@
+  *** bnfcertify: Warning: Zimmert's bound is large (1593360910660456325376), certification will take a long time.
+  ***   at top-level: ..._CERTIFICATION_START");Q=bnfcertify(B,1);if(Q!
+  ***                                             ^---------------------
+  *** bnfcertify: alarm interrupt after 57,911 ms.
+... skipping file 'certify_quotient.gp'

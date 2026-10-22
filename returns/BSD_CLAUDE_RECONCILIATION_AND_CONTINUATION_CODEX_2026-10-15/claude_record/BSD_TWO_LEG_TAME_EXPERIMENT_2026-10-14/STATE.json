@@ -1,0 +1,9 @@
+{
+ "experiment": "two-leg tame",
+ "date": "2026-10-14",
+ "status": "COMPLETE",
+ "step_done": 4,
+ "next": "optional: wild leg (p-adic direction x tame) on controls; global-object experiments",
+ "sealed": "f3f57041150fcae07fb0aa14e7566024e972ea6b43718f4a6c8858761bad59bc",
+ "verdict": "ONE_FORM_ACROSS_TWO_PRIMES: mixed 714/714 clean, 512/512 nonzero"
+}

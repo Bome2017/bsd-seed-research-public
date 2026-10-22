@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-09-21T19:37:36.853837+00:00",
+  "result": "PASS_WITH_DECLARED_COMPUTER_ASSISTED_TRUST_BASE",
+  "cutoff": 3456106495,
+  "atomic_units_verified": 1030,
+  "coefficient_segments_rehashed": 206,
+  "counts": {
+    "smooth": 1132735953,
+    "pairs": 2323370542,
+    "total": 3456106495
+  },
+  "integer_decimal_interval": {
+    "lower_numerator": 39512236,
+    "upper_numerator": 40182321,
+    "denominator": 1000000
+  },
+  "zero_excluded": true,
+  "fresh_recombination_identical": true,
+  "first_segment_independent_count_check": true,
+  "sealed_engine_unchanged": true,
+  "formal_proof": false,
+  "second_full_numerical_implementation": false
+}

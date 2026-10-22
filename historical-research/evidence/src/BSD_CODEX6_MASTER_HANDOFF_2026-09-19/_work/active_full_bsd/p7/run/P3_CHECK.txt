@@ -1,0 +1,8 @@
+PASS m=49: a_q segment root over 928 verified segments = 0db19ef80833a5bf
+PASS m=49: count identity COUNT smooth 5076972991 pairs 10492283456 sum 15569256447 T 15569256447 identity 1
+PASS m=49: all 42 plus and 42 minus symbols identified in (1/1024)Z
+PASS m=7: a_q segment root over 128 verified segments = 006f85212ce61317
+PASS m=7: count identity COUNT smooth 704514510 pairs 1442969137 sum 2147483647 T 2147483647 identity 1
+PASS m=7: all 6 plus and 6 minus symbols identified in (1/1024)Z
+PASS T_p (p !| N, [0]^+ = 0) relation a_7[b/7] = sum_j [(b+7j)/49] (a_7 = -2 from the verified a_q file): 12 identities
+P3_CHECK_PASS failures=0

@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE_BOUNDED_EXPERIMENT",
+  "date": "2026-10-13",
+  "mathematical_status": "CONTROL_ADMISSION_COMPUTED; SEED_CANDIDATES_TESTED; NO_NEW_SEED_BOUND",
+  "completed": [
+    "certified quartic eligible source and isogeny point image",
+    "independent ideal-class boundary and331local-rejection checks",
+    "actual seed1783localpairing",
+    "three explicit seed field-source constructions and norm tests",
+    "affine-line valuation-additivity repair, rejected at7",
+    "aggregate11-output byte-identical replay"
+  ],
+  "unresolved": [
+    "seed global reciprocity witness",
+    "full seed admission matrix and upper bound",
+    "cofinite control",
+    "FIN",
+    "ORDER9",
+    "Q36"
+  ],
+  "known_sha_used_in_new_tests": false,
+  "publication": "Prepared for authorized lab upload; commit recorded in external custody",
+  "grade": "Written theorem application and exact computation; same-team independent checks; not human/formal certification"
+}

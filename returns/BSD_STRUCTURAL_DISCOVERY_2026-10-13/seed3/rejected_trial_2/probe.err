@@ -1,0 +1,18 @@
+  *** read: Warning: increasing stack size to 1000000000.
+  *** subst: Warning: increasing stack size to 2000000000.
+  ***   at top-level: ...s=",ix,"; block=",if(#ix,vecextract(V,ix,),[;]
+  ***                                             ^---------------------
+  *** vecextract: nonexistent component in vecextract: index >= 5
+... skipping file 'probe.gp'
+  ***   at top-level: ...1,#GF~,IG=idealmul(nf,IG,idealpow(nf,idealhnf(
+  ***                                             ^---------------------
+  *** idealpow: overflow in lg().
+  ***   at top-level: ...(nf,IG)!=idealhnf(nf,IU),error("compact genera
+  ***                                             ^---------------------
+  ***   user error: compact generator ideal mismatch
+  ***   at top-level: ...#UF~,IUF=idealmul(nf,IUF,idealpow(nf,idealhnf(
+  ***                                             ^---------------------
+  *** idealpow: overflow in lg().
+  ***   at top-level: if(idealhnf(nf,IUF)!=matid(8),error("unit prin
+  ***                    ^-------------------------------------------
+  *** idealhnf: inconsistent variables in nf_to_scalar_or_basis, IUF != w.

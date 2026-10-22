@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-06",
+  "review_status": "BFR_CONFIRMED_UNDER_RETAINED_INPUTS_WITH_CORRECTIONS",
+  "publication_destination": "Bome2017/bsd-seed-lab",
+  "branch": "research/state-sync-2026-10-04",
+  "copied_manifest_verification": {
+    "status": "CUSTODY_AND_RECEIPTS_VERIFIED",
+    "review_manifest_entries": 64,
+    "original_research_entries": 21,
+    "axiom_declarations": 27,
+    "does_not_prove_BFR": true
+  },
+  "archives": [
+    {
+      "path": "work/returns/archives/13920c22-e3bc-4dfb-a137-cf15033983a9-aristotle.tar.gz",
+      "bytes": 66122605,
+      "sha256": "654c743693b33df14ac4e80db51cf27910d8981f93a3156c6c18bbaadb4e4bca"
+    },
+    {
+      "path": "work/returns/archives/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06.zip",
+      "bytes": 163290,
+      "sha256": "5b866e2c3826b2ca5455170972caaf2677af5fb8c86452cb129cfbc606928e3c"
+    }
+  ],
+  "input_custody": {
+    "original_entries_match": 21,
+    "original_missing": [],
+    "original_different": [],
+    "returned_manifests": {
+      "project/MANIFEST.sha256": {
+        "entries": 15,
+        "failed": []
+      },
+      "research_return/MANIFEST.sha256": {
+        "entries": 21,
+        "failed": []
+      }
+    },
+    "reading_set_manifest_entries_verified": 5180,
+    "startup_reading_path_hashes_verified": 4
+  },
+  "aristotle_job_submitted": false,
+  "research_promotion": false,
+  "endpoint_status": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  }
+}

@@ -1,0 +1,4864 @@
+[
+  {
+    "label": "8890o3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -3184418010,
+      -69166354628740
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 8890,
+    "discriminant_factorization": [
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        127,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        127,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 19106508060*x^2 - 829996255544880*x - 10140587228766988840",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "26110k3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -11764185,
+      -15531675065
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 26110,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        373,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        373,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 70585110*x^2 - 186380100780*x - 138411580389290",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "28042a1",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -1367381,
+      615777525
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 28042,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        2003,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        2003,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        29,
+        2
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        41,
+        8
+      ],
+      [
+        61,
+        6
+      ],
+      [
+        71,
+        -8
+      ],
+      [
+        83,
+        -14
+      ],
+      [
+        89,
+        10
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 8204286*x^2 + 7389330300*x - 1871578131736",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "28042a2",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -21878101,
+      39393344757
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 28042,
+    "discriminant_factorization": [
+      [
+        2,
+        11
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        2003,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        2003,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        29,
+        2
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        41,
+        8
+      ],
+      [
+        61,
+        6
+      ],
+      [
+        71,
+        -8
+      ],
+      [
+        83,
+        -14
+      ],
+      [
+        89,
+        10
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 131268606*x^2 + 472720137084*x - 478769483400472",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "35882a1",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -156926,
+      -24991340
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 35882,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        233,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        233,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        19,
+        -6
+      ],
+      [
+        29,
+        10
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        37,
+        -6
+      ],
+      [
+        41,
+        -4
+      ],
+      [
+        43,
+        12
+      ],
+      [
+        59,
+        8
+      ],
+      [
+        67,
+        12
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 941556*x^2 - 299896080*x - 24550795456",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "35882a2",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -2542846,
+      -1560092268
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 35882,
+    "discriminant_factorization": [
+      [
+        2,
+        11
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        233,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        233,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        19,
+        -6
+      ],
+      [
+        29,
+        10
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        37,
+        -6
+      ],
+      [
+        41,
+        -4
+      ],
+      [
+        43,
+        12
+      ],
+      [
+        59,
+        8
+      ],
+      [
+        67,
+        12
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 15257076*x^2 - 18721107216*x - 6461385502912",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "36575e3",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      -1,
+      1,
+      209446467,
+      -4237643072282
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 36575,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        5,
+        33
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        19,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        11,
+        1
+      ],
+      [
+        19,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 - 4*x^3 + 1256678802*x^2 - 50851716867381*x - 43850871966492962",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "37037e3",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -18749983,
+      -31256208328
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 37037,
+    "discriminant_factorization": [
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 4*x^3 - 112499898*x^2 - 375074499933*x - 351686887333600",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "38570h3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -2844050,
+      -1846416310
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 38570,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        29,
+        9
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        19,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 17064300*x^2 - 22156995720*x - 8090466818810",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "42350dc2",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -1715238,
+      -864781708
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 42350,
+    "discriminant_factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        4
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 10291428*x^2 - 10377380496*x - 2942906178352",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "46462a1",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -10179744,
+      12500399598
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 46462,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        1787,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        13,
+        1
+      ],
+      [
+        1787,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        -1
+      ],
+      [
+        7,
+        -3
+      ],
+      [
+        17,
+        5
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        23,
+        -4
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        37,
+        -3
+      ],
+      [
+        59,
+        10
+      ],
+      [
+        71,
+        -5
+      ],
+      [
+        73,
+        0
+      ],
+      [
+        89,
+        10
+      ]
+    ],
+    "division_polynomial": "3*x^4 + x^3 - 61078461*x^2 + 150004795179*x - 103614677326194",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "49300u2",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -27453708,
+      -55375978412
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 49300,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        29,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        17,
+        1
+      ],
+      [
+        29,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 4*x^3 - 164722248*x^2 - 664511740944*x - 753927586862912",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "52598t3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -4526613,
+      -3708763007
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 52598,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        17,
+        6
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 27159675*x^2 - 44505156081*x - 20508764540190",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "52598v3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -236697,
+      -1099140403
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 52598,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        17,
+        15
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 1420179*x^2 - 13189684833*x - 61520935126",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "55874m3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -1307954472,
+      -18207052903904
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 55874,
+    "discriminant_factorization": [
+      [
+        2,
+        5
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        307,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        307,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 7847726832*x^2 - 218484634846848*x - 1710763107877702688",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "59150bv3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -66176263,
+      -207233165469
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 59150,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        7
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 397057575*x^2 - 2486797985625*x - 4380333884296250",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "59150bx5",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -2234923688,
+      -40667933624219
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 59150,
+    "discriminant_factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        13,
+        7
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 13409542125*x^2 - 488015203490625*x - 4995087228616718750",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "59150bx6",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -2235219438,
+      -40656632425219
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 59150,
+    "discriminant_factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        8
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 13411316625*x^2 - 487879589102625*x - 4996409216939942500",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "59690m2",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -949180,
+      -355963040
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 59690,
+    "discriminant_factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        47,
+        1
+      ],
+      [
+        127,
+        6
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        47,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 5695080*x^2 - 4271556480*x - 901298635440",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "61504bq1",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      0,
+      0,
+      3844,
+      -238328
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 61504,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        31,
+        7
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [],
+    "irreducible_frobenius_witnesses": [
+      [
+        7,
+        3
+      ],
+      [
+        11,
+        -2
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        41,
+        7
+      ],
+      [
+        53,
+        -4
+      ],
+      [
+        61,
+        12
+      ],
+      [
+        67,
+        -12
+      ],
+      [
+        71,
+        13
+      ],
+      [
+        79,
+        6
+      ],
+      [
+        89,
+        10
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 23064*x^2 - 2859936*x - 14776336",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "61672a1",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      30256,
+      1885664
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 61672,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        593,
+        4
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        13,
+        1
+      ],
+      [
+        593,
+        4
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        7,
+        -3
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        17,
+        5
+      ],
+      [
+        19,
+        -6
+      ],
+      [
+        23,
+        -4
+      ],
+      [
+        41,
+        4
+      ],
+      [
+        47,
+        -7
+      ],
+      [
+        71,
+        -5
+      ],
+      [
+        73,
+        6
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 4*x^3 + 181536*x^2 + 22627968*x - 907882880",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "63002a1",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -1229171,
+      -524019275
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 63002,
+    "discriminant_factorization": [
+      [
+        2,
+        6
+      ],
+      [
+        17,
+        9
+      ],
+      [
+        109,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        109,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        23,
+        -2
+      ],
+      [
+        31,
+        -6
+      ],
+      [
+        47,
+        -8
+      ],
+      [
+        59,
+        8
+      ],
+      [
+        67,
+        12
+      ],
+      [
+        71,
+        -2
+      ],
+      [
+        83,
+        4
+      ],
+      [
+        89,
+        2
+      ],
+      [
+        97,
+        -12
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 7375026*x^2 - 6288231300*x - 1509289289416",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "63002a2",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -1425691,
+      -345068163
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 63002,
+    "discriminant_factorization": [
+      [
+        2,
+        3
+      ],
+      [
+        17,
+        9
+      ],
+      [
+        109,
+        4
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        109,
+        4
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        23,
+        -2
+      ],
+      [
+        31,
+        -6
+      ],
+      [
+        47,
+        -8
+      ],
+      [
+        59,
+        8
+      ],
+      [
+        67,
+        12
+      ],
+      [
+        71,
+        -2
+      ],
+      [
+        83,
+        4
+      ],
+      [
+        89,
+        2
+      ],
+      [
+        97,
+        -12
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 8554146*x^2 - 4140817956*x - 2031559622992",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "63973e1",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -53313,
+      4720303
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 63973,
+    "discriminant_factorization": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 4*x^3 - 319878*x^2 + 56643639*x - 2823394756",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "73406e3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -7060854,
+      -7224550891
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 73406,
+    "discriminant_factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        17,
+        6
+      ],
+      [
+        127,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        127,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 42365121*x^2 - 86694610689*x - 49891774902916",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "74074p5",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -116325419398,
+      -15270748691647404
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 74074,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        37,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        37,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 697952516388*x^2 - 183248984299768848*x - 13531618468869286329808",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "74074p6",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -1861206710738,
+      -977327450556095000
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 74074,
+    "discriminant_factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 11167240264428*x^2 - 11727929406673140000*x - 3464091397423615760599644",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "76570i3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -92412721,
+      -341944428135
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 76570,
+    "discriminant_factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        13,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 554476326*x^2 - 4103333137620*x - 8540452947051976",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "82288o1",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      0,
+      0,
+      -82136,
+      -10008697
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 82288,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        37,
+        8
+      ],
+      [
+        139,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        37,
+        8
+      ],
+      [
+        139,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        7,
+        3
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        19,
+        -6
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        41,
+        -2
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        53,
+        -2
+      ],
+      [
+        61,
+        12
+      ],
+      [
+        67,
+        9
+      ],
+      [
+        71,
+        5
+      ],
+      [
+        89,
+        -5
+      ],
+      [
+        97,
+        -6
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 492816*x^2 - 120104364*x - 6746322496",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "82940k2",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -2521045,
+      -1540405817
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 82940,
+    "discriminant_factorization": [
+      [
+        2,
+        8
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        29,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        29,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 4*x^3 - 15126270*x^2 - 18484869804*x - 6361829515293",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "84493a1",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -97,
+      -402
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 84493,
+    "discriminant_factorization": [
+      [
+        19,
+        1
+      ],
+      [
+        4447,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        19,
+        1
+      ],
+      [
+        4447,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        29,
+        -2
+      ],
+      [
+        41,
+        -7
+      ],
+      [
+        47,
+        -11
+      ],
+      [
+        61,
+        6
+      ],
+      [
+        71,
+        4
+      ],
+      [
+        89,
+        -1
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 4*x^3 - 582*x^2 - 4821*x - 11016",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "90334i2",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -2528891,
+      1546840693
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 90334,
+    "discriminant_factorization": [
+      [
+        2,
+        3
+      ],
+      [
+        31,
+        9
+      ],
+      [
+        47,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        47,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 15173346*x^2 + 18562088316*x - 6387555486416",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "90568c1",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -1328992,
+      589257952
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 90568,
+    "discriminant_factorization": [
+      [
+        2,
+        11
+      ],
+      [
+        11321,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        11321,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        13,
+        -3
+      ],
+      [
+        17,
+        5
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        41,
+        11
+      ],
+      [
+        67,
+        -12
+      ],
+      [
+        79,
+        0
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 4*x^3 - 7973952*x^2 + 7071095424*x - 1763862704256",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "90706f3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -1735212,
+      -2011571862
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 90706,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 10411269*x^2 - 24138862341*x - 3012970521594",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "90706g3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -24568295,
+      -46873739030
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 90706,
+    "discriminant_factorization": [
+      [
+        2,
+        27
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 147409767*x^2 - 562484868357*x - 603647968377760",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "92690h3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -6962866241,
+      -223630646283025
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 92690,
+    "discriminant_factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        18
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        23,
+        1
+      ],
+      [
+        31,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 41777197446*x^2 - 2683567755396300*x - 48481729920703753106",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "97090l3",
+    "rank_selection": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -2418366601,
+      -45775514061669
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 97090,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        73,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        73,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 14510199606*x^2 - 549306168740028*x - 5848542792346354870",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "99856g2",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -8140344,
+      -2683494316
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 99856,
+    "discriminant_factorization": [
+      [
+        2,
+        18
+      ],
+      [
+        79,
+        9
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 4*x^3 - 48842064*x^2 - 32201931792*x - 66275934415600",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "99856g3",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -520900904,
+      -4576113258316
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 99856,
+    "discriminant_factorization": [
+      [
+        2,
+        30
+      ],
+      [
+        79,
+        7
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 4*x^3 - 3125405424*x^2 - 54913359099792*x - 271356056241050480",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "100720f1",
+    "rank_selection": 1,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -421,
+      -3144
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 100720,
+    "discriminant_factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1259,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        1259,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        11,
+        4
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        37,
+        6
+      ],
+      [
+        53,
+        10
+      ],
+      [
+        59,
+        -4
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 4*x^3 - 2526*x^2 - 37728*x - 164665",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "182b3",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -15663,
+      -755809
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 182,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 93978*x^2 - 9069708*x - 246085378",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "448c5",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -10913,
+      -436447
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 448,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 - 4*x^3 - 65478*x^2 - 5237364*x - 117347781",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "448c6",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -174753,
+      -28059871
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 448,
+    "discriminant_factorization": [
+      [
+        2,
+        27
+      ],
+      [
+        7,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 - 4*x^3 - 1048518*x^2 - 336718452*x - 30426371525",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "475a3",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      -1,
+      1,
+      -19233,
+      -1020257
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 475,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        19,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        19,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 - 4*x^3 - 115398*x^2 - 12243081*x - 365827262",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "578a3",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -29773,
+      -1989473
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 578,
+    "discriminant_factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        17,
+        9
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 178635*x^2 - 23873673*x - 896349120",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "578a4",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -32663,
+      -1583717
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 578,
+    "discriminant_factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        17,
+        12
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 - 195975*x^2 - 19004601*x - 1074757490",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "910e3",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -50503198,
+      -146507820272
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 910,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        63
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 303019185*x^2 - 1758093843261*x - 2550719465544278",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "910j5",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -528976,
+      -148126020
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 910,
+    "discriminant_factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 3173856*x^2 - 1777512240*x - 279963734596",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "910j6",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -529046,
+      -148084874
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 910,
+    "discriminant_factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 3174276*x^2 - 1777018488*x - 280037754990",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "938d3",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -351399,
+      -80206123
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 938,
+    "discriminant_factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        67,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        67,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 2108394*x^2 - 962473476*x - 123561463324",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "1913b1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -34,
+      -135
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 1913,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        1913,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        1913,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        17,
+        -2
+      ],
+      [
+        23,
+        -4
+      ],
+      [
+        37,
+        -6
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        79,
+        6
+      ],
+      [
+        83,
+        -8
+      ],
+      [
+        89,
+        14
+      ],
+      [
+        97,
+        18
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 204*x^2 - 1620*x - 1831",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "1913b2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -39,
+      -112
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 1913,
+    "discriminant_factorization": [
+      [
+        1913,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        1913,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        17,
+        -2
+      ],
+      [
+        23,
+        -4
+      ],
+      [
+        37,
+        -6
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        79,
+        6
+      ],
+      [
+        83,
+        -8
+      ],
+      [
+        89,
+        14
+      ],
+      [
+        97,
+        18
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 234*x^2 - 1344*x - 2081",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2006e1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -58293654,
+      -171333232940
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2006,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        17,
+        5
+      ],
+      [
+        59,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        17,
+        5
+      ],
+      [
+        59,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        -2
+      ],
+      [
+        23,
+        -5
+      ],
+      [
+        41,
+        2
+      ],
+      [
+        47,
+        4
+      ],
+      [
+        53,
+        4
+      ],
+      [
+        89,
+        4
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 349761924*x^2 - 2055998795280*x - 3399006762836416",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2366d1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      1,
+      503,
+      -2702
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2366,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        8
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 + 3021*x^2 - 32421*x - 256214",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "2429b1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -115,
+      -528
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2429,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        347,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        347,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        2,
+        1
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        31,
+        6
+      ],
+      [
+        47,
+        -4
+      ],
+      [
+        59,
+        2
+      ],
+      [
+        67,
+        12
+      ],
+      [
+        71,
+        -8
+      ],
+      [
+        79,
+        0
+      ],
+      [
+        89,
+        -2
+      ],
+      [
+        97,
+        12
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 690*x^2 - 6336*x - 15865",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2429b2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -1850,
+      -31411
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2429,
+    "discriminant_factorization": [
+      [
+        7,
+        2
+      ],
+      [
+        347,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        347,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        2,
+        1
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        31,
+        6
+      ],
+      [
+        47,
+        -4
+      ],
+      [
+        59,
+        2
+      ],
+      [
+        67,
+        12
+      ],
+      [
+        71,
+        -8
+      ],
+      [
+        79,
+        0
+      ],
+      [
+        89,
+        -2
+      ],
+      [
+        97,
+        12
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 11100*x^2 - 376932*x - 3579555",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2534e1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -1393324,
+      -640018129
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2534,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        44
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        181,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        181,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        43,
+        -12
+      ],
+      [
+        47,
+        8
+      ],
+      [
+        53,
+        14
+      ],
+      [
+        71,
+        8
+      ],
+      [
+        73,
+        -6
+      ],
+      [
+        89,
+        -14
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 8359941*x^2 - 7680217545*x - 1939430321266",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2534e2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -22364844,
+      -40704009937
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2534,
+    "discriminant_factorization": [
+      [
+        2,
+        22
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        181,
+        4
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        181,
+        4
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        43,
+        -12
+      ],
+      [
+        47,
+        8
+      ],
+      [
+        53,
+        14
+      ],
+      [
+        71,
+        8
+      ],
+      [
+        73,
+        -6
+      ],
+      [
+        89,
+        -14
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 134189061*x^2 - 488448119241*x - 500064112749682",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2534e3",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -357837484,
+      -2605325248209
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2534,
+    "discriminant_factorization": [
+      [
+        2,
+        11
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        181,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        4
+      ],
+      [
+        181,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        43,
+        -12
+      ],
+      [
+        47,
+        8
+      ],
+      [
+        53,
+        14
+      ],
+      [
+        71,
+        8
+      ],
+      [
+        73,
+        -6
+      ],
+      [
+        89,
+        -14
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 2147024901*x^2 - 31263902978505*x - 128039848621868146",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2534e4",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -22436524,
+      -40429905617
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2534,
+    "discriminant_factorization": [
+      [
+        2,
+        11
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        181,
+        8
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        181,
+        8
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        43,
+        -12
+      ],
+      [
+        47,
+        8
+      ],
+      [
+        53,
+        14
+      ],
+      [
+        71,
+        8
+      ],
+      [
+        73,
+        -6
+      ],
+      [
+        89,
+        -14
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 134619141*x^2 - 485158867401*x - 503276297049202",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2534f1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -303,
+      -1955
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2534,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        181,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        5
+      ],
+      [
+        181,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        -1
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        17,
+        -1
+      ],
+      [
+        19,
+        6
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        47,
+        -4
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        71,
+        2
+      ],
+      [
+        73,
+        6
+      ],
+      [
+        89,
+        -14
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 3*x^3 - 1815*x^2 - 23457*x - 85642",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2590c3",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -76353,
+      -13098892
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2590,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        45
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        37,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 458115*x^2 - 157186701*x - 5842803148",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "2674b1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -2758,
+      -55020
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2674,
+    "discriminant_factorization": [
+      [
+        2,
+        26
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        191,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        191,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        4
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        17,
+        -2
+      ],
+      [
+        29,
+        4
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        61,
+        6
+      ],
+      [
+        89,
+        14
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 16548*x^2 - 660240*x - 7881664",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2674b2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -43718,
+      -3536620
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2674,
+    "discriminant_factorization": [
+      [
+        2,
+        13
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        191,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        191,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        4
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        17,
+        -2
+      ],
+      [
+        29,
+        4
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        61,
+        6
+      ],
+      [
+        89,
+        14
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 262308*x^2 - 42439440*x - 1928946624",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2710c1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -48498,
+      -4131148
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2710,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        271,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        5,
+        7
+      ],
+      [
+        271,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        11,
+        -2
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        29,
+        7
+      ],
+      [
+        43,
+        6
+      ],
+      [
+        47,
+        7
+      ],
+      [
+        59,
+        -1
+      ],
+      [
+        67,
+        3
+      ],
+      [
+        79,
+        3
+      ],
+      [
+        89,
+        13
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 290988*x^2 - 49573776*x - 2372711744",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2768c1",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -52,
+      -180
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2768,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        173,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        173,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        29,
+        2
+      ],
+      [
+        41,
+        10
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        61,
+        -6
+      ],
+      [
+        71,
+        2
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 4*x^3 - 312*x^2 - 2160*x - 1984",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2768c2",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -57,
+      -148
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2768,
+    "discriminant_factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        173,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        173,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        29,
+        2
+      ],
+      [
+        41,
+        10
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        61,
+        -6
+      ],
+      [
+        71,
+        2
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 4*x^3 - 342*x^2 - 1776*x - 2657",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2849a1",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -53484,
+      -4843180
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2849,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        37,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        37,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        2,
+        -1
+      ],
+      [
+        5,
+        -2
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        47,
+        -10
+      ],
+      [
+        67,
+        0
+      ],
+      [
+        73,
+        12
+      ],
+      [
+        79,
+        0
+      ],
+      [
+        83,
+        8
+      ],
+      [
+        89,
+        2
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 320901*x^2 - 58118157*x - 2884700671",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2849a2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -858739,
+      -306652754
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2849,
+    "discriminant_factorization": [
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        37,
+        4
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        37,
+        4
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        2,
+        -1
+      ],
+      [
+        5,
+        -2
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        47,
+        -10
+      ],
+      [
+        67,
+        0
+      ],
+      [
+        73,
+        12
+      ],
+      [
+        79,
+        0
+      ],
+      [
+        83,
+        8
+      ],
+      [
+        89,
+        2
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 5*x^3 - 5152431*x^2 - 3679833045*x - 738965075151",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2932a1",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      0,
+      0,
+      -239,
+      -1530
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2932,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        733,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        733,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        37,
+        -6
+      ],
+      [
+        43,
+        -6
+      ],
+      [
+        47,
+        -8
+      ],
+      [
+        53,
+        10
+      ],
+      [
+        59,
+        4
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 1434*x^2 - 18360*x - 57121",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "2932a2",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      0,
+      0,
+      -244,
+      -1467
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 2932,
+    "discriminant_factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        733,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        733,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        37,
+        -6
+      ],
+      [
+        43,
+        -6
+      ],
+      [
+        47,
+        -8
+      ],
+      [
+        53,
+        10
+      ],
+      [
+        59,
+        4
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 1464*x^2 - 17604*x - 59536",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "3094h3",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -819,
+      -223769
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3094,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        17,
+        9
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 4914*x^2 - 2685228*x - 894530",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "3536h1",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -2319216,
+      -485927468
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3536,
+    "discriminant_factorization": [
+      [
+        2,
+        34
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        17,
+        5
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        13,
+        4
+      ],
+      [
+        17,
+        5
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        29,
+        -8
+      ],
+      [
+        41,
+        10
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        47,
+        -8
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        61,
+        12
+      ],
+      [
+        89,
+        -14
+      ],
+      [
+        97,
+        -6
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 4*x^3 - 13915296*x^2 - 5831129616*x - 5380706564528",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "3536h2",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -30008176,
+      -63229110828
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3536,
+    "discriminant_factorization": [
+      [
+        2,
+        23
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        17,
+        10
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        13,
+        2
+      ],
+      [
+        17,
+        10
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        29,
+        -8
+      ],
+      [
+        41,
+        10
+      ],
+      [
+        43,
+        0
+      ],
+      [
+        47,
+        -8
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        61,
+        12
+      ],
+      [
+        89,
+        -14
+      ],
+      [
+        97,
+        -6
+      ]
+    ],
+    "division_polynomial": "3*x^4 + 4*x^3 - 180049056*x^2 - 758749329936*x - 900743543290288",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "3605c3",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -839515,
+      -296347561
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3605,
+    "discriminant_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        103,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        103,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 4*x^3 - 5037090*x^2 - 3556170729*x - 705970825468",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "3712j1",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -2242,
+      -40122
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3712,
+    "discriminant_factorization": [
+      [
+        2,
+        7
+      ],
+      [
+        29,
+        2
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        29,
+        2
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        13,
+        -6
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        41,
+        10
+      ],
+      [
+        47,
+        4
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        59,
+        -14
+      ],
+      [
+        73,
+        6
+      ],
+      [
+        89,
+        -10
+      ],
+      [
+        97,
+        6
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 4*x^3 - 13452*x^2 - 481464*x - 4866076",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "3712j2",
+    "rank_selection": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -2237,
+      -40315
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3712,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        29,
+        4
+      ]
+    ],
+    "division_polynomial_irreducible": true,
+    "transvection_witnesses": [
+      [
+        29,
+        4
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [
+      [
+        5,
+        2
+      ],
+      [
+        13,
+        -6
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        41,
+        10
+      ],
+      [
+        47,
+        4
+      ],
+      [
+        53,
+        2
+      ],
+      [
+        59,
+        -14
+      ],
+      [
+        73,
+        6
+      ],
+      [
+        89,
+        -10
+      ],
+      [
+        97,
+        6
+      ]
+    ],
+    "division_polynomial": "3*x^4 - 4*x^3 - 13422*x^2 - 483780*x - 4842909",
+    "full_mod3_by_irreducible_plus_transvection": true
+  },
+  {
+    "label": "3850e2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      247175,
+      -158947875
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3850,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        11,
+        1
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        11,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 + 1483050*x^2 - 1907374500*x - 61890220000",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "3850y2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -4213013,
+      41270106017
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 3850,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        15
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [
+      [
+        7,
+        1
+      ]
+    ],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + x^3 - 25278078*x^2 + 495241272204*x - 17708208432152",
+    "full_mod3_by_irreducible_plus_transvection": false
+  },
+  {
+    "label": "4046j2",
+    "rank_selection": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      248823,
+      611945365
+    ],
+    "analytic_sha_selection": 9,
+    "conductor": 4046,
+    "discriminant_factorization": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        17,
+        10
+      ]
+    ],
+    "division_polynomial_irreducible": false,
+    "transvection_witnesses": [],
+    "irreducible_frobenius_witnesses": [],
+    "division_polynomial": "3*x^4 + 5*x^3 + 1492941*x^2 + 7343344383*x - 58853407326",
+    "full_mod3_by_irreducible_plus_transvection": false
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "tag": "A6",
+    "archive": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-6.tar.gz",
+    "sha256": "0493d42cebdea3805cb539441ef86a067bef7a0f9ce454a2bc3837ffdd223632",
+    "previous_archive": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-5.tar.gz",
+    "previous_sha256": "d7aca57b4b6da908e21ed07154c44238ddc033ec6d61da83aca44406ededeaea",
+    "extraction": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/A6",
+    "added": [
+      "P13_PRELIMINARY_DATA_VERIFIED.md",
+      "RequestProject/ReductionAt13.lean"
+    ],
+    "modified": [
+      "ARISTOTLE_SUMMARY.md"
+    ],
+    "removed": [],
+    "files": [
+      {
+        "path": "ARISTOTLE_A_CORRECTIONS.md",
+        "sha256": "81e2b732e80f639bebb4f0c639e9c093026da64e17748f5d9eb8a296b0fa9255",
+        "bytes": 6495
+      },
+      {
+        "path": "ARISTOTLE_A_CORRECTIONS_2.md",
+        "sha256": "15bae7d052e4072b44a42a342dd931a627295835daa5136e959d1371eec729ee",
+        "bytes": 7840
+      },
+      {
+        "path": "ARISTOTLE_A_RETURN.md",
+        "sha256": "31c27054e002b93a3c66c6f3b51bf08cc45946f221c4a674f5af4c7d6067a4fc",
+        "bytes": 24572
+      },
+      {
+        "path": "ARISTOTLE_BSD_INVENTION_2026-09-20.tar.gz",
+        "sha256": "3bdb19f674b2d5a3da107c66f62f4287d5b1803e252d4ab5fe69700945c12823",
+        "bytes": 97236
+      },
+      {
+        "path": "ARISTOTLE_C11_RESULT.tar.gz",
+        "sha256": "19c8380951916b1fbd360c03f79e9e3b2d2903fec0501e820b5f4f9931c2dabd",
+        "bytes": 3235885
+      },
+      {
+        "path": "ARISTOTLE_SUMMARY.md",
+        "sha256": "f6f3d0bc56653c5bdaf3cf2533c6b95c8a1428027df8d728b819b0be7fb55673",
+        "bytes": 19481
+      },
+      {
+        "path": "C11_EXECUTION_BLOCKER.md",
+        "sha256": "799226e6d9f5061bbae373219fa14d3fc329712306fd4fbb0771f73a87399fb0",
+        "bytes": 6041
+      },
+      {
+        "path": "IMPORTED_C11_INPUT.md",
+        "sha256": "98004f3db986e4dc48e019f3df2c1ec79edbe6242feeabe1275d4fec61360af6",
+        "bytes": 5919
+      },
+      {
+        "path": "P13_PRELIMINARY_DATA_VERIFIED.md",
+        "sha256": "9dfbf1120f3494c7e8823c01e661d64034fe8ee976f02dbbfe7a6446d0573b7d",
+        "bytes": 2868
+      },
+      {
+        "path": "README.md",
+        "sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+        "bytes": 248
+      },
+      {
+        "path": "RequestProject/.gitkeep",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "RequestProject/Assembly.lean",
+        "sha256": "a301ac6087511153d1345072d71e8e006ac4757802d66749c6680aff83a56b80",
+        "bytes": 11266
+      },
+      {
+        "path": "RequestProject/DualityTautology.lean",
+        "sha256": "56db10edf7d904a3eb66e9f30bad08cd94ec8c609c84949ac721206be21ae0c9",
+        "bytes": 3497
+      },
+      {
+        "path": "RequestProject/Family.lean",
+        "sha256": "d2f0fbbfff0e987a7bbd806c9f75393cb7e8d6c4864a4f21761b14c0c9215e14",
+        "bytes": 7010
+      },
+      {
+        "path": "RequestProject/IsotropicSharpness.lean",
+        "sha256": "e5908343d5ffc8eb6829a9cdd7f236b19f8e3c80e0d07d16e685dcabf91f327e",
+        "bytes": 11618
+      },
+      {
+        "path": "RequestProject/IwasawaControl.lean",
+        "sha256": "6ffa414426b0072b16e590f7fae29498806e196f3b964129a3de3eb9fc5e9137",
+        "bytes": 10412
+      },
+      {
+        "path": "RequestProject/Main.lean",
+        "sha256": "929b0bddef0b781f3fb42c7a99f252dc0bda7331f698104f7075e12ff637c52d",
+        "bytes": 563
+      },
+      {
+        "path": "RequestProject/ReductionAt13.lean",
+        "sha256": "0cef5e501496a26e439c09117cffaa894076d2861444e82f798cfebb664e4e9e",
+        "bytes": 5790
+      },
+      {
+        "path": "RequestProject/SeedData.lean",
+        "sha256": "0ff3d6af8396707b4b51e47fac4d41fb982d89ef90e1a2b503fe1feec795ba0e",
+        "bytes": 8120
+      },
+      {
+        "path": "RequestProject/SymmetricIsotropySharpness.lean",
+        "sha256": "3ddf0dd7e10b617397aae30b04cfd31a8b5e0890813cafe6019d8a39e2d9e63e",
+        "bytes": 13819
+      },
+      {
+        "path": "RequestProject/TargetBCountermodel.lean",
+        "sha256": "b5bc164c6566d5551d792e0684477d1a4a789506bf06f59ce1450a8c41ceb0d1",
+        "bytes": 7553
+      },
+      {
+        "path": "RequestProject/ThresholdGap.lean",
+        "sha256": "2671d130f2dbd20cfb770a135feaaacbf9e9937de9b25969b0752e573cfcb99b",
+        "bytes": 12264
+      },
+      {
+        "path": "RequestProject/ThresholdSharpness.lean",
+        "sha256": "7ce6c5fa5ddf58c389ab6017f874851a2c5a5818d3f0bb00fe572ca1cee8f7a6",
+        "bytes": 8166
+      },
+      {
+        "path": "lake-manifest.json",
+        "sha256": "116c6ef00aa899fb38c08c5e4c92c0e434d0e7f9d574fcb5d4d42cc90ffb07cb",
+        "bytes": 3109
+      },
+      {
+        "path": "lakefile.toml",
+        "sha256": "b1481968ce2912f2b85288fc18aa05fb22750e4083f9e03f49f59a8814ba268a",
+        "bytes": 234
+      },
+      {
+        "path": "lean-toolchain",
+        "sha256": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        "bytes": 25
+      }
+    ]
+  },
+  {
+    "tag": "B3",
+    "archive": "/Users/bsm/Downloads/554454e7-3adc-47d9-91b9-821677d56277-aristotle (3).tar.gz",
+    "sha256": "5fcb4c63069141c55447b7a09d56341ec3f900109eb82cee6345d18fca8e9132",
+    "previous_archive": "/Users/bsm/Downloads/554454e7-3adc-47d9-91b9-821677d56277-aristotle (2).tar.gz",
+    "previous_sha256": "f0026a04613ed48de40b38dddc5bc1e30c1902ed0653670ca45acc7085191df7",
+    "extraction": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3",
+    "added": [
+      "ARISTOTLE_B_C11_SPEC.md",
+      "RequestProject/SeedC11Assembly.lean",
+      "RequestProject/SeedC11Value.lean",
+      "scripts/c11/README.md",
+      "scripts/c11/apgen.c",
+      "scripts/c11/buckets_final.txt",
+      "scripts/c11/buildidx.c",
+      "scripts/c11/padicL.py",
+      "scripts/c11/proto.py",
+      "scripts/c11/reduced.py",
+      "scripts/c11/run_ap.sh",
+      "scripts/c11/stage2.c",
+      "scripts/c11/stage3.py",
+      "scripts/c11/symbols_seed.json"
+    ],
+    "modified": [
+      "ARISTOTLE_B_STATUS.md",
+      "ARISTOTLE_SUMMARY.md"
+    ],
+    "removed": [],
+    "files": [
+      {
+        "path": "ARISTOTLE_BSD_INVENTION_2026-09-20.tar.gz",
+        "sha256": "3bdb19f674b2d5a3da107c66f62f4287d5b1803e252d4ab5fe69700945c12823",
+        "bytes": 97236
+      },
+      {
+        "path": "ARISTOTLE_B_C11_SPEC.md",
+        "sha256": "93a4097a713a1f528250aaae9a30018c86a8cbfa7a4a28f483a0720849a00e12",
+        "bytes": 9198
+      },
+      {
+        "path": "ARISTOTLE_B_CORRECTIONS.md",
+        "sha256": "609de04b81f7fa3182852aeea4168f43a8032d9bb50178aa895098e81d85944a",
+        "bytes": 11113
+      },
+      {
+        "path": "ARISTOTLE_B_REPORT.md",
+        "sha256": "ae885ac6d0370f8501f2ca375892fde18616a0ac48fee05aec6c506007dd3a99",
+        "bytes": 19137
+      },
+      {
+        "path": "ARISTOTLE_B_STATUS.md",
+        "sha256": "5997e1198cc0ba28c83e035a2be21ca8c7634d98acf9015bd073bd16ab1a490c",
+        "bytes": 5610
+      },
+      {
+        "path": "ARISTOTLE_SUMMARY.md",
+        "sha256": "89c07d304be5041335d0e4ca241bc656fdcbf74782aeceb5d8244c53706e9053",
+        "bytes": 13072
+      },
+      {
+        "path": "README.md",
+        "sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+        "bytes": 248
+      },
+      {
+        "path": "RequestProject/.gitkeep",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "RequestProject/IwasawaCoinvariants.lean",
+        "sha256": "28aaf50352752d88152f0add772aa71e4e6ce48e4764f47bbcb4f29b6a39ec8d",
+        "bytes": 4763
+      },
+      {
+        "path": "RequestProject/LocalizationKernel.lean",
+        "sha256": "4669a6ac59d5f910cb719faf7e4404c2c47eb16776407ca6e214487d37c7c5ad",
+        "bytes": 5072
+      },
+      {
+        "path": "RequestProject/Main.lean",
+        "sha256": "929b0bddef0b781f3fb42c7a99f252dc0bda7331f698104f7075e12ff637c52d",
+        "bytes": 563
+      },
+      {
+        "path": "RequestProject/QuadraticSelmerModel.lean",
+        "sha256": "7e07b66fd1a01d834898001bff29e70defc523c031a2676df2a3c00699c5118a",
+        "bytes": 13236
+      },
+      {
+        "path": "RequestProject/RelaxedStrictIdentity.lean",
+        "sha256": "01fb4c849ed04da758a2d0a10494fec5ba5f98aa72f6c9642f3fc3453088070b",
+        "bytes": 1702
+      },
+      {
+        "path": "RequestProject/SeedBadPlacePrimes.lean",
+        "sha256": "62356fda69f15ad6b573228b6e24b76b4cfffc3244cd9a91cb84f86c7b2845d0",
+        "bytes": 6189
+      },
+      {
+        "path": "RequestProject/SeedC11Assembly.lean",
+        "sha256": "b172d097f114b57d0f7081df4e64f8a62628bc702213339e7cc5ae55f969d531",
+        "bytes": 10910
+      },
+      {
+        "path": "RequestProject/SeedC11Value.lean",
+        "sha256": "94402d230077ccd17526b1cde6c76cb201a66c0dbbe5382a768f1376db38da71",
+        "bytes": 5254
+      },
+      {
+        "path": "RequestProject/SeedIrreducibility.lean",
+        "sha256": "ffca86a2f1ec71db2c517edd27f6157ce5156d652f6857d44b677267cf6a8697",
+        "bytes": 7751
+      },
+      {
+        "path": "RequestProject/SelmerDualityCountermodel.lean",
+        "sha256": "aa9d365d34102850cc7ee4b7d7dc36c283568c4eb780336e2b977f2af1f00a77",
+        "bytes": 14221
+      },
+      {
+        "path": "lake-manifest.json",
+        "sha256": "116c6ef00aa899fb38c08c5e4c92c0e434d0e7f9d574fcb5d4d42cc90ffb07cb",
+        "bytes": 3109
+      },
+      {
+        "path": "lakefile.toml",
+        "sha256": "b1481968ce2912f2b85288fc18aa05fb22750e4083f9e03f49f59a8814ba268a",
+        "bytes": 234
+      },
+      {
+        "path": "lean-toolchain",
+        "sha256": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        "bytes": 25
+      },
+      {
+        "path": "scripts/c11/README.md",
+        "sha256": "2a100eff25ff6b5871f6e9ef4a2636607adad3db964c0c4ad6890a3536fb5909",
+        "bytes": 2423
+      },
+      {
+        "path": "scripts/c11/apgen.c",
+        "sha256": "47201af2006e9d7acca838927397ade186d685ce78b1eea8af66ed28e74cf6bc",
+        "bytes": 2199
+      },
+      {
+        "path": "scripts/c11/buckets_final.txt",
+        "sha256": "7c8f768c781e1dce15313da0a33eea37be6d4acbc60648463c57b9cce73249b4",
+        "bytes": 7050
+      },
+      {
+        "path": "scripts/c11/buildidx.c",
+        "sha256": "abb131c98affaa5fdb50ae3f271080994f38eca267234cc5b7398ef7b73a92fc",
+        "bytes": 1518
+      },
+      {
+        "path": "scripts/c11/padicL.py",
+        "sha256": "01a784b9e61b72be5c822b638b86244a2709f2efd345d5da20443e8f1f1caff3",
+        "bytes": 2713
+      },
+      {
+        "path": "scripts/c11/proto.py",
+        "sha256": "9704fcb4c012db1c978aa7cd44e01ba5b801e1df23aee7a7a48358c3b2bbb402",
+        "bytes": 1846
+      },
+      {
+        "path": "scripts/c11/reduced.py",
+        "sha256": "3ee0667c8e03c83f0d7df06b35f42877a0dc818cfe3071d75d578731990e6dcd",
+        "bytes": 1459
+      },
+      {
+        "path": "scripts/c11/run_ap.sh",
+        "sha256": "7bff3a333174ae0d0368b311b8ccfabda4e480aa236d2de12bf668e80c20ee20",
+        "bytes": 324
+      },
+      {
+        "path": "scripts/c11/stage2.c",
+        "sha256": "40729ea8b98192072802862b36dd22a298ccf93eea3cd5ed27cca5b776537c81",
+        "bytes": 6132
+      },
+      {
+        "path": "scripts/c11/stage3.py",
+        "sha256": "68a096f7600a2a4edbd723ed20a3df16cf2f5cdeab5e2b63a0d74228697654be",
+        "bytes": 3397
+      },
+      {
+        "path": "scripts/c11/symbols_seed.json",
+        "sha256": "9f923c02ea10a71b059ef4c494f2542c56866e5fa90804b43fa2bfb89ee9ec0d",
+        "bytes": 3263
+      },
+      {
+        "path": "scripts/tate.py",
+        "sha256": "8ef4ddd239db5affa6a79ebf5acac9f4115615dc1d2d7ba96907f31ff2763eb1",
+        "bytes": 9694
+      }
+    ]
+  }
+]

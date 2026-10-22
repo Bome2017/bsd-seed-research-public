@@ -1,0 +1,57 @@
+[
+  {
+    "curve": "1913b1",
+    "passed": true,
+    "counts": {
+      "cube_unit": 1152,
+      "cube_valuation": 768,
+      "uniformizer": 384,
+      "point_shifts": 48
+    },
+    "scope": "Cubic-residue representative, canonical q-uniformizer, and all mod3 combinations of saturated point directions; no Selmer membership inferred from signatures."
+  },
+  {
+    "curve": "28042a1",
+    "passed": true,
+    "counts": {
+      "cube_unit": 1728,
+      "cube_valuation": 1152,
+      "uniformizer": 576,
+      "point_shifts": 216
+    },
+    "scope": "Cubic-residue representative, canonical q-uniformizer, and all mod3 combinations of saturated point directions; no Selmer membership inferred from signatures."
+  },
+  {
+    "curve": "seed3",
+    "passed": true,
+    "counts": {
+      "cube_unit": 2304,
+      "cube_valuation": 1536,
+      "uniformizer": 768,
+      "point_shifts": 864
+    },
+    "scope": "Cubic-residue representative, canonical q-uniformizer, and all mod3 combinations of saturated point directions; no Selmer membership inferred from signatures."
+  },
+  {
+    "curve": "389a1",
+    "passed": true,
+    "counts": {
+      "cube_unit": 1152,
+      "cube_valuation": 768,
+      "uniformizer": 384,
+      "point_shifts": 432
+    },
+    "scope": "Cubic-residue representative, canonical q-uniformizer, and all mod3 combinations of saturated point directions; no Selmer membership inferred from signatures."
+  },
+  {
+    "curve": "mirror389_false",
+    "passed": true,
+    "counts": {
+      "cube_unit": 576,
+      "cube_valuation": 384,
+      "uniformizer": 192,
+      "point_shifts": 24
+    },
+    "scope": "Cubic-residue representative, canonical q-uniformizer, and all mod3 combinations of saturated point directions; no Selmer membership inferred from signatures."
+  }
+]

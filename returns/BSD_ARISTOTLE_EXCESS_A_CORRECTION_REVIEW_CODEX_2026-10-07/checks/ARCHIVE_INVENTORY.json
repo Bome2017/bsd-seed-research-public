@@ -1,0 +1,267 @@
+{
+  "archive": "/Users/bsm/Downloads/50139472-2e04-4136-ae67-3ceff118f4ab-aristotle (1).tar.gz",
+  "bytes": 70069804,
+  "sha256": "d012793c0081d10f780281dfebaf743cd36e1d7ff155b15d26b493f3c478fc76",
+  "members": [
+    {
+      "name": "output-final_aristotle/lake-manifest.json",
+      "size": 3109,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/lakefile.toml",
+      "size": 234,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/lean-toolchain",
+      "size": 25,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/RequestProject/Main.lean",
+      "size": 563,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+      "size": 8542,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/README.md",
+      "size": 248,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/RequestProject/.gitkeep",
+      "size": 0,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/BSD_SEED_RESEARCH_MAP.md",
+      "size": 100024,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/COMMON_CONTRACT.md",
+      "size": 7016,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/COVERAGE.json",
+      "size": 699445,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/CURRENT_FRONTIER.md",
+      "size": 4289,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/FULL_COMPENDIUM.md",
+      "size": 9215156,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "size": 4400051,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/LOCAL_ATTEMPT.md",
+      "size": 4624,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/MANIFEST.sha256",
+      "size": 2673,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RECENT_WALLS.md",
+      "size": 5338,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/REFERENCE_BINDINGS.json",
+      "size": 684,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/START_HERE.md",
+      "size": 798,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/SUBMISSION_PROMPT.txt",
+      "size": 514,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/SUBMIT_COMMAND.txt",
+      "size": 274,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/TASK.md",
+      "size": 4228,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/prepare_reference.py",
+      "size": 4268,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/CORRECTIONS_2026-10-07.md",
+      "size": 5957,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/TWIST_D23_TRACE.md",
+      "size": 6707,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/PROOF.md",
+      "size": 3587,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/CONSTRUCTION.md",
+      "size": 5941,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/RESULT.md",
+      "size": 3993,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/ENDPOINT_EFFECT.md",
+      "size": 903,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/ASSUMPTIONS.json",
+      "size": 2373,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/COLLISION_CHECK.md",
+      "size": 3152,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/SOURCES.md",
+      "size": 3698,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/RESUME.md",
+      "size": 1282,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/STATE.json",
+      "size": 980,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/NOTES.md",
+      "size": 1401,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/MANIFEST.sha256",
+      "size": 1245,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/STARTUP_RECEIPT.json",
+      "size": 477,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/checks/d23_trace_check.py",
+      "size": 5694,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/RETURN_LANE_A/checks/d23_trace_check.out.json",
+      "size": 2064,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/full_record_index/BULK_BINARY_RECEIPTS.jsonl.gz",
+      "size": 670525,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/full_record_index/CAPTURE.jsonl.gz",
+      "size": 24829701,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/full_record_index/COMPENDIUM_CITATIONS.json.gz",
+      "size": 238213,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/full_record_index/COVERAGE.md",
+      "size": 5965,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/full_record_index/EXPIRED_UPLOAD_RECOVERY.json",
+      "size": 107611,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/full_record_index/FILE_INVENTORY.jsonl.gz",
+      "size": 7490125,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/historical_submission/MANIFEST.sha256",
+      "size": 1445,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/historical_submission/READING_SET_BINDING.json",
+      "size": 291,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/historical_submission/README_ARISTOTLE.md",
+      "size": 2549,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/historical_submission/SUBMIT_COMMAND.txt",
+      "size": 558,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/historical_submission/TASK.md",
+      "size": 2603,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/historical_submission/prepare_reference.py",
+      "size": 1550,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/payload/COMPLETE_READING_SET.zip",
+      "size": 32962911,
+      "type": "0"
+    },
+    {
+      "name": "output-final_aristotle/project/payload/CURRENT_OVERLAY.zip",
+      "size": 4307989,
+      "type": "0"
+    }
+  ]
+}

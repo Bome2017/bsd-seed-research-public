@@ -1,0 +1,26 @@
+{
+  "status": "ACTUAL_P7_JOINT_UNIT_KERNEL_ZERO_ON_11A1_CONTROL",
+  "primary_result": "complete ordinary chi-unit simultaneous kernel dimension0",
+  "arithmetic": {
+    "ordinary_chi_unit_dimension": 4,
+    "actual_source_residue_rank": 4,
+    "global_split_rank": 3,
+    "coefficient_local_rank": 1,
+    "stacked_rank": 4,
+    "minor_det_mod7": 6
+  },
+  "source_admission": "26 units authenticated by sibling full principal-divisor calculation",
+  "class_term": "not certified zero; separate obligation",
+  "389_source": "first99products exactly+/-1 by source lane, actuallocal ranks0",
+  "local_precision": [
+    8,
+    9
+  ],
+  "new_seed_result": false,
+  "endpoint_change": {
+    "FIN": false,
+    "ORDER9": false,
+    "Q36": false
+  },
+  "publication": "root only"
+}

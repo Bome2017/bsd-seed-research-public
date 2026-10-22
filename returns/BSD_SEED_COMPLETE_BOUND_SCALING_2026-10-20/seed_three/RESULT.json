@@ -1,0 +1,34 @@
+{
+  "status": "OLD_ARITHMETIC_REPLAYED_NO_NEW_SEED_BOUND",
+  "coefficient_prime": 3,
+  "existing_independent_source_rank": 4,
+  "existing_class_image_matrix": [
+    [
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      0,
+      0,
+      2,
+      2
+    ]
+  ],
+  "existing_class_image_rank": 2,
+  "ordinary_unit_kernel_dimension_retained": 2,
+  "ordinary_class_kernel_dimension_conditional": 2,
+  "connecting_map_rank_conditional": 0,
+  "ordinary_complete_kernel_dimension_conditional": 4,
+  "S_complete_kernel_dimension_conditional": 4,
+  "new_class_certification": false,
+  "old_certification_status": "TIMEOUT",
+  "new_number_field_job_launched": false,
+  "known_Sha_order_used": false,
+  "scope": "Matrix replay only. Exact norm cubes and all-place membership remain retained inputs.",
+  "input_sha256": {
+    "MATRICES.json": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+    "OLD_CERTIFICATION_RECEIPT.json": "8e8a17b59671ec2c7e8686b27fd9c81137954abc257e38c81324313ae0c6b92d"
+  }
+}

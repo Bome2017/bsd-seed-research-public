@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "points": [
+    "P1",
+    "P2",
+    "Q1",
+    "Q2",
+    "Q1_plus_Q1",
+    "Q1_plus_Q2",
+    "Q2_plus_Q2"
+  ],
+  "comparison": "Exact Fraction group law against separate PARI ellmul and elladd"
+}

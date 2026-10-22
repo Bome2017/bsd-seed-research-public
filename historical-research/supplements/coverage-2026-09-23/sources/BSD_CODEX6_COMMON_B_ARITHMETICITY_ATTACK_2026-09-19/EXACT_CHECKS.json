@@ -1,0 +1,77 @@
+{
+  "scope": "Formal algebraic examples only; no seed prime, Selmer, period, regulator, or analytic computation.",
+  "epsilon": "573/100000",
+  "trace_certificate_product": "9970528329/10000000000",
+  "trace247_polynomial": [
+    1,
+    -247,
+    7595
+  ],
+  "trace247_shifted_polynomial_at_minus_epsilon": "27828329/10000000000",
+  "counterexamples": [
+    {
+      "T": 1,
+      "M": 351,
+      "minimal_polynomial_coefficients": [
+        1,
+        -423,
+        13933
+      ],
+      "discriminant": 123197,
+      "g_epsilon": "-10111971671/10000000000",
+      "hensel_examples": []
+    },
+    {
+      "T": 9,
+      "M": 3145,
+      "minimal_polynomial_coefficients": [
+        1,
+        -3217,
+        114525
+      ],
+      "discriminant": 9890989,
+      "g_epsilon": "-90208171671/10000000000",
+      "hensel_examples": [
+        {
+          "p": 3,
+          "requested_valuation": 2,
+          "modulus": 81,
+          "root_of_g_modulus": 63
+        }
+      ]
+    },
+    {
+      "T": 16200,
+      "M": 5654461,
+      "minimal_polynomial_coefficients": [
+        1,
+        -5654533,
+        203578092
+      ],
+      "discriminant": 31972929135721,
+      "g_epsilon": "-162000614971671/10000000000",
+      "hensel_examples": [
+        {
+          "p": 2,
+          "requested_valuation": 3,
+          "modulus": 32,
+          "root_of_g_modulus": 8
+        },
+        {
+          "p": 3,
+          "requested_valuation": 4,
+          "modulus": 729,
+          "root_of_g_modulus": 405
+        },
+        {
+          "p": 5,
+          "requested_valuation": 2,
+          "modulus": 625,
+          "root_of_g_modulus": 450
+        }
+      ]
+    }
+  ],
+  "all_checks_passed": true,
+  "cpu_seconds": 0.00043700000000000683
+}

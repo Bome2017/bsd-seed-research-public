@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "geometry_identity": true,
+  "exported_compact_units": 26,
+  "distinct_atoms": 144,
+  "integer_exponents_preserved": true,
+  "nonzero_initial_scalar_orbit": "j=0 only; projector applied separately",
+  "sha256": {
+    "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/eval_data.json": "0cec49938de4ab03605a8ce172e3148e3b624d9eca58a6dea39f6150aefbe301",
+    "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/local_rank/compact_units_11a1.json": "f02debe05a6019a9ea5ab2112f8d77141b8a63de4a902d79e5a68e03ce7a2e1e"
+  }
+}

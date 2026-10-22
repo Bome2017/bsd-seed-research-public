@@ -1,0 +1,103 @@
+\section[Primary components at primes up to 13]{The primary components of $\Sha$ at $p\le13$}\label{sec:primary}
+
+\subsection{Method}\label{subsec:method}
+Let $p$ be an odd prime at which $E$ is ordinary: either good ordinary, or multiplicative. Let $\alpha$ be the unit root of $X^2-a_pX+p$ when $p\nmid N$, and put $\alpha=a_p=\pm1$ when $p\,\|\,N$. Let $\gamma=1+p$ and let $\omega$ be the Teichm\"uller character. Write $L_p=L_{p,\omega_1}$ for the cyclotomic series constructed from the $\omega_1$-normalized plus symbols of Theorem~\ref{thm:manin}. The full-real-period convention of Stein--Wuthrich \cite{sw} is $L_{p,\Omega_E}=L_{p,\omega_1}/2$. All displayed coefficient formulas use $L_{p,\omega_1}$; both are integral and their unit status agrees at odd $p$. The construction is that of Mazur--Tate--Teitelbaum \cite{mtt}.
+
+The depth-$n$ approximation is the polynomial
+\[
+P_n(T)=\sum_{a\in(\Z/p)^\times}\sum_{j=0}^{p^{n-1}-1}\Bigl(\alpha^{-n}\Bigl[\tfrac{\omega(a)\gamma^j}{p^n}\Bigr]^+-\alpha^{-(n+1)}\Bigl[\tfrac{\omega(a)\gamma^j}{p^{n-1}}\Bigr]^+\Bigr)(1+T)^j .
+\]
+When $p\,\|\,N$ the second term is absent, because $f$ is then already a $U_p$-eigenform with eigenvalue $\alpha=a_p$. Its low coefficients agree with those of $L_p(E,T)$ modulo an explicit power of $p$ \cite[Prop.~3.5]{sw}. The needed symbols are all $p$-integral. For each $m$, the cusps $b/p^m$ lie in a single $\Gamma_0(N)$-class: that of $0$ when $p\nmid N$, and that of $1/p$ when $p\,\|\,N$. The modular symbols therefore differ from one another by periods, and the Manin constant is a power of $2$ (Theorem~\ref{thm:manin}); see \cite[\S3]{sw} and the records cited in \cid{S.3} and \cid{S.7}.
+
+Every coefficient below is therefore a \emph{finite, predeclared, integer-weighted sum of modular symbols} $[b/p^2]^+$ (or $[b/81]^+$ at $p=3$). Each symbol is computed as an Arb ball of radius below $1/2048$ and identified in $\frac1{1024}\Z$. The weights come from Fermat quotients: for $b=\omega(a)\gamma^j$ one has $j\equiv-(b^{p-1}-1)/p\pmod p$. The lower-level term drops out modulo $p$, because $\sum_{j<p}\binom j2=\binom p3\equiv0$ for $p\ge5$.
+
+\subsection{Good ordinary primes}
+\begin{lemma}[written proof applying published theorems; the argument of \cid{S.7}]\label{lem:goodord}
+Let $p\ge5$ be a prime of good ordinary reduction for $E$. If $C_p:=[T^2]L_p(E,T)$ is a $p$-adic unit, then $\Sha[p^\infty]=0$.
+\end{lemma}
+\begin{proof}
+The residual image is full (Theorem~\ref{thm:image}), so Kato's divisibility \cite{kato}, in the form of \cite[Thm.~7.3]{sw}, gives $L_p(E,T)=f_E(T)\,d(T)$ with $f_E,d\in\Zp[[T]]$, where $f_E$ is the characteristic power series of the dual Selmer group over the cyclotomic $\Zp$-extension. Since $\rank E(\Q)=2$, \cite[Thm.~6.1]{sw} gives $\ord_Tf_E\ge2$.
+
+A unit $C_p$ forces $\ord_TL_p=\ord_Tf_E=2$ and makes the $T^2$-coefficient of $f_E$ a unit. The equality clause of \cite[Thm.~6.1]{sw} at good ordinary $p$ (due to Schneider and Perrin-Riou) then shows that $\Sha[p^\infty]$ is finite and that the $p$-adic height pairing is nondegenerate. Neither fact is assumed beforehand.
+
+The leading-term formula now gives $v_p(\text{unit})=v_p(\epsilon_p)+v_p(\#\Sha[p^\infty])+v_p(\Reg_\gamma)$, where the torsion and Tamagawa factors have been dropped because they are $p$-units. Here $\epsilon_p=(1-\alpha^{-1})^2$ is a unit: $\alpha\equiv a_p\pmod p$, $a_p$ is even, and $|a_p|\le2\sqrt p$ excludes $a_p\equiv1\pmod p$ for $p\ge7$; at $p=5$ the direct value $a_5=-2$ gives the same conclusion.
+
+Finally, $\Reg_\gamma\in\Zp$. Multiplication by the $p$-unit $2\,\#E(\F_p)$ carries every rational point into the identity components at all finite places and into the formal group at $p$ (Proposition~\ref{prop:curve}(iv)). The canonical sigma-height formula \cite[\S4.1]{sw} then puts each height value in $p\Zp$, while $v_p(\log_p\gamma)=1$. Both valuations are nonnegative and they sum to zero, so $\#\Sha[p^\infty]=1$.
+\end{proof}
+The criterion is sufficient, not necessary. At $p=17$ the normalized regulator has valuation one, so $C_{17}\equiv0\pmod{17}$ necessarily, and a depth-three coefficient would be needed (Remark~\ref{rem:17}).
+
+\begin{theorem}[\cid{S.5}, \cid{S.7}, \cid{S.11}, \cid{S.13}; computer-assisted, published theorems applied]\label{thm:small}
+$\Sha[p^\infty]=0$ for $p=5,7,11,13$. The certified coefficients, in the $\omega_1$ normalization, are:
+\begin{center}
+\begin{tabular}{@{}rllrl@{}}
+\toprule
+$p$ & $a_p$ & certified weighted sum & $C_p\bmod p$ ($\omega_1$) & full-period residue\\ \midrule
+$5$ & $-2$ & six-symbol value $152$ & $2$ & $1$\\
+$7$ & $-2$ & $-1931$ & $1$ & $4$\\
+$11$ & $-2$ & $-190$ & $8$ & $4$\\
+$13$ & $-4$ & group sums, total $-3950$ & $2$ & $1$\\ \bottomrule
+\end{tabular}
+\end{center}
+\end{theorem}
+\begin{proof}
+Each residue is a unit, so Lemma~\ref{lem:goodord} applies. At $p=5$ the recorded argument uses the upper-bound direction of \cite[Thm.~6.1]{sw} with the same inputs.
+\end{proof}
+
+\begin{remark}[Certificates]\label{rem:smallcert}
+The certificates were built as follows.
+\begin{itemize}[leftmargin=*]
+\item \emph{Coefficients.} At $p=7,11,13$ they were obtained from $6.9\cdot10^{8}$, $1.68\cdot10^{9}$ and (with reuse) about $2.3\cdot10^{9}$ independently verified prime coefficients, with Fourier truncations $1.56\cdot10^{10}$, $3.91\cdot10^{10}$ and $5.50\cdot10^{10}$ at denominator $p^2$.
+\item \emph{Exact checks.} All plus and minus symbols at $p$ and $p^2$ were identified. The two conjugation symmetries and every two-level Hecke relation hold exactly.
+\item \emph{Independent evaluations.} Two exact downstream evaluations agree: one via Fermat quotients, one via the full depth-two measure modulo $p^{20}$.
+\item \emph{The value at $13$.} An external run first returned $C_{13}$ as $7$ or $8$. Both values were traced to lattice-numerator scaling and to an omitted factor $\alpha^{-2}$; after correction both give $2$. The corrected, independently replayed downstream value is the one used here. The status-file custody discrepancy and the intact calculation bindings are distinguished in Appendix~\ref{subsec:c13custody}.
+\item \emph{Replay in the release.} The final step, from the certified symbol tables to the coefficients, is reproduced by an independent implementation of the formula of \S\ref{subsec:method} (\path{tools/replay/coefficients_from_symbols.py}). It returns the residues $2,1,8,2$ at $p=5,7,11,13$ and, at $p=3$, the exact integers $a_{4,0}=0$, $a_{4,1}=-54$ and $a_{4,2}=15480$.
+\item \emph{What was not done.} None of these certificates has had a second end-to-end implementation or independent human review.
+\end{itemize}
+\end{remark}
+
+\subsection[The prime 3]{The prime $3$}
+\begin{theorem}[\cid{S.3}; computer-assisted, published theorems applied]\label{thm:sha3}
+$\Sha[3^\infty]\simeq(\Z/3)^2$.
+\end{theorem}
+\begin{proof}[Proof sketch]
+The reduction at $3$ is nonsplit multiplicative ($\alpha=-1$, type $\mathrm{I}_2$, $c_3=2$). The rigorous depth-four computation identifies $54+54$ plus/minus entries at denominator $81$ and $18+18$ at denominator $27$, hence $72$ entries per sign across the two levels. It gives
+\[
+a_{4,2}=15480=2^3\cdot3^2\cdot5\cdot43\equiv9\pmod{27}
+\]
+in the $\omega_1$ normalization; in the N\'eron normalization the value is $7740\equiv18$. By \cite[Prop.~3.5]{sw}, the quadratic coefficient $a_2$ of $L_3(E,T)$ satisfies $a_2\equiv a_{4,2}\pmod{27}$, so $\ord_3a_2=2$.
+
+Skinner's theorem \cite[Thm.~A]{skinner} applies to $E$ at $3$: the residual image is full, and $\bar\rho$ is ramified at $2243$. It gives both divisibilities of the cyclotomic main conjecture. The Selmer local conditions and periods match integrally \cite{gv}.
+
+The order of inference matters. Finiteness comes first: the characteristic ideal has order exactly $2=\rank E(\Q)$, so the control argument gives corank $0$ for $\Sha[3^\infty]$. Only then is Jones's leading-term theorem \cite[Thm.~3.1]{jones} used, in its forward direction. Its nondegeneracy hypothesis is supplied by an independent certificate that the $3$-adic height determinant is nonzero with $\ord_3\Reg_\gamma=0$. The leading-term valuation then gives $\#\Sha[3^\infty]=9$, and the Cassels--Tate pairing excludes $\Z/9$.
+\end{proof}
+
+\begin{remark}[Provenance at $3$]\label{rem:su}
+Three qualifications apply to Theorem~\ref{thm:sha3}.
+\begin{itemize}[leftmargin=*]
+\item \emph{Skinner's theorem is imported as published.} Its proof reaches the multiplicative case through higher-weight good-ordinary Hida specializations, and the good-ordinary input imports Skinner--Urban \cite{su}.
+\item \emph{A proposed repair failed at one step.} It would have verified the normalization inside \cite[Prop.~12.3.6]{su} for this curve. The removed Euler factor $1-2243^{-2}$ has $3$-adic valuation $1$ and is not a unit, so the repair fails there; its other steps passed an automated review. We record the internal provenance at that interface as open. This is a provenance limit on an imported theorem, not a gap in the arithmetic, and it does not reopen the $3$-primary computation.
+\item \emph{The original written proof invoked a clause we do not use.} It cited the equality clause of \cite[Thm.~6.1]{sw} at a multiplicative prime. The governing argument above instead uses finiteness first together with an independent height certificate, and imports no converse to Jones's theorem.
+\end{itemize}
+\end{remark}
+
+\subsection{Consequences}
+\begin{corollary}[\cid{S.P}]\label{cor:small}
+$\Sha[30030^\infty]\simeq(\Z/3)^2$. In particular $\#\Sha[30^\infty]=9$.
+\end{corollary}
+
+\begin{proposition}[\cid{S.FIN}; written proof]\label{prop:square}
+If $\Sha$ is finite, then $\#\Sha=9t^2$ with $\gcd(t,30030)=1$. The next possible order after $9$ is $2601=9\cdot17^2$.
+\end{proposition}
+The bound is sharp under these inputs: $(\Z/3)^2\oplus(\Z/17)^2$ carries an alternating perfect pairing \cite{poonenstoll}. The threshold has moved from $441$ to $1089$, $1521$ and $2601$ as components were settled; it should never be hard-coded.
+
+\begin{proposition}[\cid{S.U}; written proof; an equivalence]\label{prop:uniform}
+$\Sha$ is finite of order $9$ if and only if $\#\Sha[n]<2601$ for every $n\ge1$.
+\end{proposition}
+\begin{proof}
+If $\#\Sha[n]$ is bounded by $2600$, the increasing chain $\Sha[m!]$ stabilizes, so $\Sha$ is finite; Proposition~\ref{prop:square} then gives order $9$. The converse is immediate.
+\end{proof}
+A uniform bound on $\#\Sha[p]$ over primes $p$ alone would not suffice. The group $(\Z/3)^2\oplus(\Q_{17}/\Z_{17})^2$ shows why: full depth has to be controlled.
+
+\begin{remark}[The prime $17$]\label{rem:17}
+The next prime in the threshold is $17$. There $\ord_{17}\Reg_\gamma=1$, so the depth-two test of Lemma~\ref{lem:goodord} cannot succeed. A depth-three coefficient $a_2\not\equiv0\pmod{17^2}$ would suffice; it is not computed here.
+\end{remark}

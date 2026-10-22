@@ -1,0 +1,43 @@
+{
+  "p": 5,
+  "digits": {
+    "J": {
+      "residue": 2500,
+      "precision_exponent": 5,
+      "valuation": 4
+    },
+    "R_scalar": {
+      "residue": 6184350,
+      "precision_exponent": 10,
+      "valuation": 2
+    },
+    "L2_derivative_conversion": {
+      "residue": 100,
+      "precision_exponent": 3,
+      "valuation": 2
+    },
+    "H_U": {
+      "residue": 1419,
+      "precision_exponent": 8,
+      "valuation": 0
+    },
+    "ordinary_Euler": {
+      "residue": 3581374,
+      "precision_exponent": 10,
+      "valuation": 0
+    },
+    "printed_Q": {
+      "residue": 25,
+      "precision_exponent": 3,
+      "valuation": 2
+    }
+  },
+  "recomputed_Q": {
+    "residue": 25,
+    "precision_exponent": 3
+  },
+  "difference": 2,
+  "Q_over_25_mod5": 1,
+  "direct_series_agrees_to_mod125": true,
+  "interpretation": "finite computation for explicit 5-saturated point pair; not an exact Sha order"
+}

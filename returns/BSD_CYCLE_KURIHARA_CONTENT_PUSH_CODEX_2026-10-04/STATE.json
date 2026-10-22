@@ -1,0 +1,25 @@
+{
+  "status": "NO_TWO_PRIME_COMPARISON_FROM_TESTED_CONSTRUCTIONS",
+  "completed_at_utc": "2026-10-04T23:37:04.706970+00:00",
+  "target": "Independently derive z_E(R_p)=-2 in the ideal of admissible two-prime Kurihara values, uniformly in good coefficient primes.",
+  "closed_lift_status": "RECOMPUTED_AT_WRITTEN_DERIVATION_GRADE",
+  "new_derivations": [
+    "Integral wraparound identity for the composed quadratic weighting and second difference.",
+    "The complete weighted map factors through pi_* modulo p; R_p=2u(T_p^2-1)v.",
+    "An explicit diagonal polarization gives -2XY, but is not the canonical arithmetic packet.",
+    "Applying the extra differences to the genuine packet gives zero in the mixed degree-two quotient.",
+    "The actual degree-two norm projection conditions leave exactly the mixed coordinate free.",
+    "The two-prime old-transfer tensor remains rank one modulo p.",
+    "The retained cross-pair determinant identity leaves C_p in every finite combination."
+  ],
+  "membership_proved": false,
+  "membership_refuted_for_seed": false,
+  "actual_seed_Kurihara_values_computed": 0,
+  "FIN_changed": false,
+  "ORDER9_changed": false,
+  "Q36_changed": false,
+  "scope": "Only the named constructions are tested; no impossibility theorem for further arithmetic comparisons.",
+  "review_grade": "Written derivation with exact controls; retained arithmetic imports, no human or formal certification; novelty not assessed.",
+  "report": "REPORT.md",
+  "archive": "BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04.zip"
+}

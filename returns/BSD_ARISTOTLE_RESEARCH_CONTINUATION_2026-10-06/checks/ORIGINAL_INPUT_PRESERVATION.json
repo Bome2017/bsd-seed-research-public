@@ -1,0 +1,87 @@
+{
+  "status": "ALL_PREVIOUS_PROJECT_BYTES_PRESERVED",
+  "files": [
+    {
+      "original_path": "BSD_SEED_RESEARCH_MAP.md",
+      "successor_path": "BSD_SEED_RESEARCH_MAP.md",
+      "sha256": "3abbb760ad6c1bab2805609d9b5a0758530d54dcc0b87a696847d5ef3d090bcd"
+    },
+    {
+      "original_path": "FULL_COMPENDIUM.md",
+      "successor_path": "FULL_COMPENDIUM.md",
+      "sha256": "a7d5db63eae00fb9433fa2276e7a9f876c0c32cbd4d99fb2e9d887f14a6d3a97"
+    },
+    {
+      "original_path": "HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "successor_path": "HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "sha256": "8aefa608256599fb57895568ab65553b928dbb4a020f7354c053da4eea0d397c"
+    },
+    {
+      "original_path": "MANIFEST.sha256",
+      "successor_path": "historical_task/MANIFEST.sha256",
+      "sha256": "582f9b4f7d86cc6dbba78314a0295d15808f1b4329bb51de02edf4493ffbe3dd"
+    },
+    {
+      "original_path": "READING_SET_BINDING.json",
+      "successor_path": "READING_SET_BINDING.json",
+      "sha256": "8164493ad0175ec90ac3860498f0d038cc22c3db11a50315bc963ce66fe6c313"
+    },
+    {
+      "original_path": "README_ARISTOTLE.md",
+      "successor_path": "historical_task/README_ARISTOTLE.md",
+      "sha256": "d1f4cdcf7e437aad27584f9e6a56c8b3ff8a9f631c1b52e7baa2c1203489d3aa"
+    },
+    {
+      "original_path": "SUBMIT_COMMAND.txt",
+      "successor_path": "historical_task/SUBMIT_COMMAND.txt",
+      "sha256": "adc60c2d3db622ad3b0f653fd147bb9722a0d50bce2dce49b811b99b18d4dbeb"
+    },
+    {
+      "original_path": "TASK.md",
+      "successor_path": "historical_task/TASK.md",
+      "sha256": "d315d972df514020f7fe6dc8a059a6e3a144766e991b115bc26fe394aa67c96d"
+    },
+    {
+      "original_path": "full_record_index/BULK_BINARY_RECEIPTS.jsonl.gz",
+      "successor_path": "full_record_index/BULK_BINARY_RECEIPTS.jsonl.gz",
+      "sha256": "b5f827ed6dce14f8186abe5594df949f975fc6bf188cf20a23f106959f3a0ce6"
+    },
+    {
+      "original_path": "full_record_index/CAPTURE.jsonl.gz",
+      "successor_path": "full_record_index/CAPTURE.jsonl.gz",
+      "sha256": "a144a8e1acf7619e11cc1603578639c18326b988e111e6a0a6ec2b27270d432f"
+    },
+    {
+      "original_path": "full_record_index/COMPENDIUM_CITATIONS.json.gz",
+      "successor_path": "full_record_index/COMPENDIUM_CITATIONS.json.gz",
+      "sha256": "c978a3c9dea425546a4204b91b65b66fe346079f9039c3c556146b70833f3b4f"
+    },
+    {
+      "original_path": "full_record_index/COVERAGE.md",
+      "successor_path": "full_record_index/COVERAGE.md",
+      "sha256": "d9fa545170f7677aaada9d75478902f0e62172bc5376abf10bfb60c9f659fdf5"
+    },
+    {
+      "original_path": "full_record_index/EXPIRED_UPLOAD_RECOVERY.json",
+      "successor_path": "full_record_index/EXPIRED_UPLOAD_RECOVERY.json",
+      "sha256": "8d21138c0d59aa28d9e5ac25eefdd236f95398dc5d9de407c8b4bbe61d562f4a"
+    },
+    {
+      "original_path": "full_record_index/FILE_INVENTORY.jsonl.gz",
+      "successor_path": "full_record_index/FILE_INVENTORY.jsonl.gz",
+      "sha256": "1cfb4c91894de0646467d1cf293c2f56559269714dfd7f22ed7bd456a0c5a2f7"
+    },
+    {
+      "original_path": "payload/COMPLETE_READING_SET.zip",
+      "successor_path": "payload/COMPLETE_READING_SET.zip",
+      "sha256": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27"
+    },
+    {
+      "original_path": "prepare_reference.py",
+      "successor_path": "prepare_reference.py",
+      "sha256": "ebf8a3b580141ba8c29af350d25ac85f6e81589d95a515ddb00a06b62f156327"
+    }
+  ],
+  "count": 16,
+  "reference_reading_zip_unchanged": true
+}

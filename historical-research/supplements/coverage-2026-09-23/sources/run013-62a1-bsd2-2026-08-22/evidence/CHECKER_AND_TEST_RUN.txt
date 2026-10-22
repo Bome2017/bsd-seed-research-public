@@ -1,0 +1,90 @@
+run_date=2026-08-22
+working_directory=/Users/bsm/run013-62a1-bsd2-2026-08-22
+python_version=Python 3.9.6
+target_sha256=b6a4cfa6d63b4c8d598f878d6bdbfa8a29a0b8a5ccba3176db1a6d906b151f6d
+certificate_sha256=4d320b7d665da68ffd4f8628b1303adb7914af3d7a97d8d1fd368baffbbb876d
+checker_sha256=a14c5b9d3432aa38c43ee96da4149de3bfff243293cd66d77a9daee8531f72f8
+tests_sha256=722766bdd04bfc6314614c82263a3979ee82ed196acfc05d42f7b7297f30606e
+source_binding_checker_sha256=f50c97ad71f8262c999f9ca6a0afb4f176cfac276d91e6bab66cd0d05f91c87d
+source_bindings_sha256=8785d8e8bad5ee3a75732d43f69b95151b1bff8dd68da5c0a9c726ccb39bcc54
+exact_modular_symbol_script_sha256=6ed0eb886e8220ab5c4011aa8b37370548867200a948303fd04d3665329d9155
+pari_source_archive_sha256=02651d99c391007d384b3fadbc20abc6916b77036f9e496c99e9ce8688ca4b53
+
+[finite_replay]
+command=python3 checker/check_certificate.py certificates/q13-finite-replay-v1.json
+exit_status=0
+certificate_structure=PASS
+target_binding=PASS
+exact_curve_and_isogeny_replay=PASS
+ambient_and_target_subgroups=PASS
+family_witness_q=13
+family_witness_point_count=12
+family_witness_trace=2
+quartic_rows=32
+quartic_sha256=5d02e484e64936e581fe01eda5a5026e4c026db053fef017ad5cd517262c9c2b
+phi_intersection=0000,0001,1010,1011
+dual_phi_intersection=0000
+finite_local_intersection=PASS_AS_TABLE_REPLAY_ONLY
+uniform_theorem_certified=NO
+
+[theorem_mode_fail_closed]
+command=python3 checker/check_certificate.py --require-theorem certificates/q13-finite-replay-v1.json
+exit_status=2
+result=REFUSED_OPEN_MACHINE_CHECKABLE_OBLIGATIONS
+open_local_obligations=2,31,q,outside_S
+open_symbolic_obligations=SUPPORT_RESTRICTION,KUMMER_LOWER_BOUND_PHI,KUMMER_LOWER_BOUND_DUAL,LOCAL_2_UNIFORM,LOCAL_31_UNIFORM,LOCAL_Q_UNIFORM,UNRAMIFIED_OUTSIDE_S
+
+[adversarial_tests]
+command=./tests/run_tests.sh
+exit_status=0
+tests_run=23
+failures=0
+errors=0
+result=OK
+passed=test_bad_quartic_data_binding_rejected,test_bad_quartic_digest_rejected,test_boolean_signature_fields_reject_integer_one,test_cli_theorem_mode_is_nonzero,test_composite_witness_rejected,test_duplicate_json_key_rejected,test_false_local_pass_rejected,test_float_rejected,test_incomplete_ambient_rejected,test_missing_symbolic_obligation_rejected,test_missing_top_level_field_rejected,test_prose_symbolic_pass_rejected,test_reference_finite_replay_passes_but_is_not_theorem,test_require_theorem_fails_closed,test_reversed_selmer_orientation_rejected,test_signed_isogeny_composition_rejects_wrong_phi_sign,test_stale_target_hash_rejected,test_tampered_local_2_table_rejected,test_tampered_local_31_table_rejected,test_tampered_local_q_table_rejected,test_unknown_top_level_field_rejected,test_wrong_archimedean_row_rejected,test_wrong_point_count_rejected
+
+[source_bindings]
+command=python3 checker/check_source_bindings.py
+exit_status=0
+bindings=13
+mismatches=0
+result=PASS
+
+[exact_integral_modular_lattice]
+command=/private/tmp/run013-pari.jHjDm5/pari-2.17.4/gp -q -f checker/exact_base_modular_symbol.gp
+exit_status=0
+pari_version=2.17.4
+curve_ainvariants=[1,-1,1,-1,1]
+conductor=62
+minimal_discriminant=-496
+rational_torsion_order=4
+modular_symbol_level=62
+modular_symbol_weight=2
+modular_symbol_sign=1
+new_plus_dimension=3
+isolated_hecke_line_dimension=1
+hecke_data=[[3,0],[5,-2],[7,0],[11,0]]
+canonical_plus_lattice_vector=[1/2;1/2;0;-1;-1/2;1/2;0;1/2;1/2;1/2]
+canonical_plus_lattice_path_value=1/2
+normalization=primitive_plus_lattice_generator_is_2*x_plus
+abs_L(E,1)/Omega_E_plus=1/4
+v2_L_alg=-2
+result=PASS_EXACT_INTEGRAL_MODULAR_LATTICE
+
+[independent_point_count]
+command=python3 src/curves/point_count_62a1.py
+exit_status=0
+p=13
+affine_count=11
+projective_count=12
+a_p=2
+affine_points=(1,0),(1,11),(4,1),(4,7),(5,9),(5,11),(8,6),(8,11),(11,6),(11,8),(12,0)
+
+[claim_boundary]
+The finite checker proves deterministic replay, exact curve/isogeny identities,
+the q=13 witness, table intersections, and fail-closed behavior.  It does not
+machine-prove the uniform local lemmas.  Those uniform lemmas and the Selmer
+theorem are conventional symbolic proofs in the theorem files, independently
+reviewed in evidence/INDEPENDENT_REVIEW.md.  The exact base L-value valuation
+is separately replayed from the exact integral modular-symbol lattice without
+using msfromell, floating periods, lfun, or bestappr.

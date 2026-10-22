@@ -1,0 +1,19 @@
+{
+  "status": "mathematical_return_complete_publication_pending",
+  "targets": [
+    "p-primary faithful class bound",
+    "across-prime test",
+    "supported public research publication"
+  ],
+  "prior_lab_commit": "ceadfa43c5543cf5efd75d0ed72cad5728d6e7cc",
+  "endpoints": "open",
+  "resumed": "2026-10-22",
+  "uploaded_packet": "BSD_FIN_SOURCE_EXPERIMENTS_2026-10-21",
+  "uploaded_manifest_verified": 45,
+  "uploaded_sha256": "6f0aa3eab6268e034e2874d8cb75041b17d93a91e02562207d54137c43543595",
+  "publication": "clean public export pending; existing repositories private",
+  "checkpoint": "Direct primary packing ceiling106 is weaker than retained97; separate proof and arithmetic reviews pass under retained inputs; public export awaiting final sealed packet",
+  "new_small_bound": false,
+  "best_new_five_torsion_rank_bound": 106,
+  "operative_retained_bound": 97
+}

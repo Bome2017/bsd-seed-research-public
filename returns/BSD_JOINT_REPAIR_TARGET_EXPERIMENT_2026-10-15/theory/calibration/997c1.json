@@ -1,0 +1,3554 @@
+{
+  "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/997c1/matrices.json",
+  "sha256": "7a015a8dfdd9fd57bb0b52e0ddb351305d962079e4788c4a5838ca87cc38e7d9",
+  "extra_binding": null,
+  "grade": "Retain source certificate separately; numerical matrices do not authenticate completeness.",
+  "scope": "Exact containing-screen and source-span diagnostics, not an independent arithmetic bound.",
+  "profiles": [
+    {
+      "label": "scalar__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 2,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 2,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 2,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 1,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+all_saved_additivity__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 2
+            },
+            {
+              "row": 11,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+all_saved_additivity__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 2
+            },
+            {
+              "row": 11,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+all_saved_additivity__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            },
+            {
+              "row": 11,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 1,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            1,
+            2,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_0__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 2
+            },
+            {
+              "row": 11,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_0__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 2
+            },
+            {
+              "row": 11,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_0__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            },
+            {
+              "row": 11,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 1,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            1,
+            2,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_1__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 11,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            1,
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_1__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 11,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            1,
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_1__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 11,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 1,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            2,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_2__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            },
+            {
+              "row": 12,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            0,
+            1,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_2__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            },
+            {
+              "row": 12,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            0,
+            1,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_2__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            },
+            {
+              "row": 7,
+              "coefficient": 2
+            },
+            {
+              "row": 12,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 1,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            2,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_3__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            },
+            {
+              "row": 11,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            2,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_3__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            },
+            {
+              "row": 11,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            2,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_3__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            },
+            {
+              "row": 7,
+              "coefficient": 2
+            },
+            {
+              "row": 11,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 1,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            1,
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_4__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 13,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            2,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_4__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 13,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            2,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_4__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 13,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 1,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_5__all_local",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 13,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_5__local_3",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 3,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 3,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 2,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 13,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 8,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "scalar+saved_split_block_5__local_997",
+      "source_dimension": 10,
+      "unit_dimension": 4,
+      "class_span_dimension": 1,
+      "source_class_lift_basis": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "global_unit_rank": 3,
+      "local_unit_rank": 2,
+      "joint_unit_rank": 3,
+      "dual_overlap_dimension": 2,
+      "separately_repairable_class_dimension": 1,
+      "compatibility_defect_rank": 0,
+      "joint_admitted_class_dimension": 1,
+      "joint_admitted_unit_dimension": 1,
+      "point_unit_intersection_dimension": 1,
+      "point_class_image_dimension": 1,
+      "point_relative_dimensions": {
+        "unit": 0,
+        "ordinary_class": 0,
+        "valuation": 0
+      },
+      "full_joint_dimension": 2,
+      "protected_columns": 2,
+      "mixed_class_rows": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "dual_mixed_certificates": [
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 2
+            },
+            {
+              "row": 13,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 1,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        },
+        {
+          "global_row_coefficients": [
+            {
+              "row": 6,
+              "coefficient": 1
+            },
+            {
+              "row": 7,
+              "coefficient": 1
+            }
+          ],
+          "local_row_coefficients": [
+            {
+              "row": 4,
+              "coefficient": 1
+            }
+          ],
+          "convention": "global minus local; this evaluates -dual(omega)",
+          "source_row": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "class_values": [
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "lane": "seed_degree24_p5_memory_and_relation_producer",
+  "status": "MEMORY_BOTTLENECK_DIAGNOSED_RELATION_PRODUCERS_STOPPED_WITHOUT_NEW_COLUMNS",
+  "runtime": "PARI/GP 2.17.3 unmodified for final producer",
+  "complete_seed_bnf": false,
+  "seed_units_computed": false,
+  "seed_class_bound_computed": false,
+  "measured_default_relation_cache_entry_bytes": 10223928008,
+  "small_base_peak_rss_bytes": 732577792,
+  "random_small_base_peak_rss_bytes": 734720000,
+  "balanced_base_peak_rss_bytes": 933396480,
+  "new_seed_relation_columns_observed": 0,
+  "running_jobs": false,
+  "pending": null,
+  "next_after_gate": "No unchanged extension. A new source of relations or a different arithmetic algorithm is required before restarting this producer."
+}

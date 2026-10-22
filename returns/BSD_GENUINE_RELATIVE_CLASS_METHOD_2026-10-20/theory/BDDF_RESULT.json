@@ -1,0 +1,25 @@
+{
+  "T": 419776,
+  "criterion": "Belabas-Diaz y Diaz-Friedman Corollary 5.2, inequality (23), unconditional",
+  "diagnostic_decimal_not_certificate": {
+    "gap_rhs_minus_lhs": "393.018410393008869413162791752893816148578870587176119987445",
+    "lhs": "23.9784935223574776348588551920094914088039315871488516390428",
+    "rhs": "416.996903915366347048021646944903307557382802174324971626488"
+  },
+  "exact_failure_margin_lower": "73954686883/250000000",
+  "exact_lhs_upper": "14045313117/250000000",
+  "exact_rhs_lower": "352",
+  "generation_disproved": false,
+  "generator_defect_bounded": false,
+  "input_hashes": {
+    "review/DISCRIMINANT_GENERATION_BOUND.json": "8e0e2a60d978a1783558346833191950fd418be6d3e9ebaa98da16112fefa0da",
+    "review/norm_inventory_result.gp": "8b7c1fac76224cc7a9904dadc19ecc2c53f7a5d26294eb04f358f2a54e919751"
+  },
+  "n": 24,
+  "new_class_bound": false,
+  "norm_rows": 8515,
+  "prime_ideals": 35749,
+  "prime_power_terms_with_multiplicity": 35923,
+  "r1": 4,
+  "status": "FAIL_AT_THIS_CUTOFF"
+}

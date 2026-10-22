@@ -1,0 +1,99 @@
+PRIOR-ART AND RISK NOTES FOR 66b1
+Extracted verbatim from an existing four-curve hostile prior-art audit dated 2026-08-22.
+
+== Nam 2018 (Concordia thesis) Theorem 4.9 coverage, by isogeny class ==
+## 10. Nam coverage curve by curve
+
+| target class | relevant representative(s) | selected-signature comparison | verdict |
+|---|---|---|---|
+| `62a` | every class member | `N` is even, all have bad reduction at 2; `q=5 (mod 8)` makes 2 inert | Nam (a) fails uniformly |
+| `66b` | every class member | same obstruction | Nam (a) fails uniformly |
+| `105a` | `105a1` | squareclass `Delta=105`; selected product is `+1`, but partial-2 branch requires `-1` | direct representative misses |
+| `105a` | center `105a2` | full 2-torsion; `Delta=11025=105^2`, so (b) is `+1` | printed theorem overlaps, but proof omits this positive/full-2 branch |
+| `105a` | `105a3` | squareclass `21`; selected `(q/3)(q/7)=-1` | direct printed collision; `q=13` disproves stronger Selmer inference |
+| `105a` | `105a4` | `Delta=-3^4*5*7^4`, squareclass `-5`; selected `(q/5)=-1` | printed collision; `q=13` Selmer is minimal, but one sample is not a uniform theorem |
+| `141c` | `141c1` | squareclass `-47`; selected `(q/47)=-1` | direct printed collision |
+| `141c` | center `141c2` | full 2-torsion; `Delta=19881=141^2` | printed theorem overlaps, proof branch omitted |
+| `141c` | `141c3` | `Delta=3*47^4`, squareclass 3; selected `(q/3)=-1` | partial-2 printed collision |
+
+== risk flags from that audit's stop/go block ==
+```text
+EXACT_BASE_INVARIANTS_VERIFIED                 = YES
+EXACT_ISOGENY_TOPOLOGY_VERIFIED                = YES
+EXACT_SELECTED_SIGNATURES_BOUND                = YES
+ZHAI_ANALYTIC_INPUT_MATCH                      = YES
+SOURCE_COMPLETE_FOUR_CURVE_BSD2_PRIOR_THEOREM  = NOT LOCATED
+BSTW_FULL_BSD_CLAIM_EXISTS                     = YES
+BANWAIT_HUANG_GAP_IDENTIFICATION_EXISTS        = YES
+NAM_2018_COLLISION_EXISTS                      = YES
+NAM_FORMAL_CONCLUSION                          = RANK ZERO ONLY
+NAM_IMPLIES_TWIST_SHA2_ZERO                     = NO
+NAM_PLUS_ISOGENY_IMPLIES_BSD2                   = NO
+NAM_PRINTED_HYPOTHESES_INCLUDE_105_Q13          = APPARENTLY YES
+OBVIOUS_C_D_TYPO_REPAIR_EXCLUDES_105_Q13        = NO
+NAM_PRINTED_HYPOTHESES_OVERLAP_141_SIGNATURE    = YES
+PRIOR_ART_RISK_62_66                            = MEDIUM
+PRIOR_ART_RISK_105_141                          = HIGH / FREEZE BLOCKING
+GENUINE_PUBLIC_PROOF_GAP                        = UNRESOLVED PENDING NAM DISPOSITION
+EXACT_TARGET_FROZEN                             = NO
+TARGET_PROOF_ATTEMPTED                          = NO
+```
+
+== other theorem families checked, and why each was found not to close the four selected
+   families (66b1 among them) ==
+## 11. Other theorem families checked
+
+| source | exact relevance | why it does not close all four selected families |
+|---|---|---|
+| Cai--Li--Zhai, [arXiv:1712.01271v2](https://arxiv.org/abs/1712.01271), JLMS 2020, Theorems 1.1/1.5 | genuine BSD(2) theorem for certain rational-2-torsion twists | needs base `v2(L/Omega)=-1`, prime support `v2(#E(F_q))=1`, and partial 2-torsion also on the quotient; here the base value is `-2`, support set is empty, quotient is full-2 |
+| Shu--Zhai, [arXiv:2102.11808](https://arxiv.org/abs/2102.11808) | rank-zero/rank-one twist families with BSD(2) | condition `(Tor)` requires both curve and quotient to have `Z/2`; exact quotients have full 2-torsion |
+| Zhai exact formula, [arXiv:2102.11798v2](https://arxiv.org/abs/2102.11798) | later exact 2-adic L-value formula | valuation and prime-set hypotheses do not match; theorem excludes full rational 2-torsion |
+| Kriz--Li, [arXiv:1710.00294v2](https://arxiv.org/abs/1710.00294), FMS 2019 e15 | 2-Selmer/rank twist results | partial-2 branch requires no rational cyclic 4-isogeny; all outer representatives have one; centers have full 2-torsion |
+| Smith, [arXiv:1702.02325v2](https://arxiv.org/abs/1702.02325) | distribution of `2^infinity`-Selmer groups for full-2 Type A twists | distribution over all squarefree twists; no deterministic intersection theorem for these thin prime Chebotarev signatures |
+| Pan--Tian, [arXiv:2503.21462](https://arxiv.org/abs/2503.21462) | distribution/equivalence classes for full rational 2-torsion | statistical, not a per-prime BSD(2) theorem |
+| Koymans--Smith, [arXiv:2606.31649](https://arxiv.org/abs/2606.31649), Example 7.8 | Tamagawa ratios and unbounded Selmer moments; includes partial-2 curve with full-2 quotient topology | a warning about the ambient twist family, not vanishing on the selected prime class |
+| Barrios--Mok, [arXiv:2510.00926](https://arxiv.org/abs/2510.00926) | BSD formula modulo squares for semistable positive twists of rank at most 1 | modulo-squares relation, not exact 2-adic Sha vanishing |
+| Adachi--Nomoto--Shii, [arXiv:2403.11474v3](https://arxiv.org/abs/2403.11474), Acta Arith. 222 (2026), 197-- | explicit 2-adic/nonvanishing twist families | their relevant prime sets require `v2(a_q-2)<=2`; selected `v2(#E(F_q))=2` and `q=5 (mod 8)` give `a_q=2 (mod 8)`, hence `v2(a_q-2)>=3` |
+| Barrios et al., [arXiv:2501.03209v2](https://arxiv.org/abs/2501.03209) | complete local Kodaira/conductor/Tamagawa data for quadratic twists, including `Q_2` | supplies local bookkeeping only, not global Selmer or BSD |
+
+
+== the positive-discriminant flag, from the four-curve theorem-chain document ==
+### Arrow A: analytic rank zero and the exact 2-adic analytic valuation
+
+**Source.** Shuai Zhai, *Non-vanishing theorems for quadratic twists of
+elliptic curves*, Asian Journal of Mathematics 20 (2016), Theorems 1.5 and
+1.7.
+
+**Use.** Theorem 1.5 applies to `62a1` and `141c1` (negative discriminant);
+Theorem 1.7 applies to `66b1` and `105a1` (positive discriminant).  The common
+point-count condition is exactly `v2(#E(F_q))=2` after the period
+normalization is handled correctly.
+
+**Conclusion.** `L(E_q,1)!=0`, exact `v2(L/Omega+)` equal to 0 (negative
+discriminant) or 1 (positive discriminant), and rank-zero/Sha finiteness via
+Kolyvagin.
+
+**Boundary.** Neither theorem proves `Sha[2]=0` or BSD at 2.  The paper's
+"easy classical 2-descent" sentence is not a source-complete proof for these
+four curves.  See `ZHAI_PRIOR_ART_AUDIT.md`.
+
+
+== the four families and their ambient squareclass sizes ==
+and the row-specific conditions
+
+| curve | additional conditions |
+|---|---|
+| `62a1` | `(q/31)=-1` |
+| `66b1` | `(q/3)=-1`, `(q/11)=+1` |
+| `105a1` | `(q/3)=+1`, `(q/5)=-1`, `(q/7)=-1` |
+| `141c1` | `(q/3)=-1`, `(q/47)=-1` |
+
+For the four twists it is enough to use the common finite support sets
+
+| curve | finite support `S` | squareclasses in the common ambient `Q(S,2)` |
+|---|---|---:|
+| `62a1` | `{2,31,q}` | 16 |
+| `66b1` | `{2,3,11,q}` | 32 |
+| `105a1` | `{2,3,5,7,q}` | 64 |
+| `141c1` | `{2,3,47,q}` | 32 |
+

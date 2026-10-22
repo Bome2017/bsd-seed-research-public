@@ -1,0 +1,46 @@
+[
+  {
+    "function": "tail_ms",
+    "same_tokens_ignoring_whitespace_and_comments": true
+  },
+  {
+    "function": "small_primes",
+    "same_tokens_ignoring_whitespace_and_comments": true
+  },
+  {
+    "function": "sieve",
+    "same_tokens_ignoring_whitespace_and_comments": true
+  },
+  {
+    "function": "seg_bounds",
+    "same_tokens_ignoring_whitespace_and_comments": true
+  },
+  {
+    "function": "read_apseg",
+    "same_tokens_ignoring_whitespace_and_comments": false
+  },
+  {
+    "function": "load_table",
+    "same_tokens_ignoring_whitespace_and_comments": false
+  },
+  {
+    "function": "gen_block",
+    "same_tokens_ignoring_whitespace_and_comments": false
+  },
+  {
+    "function": "periods",
+    "same_tokens_ignoring_whitespace_and_comments": true
+  },
+  {
+    "function": "invmod",
+    "same_tokens_ignoring_whitespace_and_comments": false
+  },
+  {
+    "function": "curve",
+    "same_tokens_ignoring_whitespace_and_comments": true
+  },
+  {
+    "function": "set_kappa",
+    "same_tokens_ignoring_whitespace_and_comments": true
+  }
+]

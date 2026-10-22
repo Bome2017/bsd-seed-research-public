@@ -1,0 +1,7 @@
+F1 c4 mod m  (set m=0):  25600*n^4  equals 25600 n^4: 1
+F2 c4 mod B  (set m=-25n^2): 32400*n^4  equals 32400 n^4: 1
+F3 13m+100n^2 mod A (set m=-16n^2): -108*n^2  equals -108 n^2: 1
+F4 v_A(Delta)=3 and v_m(Delta)=1 and v_B(Delta)=2 by inspection of 2304*m^6 + 225792*n^2*m^5 + 8739072*n^4*m^4 + 167030784*n^6*m^3 + 1577779200*n^8*m^2 + 5898240000*n^10*m
+F5 with A=u^4 (i.e. m=u^4-16n^2): Delta = -2985984*u^12*n^6 - 476928*u^16*n^4 + 4608*u^20*n^2 + 2304*u^24; Delta/u^12 = -2985984*n^6 - 476928*u^4*n^4 + 4608*u^8*n^2 + 2304*u^12  and it is a unit at q (no u factor): 1
+F6 good model disc equals Delta/u^12: 1
+F7 special fibre (u=0): Y^2=X^3+4*B_bar*X with B_bar=9n^2 mod q; disc = -2985984*n^6 nonzero iff q does not divide 2B: 1

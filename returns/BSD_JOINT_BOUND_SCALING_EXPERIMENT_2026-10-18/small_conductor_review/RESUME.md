@@ -1,0 +1,1 @@
+Complete. REPORT.md records26 exact global units (144 factors,116 ideal coordinates). check_unit_divisors.py is cheap exact replay. Quotient-only class certification timedout and must not be rerun underthiscontract. No whole-source orseedclaim. Unitcomponentrank is computed separately by local_rank lane.

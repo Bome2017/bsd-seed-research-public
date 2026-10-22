@@ -1,0 +1,27 @@
+{
+  "status": "EXACT_COUNTERCONTROL_REPLAYED",
+  "inputs_checked": 6,
+  "gp_executable_sha256": "2fdc284cd33b29e091e80a39eeeee61d1ab55f5fd92868dff9f998d78b832423",
+  "root_certificate_sha256": "79f837d25a2ee3735ec5bba940d9e82e085e93345897d34ea36194e9f98d9dd1",
+  "executions": [
+    {
+      "script": "root_test.gp",
+      "returncode": 0,
+      "stdout": "ROWS=[[718, \"false_antiunit\", 1, 0, 0, 0], [718, \"point_unit\", 1, 0, 1, 1], [1913, \"excess_unit_1\", 1, 0, 1, 1], [1913, \"excess_unit_2\", 1, 0, 1, 1], [28042, \"excess_unit_1\", 1, 0, 1, 1], [28042, \"excess_unit_2\", 1, 0, 1, 1]]\nCOMPLETE;MS=282\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_roots.gp",
+      "returncode": 0,
+      "stdout": "VERIFIED=718:false_antiunit\nVERIFIED=718:point_unit\nVERIFIED=1913:excess_unit_1\nVERIFIED=1913:excess_unit_2\nVERIFIED=28042:excess_unit_1\nVERIFIED=28042:excess_unit_2\nINDEPENDENT_DETERMINANT_NORM_PASS;ROWS=6\n",
+      "stderr": ""
+    },
+    {
+      "script": "check_scaling.gp",
+      "returncode": 0,
+      "stdout": "SCALING=718:point_unit;SAME_CLASS=1;NEW_ROOT_NONINTEGRAL=1;INTEGRAL_BASIS_DENOM=8\nSCALING=1913:excess_unit_1;SAME_CLASS=1;NEW_ROOT_NONINTEGRAL=1;INTEGRAL_BASIS_DENOM=8\nSCALING=1913:excess_unit_2;SAME_CLASS=1;NEW_ROOT_NONINTEGRAL=1;INTEGRAL_BASIS_DENOM=8\nSCALING=28042:excess_unit_1;SAME_CLASS=1;NEW_ROOT_NONINTEGRAL=1;INTEGRAL_BASIS_DENOM=8\nSCALING=28042:excess_unit_2;SAME_CLASS=1;NEW_ROOT_NONINTEGRAL=1;INTEGRAL_BASIS_DENOM=8\nSCALING_CONTROL_PASS;ROWS=5\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "First-descent norm/root test, not Cassels-Tate or nine-Selmer computation"
+}

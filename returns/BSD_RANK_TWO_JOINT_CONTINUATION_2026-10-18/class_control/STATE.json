@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_SCOPED_SCREEN",
+  "class_bound": "NO_NEW_COMPLETE_CLASS_BOUND",
+  "changed_finite_test": "ALL_84_GL2_F7_SUBGROUP_CLASSES; MIN_CENTER_DISJOINT_INDEX_48",
+  "source_checks": "PARI quotient flag, Hofmann-Johnston general-field class requirement, Etienne generalized norm relations",
+  "new_bnf_runs": 0,
+  "known_sha_used": false,
+  "endpoint_change": false,
+  "remaining": "Certified upper control of ordinary faithful class7 component"
+}

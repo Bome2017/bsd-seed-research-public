@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "entries": [
+    {
+      "copy": "input/PRO_REVIEW.txt",
+      "sha256": "33979dc5a43225e34226fda5cd0aa6584a485823177735fe4ce52bd88bd4e739",
+      "matched": true
+    },
+    {
+      "copy": "input/STAGE_A_DERIVATION.md",
+      "sha256": "e43cad34e081a929d0ff6e547a21cf7315932bd7e1adc0ed12cb525258c1a040",
+      "matched": true
+    },
+    {
+      "copy": "input/NEXT_ARITHMETIC_STEP.md",
+      "sha256": "c05dadb07d35ca1121619387101854b582ad191017cace908749bc68ba7a22fb",
+      "matched": true
+    },
+    {
+      "copy": "input/CONCURRENT_ARISTOTLE_RETURN.md",
+      "sha256": "4a91791009a03dbe883aa20c33775abd3d160cbf5cbd8c9f7a4ba51fe083694d",
+      "matched": true
+    },
+    {
+      "copy": "input/CONCURRENT_REV2_TASK.md",
+      "sha256": "de3c3eac2e227a6e228325d138df75e3cea311d4975f3a2b92d1419e379fe5c6",
+      "matched": true
+    },
+    {
+      "copy": "input/OPENAI_04_VERTICAL.tex",
+      "sha256": "6f5ac8b5cc7c5f07965e0b9ee13fee30dd1519aa695c2c93c80376cd32c5ee99",
+      "matched": true
+    }
+  ]
+}

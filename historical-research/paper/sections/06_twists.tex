@@ -1,0 +1,41 @@
+\section{Two quadratic twists}\label{sec:twists}
+
+For a fundamental discriminant $D$ with $\gcd(D,N)=1$, write $E^D$ for the quadratic twist. It has conductor $D^2N$, and its central values are computed from the same certified coefficients:
+\[
+L(E^D,1)=2\sum_{n\ge1}\frac{\chi_D(n)a_n}{n}e^{-2\pi n/(|D|\sqrt N)}\quad(w(E^D)=+1),
+\]
+\[
+L'(E^D,1)=2\sum_{n\ge1}\frac{\chi_D(n)a_n}{n}E_1\!\left(\frac{2\pi n}{|D|\sqrt N}\right)\quad(w(E^D)=-1).
+\]
+The tails are bounded by the same elementary bound used in Theorem~\ref{thm:lpp}.
+
+\begin{theorem}[\cid{K.1}; computer-assisted, published theorems applied]\label{thm:d23}
+The twist by $D=-23$ satisfies
+\[
+39.512236\le L'(E^{-23},1)\le40.182321 .
+\]
+Here the finite sum to $T=3{,}456{,}106{,}495$ is $39.847278312318874\pm4.28\cdot10^{-16}$, and the tail is at most $0.335041797049$. The root number of $E^{-23}$ is $-1$, so its analytic rank is exactly one. By Gross--Zagier \cite{gz} and Kolyvagin \cite{kolyvagin}, $\rank E^{-23}(\Q)=1$ and $\Sha(E^{-23}/\Q)$ is finite. Hence $\rank E(\Q(\sqrt{-23}))=3$.
+\end{theorem}
+
+\begin{theorem}[\cid{K.2}; computer-assisted, published theorems applied]\label{thm:d7}
+The twist by $D=-7$ satisfies
+\[
+9.054319\le L(E^{-7},1)\le9.054421 .
+\]
+Here $T=2{,}013{,}265{,}919$, and the margin over the tail bound is $1.8\cdot10^5$. The root number is $+1$, so the analytic rank is zero, and $\rank E^{-7}(\Q)=0$ with $\Sha(E^{-7}/\Q)$ finite. Hence $\rank E(\Q(\sqrt{-7}))=2$, and the two ranks are $(r^+,r^-)=(2,0)$.
+\end{theorem}
+
+\begin{remark}
+The two fields play different roles.
+\begin{itemize}[leftmargin=*]
+\item In $\Q(\sqrt{-23})$ all bad primes split: this is the indefinite, Heegner setting, of rank three.
+\item In $\Q(\sqrt{-7})$ the primes $3$, $2243$ and $5843$ are inert and $2$, $4547$ split. The definite quaternion algebra ramified at $\{3,2243,5843,\infty\}$ then carries the Gross points used in \S\ref{sec:goodprimes}.
+\end{itemize}
+Finiteness of the twists' Tate--Shafarevich groups gives no information about $\Sha(E/\Q)$ by itself.
+
+The $D=-7$ certificate has further support:
+\begin{itemize}[leftmargin=*]
+\item an independent small-$T$ implementation (a sieve and exact multiplicativity) agrees to $1.8\cdot10^{-15}$;
+\item it passed an external re-audit of unit hashes, segment roots and exact rational recombination.
+\end{itemize}
+\end{remark}

@@ -1,0 +1,142 @@
+{
+  "original_submitted_files_matching": 29,
+  "files": [
+    {
+      "path": "BSD_SEED_RESEARCH_MAP.md",
+      "sha256": "3abbb760ad6c1bab2805609d9b5a0758530d54dcc0b87a696847d5ef3d090bcd"
+    },
+    {
+      "path": "COMMON_CONTRACT.md",
+      "sha256": "5cc767c520ab2bc6fc255d0d51507bc9b2880f8007ea4e499e10130e289042bf"
+    },
+    {
+      "path": "COVERAGE.json",
+      "sha256": "d0dfd56e89015d73f1376cb3b32a8e59e3faac0d754824694ef4558de5493c92"
+    },
+    {
+      "path": "CURRENT_FRONTIER.md",
+      "sha256": "83587b2973c1391cdd98960d08ff7027dc34753272b40e6461a8c818eaaba543"
+    },
+    {
+      "path": "FULL_COMPENDIUM.md",
+      "sha256": "a7d5db63eae00fb9433fa2276e7a9f876c0c32cbd4d99fb2e9d887f14a6d3a97"
+    },
+    {
+      "path": "HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "sha256": "8aefa608256599fb57895568ab65553b928dbb4a020f7354c053da4eea0d397c"
+    },
+    {
+      "path": "LOCAL_ATTEMPT.md",
+      "sha256": "72f44b9610e0178fa7c10c468835ea1deb420dd7d51d64b9ab980a820180fe45"
+    },
+    {
+      "path": "MANIFEST.sha256",
+      "sha256": "56b79d15703463c0badfa7d2437d9341c5f6e23719be1d2a974a2e0fdc19a78e"
+    },
+    {
+      "path": "RECENT_WALLS.md",
+      "sha256": "b9cd394408cf8c42eee4392d2e380bb56ca86278b9334fd7a4ca3851ef3eccfd"
+    },
+    {
+      "path": "REFERENCE_BINDINGS.json",
+      "sha256": "ff1081c1027e86362076b502169b4421e6aba51b48001de2da2148998cacda58"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "1f125c318b2541b1f94437a47fad2380eff6e66eb7723eb595800680e52b39ee"
+    },
+    {
+      "path": "SUBMISSION_PROMPT.txt",
+      "sha256": "5daa368e7e7c353e51208e3da23e726349793f31904569dbabf836e83c49a540"
+    },
+    {
+      "path": "SUBMIT_COMMAND.txt",
+      "sha256": "25cac8d1a9867f486d05bc5211b7e3678984bd1a9806e5f6eaa05e10287dc582"
+    },
+    {
+      "path": "TASK.md",
+      "sha256": "e473b74ac4c75bd834d3ee97e502f534aeb7a96b242b67ea61fb794aa98fb9ff"
+    },
+    {
+      "path": "prepare_reference.py",
+      "sha256": "c3aa6e84bf4f62cd7c08e9a55535d4024dce7926485526539294c3d689946ba9"
+    },
+    {
+      "path": "full_record_index/BULK_BINARY_RECEIPTS.jsonl.gz",
+      "sha256": "b5f827ed6dce14f8186abe5594df949f975fc6bf188cf20a23f106959f3a0ce6"
+    },
+    {
+      "path": "full_record_index/CAPTURE.jsonl.gz",
+      "sha256": "a144a8e1acf7619e11cc1603578639c18326b988e111e6a0a6ec2b27270d432f"
+    },
+    {
+      "path": "full_record_index/COMPENDIUM_CITATIONS.json.gz",
+      "sha256": "c978a3c9dea425546a4204b91b65b66fe346079f9039c3c556146b70833f3b4f"
+    },
+    {
+      "path": "full_record_index/COVERAGE.md",
+      "sha256": "d9fa545170f7677aaada9d75478902f0e62172bc5376abf10bfb60c9f659fdf5"
+    },
+    {
+      "path": "full_record_index/EXPIRED_UPLOAD_RECOVERY.json",
+      "sha256": "8d21138c0d59aa28d9e5ac25eefdd236f95398dc5d9de407c8b4bbe61d562f4a"
+    },
+    {
+      "path": "full_record_index/FILE_INVENTORY.jsonl.gz",
+      "sha256": "1cfb4c91894de0646467d1cf293c2f56559269714dfd7f22ed7bd456a0c5a2f7"
+    },
+    {
+      "path": "historical_submission/MANIFEST.sha256",
+      "sha256": "582f9b4f7d86cc6dbba78314a0295d15808f1b4329bb51de02edf4493ffbe3dd"
+    },
+    {
+      "path": "historical_submission/READING_SET_BINDING.json",
+      "sha256": "8164493ad0175ec90ac3860498f0d038cc22c3db11a50315bc963ce66fe6c313"
+    },
+    {
+      "path": "historical_submission/README_ARISTOTLE.md",
+      "sha256": "d1f4cdcf7e437aad27584f9e6a56c8b3ff8a9f631c1b52e7baa2c1203489d3aa"
+    },
+    {
+      "path": "historical_submission/SUBMIT_COMMAND.txt",
+      "sha256": "adc60c2d3db622ad3b0f653fd147bb9722a0d50bce2dce49b811b99b18d4dbeb"
+    },
+    {
+      "path": "historical_submission/TASK.md",
+      "sha256": "d315d972df514020f7fe6dc8a059a6e3a144766e991b115bc26fe394aa67c96d"
+    },
+    {
+      "path": "historical_submission/prepare_reference.py",
+      "sha256": "ebf8a3b580141ba8c29af350d25ac85f6e81589d95a515ddb00a06b62f156327"
+    },
+    {
+      "path": "payload/COMPLETE_READING_SET.zip",
+      "sha256": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27"
+    },
+    {
+      "path": "payload/CURRENT_OVERLAY.zip",
+      "sha256": "b26e42945df5b8f52afe5644c3efec8ad6a6996306c7302ffdea025f8600e74a"
+    }
+  ],
+  "trace_checker_nonfloat_sections_equal": true,
+  "float_section_byte_equal": false,
+  "float_comparison": {
+    "saved": {
+      "L_prime": 39.84727806412273,
+      "split_t_1.2": 39.84727806412956,
+      "fe_discrepancy": 6.828315690654563e-12,
+      "minus_certified_partial_2S_T": -2.4819613742010915e-07,
+      "inside_certified_interval": true
+    },
+    "local": {
+      "L_prime": 39.84727806412275,
+      "split_t_1.2": 39.84727806412957,
+      "fe_discrepancy": 6.821210263296962e-12,
+      "minus_certified_partial_2S_T": -2.4819612320925444e-07,
+      "inside_certified_interval": true
+    },
+    "largest_difference": 1.4210854715202004e-14
+  },
+  "python": "3.13.2 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 12:54:57) [Clang 14.0.6 ]",
+  "scope": "Same supplied checker replay; Decimal transcendental operations are numerical, not directed enclosures; float sums differ by a few ulps."
+}

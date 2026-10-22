@@ -1,0 +1,57 @@
+[
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/data.gp",
+    "local": "inputs/data.gp",
+    "sha256": "f7de104f3895edf5d2048c7748e2e396b7c2b1f51d96c7eeee5babc8bdeb54cf"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/matrices.json",
+    "local": "inputs/matrices.json",
+    "sha256": "a5c45a386a0ff05260e3c189a4a76008ad98d5627d79f5445a3e423503ba99c2"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/class_witness.gp",
+    "local": "inputs/class_witness.gp",
+    "sha256": "77f56ab0dd6ab02eaede6e026af02e7681edf82ef6a91dce6334672bc42bfe3b"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/analyze.out",
+    "local": "inputs/analyze.out",
+    "sha256": "4557f5514287024b13796357200082e4c7e5d25c370141d8a3514c0f17d698d9"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/nf.gp",
+    "local": "inputs/nf.gp",
+    "sha256": "eb8bc8dbb08bef08163318ef14ecd995ed0e4822840c8565e5038b3afc4b4106"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/bnf.bin",
+    "local": "inputs/bnf.bin",
+    "sha256": "948bda03fd1bd63beea60a1eee1ae6a7f708770f6531352de0b448a28da97022"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/scan.out",
+    "local": "inputs/scan.out",
+    "sha256": "3ef3c0b82bbcbd6a95893e1dbd517f56937b49c15874aff60997adecf3e35966"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/scan.err",
+    "local": "inputs/scan.err",
+    "sha256": "c7c74ad8b7a735cfa4ff70e9728a31fd5bbdb0591cddc0cd2e432297da0c1efd"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/lib/selmer.gp",
+    "local": "inputs/lib/selmer.gp",
+    "sha256": "adb81dedbb2e073d7ec4da8e0ef68deb157aa78594a97a6eb2a1b9322b4b6f0e"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/lib/cubinv.gp",
+    "local": "inputs/lib/cubinv.gp",
+    "sha256": "4c6daec403143281dac6c4e2b3009a60d0c61aea28a0289d1a25738d26f1df59"
+  },
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/lib/classimg.gp",
+    "local": "inputs/lib/classimg.gp",
+    "sha256": "af807f8f3b15e09b8f1ec91e1c85cb0e2b36788c82445b25d1e12f8d4d733f34"
+  }
+]

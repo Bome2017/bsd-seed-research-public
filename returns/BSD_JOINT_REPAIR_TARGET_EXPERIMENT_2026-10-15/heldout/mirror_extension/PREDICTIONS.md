@@ -1,0 +1,3 @@
+# Prospective mirror extension
+
+The fixed first12 fresh mirror primes all reject the class through a nonzero mixed compatibility functional. Old127 does not. Test the next60 admissible split primes after16981 (same selection rules, upper bound200000), computing all outcomes, to distinguish an everywhere-nonzero conjecture from arithmetic variation. No source/class/unit recomputation, no selection by relation ranks. Compare each block+scalar with ALL local conditions. Export the first failure, its literal source exponents, separate global/local unit repairs, and a passing block with the same unit-overlap dimension if available. This is a post-initial-panel experiment, sealed before its own arithmetic, not part of the original120.

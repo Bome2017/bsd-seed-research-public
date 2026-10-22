@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-06",
+  "repository": "Bome2017/bsd-seed-lab",
+  "commit": "6c1cb9398ce6d4791fc7988ee18893cd74bc1cdf",
+  "connector_read_files": [
+    {
+      "path": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/REPORT.md",
+      "git_blob_sha1": "5bf8fe09d4dc32b785943b3c47fd551eb85f882d"
+    },
+    {
+      "path": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/CORRECTED_PROOF.md",
+      "git_blob_sha1": "efe25155f20704aec4941122fde816832817f6c3"
+    },
+    {
+      "path": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/CORRECTIONS.md",
+      "git_blob_sha1": "53af99cd33f580ce2ccc7c4c684b7977b851bcb5"
+    },
+    {
+      "path": "work/returns/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/MATHEMATICAL_RECONSTRUCTION.md",
+      "git_blob_sha1": "38d98caa6eef3c93556bad10faf2bfd19d87e9f9"
+    }
+  ],
+  "uploaded_bfr_archive": {
+    "filename": "BSD_ARISTOTLE_BFR_REVIEW_2026-10-06.zip",
+    "sha256": "5b866e2c3826b2ca5455170972caaf2677af5fb8c86452cb129cfbc606928e3c"
+  },
+  "sources_bundled": false,
+  "grade": "WRITTEN_DERIVATION_UNDER_RETAINED_INPUTS",
+  "new_lean_proof": false,
+  "new_receiver_bound": false,
+  "new_primary_vanishing": false,
+  "remote_changes_or_submissions": false
+}

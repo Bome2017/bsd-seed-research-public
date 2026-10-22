@@ -1,0 +1,80 @@
+{
+  "status": "EXACT_RATIONAL_MAP_REPLAY_AND_TWO_SCALAR_SPECIALIZATIONS_PASS",
+  "held_out_prime": 4261,
+  "results": [
+    {
+      "ell": 167,
+      "source_fiber_irreducible": true,
+      "target_fiber_irreducible": true,
+      "root_identity_exact": true,
+      "minimal_polynomial_exact": true,
+      "source_point_division_exact": true,
+      "target_point_division_exact": true,
+      "specializations": [
+        {
+          "prime": 3061,
+          "fiber_extension_degree": 5,
+          "fiber_factor_degrees": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "distinct_translations": 25,
+          "action_equals_selected_global_map": true
+        },
+        {
+          "prime": 4261,
+          "fiber_extension_degree": 5,
+          "fiber_factor_degrees": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "distinct_translations": 25,
+          "action_equals_selected_global_map": true
+        }
+      ]
+    },
+    {
+      "ell": 113,
+      "source_fiber_irreducible": true,
+      "target_fiber_irreducible": true,
+      "root_identity_exact": true,
+      "minimal_polynomial_exact": true,
+      "source_point_division_exact": true,
+      "target_point_division_exact": true,
+      "specializations": [
+        {
+          "prime": 3061,
+          "fiber_extension_degree": 5,
+          "fiber_factor_degrees": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "distinct_translations": 25,
+          "action_equals_selected_global_map": true
+        },
+        {
+          "prime": 4261,
+          "fiber_extension_degree": 5,
+          "fiber_factor_degrees": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "distinct_translations": 25,
+          "action_equals_selected_global_map": true
+        }
+      ]
+    }
+  ]
+}

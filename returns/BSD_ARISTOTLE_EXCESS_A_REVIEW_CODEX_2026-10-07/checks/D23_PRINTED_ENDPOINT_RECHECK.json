@@ -1,0 +1,14 @@
+{
+  "scope": "Only exact arithmetic on printed retained certificate bounds; no Fourier coefficient, Arb, tail-model or full certificate replay.",
+  "interval": [
+    "9878059/250000",
+    "40182321/1000000"
+  ],
+  "midpoint": "19923639156159437/500000000000000",
+  "finite_sum_radius": "107/250000000000000000",
+  "tail_bound_imported": "335041797049/1000000000000",
+  "exact_lower": "9878059128817468393/250000000000000000",
+  "exact_upper": "10045580027341968607/250000000000000000",
+  "strictly_positive": true,
+  "outward_rounding_valid": true
+}

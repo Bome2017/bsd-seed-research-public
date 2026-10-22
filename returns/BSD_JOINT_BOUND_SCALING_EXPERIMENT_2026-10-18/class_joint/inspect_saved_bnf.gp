@@ -1,0 +1,1 @@
+B=read("/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_arithmetic/bnf.bin");print("CYC=",B.cyc);print("FACTORBASE_COUNT=",#B[5]);print("RELATION_DIM=",matsize(B[1]));print("FIRST_PRIME=",B[5][1]);print("CLASSGEN_COUNT=",#B.gen);quit;

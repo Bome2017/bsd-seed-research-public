@@ -1,0 +1,28 @@
+E^-7 :  y^2 = x^3 + 159145 x^2 + 5207351716 x
+c4 = 155281214032  = {2: 4, 7: 2, 43: 1, 1013: 1, 4547: 1}
+c6 = -19291412299579840
+Delta = 1951401451332224483990307737856
+      = {2: 8, 3: 2, 7: 6, 2243: 1, 4547: 3, 5843: 2}
+conductor = 49 N = 318656212624190616 = {2: 3, 3: 1, 7: 2, 2243: 1, 4547: 2, 5843: 1}
+
+minimality / Kodaira input at each bad prime (v(c4), v(Delta), v(j)=3v(c4)-v(Delta)):
+  p=2      v(c4)=4   v(Delta)=8   v(j)=4    minimal
+  p=3      v(c4)=0   v(Delta)=2   v(j)=-2   minimal
+  p=7      v(c4)=2   v(Delta)=6   v(j)=0    minimal
+  p=2243   v(c4)=0   v(Delta)=1   v(j)=-1   minimal
+  p=4547   v(c4)=1   v(Delta)=3   v(j)=0    minimal
+  p=5843   v(c4)=0   v(Delta)=2   v(j)=-2   minimal
+
+NOTE: j(E^-7) = j(E) (twists share j) = 1322372123614064/689197281363, NOT integral;
+      v_q(j) < 0 exactly at q = 3, 2243, 5843 -> potentially multiplicative there;
+      j is a unit at 2, 7, 4547 -> potentially good there.
+
+real roots of the cubic: 0.0 > -46039.963 > -113105.04  (3 real roots => E(R) has 2 components)
+2*pi/AGM(sqrt(e1-e3), sqrt(e1-e2)) = 0.023097882532314445498
+  (this is the period of dx/y; the Neron differential period Omega depends on minimality
+   and on the number of real components - NOT resolved here.)
+
+L(E^-7,1) certified in [9.054319, 9.054421];  #E^-7(Q)_tors = 2
+
+BLOCKED HERE: prod_v c_v needs Tate's algorithm at 2,3,7,2243,4547,5843.
+No PARI and no Sage on this host (checked). So #Sha is NOT predicted here, by necessity.

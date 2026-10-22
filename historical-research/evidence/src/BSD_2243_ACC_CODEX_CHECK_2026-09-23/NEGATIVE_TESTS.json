@@ -1,0 +1,22 @@
+{
+  "bitflip": {
+    "exit_code": 3,
+    "stderr": "FATAL: ckpt self-hash mismatch (corrupted checkpoint)"
+  },
+  "missing_checkpoint": {
+    "exit_code": 3,
+    "stderr": "FATAL: units missing: run incomplete"
+  },
+  "duplicate_checkpoint": {
+    "exit_code": 3,
+    "stderr": "FATAL: unit covered twice"
+  },
+  "delete_record_rehash": {
+    "exit_code": 3,
+    "stderr": "FATAL: units missing: run incomplete"
+  },
+  "wrong_T": {
+    "exit_code": 3,
+    "stderr": "FATAL: merge command line does not match the checkpoints' PARAMS"
+  }
+}

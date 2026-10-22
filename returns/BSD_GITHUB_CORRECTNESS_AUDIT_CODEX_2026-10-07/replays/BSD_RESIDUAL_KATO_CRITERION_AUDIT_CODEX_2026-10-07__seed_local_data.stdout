@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "c4": 3169004368,
+  "c6": 56243184546880,
+  "discriminant": 16586638656786071143743744,
+  "rows": [
+    {
+      "q": 2,
+      "v_delta": 8,
+      "v_c4": 4,
+      "v_j": 4,
+      "local_input": "retained additive potentially good reduction; prime-to-p inertia for p>=5"
+    },
+    {
+      "q": 3,
+      "v_delta": 2,
+      "v_c4": 0,
+      "v_j": -2,
+      "split_sign": -1,
+      "euler_numerator": 4,
+      "inertia_monodromy_index": 2
+    },
+    {
+      "q": 2243,
+      "v_delta": 1,
+      "v_c4": 0,
+      "v_j": -1,
+      "split_sign": 1,
+      "euler_numerator": 2242,
+      "inertia_monodromy_index": 1
+    },
+    {
+      "q": 4547,
+      "v_delta": 3,
+      "v_c4": 1,
+      "v_j": 0,
+      "local_input": "retained additive potentially good reduction; prime-to-p inertia for p>=5"
+    },
+    {
+      "q": 5843,
+      "v_delta": 2,
+      "v_c4": 0,
+      "v_j": -2,
+      "split_sign": -1,
+      "euler_numerator": 5844,
+      "inertia_monodromy_index": 2
+    }
+  ],
+  "E_F5": 8,
+  "additional_p_ge_5_local_exclusions": [
+    19,
+    59,
+    487
+  ],
+  "scope": "Exact seed invariants, split signs, factorization and p=5 count; no derivative or Sha computation"
+}

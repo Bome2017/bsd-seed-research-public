@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "files_scanned": 3473,
+  "archives_scanned": 49,
+  "archive_members_scanned": 5656,
+  "hits": [],
+  "pdf_paths": [
+    "paper/seed_bsd.pdf"
+  ],
+  "scope": "Known private identifiers and high-confidence credential literal patterns. Not a proof of absence of all private information. Researcher names, paraphrases and local paths remain documented."
+}

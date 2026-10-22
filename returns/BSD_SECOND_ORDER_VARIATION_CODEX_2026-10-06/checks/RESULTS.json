@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "total_assertions": 16265,
+  "counts": {
+    "J_Galois_equivariance": 1532,
+    "J_symmetric": 1750,
+    "Nakayama_full_evaluation_model": 600,
+    "actual_truncated_character_law": 3026,
+    "affine_fiber_all_values_attained": 500,
+    "class2_associativity": 400,
+    "class2_inverse": 400,
+    "commutator_all_old_rows_zero": 5,
+    "commutator_formula": 5,
+    "commutator_lifted_12_is_minus_one": 5,
+    "commutator_lifted_21_is_plus_one": 5,
+    "commutator_zero_evaluation": 5,
+    "completing_square_sign": 500,
+    "diagonal_second_coefficient": 653,
+    "diagram_dual_pullback_sign": 1750,
+    "every_binary_nondegenerate_diagonal_form_surjective": 552,
+    "fixed_b_fiber_has_zero": 750,
+    "mixed_pointwise_product": 653,
+    "nonzero_isotropic_ternary": 5,
+    "polar_bilinearity": 750,
+    "root_of_unity_coordinate": 653,
+    "t_skew_adjoint": 1750,
+    "variation_alone_not_sufficient": 1,
+    "without_t_stability_countercontrol": 15
+  },
+  "domain": "exact finite algebra at p=5,7,11,13,17",
+  "not_checked": [
+    "seed Selmer classes",
+    "Chebotarev field realization",
+    "global or local Galois cohomology",
+    "full-S Stage-A theorem",
+    "independent mathematical proof acceptance"
+  ],
+  "seed_character_computed": false,
+  "FIN_changed": false,
+  "ORDER9_changed": false,
+  "Q36_changed": false
+}

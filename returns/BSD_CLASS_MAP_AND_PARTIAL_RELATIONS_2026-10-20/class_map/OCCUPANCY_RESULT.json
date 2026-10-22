@@ -1,0 +1,89 @@
+{
+  "panel": 14,
+  "results": [
+    {
+      "label": "1664n1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.115,
+      "stdout": "CLASS=[6];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([1, 2])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "1696d1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.076,
+      "stdout": "CLASS=[6];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([0, 2])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "1712d1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.08,
+      "stdout": "CLASS=[6];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([0, 1])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "1888a1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.068,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([1, 2])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2006d1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.087,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([1, 2])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2027a1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.08,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([2, 1])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2045c1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.076,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=1;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat(1)\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2056b1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.083,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([1, 0])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2059a1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.092,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([0, 1])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2080d1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.066,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=3;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([2, 1, 0])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2089e1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.077,
+      "stdout": "CLASS=[6, 2];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([0, 2])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2215a1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.076,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([1, 1])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2299b1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.076,
+      "stdout": "CLASS=[12];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([2, 0])\nPOINT_OCCUPIED_ONLY\n"
+    },
+    {
+      "label": "2405b1",
+      "status": "point_occupied_provisional",
+      "seconds": 0.083,
+      "stdout": "CLASS=[3];FAITHFUL_DIM=1;POINT_ORDINARY_DIM=2;POINT_CLASS_RANK=1;CLASS_ACTION=Mat(2);POINT_CLASSES=Mat([0, 2])\nPOINT_OCCUPIED_ONLY\n"
+    }
+  ]
+}

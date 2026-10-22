@@ -1,0 +1,17 @@
+alarm(280);
+E=ellinit([0,1,1,-36,20]);
+print("CURVE ",E.a1," ",E.a2," ",E.a3," ",E.a4," ",E.a6);
+print("DISCRIMINANT ",E.disc," FACTORS ",factor(E.disc));
+print("CONDUCTOR ",ellglobalred(E)[1]);
+print("REAL_COMPONENTS ",if(E.disc>0,2,1));
+print("FROBENIUS ",vector(8,i,my(q=prime(i));[q,ellap(E,q),lift(Mod(ellap(E,q)^2-4*q,5))]));
+print("PERIODS ",E.omega);
+print("TWISTMINUS4_REAL ",ellinit(elltwist(E,-4)).omega[1]);
+gettime();
+[M,xm]=msfromell(E,-1);
+print("SYMBOL_READY_MS ",gettime());
+write("exact_symbol.gp",[M,xm]);
+print("SYMBOL_GENERATOR_VALUES ",mseval(M,xm));
+for(j=1,2,my(D=[-83,-107][j],q=-D,R,S);R=vector(q-1,a,[a,kronecker(D,a),mseval(M,xm,[oo,a/q])]);S=sum(a=1,q-1,R[a][2]*R[a][3]);write(Str("rows_",q,".gp"),R);print("TWIST ",D," SUM ",S," V5 ",valuation(S,5)," DENOMINATOR ",denominator(S)," ROW_DENOMINATOR ",denominator(R)," TIME_MS ",gettime()));
+print("COMPLETE");
+quit;

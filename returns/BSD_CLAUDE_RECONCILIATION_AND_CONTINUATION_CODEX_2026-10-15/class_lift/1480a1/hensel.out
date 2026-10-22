@@ -1,0 +1,64 @@
+{
+  "status": "INDEPENDENT_RATIONAL_HENSEL_CHECK_PASS",
+  "curves": [
+    {
+      "curve": "1480a1",
+      "samples": 6,
+      "minimum_hensel_cube_margin": 44,
+      "certificates": [
+        {
+          "prime": 3,
+          "hensel_precision": 46,
+          "exact_cube_margins": [
+            358
+          ]
+        },
+        {
+          "prime": 3,
+          "hensel_precision": 45,
+          "exact_cube_margins": [
+            350
+          ]
+        },
+        {
+          "prime": 5,
+          "hensel_precision": 46,
+          "exact_cube_margins": [
+            45,
+            45,
+            134
+          ]
+        },
+        {
+          "prime": 5,
+          "hensel_precision": 46,
+          "exact_cube_margins": [
+            45,
+            45,
+            134
+          ]
+        },
+        {
+          "prime": 37,
+          "hensel_precision": 45,
+          "exact_cube_margins": [
+            44,
+            134,
+            134,
+            44
+          ]
+        },
+        {
+          "prime": 37,
+          "hensel_precision": 45,
+          "exact_cube_margins": [
+            44,
+            134,
+            134,
+            44
+          ]
+        }
+      ]
+    }
+  ]
+}

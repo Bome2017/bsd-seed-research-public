@@ -1,0 +1,10 @@
+{
+  "omitted_reference_material": [
+    "EV_2007.txt",
+    "EV_2007.pdf",
+    "LOW_2021.pdf",
+    "LOW_2021.txt"
+  ],
+  "reason": "Public packet retains bibliographic links and hashes rather than redistributing complete third-party papers.",
+  "bindings": "sources/BINDINGS.json"
+}

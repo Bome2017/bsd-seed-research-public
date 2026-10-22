@@ -1,0 +1,147 @@
+AP_SEGROOT_SHA256 0db19ef80833a5bf8b85e8d644a8b0ef7b6090ab4df8742c219eb64e108d6b86 segments 928
+SMOOTH_MERKLE_SHA256 8c3d5bb7ca2e899d6576d4aaef9bbb2a5285372706cbbfa96e5946aabf8c862b blocks 3712
+COUNT smooth 5076972991 pairs 10492283456 sum 15569256447 T 15569256447 identity 1
+TAIL_MS_UPPER_TIMES2 1.339893586e-5
+S 0 [-0.003742815490046329918868928 +/- 3.99e-28]
+S 1 [1.060791679527432276573544 +/- 3.11e-25]
+S 2 [-0.2096026163146803455389826 +/- 4.21e-26]
+S 3 [-0.2634478318857907602183265 +/- 9.79e-28]
+S 4 [-0.07217825964836046676450911 +/- 2.02e-27]
+S 5 [-0.5130265115305442383737248 +/- 4.28e-26]
+S 6 [-0.2921822753494842899532541 +/- 4.29e-26]
+S 7 [-0.4228575221182184600768137 +/- 4.25e-26]
+S 8 [0.08801930020286384480208046 +/- 1.24e-27]
+S 9 [-0.4006474653142290464590664 +/- 3.33e-26]
+S 10 [0.07418595822577578056845353 +/- 1.45e-27]
+S 11 [0.2781593852811987851869336 +/- 3.97e-26]
+S 12 [0.05295414086807953835131345 +/- 3.63e-27]
+S 13 [-0.4285979918447642132699072 +/- 4.07e-26]
+S 14 [-0.04507180259046808223946903 +/- 2.55e-27]
+S 15 [-0.1313734314876523019350004 +/- 4.13e-27]
+S 16 [-0.1945484644004843656930357 +/- 5.67e-27]
+S 17 [0.01468055358044936567920288 +/- 1.11e-27]
+S 18 [0.5169893949567999216889254 +/- 4.57e-26]
+S 19 [0.3227787161250020384131886 +/- 4.93e-26]
+S 20 [-0.08059044713540211977794472 +/- 4.73e-27]
+S 21 [0.08577624077839710921118944 +/- 8.19e-28]
+S 22 [0.03521593382058706585104041 +/- 4.92e-28]
+S 23 [-0.3307594726933147746814815 +/- 1.47e-26]
+S 24 [-0.02921108920677740404739952 +/- 4.38e-28]
+S 25 [-0.06033822437187539334925185 +/- 2.79e-27]
+S 26 [-0.07873018922178381578028798 +/- 4.06e-27]
+S 27 [0.1638894348975598306759922 +/- 2.30e-26]
+S 28 [-0.1900398326653393088986806 +/- 3.63e-26]
+S 29 [0.3962158004613851861268955 +/- 1.36e-26]
+S 30 [0.1762261636310251435575129 +/- 1.68e-27]
+S 31 [-0.06664821873212212792725502 +/- 1.88e-27]
+S 32 [0.2239752650575785114540023 +/- 1.57e-26]
+S 33 [-0.7573825179039242347939402 +/- 6.82e-27]
+S 34 [-0.4200718044195100345431922 +/- 3.93e-26]
+S 35 [0.2972158113993971188965312 +/- 3.74e-26]
+S 36 [0.03926843388134913054708053 +/- 2.11e-27]
+S 37 [0.5798788155949546292096614 +/- 6.40e-27]
+S 38 [-0.1358236326436123871752238 +/- 7.71e-27]
+S 39 [-0.1618929257457913533905293 +/- 2.19e-26]
+S 40 [-0.3192547128957800181901261 +/- 3.90e-26]
+S 41 [0.01988273276623664450186293 +/- 1.76e-27]
+S 42 [0.2525202122575014583667266 +/- 3.62e-26]
+S 43 [-0.1599316239329996236622602 +/- 2.66e-26]
+S 44 [0.4196994698259772892550883 +/- 3.29e-26]
+S 45 [0.2950358084165191718978691 +/- 7.97e-27]
+S 46 [0.1440924981304868060031904 +/- 3.52e-26]
+S 47 [0.1078654033260415904222160 +/- 2.17e-26]
+S 48 [0.1347601385169491052394509 +/- 3.95e-26]
+SDUMP 0 -f54a061fed12bfb4a57d81f62ed9a671 -88 9e3e0b9 -7d
+SDUMP 1 43e402c8dc1c6a71cf5b76b11a42e3bd -7e 7e15331 -7c
+SDUMP 2 -d6a21178e90cdcc856c2e8d530140241 -82 3f08e681 -7f
+SDUMP 3 -86e2a25c4d9b8af3a4c7ea326518ffb1 -81 1f87b7cb -7e
+SDUMP 4 -93d23205600f8d89d592b2932f314cc3 -83 3f09b1d3 -7f
+SDUMP 5 -8355b49901310805fdfd6ca86c439e5f -80 fc27193 -7d
+SDUMP 6 -4acc752518ce91b6f14d557029f3556b -80 1f86b7a1 -7e
+SDUMP 7 -d880c7f8bb0e7dabcbb7dc13dd6ab141 -81 19f9ab45 -7e
+SDUMP 8 5a21bb3f27055bcdb52577067a1f1751 -82 3f07740b -7f
+SDUMP 9 -19a435442ffe7e9e72c46eca6c8deaf7 -7e 3f06a173 -7f
+SDUMP 10 12fdd9d866f1efce92596347a4e85c1 -7c 1f85802d -7e
+SDUMP 11 8e6ae82db767a284a09e57e02d7198a7 -81 3f07ed41 -7f
+SDUMP 12 d8e670f37577c333395d6f3524d1e9e3 -84 fc2cb41 -7d
+SDUMP 13 -db71322c3585dfd1e4d9ebeda0fc6fff -81 1f858ca7 -7e
+SDUMP 14 -b89d35e190b49c8b5f08986a099d729f -84 33f26cf -7b
+SDUMP 15 -434360df9b03c960081774dd289157b7 -81 3f0b792f -7f
+SDUMP 16 -c737b6705930e621ee710a972b010747 -82 3f05cedb -7f
+SDUMP 17 f086b460f92174e2518e67cc4bc4aa21 -86 3f06471 -7b
+SDUMP 18 21165aafedf8593ec6f1d0c5ccab63e3 -7e 1f85b62f -7e
+SDUMP 19 52a1a03d9a0c649ed92a9d4c74caeb71 -80 3f0aebc5 -7f
+SDUMP 20 -a50c9ab68855525be04e96edf7ddf2e7 -83 3f06a833 -7f
+SDUMP 21 2beadd09d585e54614c42fea6aaa0db5 -81 33f6505f -7f
+SDUMP 22 903e9540eb9bf511e96b2e6e67150917 -84 3f0c8ca3 -7f
+SDUMP 23 -54aca71e0f5ba2a8ef907c4c3d761125 -80 fc2fc51 -7d
+SDUMP 24 -ef4c181a5b5211a2fdceb9f2adf7a7b1 -85 1f85e6b3 -7e
+SDUMP 25 -7b929b6301dfb36627ea601fc947e22d -83 3f0e848f -7f
+SDUMP 26 -a13d4b1f52d91dd9c7fe99924b7dd6c3 -83 1f884929 -7e
+SDUMP 27 a7d2a1cc2e04e7783f9fec41eca8839f -82 7e13877 -7c
+SDUMP 28 -185339a91e12ac33aa9661a61b1414d5 -7f 67e951f -7c
+SDUMP 29 656e661123de51f10ef4a61a8d5e79fd -80 1f87c9fd -7e
+SDUMP 30 5a3a50d2fd561c8209eebb8c2202c8e7 -81 3f095db3 -7f
+SDUMP 31 -887edc7e5436436adf83c8b391ffd6cb -83 fc2d371 -7d
+SDUMP 32 1cab38b34482754294b990a21e678ad -7b 1f85ef55 -7e
+SDUMP 33 -60f1e90c7ad0899791497b86c7c4b1a1 -7f 3f096d85 -7f
+SDUMP 34 -6b89d365f418d442ef80809ef9b8c48b -80 3f07db87 -7f
+SDUMP 35 982cabbba1080f6c1d3670b75134041f -81 19fa637b -7e
+SDUMP 36 506bf7fa48c573bf0d07351cd38db65d -83 3f0750df -7f
+SDUMP 37 251cbc0927e828ee7113417c9af5ec93 -7e 1f853cad -7e
+SDUMP 38 -22c5566c3a6d7e22779ad3be94a191fb -80 fc30d4f -7d
+SDUMP 39 -14b8e84ac4164a89f776079c3be9f347 -7f 3f094473 -7f
+SDUMP 40 -a3755a8df665b25d6c372774e9fc11c3 -81 3f08e2bf -7f
+SDUMP 41 a2e11cdf8e1501b4a33eb98e2cd8f0b -81 1f85e5af -7e
+SDUMP 42 205295129ccb10fecc30f49dd4f8a32d -7f 19fa7d15 -7e
+SDUMP 43 -51e28eccc6dcecf63a7772b7ec71f407 -81 7e16e25 -7c
+SDUMP 44 d6e2d9521a2b419618b7337d78aa86eb -81 3f090345 -7f
+SDUMP 45 970eeef898829948467fa89c78d01eef -81 3f098aaf -7f
+SDUMP 46 49c67dee238608ac4ac2af3ab215a5a5 -81 3f063de5 -7f
+SDUMP 47 dce8895d3dd8954f4dce8383b9c9e4b5 -83 3f0c1ea9 -7f
+SDUMP 48 89fe8fcef05c1a9cb3cad8e2aacbe0b7 -82 1f86a44d -7e
+OMEGA_PLUS [0.0280449015194364044483094018079 +/- 3.04e-32]
+OMEGA_MINUS [0.0305556264963434249561173450733 +/- 1.88e-32]
+XB 1 plus [63.000 +/- 4.78e-4] cand 64512/1024 contains 1 unique 1 minus [-33.000 +/- 4.39e-4] cand -33792/1024 contains 1 unique 1
+XB 2 plus [36.000 +/- 4.78e-4] cand 36864/1024 contains 1 unique 1 minus [-99.000 +/- 4.39e-4] cand -101376/1024 contains 1 unique 1
+XB 3 plus [70.000 +/- 4.79e-4] cand 71680/1024 contains 1 unique 1 minus [-33.000 +/- 4.39e-4] cand -33792/1024 contains 1 unique 1
+XB 4 plus [7.000 +/- 4.78e-4] cand 7168/1024 contains 1 unique 1 minus [-17.000 +/- 4.39e-4] cand -17408/1024 contains 1 unique 1
+XB 5 plus [102.000 +/- 4.79e-4] cand 104448/1024 contains 1 unique 1 minus [21.000 +/- 4.39e-4] cand 21504/1024 contains 1 unique 1
+XB 6 plus [-130.000 +/- 4.79e-4] cand -133120/1024 contains 1 unique 1 minus [166.000 +/- 4.40e-4] cand 169984/1024 contains 1 unique 1
+XB 8 plus [142.000 +/- 4.79e-4] cand 145408/1024 contains 1 unique 1 minus [-45.000 +/- 4.39e-4] cand -46080/1024 contains 1 unique 1
+XB 9 plus [7.000 +/- 4.78e-4] cand 7168/1024 contains 1 unique 1 minus [-17.000 +/- 4.39e-4] cand -17408/1024 contains 1 unique 1
+XB 10 plus [-84.000 +/- 4.79e-4] cand -86016/1024 contains 1 unique 1 minus [42.000 +/- 4.39e-4] cand 43008/1024 contains 1 unique 1
+XB 11 plus [-50.000 +/- 4.78e-4] cand -51200/1024 contains 1 unique 1 minus [-57.000 +/- 4.39e-4] cand -58368/1024 contains 1 unique 1
+XB 12 plus [70.000 +/- 4.79e-4] cand 71680/1024 contains 1 unique 1 minus [-33.000 +/- 4.39e-4] cand -33792/1024 contains 1 unique 1
+XB 13 plus [63.000 +/- 4.78e-4] cand 64512/1024 contains 1 unique 1 minus [33.000 +/- 4.39e-4] cand 33792/1024 contains 1 unique 1
+XB 15 plus [-158.000 +/- 4.79e-4] cand -161792/1024 contains 1 unique 1 minus [-9.000 +/- 4.39e-4] cand -9216/1024 contains 1 unique 1
+XB 16 plus [-84.000 +/- 4.79e-4] cand -86016/1024 contains 1 unique 1 minus [-42.000 +/- 4.39e-4] cand -43008/1024 contains 1 unique 1
+XB 17 plus [102.000 +/- 4.79e-4] cand 104448/1024 contains 1 unique 1 minus [21.000 +/- 4.39e-4] cand 21504/1024 contains 1 unique 1
+XB 18 plus [36.000 +/- 4.78e-4] cand 36864/1024 contains 1 unique 1 minus [-99.000 +/- 4.39e-4] cand -101376/1024 contains 1 unique 1
+XB 19 plus [-50.000 +/- 4.78e-4] cand -51200/1024 contains 1 unique 1 minus [57.000 +/- 4.39e-4] cand 58368/1024 contains 1 unique 1
+XB 20 plus [142.000 +/- 4.79e-4] cand 145408/1024 contains 1 unique 1 minus [45.000 +/- 4.39e-4] cand 46080/1024 contains 1 unique 1
+XB 22 plus [-158.000 +/- 4.79e-4] cand -161792/1024 contains 1 unique 1 minus [-9.000 +/- 4.39e-4] cand -9216/1024 contains 1 unique 1
+XB 23 plus [-63.000 +/- 4.78e-4] cand -64512/1024 contains 1 unique 1 minus [-19.000 +/- 4.39e-4] cand -19456/1024 contains 1 unique 1
+XB 24 plus [-63.000 +/- 4.78e-4] cand -64512/1024 contains 1 unique 1 minus [19.000 +/- 4.39e-4] cand 19456/1024 contains 1 unique 1
+XB 25 plus [-63.000 +/- 4.78e-4] cand -64512/1024 contains 1 unique 1 minus [-19.000 +/- 4.39e-4] cand -19456/1024 contains 1 unique 1
+XB 26 plus [-63.000 +/- 4.78e-4] cand -64512/1024 contains 1 unique 1 minus [19.000 +/- 4.39e-4] cand 19456/1024 contains 1 unique 1
+XB 27 plus [-158.000 +/- 4.79e-4] cand -161792/1024 contains 1 unique 1 minus [9.000 +/- 4.39e-4] cand 9216/1024 contains 1 unique 1
+XB 29 plus [142.000 +/- 4.79e-4] cand 145408/1024 contains 1 unique 1 minus [-45.000 +/- 4.39e-4] cand -46080/1024 contains 1 unique 1
+XB 30 plus [-50.000 +/- 4.78e-4] cand -51200/1024 contains 1 unique 1 minus [-57.000 +/- 4.39e-4] cand -58368/1024 contains 1 unique 1
+XB 31 plus [36.000 +/- 4.78e-4] cand 36864/1024 contains 1 unique 1 minus [99.000 +/- 4.39e-4] cand 101376/1024 contains 1 unique 1
+XB 32 plus [102.000 +/- 4.79e-4] cand 104448/1024 contains 1 unique 1 minus [-21.000 +/- 4.39e-4] cand -21504/1024 contains 1 unique 1
+XB 33 plus [-84.000 +/- 4.79e-4] cand -86016/1024 contains 1 unique 1 minus [42.000 +/- 4.39e-4] cand 43008/1024 contains 1 unique 1
+XB 34 plus [-158.000 +/- 4.79e-4] cand -161792/1024 contains 1 unique 1 minus [9.000 +/- 4.39e-4] cand 9216/1024 contains 1 unique 1
+XB 36 plus [63.000 +/- 4.78e-4] cand 64512/1024 contains 1 unique 1 minus [-33.000 +/- 4.39e-4] cand -33792/1024 contains 1 unique 1
+XB 37 plus [70.000 +/- 4.79e-4] cand 71680/1024 contains 1 unique 1 minus [33.000 +/- 4.39e-4] cand 33792/1024 contains 1 unique 1
+XB 38 plus [-50.000 +/- 4.78e-4] cand -51200/1024 contains 1 unique 1 minus [57.000 +/- 4.39e-4] cand 58368/1024 contains 1 unique 1
+XB 39 plus [-84.000 +/- 4.79e-4] cand -86016/1024 contains 1 unique 1 minus [-42.000 +/- 4.39e-4] cand -43008/1024 contains 1 unique 1
+XB 40 plus [7.000 +/- 4.78e-4] cand 7168/1024 contains 1 unique 1 minus [17.000 +/- 4.39e-4] cand 17408/1024 contains 1 unique 1
+XB 41 plus [142.000 +/- 4.79e-4] cand 145408/1024 contains 1 unique 1 minus [45.000 +/- 4.39e-4] cand 46080/1024 contains 1 unique 1
+XB 43 plus [-130.000 +/- 4.79e-4] cand -133120/1024 contains 1 unique 1 minus [-166.000 +/- 4.40e-4] cand -169984/1024 contains 1 unique 1
+XB 44 plus [102.000 +/- 4.79e-4] cand 104448/1024 contains 1 unique 1 minus [-21.000 +/- 4.39e-4] cand -21504/1024 contains 1 unique 1
+XB 45 plus [7.000 +/- 4.78e-4] cand 7168/1024 contains 1 unique 1 minus [17.000 +/- 4.39e-4] cand 17408/1024 contains 1 unique 1
+XB 46 plus [70.000 +/- 4.79e-4] cand 71680/1024 contains 1 unique 1 minus [33.000 +/- 4.39e-4] cand 33792/1024 contains 1 unique 1
+XB 47 plus [36.000 +/- 4.78e-4] cand 36864/1024 contains 1 unique 1 minus [99.000 +/- 4.39e-4] cand 101376/1024 contains 1 unique 1
+XB 48 plus [63.000 +/- 4.78e-4] cand 64512/1024 contains 1 unique 1 minus [33.000 +/- 4.39e-4] cand 33792/1024 contains 1 unique 1
+XB_PLUS_DETERMINED 42 of 42 (lattice 1/1024 Z)

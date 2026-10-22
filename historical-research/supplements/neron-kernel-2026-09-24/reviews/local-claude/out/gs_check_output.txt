@@ -1,0 +1,9 @@
+Eichler n=2: p=5 e=1 cases=3750 nonzero=150 max_dev=2.40e-13 -> PASS
+Eichler n=2: p=7 e=1 cases=14406 nonzero=294 max_dev=1.24e-12 -> PASS
+Eichler n=3: p=2 e=1 cases=16 nonzero=4 max_dev=2.94e-15 -> PASS
+Eichler n=3: p=2 e=2 cases=1024 nonzero=64 max_dev=8.40e-14 -> PASS
+Eichler n=3: p=2 e=3 cases=360 nonzero=12 max_dev=1.24e-12 -> PASS
+Eichler n=2: p=5 e=2 cases=360 nonzero=0 max_dev=0.00e+00 -> PASS
+Eichler n=2: p=3 e=1 cases=324 nonzero=36 max_dev=6.70e-14 -> PASS
+Division maximal order: p=3 e=1 cases=324 nonzero=36 max_dev=7.67e-14 -> PASS
+ALL_PASS

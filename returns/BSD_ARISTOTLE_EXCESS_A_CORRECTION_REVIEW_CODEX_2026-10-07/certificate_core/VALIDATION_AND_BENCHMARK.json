@@ -1,0 +1,43 @@
+{
+  "kernel_checks": 5609,
+  "kernel_nonoverlap": 0,
+  "block_checked_terms": 448,
+  "block_failures": 0,
+  "reference_harness_repair": "Changed Euler-character test input to uint64 after initial failures above 2^31. Production character unaffected. Initial failed log preserved.",
+  "measurements": [
+    {
+      "range": "late",
+      "wall_seconds": 2.13,
+      "user_seconds": 5.69,
+      "nonzero_weighted_terms": 3156665,
+      "workers": 4
+    },
+    {
+      "range": "smooth",
+      "wall_seconds": 2.8,
+      "user_seconds": 7.58,
+      "nonzero_weighted_terms": 4058819,
+      "workers": 4
+    },
+    {
+      "range": "early",
+      "wall_seconds": 10.38,
+      "user_seconds": 33.84,
+      "nonzero_weighted_terms": 30460470,
+      "workers": 4
+    }
+  ],
+  "sources": {
+    "twist.c": "4eef4e086e69c7cda910e1b8e856e07c937c4f8e0a9c759fc8766760d0d3a623",
+    "retained_arbcore.c": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+    "twist": "109a7728f74696c9a15762064b6551420127c99cc8d6a05e26717b83a5fee1c1",
+    "build.sh": "42a8d1bbd0405bdb670783144439951841ef25b330958adc74c850c5f5d4b516",
+    "DESIGN.md": "7c4555f1fc525fadfe5c59cb3f238b8e8beca6d6b9e5b9d4582d2d2788716827",
+    "kernel_test.log": "eaf0712db081d247743ecdcf0647c47001dd41250a302c639065921a1f0a2a07",
+    "block_test.log": "88ab97a249e05d3b8265392bef3b699c98be4e7ad3fa2cb62716829beb48a179"
+  },
+  "chosen_initial_cutoff": 3456106495,
+  "cutoff_reason": "Original comparison cutoff rounded to full existing segments; success depends on its actual interval. No adequacy claim before the sum.",
+  "maximum_cutoff_this_attempt": 7012876287,
+  "subsequent_cutoff_rule": "Only if first enclosure includes zero, one extension to 418 segments; otherwise stop on certified nonzero. No new discriminant or primary computation."
+}

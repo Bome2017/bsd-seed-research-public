@@ -1,0 +1,15 @@
+F. E: disc of quadratic factor = 1 - 4*r
+F. B: disc of quadratic factor = 16*r**2
+F. F: disc of quadratic factor = 64*r
+F. G: disc of quadratic factor = 64*r*(4*r - 1)
+F. for r = +-2^m (m = 3..17 odd): E, F, G have exactly one rational 2-torsion point, B has full 2-torsion -> 2-isogeny graph E-B, B-F, B-G is closed
+G. cusp 1/1: order = (l - 1)*(l + 1)
+G. cusp 1/l: order = 0
+G. cusp 1/3: order = 0
+G. cusp 1/3*l: order = 0
+G. cusp 1/2: order = 0
+G. cusp 1/2*l: order = 0
+G. cusp 1/6: order = 0
+G. cusp 1/6*l: order = -(l - 1)*(l + 1)
+G. positive eta unit has divisor (l^2-1)([0]-[inf]) identically in l: True
+H. negative branch: #E(F_3) = 4 for all odd m (so E(Q)_tors = C_4 given the rational 4-torsion point)

@@ -1,0 +1,82 @@
+\section{What remains, and the structure of the problem}\label{sec:remaining}
+
+\subsection{The obligations}
+\begin{obligation}[\cid{O.1}, FIN]
+$\Sha(E/\Q)$ is finite. Equivalently, every primary component is finite and $\Sha[p]=0$ for all but finitely many $p$.
+\end{obligation}
+\begin{obligation}[\cid{O.2}, ORDER9]
+If $\Sha$ is finite, then $\#\Sha=9$. Given FIN, it suffices to show $\#\Sha<25281$. The bound $\#\Sha[n]<2601$ for all $n$ is equivalent to FIN \emph{together with} ORDER9 (Proposition~\ref{prop:uniform}), not to this conditional assertion alone.
+\end{obligation}
+\begin{obligation}[\cid{O.3}, Q36]
+$q=36$. No comparison between a $p$-adic leading term and the real regulator is available. (This is narrower than saying that $p$-adic methods cannot give $q$.) Even a proof of $q=36$ would leave ORDER9.
+\end{obligation}
+
+Together these three obligations are equivalent to full BSD for $E$ (Theorem~\ref{thm:endpoint}): the group obligation is finiteness together with order nine, and the real obligation is $q=36$. FIN does not imply ORDER9; given FIN, the settled components allow $\#\Sha=9t^2$ with every prime factor of $t$ at least $53$. Every other statement in this paper is settled at its stated grade (Appendix~\ref{app:grades}), so these endpoint obligations form the current known frontier. The claim index also keeps \cid{B.8} (the unevaluated witness at $4547$, a regime within the prime-by-prime strategy) and \cid{O.4} (Question~\ref{q:uniform}, a proposed mechanism) open; neither is a further endpoint obligation. The frontier describes the endpoint; it is not a count of missing lemmas. In this revision:
+\begin{itemize}[leftmargin=*]
+\item the rank, the basis and the primary components at $p\le13$ (\cid{R.1}, \cid{R.4}, \cid{S.2}, \cid{S.3}, \cid{S.5}--\cid{S.13} and \cid{S.P}) do not depend on an unrefereed preprint; the components at $17\le p\le47$ (\cid{S.17-47}) apply Ota's theorem as stated in its arXiv version, and the conditional route results \cid{B.9}, \cid{B.13}, \cid{B.17}, \cid{B.18} and \cid{B.19} keep their explicit preprint dependencies;
+\item the deductions of the primary components at $3,5,7,11,13$ are Lean-checked from their listed hypotheses (Remarks~\ref{rem:a4lean} and~\ref{rem:a5lean});
+\item the $2$-primary component is an exact computation;
+\item finiteness of $\Sha[3^\infty]$ and the lower bound $\Sha[3]\supseteq(\Z/3)^2$ do not depend on the main conjecture (Theorems~\ref{thm:sha3fin} and~\ref{thm:sha3lower}); nor, by route K (Theorem~\ref{thm:routek}), does the upper bound $\#\Sha[3^\infty]\le9$, so the exact order $9$ is proved without it; Skinner's theorem is kept as a second route (Remark~\ref{rem:su});
+\item a mod-$p$ unit Kurihara witness exists at every good prime $p\ge5$, and its minimal length equals $\dim_{\F_p}\Sel_p(E/\Q)$ (Research records~\ref{thm:kurexist} and~\ref{thm:rp}); these rest on preprint theorems, one of them an author-hosted revision of Castella--Liu--Wan \cite{clw} that is not on arXiv.
+\end{itemize}
+Under the retained prime-by-prime strategy, FIN and ORDER9 need every good prime $p\ge53$ and the bad primes $2243$, $4547$ and $5843$ (the table below). Prime-by-prime work cannot finish on its own, and a proof need not use that strategy. For Q36, rationality of $q$ with denominator at most $174$ would already give $q=36$ (Proposition~\ref{prop:ratl}); bounded algebraicity (Proposition~\ref{prop:alg}) and the common certificate of Proposition~\ref{prop:commonB} are other sufficient routes. None of these antecedents is proved.
+
+\emph{The uniform step.} Research record~\ref{thm:kurexist} gives a mod-$p$ unit Kurihara witness at every good $p\ge5$, at a length that may depend on $p$, and Research record~\ref{thm:rp} identifies the minimal length with $\dim_{\F_p}\Sel_p(E/\Q)$. The current known frontier for the uniform step is the following target. Find one finite set $S$ containing $\{2,3,2243,4547,5843\}$ and an independent argument that, for every $p$ outside $S$, either a two-prime mod-$p$ unit Kurihara witness exists or $\dim_{\F_p}\Sel_p(E/\Q)\le3$. Under Research record~\ref{thm:rp} these two conditions are equivalent to each other and to $\Sha[p^\infty]=0$. A faithful value of the full Bullach--Honnor-normalized element of a real cyclic degree-$p$ field at its actual conductor prime to $pN$, with depth strictly below four, is another sufficient condition (Research record~\ref{thm:depth}). No converse from $\Sha$ vanishing to existence of that character value is claimed. Fields, conductors and estimates may depend on $p$. No applicable theorem was located in the screened sources. Together with finiteness of the primary components at the primes of $S$, this target would give FIN.
+
+The primes not yet settled fall into five regimes:
+
+\begin{center}
+\begin{tabular}{@{}p{0.3\textwidth}p{0.62\textwidth}@{}}
+\toprule
+regime & available sufficient criteria\\ \midrule
+good ordinary $p\ge53$ & the singleton criterion of \S\ref{subsec:singletons} and Criterion~\ref{crit:cyclo}, computable prime by prime; Theorem~\ref{thm:ordbridge} and Corollary~\ref{cor:unified}, not evaluable; a two-prime unit Kurihara witness (Research record~\ref{thm:rp}) and the character test of Research record~\ref{thm:depth}, neither evaluated\\
+good supersingular $p\ge53$ ($131,167,\dots$; infinitely many \cite{elkies}) & the singleton criterion and Criterion~\ref{crit:ss}, computable prime by prime; Theorem~\ref{thm:a3}, not evaluable; a two-prime unit Kurihara witness (Research record~\ref{thm:rp}) and the character test of Research record~\ref{thm:depth}, neither evaluated\\
+$2243$ & Theorem~\ref{thm:2243}: one coefficient, uncomputed; Criterion~\ref{crit:bh}, unevaluated\\
+$5843$ & Criterion~\ref{crit:5843}: one coefficient, uncomputed; Criterion~\ref{crit:bh}, unevaluated\\
+$4547$ & the retained two-prime Kurihara sufficient witness and Criterion~\ref{crit:bh}, both unevaluated\\ \bottomrule
+\end{tabular}
+\end{center}
+Every criterion in the table works at a single prime. FIN would follow from vanishing outside a finite set, together with finiteness at each remaining prime. Separate theorems may handle ordinary, supersingular and bad primes; one theorem need not cover every regime. Finite prime support alone does not control the depths at the exceptional primes.
+
+Targeted screens of the literature, with the screened sources recorded with the evidence, found no published theorem that supplies a uniform-in-$p$ input of either kind for any elliptic curve of rank at least two: neither nondegeneracy of the $p$-adic height pairing for almost all $p$, nor nonvanishing modulo $p$ of depth-two Mazur--Tate coefficients uniformly in $p$. Such inputs are known one pair $(E,p)$ at a time, by rigorous computation, as in \S\ref{sec:primary}. This describes the current known frontier of the sources read; it is not a claim that no such theorem exists. Research record~\ref{thm:kurexist}, from preprint theorems, gives a unit Kurihara witness at every good $p\ge5$ at a length that may depend on $p$; it is not an input of the second kind.
+
+\subsection{The structure of the problem}
+The following observations come from reading the record as a whole. Items marked \emph{(builder)} are ours and are not in the cited records.
+
+\begin{enumerate}[label=(\alph*),leftmargin=*]
+\item \emph{One shared import (builder).} Skinner's multiplicative theorem supports both multiplicative bad-prime routes (Theorem~\ref{thm:2243}, Criterion~\ref{crit:5843}) and the second route to the only nonzero primary component (Theorem~\ref{thm:sha3}), whose primary support is route K. An actual defect in the imported theorem would affect these chains together. The failure of the project's attempted internal reconstruction does not establish such a defect. The good-prime components rest on Kato's divisibility instead, which is independent of it.
+
+\item \emph{One computational trust base (builder).} Every analytic certificate is an exponentially weighted twisted $L$-series evaluated from overlapping coefficient corpora sharing one verifier lineage. Independent replays share the raw coefficients. A review of the integer coefficient verifier is therefore the single most valuable audit on the computational side.
+
+\item \emph{Two lanes with a similar unresolved requirement.} The Stark lane over $\Q(\sqrt{-23})$ and the definite-theta lane over $\Q(\sqrt{-7})$ both lack an arithmetic evaluation of their specified witness; no identification of those witnesses has been proved. Neither provides a prime-independent integral object whose reductions control the $p$-adic witness. In analytic rank one that object is the Heegner index of a conductor-one Heegner point. For this curve the corresponding index over $\Q(\sqrt{-23})$ is infinite, since the rank there is three.
+\end{enumerate}
+
+\begin{question}[\cid{O.4}]\label{q:uniform}
+Is some sufficient witness for this curve the specialization of a single integral object that does not depend on $p$, and whose nonvanishing or defect is controlled by one fixed integer? Candidate witnesses include $M_2(p)$, $I_3(p)$, $C_p$ and $h_p$. A positive answer that also covers the supersingular and bad primes would give finite prime support. Lemma~\ref{lem:minors} shows that, once such an integral model exists, the effective constant follows formally.
+\end{question}
+
+\subsection{Is this a good place to start?}
+The assessment in this subsection is ours and is not in the cited records.
+
+\emph{In favour.}
+\begin{itemize}[leftmargin=*]
+\item The rank and analytic rank are certified.
+\item There is an explicit basis with a certified regulator.
+\item $q$ is certified within $0.006$ of $36$.
+\item The components at $p\le47$ are settled, and the only nonzero one, $(\Z/3)^2$, is explicit.
+\item Certified auxiliary quadratic fields exist in rank two and in rank three.
+\item A mod-$p$ unit Kurihara witness exists at every good $p\ge5$ (Research record~\ref{thm:kurexist}, from preprint theorems), so the uniform step can be stated as one inequality, $r_p<4$ for every $p$ outside a finite set (Research record~\ref{thm:rp}).
+\item A conditional criterion, with a Lean-checked core, covers every good prime $p\ge5$ with $p\nmid7N$.
+\item Many mechanisms have been tested, and their failure points are recorded with scope.
+\end{itemize}
+
+\emph{Against.}
+\begin{itemize}[leftmargin=*]
+\item The conductor $6.5\cdot10^{15}$ makes naive full modular-symbol or quaternionic spaces have scale $10^{14}$--$10^{16}$.
+\item The conductor is not squarefree, which excludes several published theorems in their printed form.
+\item The additive, potentially supersingular prime $4547$ has no executable certificate in the retained implementation.
+\item The split prime $2243$ carries an exceptional zero.
+\item The exact order of the nonzero primary component rests on route K, a written derivation read by model readers but not by a human referee; Skinner's printed theorem gives a second route, with two steps not established for this curve (Remark~\ref{rem:su}).
+\end{itemize}
+
+We leave to experts the judgment whether this balance makes $E$ a useful test case for rank-two methods. This paper and its repository are organized to make that judgment possible.

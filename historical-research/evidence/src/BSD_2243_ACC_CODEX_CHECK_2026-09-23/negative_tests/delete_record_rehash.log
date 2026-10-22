@@ -1,0 +1,3 @@
+MERGE checkpoints 8 units 1445 selected 1445 missing 1 terms 2166587327
+FINGERPRINT sum_units b0e2da055c299d17 array ac56a61d710b8d46 match 0
+FATAL: units missing: run incomplete

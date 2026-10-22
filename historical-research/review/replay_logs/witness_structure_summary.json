@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "Supplemental distinct-factor and bounded-product checks only; not a new group-arithmetic/primality replay. Every scanned file matches its retained witsha record.",
+  "files": 3757,
+  "witness_records_including_duplicates": 2693070671,
+  "bytes_read": 74359825942,
+  "elapsed_seconds_including_sequential_phase": 393.1258955001831,
+  "max_concurrent_scanners": 2,
+  "scanner_memory_per_file_less_than_MiB": 64,
+  "log_sha256": "d9878e6f2b95463cb6e6e3200bf910518bb6a8aa15bf1e8efa8e673fbd434496"
+}

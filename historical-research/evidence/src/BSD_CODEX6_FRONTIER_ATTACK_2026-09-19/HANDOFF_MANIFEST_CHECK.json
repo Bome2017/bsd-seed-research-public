@@ -1,0 +1,68 @@
+[
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/00_READ_FIRST.md",
+    "expected": "dd9151549f40c6035effe6b4838cf3fa7ddb8f4d040ff88003975e7641cbf944",
+    "actual": "dd9151549f40c6035effe6b4838cf3fa7ddb8f4d040ff88003975e7641cbf944",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+    "expected": "a5a95388d5bc9c51841508d4aadab95b93a9c2366cf9eb3616f95ddf1ca15587",
+    "actual": "a5a95388d5bc9c51841508d4aadab95b93a9c2366cf9eb3616f95ddf1ca15587",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/FIN_FRONTIER.md",
+    "expected": "9eb45d8d69781535299dc366a50a48b77fcbc6c53ebbbe2f17d10066f0ca8b3b",
+    "actual": "9eb45d8d69781535299dc366a50a48b77fcbc6c53ebbbe2f17d10066f0ca8b3b",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/FORMULA_FRONTIER.md",
+    "expected": "2b3cd187161b7f0c9e940c33abbcc0cf8e86d7936e99016a9c13ac958e3efd4e",
+    "actual": "2b3cd187161b7f0c9e940c33abbcc0cf8e86d7936e99016a9c13ac958e3efd4e",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+    "expected": "cf312815d8b47cdb63a6d476f2ca669e85c281718fb43791e33fdb8ebbafad86",
+    "actual": "cf312815d8b47cdb63a6d476f2ca669e85c281718fb43791e33fdb8ebbafad86",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/ROUTES_AND_STOPS.md",
+    "expected": "bb16f54f8e63a41f3c63cbd3a904b48d708dad82591caba9e44dbd378aee642e",
+    "actual": "bb16f54f8e63a41f3c63cbd3a904b48d708dad82591caba9e44dbd378aee642e",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/DO_NOT_RESURRECT.md",
+    "expected": "19732b5de57f4d2510429ad6c1581e847c0e2db098d8749cce81229657dab8b5",
+    "actual": "19732b5de57f4d2510429ad6c1581e847c0e2db098d8749cce81229657dab8b5",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/CODEX_QUESTIONS.md",
+    "expected": "a92a4977151e235f4e026f81dee8644bd5ff498a61f618519358ad22580c1904",
+    "actual": "a92a4977151e235f4e026f81dee8644bd5ff498a61f618519358ad22580c1904",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_AND_HASH_INDEX.md",
+    "expected": "8f7016fd57fc640e477fa79ccc49507e1c09861521f4b25da497e81e9b27565f",
+    "actual": "8f7016fd57fc640e477fa79ccc49507e1c09861521f4b25da497e81e9b27565f",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/STATE.json",
+    "expected": "452436e52040c718577c8228d5792270cac96ada388514fe5d649f460110c998",
+    "actual": "452436e52040c718577c8228d5792270cac96ada388514fe5d649f460110c998",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/RESUME.md",
+    "expected": "5904a8e05d50c019ca126d702c10806027e320fdd828854379fda0ffe984ac6d",
+    "actual": "5904a8e05d50c019ca126d702c10806027e320fdd828854379fda0ffe984ac6d",
+    "match": true
+  }
+]

@@ -1,0 +1,507 @@
+{
+  "scope": "Saved-output arithmetic and source-code audit; no new modular-symbol, Arb, or height production.",
+  "manifests": {
+    "BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14": {
+      "present": true,
+      "entries_checked": 100,
+      "mismatches": []
+    },
+    "BSD_TWO_LEG_TAME_EXPERIMENT_2026-10-14": {
+      "present": true,
+      "entries_checked": 27,
+      "mismatches": []
+    },
+    "BSD_WILD_LEG_EXPERIMENT_2026-10-14": {
+      "present": true,
+      "entries_checked": 47,
+      "mismatches": []
+    },
+    "BSD_TAME_LAW_PROOF_ATTEMPT_OPUS_2026-10-14": {
+      "present": false
+    }
+  },
+  "seals": {
+    "/Users/bsm/BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14/PREDICTIONS_SEALED.md": {
+      "sha256": "e91c74e390b83de1ef4027ba77e1360446459568b8a1bcb2485949542dd85f40",
+      "matches_current_file": true,
+      "independent_timestamp_verified": false
+    },
+    "/Users/bsm/BSD_TWO_LEG_TAME_EXPERIMENT_2026-10-14/predictions.json": {
+      "sha256": "f3f57041150fcae07fb0aa14e7566024e972ea6b43718f4a6c8858761bad59bc",
+      "matches_current_file": true,
+      "independent_timestamp_verified": false
+    },
+    "/Users/bsm/BSD_WILD_LEG_EXPERIMENT_2026-10-14/predictions_wild.json": {
+      "sha256": "eb2e6d2d3ff511325a9c9d7ece7c8393f2ff864662f8b0a605595143778ded5e",
+      "matches_current_file": true,
+      "independent_timestamp_verified": false
+    },
+    "/Users/bsm/BSD_WILD_LEG_EXPERIMENT_2026-10-14/confirm/predictions_confirm.json": {
+      "sha256": "8466b34d7a9b8bd7943c1ec143bdc390decd30e0168c0c00e4b175f706f6fd71",
+      "matches_current_file": true,
+      "independent_timestamp_verified": false
+    }
+  },
+  "seed": {
+    "auxiliary_primes": 7,
+    "plus_symbols": 622,
+    "plus_and_minus_intervals": 1244,
+    "rows": [
+      {
+        "ell": 19,
+        "m": 9,
+        "symbol_intervals_reidentified": 36,
+        "roots": [
+          {
+            "g": 2,
+            "coefficients_0_to_2": [
+              "0",
+              "-540",
+              "-4230"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              0
+            ],
+            "regulator": 8,
+            "deduced_K_residue": 0,
+            "degree3_full_index_residue": 0,
+            "degree3_reduced_index_residue": 0
+          },
+          {
+            "g": 3,
+            "coefficients_0_to_2": [
+              "0",
+              "36",
+              "342"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              0
+            ],
+            "regulator": 5,
+            "deduced_K_residue": 0,
+            "degree3_full_index_residue": 3,
+            "degree3_reduced_index_residue": 3
+          }
+        ],
+        "historical_singleton_verdict": "INVALID",
+        "historical_singleton_reasons": [
+          "p must be a prime >= 5",
+          "v_p(l-1) > 1: outside the frozen k = 1 model"
+        ]
+      },
+      {
+        "ell": 37,
+        "m": 9,
+        "symbol_intervals_reidentified": 72,
+        "roots": [
+          {
+            "g": 2,
+            "coefficients_0_to_2": [
+              "0",
+              "-1404",
+              "-9486"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              0
+            ],
+            "regulator": 1,
+            "deduced_K_residue": 0,
+            "degree3_full_index_residue": 0,
+            "degree3_reduced_index_residue": 3
+          },
+          {
+            "g": 5,
+            "coefficients_0_to_2": [
+              "0",
+              "-936",
+              "-14004"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              0
+            ],
+            "regulator": 4,
+            "deduced_K_residue": 0,
+            "degree3_full_index_residue": 3,
+            "degree3_reduced_index_residue": 6
+          }
+        ],
+        "historical_singleton_verdict": "INVALID",
+        "historical_singleton_reasons": [
+          "p must be a prime >= 5",
+          "v_p(l-1) > 1: outside the frozen k = 1 model"
+        ]
+      },
+      {
+        "ell": 73,
+        "m": 9,
+        "symbol_intervals_reidentified": 144,
+        "roots": [
+          {
+            "g": 5,
+            "coefficients_0_to_2": [
+              "0",
+              "-14616",
+              "-478332"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              0
+            ],
+            "regulator": 7,
+            "deduced_K_residue": 0,
+            "degree3_full_index_residue": 6,
+            "degree3_reduced_index_residue": 3
+          },
+          {
+            "g": 11,
+            "coefficients_0_to_2": [
+              "0",
+              "5976",
+              "205740"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              0
+            ],
+            "regulator": 7,
+            "deduced_K_residue": 0,
+            "degree3_full_index_residue": 3,
+            "degree3_reduced_index_residue": 3
+          }
+        ],
+        "historical_singleton_verdict": "INVALID",
+        "historical_singleton_reasons": [
+          "p must be a prime >= 5",
+          "v_p(l-1) > 1: outside the frozen k = 1 model"
+        ]
+      },
+      {
+        "ell": 101,
+        "m": 25,
+        "symbol_intervals_reidentified": 200,
+        "roots": [
+          {
+            "g": 2,
+            "coefficients_0_to_2": [
+              "0",
+              "-44300",
+              "-1209274"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              1
+            ],
+            "regulator": 6,
+            "deduced_K_residue": 13,
+            "degree3_full_index_residue": 14,
+            "degree3_reduced_index_residue": 14
+          },
+          {
+            "g": 3,
+            "coefficients_0_to_2": [
+              "0",
+              "-2200",
+              "-43884"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              16
+            ],
+            "regulator": 21,
+            "deduced_K_residue": 13,
+            "degree3_full_index_residue": 19,
+            "degree3_reduced_index_residue": 19
+          }
+        ],
+        "historical_singleton_verdict": "INVALID",
+        "historical_singleton_reasons": [
+          "v_p(l-1) > 1: outside the frozen k = 1 model"
+        ]
+      },
+      {
+        "ell": 109,
+        "m": 27,
+        "symbol_intervals_reidentified": 216,
+        "roots": [
+          {
+            "g": 6,
+            "coefficients_0_to_2": [
+              "0",
+              "-6912",
+              "-208080"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              9
+            ],
+            "regulator": 4,
+            "deduced_K_residue": 18,
+            "degree3_full_index_residue": 0,
+            "degree3_reduced_index_residue": 18
+          },
+          {
+            "g": 10,
+            "coefficients_0_to_2": [
+              "0",
+              "63072",
+              "3685212"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              9
+            ],
+            "regulator": 1,
+            "deduced_K_residue": 18,
+            "degree3_full_index_residue": 0,
+            "degree3_reduced_index_residue": 9
+          }
+        ],
+        "historical_singleton_verdict": "INVALID",
+        "historical_singleton_reasons": [
+          "p must be a prime >= 5",
+          "v_p(l-1) > 1: outside the frozen k = 1 model"
+        ]
+      },
+      {
+        "ell": 127,
+        "m": 63,
+        "symbol_intervals_reidentified": 252,
+        "roots": [
+          {
+            "g": 3,
+            "coefficients_0_to_2": [
+              "0",
+              "-13356",
+              "-792846"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              9
+            ],
+            "regulator": 19,
+            "deduced_K_residue": 36,
+            "degree3_full_index_residue": 48,
+            "degree3_reduced_index_residue": 48
+          },
+          {
+            "g": 6,
+            "coefficients_0_to_2": [
+              "0",
+              "-15876",
+              "-949878"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              36
+            ],
+            "regulator": 55,
+            "deduced_K_residue": 36,
+            "degree3_full_index_residue": 54,
+            "degree3_reduced_index_residue": 54
+          }
+        ],
+        "historical_singleton_verdict": "NONZERO",
+        "historical_singleton_reasons": []
+      },
+      {
+        "ell": 163,
+        "m": 81,
+        "symbol_intervals_reidentified": 324,
+        "roots": [
+          {
+            "g": 2,
+            "coefficients_0_to_2": [
+              "0",
+              "-10044",
+              "-263718"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              18
+            ],
+            "regulator": 65,
+            "deduced_K_residue": 45,
+            "degree3_full_index_residue": 0,
+            "degree3_reduced_index_residue": 0
+          },
+          {
+            "g": 3,
+            "coefficients_0_to_2": [
+              "0",
+              "12798",
+              "646749"
+            ],
+            "coefficient_residues_0_to_2": [
+              0,
+              0,
+              45
+            ],
+            "regulator": 68,
+            "deduced_K_residue": 45,
+            "degree3_full_index_residue": 45,
+            "degree3_reduced_index_residue": 45
+          }
+        ],
+        "historical_singleton_verdict": "INVALID",
+        "historical_singleton_reasons": [
+          "p must be a prime >= 5",
+          "v_p(l-1) > 1: outside the frozen k = 1 model"
+        ]
+      }
+    ],
+    "constant_constraint_modulus": 14175,
+    "distinct_integer_constant_passing_same_seven_rows": 14463,
+    "degree3_warning": {
+      "m": 9,
+      "j": 0,
+      "binomial_shift_difference_mod_m": 3,
+      "affects_reported_degree2_conclusion": false
+    }
+  },
+  "two_leg_tame": {
+    "all_prediction_rows": 1378,
+    "raw_height_pairs": 1333,
+    "raw_symbol_pairs": 695,
+    "clean_rows": 714,
+    "nonzero_mod_q": 512,
+    "by_curve": {
+      "389a1": 145,
+      "433a1": 137,
+      "664a1": 155,
+      "655a1": 165,
+      "1615a1": 112
+    },
+    "by_q": {
+      "3": 476,
+      "5": 134,
+      "11": 27,
+      "7": 56,
+      "13": 21
+    },
+    "max_mixed_modulus_by_q": {
+      "3": 27,
+      "5": 25,
+      "7": 7,
+      "11": 11,
+      "13": 13
+    },
+    "negative_controls_matches": {
+      "sealed": 714,
+      "no_Euler": 382,
+      "one_Euler": 313,
+      "wrong_plus_cross": 304,
+      "no_cross": 304,
+      "sign_flip": 189
+    },
+    "negative_controls_nonzero_matches": {
+      "sealed": 512,
+      "no_Euler": 184,
+      "one_Euler": 121,
+      "wrong_plus_cross": 194,
+      "no_cross": 194,
+      "sign_flip": 0
+    },
+    "arithmetic_mismatches": [],
+    "source_raw_height_binding": true
+  },
+  "wild": {
+    "initial": {
+      "all_prediction_rows": 148,
+      "clean_pure": 24,
+      "clean_mixed": 110,
+      "nonzero_pure": 22,
+      "nonzero_mixed": 97,
+      "augmentation_and_linear_checks": 134,
+      "squared_factor_pure_matches": 24,
+      "squared_factor_mixed_matches": 110,
+      "forced_wild_squared_matches": 110,
+      "curves": {
+        "389a1": 53,
+        "664a1": 38,
+        "655a1": 43
+      },
+      "candidate_matches": {
+        "pure:1*ap-1": 5,
+        "pure:1*ap-2": 3,
+        "pure:1*1": 5,
+        "pure:1*1-ap": 2,
+        "pure:1*ap": 2,
+        "mixed:1*ap-1": 38,
+        "mixed:-1*ap-1": 13,
+        "mixed:1*ap-2": 25,
+        "mixed:-1*ap-2": 22,
+        "mixed:1*1": 38,
+        "mixed:-1*1": 21,
+        "mixed:1*1-ap": 13,
+        "mixed:-1*1-ap": 38,
+        "mixed:1*ap": 13,
+        "mixed:-1*ap": 16
+      },
+      "source_raw_height_binding": true
+    },
+    "fresh_confirmation": {
+      "all_prediction_rows": 413,
+      "clean_pure": 98,
+      "clean_mixed": 288,
+      "nonzero_pure": 94,
+      "nonzero_mixed": 253,
+      "augmentation_and_linear_checks": 386,
+      "squared_factor_pure_matches": 98,
+      "squared_factor_mixed_matches": 288,
+      "forced_wild_squared_matches": 288,
+      "curves": {
+        "389a1": 48,
+        "664a1": 37,
+        "655a1": 37,
+        "571b1": 75,
+        "681c1": 62,
+        "707a1": 59,
+        "709a1": 68
+      },
+      "candidate_matches": {
+        "mixed:1*ap-1": 69,
+        "mixed:-1*ap-1": 35,
+        "mixed:1*ap-2": 61,
+        "mixed:-1*ap-2": 59,
+        "mixed:1*1": 69,
+        "mixed:-1*1": 55,
+        "mixed:1*1-ap": 35,
+        "mixed:-1*1-ap": 69,
+        "mixed:1*ap": 37,
+        "mixed:-1*ap": 50,
+        "pure:1*ap-1": 9,
+        "pure:1*ap-2": 9,
+        "pure:1*1": 9,
+        "pure:1*1-ap": 4,
+        "pure:1*ap": 5
+      },
+      "source_raw_height_binding": true
+    },
+    "raw_initial_keys": 134,
+    "raw_confirmation_keys": 386,
+    "overlapping_raw_arithmetic_keys": 0
+  },
+  "formal_algebra": {
+    "determinant_polarization_integer_cases": 2187,
+    "wild_coordinate_unit_cases": 34616,
+    "p_ge5_degree2_transfer_sum_zero": true,
+    "not_a_proof_of_global_or_canonical_height_comparison": true
+  }
+}

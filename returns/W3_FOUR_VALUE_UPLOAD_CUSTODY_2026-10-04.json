@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-05T06:04:29.026962+00:00",
+  "authorization": "Each time upload to lab GitHub so I can show pro 6",
+  "branch": "research/state-sync-2026-10-04",
+  "parent_commit": "b9b7366c7c16a8e041439dfbe4151a7fb3ed245e",
+  "return_folder": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04",
+  "return_manifest_entries": 40,
+  "return_manifest_sha256": "92d2d5f32e60c896214b021d8cd8679068257fb508dbe4298f64e363055926db",
+  "copied_byte_for_byte": true,
+  "return_zip": "work/returns/archives/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04.zip",
+  "return_zip_sha256": "d9233e725b1bf05376ab3b3e986c0c67b07eee84ca08069741d92cc82f3e209a",
+  "input_zip": "work/returns/archives/BSD_W3_FOUR_VALUE_PUSH_2026-10-04_INPUT.zip",
+  "input_zip_sha256": "b5e321bb1ad18ff82b93711bcf600b4a1ec4c329f87f68a55bf8ac41fe81eab6",
+  "mathematical_status": "FOUR_VALUE_REDUCTION_CONFIRMED_CONDITIONALLY; CLASSICAL_SYMBOL_EXTRACTION_DERIVED; UNIFORM_BOUND_OPEN",
+  "independent_new_derivation_review": "PENDING",
+  "seed_values_computed": false,
+  "uniform_nonvanishing_proved": false,
+  "FIN": "OPEN",
+  "ORDER9": "OPEN",
+  "Q36": "OPEN",
+  "custody_is_not_mathematical_certification": true
+}

@@ -1,0 +1,47 @@
+{
+  "complete_bound_accounting.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 0.2845837369095534,
+    "maximum_resident_set_bytes": 156151808
+  },
+  "cycle_analysis.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 1.122313086874783,
+    "maximum_resident_set_bytes": 32268288
+  },
+  "gcd_refinement.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 36.25878857308999,
+    "maximum_resident_set_bytes": 77492224
+  },
+  "integer_kernel.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 1.239838802954182,
+    "maximum_resident_set_bytes": 241561600
+  },
+  "preflight.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 0.440485947066918,
+    "maximum_resident_set_bytes": 37642240
+  },
+  "private_support.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 1.1749305659905076,
+    "maximum_resident_set_bytes": 186642432
+  },
+  "relative_batch.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 30.60769504099153,
+    "maximum_resident_set_bytes": 77668352
+  },
+  "support_rank.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 15.64698565704748,
+    "maximum_resident_set_bytes": 148377600
+  },
+  "unit_kernel_check.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 0.6394003701861948,
+    "maximum_resident_set_bytes": 96399360
+  }
+}

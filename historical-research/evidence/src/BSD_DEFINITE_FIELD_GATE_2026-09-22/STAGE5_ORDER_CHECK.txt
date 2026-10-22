@@ -1,0 +1,25 @@
+Anticyclotomic height pairing: the anticyclotomic character is ODD under tau,
+so <P^tau,Q^tau> = -<P,Q>.  On E(K)^+ x E(K)^+ and E(K)^- x E(K)^- the pairing
+therefore vanishes identically, and the matrix is BLOCK-ANTIDIAGONAL:
+      [  0    A   ]      A is r+ x r-
+      [ -A^T  0   ]
+
+rank = 2*rank(A) <= 2*min(r+,r-);  kernel dim = (r+ + r-) - 2*min = |r+ - r-|
+order of vanishing >= (total rank) + (kernel dim) = (r+ + r-) + |r+ - r-| = 2*max(r+,r-)
+
+   (r+,r-)  2*min  |r+-r-|  sum+ker  2*max  numeric rank
+    (0, 0)      0        0        0      0             0
+    (1, 1)      2        0        2      2             2
+    (2, 0)      0        2        4      4             0
+    (2, 2)      4        0        4      4             4
+    (3, 1)      2        2        6      6             2
+    (2, 1)      2        1        4      4             2
+
+OUR DEFINITE LANE: (r+,r-) = (2,0)
+  height pairing is IDENTICALLY ZERO (nothing to pair E(Q) against)
+  |r+ - r-| = 2 > 1  => the STANDARD regulator vanishes; leading term is a DERIVED regulator
+  ord_I L_p >= 2*max = 4   and   ord_I calL_p >= 2      <-- matches THETA_ORDER_2_FULL_ORDER_4
+
+cross-check against the COMPLEX order: ord L(E/K,s) = r+ + r- = 2.
+  So the p-adic object has EXTRA VANISHING of 2*max - (r+ + r-) = |r+ - r-| = 2.
+  Extra vanishing is zero exactly when r+ = r-, which is BD's emphasis.

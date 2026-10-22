@@ -1,0 +1,8 @@
+#E(F_64) affine points: 80 (expected 80 = 81 - 1)
+automorphisms found: 24
+each (a,s) has two t differing by 1: True
+E(F_4) affine points: 8 (8 = E[3] minus O); all x in F_4: True
+roots of x^4 + x in F_64 are exactly F_4: True
+induced permutation group on the four 3-subgroups has order 12 (AGL_1(F_4) = A_4 has 12)
+stabilizer orders of the four 3-subgroups: [3, 3, 3, 3]
+kernel of the action (should be {+-1}: a=1, s=0, t in {0,1}): [(1, 0, 0), (1, 0, 1)]

@@ -1,0 +1,16 @@
+{
+  "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+  "lab_baseline": "78291463206d7f3b80fe27f9e2eae784725324a2",
+  "manifest_entries_verified": 15,
+  "source_bindings_verified": 8,
+  "original_2x2_cases_reproduced": 16,
+  "local_point_control": "PASS",
+  "copy_identity": "PASS",
+  "archive_integrity": "PASS",
+  "archive_bytes": 34094,
+  "archive_sha256": "563b742966fe5c11f981e56b38c0454eb64d5957c855dcb6e7251900fa6a5d1e",
+  "grade": "conditional written review with scoped repairs; not independent full seed certification",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

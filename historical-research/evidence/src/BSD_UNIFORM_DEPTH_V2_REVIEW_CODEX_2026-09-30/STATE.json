@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "verdict": "ACCEPT_AT_RETAINED_AND_IMPORTED_THEOREM_GRADE",
+  "return_status": "REDUCED",
+  "input_manifest_verified": 14,
+  "new_comparison_confirmed": true,
+  "two_prime_converse_confirmed": true,
+  "uniform_upper_bound_proved": false,
+  "q36_changed": false,
+  "fin_order9_changed": false,
+  "new_research_mechanism_identified": false,
+  "source_inputs_modified": false,
+  "repository_changes": false,
+  "successor_launched": false,
+  "recommendation": "Keep the comparison as a separate checked addendum; finish existing bank; no automatic construction relaunch."
+}

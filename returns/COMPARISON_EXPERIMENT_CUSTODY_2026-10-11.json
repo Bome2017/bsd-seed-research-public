@@ -1,0 +1,14 @@
+{
+  "status": "SEALED_AND_COPIED_BYTE_IDENTICALLY",
+  "source": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11",
+  "destination": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11",
+  "manifest_entries": 96,
+  "archive": "work/returns/archives/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11.zip",
+  "archive_sha256": "8cf5b970a7c1711f4a8a5ec3e7bc67f27617fbe462631b987732c4511227a8e2",
+  "archive_bytes": 555782,
+  "zip_integrity": "PASS",
+  "all_members_equal_source": true,
+  "nested_admission_manifest": "PASS",
+  "mathematical_grade": "computer-assisted written proof with separate same-team review; no seed bound",
+  "endpoint_change": false
+}

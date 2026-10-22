@@ -1,0 +1,44 @@
+[
+  {
+    "id": "S0",
+    "path": "CURRENT_STATE.md",
+    "git_blob_matches": true,
+    "sha256": "6e03898ceeee1dd864c51b75ce6bb112f3bc764887628cf0ec840009ce67d976"
+  },
+  {
+    "id": "S1",
+    "path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+    "git_blob_matches": true,
+    "sha256": "10327d5f65e6fa98411eb5cf9859184bdf4e2c3ba63907c746fa00d0d33a6636"
+  },
+  {
+    "id": "S2",
+    "path": "work/returns/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/SOURCE_TESTS.md",
+    "git_blob_matches": true,
+    "sha256": "adff20b42cb06d9bd3e2be08fc3877a242bb241287f6209c12a3c4a77a4bcad7"
+  },
+  {
+    "id": "S3a",
+    "path": "work/returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/REPORT.md",
+    "git_blob_matches": true,
+    "sha256": "63c5dacf03e42508ca02cadf9dc8dbc5ce242f8e6b09257179f821ce1523ee05"
+  },
+  {
+    "id": "S3b",
+    "path": "work/returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/context/EXIT1_PENDING_FORMULA.md",
+    "git_blob_matches": true,
+    "sha256": "44e7ed5f222c4297d68d09d35f52f0233138095279b22fa59871b062b2d4166e"
+  },
+  {
+    "id": "S5a",
+    "path": "work/returns/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11/REPORT.md",
+    "git_blob_matches": true,
+    "sha256": "cf37eb6d31c3b675473a69e7d0bf209323ed9f81259a3140f23ec4b593e54a1f"
+  },
+  {
+    "id": "S6",
+    "path": "work/returns/BSD_CM_SOURCE_INDEX_CODEX_2026-10-11/REPORT.md",
+    "git_blob_matches": true,
+    "sha256": "61e9131faa3d941c26f3286bad6c8ad662730716a6159f320c29ab2958da553d"
+  }
+]

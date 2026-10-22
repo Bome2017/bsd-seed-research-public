@@ -1,0 +1,25 @@
+{
+  "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+  "lab_baseline": "eddb24fe53e7450d7b9ff553ff3fd6ed038857ef",
+  "manifest_entries_verified": 24,
+  "input_bindings_verified": 11,
+  "new_algebra_control_cases": 288,
+  "predecessor_exact_replays": 3,
+  "predecessor_manifest_counts": [
+    33,
+    22,
+    14,
+    19,
+    22
+  ],
+  "archive_sha256": "93bf0839999be02d264ba540d5978c3675a47ada5a911696e4b299830fb5410b",
+  "archive_bytes": 478671,
+  "archive_integrity": "PASS",
+  "copy_identity": "PASS",
+  "mathematical_grade": "conditional written derivative-content bound; independent review required",
+  "new_seed_arithmetic_value": false,
+  "cofinite_bound": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

@@ -1,0 +1,8 @@
+'A3Core.free_of_rank_of_exact_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.finrank_eq_of_graded_presentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.minusOfQuotientEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.range_inf_minus_eq_map_plus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.two_le_finrank_plus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.sha_dual_eq_bot_of_finrank_plus_eq_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.M1_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.order_eq_two' depends on axioms: [propext, Classical.choice, Quot.sound]

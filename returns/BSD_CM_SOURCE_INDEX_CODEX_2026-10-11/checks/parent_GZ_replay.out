@@ -1,0 +1,41 @@
+height [3.524059016863897789141230 +/- 2.85e-25] area [0.004849729069704556462455328873124839176321644731467528619276 +/- 8.77e-61]
+derivative [3.265902563746264982536719632615535041637651254 +/- 4.13e-46]
+twist [3.0253886055598639046371 +/- 6.68e-23]
+{
+  "status": "BALL_INGREDIENTS_AND_BOUNDED_RATIONAL_ISOLATION_PASS",
+  "scope": "Arithmetic deduction requires source normalization, K-height convention, GZ theorem, degree-ratio proof, and retained classical degree upper bound plus full rational generator Y. This file does not compute a CM point.",
+  "height_BSD_absolute": "[3.524059016863897789141230 +/- 2.85e-25]",
+  "height_tail": "[2.38081718459785612679253029405565822174084005149040195718736e-25 +/- 6.49e-85]",
+  "period_area": "[0.004849729069704556462455328873124839176321644731467528619276 +/- 8.77e-61]",
+  "Lprime": "[3.265902563746264982536719632615535041637651254 +/- 4.13e-46]",
+  "Lprime_tail": "[1.927032091553282392603890709843908398793633920752143849170e-50 +/- 8.86e-108]",
+  "Lprime_coeff_sha256": "801e944b94a70cecedcd361a4abbac686055ca1abb06c7b0e3476d265ce007ab",
+  "Ltwist": "[3.0253886055598639046371 +/- 6.68e-23]",
+  "Ltwist_tail": "[2.75393112760727965152423266007232767758098585181140375891e-23 +/- 8.02e-80]",
+  "Ltwist_coeff_sha256": "a44455c8bfc37f6abb1627d3c72510314271a176f1ed657d60cf718ff020bee9",
+  "n_Hodge_squared_over_Manin_squared": "[9.0000000000000000000000 +/- 8.27e-23]",
+  "identified_rational": 9,
+  "Manin_square_upper_bound": "[9108512936.80966819463884271687302471296650363672354242759 +/- 4.59e-48]",
+  "bounded_denominator_separation": "[6.25000000000000000000000000000000000000000000000000000000000e-12 +/- 8.36e-72]",
+  "source_Hecke_multiplier": -2,
+  "corrected_n_squared_over_Manin_squared": 36,
+  "singular_reductions": {
+    "3": true,
+    "7": false,
+    "11": false,
+    "167": false
+  },
+  "height_term_count": 42,
+  "L_cutoffs": [
+    12000,
+    120000
+  ],
+  "ball_precision": 200,
+  "exact_curve_model": [
+    "1",
+    "1",
+    "1",
+    "1878418",
+    "-485198548"
+  ]
+}

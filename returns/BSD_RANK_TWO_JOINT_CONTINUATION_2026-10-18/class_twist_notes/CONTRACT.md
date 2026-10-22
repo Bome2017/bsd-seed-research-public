@@ -1,0 +1,1 @@
+Independently check the -47 twist's exact divisor consequence and whether shared x-coordinate field transfers faithful class control. No new BNF, no known Sha input, no alteration of sealed class_control. Review root whole-source formula. Bound to small exact algebra and retained field data.

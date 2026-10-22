@@ -1,0 +1,26 @@
+{
+  "status": "ISOLATED_ARITHMETIC_REPLAY_PASS",
+  "outputs": [
+    {
+      "output": "RESULTS.json",
+      "canonical_sha256": "114ff04b220b6696c67e9bd99cbe00153cbd7c463a76167c7334187adef22715",
+      "replay_equal": true
+    },
+    {
+      "output": "LITERAL_REPLAY.json",
+      "canonical_sha256": "916281924f3ed544a2d9e3896ad7d8b074c9b5bfda864a59b29c499b118a82e5",
+      "replay_equal": true
+    },
+    {
+      "output": "REPRESENTATIVE_CONTROLS.json",
+      "canonical_sha256": "c97aaa4fe1df0e88276c95c980aa63ad3c8745f8cf913a53568db370fa51f86a",
+      "replay_equal": true
+    },
+    {
+      "output": "DENSITY_ENUMERATION.json",
+      "canonical_sha256": "9eede2a8742c29589f3e1cd75f5ffee1e131f1bb101eaec9b33134b3ef160a2d",
+      "replay_equal": true
+    }
+  ],
+  "scope": "All 120 local blocks, literal representatives, quotient controls and sealed finite matrix enumeration. No new GP scan, BNF, rank or global Selmer membership computation."
+}

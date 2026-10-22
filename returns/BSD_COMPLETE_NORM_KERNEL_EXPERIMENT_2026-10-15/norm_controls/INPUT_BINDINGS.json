@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/data.gp",
+    "path": "inputs/1913b1_data.gp",
+    "sha256": "bdbac56d60e62907a577cee78d3e0a6c563f20bf41b3aab68bce8c9e39e6addf"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/matrices.json",
+    "path": "inputs/1913b1_matrices.json",
+    "sha256": "56adc05b6f210cc9009d4796de601a24b31cd98356325166d8431deb2931d3f9"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/data.gp",
+    "path": "inputs/389a1_data.gp",
+    "sha256": "5e0bca36fcb33d1038150080cc13ffef0002a7b456a79453e601b4ce5570bd2a"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/matrices.json",
+    "path": "inputs/389a1_matrices.json",
+    "sha256": "35617b8c04952c3c610f397d94fdfc8a975d9eaf7ed3f0a39af676298d92e570"
+  }
+]

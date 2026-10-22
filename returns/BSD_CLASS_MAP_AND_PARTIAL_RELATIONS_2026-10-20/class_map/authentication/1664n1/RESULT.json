@@ -1,0 +1,74 @@
+{
+  "source_class_invariants": [
+    6
+  ],
+  "target_class_invariants": [
+    6
+  ],
+  "source_ideal_norm": 409600,
+  "image_ideal_norm": 68719476736000000,
+  "norm_beta_prime_data_p_e_f_val_div3": [
+    [
+      2,
+      8,
+      1,
+      126,
+      42
+    ],
+    [
+      5,
+      1,
+      1,
+      6,
+      2
+    ],
+    [
+      5,
+      1,
+      2,
+      6,
+      2
+    ]
+  ],
+  "unit_map_matrix": [
+    [
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      -1,
+      2,
+      1
+    ]
+  ],
+  "unit_map_rank_mod3": 3,
+  "connecting_unit_coordinates": [
+    1,
+    1,
+    0,
+    -1
+  ],
+  "repair_exponents_mod3": [
+    2,
+    1,
+    0,
+    0
+  ],
+  "class_kernel_dimension": 1,
+  "connecting_rank": 0
+}

@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-20T18:43:51.543065+00:00",
+  "base_commit": "62cf86b31d24be543a4e5677231c130c712e353d",
+  "packet": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20",
+  "manifest_entries": 156,
+  "verification": {
+    "status": "CUSTODY_AND_RECEIPT_CONSISTENCY_PASS",
+    "manifests": {
+      "MANIFEST.sha256": 156,
+      "class_control/MANIFEST.sha256": 11,
+      "memory_diagnosis/MANIFEST.sha256": 79,
+      "relative_source/MANIFEST.sha256": 36,
+      "review/MANIFEST.sha256": 14
+    },
+    "seed_arithmetic_recomputed": false,
+    "mathematical_proof_certified": false,
+    "complete_bound_obtained": false
+  },
+  "zip": "/Users/bsm/Downloads/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20.zip",
+  "zip_bytes": 590580,
+  "zip_sha256": "aaf7a45e8ed6240786b7c5e127d222d335fc98b73de7d647a4fe4fcfcb9c96dd",
+  "scope": "Custody and receipt consistency; no new complete seed bound or endpoint conclusion.",
+  "whitespace_check": "Authored Markdown, Python, C and JSON pass git diff --check. Raw GP output and patch context whitespace is preserved byte-for-byte."
+}

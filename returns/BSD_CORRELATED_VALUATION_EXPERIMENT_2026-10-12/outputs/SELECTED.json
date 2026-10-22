@@ -1,0 +1,48 @@
+{
+  "exceptional": [
+    {
+      "curve": "655a1",
+      "p": 7,
+      "a_p": -3,
+      "v_reg": 3,
+      "precision": 10,
+      "regulator": "2*7^3 + 7^4 + 4*7^5 + 3*7^6 + 4*7^7 + 4*7^9 + O(7^10)"
+    },
+    {
+      "curve": "433a1",
+      "p": 13,
+      "a_p": -5,
+      "v_reg": 3,
+      "precision": 9,
+      "regulator": "13^3 + 6*13^4 + 5*13^5 + 10*13^6 + 7*13^7 + O(13^9)"
+    },
+    {
+      "curve": "655a1",
+      "p": 31,
+      "a_p": -2,
+      "v_reg": 3,
+      "precision": 9,
+      "regulator": "27*31^3 + 27*31^4 + 19*31^5 + 6*31^6 + 24*31^7 + 11*31^8 + O(31^9)"
+    }
+  ],
+  "controls": [
+    {
+      "curve": "433a1",
+      "p": 7,
+      "a_p": -3,
+      "v_reg": 2,
+      "precision": 9,
+      "regulator": "6*7^2 + 2*7^3 + 3*7^4 + 7^5 + 3*7^7 + 4*7^8 + O(7^9)"
+    },
+    {
+      "curve": "655a1",
+      "p": 11,
+      "a_p": -4,
+      "v_reg": 2,
+      "precision": 9,
+      "regulator": "9*11^2 + 6*11^3 + 10*11^5 + 3*11^6 + 3*11^7 + 7*11^8 + O(11^9)"
+    }
+  ],
+  "selection_rule": "EXPERIMENT.md Stage 2",
+  "numerators_computed_before_selection": false
+}

@@ -1,0 +1,121 @@
+{
+  "grade": "replay of saved exact evidence; not independent coefficient generation or global proof",
+  "sturm": [
+    {
+      "ell": 113,
+      "coefficients_checked": 80256,
+      "all_mod5_equal": true,
+      "mod25_trace_obstruction_at13": true
+    },
+    {
+      "ell": 167,
+      "coefficients_checked": 118272,
+      "all_mod5_equal": true,
+      "mod25_trace_obstruction_at13": true
+    }
+  ],
+  "sealed_discovery_hash_matches": true,
+  "rows": [
+    {
+      "dataset": "MIXED_INSTRUMENT_DISCOVERY.json",
+      "ell1": 113,
+      "ell2": 103,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_DISCOVERY.json",
+      "ell1": 113,
+      "ell2": 227,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_DISCOVERY.json",
+      "ell1": 113,
+      "ell2": 373,
+      "detector_nonzero": false,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_DISCOVERY.json",
+      "ell1": 167,
+      "ell2": 193,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_DISCOVERY.json",
+      "ell1": 167,
+      "ell2": 227,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_DISCOVERY.json",
+      "ell1": 167,
+      "ell2": 373,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 113,
+      "ell2": 673,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 113,
+      "ell2": 887,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 113,
+      "ell2": 1063,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 113,
+      "ell2": 1193,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 167,
+      "ell2": 673,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 167,
+      "ell2": 887,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 167,
+      "ell2": 907,
+      "detector_nonzero": true,
+      "matches": true
+    },
+    {
+      "dataset": "MIXED_INSTRUMENT_HELD_OUT.json",
+      "ell1": 167,
+      "ell2": 1063,
+      "detector_nonzero": true,
+      "matches": true
+    }
+  ],
+  "total_rows": 14,
+  "nonzero_detector_rows": 13,
+  "held_out_rows": 8
+}

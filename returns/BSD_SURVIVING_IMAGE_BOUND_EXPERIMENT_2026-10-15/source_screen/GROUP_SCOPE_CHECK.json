@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "p": 3,
+      "G_order": 48,
+      "projective_field_degree": 4,
+      "point_field_degree": 8,
+      "compatible_compositum_degree": 16,
+      "compositum_over_projective_order": 4,
+      "unipotent_stabilizer_order": 3,
+      "incident_compositum_degree": 24,
+      "full_minus_archimedean_rank": 2,
+      "incidence_determinant": -3,
+      "not_a_class_or_Selmer_computation": true
+    },
+    {
+      "p": 5,
+      "G_order": 480,
+      "projective_field_degree": 6,
+      "point_field_degree": 24,
+      "compatible_compositum_degree": 96,
+      "compositum_over_projective_order": 16,
+      "unipotent_stabilizer_order": 5,
+      "incident_compositum_degree": 120,
+      "full_minus_archimedean_rank": 6,
+      "incidence_determinant": -125,
+      "not_a_class_or_Selmer_computation": true
+    },
+    {
+      "p": 7,
+      "G_order": 2016,
+      "projective_field_degree": 8,
+      "point_field_degree": 48,
+      "compatible_compositum_degree": 288,
+      "compositum_over_projective_order": 36,
+      "unipotent_stabilizer_order": 7,
+      "incident_compositum_degree": 336,
+      "full_minus_archimedean_rank": 12,
+      "incidence_determinant": 117649,
+      "not_a_class_or_Selmer_computation": true
+    }
+  ],
+  "claim": "group geometry and real incidence determinant only"
+}

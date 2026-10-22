@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T17:56:23.969885+00:00",
+  "script": "bnf.gp",
+  "sha256": "55186fc622e898d7b87c95af8acf361478de451161bee3eef7ea890d8daeb3d9",
+  "cap_seconds": 120,
+  "elapsed": 1.931460808031261,
+  "timeout": false,
+  "returncode": 0,
+  "stdout_sha256": "f2352b52115cf4e114d8b947c50bc473977d7202b9f7fc37a094780e21aa1e05",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "accepted": true
+}

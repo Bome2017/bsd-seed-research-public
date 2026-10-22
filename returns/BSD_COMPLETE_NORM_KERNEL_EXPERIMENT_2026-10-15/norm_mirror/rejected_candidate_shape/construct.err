@@ -1,0 +1,10 @@
+  *** Mod: Warning: increasing stack size to 16000000.
+  ***   at top-level: ...t([SC;D[13]]));if(#GC!=1,error("retained candi
+  ***                                             ^---------------------
+  ***   user error: retained candidate kernel dimension
+  ***   at top-level: ...;CE=vector(#GC,j,eltof(GC[,j]));CN=vector(#GC,
+  ***                                             ^---------------------
+  ***   incorrect type in _[,_] OCcompoC [not a matrix] (t_POL).
+  ***   at top-level: for(j=1,#GC,RT[j]=nfroots(NF,x^3-CN[j]);if(#RT
+  ***                               ^--------------------------------
+  ***   incorrect type in &_[_] OCcompo1ptr [not a vector] (t_POL).

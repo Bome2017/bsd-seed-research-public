@@ -1,0 +1,18 @@
+{
+  "FIN_changed": false,
+  "ORDER9_changed": false,
+  "Q36_changed": false,
+  "actual_seed_index_computed": false,
+  "completed_at_utc": "2026-10-05T01:07:00.372741+00:00",
+  "independently_reviewed": false,
+  "index_formula": "b_g=v_pi(c_g L(g,2)/Omega_g)",
+  "integral_modular_period_comparison": "OPEN",
+  "local_lattice": "exp*(Q)=p^-2 O e_g with explicit Gauss frame",
+  "new_primary_vanishing": false,
+  "ordinary_only": true,
+  "proof_grade": "WRITTEN_DERIVATION_UNDER_RETAINED_INPUTS_AND_IMPORTED_THEOREMS",
+  "started_at_utc": "2026-10-05T00:42:46.525417+00:00",
+  "status": "W3_UNIFORM_PARTIAL",
+  "uniform_upper_bound": "OPEN",
+  "upload_destination": "Bome2017/bsd-seed-lab"
+}

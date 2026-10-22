@@ -1,0 +1,37 @@
+{
+  "288_factorization": "2^5 * 3^2",
+  "Q36_denominator_check": {
+    "174_sufficient": true,
+    "175_not_sufficient": true,
+    "one_over_174": "1/174",
+    "one_over_175": "1/175",
+    "retained_interval_radius": "573/100000"
+  },
+  "clean_depth_rows": 104,
+  "conditional_order_lower_alternative": 25281,
+  "curve_constants": {
+    "1615a1": [
+      16
+    ],
+    "194040co6": [
+      32
+    ],
+    "389a1": [
+      8
+    ],
+    "433a1": [
+      4
+    ],
+    "655a1": [
+      8
+    ],
+    "664a1": [
+      16
+    ]
+  },
+  "defined_odd_rows": 275,
+  "rows": 338,
+  "scope": "stored-data arithmetic only; no independent modular-symbol, regulator, source-theorem, or seed replay",
+  "seed_in_panel": false,
+  "stored_equation_mismatches": []
+}

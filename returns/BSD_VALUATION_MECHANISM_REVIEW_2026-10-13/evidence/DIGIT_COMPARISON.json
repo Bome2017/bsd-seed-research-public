@@ -1,0 +1,152 @@
+{
+  "d43737": {
+    "A": {
+      "digits": {
+        "J": [
+          500,
+          4
+        ],
+        "Rscalar": [
+          6184350,
+          10
+        ],
+        "L2conversion": [
+          20,
+          2
+        ],
+        "HU": [
+          1419,
+          8
+        ],
+        "Euler": [
+          3581374,
+          10
+        ],
+        "printedQ": [
+          1,
+          1
+        ]
+      },
+      "direct_L2": [
+        20,
+        2
+      ],
+      "valuations": {
+        "L2": 1,
+        "HU": 0,
+        "C": 1,
+        "Q": 0
+      },
+      "recomputed_Q": {
+        "residue": 1,
+        "precision_exponent": 1
+      }
+    },
+    "F": {
+      "digits": {
+        "J": [
+          2500,
+          5
+        ],
+        "Rscalar": [
+          6184350,
+          10
+        ],
+        "L2conversion": [
+          100,
+          3
+        ],
+        "HU": [
+          1419,
+          8
+        ],
+        "Euler": [
+          3581374,
+          10
+        ],
+        "printedQ": [
+          25,
+          3
+        ]
+      },
+      "direct_L2": [
+        100,
+        3
+      ],
+      "valuations": {
+        "L2": 2,
+        "HU": 0,
+        "C": 0,
+        "Q": 2
+      },
+      "recomputed_Q": {
+        "residue": 25,
+        "precision_exponent": 3
+      }
+    },
+    "numerator_factor5_to_available_precision": true,
+    "determinants_equal_mod5power8": true,
+    "quotient_factor25_to_available_precision": true
+  },
+  "d329233": {
+    "status": "LOWER_BOUND_ONLY",
+    "J": [
+      0,
+      6
+    ],
+    "L2": [
+      0,
+      4
+    ],
+    "HU": [
+      456075,
+      10
+    ],
+    "L2_valuation_at_least": 4,
+    "HU_valuation": 2,
+    "Q_valuation_at_least": 2,
+    "interpretation": "zero residue is not an exact zero or an exact valuation"
+  },
+  "d329233_n8": {
+    "digits": {
+      "J": [
+        46875,
+        7
+      ],
+      "Rscalar": [
+        143986250,
+        13
+      ],
+      "L2conversion": [
+        1875,
+        5
+      ],
+      "HU": [
+        456075,
+        11
+      ],
+      "Euler": [
+        296550124,
+        13
+      ],
+      "printedQ": [
+        25,
+        3
+      ]
+    },
+    "direct_L2": [
+      1875,
+      5
+    ],
+    "valuations": {
+      "L2": 4,
+      "HU": 2,
+      "C": 0,
+      "Q": 2
+    },
+    "recomputed_Q": {
+      "residue": 25,
+      "precision_exponent": 3
+    }
+  }
+}

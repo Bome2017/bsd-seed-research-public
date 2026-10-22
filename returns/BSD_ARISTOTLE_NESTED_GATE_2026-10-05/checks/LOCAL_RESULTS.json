@@ -1,0 +1,33 @@
+{
+  "status": "LOCAL_CONTROLS_PASSED",
+  "controls_passed": 23,
+  "controls": [
+    "nested_zip_integrity",
+    "three_text_files_plus_manifest",
+    "fresh_token_matches_hash_oracle",
+    "buried_file_matches_oracle",
+    "only_four_submitted_files",
+    "no_plaintext_token_in_top_level_project_files",
+    "no_plaintext_token_in_oracle",
+    "archive_binding_matches",
+    "extractor_identical_to_large_project",
+    "actual_local_extraction_succeeds",
+    "extractor_verifies_three_files",
+    "newly_created_file_read_matches",
+    "refuses_existing_output_instead_of_overwriting",
+    "absent_return_is_untested",
+    "content_without_evidence_is_not_execution_pass",
+    "complete_self_report_remains_only_reported",
+    "reject_wrong_token",
+    "reject_wrong_file",
+    "reject_wrong_file_sha256",
+    "archive_access_is_not_python_execution",
+    "boolean_exit_code_cannot_fake_integer_zero",
+    "explicit_runtime_error_distinguished",
+    "malformed_result_rejected"
+  ],
+  "fixtures": "Synthetic local controls only; token-bearing fixture files deleted with temporary directory",
+  "aristotle_submitted": false,
+  "remote_execution_tested": false,
+  "full_corpus_capacity_tested": false
+}

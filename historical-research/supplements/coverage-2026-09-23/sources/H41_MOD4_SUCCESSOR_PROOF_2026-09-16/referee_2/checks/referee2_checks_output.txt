@@ -1,0 +1,47 @@
+A. eta-unit divisors (Ligozat); cusp 1/c, c=N is inf, c=1 is 0
+   pos param=11 N=66: orders at inf=-120, at 0=120, others zero=True; div=k([0]-[inf]) with k=120: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+   pos param=19 N=114: orders at inf=-360, at 0=360, others zero=True; div=k([0]-[inf]) with k=360: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+   pos param=43 N=258: orders at inf=-1848, at 0=1848, others zero=True; div=k([0]-[inf]) with k=1848: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+   pos param=683 N=4098: orders at inf=-466488, at 0=466488, others zero=True; div=k([0]-[inf]) with k=466488: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+   pos param=2731 N=16386: orders at inf=-7458360, at 0=7458360, others zero=True; div=k([0]-[inf]) with k=7458360: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+   neg param=31 N=62: orders at inf=-120, at 0=120, others zero=True; div=k([0]-[inf]) with k=120: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+   neg param=127 N=254: orders at inf=-2016, at 0=2016, others zero=True; div=k([0]-[inf]) with k=2016: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+   neg param=8191 N=16382: orders at inf=-8386560, at 0=8386560, others zero=True; div=k([0]-[inf]) with k=8386560: True; prod d^r_d square: True; antisymmetry r_(N/d)=-r_d: True
+B. T1: theta_n (power series) vs a_n(E) (point counts, independent code) mod 4
+   pos m=3 N=66: theta_0=-120 (mod 8 = 0); theta_n == +a_n mod 4 for 1<=n<=150: True; a_2=1, bad a_p=[-1, -1]
+   neg m=3 N=62: theta_0=-120 (mod 8 = 0); theta_n == -a_n mod 4 for 1<=n<=150: True; a_2=1, bad a_p=[-1]
+   pos m=5 N=258: theta_0=-1848 (mod 8 = 0); theta_n == +a_n mod 4 for 1<=n<=150: True; a_2=1, bad a_p=[-1, -1]
+   neg m=5 N=254: theta_0=-2016 (mod 8 = 0); theta_n == -a_n mod 4 for 1<=n<=150: True; a_2=1, bad a_p=[-1]
+   pos m=7 N=114: theta_0=-360 (mod 8 = 0); theta_n == +a_n mod 4 for 1<=n<=150: True; a_2=1, bad a_p=[-1, -1]
+C. I2/R8: vertex models (symbolic in r)
+   E: displayed ~= claimed minimal model via u=2: True; Delta(min) == claimed r**4*(1 - 4*r)/256: True; c4(min) = r**2 - 4*r + 1
+   B: displayed ~= claimed minimal model via u=2: True; Delta(min) == claimed r**2*(1 - 4*r)**2/16: True; c4(min) = 16*r**2 - 4*r + 1
+   F: displayed ~= claimed minimal model via u=2: True; Delta(min) == claimed r*(1 - 4*r)**4/4: True; c4(min) = 16*r**2 + 56*r + 1
+   G: displayed ~= claimed minimal model via u=2: True; Delta(min) == claimed -r*(1 - 4*r)/4: True; c4(min) = 256*r**2 - 64*r + 1
+   E->B isogenous curve (A,B) = (4*r - 2, 1 - 4*r); B displayed (A,B) = (4*r - 2, 1 - 4*r): True
+   B->F via (1,0): True; B->G via (D,0): True
+   integral minimal models with odd c4 and ord_2 Delta = (4,2,1,1)*(m-2) for r = +-2^m, m = 3..15 odd: OK
+D. BH 2.13 local data
+   pos: r = 1 mod 3: BAD REDUCTION (D = 0 mod 3)
+   pos: r = 2 mod 5: a_5 = 2
+   pos: r = 3 mod 5: a_5 = -2
+   pos: r = 3 mod 7: a_7 = 4
+   pos: r = 5 mod 7: a_7 = 0
+   pos: r = 6 mod 7: a_7 = -4
+   neg: r = 2 mod 3: a_3 = 0
+   neg: r = 2 mod 5: a_5 = 2
+   neg: r = 3 mod 5: a_5 = -2
+   neg: r = 1 mod 7: a_7 = 0
+   neg: r = 2 mod 7: BAD REDUCTION (D = 0 mod 7)
+   neg: r = 4 mod 7: a_7 = 0
+E. CS Theorem 6.1 consistency: sum e_x u_x^2 = n0*deg with the claimed residues of u_x
+   neg m=3: #nodes=4, sum e_x=8; n0*deg mod 8 = 0, required sum e mod 8 = 0: True
+   pos m=3 l=11: #nodes=4, n3=0, sum e_x=4; n0*deg mod 32 = 16, required 4*sum e mod 32 = 16: True; deg mod 8 = 4
+   neg m=5: #nodes=12, sum e_x=16; n0*deg mod 8 = 0, required sum e mod 8 = 0: True
+   pos m=5 l=43: #nodes=16, n3=2, sum e_x=20; n0*deg mod 32 = 16, required 4*sum e mod 32 = 16: True; deg mod 8 = 4
+   pos m=7 l=19: #nodes=8, n3=2, sum e_x=12; n0*deg mod 32 = 16, required 4*sum e mod 32 = 16: True; deg mod 8 = 4
+   pos m=9 l=683: #nodes=228, n3=0, sum e_x=228; n0*deg mod 32 = 16, required 4*sum e mod 32 = 16: True; deg mod 8 = 4
+   neg m=11: #nodes=684, sum e_x=688; n0*deg mod 8 = 0, required sum e mod 8 = 0: True
+   pos m=11 l=2731: #nodes=912, n3=2, sum e_x=916; n0*deg mod 32 = 16, required 4*sum e mod 32 = 16: True; deg mod 8 = 4
+   neg m=15: #nodes=10924, sum e_x=10928; n0*deg mod 8 = 0, required sum e mod 8 = 0: True
+   pos m=15 l=43691: #nodes=14564, n3=0, sum e_x=14564; n0*deg mod 32 = 16, required 4*sum e mod 32 = 16: True; deg mod 8 = 4

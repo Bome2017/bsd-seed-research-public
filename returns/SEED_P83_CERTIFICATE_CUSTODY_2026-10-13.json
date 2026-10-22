@@ -1,0 +1,30 @@
+{
+  "status": "ZIP_AND_ALL_MEMBERS_PASS",
+  "archive": "BSD_SEED_P83_CERTIFICATE_2026-10-13.zip",
+  "archive_bytes": 93470238,
+  "archive_sha256": "2a8b8ab490e3115ef9ce425154315b4baa777748a19e6e3159e59d9f23adf605",
+  "full_manifest_entries": 20734,
+  "full_manifest_sha256": "692145592b104f514265f78c0bd8bd05b39e3663a74e7b7100b09af40f1ff696",
+  "browse_manifest_entries": 180,
+  "scope": "Byte custody, not independent mathematical verification",
+  "full_archive_omissions": [
+    "External raw3420-file9.67GB coefficient prefix",
+    "Earlier seed and corpus-generation proof artifacts not copied in frozen input package"
+  ],
+  "browse_omissions_included_in_zip": [
+    "FROZEN_RUN_PACKAGE_p83_l167",
+    "production/p83_l167/units"
+  ],
+  "report_chronology_corrected": "Independent-verifier controls passed two seconds after production start, before output",
+  "copied_utc": "2026-10-13T22:15:08.267006+00:00",
+  "browse_entries_verified": 180,
+  "browse_manifest_sha256": "7eeb8e17740b71710d07a87b8237297b123979027d3e72b3cd8968aa39f4ce5f",
+  "archive_path": "work/returns/archives/BSD_SEED_P83_CERTIFICATE_2026-10-13.zip",
+  "return_path": "work/returns/BSD_SEED_P83_CERTIFICATE_2026-10-13",
+  "baseline_commit": "15db242ee6224c85f60e7a9a999df3e8cfd6469b",
+  "math_grade": "Computer-assisted under retained seed and source inputs; same-team review",
+  "mathematical_result": "Sha(E/Q)[83-infinity]=0",
+  "endpoint_effect": "New83-primary coverage; FIN ORDER9 Q36 and25281 floor remain unchanged",
+  "publication": "Copied and verified before commit; remote confirmation recorded separately",
+  "git_diff_check": "Trailing whitespace only in retained raw control logs and PARAMS files; those bytes intentionally preserved. No whitespace finding in authored report or index updates."
+}

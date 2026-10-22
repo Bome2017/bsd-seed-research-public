@@ -1,0 +1,30 @@
+{
+  "status": "BOUNDED_ARITHMETIC_SOURCE_ATTEMPTS_COMPLETE_NO_FAITHFUL_UNITS",
+  "wall_budget": 180,
+  "root_discriminant": 278.346185269346,
+  "tech": [
+    0.01,
+    0.1,
+    4
+  ],
+  "curve_rank_bounds": [
+    2,
+    2
+  ],
+  "field_sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22",
+  "nf_sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e",
+  "latest_saved_relation_counter": 134,
+  "initial_factorbase_count": 183,
+  "has_output_bnf": false,
+  "has_output_units": false,
+  "bnf_elapsed_seconds": 177.15119231306016,
+  "bnf_alarm": true,
+  "direct_norm_cases": 2000,
+  "direct_exact_units": 3,
+  "direct_units_central_fixed": true,
+  "mixed_parity_candidates": 1471,
+  "mixed_S_supported": 0,
+  "selected_distinct_scalar_orbits": 24,
+  "partial_generator_source": "../pari_partial_source/REPORT.md",
+  "joint_unit_bound": null
+}

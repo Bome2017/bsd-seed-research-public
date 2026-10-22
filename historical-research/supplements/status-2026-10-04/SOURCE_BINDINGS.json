@@ -1,0 +1,233 @@
+[
+  {
+    "source": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/REPORT.md",
+    "path": "records/two-prime-scalar/REPORT.md",
+    "sha256": "c3c4c0b12406cbe6848f58985d79dd9ada26090be8d3b30fe9cd17c35dc0f0b3",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/AUDIT.md",
+    "path": "records/two-prime-scalar/AUDIT.md",
+    "sha256": "3691e825537ddebd6a925060d25685d605625910ce6f9bb0df5d502f9c3d59bb",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/AUDIT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/NORMALIZATION_CHECK.md",
+    "path": "records/two-prime-scalar/NORMALIZATION_CHECK.md",
+    "sha256": "7eaf4c88e3a108644f535114b6ef8631fc0d50ad826551afadc2d32c20889540",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/NORMALIZATION_CHECK.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/REPORT.md",
+    "path": "records/weight-three-index/REPORT.md",
+    "sha256": "86fe2c885829f194684f9db50fa510a040b3a960b1c2e5dd3fc1e864e946b973",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/VERIFIED_DERIVATION.md",
+    "path": "records/weight-three-index/VERIFIED_DERIVATION.md",
+    "sha256": "f09c02926f617d2101fa2173c5e04ab9b65fffad2537da3bb9db7d6f4cf46523",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/VERIFIED_DERIVATION.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_WEIGHT3_PAIRING_DECISION_CHECK_CODEX_2026-10-01/REPORT.md",
+    "path": "records/weight-three-pairing/REPORT.md",
+    "sha256": "e0017c87d11a5a82086f0ea13f00676020a4a72f0dfe5134306098e92e7f13f6",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_WEIGHT3_PAIRING_DECISION_CHECK_CODEX_2026-10-01/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_WEIGHT3_PAIRING_DECISION_CHECK_CODEX_2026-10-01/CORRECTIONS.md",
+    "path": "records/weight-three-pairing/CORRECTIONS.md",
+    "sha256": "1fc3e7d8c9c71c4c8d15a7fcd779c204aff899a394ceff0df45fbe5a4e0b2519",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_WEIGHT3_PAIRING_DECISION_CHECK_CODEX_2026-10-01/CORRECTIONS.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_WEIGHT3_PAIRING_DECISION_CHECK_CODEX_2026-10-01/DERIVATION.md",
+    "path": "records/weight-three-pairing/DERIVATION.md",
+    "sha256": "d7c7edac187a434bf892dfe01536fc9312ca80e355075a5a9b534d62709bff83",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_WEIGHT3_PAIRING_DECISION_CHECK_CODEX_2026-10-01/DERIVATION.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/REPORT.md",
+    "path": "records/receiver-exactness/REPORT.md",
+    "sha256": "fd4ec545fb39680cf72dac52314ff9e4f547ce96aefb1e24e70c0ce790d8efd7",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/REVIEW.md",
+    "path": "records/receiver-exactness/REVIEW.md",
+    "sha256": "449e43d1da06c276bdc999807c7d44c8cfae1e2ffb3afae774cc6f7da1e4a177",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/REVIEW.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/input/BSD_SECOND_TORSION_LOCAL_EXACTNESS_PUSH_2026-10-03/LOCAL_EXACTNESS.md",
+    "path": "records/receiver-exactness/input/BSD_SECOND_TORSION_LOCAL_EXACTNESS_PUSH_2026-10-03/LOCAL_EXACTNESS.md",
+    "sha256": "602c4b9e63c0dca66ee482eb60946060702b97de92b3de2573c369fe92ff1d90",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/input/BSD_SECOND_TORSION_LOCAL_EXACTNESS_PUSH_2026-10-03/LOCAL_EXACTNESS.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/REPORT.md",
+    "path": "records/receiver-pairings/REPORT.md",
+    "sha256": "ba342efcb37eb9b3425f4b5d2e0fa8c4835b9e4eb994beeddd4de0fe0af95226",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/REVIEW.md",
+    "path": "records/receiver-pairings/REVIEW.md",
+    "sha256": "38bd97825428a00db2082e44677be116a9b1e63055eb3ed3db7098c3626682d8",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/REVIEW.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/AMBIENT_LIFT_SCREEN.md",
+    "path": "records/receiver-pairings/AMBIENT_LIFT_SCREEN.md",
+    "sha256": "24421b747e094493687933186adf34dc5e42ae696598076251e0824d7baa67b3",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/AMBIENT_LIFT_SCREEN.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/BOUND_ATTEMPT.md",
+    "path": "records/receiver-pairings/BOUND_ATTEMPT.md",
+    "sha256": "4f4278c5930069d305fb3ad309d142acb93b539ac01515345ebe709291ddd4ab",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_RECEIVER_LIFTING_PUSH_CODEX_2026-10-04/BOUND_ATTEMPT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_ARITHMETIC_PUSH_REVIEW_CODEX_2026-10-03/REPORT.md",
+    "path": "records/receiver-relations/REPORT.md",
+    "sha256": "010a7b53787606060d5e05e4c10a0475dca70c58c0974456a300f547f74b127f",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_ARITHMETIC_PUSH_REVIEW_CODEX_2026-10-03/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_PRODUCT_RELATION_REVIEW_CODEX_2026-10-03/REPORT.md",
+    "path": "records/product-relations/REPORT.md",
+    "sha256": "13cd7893379a97e93a5d88de8ea5491349dd96b0b5e8d16b8aa7595d7a1f824e",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_PRODUCT_RELATION_REVIEW_CODEX_2026-10-03/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_ADDITIVE_SUPPORT_REVIEW_CODEX_2026-10-03/REPORT.md",
+    "path": "records/additive-support/REPORT.md",
+    "sha256": "2406d3fd55e79ca2bc2808f2c67dba627747ad62768082c1fabf9e99a539a7d7",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_ADDITIVE_SUPPORT_REVIEW_CODEX_2026-10-03/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_ATTACK_REPAIR_CODEX_2026-10-03/REPORT.md",
+    "path": "records/uniform-findings-repair/REPORT.md",
+    "sha256": "5a402d11608b2027694ca7f3e600d75be7d1389fea13bebdf1de384cb62bea26",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_ATTACK_REPAIR_CODEX_2026-10-03/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_ATTACK_REPAIR_CODEX_2026-10-03/AUDIT.md",
+    "path": "records/uniform-findings-repair/AUDIT.md",
+    "sha256": "7b904f5fd547ccb7fcfeb1d6226da09afd5a36649d48d9d7984531250d038d2a",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_ATTACK_REPAIR_CODEX_2026-10-03/AUDIT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/REPORT.md",
+    "path": "records/rs2-and-compendium/REPORT.md",
+    "sha256": "f9c210191bfe13276d3352e494c85d073df8ff0f57bea77b9ecfa557ce242d6f",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/COMBINATION_CHECK.md",
+    "path": "records/rs2-and-compendium/COMBINATION_CHECK.md",
+    "sha256": "b18963bee4f53ddc1718afabbdbd30617511c555fe69903e1c7794d37351a420",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/COMBINATION_CHECK.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/coverage/READ_LOG.md",
+    "path": "records/rs2-and-compendium/coverage/READ_LOG.md",
+    "sha256": "7c4910f84c6c641b191393bde7482063c9c51977b897016a319f9782e987bcf1",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/coverage/READ_LOG.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/sources/RS2_INDEPENDENT_REVIEW.md",
+    "path": "records/rs2-and-compendium/sources/RS2_INDEPENDENT_REVIEW.md",
+    "sha256": "33262751859553fb579965c153517ab53d0296086bf8780bc448771baa312143",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_COMPENDIUM_RECONCILIATION_CODEX_2026-10-04/sources/RS2_INDEPENDENT_REVIEW.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_PACKET_CONSTRUCTION_CODEX_2026-10-04/REPORT.md",
+    "path": "records/packet-transfer/REPORT.md",
+    "sha256": "e2fd9855058011198daa8d48724cf168cc2d0e97c025ba40b60202d2f7231d50",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_PACKET_CONSTRUCTION_CODEX_2026-10-04/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_PACKET_CONSTRUCTION_CODEX_2026-10-04/CONSTRUCTION.md",
+    "path": "records/packet-transfer/CONSTRUCTION.md",
+    "sha256": "da66ee76883dcd7f59f159dcaee4b6ec502afe4ec3259ac7c96d6816b89e80cd",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_PACKET_CONSTRUCTION_CODEX_2026-10-04/CONSTRUCTION.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_PACKET_CONSTRUCTION_CODEX_2026-10-04/SOURCES.md",
+    "path": "records/packet-transfer/SOURCES.md",
+    "sha256": "c8b9af48f658d491da08fe6835c7638725f945732decd526e045a9b787aa9969",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_PACKET_CONSTRUCTION_CODEX_2026-10-04/SOURCES.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_NONINVARIANT_CYCLE_PUSH_CODEX_2026-10-04/REPORT.md",
+    "path": "records/closed-lift/REPORT.md",
+    "sha256": "e8510ab74d421cc1febb60b139ad89878f63ad8675e090cbad7772fc5f170540",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_NONINVARIANT_CYCLE_PUSH_CODEX_2026-10-04/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_NONINVARIANT_CYCLE_PUSH_CODEX_2026-10-04/PROOF.md",
+    "path": "records/closed-lift/PROOF.md",
+    "sha256": "3ca277ec2e886b712a04ebdaa3cf1ac3747386456833d2b61b67c9dda5d8f5a9",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_NONINVARIANT_CYCLE_PUSH_CODEX_2026-10-04/PROOF.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_NONINVARIANT_CYCLE_PUSH_CODEX_2026-10-04/SOURCES.md",
+    "path": "records/closed-lift/SOURCES.md",
+    "sha256": "4308d0d9b0aa507c1202bb8e1c75515b39d4597f02cfbd862b3cef4b1d73dd6f",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_NONINVARIANT_CYCLE_PUSH_CODEX_2026-10-04/SOURCES.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_REFOCUS_CODEX_2026-10-03/REPORT.md",
+    "path": "records/uniform-refocus/REPORT.md",
+    "sha256": "840b1e5a010e00cebbdc85f1e023d12e46af935daf7486e7c180781e4c800634",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_UNIFORM_REFOCUS_CODEX_2026-10-03/REPORT.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_P53_L743_RUN_2026-10-01/PREFLIGHT_RETURN.md",
+    "path": "records/p53-preflight/PREFLIGHT_RETURN.md",
+    "sha256": "1367648f687c17e3ff5601b90348a93303df69754bce2f7d9eb5fdb503f61651",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_P53_L743_RUN_2026-10-01/PREFLIGHT_RETURN.md"
+  },
+  {
+    "source": "/Users/bsm/BSD_P53_L743_RUN_2026-10-01/STATE.json",
+    "path": "records/p53-preflight/STATE.json",
+    "sha256": "8b9ac9972d07926de42ee016abb7574fc1839385fe21ab0250c1f76cf7af6167",
+    "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+    "lab_path": "work/state-sync-2026-10-04/dossiers/BSD_P53_L743_RUN_2026-10-01/STATE.json"
+  }
+]

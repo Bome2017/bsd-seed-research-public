@@ -1,0 +1,58 @@
+R1b second concurrent run in the same dir: exit=3 FATAL: another live run process holds outdir/run.lock
+R1 reference run: RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 50, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1 RUN done seconds 35.01 user 34.84 
+  merge ref exit=0
+    MERGE checkpoints 1 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+    COUNT_SELECTION pairs 70944208 recount 70944208 match 1  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)
+    CHUNK_DIGEST b63083a28cc1ecfc414f58e16dad206c82cd41545ac93647eb27fb2c009a8a74
+    PARTIAL_SELECTION: the symbols below come from a unit subset -- plumbing/timing output only, NOT symbol values
+R2 crash run exit=9 RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 50, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 2 SIMULATED CRASH after 13 units (worker 1)  files: ckpt_g001_w00.bin ckpt_g001_w01.bin run.lock 
+R2 restart exit=0 RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 50, shard 0/1, already done 10 in 2 checkpoints, generation 2, W 2 files: ckpt_g001_w00.bin ckpt_g001_w01.bin ckpt_g002_w00.bin ckpt_g002_w01.bin run.lock 
+  merge crash exit=0
+    MERGE checkpoints 4 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+    COUNT_SELECTION pairs 70944208 recount 70944208 match 1  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)
+    CHUNK_DIGEST b63083a28cc1ecfc414f58e16dad206c82cd41545ac93647eb27fb2c009a8a74
+    PARTIAL_SELECTION: the symbols below come from a unit subset -- plumbing/timing output only, NOT symbol values
+R3 crash-before-ckpt exit=9 RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 50, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1 SIMULATED CRASH after 2 units (worker 0)  files: run.lock 
+R3 restart exit=0 RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 50, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1
+  merge crash0 exit=0
+    MERGE checkpoints 1 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+    COUNT_SELECTION pairs 70944208 recount 70944208 match 1  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)
+    CHUNK_DIGEST b63083a28cc1ecfc414f58e16dad206c82cd41545ac93647eb27fb2c009a8a74
+    PARTIAL_SELECTION: the symbols below come from a unit subset -- plumbing/timing output only, NOT symbol values
+R4 shard 0/2 tag A exit=0
+R4 shard 1/2 tag B exit=0
+  pool: ckpt_g001_w00_tA.bin ckpt_g001_w00_tB.bin 
+  merge pool exit=0
+    MERGE checkpoints 2 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+    COUNT_SELECTION pairs 70944208 recount 70944208 match 1  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)
+    CHUNK_DIGEST b63083a28cc1ecfc414f58e16dad206c82cd41545ac93647eb27fb2c009a8a74
+    PARTIAL_SELECTION: the symbols below come from a unit subset -- plumbing/timing output only, NOT symbol values
+  merge shA exit=3
+    FATAL: units missing: run incomplete
+    MERGE checkpoints 1 units 1445 selected 50 missing 25 terms 27665304  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 4635877b0a074dd6 array 4635877b0a074dd6 match 1
+R5 duplicate shard 0/2 tag C exit=0
+  merge pooldup exit=3
+    FATAL: unit covered twice
+R6 untagged pool: ckpt_g001_w00.bin 
+  merge poolU exit=3
+    FATAL: units missing: run incomplete
+    MERGE checkpoints 1 units 1445 selected 50 missing 25 terms 28014018  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units fde414921629c216 array fde414921629c216 match 1
+R7a L-unit cnt+1 (selection)
+  merge cntL exit=3
+    FATAL: selection pair recount fails
+    MERGE checkpoints 1 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+    COUNT_SELECTION pairs 70944209 recount 70944208 match 0  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)
+R7b S-block cnt+1 (selection)
+  merge cntS exit=0
+    MERGE checkpoints 1 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+    COUNT_SELECTION pairs 70944208 recount 70944208 match 1  smooth 44999622 (S-block smooth counts are covered only by the full-run identity)
+    CHUNK_DIGEST 287ea37757456efed1bc78c592875e2071f14b6bfda5a224db0325c2d06bbcc1
+    PARTIAL_SELECTION: the symbols below come from a unit subset -- plumbing/timing output only, NOT symbol values

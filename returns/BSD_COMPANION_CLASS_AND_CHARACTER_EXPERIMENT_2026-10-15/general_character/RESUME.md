@@ -1,0 +1,1 @@
+Complete: PROOF.md derives exact characterwise lattice formula, safe ordinary-source bound and whole-minus companion bound. Constant1 remains geometric, not authenticated on actual units. Finite character checks at5/7/11 and ramified divisor model at389 pass. LOCAL_DIVISOR_PROOF.md gives normalization. No arithmetic class certification performed here.

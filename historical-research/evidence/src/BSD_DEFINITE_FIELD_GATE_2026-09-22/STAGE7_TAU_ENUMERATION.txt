@@ -1,0 +1,28 @@
+S = S_p(E/K) = lim Sel_{p^n};  0 -> E(K) (x) Z_p -> S -> T_p Sha(E/K) -> 0
+p odd => 1±tau idempotents split everything cleanly:
+   s^+ = rank E(K)^+ + d^+ = rank E(Q) + d^+ = 2 + d^+
+   s^- = rank E(K)^- + d^- = r^-        + d^-
+where d^± = corank of Div Sha(E/K)[p^inf]^±, and d = d^+ + d^-.
+
+BD derived filtration on S (NOT on E(K)):  sigma >= rank S + rank S^(2) >= 2*max(s^+,s^-).
+Exact sigma = 4 (from [c_2] != 0 + BLV EQUALITY at ordinary p) => 2*max(s^+,s^-) <= 4.
+
+Enumerating every configuration with 2*max(s^+,s^-) <= 4 :
+ d^+  r^-  d^-  s^+  s^-  2max  d=DivSha   survives?   killed by
+   0    0    0    2    0     4         0   YES         
+   0    0    1    2    1     4         1   no          D=-7 certificate (GZK: r^-=0 AND Sha(E^D) finite)
+   0    0    2    2    2     4         2   no          D=-7 certificate (GZK: r^-=0 AND Sha(E^D) finite)
+   0    1    0    2    1     4         0   YES         
+   0    1    1    2    2     4         1   no          D=-7 certificate (GZK: r^-=0 AND Sha(E^D) finite)
+   0    2    0    2    2     4         0   YES         
+
+READ-OFF:
+  * d^+ = 0 is FORCED by the inequality alone, because rank E(Q) = 2 already fills s^+.
+    => Div Sha(E/K)^+ = 0 comes free.  This is what my Stage-6 toy model missed.
+  * BUT d^- in {0,1,2} SURVIVES the inequality. The inequality alone does NOT give Div Sha = 0.
+  * My Stage-6 counterexample had d = 2. With tau-structure it must be d^+=0, d^-=2, r^-=0:
+    that configuration is CONSISTENT with sigma = 4. It is NOT killed by the tau-structure.
+  * It IS killed by L(E^-7,1) != 0: GZK gives r^- = 0 AND #Sha(E^-7/Q) < inf, so d^- = 0.
+
+=> the Stage-6 counterexample dies to tau-structure + CERTIFICATE, not to tau-structure alone.
+=> the held D = -7 run is not tidying: it is the step that removes the last surviving configuration.

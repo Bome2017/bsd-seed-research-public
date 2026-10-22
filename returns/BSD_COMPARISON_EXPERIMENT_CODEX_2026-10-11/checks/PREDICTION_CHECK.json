@@ -1,0 +1,30 @@
+[
+  {
+    "file": "MIXED_INSTRUMENT_DISCOVERY.json",
+    "ell1": 113,
+    "tests": 3,
+    "detectors": 2,
+    "all_predictions_pass": true
+  },
+  {
+    "file": "MIXED_INSTRUMENT_DISCOVERY.json",
+    "ell1": 167,
+    "tests": 3,
+    "detectors": 3,
+    "all_predictions_pass": true
+  },
+  {
+    "file": "MIXED_INSTRUMENT_HELD_OUT.json",
+    "ell1": 113,
+    "tests": 4,
+    "detectors": 4,
+    "all_predictions_pass": true
+  },
+  {
+    "file": "MIXED_INSTRUMENT_HELD_OUT.json",
+    "ell1": 167,
+    "tests": 4,
+    "detectors": 4,
+    "all_predictions_pass": true
+  }
+]

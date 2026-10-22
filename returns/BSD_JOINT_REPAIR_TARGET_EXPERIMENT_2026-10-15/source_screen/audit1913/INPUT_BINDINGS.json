@@ -1,0 +1,72 @@
+[
+  {
+    "path": "arithmetic/1913b1/data.gp",
+    "sha256": "bdbac56d60e62907a577cee78d3e0a6c563f20bf41b3aab68bce8c9e39e6addf",
+    "bytes": 1048721
+  },
+  {
+    "path": "arithmetic/1913b1/bnf.bin",
+    "sha256": "0bf32ae4691c9c180c2eaa0ebf0fe6189a6cd678b47c6c00b2f7a4394fea54a8",
+    "bytes": 258193
+  },
+  {
+    "path": "arithmetic/1913b1/construct.gp",
+    "sha256": "6d99c0bd4a96f04c7ba559c1c92e94b809f5411662d48a4eedf762c5b942e5fc",
+    "bytes": 701
+  },
+  {
+    "path": "arithmetic/1913b1/construct.out",
+    "sha256": "51fe5c8a6b8b6d1c8aa26c07fd5dd8225e8c9e8274ecb416d65c91fd21d99c3e",
+    "bytes": 122
+  },
+  {
+    "path": "arithmetic/1913b1/affine_norm_certificate.gp",
+    "sha256": "8dd0ad416cfa2338b5708450c1a33c9ee003d0eb773531baf3443f63a26bdc59",
+    "bytes": 2998
+  },
+  {
+    "path": "arithmetic/1913b1/local_precision.gp",
+    "sha256": "5f9eaade9f5e95334d42c347967f8ad43c14ed9d5df3d99752d95326891b564c",
+    "bytes": 515
+  },
+  {
+    "path": "arithmetic/28042a1/data.gp",
+    "sha256": "10b235912cd202edc392b4b39edd42741d069f46b90069054b8a025388ab6830",
+    "bytes": 1184577
+  },
+  {
+    "path": "arithmetic/28042a1/bnf.bin",
+    "sha256": "6430e6844106ffa94cd7c9c5d9fb26152cd3892a0f271720b9d9e5e3b27b8c6c",
+    "bytes": 484849
+  },
+  {
+    "path": "arithmetic/28042a1/affine_norm_certificate.gp",
+    "sha256": "20cd133bf57a2f71028769c9291472b4df59a45aa2f278c838a1b46432cd8efe",
+    "bytes": 6793
+  },
+  {
+    "path": "arithmetic/28042a1/local_precision.gp",
+    "sha256": "166524ee486c44efe080aef581f9d6a82408379a17ecdedd0110256585a44baa",
+    "bytes": 4572
+  },
+  {
+    "path": "candidate_selection/rank0.gp",
+    "sha256": "1c33e075a091e0f91347ba3db980fc91770eedeb60d145c4541e4dddb713fe2e",
+    "bytes": 159
+  },
+  {
+    "path": "candidate_selection/rank0.out",
+    "sha256": "407cba586f97f1b429553c87e216e6453a3ee43f4e686c3cd042c3efc2801137",
+    "bytes": 75
+  },
+  {
+    "path": "candidate_selection/rank1_28042.gp",
+    "sha256": "45f7922bcbc40496606a9a9e620f23bb953288301dbb8532aeab2230a060c490",
+    "bytes": 221
+  },
+  {
+    "path": "candidate_selection/rank1_28042.out",
+    "sha256": "21cc2d94b8d60810d40101cf4f3c958c144151fdc736295dd13c6d4825e30d4b",
+    "bytes": 101
+  }
+]

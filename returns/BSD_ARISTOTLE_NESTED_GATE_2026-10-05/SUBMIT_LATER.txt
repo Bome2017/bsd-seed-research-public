@@ -1,0 +1,17 @@
+PREPARED ONLY. No command in this file has been used to submit a job.
+Run only if the user later chooses to launch this tiny probe.
+
+From the outer folder containing project/, with an authenticated
+aristotlelib 2.1.0 CLI installed:
+
+aristotle submit "Read TASK.md. Perform only the tiny nested-reading runtime test, return its three result files, and stop. Do not start BSD research." --project-dir ./project --wait --destination ./aristotle_nested_read_result.tar.gz
+
+Supply project/ only, not this outer folder. ORACLE.json, verify_return.py,
+local controls, and research addenda stay outside the submitted project.
+Do not substitute the large BSD submission folder.
+
+The exact interface is documented by Harmonic:
+https://pypi.org/project/aristotlelib/2.1.0/
+
+This file installs nothing, reads no credentials, and runs no command by itself.
+Actual remote runtime, quota use, and completion are not tested locally.

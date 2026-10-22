@@ -1,0 +1,12 @@
+{
+  "time_utc": "2026-09-21T03:00:06.858322+00:00",
+  "archive": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/provenance/before_p11_integration_20260921T030006Z.tar.gz",
+  "archive_sha256": "b46ff51b0d173e803a5bc56fcafbe80bdd22ce760af836e746e00dd25b7f35c0",
+  "prior_file_hashes": {
+    "MASTER_BSD_DAG.md": "79e252ab69ec39a39a92fe2f2b8afbbb261853862fd9a7b68797c47e654ea2ee",
+    "SOURCE_BINDINGS.json": "e7fc3fca973edb98efbee5daee960fc9843120a31708f772d588765e979c38cd",
+    "RECONCILIATION_INVENTORY.json": "779dd0204b2f11bd5c279ce42383dc4126dbcebb7e0a629946b1acda3e3d1462",
+    "STATE.json": "ab844ecc205ad7d8f1c1583b79a6d3687e855ead6cf0c591d9a0b6b6fdcdc1ee",
+    "RESUME.md": "927c6ce43bcee4388d6f53f9040042b7d3c549200d1e7a88d0d7f031d70b2b23"
+  }
+}

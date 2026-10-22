@@ -1,0 +1,106 @@
+{
+ "purpose": "Declared evidence additions for the K2 commit: the cross-family source reading of route K (Codex, OpenAI), its own files and manifest. Its source_checks/ files (third-party page images and a text extraction) are bound by hash in review/V025K2_APPLIED.json, not copied. Any other evidence change is rejected by tools/build_evidence_transition.py.",
+ "base": "9828eae9bb8f97c78f80b1a970b717679e453e70",
+ "additions": [
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md",
+   "sha256": "aedec0f6f2d697a9a36f1563b7601dba4ce051957ae873c7804f5a4bb49ffc7d",
+   "bytes": 1611,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md",
+   "sha256": "25dc4bded96cdcafff799625a3bf18e58179f8d4ba96fd9ef2d5817e1c799b33",
+   "bytes": 2333,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md",
+   "sha256": "1039e866422ece43b750e9c4b58ad72f02604c83e6eba91ba0e8291d85d1fd20",
+   "bytes": 8244,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md",
+   "sha256": "f0da25aad28d1e6beabf35d7581071e651227040f9948c956c3e5add62fd0552",
+   "bytes": 2382,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md",
+   "sha256": "92773910982b8cada926b4afcdc9f112999d2b7fcb93a95d8818c10467c9530c",
+   "bytes": 2907,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md",
+   "sha256": "d32df52d2625b5ad465f7a58a24c61df9241e2d58346270160c99e82e64506f7",
+   "bytes": 5015,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md",
+   "sha256": "9eb28a90af1d7b707d508c8c78e65f7351f20d88840a8987d58922f1d8d9943a",
+   "bytes": 814,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256",
+   "sha256": "34852504cdb2a68956059d6dcbadf39f077d2f75175ece498cc8c9fc9a78d4bf",
+   "bytes": 2330,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md",
+   "sha256": "768045414999a686fc355bcab9d89e498d706244a19b97197d97c2bfc0dd7d80",
+   "bytes": 2624,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md",
+   "sha256": "eebe907a0e34a0d3623e46fea44667093a72b7d04a1e272bf7aa3bc3cfa5145c",
+   "bytes": 230,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md",
+   "sha256": "e85d0f38aa005546dbb2809e01b375b7f96e7fc6648a69e04fd0458d9bf40db6",
+   "bytes": 3363,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv",
+   "sha256": "d14de9533ad005405f0953ff44801160b6eeaf967356d3e2923223f2239b01b4",
+   "bytes": 7068,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp",
+   "sha256": "42685c8829b93c26a5263a9aa7bc0d85d87a68ae2fa1d18a9a991af7d67e5ef3",
+   "bytes": 467,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log",
+   "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log",
+   "sha256": "c87f31d6bef6dc8e073c14a09713affd901fb1a2c7f2177e1f84de72ec9fb84b",
+   "bytes": 430,
+   "disposition": "admitted_unmasked"
+  }
+ ],
+ "declared_exclusions": [],
+ "declared_redactions": []
+}

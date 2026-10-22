@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "divisor_rows": 116,
+  "distinct_factors": 144,
+  "unit_candidates": 26,
+  "integer_equations_checked": 3016,
+  "all_exact_divisors_zero": true,
+  "scope": "integer exponent arithmetic; actual factors and complete principal ideals authenticated separately by GP",
+  "matrix_sha256": "dd6c8bf8e3070eed340b4886174b66641bd7d970049c56a57e1c4d71fe372da4"
+}

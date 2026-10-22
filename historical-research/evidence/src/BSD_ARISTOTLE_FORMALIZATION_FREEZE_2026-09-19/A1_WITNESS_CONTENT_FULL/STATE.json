@@ -1,0 +1,51 @@
+{
+ "task": "A1 final hostile custody / successor freeze (Aristotle return of ARISTOTLE_A1_WITNESS_CONTENT_2026-09-19)",
+ "status": "DONE",
+ "phase": "DONE",
+ "started_utc": "2026-09-19T18:55:25Z",
+ "returned_archive": {
+  "path": "~/Downloads/0ee48359-59b9-4108-a7fd-0ee16939d0e4-aristotle.tar.gz",
+  "sha256": "278588e0c570e39379e7dd2a495153d984be12e4269fee212e3830cc15e59948",
+  "bytes": 83397
+ },
+ "original_package": {
+  "path": "~/BSD_ARISTOTLE_PACKAGES_2026-09-19/ARISTOTLE_A1_WITNESS_CONTENT_2026-09-19.tar.gz",
+  "sha256": "eba016585d080c5bf8578b3c4454d63a256712a6770ba50f3a0f671667a04763"
+ },
+ "reported_result": "A1_FULL_PROVED (confirmed by independent replay)",
+ "rules": "do not overwrite the original package or the returned archive; no FIN/BSD claim; no novelty claim",
+ "return": "A1_FREEZE_PASS_WITH_CUSTODY_REPAIR",
+ "finished_utc": "2026-09-19T19:03:03Z",
+ "scoped_fact": {
+  "A1 WC FINITE-ALGEBRA FORMALIZATION": "MACHINE-CHECKED",
+  "STATUS": "CONDITIONAL",
+  "LEVEL": "A1_FULL",
+  "ARITHMETIC ANTECEDENT A != 0 AND A ∈ J_E": "NOT PROVED",
+  "FIN STATUS": "UNCHANGED"
+ },
+ "replay": {
+  "lean": "4.28.0 (commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b)",
+  "lake": "5.0.0-src+7e01a1b",
+  "mathlib": "8f9d9cff6bd728b17a24e163c9402775d9e6a365 (v4.28.0)",
+  "frozen_check": "6/6 OK",
+  "frozen_vs_original": "6/6 BYTE-IDENTICAL",
+  "lake_build": "Build completed successfully (8037 jobs); 0 sorry, 0 warnings, 0 errors; 133.3 s",
+  "acceptance": "LEVEL A1_FULL; FIRST_NOT_CLEAN_TARGET None; STRETCH_CLEAN 3/3",
+  "axioms": "all 20 targets subset of {propext, Classical.choice, Quot.sound}; zero_infinitely_divisible propext only",
+  "type_integrity": "20/20 declared types == frozen WitnessContent.Spec constants; Spec namespace = exactly 20 constants",
+  "source_scan": "no sorry/admit/axiom/unsafe/extern/implemented_by/native_decide/opaque/csimp/macro/elab; no new instances/defs; heartbeat set_options only"
+ },
+ "custody_defect": "returned package carries the stale ORIGINAL pre-run MANIFEST.sha256 (21/24 OK; Targets/STATE/RESUME changed; 9 new files unbound) - retained byte-exact in source/ as historical; superseded by this directory's MANIFEST.sha256",
+ "proof_boundary": "antecedent + imported Ota/Selmer/Sha hypotheses => WC (1)-(3); finite support from prime factors of A; no nonzero-everywhere shortcut; exceptional finiteness only at S0 in (3); no hidden FIN",
+ "codex_discrepancy": "none in the WC implication; provenance note D1 (Ota Thm 1.5 vs 6.4 S-class) recorded pre-run",
+ "not_claimed": [
+  "FIN",
+  "BSD",
+  "J_E != 0",
+  "uniform prime support",
+  "WC easier than FIN"
+ ],
+ "archive": "../A1_WITNESS_CONTENT_FULL_FREEZE_2026-09-19.tar.gz (hash and size recorded in ../FREEZE_INDEX.md and ../STATE.json; cannot be self-recorded here)",
+ "freeze_archive_replay_v1": "dfe5f660…: fresh unpack; manifest 56/56; acceptance A1_FULL; 0 sorry; TypeIntegrity 20/20; 0 sorryAx",
+ "regenerated": "after A2 intake (2026-09-19): A1_FORMAL_BOUNDARY §3 updated with Codex O1 (ordinary-tail equivalence); source/ unchanged; new archive hash in ../FREEZE_INDEX.md"
+}

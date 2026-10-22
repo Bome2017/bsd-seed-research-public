@@ -1,0 +1,37 @@
+{
+  "lab_snapshot": {
+    "status": "PASS",
+    "manifest_entries": 4605,
+    "new_or_changed_sources": 4590,
+    "unchanged_references": 14681,
+    "scope": "custody and file identity; no mathematical proof promotion"
+  },
+  "research_before_adding_this_receipt": {
+    "status": "PASS",
+    "frozen_base_commit": "8414aea58180f3a18bcee7fba23475c8cac90996",
+    "base_files": 4661,
+    "supplement_manifest_entries": 41,
+    "release_checks": [
+      {
+        "command": "tools/verify_patch_release.py",
+        "exit_code": 0,
+        "tail": [
+          "PASS: v0.2.6D: no edited path among the non-redirectable SECOND_REVIEW_BINDINGS.json",
+          "V026D_TRANSITION_PASS: the 8182b9c tree reconstructed and its checker passes; the V026-D delta is exactly the declared one",
+          "PATCH_RECHECK_PASS: no new mathematical or large numerical replay claimed"
+        ]
+      },
+      {
+        "command": "tools/verify_release.py",
+        "exit_code": 0,
+        "tail": [
+          "PASS  replay W_Q pairing on certified m = 27, 81 tables",
+          "",
+          "18/18 checks passed"
+        ]
+      }
+    ],
+    "scope": "integrity and retained release checks; no new mathematical promotion"
+  },
+  "note": "This receipt is subsequently hash-bound in the supplement manifest. Adding it changes no frozen release file, source copy or checker. The final integrity-only verification includes the receipt."
+}

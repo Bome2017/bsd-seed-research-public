@@ -1,0 +1,14 @@
+57a1  (rank 1): N=57 a_3=-1 rank=1 prod c=2 tors=1 sha_an(Cremona)=1
+   ord_3 L^(r)(1)/r! = 1 ; ord_3 rhs(without Sha) = 1
+   ratio L/rhs = 1 + O(3^7)
+  *** ellpadicL: Warning: increasing stack size to 16000000.
+  *** ellpadicL: Warning: increasing stack size to 32000000.
+681c1 (rank 2): N=681 a_3=-1 rank=2 prod c=2 tors=1 sha_an(Cremona)=1
+   ord_3 L^(r)(1)/r! = 2 ; ord_3 rhs(without Sha) = 2
+   ratio L/rhs = 1 + O(3^6)
+681b1 (rank 0): N=681 a_3=-1 rank=0 prod c=4 tors=4 sha_an(Cremona)=9
+   ord_3 L^(r)(1)/r! = 2 ; ord_3 rhs(without Sha) = 0
+   ratio L/rhs = 2*3^2 + O(3^10)
+33a1  (rank 0): N=33 a_3=-1 rank=0 prod c=4 tors=4 sha_an(Cremona)=1
+   ord_3 L^(r)(1)/r! = 0 ; ord_3 rhs(without Sha) = 0
+   ratio L/rhs = 2 + O(3^10)

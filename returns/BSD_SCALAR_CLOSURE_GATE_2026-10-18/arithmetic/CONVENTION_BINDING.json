@@ -1,0 +1,18 @@
+{
+  "evaluator_path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/local_pipeline/evaluate_split.py",
+  "evaluator_sha256": "cca725338a4a58a7656195261e41e98f0b6c2428020d00093f3a81c420a01cff",
+  "field_scalar": "sigma(T)=[3]T",
+  "desired_character": 3,
+  "desired_weights": [
+    6,
+    2,
+    3,
+    1,
+    5,
+    4
+  ],
+  "projector_formula": "(1/6) sum_j c^(-j) sigma^j over F7",
+  "prime_action": "sigma sends ideal HNF H to HNF(AM*H); column vectors pushed to their image rows",
+  "direct_eigenvalue_check": "sigma(projected_divisor)=c*projected_divisor",
+  "input_binding": "../INPUT_BINDINGS.json"
+}

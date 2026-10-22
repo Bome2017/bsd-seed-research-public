@@ -1,0 +1,4 @@
+alarm(30);D=read("inputs/data.gp");C=read("inputs/affine_norm_certificate.gp");R=read("reverse_certificate.gp");E=D[1];T=D[5];fA=D[3];fB=C[1];nf=nfinit(fA);NF=nfinit(fB);TW=R[1];AL=R[2];BE=R[3];Q=R[4];XT=T[1]+E.b2/12;YT=T[2]+(E.a1*T[1]+E.a3)/2;a=-E.c4/48;
+if(poldegree(Q)!=3||Mod(subst(fB,z,6*x),Q)!=0||Mod(x^4-2*XT*x^2+2*YT*x+a,Q)!=0,error("transpose incidence polynomial"));
+{for(j=1,2,my(F=subst(lift(AL[j]),w,C[4]),M=matrix(3,3,i,k,polcoef(lift(F*Mod(x,C[3])^(k-1)),i-1,x)));if(matdet(M)!=BE[j]^3,error("forward determinant"));F=Mod(subst(lift(BE[j]),z,6*x),Q);M=matrix(3,3,i,k,polcoef(lift(F*Mod(x,Q)^(k-1)),i-1,x));if(matdet(M)!=AL[j],error("reverse determinant"));if(idealhnf(nf,AL[j])!=matid(8)||idealhnf(NF,BE[j])!=matid(8),error("unit ideals"));if(AL[j]*subst(lift(AL[j]),w,TW)!=1||BE[j]*subst(lift(BE[j]),z,-Mod(z,fB))!=1,error("antiunit identity")));}
+print("FOUR_INDEPENDENT_MULTIPLICATION_DETERMINANTS_AND_FOUR_UNIT_IDEALS_PASS");quit;

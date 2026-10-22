@@ -1,0 +1,53 @@
+{
+ "root": "BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19 (canonical freeze root for Aristotle A1 + A2)",
+ "status": "DONE",
+ "updated_utc": "2026-09-19T19:17:06Z",
+ "return": "A1_A2_FREEZE_PASS_WITH_CUSTODY_REPAIR",
+ "facts": {
+  "A1": "CONDITIONAL WC FINITE ALGEBRA = LEAN MACHINE-CHECKED; LEVEL = A1_FULL (20/20 incl. 3 stretch)",
+  "A2": "PRIMARY SUPPORT / CONTENT / ASSEMBLY = LEAN MACHINE-CHECKED; LEVEL = A2_FULL (28/28 incl. 3 stretch)",
+  "antecedent": "A != 0 AND A in J_E = NOT PROVED",
+  "FIN": "UNCHANGED",
+  "FORMULA": "UNCHANGED",
+  "order": "#Sha = 9 t^2 (gcd(t,30)=1) formally checked under its exact abstract hypotheses; NOT #Sha = 9"
+ },
+ "archives": {
+  "A1": {
+   "file": "A1_WITNESS_CONTENT_FULL_FREEZE_2026-09-19.tar.gz",
+   "sha256": "baa0435220954626b3f14a82fb874062d44267447ff1400748175ea55b276de0",
+   "bytes": 104011,
+   "supersedes": "dfe5f660d750cbe835f04369db052b6f8d3a5984322ea92a94863d0d9567e1ef (same source tree; replayed clean)"
+  },
+  "A2": {
+   "file": "A2_PRIMARY_SUPPORT_FULL_FREEZE_2026-09-19.tar.gz",
+   "sha256": "fd55eab35ef1e51e5caaadc729f2f99d986e6158b2f4ca54d0b31d224f5d541c",
+   "bytes": 101462
+  }
+ },
+ "lean": "4.28.0 (commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b)",
+ "mathlib": "8f9d9cff6bd728b17a24e163c9402775d9e6a365 (v4.28.0)",
+ "replays": {
+  "A1_returned": "FROZEN 6/6; build 8037 OK 0 sorry; A1_FULL; stretch 3/3; axioms allowed-only; TypeIntegrity 20/20",
+  "A2_returned": "FROZEN 6/6; build 8040 OK 0 sorry; A2_FULL; stretch 3/3; axioms allowed-only; TypeIntegrity 28/28",
+  "A1_final_archive": "manifest 56/56; A1_FULL; 0 sorry; TypeIntegrity 20/20; 0 sorryAx",
+  "A2_final_archive": "manifest 59/59; A2_FULL; 0 sorry; TypeIntegrity 28/28; 0 sorryAx"
+ },
+ "custody_repair": "both returned packages carried stale pre-run manifests (21/24); retained as historical files; superseded by the new per-freeze manifests",
+ "handoff": "CODEX6_HANDOFF_PATCHED_A1_A2_FREEZE (manifest 11/11)",
+ "codex_notification": "NONE (no substantive discrepancy; arithmetic frontier unchanged; one-line future-session note added to the handoff)",
+ "not_proved": [
+  "J_E != 0",
+  "any uniform arithmetic witness-content antecedent",
+  "FIN",
+  "#Sha finite",
+  "#Sha = 9",
+  "FORMULA",
+  "BSD",
+  "WC easier than FIN"
+ ],
+ "originals_untouched": [
+  "~/BSD_ARISTOTLE_PACKAGES_2026-09-19 (both packages)",
+  "~/Downloads/0ee48359-...-aristotle.tar.gz",
+  "~/Downloads/319b9855-...-aristotle.tar.gz"
+ ]
+}

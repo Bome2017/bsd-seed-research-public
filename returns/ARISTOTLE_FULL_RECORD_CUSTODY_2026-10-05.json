@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-05",
+  "status": "COPY_AND_ARCHIVE_VERIFIED_PENDING_THIS_COMMIT_PUSH",
+  "authorization": "User standing instruction: Each time upload to lab GitHub so I can show pro 6",
+  "destination": "Bome2017/bsd-seed-lab",
+  "branch": "research/state-sync-2026-10-04",
+  "source_package": "/Users/bsm/BSD_ARISTOTLE_FULL_RECORD_2026-10-05/package/BSD_SEED_ARISTOTLE_2026-10-05",
+  "return": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05",
+  "copied_manifest_entries_verified": 5313,
+  "manifest_sha256": "c9453dedd03a779661199e5ce6ad76ceea18d1d58af9b98954767e412911ff78",
+  "arithmetic_grade": "No new theorem; original proof and review grades retained",
+  "aristotle_job_launched": false,
+  "raw_binary_corpus": "External, freshly hashed, explicitly not embedded",
+  "archives": [
+    {
+      "path": "/Users/bsm/Desktop/BSD_SEED_ARISTOTLE_2026-10-05_FULL.zip",
+      "bytes": 4164930580,
+      "sha256": "4261985eba239682d7536d1fbaf479fdd2b82a43e82ed16395ceb29cc5b4704a",
+      "scope": "Complete portable package, with external bulk-data boundary exactly as documented"
+    },
+    {
+      "path": "/Users/bsm/Desktop/BSD_SEED_ARISTOTLE_2026-10-05_STARTER.zip",
+      "bytes": 32962911,
+      "sha256": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27",
+      "scope": "Readable starter only; full evidence in FULL archive/lab return"
+    }
+  ],
+  "full_zip_uploaded_as_one_file": false,
+  "full_zip_upload_explanation": "Its portable contents are completely present in the return folder with evidence/catalog/history split into files below the repository limit. Only the smaller starter ZIP is also stored as one archive.",
+  "evidence_batches": [
+    {
+      "batch": 1,
+      "files": 14,
+      "bytes": 544735798,
+      "commit": "898ae90f56c498460b3a045b90716fe994e23219",
+      "remote_verified": true
+    },
+    {
+      "batch": 2,
+      "files": 12,
+      "bytes": 553539358,
+      "commit": "1efb2bd18f54089192165fe74debf3d6a918d753",
+      "remote_verified": true
+    },
+    {
+      "batch": 3,
+      "files": 13,
+      "bytes": 539302069,
+      "commit": "e1bd1502c42b9333ecd2a7c699b8e4398b8338fb",
+      "remote_verified": true
+    },
+    {
+      "batch": 4,
+      "files": 13,
+      "bytes": 567368094,
+      "commit": "e0b2c3bbe9f314b8ef76ec3ef4b431c5743cb75c",
+      "remote_verified": true
+    },
+    {
+      "batch": 5,
+      "files": 13,
+      "bytes": 563744535,
+      "commit": "766c3a99f95f0af16e5e560453e9bb12ea305447",
+      "remote_verified": true
+    },
+    {
+      "batch": 6,
+      "files": 14,
+      "bytes": 547910201,
+      "commit": "661386d05b0658971a0af0ad8dc587e4a189243f",
+      "remote_verified": true
+    },
+    {
+      "batch": 7,
+      "files": 15,
+      "bytes": 567267573,
+      "commit": "8cc3fb9c72ac520a6d3c99b6bf8400fb0e1b724c",
+      "remote_verified": true
+    },
+    {
+      "batch": 8,
+      "files": 6,
+      "bytes": 214603981,
+      "commit": "f3acb8a959116d4928e12921b9b2eaf3596a5b88",
+      "remote_verified": true
+    }
+  ],
+  "archive_checks": [
+    {
+      "archive": "/Users/bsm/Desktop/BSD_SEED_ARISTOTLE_2026-10-05_FULL.zip",
+      "members": 5314,
+      "manifest_entries": 5313,
+      "result": "PASS",
+      "scope": "All starter member hashes; full archive member coverage plus prior CRC and source-manifest verification"
+    },
+    {
+      "archive": "/Users/bsm/Desktop/BSD_SEED_ARISTOTLE_2026-10-05_STARTER.zip",
+      "members": 5181,
+      "manifest_entries": 5180,
+      "result": "PASS",
+      "scope": "All starter member hashes; full archive member coverage plus prior CRC and source-manifest verification"
+    }
+  ],
+  "additional_retrieval_checks": [
+    {
+      "test": "multi-part binary retrieval",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19.zip",
+      "bytes": 97248449,
+      "sha256": "fbad7cd507792214faba21d4b858ea376770421616eec576fa1e33d7e29e1830",
+      "matches_original": true
+    },
+    {
+      "test": "symlink alias resolves to embedded bytes",
+      "path": "/Users/bsm/BSD_BAD_PRIME_MULT_FEASIBILITY_2026-09-22/producer_variant/inc/pari/paridecl.h",
+      "bytes": 260744,
+      "matches_digest": true
+    },
+    {
+      "test": "portable research Git history reassembly and Git verification",
+      "bytes": 35261066,
+      "result": "PASS"
+    }
+  ]
+}

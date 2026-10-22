@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "result": "ACTUAL_CM_COMPARISON_NONZERO_MOD5; SQUARED_RATIO_4",
+  "model": "424347b1 over Q(sqrt(-19)); base2541c1; coefficient prime5",
+  "Hodge_index_square": 9,
+  "raw_corrected_index_square": 36,
+  "canonical_residual_index_square": 4,
+  "component_square_mod5": 1,
+  "ratio_square_mod5": 4,
+  "signed_ratio_mod5": [
+    2,
+    3
+  ],
+  "seed_endpoint_change": false,
+  "proof_grade": "written under retained geometric and classical-degree inputs; executed exact and Arb checks; same-team reviews",
+  "baseline_lab_commit": "19866bd9ef40cb1abd82a964fe4de16685902adc",
+  "remaining": [
+    "signed source ratio",
+    "source comparison for rank-two seed",
+    "uniform content control"
+  ]
+}

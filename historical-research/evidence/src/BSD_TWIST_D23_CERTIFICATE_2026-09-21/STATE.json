@@ -1,0 +1,62 @@
+{
+ "task": "Local attempt to certify L'(E^{-23},1) != 0, per user instruction 2026-09-21.",
+ "status": "TWIST CERTIFICATE COMPLETED (by the local run); this folder records independent checks and coverage",
+ "phase": "both gating questions answered; awaiting decision on the E_1 ball kernel",
+ "inputs": {
+  "formula_(1)": "L'(E^D,1) = 2 sum_{n>=1} chi_D(n) a_n(E) / n * E_1(c n),  c = 2 pi / (|D| sqrt N)",
+  "tail_(2)": "B_D(T) = 2 e^{-cT} [ 2 sqrt(T)/(cT) + T^{-1/2}/(cT) ( (log T + 2)/c + 1/(T c^2) ) ]",
+  "source": "~/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/MCS_TWIST_IDEAL_REVIEW.md sec.3",
+  "corpus": "~/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11 -- 2333 segments of 2^24, T_max = 39,141,244,927; segments 0..205 (through 3,456,106,495) already hash-verified"
+ },
+ "certificate_logic": "|truncated sum| > B_D(T)  =>  L'(E^{-23},1) != 0",
+ "obligations_remaining_per_review": [
+  "generate composite a_n from the prime corpus",
+  "perform the twisted derivative sum",
+  "prove the numerical errors (ball enclosure)",
+  "measure actual implementation cost"
+ ],
+ "not_yet_established": "whether T = 3.45e9 suffices; the size of L'(E^{-23},1); runtime",
+ "checkpoints": [
+  "ckpt1: tail-bound adequacy computed; 3.45e9 insufficient, ~7e9 recommended, well inside corpus",
+  "ckpt2: format verified against independent point counts",
+  "ckpt3: cost anchors read from the engine timeline; FEASIBILITY_REPORT.md written",
+  "ckpt4: corrections accepted and verified at arbcore.c; adequacy undetermined",
+  "ckpt5: certificate checks + coverage table",
+  "ckpt6: scope at p=13 recorded as a conjunction"
+ ],
+ "step1_cutoff_adequacy": {
+  "c": "3.3875747e-9",
+  "finding": "T = 3.45e9 gives B = 0.3426 -- NOT adequate as a certificate cutoff unless |L'| >> 0.34. The bound falls exponentially: T=5e9 -> 1.27e-3; T=7e9 -> 1.08e-6; T=1e10 -> 3.14e-11; T=3.914e10 (full corpus) -> 1.7e-54.",
+  "why": "The bound uses |a_n| <= d(n) sqrt(n); the sqrt(n) growth fights the exponential, so the RIGOROUS cutoff is far beyond where the actual terms die (E_1(cn) decays once n > 1/c = 2.95e8).",
+  "recommended_T": "7e9 (B ~ 1.1e-6), or 5e9 (B ~ 1.3e-3) if |L'| turns out to be O(1)",
+  "segments_needed": {
+   "3.45e9": 206,
+   "5e9": 299,
+   "7e9": 418,
+   "corpus_total": 2333
+  }
+ },
+ "step2_format_verified": "run/ap/ap_NNNNNN.bin = int32 LE, one per prime in increasing order, all primes in the 2^24 block including bad ones. Segment 0: 1,077,871 values / 4,311,484 bytes = 4.0 exactly; pi(2^24) = 1,077,871. Cross-checked a_5,a_7,a_11,a_13 = -2,-2,-2,-4 against direct point counts; a_2 = 0 (2^3|N), a_3 = -1, a_2243 = 1 (both ||N so +-1). a_13 = -4 agrees with the value verified independently for the Aristotle archive.",
+ "step3_cost_anchors": "run/logs/timeline.log, C11 run 2026-09-20, host 16GiB/20 CPU, J=12: stage W 16:45:19-19:18:19 = 2h33m for TMAX=39,141,244,927 (THIS IS THE CORPUS WE REUSE - already paid); stage A m=121 32m17s for 3.914e10 = 2.02e7 terms/sec; stage A m=11 2m33s for 3.389e9 = 2.22e7 terms/sec. Extrapolation: T=7e9 streams in ~5.7 minutes.",
+ "step4_unmeasured": "Stage A accumulates modular integers; our sum needs chi_{-23}(n) a_n / n * E_1(cn) in BALL arithmetic. chi is negligible (-23 = 1 mod 4 so it is the Legendre symbol mod 23, 23-entry table). E_1 is the unknown: naive evaluation 7e9 times dominates; the remedy is a piecewise polynomial with rigorous remainder (~10 flops/term) but THAT KERNEL DOES NOT EXIST AND IS NOT BENCHMARKED. Any multiplier 1.5x-20x over stage A is defensible without it.",
+ "recommendation": "If proceeding: (a) double-precision pass at T=1e9 to learn the SCALE of L', deciding between the 5e9 and 7e9 cutoffs, under a minute of streaming, proves nothing; then (b) the ball kernel at the chosen T. Neither launched.",
+ "corrections_accepted": {
+  "file": "FEASIBILITY_CORRECTIONS_ACCEPTED.md (supersedes the Summary, sec 1 verdict, sec 4 and sec 5 of FEASIBILITY_REPORT.md)",
+  "E1": "\"Both questions answered\" and \"3.45e9 not adequate\" both WITHDRAWN. B values are right (3.45e9 -> 0.343; 1e9 -> 5548.43, matching the review exactly) but the certificate is |truncated interval| > B(T) and I never computed the interval. Adequacy is UNDETERMINED IN BOTH DIRECTIONS. 7e9 is a CANDIDATE, not a recommendation; the cutoff must be chosen FROM the actual interval and tail. Fourth instance of numbers-right / verdict-overreaching.",
+  "E2": "\"The E_1 ball kernel does not exist yet\" is FALSE, verified in arbcore.c: 147 arb_/acb_ sites; line 18 states no double in any enclosure with E1 from Arb; line 85 arb_hypgeom_expint computes E1(x) and line 86 its Taylor coefficients, INSIDE the G2 second-derivative evaluator; line 112 enforces the Taylor-step range because the remainder bound needs it; mode g2t (line 305) is already a node-Taylor-vs-direct-series unit test. Our twist needs the FIRST-derivative weight E_1(cn), which is computed as e1+0 inside the heavier G2 weight. Missing piece is a twist MODE wired to existing parts. Existing modes at line 327: l2, ms, msl, tmin, g2t.",
+  "E3": "The ~6 minute figure extrapolates stage A modular work to ball work with a different weight - an anchor, not a benchmark. AND I ignored memory entirely: arbcore.c line 159 dense path A = calloc(top+1,4) needs 12.9 GiB at 3.45e9 and 26.1 GiB at 7e9 on a 16 GiB host (matches the review ~28 GB). Dense adaptation impossible at either cutoff. Line 240 allocates per-block (rem, an at BLK*8); the twist mode must use that table-free traversal.",
+  "E4": "The 1e9 floating scout has rigorous tail B = 5548.43, four orders above any plausible |L'|. Heuristic only; useful to guide a cutoff IF LABELLED AS SUCH, not a step toward the certificate. My sec 5 omitted that."
+ },
+ "next_step": "Implement and benchmark an isolated twist mode on the existing table-free traversal and E_1 machinery; validate representative blocks against direct Arb evaluation in the g2t pattern; choose the cutoff from the actual interval and tail. Engineering, local, no new package. NOT LAUNCHED.",
+ "certificate": "39.512236 <= L'(E^{-23},1) <= 40.182321; 2S_T = 39.847278312318874 +- 4.28e-16 at T = 3,456,106,495; B <= 0.335041797049; margin 118.9x. Arithmetic reproduces here. Consequence: rank E^{-23}(Q) = 1 and rank E(Q(sqrt -23)) = 3.",
+ "my_cutoff_verdict_was_wrong_in_the_event": "I called 3.45e9 \"not adequate\"; it was adequate with a 119x margin. The review position (undetermined until the interval exists) was correct. Following my recommendation would have doubled the work. Also: peak RSS 1.00 GB vs the 26.1 GiB dense path I never checked; runtime 708.40 s vs my ~6-min anchor for a mislabelled quantity.",
+ "coverage_finding": "Served primes need regime (P) AND (-23|p) = +1. Up to 160: 13, 31, 41, 47, 71, 73, 101, 127, 139, 151. p = 13 IS SERVED and is the threshold-determining prime (1521 = 9*13^2 is what gcd(t,2310)=1 leaves). p = 11 not served but already settled by C11. p = 23 ramified and supersingular; 29, 131 supersingular; 59 in the excluded set {19,59,487}.",
+ "unchanged": "I_3 unevaluated, no method. The certificate supplies a premise, not a Sha bound. FIN, ORDER9, Q36 open.",
+ "scope_at_13": {
+  "file": "SCOPE_AT_13.md",
+  "decomposition": "For odd p the idempotents (1 +- sigma)/2 are in Z_p[Gal(K/Q)], so Sha(E/K)[13] = Sha(E/Q)[13] (+) Sha(E^{-23}/Q)[13]. Hence I_3 = F_13 <=> Sha(E/Q)[13] = 0 AND Sha(E^{-23}/Q)[13] = 0 -- a CONJUNCTION.",
+  "success_vs_failure": "Success gives both 13-parts. FAILURE IS AMBIGUOUS: Sha(E^{-23}/Q)[13] != 0 makes the ideal proper even when the seed 13-part vanishes, so a negative outcome is not evidence about the seed.",
+  "twist_side": "Certified ord L(E^{-23},1) = 1 gives rank 1 and Sha(E^{-23}/Q) FINITE via GZK applied to the TWIST over Q; it gives nothing about its 13-part. The two Heegner settings differ: E/K has ord = 2+1 = 3 so y_K is torsion and Kolyvagin does NOT apply to E/K; the twist has analytic rank 1 and GZK applies to IT, over its own auxiliary field satisfying the Heegner hypothesis for E^{-23}, not K. Bounding Sha(E^{-23}/Q)[13] is a SEPARATE Heegner-index computation over a different field; shape known, not supplied, not proposed."
+ },
+ "threshold": "1521, unchanged"
+}

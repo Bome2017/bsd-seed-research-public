@@ -1,0 +1,5 @@
+R8 E: c_4 = r**2 - 4*r + 1 ; matches rev 3 value: True; odd for r = +-2^m (m odd 3..39): True; model integral: True
+R8 B: c_4 = 16*r**2 - 4*r + 1 ; matches rev 3 value: True; odd for r = +-2^m (m odd 3..39): True; model integral: True
+R8 F: c_4 = 16*r**2 + 56*r + 1 ; matches rev 3 value: True; odd for r = +-2^m (m odd 3..39): True; model integral: True
+R8 G: c_4 = 256*r**2 - 64*r + 1 ; matches rev 3 value: True; odd for r = +-2^m (m odd 3..39): True; model integral: True
+DELTA_REV3_CHECKS_OK

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-13",
+  "baseline_commit": "b1ac0bf93739eaa3d54b369485b52c6fba480fd6",
+  "return_folder": "work/returns/BSD_GLOBAL_ADMISSION_EXPERIMENT_2026-10-13",
+  "manifest_entries": 66,
+  "copied_manifest_verified": true,
+  "archive": {
+    "path": "work/returns/archives/BSD_GLOBAL_ADMISSION_EXPERIMENT_2026-10-13.zip",
+    "sha256": "692db616353b9ac150bd58060f64fc5f852717063584af0418a544e955ade41b",
+    "bytes": 90372
+  },
+  "replay": "11 selected outputs byte-identical; separate exact implementations and scoped same-team audit",
+  "correction": "Original invalid fifth-power scan rows retained as superseded; corrected scan replayed",
+  "source_papers_redistributed": false,
+  "mathematical_status": "CONTROL_ADMISSION_COMPUTED; SEED_CANDIDATES_TESTED; NO_NEW_SEED_BOUND",
+  "endpoint_effect": "FIN, ORDER9, Q36 and seed coefficient-prime coverage unchanged"
+}

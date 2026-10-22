@@ -1,0 +1,222 @@
+[
+  {
+    "prime": 2,
+    "rational_mod_p_points_found": 5,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": null,
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 3,
+    "rational_mod_p_points_found": 22,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": null,
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 5,
+    "rational_mod_p_points_found": 7,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": {
+      "point": [
+        1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "jacobian_rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        2
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2
+      ],
+      "minor_value": 2,
+      "pfaffian_syzygy_unit_pivot": 4,
+      "omitted_equations": [
+        3,
+        4
+      ]
+    },
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 7,
+    "rational_mod_p_points_found": 10,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": {
+      "point": [
+        1,
+        1,
+        0,
+        4,
+        2
+      ],
+      "jacobian_rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        3
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2
+      ],
+      "minor_value": 6,
+      "pfaffian_syzygy_unit_pivot": 1,
+      "omitted_equations": [
+        2,
+        4
+      ]
+    },
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 11,
+    "rational_mod_p_points_found": 11,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": {
+      "point": [
+        1,
+        0,
+        6,
+        0,
+        6
+      ],
+      "jacobian_rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        2
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2
+      ],
+      "minor_value": 5,
+      "pfaffian_syzygy_unit_pivot": 6,
+      "omitted_equations": [
+        3,
+        4
+      ]
+    },
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 13,
+    "rational_mod_p_points_found": 1,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": {
+      "point": [
+        1,
+        0,
+        3,
+        8,
+        2
+      ],
+      "jacobian_rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        2
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2
+      ],
+      "minor_value": 1,
+      "pfaffian_syzygy_unit_pivot": 11,
+      "omitted_equations": [
+        3,
+        4
+      ]
+    },
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 17,
+    "rational_mod_p_points_found": 1,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": {
+      "point": [
+        1,
+        0,
+        5,
+        2,
+        8
+      ],
+      "jacobian_rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        2
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2
+      ],
+      "minor_value": 2,
+      "pfaffian_syzygy_unit_pivot": 10,
+      "omitted_equations": [
+        3,
+        4
+      ]
+    },
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 19,
+    "rational_mod_p_points_found": 1,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": {
+      "point": [
+        1,
+        0,
+        11,
+        18,
+        10
+      ],
+      "jacobian_rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        2
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2
+      ],
+      "minor_value": 12,
+      "pfaffian_syzygy_unit_pivot": 11,
+      "omitted_equations": [
+        3,
+        4
+      ]
+    },
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 61,
+    "rational_mod_p_points_found": 0,
+    "sliced_positive_dimension": 15,
+    "nonsingular_witness": null,
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  },
+  {
+    "prime": 239,
+    "rational_mod_p_points_found": 0,
+    "sliced_positive_dimension": 0,
+    "nonsingular_witness": null,
+    "scope": "Hensel witness if found; otherwise no local insolubility inference"
+  }
+]

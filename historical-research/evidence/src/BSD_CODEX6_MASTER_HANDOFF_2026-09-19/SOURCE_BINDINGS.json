@@ -1,0 +1,1922 @@
+{
+  "recorded_at_utc": "2026-09-22T00:04:09.688463+00:00",
+  "canonical_document_sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+  "scope": "Identity bindings for retained evidence cited by the mathematical record; this is not a fresh proof verification or replay of every source.",
+  "sources": [
+    {
+      "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/FORMALIZATION_BOUNDARY.md",
+      "sha256": "5c592ad7dab2edc50d19d75b1c6ccab0840bbd1fd1d363f39c18e3cebe259f1e",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_ARISTOTLE_INVENTION_PACKET_2026-09-20/review_2026-09-20/P11_DIRECTION_PREFLIGHT.json",
+      "sha256": "02ff5fb52dd77781ade33424f6dfabbbd67fed243aa6119fd7a3223112033d1f",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_ARISTOTLE_INVENTION_PACKET_2026-09-20/review_2026-09-20/returned_archives/B_revision2/output-final_aristotle/ARISTOTLE_B_CORRECTIONS.md",
+      "sha256": "609de04b81f7fa3182852aeea4168f43a8032d9bb50178aa895098e81d85944a",
+      "role": "Corrected bad-place/localization statements and withdrawal of invalid transposition/auxiliary-class target; written arithmetic distinct from formal linear algebra"
+    },
+    {
+      "path": "/Users/bsm/BSD_ARISTOTLE_INVENTION_PACKET_2026-09-20/review_2026-09-20/returned_archives/B_revision2/output-final_aristotle/ARISTOTLE_B_STATUS.md",
+      "sha256": "9432785f62421e69b51e9c435c3f636a45544468f1a42df4595b30ec2205400f",
+      "role": "Historical returned status predating imported C11; not current authority for p11"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_ARITHMETIC_LOGARITHMIC_REALIZATION_2026-09-19/EXACT_CORRECTION_OBSTRUCTION.md",
+      "sha256": "5d22f174b75c2bd9cc0f98b69903d07a7482edc11dc47df08a61d74a12c07daa",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_ARITHMETIC_LOGARITHMIC_REALIZATION_2026-09-19/LOWER_MOMENT_AND_ENDPOINT_GATE.md",
+      "sha256": "b37ae1723f0af3a865ea785ef2fadfed46778c4dfd1f1587e1b0eaebbd6afbab",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_CANONICAL_RESEARCH_GATE_2026-09-19/EXACT_ENDGAMES.md",
+      "sha256": "7a93a82540561754d129408c4d6ae873e4ae188a021658785bc57a181d7f6c94",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_CANONICAL_RESEARCH_GATE_2026-09-19/SOURCE_AUDIT_AND_CORRECTIONS.md",
+      "sha256": "d870777a74d738f47a23ec9572b3983ebab09b411e084d937ec1d7dc83c41e4c",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_COMMON_B_ARITHMETICITY_ATTACK_2026-09-19/MELLIN_JET_THEOREM.md",
+      "sha256": "d636ab428a8e44d14d6d8cacd0034c356cdcd07b90482ec6c31732a5618ba00b",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_COMMON_B_ARITHMETICITY_ATTACK_2026-09-19/QUANTITATIVE_ALGEBRAICITY_THEOREM.md",
+      "sha256": "d176774db56845b08ff1927e7ed8798c91c685f259c44a775629bfa1eafda75a",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_DIVISION_FIELD_HORIZONTAL_2026-09-19/DIVISION_FIELD_REDUCTION_THEOREM.md",
+      "sha256": "557ee88c3b1bccac2c9c94996dffc1771aed7e2eb259c3c86ec204a406bfa2e5",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_DIVISION_FIELD_HORIZONTAL_2026-09-19/LOCAL_CONDUCTOR_AND_MODULES.md",
+      "sha256": "1f5882dea4faf15e8ce54e4f87fa0f661accd6ac441b8398c1b27c97ce8df0c8",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_DM_TAIL_HOSTILE_AUDIT_2026-09-19/COUNTEREXAMPLE_EVIDENCE.md",
+      "sha256": "d7d06742a2e0646cb3f1dfe7d7ddb91136fd65e6d80094ad9444859c3ec49c4d",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_DM_TAIL_HOSTILE_AUDIT_2026-09-19/PROOF_AUDIT.md",
+      "sha256": "865cc935229ee11265f30d97d3ecc8700a55bb447e55be136975dcc16c01385a",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_DM_TAIL_HOSTILE_AUDIT_2026-09-19/TRACE_AND_FIXED_FIELD_OBSTRUCTION.md",
+      "sha256": "4ce26860360e1a967f7fc11a6f96c75d4d93aa56ee178bb42ad4a1ec51db9055",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_FIXED_EISENSTEIN_GATE_2026-09-19/EISENSTEIN_TYPE_AND_DIRECTION_AUDIT.md",
+      "sha256": "78ae842734a6e847154a8806c251c85b1a2add4f7559c67fe9de71e0c890b957",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_FIXED_EISENSTEIN_GATE_2026-09-19/PRIMARY_SOURCE_AUDIT.md",
+      "sha256": "21751061902ce6a1dad1dcc34cd0e1068481318ebf750640bcbd8bbda7e4b643",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/ALGEBRAIC_REDUCTION_LEMMAS.md",
+      "sha256": "8dcd44af28fef1648a0a0e37085eda632f80bca2aa214585df6935c797d3f8b6",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/REGULATOR_CERTIFICATE.md",
+      "sha256": "182bf46ded79383ef3912c19def8fd89de28b73608d8faf12deb088ffdc52145",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/WITNESS_CONTENT_THEOREM.md",
+      "sha256": "556ecfa56f87f4497cdc7f2e25db3ec6a5431b2a70393ccbb80ea96fc085738e",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/DO_NOT_RESURRECT.md",
+      "sha256": "1a8044aa9d190d1ac19b8231784347d2d52b82e8c607c547326beba8d3f63abc",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/ROUTES_AND_STOPS.md",
+      "sha256": "5986e50620cfe9dbb19633cd6e7e91238d384ac1533e30ee4447ca0e41c066e8",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+      "sha256": "31317c0100baae0407404ebd1d3c1880e6fb40db4acead8958a82bb5e7ad26aa",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/TORIC_COLLISION.json",
+      "sha256": "5872202b017bbd3b69f01589a6f4612eb99bba4d670769828843dd5b7ccd3b2b",
+      "role": "Toric-extension admission check: exact primary text or bounded collision-scope record; see master5.12"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/CERTIFICATE_BINDINGS.json",
+      "sha256": "c0253e01bfaadc804d71670e02eccc837b8c381331b01603255906de26fed83c",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/COMPLETION_REVIEW.json",
+      "sha256": "6f8f9ce9a8c778af8c402b9690623b528ab939a39fd0455c6a409a96d273a466",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/DOWNSTREAM.json",
+      "sha256": "9a0898159858d882430b960d8b8429ff2db0bf524e22e871967f31e4051171c5",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/LAUNCH.json",
+      "sha256": "a842b24f064d566677dac57a3da8ad24156e0b6220f6f16721f85349ca95507f",
+      "role": "Retained C11 segment-size and execution identity; no restart",
+      "reading_depth": "Relevant statements and source data; full returned reports"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/LAUNCH_RECONCILIATION.json",
+      "sha256": "17c2e92c690ed81ec7987f50d31bfd1adc52095332564bf90fea1956bf83124c",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/PRE_INTEGRATION_PROVENANCE.json",
+      "sha256": "7d68b7e75c2f473519b651157eec73dcb0ee1c594f8093494b39615fa4a75517",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/PROOF.md",
+      "sha256": "55b030ba289fab75eac332787a60485e4d47fd36d1368b883fdce58c96f04540",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/RESULT.md",
+      "sha256": "e6c998b43037d6217d8c3989546ef7f4024191551a1d360ea618aa1d32235b5b",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/downstream.py",
+      "sha256": "f73ddb3c29dfc498fedc3f4725a1dc3b07c0737c2c1a4e2e667105b05da6f36d",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/P3_CHECK.txt",
+      "sha256": "e27228311e452871f8070b63561841d4bd213b29d647a85bf3b440d4cc08903a",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/RETAINED_INPUTS.json",
+      "sha256": "e603ad57282d85de39ab8d0118a08fac9ed67719b387f573460770d9d4b09e31",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/SYMBOLS_m11.txt",
+      "sha256": "6426cb1eea0fb81a1be8d0158fd14bd6439dbdf847a8bf3d4d22e6a0f8cf8b23",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/SYMBOLS_m121.txt",
+      "sha256": "97403b1840b46c67d7a72ec5f5824bb52a1541b6278f78caee9b5dce447ca95c",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/logs/timeline.log",
+      "sha256": "4ced6cc9e9afe933771e76b845ce24ee442582784ff30346fa4c9d11ffeb1fe6",
+      "role": "Measured C11 stage timings; not a twist benchmark",
+      "reading_depth": "Full report/checkpoint or relevant source implementation and timeline inspected"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/msl_m11.txt",
+      "sha256": "ba47f462fe6a3c84c2535760228f03a8e4be0918990da18ced15b101f8bda9ab",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/msl_m121.txt",
+      "sha256": "4238788826812b43f97a76591e20abe8eec5b4450d146df1103c6045ba4c0720",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/seal.py",
+      "sha256": "5ac4f56246873f6cba4959fd15b8e7d5d19bb6ff871bca1a869273425ae3c5a2",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/CERTIFICATE_BINDINGS.json",
+      "sha256": "c6aa4a329b0b9ea573af01d0c743399513c9f40b5c57c51d34007f452c51067a",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/DOWNSTREAM.json",
+      "sha256": "506e6b847594b0207ac375a29ee517242ba44ac5362c7fa8c65ba861053ebbfe",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/PROOF.md",
+      "sha256": "5f26e99c4bf400a0769965dc8d89aa2a2f438c272bea08d2cd3f2b994d95a93b",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/continue.sh",
+      "sha256": "2fb8455a06222e2a06a0317ba2662849c777f98adfc292e37ffeaac44543ca3d",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/downstream.py",
+      "sha256": "505ded1c6af0a18b68f4e66f56bc8b5ae9d61e048e2a55375b6fc2cde6b902e9",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/P3_CHECK.txt",
+      "sha256": "bd6797965d0abac1d6eb211010dd41b2d2c363e6d058b2dc70973a4708be41c0",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/RETAINED_INPUTS.json",
+      "sha256": "efd0d8e2a451fb47ba9e03bf22b0089ca165f5d6bd9796e3acdd25f27a50a69f",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/SYMBOLS_m49.txt",
+      "sha256": "ab892f517414a8bc8ab96eb05845ef185de4ede6604b71c135c67005668cd778",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/SYMBOLS_m7.txt",
+      "sha256": "aa9451247e7a3e49a63d7b79f0f50c4fb3dbe6bd22de9635cca2819cb5516a6c",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/msl_m49.txt",
+      "sha256": "4789ca766671cdb8020517670bf3595279a53c487e459659e83d5138dc6e3156",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/msl_m7.txt",
+      "sha256": "a79278869259c58a87d1d2571fad4aa5ad30e652671f642368354325824aba98",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/seal.py",
+      "sha256": "49b945f436bf7145e35a69c73ba3c18018ef766a9d1fd5bd3b235f37196c489b",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/toric_sources/BINDINGS.json",
+      "sha256": "e8cdbfacce226a5c10123148a0978b295778d072ed70e047b78ca0653835384f",
+      "role": "Toric-extension admission check: exact primary text or bounded collision-scope record; see master5.12"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/toric_sources/Brion_Anti_affine_0710_5211v3.pdf",
+      "sha256": "044afbcfbb9e8c025353691898adf599f723c95e7b2f064b807caa3d83a77185",
+      "role": "Toric-extension admission check: exact primary text or bounded collision-scope record; see master5.12"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/toric_sources/Milne_CFT_4_03.pdf",
+      "sha256": "50d79af78250a9f1117ad9d337e0b231704a533fc707966ed1bfa52e13d498f5",
+      "role": "Toric-extension admission check: exact primary text or bounded collision-scope record; see master5.12"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/A6/P13_PRELIMINARY_DATA_VERIFIED.md",
+      "sha256": "9dfbf1120f3494c7e8823c01e661d64034fe8ee976f02dbbfe7a6446d0573b7d",
+      "role": "Producer reduction-at-13 report; no C13 result",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/A6/RequestProject/ReductionAt13.lean",
+      "sha256": "0cef5e501496a26e439c09117cffaa894076d2861444e82f798cfebb664e4e9e",
+      "role": "Formal point-type reduction check source, inspected but not independently built",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/ARCHIVE_COMPARISON.json",
+      "sha256": "3ed98a6c7e5ae3ccb99b5159340996645737e3e885066b14625b80523ec2f4ef",
+      "role": "Archive hashes, normalized file differences, and hashes of all extracted source files",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/ARISTOTLE_B_C11_SPEC.md",
+      "sha256": "93a4097a713a1f528250aaae9a30018c86a8cbfa7a4a28f483a0720849a00e12",
+      "role": "Separate numerical pipeline report; tail/roundoff and missing-corpus qualifications in review",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/RequestProject/SeedC11Assembly.lean",
+      "sha256": "b172d097f114b57d0f7081df4e64f8a62628bc702213339e7cc5ae55f969d531",
+      "role": "Finite assembly source; arithmetic independently replayed, Lean build producer-reported",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/RequestProject/SeedC11Value.lean",
+      "sha256": "94402d230077ccd17526b1cde6c76cb201a66c0dbbe5382a768f1376db38da71",
+      "role": "45-symbol Lean input matching retained certified local integers",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/scripts/c11/buckets_final.txt",
+      "sha256": "7c8f768c781e1dce15313da0a33eea37be6d4acbc60648463c57b9cce73249b4",
+      "role": "Captured floating bucket sums used in short local reconstruction",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/scripts/c11/stage3.py",
+      "sha256": "68a096f7600a2a4edbd723ed20a3df16cf2f5cdeab5e2b63a0d74228697654be",
+      "role": "Supplied finite postprocessing code; PARI sign requires documented conversion",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/B3/scripts/c11/symbols_seed.json",
+      "sha256": "9f923c02ea10a71b059ef4c494f2542c56866e5fa90804b43fa2bfb89ee9ec0d",
+      "role": "110 denominator-121 values compared exactly to local certified table",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/CHECKS.json",
+      "sha256": "9cd58392e1fbdb887647a32fbf9152f5e5d8e477c818095b7c9c6cf82c8f4969",
+      "role": "Independent finite arithmetic, table agreement, and captured-bucket replay evidence; no fresh Lean or coefficient-run replay",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/aristotle_latest_pair_2026-09-21/REVIEW.md",
+      "sha256": "74a32e88517392c8c293c5dddb50a14c19297e601b39e022daed6ff5881a81eb",
+      "role": "Current assessment of A6/B3 deltas and precise certification boundaries; no endpoint upgrade",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/ASSESSMENT.md",
+      "sha256": "9fd3b62ef58d626fa7962c48ac01756b55e5051f1617ff9017dfd1019ae79057",
+      "role": "2026-09-21 focused bridge assessment: direct Kummer corollary from retained inputs; historical repairability and explicit source qualifications; not a new FIN/FORMULA theorem"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/C11_LOCALIZATION_EXACT.json",
+      "sha256": "c1223e82d341c76c60a55f762eb5f294d72c1b9b2b4c5500b999bda0165a023f",
+      "role": "Exact local coordinates and direct kernel check bound to the arithmetic script"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/C11_LOCALIZATION_JOIN.md",
+      "sha256": "9bec5c0c1a2a15ec6f9f44b9bc9f28a1774da69a934260b71c30b905ec314d09",
+      "role": "Written finite-level deduction from retained C11/basis/local inputs; not new primary vanishing or global BSD progress"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/D23_COVERAGE_CHECK.json",
+      "sha256": "fcef36f5b1bec8f21f754a8c20bc5fcb80563af2eb0d433a987a36f39129586f",
+      "role": "Exact local applicability results through 160"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/D23_COVERAGE_CHECK.py",
+      "sha256": "a126c028a0e996798c4c6728215948f4631bf67971d6e5aef129225e130ffc42",
+      "role": "Exact finite-field and rational-interval replay"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/D23_COVERAGE_REVIEW.md",
+      "sha256": "dc7525e8b1f82cb194ea3f063ee4ff9bf3a5d09ec221eece02aeff6fbb9b1377",
+      "role": "Verified bounded applicability and precise residual ideal obligation"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/D23_FEASIBILITY_REVIEW.md",
+      "sha256": "ef18a3cb38579227b5b67a5c244e8dd5f8e35c8aacec4e7f879ff5f74ee7d99a",
+      "role": "Governing review of D23 feasibility; exact inference corrections and source-specific implementation constraints",
+      "reading_depth": "Full report/checkpoint or relevant source implementation and timeline inspected"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/MCS_DERIVED_HEIGHT_GATE.md",
+      "sha256": "736aa5efb9bff778699ccb37802d4dd577317e7e5190586a930f458f90925dc1",
+      "role": "Elementary tower-lift Bockstein vanishing and conditional rank-three Fitting shift; no ideal evaluation or BSD endpoint advance",
+      "reading_depth": "Full document"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/MCS_NONSQUAREFREE_JOIN.md",
+      "sha256": "2ce92e7183412097f375c450c78dcabd2fd079a1c455385c83705a3325d0adfe",
+      "role": "Written restricted nonsquarefree application lemma; no arithmetic coordinate evaluation or BSD endpoint advance",
+      "reading_depth": "Full derivation; source theorem imports retain stated grades"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/MCS_RETURN_REVIEW.md",
+      "sha256": "0ae78104d9e918bbb3b72d09b141babcf99b5ea7fa41d128b73ac976ed854103",
+      "role": "Source correction and scoped applicability verdict; no endpoint advance",
+      "reading_depth": "Relevant source statements and local proofs; not independent main-conjecture audit"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/MCS_TWIST_IDEAL_REVIEW.md",
+      "sha256": "16ce9618bbc7c089f98e1954c21cf6156c62821687c159a485d0146c1ab42533",
+      "role": "Verified candidate lists, corrected cost and coefficient-reuse finding, derivative tail derivation, scoped coverage and characteristic-ideal counterexample; no arithmetic evaluation",
+      "reading_depth": "Relevant statements and source data; full returned reports"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/P13_EVALUATION_GATE.json",
+      "sha256": "c7672a146de52f384fdb73d7504e23cccd3d467c481d4668217abec0eb8dd468",
+      "role": "Predeclared 66-symbol weights, bound engine identities and actual cutoff output"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/P13_EVALUATION_GATE.md",
+      "sha256": "cac5cab44f229c5fdf4372812371f43301ea295da42289ad9129907b0bf7b201",
+      "role": "Fixed-prime theorem specialization and finite resource gate; no arithmetic run"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/P13_EVALUATION_GATE.py",
+      "sha256": "c453287e794929b4fbf71adce46e3eb842af715d1f8ea8ba0583fecad87d8131",
+      "role": "Exact Fermat/Teichmuller weight calculation and retained Arb cutoff calls"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/RESEARCH_PLAN.md",
+      "sha256": "0a5a76e76ade0278e7c829ba477f74e1f9c924cff63e5985d2103dcace1b7926",
+      "role": "Planning recommendation and bounded source/collision assessment; no theorem or admitted successor",
+      "reading_depth": "Full document"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/c11_localization_exact.py",
+      "sha256": "21df0f141821c64214a16bbd7017744177b6b76f44f1bb3fa004396879e6197f",
+      "role": "Small exact rational group-law calculation; no floating point or imported-Sha verification"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/mcs_sources/BCK_author_PRconj.pdf",
+      "sha256": "9810fb979928af2e0e74de5d825d5dce6ab99dba687c512dc85445fb2619ca52",
+      "role": "BCK author manuscript, Theorem A and Hypothesis spade; nonsquarefree main-conjecture input",
+      "reading_depth": "Theorem and exact hypotheses, relevant explanatory remarks; not full independent proof audit",
+      "source_url": "https://web.math.ucsb.edu/~castella/PRconj.pdf"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/BUILD_BINDINGS.json",
+      "sha256": "def853b3fb3590a222491ad2c374f9d51984f4997a8a6cebf766d3383954bdcc",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/COMPLETION_REVIEW.json",
+      "sha256": "50f2a997857dfec5f4698a762b78b41b1945210e2de2c21d67df5a355c972dea",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/DESIGN.md",
+      "sha256": "7c4555f1fc525fadfe5c59cb3f238b8e8beca6d6b9e5b9d4582d2d2788716827",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/EXACT_TWIST_INPUTS.json",
+      "sha256": "9399f314b971de4b48aa51b7dc236aea1fff7fbffca0e9ddc1854fede3cacb73",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/FIRST_SEGMENT_COUNT_CHECK.json",
+      "sha256": "d9e8816d9071cdf84e371db75f10157dfb247ff18aaf912c9c4bf9cd232eb41c",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/INPUT_BINDINGS.json",
+      "sha256": "8f8f45bc19496dffeeb9f7995b2cca992531ad6b112c64cec783704cc02999cf",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/MANIFEST.sha256",
+      "sha256": "0e231f21252bc838dfa95078abe6e5fb369c12203503db804f3ac1e7081547e1",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/PROOF.md",
+      "sha256": "e45c4f9a2709c4ee38a48e4c44f4a6b5f7a22db77d5f80f7892e1890a43fcc49",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/RESULT.json",
+      "sha256": "09350dc06d9a6d66d7363a129be7cc67fd89219bbd813816eb3d6eefa6f53ad2",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/RESULT.md",
+      "sha256": "66354605f2d7fbb8211c47b1bc0651a30e4d58b6b8cf6e37446dc2cb730419a8",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/VALIDATION_AND_BENCHMARK.json",
+      "sha256": "650f3a6611c259e2bfc5f3623362bd1d45e9351e0366052f24fd28d204e7b3b6",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/block_test.log",
+      "sha256": "88ab97a249e05d3b8265392bef3b699c98be4e7ad3fa2cb62716829beb48a179",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/block_test_initial_failed.log",
+      "sha256": "1bc21346cc7e772d2dd00079d5f1a102e130ff85698cacef9179a7ec0642d048",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/build.sh",
+      "sha256": "42a8d1bbd0405bdb670783144439951841ef25b330958adc74c850c5f5d4b516",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/combine_T3456106495.log",
+      "sha256": "b8b19d346e4ba2f8a5ce7706354cca09b41894907d61e69325500e36f2ce8642",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/kernel_test.log",
+      "sha256": "eaf0712db081d247743ecdcf0647c47001dd41250a302c639065921a1f0a2a07",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/retained_arbcore.c",
+      "sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/review_completion.py",
+      "sha256": "edc51513ccbb80a67c87a94d6d5e7b876fb0de97003e63ecb2016b60bc67c281",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/run_T3456106495.log",
+      "sha256": "c33a793a74a29c77766db2663dadf88b96b9b699b5f01d227a3d29018917c1c3",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/run_T3456106495.time",
+      "sha256": "e324184d75a14d90c19680c23b9da2df9fbd511c9752fbde4df7e5ebfec033c7",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/twist",
+      "sha256": "109a7728f74696c9a15762064b6551420127c99cc8d6a05e26717b83a5fee1c1",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/twist.c",
+      "sha256": "4eef4e086e69c7cda910e1b8e856e07c937c4f8e0a9c759fc8766760d0d3a623",
+      "role": "Completed D=-23 derivative certificate and rank-three premise; retained computer-assisted/source qualifications, no Stark ideal or global BSD conclusion"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/historical_coverage_2026-09-21/COVERAGE_RECONCILIATION.md",
+      "sha256": "687f56dfe1fa44f19fc2e24e3e6ce4d0778fe6c4888aac02c5ae042a20baba2f",
+      "role": "Selected historical coverage and claim-specific supersession; no new theorem"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/historical_coverage_2026-09-21/SOURCE_REVIEW.json",
+      "sha256": "fbf304645edfe53c476f382e64b755c8056d8132f9a17002a8a61b1a7b29ff73",
+      "role": "Exact source identities and reading depth for historical reconciliation"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/AUTOMORPHIC_MIDDLE_ORBIT_CLASSIFICATION.md",
+      "sha256": "b94a731b7a923c5c13cbf7b69981e65d08aaec44423cc886e977003f0f3768fe",
+      "role": "Four-orbit family classification and unique completion only after the additional midpoint condition. Headline corrected; proof body unchanged and prior bytes archived."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/AUTOMORPHIC_SECOND_JET_EXPERIMENT.md",
+      "sha256": "01eef639b59d8a6003a1aecf0ae5b8c02019dabde2a632162ddb9d05534efef2",
+      "role": "Written derivation from Eisenstein definition and Poisson summation: full Atkin-Lehner constant-term normalization and one explicit Fourier residual; no vanishing or arithmetic comparison proved."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/CURVATURE_AREA_TEST.md",
+      "sha256": "cd7885b486adcaa933703d6e45e0918dfbca6f94280237a6e955f6d302d53af8",
+      "role": "Written relative-homology obstruction, explicit antiholomorphic derivative, Stokes and unfolded full-domain vanishing theorem, and precise scalar-kernel scope; no arithmetic height comparison"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/ENDPOINT_VERTEX_COMPLETION_TEST.md",
+      "sha256": "a6f29921bf15eae45ff77321f8b4ccd6461288319877af3805291f5571a3a88f",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/MIDPOINT_DELTA_INTERVAL.md",
+      "sha256": "f07220b1925ff3faaaec735948ec15fc69207027825f0bf7fd5a39aa2b380e69",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/MIDPOINT_GLOBAL_MELLIN_REDUCTION.md",
+      "sha256": "35dcf6704d827505f59b37cf46f187af903c7cbf3668c89597739b299faa10ae",
+      "role": "Exact full-ray normalization, entire Mellin continuation, additive kernel and Barnes representation; continuous-density obstruction to an ordinary Euler Dirichlet factorization of the normalized family. Does not exclude every isolated special-value identity; no period evaluation."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/MIDPOINT_GREEN_KERNEL_TEST.md",
+      "sha256": "d51a826ef5c4d518b418bfbb94af3d5c2e6e3f9287c58a827d0b64e66311b422",
+      "role": "Bounded Green-kernel comparison: exact differentiated Fourier match, full constants, biharmonic equation, automorphy and scoped divisor-current obstruction. No residual cycle or ray-pairing identification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/MIDPOINT_SECONDARY_DESCENT_TEST.md",
+      "sha256": "20a7a60f0ec3f99963acaffc496b152cf121b9362ebbc6b63235341fef604f43",
+      "role": "Exact full-ray integration by parts; genuine nonflat smooth open-curve connection, nonclosure obstruction to relative/holomorphic Deligne regulator, and cusp curvature obstruction to regular elliptic descent. Explicitly does not rule out all singular-current theories."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/MIDPOINT_UP_TRACE_TEST.md",
+      "sha256": "cc1d94b130262bc735c18cb7a6e03dda60aa6162745a75e351b5d50bb178d394",
+      "role": "Verified seed U_4547 relation, exact zero trace, additive residual components and local non-forcing certificate. No individual-period evaluation or regulator comparison."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P11_PRIMARY_THEOREM.md",
+      "sha256": "4d206a57033069ed8e8f62d668c3ba53921b44d6c1e9ef69ad6e5efcf7b00767",
+      "role": "11-primary theorem: inspected written argument, exact arithmetic, certificate bindings or scoped provenance; see audits/P11_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P7_PRIMARY_THEOREM.md",
+      "sha256": "a64aee03ce53be4d43c5fc1971edc53bd5a7d4ce7038667e98a221363b241949",
+      "role": "7-primary theorem: explicitly inspected proof, primary theorem text, or bound computational evidence; see audits/P7_PRIMARY_THEOREM.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/CERTIFICATE.json",
+      "sha256": "1093cd37077e84d47de5832d2971d714f5d59f51612d46e85cc597017523b491",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/EXACT_CHECKS.json",
+      "sha256": "961de65c96db1f63a20dda7423c96d2ef2055894bcf3445bfcdbded28066d23c",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/INPUT_CUSTODY.json",
+      "sha256": "0d2c13d89f166c7843a3ff1bf0335c96ad73b46ba777f617edac645af1d5aedf",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/before_archive.txt",
+      "sha256": "4c40af2c50d0282386b05a74ce7a4eb60adf2bde0ecd48222763772b13e6163c",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/endpoint128.log",
+      "sha256": "ba64f6cf2f6a22ec76fef003cdcae9540e5b89c4e7300fea58246a3155a80e7c",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/execution_budget.json",
+      "sha256": "e1dc87940441fd95654fa141693de445dc1f7476752b7a2a5ed67bce36bcb026",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/retained_inputs.txt",
+      "sha256": "75e5552535b8d249a3fe1e4db3cf52573b9cd5d663ed79414f1e13c06ad54ff8",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/delta",
+      "sha256": "994d9322d741350d2fd127c5a368e9401a21fb0321260e1d44ff5c8b1ab3869a",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/delta.c",
+      "sha256": "3934389c6416eee5ebd3b2fbe9c6b4d24177319373cbe667a9cb3ec811cacc89",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/extract_certificate.py",
+      "sha256": "177f7da15a7a4acdeff33f40dd44d2c11ab89120cf0508edfec9fc5ca4fb0272",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/replay.sh",
+      "sha256": "f9153de32beb05de826c744074fbb4f7e0de97e1709a55cff59a5fa1e21064ee",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/run_bounded.py",
+      "sha256": "7def18a62c35c5055932453f9f37b8e0af30404605d20b88bf91250cdbe5d69d",
+      "role": "Final bounded endpoint-section test: scoped single-vertex Fricke exhaustion, fixed-section Arb evaluation, exact input custody or reproducible certificate. No arbitrary completion is tested."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/CHECKPOINTS.md",
+      "sha256": "aae91b672e8dbaadb566d93700608b9ab4d326fa4bfd294b0bd1bd845091fd7b",
+      "role": "Bounded Euler cleanup: published Theorem A retained; internal SU normalization unreconstructed; cleanup stopped. Access responses are custody only, not source proof."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+      "sha256": "7b494d3615e8349f149739a656f759f323914a9e076e876861bb8ba5c9ed8c36",
+      "role": "Bounded Euler cleanup: published Theorem A retained; internal SU normalization unreconstructed; cleanup stopped. Access responses are custody only, not source proof."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/RESUME.md",
+      "sha256": "8174a87c9878b54d62656f400cd24c819432317b0bd6a8f41375e868d9517170",
+      "role": "Bounded Euler cleanup: published Theorem A retained; internal SU normalization unreconstructed; cleanup stopped. Access responses are custody only, not source proof."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/STATE.json",
+      "sha256": "856b295b0427bb46e8b39a977f5aba9ed6add93426ea2798e0368ef2227ff788",
+      "role": "Bounded Euler cleanup: published Theorem A retained; internal SU normalization unreconstructed; cleanup stopped. Access responses are custody only, not source proof."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/sources/RETRIEVAL.json",
+      "sha256": "3477cbbf2875e2ea830fe4ed82553c539c02239953bf54e13e1f7a49f11e02ca",
+      "role": "Bounded Euler cleanup: published Theorem A retained; internal SU normalization unreconstructed; cleanup stopped. Access responses are custody only, not source proof."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/sources/SU_publisher_page.html",
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "role": "Bounded Euler cleanup: published Theorem A retained; internal SU normalization unreconstructed; cleanup stopped. Access responses are custody only, not source proof."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/CHECKPOINTS.md",
+      "sha256": "223bce8ccd6d1abdd49ddb7581872d7dae6b457acc67edaf724bc28cb2d2463c",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/FIXED_VISIBILITY_AUDIT.md",
+      "sha256": "f13b1c239102ec935e49056a26936a950f734f12d927d28c5d4fe2df120896af",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/HISTORICAL_COLLISION_HITS.txt",
+      "sha256": "fb449ed42bbde2987f3a38ee8f36d8b9c3547fc4db84946d30eb2ba4b43d0db5",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/RESUME.md",
+      "sha256": "2e48b10aacbe53a6349874cab59b95cad459a1e6aee391fb3edcadecfebb6cb7",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/STATE.json",
+      "sha256": "951ad6e6f3f7e656e9380353438ff0a7607e748e0582db27ecaf632ebb430328",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/sources/DOWNLOADS.json",
+      "sha256": "7002279cf3835530abbf268ba83e142e4ecb8380c4248fbcbf7d749dfb8894f3",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/sources/SOURCES.sha256",
+      "sha256": "53e223604fa8628129ae6ceaafa38b6cc0048eb56cf885079acc280f7c11fa9d",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/sources/Tamiozzo_2402.07317.pdf",
+      "sha256": "e69171ff8a6760c2a4fd912531bd836e6489d0215502b02cec45528e0c27edfb",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/sources/Tamiozzo_2402.07317.txt",
+      "sha256": "0e59131cefc3fda4e5e5cae330b86b161c9560d962e6d6321f5f939dbb9a8c8b",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/sources/Zhang2014_published.pdf",
+      "sha256": "698eb8a6d2297684c683c4c3f43a195cac1d8752ef0c8362ab90c74f5b3792ec",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/sources/Zhang2014_published.txt",
+      "sha256": "e4a5768169ac8e1eb5413436f34e6db2091949ac6305d4158c04fe494ad08d14",
+      "role": "Bounded visibility deduction and scoped obstruction evidence; no horizontal Sha bound."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/CERTIFICATE.json",
+      "sha256": "27dbfce33b32e0c69e18691dcaec98e234dc982d4ffcb2b94ad792192383da39",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/INPUT_CUSTODY.json",
+      "sha256": "617601e99f192feb0dceb899beff3730515f6475f7b990e28e389fc7248aa19b",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/bounds128.log",
+      "sha256": "76d4949a72cc354ea14743b66b48252947d385864fb86fabad534a5f9985d5f8",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/execution_budget.json",
+      "sha256": "021b3d70fe10d26f691dc5b85d8aa27c89dab2e65558182d34b5da71f61e858f",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/final_replay128.log",
+      "sha256": "8547543a7e79495d20427f3c62ad75114b34e96c2389c2d328d9e76d3c0d6689",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/interval128.log",
+      "sha256": "00d190c8b11c9189bbeae4c5d7f602caa1cb5f38b911633276dec7f4d1b7de47",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/moments.bin",
+      "sha256": "24ba062ad50277d4c4093131cdf008c5fa7aac68123dca2840595c8fe330a013",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/prep.log",
+      "sha256": "1b4fef0d55273632c8ada38821c527b02e1c579380514cd523426ab81a085310",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/delta",
+      "sha256": "1fda66a1b98333f2d9a783189370d28acffe4cf8d7bf3effeb89ec98b8e04c75",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/delta.c",
+      "sha256": "3e7b2b765d04704bfca3d2cb5f2c893d00dff9346437491ed5f02f40e3dfe938",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/extract_certificate.py",
+      "sha256": "5e56f931bdb48b7c2674a61a40d9f7d1dea99c52b79cd5d5242ac30b02d742dd",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/replay.sh",
+      "sha256": "ae4a2c2db6f24294a11a1720a699f768ce58ddfb236f169b5490dbb2996f7618",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/run_bounded.py",
+      "sha256": "7def18a62c35c5055932453f9f37b8e0af30404605d20b88bf91250cdbe5d69d",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/INPUTS.json",
+      "sha256": "cd36231685a8a259c745faa7268971513d7900ae75ead822ee42fe55d0ae9575",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/MANIFEST.sha256",
+      "sha256": "c2021c785bddd02adf725276dd5eec70b0264ffa44ece3ed2ba7a8c67e2fa0c3",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+      "sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/VERIFICATION.json",
+      "sha256": "bd23f4d4d43af5651b5cafdd92d5f32be3085ea7c5026c0dcaccc9da67ee23ab",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/ARS_moddeg3.pdf",
+      "sha256": "1f367f792f0c4ce587b09a45dd941ebc5406cad2e5695f4703cd4996bcf7ac10",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/ARS_moddeg3.txt",
+      "sha256": "34bc54c802427e25d892061cc688dddf19d3dee4c516ef3cf155bab998d70e87",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Agashe_0810.5176.pdf",
+      "sha256": "291e1b57e4556fb06b7bd2dbea671837cd6214c7d8dc86b47dc452e4f1c1f299",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Agashe_0810.5176.txt",
+      "sha256": "af764ac9678c56b34f62838d5476c351e55c08e19034da96b104aa0d4bf1c29a",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Agashe_0810.5176v1.pdf",
+      "sha256": "9e1568d80f162f4e06e7cd7dd1e394390ea11f1df2ad515d0e061cf0f87d8652",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Agashe_0810.5176v1.txt",
+      "sha256": "ec301cd51fa010675836963797e773704f885487ae6de2d08b33397f54249af9",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/CH_erratum.pdf",
+      "sha256": "09bd04635cac3f0bb7c3787d8dff97f5bf7d06bf87cb0f1412c85f66caa4c0c1",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/CH_erratum.txt",
+      "sha256": "4720af11220dacbd2416bfb2fe2a05398c3734d508725cbf5d572ebde0c908f0",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/ChidaHsieh_1204.2427v3.pdf",
+      "sha256": "b4d5b790b031d3ef841f5cbe48251cfe532e81b4415de4695fc72429f87bc108",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/ChidaHsieh_1204.2427v3.txt",
+      "sha256": "0f121eeca8f99d69d8cfdaa2d1d472a47fe47a19d9355c3546603007ce0ec690",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/DOWNLOADS.json",
+      "sha256": "55b18f7f315850cd34f51b42474762158b0c5ef109904d0db2a6823a89a6aff4",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Helm_math0401265.pdf",
+      "sha256": "fe625c2615e1667590999d887aafc0278bbfca971b2a5d8a4a1913935dac4acd",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Helm_math0401265.txt",
+      "sha256": "b60f1043a35eb3a750e9815dfeb23f50b5f4cc1bf95d0a96bdce1793848f0b1e",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1989_extra_zeros.pdf",
+      "sha256": "4087e31fd1f29d2fd17744a79b85aa75e1ebc79af57c20deeff3a72d5dd8badc",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1989_extra_zeros.ps",
+      "sha256": "ece7bfdb8ac4bb6e660ed63e191eabb9db5969fabaf0bd79d82248b39655a5be",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1989_extra_zeros.txt",
+      "sha256": "771992eda8b7ee21c03071a13c25a82ac0a4e4f928e4885aa043d3d63f445fbb",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1989_extra_zeros_reading_order.txt",
+      "sha256": "4d2f58504aec0a877a9cc573bbb8c74422eaa666cac08000e51935340b1c3486",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1989_logical11.png",
+      "sha256": "12d761d2d91ee11adf17827ca02ee869abf9bde896f2e7593c10f063eaa4ac32",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1989_logical18.png",
+      "sha256": "ab1dbcffc6629152fc3fa2312bfeded5db9ce5b6c660e561bf9ec5a88c6ab153",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1990_heights.pdf",
+      "sha256": "b12bfc182d62e6b122c82313f95156c016358e6332e2e292335ea2babf7eb21e",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1990_heights.txt",
+      "sha256": "ff160c104d38e70c73a1404877f6f36f9fcbb5d27b608ca455090df34591ae27",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Jones1990_p49.png",
+      "sha256": "11cb9f3538eb2a58c97530603892054aa9eb44bebae1c4e87d4fe9f4ce053462",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/PollackWeston_math0610694.pdf",
+      "sha256": "42962ab1de00924170e7cc02f95a0ebb967ec979a76823298014eb8511243d04",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/PollackWeston_math0610694.txt",
+      "sha256": "447f5edf3aa71272b5c944306d32dd8c2ef716a4940745c34ffaa7f0b69477fd",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet1990_invent100.pdf",
+      "sha256": "08f8ebfda40855d0f6d9e90e1dc352eb6576ecc44cc7c6e6ca3d448d724503b4",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet1990_invent100.txt",
+      "sha256": "bf13d90084ca1337190e5cb00537eb656a5f751597017f0cef340159d143a563",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet1990_pdfpage1.png",
+      "sha256": "1f622fc6e775beec9df1b5e4b89b62b11c9dbc8918f6051c62bc1758e010a5a0",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet1990_pdfpage10.png",
+      "sha256": "c286642c66cc41664abf3feaf9d7847c04feb2187ef109172a81c397f2e59a0d",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet1990_pdfpage11.png",
+      "sha256": "479a18434a4366db72d024de83d6f27721e7d59868fd2f3198730bd49da7da1c",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet1990_pdfpage12.png",
+      "sha256": "cca83b2cfbdb6b470a0b640514cccc765058d4e3a58c4516641f548854665833",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet1990_pdfpage8.png",
+      "sha256": "eb4194728b3c577906e76942e060bfac945fa3e5f2d7384df93fec61e4fa804f",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet_hk.pdf",
+      "sha256": "4ac33a876a65c9284e8e229dad5985f01048e73fd6c0dc203ed6292ccae7546c",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Ribet_hk.txt",
+      "sha256": "ff103469f523e83cb983a480b200949cf0918ba80d436f35e582d782a652fb8a",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/SOURCES.sha256",
+      "sha256": "2f27482299ad4e909133543f8669d64f4c20b6cada85310f378bb0759165ee42",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Skinner2014_arxiv.pdf",
+      "sha256": "02d176d8fd52b0159eecb448f4bea89bd29bdf73f3095a686d52ad96c0a9b988",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Skinner2014_arxiv.txt",
+      "sha256": "58e40b35ff25256a8671817cdc975ae686d3f75bb25f0998a0f1ca92d72a9060",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Skinner2016_published.pdf",
+      "sha256": "d270e8311b228e0e97f89a836d0363a58882c0bc2629c159871d2fc37b6b113c",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Skinner2016_published.txt",
+      "sha256": "cb68c04d0919e7a40a88c8d307e42f809c730e88eeb2a74b252b8528c7cc9713",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/SkinnerUrban_MC.pdf",
+      "sha256": "f9faa40aa5e30eba705da88e3d68c8aa43069b5be01c1cc6ece212dd57879748",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/SkinnerUrban_MC.txt",
+      "sha256": "bd306cd9ac5dc584e86e290717c5503932aa769723868a1af001704ddc29139b",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Vatsal2003.pdf",
+      "sha256": "7463a871e5b26d9c175b3aba1bdc61270fc263e9a72748e629519b99379fb171",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Vatsal2003.txt",
+      "sha256": "e1d1dd810a861050ebf7c341ff15de2a3813101e1fda83f0e1f22d13ff099afd",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Wang_2006.11640.pdf",
+      "sha256": "b636e773c5dd66b7ad33bc144cf79793b537e6d2ee9718f00048fc4538811b8f",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Wang_2006.11640.txt",
+      "sha256": "06996f83af75f5d93e9c4376f8573366220be52b10f2d088926271f05861b114",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Wiles1995.pdf",
+      "sha256": "69b968590df204c59702ee9ffcc857d8ee3cf683146c04133ff098c27bc2b831",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Wiles1995.txt",
+      "sha256": "1eddb80886c5db18633b3c2c2c273e559c751df102b5041a0df2791633686bc3",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Wiles1995_p479.png",
+      "sha256": "6dcdaa1dc7f73e1da8e9e933966107403da613c9811272256924aa90b1ffd62e",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Wiles1995_p480.png",
+      "sha256": "df692403aff58c0d2618f57f16646494bcf8b88d752fcf23c9608b20efa502bb",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/CHECKPOINTS.md",
+      "sha256": "a385eac89f210f4dc936e19b0c2890c74ae8435c8e869f219ad6aaa831e71f6a",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/FINAL_INTEGRITY.json",
+      "sha256": "35f5097a7d5a7dca35531e616eff7e1117ab326e039a08e369cccb63ff1d937f",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/RESUME.md",
+      "sha256": "661ab05bfaf11b8f17e67c4f2443495ee31ed1c2d8430d144decf09814b55040",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+      "sha256": "73ec678408626d1ce437b3576ccf36077d82af45807045b1102f17daced664e2",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/SOURCE_BINDINGS.json",
+      "sha256": "33a53998e8c032cc47d620d641e6a20f5923d4cd6b666d06cf9f4cc42e81eb5c",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/SOURCE_CHECKS.json",
+      "sha256": "f26e6054dacc7ba3c31497ee80abcf6f1c8512d577132d3c9cc995bc3ca7f6f6",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/STATE.json",
+      "sha256": "acffa9bc268f40e6cad50f32877fe180587225b058662ef72bc706da10fe35c9",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/CH29-29.png",
+      "sha256": "41d92f8f3f39c19ab941225700a696119bcf52005d858dabc1db07728bc57ec2",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet442_444-13.png",
+      "sha256": "1ad7e6ba3368608908e57ff2bd73882803e15beb1a7c351e2bc69cc622997740",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet442_444-14.png",
+      "sha256": "72ad95d2a65119210ddd55532ac9267b945c59f8037ee0358ea5a1c31522f500",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet442_444-15.png",
+      "sha256": "db6561516b4a37c266c290970244b15a73fb7b286f167da699153f647c52a5fd",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet445_447-16.png",
+      "sha256": "7409a478c51884f9295b5f50ea7b6c7acabf39ff6588c35829fde2075ff6ddfc",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet445_447-17.png",
+      "sha256": "c2a9ece423f1142e682e9ff974cf4c8bd4fd26ea895c95b775e250710a7ae6b1",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet445_447-18.png",
+      "sha256": "8f651a3585e001129c096cdfb3de7e222b046f5cbba14cf33585a178fc70f057",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/SU194-194.png",
+      "sha256": "3920d22dea1020dae6d9b215a262cf7a398b71c40ce62b4f75f5a1d2ea0bb4ba",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/SU201_202-201.png",
+      "sha256": "0b141e42384d2e89b42720ba45a78ea5097856db25e70f5febbc4734d4557331",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/SU201_202-202.png",
+      "sha256": "486d65aeb47cdaa4741241bd3862d244bd13339513ec1d56b18bc51b00ea0d3a",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Wiles482-041.png",
+      "sha256": "1e3ba56a6a5ab417d5e0d435431b005ae876deff4762379b864333e17d61227f",
+      "role": "Separate hostile model review: R1 conditional pass, integral period subclaim pass, full R2 mu transfer fails as written. Not human acceptance or formal verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/sources/midpoint_green_kernel/BERNDT_KUEHN_PART_II_1209.3949.pdf",
+      "sha256": "fcab6a36970078208c9e39eba52dba16caf5e18084fd677bf8b1141ac3d40ef1",
+      "url": "https://arxiv.org/pdf/1209.3949",
+      "role": "Inspected Definition 2.1, Theorem 2.2, Main Theorem and Remark 1.1: exact analytic Fourier normalization and distinction from already-paired arithmetic generating series. No full arithmetic proof audit."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/sources/midpoint_green_kernel/BERNDT_KUEHN_PART_I_1205.6417.pdf",
+      "sha256": "8fe5c0a9ba42e702f3deae7ff0015237842186ad809147e9f4404f4306ffd82d",
+      "url": "https://arxiv.org/pdf/1205.6417",
+      "role": "Inspected (2.0.2), (2.3.2), Proposition 2.4 and Theorem 2.19: geometric Green kernel, logarithmic singularity and boundary modification. No full proof audit."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/sources/midpoint_green_kernel/KUDLA_RAPOPORT_YANG_FALTINGS_HEIGHTS.pdf",
+      "sha256": "46b83e6ca9b0365befa16f481b1a9c4d624b217c95f359e1ab322d69684319aa",
+      "url": "https://www.math.toronto.edu/skudla/kry.compo.pdf",
+      "role": "Inspected sections 4-5, Green equation (4.11), smooth zero-divisor exception (5.12), and generating-variable role. No theorem instantiation for the seed."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/sources/midpoint_secondary_descent/GOMI_SMOOTH_DELIGNE_0307373.pdf",
+      "sha256": "06588b4db4c8f106a5ff5e0e7981f48301d2f0bcd4ac1a62d382a561438e75e6",
+      "url": "https://arxiv.org/pdf/math/0307373",
+      "role": "Section 2.1 and Definition 2.1 checked for smooth Deligne complexes; complex-line gluing derived directly in new report."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/sources/midpoint_secondary_descent/HAMM_DELINE_LINE_CONNECTIONS_1501.04048.pdf",
+      "sha256": "b059010b338a6bcb9dd832db8f5517cde154f9163fa197857b68d301dc7935db",
+      "url": "https://arxiv.org/pdf/1501.04048",
+      "role": "Definition and Theorem 0.1 checked for the holomorphic Deligne/Picard/connection distinction; not a broad theorem survey."
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_SEED_INVENTION_2026-09-19/INTEGER_LIFT_OBSTRUCTION.md",
+      "sha256": "fdae3988438b9def996c651733701f51887f625b1e98d35941e887963880846b",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_SEED_INVENTION_2026-09-19/STATE.json",
+      "sha256": "c9d150492107faffe4b71b83031d8501b72800c4f8dc104bbe6f272946a04a85",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_WC_INTEGRAL_DESCENT_2026-09-19/ORDINARY_CONVERSE_GATE.md",
+      "sha256": "7a5ac582f42c8f7c20242710278104f9ec7e9227e35597cde74dda3f9724e6b2",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_FABLE_RS2_L3_2026-09-20/ARCHIVE_NOTE.md",
+      "sha256": "de3bddb608327fb031b347600fa47c61c7a90c72f637ad0c81ce1713ccb80105",
+      "role": "Governing RS2 archive correction: source-qualified analytic identity, continuation open, no arithmetic successor identified rather than nonexistence"
+    },
+    {
+      "path": "/Users/bsm/BSD_FABLE_RS2_L3_2026-09-20/RS2_L3_VERDICT.md",
+      "sha256": "6f7347d0e28e9efb772678e2c33928c9febf8f53b646bba773a10a45adfdad15",
+      "role": "RS2 analytic gap and corrected sparsity; read subject to ARCHIVE_NOTE.md, not independently proof-verified"
+    },
+    {
+      "path": "/Users/bsm/BSD_FABLE_RS2_NORMALIZED_A2_2026-09-20/RS2_NORMALIZED_A2_VERDICT.md",
+      "sha256": "2dee1759d3234d91587c3cc2bbe0b22b483de0ae6147770f4a12b0b7a4c581f2",
+      "role": "Source-qualified normalized cross-cusp pairing, subject to later archive and sparsity corrections; no arithmetic import"
+    },
+    {
+      "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/LANE2_REPORT.md",
+      "sha256": "277eba753f7b541a6390420b1cd31837647bcee9bce3f657962140e3944369e4",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/DERIVED_HEIGHT_CORRECTION_ACCEPTED.md",
+      "sha256": "7530638551b076292ab3118b8c4981e3c1df16c336cd2eb53e43ada17b918ab4",
+      "role": "Author accepts scoped height correction and conditional quotient formula; two wording clarifications in existing height review section 5; no endpoint advance",
+      "reading_depth": "Full file"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/JOIN_AUDIT_AND_NEXT_QUESTION.md",
+      "sha256": "759691fa0f11e5dfaa424586fbfaa8b565eabe52e02fba02de2a4d41fdd79e0f",
+      "role": "Preserved external partial join audit; subsequent height proposal corrected and rank-one twist consequence made precise in MCS_DERIVED_HEIGHT_GATE.md",
+      "reading_depth": "Full document"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/MCS_APPLICATION_VERDICT.md",
+      "sha256": "53f4e349f9432d0689276dd2feacd1a4cc7cd181417a2f8cdb16f859e07e26b1",
+      "role": "Preserved external return; specified mathematical claims superseded by MCS_RETURN_REVIEW.md",
+      "reading_depth": "Full file"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/RESUME.md",
+      "sha256": "2e6b9dfeefb888c5cef3547cb8a3edaa1f66bdbb0a093facdaa0fd26a24f34e7",
+      "role": "External checkpoint with preserved superseded assertions; additive retractions and TWIST_IDEAL_CORRECTIONS_ACCEPTED.md govern; canonical MCS reviews determine claim scope",
+      "reading_depth": "Full changed file read, including latest author acceptance"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/RETRACTION_AND_CORRECTED_VERDICT.md",
+      "sha256": "2549ccdf40e373655b6de1aceabd4e96a128638518b30a2facf25e0a4dd354d9",
+      "role": "Author retraction accepting the source corrections; applicability failure is not full-BSD gap count",
+      "reading_depth": "Full document"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/STATE.json",
+      "sha256": "81b57d8044543bc394c2f489c10cba664f89236befb4d7c04c13919284df06a6",
+      "role": "External checkpoint with preserved superseded assertions; additive retractions and TWIST_IDEAL_CORRECTIONS_ACCEPTED.md govern; canonical MCS reviews determine claim scope",
+      "reading_depth": "Full changed file read, including latest author acceptance"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/TWIST_AND_IDEAL_ATTEMPT.md",
+      "sha256": "6062975ef1ee2a7032b81c5dd89c9f06fb718b3187eca3710161c6cb0ad94cec",
+      "role": "Preserved returned candidate/cost/ideal attempt; exact claims qualified or superseded by MCS_TWIST_IDEAL_REVIEW.md",
+      "reading_depth": "Relevant statements and source data; full returned reports"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/TWIST_IDEAL_CORRECTIONS_ACCEPTED.md",
+      "sha256": "40e40ddc975880b0cac20c3d1965b577879b23ccdf141067a9ba1d9ea8401b32",
+      "role": "Author acceptance of existing twist cost, coverage and Fitting-index corrections; no new theorem or arithmetic certificate",
+      "reading_depth": "Full file"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/WORDING_CORRECTIONS_2026-09-21.md",
+      "sha256": "04070eb79b3b80915460fd72bccb151865bc97c27e607d20032e3d2e75fe533d",
+      "role": "Author accepts the two wording clarifications; no further mathematics",
+      "reading_depth": "Relevant statements and source data; full returned reports"
+    },
+    {
+      "path": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/source_macias_castillo_sano_2603.23978v1.txt",
+      "sha256": "1ead01cd40c2d6f935fa911c100f4ee791680e666a39bac3fb2c13c28fba2699",
+      "role": "Local PDF text extraction supplied with retraction; corrected statements checked against prior primary-source reading",
+      "reading_depth": "Selected section 3.2, section 4.1 definitions and hypotheses, derived base change, Appendix A Bockstein definitions/proof; no full independent paper audit"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/ANALYTIC_RANK_CERTIFICATE.md",
+      "sha256": "ef0d90f1e17d68c89459aad2dcbe3822f8fb52c58f6fecd118fa5b3cbebdc614",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000000.bin",
+      "sha256": "42d69809b7e3895c63c4d392afb2d470540e2dda16f560de54c9f08171e49ff8",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000001.bin",
+      "sha256": "5023c6cca82779e627304ccdc60825d6ef4b94df47adcb73cb56d2ec635c22a3",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000002.bin",
+      "sha256": "461b96e37f44e85e698aa00ed26c76d9150132a6faf0476e4dbb552b59df3943",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000003.bin",
+      "sha256": "cfa6cdfe9f1d770e58effe5b0d065e1b9ea0225e0ffa28c4003d4d75f934bfb9",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000004.bin",
+      "sha256": "023fb345309fa367acad4324fdf1f9c39b1546829f6e97d01e9af2e714e879e7",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000005.bin",
+      "sha256": "424e31ee4a8e73cb48eaba9fa4add5e866f7875080e22bdf087eb6b524a9f289",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000006.bin",
+      "sha256": "b6853b6f51eb0626e8995fdef2a3a3f66fdabc571d7d0fe3552351f0ffc4d904",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000007.bin",
+      "sha256": "49a55dbf253ac407bb4c2d4d026d7d98e82b4bbfe35f100c14d850747a1075aa",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000008.bin",
+      "sha256": "4bda85a7e1fc64b0db1560d434b6aab9fa0174583eed55458ff06592ce2bdadd",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/logs/an.log",
+      "sha256": "2312616c67f9bc78806b0231718576fd1b1cfc276126651ecce58704813c66ea",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/logs/ap_files.sha256",
+      "sha256": "304375bd7a6def5a46cf738c4f9f2dbf7620178bee6df78b668a25bf54ee38c8",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore.c",
+      "sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/verifier/wverify.c",
+      "sha256": "128e7960f8efc0756557f2ee5619c1e80f7e9e0f69b6007f70cac63707abb596",
+      "role": "Midpoint residual interval calculation: proof, exact input custody, executable source, or retained numerical certificate; no whole-BSD consequence claimed."
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/CRITERION_SS_HOSTILE_GATE.md",
+      "sha256": "7c58bb165fe75ac92390ded335e1d616f4cc455ea9b9c06a47150ed33765fe59",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+      "sha256": "099c84a350f33afa9d2ad668c7de650e45958ee19db2d3410f86bb03c2bbd3a8",
+      "role": "Primary evidence bound by the separate R1/R2 hostile model review; exact scope and qualification in that review and current master section 2."
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_SECOND_DERIVATIVE_RATIONALITY_HUNT.md",
+      "sha256": "1894fc91ff1605972ff434649c38c32a9abdf2fbf5d270885c085dec012204c7",
+      "role": "Historical source-screen depth, including abstract-only March 2026 Selmer-complex entry E8; not a blanket impossibility theorem",
+      "reading_depth": "Selected governing rows and source qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/C/SteinWuthrich_shark.pdf",
+      "sha256": "217cc596a2784e7b1f086edbf2260b101f94175ecb627158191d2dc64dad7032",
+      "role": "Primary evidence bound by the separate R1/R2 hostile model review; exact scope and qualification in that review and current master section 2."
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/C/SteinWuthrich_shark.txt",
+      "sha256": "680283f876a20954828d4cb473bea3ef7fb92f99523972e17bb3d5b5897ba038",
+      "role": "Primary evidence bound by the separate R1/R2 hostile model review; exact scope and qualification in that review and current master section 2."
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_LINE_HOSTILE_AUDIT_2026-09-19/LINE_HOSTILE_AUDIT.md",
+      "sha256": "4e7208397257f75fc955dcb0da04d73b184bccf08cb50d1f94cac3332733c178",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_MANIFEST.sha256",
+      "sha256": "c6a8ad85e488654b58dbc9037c559d4cff8e6e198fcf27c581697ea2b38c81f3",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/addenda/P3_R2_PERIOD_PROVENANCE_AUDIT.md",
+      "sha256": "2b984abaa1a20fa91a8ad6795b1f3da3fd647832924aaba6049627ff3274892d",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/SHA5_RIGOROUS_THEOREM.md",
+      "sha256": "adfa6a96cd23041938d91c92629c4572b3c967a3d02b639d8aef0d73106a27d0",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_R2_LEADING_TERM_BRIDGE_2026-09-19/LEMMA_U_AND_P5_UNIT_AUDIT.md",
+      "sha256": "cc95623276f3f4e90640c6eebab5c714c323855addd3154073e9326cf46f9e13",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_R2_LEADING_TERM_BRIDGE_2026-09-19/R2_LEADING_TERM_BRIDGE_DESIGN.md",
+      "sha256": "6e0ff500095737c687c304fe934bda32c36ff1e511e8810293a93a61b74f9d04",
+      "role": "Historical rank-two comparison design; missing comparison and assumed order-nine input, not a completed BSD proof"
+    },
+    {
+      "path": "/Users/bsm/BSD_STEIN_WUTHRICH_P5_GATE_2026-09-18/src/SteinWuthrich2013_shark.txt",
+      "sha256": "680283f876a20954828d4cb473bea3ef7fb92f99523972e17bb3d5b5897ba038",
+      "role": "R1/R2 proof repair evidence; exact uses and proof grade in audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md. A byte binding is not mathematical verification."
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D23_CERTIFICATE_2026-09-21/CERTIFICATE_CONFIRMED_AND_COVERAGE.md",
+      "sha256": "91a5e411c5476cd9d88094b971bb08944e46071f6c15618814b63f7e6621fe21",
+      "role": "External coverage return checked by exact finite arithmetic; not a second full certificate replay"
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D23_CERTIFICATE_2026-09-21/FEASIBILITY_CORRECTIONS_ACCEPTED.md",
+      "sha256": "2b9580ab3263be98da547581272151b9c691df88d31d0a42b9137f19e23a60c0",
+      "role": "Author accepts feasibility corrections; no new numerical result",
+      "reading_depth": "Full file"
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D23_CERTIFICATE_2026-09-21/FEASIBILITY_REPORT.md",
+      "sha256": "9e82b6b3a810dbdb849ac14387a474d2027f42f37a6621d963ba4edb8e8f6752",
+      "role": "External feasibility claims, preserved; cutoff, cost and missing-kernel claims corrected by D23_FEASIBILITY_REVIEW.md",
+      "reading_depth": "Full report/checkpoint or relevant source implementation and timeline inspected"
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D23_CERTIFICATE_2026-09-21/MANIFEST.sha256",
+      "sha256": "877f2b1d397c5679eed8e134acf8d280dab30673c86221fe2fc7a1fb2bbba0a8",
+      "role": "External checkpoint under additive feasibility correction; canonical review governs scope",
+      "reading_depth": "Full report/checkpoint or relevant source implementation and timeline inspected"
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D23_CERTIFICATE_2026-09-21/RESUME.md",
+      "sha256": "7786d02b21506d6461e8f7d008db9f8a6ee5b33246c22891bab93837c6af06de",
+      "role": "External checkpoint under additive feasibility correction; canonical review governs scope",
+      "reading_depth": "Full report/checkpoint or relevant source implementation and timeline inspected"
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D23_CERTIFICATE_2026-09-21/SCOPE_AT_13.md",
+      "sha256": "2782c12c9d49471c7d4b14120d9a9bc792d70146a9a30ec9e0a363ab2b3d32ab",
+      "role": "Returned odd-primary decomposition, reviewed; Heegner-index calculation is not asserted to be the only method"
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D23_CERTIFICATE_2026-09-21/STATE.json",
+      "sha256": "606c41938001709d100413d08e190f6d133ea12ead78dc085ad46568dff437ba",
+      "role": "External twist return history; completed status read, older phase/next-step fields stale and superseded by completed local certificate",
+      "reading_depth": "Full report/checkpoint or relevant source implementation and timeline inspected"
+    },
+    {
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/01_BSD_SUCCESSOR_MASTER_STATUS_AND_DEPENDENCY_MAP.md",
+      "sha256": "5e0bdaf2193054157d4d458f89b92d0ce910a1d9266f91e87cf8dd826504f9ba",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/05_H9_CURRENT_FRONTIER.md",
+      "sha256": "109d96a19154f97cb2ffe00201487ca07691a3410a5a2f2b62fb4e09477e21d0",
+      "role": "Older whole-program synthesis; distinguish original checkpoint from later supersession",
+      "reading_depth": "Selected governing status, supersession and custody sections"
+    },
+    {
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/14_WHOLE_MAP_ASSEMBLY_AND_MISSING_INPUT_AUDIT_2026-09-16.md",
+      "sha256": "30ded0faf0f69369c44a7e7adef70ea486dd6657cdc71e6cce501ffb3d507bf9",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/C1_ULTRA_PARALLEL_NORM_RELATIONS_001/RESULT.md",
+      "sha256": "98eea683e3e96d09be34ba5b7eebabb6c88a0bc42372f0a44b400f18e28767d5",
+      "role": "Scoped mod-5 lower-degree transfer obstruction; no Sha result",
+      "reading_depth": "Full result record, not underlying proof audit"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/66B1_CONVENTIONAL_FREEZE_001/LITERATURE_DEPENDENT_STRONG_BSD_COROLLARY.md",
+      "sha256": "9064ce6788eddc1826ff26f005f8b1ac06f46f45a07bdc6e75b414af2827b4b5",
+      "role": "66b1 qualified full-BSD assembly, distinct from inapplicable direct source routes",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/66B1_CONVENTIONAL_FREEZE_001/THEOREM_STATEMENT.md",
+      "sha256": "24feaa78c0b8fc82843f7c05c3f9b83ace30d360dd09fd2db5587fa2cfb33910",
+      "role": "66b1 precise family and conventional 2-descent theorem",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINAL_ASSEMBLY_FORMALIZATION_FREEZE_001/STATUS.md",
+      "sha256": "30b604c606bd2d09db2cd80e23600af996122d870840c7da164d2752cc066bfd",
+      "role": "Retained Lean rank-zero assembly and recorded build grade",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINITENESS_FORMALIZATION_FREEZE_001/01_run_A/tree/RequestProject/GateRFinite/Finiteness.lean",
+      "sha256": "e3e9368290b2596ba57640cb905a591e7b641ecf4f4488b63eff4eadbc655b89",
+      "role": "Actual h41_finite signature and finite-generation derivation",
+      "reading_depth": "Full proof body inspected; not rebuilt"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINITENESS_FORMALIZATION_FREEZE_001/02_run_B/tree/RequestProject/GateRFinite/Finiteness.lean",
+      "sha256": "1849cd8aa0f6d0eaabe8f62868f4e2be61bc883a2376619adb576c37343e30be",
+      "role": "Second retained actual-point-group finiteness signature",
+      "reading_depth": "Final theorem signature inspected; not rebuilt"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINITENESS_FORMALIZATION_FREEZE_001/STATUS.md",
+      "sha256": "463cf8e98bb555ce3fa8ac598e1522e82d27f079b85dd65e6c9d238d8f6f7c27",
+      "role": "Later formal finiteness of rational-point group, not Sha",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_MOD4_SUCCESSOR_ADDENDUM_018/ADDENDUM.md",
+      "sha256": "83088651058fea8919292bdfd944c138c062ce88dff33ba9d5bf26a18b85db9f",
+      "role": "Exact H41 supersession; conventional/model-reviewed and external-literature qualifications",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_MOD4_SUCCESSOR_ADDENDUM_018/R/PROOF.md",
+      "sha256": "71024db1ca0893acf7cd20bd271fc80be5a6faf209feb15635b3a8d24201f2e3",
+      "role": "Byte-identical sealed copy of home mod-4 proof; not an extra independent proof",
+      "reading_depth": "Identity comparison only in this operation; statement imported through addendum"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_MOD4_SUCCESSOR_ADDENDUM_018/README.md",
+      "sha256": "c3b67822e8c84bd20b1be664acc122c036663ec8cfc0692ac53c77f57cf5889a",
+      "role": "Seal and scope of mod-4 successor",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_W_AUDIT_IMPORT_ROWS_CUSTODY_ADDENDUM_019/ADDENDUM.md",
+      "sha256": "f6e86bb538539a165131430837b3f0d3989f251f01cf1c9282d65c26a97fa7f4",
+      "role": "I3/I4/I5 import binding; not a new theorem",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_W_AUDIT_IMPORT_ROWS_CUSTODY_ADDENDUM_019/README.md",
+      "sha256": "12290a8a4ffc834fb0e94c94132fc4f23faccc47c09c7d82b57763223e17a957",
+      "role": "Import-row custody scope",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/P04C_TWO_DESCENT_QUOTIENT_FORMALIZATION_FREEZE_001/01_run_A/tree/RequestProject/P04c/TwoDescent.lean",
+      "sha256": "a174a7c4b73676c344850c4179934143e66da1b5c7376799f1c0759f227ba1ab",
+      "role": "Actual rational-point quotient target",
+      "reading_depth": "Quotient theorem block inspected; not rebuilt"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/POST_FS_BSD2_COMPOSITION_FREEZE_001/THEOREM_A_ALGEBRAIC_COMPOSITION.md",
+      "sha256": "d52080deac51c36898e163798d971b9056a9bcc9904a9555df62803753cf1331",
+      "role": "Conventional Selmer-to-rank/Sha2 composition",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/POST_FS_BSD2_COMPOSITION_FREEZE_001/THEOREM_B_BASE_CONDITIONED_BSD2.md",
+      "sha256": "9f163f6063847f4cf7188b9a6faf9a60ce1a888d790d360f37d8c5962f0f2c7b",
+      "role": "Earlier analytic base-value input isolated; supplied later only on retained H41 branches",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/POST_SATURATION_SEL2_BRIDGE_FREEZE_001/STATUS.md",
+      "sha256": "1931dacaef92c16773db3a64b9c0a2ef71baa6d80ddb65198e506a94684d6528",
+      "role": "Older bridge checkpoint superseded in its point-group/rank targets",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/RUN013_BANWAIT_CAPSULE_001/RUN013_62A1_TECHNICAL_CAPSULE.md",
+      "sha256": "86cb672a906c4459593cdbf0a40c10a76eb064d6da62a5e6fcc3eb017d11cba4",
+      "role": "Historical Run013 capsule",
+      "reading_depth": "Selected technical scope and source references"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/THEOREM_STATUS_GATE_R_COMPLETE_001/CERTIFIED_ENDPOINTS.md",
+      "sha256": "39f62a531dafdc3b010a506b516cbdc89e3e89ffbc30fce3235e04828c1c7089",
+      "role": "Exact actual-point-group theorem endpoints",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/THEOREM_STATUS_H1_FREE_BRIDGE_COMPLETE_001/THEOREM_STATUS.md",
+      "sha256": "bb1dd287ae5d397aeacf691a3b041488ea1a2f2935e76118f3b73f04ee83da21",
+      "role": "Actual-point-group bridge; intermediate historical rank boundary",
+      "reading_depth": "Selected theorem and nonclaim sections"
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/ULTRA_WHOLE_PROGRAM_AUDIT_FREEZE_001/STATUS.md",
+      "sha256": "ed0289afea3564b453175239b641e7238cc26a0f528953e96f24163c9c422d30",
+      "role": "Historical audit before formal finiteness successor; preserve scope",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/Downloads/554454e7-3adc-47d9-91b9-821677d56277-aristotle (3).tar.gz",
+      "sha256": "5fcb4c63069141c55447b7a09d56341ec3f900109eb82cee6345d18fca8e9132",
+      "role": "Supplied Aristotle B3 archive; original bytes bound, normalized delta comparison against preceding user-supplied archive",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-6.tar.gz",
+      "sha256": "0493d42cebdea3805cb539441ef86a067bef7a0f9ce454a2bc3837ffdd223632",
+      "role": "Supplied Aristotle A6 archive; original bytes bound, normalized delta comparison against preceding user-supplied archive",
+      "reading_depth": "Changed content and dependency-specific checks described in review"
+    },
+    {
+      "path": "/Users/bsm/FIXED_E5_DEGREE2_TWIST_ATTACK_2026-09-17/00_REPORT.md",
+      "sha256": "8e9e51cab4306aa705000b0460e316c3852ab2687ac3e0c5a7622a72fe154951",
+      "role": "Parked fixed-E5 genus-zero obstruction and unresolved genus-one scope; not a new arithmetic dependency",
+      "reading_depth": "Opening result and first geometry/genus-zero theorem sections"
+    },
+    {
+      "path": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/PROOF.md",
+      "sha256": "71024db1ca0893acf7cd20bd271fc80be5a6faf209feb15635b3a8d24201f2e3",
+      "role": "Home proof identical to Desktop sealed copy; claim scope from addenda",
+      "reading_depth": "Identity comparison only in this operation"
+    },
+    {
+      "path": "/Users/bsm/H9R16C_SEALED_MILESTONE_2026-09-15/00_MILESTONE.md",
+      "sha256": "554be8617b0b5148c6635808e6bab112d216de46de3d9d309776f955fdc25ac4",
+      "role": "Retained H9R16-C geometric milestone at its recorded audit tier; no independent full replay in the 2026-09-21 assessment"
+    },
+    {
+      "path": "/Users/bsm/H9R16C_SEALED_MILESTONE_2026-09-15/05_NON_CLAIMS.md",
+      "sha256": "ffa0331cc920add596b113392f8f8ad3cb1443508514a399d7456f15da520fb1",
+      "role": "Scope of the H9 geometric seal; downstream historical statuses read with later corrections"
+    },
+    {
+      "path": "/Users/bsm/H9R19_WEIGHTED_RECIPROCITY_2026-09-15/20_DERIVED_POINT_GATE.md",
+      "sha256": "e0fb1daa7c898724736e37140f7e20d61989c69c73ff141b09dc15345982720e",
+      "role": "Inspected source of the absent transverse geometric family in the proposed H9 derivative repair"
+    },
+    {
+      "path": "/Users/bsm/H9R19_WEIGHTED_RECIPROCITY_2026-09-15/31_COEFFICIENT_GATE_SOURCE_CHECK.md",
+      "sha256": "e56339d76fed27f80a4de467d5ed030d8c5751acab0f5602d9ae161ea3f65d01",
+      "role": "Later H9 correction limiting earlier coefficient-field obstruction and negative conclusions"
+    },
+    {
+      "path": "/Users/bsm/H9R19_WEIGHTED_RECIPROCITY_2026-09-15/32_ABC_NEW_MECHANISM_KILL_GATES.md",
+      "sha256": "243e7c0c6a24403f2f02782c39feaae9ac154cb96bb1c980cd3ac00cec78d2b8",
+      "role": "Inspected historical gates with governing appended correction; superseded blanket rejections not imported"
+    },
+    {
+      "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/00_LANE1_SYNTHESIS.md",
+      "sha256": "fab04792bd667a0805fc6554cf1e420dea6947a05f15e1cada89dd1da99bbfb5",
+      "role": "retained theorem/audit evidence or explicitly marked historical context; see the mathematical record for claim and qualifications"
+    },
+    {
+      "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L1C_SEALED_TOWER/00_REPORT.md",
+      "sha256": "862de17b6eac1ed818ba6c535780d2dcd4f2da0febbaf977a6fb51f9bad5f99c",
+      "role": "Inspected target compatibility and character-component boundary; no new H9 proof or source replay"
+    },
+    {
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/BSD_CHAIN.md",
+      "sha256": "f767c276c91ea1db332d048a97fda6ea40667bf279762b7a5d26c2e259a15f2a",
+      "role": "Run013 conventional family theorem and qualified full-BSD assembly; no new literature validation",
+      "reading_depth": "Selected statements and exact implication chain; STATUS and PROOF read in full"
+    },
+    {
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/PROOF.md",
+      "sha256": "42aca37560fb281a213b781e951682c0a7d564883407720b81996c5ef3edaf17",
+      "role": "Run013 conventional family theorem and qualified full-BSD assembly; no new literature validation",
+      "reading_depth": "Selected statements and exact implication chain; STATUS and PROOF read in full"
+    },
+    {
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/STATUS.md",
+      "sha256": "5f8e37bf0bfd1752150a44168cab5cef41ec114ebe7c88d189fa1528d48601a5",
+      "role": "Run013 conventional family theorem and qualified full-BSD assembly; no new literature validation",
+      "reading_depth": "Selected statements and exact implication chain; STATUS and PROOF read in full"
+    },
+    {
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/INDEPENDENT_REFEREE_VERIFICATION.md",
+      "sha256": "480207c5689b36d7ae1e3a9348eeb061cd5b259143d74a846137c1e245d9d541",
+      "role": "Family minimization and exact distinction between conventional proof and formal interface",
+      "reading_depth": "Selected propositions, proof and formalization boundary"
+    },
+    {
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/PROPOSITIONS_A_B.md",
+      "sha256": "de8af03d6806910d03dd70d2acfbf3391def495388f413ff1047ab0dc9922fbd",
+      "role": "Family minimization and exact distinction between conventional proof and formal interface",
+      "reading_depth": "Selected propositions, proof and formalization boundary"
+    },
+    {
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/RUN013_FAMILY_MINIMISATION_AUDIT.md",
+      "sha256": "1db0307a4f730bdd6509963583335d0757bd420762bc8082763e302b1ee12373",
+      "role": "Family minimization and exact distinction between conventional proof and formal interface",
+      "reading_depth": "Selected propositions, proof and formalization boundary"
+    },
+    {
+      "path": "/Users/bsm/run014-b-negative-crux-control-2026-08-23/seed/official/BSD_CRUX.md",
+      "sha256": "bd15a6f58736b84d237d17cf10bdf9dc42b120a8dedd1613bfe9fe75a09da3c4",
+      "role": "Historical problem-statement control; not a new BSD result",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/run014-b-negative-crux-control-2026-08-23/seed/run013/BSD_CHAIN.md",
+      "sha256": "f767c276c91ea1db332d048a97fda6ea40667bf279762b7a5d26c2e259a15f2a",
+      "role": "Copied conditional chain does not override completed original descent",
+      "reading_depth": "Opening scope, hypothesis and comparison sections"
+    },
+    {
+      "path": "/Users/bsm/run014-frontier-prep-2026-08-23/CURRENT_STATE.md",
+      "sha256": "549b4bb80b31d97a4b2c0e1c8d39002997fbfa47052bf4238ddf105089f388ea",
+      "role": "Historical multiple-problem scouting status; no negative theorem of mathematical impossibility",
+      "reading_depth": "Full record"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P13_PRIMARY_THEOREM.md",
+      "sha256": "2097b553ece4b63a1212b6836b9f7823f5423acc34bb7fd33f53c7f708c578ae",
+      "role": "Qualified 13-primary theorem and exact endpoint; retained source/software grades and historical incident",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/NORMALIZATION.md",
+      "sha256": "f46708148b3ab66f658fcd1ccdc4d8fe81b797f93b0faa861a099e2416ec8955",
+      "role": "Exact correction of returned lattice-numerator and unit-root omissions; C13=2 omega1,1 full period",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/DOWNSTREAM.json",
+      "sha256": "97e6b3701733093b18099e0c87fcf0f0130aa2a2cafea6b7a435caa81e1e199c",
+      "role": "Two exact coefficient calculations, predeclared weights and 179 passing checks on certified symbols",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/downstream.py",
+      "sha256": "1bc3f3c859e8fe55262e8eb73d872b7e1405e2abd2c6d0e77f5aa313b3cdb5b4",
+      "role": "Exact Fermat-quotient and full finite-measure implementation, with 7/11 regressions",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/CERTIFICATE_BINDINGS.json",
+      "sha256": "fb7c42ef193ea9bccdb1955ac4ba8307a098ea6b7d3dfcfc92423f24d27442e1",
+      "role": "Actual hashes of all3281 coefficient/verifier files,948 new witnesses and17605 saved Arb units",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/INPUT_BINDINGS.json",
+      "sha256": "a0f922857dd16a244bb02de80ecbd451e9d1d6732ab619100bf813c3eddaaab7",
+      "role": "Before-state and unchanged original-input identities",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/COMPLETION_REVIEW.json",
+      "sha256": "8229cd7710862f96d61840c0db6478a780bc139eae3d448b8673db64c382a8a4",
+      "role": "Final saved-unit recombination and Stage C replay; same-engine and witness-receipt trust limits explicit",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/replay_completion.py",
+      "sha256": "bb33dfeaad17a770b67a779ab3e8141edd7503583ee92f586948efa420ec22b1",
+      "role": "Completed saved-unit replay procedure, no missing-unit computation admitted",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/seal.py",
+      "sha256": "912018d80cd48045e6b6589694105cd4edf4bf883c2e0f52ba6c825b1a13cb2a",
+      "role": "Completed coefficient/witness/unit custody checks; no fresh full integer-verifier replay",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/RESULT.md",
+      "sha256": "6ad51673aa67f2d0b29c3c1fb8a19ce6d212532894637fbc4fef3cdd2e7cb64f",
+      "role": "Completed numerical and theorem result with exact nonclaims",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/INTEGRATION.json",
+      "sha256": "a8147a9f0c1ec0a8bb88db42d6400fbc87e20a2ac38259470223a20040b15e3d",
+      "role": "Claim-specific integration and preserved prior-state identities",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/MANIFEST.sha256",
+      "sha256": "bd872e415c654bb9689be393c2252ec1c284634fb410068957c65bba569ff2f2",
+      "role": "Completion-work artifacts sealed after successful review",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/fresh_m169.txt",
+      "sha256": "b9586870e1217e5a64e30a59857fb17b304fe7014e020eba838af49ea4bf3d26",
+      "role": "Byte-identical fresh recombination of complete denominator169 Arb units",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/fresh_m13.txt",
+      "sha256": "810e9cff55f35b96bac8c815f848397e6a27fd9c4fdc24b0aadd4cbd35a2c21f",
+      "role": "Byte-identical fresh recombination of complete denominator13 Arb units",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/STAGE_C_REPLAY.log",
+      "sha256": "dd8f7808cd89f70af92223c4a59da5ec9a49d64bccee04e61a077efff430a612",
+      "role": "Fresh lattice, exact traversal and24 Hecke-identity checks",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/INCIDENT_2026-09-21.md",
+      "sha256": "c3a28e7f7b908dc711be5bf075c8992fbbd354eec29bacd27c80ad676210fbae",
+      "role": "Historical write-through incident retained; independent post-incident hash check repeated in completion",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/POST_ABORT_INTEGRITY.json",
+      "sha256": "a5b720b9a6a3f387f9fd563b8f3c594e2c4486bb8176c104dc48ffe8b2fdac69",
+      "role": "External no-byte-damage receipt corroborated against sealed C11 identities",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/PREFLIGHT.json",
+      "sha256": "39c65ed43e6e9f18bbadb06d355d9773e1cc8a3b3b7606e140b8d8384ca98858",
+      "role": "Original preflight and reuse receipts; missing-marker launch flaw qualified by incident",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+      "sha256": "a7803c1b5b22f8d4793925cae45d56b6e9b1520d5e6f710d0198712c35b59155",
+      "role": "Preserved external result; 7/8 values and unresolved normalization superseded by P13 theorem",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/STATE.json",
+      "sha256": "b5548dd1204fc1ea96da7956ec21766e0a428db0b0ebc95325f3de2c71f39dc7",
+      "role": "Preserved external execution checkpoint; local completion governs current status",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/RESUME.md",
+      "sha256": "7d04b7381c3cc06fc3f9d75e9ffbc6cfcfe7bb64cdc0f8a4c4e387408fd4e45e",
+      "role": "Historical stale restart/downstream instructions; completed local result supersedes them",
+      "reading_depth": "Completed derivation or direct artifact checks at stated grade"
+    }
+  ],
+  "last_integrated_operation": {
+    "id": "p13_completion_2026-09-21",
+    "report": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P13_PRIMARY_THEOREM.md",
+    "result": "SHA13_ZERO_PROVED_COMPUTER_ASSISTED"
+  },
+  "claim_specific_supersession": {
+    "preserved_original_repair": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+    "current_review": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+    "scope": "Original full internal R2 closure and section 3.6 are rejected. The 3-primary theorem is retained through published Skinner Theorem A; bounded internal-source cleanup is stopped. R1 and period subclaim grades retained.",
+    "bounded_cleanup": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+    "midpoint_residual_interval": {
+      "prior": "Midpoint residual not evaluated; its vanishing or nonvanishing unresolved",
+      "current": "Strictly positive certified interval; this particular MC completion fails the integrated Mellin identity",
+      "scope": "Only Delta_mid for the already defined MC completion; no general impossibility of automorphic completions"
+    },
+    "endpoint_vertex_completion": {
+      "prior": "Endpoint-symmetrized residual unevaluated; only midpoint disproved as exact integrated Mellin completion",
+      "current": "Endpoint residual strictly positive; both single-vertex Fricke symmetrizations excluded",
+      "scope": "The procedure selects one spherical vertex line and then Fricke-symmetrizes, with existing away-from-p data and constant-term normalization. Does not exhaust invariant linear combinations."
+    },
+    "curvature_area": {
+      "prior": "Nonzero curvature and cusp nonextension established; full-domain pairing and relative filling not calculated",
+      "current": "Relative path does not bound; full-domain curvature pairing is zero for the entire global moderate-growth scalar class",
+      "scope": "Unweighted complete-domain pairing with a holomorphic cusp differential; does not exclude arbitrary singular, multivalued, nonexact or nonzero-boundary-flux constructions; old positive ray integrals unchanged"
+    },
+    "p11_primary": {
+      "prior": "C11 uncomputed; Sha[11^infinity] unresolved",
+      "current": "C11=8 modulo11 in omega1 normalization; Sha[11^infinity]=0 by Kato divisibility and canonical-height integrality",
+      "scope": "Computer-assisted fixed-prime result with retained input qualifications; no FIN, total order9 or Q36 claim. Conditional next total-order threshold becomes1521."
+    },
+    "historical_coverage": {
+      "report": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/historical_coverage_2026-09-21/COVERAGE_RECONCILIATION.md",
+      "scope": "Recovered completed family and actual-point-group results at retained grades; expanded discovery; rank-two arithmetic state unchanged",
+      "new_theorem": false,
+      "fresh_build": false
+    },
+    "c11_localization_join": {
+      "report": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/C11_LOCALIZATION_JOIN.md",
+      "scope": "The nonzero finite-localization kernel is exactly the known rational-point line delta11(2P1-P2), conditional on retained theorem grades",
+      "new_primary_component": false,
+      "global_endpoint_effect": false
+    },
+    "mcs_source_check": {
+      "prior_report": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/MCS_APPLICATION_VERDICT.md",
+      "current_review": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/MCS_RETURN_REVIEW.md",
+      "scope": "Retains no established global arrow; rejects missing-comparison/core-vertex claims and universal Heegner degeneration; records actual nonsquarefree-conductor mismatch",
+      "author_retraction": "/Users/bsm/BSD_MCS_SOURCE_APPLICATION_CHECK_2026-09-21/RETRACTION_AND_CORRECTED_VERDICT.md",
+      "restricted_application_repair": {
+        "report": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/MCS_NONSQUAREFREE_JOIN.md",
+        "scope": "Literal theorem still has squarefree hypothesis; proof composition now supplies specified ordinary regime. No evaluated bound."
+      }
+    },
+    "p13_primary": {
+      "prior": "C13 uncomputed in gate; external return says7/8 with unresolved scale and incomplete downstream/custody",
+      "current": "C13=2 modulo13 in omega1,1 full period; Sha[13^infinity]=0 at retained computer-assisted grade",
+      "scope": "Normalization, certified arithmetic input and one primary component; conditional threshold2601; FIN,ORDER9,Q36 and I3 open",
+      "theorem": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P13_PRIMARY_THEOREM.md",
+      "original_external_result": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+      "incident_retained": true,
+      "full_integer_verifier_rerun": false
+    }
+  },
+  "last_planning_operation": "source_assisted_research_plan_2026-09-21; no changed mathematical claim"
+}

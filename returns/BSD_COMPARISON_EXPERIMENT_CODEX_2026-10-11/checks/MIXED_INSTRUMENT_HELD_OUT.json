@@ -1,0 +1,332 @@
+{
+  "status": "executed instrumentation, not CM source",
+  "records": [
+    {
+      "ell1": 113,
+      "map": "map_113_1_0.json",
+      "Y": [
+        "39736379971/293764",
+        "7496759272384463/159220088"
+      ],
+      "toric_source_T": [
+        "62*a^3 + 66*a^2 + 80*a + 107",
+        "51*a^2 + 15*a + 88"
+      ],
+      "toric_zeta": "111*a^3 + 62*a^2 + 86*a + 48",
+      "smooth_images": 4,
+      "node_images": 20,
+      "ell1_kummer_frob_q": [
+        null,
+        [
+          "45",
+          "96"
+        ]
+      ],
+      "ell1_pairing_coordinates_frob_q_squared": [
+        0,
+        4
+      ],
+      "tests": [
+        {
+          "ell2": 673,
+          "base_order": 720,
+          "raised_order": 670,
+          "base_kummer_frob_q": [
+            [
+              "304",
+              "62"
+            ],
+            [
+              "304",
+              "62"
+            ]
+          ],
+          "Y_kummer_frob_q": [
+            "540",
+            "335"
+          ],
+          "chosen_base_torsion_G": [
+            "304",
+            "62"
+          ],
+          "image_G": [
+            "540",
+            "470"
+          ],
+          "point_coordinates": [
+            2,
+            2
+          ],
+          "Y_coordinate": 3,
+          "detector": 2,
+          "instrument_scalar": 4
+        },
+        {
+          "ell2": 887,
+          "base_order": 880,
+          "raised_order": 910,
+          "base_kummer_frob_q": [
+            [
+              "54",
+              "56"
+            ],
+            [
+              "54",
+              "776"
+            ]
+          ],
+          "Y_kummer_frob_q": [
+            "17",
+            "336"
+          ],
+          "chosen_base_torsion_G": [
+            "54",
+            "56"
+          ],
+          "image_G": [
+            "17",
+            "533"
+          ],
+          "point_coordinates": [
+            2,
+            3
+          ],
+          "Y_coordinate": 3,
+          "detector": 2,
+          "instrument_scalar": 4
+        },
+        {
+          "ell2": 1063,
+          "base_order": 1010,
+          "raised_order": 1095,
+          "base_kummer_frob_q": [
+            [
+              "110",
+              "618"
+            ],
+            [
+              "110",
+              "334"
+            ]
+          ],
+          "Y_kummer_frob_q": [
+            "569",
+            "574"
+          ],
+          "chosen_base_torsion_G": [
+            "110",
+            "618"
+          ],
+          "image_G": [
+            "569",
+            "982"
+          ],
+          "point_coordinates": [
+            2,
+            3
+          ],
+          "Y_coordinate": 3,
+          "detector": 2,
+          "instrument_scalar": 4
+        },
+        {
+          "ell2": 1193,
+          "base_order": 1135,
+          "raised_order": 1245,
+          "base_kummer_frob_q": [
+            [
+              "94",
+              "883"
+            ],
+            null
+          ],
+          "Y_kummer_frob_q": [
+            "1078",
+            "278"
+          ],
+          "chosen_base_torsion_G": [
+            "94",
+            "883"
+          ],
+          "image_G": [
+            "1078",
+            "1029"
+          ],
+          "point_coordinates": [
+            2,
+            0
+          ],
+          "Y_coordinate": 3,
+          "detector": 2,
+          "instrument_scalar": 4
+        }
+      ],
+      "elapsed_seconds": 0.7010478973388672
+    },
+    {
+      "ell1": 167,
+      "map": "map_167_0_0.json",
+      "Y": [
+        "480",
+        "22723"
+      ],
+      "toric_source_T": [
+        "66*a^3 + 24*a^2 + 165*a + 127",
+        "14*a^3 + 156*a^2 + 22*a + 76"
+      ],
+      "toric_zeta": "111*a^3 + 99*a^2 + 122*a + 160",
+      "smooth_images": 4,
+      "node_images": 20,
+      "ell1_kummer_frob_q": [
+        [
+          "149",
+          "116"
+        ],
+        [
+          "87",
+          "48"
+        ]
+      ],
+      "ell1_pairing_coordinates_frob_q_squared": [
+        1,
+        3
+      ],
+      "tests": [
+        {
+          "ell2": 673,
+          "base_order": 720,
+          "raised_order": 710,
+          "base_kummer_frob_q": [
+            [
+              "304",
+              "62"
+            ],
+            [
+              "304",
+              "62"
+            ]
+          ],
+          "Y_kummer_frob_q": [
+            "647",
+            "377"
+          ],
+          "chosen_base_torsion_G": [
+            "304",
+            "62"
+          ],
+          "image_G": [
+            "462",
+            "532"
+          ],
+          "point_coordinates": [
+            2,
+            2
+          ],
+          "Y_coordinate": 1,
+          "detector": 1,
+          "instrument_scalar": 1
+        },
+        {
+          "ell2": 887,
+          "base_order": 880,
+          "raised_order": 880,
+          "base_kummer_frob_q": [
+            [
+              "54",
+              "56"
+            ],
+            [
+              "54",
+              "776"
+            ]
+          ],
+          "Y_kummer_frob_q": [
+            "862",
+            "509"
+          ],
+          "chosen_base_torsion_G": [
+            "54",
+            "56"
+          ],
+          "image_G": [
+            "862",
+            "509"
+          ],
+          "point_coordinates": [
+            2,
+            3
+          ],
+          "Y_coordinate": 2,
+          "detector": 2,
+          "instrument_scalar": 1
+        },
+        {
+          "ell2": 907,
+          "base_order": 890,
+          "raised_order": 870,
+          "base_kummer_frob_q": [
+            [
+              "826",
+              "699"
+            ],
+            null
+          ],
+          "Y_kummer_frob_q": [
+            "447",
+            "312"
+          ],
+          "chosen_base_torsion_G": [
+            "826",
+            "699"
+          ],
+          "image_G": [
+            "221",
+            "607"
+          ],
+          "point_coordinates": [
+            2,
+            0
+          ],
+          "Y_coordinate": 4,
+          "detector": 4,
+          "instrument_scalar": 1
+        },
+        {
+          "ell2": 1063,
+          "base_order": 1010,
+          "raised_order": 1040,
+          "base_kummer_frob_q": [
+            [
+              "110",
+              "618"
+            ],
+            [
+              "110",
+              "334"
+            ]
+          ],
+          "Y_kummer_frob_q": [
+            "228",
+            "739"
+          ],
+          "chosen_base_torsion_G": [
+            "110",
+            "618"
+          ],
+          "image_G": [
+            "228",
+            "739"
+          ],
+          "point_coordinates": [
+            2,
+            3
+          ],
+          "Y_coordinate": 2,
+          "detector": 2,
+          "instrument_scalar": 1
+        }
+      ],
+      "elapsed_seconds": 0.3835761547088623
+    }
+  ]
+}

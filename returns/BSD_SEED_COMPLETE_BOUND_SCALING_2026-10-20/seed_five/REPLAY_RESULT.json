@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Accepted seed field, scalar, divisor and local model only; no BNF rerun",
+  "stages": [
+    {
+      "stage": "construct",
+      "accepted": true,
+      "elapsed_seconds": 0.4866113339085132
+    },
+    {
+      "stage": "divisors",
+      "accepted": true,
+      "elapsed_seconds": 0.2693288659211248
+    },
+    {
+      "stage": "local_seed",
+      "accepted": true,
+      "elapsed_seconds": 0.027437258046120405
+    }
+  ],
+  "byte_identical_bindings": {
+    "raw_field.gp": "84af3728490305a01732b10330d75df603870e3e5f57ab0ddab7c4d7370d36e5",
+    "field.gp": "d99280928c6581cf543f7505496af74c7cb507215b01cb3088467b3a1769b6a3",
+    "divisors.gpout": "2d75f1995f430a8c1204ec6c2ae951ec5f17456fd7f98706e0cf570b0905862c",
+    "LOCAL_DIVISOR_CHECK.json": "bb20aa09464cf50b2ce9819ade70e2c7e3e5f2363c1e857f86e76ae03d304406"
+  }
+}

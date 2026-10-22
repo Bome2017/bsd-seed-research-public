@@ -1,0 +1,39 @@
+{
+ "stage": "DONE",
+ "verdict": "PASS_WITH_CORRECTIONS",
+ "major_findings": [
+  "F4 stream-dir generation reuse after a crash before the first checkpoint (false isolation claim; fail-closed via hash check)"
+ ],
+ "minor_findings": [
+  "F1 Part L not verbatim vs arbcore (doc)",
+  "F2 fingerprint blind to high 64 bits",
+  "F5 stream params not bound to PARAMS",
+  "F6 setup table not bound",
+  "F7 weights input validation",
+  "F8 read_ckpt uninitialized on fopen failure"
+ ],
+ "notes": [
+  "F3 identification ~99% for arbitrary values",
+  "F9 overflow guards heuristic but a-priori safe",
+  "F10 S-leaf hashes unused",
+  "F11 no dir fsync",
+  "F12 MAXCK",
+  "F13 companions optional for pre-produced"
+ ],
+ "m27": {
+  "cpu_h": 0.379,
+  "chunk_digest": "e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681",
+  "symbols_exact": "18+18 both paths"
+ },
+ "m81": {
+  "cpu_h": 1.075,
+  "chunk_digest": "04a7d9527f294aef11be2347a14ee83dba1b3bf22bb3560a3c1494789623a998",
+  "symbols_exact": "54+54 both paths",
+  "A_EXACT": 15851520,
+  "unit_test": "FAIL (as required)"
+ },
+ "cpu_hours_used_est": 1.56,
+ "author_summaries_read": "after verdict",
+ "codex_folder_read": "after verdict; disagreement on F4 grade (Codex FAIL) recorded",
+ "thread_cap_deviation": "~1 min with 5 heavy threads (R2 W=2 + m81 W=3)"
+}

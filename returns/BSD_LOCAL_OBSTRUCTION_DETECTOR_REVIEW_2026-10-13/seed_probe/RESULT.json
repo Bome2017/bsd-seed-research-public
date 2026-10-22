@@ -1,0 +1,693 @@
+{
+  "status": "BOUNDED_HIT_AND_INDEPENDENT_EXACT_REPLAY",
+  "sealed_bound": 30000,
+  "first_hit": 1783,
+  "admitted_rows_tested": 47,
+  "admitted_rows": [
+    {
+      "q": 7,
+      "cardinality": 10,
+      "images": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 29,
+      "cardinality": 30,
+      "images": [
+        [
+          13,
+          12
+        ],
+        [
+          13,
+          17
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 31,
+      "cardinality": 40,
+      "images": [
+        [
+          4,
+          17
+        ],
+        [
+          4,
+          17
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 53,
+      "cardinality": 60,
+      "images": [
+        [
+          30,
+          7
+        ],
+        [
+          30,
+          46
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 67,
+      "cardinality": 60,
+      "images": [
+        null,
+        [
+          55,
+          6
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 73,
+      "cardinality": 80,
+      "images": [
+        [
+          51,
+          67
+        ],
+        [
+          51,
+          6
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 113,
+      "cardinality": 120,
+      "images": [
+        null,
+        [
+          24,
+          54
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 137,
+      "cardinality": 140,
+      "images": [
+        [
+          18,
+          24
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 149,
+      "cardinality": 160,
+      "images": [
+        [
+          145,
+          134
+        ],
+        [
+          145,
+          134
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 151,
+      "cardinality": 160,
+      "images": [
+        null,
+        [
+          75,
+          65
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 181,
+      "cardinality": 180,
+      "images": [
+        [
+          180,
+          124
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 223,
+      "cardinality": 240,
+      "images": [
+        [
+          214,
+          166
+        ],
+        [
+          13,
+          145
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 229,
+      "cardinality": 240,
+      "images": [
+        [
+          87,
+          125
+        ],
+        [
+          87,
+          125
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 263,
+      "cardinality": 280,
+      "images": [
+        [
+          99,
+          114
+        ],
+        [
+          84,
+          196
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 313,
+      "cardinality": 310,
+      "images": [
+        [
+          241,
+          305
+        ],
+        [
+          301,
+          136
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 349,
+      "cardinality": 380,
+      "images": [
+        null,
+        [
+          96,
+          178
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 463,
+      "cardinality": 460,
+      "images": [
+        [
+          384,
+          16
+        ],
+        [
+          282,
+          87
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 521,
+      "cardinality": 490,
+      "images": [
+        null,
+        [
+          1,
+          475
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 769,
+      "cardinality": 780,
+      "images": [
+        [
+          143,
+          472
+        ],
+        [
+          729,
+          667
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 811,
+      "cardinality": 810,
+      "images": [
+        [
+          556,
+          710
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 821,
+      "cardinality": 840,
+      "images": [
+        [
+          127,
+          753
+        ],
+        [
+          127,
+          68
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 839,
+      "cardinality": 840,
+      "images": [
+        [
+          489,
+          355
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 857,
+      "cardinality": 820,
+      "images": [
+        null,
+        [
+          21,
+          188
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 883,
+      "cardinality": 920,
+      "images": [
+        null,
+        [
+          700,
+          128
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 919,
+      "cardinality": 960,
+      "images": [
+        [
+          539,
+          441
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 929,
+      "cardinality": 990,
+      "images": [
+        [
+          267,
+          420
+        ],
+        [
+          49,
+          783
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 937,
+      "cardinality": 960,
+      "images": [
+        [
+          18,
+          801
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 941,
+      "cardinality": 980,
+      "images": [
+        [
+          803,
+          626
+        ],
+        [
+          247,
+          60
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 977,
+      "cardinality": 1020,
+      "images": [
+        [
+          362,
+          560
+        ],
+        [
+          362,
+          417
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 991,
+      "cardinality": 930,
+      "images": [
+        [
+          801,
+          979
+        ],
+        [
+          164,
+          893
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1087,
+      "cardinality": 1040,
+      "images": [
+        [
+          19,
+          992
+        ],
+        [
+          19,
+          992
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1091,
+      "cardinality": 1040,
+      "images": [
+        null,
+        [
+          700,
+          418
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1123,
+      "cardinality": 1060,
+      "images": [
+        [
+          882,
+          80
+        ],
+        [
+          1062,
+          257
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1171,
+      "cardinality": 1160,
+      "images": [
+        null,
+        [
+          377,
+          115
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1201,
+      "cardinality": 1160,
+      "images": [
+        [
+          95,
+          641
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1291,
+      "cardinality": 1290,
+      "images": [
+        [
+          875,
+          540
+        ],
+        [
+          875,
+          751
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1301,
+      "cardinality": 1260,
+      "images": [
+        [
+          119,
+          425
+        ],
+        [
+          618,
+          761
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1399,
+      "cardinality": 1460,
+      "images": [
+        [
+          221,
+          17
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1423,
+      "cardinality": 1420,
+      "images": [
+        [
+          360,
+          976
+        ],
+        [
+          360,
+          976
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1459,
+      "cardinality": 1480,
+      "images": [
+        [
+          1453,
+          398
+        ],
+        [
+          75,
+          820
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1493,
+      "cardinality": 1440,
+      "images": [
+        [
+          490,
+          57
+        ],
+        [
+          490,
+          57
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1499,
+      "cardinality": 1560,
+      "images": [
+        [
+          11,
+          924
+        ],
+        null
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1523,
+      "cardinality": 1540,
+      "images": [
+        [
+          390,
+          439
+        ],
+        [
+          771,
+          1432
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1583,
+      "cardinality": 1560,
+      "images": [
+        [
+          1129,
+          1028
+        ],
+        [
+          275,
+          688
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1627,
+      "cardinality": 1640,
+      "images": [
+        [
+          747,
+          600
+        ],
+        [
+          1093,
+          1023
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1721,
+      "cardinality": 1760,
+      "images": [
+        [
+          824,
+          942
+        ],
+        [
+          1151,
+          1393
+        ]
+      ],
+      "global_image_dimension": 1
+    },
+    {
+      "q": 1783,
+      "cardinality": 1730,
+      "images": [
+        null,
+        null
+      ],
+      "global_image_dimension": 0
+    }
+  ],
+  "witness": {
+    "q": 1783,
+    "cardinality": 1730,
+    "cofactor": 346,
+    "reduced_MW_points": [
+      [
+        535,
+        1095
+      ],
+      [
+        1172,
+        1589
+      ]
+    ],
+    "explicit_five_preimages": [
+      [
+        159,
+        1682
+      ],
+      [
+        289,
+        63
+      ]
+    ],
+    "local_quotient_generator_representative": [
+      3,
+      872
+    ],
+    "nonzero_order5_projection": [
+      1591,
+      1089
+    ],
+    "all_points_count": 1730
+  },
+  "uses_no_new_Selmer_or_Lvalue_data": true,
+  "arithmetic_claim": "Local quotient has dimension one and retained full MW basis has zero image",
+  "Sha5_vanishing": "RETAINED_SEPARATE_INPUT_NOT_DEDUCED_HERE"
+}

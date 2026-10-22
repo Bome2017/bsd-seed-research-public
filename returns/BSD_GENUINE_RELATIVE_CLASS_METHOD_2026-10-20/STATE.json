@@ -1,0 +1,44 @@
+{
+  "status": "NO_NEW_COMPLETE_SEED_BOUND_FROM_TESTED_RELATIVE_FAMILY",
+  "date": "2026-10-20",
+  "stage": "arithmetic_and_independent_reviews_complete",
+  "initial_lab_commit": "99b6c994191a2aaad66ebf2c32ade640752cdfa6",
+  "actual_seed": true,
+  "coefficient_prime": 5,
+  "point_field_degree": 24,
+  "relative_base_degree": 12,
+  "exact_relative_identities": 196,
+  "support_atoms": 743,
+  "relation_rank_per_character": [
+    156,
+    156
+  ],
+  "additional_support_columns": 177,
+  "supported_within_cutoff": 21,
+  "with_support_outside_cutoff": 156,
+  "outside_rank_per_character": [
+    156,
+    156
+  ],
+  "net_relation_rank_on_bounded_generators": [
+    0,
+    0
+  ],
+  "conditional_generator_columns_per_character": 8918,
+  "unconditional_generation_certified": false,
+  "unit_kernel_dimension": 80,
+  "unit_kernel_products": {
+    "plus_one": 78,
+    "minus_one": 2
+  },
+  "new_faithful_unit_directions": 0,
+  "new_small_complete_bound": false,
+  "larger_prime_scope": "Fixed-cutoff Frobenius generator-demand panel only; no class or unit bound",
+  "active_arithmetic_jobs": [],
+  "endpoints": {
+    "FIN": "open unchanged",
+    "ORDER9": "open unchanged",
+    "Q36": "open unchanged"
+  },
+  "publication": "Sealed for authorized lab upload; commit and remote custody stored outside packet."
+}

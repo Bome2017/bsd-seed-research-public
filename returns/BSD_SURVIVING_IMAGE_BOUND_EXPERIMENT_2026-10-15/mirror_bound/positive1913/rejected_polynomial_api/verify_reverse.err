@@ -1,0 +1,6 @@
+  ***   at top-level: Q=polgcd(x^4-2*XT*x^2+2*YT*x+SA,subst(fB,z,6*x
+  ***                   ^--------------------------------------------
+  ***   not a function in function call
+  ***   at top-level: ...rward odd cube"));VAL[j]=norm(Mod(subst(lift(B
+  ***                                             ^---------------------
+  *** norm: incorrect type in greal/gimag (t_POLMOD).

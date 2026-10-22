@@ -1,0 +1,16 @@
+{
+  "kind": "documentation_supplement_not_mathematical_release",
+  "base_commit": "8414aea58180f3a18bcee7fba23475c8cac90996",
+  "lab_commit": "3606917c4fad2c6cc277325cabe51d0b9183e0ab",
+  "current_readme_sha256": "205016ff42c2099433c97d6d037f97f3215b7d50f209dcad15a70a160da6c160",
+  "modified_base_paths": [
+    "README.md"
+  ],
+  "claims_unchanged": true,
+  "paper_unchanged": true,
+  "endpoint_changes": {
+    "FIN": false,
+    "ORDER9": false,
+    "Q36": false
+  }
+}

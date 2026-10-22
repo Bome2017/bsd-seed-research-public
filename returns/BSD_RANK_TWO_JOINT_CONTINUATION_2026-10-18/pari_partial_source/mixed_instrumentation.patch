@@ -1,0 +1,52 @@
+--- buch2.c
++++ buch2.mixed.c
+@@ -11,10 +11,13 @@
+ Check the License for details. You should have received a copy of it, along
+ with the package; see the file 'COPYING'. If not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA. */
++#define Buchall_param bsd_mixed_Buchall_param
+ #include "pari.h"
+ #include "paripriv.h"
+ 
+ #define DEBUGLEVEL DEBUGLEVEL_bnf
++static GEN BSD_CENTRAL, BSD_ZK;
++static long BSD_TRIED=0, BSD_FOUND=0;
+ 
+ /*******************************************************************/
+ /*                                                                 */
+@@ -2461,6 +2464,29 @@
+   inc = const_vecsmall(N, 1);
+   u = ZM_lll(ZM_mul(G0, I), 0.99, LLL_IM);
+   ideal = ZM_mul(I,u); /* approximate T2-LLL reduction */
++  if (!gequal(BSD_ZK, nf_get_zk(nf))) pari_err(e_MISC,"BSD integral basis changed");
++  {
++    long bi,bj,bs,nt=0;
++    for (bi=2; bi<=N && nt<128; bi++) for (bj=1; bj<bi && bj<=8 && nt<128; bj++) for(bs=-1;bs<=1 && nt<128;bs+=2)
++    {
++      pari_sp bav=avma;
++      GEN a=bs==1? gadd(gel(ideal,bi),gel(ideal,bj)):gsub(gel(ideal,bi),gel(ideal,bj));
++      GEN ca=ZM_ZC_mul(BSD_CENTRAL,a);
++      if (!gequal(a,ca) && !gequal(a,gneg(ca)))
++      {
++        nt++;BSD_TRIED++;
++        if(factorgen(F,nf,I,NI,a,fact))
++        {
++          err_printf("BSD_MIXGEN=%Ps\n",lift(basistoalg(nf,a)));
++          BSD_FOUND++;
++          if(BSD_FOUND>=64) pari_err(e_MISC,"BSD mixed capture limit reached");
++        }
++      }
++      set_avma(bav);
++    }
++    err_printf("BSD_MIX_PROGRESS tried=%ld found=%ld\n",BSD_TRIED,BSD_FOUND);
++  }
++  return 0; /* source-only pass, no claim of completed BNF */
+   r = gaussred_from_QR(RgM_mul(G, ideal), prec); /* Cholesky for T2 | ideal */
+   if (!r) pari_err_BUG("small_norm (precision too low)");
+ 
+@@ -4203,3 +4229,5 @@
+   free_GRHcheck(&GRHcheck);
+   return res;
+ }
++
++GEN bsd_mixed_collect(GEN nf, GEN central) { BSD_CENTRAL=central; BSD_ZK=nf_get_zk(nf); BSD_TRIED=BSD_FOUND=0; return bsd_mixed_Buchall_param(nf,0.01,0.1,4,nf_FORCE,DEFAULTPREC); }

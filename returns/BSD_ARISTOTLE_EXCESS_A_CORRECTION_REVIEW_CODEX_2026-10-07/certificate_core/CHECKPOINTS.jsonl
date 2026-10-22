@@ -1,0 +1,18 @@
+{"time": "2026-09-21T19:13:36.208772+00:00", "phase": "IMPLEMENTING", "event": "Inputs bound; isolated retained engine copy created; source engine unchanged"}
+{"time": "2026-09-21T19:18:28.513875+00:00", "phase": "VALIDATING", "event": "Isolated adapter compiled; 418 coefficient segments and verifier records matched retained hashes", "seconds": 3.3119536170270294}
+{"time": "2026-09-21T19:23:26.772658+00:00", "phase": "RUNNING", "supervisor_pid": 90962, "full_sum_launched": true, "execution_rule": "Validated adapter; initial 206 segments, at most one extension to 418 if needed"}
+{"time": "2026-09-21T19:23:26.775702+00:00", "phase": "RUNNING", "engine_pid": 90963, "cutoff": 3456106495, "output": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/run_T3456106495", "log": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/run_T3456106495.log"}
+{"time": "2026-09-21T19:23:26.777398+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 12, "elapsed_seconds": 0.003601742908358574}
+{"time": "2026-09-21T19:24:16.798660+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 128, "elapsed_seconds": 50.02561861905269}
+{"time": "2026-09-21T19:24:26.805514+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 205, "elapsed_seconds": 60.03263168083504}
+{"time": "2026-09-21T19:24:46.812652+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 322, "elapsed_seconds": 80.04008370498195}
+{"time": "2026-09-21T19:25:06.825103+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 458, "elapsed_seconds": 100.05284869484603}
+{"time": "2026-09-21T19:25:16.833472+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 531, "elapsed_seconds": 110.06134695094079}
+{"time": "2026-09-21T19:25:26.840567+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 608, "elapsed_seconds": 120.06857730797492}
+{"time": "2026-09-21T19:25:46.855826+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 763, "elapsed_seconds": 140.08415153087117}
+{"time": "2026-09-21T19:25:56.865665+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 840, "elapsed_seconds": 150.09415249805897}
+{"time": "2026-09-21T19:26:06.878229+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 919, "elapsed_seconds": 160.1068785628304}
+{"time": "2026-09-21T19:26:26.891087+00:00", "phase": "RUNNING", "cutoff": 3456106495, "completed_units": 1029, "elapsed_seconds": 180.11998591804877}
+{"time": "2026-09-21T19:35:18.271585+00:00", "phase": "VERIFIED_CUTOFF", "cutoff": 3456106495, "nonzero": true, "interval": "[39512236, 40182321] / 1000000", "fresh_combine_matches": true}
+{"time": "2026-09-21T19:35:18.273324+00:00", "phase": "COMPLETED", "status": "TWIST_D23_NONZERO_CERTIFIED", "interval": "[39512236, 40182321] / 1000000", "cutoff": 3456106495, "full_sum_finished": true}
+{"time": "2026-09-21T19:43:49.334414+00:00", "phase": "COMPLETED_AND_INTEGRATED", "event": "Completion review passed and exact twist premise integrated in existing canonical record", "interval": "[39512236, 40182321] / 1000000", "successor_started": false}

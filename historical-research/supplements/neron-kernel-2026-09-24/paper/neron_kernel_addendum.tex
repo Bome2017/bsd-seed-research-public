@@ -1,0 +1,343 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathrsfs}
+\usepackage[T1]{fontenc}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\newcommand{\Q}{\mathbf Q}
+\newcommand{\Z}{\mathbf Z}
+\newcommand{\F}{\mathbf F}
+\newcommand{\K}{\mathscr K_E}
+\newcommand{\Sha}{\operatorname{Sha}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\title{An explicit reconstruction lattice for a\protect\\ N\'eron-normalized seed theta kernel}
+\author{Dated supplement to the private BSD seed research release}
+\date{24 September 2026}
+\hypersetup{pdftitle={Neron-normalized seed theta kernel: reconstruction supplement},pdfauthor={BSD seed research project}}
+\begin{document}
+\maketitle
+\begin{abstract}
+For the fixed rank-two curve of the v0.2.2 dossier, we record a source-reviewed
+written deduction that the N\'eron-normalized kernel of an integral degree-zero
+theta packet lies in $(2^{10}\cdot4547)^{-1}\Z$. A comparison of congruence
+ideals shows that its scale relative to the primitive quaternionic eigenvector
+is a unit at every good prime $p\ge5$. These statements give a finite integer
+acceptance test for the retained good-prime witness without computing the
+unknown quaternionic norm. No seed kernel value or new primary component is
+computed. The imported theorems and retained geometric inputs are explicit;
+this supplement has model reviews, no independent human review and no new
+Lean verification. It does not change the v0.2.2 manuscript or its claim grades.
+\end{abstract}
+
+\section{Objects and fixed normalizations}
+The curve and conductor are
+\[
+ \begin{gathered}
+ E:y^2=x^3-22735x^2+106272484x,\\
+ N=2^3\cdot3\cdot2243\cdot4547^2\cdot5843.
+ \end{gathered}
+\]
+The translation $x=X+7578$ has $u=1$ and gives the retained global minimal
+model
+\[
+ [0,-1,0,-66020924,-65074271436].
+\]
+Thus $\omega_E=dx/(2y)$ is the
+N\'eron differential. Existing claims A.1, A.3 and A.4 supply the local data,
+full odd residual images and the chosen-map Manin bound respectively.
+
+Let $N^-=3\cdot2243\cdot5843$ and $N^+=2^3\cdot4547^2$. In the definite
+quaternion algebra ramified at $N^-$ and infinity, use the retained Eichler
+order of level $N^+$ and its ideal-class set $X$. The stabilizer weights are
+all one. Let $\psi\in\Z[X]$ be the primitive vector on the one-dimensional
+$f_E$-line and put $M=\sum_{x\in X}\psi(x)^2$. For $z=\sum z_x[x]$ write
+$\psi(z)=\sum z_x\psi(x)$ and $\deg z=\sum z_x$.
+
+The retained theta convention is
+\[
+ \Theta_{x,y}(\tau)=\frac12\sum_{b\in L(x,y)}e^{2\pi iQ(b)\tau},
+ \quad\Theta(z,w)=\sum_{x,y}z_xw_y\Theta_{x,y}.
+\]
+Here $L(x,y)$ is the normalized Hom lattice, even of rank four, with Gram
+determinant $N^2$ and level $N$. With $B(1)=\mathrm{Id}$, the audited
+prime-to-level Hecke projection satisfies
+\begin{equation}\label{oldkernel}
+ \lambda_f(\Theta(z,w))=\frac{\psi(z)\psi(w)}{M}.
+\end{equation}
+This is the retained rank-one theta identity, not a global identification
+of $M$ with a classical congruence number or modular degree.
+
+Let $E_*$ be the optimal quotient, $\phi_0:X_0(N)\to E_*$ its
+parametrization of degree $d$, and $h:E_*\to E$ the identity or the
+retained rational 2-isogeny. Set $e=\deg h\in\{1,2\}$ and
+$\phi_E=h\phi_0$, with
+\[
+ \phi_E^*\omega_E=c_E\omega_f,\qquad
+ \omega_f=2\pi i f(\tau)\,d\tau,\qquad c_E\mid2^9.
+\]
+The Manin bound refers to this chosen map, without further multiplication
+maps. Its retained geometric dependencies are not reproved here.
+Define
+\[
+ A_E=\frac i2\int_{E(\mathbf C)}\omega_E\wedge\overline{\omega_E},
+ \qquad P_f=\int_{\Gamma_0(N)\backslash\mathfrak H}|f|^2\,dx\,dy.
+\]
+$A_E$ is the complex period-lattice area, not the BSD real period or the
+N\'eron--Tate regulator. Pullback of area gives
+\begin{equation}\label{area}
+ ed\,A_E=4\pi^2c_E^2P_f,\qquad
+ \K(G):=\frac{4\pi^2}{A_E}\langle G,f\rangle
+       =\frac{ed}{c_E^2}\lambda_f(G).
+\end{equation}
+Consequently $\K(z,w):=\K(\Theta(z,w))=u_E\psi(z)\psi(w)$, where
+$u_E=ed/(c_E^2M)$.
+
+\section{The good-prime unit comparison (NK.1)}
+\begin{theorem}[NK.1; written deduction with published imports]\label{unit}
+For every prime $p\ge5$ with $p\nmid N$,
+\[
+ v_p(M)=v_p(d),\qquad u_E\in\Z_p^\times.
+\]
+In particular, for $z\in\Z[X]$, $\K(z,z)$ is a $p$-adic unit if and only
+if $\psi(z)\not\equiv0\pmod p$.
+\end{theorem}
+\begin{proof}
+We spell out the comparison chain, with the source hypotheses retained.
+In the weight-two pairing of Kim--Ota \cite[\S6.1, (6.1)]{ko}, the
+Atkin--Lehner element permutes $X$ and acts on its $f$-line by a sign.
+All stabilizer weights are one. The pairing matrix on $\Z_p^X$ is therefore
+a permutation matrix and is perfect. The globally primitive vector is
+locally primitive, so the image of the pairing on its eigenline is
+$M\Z_p$ (the sign is a unit). This identifies the quaternionic pairing
+ideal $\xi_{f_B}$, not yet a classical congruence ideal.
+
+The seed satisfies Kim--Ota's CR+ hypotheses. The weight is two and
+$p\ge5$ is prime to $N$. The residual image is $\mathrm{GL}_2(\F_p)$;
+its restriction to $\Q(\sqrt{p^*})$ contains $\mathrm{SL}_2(\F_p)$ and is
+absolutely irreducible. The integer $N^-$ is squarefree with three prime
+factors, and no prime exactly divides $N^+$. At $3,2243,5843$ the minimal
+discriminant valuations $2,1,2$ are prime to $p$, so the residual Tate
+inertia remains nontrivial. At 2 and 4547 inertia is finite of order
+dividing 24 and of order 4 respectively. Its averaging idempotents are
+$p$-integral, so invariant dimensions and Artin conductors are unchanged
+on reduction. Thus $N(\bar\rho)=N$, and all the Tamagawa exponents in
+\cite[Corollary 6.7]{ko} vanish. That corollary gives
+\[
+ v_p(M)=v_p(\xi_{f_B})
+       =v_p(\eta_f(N^+,N^-))=v_p(\eta_f(N)).
+\]
+At nonordinary primes the freeness used here explicitly imports
+\cite[Remark 6.6(1)]{ko}, the low-weight crystalline adaptation. Its
+deformation-theoretic justification is not reproved in this supplement.
+
+For completeness, the last classical lattice identification uses the
+\emph{full} Hecke algebra $\mathbb T$ and the standard duality
+$S_2(\Gamma_0(N),\Z)=\operatorname{Hom}_{\Z}(\mathbb T,\Z)$.
+If $e_f$ is the rational idempotent, write
+$\mathbb T\cap\Q e_f=\Z(ne_f)$ with $ne_f$ primitive. Then the
+annihilator definition gives $\eta_f(N)=n\Z$ locally, while duality
+shows that the projection of integral cuspforms is $n^{-1}\Z f$.
+The quotient by $\Z f$ and its orthogonal complement is cyclic of order
+$n$. Hence $v_p(\eta_f(N))=v_p(r)$ for the classical congruence number
+$r$. The full-Hecke comparison and the localization are detailed in the
+retained Phase 1 proof; they are not inferred solely from
+\eqref{oldkernel}.
+
+Agashe--Ribet--Stein \cite[Theorem 2.1]{ars} give $v_p(r)=v_p(d)$
+for the optimal elliptic quotient at good $p$. Finally $e\in\{1,2\}$
+and $c_E\mid2^9$ imply the asserted unit property of $u_E$.
+\end{proof}
+The conclusion is equality of valuations at the stated primes. It
+asserts neither $p\nmid M$ nor a global equality $M=r$ or $M=d$.
+
+\section{The explicit real reconstruction lattice (NK.2)}
+\begin{lemma}\label{cusps}
+For $z,w\in\Z[X]$ with $\deg z=0$, $G=\Theta(z,w)$ is cuspidal at every
+cusp and integral at infinity. At a cusp denominator $c\mid N$, set
+$n=v_q(N)$ and $a=v_q(c)$. Every positive Fourier coefficient in the
+plain weight-two slash expansion has valuation at least $a-n$.
+\end{lemma}
+\begin{proof}
+We use the retained Poisson expansion (lab Lemmas 4 and 4$'$). For
+$\gamma=\left(\begin{smallmatrix}A&B\\c&D\end{smallmatrix}\right)$,
+$c\ge1$, write $\mathrm e(t)=e^{2\pi it}$. The expansion is
+\[
+ (\Theta_{x,y}|_2\gamma)(\tau)
+ =-\frac1{2Nc^2}\sum_{\ell\in L(x,y)^\#}
+ S(A,\ell;c)\,\mathrm e(DQ(\ell)/c)\,\mathrm e(Q(\ell)\tau),
+\]
+\[
+ S(A,\ell;c)=\sum_{r\in L(x,y)/cL(x,y)}
+       \mathrm e\bigl((AQ(r)+(\ell,r))/c\bigr).
+\]
+There is no additional cusp-width factor in the slash operator.
+The zero-vector Gauss value is independent of $(x,y)$, including its
+local norm-unit choices. Every constant term of $G$ is therefore a
+common scalar times $\deg z\deg w$ and vanishes. At infinity the
+positive coefficients of each $\Theta_{x,y}$ are integers by pairing
+$b$ and $-b$.
+
+At an Eichler prime the two off-diagonal summations force their support
+conditions and contribute $q^{2a}$. The remaining hyperbolic sum
+contributes $q^a$ times a root of unity. Thus the local Gauss value is
+zero or $q^{3a}$ times a root of unity. At a division prime, $n=1$;
+the retained norm Gauss identity gives $-q^3$ times a root of unity on
+support when $a=1$, and the factor is 1 when $a=0$. Pairing $\ell$
+and $-\ell$ cancels the theta factor $1/2$ exactly, including at $q=2$.
+The prefactor has valuation $-n-2a$, and other local factors are
+$q$-units or zero. Hence each surviving summand, and its finite sum
+at a positive Fourier frequency, has valuation at least $a-n$.
+This is a lower bound, not a statement of integrality at every cusp.
+\end{proof}
+
+\begin{theorem}[NK.2; written deduction with retained Manin input]\label{lattice}
+For $z,w\in\Z[X]$, $\deg z=0$, put $G=\Theta(z,w)$. Then
+\[
+ D_0\omega_G\text{ lies in the N\'eron cotangent lattice of }J_0(N),
+ \qquad D_0=2\cdot4547,
+\]
+and
+\[
+ \boxed{B_\theta\K(G)\in\Z,\qquad
+ B_\theta=2^{10}\cdot4547=4\,656\,128.}
+\]
+The weaker multiplier $B_{\mathrm{join}}=2^{17}\cdot4547=595\,984\,384$
+also works.
+\end{theorem}
+\begin{proof}
+CNS \cite[Proposition 5.14]{cns}, which applies to general cusp forms
+in its stated domain, requires the respective valuation bounds
+\[
+ -n\quad(a=0),\qquad
+ a-n+\frac1{q-1}\quad(0<a<n),\qquad0\quad(a=n).
+\]
+Lemma~\ref{cusps} meets these bounds at $q\in\{3,2243,5843\}$,
+where $n=1$. At 2 ($n=3$) and 4547 ($n=2$), multiplying once by the
+local prime meets all intermediate bounds. At good primes integrality
+at infinity suffices. Thus $D_0\omega_G$ is a regular differential.
+These are sufficient multiplier exponents; their optimality for the
+actual packet forms is not established.
+
+CNS \cite[Theorem 6.12]{cns} gives the required rational singularities
+at every prime: at all primes at least five; at three since $v_3(N)=1$;
+and at two since $3\mid N$ and $3\equiv3\pmod4$.
+Proposition 6.2 and Example 6.3 of that paper identify regular
+differentials with the N\'eron cotangent lattice. Local integrality
+at all primes gives the asserted global lattice membership.
+
+Let $\pi_E:J_0(N)\to E$ be the chosen quotient and $i_E:E\to J_0(N)$
+its dual, so $\pi_Ei_E=[ed]$. Hecke equivariance kills the complement
+of the $f$-line under $i_E^*$, while
+$i_E^*\pi_E^*\omega_E=ed\omega_E$. Therefore
+\[
+ i_E^*\omega_G=\frac{ed}{c_E}\lambda_f(G)\omega_E
+             =c_E\K(G)\omega_E.
+\]
+The map extends to N\'eron models, and $\omega_E$ generates the
+integral cotangent lattice of $E$. It follows that
+$D_0c_E\K(G)\in\Z$. The retained $c_E\mid512$ gives $B_\theta$.
+The weaker multiplier follows also by using the retained whole-lattice
+inclusion $2^8S\subseteq H$ at two. This latter argument avoids the
+theta Gauss estimate at two; both arguments retain the same Manin bound.
+\end{proof}
+
+\section{A certificate specification, not a computed witness (NK.3)}
+For an admissible good prime $p\ge5$, $p\nmid7N$, use the retained BLV
+conductor-$p^2$ Gross packet. If $\gamma$ generates its first cyclic
+layer, its mod-$p$ weight is
+\[
+ \overline z_p=\sum_{j=0}^{p-1}j^2[\gamma^jP_1],\qquad
+ M_2(p)=\bar\psi(\overline z_p).
+\]
+Here the Gross point $P_1$ is not the Mordell--Weil basis point bearing
+that name in the main paper. Equal trace degrees and
+$\sum_{j\in\F_p}j^2=0$ make the mod-$p$ degree zero.
+An integral lift $z_p$ need not have degree zero: balanced square
+weights sum to 22 at $p=11$. Choose a degree-one class $[a]$ and set
+\begin{equation}\label{lift}
+ z_p^0=z_p-\deg(z_p)[a].
+\end{equation}
+Then $\deg z_p^0=0$ and $z_p^0\equiv\overline z_p\pmod p$.
+The integral weights and anchor must be specified in a certificate.
+
+\begin{corollary}[NK.3; conditional sufficient criterion]
+For this lift define $n_p=B_\theta\K(z_p^0,z_p^0)$. Then
+\[
+ n_p\in\Z,\qquad
+ p\nmid n_p\ \Longleftrightarrow\ M_2(p)\ne0
+ \ \Longrightarrow\ \Sha(E/\Q)[p^\infty]=0.
+\]
+The last implication imports the existing ordinary/supersingular
+forward bridge B.5; its antecedent is uncomputed here.
+\end{corollary}
+\begin{proof}
+Theorem~\ref{lattice} gives the integer, and $p\nmid B_\theta$.
+By Theorem~\ref{unit}, $n_p=B_\theta u_E\psi(z_p^0)^2$ has unit scale.
+Equation~\eqref{lift} identifies its nonvanishing test with $M_2(p)$.
+Apply B.5. No converse from vanishing of $\Sha$ to the witness is used.
+\end{proof}
+
+Let $[L,U]$ be a genuinely certified real interval for the \emph{final}
+normalized scalar, including all numerical and truncation errors. Unique
+integer recovery is possible when its radius is strictly less than
+\[
+ \frac1{2B_\theta}=\frac1{9\,312\,256};\qquad
+ \text{fallback: }\frac1{2B_{\mathrm{join}}}=\frac1{1\,191\,968\,768}.
+\]
+The bound guarantees at most one lattice point; the theorem and enclosure
+supply existence. For a wider interval put
+$k_-=\lceil B_\theta L\rceil$ and $k_+=\lfloor B_\theta U\rfloor$.
+A sufficient acceptance test is
+\[
+ k_-\le k_+,\qquad
+ \left\lceil\frac{k_-}{p}\right\rceil>
+ \left\lfloor\frac{k_+}{p}\right\rfloor.
+\]
+The first inequality rejects an empty lattice interval. The second excludes
+every multiple of $p$. A nonunit or unresolved interval gives no conclusion
+about $\Sha$. The sharp lattice cannot be applied to a noncuspidal anchor
+diagonal merely because an anchored expression eventually produces this
+cuspidal scalar.
+
+\section{Evidence grade and remaining obligations}
+The detailed proof sources, source hashes and three model-review records
+are included with this supplement. The portable checks replay 262 exact
+Eichler Gauss identities, 13 cusp-threshold comparisons and degree-zero
+relifting, and compare 41,925 interval decisions with direct integer
+enumeration. They verify finite algebra and acceptance arithmetic; they
+do not formalize the source papers or evaluate a seed numerator.
+The general division-place Gauss identity, the chosen-map Manin bound,
+and Kim--Ota's nonordinary adaptation retain their stated written/import
+grades. Numerical period checks are evidence only. There is no claim of
+independent human review or of novelty relative to the literature.
+
+The reconstruction prerequisite is now supplied for this normalized
+degree-zero route. An affordable certified seed evaluation and a nonzero
+seed witness are still missing. The fixed denominator $B_\theta$ is not
+a fixed numerator controlling the prime support of $\Sha$: $n_p$ varies
+with $p$ and its packet. No new primary component, FIN, ORDER9 or Q36
+follows. Full BSD still requires an all-prime arithmetic conclusion and
+the exact real leading-term comparison.
+
+\begin{thebibliography}{9}
+\bibitem{ko} C.-H. Kim and K. Ota,
+\emph{On the quantitative variation of congruence ideals and integral
+periods of modular forms}, source version
+\href{https://arxiv.org/pdf/1905.02926v4}{arXiv:1905.02926v4},
+\S6.1, Assumption 6.3, Theorem 6.5, Remark 6.6(1), Corollary 6.7.
+\bibitem{ars} A. Agashe, K. Ribet and W. Stein,
+\emph{The modular degree, congruence primes, and multiplicity one},
+\href{https://www.math.fsu.edu/~agashe/math/moddeg3.pdf}{author-hosted manuscript},
+Theorems 2.1 and 3.6, Remark 3.7.
+\bibitem{cns} K. \v{C}esnavi\v{c}ius, M. Neururer and A. Saha,
+\emph{The Manin constant and the modular degree}, source version
+\href{https://arxiv.org/pdf/1911.09446v3}{arXiv:1911.09446v3},
+Propositions 5.14 and 6.2, Example 6.3, Theorem 6.12.
+\bibitem{lab} BSD seed lab, source commit
+\href{https://github.com/Bome2017/bsd-seed-lab/commit/b358f7507759dad4a1e016c519d6f486ffca37e1}{\texttt{b358f7507759dad4a1e016c519d6f486ffca37e1}},
+\emph{01\_NORMALIZATION\_REVIEW.md} and
+\emph{02\_DENOMINATOR\_LATTICE.md}, 24 September 2026.
+Copied with their context, source bindings and scoped reviews in this supplement.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,57 @@
+{
+  "status": "REPORT_COMPLETE_ARITHMETIC_OPEN",
+  "stage": "SEALED_REPORT",
+  "updated_utc": "2026-09-19T17:20:47.986116+00:00",
+  "top_level": {
+    "RANK": "CLOSED",
+    "FIN": "OPEN",
+    "FORMULA": "OPEN",
+    "excluded_primary_finiteness_open": [
+      2243,
+      4547,
+      5843
+    ]
+  },
+  "current_candidate": "M_Z=Hom(H_1(X_0(N),Z),Z) with period functional z_E and explicit weighted-cycle maps",
+  "exact_live_lemma": "UC: selected evaluated logarithm-weighted cycle ideals have a fixed nonzero integer annihilator of their cokernels and are nonzero.",
+  "killed_candidates": [
+    "Source denominators alone imply image-content bound",
+    "Whole-map cokernel control implies control of a distinguished vector",
+    "Ordinary WC is easier than FIN merely because WC is weaker than LINE"
+  ],
+  "source_hypotheses_checked": [
+    "Parent manifest 27/27 at entry and finalization",
+    "Ota v1 definitions, norm relation, 5.9, 5.13, 5.17, 6.4",
+    "Kim v6 1.6, 1.8, 1.10 and auxiliary-prime definitions",
+    "Castella-Sano v1 Theorem B and definition of M_infinity",
+    "Seed rank/residual/Manin/Tamagawa data retained with provenance",
+    "Non-anomalous argument from rational 2-torsion and Hasse",
+    "Primitive witness auxiliary cyclicity derived from Kim localization and dimension two",
+    "Positive-depth cyclic-prime transfer left unverified"
+  ],
+  "next": "No automatic continuation. A further arithmetic session needs a concrete pre-FIN candidate for the common-B arithmetic/real interfaces. Optional bounded positive-depth prime-set transfer only clarifies equivalence.",
+  "ordinary_primitive_converse": "PROVED_RELATIVE_TO_KIM_CASTELLA_SANO_OTA_AND_RETAINED_SEED_INPUTS",
+  "ordinary_positive_depth_converse": "NOT_FULLY_TRANSFERRED_TO_OTA_CYCLIC_PRIME_SET",
+  "proved_results": [
+    "H3: actual pre-FIN fixed integral homology source and specialization",
+    "T3: exact reduction of h_p to one- and two-prime conductors",
+    "L4: local Ota regulator integral index one",
+    "O1: ordinary h_p=0 iff primary Sha vanishes",
+    "U1: exact evaluated-cycle formulation of WC antecedent"
+  ],
+  "classification": "WC_REDUCED_TO_EXPLICIT_LEMMAS",
+  "classification_scope": "Explicit structural reduction to UC; no claim of reduced arithmetic difficulty",
+  "arithmetic_antecedent": "UNPROVED",
+  "new_prime_computations": 0,
+  "large_computations": false,
+  "aristotle_launched": false,
+  "historical_files_modified": false,
+  "other_tasks_contacted": false,
+  "final_verification": {
+    "parent_manifest": "27/27",
+    "group_algebra_cases": 5,
+    "scalar_depth_cases": 3107,
+    "chain_ring_ideal_cases": 252,
+    "source_identities": 30
+  }
+}

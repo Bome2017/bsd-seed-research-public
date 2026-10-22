@@ -1,0 +1,5 @@
+default(parisizemax, 8000000000)
+E0 = ellinit([0,-1,1,-10,-20])
+gettime()
+for(i=1, 7, D = [-7,-23,-71,-223,-719,-2311,-7411][i]; Et = ellinit(elltwist(E0, D)); Em = ellminimalmodel(Et); N = ellglobalred(Em)[1]; gettime(); r = ellmoddegree(Em); t = gettime(); print("N= ", N, "  moddeg/c^2= ", r, "  ms= ", t))
+quit()

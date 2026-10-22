@@ -1,0 +1,50 @@
+{
+ "task": "A2 final hostile custody / successor freeze (Aristotle return of ARISTOTLE_A2_PRIMARY_SUPPORT_2026-09-19)",
+ "status": "DONE",
+ "phase": "DONE",
+ "started_utc": "2026-09-19T19:06:10Z",
+ "returned_archive": {
+  "path": "~/Downloads/319b9855-0c13-441d-ac5c-6d540f5f2472-aristotle.tar.gz",
+  "sha256": "92ba674767e56012572b357ca29e5e90fc6b057a016611808f457df59ed3db50",
+  "bytes": 80036
+ },
+ "original_package": {
+  "path": "~/BSD_ARISTOTLE_PACKAGES_2026-09-19/ARISTOTLE_A2_PRIMARY_SUPPORT_2026-09-19.tar.gz",
+  "sha256": "36005a0c92b8c847aea601ca87e33b6284a967ff1d8e295a112ed783b6b79bef"
+ },
+ "reported_result": "A2_FULL_PROVED + 3/3 stretch (confirmed by independent replay)",
+ "return": "A2_PASS_WITH_CUSTODY_REPAIR (combined verdict in ../FREEZE_INDEX.md)",
+ "finished_utc": "2026-09-19T19:12:05Z",
+ "scoped_fact": {
+  "PRIMARY SUPPORT / CONTENT / ASSEMBLY": "LEAN MACHINE-CHECKED",
+  "LEVEL": "A2_FULL",
+  "STRETCH": "3/3",
+  "FIN STATUS": "UNCHANGED",
+  "FORMULA STATUS": "UNCHANGED",
+  "#Sha = 9 t^2": "formally checked only as the abstract theorem order_nine_t_sq under its exact hypotheses; NOT #Sha = 9"
+ },
+ "replay": {
+  "lean": "4.28.0 (commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b)",
+  "mathlib": "8f9d9cff6bd728b17a24e163c9402775d9e6a365 (v4.28.0)",
+  "frozen_check": "6/6 OK",
+  "frozen_vs_original": "6/6 BYTE-IDENTICAL",
+  "lake_build": "Build completed successfully (8040 jobs); 0 sorry, 0 warnings, 0 errors; 108.7 s",
+  "acceptance": "LEVEL A2_FULL; FIRST_NOT_CLEAN_TARGET None; STRETCH_CLEAN alternating_square, CM_noncyclic_target, CM_codex_torsion_example",
+  "axioms": "28/28 subset of {propext, Classical.choice, Quot.sound}; primary_zero_of_torsionfree {propext, Quot.sound}",
+  "type_integrity": "28/28 declared types == frozen PrimarySupport.Spec constants; 12 kernel re-checks; Spec namespace = exactly 28",
+  "source_scan": "no admit/axiom/unsafe/extern/implemented_by/native_decide/opaque/csimp/macro/elab/set_option; only 'sorry' tokens are 2 docstring comments in Targets.lean"
+ },
+ "custody_defect": "stale ORIGINAL pre-run MANIFEST.sha256 (21/24; Targets/STATE/RESUME changed; 12 new files unbound) retained byte-exact in source/; superseded by this directory's MANIFEST.sha256",
+ "boundary_points": "7/7 confirmed (see A2_FORMAL_BOUNDARY.md section 2)",
+ "not_claimed": [
+  "FIN",
+  "#Sha finite",
+  "#Sha = 9",
+  "J_E != 0",
+  "uniform prime support",
+  "FORMULA",
+  "BSD",
+  "WC easier than FIN"
+ ],
+ "archive": "../A2_PRIMARY_SUPPORT_FULL_FREEZE_2026-09-19.tar.gz (hash/size in ../FREEZE_INDEX.md; cannot be self-recorded)"
+}

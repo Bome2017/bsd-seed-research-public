@@ -1,0 +1,76 @@
+[
+  {
+    "file": "sources/harder_raghuram_1405.6513.pdf",
+    "url": "https://arxiv.org/pdf/1405.6513",
+    "sha256": "1d3af2de1c1a370dc339e10c74cda84f5e6f5b25c09810bfdf8bbbbc8df6ca06",
+    "bytes": 921881,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "sources/berger_klosin_1103.5100.pdf",
+    "url": "https://arxiv.org/pdf/1103.5100",
+    "sha256": "b3800cb81a1dd5aaaa252c654eb1965a5ba266a0fb89dc9e936944507236b01d",
+    "bytes": 449419,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "sources/urban_tifr.pdf",
+    "url": "https://www.math.columbia.edu/~urban/eurp/tifr.pdf",
+    "sha256": "b03a00fcadacb8c4dcff1bff73eefd0561e666613e5399b64cff6c0cabc9505c",
+    "bytes": 541361,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "sources/urban_tifr_erratum.pdf",
+    "url": "https://www.math.columbia.edu/~urban/eurp/erratum-tifr.pdf",
+    "sha256": "72ced17b0ce27604163d4dcc5a0ad2e429dc5d4ed734690e2d896f4e049c32bc",
+    "bytes": 191777,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "sources/bellaiche_chenevier_math0602340.pdf",
+    "url": "https://arxiv.org/pdf/math/0602340",
+    "sha256": "f593756809df6c39ee5cf83b7cce82965cebec55a075bd4c84430203394e1c34",
+    "bytes": 2401633,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "sources/ikmu_2311.13070.pdf",
+    "url": "https://arxiv.org/pdf/2311.13070",
+    "sha256": "ebb0d1e46e31515eeff3f86d943d9ede1d2741a7426ffec4f4cdbe60c9e761ac",
+    "bytes": 325868,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "sources/manji_thogersen_wu_2604.18433v1.html",
+    "url": "https://arxiv.org/html/2604.18433v1",
+    "sha256": "2cc40ab79b24231ff7bb75d86f2ca8e18a7ca9cb6c7763a4dac1ffa5c6176155",
+    "bytes": 3382753,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "sources/klingen_congruences_2025.pdf",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2EF394E452FF8B3C70A38C457108408C/S0008414X25101612a.pdf/klingen-eisenstein-congruences-and-modularity.pdf",
+    "sha256": "a74b0a7b059323f4352d9c75bf8c6d8b3a2d9f21ced820420a1e6091026a9188",
+    "bytes": 692172,
+    "status": "ARCHIVED"
+  },
+  {
+    "file": "/Users/bsm/BSD_CODEX6_DIVISION_FIELD_HORIZONTAL_2026-09-19/DIVISION_FIELD_REDUCTION_THEOREM.md",
+    "sha256": "557ee88c3b1bccac2c9c94996dffc1771aed7e2eb259c3c86ec204a406bfa2e5",
+    "status": "INPUT_READ_ONLY"
+  },
+  {
+    "file": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+    "sha256": "31317c0100baae0407404ebd1d3c1880e6fb40db4acead8958a82bb5e7ad26aa",
+    "status": "INPUT_READ_ONLY"
+  },
+  {
+    "file": "sources/manji_thogersen_wu_2604.18433v2.pdf",
+    "url": "https://arxiv.org/pdf/2604.18433v2",
+    "sha256": "c8084bf43073ddb73681617f11bd098b58b95d81bb038ace3c9f6a3f8d942da2",
+    "bytes": 1263922,
+    "status": "ARCHIVED",
+    "role": "Controlling v2 source for the modern eigenvariety audit"
+  }
+]

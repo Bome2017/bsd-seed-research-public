@@ -1,0 +1,104 @@
+[
+  {
+    "p": 19,
+    "q": 2243,
+    "point": "P1",
+    "node": 425,
+    "delta": 1274,
+    "split": true,
+    "torus_value": [
+      1493,
+      810
+    ],
+    "witness": [
+      883,
+      655
+    ],
+    "nonzero_local_class": true
+  },
+  {
+    "p": 19,
+    "q": 2243,
+    "point": "P2",
+    "node": 425,
+    "delta": 1274,
+    "split": true,
+    "torus_value": [
+      2224,
+      1682
+    ],
+    "witness": [
+      2191,
+      809
+    ],
+    "nonzero_local_class": true
+  },
+  {
+    "p": 59,
+    "q": 2243,
+    "point": "P1",
+    "node": 425,
+    "delta": 1274,
+    "split": true,
+    "torus_value": [
+      1493,
+      810
+    ],
+    "witness": [
+      1059,
+      369
+    ],
+    "nonzero_local_class": true
+  },
+  {
+    "p": 59,
+    "q": 2243,
+    "point": "P2",
+    "node": 425,
+    "delta": 1274,
+    "split": true,
+    "torus_value": [
+      2224,
+      1682
+    ],
+    "witness": [
+      365,
+      172
+    ],
+    "nonzero_local_class": true
+  },
+  {
+    "p": 487,
+    "q": 5843,
+    "point": "P1",
+    "node": 4108,
+    "delta": 637,
+    "split": false,
+    "torus_value": [
+      5834,
+      3246
+    ],
+    "witness": [
+      2537,
+      3275
+    ],
+    "nonzero_local_class": true
+  },
+  {
+    "p": 487,
+    "q": 5843,
+    "point": "P2",
+    "node": 4108,
+    "delta": 637,
+    "split": false,
+    "torus_value": [
+      2925,
+      2678
+    ],
+    "witness": [
+      4398,
+      1406
+    ],
+    "nonzero_local_class": true
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/CONTRACT.md",
+      "bytes": 1405,
+      "sha256": "2ec15138df6ee8dff13ce87770647d12efc722f9deb8ccbce5ec43298b547f51"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/LOCAL_CONDITION_REVIEW.md",
+      "bytes": 2233,
+      "sha256": "48c14f0bccdd0ae253fd7b89ec3c96e3d05b459bc837ae0e10bdce0fddaefd88"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/field.gp",
+      "bytes": 45973,
+      "sha256": "be59747c899abdb87954f8fceb1c801f90d6b1a4d01b48b83bfe6afc5699f42b"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/nf.gp",
+      "bytes": 888239,
+      "sha256": "e73aaba169d89295a08c6b138487dcc1e353311242c7192b64525a92007dcc9e"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/eval_data.json",
+      "bytes": 19811600,
+      "sha256": "0cec49938de4ab03605a8ce172e3148e3b624d9eca58a6dea39f6150aefbe301"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_review/REPORT.md",
+      "bytes": 3435,
+      "sha256": "ef4003a1fbc432f6116872c396f644d3957fdb2c4403459d602960ddba418321"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor_review/UNIT_DIVISOR_MATRIX.json",
+      "bytes": 126334,
+      "sha256": "dd6c8bf8e3070eed340b4886174b66641bd7d970049c56a57e1c4d71fe372da4"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/map_comparison/RESULT.json",
+      "bytes": 1585,
+      "sha256": "e77a7cf3494dacb8e6abf5a74d1d6baf2c9ede0fcd0ca9a75cccb511fc43efd7"
+    },
+    {
+      "path": "/Users/bsm/BSD_SMALL_BOUND_CONTINUATION_2026-10-18/p7_arithmetic/field.gp",
+      "bytes": 224427,
+      "sha256": "24b9daa2eec8b9a7438e27e6fd14c98976764e23b1ec23356fafe9dc1034fa71"
+    },
+    {
+      "path": "/Users/bsm/BSD_SMALL_BOUND_CONTINUATION_2026-10-18/p7_arithmetic/nf.gp",
+      "bytes": 1952477,
+      "sha256": "5db70371066f96b42e693a08ab03f0e02c19a6b5ada9df0f60df5f4cb47b1780"
+    }
+  ],
+  "primary_source_read": {
+    "url": "https://www.mathe2.uni-bayreuth.de/stoll/papers/p-descent-long.pdf",
+    "scope": "Section5 local source image and Section7 source context via web; not an independent whole-paper audit"
+  },
+  "local_implementation_docs": "Installed PARI function help idealstar,ideallog,idealappr"
+}

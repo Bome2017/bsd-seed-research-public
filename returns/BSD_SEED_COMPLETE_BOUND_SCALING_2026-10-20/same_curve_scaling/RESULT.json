@@ -1,0 +1,57 @@
+{
+  "curve": "1664n1",
+  "coefficient_prime": 5,
+  "faithful_unit_dimension": 3,
+  "certified_norm_rank_lower": 1,
+  "full_faithful_unit_kernel_upper": 2,
+  "faithful_valuation_allowance": 0,
+  "ordinary_class5_contribution": "UNRESOLVED: provisional BNF=C3; quotient certification alarm after110sec",
+  "rigorous_full_source_upper": "2 + dim_F5 Cl(A)[5]^chi",
+  "conditional_on_class5_absence_upper": 2,
+  "class_absence_certified": false,
+  "prime_checks": [
+    {
+      "prime": 2,
+      "ef": [
+        [
+          24,
+          1
+        ]
+      ],
+      "faithful_valuation_dimension": 0
+    },
+    {
+      "prime": 5,
+      "ef": [
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "faithful_valuation_dimension": 0
+    },
+    {
+      "prime": 13,
+      "ef": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "faithful_valuation_dimension": 0
+    }
+  ],
+  "status": "UNIT_AND_VALUATION_PROFILE_CERTIFIED_CLASS_TERM_UNRESOLVED"
+}

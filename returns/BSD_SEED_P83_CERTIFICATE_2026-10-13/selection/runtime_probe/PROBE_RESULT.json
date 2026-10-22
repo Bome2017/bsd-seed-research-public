@@ -1,0 +1,143 @@
+{
+  "status": "BOUNDED_RUNTIME_AND_DETERMINISM_ONLY",
+  "sources": {
+    "/Users/bsm/BSD_BAD_PRIME_STREAMING_RETURN_OPUS_2026-09-29/meas/harness": "f8005faf6e40c3bd0352310a996264ac8d92d41a31b975c85a7657c29dbed088",
+    "/Users/bsm/BSD_BAD_PRIME_STREAMING_RETURN_OPUS_2026-09-29/meas/harness.c": "d5bdfae83b93c8c5171c5d66eec912ef68a2206b41cf99aca02ce7850168e6b7",
+    "/Users/bsm/BSD_BAD_PRIME_STREAMING_RETURN_OPUS_2026-09-29/engine/arbstream.c": "7c3556ccb123a5f62e22cce970f9534cd6434cdc1b48e164ccfeaa778b3abd75",
+    "/Users/bsm/BSD_P53_L743_RUN_2026-10-01/FROZEN_RUN_PACKAGE_p53_l743/bin/arbcore_frozen": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+    "/Users/bsm/BSD_P53_L743_RUN_2026-10-01/FROZEN_RUN_PACKAGE_p53_l743/engine_src/arbcore_frozen.c": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7"
+  },
+  "determinism": {
+    "T": 67108863,
+    "ell": 167,
+    "workers": [
+      8,
+      16
+    ],
+    "unit_count": 20,
+    "all_unit_files_identical": true,
+    "entire_stdout_identical": true,
+    "stdout_sha256": "4fd3c166bdd93490b1e15792c4439a5ef5c27e5a9c143f68b5cab103d565c021",
+    "units": {
+      "blk_000000.txt": {
+        "w8_sha256": "64caada24f97627e6a7ee4299e3002b4af2a5f8a4f39aaeb14b9c7c834bc9a2b",
+        "w16_sha256": "64caada24f97627e6a7ee4299e3002b4af2a5f8a4f39aaeb14b9c7c834bc9a2b",
+        "identical": true
+      },
+      "blk_000001.txt": {
+        "w8_sha256": "c0dda1efef2810075a76b8d2eaf0d5dde299a3d41fedac91b68d1444208ef5d7",
+        "w16_sha256": "c0dda1efef2810075a76b8d2eaf0d5dde299a3d41fedac91b68d1444208ef5d7",
+        "identical": true
+      },
+      "blk_000002.txt": {
+        "w8_sha256": "2e73817cc3e6ac2b8a6618025f4461cc51beede6c05747b6beada5fc92e485ed",
+        "w16_sha256": "2e73817cc3e6ac2b8a6618025f4461cc51beede6c05747b6beada5fc92e485ed",
+        "identical": true
+      },
+      "blk_000003.txt": {
+        "w8_sha256": "d52d2468c454bc129c6239545a404bf394be911568779467b051a30d2ddd7f19",
+        "w16_sha256": "d52d2468c454bc129c6239545a404bf394be911568779467b051a30d2ddd7f19",
+        "identical": true
+      },
+      "blk_000004.txt": {
+        "w8_sha256": "5a2996d43fa3cc04e700315cfce74c2588dc02adf6c0be36c310b16310879e81",
+        "w16_sha256": "5a2996d43fa3cc04e700315cfce74c2588dc02adf6c0be36c310b16310879e81",
+        "identical": true
+      },
+      "blk_000005.txt": {
+        "w8_sha256": "4da15aa12c660d75a93fa76dc5ecc7bb98b93753a2a97618b2679b3392795118",
+        "w16_sha256": "4da15aa12c660d75a93fa76dc5ecc7bb98b93753a2a97618b2679b3392795118",
+        "identical": true
+      },
+      "blk_000006.txt": {
+        "w8_sha256": "d96c9feffa273c7b8ed2c821ac7b2c3cfce6309420af725110838aa315d1f243",
+        "w16_sha256": "d96c9feffa273c7b8ed2c821ac7b2c3cfce6309420af725110838aa315d1f243",
+        "identical": true
+      },
+      "blk_000007.txt": {
+        "w8_sha256": "02b631100e0470b44a7e0806f62a5f631a148a19cf8456792875cbda933fcb81",
+        "w16_sha256": "02b631100e0470b44a7e0806f62a5f631a148a19cf8456792875cbda933fcb81",
+        "identical": true
+      },
+      "blk_000008.txt": {
+        "w8_sha256": "20ea01ed9e75715380723e123fb5ecf32de478564c69a23a20baf338f8de9c14",
+        "w16_sha256": "20ea01ed9e75715380723e123fb5ecf32de478564c69a23a20baf338f8de9c14",
+        "identical": true
+      },
+      "blk_000009.txt": {
+        "w8_sha256": "190aaff7b1d44cdbaa8b6632db291996b0eed5371edd4f228662309255d05458",
+        "w16_sha256": "190aaff7b1d44cdbaa8b6632db291996b0eed5371edd4f228662309255d05458",
+        "identical": true
+      },
+      "blk_000010.txt": {
+        "w8_sha256": "53ec7f418c76be0949d272aa0af7a0b086b210545992bcf7a00f0e7a017b1081",
+        "w16_sha256": "53ec7f418c76be0949d272aa0af7a0b086b210545992bcf7a00f0e7a017b1081",
+        "identical": true
+      },
+      "blk_000011.txt": {
+        "w8_sha256": "cba387ccd1df020db6d6acac551542ce16c0f2b767db276c619cc8a5d1ca7be0",
+        "w16_sha256": "cba387ccd1df020db6d6acac551542ce16c0f2b767db276c619cc8a5d1ca7be0",
+        "identical": true
+      },
+      "blk_000012.txt": {
+        "w8_sha256": "b9dad75fc7ee87de6b327df61ee8a2733214f80ddb810fa400503e07c78afa77",
+        "w16_sha256": "b9dad75fc7ee87de6b327df61ee8a2733214f80ddb810fa400503e07c78afa77",
+        "identical": true
+      },
+      "blk_000013.txt": {
+        "w8_sha256": "0dc687eb8b98e67d84ff460d3d45acefc811323e03ae178dda7d1afb22a7ee24",
+        "w16_sha256": "0dc687eb8b98e67d84ff460d3d45acefc811323e03ae178dda7d1afb22a7ee24",
+        "identical": true
+      },
+      "blk_000014.txt": {
+        "w8_sha256": "efbbd36df9baedf1218891dea2c4c8ae580255bfcdf26c6fc413b4ce95ebd687",
+        "w16_sha256": "efbbd36df9baedf1218891dea2c4c8ae580255bfcdf26c6fc413b4ce95ebd687",
+        "identical": true
+      },
+      "blk_000015.txt": {
+        "w8_sha256": "c4e5f34a8ce760ac125c5e7cd394ca392731f073e761591b87ed6cc539c3fc90",
+        "w16_sha256": "c4e5f34a8ce760ac125c5e7cd394ca392731f073e761591b87ed6cc539c3fc90",
+        "identical": true
+      },
+      "lseg_000000.txt": {
+        "w8_sha256": "6313102d2d21dd99da28182890733a2b5020fb02ba1e5b0e1c03cacae5fc2cbd",
+        "w16_sha256": "6313102d2d21dd99da28182890733a2b5020fb02ba1e5b0e1c03cacae5fc2cbd",
+        "identical": true
+      },
+      "lseg_000001.txt": {
+        "w8_sha256": "a36d6144365796177665e7d29652f17818a068221ce9e7c0aa3501c5d1b2ed47",
+        "w16_sha256": "a36d6144365796177665e7d29652f17818a068221ce9e7c0aa3501c5d1b2ed47",
+        "identical": true
+      },
+      "lseg_000002.txt": {
+        "w8_sha256": "043a44e0b23d64c1bef2153dcee1c97cc372c02d703eb8fa39da10a76b70964e",
+        "w16_sha256": "043a44e0b23d64c1bef2153dcee1c97cc372c02d703eb8fa39da10a76b70964e",
+        "identical": true
+      },
+      "lseg_000003.txt": {
+        "w8_sha256": "bb037f4ca4b523531da184876d1c76a320111abbea865a210966f86b9fb69524",
+        "w16_sha256": "bb037f4ca4b523531da184876d1c76a320111abbea865a210966f86b9fb69524",
+        "identical": true
+      }
+    },
+    "warning": "Truncation deliberately too short for a singleton certificate; no seed witness result."
+  },
+  "sequential_runtime_slice": {
+    "T": 57378078719,
+    "segments": [
+      50,
+      66
+    ],
+    "pairs": 763636996,
+    "measurements": {
+      "8": "SETUP T 57378078719 m 167 RT 239537 NSEG 3420 NLU 3420 NBLK 13680 wall 0.12 cpu 0.12 rss_MB 40\nSLICE segs 50..65 units 50..65 W 8 cpu 59.27 wall 7.50 pairs 763636996 rss_MB 191 receipts_bytes 3533 merged 66\nEND rss_MB 191 total_cpu 59.39\n",
+      "12": "SETUP T 57378078719 m 167 RT 239537 NSEG 3420 NLU 3420 NBLK 13680 wall 0.12 cpu 0.12 rss_MB 40\nSLICE segs 50..65 units 50..65 W 12 cpu 77.77 wall 8.22 pairs 763636996 rss_MB 268 receipts_bytes 3533 merged 66\nEND rss_MB 268 total_cpu 77.88\n",
+      "16": "SETUP T 57378078719 m 167 RT 239537 NSEG 3420 NLU 3420 NBLK 13680 wall 0.12 cpu 0.12 rss_MB 40\nSLICE segs 50..65 units 50..65 W 16 cpu 113.34 wall 7.58 pairs 763636996 rss_MB 344 receipts_bytes 3533 merged 66\nEND rss_MB 344 total_cpu 113.46\n"
+    },
+    "recommendation": "W8"
+  },
+  "initial_slices_warning": "Initial 48-segment W8 and W16 runs may have overlapped. Their timings are retained but not used to choose workers. The later 16-segment comparison ran sequentially.",
+  "unit_probe": "SETUP T 57378078719 m 167 RT 239537 NSEG 3420 NLU 3420 NBLK 13680 wall 0.12 cpu 0.12 rss_MB 40\nUNIT 1000 lseg cpu 0.326 wall 0.328 max_rad 1.493e-38 max_abs 7.563e-07 uhash 1\nUNIT 3000 lseg cpu 0.214 wall 0.215 max_rad 1.891e-45 max_abs 5.626e-14 uhash 1\nUNIT 3419 lseg cpu 0.211 wall 0.213 max_rad 5.533e-47 max_abs 1.772e-15 uhash 1\nUNIT 3420 blk cpu 0.790 wall 0.790 max_rad 1.946e-32 max_abs 1.040e+00 uhash 1\nUNIT 10260 blk cpu 0.704 wall 0.705 max_rad 1.087e-40 max_abs 1.232e-09 uhash 1\nUNIT 17099 blk cpu 0.714 wall 0.715 max_rad 1.318e-46 max_abs 1.304e-15 uhash 1\nEND rss_MB 121 total_cpu 3.08\n",
+  "new_coefficient_generation": false,
+  "full_production_launched": false
+}

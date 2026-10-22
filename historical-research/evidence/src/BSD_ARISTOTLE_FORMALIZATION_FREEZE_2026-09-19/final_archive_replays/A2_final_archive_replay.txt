@@ -1,0 +1,15 @@
+archive: /Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/A2_PRIMARY_SUPPORT_FULL_FREEZE_2026-09-19.tar.gz
+sha256: fd55eab35ef1e51e5caaadc729f2f99d986e6158b2f4ca54d0b31d224f5d541c  bytes: 101462
+manifest: 59/59
+file set exact
+frozen: 6/6
+acceptance exit=0
+Build completed successfully (8040 jobs).
+LEVEL: A2_FULL
+FIRST_NOT_CLEAN_TARGET: None
+STRETCH_CLEAN: ['alternating_square', 'CM_noncyclic_target', 'CM_codex_torsion_example']
+sorry warnings: 0
+typeintegrity exit=0 OK-lines=28
+axiom lines: 28; sorryAx lines: 0
+non-allowed axioms: []
+DONE

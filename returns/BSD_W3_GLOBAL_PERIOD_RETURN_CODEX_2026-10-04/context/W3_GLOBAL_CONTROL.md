@@ -1,0 +1,81 @@
+# Independent derivation and correction
+
+Write O for the coefficient DVR, pi for its uniformizer, k for its residue field, U for the specified rational weight-three twist, T for its lattice, A=U/T and M=A[pi]. Fix the supplied identification M=E[p] tensor_Fp k. The domain is good ordinary p>=5 outside {19,59,487}, with no new tame ramification outside N. The rational p-local identity and seed arithmetic are retained, as explicitly stated in the return.
+
+## 1. Discrete coefficients at p
+
+The saturated filtration is
+
+    0 -> T+ -> T -> T- -> 0,
+    T+=O(alpha^-1 chi), T-=O(alpha chi^-1 omega), alpha-bar != 1.
+
+It induces exact filtrations of U, A and M. The residual plus character is nontrivial on inertia, and the residual minus character is the nontrivial unramified alpha-bar. Their invariant spaces vanish. Any invariant in a pi-primary torsion group has a nonzero invariant multiple of order pi, so H0(A+)=H0(A-)=0; exactness also gives H0(A)=0.
+
+Local integral Tate duality identifies the dual of H2(T+) with the invariants of its discrete dual Tate twist, which is isomorphic to (L/O)(alpha). There are no invariants, hence H2(T+)=0. Therefore H1(U+) -> H1(A+) is surjective. Since H0(A-)=0, H1(A+) -> H1(A) is injective. Using the retained rational identity gives
+
+    L_p(A)=image H1(A+) = ker(H1(A) -> H1(A-)).
+
+Multiplication by pi and the vanishing of the three H0 groups identify H1(M), H1(M+) and H1(M-) with the pi-torsion of their discrete counterparts. By naturality the pullback of L_p(A) is ker(H1(M)->H1(M-)), hence image H1(M+). The latter is the retained classical ordinary Kummer line. This argument proves the discrete pullback, rather than substituting integral-lattice saturation for it.
+
+## 2. Bad places q != p
+
+Use the retained good-p Tamagawa-unit data. At the additive places 2 and 4547 the formal and smooth identity groups have no p-torsion and the component orders are p-units. At split 2243 the remaining possible torsion primes divide 2242=2*19*59; at nonsplit 3 and 5843 they divide 4 and 5844=12*487. Thus H0(Q_q,M)=0 on the stated domain.
+
+The Weil pairing gives M^*(1) ~= M as k-representations. Local duality gives H2(Q_q,M)=0; the finite local Euler characteristic at q != p then gives H1(Q_q,M)=0. The multiplication-by-pi sequence implies H1(Q_q,A)[pi]=0. Each continuous cocycle into A has finite image, since its source is compact and its target is discrete. Thus H1(Q_q,A) is pi-primary torsion, and absence of pi-torsion implies it is zero. This argument does not require identifying the characteristic-zero monodromy of g at q.
+
+The excluded triple is a domain restriction, not a claim that the global comparison actually fails at every excluded prime.
+
+## 3. Other good places
+
+For q not dividing Np the whole representation is unramified. Rational and discrete unramified H1 are coinvariants, and the surjection U->A gives a surjection U/(F-1)U -> A/(F-1)A. Therefore the propagated discrete finite condition equals H1_ur(Q_q,A).
+
+On inertia, A is pi-divisible and inertia acts trivially. The multiplication sequence therefore injects H1(I_q,M) into H1(I_q,A). It follows that a residual class maps to a discrete unramified class exactly when its inertia restriction vanishes. This identifies the pulled-back condition with the classical unramified Kummer condition on M. Injectivity on full local H1 is neither true in general nor needed. The real-place H1 vanishes since p is odd.
+
+## 4. Global control and the point subspace
+
+Residual irreducibility implies H0(Q,M)=0, hence H0(Q,A)=0 by the same pi-primary argument. Multiplication by pi gives
+
+    H1(G_Q,Sigma,M) ~= H1(G_Q,Sigma,A)[pi].
+
+The preceding local pullbacks restrict this isomorphism to the claimed Selmer groups. Allowing all global classes instead of G_Q,Sigma makes no difference: outside Sigma the local unramified conditions are precisely those already imposed by G_Q,Sigma.
+
+The Kummer sequence is exact without Sha finiteness, so
+
+    0 -> W -> B[pi] -> X -> 0,
+    X=Sha(E/Q)[p] tensor k, dim_k W=2.
+
+Residual absolute irreducibility makes changes of residual identification scalar, preserving the subspace W. It supplies no characteristic-zero lift of that subspace.
+
+For the compact O-dual Y of B, (Y/pi Y) is k-dual to B[pi], up to the usual harmless dual convention. With the standard finite-generation statement,
+
+    dim_k(Y/pi Y)=2+dim_Fp Sha[p].
+
+Thus a bound by three forces Sha[p]=0 under the retained parity input. The parity input is not inferred here from finite-Sha Cassels--Tate duality.
+
+## 5. Quotient by W: the exact correction
+
+Set Q=B/W. The multiplication-by-pi snake sequence gives
+
+    0 -> B[pi]/W -> Q[pi] --delta--> W -> B/pi B -> Q/pi Q -> 0,
+    delta(b+W)=pi b.
+
+In particular X injects into Q[pi], but need not equal it. If B is finite length, ordinary length additivity gives length Q=length B-2. Over a DVR the zeroth Fitting ideal of a finite-length module is generated by pi to its length, so Fitt0(B)=(pi^2)Fitt0(Q). These claims require no lift or splitting of W.
+
+For B=(O/pi^r)^2, r>=2, W=B[pi], one has X=0 but Q=(O/pi^(r-1))^2. It confirms, rather than refutes, exact subtraction of two from length; it refutes the identification of Q[pi] with X. The extra Q[pi] maps into W under delta. Its existence records higher divisibility of classes whose bottom residual directions are already in W.
+
+Consequently a justified integral bound can be divided by pi^2 at the level of finite lengths/Fitting generators when it actually applies to B. This still bounds Q, which can overcount the excess. An independent dim_k Q[pi]<=1 implies X=0 by retained even parity; finite length Q<=1 is a stronger sufficient condition. No such bound follows from the quotient operation itself.
+
+## 6. Auxiliary-prime information lost in discrete localization
+
+The retained determinant-nonzero pair gives Lambda:B[pi]->k^2 whose restriction to W is an isomorphism. Thus B[pi]=W direct-sum ker Lambda and ker Lambda ~= X. This residual splitting does not supply a map from all of B extending Lambda.
+
+For unramified U and rationally invertible F-1, H1_ur(Q_q,U)=0. Since U/(F-1)U surjects onto A/(F-1)A, the discrete unramified condition is also zero. The full local multiplication sequence nevertheless has kernel
+
+    H0(Q_q,A)/pi H0(Q_q,A)
+      = ker(H1(Q_q,M) -> H1(Q_q,A)).
+
+Inertia injectivity shows that this kernel is unramified, and every residual unramified class lies in it because the discrete unramified group is zero. It is therefore exactly the residual unramified group. A global B-class can have zero discrete localization while its uniquely recovered residual class has nonzero unramified localization.
+
+In the supplied example F-I=[[0,1],[-5/11,-5/11]]. Swap the columns, then add 5/11 times the first row to the second row. These invertible Z_5 operations give diag(1,-5/11). Thus A^F has order five. Modulo five F is a nonidentity unipotent, with one-dimensional unramified H1. This proves the claimed failure of ordinary strict discrete localization for this exact local model. It is not an arithmetic realization or a general obstruction to keeping the invariant/connecting data in a more elaborate complex.
+
+FIN, ORDER9 and Q36 are unchanged.

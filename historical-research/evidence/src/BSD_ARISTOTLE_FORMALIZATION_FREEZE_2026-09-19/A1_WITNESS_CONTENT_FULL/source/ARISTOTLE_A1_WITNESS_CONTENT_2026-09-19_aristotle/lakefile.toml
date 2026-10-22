@@ -1,0 +1,18 @@
+name = "RequestProject"
+defaultTargets = ["RequestProject"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.28.0"
+
+[[lean_lib]]
+name = "RequestProject"
+globs = ["RequestProject.+"]
+
+# The A1_WITNESS_CONTENT package is a self-contained Lake project of its own
+# (A1_WITNESS_CONTENT/lakefile.toml, frozen). This extra library lets the same sources
+# also be built from the repository root with `lake build WitnessContent`.
+[[lean_lib]]
+name = "WitnessContent"
+srcDir = "A1_WITNESS_CONTENT"

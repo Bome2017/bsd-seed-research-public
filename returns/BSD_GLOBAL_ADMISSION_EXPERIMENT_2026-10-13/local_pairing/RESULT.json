@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "q": 1783,
+  "p": 5,
+  "field_polynomial": "X^4 + X + 3",
+  "frobenius_eigen3_point": [
+    [
+      580,
+      298,
+      1750,
+      95
+    ],
+    [
+      95,
+      1360,
+      136,
+      721
+    ]
+  ],
+  "rational_order5_point": [
+    [
+      1591,
+      0,
+      0,
+      0
+    ],
+    [
+      1089,
+      0,
+      0,
+      0
+    ]
+  ],
+  "weil_pairing": [
+    733,
+    1305,
+    1005,
+    1572
+  ],
+  "R": [
+    [
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      872,
+      0,
+      0,
+      0
+    ]
+  ],
+  "reduced_Tate_values_R_P1_P2": [
+    [
+      1440,
+      319,
+      484,
+      1326
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "normalized_exponents": [
+    1,
+    0,
+    0
+  ],
+  "full_torsion_points_checked": 24,
+  "bilinearity_checks": 16,
+  "global_dual_class_constructed": false
+}

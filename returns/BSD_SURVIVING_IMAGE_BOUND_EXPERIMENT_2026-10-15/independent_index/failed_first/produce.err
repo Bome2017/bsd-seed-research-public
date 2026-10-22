@@ -1,0 +1,58 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: ...inputs/B_bnf.bin");nA=BA.nf
+  ***                                             ^--
+  *** _.nf: incorrect type in nf (t_VEC).
+  ***   at top-level: if(nA.pol!=fA,error("point field binding"))
+  ***                               ^-----------------------------
+  ***   user error: point field binding
+  ***   at top-level: ...cl(fB,BB.pol);if(#ISO==0,error("companion fiel
+  ***                                             ^---------------------
+  ***   user error: companion field mismatch
+  ***   at top-level: PA=concat(vector(#ps,j,idealprimedec(nA,ps[j])
+  ***                                        ^-----------------------
+  *** idealprimedec: incorrect type in checknf [please apply nfinit()] (t_POL).
+  ***   at top-level: XA=vector(#PA,k,approx(nA,PA,k));XB=vector(#PB
+  ***                                 ^------------------------------
+  ***   in function approx: ...trix(#PP,2,i,j,if(j==1,PP[i],i==k))));v=nfbasi
+  ***                                                   ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: ...nfeltval(nA,subst(lift(XA[j]),w,ta),PA[i]));TB
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: ...d(#PA)||TB^2!=matid(#PB),error("prime involuti
+  ***                                             ^---------------------
+  ***   user error: prime involution
+  ***   at top-level: IA=select(i->sum(j=i+1,#PA,TA[j,i])==1,[1..#PA
+  ***                    ^-------------------------------------------
+  ***   in function select: sum(j=i+1,#PA,TA[j,i])==1
+  ***                                       ^---------
+  ***   incorrect type in _[_,_] OCcompo2 [not a matrix] (t_POL).
+  ***   at top-level: ...matrix(#PA,#IA,i,j,(i==IA[j])-TA[i,IA[j]]);DB=
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: AA=vector(#IA,j,XA[IA[j]]/subst(lift(XA[IA[j]]
+  ***                                      ^-------------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: if(VA!=DA,error("anti divisor basis"));MD=mats
+  ***                           ^------------------------------------
+  ***   user error: anti divisor basis
+  ***   at top-level: if(matsize(MD)[1]!=matsize(MD)[2]||matdet(MD)=
+  ***                    ^-------------------------------------------
+  *** matsize: incorrect type in matsize (t_POL).
+  ***   at top-level: ...PA,j,bnfisprincipal(BA,PA[j],0));BC=vector(#PC
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: if(BA.cyc!=[]||BB.cyc!=[3],error("unexpected r
+  ***                       ^----------------------------------------
+  *** _.cyc: incorrect type in clgp (t_POL).
+  ***   at top-level: HA=valuation(BA.no,3);HB=valuation(BB.no,3);bo
+  ***                                 ^------------------------------
+  *** _.no: incorrect type in clgp (t_POL).
+  ***   at top-level: ...,DA,DB,AA,NN,VB,MD,VD,ISO[1],AC,BC])
+  ***                                             ^-----------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: ...\"A_prime_involution\":",jm(TA),",\"B_prime_in
+  ***                                             ^---------------------
+  ***   in function jm: vector(matsize(A)[1],i,vector(matsize(A)[2],j,
+  ***                          ^---------------------------------------
+  *** matsize: incorrect type in matsize (t_POL).

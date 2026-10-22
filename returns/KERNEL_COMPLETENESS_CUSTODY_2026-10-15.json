@@ -1,0 +1,16 @@
+{
+  "return": "BSD_KERNEL_COMPLETENESS_PILOT_2026-10-15",
+  "local_path": "/Users/bsm/BSD_KERNEL_COMPLETENESS_PILOT_2026-10-15",
+  "zip_path": "/Users/bsm/BSD_KERNEL_COMPLETENESS_PILOT_2026-10-15.zip",
+  "zip_bytes": 91028,
+  "zip_sha256": "de21f462dd923f83b3bf6dfc7086f2a67549a036eee155dce96b63f432b329bb",
+  "manifest_entries": 37,
+  "manifest_sha256": "a1b69d4703b085235a07b43d026f74b5f4da07d6dcaafe688a1cdc11c7af66aa",
+  "copied_files_match": true,
+  "replays": "two implementations; exact saved-data arithmetic only",
+  "parent_commit": "b256e1f41c834d32dd944bea76391184ab9940cf",
+  "source_completeness": "retained for controls; no seed source upgrade",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

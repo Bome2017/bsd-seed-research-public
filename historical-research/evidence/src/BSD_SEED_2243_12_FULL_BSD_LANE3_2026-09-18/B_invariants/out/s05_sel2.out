@@ -1,0 +1,172 @@
+=== CALIBRATION (expected dim Sel2 = rank + dim E(Q)[2] + dim Sha[2]; Sha from Cremona table, Sha=4 read as (Z/2)^2) ===
+
+--- 14a1 (1, 0, 1, 4, -6)  rank(table)= 0  tors= 6  two_torsion_rank= 1  Sha_an(Cremona db)= None
+  PARI ellrank: {'r1': 0, 'r2': 0, 's': 0, 'T': 1, 'C': 1, 'ell2cover': 1}
+  Sage/Miller two_descent_by_two_isogeny (n1,n2,n1',n2'): (2, 2, 2, 2)
+  mwrank: rk(S^{phi}(E'))=	1
+  mwrank: rk(S^{phi'}(E))=	1
+  mwrank: rk(phi'(S^{2}(E)))=	1
+  mwrank: rk(phi(S^{2}(E')))=	1
+  mwrank: rk(S^{2}(E))=	1
+  mwrank: rk(S^{2}(E'))=	1
+  mwrank: rank(E) = 0
+  mwrank: #E(Q)/2E(Q) = 2
+  mwrank: #III(E/Q)[phi']    = 1
+  mwrank: #III(E/Q)[2]       = 1
+  mwrank: #phi'(III(E/Q)[2]) = 1
+  mwrank: #III(E'/Q)[phi]    = 1
+  mwrank: #III(E'/Q)[2]      = 1
+  mwrank: Rank = 0
+  mwrank: Rank of S^2(E)  = 1
+  mwrank: Rank of S^2(E') = 1
+  mwrank: Rank of S^phi(E') = 1
+  mwrank: Rank of S^phi'(E) = 1
+  mwrank: The rank and full Mordell-Weil basis have been determined unconditionally.
+
+--- 1088j1 (0, 1, 0, -25, 39)  rank(table)= 2  tors= 2  two_torsion_rank= 1  Sha_an(Cremona db)= None
+  PARI ellrank: {'r1': 2, 'r2': 2, 's': 0, 'T': 1, 'C': 3, 'ell2cover': 3}
+  Sage/Miller two_descent_by_two_isogeny (n1,n2,n1',n2'): (4, 4, 4, 4)
+  mwrank: rk(S^{phi}(E'))=	2
+  mwrank: rk(S^{phi'}(E))=	2
+  mwrank: rk(phi'(S^{2}(E)))=	2
+  mwrank: rk(phi(S^{2}(E')))=	2
+  mwrank: rk(S^{2}(E))=	3
+  mwrank: rk(S^{2}(E'))=	3
+  mwrank: rank(E) = 2
+  mwrank: #E(Q)/2E(Q) = 8
+  mwrank: #III(E/Q)[phi']    = 1
+  mwrank: #III(E/Q)[2]       = 1
+  mwrank: #phi'(III(E/Q)[2]) = 1
+  mwrank: #III(E'/Q)[phi]    = 1
+  mwrank: #III(E'/Q)[2]      = 1
+  mwrank: Rank = 2
+  mwrank: Rank of S^2(E)  = 3
+  mwrank: Rank of S^2(E') = 3
+  mwrank: Rank of S^phi(E') = 2
+  mwrank: Rank of S^phi'(E) = 2
+  mwrank: The rank and full Mordell-Weil basis have been determined unconditionally.
+
+--- 1088j2 (0, 1, 0, -65, -161)  rank(table)= 2  tors= 2  two_torsion_rank= 1  Sha_an(Cremona db)= None
+  PARI ellrank: {'r1': 2, 'r2': 2, 's': 0, 'T': 1, 'C': 3, 'ell2cover': 3}
+  Sage/Miller two_descent_by_two_isogeny (n1,n2,n1',n2'): (4, 4, 4, 4)
+  mwrank: rk(S^{phi}(E'))=	2
+  mwrank: rk(S^{phi'}(E))=	2
+  mwrank: rk(phi'(S^{2}(E)))=	2
+  mwrank: rk(phi(S^{2}(E')))=	2
+  mwrank: rk(S^{2}(E))=	3
+  mwrank: rk(S^{2}(E'))=	3
+  mwrank: rank(E) = 2
+  mwrank: #E(Q)/2E(Q) = 8
+  mwrank: #III(E/Q)[phi']    = 1
+  mwrank: #III(E/Q)[2]       = 1
+  mwrank: #phi'(III(E/Q)[2]) = 1
+  mwrank: #III(E'/Q)[phi]    = 1
+  mwrank: #III(E'/Q)[2]      = 1
+  mwrank: Rank = 2
+  mwrank: Rank of S^2(E)  = 3
+  mwrank: Rank of S^2(E') = 3
+  mwrank: Rank of S^phi(E') = 2
+  mwrank: Rank of S^phi'(E) = 2
+  mwrank: The rank and full Mordell-Weil basis have been determined unconditionally.
+
+--- 960d1 (0, -1, 0, -900, -10098)  rank(table)= 0  tors= 2  two_torsion_rank= 1  Sha_an(Cremona db)= None
+  PARI ellrank: {'r1': 0, 'r2': 0, 's': 2, 'T': 1, 'C': 3, 'ell2cover': 3}
+  Sage/Miller two_descent_by_two_isogeny (n1,n2,n1',n2'): (1, 1, 4, 16)
+  mwrank: rk(S^{phi}(E'))=	0
+  mwrank: rk(S^{phi'}(E))=	4
+  mwrank: rk(phi'(S^{2}(E)))=	0
+  mwrank: rk(phi(S^{2}(E')))=	2
+  mwrank: rk(S^{2}(E))=	3
+  mwrank: rk(S^{2}(E'))=	2
+  mwrank: rank(E) = 0
+  mwrank: #E(Q)/2E(Q) = 2
+  mwrank: #III(E/Q)[phi']    <= 4
+  mwrank: #III(E/Q)[2]       = 4
+  mwrank: #phi'(III(E/Q)[2]) = 1
+  mwrank: #III(E'/Q)[phi]    = 1
+  mwrank: #III(E'/Q)[2]      = 1
+  mwrank: Rank = 0
+  mwrank: Rank of S^2(E)  = 3
+  mwrank: Rank of S^2(E') = 2
+  mwrank: Rank of S^phi(E') = 0
+  mwrank: Rank of S^phi'(E) = 4
+  mwrank: The rank and full Mordell-Weil basis have been determined unconditionally.
+
+--- 1610f3 (1, -1, 1, -8587, -304111)  rank(table)= 1  tors= 2  two_torsion_rank= 1  Sha_an(Cremona db)= None
+  PARI ellrank: {'r1': 1, 'r2': 1, 's': 2, 'T': 1, 'C': 4, 'ell2cover': 4}
+  Sage/Miller two_descent_by_two_isogeny (n1,n2,n1',n2'): (1, 1, 8, 32)
+  mwrank: rk(S^{phi}(E'))=	0
+  mwrank: rk(S^{phi'}(E))=	5
+  mwrank: rk(phi'(S^{2}(E)))=	0
+  mwrank: rk(phi(S^{2}(E')))=	3
+  mwrank: rk(S^{2}(E))=	4
+  mwrank: rk(S^{2}(E'))=	3
+  mwrank: rank(E) = 1
+  mwrank: #E(Q)/2E(Q) = 4
+  mwrank: #III(E/Q)[phi']    <= 4
+  mwrank: #III(E/Q)[2]       = 4
+  mwrank: #phi'(III(E/Q)[2]) = 1
+  mwrank: #III(E'/Q)[phi]    = 1
+  mwrank: #III(E'/Q)[2]      = 1
+  mwrank: Rank = 1
+  mwrank: Rank of S^2(E)  = 4
+  mwrank: Rank of S^2(E') = 3
+  mwrank: Rank of S^phi(E') = 0
+  mwrank: Rank of S^phi'(E) = 5
+  mwrank: The rank and full Mordell-Weil basis have been determined unconditionally.
+
+--- 389a1 (0, 1, 1, -2, 0)  rank(table)= 2  tors= 1  two_torsion_rank= 0  Sha_an(Cremona db)= None
+  PARI ellrank: {'r1': 2, 'r2': 2, 's': 0, 'T': 0, 'C': 2, 'ell2cover': 2}
+  mwrank: Rank of B=im(eps) increases to 1
+  mwrank: Rank of B=im(eps) increases to 2 (The previous point is on the egg)
+  mwrank: Sha     rank contribution from B=im(eps) = 0
+  mwrank: Sha     rank contribution from A=ker(eps) = 0
+  mwrank: Rank = 2
+  mwrank: Rank of S^2(E)  = 2
+  mwrank: The rank and full Mordell-Weil basis have been determined unconditionally.
+
+--- 571a1 (0, -1, 1, -929, -10595)  rank(table)= 0  tors= 1  two_torsion_rank= 0  Sha_an(Cremona db)= None
+  PARI ellrank: {'r1': 0, 'r2': 0, 's': 2, 'T': 0, 'C': 2, 'ell2cover': 2}
+  mwrank: Sha     rank contribution from B=im(eps) = 2
+  mwrank: Sha     rank contribution from A=ker(eps) = 0
+  mwrank: n1 = #E(Q)/2E(Q) >= 1
+  mwrank: #III(E/Q)[2]     <= 4
+  mwrank: The rank has not been completely determined,
+
+
+=== SEED ===
+PARI ellrank: {'r1': 2, 'r2': 2, 's': 0, 'T': 1, 'C': 3, 'ell2cover': 3}
+Sage/Miller two_descent_by_two_isogeny, verbosity=1:
+
+2-isogeny
+
+Results:
+4 <= #E(Q)/phi'(E'(Q)) <= 4
+4 <= #E'(Q)/phi(E(Q)) <= 4
+#Sel^(phi')(E'/Q) = 4
+#Sel^(phi)(E/Q) = 4
+1 <= #Sha(E'/Q)[phi'] <= 1
+1 <= #Sha(E/Q)[phi] <= 1
+1 <= #Sha(E/Q)[2], #Sha(E'/Q)[2] <= 1
+2 <= rank of E(Q) = rank of E'(Q) <= 2
+returned (n1,n2,n1',n2') = (4, 4, 4, 4)
+  mwrank: rk(S^{phi}(E'))=	2
+  mwrank: rk(S^{phi'}(E))=	2
+  mwrank: rk(phi'(S^{2}(E)))=	2
+  mwrank: rk(phi(S^{2}(E')))=	2
+  mwrank: rk(S^{2}(E))=	3
+  mwrank: rk(S^{2}(E'))=	3
+  mwrank: rank(E) = 2
+  mwrank: #E(Q)/2E(Q) = 8
+  mwrank: #III(E/Q)[phi']    = 1
+  mwrank: #III(E/Q)[2]       = 1
+  mwrank: #phi'(III(E/Q)[2]) = 1
+  mwrank: #III(E'/Q)[phi]    = 1
+  mwrank: #III(E'/Q)[2]      = 1
+  mwrank: Rank = 2
+  mwrank: Rank of S^2(E)  = 3
+  mwrank: Rank of S^2(E') = 3
+  mwrank: Rank of S^phi(E') = 2
+  mwrank: Rank of S^phi'(E) = 2
+  mwrank: The rank and full Mordell-Weil basis have been determined unconditionally.
+Sage selmer_rank(pari) = 3  selmer_rank(mwrank) = 3  rank_bound(mwrank) = 2

@@ -1,0 +1,38 @@
+{
+  "folder": "BSD_INVENTION_PANEL_CLAUDE_2026-10-13",
+  "date": "2026-10-13",
+  "author": "Claude (Fable 5.1), multi-agent workflow wf_a1d867e0-e8b: 4 readers, 8 inventors, 3 refuters, 1 experiment, 1 synthesis (17 agents, 603 tool calls, 2.1 h)",
+  "task": "Mine all post-2026-10-07 material (lab tip acc12522, local 10-11..10-13 folders, claims v0.2.6, ledgers, arXiv 2026-09-01..10-13) for a way to invent FIN-tail, ORDER9 or Q36; run bounded local kill tests",
+  "verdict": "NO_CANDIDATE_ADMITTED",
+  "endpoint_effect": "FIN, ORDER9, Q36 unchanged",
+  "lenses": {
+    "L1-TAME-INTEGRAL": "NO_CANDIDATE (Weil-restriction norm form = Ota trigger; archimedean size lemma false: seed N_{167,83} has 115 digits base 83)",
+    "L2-KATO-CONTENT": "NO_CANDIDATE (ordinary face of MI-1; already record unit E11-080)",
+    "L3-RECEIVER-FILTRATION": "NO_CANDIDATE; kill test FAILED (c1+c2 = 1 on rank-2/Sha=0 controls AND on 681b1 rank-0/#Sha=9: the quantity is dim Sel_p - r_p)",
+    "L4-KOLYVAGIN-HEEGNER": "NO_CANDIDATE (derived Heegner point p-independent but its mod-p class has no Sha-free evaluation; height route refuted)",
+    "L5-SUPERSINGULAR-SIGNED": "CANDIDATE -> REFUTED x3 (reformulation; prior art Stein-Wuthrich 2013 Thm 6.2 = claim B.2; Lemma SS-LT false as written). Corrected per-prime consistency experiment: 29/29 rows match (4.7 CPU-min)",
+    "L6-ORDER9-BADPRIMES": "NO_CANDIDATE (cost floor 22.5k/30.3k/71k core-h at 4547/5843/2243; no theorem at any bad prime)",
+    "L7-Q36-ANALYTIC": "NO_CANDIDATE (no theorem compares a p-adic leading term with the archimedean one in rank two); sealed control experiment PASS: alpha_7(F)=alpha_13(F)=25, alpha(A)=1 on the d=43737 pair",
+    "L8-WILDCARD-STRUCTURAL": "NO_CANDIDATE (unobstructed-module transfer barrier; ad0 E[p] deformation ring formally smooth for p outside a finite set)"
+  },
+  "same_unknown": "Every new coordinate (ordinary valuation law, Weil-restriction criterion, tame law, supersingular signed law, receiver) is length Sha[p^inf] or an upper bound for it; Q36 is a separate unknown",
+  "next_attack": "Exit-2 congruence-module lemma sharpened by L8: obstruction map Psi_p: S_0/L_p -> H^2(G_S, E[p]) from the formally smooth ad0 deformation ring; desk kill test (what plays eta at positive even order) then arithmetic kill test on the seed's explicit non-point unit class at p=3 and on 681b1",
+  "record_corrections": [
+    "Kim 2609.15328 Thm 1.4 (ordinary Kolyvagin theorem) needs NO semistability; the record's 'semistable-only' registration is wrong for the ordinary theorem (RUN_NOW_2026-09-29.md:1754; lab BSD_DIRECTION_REVIEW_CODEX_2026-10-06/REPORT.md:44)",
+    "The 10-13 ordinary valuation law holds at every good ordinary p >= 5; {19,59,487} are hypotheses only of the full-S Bockstein/palette route",
+    "K288 data: ten (p,l) pairs incl. (83,167) R=42, w=39 == 288 sealed 09-26; a_167 = 0",
+    "Lab PARI Q pipeline (one_row.gp, candidate43737_values.gp) returns c_inf*(MTT quotient) on Delta>0 curves; valuations unaffected; the seed has Delta>0",
+    "At supersingular p the +- coefficients see R+ = (p-1)R_omega + 2p R_F, R- = (p-1)R_F - 2 R_omega, not the (omega, F omega) components (29 rows)",
+    "Castella 2502.19618 Thm A (signed leading term) and Kim-Pal-Ray 2609.17003 (BDP Fitting equality) were not theorem-read anywhere in the record before this run",
+    "CLOSED_LANES.md:12 'exhausted at first order' is a stale withdrawn kill; DNR row 16 withdrawn by Codex but master file unchanged",
+    "Banwait 2609.08431 S1 attests that even Sha[p]=0 for infinitely many p is open for every rank>=2 curve over Q"
+  ],
+  "grade": "same-team model work; written deductions and PARI/GP computations; not human review, not formal verification, not a novelty claim",
+  "files": {
+    "report": "REPORT.md",
+    "brief": "BRIEF.md",
+    "experiments": "experiments/ (L1, L2, L3, L4, L5, L6, L7, L8, readers)",
+    "workflow_script": "workflow_script.js",
+    "transcripts": "/Users/bsm/.claude/projects/-Users-bsm/ccb01adc-f98e-4c9f-a149-fb51d1213484/subagents/workflows/wf_a1d867e0-e8b/"
+  }
+}

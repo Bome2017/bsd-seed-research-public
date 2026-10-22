@@ -1,0 +1,2 @@
+LANE3_AN2 a_{4,2} = 3^2 + O(3^3)   (3-adic, mod 27; exact value before truncation in p3_downstream.py)
+LANE3_AN2 a_{4,2} mod 3^6 = 3^2 + 2*3^4 + O(3^6)  valuation 2

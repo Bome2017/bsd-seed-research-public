@@ -1,0 +1,23 @@
+{
+  "review_folder": "BSD_DIRECT_BASE_CONTROL_REVIEW_CODEX_2026-10-12",
+  "review_zip": "BSD_DIRECT_BASE_CONTROL_REVIEW_CODEX_2026-10-12.zip",
+  "review_zip_sha256": "305c0f2662b4952447cf815dbaec360bbd21080dc73f000898f4d282e2df80fe",
+  "original_zip": "BSD_DIRECT_BASE_CONTROL_PROBE_2026-10-12.zip",
+  "original_zip_sha256": "3574f7d56d1af2f3ba4e02b00d2b68b6dc03ecaa6bc90c9071a0de97814685e7",
+  "source_commit": "3f49551ab14268be879eb7f31820aa604350d7e3",
+  "source_branch": "research/direct-base-control-probe-2026-10-12",
+  "lab_baseline": "ad45789840b7a59e3d090b791bbfe66904924834",
+  "review_manifest_entries_verified": 15,
+  "source_manifest_entries_verified": 5,
+  "published_source_files_match": 6,
+  "historical_blob_bindings_verified": 4,
+  "supplied_checker_replay": "byte_identical",
+  "abstract_module_cases": 351,
+  "grade": "written_same_team_review_under_retained_inputs",
+  "unfinished_period_transport_not_admitted": true,
+  "new_seed_arithmetic_values": 0,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "custody_is_not_proof_certification": true
+}

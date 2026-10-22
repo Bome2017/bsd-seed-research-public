@@ -1,0 +1,770 @@
+{
+ "ExactBSD": {
+  "dir": "Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026",
+  "oai_keys": {
+   "Goldfeld": {
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   },
+   "C": {
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   },
+   "B": {
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   }
+  },
+  "uses": [
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 65,
+    "section": "Statement and normalization",
+    "env": [],
+    "text": "converse of \\cite{C}; the two-primary leading-term equality is supplied"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 66,
+    "section": "Statement and normalization",
+    "env": [],
+    "text": "by \\cite{B}. We state these inputs precisely in"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 117,
+    "section": "Historical context and the integral problem",
+    "env": [],
+    "text": "The unrestricted low-corank converse \\cite{C} and the two-primary"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 118,
+    "section": "Historical context and the integral problem",
+    "env": [],
+    "text": "formula \\cite{B} are distinct companion inputs. The auxiliary"
+   },
+   {
+    "key": "Goldfeld",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 119,
+    "section": "Historical context and the integral problem",
+    "env": [],
+    "text": "twist-density theorem \\cite{Goldfeld}, whose proof uses Smith's"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 134,
+    "section": "Historical context and the integral problem",
+    "env": [],
+    "text": "methods of \\cite{B,C} provide the starting constructions."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 134,
+    "section": "Historical context and the integral problem",
+    "env": [],
+    "text": "methods of \\cite{B,C} provide the starting constructions."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/02-classical.tex",
+    "line": 36,
+    "section": "The two low-corank inputs",
+    "env": [],
+    "text": "This is \\cite[Theorem~1.1]{C}. We use its stated conclusion;"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/02-classical.tex",
+    "line": 50,
+    "section": "The two low-corank inputs",
+    "env": [],
+    "text": "This is \\cite[Theorem~1.1]{B}. Its role here is exactly"
+   },
+   {
+    "key": "Goldfeld",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/02-classical.tex",
+    "line": 110,
+    "section": "Auxiliary quadratic fields",
+    "env": [],
+    "text": "We use the theorem at the scope stated in \\cite[Theorem~1.2]{Goldfeld}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/02-classical.tex",
+    "line": 113,
+    "section": "Auxiliary quadratic fields",
+    "env": [],
+    "text": "curves. This is the auxiliary-field argument of \\cite[Section~2]{C}."
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/02-classical.tex",
+    "line": 244,
+    "section": "Heegner points and the height formula",
+    "env": [],
+    "text": "the conversion is also recorded in \\cite[Section~2]{B}. For clarity,"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/02-classical.tex",
+    "line": 304,
+    "section": "The real arithmetic comparison",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite{MilneBSD,B}."
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/02-classical.tex",
+    "line": 320,
+    "section": "The real arithmetic comparison",
+    "env": [],
+    "text": "In \\cite[Section~2]{B}, this real identity is subsequently evaluated"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/03-models.tex",
+    "line": 312,
+    "section": "Determinant volumes and switching lemmas",
+    "env": [],
+    "text": "lemmas in \\cite[Lemmas 3.5 and 3.6]{B}.  Their hypotheses will be verified"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/03-models.tex",
+    "line": 445,
+    "section": "Determinant volumes and switching lemmas",
+    "env": [
+     "proof"
+    ],
+    "text": "calculation of \\cite[Lemma 3.4]{B}."
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/03-models.tex",
+    "line": 589,
+    "section": "Bounded series and specialization",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Lemma 3.10]{B}, with $p$"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/04-vertical.tex",
+    "line": 76,
+    "section": "The two coefficient families",
+    "env": [
+     "lemma[Auxiliary tuples] label=vertical:auxiliary-tuples"
+    ],
+    "text": "\\cite[Sections 2 and 4]{C}.  Finitely many such fixed characters may"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/04-vertical.tex",
+    "line": 300,
+    "section": "Residual spaces and the scalar primitive",
+    "env": [
+     "proof"
+    ],
+    "text": "Bockstein argument in \\cite[Lemma 12.1 and Corollary 12.2]{B}."
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/05-single.tex",
+    "line": 30,
+    "section": "Integral Siegel classes and their period coordinate",
+    "env": [],
+    "text": "in \\cite[Section~4]{B}; the coefficient prime in that source is two, so"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/05-single.tex",
+    "line": 79,
+    "section": "Integral Siegel classes and their period coordinate",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Section~4, ``The integral relative lattice'']{B}, before any choice"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/05-single.tex",
+    "line": 198,
+    "section": "Integral Siegel classes and their period coordinate",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Section~4, ``Good-prime norms and rectangular filling'']{B};"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/05-single.tex",
+    "line": 315,
+    "section": "Integral Siegel classes and their period coordinate",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Section~4, equation~(K5) and proof of ``The period formula'']{B}"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/06-pair.tex",
+    "line": 218,
+    "section": "CM orbits and exact interpolation",
+    "env": [],
+    "text": "\\cite[Section~8, \\emph{CM disk coordinates}]{B}:"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/06-pair.tex",
+    "line": 843,
+    "section": "Horizontal switches and divisibility",
+    "env": [],
+    "text": "\\cite[Section~3, equation (D)]{B}, with the integral"
+   },
+   {
+    "key": "B",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/06-pair.tex",
+    "line": 885,
+    "section": "Horizontal switches and divisibility",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Section~9, \\emph{Inert derivative identity}, equation (K)]{B}, with the"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 24,
+    "section": "Theta congruences at a characteristic-zero point",
+    "env": [],
+    "text": "\\cite[Section 2, ``Coefficient, character, and measure conventions'']{C}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 49,
+    "section": "Auxiliary tests and the point of evaluation",
+    "env": [],
+    "text": "\\cite[Equations (4.1)--(4.2)]{C}.  The target has signature $(3,1)$ at"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 63,
+    "section": "Auxiliary tests and the point of evaluation",
+    "env": [],
+    "text": "binary period constructions in \\cite[Sections 4--5]{C}.  We make no"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 139,
+    "section": "Auxiliary tests and the point of evaluation",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Lemma 6.2]{C}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 222,
+    "section": "Auxiliary tests and the point of evaluation",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Lemma 6.4]{C} and the"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 224,
+    "section": "Auxiliary tests and the point of evaluation",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Equation (8.11) and Lemma 8.6]{C}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 303,
+    "section": "The ordinary branch and increasing depth",
+    "env": [],
+    "text": "\\cite[Section 4, ``Frames, periods, and unary moments'']{C}: creation"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 359,
+    "section": "The ordinary branch and increasing depth",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Lemma 7.1]{C}, applied"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 408,
+    "section": "The ordinary branch and increasing depth",
+    "env": [],
+    "text": "\\cite[Lemma 4.2 and Equation (4.10)]{C}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 414,
+    "section": "A moment bound independent of the position cut",
+    "env": [],
+    "text": "\\cite[Section 4]{C}.  We now prove the extension that will be used."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 463,
+    "section": "A moment bound independent of the position cut",
+    "env": [
+     "proof"
+    ],
+    "text": "trivializations, as in \\cite[Lemma 4.4]{C}.  At each split $p$-factor"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 560,
+    "section": "A moment bound independent of the position cut",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Lemma 4.4]{C}; they require"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 649,
+    "section": "A moment bound independent of the position cut",
+    "env": [
+     "proof"
+    ],
+    "text": "\\cite[Lemma 4.5]{C}; the argument"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 754,
+    "section": "Toric periods and Fourier cancellation at \\texorpdfstring{$p$",
+    "env": [],
+    "text": "CM toric sum in \\cite[Section 5]{C}, with"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 847,
+    "section": "The binary comparison and its denominators",
+    "env": [],
+    "text": "\\cite[Section 5, ``The binary scalar and its multiplicity'']{C} expresses the global"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 877,
+    "section": "The binary comparison and its denominators",
+    "env": [],
+    "text": "normalizations in \\cite[Equations (5.8) and (5.10)]{C}.  They hold for arbitrary"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 885,
+    "section": "The binary comparison and its denominators",
+    "env": [],
+    "text": "specific normalization of \\cite[Equation (5.6)]{C}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 902,
+    "section": "The binary comparison and its denominators",
+    "env": [],
+    "text": "\\cite[Section 5]{C} was used to choose its Mellin-one test; the test"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/07-theta.tex",
+    "line": 966,
+    "section": "The binary comparison and its denominators",
+    "env": [],
+    "text": "estimates of \\cite[Section 5]{C} apply, including the companion's"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 63,
+    "section": "A positive coefficient at the chosen point",
+    "env": [],
+    "text": "The one-index unfolding of \\cite[Lemma~6.1]{C} concerns the primitive"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 279,
+    "section": "The product character in the unary moment measure",
+    "env": [],
+    "text": "This is the torus-equivariance calculation of \\cite[equation~(6.7)]{C}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 327,
+    "section": "The product character in the unary moment measure",
+    "env": [
+     "proof"
+    ],
+    "text": "by the spanning argument of \\cite[Lemma~6.4]{C}.  At the auxiliary good"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 368,
+    "section": "Cusp lifting with increasing depth",
+    "env": [],
+    "text": "The geometric inputs are \\cite[Lemmas~7.1--7.2]{C}: the target has split hyperspecial"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 441,
+    "section": "Cusp lifting with increasing depth",
+    "env": [
+     "proof"
+    ],
+    "text": "exactly as in \\cite[Lemma~7.3]{C}.  Thus"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 495,
+    "section": "Local Galois controls and reduction of the order",
+    "env": [],
+    "text": "Apply \\cite[Proposition~8.5]{C} at each stage.  Its hypotheses"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 532,
+    "section": "Local Galois controls and reduction of the order",
+    "env": [],
+    "text": "\\cite[Lemma~8.6]{C} gives"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 546,
+    "section": "Local Galois controls and reduction of the order",
+    "env": [],
+    "text": "resultant of \\cite[equation~(8.10)]{C}, which excludes ratios by"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 672,
+    "section": "Local Galois controls and reduction of the order",
+    "env": [],
+    "text": "This is also the proof of \\cite[Lemma~8.8]{C}, for either orientation"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 730,
+    "section": "The limiting corners and the highest-weight line",
+    "env": [],
+    "text": "\\cite[Section~9.1]{C}."
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 889,
+    "section": "The limiting corners and the highest-weight line",
+    "env": [
+     "proof"
+    ],
+    "text": "actual systems, as in \\cite[proof of Lemma~9.5]{C}.  More explicitly,"
+   },
+   {
+    "key": "C",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/08-extraction.tex",
+    "line": 975,
+    "section": "The extracted class is primitive",
+    "env": [],
+    "text": "\\cite[Proposition~9.7]{C}.  At a binary-controlled"
+   }
+  ],
+  "n_uses": 57
+ },
+ "SelmerConverse": {
+  "dir": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+  "oai_keys": {
+   "OpenAIGoldfeldDensity2026": {
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   }
+  },
+  "uses": [
+   {
+    "key": "OpenAIGoldfeldDensity2026",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 127,
+    "section": "The converse problem and its development",
+    "env": [],
+    "text": "\\citet{OpenAIGoldfeldDensity2026}: the unrestricted converse at $2$"
+   },
+   {
+    "key": "OpenAIGoldfeldDensity2026",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/02-reduction.tex",
+    "line": 56,
+    "section": "Selmer groups and established inputs",
+    "env": [],
+    "text": "These are \\citet[Theorems~1.1 and~1.2]{OpenAIGoldfeldDensity2026}."
+   }
+  ],
+  "n_uses": 2
+ },
+ "TwoPrimary": {
+  "dir": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+  "oai_keys": {
+   "OpenAIGoldfeldDensity2026": {
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   },
+   "OpenAIAllPrimeSelmer2026": {
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   }
+  },
+  "uses": [
+   {
+    "key": "OpenAIAllPrimeSelmer2026",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 85,
+    "section": "Statement and normalizations",
+    "env": [
+     "proof"
+    ],
+    "text": "By \\cite[Theorem~1.1]{OpenAIAllPrimeSelmer2026},"
+   },
+   {
+    "key": "OpenAIGoldfeldDensity2026",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/01-introduction.tex",
+    "line": 99,
+    "section": "Statement and normalizations",
+    "env": [],
+    "text": "\\cite[proof of Theorem~1.2]{OpenAIGoldfeldDensity2026} gives the exact"
+   },
+   {
+    "key": "OpenAIGoldfeldDensity2026",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/15-conclusion.tex",
+    "line": 121,
+    "section": "Conclusion",
+    "env": [
+     "proof"
+    ],
+    "text": "The proof of Theorem~1.2 in \\cite{OpenAIGoldfeldDensity2026} gives density"
+   }
+  ],
+  "n_uses": 3
+ },
+ "Pointwise2": {
+  "dir": "A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026",
+  "oai_keys": {
+   "OpenAIGoldfeldTwoConverse2026": {
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   }
+  },
+  "uses": [
+   {
+    "key": "OpenAIGoldfeldTwoConverse2026",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/introduction.tex",
+    "line": 39,
+    "section": "Introduction",
+    "env": [],
+    "text": "The broader companion \\cite[Theorem~1.1]{OpenAIGoldfeldTwoConverse2026}"
+   }
+  ],
+  "n_uses": 1
+ },
+ "Goldfeld2": {
+  "dir": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+  "oai_keys": {
+   "OpenAITwoPrimaryBSD2026": {
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   },
+   "OpenAIAllPrimeSelmer2026": {
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   },
+   "OpenAIMeanAnalyticRank2026": {
+    "target": "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   }
+  },
+  "uses": [
+   {
+    "key": "OpenAIMeanAnalyticRank2026",
+    "target": "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026",
+    "file": "sections/00-introduction.tex",
+    "line": 79,
+    "section": "Consequences and companion results",
+    "env": [],
+    "text": "\\citet[Theorems~1.1 and~1.2]{OpenAIMeanAnalyticRank2026} proves the"
+   },
+   {
+    "key": "OpenAIAllPrimeSelmer2026",
+    "target": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
+    "file": "sections/00-introduction.tex",
+    "line": 84,
+    "section": "Consequences and companion results",
+    "env": [],
+    "text": "A subsequent companion \\citep[Theorem~1.1]{OpenAIAllPrimeSelmer2026}"
+   },
+   {
+    "key": "OpenAITwoPrimaryBSD2026",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/00-introduction.tex",
+    "line": 93,
+    "section": "Consequences and companion results",
+    "env": [],
+    "text": "\\citet[Theorem~1.1]{OpenAITwoPrimaryBSD2026}, combined with the"
+   },
+   {
+    "key": "OpenAITwoPrimaryBSD2026",
+    "target": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
+    "file": "sections/00-introduction.tex",
+    "line": 98,
+    "section": "Consequences and companion results",
+    "env": [],
+    "text": "\\citet[Corollary~16.1]{OpenAITwoPrimaryBSD2026}; its leading-coefficient"
+   }
+  ],
+  "n_uses": 4
+ },
+ "MeanRank": {
+  "dir": "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026",
+  "oai_keys": {
+   "OpenAIAnalyticDensityV2": {
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "exists": true,
+    "withdrawn_notice": false
+   }
+  },
+  "uses": [
+   {
+    "key": "OpenAIAnalyticDensityV2",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/algebraic.tex",
+    "line": 14,
+    "section": "Algebraic-rank moments",
+    "env": [
+     "proof[Proof of Corollary~\\ref{cor:algebraic-moments}]"
+    ],
+    "text": "\\cite[Theorem~1.2]{OpenAIAnalyticDensityV2}, together with its analytic"
+   },
+   {
+    "key": "OpenAIAnalyticDensityV2",
+    "target": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+    "file": "sections/introduction.tex",
+    "line": 36,
+    "section": "Introduction",
+    "env": [],
+    "text": "\\cite[Theorem~1.2]{OpenAIAnalyticDensityV2}"
+   }
+  ],
+  "n_uses": 2
+ }
+}

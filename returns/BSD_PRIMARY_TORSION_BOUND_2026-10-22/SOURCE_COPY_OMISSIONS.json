@@ -1,0 +1,46 @@
+{
+  "omitted": [
+    {
+      "path": "arithmetic/sources/LOW_2025.pdf",
+      "sha256": "d5051ab0d37f9985f1adea5cbfee2263812ce96de2b354598448765411344ce5",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    },
+    {
+      "path": "arithmetic/sources/LOW_2025.txt",
+      "sha256": "972da025443b37913edd86ab3df6117fe5a2998183ccaae528bc4ca2561d57c4",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    },
+    {
+      "path": "arithmetic/sources/LOW_author_2021.pdf",
+      "sha256": "91cbb5df29a7e108958d85c1dd1e0795fcebf8c30481bbfe93f29eb0d381b510",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    },
+    {
+      "path": "arithmetic/sources/LOW_author_2021.txt",
+      "sha256": "df440501a42851e9669603ea85a3c2fe21818b840d09aa44b44a0fb204e5b5c1",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    },
+    {
+      "path": "theory/sources/EV_2007.pdf",
+      "sha256": "50b1038971ad461c0f384ff6bf2270d84ad41b1010a7a326a5f7927cda06fe50",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    },
+    {
+      "path": "theory/sources/EV_2007.txt",
+      "sha256": "1f6f503eb155f2413d521f69393163f9c8bfc7b0e28bb44ec12eec9858b518a2",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    },
+    {
+      "path": "theory/sources/LOW_2021.pdf",
+      "sha256": "91cbb5df29a7e108958d85c1dd1e0795fcebf8c30481bbfe93f29eb0d381b510",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    },
+    {
+      "path": "theory/sources/LOW_2021.txt",
+      "sha256": "df440501a42851e9669603ea85a3c2fe21818b840d09aa44b44a0fb204e5b5c1",
+      "reason": "Third-party paper copy; URLs and source hashes retained"
+    }
+  ],
+  "manifest_rule": "The top-level manifest covers exactly this packet. arithmetic/SESSION_MANIFEST.sha256 is the original session record; arithmetic/MANIFEST.sha256 covers the distributed arithmetic subset. Other input manifests remain original.",
+  "replay_rule": "No arithmetic checker requires the omitted paper copies. The uploaded Pro packet is retained byte-for-byte. Recompiled executables and duplicate replay trees are not bundled."
+}

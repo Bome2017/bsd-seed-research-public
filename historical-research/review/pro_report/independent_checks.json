@@ -1,0 +1,153 @@
+{
+  "scope": "Small independent checks for seed_bsd.pdf v0.1.1.\n\nPython standard library only. This script does NOT certify the L-series or real\nregulator enclosures, replay saturation, prove the Manin bound, inspect the large\ncoefficient corpus, or compile Lean. Printed interval arithmetic checks only the\nconsistency of the manuscript's stated input bounds.\n\nRun: python3 independent_checks.py [output.json]\n",
+  "N_product": 6503188012738584,
+  "c4": 3169004368,
+  "c6": 56243184546880,
+  "Delta": 16586638656786071143743744,
+  "j": "1322372123614064/689197281363",
+  "translated_model": [
+    0,
+    -1,
+    0,
+    -66020924,
+    -65074271436
+  ],
+  "all_four_displayed_points_on_curve": true,
+  "G_equals_minus_P1_minus_P2_plus_T": true,
+  "Zywina_specialization": {
+    "m": 2243,
+    "n": 12,
+    "triple": [
+      2243,
+      4547,
+      5843
+    ],
+    "all_prime_and_11_mod_24": true
+  },
+  "good_prime_traces": {
+    "5": -2,
+    "7": -2,
+    "11": -2,
+    "13": -4,
+    "17": -6
+  },
+  "supersingular_primes_below_2000": [
+    23,
+    29,
+    131,
+    167,
+    281,
+    563,
+    661,
+    823,
+    839,
+    863,
+    887,
+    1013,
+    1471,
+    1511,
+    1823
+  ],
+  "Frobenius_irreducibility_witnesses": {
+    "3": {
+      "q": 5,
+      "a_q": -2,
+      "Frobenius_discriminant": -16,
+      "discriminant_mod_ell": 2,
+      "Legendre_symbol": -1
+    },
+    "5": {
+      "q": 17,
+      "a_q": -6,
+      "Frobenius_discriminant": -32,
+      "discriminant_mod_ell": 3,
+      "Legendre_symbol": -1
+    },
+    "7": {
+      "q": 5,
+      "a_q": -2,
+      "Frobenius_discriminant": -16,
+      "discriminant_mod_ell": 5,
+      "Legendre_symbol": -1
+    },
+    "11": {
+      "q": 5,
+      "a_q": -2,
+      "Frobenius_discriminant": -16,
+      "discriminant_mod_ell": 6,
+      "Legendre_symbol": -1
+    },
+    "13": {
+      "q": 7,
+      "a_q": -2,
+      "Frobenius_discriminant": -24,
+      "discriminant_mod_ell": 2,
+      "Legendre_symbol": -1
+    },
+    "17": {
+      "q": 7,
+      "a_q": -2,
+      "Frobenius_discriminant": -24,
+      "discriminant_mod_ell": 10,
+      "Legendre_symbol": -1
+    },
+    "19": {
+      "q": 5,
+      "a_q": -2,
+      "Frobenius_discriminant": -16,
+      "discriminant_mod_ell": 3,
+      "Legendre_symbol": -1
+    },
+    "37": {
+      "q": 7,
+      "a_q": -2,
+      "Frobenius_discriminant": -24,
+      "discriminant_mod_ell": 13,
+      "Legendre_symbol": -1
+    },
+    "43": {
+      "q": 5,
+      "a_q": -2,
+      "Frobenius_discriminant": -16,
+      "discriminant_mod_ell": 27,
+      "Legendre_symbol": -1
+    },
+    "67": {
+      "q": 5,
+      "a_q": -2,
+      "Frobenius_discriminant": -16,
+      "discriminant_mod_ell": 51,
+      "Legendre_symbol": -1
+    },
+    "163": {
+      "q": 5,
+      "a_q": -2,
+      "Frobenius_discriminant": -16,
+      "discriminant_mod_ell": 147,
+      "Legendre_symbol": -1
+    }
+  },
+  "multiplicative_sign_tests_Legendre_minus_c6": {
+    "3": -1,
+    "2243": 1,
+    "5843": -1
+  },
+  "j_mod_4547": 1728,
+  "D5_displayed_matrix_determinant": -49408,
+  "D5_determinant_mod_2243": 2181,
+  "q_bounds_from_printed_inputs_not_new_certification": [
+    "35.99427996886386318352437417132152790689084450035191524202244104492278",
+    "36.00571952391613901270891342337976332565492571737005402270098024089281"
+  ],
+  "definite_Eichler_mass_formula": "541717127331168",
+  "unit_residues_mod_81": 54,
+  "plus_and_minus_at_81_total": 108,
+  "unit_residues_mod_27_plus_mod_81_per_sign": 72,
+  "a4099_by_exhaustive_point_count": 86,
+  "p3_reported_quadratic_coefficient_mod_27": 9,
+  "p3_reported_full_period_coefficient_mod_27": 18,
+  "Atkin_Lehner_coefficient_checks": {
+    "minus996_mod2243": 1247,
+    "995_times996_times1991_over6_mod2243": 511
+  }
+}

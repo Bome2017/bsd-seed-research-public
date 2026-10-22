@@ -1,0 +1,36 @@
+{
+  "p": 5,
+  "a_p": -2,
+  "unit_root_mod_p": 3,
+  "degrees": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "coefficients_mod_p": [
+    0,
+    0,
+    2,
+    0
+  ],
+  "ell_2_mod_p": 2,
+  "full_measure_coefficients_mod_p": [
+    0,
+    0,
+    2,
+    0
+  ],
+  "normalization": "unchanged arbcore real-period convention",
+  "scope": "cyclotomic weight-two residues only; no Hida weight derivatives or BSD promotion",
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_m25.txt",
+      "sha256": "3acf685d435abae71b572abb0380e8b1efdc826668c7979687a5f83939560b6d"
+    },
+    {
+      "path": "/Users/bsm/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_m5.txt",
+      "sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7"
+    }
+  ]
+}

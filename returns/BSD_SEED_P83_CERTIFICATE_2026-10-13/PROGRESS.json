@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-13T22:07:27.009541+00:00",
+  "status": "ENGINE_AND_CHECKER_FINISHED",
+  "returncode": 0,
+  "elapsed_seconds": 2812.6875613690354,
+  "max_observed_cpu_seconds": 22196.53,
+  "max_observed_rss_bytes": 744906752,
+  "output_bytes": 161954218,
+  "free_bytes": 97759019008,
+  "large_units": 3420,
+  "large_expected": 3420,
+  "smooth_units": 13680,
+  "smooth_expected": 13680,
+  "stop_reason": null,
+  "processes": []
+}

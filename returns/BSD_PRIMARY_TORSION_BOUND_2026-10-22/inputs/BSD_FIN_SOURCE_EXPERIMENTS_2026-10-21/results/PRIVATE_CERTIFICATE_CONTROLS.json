@@ -1,0 +1,14 @@
+[
+  {
+    "test": "valid",
+    "returncode": 0,
+    "stdout": "PASS_DIRECT_PRODUCT_VERIFIER rows=2 GMP=6.3.0\n",
+    "stderr": ""
+  },
+  {
+    "test": "forged",
+    "returncode": 10,
+    "stdout": "",
+    "stderr": "private witness fails at 0\n"
+  }
+]

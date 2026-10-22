@@ -1,0 +1,14 @@
+alarm(30);gettime();read("inputs/lib/cubinv.gp");read("inputs/lib/classimg.gp");D=read("inputs/data.gp");N=read("norm_data.gp");RT=read("candidate_cube_roots.gp");E=D[1];G=D[6];T=D[5];S=N[1];NV=N[3];FB=N[4];GG=N[5];WW=N[6];K=N[7];CE=N[8];CN=N[9];ng=#G;
+YT=T[2]+(E.a1*T[1]+E.a3)/2;BT=matrix(8,8,i,j,polcoef(lift(YT^(j-1)),i-1,w));ww=matsolve(BT,vector(8,i,polcoef(lift(Mod(w,D[3])),i-1,w))~);TW=sum(i=1,8,ww[i]*(-YT)^(i-1));TM=lift(D[9]);
+if(subst(D[3],w,TW)!=0||subst(lift(YT),w,TW)!=-YT,error("tau field or point"));
+for(j=1,ng,if(subst(lift(G[j]),w,TW)!=D[11][j]^3*prod(i=1,ng,G[i]^TM[i,j]),error("literal tau source")));
+for(j=1,#D[2],if(ftan(E,T,D[2][j])!=D[12][j]^3*prod(i=1,ng,G[i]^lift(D[10][i,j])),error("literal point source")));
+for(j=1,#S,FF=subst(lift(N[2][j]),w,WW);MM=matrix(3,3,i,k,polcoef(lift(FF*Mod(x,GG)^(k-1)),i-1,x));if(matdet(MM)!=NV[j],error("full scalar norm determinant")));
+for(j=1,#K,if(CE[j]!=prod(i=1,ng,G[i]^lift(K[i,j])),error("kernel source binding"));FF=subst(lift(CE[j]),w,WW);MM=matrix(3,3,i,k,polcoef(lift(FF*Mod(x,GG)^(k-1)),i-1,x));if(matdet(MM)!=CN[j]||RT[j][1]^3!=CN[j],error("literal kernel norm cube")));
+L=read("local_authenticated.gp")[1];if(matrank(L*K)!=3,error("local intersection not zero"));
+V=D[7];H=D[8];CC=D[23];UB=D[14];KH=K*matker(V*K);HC=matsolve(H,KH);CLAS=CC*HC;if(#KH!=1||matrank(CLAS)!=1||matrank(matconcat([K,UB]))!=7,error("kernel filtration wrong"));
+CWT=read("inputs/class_witness.gp");nf=read("inputs/nf.gp");if(idealpow(nf,CWT[2],3)!=idealhnf(nf,CWT[3]),error("literal class ideal"));if(CWT[3]!=prod(i=1,ng,G[i]^lift(CWT[12][i,1])),error("class source binding"));
+FALSE=Mod([0,0,0,0,0,0,1,1,1,1,2]~,3);FC=matsolve(S,FALSE);RR=read("norm_map_certificate.gp")[4];if(RR*FC==0*(RR*FC),error("false source not separated"));
+jm(A)=vector(matsize(A)[1],i,vector(matsize(A)[2],j,lift(A[i,j])));
+write("complete_certificate.json",Str("{\"source_dimension\":",ng,",\"scalar_basis\":",jm(S),",\"exact_global_kernel\":",jm(K),",\"local_authenticated_rows\":",jm(L),",\"local_restricted_to_global_kernel\":",jm(L*K),",\"global_kernel_valuations\":",jm(V*K),",\"global_kernel_valuation_zero_basis\":",jm(KH),",\"class_coordinates\":",jm(CLAS),",\"ordinary_unit_basis\":",jm(UB),",\"false_candidate\":",lift(FALSE)~,",\"false_scalar_coordinates\":",lift(FC)~,",\"false_norm_characters\":",lift(RR*FC)~,",\"local_block_restrictions\":[",jm(D[16][1][5]*K),",",jm(D[16][2][5]*K),"]}"));
+print("TAU_IDENTITIES=11;FULL_SOURCE_NORMS=5;EXACT_CUBE_KERNEL=3;KERNEL_VALUATION_RANK=2;KERNEL_CLASS_RANK=1;KERNEL_UNIT_INTERSECTION=0;JOINT_KERNEL=0;MS=",gettime());print("EXACT_KERNEL_CERTIFICATE_PASS");quit;

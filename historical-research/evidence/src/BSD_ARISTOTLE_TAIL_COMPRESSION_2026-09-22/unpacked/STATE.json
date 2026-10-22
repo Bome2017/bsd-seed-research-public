@@ -1,0 +1,29 @@
+{
+ "package": "ARISTOTLE_TAIL_COMPRESSION_2026-09-22",
+ "kind": "narrow theorem-design task; no computation authorized",
+ "primary_question": "Q1: is I_3 the mod-p reduction of a fixed p-independent arithmetic object? Target: I_{3,i}(p) != F_p => p | C_i for fixed nonzero C_i.",
+ "secondary_question": "Q2: coverage. The three-imaginary-field cover is IMPOSSIBLE (every Klein-four cover has a real quadratic subfield, and Heegner needs imaginary). Three repair directions given, none endorsed.",
+ "settled_inputs": [
+  "three-imaginary cover impossible",
+  "Heegner Lambda-index does not determine I_3 (counterexample)",
+  "any fixed finite set of imaginary lanes leaves density 2^-r uncovered"
+ ],
+ "calibration": "p=17: #E(F_17)=24, a_17=-6, good/ordinary/nonanomalous, but chi_{-23}(17) = -1 so lane 1 does not serve it. Coverage test only; C_17 NOT authorized.",
+ "admission_gate": "control of the WHOLE quotient by surjection, injection, bounded kernel and cokernel, annihilator, exact sequence, or proved equivalent. NO arrow-orientation rule.",
+ "kills": [
+  "K1 PROVED nonexistence inside a precisely delimited, stated class. Failure to construct is NOT K1: verdict is NO_SURVIVOR worded 'no fixed comparison was proved in class C', never 'none exists'.",
+  "K2 no uniformity over split primes outside a proved finite list",
+  "K3 no admissible cover",
+  "K4 assumes FIN/BSD/conjectural input",
+  "K5 equivalence to FIN in new language"
+ ],
+ "allowed_returns": [
+  "TAIL_FINITE_SUPPORT_PROVED",
+  "STRICT_REDUCTION",
+  "NEW_LEMMA_ONLY",
+  "NO_SURVIVOR"
+ ],
+ "status": "ISSUED, not yet run",
+ "wording_mandate": "Distinguish (i) proved impossibility in a stated class, (ii) located theorem whose hypotheses fail, (iii) attempted-and-incomplete construction. Only (i) may be phrased as impossibility.",
+ "q1_framing": "As PRESENTLY DEFINED the object is p-dependent; whether it descends from a p-free object is exactly Q1 and is not prejudged."
+}

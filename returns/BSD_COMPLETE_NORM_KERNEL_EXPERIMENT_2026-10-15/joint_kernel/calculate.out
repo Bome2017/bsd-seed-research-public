@@ -1,0 +1,214 @@
+[
+  {
+    "case": "1913b1",
+    "grade": "CERTIFIED_COMPLETE_RETAINED",
+    "stages": {
+      "scalar_only": {
+        "containing_dimension": 3,
+        "point_dimension": 0,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 3
+      },
+      "global_necessary": {
+        "containing_dimension": 2,
+        "point_dimension": 0,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "scalar_local": {
+        "containing_dimension": 2,
+        "point_dimension": 0,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "joint_necessary": {
+        "containing_dimension": 2,
+        "point_dimension": 0,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "exact_global": {
+        "containing_dimension": 2,
+        "point_dimension": 0,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "exact_global_and_local": {
+        "containing_dimension": 2,
+        "point_dimension": 0,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      }
+    }
+  },
+  {
+    "case": "389a1",
+    "grade": "CERTIFIED_COMPLETE_RETAINED",
+    "stages": {
+      "scalar_only": {
+        "containing_dimension": 4,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "global_necessary": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      },
+      "scalar_local": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      },
+      "joint_necessary": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      },
+      "exact_global": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      },
+      "exact_global_and_local": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      }
+    }
+  },
+  {
+    "case": "433a1",
+    "grade": "CERTIFIED_COMPLETE_RETAINED",
+    "stages": {
+      "scalar_only": {
+        "containing_dimension": 6,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 4
+      },
+      "global_necessary": {
+        "containing_dimension": 3,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 1
+      },
+      "scalar_local": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      },
+      "joint_necessary": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      },
+      "exact_global": {
+        "containing_dimension": 3,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 1
+      },
+      "exact_global_and_local": {
+        "containing_dimension": 2,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 0
+      }
+    }
+  },
+  {
+    "case": "seed3",
+    "grade": "CONDITIONAL_OR_INCOMPLETE_DISPLAYED_SOURCE_ONLY",
+    "stages": {
+      "scalar_only": {
+        "containing_dimension": 4,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "global_necessary": {
+        "containing_dimension": 4,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "scalar_local": {
+        "containing_dimension": 4,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "joint_necessary": {
+        "containing_dimension": 4,
+        "point_dimension": 2,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      }
+    }
+  },
+  {
+    "case": "28042a1",
+    "grade": "CONDITIONAL_OR_INCOMPLETE_DISPLAYED_SOURCE_ONLY",
+    "stages": {
+      "scalar_only": {
+        "containing_dimension": 4,
+        "point_dimension": 1,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 3
+      },
+      "global_necessary": {
+        "containing_dimension": 3,
+        "point_dimension": 1,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "scalar_local": {
+        "containing_dimension": 3,
+        "point_dimension": 1,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      },
+      "joint_necessary": {
+        "containing_dimension": 3,
+        "point_dimension": 1,
+        "separate_quotient_kernel_dimension": 0,
+        "common_quotient_kernel_dimension": 0,
+        "common_detected_rank": 2
+      }
+    }
+  }
+]

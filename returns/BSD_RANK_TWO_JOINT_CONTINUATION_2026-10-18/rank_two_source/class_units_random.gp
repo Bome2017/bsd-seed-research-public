@@ -1,0 +1,1 @@
+{alarm(297);gettime();default(debug,2);NF=read("nf.gp");B=bnfinit(NF,1,[0.01,0.1,0]);writebin("bnf_random.bin",B);write("class_random.gp",[B.cyc,B.no,B.reg]);print("BNF_RANDOM_SAVED;CYC=",B.cyc,";MS=",gettime());FU=bnfunits(B);write("units_compact.gp",FU);print("UNITS_RANDOM_SAVED;GENERATORS=",#FU[1],";MS=",gettime());quit;}

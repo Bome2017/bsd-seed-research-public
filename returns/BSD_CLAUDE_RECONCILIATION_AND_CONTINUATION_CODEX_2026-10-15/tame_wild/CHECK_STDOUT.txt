@@ -1,0 +1,153 @@
+{
+  "scope": "Saved-output arithmetic and source-code audit; no new modular-symbol, Arb, or height production.",
+  "manifests": {
+    "BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14": {
+      "present": true,
+      "entries_checked": 100,
+      "mismatches": []
+    },
+    "BSD_TWO_LEG_TAME_EXPERIMENT_2026-10-14": {
+      "present": true,
+      "entries_checked": 27,
+      "mismatches": []
+    },
+    "BSD_WILD_LEG_EXPERIMENT_2026-10-14": {
+      "present": true,
+      "entries_checked": 47,
+      "mismatches": []
+    },
+    "BSD_TAME_LAW_PROOF_ATTEMPT_OPUS_2026-10-14": {
+      "present": false
+    }
+  },
+  "two_leg_tame": {
+    "all_prediction_rows": 1378,
+    "raw_height_pairs": 1333,
+    "raw_symbol_pairs": 695,
+    "clean_rows": 714,
+    "nonzero_mod_q": 512,
+    "by_curve": {
+      "389a1": 145,
+      "433a1": 137,
+      "664a1": 155,
+      "655a1": 165,
+      "1615a1": 112
+    },
+    "by_q": {
+      "3": 476,
+      "5": 134,
+      "11": 27,
+      "7": 56,
+      "13": 21
+    },
+    "max_mixed_modulus_by_q": {
+      "3": 27,
+      "5": 25,
+      "7": 7,
+      "11": 11,
+      "13": 13
+    },
+    "negative_controls_matches": {
+      "sealed": 714,
+      "no_Euler": 382,
+      "one_Euler": 313,
+      "wrong_plus_cross": 304,
+      "no_cross": 304,
+      "sign_flip": 189
+    },
+    "negative_controls_nonzero_matches": {
+      "sealed": 512,
+      "no_Euler": 184,
+      "one_Euler": 121,
+      "wrong_plus_cross": 194,
+      "no_cross": 194,
+      "sign_flip": 0
+    },
+    "arithmetic_mismatches": [],
+    "source_raw_height_binding": true
+  },
+  "wild": {
+    "initial": {
+      "all_prediction_rows": 148,
+      "clean_pure": 24,
+      "clean_mixed": 110,
+      "nonzero_pure": 22,
+      "nonzero_mixed": 97,
+      "augmentation_and_linear_checks": 134,
+      "squared_factor_pure_matches": 24,
+      "squared_factor_mixed_matches": 110,
+      "forced_wild_squared_matches": 110,
+      "curves": {
+        "389a1": 53,
+        "664a1": 38,
+        "655a1": 43
+      },
+      "candidate_matches": {
+        "pure:1*ap-1": 5,
+        "pure:1*ap-2": 3,
+        "pure:1*1": 5,
+        "pure:1*1-ap": 2,
+        "pure:1*ap": 2,
+        "mixed:1*ap-1": 38,
+        "mixed:-1*ap-1": 13,
+        "mixed:1*ap-2": 25,
+        "mixed:-1*ap-2": 22,
+        "mixed:1*1": 38,
+        "mixed:-1*1": 21,
+        "mixed:1*1-ap": 13,
+        "mixed:-1*1-ap": 38,
+        "mixed:1*ap": 13,
+        "mixed:-1*ap": 16
+      },
+      "source_raw_height_binding": true
+    },
+    "fresh_confirmation": {
+      "all_prediction_rows": 413,
+      "clean_pure": 98,
+      "clean_mixed": 288,
+      "nonzero_pure": 94,
+      "nonzero_mixed": 253,
+      "augmentation_and_linear_checks": 386,
+      "squared_factor_pure_matches": 98,
+      "squared_factor_mixed_matches": 288,
+      "forced_wild_squared_matches": 288,
+      "curves": {
+        "389a1": 48,
+        "664a1": 37,
+        "655a1": 37,
+        "571b1": 75,
+        "681c1": 62,
+        "707a1": 59,
+        "709a1": 68
+      },
+      "candidate_matches": {
+        "mixed:1*ap-1": 69,
+        "mixed:-1*ap-1": 35,
+        "mixed:1*ap-2": 61,
+        "mixed:-1*ap-2": 59,
+        "mixed:1*1": 69,
+        "mixed:-1*1": 55,
+        "mixed:1*1-ap": 35,
+        "mixed:-1*1-ap": 69,
+        "mixed:1*ap": 37,
+        "mixed:-1*ap": 50,
+        "pure:1*ap-1": 9,
+        "pure:1*ap-2": 9,
+        "pure:1*1": 9,
+        "pure:1*1-ap": 4,
+        "pure:1*ap": 5
+      },
+      "source_raw_height_binding": true
+    },
+    "raw_initial_keys": 134,
+    "raw_confirmation_keys": 386,
+    "overlapping_raw_arithmetic_keys": 0
+  },
+  "formal_algebra": {
+    "determinant_polarization_integer_cases": 2187,
+    "wild_coordinate_unit_cases": 34616,
+    "p_ge5_degree2_transfer_sum_zero": true,
+    "not_a_proof_of_global_or_canonical_height_comparison": true
+  }
+}
+SEED: 7 tables; 1244 intervals; K modulus 14175

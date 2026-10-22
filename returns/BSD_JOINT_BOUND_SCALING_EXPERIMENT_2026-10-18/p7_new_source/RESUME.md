@@ -1,0 +1,1 @@
+Completed. Read REPORT.md and STATE.json. All three source batches yield only sign units, proved by exact factor merging and zero merged integer exponent matrix. Do not count185 relations as185 arithmetic directions or retry the same pool. No active jobs, no BNF, no publication.

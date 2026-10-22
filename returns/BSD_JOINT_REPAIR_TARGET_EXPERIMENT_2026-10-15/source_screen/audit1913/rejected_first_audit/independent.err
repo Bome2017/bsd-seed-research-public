@@ -1,0 +1,21 @@
+  ***   at top-level: for(j=1,ng,my(ff=idealfactor(nf,G[j]));for(k=1
+  ***                                  ^-----------------------------
+  *** idealfactor: inconsistent moduli in nf_to_scalar_or_basis: w^8 + 6*w^4 + 43*w^2 - 3 != t19^8 + 6*t19^4 + 43*t19^2 - 3
+... skipping file 'independent.gp'
+  ***   at top-level: RM=Mod(matrix(#AP,ng,i,j,myres(G[j],AP[i])),3)
+  ***                                          ^---------------------
+  ***   in function myres: my(q=rr[1],v=Mod(subst(lift(a),w,rr[2]),q),uu=
+  ***                                   ^---------------------------------
+  *** Mod: impossible inverse in Fl_inv: Mod(0, 13).
+  ***   at top-level: for(j=1,#UE,if(idealhnf(nf,UE[j])!=matid(8),er
+  ***                                ^-------------------------------
+  *** idealhnf: inconsistent moduli in nf_to_scalar_or_basis: w^8 + 6*w^4 + 43*w^2 - 3 != t19^8 + 6*t19^4 + 43*t19^2 - 3
+  ***   at top-level: ...st(lift(AE[j]),w,tau),rr=nfroots(nf,X^3-a));if
+  ***                                             ^---------------------
+  *** nfroots: incorrect type in nfroots [t_POL expected] (t_POLMOD).
+  ***   at top-level: ...dd,my(margin=prs[k].e*Nc-nfeltval(nf,ev,prs[k]
+  ***                                             ^---------------------
+  *** nfeltval: inconsistent moduli in nf_to_scalar_or_basis: w^8 + 6*w^4 + 43*w^2 - 3 != t19^8 + 6*t19^4 + 43*t19^2 - 3
+  ***   at top-level: ...S=",npS,";RESIDUE_RANK=",matrank(RM))
+  ***                                             ^------------
+  *** matrank: incorrect type in rank (t_POL).

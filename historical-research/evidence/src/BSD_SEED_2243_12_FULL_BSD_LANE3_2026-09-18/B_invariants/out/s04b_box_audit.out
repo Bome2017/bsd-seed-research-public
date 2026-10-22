@@ -1,0 +1,92 @@
+Bm1 (refined, 0.973) = 16.47900579373567399770463013852306737539   Bmax = 20.32899084600327898196189109266910439129
+H=11.00000000000000000000000000000000000000 s=9094 Mmax=224 emax=245 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=11.00000000000000000000000000000000000000 s=-9094 Mmax=224 emax=245 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=11.00000000000000000000000000000000000000 s=11686 Mmax=198 emax=245 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=11.00000000000000000000000000000000000000 s=-11686 Mmax=198 emax=245 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=11.00000000000000000000000000000000000000 s=26568121 Mmax=5 emax=245 raw old=2 raw new=10 distinct X old=1 new=5 extra X=4
+    extra X=-1/12  x_r=25476889/144  h_r=17.05328228545256098718129558960904752221  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -1, 1]
+    extra X=-1/36  x_r=16747033/1296  h_r=16.63373166621685332580651541809067427942  h_r<=H: 0  combo [a,b,e] (up to sign) = [0, -1, 1]
+    extra X=1/12  x_r=25476889/144  h_r=17.05328228545256098718129558960904752221  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -1, 1]
+    extra X=1/36  x_r=16747033/1296  h_r=16.63373166621685332580651541809067427942  h_r<=H: 0  combo [a,b,e] (up to sign) = [0, -1, 1]
+H=11.00000000000000000000000000000000000000 s=-26568121 Mmax=5 emax=245 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=11.00000000000000000000000000000000000000 s=53136242 Mmax=3 emax=245 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=11.00000000000000000000000000000000000000 s=-53136242 Mmax=3 emax=245 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+SUMMARY H=11.00000000000000000000000000000000000000: quartics with a truncated denominator range = 8; extra X values found by the full box = 4, of which with h_r <= H: 0
+H=18.97900000000000000000000000000000000000 s=9094 Mmax=12069 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900000000000000000000000000000000000 s=-9094 Mmax=12069 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900000000000000000000000000000000000 s=11686 Mmax=10647 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900000000000000000000000000000000000 s=-11686 Mmax=10647 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900000000000000000000000000000000000 s=26568121 Mmax=224 emax=13221 raw old=10 raw new=18 distinct X old=5 new=9 extra X=4
+    extra X=-96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+    extra X=-48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+H=18.97900000000000000000000000000000000000 s=-26568121 Mmax=224 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900000000000000000000000000000000000 s=53136242 Mmax=158 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900000000000000000000000000000000000 s=-53136242 Mmax=158 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+SUMMARY H=18.97900000000000000000000000000000000000: quartics with a truncated denominator range = 8; extra X values found by the full box = 4, of which with h_r <= H: 0
+H=20.67900000000000000000000000000000000000 s=9094 Mmax=28237 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900000000000000000000000000000000000 s=-9094 Mmax=28237 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900000000000000000000000000000000000 s=11686 Mmax=24910 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900000000000000000000000000000000000 s=-11686 Mmax=24910 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900000000000000000000000000000000000 s=26568121 Mmax=523 emax=30931 raw old=10 raw new=18 distinct X old=5 new=9 extra X=4
+    extra X=-96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+    extra X=-48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+H=20.67900000000000000000000000000000000000 s=-26568121 Mmax=523 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900000000000000000000000000000000000 s=53136242 Mmax=370 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900000000000000000000000000000000000 s=-53136242 Mmax=370 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+SUMMARY H=20.67900000000000000000000000000000000000: quartics with a truncated denominator range = 8; extra X values found by the full box = 4, of which with h_r <= H: 0
+H=18.97900579373567399770463013852306737539 s=9094 Mmax=12069 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900579373567399770463013852306737539 s=-9094 Mmax=12069 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900579373567399770463013852306737539 s=11686 Mmax=10647 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900579373567399770463013852306737539 s=-11686 Mmax=10647 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900579373567399770463013852306737539 s=26568121 Mmax=224 emax=13221 raw old=10 raw new=18 distinct X old=5 new=9 extra X=4
+    extra X=-96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+    extra X=-48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+H=18.97900579373567399770463013852306737539 s=-26568121 Mmax=224 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900579373567399770463013852306737539 s=53136242 Mmax=158 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=18.97900579373567399770463013852306737539 s=-53136242 Mmax=158 emax=13221 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+SUMMARY H=18.97900579373567399770463013852306737539: quartics with a truncated denominator range = 8; extra X values found by the full box = 4, of which with h_r <= H: 0
+H=20.67900579373567399770463013852306737539 s=9094 Mmax=28237 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900579373567399770463013852306737539 s=-9094 Mmax=28237 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900579373567399770463013852306737539 s=11686 Mmax=24910 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900579373567399770463013852306737539 s=-11686 Mmax=24910 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900579373567399770463013852306737539 s=26568121 Mmax=523 emax=30931 raw old=10 raw new=18 distinct X old=5 new=9 extra X=4
+    extra X=-96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+    extra X=-48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+H=20.67900579373567399770463013852306737539 s=-26568121 Mmax=523 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900579373567399770463013852306737539 s=53136242 Mmax=370 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=20.67900579373567399770463013852306737539 s=-53136242 Mmax=370 emax=30931 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+SUMMARY H=20.67900579373567399770463013852306737539: quartics with a truncated denominator range = 8; extra X values found by the full box = 4, of which with h_r <= H: 0
+H=22.82899084600327898196189109266910439129 s=9094 Mmax=82734 emax=90626 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=22.82899084600327898196189109266910439129 s=-9094 Mmax=82734 emax=90626 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=22.82899084600327898196189109266910439129 s=11686 Mmax=72984 emax=90626 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=22.82899084600327898196189109266910439129 s=-11686 Mmax=72984 emax=90626 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=22.82899084600327898196189109266910439129 s=26568121 Mmax=1531 emax=90626 raw old=10 raw new=18 distinct X old=5 new=9 extra X=4
+    extra X=-96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+    extra X=-48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+H=22.82899084600327898196189109266910439129 s=-26568121 Mmax=1531 emax=90626 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=22.82899084600327898196189109266910439129 s=53136242 Mmax=1083 emax=90626 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=22.82899084600327898196189109266910439129 s=-53136242 Mmax=1083 emax=90626 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+SUMMARY H=22.82899084600327898196189109266910439129: quartics with a truncated denominator range = 8; extra X values found by the full box = 4, of which with h_r <= H: 0
+H=24.52899084600327898196189109266910439129 s=9094 Mmax=193567 emax=212033 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=24.52899084600327898196189109266910439129 s=-9094 Mmax=193567 emax=212033 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=24.52899084600327898196189109266910439129 s=11686 Mmax=170756 emax=212033 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=24.52899084600327898196189109266910439129 s=-11686 Mmax=170756 emax=212033 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=24.52899084600327898196189109266910439129 s=26568121 Mmax=3582 emax=212033 raw old=10 raw new=18 distinct X old=5 new=9 extra X=4
+    extra X=-96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+    extra X=-48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=48/4115  x_r=-67107028266/16933225  h_r=24.92955461859832904525791575871103177468  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, -2, 1]
+    extra X=96/6275  x_r=-53536683114/39375625  h_r=24.70363292156929824755137401132306917885  h_r<=H: 0  combo [a,b,e] (up to sign) = [-2, 0, 1]
+H=24.52899084600327898196189109266910439129 s=-26568121 Mmax=3582 emax=212033 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=24.52899084600327898196189109266910439129 s=53136242 Mmax=2533 emax=212033 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+H=24.52899084600327898196189109266910439129 s=-53136242 Mmax=2533 emax=212033 raw old=0 raw new=0 distinct X old=0 new=0 extra X=0
+SUMMARY H=24.52899084600327898196189109266910439129: quartics with a truncated denominator range = 8; extra X values found by the full box = 4, of which with h_r <= H: 0

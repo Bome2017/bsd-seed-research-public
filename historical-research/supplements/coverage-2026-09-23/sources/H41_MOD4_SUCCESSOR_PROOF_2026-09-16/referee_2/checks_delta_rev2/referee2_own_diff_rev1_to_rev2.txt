@@ -1,0 +1,174 @@
+1c1,2
+< # H41 mod-4 successor proof object (2026-09-16) — REVISION 1 (repairs to referee_1 defects 1-15; see sec 11) — NOT SEALED
+---
+> # H41 mod-4 successor proof object (2026-09-16) — REVISION 2 (rev 1 = repairs to referee_1 defects; rev 2 = author-side amendments, sec 11.R1,
+> # R3, R10-R12) — NOT SEALED; delta review by both referees required (sec 11.R12)
+18c19,21
+< I1  [A] Rational isogeny class = {E, B, F, G} (no odd isogenies), both branches — master map 09-13 sec G; Stage II.
+---
+> I1  [A] Rational isogeny class = {E, B, F, G} (no odd isogenies), both branches — master map 09-13 sec G; Stage II. Pointer for primes l >= 5:
+>     a rational l-isogeny together with the rational cyclic subgroup <P>, P = (r, r) of order 4, gives a rational cyclic 4l-isogeny, excluded for
+>     l >= 5 by the Mazur–Kenku classification (Kenku); l = 3, 5, 7 are also excluded by Frobenius (sec 8).
+24a28,30
+>     PINS for I3-I5: H41_W_MECHANISM_AUDIT.md sha256 dfa6291c900dab0bf2d1a9f4469f2a6be39a135ba5d59225a892d772565fbfc5 (UNSEALED; statements quoted
+>     verbatim); IDENTITY_COMPONENT_REVIEW.md sha256 544e1c9c1c8e4551dc8a92fbbea602427b1e146094b443a18c7e36a6ffd7a84f (inside the sealed
+>     CODEX_H41_SEED_RESEARCH_FREEZE_001 archive). Sealing the W audit's row statements remains an open custody item.
+32c38,39
+<     [Edi06 2.5]; cusp placement and w_N in sec 11.R4): the coarse DR model X of X_0(N) over Z_(2),
+---
+>     [Edi06 2.5]; Edixhoven arXiv:math/0312019v1 p. 7 (read by referee_2): C_inf contains inf, C_0 contains 0, W_d swaps the components iff
+>     2 | d, Tate-curve completion at inf; cusp placement and w_N in sec 11.R4): the coarse DR model X of X_0(N) over Z_(2),
+37c44,45
+<     (X_{J^vee} -> X_{A^vee} surjective for an optimal quotient, J semistable, any DVR) — verified verbatim (text in vertex audit src/).
+---
+>     (X_{J^vee} -> X_{A^vee} surjective for an optimal quotient, J semistable, any DVR); standing hypothesis: J carries a symmetric principal
+>     polarization (J_0(N) with its theta polarization does) — verified verbatim (text in vertex audit src/).
+44,46c52,55
+<     W[[x,y]]/(xy-2): Cesnavicius 1604.02165 sec 3.1 (the Gamma_0(n) STACK is regular, [Ces17 sec 4.4]), sec 3.8 (transversal crossing at
+<     supersingular points, [DR73 V.1.16(ii)]), (3.1.1) with [KM85 2.7.4], [Ces17 4.1.4] (rigidity), plus etaleness over Z_(2) of forgetting a
+<     generator of C_l — assembled in sec 11.R3. REFEREE GATE.
+---
+>     W[[x,y]]/(xy-2), on the elliptic-curve locus: Cesnavicius 1604.02165 (2.6.1) and sec 2.6 (for Gamma_1(n), n/2 >= 5, the model is a REGULAR
+>     scheme; here n = 6l), sec 3.8 (transversal crossing, [DR73 V.1.16(ii)]), a local-algebra lemma (GRAPH_LEMMA Lemma 3.1), and the free
+>     (Z/3)^x quotient forgetting a generator of C_3; alternative: Ces17 = arXiv:1511.07475v2 Thm 1.5 = 5.13(a) (Gamma_0(n) stack regular) with
+>     KM85 sec 2.7 rigidity — assembled in sec 11.R3. REFEREE GATE.
+106,107c115,116
+< edge length e_x (v(2) = 1). BPR Thm 5.15 applied to f = F on X minus the cusps: -log|F| is affine on each edge, with slope s_x, and harmonic;
+< at the vertex C_inf the rays to the cusps carry slopes ord_cusp(F) (only inf contributes, -(l^2-1)). Hence, with one global orientation,
+---
+> edge length e_x (v(2) = 1). BPR Thm 5.15 applied to f = F on the punctured curve X_{C_2} minus {0, inf} (sec 11.R5): -log|F| is affine on each edge, with slope s_x, and
+> harmonic; the ray to inf (attached at C_inf) carries ord_inf(F) = -(l^2-1), the ray to 0 (at C_0) carries l^2-1. Hence, with the orientation of 11.R5,
+111c120,122
+< For any s in H^0(X_R, Omega), locally s = g dU/U with g in R[[U,V]]/(UV - 2^{e_x}); Res_x(s) = constant term of g, in R. With sec 3:
+---
+> For any s in H^0(X_R, Omega), locally s = g dU/U with g in R[[U,V]]/(UV - 2^{e_x}); Res_x(s) = the constant coefficient of the Laurent expansion
+> after V = 2^{e_x}/U, i.e. c in the unique normal form g = c + sum_{n>0} a_n U^n + sum_{n>0} b_n V^n; for any representative g = sum a_ij U^i V^j it is
+> sum_i a_ii 2^{e_x i} (NOT a_00: e.g. UV dU/U has residue 2^{e_x}). It lies in R and is R-linear, which is all that is used. With sec 3:
+117c128,132
+< X_J = H_1(Gamma, Z) with Grothendieck's pairing = the length pairing (coarse-to-regular subdivision: sec 11.R2); by BR Cor 5.6 / Thm 1.3 / Prop 6.1 the retraction
+---
+> X_J = H_1(Gamma, Z) with Grothendieck's pairing = the length pairing (coarse-to-regular subdivision: sec 11.R2). Conrad–Stein's X_J (character
+> group of the Neron special-fibre torus over R) is BR's M: BR sec 4.1 (A_0 has special fibre the Neron identity component; T and T_k share the
+> character lattice); Coleman 2000 secs 1, 4 use the same identification. The integral residue-character identity is also a published statement:
+> Coleman, Asian J. Math. 4 (2000), Thm 4.1 / Cor 4.1.1 / Thm 4.2, pp. 320-322 (semistable model with smooth components; apply on the regular model,
+> coefficients constant along chains) — read by referee_2, NOT LOCAL; Lemma R re-derives it from BR; by BR Cor 5.6 / Thm 1.3 / Prop 6.1 the retraction
+135c150,151
+< im(Phi_J -> Phi_{E_0}) = Phi_L = coker(X_J -> Hom(Zv, Z) = Z, x -> <x, v>) = Z/(n_0/kappa), whose 2-part has order 2^{2-1} = 2. By sec 4, sp_J(c) generates Phi_J (x) Z_2 = Z/4, so its image generates
+---
+> im(Phi_J -> Phi_{E_0}) = Phi_L = coker(X_J -> Hom(Zv, Z) = Z, x -> <x, v>) = Z/(n_0/kappa), whose 2-part has order 2^{2-1} = 2. (Directly: inside
+> Phi_{E_0} = Hom(Zu, Z)/<X_J, u> = Z/n_0 Z the image of Hom(X_J, Z) -> Z, f -> f(u), is kappa Z, so the image is kappa Z/n_0 Z, of order n_0/kappa; kappa | n_0.) By sec 4, sp_J(c) generates Phi_J (x) Z_2 = Z/4, so its image generates
+171c187
+<  G5 sec 7/9 Conrad–Stein Lemma 6.3 for the ACTUAL optimal quotient (J semistable, target purely toric), and Lemma 4.1's image formula.
+---
+>  G5 sec 7/9 Conrad–Stein Lemma 6.3 for the ACTUAL optimal quotient (J semistable, target purely toric), and CS Prop 6.5's image formula.
+183,195c199,220
+< R1 (defects 1, 14) LEMMA R. Over C_2, let E_J -> J^an and E_{E_0} = G_m^an -> E_0^an be the Raynaud uniformizations (BR sec 4-5; Bosch–
+< Lutkebohmert, Degenerating abelian varieties, Topology 30 (1991) sec 1 — NOT LOCAL), E_J^0 the formal-analytic subgroup (generic fibre of the
+< formal completion of the Neron identity component), trop_J: E_J^an -> Hom(X_J, R) the lift of tau' to universal covers (BR proof of Thm 2.9:
+< "trop: E^an -> N_R is the (unique) lift of tau' to universal covers"). Then pi lifts to a homomorphism pi~: E_J^an -> G_m^an with
+<     trop_{E_0}(pi~(y)) = trop_J(y)(u),   u = pi^* xi,   for all y in E_J^an.
+< Proof. (1) Neron mapping property: pi extends to identity components and to their formal completions, E_J^0 -> E_{E_0}^0 = {|T| = 1}.
+< (2) The formal torus of J (the multiplicative part lifting T_{J,k}; Conrad–Stein Cor 8.5: unique and functorial) maps into that of E_0 = G_m-hat;
+< a homomorphism of formal tori is determined by its special fibre (rigidity), which is T_{J,k} -> T_{E_0,k} = G_m, the character u by definition of
+< pi^*. (3) The Raynaud extension is the pushout of the formal completion along T-hat -> T followed by algebraization, functorial in pi (BL91);
+< the uniformization is the unique homomorphism extending the inclusion of E^0, so p_{E_0} o pi~ = pi o p_J (two homomorphisms from the connected
+< E_J^an agreeing on the open subgroup E_J^0). (4) E_J^an = T_J^an . E_J^0 (the abelian quotient has good reduction), trop_J is trivial on E_J^0 and
+< equals t -> (chi -> -log|chi(t)|) on T_J^an (BR (5.5), Cor 5.6). For y = t e: -log|T(pi~(y))| = -log|u(t)| - log|T(pi~(e))| = trop_J(t)(u) + 0 =
+< trop_J(y)(u). []  The identity holds on universal covers; on skeleta only modulo the lattices, which is all sec 6 uses (slopes are local).
+---
+> R1 (defects 1, 14) LEMMA R [rev 2: proof rewritten on local BR citations; the Bosch–Lutkebohmert dependency is removed].
+> Setting: K a complete algebraically closed extension of Frac R, v(2) = 1 kept. For A = J and A = E_0 (split semi-abelian reduction), BR sec 4.1:
+> A_0 subset A^an is the unique compact formal K-analytic subgroup (special fibre = extension of B by the split torus T); E_A^an -> A^an is the
+> topological universal cover with its unique K-analytic group structure; T is the generic fibre of the R-torus with special fibre T (same
+> character lattice as the Neron special-fibre torus); T_0 = affinoid torus; 0 -> T_0 -> A_0 -> B^an -> 0 and A_0 is an analytic domain in E_A^an.
+> For E_0: E_{E_0}^an = G_m^an, (E_0)_0 = T_0 = {|T| = 1}. trop_A: E_A^an -> Hom(X_A, R) is the lift of tau' to universal covers (BR proof of
+> Thm 2.9), trivial on A_0 and equal to t -> (chi -> -log|chi(t)|) on T^an (BR sec 4.2).
+> CLAIM. The identity-preserving lift pi~: E_J^an -> G_m^an of pi o p_J satisfies -log|T(pi~(y))| = trop_J(y)(u), u = pi^* xi, for all y.
+> (1) Lift: E_J^an is the universal cover and p_{E_0} a local isomorphism, so pi o p_J lifts uniquely with pi~(0) = 1; applying uniqueness to
+>     the multiplication diagram shows pi~ is a homomorphism of K-analytic groups.
+> (2) Character: pi~ restricted to T^an is an analytic character, hence algebraic (BR proof of Prop 4.7: "analytic characters are algebraic");
+>     call it u'. Identification u' = pi^* xi: by the Neron mapping property pi extends to identity components, and completing along special
+>     fibres gives the homomorphism of compact formal subgroups J_0 -> (E_0)_0 = T_0^{E_0}; it is a lift of pi|J_0 preserving 0, so it equals
+>     pi~|J_0 (J_0 connected; uniqueness of lifts); the special fibre of J_0 is the Neron identity component J^0_k (BR sec 4.1;
+>     Coleman 2000 sec 1), so the reduction of pi~|T_0 is the toric part of the Neron map, the character pi^* xi of T_{J,k}; and the algebraic
+>     character chi_{u'} restricted to the affinoid torus T_0 reduces to the special-fibre character with the SAME lattice vector u' (T and T_k share
+>     the character lattice). So u' = u; no rigidity theorem (and no CS Cor 8.5) is used. (This identifies the CHARACTER lattice, not the period lattice.)
+> (3) Compare the homomorphisms h_1(y) = -log|T(pi~(y))| and h_2(y) = trop_J(y)(u) on E_J(K): on T(K) they agree by (2) and the definition of trop;
+>     on J_0(K), h_2 = 0 by definition and h_1 = 0 because pi~(J_0) subset {|T| = 1} by (2) (alternatively: h_1 is bounded on the compact J_0, and a
+>     bounded subgroup of R is 0). By E(K) = T(K) + J_0(K) (BR proof of Prop 5.3, L695) h_1 = h_2 on E_J(K), hence on E_J^an (base change to
+>     larger valued fields / density of K-points). []
+> The identity holds on universal covers; on skeleta it holds modulo lattices, and sec 6 uses only local slopes. No purely toric hypothesis on J.
+201,211c226,252
+< R3 (defects 4, 8, 9) Fine model and quotient. Y := moduli stack of (E, C_2, C_3, P_l) over Z_(2). The forgetful map Y -> X_{Gamma_0(N)} (stack),
+< P_l -> <P_l>, is finite etale over Z_(2) (l invertible; fibres are the generators of an etale cyclic group), so Y is regular because the
+< Gamma_0(N) stack is (1604.02165 sec 3.1, [Ces17 sec 4.4]) and its two special-fibre components cross transversally at supersingular points
+< (sec 3.8, [DR73 V.1.16(ii)]), which pulls back: completed local ring W[[x,y]]/(xy - 2 * unit) = W[[x,y]]/(xy - 2) after rescaling x.
+< Y is a scheme (Gamma_1(l), l >= 5, rigidifies: 1604.02165 (3.1.1) via [KM85 2.7.4], [Ces17 4.1.4]). Quotient: Y -> X (coarse DR model) is
+< finite and G-invariant, Y/G -> X is finite and birational onto the normal X, hence an isomorphism; at a closed point with stabilizer G_y
+< (residue field algebraically closed) the completed local ring of X is (O^_{Y,y})^{G_y}. Linearization: G_y of odd order e_x acts on the regular
+< 2-dimensional complete local ring; branch preservation (an element swapping the two components would have even order); averaging gives
+< eigen-coordinates x -> zeta x, y -> zeta' y with xy invariant up to unit, normalized so zeta' = zeta^{-1}; effectiveness because G acts
+< faithfully on the connected generic fibre. Invariants R[[x^3, y^3]] with x^3 y^3 = 8: UV = 2^3. Minimal resolution of UV = 2^e: a chain of e-1
+< (-2)-curves (A_{e-1} singularity). N = 2p analogues: GRAPH_LEMMA (sha 290914001ccaf68c...) Lemmas 3.2, 3.4-3.6.
+---
+> R3 (defects 4, 8, 9) Fine model and local quotient [rev 2: primary route via Gamma_1(6l); only a LOCAL quotient is needed].
+> All statements in R3 are on the elliptic-curve locus (cusps: I8, R4). Fine chart. Cesnavicius 1604.02165 (2.6.1): Gamma_1(n) = Gamma_0(2) cap Gamma_1(n/2) for ord_2 n = 1, and sec 2.6 (L377-378): for Gamma = Gamma_1(n),
+> n/2 >= 5, the model X_{Z_(2)} is a scheme and is REGULAR; sec 3.8: the components X^mu, X^et cross transversally at supersingular points
+> ([DR73 V.1.16(ii)]). With n = 6l (n/2 = 3l >= 5): the completed local ring at a supersingular point is R[[x,y]]/(xy - 2) by the LOCAL-ALGEBRA LEMMA (= GRAPH_LEMMA
+> Lemma 3.1): if A is a complete regular 2-dimensional local ring, flat over R, with A/2A = k[[x,y]]/(xy), lifts x, y give a Cohen presentation
+> A = R[[x,y]]/(f), f = xy v + 2g with v a unit; regularity forces f not in m^2 = (2,x,y)^2, so 2g is not in m^2 and g is a unit; replacing x by
+> -xv/g gives f = xy - 2. On this model the elliptic points are (E, C_2, P_3, P_l).
+> Forget P_3, keep C_3 = <P_3>: (E, C_2, P_3, P_l) -> (E, C_2, C_3, P_l) is the quotient by (Z/3)^x = {+-1} acting on P_3; the action is FREE (an
+> automorphism alpha != 1 of E has deg(alpha - 1) = 2 - Tr(alpha) <= 4 < l, so fixes no point of order l), so the map is finite etale of degree 2 (degree 2 in residue characteristic 2 does not
+> obstruct etaleness of a free quotient). Completed local rings at supersingular points are therefore unchanged: R[[x,y]]/(xy - 2) on Y.
+> (Alternative route: the Gamma_0(N) stack is regular — Ces17 = arXiv:1511.07475v2 Thm 1.5 = 5.13(a), as cited in 1604.02165 sec 3.1 — and
+> Y -> X_{Gamma_0(N)} forgetting a generator of C_l is etale on the elliptic locus; rigidity of Gamma_1(l)-structures, l >= 5: KM85 sec 2.7.)
+> Local quotient. G = (Z/l)^x/{+-1} (odd order (l-1)/2) acts on Y; -1 acts trivially via [-1]. Only the quotient NEAR SUPERSINGULAR POINTS is used
+> (I8 supplies the global components and the cusps): for a supersingular point y with stabilizer G_y, the completed local ring of X_R at its image
+> is (O^_{Y,y})^{G_y} (finite group, algebraically closed residue field).
+> Stabilizers (explicit): on y^2 + y = x^3 over Fbar_2 the automorphisms are x -> a^2 x + s^2, y -> y + a^2 s x + t (a in F_4^x, s in F_4,
+> t^2 + t = s^6): 24 of them, the two t differing by [-1]; the 3-division polynomial is x^4 + x, so the four cyclic 3-subgroups correspond to x in F_4
+> and the effective action is AGL_1(F_4) = A_4 (cross-checked by the Hurwitz-unit computation, checks sec 3). A stabilizer of C_3 is cyclic of order 3.
+> An order-3 automorphism alpha satisfies alpha^2 + alpha + 1 = 0 in End(E): on E[l] it fixes 2 lines (l = 1 mod 3) or none (l = 2 mod 3); on E[3] it is
+> a nonidentity unipotent (alpha - 1 has degree 3 and cannot kill E[3]), one fixed line. So e_x := |Stab| in {1, 3}; the G-stabilizer maps
+> isomorphically onto it (alpha acts on C_l by a primitive cube root of unity, nontrivial modulo +-1).
+> Eigenparameter (effective order-3 stabilizer sigma): sigma preserves the two branches (a swap has order 2); its tangent action is faithful (an
+> automorphism of order prime to 2 trivial on the cotangent space is trivial on the complete ring); choose a parameter x of one branch, average it
+> against the order-3 character to get an eigenparameter x' in (x) with x'/x a unit, and put y' = 2/x' (a parameter of the other branch). Then
+> sigma(x') = zeta x', sigma(y') = zeta^{-1} y', x'y' = 2, and (R[[x',y']]/(x'y' - 2))^{<sigma>} = R[[U,V]]/(UV - 8), U = x'^3, V = y'^3. Trivial
+> stabilizer gives UV = 2. Counts: h_3 = #{e_x = 3} = 2 if l = 1 mod 3 and 0 otherwise, h_1 = (l-1)/3 resp. (l+1)/3, so Sum 1/e_x = h_1 + h_3/3 = (l+1)/3.
+> Minimal resolution of UV = 2^e: a chain of e-1 (-2)-curves. N = 2p analogues: GRAPH_LEMMA (sha 290914001ccaf68c...) Lemmas 3.2, 3.4-3.6.
+217c258
+<  definition of X^mu, and the "mu-model" descent of inf, L315). On the generic fibre w_N(inf) = 0, so the closure 0-bar = w_N(inf-bar) lies on
+---
+>  definition of X^mu; Edixhoven arXiv:math/0312019v1 p. 7: C_inf contains inf and C_0 contains 0). On the generic fibre w_N(inf) = 0, so the closure 0-bar = w_N(inf-bar) lies on
+221,222c262,264
+<  (M Lemma M8). Atkin–Lehner eigenvalues: for p || N and a weight-2 newform with rational coefficients, a_p = -epsilon_p (Atkin–Lehner 1970,
+<  Thm 3; W.-C. Li 1975, Thm 3 — NOT LOCAL); epsilon_N = prod epsilon_p; consistent with root number +1 from the analytic side.
+---
+>  (ADDENDUM_015 M_DRAFT sec 4, lines 410-415, recorded there as a paraphrase, not a quotation). Atkin–Lehner eigenvalues: for p || N and a weight-2 newform with rational coefficients, a_p = -epsilon_p (Atkin–Lehner 1970,
+>  Thm 3; W.-C. Li 1975, Thm 3 — NOT LOCAL); epsilon_N = prod epsilon_p; consistent with root number +1 from the analytic side. Supporting local text: Conrad–Stein sec 7.3
+>  ("Frob_p = -W_p" on X_J) with Frobenius acting on X_{E_0} by +1 for split and -1 for nonsplit reduction. UNVERIFIED primary import (referee_2 D12).
+226c268,270
+<  ray to 0 at C_0 (R4). BPR Thm 5.15 and Prop 2.2 are applied in this setting.
+---
+>  ray to 0 at C_0 (R4). BPR Thm 5.15 and Prop 2.2 are applied in this setting. ORIENTATION: every edge is oriented from C_inf to C_0 with
+>  coordinate U, v(U) = 0 at the C_inf end and e_x at the C_0 end; s_x, u_x, z_x and all annular residues use this orientation (it matters on the
+>  negative branch, where the constant in e_x u_x = C mod 4 is odd).
+239a284,299
+> R10 (harness) checks/run_all_checks.py rev 2 is FAIL-CLOSED: it raises on any failed mod-4 coefficient comparison, on a non-unique ecdata model
+>  match, on opt != 1 or mc != 1 or a non-unique optimal curve, on a component-group 2-part != Z/4 or non-cyclic, and on slope residues != {2};
+>  it ends with DATABASE_STATUS=PASS_WITH_SUPPLIED_ECDATA or NOT_REPLAYED_NO_ECDATA. Its twist-family count is of CURVE-PRIME PAIRS, not distinct
+>  primes. (Adopted from the author-side recheck's FAIL_CLOSED_PATCH.diff; rev 1's script printed these outcomes without raising.)
+> R11 (Manin, wording) 1703.02951v3 Thm 1.2 gives v_p(c_pi) = 0 for each prime p with p^2 !| N; c_pi = +-1 follows by applying it at every prime of the
+>  squarefree conductor N (2p or 6l; the exponent 3 in D = 27*19 is a discriminant exponent, not a conductor exponent).
+> R12 (review custody) referee_1 reviewed rev 0 (sha 0cf7a5f9e598d8d8...), referee_2 reviewed rev 1 (sha 953d4d6c2fb711a5...): PASS WITH REMARKS,
+>  0 BLOCKING, defects D1-D14; its REPAIR_CHECK found referee_1's defects 14 RESOLVED + 1 PARTIAL (defect 4). Rev 2 also addresses referee_2 D1-D14:
+>  I1 Kenku pointer; I3-I5 pins; I8 Edixhoven; I9 polarization; I11 citations; sec 5 punctured curve; sec 6 Coleman Thm 4.1 and the X_J = M
+>  identification; sec 10 G5 wording; R1(2) without CS Cor 8.5; R3 local-algebra lemma, elliptic locus, Ces17 5.13(a), KM85, rigidity degree bound;
+>  R4 pointers and the Atkin–Lehner support; R5 orientation. Rev 2 changes: header;
+>  sec 5 residue wording; sec 7 direct image sentence; sec 11.R1 (Lemma R proof on BR citations); sec 11.R3 (Gamma_1(6l) fine chart, local quotient,
+>  explicit stabilizers, eigenparameter); R10-R12. No statement in sec 0 changes. SEALING REQUIRES: referee_1 delta review (rev 0 -> rev 2) and
+>  referee_2 delta review (rev 1 -> rev 2), both no-repair. The author-side recheck of 2026-09-16 (H41_SUCCESSOR_AUTHOR_RECHECK) is NOT an
+>  independent review.
+> 

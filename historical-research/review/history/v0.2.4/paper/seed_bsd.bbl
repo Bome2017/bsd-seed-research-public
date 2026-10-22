@@ -1,0 +1,176 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{arsmanin}
+Amod Agashe, Kenneth~A. Ribet, and William~A. Stein, \emph{The {Manin}
+  constant}, Pure and Applied Mathematics Quarterly \textbf{2} (2006), no.~2,
+  617--636.
+
+\bibitem{ars}
+\bysame, \emph{The modular degree, congruence primes, and multiplicity one},
+  Number theory, analysis and geometry, Springer, 2012, pp.~19--49.
+
+\bibitem{bdheights}
+Massimo Bertolini and Henri Darmon, \emph{Derived {$p$}-adic heights}, Amer. J.
+  Math. \textbf{117} (1995), no.~6, 1517--1554.
+
+\bibitem{bd05}
+\bysame, \emph{Iwasawa's main conjecture for elliptic curves over
+  anticyclotomic {$\mathbf Z_p$}-extensions}, Ann. of Math. (2) \textbf{162}
+  (2005), no.~1, 1--64.
+
+\bibitem{blv}
+Massimo Bertolini, Matteo Longo, and Rodolfo Venerucci, \emph{The
+  anticyclotomic main conjectures for elliptic curves}, Math. Ann. \textbf{395}
+  (2026), Article 34; DOI 10.1007/s00208-026-03381-0. Source checks in this
+  project use arXiv:2306.17784v2; journal text not collated.
+
+\bibitem{brion}
+Michel Brion, \emph{Anti-affine algebraic groups}, J. Algebra \textbf{321}
+  (2009), no.~3, 934--952.
+
+\bibitem{bck}
+Ashay Burungale, Francesc Castella, and Chan-Ho Kim, \emph{A proof of
+  {P}errin-{R}iou's {H}eegner point main conjecture}, Algebra Number Theory
+  \textbf{15} (2021), no.~7, 1627--1653, DOI 10.2140/ant.2021.15.1627.
+
+\bibitem{castellasano}
+Francesc Castella and Takamichi Sano, \emph{On refined nonvanishing conjectures
+  by {K}urihara and {K}olyvagin}, 2026, Preprint, arXiv:2601.14504v1; Theorem
+  B.
+
+\bibitem{cns}
+K{\k{e}}stutis {\v{C}}esnavi{\v{c}}ius, Michael Neururer, and Abhishek Saha,
+  \emph{The {M}anin constant and the modular degree}, J. Eur. Math. Soc.
+  \textbf{26} (2024), no.~2, 573--637, DOI 10.4171/JEMS/1367; arXiv:1911.09446.
+
+\bibitem{cremona}
+J.~E. Cremona, \emph{Algorithms for modular elliptic curves}, second ed.,
+  Cambridge University Press, 1997.
+
+\bibitem{edixhoven}
+Bas Edixhoven, \emph{On the {M}anin constants of modular elliptic curves},
+  Arithmetic algebraic geometry ({T}exel, 1989), Progr. Math., vol.~89,
+  Birkh\"auser, 1991, pp.~25--39.
+
+\bibitem{edixhoventhesis}
+Sebastiaan~Johan Edixhoven, \emph{Stable models of modular curves and
+  applications}, Ph.D. thesis, Universiteit Utrecht, 1989, Theorem 4.6.3, pp.
+  60--61; statement checked directly in the follow-up review.
+
+\bibitem{elkies}
+Noam~D. Elkies, \emph{The existence of infinitely many supersingular primes for
+  every elliptic curve over {$\mathbf Q$}}, Invent. Math. \textbf{89} (1987),
+  no.~3, 561--567.
+
+\bibitem{gv}
+Ralph Greenberg and Vinayak Vatsal, \emph{On the {I}wasawa invariants of
+  elliptic curves}, Invent. Math. \textbf{142} (2000), no.~1, 17--63.
+
+\bibitem{gz}
+Benedict~H. Gross and Don~B. Zagier, \emph{Heegner points and derivatives of
+  {$L$}-series}, Invent. Math. \textbf{84} (1986), no.~2, 225--320.
+
+\bibitem{arb}
+Fredrik Johansson, \emph{Arb: efficient arbitrary-precision midpoint-radius
+  interval arithmetic}, IEEE Transactions on Computers \textbf{66} (2017),
+  no.~8, 1281--1292.
+
+\bibitem{jones}
+John~W. Jones, \emph{Iwasawa {$L$}-functions for multiplicative abelian
+  varieties}, Duke Math. J. \textbf{59} (1989), no.~2, 399--420.
+
+\bibitem{kato}
+Kazuya Kato, \emph{$p$-adic {H}odge theory and values of zeta functions of
+  modular forms}, Ast\'erisque \textbf{295} (2004), 117--290.
+
+\bibitem{kimch}
+Chan-Ho Kim, \emph{The structure of {S}elmer groups and the {I}wasawa main
+  conjecture for elliptic curves}, 2025, arXiv:2203.12159v6, revised 14 May
+  2025; Theorems 1.8 and 1.10.
+
+\bibitem{kimkurihara}
+Chan-Ho Kim and Masato Kurihara, \emph{On the refined conjectures on {F}itting
+  ideals of {S}elmer groups of elliptic curves with supersingular reduction},
+  2018, arXiv:1804.00418; this reference identifies the manuscript used,
+  without asserting unverified journal pagination.
+
+\bibitem{kitajima}
+Takahiro Kitajima and Rei Otsuki, \emph{On the plus and the minus {S}elmer
+  groups for elliptic curves at supersingular primes}, 2018, arXiv:1607.03612;
+  published in Tokyo J. Math. 41 (2018). Used also for its restatement of B. D.
+  Kim's theorem.
+
+\bibitem{kobayashi}
+Shin-ichi Kobayashi, \emph{Iwasawa theory for elliptic curves at supersingular
+  primes}, Invent. Math. \textbf{152} (2003), no.~1, 1--36.
+
+\bibitem{kolyvagin}
+V.~A. Kolyvagin, \emph{Euler systems}, The Grothendieck Festschrift, Vol. II,
+  Progr. Math. \textbf{87} (1990), 435--483.
+
+\bibitem{mcs}
+Daniel Macias~Castillo and Takamichi Sano, \emph{On {S}elmer complexes, {S}tark
+  systems and derived {$p$}-adic heights}, 2026, Preprint, arXiv:2603.23978v1
+  (2026).
+
+\bibitem{mtt}
+B.~Mazur, J.~Tate, and J.~Teitelbaum, \emph{On $p$-adic analogues of the
+  conjectures of {B}irch and {S}winnerton-{D}yer}, Invent. Math. \textbf{84}
+  (1986), 1--48.
+
+\bibitem{ota}
+Kazuto Ota, \emph{Kato's {E}uler system and the {M}azur--{T}ate refined
+  conjecture of {BSD} type}, 2015, arXiv:1509.00682; Theorems 5.17 and 6.4.
+
+\bibitem{pasten}
+Hector Pasten, \emph{Shimura curves and the abc conjecture}, 2017,
+  arXiv:1705.09251; section 10 is used.
+
+\bibitem{pollack}
+Robert Pollack, \emph{On the {$p$}-adic {$L$}-function of a modular form at a
+  supersingular prime}, Duke Math. J. \textbf{118} (2003), no.~3, 523--558.
+
+\bibitem{poonenstoll}
+Bjorn Poonen and Michael Stoll, \emph{The {C}assels--{T}ate pairing on
+  polarized abelian varieties}, Ann. of Math. (2) \textbf{150} (1999), no.~3,
+  1109--1149.
+
+\bibitem{skinner}
+Christopher Skinner, \emph{Multiplicative reduction and the cyclotomic main
+  conjecture for {GL}$_2$}, Pacific J. Math. \textbf{283} (2016), no.~1,
+  171--200.
+
+\bibitem{su}
+Christopher Skinner and Eric Urban, \emph{The {I}wasawa main conjectures for
+  {GL}$_2$}, Invent. Math. \textbf{195} (2014), no.~1, 1--277.
+
+\bibitem{sw}
+William Stein and Christian Wuthrich, \emph{Algorithms for the arithmetic of
+  elliptic curves using {I}wasawa theory}, Math. Comp. \textbf{82} (2013),
+  no.~283, 1757--1792.
+
+\bibitem{tamiozzo}
+Matteo Tamiozzo, \emph{Congruences of modular forms and modularity of
+  {T}ate--{S}hafarevich classes}, 2024, arXiv:2402.07317 (public manuscript
+  read); proceedings version verified at metadata level only.
+
+\bibitem{werner}
+Annette Werner, \emph{Local heights on abelian varieties and rigid analytic
+  uniformization}, Doc. Math. \textbf{3} (1998), 301--319.
+
+\bibitem{zhang}
+Wei Zhang, \emph{Selmer groups and the indivisibility of {H}eegner points},
+  Camb. J. Math. \textbf{2} (2014), no.~2, 191--253.
+
+\bibitem{zywina}
+David Zywina, \emph{There are infinitely many elliptic curves over the
+  rationals of rank 2}, 2025, Preprint, arXiv:2502.01957v1; Theorem 1.2.
+
+\end{thebibliography}

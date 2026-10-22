@@ -1,0 +1,2 @@
+L = [["57a1",[0,-1,1,-2,2]],["681c1",[0,-1,1,0,2]],["681b1",[1,1,0,-1154,-15345]],["33a1",[1,1,0,-11,0]]];
+for(i=1,#L, my(E=ellinit(L[i][2])); my(bsd = ellbsd(E)); print(L[i][1], ": sign(disc) = ", sign(E.disc), " (components of E(R) = ", if(E.disc>0,2,1), ") ; PARI ellbsd = Omega*prod c/tors^2 = ", bsd, " ; L(E,1) = ", lfun(E,1), " ; L(E,1)/ellbsd = ", if(abs(lfun(E,1))>1e-9, lfun(E,1)/bsd, "n/a (rank>0)"), " ; ellpadicL(E,3,8) = ", ellpadicL(E,3,8)));

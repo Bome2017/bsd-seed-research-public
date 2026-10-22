@@ -1,0 +1,26 @@
+{
+  "case_id": "old-fails-new-passes",
+  "kind": "abstract_control",
+  "p": 5,
+  "delta": {
+    "precision": 5,
+    "residues": [
+      125,
+      0
+    ]
+  },
+  "bockstein": {
+    "precision": 5,
+    "residues": [
+      0,
+      25
+    ]
+  },
+  "local_log": {
+    "precision": 5,
+    "residues": [
+      1,
+      0
+    ]
+  }
+}

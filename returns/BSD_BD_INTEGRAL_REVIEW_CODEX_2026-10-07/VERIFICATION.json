@@ -1,0 +1,24 @@
+{
+  "original_2x2_cases_reproduced": 16,
+  "original_stdout_byte_identical": true,
+  "local_point_control_reproduced": true,
+  "point_pairs": {
+    "5": [
+      73,
+      223
+    ],
+    "7": [
+      173,
+      367
+    ],
+    "11": [
+      47,
+      271
+    ]
+  },
+  "negative_control": 283,
+  "formal_proof_checked": false,
+  "new_seed_kato_or_gross_value": false,
+  "proof_grade": "conditional written review; no novelty assertion",
+  "known_source_domain_exclusion": 7
+}

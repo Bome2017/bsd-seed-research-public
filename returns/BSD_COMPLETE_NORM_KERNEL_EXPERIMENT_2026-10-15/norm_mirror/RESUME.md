@@ -1,0 +1,1 @@
+Complete. Read RESULT.md, complete_certificate.json and REPLAY.json. All five actual scalar norms and three literal cube kernel witnesses checked. Rank-two negative image certified. Full local intersection zero. No new BNF; old certified source retained.

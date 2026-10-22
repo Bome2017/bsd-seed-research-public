@@ -1,0 +1,15 @@
+{
+ "artifact": "BSD seed frontier freeze",
+ "date": "2026-09-22",
+ "purpose": "Short frontier statement so future runs do not re-derive the same obstruction under new vocabulary. NOT a master map.",
+ "canonical_record": "~/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+ "sections": ["1 proved endpoint data", "2 two open obligations", "3 route stops with scope", "4 admission gate", "5 computational capability", "6 do-not-overclaim rules"],
+ "corrections_incorporated": {
+  "arrow_orientation": "WITHDRAWN. 'Must map out of Selmer, not into it' is wrong: a bounded source surjecting onto the quotient and a bounded target receiving it injectively are both admissible. The gate is CONTROL OF THE WHOLE QUOTIENT by surjection, injection, bounded kernel/cokernel, annihilator, exact sequence, or proved equivalent. The real defect in the killed automorphic routes was ABSENCE OF COVERAGE, not direction. NOTE: the 2026-09-20 Aristotle invention packet ships this error as Shape 1 and trap 1; it must not be reissued without replacing that rule.",
+  "p_adic_and_FORMULA": "'p-adic work cannot supply FORMULA' WITHDRAWN. Correct: no current p-adic-to-real comparison is available. A future theorem comparing a p-adic leading term/regulator with the real Neron-Tate regulator could in principle bridge them.",
+  "curvature_scope": "BROAD_CURVATURE_ORTHOGONALITY kills the moderate-growth global automorphic scalar full-domain pairing class ONLY. It does not close real-regulator comparisons generally, higher Green objects, arithmetic cycles, finite-place constructions, or nonlocal kernels."
+ },
+ "prime_ladder": "STOPPED AT 13. Further rungs move the conditional threshold 2601 -> 3249 -> 4761 -> 7569 without touching the infinite tail, at rising cost. Reopen only if a theorem reduces the tail to a finite exceptional set containing 17, or 17 becomes strategically special.",
+ "open": ["FIN (Sha finite of order 9)", "real leading-term comparison q = 36 = 4 #Sha"],
+ "authorizes_successor": false
+}

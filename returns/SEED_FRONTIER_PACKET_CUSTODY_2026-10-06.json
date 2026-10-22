@@ -1,0 +1,220 @@
+{
+ "return": "BSD_SEED_FRONTIER_2026-10-06",
+ "uploaded_utc": "2026-10-07T00:40:23Z",
+ "author": "Claude (Opus 5.5)",
+ "kind": "canonical Aristotle frontier packet (prepared, not submitted)",
+ "verdict": "PREPARED_NOT_SUBMITTED; canonical state with one live question (Sha-free Tame Law, G1)",
+ "files": [
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/G2/AUDIT_CODEX.md",
+   "sha256": "730797b16cc9b1ee18f70cc113e54c49eaf7928979a9e5fec19964b1c3b8bfe6",
+   "bytes": 17133
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/G2/G2_PROOF.md",
+   "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+   "bytes": 19924
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/SETTLED_PRIMES.md",
+   "sha256": "58720316b0729cba347071570ceefbdf710acc28a743c95755b9744f043f29e2",
+   "bytes": 8370
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/k288_audit/K288_AUDIT.json",
+   "sha256": "89adba43420b793a4dceeafcfdd7897d3c1b4b3ca1adac3bbe0d6167f2350995",
+   "bytes": 3193
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/k288_audit/RESULT.md",
+   "sha256": "17e24d0804dc8384a10e3530d2a5e0c13261c68518eead1c5a3c2ff1c018783d",
+   "bytes": 8221
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/ota/SINGLETON_SPEC_v1_audited.md",
+   "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f",
+   "bytes": 5504
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/receiver/INTEGRATED_STATEMENT.md",
+   "sha256": "a205736afdbf448acdc0c62b6f1a5aedaf000f18ec74b2e3b01be01c070198e5",
+   "bytes": 1418
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/receiver/REVIEW_CODEX.md",
+   "sha256": "416ed97c65483fb9743d332ef29a5431f39d2f79996e6668ef26b7cb7f95693d",
+   "bytes": 4362
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/theorem_W/AUDIT_CODEX.md",
+   "sha256": "a2713a9f489bce17b5b343ff09d055d666633671126868cb55b8d170257126f2",
+   "bytes": 9202
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/theorem_W/AUDIT_CODEX_A_REPAIR.md",
+   "sha256": "26ceeff20cb7d6d0f8cf465835ccc487818fb99a844306a95ec45d018a200f01",
+   "bytes": 9405
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/theorem_W/THEOREM_W.md",
+   "sha256": "286884ff23d811d6061eec214dab848c4e951402b40b549c5e57fc22064a1598",
+   "bytes": 3604
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/twist/DIRECTION_REVIEW_CODEX.md",
+   "sha256": "5810e582b2444dcd7cbe60524c63e40ae0423c6c45c5d95185c3fb898a67eb4f",
+   "bytes": 11813
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/1_PROVED_STATE/twist/HEEGNER_NU.md",
+   "sha256": "62e94b95945b2ce69bff51ddd9b8972104587f6d9603ca1393e325afb56285b0",
+   "bytes": 4717
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/CLOSED_LANES.md",
+   "sha256": "cc47c4dd34cc6a3b6d9460900d6720924fff2736be60f0ef725bce82b600bd51",
+   "bytes": 3899
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/COINVARIANT_DESCENT.md",
+   "sha256": "47c5cdc10618235440ec8a1fc2b99d9b6320ed9130efaa360d9e9193a44a6dd2",
+   "bytes": 10193
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/EXTERNAL_OPENAI_RESULT002_TRANSPLANT.md",
+   "sha256": "1c1800dfffb0d3ddf7fc46f53d6b902e2abb86f7367c01eadfb06025b3ace70c",
+   "bytes": 6703
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/K288_UNIFORMITY_ANALYSIS.md",
+   "sha256": "79c26d2dd1a5089a8f01f71dc5aba41a28aa2c30c92236c0ccd4bc5e2944dd9d",
+   "bytes": 5695
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/SEED_ADMISSION_TEST.md",
+   "sha256": "00feab7c987ea130e8cd6cb0b812d2f3a2632674c581e9c2629d37fc8c67ea9d",
+   "bytes": 8349
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/UNIFORM_STEP_FINDINGS_2026-10-03.md",
+   "sha256": "866d27dfcec7a30e78445861a3d6617261d068a47a82bbb0b48329d956449d59",
+   "bytes": 15671
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/UPPER_CONTROL_REVIEW.md",
+   "sha256": "140f1a8e79d3b2d0f410f4aa9a81efd995f1f86106d50a5342b77e14d5860e59",
+   "bytes": 7545
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/W3_ONE_SIDED_SCREEN.md",
+   "sha256": "6480c4632382857de2c9f7817abb94df8b52c8f7b70a88dfe49a3eb5cb97668c",
+   "bytes": 13128
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/ADMISSION.md",
+   "sha256": "332849a01822a85f9cf88c69ed3743fb09e7c50a159d79a822629542c4a56023",
+   "bytes": 3968
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/K288_UNIFORMITY_AUDIT_CODEX.md",
+   "sha256": "d1090708ad629a0d4c58f15a114091bc03bf980b5925321761fe1b03c4a7281a",
+   "bytes": 13780
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/K288_UNIFORMITY_AUDIT_CODEX_CORRECTIONS.md",
+   "sha256": "1897f4b59293144c009f55c122e7baddceb6361ba6ebd7a1df4c90d5c6ebb649",
+   "bytes": 2010
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/STATUS.md",
+   "sha256": "4df8dc1fbde298a19fe35fe6c88c65b3bbcdaf6f39647b97d438c7fcdb0fa62d",
+   "bytes": 6318
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/Coinvariant/DetectorRule.lean",
+   "sha256": "1c354f58c79da0474c644b1fa19846340d50a44a7c9aae79caa59e5a2dbe5cb1",
+   "bytes": 9514
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/Coinvariant/Frontier.lean",
+   "sha256": "650bab87daefdb3ecd43234142155f3911fe1283ccd9df5387512535634c5da3",
+   "bytes": 5321
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/Coinvariant/TameCarrier.lean",
+   "sha256": "800e3379ed243d8ca5c105f4af95547f505f12b0b91af0476aec1dd462c1b72a",
+   "bytes": 10657
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/Coinvariant/TameCircularity.lean",
+   "sha256": "63f16c7453ced54800944ae0239c1426601b9df72d7dc3437cc9d8e65b9f7506",
+   "bytes": 14288
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/Coinvariant/TameLink.lean",
+   "sha256": "4d8c9e22f66d2644cbb55369eb3acbd679cb73752e8235eb5dc5f8288f270a2d",
+   "bytes": 8924
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/LEAN_RECOMPILE.txt",
+   "sha256": "88f517c856dfed8f57aca5c2da4ea399be67e06c2395fbbf6f50f765b6db95a8",
+   "bytes": 9878
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/README.md",
+   "sha256": "a4db8735d44f9678627b9d4c36b21864d84adba648d3d39ea9080d3267ef5ff0",
+   "bytes": 1466
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/RequestProject/Continuation/AuxiliaryPrime.lean",
+   "sha256": "cb143c4c0d4aef75e2b17621cb32546b8fee4979dfb61b909501503b4b012f92",
+   "bytes": 17015
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/RequestProject/Continuation/Frontier.lean",
+   "sha256": "b2dd6a13884d8654a2754a0bbd5089c7cc3ad3157877c844e50f8479e20c2e08",
+   "bytes": 14382
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/RequestProject/Continuation/MiddleGround.lean",
+   "sha256": "d51f3a598ea883ef76fb92c6408b054b3d1173c9f75711c503435ff9e6ea6e23",
+   "bytes": 11084
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/RequestProject/Continuation/TamePointCounts.lean",
+   "sha256": "8a63fcc74202bfd0ed2d0afc27fe9223b0f326b63cb011458dc05268179c8cfe",
+   "bytes": 2374
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/RequestProject/Continuation/TameScalar.lean",
+   "sha256": "93216f6054ca04882f01c96fd361ca113777746b2631c6c2b308e049fbd41419",
+   "bytes": 6734
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/CURRENT_FRONTIER.md",
+   "sha256": "8aa27cffdc9a0fe0c80aea42319e93765f96e9a4ff32e08d96038aeaab2bee23",
+   "bytes": 7597
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/MANIFEST.sha256",
+   "sha256": "5630c7778b8a82f466ae75599fc474280de2e889d972beb605abb66cd82c77d6",
+   "bytes": 4269
+  },
+  {
+   "path": "BSD_SEED_FRONTIER_2026-10-06/TASK.md",
+   "sha256": "3b01371029e7cd3f26c2c906a9929426a0f9529418f60634642fa5c1432385d9",
+   "bytes": 3044
+  },
+  {
+   "path": "archives/BSD_SEED_FRONTIER_2026-10-06.tar.gz",
+   "sha256": "a5f0266df85139aa16e210cfe4c600221ef9f29f0c27a346b68951af974d1ff1",
+   "bytes": 125517
+  }
+ ],
+ "scope": "custody and file identity; publication does not certify a theorem; contains copies of earlier record documents",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false,
+ "revised_utc": "2026-10-07T00:56:05Z",
+ "revision_note": "Revision 2: adds 2_CLOSED_LANES/EXTERNAL_OPENAI_RESULT002_TRANSPLANT.md, a closed-lane row and a CURRENT_FRONTIER screened-sources line (OpenAI math Result 002: PRECISE_CORANK2_BREAK as a G1 source; external methodological evidence only). Revision 1 is commit 71d5159."
+}

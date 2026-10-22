@@ -1,0 +1,54 @@
+MERGE checkpoints 6 units 67 missing 0 terms 90400127
+FINGERPRINT sum_units 32e1386d9f6475ce array 32e1386d9f6475ce match 1
+COUNT smooth 66681013 pairs 134645578 sum 201326591 T 201326591 identity 1
+AP_SEGROOT_SHA256 7ee8f25cd81beb493490c8261b2110c181dfd3319371e25ea4852e0092333b1f segments 12
+ROUNDING_ERR_TOTAL [2.282020033e-21 +/- 4.46e-31]
+TAIL_MS_UPPER_TIMES2 248740.7535
+S 0 [0.00610460082110335751 +/- 4.07e-21]
+S 1 [0.50804792660725757903 +/- 6.68e-21]
+S 2 [-0.80572290406132910509 +/- 2.74e-21]
+S 3 [-0.43801129231935241334 +/- 2.66e-21]
+S 4 [-0.10481452418997795369 +/- 3.84e-21]
+S 5 [0.13407887802202892746 +/- 2.84e-21]
+S 6 [0.52235981523760364672 +/- 3.56e-21]
+S 7 [0.08427339431491749434 +/- 5.30e-21]
+S 8 [0.17040655498384256060 +/- 5.04e-21]
+S 9 [0.13473396149926155412 +/- 4.25e-21]
+S 10 [0.31901804519398107071 +/- 4.36e-21]
+S 11 [-0.79990253805678246256 +/- 5.46e-21]
+S 12 [-0.01614069320889594796 +/- 5.86e-21]
+S 13 [0.05263141271302677757 +/- 6.75e-21]
+S 14 [-0.03198798163895173250 +/- 3.11e-21]
+S 15 [0.01773123109841992828 +/- 3.17e-21]
+S 16 [0.04633044625246400728 +/- 5.92e-21]
+S 17 [0.11615891546931122013 +/- 6.92e-21]
+S 18 [-0.13630659094774553060 +/- 5.79e-21]
+S 19 [0.16167323143913172805 +/- 5.57e-21]
+S 20 [-0.26375152881410127914 +/- 2.79e-21]
+S 21 [-0.05095049035247468974 +/- 5.21e-21]
+S 22 [0.39963612475381454956 +/- 4.25e-21]
+S 23 [-0.23870328004425393646 +/- 2.36e-21]
+S 24 [-0.11442612505070409543 +/- 6.90e-21]
+S 25 [-0.15743980157745823070 +/- 3.75e-21]
+S 26 [0.37920203108305982043 +/- 6.69e-21]
+OMEGA_PLUS [0.0280449015194364044483094018079 +/- 3.04e-32]
+OMEGA_MINUS [0.0305556264963434249561173450733 +/- 1.88e-32]
+XB 1 plus [+/- 8.87e+6] cand 69672/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 12812/1024 contains 1 unique 0
+XB 2 plus [+/- 8.87e+6] cand -71832/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -23644/1024 contains 1 unique 0
+XB 4 plus [+/- 8.87e+6] cand 69672/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 12812/1024 contains 1 unique 0
+XB 5 plus [+/- 8.87e+6] cand 39504/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -28072/1024 contains 1 unique 0
+XB 7 plus [+/- 8.87e+6] cand -22224/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 21904/1024 contains 1 unique 0
+XB 8 plus [+/- 8.87e+6] cand -48768/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 3820/1024 contains 1 unique 0
+XB 10 plus [+/- 8.87e+6] cand 39504/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 28072/1024 contains 1 unique 0
+XB 11 plus [+/- 8.87e+6] cand -22224/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -21904/1024 contains 1 unique 0
+XB 13 plus [+/- 8.87e+6] cand -48768/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -3820/1024 contains 1 unique 0
+XB 14 plus [+/- 8.87e+6] cand -48768/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 3820/1024 contains 1 unique 0
+XB 16 plus [+/- 8.87e+6] cand -22224/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 21904/1024 contains 1 unique 0
+XB 17 plus [+/- 8.87e+6] cand 39504/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -28072/1024 contains 1 unique 0
+XB 19 plus [+/- 8.87e+6] cand -48768/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -3820/1024 contains 1 unique 0
+XB 20 plus [+/- 8.87e+6] cand -22224/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -21904/1024 contains 1 unique 0
+XB 22 plus [+/- 8.87e+6] cand 39504/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 28072/1024 contains 1 unique 0
+XB 23 plus [+/- 8.87e+6] cand 69672/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -12812/1024 contains 1 unique 0
+XB 25 plus [+/- 8.87e+6] cand -71832/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand 23644/1024 contains 1 unique 0
+XB 26 plus [+/- 8.87e+6] cand 69672/1024 contains 1 unique 0 minus [+/- 8.15e+6] cand -12812/1024 contains 1 unique 0
+XB_PLUS_DETERMINED 0 of 18 (lattice 1/1024 Z)

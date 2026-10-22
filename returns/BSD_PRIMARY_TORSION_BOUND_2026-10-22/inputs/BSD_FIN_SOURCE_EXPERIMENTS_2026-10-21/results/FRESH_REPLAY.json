@@ -1,0 +1,70 @@
+{
+  "status": "PASS_FRESH_DIRECTORY_REPLAY",
+  "raw_files_identical": 12,
+  "summaries_match_except_timings": 4,
+  "direct_verifier_output": "PASS_DIRECT_PRODUCT_VERIFIER rows=20440 GMP=6.3.0",
+  "direct_verifier_timing": "wall_seconds=23.60 peak_kb=4860",
+  "files": [
+    {
+      "path": "results/cayley_rational.json",
+      "sha256": "37f0390e7990bd6032cf5480e48c43b31cd53094cd4fa63fb13df6e2b4441b60",
+      "byte_identical": true
+    },
+    {
+      "path": "results/cayley_quadratic.json",
+      "sha256": "84b7d83ee89b37e49669a488c2549684232231c5ec71d1cfef22a107fc77f963",
+      "byte_identical": true
+    },
+    {
+      "path": "results/private_support_rows_prebatch.json",
+      "sha256": "ee1f46bc8b1c47a5249fcf4aae11b32b75ef90338ec10538fe6a0457fca4a017",
+      "byte_identical": true
+    },
+    {
+      "path": "results/private_support_rows.json",
+      "sha256": "11e34c95bbfdd5c77c66361787628c918683dee233f38ecd8da89691afadeff8",
+      "byte_identical": true
+    },
+    {
+      "path": "results/batch_gcd_input.txt",
+      "sha256": "e44e597d1b276aa9cff77b7baf11c24a790b249518205040e08d0cb4897487f0",
+      "byte_identical": true
+    },
+    {
+      "path": "results/batch_gcd_output.txt",
+      "sha256": "858364886560336f78d408203165eaad6d89e484a79b511f1c238f0694218b19",
+      "byte_identical": true
+    },
+    {
+      "path": "results/combined_norms.txt",
+      "sha256": "44759461c23d939c672e224633239aa7f382132d0a9f46a7564898fb153b1a38",
+      "byte_identical": true
+    },
+    {
+      "path": "results/combined_certificate.txt",
+      "sha256": "ee126927a6e0c0cf08096084c288f44c25f999d839ac0871213f0ce60d5213a6",
+      "byte_identical": true
+    },
+    {
+      "path": "results/combined_support_rows.json",
+      "sha256": "3c1a7734a3979b0be1b97fce91819efda7b102f8cc239e32456d5d10d6c886dc",
+      "byte_identical": true
+    },
+    {
+      "path": "results/quadratic_reductions.json",
+      "sha256": "6e4b22f25c93a0730bc4a5a82e959ee80ca3eb4fedfa18aee5af729199e50fab",
+      "byte_identical": true
+    },
+    {
+      "path": "results/LINEAR_MOD5_CHECK.json",
+      "sha256": "03a0bfef9b83b770008ed88ff4d28ab3630f5021dad72dca1a94afd3b01f7c60",
+      "byte_identical": true
+    },
+    {
+      "path": "results/ANALYTIC_OBSTRUCTION.json",
+      "sha256": "046fc1a72e96fd035618cbd9e77ee5e8c4e8d4b009b9f33ef57ba11ad103e07d",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Same assistant, rebuilt sources and clean generated outputs. Distinct implementation direct verifier, not human or formal proof review."
+}

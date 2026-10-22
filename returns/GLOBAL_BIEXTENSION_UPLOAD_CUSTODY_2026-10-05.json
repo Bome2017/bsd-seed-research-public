@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-05",
+  "scope": "Sealed-copy publication to lab only; no proof-grade promotion",
+  "status": "NO_GLOBAL_SCALAR_CONSTRUCTED",
+  "return_folder": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05",
+  "return_manifest_entries": 34,
+  "byte_for_byte_copy_verified": true,
+  "return_zip_sha256": "4fb903dc9da490a5e5a5b5ef2e11fa5c0b7b161ad998e5950e522e7435f9e392",
+  "input_zip_sha256": "88cbfaf0217dd23e8d24a247434bbb75530282cd79cb97d26a75ebfd73a8b2fc",
+  "parent_commit": "39c2e51545b25e2edef7fd023628747644a4fb6e",
+  "authorized_branch": "research/state-sync-2026-10-04"
+}

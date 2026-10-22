@@ -1,0 +1,20 @@
+{
+  "review_folder": "BSD_QUINTIC_RELATIVE_REVIEW_CODEX_2026-10-12",
+  "review_zip": "BSD_QUINTIC_RELATIVE_REVIEW_CODEX_2026-10-12.zip",
+  "review_zip_sha256": "b9429513585a17e862b0bd9057ff7f434ea211d6796c3d0276cd4b81ccad8e40",
+  "original_zip": "BSD_QUINTIC_RELATIVE_LEADING_TERM_2026-10-12.zip",
+  "original_zip_sha256": "855425f9d2ab43e08d65aa9cdd960fd587e0bf3b97f9c9181644bf99636b2392",
+  "source_commit": "8365c394f1017280a6463d7f25afac2e321c0c25",
+  "source_branch": "research/quintic-relative-leading-term-2026-10-12",
+  "lab_baseline": "84a7333af028ff5bc694bc82bcb3c768a019f5c6",
+  "published_source_files_match": 9,
+  "source_manifest_entries_verified": 8,
+  "review_manifest_entries_verified": 18,
+  "historical_blob_bindings_verified": 5,
+  "supplied_checker_replay": "byte_identical",
+  "grade": "written_same_team_review_under_retained_inputs",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "custody_is_not_proof_certification": true
+}

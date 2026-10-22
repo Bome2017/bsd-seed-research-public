@@ -1,0 +1,54 @@
+{
+  "lab_baseline": "78291463206d7f3b80fe27f9e2eae784725324a2",
+  "files": [
+    {
+      "source": "/Users/bsm/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/REPORT.md",
+      "copy": "input/ORIGINAL_REPORT.md",
+      "sha256": "b890782da86f3fc5d010dbea95c5d336d075f96a2c27bc4d15c9cc96f64983f9",
+      "bytes": 16868
+    },
+    {
+      "source": "/Users/bsm/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/notes/03_step2_integral_test.md",
+      "copy": "input/ORIGINAL_DERIVATION.md",
+      "sha256": "bb774f0e9dfde64dd71131d0c10bbbf6ba54c656357a1d69e59a8b5dc5e36f3a",
+      "bytes": 11304
+    },
+    {
+      "source": "/Users/bsm/.codex/attachments/5338f01a-738b-4f26-b8fe-67751cf76056/Pasted text.txt",
+      "copy": "input/USER_PASTED_RETURN.txt",
+      "sha256": "5b8aa00f87950b1fefdb32bf181909c66dc52847f89b54621bd94cf1360a4da6",
+      "bytes": 7567
+    },
+    {
+      "source": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/BD2005.txt",
+      "sha256": "7ece2d9174a761a561f98cab9f46767e7f5cc7fb93817f6fe9182b740bca7129",
+      "bytes": 174253,
+      "copy": null
+    },
+    {
+      "source": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/BD2005_main_conjecture.pdf",
+      "sha256": "620ff8d279df721a4946124f589c873442b810732e75bb5cd50e04a2be0f4be0",
+      "bytes": 430413,
+      "copy": null
+    },
+    {
+      "source": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/arxiv_1202.6353.txt",
+      "sha256": "dcf0f4f45ff7f69337d2dafaa4a15201cd1989a6a4e8d95e688de9b612802ac2",
+      "bytes": 76895,
+      "copy": null
+    },
+    {
+      "source": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/arxiv_1202.6353.pdf",
+      "sha256": "24c2b67f3cf627657f92200df89c0f7b8c720d9b1aa9d228bf3489195f37f052",
+      "bytes": 312212,
+      "copy": null
+    },
+    {
+      "source": "/Users/bsm/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/checks/integral_2x2_check.py",
+      "copy": "input/original_2x2_check.py",
+      "sha256": "fc33c353e5eb3380d0f53a8c8fa53d60fdeab2069a6702a90648c0a10201f0ad",
+      "bytes": 2107
+    }
+  ],
+  "meaning": "identity, not independent source certification"
+}

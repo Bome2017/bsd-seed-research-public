@@ -1,0 +1,26 @@
+{
+ "return": "BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-07T01:16:37Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "GATE4_FAILS_WITH_THE_CURRENT_KNOWN_ANCHOR (rank-two determinant switch); RANK2_SWITCH not disproved, blocked pending a rank-two global anchor; Result 002 PRECISE_CORANK2_BREAK (see the frontier packet)",
+ "files": [
+  {
+   "path": "BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+   "sha256": "0834fb2e341b6d392a29ba111649e06b5ee6c813d0798423e8fbc65ecacd3ffc",
+   "bytes": 5519
+  },
+  {
+   "path": "BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "419b258d6796d4e816be819d6b1f99116d79c35aa26499e457c4317378728b54",
+   "bytes": 81
+  }
+ ],
+ "inputs": {
+  "openai_math_repo": "https://github.com/openai/math (Apache-2.0); files cited, not copied",
+  "result002_first_pass": "BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/EXTERNAL_OPENAI_RESULT002_TRANSPLANT.md"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

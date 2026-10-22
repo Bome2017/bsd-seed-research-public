@@ -1,0 +1,82 @@
+{
+  "read_date": "2026-10-06",
+  "sources": [
+    {
+      "id": "LAB_LATEST",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "LATEST_RETURN.md",
+      "role": "current status; read, not universal replay"
+    },
+    {
+      "id": "WALL_ATLAS",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/guide/03_WALL_ATLAS.md",
+      "role": "relevant historical failures and live source-constructor gap"
+    },
+    {
+      "id": "W3_ADMISSION",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "work/returns/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/REPORT.md",
+      "role": "zero seed samples; source constructor absent; precision corrections"
+    },
+    {
+      "id": "W3_EXTRACTION",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/ARITHMETIC_EXTRACTION.md",
+      "git_blob_sha": "aa273324f5b2a277433f09f11981e84474d86042",
+      "role": "actual four-value formula, integral source conventions, index endpoint"
+    },
+    {
+      "id": "W3_SOURCE",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_SOURCE.md",
+      "role": "required retained source import; follow full proof from existing reading set, not inferred from this synopsis"
+    },
+    {
+      "id": "W3_INDEX",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/VARIABLE_WEIGHT_INDEX.md",
+      "role": "required retained index import; follow proof and earlier dependencies"
+    },
+    {
+      "id": "OLD_P17_RECEIPT",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/context/P17_RETAINED_RECEIPT.json",
+      "file_sha256": "a1336d55dd0edffea4aed20dc5fce53e3861c0e982cb804c5b64d4e35ba0ec20",
+      "role": "old certificate/control, no new primary result"
+    },
+    {
+      "id": "OLD_P17_SYMBOL_TABLE",
+      "repository": "Bome2017/bsd-seed-lab",
+      "ref": "203219857f29631dc56455b0543870a347a25d5e",
+      "path": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/context/P17_MSL.txt",
+      "file_sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+      "role": "inspected potential normalization reference, not promoted to source data"
+    },
+    {
+      "id": "RESEARCH_RELEASE",
+      "repository": "Bome2017/bsd-seed-research",
+      "ref": "main at read time",
+      "path": "README.md",
+      "git_blob_sha": "49031a38873b78b881181ff12fb26afa124ea59c",
+      "role": "released seed model and background; later lab supersessions retained"
+    },
+    {
+      "id": "DHHJPR",
+      "title": "Explicit computations of Hida families via overconvergent modular symbols",
+      "authors": "Dummit, Hablicsek, Harron, Jain, Pollack, Ross",
+      "publication": "Research in Number Theory 2, article 25 (2016)",
+      "doi": "10.1007/s40993-016-0052-8",
+      "arxiv": "1510.05795v2",
+      "url": "https://link.springer.com/article/10.1007/s40993-016-0052-8",
+      "role": "primary-method context; not a seed runtime or bound theorem"
+    }
+  ]
+}

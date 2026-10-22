@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "random_seed": 20261012,
+  "exact_first_jet_checks": 864,
+  "basis_and_first_order_gauge_variants": 576,
+  "base_cases_with_zero_first_bockstein": 48,
+  "finite_error_and_source_defect_checks": 360,
+  "valuation_boundary_scenarios": 9,
+  "malformed_inputs_rejected": 5,
+  "actual_seed_cohomology_matrices_evaluated": 0,
+  "actual_seed_kato_derivatives_evaluated": 0,
+  "new_seed_primary_results": 0,
+  "formal_proof_assistant_verification": false,
+  "external_review": false
+}

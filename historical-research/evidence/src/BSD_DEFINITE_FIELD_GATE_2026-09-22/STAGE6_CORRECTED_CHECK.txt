@@ -1,0 +1,39 @@
+CORRECTED: dim ker H = (r+ + r-) - 2*rank(A)  >=  |r+ - r-|,
+with EQUALITY only when A has MAXIMAL rank. Stage 5 wrote '=' throughout and
+verified only with a RANDOM A (generically full rank). Corrected below.
+
+  (r+,r-)  rank A  rank H  dim ker  |r+-r-|  sum+ker  2*max  bound ok
+   (2, 0)       0       0        2        2        4      4      True
+   (2, 2)       1       2        2        0        6      4      True
+   (2, 2)       2       4        0        0        4      4      True
+   (2, 2)       1       2        2        0        6      4      True
+   (2, 2)       2       4        0        0        4      4      True
+   (2, 2)       1       2        2        0        6      4      True
+   (2, 2)       2       4        0        0        4      4      True
+   (3, 1)       0       0        4        2        8      6      True
+   (3, 1)       1       2        2        2        6      6      True
+   (3, 1)       0       0        4        2        8      6      True
+   (3, 1)       1       2        2        2        6      6      True
+   (2, 4)       1       2        4        2       10      8      True
+   (2, 4)       2       4        2        2        8      8      True
+   (2, 4)       1       2        4        2       10      8      True
+   (2, 4)       2       4        2        2        8      8      True
+
+=> the LOWER BOUND ord >= 2*max survives a fortiori; a degenerate A only makes the
+   kernel LARGER. What does NOT survive is the claim of EXACT kernel dimension.
+   For (2,0) the distinction is vacuous: A is 2x0, rank 0, kernel exactly 2.
+
+--- correction 2: m=4 is NOT independent of certifying r- = 0 ---
+w(E^-7) = +1 forces r- in {0,2,4,6,...}.  BD Cor 3: ord_I L_p >= 2*max(2, r-).
+  r-  max(2,r-)  ord_I L_p >=  ord_I calL_p >=  rank E(K)
+   0          2             4                2          2
+   2          2             4                2          4
+   4          4             8                4          6
+   6          6            12                6          8
+
+So m = 4 holds iff r- <= 2. Stage 5's 'independent of certifying r- = 0' is WITHDRAWN;
+the correct statement is 'independent of distinguishing r- = 0 from r- = 2'.
+
+REVERSAL (user's, verified): if [c_2] != 0 then calL_p in I^2\I^3, so L_p in I^4\I^5,
+and BD Cor 3 forces 2*max(2,r-) <= 4, i.e. r- <= 2. A successful witness EXCLUDES r- >= 4
+at ordinary p for free. It does NOT separate r- = 0 from r- = 2, and the lane needs r- = 0.

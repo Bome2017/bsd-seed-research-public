@@ -1,0 +1,46 @@
+[
+  {
+    "script": "class_units.gp",
+    "budget_seconds": 60.0,
+    "elapsed_seconds": 57.18147974507883,
+    "peak_rss_bytes": 686727168,
+    "exit_code": 0,
+    "stop": null,
+    "required_completion_marker_present": false,
+    "alarm_in_stderr": true,
+    "usable_bnf_or_units": false
+  },
+  {
+    "script": "class_units_dense.gp",
+    "budget_seconds": 60.0,
+    "elapsed_seconds": 57.12686461699195,
+    "peak_rss_bytes": 699674624,
+    "exit_code": 0,
+    "stop": null,
+    "required_completion_marker_present": false,
+    "alarm_in_stderr": true,
+    "usable_bnf_or_units": false
+  },
+  {
+    "script": "class_units_smallbase.gp",
+    "budget_seconds": 49.0,
+    "elapsed_seconds": 47.155815503094345,
+    "peak_rss_bytes": 468930560,
+    "exit_code": 0,
+    "stop": null,
+    "required_completion_marker_present": false,
+    "alarm_in_stderr": true,
+    "usable_bnf_or_units": false
+  },
+  {
+    "script": "class_units_random.gp",
+    "budget_seconds": 300.0,
+    "elapsed_seconds": 297.1469690380618,
+    "peak_rss_bytes": 566734848,
+    "exit_code": 0,
+    "stop": null,
+    "required_completion_marker_present": false,
+    "alarm_in_stderr": true,
+    "usable_bnf_or_units": false
+  }
+]

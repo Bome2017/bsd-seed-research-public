@@ -1,0 +1,132 @@
+[
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/field.gp",
+    "sha256": "018eee0130e35f93ac673ba31c2b36bab22a4bf18315de67d15d714dfb8fde09",
+    "bytes": 121920
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/nf.gp",
+    "sha256": "d15ff1e34154d54b09fe443cac84d3ed0fe0fce8fa76c2083bd6885765c14449",
+    "bytes": 1363142
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/compact_units_eval.json",
+    "sha256": "9992bfe088145df1e8cbdcdbb62318c40fc6283ed1fae000d9ed39353159815e",
+    "bytes": 250927
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/TRANSPORT_PROOF.md",
+    "sha256": "501dd4962a6a58cc0b7801d9770d4afa0f1c94e6826ddfb8b95c84bb7c0fd330",
+    "bytes": 640
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/factor_lines_rational.gp",
+    "sha256": "93a3f4be4426fcfc06a1bf1cb550dcd95749b31cc0f51c9b729379dfd2660485",
+    "bytes": 1398
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/factor_lines_rational.gp.out",
+    "sha256": "6f4b43577e3611f6fc7b9360e6ecef49fe71692a72f862379a7d6841498231b7",
+    "bytes": 2118
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/relations_transport.gp",
+    "sha256": "bd0ec3cc65c0887546549907cb33302ee9cbeb64cc8b02d6a927d31192fb60a9",
+    "bytes": 1081
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/relations_transport.gp.out",
+    "sha256": "4e82346c918f6e3829b60d6d7c67ebe33f6ef08ab4141436add017b21f4589ae",
+    "bytes": 104
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/exact_products.gp",
+    "sha256": "14bc20aac4d2e880f8e7063dffd5b1ec57d2e1941b72715122cf39bbb61bcef8",
+    "bytes": 516
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/exact_products.gp.out",
+    "sha256": "e62d69a091c253f625b15d384c89bb00120ef2f2ec6e1d176ac841e0081d64d4",
+    "bytes": 935
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/exact_unit_products.gp",
+    "sha256": "f34191fe9ad0454a0c234151df755f395be9014722961cd76e1be5c11046438c",
+    "bytes": 28659
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/field.gp",
+    "sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22",
+    "bytes": 314993
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/nf.gp",
+    "sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e",
+    "bytes": 2477699
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/ADAPTATION.md",
+    "sha256": "4a61945b43e063abc41a23c49a39add72dd145ff70b239dd7126e8d5d9bcc52f",
+    "bytes": 416
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/EXPORT_CUSTODY.md",
+    "sha256": "7204f27b30ad8eae1bdb76a4bc30726149f62f7faee42cb5f41fffb3be451c89",
+    "bytes": 371
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/central_fixed_units_eval.json",
+    "sha256": "93712e3ca43ea3ef96c89c03937db04a19df752cece41b4d233ea4ae59f65a94",
+    "bytes": 232514
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/empty_orbit_kernel_eval.json",
+    "sha256": "26666e1483d3b790e90a918d96477a73a10cf0c4458d4e120350c26eb11c2b46",
+    "bytes": 964651
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/relations_transport.gp",
+    "sha256": "bd0ec3cc65c0887546549907cb33302ee9cbeb64cc8b02d6a927d31192fb60a9",
+    "bytes": 1081
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/relations_transport.gp.out",
+    "sha256": "88da221c8750f62354323f9782e3a90012aea82d361d9af49d695aa9d98bafb4",
+    "bytes": 105
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/factor_selected.gp",
+    "sha256": "52ca95c56f454d32023a02e9fa9a53c3211bda86d2a0ac6f345bbcc4b04f5cf4",
+    "bytes": 636
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/factor_selected.gp.out",
+    "sha256": "9fb46004b95b9a3283012aee2949ef602b3079daf99f65aaeac6919765b98423",
+    "bytes": 2619
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/REPORT.md",
+    "sha256": "589041d00a05255df2eb384e4544ab831f18f714da5ae8d429a5ac3784f6dfdf",
+    "bytes": 3763
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/CENTRAL_CHARACTER_PROOF.md",
+    "sha256": "c07880838e0159f86713d6f633b6c685b9504554ca59596a466ea66a87506f44",
+    "bytes": 1608
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/MIXED_RESULT.json",
+    "sha256": "0a86a5b6b4890fe7bc1b70df03038f9d2f5ef41ae224c8470ec7ee9cd25af12b",
+    "bytes": 361
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/ARITHMETIC_BINDINGS.json",
+    "sha256": "bef5c53fe00a3d060c571a283ef22a7f28b5819302021ced6677f7afc55ad072",
+    "bytes": 852
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/CAPTURE_COMPRESSION.json",
+    "sha256": "797256ee19b908644a53549511b6c186fe1efb60787145d1f434430c73cae6f4",
+    "bytes": 637
+  }
+]

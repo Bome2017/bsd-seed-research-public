@@ -1,0 +1,9 @@
+  ***   unexpected closing brace.
+  ***   at top-level: if(#matker(R)!=3||matrank(KC)!=3,error("kernel
+  ***                     ^------------------------------------------
+  *** matker: incorrect type in matker (t_POL).
+  ***   at top-level: ...(KC),",\"residue_map\":",jm(R),",\"norm_image_
+  ***                                             ^---------------------
+  ***   in function jm: vector(matsize(A)[1],i,vector(matsize(A)[2],j,
+  ***                          ^---------------------------------------
+  *** matsize: incorrect type in matsize (t_POL).

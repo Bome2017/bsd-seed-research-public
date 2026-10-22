@@ -1,0 +1,20 @@
+{
+  "return": "BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15",
+  "completed": "2026-10-17",
+  "parent": "d61b2af9653be14e1da758ae81f26209bde2a117",
+  "files": 221,
+  "archive_bytes": 17772578,
+  "archive_sha256": "91b731bf9f4a9338dfc5b1e6a768a5924dbf58b7133121f25accaa75a35e4cef",
+  "manifest_sha256": "a6536496f2879794844807ced9c4a655948eee577f21e073894303e4c8f8dd23",
+  "report_sha256": "3eb7f1f48cb11b608724840debd94b7e35b9b2b1fe100d30dccc9b062a4fa8d1",
+  "all_copied_files_byte_identical": true,
+  "archive_members_byte_verified": true,
+  "class_certification": "not obtained; numerical full-source bounds conditional",
+  "unit_norm_bound": "exact actual-unit checks and independent witness",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "staged_files": 226,
+  "verified_manifest_entries": 395,
+  "diff_check": "PASS for authored changes; excludes byte-preserved downloaded PARI HTML with original trailing whitespace and raw failed-run stderr with a final blank line"
+}

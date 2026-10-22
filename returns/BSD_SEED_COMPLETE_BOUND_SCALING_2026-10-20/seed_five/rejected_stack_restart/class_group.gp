@@ -1,0 +1,11 @@
+{
+alarm(117);default(parisizemax,2000000000);gettime();
+F=read("field.gp")[4];B=bnfinit(F,1);
+writebin("bnf.bin",B);write("class_init.gp",[B.cyc,B.no,B.reg]);
+print("BNF_INIT_CLASS=",B.cyc,";CLASS_NUMBER=",B.no,";INIT_MS=",gettime());
+Z=bnfcertify(B);
+if(Z!=1,error("class certification failed"));
+write("class_certification.gp",Z);
+print("BNFCERTIFY=",Z,";CERT_MS=",gettime());
+print("CERTIFIED_SEED_P5_CLASS_GROUP_COMPLETE");quit;
+}

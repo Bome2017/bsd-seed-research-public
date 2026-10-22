@@ -1,0 +1,31 @@
+tail_ms(k,T) = [2 sqrt T + ((log T + 2)/k + 1/(k^2 T))/sqrt T] * exp(-k T)
+L(E^D,1) = 2 * sum_{n<=T} chi_D(n) a_n/n e^{-cn} + tail,   |tail| <= 2*tail_ms(c,T)
+
+CROSS-CHECK against the sealed D=-23 derivative run:
+  c_23 = 3.387574674e-9
+  tail_twist = 2*tail_ms/(cT); recorded value 0.335041797049
+  recomputed  = 0.335041797048  <-- matches => tail_ms identity confirmed
+
+D = -7:  c = 1.11306025e-8  1/c = 89842396.0
+
+             T       cT    2*tail_ms(c,T)   segments (2^24)  in corpus?
+    1000000000    11.13           3.75389                60         yes
+    2000000000    22.26         5.8679e-5               120         yes
+    3000000000    33.39       9.36205e-10               179         yes
+    4000000000    44.52       1.48389e-14               239         yes
+    5000000000    55.65       2.33169e-19               299         yes
+    6000000000    66.78       3.63584e-24               358         yes
+    7000000000    77.91       5.63313e-29               418         yes
+    8000000000    89.04       8.68125e-34               477         yes
+   10000000000   111.31       2.03588e-43               597         yes
+   12000000000   133.57       4.71317e-53               716         yes
+   15000000000   166.96       1.63155e-67               895         yes
+   20000000000   222.61       1.25252e-91              1193         yes
+   30000000000   333.92      6.89461e-140              1789         yes
+   50000000000   556.53      1.83592e-236              2981         yes
+
+corpus T = 55046045695 = 3281 segments
+
+NOTE: no cutoff is chosen here. This is only the STOPPING CRITERION:
+  stop at the first admissible T whose computed interval [2S_T - 2*tail_ms, 2S_T + 2*tail_ms]
+  rigorously excludes 0.

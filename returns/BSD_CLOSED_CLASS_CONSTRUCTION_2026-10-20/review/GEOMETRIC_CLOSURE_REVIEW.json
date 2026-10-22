@@ -1,0 +1,196 @@
+{
+  "actual_coprime_ideal_atoms": 134,
+  "actual_elements": 124,
+  "characters": [
+    {
+      "character": 2,
+      "closed_rank": 0,
+      "full_rank": 20,
+      "outside_rank": 20
+    },
+    {
+      "character": 3,
+      "closed_rank": 0,
+      "full_rank": 20,
+      "outside_rank": 20
+    }
+  ],
+  "exact_unit_products_equal_one": 84,
+  "faithful_columns": 28,
+  "inside_columns": 6,
+  "integer_anti_divisor_rank": 40,
+  "norm_support_checks": [
+    {
+      "character_column": 1,
+      "inside": true,
+      "outside_norm_digits": 1,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 2,
+      "inside": false,
+      "outside_norm_digits": 37,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 3,
+      "inside": false,
+      "outside_norm_digits": 86,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 4,
+      "inside": true,
+      "outside_norm_digits": 1,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 5,
+      "inside": false,
+      "outside_norm_digits": 22,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 6,
+      "inside": true,
+      "outside_norm_digits": 1,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 7,
+      "inside": false,
+      "outside_norm_digits": 21,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 8,
+      "inside": false,
+      "outside_norm_digits": 105,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 9,
+      "inside": false,
+      "outside_norm_digits": 37,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 10,
+      "inside": false,
+      "outside_norm_digits": 22,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 11,
+      "inside": false,
+      "outside_norm_digits": 23,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 12,
+      "inside": false,
+      "outside_norm_digits": 40,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 13,
+      "inside": false,
+      "outside_norm_digits": 44,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 14,
+      "inside": true,
+      "outside_norm_digits": 1,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 15,
+      "inside": false,
+      "outside_norm_digits": 103,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 16,
+      "inside": false,
+      "outside_norm_digits": 104,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 17,
+      "inside": false,
+      "outside_norm_digits": 113,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 18,
+      "inside": true,
+      "outside_norm_digits": 1,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 19,
+      "inside": false,
+      "outside_norm_digits": 106,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 20,
+      "inside": true,
+      "outside_norm_digits": 1,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 21,
+      "inside": false,
+      "outside_norm_digits": 42,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 22,
+      "inside": false,
+      "outside_norm_digits": 85,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 23,
+      "inside": false,
+      "outside_norm_digits": 35,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 24,
+      "inside": false,
+      "outside_norm_digits": 85,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 25,
+      "inside": false,
+      "outside_norm_digits": 92,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 26,
+      "inside": false,
+      "outside_norm_digits": 94,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 27,
+      "inside": false,
+      "outside_norm_digits": 111,
+      "outside_not_fifth_power": true
+    },
+    {
+      "character_column": 28,
+      "inside": false,
+      "outside_norm_digits": 77,
+      "outside_not_fifth_power": true
+    }
+  ],
+  "outside_columns": 22,
+  "rational_kernel_dimension": 84,
+  "scope": "This fixed geometric function family gives zero net closed class relations and no nontrivial relative units; not a universal geometric obstruction.",
+  "status": "INDEPENDENT_GEOMETRIC_CLOSURE_REPLAY_PASS"
+}

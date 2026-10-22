@@ -1,0 +1,1431 @@
+[
+  {
+    "name": "0cd74d26-3413-42c7-b473-faa147bdc48b-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/0cd74d26-3413-42c7-b473-faa147bdc48b-aristotle.tar.gz",
+    "bytes": 145322,
+    "sha256": "a3f5d81ed83d407591453c329e6a1a353d8d0a8ea98a7362ee0d6de7bf7fe961",
+    "exact_lab_archives": [
+      "work/returns/archives/0cd74d26-3413-42c7-b473-faa147bdc48b-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 7984,
+        "sha256": "85bb982246ff2e94d68093a98c9a1a261ccdbbd765b6e08d5964c2b50e26205d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/DERIVED_GROSS_RESULT.md",
+        "bytes": 16439,
+        "sha256": "c37ba291ff0537403ef1836010b22d022be1eb518c89147fc182f51a8b39275b",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "0ee48359-59b9-4108-a7fd-0ee16939d0e4-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/0ee48359-59b9-4108-a7fd-0ee16939d0e4-aristotle.tar.gz",
+    "bytes": 83397,
+    "sha256": "278588e0c570e39379e7dd2a495153d984be12e4269fee212e3830cc15e59948",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_A1_WITNESS_CONTENT_2026-09-19_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4288,
+        "sha256": "9aac59a667a94b07877fc3b3eecdebf4365a60a655b5fa83f2c704e531513506",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "13920c22-e3bc-4dfb-a137-cf15033983a9-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/13920c22-e3bc-4dfb-a137-cf15033983a9-aristotle.tar.gz",
+    "bytes": 66122605,
+    "sha256": "654c743693b33df14ac4e80db51cf27910d8981f93a3156c6c18bbaadb4e4bca",
+    "exact_lab_archives": [
+      "work/returns/archives/13920c22-e3bc-4dfb-a137-cf15033983a9-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4245,
+        "sha256": "4839a6628eb0b2193a41487e53baa14c66fe0a50664d6e578a79154147eec550",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "1408c33b-f45a-45ba-baf6-c63b60f30d1e-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/1408c33b-f45a-45ba-baf6-c63b60f30d1e-aristotle.tar.gz",
+    "bytes": 41165,
+    "sha256": "ba4ea713a9f69a27cc8e13ec3492adbedacb2e6a75b90fa93109208f84518479",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ORDINARY_BRIDGE_2026-09-22_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3949,
+        "sha256": "d18c4e287370ffef52321f21df834751aff7e007f66a4076b2bfaa60ac168fa8",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "14bef1c1-77d3-4afa-962e-31d92ca66935-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/14bef1c1-77d3-4afa-962e-31d92ca66935-aristotle.tar.gz",
+    "bytes": 42869,
+    "sha256": "1eaa2f8e8021fe4568b4adef209b202822ecbeb55a9fef649a3d8cb965f5be12",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_A4_FINITE_PART_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 2942,
+        "sha256": "49b3101aecb9dd0d97b0a7aaac28a267ada4b0930f333b535803652f47e4c215",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "2199c6e8-c353-480d-a0e0-26feb6626f68-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/2199c6e8-c353-480d-a0e0-26feb6626f68-aristotle.tar.gz",
+    "bytes": 35156,
+    "sha256": "7edc9fcd22395220b1d224f5b1ecca559ff07d2fa8bd9625cc3f23da1967d1ea",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_THEOREM_A_SECTION_5_DISJOINT_CLIQUES_001_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 2867,
+        "sha256": "34db97dc9e4ed3ba64932d832a49e8ddaf84603a237d710ebbf6ba6401c83bcd",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "2318738a-17a5-4380-8152-96849f45a3ea-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/2318738a-17a5-4380-8152-96849f45a3ea-aristotle.tar.gz",
+    "bytes": 155102,
+    "sha256": "3f8b5d958afaef09627ba6eead429b08978c9f9806afaf51ff807a3ff3b9bef3",
+    "exact_lab_archives": [
+      "work/returns/archives/2318738a-17a5-4380-8152-96849f45a3ea-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06_aristotle/ONE_MOTIVE_RESULT.md",
+        "bytes": 20799,
+        "sha256": "6b2c751ac32ac96414d28bf9a89d8486d0784678583f3b74e5a8b1a43119d802",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4219,
+        "sha256": "f96798749558a488405915d6d59c5dcabed07234e4b0e03cb955535f74514551",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "260d2438-ccc3-4c96-86be-37bf942b89f0-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/260d2438-ccc3-4c96-86be-37bf942b89f0-aristotle.tar.gz",
+    "bytes": 130326,
+    "sha256": "5585848fb200287748eeb85b80b33992018390170336303ff99dcf2505445243",
+    "exact_lab_archives": [
+      "work/returns/archives/260d2438-ccc3-4c96-86be-37bf942b89f0-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "untitled folder 2_aristotle/BSD_ARISTOTLE_DELTA_RANK2_ANCHOR_2026-10-06/RESULT_RANK2_ANCHOR.md",
+        "bytes": 14886,
+        "sha256": "45a2ea2f9f26a83e628c7a7734ceb69eba29ea8cfd616feaad0f3dc92a7aace8",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "untitled folder 2_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4519,
+        "sha256": "87fb11eb2eb90ebf325e84e22bf97d59f6e972b28d906edf535160747d1618aa",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "319b9855-0c13-441d-ac5c-6d540f5f2472-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/319b9855-0c13-441d-ac5c-6d540f5f2472-aristotle.tar.gz",
+    "bytes": 80036,
+    "sha256": "92ba674767e56012572b357ca29e5e90fc6b057a016611808f457df59ed3db50",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_A2_PRIMARY_SUPPORT_2026-09-19_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4587,
+        "sha256": "f3c848d68031650cd6f26244bb06e0b77bf231e80fed1bf99006d011b363b8d9",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle-2.tar.gz",
+    "path": "/Users/bsm/Downloads/422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle-2.tar.gz",
+    "bytes": 26103,
+    "sha256": "ebe4701471a86c2957782a36f1f9eb985558c89fa648eb21fa539acae8ecbc77",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 7391,
+        "sha256": "3393df8d2df3831b7e94e389cd7847c847352b8c68533addf81de4c742ce6a7e",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle-3.tar.gz",
+    "path": "/Users/bsm/Downloads/422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle-3.tar.gz",
+    "bytes": 37260,
+    "sha256": "f376d6a7d18a7c37a46d98b8cd374df7f0ea04b4e2b15724aa633f4901ba7f30",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 11579,
+        "sha256": "08a0b046aacbc7fbd5e367e5f8f54f82a3050b155ae8fd975b356b1e0e785308",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle-4.tar.gz",
+    "path": "/Users/bsm/Downloads/422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle-4.tar.gz",
+    "bytes": 47269,
+    "sha256": "20d21d8128bb449c99920ab094a4e64e914eae1472f6167ae5b409fe936d132c",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 15574,
+        "sha256": "ad9306185bf2f74d0d7b5c66b9e886ee9d7a6fb534eda60138a89b1cbd2870b2",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/422ba994-a9ef-46ec-88df-4aa8be9d4e12-aristotle.tar.gz",
+    "bytes": 19860,
+    "sha256": "d4922574de8b1cb89abefd995c37711601d69dc8dbb0eea6738894f3177cf7db",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_TAIL_COMPRESSION_2026-09-22_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4038,
+        "sha256": "32b2a4103d99b4c8f67a417b39446d4cd25bbac543e6c5d2d848f7237d67baa3",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "4914f499-38f7-493f-982a-dcd0bbb7c93b-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/4914f499-38f7-493f-982a-dcd0bbb7c93b-aristotle.tar.gz",
+    "bytes": 40665,
+    "sha256": "29eb66b98dbe17807398102ea4630ae3775efa005fadd006c7e3761bfb9f5b7d",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_TYPE_DELTA_APEX_SPLIT_001_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3102,
+        "sha256": "946d31ed257a966de38ad6b18373700d5029dda89445d67553f5f2ffeac7637d",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "554454e7-3adc-47d9-91b9-821677d56277-aristotle (1).tar.gz",
+    "path": "/Users/bsm/Downloads/554454e7-3adc-47d9-91b9-821677d56277-aristotle (1).tar.gz",
+    "bytes": 129935,
+    "sha256": "037f20aed091c571b9adf1aaf49dff906410a19b0f466a7d7f92fde8d8ebed3f",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_B_REPORT.md",
+        "bytes": 19137,
+        "sha256": "ae885ac6d0370f8501f2ca375892fde18616a0ac48fee05aec6c506007dd3a99",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 6968,
+        "sha256": "171e5b1d5804bdd2ed972cc005a79f3be86606abdf366041a6ebba6ab8aff205",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "554454e7-3adc-47d9-91b9-821677d56277-aristotle (2).tar.gz",
+    "path": "/Users/bsm/Downloads/554454e7-3adc-47d9-91b9-821677d56277-aristotle (2).tar.gz",
+    "bytes": 135549,
+    "sha256": "f0026a04613ed48de40b38dddc5bc1e30c1902ed0653670ca45acc7085191df7",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_B_REPORT.md",
+        "bytes": 19137,
+        "sha256": "ae885ac6d0370f8501f2ca375892fde18616a0ac48fee05aec6c506007dd3a99",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 9423,
+        "sha256": "60fa81b7c0ff78b1f7921dfe91b15b4b8acc173f1de99785d5fee930fa5a1eaf",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "554454e7-3adc-47d9-91b9-821677d56277-aristotle (3).tar.gz",
+    "path": "/Users/bsm/Downloads/554454e7-3adc-47d9-91b9-821677d56277-aristotle (3).tar.gz",
+    "bytes": 159443,
+    "sha256": "5fcb4c63069141c55447b7a09d56341ec3f900109eb82cee6345d18fca8e9132",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_B_REPORT.md",
+        "bytes": 19137,
+        "sha256": "ae885ac6d0370f8501f2ca375892fde18616a0ac48fee05aec6c506007dd3a99",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 13072,
+        "sha256": "89c07d304be5041335d0e4ca241bc656fdcbf74782aeceb5d8244c53706e9053",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "554454e7-3adc-47d9-91b9-821677d56277-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/554454e7-3adc-47d9-91b9-821677d56277-aristotle.tar.gz",
+    "bytes": 118237,
+    "sha256": "8d698d9515e347635f72ef835c8d0d8374cd08b2c5a7e0cc215670856192bcb0",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_B_REPORT.md",
+        "bytes": 18567,
+        "sha256": "7758cc5b3f9eb30a6b6123973b1bfaec3a497c87d788fe49d7d9f2aa65b33692",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "ARISTOTLE_SUMMARY.md",
+        "bytes": 3592,
+        "sha256": "ad1b66b89f38ba88d1cdaa923f0790bb9586279263e185372556bf761cc2996f",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "561ea6c5-7426-4788-851a-22e0510be16e-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/561ea6c5-7426-4788-851a-22e0510be16e-aristotle.tar.gz",
+    "bytes": 66138845,
+    "sha256": "f11c5378fd746cbf46ee2e22888e93d914929d23470e2f3c1f8090d126bcef71",
+    "exact_lab_archives": [
+      "work/returns/archives/561ea6c5-7426-4788-851a-22e0510be16e-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 8736,
+        "sha256": "ca63434c818ed0015053e0344573123ed38f392bb663f2fa9c4de13ccf3800d1",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle_aristotle/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle_aristotle/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (1).tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (1).tar.gz",
+    "bytes": 92083,
+    "sha256": "9ae2ecfff484636d323f7952f7b701579115d10504a70013c321eb58f7b7ba2e",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 6330,
+        "sha256": "37a0eec1341060cdd14d462c8dd272f574f97479a3728f6265ace6cb1ede00a1",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (2).tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (2).tar.gz",
+    "bytes": 97814,
+    "sha256": "fa195b9b988313e67d878137904092e2b33b978cd04ae7c9e091731dfb1ee807",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 9158,
+        "sha256": "3be0424fad9ce1d8a3519000eac50c335c6847d6311b209d5f8cae2304069d07",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (3).tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (3).tar.gz",
+    "bytes": 103242,
+    "sha256": "38c8a499e7bf01825fd6b5bf29b42a4a2bff9c953f905b2e90226774eab84fa8",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/FRONTIER.md",
+        "bytes": 4457,
+        "sha256": "d836777556ae7fc6e8a71db22616e0eea37d3b39011004d3dfc4072155df89be",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 12408,
+        "sha256": "fb13ca30f82b9f8591ce5f53f915a701bffff14888b4d31c304652bbe9b0be7a",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (4).tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (4).tar.gz",
+    "bytes": 114810,
+    "sha256": "5050729eb446a8d300553e0a6f58f4c0c3888e0436523b44cf97ff3df86e37da",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/FRONTIER.md",
+        "bytes": 5563,
+        "sha256": "8c1b521c548d0672d49c066b7a122d9256873cb9d8edf705e8a1ec2a50ced58e",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 16295,
+        "sha256": "ad27689a7974096c968c9990fec764bfca4d32c895b7a63710650f4cd971e4b8",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (5).tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (5).tar.gz",
+    "bytes": 122731,
+    "sha256": "ed46f042ac21ece4925036d1be046d2f85dd162584f3297baac6108eb491e5e1",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/FRONTIER.md",
+        "bytes": 6256,
+        "sha256": "2abfe363efddb343cbe2a3480c6e1f45fe8b0648f4bb99535b6e42928b42123f",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 19895,
+        "sha256": "ca44f15d8afcf8c7cfa421f6035ba345823f8d503282b7f79fd91ad4084035c6",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (6).tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (6).tar.gz",
+    "bytes": 131629,
+    "sha256": "4fbf3521eaa75fffff8c180cebd0388aaf4d4d96eefdb69e658b1a35b78b7c51",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "FRONTIER.md",
+        "bytes": 7184,
+        "sha256": "3999d622565f74214722173aec5c9ab1fb7b5268b76ec691f4550a907ae92129",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "ARISTOTLE_SUMMARY.md",
+        "bytes": 23732,
+        "sha256": "fa81f88f3be76dd3d3266ff285b4aef6f0023e4a35630e97ae15f3059277e871",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (7).tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (7).tar.gz",
+    "bytes": 138371,
+    "sha256": "ab4d9c1edb63011a09d0916eb91e53078445c6f7359137e755b73d3c9303a19d",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/FRONTIER.md",
+        "bytes": 9145,
+        "sha256": "c1c4f1f5b6dca5fb3be8d3d288c17c45f82cd90f73c1b9f6bf0f90ed1d056d4b",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 27214,
+        "sha256": "2d4f1e6a3764d945aaecf9722df559d8cb844a40ccfc5acb8e69304590e5d4c0",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle.tar.gz",
+    "bytes": 88832,
+    "sha256": "87079ad45c9f76f8c6491e26923fcd21ddbd9d1159b46bb3ea3ae9c4fe1e0fb9",
+    "exact_lab_archives": [
+      "work/returns/archives/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06_aristotle/input/research_return/RESULT.md",
+        "bytes": 5955,
+        "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06_aristotle/input/research_return/UPPER_CONTROL.md",
+        "bytes": 29078,
+        "sha256": "7938a86963b45b9abec8284b0993c3feb2a1592e8d04fca2da81c55c1fe2872c",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3379,
+        "sha256": "02a54d181df5c36eecd258e309f79ea94affcd467e19bbd8d2c5f5e7f281e19f",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "77ebfe4e-6bc3-4c9c-9fb9-3d56d6d3e542-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/77ebfe4e-6bc3-4c9c-9fb9-3d56d6d3e542-aristotle.tar.gz",
+    "bytes": 45393,
+    "sha256": "ae6b98eb58118226b9be189b2a5dcba77690d40e720ebce3c49ccf5284e4af6e",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_THEOREM_A_SECTION_4B_REPAIR_001_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3816,
+        "sha256": "5dc20dfa026e153a1c36a6c32e4620a01a900617559997f93f1ec9c42522b182",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "7b3e71ce-8a19-4cec-b3a1-1da412cae8fa-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/7b3e71ce-8a19-4cec-b3a1-1da412cae8fa-aristotle.tar.gz",
+    "bytes": 104461,
+    "sha256": "fd7d45c4b99b009715d686171225e9b02ca35be44a6625a6e3650531b0eaa6d7",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "TWIST_SHA_BLIND_2026-09-22_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 77,
+        "sha256": "24de9680039c39032e8dca131d1ac3d672971a9e39dc0fb747283028b3926396",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "863950d0-2212-4024-943a-eb69fa4ef59f-aristotle-2.tar.gz",
+    "path": "/Users/bsm/Downloads/863950d0-2212-4024-943a-eb69fa4ef59f-aristotle-2.tar.gz",
+    "bytes": 41380,
+    "sha256": "86b65a0b1cca07c2b153fcdee887335abc96be8d4bdfa80ad0756ef6823fa707",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 7316,
+        "sha256": "ec4f0e0362dd9a67d48543dd0b89660622034128e6b1f8d5c92596869790b7a8",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "863950d0-2212-4024-943a-eb69fa4ef59f-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/863950d0-2212-4024-943a-eb69fa4ef59f-aristotle.tar.gz",
+    "bytes": 29007,
+    "sha256": "71c6285221a8f5dfacaf5dad6d2c258156204125555071d1947787e0cb056253",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "C2_WITNESS_2026-09-22_rev2_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3624,
+        "sha256": "eaea403967bccc74cda7c52978a5db5b96debcd1ab27ec8d77358c78cc526d95",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-2.tar.gz",
+    "path": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-2.tar.gz",
+    "bytes": 133616,
+    "sha256": "5413ff20ce7d87d688af8f1285a1e8f568c44b5d9c6b7d9f46804149b205cc30",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 7170,
+        "sha256": "8b0b86b8dfbd37738d5ce0e201962f318a4a254bd37da4c86182bbc0195d5701",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-3.tar.gz",
+    "path": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-3.tar.gz",
+    "bytes": 139247,
+    "sha256": "26a89d9e7042bfefc5dc87bf34af7ba08fdf97aa29b197b12c404bed9c95796f",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 10495,
+        "sha256": "45508906ec32cf218beb4ef762a0fb0a61c55349a1a4b1c98173feadac92c308",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-4.tar.gz",
+    "path": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-4.tar.gz",
+    "bytes": 144951,
+    "sha256": "886f9db665761b04e038f9a7f2189cdfd3f7936b84cddec5a12c94b11d16ccbd",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 13546,
+        "sha256": "a6a445cd6302a3a5ec8ff76d52a3fc1a1f1fd83c4d19d654fd3bfe0d4d3c7764",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-5.tar.gz",
+    "path": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-5.tar.gz",
+    "bytes": 3366793,
+    "sha256": "d7aca57b4b6da908e21ed07154c44238ddc033ec6d61da83aca44406ededeaea",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "48f5f0e8-a77d-41dd-b9bb-dc2f608ca489-output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 17308,
+        "sha256": "2a7710f310aee0abab61779f3c10b0b786fb48a32243b41c6aa6e993aa787498",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-6.tar.gz",
+    "path": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle-6.tar.gz",
+    "bytes": 3369539,
+    "sha256": "0493d42cebdea3805cb539441ef86a067bef7a0f9ce454a2bc3837ffdd223632",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 19481,
+        "sha256": "f6f3d0bc56653c5bdaf3cf2533c6b95c8a1428027df8d728b819b0be7fb55673",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/9193a8cb-fb4d-49ac-8bbd-c49b2d0ca9d8-aristotle.tar.gz",
+    "bytes": 124938,
+    "sha256": "b7c968e108aabbe9514cc471516450b61980fc31cb15445264fa50b631663029",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_BSD_INVENTION_2026-09-20_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4001,
+        "sha256": "70e3b5231906462db822371c57d0d341b7c53625e7f4ece4fcd0a483463f0ba1",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "9a3a411e-9b4c-4cc2-a3b0-2021519e607c-aristotle (1).tar.gz",
+    "path": "/Users/bsm/Downloads/9a3a411e-9b4c-4cc2-a3b0-2021519e607c-aristotle (1).tar.gz",
+    "bytes": 532802,
+    "sha256": "f8f84f1ae1d06d215c368fca6a47541352b4aba74816d5df0dbe8d7d1c293e75",
+    "exact_lab_archives": [
+      "work/returns/archives/9a3a411e-9b4c-4cc2-a3b0-2021519e607c-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 9132,
+        "sha256": "8a46607b057e2f98f9a1dd2362894a801bb23ceecb4a324395744bb30d12fe3a",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "9c9db2d8-a942-4b6f-8917-f6f7081ef69c-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/9c9db2d8-a942-4b6f-8917-f6f7081ef69c-aristotle.tar.gz",
+    "bytes": 121614,
+    "sha256": "80da2dc04970b0d907ed763db2b60add0d1459c4f8619afa254a6bcac8b47869",
+    "exact_lab_archives": [
+      "work/returns/archives/9c9db2d8-a942-4b6f-8917-f6f7081ef69c-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "untitled folder 2_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 1092,
+        "sha256": "413805a2f19411fd1d80d93c9619af8bfa56220b4c2889e073fffba64148f0e8",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06.tar.gz",
+    "path": "/Users/bsm/Downloads/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06.tar.gz",
+    "bytes": 150752,
+    "sha256": "98bcd96187847203ca07a3dff8a9f79d1e6b495889eae5b2e0c76a68f955af5d",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": []
+  },
+  {
+    "name": "BSD_ARISTOTLE_DELTA_RANK2_ANCHOR_2026-10-06.tar.gz",
+    "path": "/Users/bsm/Downloads/BSD_ARISTOTLE_DELTA_RANK2_ANCHOR_2026-10-06.tar.gz",
+    "bytes": 2975,
+    "sha256": "337cec11080873e91468819dd0e69cb4cde18843fe57c980b65dc9b205a7c66e",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": []
+  },
+  {
+    "name": "BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026-10-06.tar.gz",
+    "path": "/Users/bsm/Downloads/BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026-10-06.tar.gz",
+    "bytes": 135613,
+    "sha256": "50a704936dcb57c61fce635e61604d36412f2270494b65264c735e8857bd05d5",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026-10-06.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": []
+  },
+  {
+    "name": "BSD_ARISTOTLE_OPENAI_RANK2_PROJECT_2026-10-06.tar.gz",
+    "path": "/Users/bsm/Downloads/BSD_ARISTOTLE_OPENAI_RANK2_PROJECT_2026-10-06.tar.gz",
+    "bytes": 167433,
+    "sha256": "cc9b58044dcb075bdaa0f72ea2eefc62548cf54a0611d433fdc88fb403db18fa",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_ARISTOTLE_OPENAI_RANK2_PROJECT_2026-10-06.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": []
+  },
+  {
+    "name": "BSD_ARISTOTLE_RANK2_ANCHOR_PROJECT_2026-10-06.tar.gz",
+    "path": "/Users/bsm/Downloads/BSD_ARISTOTLE_RANK2_ANCHOR_PROJECT_2026-10-06.tar.gz",
+    "bytes": 130709,
+    "sha256": "987bb3d723eb722e1a70a83356ca884a6b739dc28ca47ea6648f5f8241316b2c",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_ARISTOTLE_RANK2_ANCHOR_PROJECT_2026-10-06.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": []
+  },
+  {
+    "name": "BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06.zip",
+    "path": "/Users/bsm/Downloads/BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06.zip",
+    "bytes": 14801,
+    "sha256": "fc843c8bfc3a7e9def27f97e800f4b57bc010e366b435f82341c063068e7fcc3",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06.zip"
+    ]
+  },
+  {
+    "name": "BSD_SEED_FRONTIER_2026-10-06.tar.gz",
+    "path": "/Users/bsm/Downloads/BSD_SEED_FRONTIER_2026-10-06.tar.gz",
+    "bytes": 125517,
+    "sha256": "a5f0266df85139aa16e210cfe4c600221ef9f29f0c27a346b68951af974d1ff1",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_SEED_FRONTIER_2026-10-06.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": []
+  },
+  {
+    "name": "BSD_SEED_JET_CONSTRUCTOR_2026-10-06 (1).zip",
+    "path": "/Users/bsm/Downloads/BSD_SEED_JET_CONSTRUCTOR_2026-10-06 (1).zip",
+    "bytes": 36432,
+    "sha256": "7a016ea49c0e4c8f46e93aaad108363562aeaaf871176f7ea9c6421463fcb535",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_SEED_JET_CONSTRUCTOR_2026-10-06.zip"
+    ]
+  },
+  {
+    "name": "BSD_SEED_JET_CONSTRUCTOR_2026-10-06.zip",
+    "path": "/Users/bsm/Downloads/BSD_SEED_JET_CONSTRUCTOR_2026-10-06.zip",
+    "bytes": 36432,
+    "sha256": "7a016ea49c0e4c8f46e93aaad108363562aeaaf871176f7ea9c6421463fcb535",
+    "exact_lab_archives": [
+      "work/returns/archives/BSD_SEED_JET_CONSTRUCTOR_2026-10-06.zip"
+    ]
+  },
+  {
+    "name": "a6077c4a-8876-4c56-afef-5687d98141a1-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/a6077c4a-8876-4c56-afef-5687d98141a1-aristotle.tar.gz",
+    "bytes": 153223,
+    "sha256": "1374be99a607c0e414fd6b3074b095991c971ac603045a169d6d7528f2b4936b",
+    "exact_lab_archives": [
+      "work/returns/archives/a6077c4a-8876-4c56-afef-5687d98141a1-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06 2_aristotle/RequestProject/OneMotive/RESULT.md",
+        "bytes": 17945,
+        "sha256": "0591b4b04c66eda77a9a07fd39a04641b62b8ad03e0059dff39937965549591f",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06 2_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4750,
+        "sha256": "c68623e0811dc7ed61781c6ebeec19a1cea3edebb8bcf803d982d413038a2c19",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "a7c2afe9-2396-48e5-a608-b070acb08afc-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/a7c2afe9-2396-48e5-a608-b070acb08afc-aristotle.tar.gz",
+    "bytes": 68168,
+    "sha256": "21db96b2c9e142d19fb2e5a56c1d905b084939263a1368ec25edae0491a8b18d",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "TWIST_SHA_AWARE_2026-09-22_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4170,
+        "sha256": "d4288e22d5a09bcaadc0789e3aed5bdcb83b11acb705983782ef1e78bdeb6646",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "adc519fd-edfa-4f32-afba-4de11102a5dd-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/adc519fd-edfa-4f32-afba-4de11102a5dd-aristotle.tar.gz",
+    "bytes": 43232,
+    "sha256": "922acd766e3d7016a9e16c9483f9d1717cf5bfdea11f73504b6bf6c9c3013cfc",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ORDINARY_BRIDGE_2026-09-22_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4285,
+        "sha256": "effd4cd03d6ebc67df5f87d69d6fd2e7efea3f1f36e84ddfe3c0cbbd66a3e2bb",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "b2b41135-4ba2-4bdc-b687-db0a4e6ecaea-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/b2b41135-4ba2-4bdc-b687-db0a4e6ecaea-aristotle.tar.gz",
+    "bytes": 43214,
+    "sha256": "cece61f459ed9f69096440f8f119b7a2f809316d4a09b170ca79b28a533a5173",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_A4_FINITE_PART_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3063,
+        "sha256": "46a58681b47a874a3668fb89458dc1c924f1f1b3a1b100f3e8444dfc7a5079eb",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "ca7b46ef-56b5-49f7-9f62-2019506f8af5-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/ca7b46ef-56b5-49f7-9f62-2019506f8af5-aristotle.tar.gz",
+    "bytes": 43303,
+    "sha256": "abd6fbec82d3f7793540acb6a7aae21d0dd26049d655851d90f191d7b971bb2d",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_THEOREM_A_UPSTREAM_INTERFACES_001_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3320,
+        "sha256": "ae1032f5738b17596d03b43ca0111aeb4063fee4fece5521c65fd1070e4ad266",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "cb9ad0a0-a443-4ea5-91f2-0fbe5ac66cf0-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/cb9ad0a0-a443-4ea5-91f2-0fbe5ac66cf0-aristotle.tar.gz",
+    "bytes": 145542,
+    "sha256": "0fbfd81e1d400f1170975186d22b1db3a581fd9e1843ffe78da7924caf4bcd18",
+    "exact_lab_archives": [
+      "work/returns/archives/cb9ad0a0-a443-4ea5-91f2-0fbe5ac66cf0-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026-10-06_aristotle/DERIVED_GROSS_RESULT.md",
+        "bytes": 26841,
+        "sha256": "6109ae6fbc03ffe1e9356236a516485df7d880e00e4a784ee3d451960e2af42b",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026-10-06_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4603,
+        "sha256": "96bfb3447c35854b6d6f9f9f33ec444bd61a7c332651beaeb6e7c713877f2dfa",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "cbdfd2db-eb88-4404-a500-9f50de981321-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/cbdfd2db-eb88-4404-a500-9f50de981321-aristotle.tar.gz",
+    "bytes": 26292,
+    "sha256": "65a3de1eb1df2cdb93cdce0603c53ff7e00e5b6987bd08a6fdeeaf92a75e95d5",
+    "exact_lab_archives": [
+      "work/returns/archives/cbdfd2db-eb88-4404-a500-9f50de981321-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 1494,
+        "sha256": "0d55c54313aad0cea3ed4af325f398da81ecacf28fd00ed9cc3eb4b76bce68f2",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "dd395100-2cdf-4136-b6a3-2a1ad6ad5a6b-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/dd395100-2cdf-4136-b6a3-2a1ad6ad5a6b-aristotle.tar.gz",
+    "bytes": 135970,
+    "sha256": "21ce0427136db561f2b58ae62d36d34e58ca193e46b51e60ab9e41b946e19358",
+    "exact_lab_archives": [],
+    "bsd_content_identified": false,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_THEOREM_A_COMPOSITION_001_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3948,
+        "sha256": "dc4adf88e24a9b15aa759cb4856bed1ec5de54191d5de8efcca1609d9272a610",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-2.tar.gz",
+    "path": "/Users/bsm/Downloads/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-2.tar.gz",
+    "bytes": 66283098,
+    "sha256": "bbeec716a716bd19c25643f9e9312014cd014733c1393c1bf500ad27df0907e3",
+    "exact_lab_archives": [
+      "work/returns/archives/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-2.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 8729,
+        "sha256": "3e9ae6078ba71afd2c60508bb3ecc37fc77bead91ef85b36ea55f05e01c9825c",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_2.md",
+        "bytes": 11014,
+        "sha256": "51ad0b0aa6dc656399c90ed62a580076004037215df16c2a03a183dc8bc93246",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/research_return/RESULT.md",
+        "bytes": 5532,
+        "sha256": "40530aed676182d0ec70c9df228bffc03d8d9f8293c4845d5d759a727eba49d0",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-3.tar.gz",
+    "path": "/Users/bsm/Downloads/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-3.tar.gz",
+    "bytes": 66289755,
+    "sha256": "8b445a37caa0804b18d8a326ee2865493bce0ad05c2b527c324200d68b6fe900",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 12235,
+        "sha256": "64c4d2732a018ea1cca3b7e210dd2e97525ba1c37b90a4a915ef2ede0c24997a",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_3.md",
+        "bytes": 8886,
+        "sha256": "a040faf9e7e112962f12a04e59a1dca7a2bfb82339b3a0aeaf3fa5dde6b0ea72",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_2.md",
+        "bytes": 11217,
+        "sha256": "ef1b885f0c5829be2b4ae3def57378ddb171d5dbf649ec531c67a330e136a026",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/RESULT.md",
+        "bytes": 5532,
+        "sha256": "40530aed676182d0ec70c9df228bffc03d8d9f8293c4845d5d759a727eba49d0",
+        "exact_blob_in_lab_returns": true
+      }
+    ]
+  },
+  {
+    "name": "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-4.tar.gz",
+    "path": "/Users/bsm/Downloads/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-4.tar.gz",
+    "bytes": 66301443,
+    "sha256": "e93e7c604a4d58c5dfb21aabda9d274406e4bb32023db9ede0b604ec77461556",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 16931,
+        "sha256": "56455d4e4c23a323746b7ade7cf41e2ddcfefd211ad2e11ddd5192a323fc233d",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_4.md",
+        "bytes": 7455,
+        "sha256": "4fb95c9c0eb9892dc8e2aa8f66e670cfe4d1a2736b97a460dfba23b5f1de90f1",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_3.md",
+        "bytes": 8950,
+        "sha256": "015de0c6058ced50b509bc1e037cf2d3a291472f8469b3d5a43582848bf43aa3",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/RESULT.md",
+        "bytes": 5532,
+        "sha256": "40530aed676182d0ec70c9df228bffc03d8d9f8293c4845d5d759a727eba49d0",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_2.md",
+        "bytes": 11217,
+        "sha256": "ef1b885f0c5829be2b4ae3def57378ddb171d5dbf649ec531c67a330e136a026",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-5.tar.gz",
+    "path": "/Users/bsm/Downloads/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-5.tar.gz",
+    "bytes": 66317006,
+    "sha256": "03dd56ece6acb879a1a788d08aecb28f4d6a0c89a68d8ed73b5e486d3efa77bf",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 21220,
+        "sha256": "d6c32575651d64be7efee26b5efcc0b519392a26a707288789a513050a58565b",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/FRONTIER.md",
+        "bytes": 6207,
+        "sha256": "1dacbabace351042c5b2f4b25b9dc82a465f67a43e9f3b724146ff0aeb96d3b5",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_5.md",
+        "bytes": 8198,
+        "sha256": "322b2fcab3ce97a320c01ed44a67e40a3722e87a7eef6189d60ba91a152dfad8",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_4.md",
+        "bytes": 7636,
+        "sha256": "d865efe6aba111708d59761a217b92f0bc9364257fb72c5cbf459b8f20cd0e14",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/RESULT.md",
+        "bytes": 5532,
+        "sha256": "40530aed676182d0ec70c9df228bffc03d8d9f8293c4845d5d759a727eba49d0",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_2.md",
+        "bytes": 11217,
+        "sha256": "ef1b885f0c5829be2b4ae3def57378ddb171d5dbf649ec531c67a330e136a026",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_3.md",
+        "bytes": 8950,
+        "sha256": "015de0c6058ced50b509bc1e037cf2d3a291472f8469b3d5a43582848bf43aa3",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-6.tar.gz",
+    "path": "/Users/bsm/Downloads/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-6.tar.gz",
+    "bytes": 66333958,
+    "sha256": "307d9a2482f594bc52831539e515fa7bac0a64caed0794a3809a8210c0d646ad",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 25287,
+        "sha256": "ef78464e5c7ff5385421d4a687ebaa2fc6df4bbce630b5611154a951421910b0",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_6.md",
+        "bytes": 12790,
+        "sha256": "54ffa3bc9abc9d2a640f7f42bf9df600b1a4cd1f7d16e3ac3d40574247cc52ac",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_5.md",
+        "bytes": 8351,
+        "sha256": "10e197ebfb1ab0bdcdb4519c863ec4f6fc9bc220be7185a7fe2d37b8b28615ce",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/FRONTIER.md",
+        "bytes": 6207,
+        "sha256": "1dacbabace351042c5b2f4b25b9dc82a465f67a43e9f3b724146ff0aeb96d3b5",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/RESULT.md",
+        "bytes": 5532,
+        "sha256": "40530aed676182d0ec70c9df228bffc03d8d9f8293c4845d5d759a727eba49d0",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_2.md",
+        "bytes": 11217,
+        "sha256": "ef1b885f0c5829be2b4ae3def57378ddb171d5dbf649ec531c67a330e136a026",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_3.md",
+        "bytes": 8950,
+        "sha256": "015de0c6058ced50b509bc1e037cf2d3a291472f8469b3d5a43582848bf43aa3",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_4.md",
+        "bytes": 7636,
+        "sha256": "d865efe6aba111708d59761a217b92f0bc9364257fb72c5cbf459b8f20cd0e14",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-7.tar.gz",
+    "path": "/Users/bsm/Downloads/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-7.tar.gz",
+    "bytes": 66358137,
+    "sha256": "474218aa6a00a223460fda033e9db14d1e7164a94e94b149da30932e0467f08b",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 29087,
+        "sha256": "e04a67c4ee573c1a712d048225a52f9c3fdc5b033fab2c575b05c3c06c7c91b4",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_7.md",
+        "bytes": 9510,
+        "sha256": "71fb77672d01741ea27478db77df1557b0f12103db41edf7bf6c76323fec19df",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/FRONTIER.md",
+        "bytes": 6207,
+        "sha256": "1dacbabace351042c5b2f4b25b9dc82a465f67a43e9f3b724146ff0aeb96d3b5",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/RESULT.md",
+        "bytes": 5532,
+        "sha256": "40530aed676182d0ec70c9df228bffc03d8d9f8293c4845d5d759a727eba49d0",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_2.md",
+        "bytes": 11217,
+        "sha256": "ef1b885f0c5829be2b4ae3def57378ddb171d5dbf649ec531c67a330e136a026",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_3.md",
+        "bytes": 8950,
+        "sha256": "015de0c6058ced50b509bc1e037cf2d3a291472f8469b3d5a43582848bf43aa3",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_4.md",
+        "bytes": 7636,
+        "sha256": "d865efe6aba111708d59761a217b92f0bc9364257fb72c5cbf459b8f20cd0e14",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_5.md",
+        "bytes": 8351,
+        "sha256": "10e197ebfb1ab0bdcdb4519c863ec4f6fc9bc220be7185a7fe2d37b8b28615ce",
+        "exact_blob_in_lab_returns": false
+      },
+      {
+        "member": "output-final_aristotle/research_return/REVISION_6.md",
+        "bytes": 12930,
+        "sha256": "dc2fc119de769f9f116f9710b44e3f4525cf95d8a10e2b90fbc8846c1d53ae78",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle.tar.gz",
+    "bytes": 66275267,
+    "sha256": "1c75c5cd591395204702777299d107c4c440bb42de36f5985992943d228dff94",
+    "exact_lab_archives": [
+      "work/returns/archives/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle.tar.gz"
+    ],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "BSD_ARISTOTLE_CONTINUATION_2026-10-06_aristotle/research_return/RESULT.md",
+        "bytes": 5047,
+        "sha256": "f189cde46473f8b647c38484f5890bda7bcbc836673aafd6ecd70b3f200c932c",
+        "exact_blob_in_lab_returns": true
+      },
+      {
+        "member": "BSD_ARISTOTLE_CONTINUATION_2026-10-06_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 4406,
+        "sha256": "a96b7c88d2dbf6dc99d573ac2c30b7c7e76fb8d177e4d4cc1c05aa726a4c6d25",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle (1).tar.gz",
+    "path": "/Users/bsm/Downloads/ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle (1).tar.gz",
+    "bytes": 118555,
+    "sha256": "9d65388b2389533e3bbe89714b464d06f3bbd5fb640860e3f5d6987ad245f494",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 6821,
+        "sha256": "dab48e08ae7af059e9bd49b7227f88d6ffbfff5f32ea6f2c0ff43e91eb831b19",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle (2).tar.gz",
+    "path": "/Users/bsm/Downloads/ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle (2).tar.gz",
+    "bytes": 132687,
+    "sha256": "46a75b730e8892f9207b4c08e2040a3cf5d692c68b4d547ff9bab90d662cd832",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 11597,
+        "sha256": "09ac041b7dc90d7d9c31da1ef2aa170c7312e664d04764d701f2f6768e0765be",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle (3).tar.gz",
+    "path": "/Users/bsm/Downloads/ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle (3).tar.gz",
+    "bytes": 143000,
+    "sha256": "81c4d90d2a379f43836d67e8adcefaaa6ec41a6837533c02f674bdb1471c7ff8",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "output-final_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 16032,
+        "sha256": "d3c0d3218d4668772d3b6f0adec529721b99fb15d5087e9a3d201d1c4dcabdfa",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  },
+  {
+    "name": "ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle.tar.gz",
+    "path": "/Users/bsm/Downloads/ffa9160f-5550-4083-adbe-d5194dcf6c3c-aristotle.tar.gz",
+    "bytes": 112668,
+    "sha256": "ca59c470195cd4f88569ee9cb8b744ff31d67d4ea7f99604452abbe11fdc42a1",
+    "exact_lab_archives": [],
+    "bsd_content_identified": true,
+    "selected_report_content": [
+      {
+        "member": "ARISTOTLE_BSD_INVENTION_2026-09-20_aristotle/ARISTOTLE_SUMMARY.md",
+        "bytes": 3801,
+        "sha256": "020a9a8744590d0acdf6def3411289d70e0cc1bce5fce87048b33f4b3c584c4b",
+        "exact_blob_in_lab_returns": false
+      }
+    ]
+  }
+]

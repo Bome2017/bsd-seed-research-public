@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-12",
+  "repository": "Bome2017/bsd-seed-lab",
+  "baseline_commit": "581f7a26a1d110bcd6131739f94569e4810a719e",
+  "retained_sources": [
+    {
+      "path": "work/returns/BSD_BOCKSTEIN_CERTIFICATE_REVIEW_CODEX_2026-10-12/REPORT.md",
+      "git_blob": "501a944208355884c1a84bd0433d32b5bd90ac48",
+      "read": true,
+      "copied_byte_for_byte": false,
+      "independently_recertified": false
+    },
+    {
+      "path": "work/returns/BSD_BOCKSTEIN_CERTIFICATE_REVIEW_CODEX_2026-10-12/ARITHMETIC_INTERFACE.md",
+      "read": true,
+      "response_tail_truncated": true,
+      "copied_byte_for_byte": false,
+      "independently_recertified": false
+    },
+    {
+      "path": "work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COFINITE_NORMALIZATION.md",
+      "git_blob": "0c6786f2459637be3480e13cb8ba4f963a3b714e",
+      "read": true,
+      "copied_byte_for_byte": false,
+      "independently_recertified": false
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "BKS",
+      "url": "https://www.jstage.jst.go.jp/article/jmath/76/3/76_855/_pdf/-char/en",
+      "scope": "Section 2.1, Lemma 5.8; PDF pages visually inspected",
+      "byte_hash": null
+    },
+    {
+      "id": "CNS",
+      "url": "https://arxiv.org/pdf/1911.09446",
+      "scope": "Lemma 6.5, introduction good-prime discussion",
+      "byte_hash": null
+    },
+    {
+      "id": "Mascot",
+      "url": "https://link.springer.com/article/10.1007/s40993-022-00329-6",
+      "scope": "Section 2.3 cusp fields and rational cusp 0",
+      "byte_hash": null
+    }
+  ],
+  "new_source_family": true,
+  "historical_sources_retroactively_rescaled": false,
+  "new_K_values": 0,
+  "new_primary_results": 0,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "review_grade": "single-assistant written derivation and executed exact controls",
+  "third_party_source_bytes_included": false
+}

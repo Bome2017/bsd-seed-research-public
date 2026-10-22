@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "actual_class_images": [
+    [
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      0,
+      0,
+      2,
+      2
+    ]
+  ],
+  "actual_coordinates_in_unramified_basis": [
+    [
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      2,
+      2
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ]
+  ],
+  "actual_independent_source_rank": 4,
+  "actual_class_image_rank": 2,
+  "actual_local_constraints_on_four_classes": "zero on all saved rows",
+  "ordinary_source_minus_3_group_conditional": [
+    3,
+    3
+  ],
+  "ordinary_companion_minus_3_group_conditional": [
+    3,
+    3,
+    3
+  ],
+  "S_companion_minus_3_group_conditional": [
+    3,
+    3
+  ],
+  "norm_class_map_on_source_minus_3_group": "zero by four exact norm-cube identities, replayed separately",
+  "whole_seed_source_norm_kernel_dimension_conditional": 4,
+  "unit_dimension": 2,
+  "class_projection_dimension": 2,
+  "connecting_map_rank": 0,
+  "known_Sha_dimension_used": false,
+  "conditional_input": "complete source class presentation [12,6,2]; GRH retained",
+  "caveat": "Class and source dimensions are deductions under retained incidence index theorem, not a direct companion BNF.",
+  "input_hashes": {
+    "MATRICES.json": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+    "actual_representatives.gp": "038a2f243e59fc6dffb4049eab2b5b3f937cafb44b949f4c36c98bef122b5b66",
+    "affine_norm_certificate.gp": "d5b3250ff5cf15aaaa41098466ea37da435a725cd40a37ac2d0d2f3bf4350d40",
+    "geometry.out": "c78a83b06348df3c7b37db29678b6d16f594229a71a9ddda09870e876521ddd1",
+    "inspect.out": "3bc6e0ff2d6b795c0acc30ef11bc5083e4fb7a0507ca409c1b0d710820805d12",
+    "presentation_check.json": "6b072fc05d4e110be2ad71cb67bcc5ce092cf5805e824450aa336886a197d79e"
+  }
+}

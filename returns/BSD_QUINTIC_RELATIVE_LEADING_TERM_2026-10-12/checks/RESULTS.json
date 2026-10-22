@@ -1,0 +1,134 @@
+{
+  "C_F": 256,
+  "C_Q": 16,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Phi5_mod19_factors_ascending": [
+    [
+      1,
+      5,
+      1
+    ],
+    [
+      1,
+      -4,
+      1
+    ]
+  ],
+  "Q36": "UNCHANGED",
+  "Reg_F_over_Reg_Q": 25,
+  "actual_Sha_order_inferred": false,
+  "character_map_controls": 20,
+  "conditional_value_if_Q36": 1172889,
+  "field_discriminant": 390625,
+  "field_polynomial_ascending": [
+    1,
+    10,
+    5,
+    -10,
+    0,
+    1
+  ],
+  "full_period_coefficients": [
+    -38,
+    0,
+    -38,
+    38,
+    38
+  ],
+  "gauss_pair_products": [
+    25,
+    25
+  ],
+  "input_git_blob": "b0d766f63e90ac9d17b2ca15ee2e387cd6b34ff6",
+  "input_sha256": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e",
+  "input_symbol_rows": 20,
+  "local_rows": [
+    {
+      "c_per_place_under_unramified_odd_degree_base_change": 2,
+      "character_exponent": 2,
+      "number_of_places": 1,
+      "q": 2,
+      "reduction_retained": "I1*",
+      "residue_degree": 5
+    },
+    {
+      "c_per_place_under_unramified_odd_degree_base_change": 2,
+      "character_exponent": 4,
+      "number_of_places": 1,
+      "q": 3,
+      "reduction_retained": "I2 nonsplit",
+      "residue_degree": 5
+    },
+    {
+      "c_per_place_under_unramified_odd_degree_base_change": 1,
+      "character_exponent": 0,
+      "number_of_places": 5,
+      "q": 2243,
+      "reduction_retained": "I1 split",
+      "residue_degree": 1
+    },
+    {
+      "c_per_place_under_unramified_odd_degree_base_change": 2,
+      "character_exponent": 4,
+      "number_of_places": 1,
+      "q": 4547,
+      "reduction_retained": "III",
+      "residue_degree": 5
+    },
+    {
+      "c_per_place_under_unramified_odd_degree_base_change": 2,
+      "character_exponent": 0,
+      "number_of_places": 5,
+      "q": 5843,
+      "reduction_retained": "I2 nonsplit",
+      "residue_degree": 1
+    }
+  ],
+  "new_padic_coefficient_digits": 0,
+  "new_symbol_values": 0,
+  "norm_by_two_exact_methods": 52128400,
+  "normalization_countercontrols": {
+    "absolute_not_relative_height": 3258025,
+    "omitted_tamagawa_ratio": 2085136,
+    "polynomial_not_field_discriminant": 912247,
+    "primitive_not_full_real_period": 2085136
+  },
+  "normalized_character_values_mod_Phi5": [
+    [
+      -76,
+      -38,
+      -76
+    ],
+    [
+      0,
+      76,
+      38,
+      76
+    ],
+    [
+      -76,
+      -76,
+      0,
+      -38
+    ],
+    [
+      -38,
+      38,
+      38,
+      -38
+    ]
+  ],
+  "polynomial_discriminant": 19140625,
+  "power_basis_index": 7,
+  "product_twisted_L_over_Omega_to_four": "2085136/25",
+  "raw_grouped_symbols": [
+    -76,
+    0,
+    -76,
+    76,
+    76
+  ],
+  "relative_BSD_normalized_analytic_factor": 130321,
+  "status": "PASS_EXACT_RELATIVE_ANALYTIC_CALCULATION_NOT_A_SHA_ORDER"
+}

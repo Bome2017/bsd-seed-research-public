@@ -1,0 +1,72 @@
+{
+  "status": "EXACT_LINEAR_ALGEBRA_PASS",
+  "dimensions": {
+    "valuation": 0,
+    "unit": 1,
+    "class": 1
+  },
+  "dimension_sum": 2,
+  "dim_A0": 4,
+  "dim_W0": 2,
+  "dim_U": 2,
+  "dim_UW": 1,
+  "rank_valuation": 0,
+  "rank_point_valuation": 0,
+  "rank_class": 2,
+  "rank_point_class": 1,
+  "unramified_basis": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "unit_basis": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ]
+  ],
+  "point_unramified_basis": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "scope": "Checks supplied matrices and exact sequences, not their number-field arithmetic or class-group completeness."
+}

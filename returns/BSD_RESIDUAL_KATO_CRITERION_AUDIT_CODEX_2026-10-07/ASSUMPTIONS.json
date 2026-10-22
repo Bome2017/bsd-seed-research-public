@@ -1,0 +1,31 @@
+{
+  "grade": "WRITTEN_DERIVATION_UNDER_RETAINED_AND_PUBLISHED_INPUTS",
+  "independent_review": "PENDING",
+  "domain": "p >= 5, p does not divide N, p not in {19,59,487}",
+  "retained": [
+    "The fixed seed has algebraic rank two with the stated full saturated Mordell-Weil basis and rational two-torsion.",
+    "The mod-p Galois image is GL2(F_p) for each p in the domain.",
+    "The displayed minimal model and additive potentially-good reduction data are the retained seed data.",
+    "The preceding weak-order proof and source audit identify the actual smoothed class and transported lattice; z_infinity = U y_infinity.",
+    "Derived coefficient control and the preceding integral placement proof apply to this full-S complex."
+  ],
+  "published_inputs": [
+    "Kato 13.4(3), 13.3, 13.7, 13.14 and 12.6, with their actual integral lattices, Euler systems and component hypotheses.",
+    "Kato freeness and torsion/finiteness of the stated Iwasawa cohomology modules.",
+    "Local Tate duality, Weil self-duality, the Tate-curve and potentially-good inertia descriptions.",
+    "Odd-p global cohomological dimension, finite Kummer injection, and regular-local perfectness/UFD facts."
+  ],
+  "written_here": [
+    "Cyclotomic-kernel integral big image from full residual image for p >= 5.",
+    "Local H2 vanishing on the target cyclotomic Z_p component from non-anomalous reduction.",
+    "Integral j_* to full-S comparison on the displayed domain.",
+    "Two-term free representative from perfectness and derived residual control.",
+    "Residual derivative primitivity implies primary Sha vanishing via the submitted algebra."
+  ],
+  "not_assumed_or_proved": [
+    "Residual primitivity of the derivative at any seed prime.",
+    "A p-unit relation with any independently normalized numerical Kato class.",
+    "A uniform support bound, fixed annihilator, analytic leading-term identity or tame comparison.",
+    "FIN, ORDER9 or Q36."
+  ]
+}

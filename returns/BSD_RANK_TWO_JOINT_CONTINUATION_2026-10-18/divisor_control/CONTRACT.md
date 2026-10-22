@@ -1,0 +1,1 @@
+Authenticate actual 655a1 coefficient7 prime decomposition/scalar action atS={5,7,131}; then compute primitive divisor incidence using verified multiplicative types. No class or Selmer value used. ExactGPcap30s. This supplies the valuation allowance for the joint bound only.

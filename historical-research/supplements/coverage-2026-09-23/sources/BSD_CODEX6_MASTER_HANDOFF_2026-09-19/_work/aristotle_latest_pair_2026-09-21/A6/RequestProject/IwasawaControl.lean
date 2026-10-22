@@ -1,0 +1,203 @@
+import Mathlib
+
+/-!
+# The control-theorem source is not automatically a finite bound for Ш
+
+The record's description of the Iwasawa route reads: Kato's divisibility bounds the
+characteristic ideal of `X_∞ = Sel_{p^∞}(E/ℚ_∞)^∨`, the control theorem produces a surjection
+from the coinvariants `X_∞/(γ−1)X_∞` onto `Ш[p^∞]^∨`, and therefore the `p`-adic valuation of a
+leading Taylor coefficient of `L_p` bounds `#Ш[p^∞]`.
+
+The load-bearing distinction that description skips is that the dual Kummer sequence
+
+    0 → Ш[p^∞]^∨ → Sel_{p^∞}(E/ℚ)^∨ → ℤ_p² → 0
+
+leaves the two Mordell–Weil directions inside the control-theorem source.  A source with those
+directions still present is **infinite**, so "bounded characteristic ideal" alone is not a
+cardinality bound on the coinvariants.
+
+This file machine-checks both halves of that correction.
+
+## §1 Countermodel (`coinvariants_infinite_of_charIdeal_T_sq`)
+
+Over `Λ = ℤ_p⟦T⟧`, the torsion module `X = (Λ/(T))²` is elementary with characteristic ideal
+`(T)·(T) = (T²)`; `T²` is a distinguished polynomial of degree `2` (so `μ = 0`, `λ = 2`) whose
+leading coefficient is the unit `1`.  Nevertheless `T` annihilates `X`, so
+
+    X/TX ≅ X ≅ ℤ_p²
+
+is infinite.  A characteristic ideal with unit leading coefficient therefore does **not** bound
+the cardinality of the Γ-coinvariants.
+
+## §2 The correct positive form (`ker_eq_bot_of_surjective_sandwich`)
+
+What *does* give vanishing is exactness of the sandwich: if the coinvariant source surjects onto
+`Sel^∨` and `Sel^∨` surjects back onto the same finitely generated Noetherian module (here
+`ℤ_p²`, the Mordell–Weil quotient), then both maps are isomorphisms and the kernel — the copy of
+`Ш[p^∞]^∨` — vanishes.  So the Iwasawa input needed is not "the leading coefficient is a unit"
+in isolation, but "the coinvariants are *exactly* `ℤ_p²`, with no extra finite part".  That is a
+strictly stronger arithmetic statement, and it is the one a tail argument must supply.
+
+Only the module theory is formalised here.  The identification of `X_∞`, of the control map, and
+of the dual Kummer sequence for the seed curve are inputs from the record, not reproved.
+-/
+
+namespace SeedBSD.Iwasawa
+
+open PowerSeries
+
+section Countermodel
+
+variable (p : ℕ) [Fact p.Prime]
+
+/-- The Iwasawa algebra `Λ = ℤ_p⟦T⟧` (with `T` written `X` in Mathlib's power-series API). -/
+abbrev Lam : Type := PowerSeries ℤ_[p]
+
+/-- The ideal `(T) ⊆ Λ`. -/
+abbrev Tideal : Ideal (Lam p) := Ideal.span {(PowerSeries.X : Lam p)}
+
+/-- `(T)` is the kernel of the constant-coefficient map, hence `Λ/(T) ≅ ℤ_p`. -/
+theorem Tideal_eq_ker :
+    Tideal p = RingHom.ker (PowerSeries.constantCoeff (R := ℤ_[p])) := by
+  ext f
+  simp [Tideal, Ideal.mem_span_singleton, PowerSeries.X_dvd_iff, RingHom.mem_ker]
+
+/-- `Λ/(T) ≅ ℤ_p` as rings. -/
+noncomputable def quotTidealEquiv : (Lam p ⧸ Tideal p) ≃+* ℤ_[p] := by
+  rw [Tideal_eq_ker]
+  exact RingHom.quotientKerEquivOfSurjective PowerSeries.constantCoeff_surj
+
+instance : Infinite (Lam p ⧸ Tideal p) :=
+  Infinite.of_injective _ (quotTidealEquiv p).symm.injective
+
+/-- The countermodel module `X = (Λ/(T))²`, an elementary torsion `Λ`-module. -/
+abbrev CM : Type := (Lam p ⧸ Tideal p) × (Lam p ⧸ Tideal p)
+
+/-- The characteristic ideal of the elementary module `Λ/(T) ⊕ Λ/(T)` is, by definition, the
+product of the elementary divisors, namely `(T²)`. -/
+theorem charIdeal_CM : Tideal p * Tideal p = Ideal.span {(PowerSeries.X : Lam p) ^ 2} := by
+  rw [Tideal, Ideal.span_singleton_mul_span_singleton, sq]
+
+/-- `T²` is a distinguished polynomial of degree `2`: its leading coefficient is the unit `1`
+(`λ = 2`) and its lower coefficients vanish (`μ = 0`). -/
+theorem coeff_X_sq :
+    (PowerSeries.coeff 2 ((PowerSeries.X : Lam p) ^ 2) = 1) ∧
+      (PowerSeries.coeff 0 ((PowerSeries.X : Lam p) ^ 2) = 0) ∧
+      (PowerSeries.coeff 1 ((PowerSeries.X : Lam p) ^ 2) = 0) := by
+  refine ⟨?_, ?_, ?_⟩ <;> simp [PowerSeries.coeff_X_pow]
+
+/-- `T` annihilates the countermodel. -/
+theorem smul_X_eq_zero (m : CM p) : (PowerSeries.X : Lam p) • m = 0 := by
+  obtain ⟨a, b⟩ := m
+  have h : ∀ c : Lam p ⧸ Tideal p, (PowerSeries.X : Lam p) • c = 0 := by
+    intro c
+    induction c using Quotient.inductionOn with
+    | h f =>
+        change Ideal.Quotient.mk (Tideal p) (PowerSeries.X * f) = 0
+        rw [Ideal.Quotient.eq_zero_iff_mem]
+        exact Ideal.mul_mem_right _ _ (Ideal.subset_span rfl)
+  exact Prod.ext (h a) (h b)
+
+/-- The `Γ`-coinvariants `X/TX` of the countermodel, i.e. `X` modulo the image of multiplication
+by `T`. -/
+abbrev Coinv : Type := CM p ⧸ LinearMap.range (LinearMap.lsmul (Lam p) (CM p) PowerSeries.X)
+
+/-- **The countermodel.**  Over `Λ = ℤ_p⟦T⟧` the module `X = (Λ/(T))²` is a torsion `Λ`-module
+whose characteristic ideal is `(T²)` — a distinguished polynomial of degree `2` with unit leading
+coefficient, so `μ = 0` and `λ = 2` — and yet its `Γ`-coinvariants `X/TX ≅ ℤ_p²` are infinite.
+
+Hence a statement of the form "`char(X_∞)` is generated by a distinguished polynomial of degree
+`2` with unit leading coefficient" does **not** by itself bound `#(X_∞/(γ−1)X_∞)`, and a
+surjection from that coinvariant group onto `Ш[p^∞]^∨` is therefore not a finite bound for
+`Ш[p^∞]`. -/
+theorem coinvariants_infinite_of_charIdeal_T_sq :
+    Tideal p * Tideal p = Ideal.span {(PowerSeries.X : Lam p) ^ 2} ∧
+      PowerSeries.coeff 2 ((PowerSeries.X : Lam p) ^ 2) = 1 ∧
+      (∀ m : CM p, (PowerSeries.X : Lam p) • m = 0) ∧
+      Infinite (Coinv p) := by
+  refine ⟨charIdeal_CM p, (coeff_X_sq p).1, smul_X_eq_zero p, ?_⟩
+  have hbot : LinearMap.range (LinearMap.lsmul (Lam p) (CM p) PowerSeries.X) = ⊥ := by
+    rw [eq_bot_iff]
+    rintro m ⟨n, rfl⟩
+    exact (Submodule.mem_bot _).2 (smul_X_eq_zero p n)
+  have e : Coinv p ≃ₗ[Lam p] CM p := Submodule.quotEquivOfEqBot _ hbot
+  exact Infinite.of_injective _ e.symm.injective
+
+end Countermodel
+
+section Sandwich
+
+variable {R M S : Type*} [CommRing R] [AddCommGroup M] [Module R M] [AddCommGroup S] [Module R S]
+
+/-- **What the Iwasawa input must actually say.**  Let `M` be a Noetherian `R`-module (in the
+application `M = ℤ_p²`, the Mordell–Weil quotient in the dual Kummer sequence).  If `M` surjects
+onto `S` (the control-theorem surjection from the coinvariants, after identifying the source with
+`M`) and `S` surjects back onto `M` (the dual Kummer sequence), then both maps are isomorphisms
+and the kernel of the second — the copy of `Ш[p^∞]^∨` — is zero.
+
+So the vanishing of `Ш[p^∞]` follows not from a bound on a leading coefficient in isolation, but
+from the coinvariant source being *exactly* `ℤ_p²` with no extra part. -/
+theorem ker_eq_bot_of_surjective_sandwich [IsNoetherian R M]
+    (u : M →ₗ[R] S) (hu : Function.Surjective u)
+    (v : S →ₗ[R] M) (hv : Function.Surjective v) :
+    Function.Bijective u ∧ Function.Bijective v ∧ LinearMap.ker v = ⊥ := by
+  have hcomp : Function.Surjective (v.comp u) := hv.comp hu
+  have hinj : Function.Injective (v.comp u) :=
+    IsNoetherian.injective_of_surjective_endomorphism (v.comp u) hcomp
+  have huinj : Function.Injective u := by
+    intro a b hab
+    exact hinj (by simp [LinearMap.comp_apply, hab])
+  have hvinj : Function.Injective v := by
+    intro s t hst
+    obtain ⟨a, rfl⟩ := hu s
+    obtain ⟨b, rfl⟩ := hu t
+    have : (v.comp u) a = (v.comp u) b := hst
+    exact congrArg u (hinj this)
+  exact ⟨⟨huinj, hu⟩, ⟨hvinj, hv⟩, LinearMap.ker_eq_bot_of_injective hvinj⟩
+
+/-- **The sandwich lemma is an equivalence, and that is its limitation.**  Fix the exact
+sequence `0 → K → S → M → 0` with `M` Noetherian (in the application
+`0 → Ш[p^∞]^∨ → Sel^∨ → ℤ_p² → 0`), i.e. a surjection `v : S ↠ M` with `K = ker v`.  Then
+
+    (there exists a surjection `M ↠ S`)  ↔  `ker v = 0`.
+
+The left-to-right direction is the sandwich lemma above; the right-to-left direction is the
+observation that if the kernel already vanishes then `v` is an isomorphism and its inverse is the
+required surjection.  Consequently, producing the first arrow `ℤ_p² ↠ Sel_{p^∞}(E/ℚ)^∨` is not a
+step *towards* `Ш[p^∞] = 0`: it is *logically equivalent* to it, given the dual Kummer sequence.
+The module theory here is therefore a precise statement of what remains to be done
+arithmetically, not a reduction of it. -/
+theorem exists_surjection_iff_ker_eq_bot [IsNoetherian R M]
+    (v : S →ₗ[R] M) (hv : Function.Surjective v) :
+    (∃ u : M →ₗ[R] S, Function.Surjective u) ↔ LinearMap.ker v = ⊥ := by
+  constructor
+  · rintro ⟨u, hu⟩
+    exact (ker_eq_bot_of_surjective_sandwich u hu v hv).2.2
+  · intro h
+    have hinj : Function.Injective v := LinearMap.ker_eq_bot.1 h
+    let e : S ≃ₗ[R] M := LinearEquiv.ofBijective v ⟨hinj, hv⟩
+    exact ⟨e.symm.toLinearMap, e.symm.surjective⟩
+
+/-- Packaged for the application: with `M = ℤ_p²` in the dual Kummer sequence
+`0 → Ш[p^∞]^∨ → Sel^∨ → ℤ_p² → 0`, a surjection `ℤ_p² ↠ Sel^∨` forces `Ш[p^∞]^∨ = 0`. -/
+theorem sha_dual_vanishes_of_rank_two_source (p : ℕ) [Fact p.Prime]
+    {S : Type*} [AddCommGroup S] [Module ℤ_[p] S]
+    (u : (Fin 2 → ℤ_[p]) →ₗ[ℤ_[p]] S) (hu : Function.Surjective u)
+    (v : S →ₗ[ℤ_[p]] (Fin 2 → ℤ_[p])) (hv : Function.Surjective v) :
+    LinearMap.ker v = ⊥ :=
+  (ker_eq_bot_of_surjective_sandwich u hu v hv).2.2
+
+/-- The equivalence in the arithmetic shape: given the dual Kummer surjection
+`v : Sel_{p^∞}(E/ℚ)^∨ ↠ ℤ_p²` with kernel `Ш[p^∞]^∨`, the existence of *any* surjection
+`ℤ_p² ↠ Sel_{p^∞}(E/ℚ)^∨` is equivalent to `Ш[p^∞]^∨ = 0`.  So the outstanding arithmetic task —
+constructing the first arrow — is exactly the primary vanishing statement itself, and no part of
+it is discharged by the linear algebra. -/
+theorem sha_dual_vanishes_iff_rank_two_source (p : ℕ) [Fact p.Prime]
+    {S : Type*} [AddCommGroup S] [Module ℤ_[p] S]
+    (v : S →ₗ[ℤ_[p]] (Fin 2 → ℤ_[p])) (hv : Function.Surjective v) :
+    (∃ u : (Fin 2 → ℤ_[p]) →ₗ[ℤ_[p]] S, Function.Surjective u) ↔ LinearMap.ker v = ⊥ :=
+  exists_surjection_iff_ker_eq_bot v hv
+
+end Sandwich
+
+end SeedBSD.Iwasawa

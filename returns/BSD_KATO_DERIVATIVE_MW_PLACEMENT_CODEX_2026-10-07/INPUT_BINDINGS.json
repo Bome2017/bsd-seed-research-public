@@ -1,0 +1,62 @@
+{
+  "lab_baseline": "54637ae16c1856d065b8dada5aeab7c7ac33ced6",
+  "weak_order_commit": "d4d86454eedd7e3be2c0b398f4a8210fa4abc4a3",
+  "entries": [
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "copy": "context/WEAK_ORDER_PROOF.md",
+      "bytes": 7613,
+      "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+      "grade": "retained written proof or source audit; not independently recertified"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/ASSUMPTIONS.json",
+      "copy": "context/WEAK_ORDER_ASSUMPTIONS.json",
+      "bytes": 889,
+      "sha256": "ce8bcabad8f5b2c364249eb654fefd2255e38e3d64f5e2558f3df5e8e7e95101",
+      "grade": "retained written proof or source audit; not independently recertified"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/TAME_COMPARISON.md",
+      "copy": "context/TAME_COMPARISON.md",
+      "bytes": 4799,
+      "sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718",
+      "grade": "retained written proof or source audit; not independently recertified"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "copy": "context/FOUNDATION_CHECK.md",
+      "bytes": 10104,
+      "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+      "grade": "retained written proof or source audit; not independently recertified"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "copy": "context/FOUNDATION_REPORT.md",
+      "bytes": 2182,
+      "sha256": "05543da6fb80a9c73afca188391a7c002673f977bd01e6e91cb1c2e223625416",
+      "grade": "retained written proof or source audit; not independently recertified"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/SOURCES.md",
+      "copy": "context/FOUNDATION_SOURCES.md",
+      "bytes": 1620,
+      "sha256": "b99056218995c979f20ca08cbeae02cd3b30521c9bf002674776d61e447baaaf",
+      "grade": "retained written proof or source audit; not independently recertified"
+    },
+    {
+      "source": "/Users/bsm/Downloads/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "copy": "context/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "bytes": 57098,
+      "sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc",
+      "grade": "retained written proof or source audit; not independently recertified"
+    },
+    {
+      "source": "/Users/bsm/Downloads/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07.zip",
+      "copy": "context/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07.zip",
+      "bytes": 75028,
+      "sha256": "9b9b9e3c7f471cac8e360f19de4205ed59a2cc80172de373b7bff48c00b471be",
+      "grade": "retained written proof or source audit; not independently recertified"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "source": "REPORT.md",
+    "target": "LOCAL_LATTICE.md",
+    "exists": true
+  },
+  {
+    "source": "REPORT.md",
+    "target": "KATO_MATCH.md",
+    "exists": true
+  },
+  {
+    "source": "REPORT.md",
+    "target": "HIDA_ATTEMPT.md",
+    "exists": true
+  },
+  {
+    "source": "REPORT.md",
+    "target": "HANDOFF.md",
+    "exists": true
+  },
+  {
+    "source": "REPORT.md",
+    "target": "SOURCES.md",
+    "exists": true
+  },
+  {
+    "source": "REPORT.md",
+    "target": "checks/EXACT_CONTROLS.json",
+    "exists": true
+  }
+]

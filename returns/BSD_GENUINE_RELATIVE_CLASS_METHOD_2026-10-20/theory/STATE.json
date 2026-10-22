@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_SCOPED_THEORY_AND_GENERATION_TEST",
+  "presentation_bound": "d-r_U+m-r_C+q",
+  "requires_full_class_group": false,
+  "requires_full_unit_basis": false,
+  "requires_complete_relations": false,
+  "generation_mod_p_certified": false,
+  "bddf_cutoff": 419776,
+  "bddf_status": "FAIL_AT_THIS_CUTOFF",
+  "class_upper_bound": null,
+  "endpoints_changed": []
+}

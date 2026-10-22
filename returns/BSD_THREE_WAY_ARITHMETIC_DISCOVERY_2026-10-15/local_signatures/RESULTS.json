@@ -1,0 +1,867 @@
+[
+  {
+    "case": "1913b1",
+    "known_class_dimension": 2,
+    "point_dimension": 0,
+    "known_excess_dimension": 2,
+    "declared_membership": "RETAINED_GENUINE_SELMER_CLASSES",
+    "bad_place_signature_rank": 1,
+    "fresh_good_prime_count": 24,
+    "fresh_signature_rank": 2,
+    "known_quotient_fully_detected": true,
+    "first_global_failure": null,
+    "greedy_independent_detectors": [
+      {
+        "prime": 997,
+        "annihilator_index": 0,
+        "root_weights": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "known_signature": [
+          0,
+          2
+        ]
+      },
+      {
+        "prime": 997,
+        "annihilator_index": 1,
+        "root_weights": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "known_signature": [
+          1,
+          1
+        ]
+      }
+    ],
+    "all_place_point_ranks": [
+      [
+        997,
+        0,
+        2
+      ],
+      [
+        1657,
+        0,
+        2
+      ],
+      [
+        1789,
+        0,
+        2
+      ],
+      [
+        1867,
+        0,
+        1
+      ],
+      [
+        3067,
+        0,
+        2
+      ],
+      [
+        3307,
+        0,
+        2
+      ],
+      [
+        3547,
+        0,
+        1
+      ],
+      [
+        3733,
+        0,
+        2
+      ],
+      [
+        3769,
+        0,
+        1
+      ],
+      [
+        3919,
+        0,
+        2
+      ],
+      [
+        4231,
+        0,
+        2
+      ],
+      [
+        4519,
+        0,
+        1
+      ],
+      [
+        4657,
+        0,
+        2
+      ],
+      [
+        4783,
+        0,
+        2
+      ],
+      [
+        4987,
+        0,
+        1
+      ],
+      [
+        5011,
+        0,
+        1
+      ],
+      [
+        5227,
+        0,
+        2
+      ],
+      [
+        5413,
+        0,
+        2
+      ],
+      [
+        5683,
+        0,
+        2
+      ],
+      [
+        5701,
+        0,
+        2
+      ],
+      [
+        5743,
+        0,
+        1
+      ],
+      [
+        7027,
+        0,
+        1
+      ],
+      [
+        7549,
+        0,
+        2
+      ],
+      [
+        7669,
+        0,
+        2
+      ]
+    ],
+    "skipped_primes": [],
+    "scope": "Detection only on named known classes. No absence or upper bound on unlisted classes."
+  },
+  {
+    "case": "28042a1",
+    "known_class_dimension": 3,
+    "point_dimension": 1,
+    "known_excess_dimension": 2,
+    "declared_membership": "RETAINED_GENUINE_SELMER_CLASSES",
+    "bad_place_signature_rank": 2,
+    "fresh_good_prime_count": 24,
+    "fresh_signature_rank": 2,
+    "known_quotient_fully_detected": true,
+    "first_global_failure": null,
+    "greedy_independent_detectors": [
+      {
+        "prime": 487,
+        "annihilator_index": 0,
+        "root_weights": [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "known_signature": [
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "prime": 691,
+        "annihilator_index": 0,
+        "root_weights": [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "known_signature": [
+          0,
+          1,
+          1
+        ]
+      }
+    ],
+    "all_place_point_ranks": [
+      [
+        487,
+        1,
+        1
+      ],
+      [
+        691,
+        1,
+        1
+      ],
+      [
+        1459,
+        1,
+        1
+      ],
+      [
+        2131,
+        1,
+        1
+      ],
+      [
+        2341,
+        1,
+        1
+      ],
+      [
+        3571,
+        1,
+        1
+      ],
+      [
+        4423,
+        1,
+        1
+      ],
+      [
+        7507,
+        1,
+        1
+      ],
+      [
+        8089,
+        1,
+        1
+      ],
+      [
+        8599,
+        1,
+        1
+      ],
+      [
+        8737,
+        1,
+        1
+      ],
+      [
+        9433,
+        1,
+        0
+      ],
+      [
+        10099,
+        1,
+        1
+      ],
+      [
+        10357,
+        1,
+        1
+      ],
+      [
+        10639,
+        1,
+        1
+      ],
+      [
+        11437,
+        1,
+        1
+      ],
+      [
+        11743,
+        1,
+        1
+      ],
+      [
+        12781,
+        1,
+        0
+      ],
+      [
+        12967,
+        1,
+        1
+      ],
+      [
+        13309,
+        1,
+        1
+      ],
+      [
+        14821,
+        1,
+        1
+      ],
+      [
+        15013,
+        1,
+        1
+      ],
+      [
+        15439,
+        1,
+        1
+      ],
+      [
+        15859,
+        1,
+        1
+      ]
+    ],
+    "skipped_primes": [
+      [
+        8893,
+        "source factor nonunit"
+      ]
+    ],
+    "scope": "Detection only on named known classes. No absence or upper bound on unlisted classes."
+  },
+  {
+    "case": "seed3",
+    "known_class_dimension": 4,
+    "point_dimension": 2,
+    "known_excess_dimension": 2,
+    "declared_membership": "RETAINED_GENUINE_SELMER_CLASSES",
+    "bad_place_signature_rank": 1,
+    "fresh_good_prime_count": 24,
+    "fresh_signature_rank": 2,
+    "known_quotient_fully_detected": true,
+    "first_global_failure": null,
+    "greedy_independent_detectors": [
+      {
+        "prime": 811,
+        "annihilator_index": 0,
+        "root_weights": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "known_signature": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "prime": 2767,
+        "annihilator_index": 0,
+        "root_weights": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "known_signature": [
+          0,
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "all_place_point_ranks": [
+      [
+        811,
+        1,
+        1
+      ],
+      [
+        1213,
+        2,
+        0
+      ],
+      [
+        1543,
+        2,
+        0
+      ],
+      [
+        1699,
+        2,
+        0
+      ],
+      [
+        1987,
+        2,
+        0
+      ],
+      [
+        2281,
+        2,
+        0
+      ],
+      [
+        2767,
+        1,
+        1
+      ],
+      [
+        3673,
+        1,
+        1
+      ],
+      [
+        3727,
+        1,
+        1
+      ],
+      [
+        3769,
+        2,
+        0
+      ],
+      [
+        4561,
+        1,
+        1
+      ],
+      [
+        4789,
+        1,
+        1
+      ],
+      [
+        6577,
+        2,
+        0
+      ],
+      [
+        6949,
+        2,
+        0
+      ],
+      [
+        6961,
+        2,
+        0
+      ],
+      [
+        7039,
+        1,
+        1
+      ],
+      [
+        8089,
+        1,
+        1
+      ],
+      [
+        8233,
+        1,
+        1
+      ],
+      [
+        8263,
+        1,
+        1
+      ],
+      [
+        8353,
+        1,
+        1
+      ],
+      [
+        8563,
+        1,
+        1
+      ],
+      [
+        9109,
+        2,
+        0
+      ],
+      [
+        9421,
+        2,
+        0
+      ],
+      [
+        10687,
+        2,
+        0
+      ]
+    ],
+    "skipped_primes": [
+      [
+        181,
+        "source factor nonunit"
+      ],
+      [
+        199,
+        "source factor nonunit"
+      ],
+      [
+        607,
+        "source factor nonunit"
+      ],
+      [
+        907,
+        "source factor nonunit"
+      ],
+      [
+        4759,
+        "source factor nonunit"
+      ],
+      [
+        4813,
+        "source factor nonunit"
+      ]
+    ],
+    "scope": "Detection only on named known classes. No absence or upper bound on unlisted classes."
+  },
+  {
+    "case": "389a1",
+    "known_class_dimension": 2,
+    "point_dimension": 2,
+    "known_excess_dimension": 0,
+    "declared_membership": "RETAINED_GENUINE_SELMER_CLASSES",
+    "bad_place_signature_rank": 0,
+    "fresh_good_prime_count": 24,
+    "fresh_signature_rank": 0,
+    "known_quotient_fully_detected": true,
+    "first_global_failure": null,
+    "greedy_independent_detectors": [],
+    "all_place_point_ranks": [
+      [
+        73,
+        2,
+        0
+      ],
+      [
+        151,
+        1,
+        0
+      ],
+      [
+        523,
+        2,
+        0
+      ],
+      [
+        1663,
+        1,
+        0
+      ],
+      [
+        2767,
+        2,
+        0
+      ],
+      [
+        3343,
+        1,
+        0
+      ],
+      [
+        3571,
+        1,
+        0
+      ],
+      [
+        3691,
+        1,
+        0
+      ],
+      [
+        4273,
+        1,
+        0
+      ],
+      [
+        4507,
+        1,
+        0
+      ],
+      [
+        5443,
+        2,
+        0
+      ],
+      [
+        6421,
+        2,
+        0
+      ],
+      [
+        8269,
+        2,
+        0
+      ],
+      [
+        8443,
+        2,
+        0
+      ],
+      [
+        9151,
+        2,
+        0
+      ],
+      [
+        9949,
+        2,
+        0
+      ],
+      [
+        10753,
+        2,
+        0
+      ],
+      [
+        10939,
+        2,
+        0
+      ],
+      [
+        11497,
+        2,
+        0
+      ],
+      [
+        11743,
+        2,
+        0
+      ],
+      [
+        12421,
+        2,
+        0
+      ],
+      [
+        12547,
+        2,
+        0
+      ],
+      [
+        14683,
+        1,
+        0
+      ],
+      [
+        15013,
+        1,
+        0
+      ]
+    ],
+    "skipped_primes": [
+      [
+        127,
+        "source factor nonunit"
+      ]
+    ],
+    "scope": "Detection only on named known classes. No absence or upper bound on unlisted classes."
+  },
+  {
+    "case": "mirror389_false",
+    "known_class_dimension": 1,
+    "point_dimension": 0,
+    "known_excess_dimension": null,
+    "declared_membership": "KNOWN_FALSE_GLOBAL_CLASS",
+    "bad_place_signature_rank": 1,
+    "fresh_good_prime_count": 24,
+    "fresh_signature_rank": 1,
+    "known_quotient_fully_detected": true,
+    "first_global_failure": {
+      "prime": 151,
+      "triple_zero_based": [
+        0,
+        2,
+        5
+      ],
+      "value": [
+        1
+      ]
+    },
+    "greedy_independent_detectors": [
+      {
+        "prime": 127,
+        "annihilator_index": 0,
+        "root_weights": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "known_signature": [
+          1
+        ]
+      }
+    ],
+    "all_place_point_ranks": [
+      [
+        127,
+        0,
+        1
+      ],
+      [
+        151,
+        0,
+        1
+      ],
+      [
+        523,
+        0,
+        1
+      ],
+      [
+        1663,
+        0,
+        1
+      ],
+      [
+        3343,
+        0,
+        1
+      ],
+      [
+        3571,
+        0,
+        1
+      ],
+      [
+        3691,
+        0,
+        1
+      ],
+      [
+        4273,
+        0,
+        1
+      ],
+      [
+        4507,
+        0,
+        1
+      ],
+      [
+        5443,
+        0,
+        1
+      ],
+      [
+        6421,
+        0,
+        1
+      ],
+      [
+        8269,
+        0,
+        1
+      ],
+      [
+        8443,
+        0,
+        1
+      ],
+      [
+        9151,
+        0,
+        1
+      ],
+      [
+        9949,
+        0,
+        1
+      ],
+      [
+        10753,
+        0,
+        1
+      ],
+      [
+        10939,
+        0,
+        1
+      ],
+      [
+        11497,
+        0,
+        1
+      ],
+      [
+        11743,
+        0,
+        1
+      ],
+      [
+        12421,
+        0,
+        1
+      ],
+      [
+        12547,
+        0,
+        1
+      ],
+      [
+        14683,
+        0,
+        1
+      ],
+      [
+        15013,
+        0,
+        1
+      ],
+      [
+        15817,
+        0,
+        1
+      ]
+    ],
+    "skipped_primes": [],
+    "scope": "Detection only on named known classes. No absence or upper bound on unlisted classes."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "lane": "A",
+  "date": "2026-10-07",
+  "status": "NO_BOUND_MECHANISM_FOUND_FOR_TESTED_CANDIDATES",
+  "candidates": {
+    "A1_anticyclotomic_higher_fitting": "reduced to A2 (PROOF.md Prop. 1); stopped",
+    "A2_kolyvagin_one_prime_class": "first failed arrow: uniform kappa_l nonvanishing mod p; collision HEEGNER_NU.md",
+    "A3_kato_padic_leading_term": "first failed arrow: uniform unit R_p/p^2 and bound on L_p^*; ordinary only; collision d-infinity/HGZ2"
+  },
+  "endpoint": {"FIN": "unchanged", "ORDER9": "unchanged", "Q36": "unchanged"},
+  "lean": "none produced",
+  "remote_jobs": 0
+}

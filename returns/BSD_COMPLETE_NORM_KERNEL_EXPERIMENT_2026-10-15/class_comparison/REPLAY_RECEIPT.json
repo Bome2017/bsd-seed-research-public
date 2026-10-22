@@ -1,0 +1,8 @@
+{
+  "status": "BYTE_IDENTICAL_ISOLATED_REPLAY",
+  "results_sha256": "23f73087b1a69eb2f65491991595d1c72a2c8a066bc443778a8e089368b6900a",
+  "stdout": "seed3 class image= [[0, 2, 2, 2], [0, 0, 2, 2]] point image= [[0, 2], [0, 0]] quotient= [[0, 0, 2, 2]] quotient rank= 1\n28042a1 class image= [[1, 0, 0]] point image= [[1]] quotient= [] quotient rank= 0\nCLASS_IMAGE_QUOTIENT_CHECK_PASSED\n",
+  "stderr": "",
+  "returncode": 0,
+  "scope": "F3 source-coordinate arithmetic only; antecedent arithmetic retained"
+}

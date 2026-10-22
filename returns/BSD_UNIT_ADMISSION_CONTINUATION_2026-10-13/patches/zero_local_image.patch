@@ -1,0 +1,11 @@
+--- a/selmer.gp
++++ b/selmer.gp
+@@ -76,7 +76,7 @@
+     if (setsearch(Set(relax), l), info = concat(info, [[l, #Dl, "relaxed", 0, 0]]); next);
+     Bl = lockummer(E, nf, T, l, Dl, k); if (type(LG) == "t_STR", write(LG, ["local Kummer image done at l =", l, "dim", Bl[2]]));
+     Ml = matconcat(vector(#G, j, Mod(concat(vector(#Dl, q, locvec(nf, G[j], Dl[q]))), 3)~));
+-    Kl = matker(Bl[1]~)~;
++    Kl = if(Bl[2] == 0, matid(#Ml~), matker(Bl[1]~)~);
+     info = concat(info, [[l, #Dl, Bl[2], #Ml~, if (#Kl, Kl*Ml, 0)]]);
+     if (#Kl, rows = if (#rows, matconcat([rows; Kl*Ml]), Kl*Ml)));
+   [matker(rows), G, info];}

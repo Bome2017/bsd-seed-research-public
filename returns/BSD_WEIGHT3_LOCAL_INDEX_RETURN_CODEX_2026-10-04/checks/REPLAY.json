@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "byte_identical": true,
+  "stdout": "{\"euler_cases\": 822, \"formal_family_cases\": 72, \"ramification_cases\": 15, \"rank_one_cases\": 137, \"status\": \"PASS\", \"tame_primes\": 9}",
+  "scope": "formula controls, no seed arithmetic"
+}

@@ -1,0 +1,29 @@
+66b1 = LMFDB 66.b4, minimal model  y^2 + xy + y = x^3 + x^2 - 2x - 1
+descent model candidate            Y^2 = X^3 + 17X^2 + 64X   (A=17, B=64, A^2-4B=33)
+Delta(minimal) = 528 = 2^4*3*11    Delta(Y^2=X^3+17X^2+64X) = 16*64^2*33 = 2162688 = 2^16*3*11
+
+q      q%8 (q/3) (q/11)  #E_min  #E_desc  v2  a_q   in_family
+     5    5   -1    +1        4        4   2     2   True
+    53    5   -1    +1       52       52   2     2   True
+   269    5   -1    +1      244      244   2    26   True
+   317    5   -1    +1      300      300   2    18   True
+   389    5   -1    +1      420      420   2   -30   True
+   509    5   -1    +1      532      532   2   -22   True
+   653    5   -1    +1      636      636   2    18   True
+   773    5   -1    +1      756      756   2    18   True
+   797    5   -1    +1      852      852   2   -54   True
+  1013    5   -1    +1     1036     1036   2   -22   True
+  1061    5   -1    +1     1020     1020   2    42   True
+  1109    5   -1    +1     1084     1084   2    26   True
+  1181    5   -1    +1     1236     1236   2   -54   True
+  1277    5   -1    +1     1276     1276   2     2   True
+... 38 primes below 4000 satisfying q=5(8), (q/3)=-1, (q/11)=+1
+model counts agree on all of them : True
+v2 distribution                   : {2: 38}
+a_q = 0 anywhere                  : []
+
+CONTROL - the two quadratic characters that governed 62a1, computed for 66b1's discriminant 33:
+  (2/q)=-1  (33/q)=-1 :  v2 histogram {2: 75, 3: 40, 4: 15, 5: 6, 6: 3, 7: 1, 8: 1, 9: 1, 11: 1}
+  (2/q)=-1  (33/q)=+1 :  v2 histogram {3: 68, 4: 35, 5: 19, 6: 10, 7: 2, 8: 1, 9: 1}
+  (2/q)=+1  (33/q)=-1 :  v2 histogram {2: 70, 3: 34, 4: 16, 5: 4, 6: 5, 7: 2, 8: 3, 9: 1}
+  (2/q)=+1  (33/q)=+1 :  v2 histogram {3: 39, 4: 50, 5: 20, 6: 12, 7: 9, 10: 1, 11: 2}

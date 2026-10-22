@@ -1,0 +1,4 @@
+l=29: PASS  c = (0, 0, 8)  c2 mod 7 = 1
+l=379: PASS  c = (0, 0, 0)  c2 mod 7 = 0
+REGRESSION PASS
+genuine exit 0

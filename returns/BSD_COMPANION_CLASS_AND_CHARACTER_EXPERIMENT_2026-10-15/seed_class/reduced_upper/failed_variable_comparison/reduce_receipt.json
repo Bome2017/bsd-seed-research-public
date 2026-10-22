@@ -1,0 +1,16 @@
+{
+  "stage": "reduce",
+  "status": "FAILED",
+  "elapsed_seconds": 0.040928043,
+  "returncode": 0,
+  "outer_seconds": 40,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "ddb4a42589d5c9a37c62f70f4f819a769bdf89cea6cd029275871ac43d20e03a",
+  "errors": [
+    "  ***   at top-level: read(\"reduce.gp\")",
+    "  ***                 ^-----------------",
+    "  ***   in function read: ...ing\"));if(charpoly(a)!=f,error(\"characteristic",
+    "  ***                                                 ^---------------------",
+    "  ***   user error: characteristic polynomial mapping"
+  ]
+}

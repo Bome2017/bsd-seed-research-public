@@ -1,0 +1,38 @@
+{
+  "status": "BOUNDED_HIT_AND_INDEPENDENT_EXACT_REPLAY",
+  "admitted_rows_tested": 47,
+  "witness": {
+    "q": 1783,
+    "cardinality": 1730,
+    "cofactor": 346,
+    "reduced_MW_points": [
+      [
+        535,
+        1095
+      ],
+      [
+        1172,
+        1589
+      ]
+    ],
+    "explicit_five_preimages": [
+      [
+        159,
+        1682
+      ],
+      [
+        289,
+        63
+      ]
+    ],
+    "local_quotient_generator_representative": [
+      3,
+      872
+    ],
+    "nonzero_order5_projection": [
+      1591,
+      1089
+    ],
+    "all_points_count": 1730
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp",
+    "-q",
+    "-f",
+    "-s",
+    "512M",
+    "unit_kernel_check.gp"
+  ],
+  "script_sha256": "0c680a965f71f691bf7ce26a172da6dde0d838efbac956820d92120e88f0e1cc",
+  "wall_cap_seconds": 120.0,
+  "completion_marker_expected": "UNIT_KERNEL_CHECK_COMPLETE",
+  "log_mode": "direct file descriptors",
+  "timeout_scope": "new process group"
+}

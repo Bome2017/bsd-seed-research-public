@@ -1,0 +1,1 @@
+The exactsmalltwistpanelthrough40completedin0.23s with no rank2. Extend the same source-selection question through200, stillstoppingatfirst exactrank2; total60s, perrank2s. Even sqrt200 inflation of11a1 pointfield rootdiscriminant can be competitivewith389/655; actualfielddiscriminant mustbechecked. Nochangeofsuccesscriterion.

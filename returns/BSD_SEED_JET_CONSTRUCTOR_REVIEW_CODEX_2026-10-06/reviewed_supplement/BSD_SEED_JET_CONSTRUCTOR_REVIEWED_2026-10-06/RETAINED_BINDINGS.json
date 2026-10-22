@@ -1,0 +1,711 @@
+{
+  "repository": "Bome2017/bsd-seed-lab",
+  "commit": "203219857f29631dc56455b0543870a347a25d5e",
+  "files": [
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_LOW_JETS.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_LOW_JETS.md",
+      "sha256": "364e00153f50dbb547c5e42ac7df941313804d7e88355d43176165f5a764245b"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_SOURCE.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_SOURCE.md",
+      "sha256": "03dd48d42a2f19c3938c3cf0ceeb50ddae604e3cfe99a0402a8d3fea9e1f8d07"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/CONTEXT_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/CONTEXT_BINDINGS.json",
+      "sha256": "df43a81c93863f9585eac14a1fb5af577d4ca2a09d5fcc911596215fa87dbb28"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/FINITE_ARITHMETIC_SOURCE.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/FINITE_ARITHMETIC_SOURCE.md",
+      "sha256": "ba80abb8105ef97010d42c0ff2ca0d5b4d7a11bb85f1ab054c2b730bcdf28519"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "sha256": "899432fa0bbadedf723f84ec51be7c5dc7c95c401e575576d21272bf4a20cc10"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/INPUT_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/INPUT_BINDINGS.json",
+      "sha256": "7f979d4de641987efa9c25373fb9cd2a719fb74953b75e912226dcfc368980ca"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/INPUT_CHECKS_REPLAY.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/INPUT_CHECKS_REPLAY.json",
+      "sha256": "d5fa9e581b708004d7bd782a528fc5df7627359f1b79ddf2f3ac46495c1726aa"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/LOCAL_REVIEW.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/LOCAL_REVIEW.md",
+      "sha256": "f1e83fdcb453c74bafad8352559c1e93b8f5faba52354836772102208c233f9d"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "sha256": "53030ecac33c76d6f23140fbca857061019392b61cd11799f08cb58188c96dd3"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/NOTES.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/NOTES.md",
+      "sha256": "a3fcebca10327fea441223f83409866449ed6aeafa4134d1c12c28baf30cfa3f"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/REPORT.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/REPORT.md",
+      "sha256": "7b9ba4888821ea2e84e84a0b211c22c02f53acfa9daf89986511c184e724cb1e"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/RESUME.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/RESUME.md",
+      "sha256": "e55e203b45b130502c7039c7ad4becc67005bd98aade95f78f843a12aaaf388c"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "sha256": "61867c105151d5c168ffe022a2aa9b49a5806134dcdeb294a950f6482339373d"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "sha256": "c372d37e8f76725b15e8581af808218bb69c175012393b994ab7e56e25e47ad1"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/STATE.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/STATE.json",
+      "sha256": "9d2600e523ed61470fc841dc91d634dac9218e4fad3ba84bf3809de1e0a52513"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/TEN_POINT_CERTIFICATE.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/TEN_POINT_CERTIFICATE.md",
+      "sha256": "3a128bf9c7b505b46b7a5ed21d7633b4788c48923bf4d62bd4a2ace545be6a38"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/VARIABLE_WEIGHT_INDEX.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/VARIABLE_WEIGHT_INDEX.md",
+      "sha256": "d4018b5263b69fc23472992e051471f5ae58939fc4bfc06993541e257d22ac39"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/checks/INPUT_AND_CONTEXT_VERIFICATION.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/checks/INPUT_AND_CONTEXT_VERIFICATION.json",
+      "sha256": "c9b2c622bd29cbb0ff53ca14168b44ff01ac2207b9fb80df55d2f67723a0af89"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/checks/TEN_POINT_RESULTS.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/checks/TEN_POINT_RESULTS.json",
+      "sha256": "b78f055c4665905cb5d9ac941106925430055eb1c9378ff6dec2deee4694508f"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/checks/verify_ten_points.py",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/checks/verify_ten_points.py",
+      "sha256": "b44c8717309d9774cfc08acb9123f33ecd84d9eaffe75cc185fa392403b3850b"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/COFINITE_HIDA_CONTROL.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/COFINITE_HIDA_CONTROL.md",
+      "sha256": "7d5fd8f743b38a9330fb11f21638b3566e5aabf338027572a8fbd1e65ed8edcd"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_INDEX_DERIVATION.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_INDEX_DERIVATION.md",
+      "sha256": "f09c02926f617d2101fa2173c5e04ab9b65fffad2537da3bb9db7d6f4cf46523"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_KATO_MATCH.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_KATO_MATCH.md",
+      "sha256": "469eb99dfaf44027987ae85b55beb2834efac7ff7bad0792acf5b891be5788ab"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_LOCAL_LATTICE.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_LOCAL_LATTICE.md",
+      "sha256": "3e41198fe73e55f8e4cce41cba8edead14c8a2ab3738a02389cff89300b4dc65"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_MODULAR_SYMBOL_EVALUATION.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/context/RETAINED_MODULAR_SYMBOL_EVALUATION.md",
+      "sha256": "b94117a4d54eb5a38eabda565dc1de2b95b8f26c2b1a34b745df8f1874fc966a"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/MANIFEST.sha256",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/MANIFEST.sha256",
+      "sha256": "ea8814d8e1714468c28b102f062843920a6445977cbe090d171d69b4687c6ea0"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/NEXT.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/NEXT.md",
+      "sha256": "f28a5eac27f826a478ec1183ef2bbf98d3a302a31c2212859c59235e7d61956a"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/PROOF.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/PROOF.md",
+      "sha256": "ebe0f1398fd571cc495cb81976244efbd3d8efbdcc9f941af9095dc1545244fa"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/README.md",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/README.md",
+      "sha256": "5e7664768b041fa8514783e287e307f93aca1a10385b767b740fca03cca75249"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/SOURCES.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/SOURCES.json",
+      "sha256": "ca066b18319e6b03b9ee38020a6a02df202718b996803d4b328f4b42d9617e97"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/STATUS.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/STATUS.json",
+      "sha256": "d2fd48c669cc0406c00c2bb40eb722c4a4a10bbd8b20a863c618973655063236"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/checks/RESULTS.json",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/checks/RESULTS.json",
+      "sha256": "d5fa9e581b708004d7bd782a528fc5df7627359f1b79ddf2f3ac46495c1726aa"
+    },
+    {
+      "path": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/checks/check_jets.py",
+      "source_path": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04/checks/check_jets.py",
+      "sha256": "355224c2c8792cd6df6de55bb0a9dc902743b9fd1e76d8ed4591fa70ad6c24e0"
+    },
+    {
+      "path": "retained/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/MANIFEST.sha256",
+      "source_path": "work/returns/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/MANIFEST.sha256",
+      "sha256": "a7ee01553296267e93a151813161b0f14e28f379a6cab2c372563927165eac2e"
+    },
+    {
+      "path": "retained/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/REPORT.md",
+      "source_path": "work/returns/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/REPORT.md",
+      "sha256": "b626f769cde77f0dd5fddb0a011fd670b43cdd87fb82a343a4f82ec48ffd5dc1"
+    },
+    {
+      "path": "retained/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/SOURCE_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/SOURCE_BINDINGS.json",
+      "sha256": "b9fe1c8647cf7f0d1bb6e7a7506b3c9d4e5c06de9da3c810fc04ca42f150f1c9"
+    },
+    {
+      "path": "retained/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/STATE.json",
+      "source_path": "work/returns/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/STATE.json",
+      "sha256": "8cbde1be3ead08a93c551fcabdcdaa92e98d94e9ead4b13835464ba19779af43"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/ARITHMETIC_EXTRACTION.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/ARITHMETIC_EXTRACTION.md",
+      "sha256": "58fc9bc9cbdee060e87d8e0b61286e1c7777c4fae9337c0db76edf99171d83d9"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/CONTEXT_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/CONTEXT_BINDINGS.json",
+      "sha256": "dd37fe42861a7777819ee828a245265d54e9cca856d015965b20dade95d15882"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "sha256": "12e7ae169d7b05405967e9b98c069723f42fa32c9438863b5f71f62338ceeb4f"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/INPUT_CONTRACT.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/INPUT_CONTRACT.md",
+      "sha256": "2acf695f0e02bd0dc6b5e8f8622e56b32e7211bb9eb7f8213f348f0621512b2f"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "sha256": "92d2d5f32e60c896214b021d8cd8679068257fb508dbe4298f64e363055926db"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/NOTES.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/NOTES.md",
+      "sha256": "afaa33d0428052c6b65f820a3b68fdca42b62f01a268047aede7bb95ab42ff46"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REPORT.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REPORT.md",
+      "sha256": "74757624f169dfb1c5526d72791afe54c07b25b5785257a3caa38b58f2ba890d"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/RESUME.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/RESUME.md",
+      "sha256": "21a7a3610fe3d936144445b7f31d5de004a6cae9572808f1390f01ae9897eb32"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REVIEW.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REVIEW.md",
+      "sha256": "56eef497c7fbdb49b51347b2ae435c3b898ea9e907b289a0300b6a9964382c84"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "sha256": "066f06e4f31cdff18c89bf92c3ec9d4274e626804301da329ed4682d09f45fac"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "sha256": "f57c4f744adb1fe2c966495c3dbaa7fe60f6dc22a5c2db8ffb17e40af1b2ec84"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/STATE.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/STATE.json",
+      "sha256": "ba181190f3ee3642e24ad6dadaca793ac66fe9e718b8a7f7b4dcd08c3d18366d"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/DELTA_CALIBRATION.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/DELTA_CALIBRATION.json",
+      "sha256": "8d2e0b9302d6c7c39e18a56d44b02ab4d6599f06b99458c1cae0dfe289de055a"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/FINITE_RING_REPLAY.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/FINITE_RING_REPLAY.json",
+      "sha256": "57ecb49c5212f2ff6442e806bfb752afe4d02d352a323380487885ef39dfb245"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/INPUT_MANIFEST.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/INPUT_MANIFEST.json",
+      "sha256": "8bd6a225269e0c97c9e68c40a5823f4aa3bd2fcdf075cd093b42b9993c55ddef"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/PRIOR_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/PRIOR_BINDINGS.json",
+      "sha256": "7ccf36162312ebd5241936c2f4e6f5e43a43a48e763dff359bf5ba905170dc89"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/SYMBOLIC_REPLAY.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/SYMBOLIC_REPLAY.json",
+      "sha256": "6cce19e04827b91f4d713fc7fc54f59d724f01e506f0a3f8e42e2617936c125c"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/SYMBOL_EXTRACTION_CONTROLS.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/SYMBOL_EXTRACTION_CONTROLS.json",
+      "sha256": "9e3e583ef0c0c7e48acc61ed671038c47654d5385de966718e29fbf9849b3700"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/check_symbol_values.py",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/check_symbol_values.py",
+      "sha256": "9d7e55ad0467b931b50a13005f4ac9a19bf03ad1b6668e6b1012aaf7661bfd7f"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/delta_moment_calibration.py",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/checks/delta_moment_calibration.py",
+      "sha256": "79710866319cf08c0178364efbda57ec3e1d5a2973406c77ad1544390c2374db"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/ARITHMETIC_LOW_JETS.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/ARITHMETIC_LOW_JETS.md",
+      "sha256": "364e00153f50dbb547c5e42ac7df941313804d7e88355d43176165f5a764245b"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/ARITHMETIC_SOURCE.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/ARITHMETIC_SOURCE.md",
+      "sha256": "03dd48d42a2f19c3938c3cf0ceeb50ddae604e3cfe99a0402a8d3fea9e1f8d07"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/COFINITE_HIDA_CONTROL.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/COFINITE_HIDA_CONTROL.md",
+      "sha256": "7d5fd8f743b38a9330fb11f21638b3566e5aabf338027572a8fbd1e65ed8edcd"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/FINITE_ARITHMETIC_SOURCE.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/FINITE_ARITHMETIC_SOURCE.md",
+      "sha256": "ba80abb8105ef97010d42c0ff2ca0d5b4d7a11bb85f1ab054c2b730bcdf28519"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/FIXED_ANCESTOR.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/FIXED_ANCESTOR.md",
+      "sha256": "a1e5896718cc35964dff8480fdb011651826bff8226c7e3ec2260a3030ce4e3f"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/INTEGRAL_EVALUATION.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/INTEGRAL_EVALUATION.md",
+      "sha256": "b94117a4d54eb5a38eabda565dc1de2b95b8f26c2b1a34b745df8f1874fc966a"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/SOURCE_UNIT_REPAIR.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/SOURCE_UNIT_REPAIR.md",
+      "sha256": "bb0ccf9ccd6bf583fab01c192284327635da136e3903108fde749e0469121309"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/TEN_POINT_CERTIFICATE.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/TEN_POINT_CERTIFICATE.md",
+      "sha256": "3a128bf9c7b505b46b7a5ed21d7633b4788c48923bf4d62bd4a2ace545be6a38"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/VARIABLE_WEIGHT_INDEX.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/context/VARIABLE_WEIGHT_INDEX.md",
+      "sha256": "d4018b5263b69fc23472992e051471f5ae58939fc4bfc06993541e257d22ac39"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/ARITHMETIC_CONTINUATION.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/ARITHMETIC_CONTINUATION.md",
+      "sha256": "ae40e8ec73b5776830e6d0179abba54c55af0f1f6200325c9588d260b853d55c"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/DERIVATION.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/DERIVATION.md",
+      "sha256": "69efeff09a273cd5e647bed94c2a845c20f8fd44e2b92f920127214d2ee40af1"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/MANIFEST.sha256",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/MANIFEST.sha256",
+      "sha256": "a4ba2e2693f6547ee53f957f532571cde052ba516b8ffbca616247d0af75f466"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/README.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/README.md",
+      "sha256": "e5db7857e692729583bc3766b5cd745db9bef9770a038f044a5765386bf76d00"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/REPORT.md",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/REPORT.md",
+      "sha256": "b3d6e440cf811f8006bf87d2184ba8584226381f17fdb48c104ae8ed09459835"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/SOURCES.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/SOURCES.json",
+      "sha256": "5a00f013d374687423bb1affafeb4273f9ad129072eb7721e833eec741cdb0e4"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/UPLOAD_STATUS.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/UPLOAD_STATUS.json",
+      "sha256": "f96e3cc947524a786779a1bb746a4f5f72912747923e484a7c90ec658ec34b9f"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/checks/FINITE_RING_RESULTS.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/checks/FINITE_RING_RESULTS.json",
+      "sha256": "57ecb49c5212f2ff6442e806bfb752afe4d02d352a323380487885ef39dfb245"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/checks/SYMBOLIC_RESULTS.json",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/checks/SYMBOLIC_RESULTS.json",
+      "sha256": "6cce19e04827b91f4d713fc7fc54f59d724f01e506f0a3f8e42e2617936c125c"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/checks/symbolic_check.py",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/checks/symbolic_check.py",
+      "sha256": "a46ba79b06fdd9e25ba899d90c051e7060194ed54ae5807bfc187318b181b314"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/four_value.py",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/input/BSD_W3_FOUR_VALUE_PUSH_2026-10-04/four_value.py",
+      "sha256": "c3c930d75c069210e5527194ebfbe54deeb2cc994159d1b48b9b652e555f7805"
+    },
+    {
+      "path": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/symbol_values.py",
+      "source_path": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/symbol_values.py",
+      "sha256": "470d16fcfacc06cca7cc0a12bf5c285745e425fd74e11b43a7c783823bade53b"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/COFINITE_HIDA_CONTROL.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/COFINITE_HIDA_CONTROL.md",
+      "sha256": "7d5fd8f743b38a9330fb11f21638b3566e5aabf338027572a8fbd1e65ed8edcd"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/COLLISION_CHECK.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/COLLISION_CHECK.md",
+      "sha256": "3c986b7619cab4b19ec6758b51b0bc21ac11d94aec82b6d5ced2039211c75fcf"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/DE_RHAM_TRANSPORT.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/DE_RHAM_TRANSPORT.md",
+      "sha256": "1884b64e772ef206ab884631325264291530e7aeb7eb60978dcc8012ba6ffc47"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/FIXED_ANCESTOR.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/FIXED_ANCESTOR.md",
+      "sha256": "a1e5896718cc35964dff8480fdb011651826bff8226c7e3ec2260a3030ce4e3f"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "sha256": "0ea9f2f364b6230501472c2cd315ad1e4bbe4b6129f457fde5441d4a915031ba"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/INPUT_ARCHIVE.json",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/INPUT_ARCHIVE.json",
+      "sha256": "6f1c6bc16f4f52721852d16039bdb51fda1b80ff0b557c64da715f22a35aa708"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/INPUT_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/INPUT_BINDINGS.json",
+      "sha256": "9cc16be0e5e1ab68bf7389b87b8ab7504d1fab4b4cc1c9011e04a354cbeffc23"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/INTEGRAL_EVALUATION.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/INTEGRAL_EVALUATION.md",
+      "sha256": "b94117a4d54eb5a38eabda565dc1de2b95b8f26c2b1a34b745df8f1874fc966a"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "sha256": "8dab22ccc6c1bf7f4eb573fa1799b9af6b2a8b43fac9ea200594a2266e4f1698"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/NOTES.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/NOTES.md",
+      "sha256": "c74f0e0d2ce4d05c4f74738a707fcc80a35bafd2ff39e7cf7e15b68c083130a0"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/REPORT.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/REPORT.md",
+      "sha256": "9af3b6ec7b173b4bcb8b22509c347555e36502955dae30864aa179c98fd442c7"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/RESUME.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/RESUME.md",
+      "sha256": "685af087069902a4b272a3a8e4c6cd30f7a7c83cd42e597cec6a8ce4cf518b49"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "sha256": "8d93025947cb7f9347e252da4abb1f51de20cc78c86baf0fb8f97c13d5801e2a"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "sha256": "529d19916009d9d316ba3e574c341c54c81e07f113ea844541dc48478cf72089"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/SOURCE_UNIT_REPAIR.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/SOURCE_UNIT_REPAIR.md",
+      "sha256": "bb0ccf9ccd6bf583fab01c192284327635da136e3903108fde749e0469121309"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/STATE.json",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/STATE.json",
+      "sha256": "c01c7ea8410174f5bf7dd7971e6a96140b9522254eeed33b74d6319ae8a87fc1"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/checks/RESULTS.json",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/checks/RESULTS.json",
+      "sha256": "91c0555e6fb74a2ea5a3155d5ddaaac41ee2ae213e6c1e4e6987383030dcbccd"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/checks/RETURN_VERIFICATION.json",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/checks/RETURN_VERIFICATION.json",
+      "sha256": "fbf3293aae6231089abd4a01e6e5c98f96ea8ed468b3636d28313e32e3d107b0"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/checks/exact_controls.py",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/checks/exact_controls.py",
+      "sha256": "24f86402d51bbfad271e0a64cca504ac7b1c6aa5a2c4132fadfec35a847dab20"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/BRANCH_THETA.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/BRANCH_THETA.md",
+      "sha256": "f001ec46bf59eab5b8aea151f87e82fca40f6af99aeb8dd2432471593834b102"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/DEFINITE_THETA_ORDER.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/DEFINITE_THETA_ORDER.md",
+      "sha256": "8abaf0693f258edcb16d7a6f33a3540921661c8020a83d394cfbe310fd249aea"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/SINGLETON_CLASS_CORRECTION.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/SINGLETON_CLASS_CORRECTION.md",
+      "sha256": "9eee8569bb8abeb936d07fceaf9a03d6f3e9a3f833e14f1cd68373e406191411"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/TAME_WILD_CORRECTION.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/TAME_WILD_CORRECTION.md",
+      "sha256": "3e27bcbbb87b5f81344f02edfec62396866cfcb7a289d85cdc164dffc359031b"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/TWO_PRIME_NORMALIZATION.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/TWO_PRIME_NORMALIZATION.md",
+      "sha256": "7eaf4c88e3a108644f535114b6ef8631fc0d50ad826551afadc2d32c20889540"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/TWO_PRIME_REPORT.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/TWO_PRIME_REPORT.md",
+      "sha256": "c3c4c0b12406cbe6848f58985d79dd9ada26090be8d3b30fe9cd17c35dc0f0b3"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_GLOBAL_CONTROL.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_GLOBAL_CONTROL.md",
+      "sha256": "816b1b8336a0f02fedd1ea7cdf82a0631e48fb01cd7390ecd6f4980ab61a2d08"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_HIDA_PRIOR.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_HIDA_PRIOR.md",
+      "sha256": "5cca1714f272aba9f1469655530f93eda42570a41b82177ac71d47973f5ca934"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_INDEX_DERIVATION.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_INDEX_DERIVATION.md",
+      "sha256": "f09c02926f617d2101fa2173c5e04ab9b65fffad2537da3bb9db7d6f4cf46523"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_KATO_MATCH.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_KATO_MATCH.md",
+      "sha256": "469eb99dfaf44027987ae85b55beb2834efac7ff7bad0792acf5b891be5788ab"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_LOCAL_LATTICE.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_LOCAL_LATTICE.md",
+      "sha256": "3e41198fe73e55f8e4cce41cba8edead14c8a2ab3738a02389cff89300b4dc65"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_LOCAL_REPORT.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/W3_LOCAL_REPORT.md",
+      "sha256": "842e3dc1529b6508df6971190648cc6dcf11fa8ba9a2f44c6f608ea38c57db1e"
+    },
+    {
+      "path": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/input/BSD_W3_GLOBAL_PERIOD_ATTACK_2026-10-04/ATTACK.md",
+      "source_path": "work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/input/BSD_W3_GLOBAL_PERIOD_ATTACK_2026-10-04/ATTACK.md",
+      "sha256": "9fe440fa693c47e63ee5f06449a06cb44536e7ba6092197e3bb94e70c8d4d85a"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "sha256": "22635734fa2593f3070fa9d1686074255bf405cce5468e1527cad164a607060e"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/HIDA_ATTEMPT.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/HIDA_ATTEMPT.md",
+      "sha256": "5cca1714f272aba9f1469655530f93eda42570a41b82177ac71d47973f5ca934"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/INPUT_ARCHIVE.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/INPUT_ARCHIVE.json",
+      "sha256": "7c4d528024c6d4158cff65a884b397fa3d0852e7e42d63625954fb01f0d3f228"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/KATO_MATCH.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/KATO_MATCH.md",
+      "sha256": "469eb99dfaf44027987ae85b55beb2834efac7ff7bad0792acf5b891be5788ab"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/LOCAL_LATTICE.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/LOCAL_LATTICE.md",
+      "sha256": "3e41198fe73e55f8e4cce41cba8edead14c8a2ab3738a02389cff89300b4dc65"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/MANIFEST.sha256",
+      "sha256": "7d132b0a88295009f23267829725d98ea2fd84183b12c395eae99d93fb8b80d3"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/NOTES.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/NOTES.md",
+      "sha256": "4d492f99cafb86b02f0e0fb7c804d9480c3f8da8684310a9fc1748340ccf54e0"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/REPORT.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/REPORT.md",
+      "sha256": "842e3dc1529b6508df6971190648cc6dcf11fa8ba9a2f44c6f608ea38c57db1e"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/RESUME.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/RESUME.md",
+      "sha256": "e19cd7d39010b7e01fefb32e603e90897a82c6b7b38ae7a704de9bdc41eeb0b6"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/RETAINED_BINDINGS.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/RETAINED_BINDINGS.json",
+      "sha256": "40a6095f4456f513dffae1080da7d5de467be8d863e356f55051263e93197201"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/SELF_REVIEW.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/SELF_REVIEW.md",
+      "sha256": "e5ac9bbe9d8ca0c8f6d15f2ee18cd0230188b6fd0b3aa993557a463568214138"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/SOURCES.md",
+      "sha256": "786e92d0fb1601c24f1fab8cceca1fa3a3e1b3cb9c7b4713525ec78b43d648df"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/SOURCE_BINDINGS.json",
+      "sha256": "0ac5259e7e2503bf66339455631bb64a4eb33a486e798a458179b9a21ba6cf89"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/STATE.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/STATE.json",
+      "sha256": "1e5139ea2d6fed2a29724f4badd7a62a4c0cfd7dfee70112ed0393285061dfde"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/EXACT_CONTROLS.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/EXACT_CONTROLS.json",
+      "sha256": "349e91c02837bb4bea28b8a15e2537fc0c528fb69961ae9c06c34a54dfa728e7"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/LINKS.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/LINKS.json",
+      "sha256": "1a0bc58a477ac57847b97416afa87539e19bcb58f7b203f01c106b29305a6f78"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/REPLAY.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/REPLAY.json",
+      "sha256": "17fe35611bd09c60d28774d76505700bb8c14d4e35cdd1d3e6b026eedba813bb"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/RETAINED_INTEGRITY.json",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/RETAINED_INTEGRITY.json",
+      "sha256": "3a65e619792f199a9c7ece81e15c216d580d5562818269256f76c40bbaa0ef63"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/exact_controls.py",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/checks/exact_controls.py",
+      "sha256": "e0ed0ec93c8d417eeb4b386e5bafd8e61d388ab18d45133d28e1c609b749ba8c"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/EARLIER_UPPER_BOUND_ATTEMPTS.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/EARLIER_UPPER_BOUND_ATTEMPTS.md",
+      "sha256": "32a7b14c25fbd9f97129f04c7d2c39b2a6958d4565e21b555498247b703252d2"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/EARLIER_WEIGHT3_ATTEMPT.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/EARLIER_WEIGHT3_ATTEMPT.md",
+      "sha256": "58c896a91ad40d5cd381ba284d4796f134873584caf8ed815675d10617499ec1"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/GLOBAL_CONTROL_DERIVATION.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/GLOBAL_CONTROL_DERIVATION.md",
+      "sha256": "816b1b8336a0f02fedd1ea7cdf82a0631e48fb01cd7390ecd6f4980ab61a2d08"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/KATO_INDEX_DERIVATION.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/KATO_INDEX_DERIVATION.md",
+      "sha256": "f09c02926f617d2101fa2173c5e04ab9b65fffad2537da3bb9db7d6f4cf46523"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/KATO_INDEX_REPORT.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/KATO_INDEX_REPORT.md",
+      "sha256": "86fe2c885829f194684f9db50fa510a040b3a960b1c2e5dd3fc1e864e946b973"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/LOCAL_PREDECESSOR.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/LOCAL_PREDECESSOR.md",
+      "sha256": "1f38d8985d4f544762a105d3efbca9c59ef94c4f8a85f3bfb21c0b8bb93fd822"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/PAIRING_REVIEW.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/context/PAIRING_REVIEW.md",
+      "sha256": "e0017c87d11a5a82086f0ea13f00676020a4a72f0dfe5134306098e92e7f13f6"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/input/BSD_WEIGHT3_LOCAL_INDEX_ATTACK_2026-10-04/ATTACK.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/input/BSD_WEIGHT3_LOCAL_INDEX_ATTACK_2026-10-04/ATTACK.md",
+      "sha256": "0c4200481858a8f073fd8815c30aad0d1ffc7eb8089a252c9cc2c4da6636bd0f"
+    },
+    {
+      "path": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/input/BSD_WEIGHT3_LOCAL_INDEX_ATTACK_2026-10-04/README.md",
+      "source_path": "work/returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/input/BSD_WEIGHT3_LOCAL_INDEX_ATTACK_2026-10-04/README.md",
+      "sha256": "f700ec1aa4a05a31f5578bba9078eb3d5cab91ead05ed188d150972de5edaaf0"
+    },
+    {
+      "path": "retained/03_WALL_ATLAS.md",
+      "source_path": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/guide/03_WALL_ATLAS.md",
+      "sha256": "648c668dcc3d388675b0cb92f0a3216157e6968e3815454439736f3c51404ac1"
+    },
+    {
+      "path": "retained/P17_RETAINED_RECEIPT.json",
+      "source_path": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/context/P17_RETAINED_RECEIPT.json",
+      "sha256": "a1336d55dd0edffea4aed20dc5fce53e3861c0e982cb804c5b64d4e35ba0ec20"
+    },
+    {
+      "path": "retained/P17_MSL.txt",
+      "source_path": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/context/P17_MSL.txt",
+      "sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a"
+    }
+  ]
+}

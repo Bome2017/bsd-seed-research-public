@@ -1,0 +1,143 @@
+{
+  "scope": "Targeted source reading; hashes do not establish mathematical validity",
+  "entries": [
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_SCALING_RECONCILIATION_2026-10-18/CONTRACT.md",
+      "bytes": 1172,
+      "sha256": "d3e46695f310dfc5a76cae53a9fc9d6734c017a2c589f46f936f05577cc44154",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_SMALL_BOUND_CONTINUATION_2026-10-18/REPORT.md",
+      "bytes": 7192,
+      "sha256": "5589672dc73fc11da6af43e64cfb4763559b6ebb140626ff77286c988589ebbe",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_SMALL_BOUND_CONTINUATION_2026-10-18/rank_mechanism/PROOF.md",
+      "bytes": 5886,
+      "sha256": "bdcfb767861ca49a2311d24914b9ee02223763a2b17c4676b12bb761bf21d30b",
+      "read_scope": "source identification paragraph, current pass"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/general_character/PROOF.md",
+      "bytes": 10211,
+      "sha256": "03aa6e0194f5c971f19ee2bed21c2d07aaa59a08e54e2a954ba6fe33fcb6c144",
+      "read_scope": "retained general bound and source references"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/REPORT.md",
+      "bytes": 11154,
+      "sha256": "3c439b19cec3442302d2e1b95f224c4d293324a957158355202f59aec2120185",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/plectic_kolyvagin/REVIEW.md",
+      "bytes": 9301,
+      "sha256": "d2253a66c35c9418d61f6775418fd071749e8f53b1bee7db9d0895284b1c3ba6",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/REPORT.md",
+      "bytes": 19499,
+      "sha256": "037fc17d583dd83b4d2ec898e60f5af6b9cdec32a7035ae15398587af969115f",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_NEXT_PATHS_OPUS_2026-10-14/REPORT.md",
+      "bytes": 7425,
+      "sha256": "11446f37b92509cd5a0a12bed4b79ef03ab43633b60397c8dd6463ecffcb8962",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_KOLYVAGIN_BOUND_ATTEMPT_2026-10-15/REPORT.md",
+      "bytes": 3767,
+      "sha256": "747c37fb2cf52fdfdf849754733f3fd3b9d2bf606d8602524a742cf59e665858",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14/REPORT.md",
+      "bytes": 7690,
+      "sha256": "2981d6b0f98d641006c34815375376dcbb415408ae84d2c8a4a076cd7528114a",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14/lit/FG_IWASAWA_MOCK_PLECTIC_NOTES.md",
+      "bytes": 15459,
+      "sha256": "2a500f43a0a6c7825e3684138d0b3a8daf97980a6ac94506e0f08d8ed4fd1001",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14/proxy/gross_side_v2.py",
+      "bytes": 6877,
+      "sha256": "eb152f75fd1ae3a088c7aee2d2f7817dd3fc3d34f6a092fbf30ca12836932194",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14/proxy/global_side.py",
+      "bytes": 2126,
+      "sha256": "7d652d50cd0ad318a420fa9e50240ebcd52c41673488238cd3ec86129d2e90e5",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14/proxy/brandt_fast.py",
+      "bytes": 4048,
+      "sha256": "7a2b735562a53b762fd29ef85b76b7da543e190f487b66518b0074dd061d95f9",
+      "read_scope": "keyword search only"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/experiments/l3-receiver-filtration/README.txt",
+      "bytes": 799,
+      "sha256": "69a1aa7ef5ad48c6167885f3cc172196fddc85482f5faaf7fb083e0c439955d1",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/experiments/l3-receiver-filtration/iso3.gp",
+      "bytes": 2469,
+      "sha256": "ecb95f75a4ca8b7d7e58ae160447560c38f6a4204dfb8d4388f5d34a585ff886",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/experiments/l3-receiver-filtration/iso3seed.gp",
+      "bytes": 2088,
+      "sha256": "224343213ed3f0cbb726c3ba5beb907622e0d7ec32250f91e0c521f74f0bd83c",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/experiments/l3-receiver-filtration/iso3_controls.out",
+      "bytes": 1631,
+      "sha256": "3243a005c748abbff6bb8d03bf2c940a01983cdb0a12ba7a6e37960d1271f478",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/experiments/l3-receiver-filtration/iso3seed.out",
+      "bytes": 492,
+      "sha256": "6817628a360cc475782ad5f03cae9000eaab94699e7e18a78482e1e7460427ca",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/experiments/inventor-L1-tame-integral/e1_norm.gp",
+      "bytes": 3809,
+      "sha256": "d2d955f25d7978e8d2ce47bac22cc75f609a38dcfc8acf9e50d5d2220765b61e",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/BSD_INVENTION_PANEL_CLAUDE_2026-10-13/experiments/L4-kolyvagin-heegner/README.txt",
+      "bytes": 1088,
+      "sha256": "0b39ed77e94b42529e2aebdc6b13cb21e12f0bed972194115d3b548ae0777ee2",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/C1_ULTRA_PARALLEL_NORM_RELATIONS_001/RESULT.md",
+      "bytes": 5187,
+      "sha256": "98eea683e3e96d09be34ba5b7eebabb6c88a0bc42372f0a44b400f18e28767d5",
+      "read_scope": "full"
+    },
+    {
+      "path": "/Users/bsm/C1_ULTRA_PARALLEL_NORM_RELATIONS_001/PROOF.md",
+      "bytes": 16933,
+      "sha256": "adf03478f205ab030e51b59340a3d0fc8110fa6d591417f78130eb6518dac16d",
+      "read_scope": "Sections 0 and 10; initial sections skimmed"
+    }
+  ]
+}

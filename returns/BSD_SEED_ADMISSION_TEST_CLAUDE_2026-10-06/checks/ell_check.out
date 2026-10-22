@@ -1,0 +1,5 @@
+ell_0 mod 5: full-measure 0, high-level-only 0
+ell_1 mod 5: full-measure 0, high-level-only 0
+ell_2 mod 5: full-measure 2, high-level-only 2
+ell_3 mod 5: full-measure 0, high-level-only 0
+fibre check: for each b mod 5, u(b+5j) runs over F_5 bijectively

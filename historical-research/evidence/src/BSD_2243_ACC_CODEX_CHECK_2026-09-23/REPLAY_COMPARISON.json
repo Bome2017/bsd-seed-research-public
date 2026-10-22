@@ -1,0 +1,20 @@
+{
+  "27": {
+    "symbols": 18,
+    "plus_and_minus_match_exact_retained_values": true,
+    "both_paths": true,
+    "printed_intervals_contain_reference_and_unique_lattice_point": true
+  },
+  "81": {
+    "symbols": 54,
+    "plus_and_minus_match_exact_retained_values": true,
+    "both_paths": true,
+    "printed_intervals_contain_reference_and_unique_lattice_point": true
+  },
+  "containment_checks": 288,
+  "m27_digest_matches_predeclared": true,
+  "m27_segment_root_matches_retained": true,
+  "m81_exact_anchor": 15851520,
+  "m81_unit_test": false,
+  "m81_imported_checkpoints_not_full_replay": true
+}

@@ -1,0 +1,314 @@
+{
+  "status": "EXACT_SAVED_MATRIX_CHECK_PASS",
+  "input_sha256": "da63d61cffe103a5a8ff16ed74a54c51e377dcc91dd86d8df0527e1c8aa3ee01",
+  "dimensions": {
+    "full_source": 13,
+    "valuation_zero": 5,
+    "ordinary_units": 4,
+    "ordinary_class3": 1,
+    "scalar_kernel": 5,
+    "additivity_kernel": 4,
+    "local_kernel": 2,
+    "joint_kernel": 2,
+    "joint_unit_kernel": 1
+  },
+  "point_H0_coordinates": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "point_ordinary_class_coordinates": [
+    [
+      0,
+      1
+    ]
+  ],
+  "chosen_lift_class_coordinates": [
+    [
+      1
+    ]
+  ],
+  "unit_point_intersection": 1,
+  "local_blocks": [
+    {
+      "prime": 2,
+      "local_Kummer_dimension": 0,
+      "row_rank": 1,
+      "lift_raw_defect_nonzero": false
+    },
+    {
+      "prime": 3,
+      "local_Kummer_dimension": 1,
+      "row_rank": 8,
+      "lift_raw_defect_nonzero": true
+    },
+    {
+      "prime": 5,
+      "local_Kummer_dimension": 1,
+      "row_rank": 3,
+      "lift_raw_defect_nonzero": false
+    },
+    {
+      "prime": 37,
+      "local_Kummer_dimension": 1,
+      "row_rank": 7,
+      "lift_raw_defect_nonzero": true
+    }
+  ],
+  "coupling_blocks": [
+    {
+      "block": 1,
+      "raw_class_defect_rank": 1,
+      "unit_image_rank": 2,
+      "coupling_rank": 0,
+      "unit_repair_coefficients": [
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "repaired_class_source_column": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "block": 2,
+      "raw_class_defect_rank": 1,
+      "unit_image_rank": 3,
+      "coupling_rank": 0,
+      "unit_repair_coefficients": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "repaired_class_source_column": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "block": 3,
+      "raw_class_defect_rank": 1,
+      "unit_image_rank": 3,
+      "coupling_rank": 0,
+      "unit_repair_coefficients": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "repaired_class_source_column": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "block": 4,
+      "raw_class_defect_rank": 1,
+      "unit_image_rank": 3,
+      "coupling_rank": 0,
+      "unit_repair_coefficients": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "repaired_class_source_column": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    }
+  ],
+  "full_repaired_class_point_coordinates": [
+    [
+      1
+    ],
+    [
+      1
+    ]
+  ]
+}

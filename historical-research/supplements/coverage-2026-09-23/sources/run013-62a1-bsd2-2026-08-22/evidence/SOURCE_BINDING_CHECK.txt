@@ -1,0 +1,10 @@
+run_date=2026-08-22
+checker=checker/check_source_bindings.py
+checker_sha256=f50c97ad71f8262c999f9ca6a0afb4f176cfac276d91e6bab66cd0d05f91c87d
+input=evidence/SOURCE_BINDINGS.tsv
+input_sha256=8785d8e8bad5ee3a75732d43f69b95151b1bff8dd68da5c0a9c726ccb39bcc54
+command=python3 checker/check_source_bindings.py
+bindings=13
+mismatches=0
+exit_status=0
+claim=all inherited source paths existed and matched their recorded SHA-256 at check time

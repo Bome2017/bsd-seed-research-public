@@ -1,0 +1,47 @@
+{
+  "MATRICES.json": {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/MATRICES.json",
+    "sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+    "bytes": 95141
+  },
+  "affine_norm_certificate.gp": {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/affine_norm_certificate.gp",
+    "sha256": "d5b3250ff5cf15aaaa41098466ea37da435a725cd40a37ac2d0d2f3bf4350d40",
+    "bytes": 5748
+  },
+  "actual_representatives.gp": {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/inputs/previous/seed3/actual_representatives.gp",
+    "sha256": "038a2f243e59fc6dffb4049eab2b5b3f937cafb44b949f4c36c98bef122b5b66",
+    "bytes": 5229
+  },
+  "presentation_check.json": {
+    "source": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/seed_class/source_cache/presentation_check.json",
+    "sha256": "6b072fc05d4e110be2ad71cb67bcc5ce092cf5805e824450aa336886a197d79e",
+    "bytes": 813
+  },
+  "inspect.out": {
+    "source": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/seed_class/source_cache/inspect.out",
+    "sha256": "3bc6e0ff2d6b795c0acc30ef11bc5083e4fb7a0507ca409c1b0d710820805d12",
+    "bytes": 333
+  },
+  "geometry.out": {
+    "source": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/seed_class/source_cache/geometry.out",
+    "sha256": "c78a83b06348df3c7b37db29678b6d16f594229a71a9ddda09870e876521ddd1",
+    "bytes": 298
+  },
+  "retained_ordinary_index": {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/reviewer/INCIDENCE_NORM_REVIEW.md",
+    "sha256": "e34b123a72819cd5f3568eb513d4d418b66817ba4207b7ec3adeb130a2922fe3",
+    "retained_not_copied": true
+  },
+  "retained_S_index": {
+    "source": "/Users/bsm/BSD_SURVIVING_IMAGE_BOUND_EXPERIMENT_2026-10-15/independent_index/PROOF.md",
+    "sha256": "521243d205f10a5270bd5180128b3e0acc58d5502a584a046a94678de8889c38",
+    "retained_not_copied": true
+  },
+  "retained_latest_seed_bound": {
+    "source": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/seed_class/PROOF.md",
+    "sha256": "7a641d43a4ed4cae2f4e6345c87427a7525e756a0bf670353a52d56c2f5840d1",
+    "retained_not_copied": true
+  }
+}

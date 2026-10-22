@@ -1,0 +1,92 @@
+{
+  "718b1": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/718b1/matrices.json",
+    "sha256": "7e39c9d0eafa79ad624a644a7ba29a052892f66e31330793eb3c919c8b70b957",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "997c1": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/997c1/matrices.json",
+    "sha256": "7a015a8dfdd9fd57bb0b52e0ddb351305d962079e4788c4a5838ca87cc38e7d9",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "1070a1": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1070a1/matrices.json",
+    "sha256": "638eee5b8c319c0fc0691d384dd94f4ac42b81096815511da2a250eccf4e35e7",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "1141a1": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1141a1/matrices.json",
+    "sha256": "7fbd92034156e89c95c73a2795c53488106f61849a5a4e35ee1836cce985ff3a",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "1246c1_retry600": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1246c1_retry600/matrices.json",
+    "sha256": "3ac578b5e6ff728fa899d3353b9f3d3407d991f111dbf48ea8297b8d255ade1e",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "1480a1": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1480a1/matrices.json",
+    "sha256": "da63d61cffe103a5a8ff16ed74a54c51e377dcc91dd86d8df0527e1c8aa3ee01",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "1525c1": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1525c1/matrices.json",
+    "sha256": "60c1d70e5dcf7d2a8e495cea301bccaaf295b2ba2aa75f25b7f58b318131bd98",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "1613a1_grh": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1613a1_grh/matrices.json",
+    "sha256": "ad72c85ff504c859b8016a7f92cbef39bd5b14f2c95d2a7130b86f1d9fab5fb1",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "mirror389": {
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/matrices.json",
+    "sha256": "a5c45a386a0ff05260e3c189a4a76008ad98d5627d79f5445a3e423503ba99c2",
+    "source_completeness": "retained certified class/unit source; prior exact arithmetic audit, not rerun here"
+  },
+  "seed3": {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/MATRICES.json",
+    "sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+    "source_completeness": "retained GRH-dependent class completeness; explicit unit and norm certificates"
+  },
+  "old_claude_report": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/continuation/REPORT.md",
+    "sha256": "3ab39b3d5c2354811abae4ecc7d32a86b0ef88ba2fbbbee035b58bd45e827f0e",
+    "copied": false
+  },
+  "prior_reconciliation": {
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/REPORT.md",
+    "sha256": "4aaf8dd775029b0eaf013d5ce4f7d1168fec44e61e664d643f06891c3fa43a80",
+    "copied": false
+  },
+  "prior_compatibility_review": {
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift_review/COMPATIBILITY_REVIEW.md",
+    "sha256": "0fbbcd1f5ed23455fa25ef381d1da391631da7a7dea442d2691a02829be5a3a9",
+    "copied": false
+  },
+  "mirror_ordinary_bound": {
+    "source": "/Users/bsm/BSD_SURVIVING_IMAGE_BOUND_EXPERIMENT_2026-10-15/independent_index/PROOF.md",
+    "sha256": "521243d205f10a5270bd5180128b3e0acc58d5502a584a046a94678de8889c38",
+    "copied": false
+  },
+  "current_class_kernel_bound": {
+    "source": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/character_review/CLASS_MAP_BOUND.md",
+    "sha256": "19ea59aa8ff6af4d4fe29ffaea57cc70cdfda2cf0c87465e9c0ac0e286e2eed6",
+    "copied": false
+  },
+  "prior_arithmetic_row_map": {
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift_review/ARITHMETIC_ROW_MAP.md",
+    "sha256": "388cba0ee0070802fb672003422bdf8ec223a5c648cb61f38f3bae9d31f0d15d",
+    "copied": false
+  },
+  "prior_compatibility_json": {
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/repair_compatibility.json",
+    "sha256": "e5b12ba68050b77392dcb862d1db25c1d69fb14a153898acea6646d776d7a7a0",
+    "copied": false
+  },
+  "prior_class_source_audit": {
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/audit_results.json",
+    "sha256": "8c8fb6fc067d3c2785069384e88b828d7ab29a1d2850ac87824de7ad7e3f2ded",
+    "copied": false
+  }
+}

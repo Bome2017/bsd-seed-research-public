@@ -1,0 +1,6 @@
+real regulator of <P1,P2>      = 17.796517472490340299174941219436038417
+real regulator of returned basis = 17.796517472490340299174941219436038417
+index^2 = R0/R1 = 1.0000000000000000000000000000000000000
+S[1] = a*P1+b*P2+e*T with [a,b,e] in [[1, 1, 0]]
+S[2] = a*P1+b*P2+e*T with [a,b,e] in [[-1, 0, 0]]
+index^2 after saturating at all primes <= 100: 1.0000000000000000000000000000000000000

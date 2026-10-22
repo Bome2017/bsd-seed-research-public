@@ -1,0 +1,56 @@
+{
+  "source_exponents": [
+    1,
+    2,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "repairs": [
+    {
+      "prime": 223,
+      "point_coefficients": [
+        1,
+        0
+      ],
+      "literal_local_class_values": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "prime": 967,
+      "point_coefficients": [
+        0,
+        1
+      ],
+      "literal_local_class_values": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "one_common_point_exists": false,
+  "global_status": "Genuine global cohomology class by exact scalar/affine norm certificate",
+  "Selmer_status": "Rejected by authenticated local conditions at3 and433; this auxiliary detector alone does not determine that membership."
+}

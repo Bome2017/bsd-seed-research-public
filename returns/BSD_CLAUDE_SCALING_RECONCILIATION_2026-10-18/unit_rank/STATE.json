@@ -1,0 +1,14 @@
+{
+  "status": "CLAUDE_SOURCES_RECONCILED_NO_NEW_UNIT_RANK_INPUT",
+  "written_result": "REPORT.md",
+  "source_bindings": 23,
+  "new_arithmetic_computation": false,
+  "new_seed_prime_result": false,
+  "endpoint_change": {
+    "FIN": false,
+    "ORDER9": false,
+    "Q36": false
+  },
+  "publication": "parent only",
+  "scope_limit": "No entire-host or independent paper audit; no BNF replay"
+}

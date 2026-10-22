@@ -1,0 +1,50 @@
+{
+  "comparison_4547_power9_gt_1600_power10": true,
+  "left": "830853756660627403954513301423267",
+  "right": "109951162777600000000000000000000",
+  "sample_dimension_checks": [
+    {
+      "p": 5,
+      "d": 6,
+      "m": 12,
+      "two_400_power_d_gt_m_p_power4": true
+    },
+    {
+      "p": 7,
+      "d": 12,
+      "m": 24,
+      "two_400_power_d_gt_m_p_power4": true
+    },
+    {
+      "p": 11,
+      "d": 30,
+      "m": 60,
+      "two_400_power_d_gt_m_p_power4": true
+    },
+    {
+      "p": 13,
+      "d": 42,
+      "m": 84,
+      "two_400_power_d_gt_m_p_power4": true
+    },
+    {
+      "p": 17,
+      "d": 72,
+      "m": 144,
+      "two_400_power_d_gt_m_p_power4": true
+    },
+    {
+      "p": 31,
+      "d": 240,
+      "m": 480,
+      "two_400_power_d_gt_m_p_power4": true
+    },
+    {
+      "p": 53,
+      "d": 702,
+      "m": 1404,
+      "two_400_power_d_gt_m_p_power4": true
+    }
+  ],
+  "grade": "integer checks support displayed universal proof, not extrapolation"
+}

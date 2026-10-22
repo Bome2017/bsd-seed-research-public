@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/stage1.gp",
+    "sha256": "ebd3ee04b8afb2c9b33ab6d19ad2a1c75479b428741e7225870d1bb831c0611b",
+    "bytes": 1918
+  },
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/stage2_exact_maps.gp",
+    "sha256": "65fe517da3d896a719b0fb7ad6a318e971c7e9e4ba191e47998a5e7622ed1321",
+    "bytes": 1072
+  },
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/stage3_units.gp",
+    "sha256": "a63f0c7b05212e6c9c64631a0c096699c7cef132ff7fd3db5239d6144cc62971",
+    "bytes": 3514
+  },
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/stage4_local.gp",
+    "sha256": "0c2f24dfd23bd237a7aea7ff5a49059546e6bc27c0d5e9f46a249e7b0074c2bc",
+    "bytes": 1314
+  },
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/stage5_rejected_units.gp",
+    "sha256": "3e4aaf9d303bf17c276453c7ce305876d01f10397d4dc694497fde253ed55e52",
+    "bytes": 1322
+  },
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/MATRICES.json",
+    "sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+    "bytes": 95141
+  },
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/PREDICTIONS.md",
+    "sha256": "56f67ffbcbec469c8caba846685756d5cd74511a9cfc1a7ac86240934293b51c",
+    "bytes": 2186
+  },
+  {
+    "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/PREDICTION_SEAL.json",
+    "sha256": "9dded692054f5408fa6a0615da8e4786e6868f9806c37ced179a947b1eda3f14",
+    "bytes": 217
+  }
+]

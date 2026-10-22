@@ -1,0 +1,24 @@
+{
+  "degree": 24,
+  "r2": 10,
+  "discriminant_factorization": {
+    "2": 32,
+    "3": 16,
+    "5": 23,
+    "2243": 16,
+    "4547": 18,
+    "5843": 16
+  },
+  "generation_bound_exact_rational_overbound": "280462060510997972638404924208602367752812742542140397778581892933954754999880657604858083830917210",
+  "generation_bound_computed": true,
+  "generator_coverage_run": false,
+  "source_class_bound_obtained": false,
+  "method": "ceil((24!/24^24)*(4/3)^10*ceil(sqrt(D))); pi>3 and exact integer arithmetic",
+  "digits": 99,
+  "relative_discriminant_norm": "707033045140895852346320",
+  "relative_discriminant_factorization": {
+    "2": 4,
+    "5": 1,
+    "4547": 6
+  }
+}

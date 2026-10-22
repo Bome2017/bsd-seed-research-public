@@ -1,0 +1,12 @@
+E = ellinit([0,159145,0,5207351716,0]);
+Em = ellminimalmodel(E);
+print("minimal model  : ", Em.a1, " ", Em.a2, " ", Em.a3, " ", Em.a4, " ", Em.a6);
+print("conductor      : ", ellglobalred(E)[1]);
+print("factor(N)      : ", factor(ellglobalred(E)[1]));
+print("tamagawa prod  : ", ellglobalred(E)[3]);
+print("torsion        : ", elltors(E)[1]);
+print("disc(min)      : ", Em.disc);
+print("j              : ", E.j);
+print("real period    : ", Em.omega[1]);
+print("num components : ", if(Em.disc>0,2,1));
+for(i=1,6, p=[2,3,7,2243,4547,5843][i]; L=elllocalred(Em,p); print("p=",p," f=",L[1]," kodaira=",L[2]," c_p=",L[4]));

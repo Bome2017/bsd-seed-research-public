@@ -1,0 +1,63 @@
+{
+  "status": "COMPLETION_REVIEW_PASS_WITH_DECLARED_TRUST_BASE",
+  "completed_at_utc": "2026-09-21T23:53:27.915993+00:00",
+  "residue_omega1": 2,
+  "residue_full_real_period": 1,
+  "normalization_discrepancy_resolved": true,
+  "group_sums": {
+    "1": "163",
+    "2": "-138",
+    "4": "272",
+    "5": "-52",
+    "10": "-230",
+    "11": "-215"
+  },
+  "weighted_sum": "-3950",
+  "fresh_recombinations": [
+    {
+      "modulus": 169,
+      "seconds": 4.889856578,
+      "output": {
+        "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/fresh_m169.txt",
+        "sha256": "b9586870e1217e5a64e30a59857fb17b304fe7014e020eba838af49ea4bf3d26",
+        "bytes": 39808
+      },
+      "identical_to_original_arb_output": true,
+      "all_saved_units_unchanged": true
+    },
+    {
+      "modulus": 13,
+      "seconds": 0.22047090200000063,
+      "output": {
+        "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/fresh_m13.txt",
+        "sha256": "810e9cff55f35b96bac8c815f848397e6a27fd9c4fdc24b0aadd4cbd35a2c21f",
+        "bytes": 3455
+      },
+      "identical_to_original_arb_output": true,
+      "all_saved_units_unchanged": true
+    }
+  ],
+  "stage_c_replay": {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/STAGE_C_REPLAY.log",
+    "sha256": "dd8f7808cd89f70af92223c4a59da5ec9a49d64bccee04e61a077efff430a612",
+    "bytes": 656
+  },
+  "exact_checks_passed": 179,
+  "reused_segments_rehashed_against_pre_incident_binding": 2333,
+  "new_witnesses_hash_bound_and_receipts_checked": 948,
+  "verified_prime_count_from_receipts": 2324085832,
+  "new_verified_prime_count_from_receipts": 647323696,
+  "bound_arb_work_units": 17605,
+  "source_run_artifacts_unchanged_by_review": true,
+  "historical_write_through_incident_retained": true,
+  "full_integer_witness_verifier_rerun": false,
+  "full_coefficient_arithmetic_rerun": false,
+  "independent_end_to_end_numerical_implementation": false,
+  "lean_verified": false,
+  "certificate_bindings": {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/CERTIFICATE_BINDINGS.json",
+    "sha256": "fb7c42ef193ea9bccdb1955ac4ba8307a098ea6b7d3dfcfc92423f24d27442e1",
+    "bytes": 6353713
+  },
+  "scope": "Same retained engine recombines saved units; exact downstream and actual-byte checks. Mathematical imports and the original coefficient/Arb software trust base remain."
+}

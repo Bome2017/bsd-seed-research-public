@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_POSITIVE_UNIT_CONTROL",
+  "coefficient_prime": 3,
+  "curve": "1913b1",
+  "rank": 0,
+  "class_group_order": 1,
+  "unit_source_dimension": 4,
+  "admitted_unit_dimension": 2,
+  "admitted_class_dimension": 0,
+  "point_unit_dimension": 0,
+  "Sha_p_dimension": 2,
+  "primary_order_or_finiteness_claim": false,
+  "source_certification": "bnfcertify=1",
+  "exact_affine_norm_cubes": 2,
+  "original_seed_endpoints_changed": false
+}

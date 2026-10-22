@@ -1,0 +1,22 @@
+{
+ "return": "BSD_STAGE_A_REVIEW_CLAUDE_2026-10-07",
+ "uploaded_utc": "2026-10-07T04:20:38Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "SUPPORTED_AT_DESK_LEVEL for Codex's Stage-A derivation (lab bb6ed896); not an audit upgrade; Morgan-Smith Def 1.1/3.2/Prop 4.4 and symmetry left as named audit targets; Codex corrections accepted (field identity; restriction vs deformation; one-sided detector wording)",
+ "files": [
+  {
+   "path": "BSD_STAGE_A_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+   "sha256": "2b71282c51a36676f12034b8b9b57dc02b6b91f68d4fd4ed8d16c181e3b516e1",
+   "bytes": 6176
+  },
+  {
+   "path": "BSD_STAGE_A_REVIEW_CLAUDE_2026-10-07/MANIFEST.sha256",
+   "sha256": "5b1cedf16ac67bbf9ca38c34a3f2ea119c33b9b08bfea34d4ec8f8df2dc7b864",
+   "bytes": 76
+  }
+ ],
+ "scope": "desk review; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

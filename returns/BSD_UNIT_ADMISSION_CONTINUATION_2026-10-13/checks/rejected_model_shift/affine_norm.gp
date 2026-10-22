@@ -1,0 +1,24 @@
+alarm(90);
+R=read("/Users/bsm/BSD_STRUCTURAL_DISCOVERY_2026-10-13/seed3/actual_representatives.gp");
+fA=R[5]; TX=R[6][1]; TY=R[6][2]; aa=-22735; bb=106272484;
+coeffcol(v)=vector(8,i,polcoef(lift(v),i-1,w))~;
+BT=matrix(8,8,i,j,polcoef(lift(TY^(j-1)),i-1,w));
+ww=matsolve(BT,coeffcol(Mod(w,fA)));
+fB=z^8-10695389742*z^4+189820747845720*z^2-9532613477773235547;
+if(!polisirreducible(fB),error("dual polynomial reducible"));
+NF=nfinit(fB); slope=Mod(z,fB)/3;
+intercept=(aa^2+2*aa*slope^2-3*slope^4-3*bb)/(6*slope);
+G=x^3+(aa-slope^2)*x^2+(bb-2*slope*intercept)*x-intercept^2;
+YY=Mod(slope*x+intercept,G);
+WW=sum(i=1,8,ww[i]*YY^(i-1));
+if(subst(fA,w,WW)!=0,error("source generator relation"));
+if(subst(lift(TX),w,WW)!=Mod(x,G),error("X torsion inclusion"));
+if(subst(lift(TY),w,WW)!=YY,error("Y torsion inclusion"));
+if(Mod(3*x^4+4*aa*x^3+6*bb*x^2-bb^2,G)!=0,error("division polynomial remainder"));
+u(a)=norm(subst(lift(a),w,WW));
+NORMV=vector(4,j,u(R[8][j]));
+ROOTS=vector(4);
+{for(j=1,4,my(F=nffactor(NF,x^3-NORMV[j]),found=0);for(i=1,#F~,if(poldegree(F[i,1],x)==1,ROOTS[j]=-polcoef(F[i,1],0,x)/polcoef(F[i,1],1,x);found=1;break));if(!found || ROOTS[j]^3!=NORMV[j],error("literal cube witness failed"));print("AFFINE_NORM_CUBE_",j,"=1"));}
+write("../data/affine_norm_certificate.gp",[fB,slope,intercept,G,WW,NORMV,ROOTS]);
+print("DUAL_FIELD_SIGNATURE=",NF.sign);
+print("AFFINE_LINE_NORM_EXACT_PASS");quit;

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-12",
+  "repository": "Bome2017/bsd-seed-lab",
+  "baseline_commit": "f97843a1b4768606787a9760ea4bad727a3dc4a1",
+  "inspected_inputs": [
+    {
+      "path": "work/returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/REPORT.md",
+      "git_blob": "34196d680f37b7795d31a59cf872c11605b774ad"
+    },
+    {
+      "path": "work/returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/PROOF.md",
+      "git_blob": "9d63bdf806efa88a025609f4c7c3ad4f7cdb58d5"
+    },
+    {
+      "path": "work/returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/outputs/candidate43737_exact.out",
+      "git_blob": "cf0a0ee15992853a4fd5fc9f7fe087b2289b82aa"
+    },
+    {
+      "path": "work/returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/outputs/candidate43737_replay.out",
+      "git_blob": "02cbb1438f8228d3c33ec7dfd696e9910b138964"
+    },
+    {
+      "path": "work/returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/checks/candidate43737_replay.gp",
+      "git_blob": "faa656e7712c290baf3f2986ef5c58dd763655a3"
+    }
+  ],
+  "source_inputs_copied_byte_for_byte": false,
+  "primary_references": [
+    {
+      "title": "Miller and Stoll, Explicit isogeny descent on elliptic curves",
+      "url": "https://www.mathe2.uni-bayreuth.de/stoll/papers/isogeny-descent.pdf",
+      "scope": "Sections 2 and 6; Cassels ratio on printed p.10 visually checked"
+    },
+    {
+      "title": "Cremona, Algorithms for Modular Elliptic Curves, Chapter 3",
+      "url": "https://johncremona.github.io/book/fulltext/chapter3.pdf",
+      "scope": "Section 3.2, specified Tate-algorithm branches, printed p.67 visually checked"
+    },
+    {
+      "title": "PARI elliptic curve and modular symbol reference",
+      "urls": [
+        "https://pari.math.u-bordeaux.fr/dochtml/html/Elliptic_curves.html",
+        "https://pari.math.u-bordeaux.fr/dochtml/html/Modular_symbols.html"
+      ],
+      "scope": "ellrank bounds; ordinary heights; msfromell; mspadicmoments twist; mspadicseries coordinate"
+    },
+    {
+      "title": "Iovita and Werner, p-adic height pairings on abelian varieties with semistable ordinary reduction",
+      "url": "https://arxiv.org/pdf/math/0209362",
+      "scope": "ordinary unit-root splitting, especially functoriality in proof of Lemma 2.1"
+    },
+    {
+      "title": "Besser, Mueller and Srinivasan, p-adic adelic metrics and Quadratic Chabauty I",
+      "url": "https://arxiv.org/pdf/2112.03873",
+      "scope": "Lemma 4.31 pullback/tensor properties of canonical logarithms; Section 5 height construction"
+    }
+  ],
+  "third_party_papers_included": false,
+  "runtime": {
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "GP_rerun": false,
+  "independent_human_review": false,
+  "formal_verification": false,
+  "repo_modified": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

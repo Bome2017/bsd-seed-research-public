@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-20T18:10:23.266356+00:00",
+  "packet": "/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20",
+  "manifest_entries": 156,
+  "nested_manifests": [
+    {
+      "manifest": "review/MANIFEST.sha256",
+      "verified": 19
+    },
+    {
+      "manifest": "same_curve_scaling/MANIFEST.sha256",
+      "verified": 63
+    },
+    {
+      "manifest": "seed_five/MANIFEST.sha256",
+      "verified": 48
+    },
+    {
+      "manifest": "seed_three/MANIFEST.sha256",
+      "verified": 7
+    }
+  ],
+  "zip": "/Users/bsm/Downloads/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20.zip",
+  "zip_bytes": 4809935,
+  "zip_sha256": "9ed8c82f163d191ca85ffcb99ad2e9d3649ea0895b34f27b935dcd4fd33eb572",
+  "scope": "custody only; mathematical grades unchanged"
+}

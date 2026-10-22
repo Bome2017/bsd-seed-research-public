@@ -1,0 +1,11 @@
+{
+  "question": "Does the exact affine-norm kernel equal the valuation-zero part of the full scalar source?",
+  "cases": [
+    "1913b1",
+    "389a1"
+  ],
+  "motivation_already_observed": "Both certified norm kernels are valuation-zero and contained in global units. Reverse containment/dimensions not yet checked in this experiment.",
+  "acceptance": "ker(V*S) equals certified norm kernel in scalar coordinates, checked by ranks and inclusions.",
+  "negative_outcome": "If valuation-zero dimension exceeds norm kernel dimension, export actual valuation-zero noncube vector and residue certificate.",
+  "scope": "Retrospective hypothesis from completed norm controls; this follow-up is sealed before testing reverse inclusion. No universal or cross-prime claim."
+}

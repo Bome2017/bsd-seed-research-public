@@ -1,0 +1,15 @@
+{
+  "status": "COUNTERCONTROL_COMPLETED_SECONDARY_OPERATION_SPECIFIED",
+  "new_actual_cases": 6,
+  "candidate_excluded": "integral/unit affine norm cube root as additional discriminator on unit-source classes",
+  "independent_norm_check": "determinant of multiplication instead of resultant",
+  "computed_cassels_tate_entries": 0,
+  "computed_nine_selmer_sets": 0,
+  "endpoint_effect": {
+    "FIN": "unchanged",
+    "ORDER9": "unchanged",
+    "Q36": "unchanged"
+  },
+  "next_missing_arithmetic": "source-bound plane-cubic/global 9-lift or normalized torsor function; then complete local-global repair test",
+  "additional_same_class_scaling_controls": 5
+}

@@ -1,0 +1,91 @@
+{
+  "lab_commit": "581f7a26a1d110bcd6131739f94569e4810a719e",
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m5.txt",
+      "sha256": "fb7b98d89b1885bacbb1d9d306c6c17fcefeafbb094baf1fcb5258756e6edf9c",
+      "git_blob": "a9961d9d45bc22605a331c994a3dee4119c1c12b",
+      "pinned_blob": "a9961d9d45bc22605a331c994a3dee4119c1c12b",
+      "matches_pinned": true,
+      "bytes": 135,
+      "historic_manifest_sha256": "fb7b98d89b1885bacbb1d9d306c6c17fcefeafbb094baf1fcb5258756e6edf9c",
+      "matches_historic_manifest": true,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/SYMBOLS_m5.txt"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/msl_m5.txt",
+      "sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7",
+      "git_blob": "ce2778600afce0c069f679703c24d539f25a3e18",
+      "pinned_blob": "ce2778600afce0c069f679703c24d539f25a3e18",
+      "matches_pinned": true,
+      "bytes": 1508,
+      "historic_manifest_sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7",
+      "matches_historic_manifest": true,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/msl_m5.txt"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md",
+      "sha256": "2dfa96d000efa7a4862674f5cdc7953341fcc5fb3ef0e4308281456eba441d77",
+      "git_blob": "008c22932c67d6df5fe4948bd55f1f2dcd930e56",
+      "pinned_blob": "008c22932c67d6df5fe4948bd55f1f2dcd930e56",
+      "matches_pinned": true,
+      "bytes": 8142,
+      "historic_manifest_sha256": "2dfa96d000efa7a4862674f5cdc7953341fcc5fb3ef0e4308281456eba441d77",
+      "matches_historic_manifest": true,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/P5_CERTIFICATE.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_MANIFEST.sha256",
+      "sha256": "d010edc983503ecbdd9b3e87738839797ff1771f26a60c96ceddfdcd974fcd44",
+      "git_blob": "2e103dc161e3aace94b14dc59b1ade7f7632d9f6",
+      "pinned_blob": "2e103dc161e3aace94b14dc59b1ade7f7632d9f6",
+      "matches_pinned": true,
+      "bytes": 915905
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_RIGOROUS_STREAM_CORE_2026-09-19/DESIGN.md",
+      "sha256": "dfc35acb78179609800dc519e0440fbd8480eb28f2ced484bc6b0f9c401ff829",
+      "git_blob": "182937a9482500d9764dc1f9d5da1ed770a77546",
+      "pinned_blob": "182937a9482500d9764dc1f9d5da1ed770a77546",
+      "matches_pinned": true,
+      "bytes": 9766,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/DESIGN.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_RIGOROUS_STREAM_CORE_2026-09-19/ANALYTIC_RANK_CERTIFICATE.md",
+      "sha256": "ef0d90f1e17d68c89459aad2dcbe3822f8fb52c58f6fecd118fa5b3cbebdc614",
+      "git_blob": "f200b76ba66d8058d76419c0638c417e7af4467e",
+      "pinned_blob": "f200b76ba66d8058d76419c0638c417e7af4467e",
+      "matches_pinned": true,
+      "bytes": 10223,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/ANALYTIC_RANK_CERTIFICATE.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore.c",
+      "sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+      "git_blob": "bfc3fc72ffb1c9064dc8a7025314c934fb89aab4",
+      "pinned_blob": "bfc3fc72ffb1c9064dc8a7025314c934fb89aab4",
+      "matches_pinned": true,
+      "bytes": 34328,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/arbcore.c"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COFINITE_NORMALIZATION.md",
+      "sha256": "71ef880907350d939a36196461ace4b0ff757d608d7d1d5f4453112e03bf4826",
+      "git_blob": "0c6786f2459637be3480e13cb8ba4f963a3b714e",
+      "pinned_blob": "0c6786f2459637be3480e13cb8ba4f963a3b714e",
+      "matches_pinned": true,
+      "bytes": 6598,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/COFINITE_NORMALIZATION.md"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BOCKSTEIN_CERTIFICATE_REVIEW_CODEX_2026-10-12/ARITHMETIC_INTERFACE.md",
+      "sha256": "4bd68b632f7abbc4d1612facdc00f560b13e408c552cdba81edd323b80fdef9b",
+      "git_blob": "bf4523894bf5e81e8203aa6da7099bec9e74b67d",
+      "pinned_blob": "bf4523894bf5e81e8203aa6da7099bec9e74b67d",
+      "matches_pinned": true,
+      "bytes": 14469,
+      "copy": "/Users/bsm/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/period_evidence/ARITHMETIC_INTERFACE.md"
+    }
+  ]
+}

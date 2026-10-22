@@ -1,0 +1,655 @@
+{
+  "status": "P7_COEFFICIENT_UNIT_PROVED",
+  "a7": -2,
+  "finite_P2_precision_exponent": 20,
+  "finite_P2_coefficients_mod_7pow20": [
+    0,
+    33044515408019213,
+    57722558827603356
+  ],
+  "infinite_L7_leading_coefficient_certified_digits": 1,
+  "residue_omega1": 1,
+  "residue_neron_full_period": 4,
+  "folded_exact_integer_or_rational": "-1931",
+  "lower_contribution_mod_7": 0,
+  "alpha_mod_49": 26,
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "name": "exact point count equals verified a7",
+      "passed": true
+    },
+    {
+      "name": "complete plus and minus unit symbol sets at49",
+      "passed": true
+    },
+    {
+      "name": "both conjugation symmetries at49",
+      "passed": true
+    },
+    {
+      "name": "retained lattice at49",
+      "passed": true
+    },
+    {
+      "name": "complete plus and minus unit symbol sets at7",
+      "passed": true
+    },
+    {
+      "name": "both conjugation symmetries at7",
+      "passed": true
+    },
+    {
+      "name": "retained lattice at7",
+      "passed": true
+    },
+    {
+      "name": "T7 relation at zero cusp",
+      "passed": true
+    },
+    {
+      "name": "T7 relations for all six cusps and both signs",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "predeclared fifteen-symbol formula equals Fermat-quotient computation",
+      "passed": true
+    },
+    {
+      "name": "Hensel unit root",
+      "passed": true
+    },
+    {
+      "name": "Teichmuller representatives",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "Fermat exponent agrees with Teichmuller enumeration",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "symbol denominator prime to7",
+      "passed": true
+    },
+    {
+      "name": "every unit modulo49 used exactly once",
+      "passed": true
+    },
+    {
+      "name": "constant coefficient of P2 zero",
+      "passed": true
+    },
+    {
+      "name": "linear coefficient of P2 zero modulo7",
+      "passed": true
+    },
+    {
+      "name": "lower-level contribution vanishes modulo7",
+      "passed": true
+    },
+    {
+      "name": "independent coefficient evaluations agree",
+      "passed": true
+    }
+  ],
+  "symbol_file_sha256": {
+    "SYMBOLS_m49.txt": "ab892f517414a8bc8ab96eb05845ef185de4ede6604b71c135c67005668cd778",
+    "SYMBOLS_m7.txt": "aa9451247e7a3e49a63d7b79f0f50c4fb3dbe6bd22de9635cca2819cb5516a6c"
+  },
+  "plus_symbols_49": {
+    "1": "63",
+    "2": "36",
+    "3": "70",
+    "4": "7",
+    "5": "102",
+    "6": "-130",
+    "8": "142",
+    "9": "7",
+    "10": "-84",
+    "11": "-50",
+    "12": "70",
+    "13": "63",
+    "15": "-158",
+    "16": "-84",
+    "17": "102",
+    "18": "36",
+    "19": "-50",
+    "20": "142",
+    "22": "-158",
+    "23": "-63",
+    "24": "-63",
+    "25": "-63",
+    "26": "-63",
+    "27": "-158",
+    "29": "142",
+    "30": "-50",
+    "31": "36",
+    "32": "102",
+    "33": "-84",
+    "34": "-158",
+    "36": "63",
+    "37": "70",
+    "38": "-50",
+    "39": "-84",
+    "40": "7",
+    "41": "142",
+    "43": "-130",
+    "44": "102",
+    "45": "7",
+    "46": "70",
+    "47": "36",
+    "48": "63"
+  },
+  "plus_symbols_7": {
+    "1": "18",
+    "2": "-9",
+    "3": "-9",
+    "4": "-9",
+    "5": "-9",
+    "6": "18"
+  }
+}

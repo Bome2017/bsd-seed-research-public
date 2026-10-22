@@ -1,0 +1,1050 @@
+{
+  "entries_checked": 116,
+  "exceptions": [],
+  "entries": [
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/0",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/input/ORIGINAL_REPORT.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b890782da86f3fc5d010dbea95c5d336d075f96a2c27bc4d15c9cc96f64983f9"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/0",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/REPORT.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b890782da86f3fc5d010dbea95c5d336d075f96a2c27bc4d15c9cc96f64983f9"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/1",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/input/ORIGINAL_DERIVATION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "bb774f0e9dfde64dd71131d0c10bbbf6ba54c656357a1d69e59a8b5dc5e36f3a"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/1",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/notes/03_step2_integral_test.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "bb774f0e9dfde64dd71131d0c10bbbf6ba54c656357a1d69e59a8b5dc5e36f3a"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/2",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/input/USER_PASTED_RETURN.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "5b8aa00f87950b1fefdb32bf181909c66dc52847f89b54621bd94cf1360a4da6"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/2",
+      "kind": "source",
+      "path": "/Users/bsm/.codex/attachments/5338f01a-738b-4f26-b8fe-67751cf76056/Pasted text.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "5b8aa00f87950b1fefdb32bf181909c66dc52847f89b54621bd94cf1360a4da6"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/3",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/BD2005.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "7ece2d9174a761a561f98cab9f46767e7f5cc7fb93817f6fe9182b740bca7129"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/4",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/BD2005_main_conjecture.pdf",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "620ff8d279df721a4946124f589c873442b810732e75bb5cd50e04a2be0f4be0"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/5",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/arxiv_1202.6353.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "dcf0f4f45ff7f69337d2dafaa4a15201cd1989a6a4e8d95e688de9b612802ac2"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/6",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/arxiv_1202.6353.pdf",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "24c2b67f3cf627657f92200df89c0f7b8c720d9b1aa9d228bf3489195f37f052"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/7",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/input/original_2x2_check.py",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "fc33c353e5eb3380d0f53a8c8fa53d60fdeab2069a6702a90648c0a10201f0ad"
+    },
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "json_location": "/files/7",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/checks/integral_2x2_check.py",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "fc33c353e5eb3380d0f53a8c8fa53d60fdeab2069a6702a90648c0a10201f0ad"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/0",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/THEOREM_W_REPAIRED.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "26ceeff20cb7d6d0f8cf465835ccc487818fb99a844306a95ec45d018a200f01"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/1",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/G2_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/2",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/K288_CORRECTIONS.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "d1090708ad629a0d4c58f15a114091bc03bf980b5925321761fe1b03c4a7281a"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/3",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/TAME_ADMISSION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "332849a01822a85f9cf88c69ed3743fb09e7c50a159d79a822629542c4a56023"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/4",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/A_FIRST_MATHEMATICAL_REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "c2142e4d600fbc504357853c6fcc51bbb74eb685d3b56e53f1934d3126a695cb"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/5",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/A_CORRECTION_DETAILS.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "17fc4e1a771d85d341e8fa1c90b49040ff953b99e52d9cfc4ec9f99e479aab01"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/6",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/A_RECOVERY_REPORT.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "beeb3c68e0ffd70b2a75d53357e011782771e214cd2934c1bca1fa34d2378784"
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "json_location": "/entries/7",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/NORMALIZATION_ADDENDUM.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "a621f9de99d17d2e02e02a3181c8220ba12fdd39295fbcfa3404cc13401f3ed1"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/0",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/context/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/0",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/1",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/context/TAME_COMPARISON.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/1",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/TAME_COMPARISON.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/2",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/context/HANDOFF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "8195d5c08221883d6faa1acfa52876a89b61d96a945f964bfc3797f5e5b70dc6"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/2",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/HANDOFF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "8195d5c08221883d6faa1acfa52876a89b61d96a945f964bfc3797f5e5b70dc6"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/3",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/context/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/3",
+      "kind": "source",
+      "path": "/Users/bsm/Downloads/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/4",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/sources/BKS2024_published.pdf",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "bc930bdfc4a979b80e03f953068842fcc30b12edb6edc2530290763724596386"
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/5",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/sources/Kato2004_AST295.pdf",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/0",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/SUBMITTED_REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b7c89f09549e6bc0137e719f8e20d75a02a462122d509b5ed939086c76fc83d8"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/0",
+      "kind": "source",
+      "path": "/Users/bsm/Downloads/REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b7c89f09549e6bc0137e719f8e20d75a02a462122d509b5ed939086c76fc83d8"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/1",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/USER_REVIEW.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6e1e85726be0543f8e8f6a6b8c90fdde4fae7748ae7dd39e3bdb784113d1885e"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/1",
+      "kind": "source",
+      "path": "/Users/bsm/.codex/attachments/4fcd7834-01ab-4a1f-a45b-cfa831015b41/Pasted text.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6e1e85726be0543f8e8f6a6b8c90fdde4fae7748ae7dd39e3bdb784113d1885e"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/2",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/2",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/3",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/3",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/4",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/MW_PLACEMENT.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/4",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/5",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/INTEGRAL_MATCHING.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/5",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/INTEGRAL_MATCHING.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/6",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/ALGEBRA_REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/6",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/ALGEBRA_REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/7",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/RUBIN_COMPARISON.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "888c6e35d10c28bde93011eb026f8f277d3d9a02e63a54ac1f9c6386d1b75166"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/7",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COMPARISON_REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "888c6e35d10c28bde93011eb026f8f277d3d9a02e63a54ac1f9c6386d1b75166"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/8",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/COFINITE_NORMALIZATION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "71ef880907350d939a36196461ace4b0ff757d608d7d1d5f4453112e03bf4826"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/8",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COFINITE_NORMALIZATION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "71ef880907350d939a36196461ace4b0ff757d608d7d1d5f4453112e03bf4826"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/9",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/SEED_CALIBRATION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "01fafd9d3f88a2e7f3dfbb8cd638bd31ff46b99faadb54a5569ab498110685bf"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/9",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/SEED_CALIBRATION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "01fafd9d3f88a2e7f3dfbb8cd638bd31ff46b99faadb54a5569ab498110685bf"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/10",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/RUBIN_PREDECESSOR.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "376b040dd57cb43118f7abcb6d5b4e86b9a0710f994b8b83633f973f52b90570"
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "json_location": "/10",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/archives/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "376b040dd57cb43118f7abcb6d5b4e86b9a0710f994b8b83633f973f52b90570"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/0",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/0",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/1",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/WEAK_ORDER_ASSUMPTIONS.json",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ce8bcabad8f5b2c364249eb654fefd2255e38e3d64f5e2558f3df5e8e7e95101"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/1",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/ASSUMPTIONS.json",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ce8bcabad8f5b2c364249eb654fefd2255e38e3d64f5e2558f3df5e8e7e95101"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/2",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/TAME_COMPARISON.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/2",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/TAME_COMPARISON.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/3",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/3",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/4",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/FOUNDATION_REPORT.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "05543da6fb80a9c73afca188391a7c002673f977bd01e6e91cb1c2e223625416"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/4",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "05543da6fb80a9c73afca188391a7c002673f977bd01e6e91cb1c2e223625416"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/5",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/FOUNDATION_SOURCES.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b99056218995c979f20ca08cbeae02cd3b30521c9bf002674776d61e447baaaf"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/5",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/SOURCES.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b99056218995c979f20ca08cbeae02cd3b30521c9bf002674776d61e447baaaf"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/6",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/6",
+      "kind": "source",
+      "path": "/Users/bsm/Downloads/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/7",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/context/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "9b9b9e3c7f471cac8e360f19de4205ed59a2cc80172de373b7bff48c00b471be"
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "json_location": "/entries/7",
+      "kind": "source",
+      "path": "/Users/bsm/Downloads/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "9b9b9e3c7f471cac8e360f19de4205ed59a2cc80172de373b7bff48c00b471be"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/0",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/context/SUBMITTED_CRITERION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "e20f30f9cbef05f06fa2ed21beb96914e4600e4719c3c43933c41d7bc79d5ba3"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/0",
+      "kind": "source",
+      "path": "/Users/bsm/Downloads/BSD_RESIDUAL_KATO_DERIVATIVE_CRITERION_2026-10-07.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "e20f30f9cbef05f06fa2ed21beb96914e4600e4719c3c43933c41d7bc79d5ba3"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/1",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/context/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/1",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/2",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/context/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/2",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/3",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/context/PLACEMENT_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/3",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/4",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/context/G2_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/4",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/G2_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/5",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/context/NORMALIZATION_ADDENDUM.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "a621f9de99d17d2e02e02a3181c8220ba12fdd39295fbcfa3404cc13401f3ed1"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/5",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/NORMALIZATION_ADDENDUM.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "a621f9de99d17d2e02e02a3181c8220ba12fdd39295fbcfa3404cc13401f3ed1"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/6",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/context/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "9eebf67f611e5d42c8be1ba2d6c4aa6f9368609ebd85d1f15076f9abae07a462"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/entries/6",
+      "kind": "source",
+      "path": "/Users/bsm/Downloads/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "9eebf67f611e5d42c8be1ba2d6c4aa6f9368609ebd85d1f15076f9abae07a462"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/external_sources/0",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/sources/Kato2004_AST295.pdf",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/external_sources/1",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/sources/Kato2004_AST295.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "23f8f255d0822ac203599be37d5eb6e6e5ea6db456e422f6a4b7cc483ac2caa8"
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "json_location": "/external_sources/2",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/sources/BKS2024_published.pdf",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "bc930bdfc4a979b80e03f953068842fcc30b12edb6edc2530290763724596386"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/0",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/context/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/0",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/1",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/context/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/1",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/2",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/context/MW_PLACEMENT.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/2",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/PROOF.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/3",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/context/INTEGRAL_MATCHING.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/3",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/INTEGRAL_MATCHING.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/4",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/context/ALGEBRA_REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/4",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/ALGEBRA_REVIEW.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/5",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/reg17_pari_2173.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "294d257bd63d5d40852ac726db3f7e38ef65afdc04bb2f51d9180db0e4529883"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/5",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/regulator/reg17_pari_2173.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "294d257bd63d5d40852ac726db3f7e38ef65afdc04bb2f51d9180db0e4529883"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/6",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/reg17_sage.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "7c3e4e14d8e067b25f2c881f498f01403f950b0208d10674669b1887000c8ec6"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/6",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/regulator/reg17_sage.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "7c3e4e14d8e067b25f2c881f498f01403f950b0208d10674669b1887000c8ec6"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/7",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/REGULATOR_P17.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b88ecb738b76af5e3cfa1b23d818480795235167093831805e5dd382b2daaf7"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/7",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/regulator/REGULATOR_P17.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "6b88ecb738b76af5e3cfa1b23d818480795235167093831805e5dd382b2daaf7"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/8",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/reg5_sage.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "883eb2e1a672c0f232cb001ea9ff87a8a3085902758b68acde600f01ac728d89"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/8",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/numerics/L4_reg5_sage_out.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "883eb2e1a672c0f232cb001ea9ff87a8a3085902758b68acde600f01ac728d89"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/9",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/c9_sage_output.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "0d1a1165d9567a632236e6c9576f104cd5c9b57cb450b1ac652afd2a6ea624c7"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/9",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/C_CALIBRATION/runs/c9_sage_output.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "0d1a1165d9567a632236e6c9576f104cd5c9b57cb450b1ac652afd2a6ea624c7"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/10",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_m5.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/10",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/evidence/msl_m5.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/11",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_m25.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "3acf685d435abae71b572abb0380e8b1efdc826668c7979687a5f83939560b6d"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/11",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/evidence/msl_m25.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "3acf685d435abae71b572abb0380e8b1efdc826668c7979687a5f83939560b6d"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/12",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/CYCLOTOMIC_EXTRACTION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "e359f9b37af5145ade5578d0cbc5414bfa58826ba4c91c060296b864cbd5d20e"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/12",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/CYCLOTOMIC_EXTRACTION.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "e359f9b37af5145ade5578d0cbc5414bfa58826ba4c91c060296b864cbd5d20e"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/13",
+      "kind": "copy",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_cyclotomic_adapter.py",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "13753bd9d3a8a3bd16116130a900ac22200b9bfc7b7c9d1293786d8e5259c386"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/13",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/checks/msl_cyclotomic_adapter.py",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "13753bd9d3a8a3bd16116130a900ac22200b9bfc7b7c9d1293786d8e5259c386"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/14",
+      "kind": "source",
+      "path": "/Users/bsm/Downloads/PROOF_AND_NEXT_TARGET.md",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "9ce956dcac6e5df919551c10ae828518ce0b8c78c9138d8914a56c82c0aa5703"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/15",
+      "kind": "source",
+      "path": "/Users/bsm/.codex/attachments/d09701d5-eb12-41b5-a1af-9d57a3c28606/Pasted text.txt",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "a48c92f7f3839551c6a77ee87bb4968f83298f04cc2e6374d19eb55e40de8afe"
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "json_location": "/16",
+      "kind": "source",
+      "path": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/sources/BKS2024_published.pdf",
+      "exists": true,
+      "hash_match": true,
+      "expected_sha256": "bc930bdfc4a979b80e03f953068842fcc30b12edb6edc2530290763724596386"
+    }
+  ]
+}

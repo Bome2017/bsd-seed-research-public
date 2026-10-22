@@ -1,0 +1,65 @@
+[
+  {
+    "name": "EPW",
+    "url": "https://arxiv.org/pdf/math/0404484",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/EPW.pdf",
+    "pdf_sha256": "d2d3fa555f638068a5edbaa94821956ccce5deb0500b3839ee37c0084ed10721",
+    "text_sha256": "373f9322fd336a3f2ba1552cc20b222b90a3bfe741d3b1e92fdf849a990bf170",
+    "read_scope": "Theorem 2.1.2; 2.3.1; Propositions 4.1.1, 4.1.4"
+  },
+  {
+    "name": "Maksoud",
+    "url": "https://arxiv.org/pdf/2312.16706",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/Maksoud.pdf",
+    "pdf_sha256": "530f2c93155b7a614e9688a0c3d715741526a06cec68f3979df95ed9564805eb",
+    "text_sha256": "26caf0f67cec361b405b9d03ef1327991d13ad9a32a523b8ec672c973fe5ce62",
+    "read_scope": "2.1--2.4, definitions 2.1.3 and 2.3.5, formulas (10) and (14)"
+  },
+  {
+    "name": "Fuetterer",
+    "url": "https://arxiv.org/pdf/2005.00896",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/Fuetterer.pdf",
+    "pdf_sha256": "debe03a798530e9c5a2469d097caf3e207c6a8e2f600b47ec3348efd728c3f84",
+    "text_sha256": "6c44f490c6e52bc9908e41e0768892274cdfedea1f1df4c92196150dbacba18c",
+    "read_scope": "Theorems 2.22, 2.39; Proposition 3.11; Condition 3.12; Theorems 3.17, 3.19, 3.23; page 53 visually read"
+  },
+  {
+    "name": "Mazur_Wiles",
+    "url": "https://www.numdam.org/item/CM_1986__59_2_231_0.pdf",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/Mazur_Wiles.pdf",
+    "pdf_sha256": "ad65e99f719c7fcf3b05781c6374471317b6fef782bbdee0ff474826b064f790",
+    "text_sha256": "d4221680523a8ab9f4a9c545b4201af896d1d389421e62a616d10cc959a7ccfc",
+    "read_scope": "Boston appendix Proposition 3; printed page 263 visually read; section 10"
+  },
+  {
+    "name": "KLZ",
+    "url": "https://arxiv.org/pdf/1503.02888",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/KLZ.pdf",
+    "pdf_sha256": "2530d973f05ff5a4e2338618dde66d3183c1feeb98abc94a05c8cd23183c504d",
+    "text_sha256": "de3fcb8c0a69a92838352331dfadd65915e6a99bedab7fc580532e6822fd61f4",
+    "read_scope": "7.2--7.4, 7.7, 9.5.1--9.5.3, 10.1.1, 11.6; v6 November 2023 corrigendum read"
+  },
+  {
+    "name": "Kim2023",
+    "url": "https://arxiv.org/pdf/2203.12157",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/Kim2023.pdf",
+    "pdf_sha256": "dd81fde28cb60b48903de0a7f4dad118ea2b83763882a94bf69e05826ebd5de2",
+    "text_sha256": "c29c82af7d73b68d228f645e962a20165abcae0f3d43769897a2b1abe22c12f4",
+    "read_scope": "sections 3 and 7.9; 7.23 and 7.24"
+  },
+  {
+    "name": "Pollack_Serban",
+    "url": "https://arxiv.org/pdf/2208.02769",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/Pollack_Serban.pdf",
+    "pdf_sha256": "9653770ae35b983aa511cb24e6422ce03efc41784cedadddc57ef7a1c024abaf",
+    "text_sha256": "75759135d2c949eaa506318f123246664df598c331c8f8b563f467e10c5bfb79",
+    "read_scope": "Downloaded; only abstract/context screened; no theorem invoked"
+  },
+  {
+    "name": "Kato2004",
+    "url": "https://www.numdam.org/article/AST_2004__295__117_0.pdf",
+    "local_pdf": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/sources/Kato2004_fresh.pdf",
+    "pdf_sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d",
+    "read_scope": "4.10, 6.3, 14.13, 14.21, 17.5; retained local and index proofs bound separately"
+  }
+]

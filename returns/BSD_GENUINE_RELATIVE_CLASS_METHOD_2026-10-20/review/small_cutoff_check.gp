@@ -1,0 +1,6 @@
+clens(pm)={my(seen=vector(#pm),ls=List());for(j=1,#pm,if(!seen[j],my(k=j,n=0);while(!seen[k],seen[k]=1;n++;k=pm[k]);if(k!=j,error("nonpermutation cycle"));listput(ls,n)));Vec(ls)};
+polyperm(F,sp,q,B)={my(ff=factormod(F,q)[,1],ind=select(j->q^poldegree(ff[j])<=B,vector(#ff,j,j)),fs=vector(#ind,j,ff[ind[j]]),pm=vector(#fs),x=variable(F));for(j=1,#fs,my(t=Mod(Mod(1,q)*sp,fs[j]),k=0);for(h=1,#fs,if(poldegree(fs[j])==poldegree(fs[h]) && subst(fs[h],x,t)==0,k=h));if(!k,error("poly scalar unmatched"));pm[j]=k);clens(pm)};
+idealperm(NF,SIG,q,B)={my(ps=idealprimedec(NF,q),ind=select(j->q^ps[j][4]<=B,vector(#ps,j,j)),hs=vector(#ind,j,idealhnf(NF,ps[ind[j]])),pm=vector(#hs));for(j=1,#hs,my(h=nfgaloisapply(NF,SIG,hs[j]),k=0);for(t=1,#hs,if(h==hs[t],k=t));if(!k,error("ideal scalar unmatched"));pm[j]=k);clens(pm)};
+{
+alarm(25);S=read("/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/field.gp");NF=read("/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/nf.gp");F=S[4];SIG=S[7];sp=lift(SIG);B=2000;ROWS=List();forprime(q=7,B,my(ls=if(NF.index%q,polyperm(F,sp,q,B),idealperm(NF,SIG,q,B)));listput(ROWS,[q,sum(j=1,#ls,ls[j]==4),ls]));write("small_cutoff_check_result.gp",Vec(ROWS));print("SMALL_CUTOFF_COMPLETE;ROWS=",#ROWS);quit;
+}

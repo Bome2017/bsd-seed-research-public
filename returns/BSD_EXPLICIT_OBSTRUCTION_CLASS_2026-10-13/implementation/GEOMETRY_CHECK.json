@@ -1,0 +1,36 @@
+{
+  "char0_nonsingular": true,
+  "charts": [
+    {
+      "chart": 0,
+      "singular_ideal_groebner_basis": [
+        "1"
+      ]
+    },
+    {
+      "chart": 1,
+      "singular_ideal_groebner_basis": [
+        "1"
+      ]
+    },
+    {
+      "chart": 2,
+      "singular_ideal_groebner_basis": [
+        "1"
+      ]
+    },
+    {
+      "chart": 3,
+      "singular_ideal_groebner_basis": [
+        "1"
+      ]
+    },
+    {
+      "chart": 4,
+      "singular_ideal_groebner_basis": [
+        "1"
+      ]
+    }
+  ],
+  "hilbert_polynomial": "5*t"
+}

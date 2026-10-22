@@ -1,0 +1,22 @@
+{
+ "return": "BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07",
+ "uploaded_utc": "2026-10-07T04:47:42Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "SUPPORTED_AT_DESK_LEVEL for Codex's second-order return (lab bcb6e11f): criterion alpha_lambda, F_p[[t]] no-go, Z_p[zeta_p] character; symmetry of b_lambda closes the Stage-A symmetry target. New: the Z_p[zeta_p] family is the chi_lambda-twist (generic Selmer = chi-part over the cyclic degree-p field); MIXED_CHAR_W_LIFT implies L(E,chi_lambda,1)=0 (Kato); twisted L-value pi-expansion coefficients are the record's Mazur-Tate/tame data (c2 = C2); lane lands on G1 unless twisted L-zeros; OpenAI package revision 2 superseded (do not submit). Custody flag: Codex zip contains OpenAI LaTeX and Pro text (user decision).",
+ "files": [
+  {
+   "path": "BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+   "sha256": "80de31d54e9680d3abf49641246d97aea5b886dc3e5fb3f49ed9264e95ad1b3c",
+   "bytes": 8390
+  },
+  {
+   "path": "BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07/MANIFEST.sha256",
+   "sha256": "3fcc2da2a13e5570cb26097455016dcc9042133db8de3e81a7ca758534524e69",
+   "bytes": 76
+  }
+ ],
+ "scope": "desk review; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

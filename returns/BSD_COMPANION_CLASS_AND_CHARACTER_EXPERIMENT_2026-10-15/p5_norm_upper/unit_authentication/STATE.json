@@ -1,0 +1,13 @@
+{
+  "status": "AUTHENTICATED_ACTUAL_UNITS",
+  "free_unit_candidates": 13,
+  "distinct_factor_elements": 317,
+  "divisor_ideals": 295,
+  "GRH_used": false,
+  "fundamental_basis_certified": false,
+  "class_group_certified": false,
+  "authentication_data_sha256": "ac31b35c61a3725d9b98b384e738dea3508426a778d8da5b4caec264410e51e2",
+  "literal_replay_pass": true,
+  "literal_replay_seconds": 16.31783351302147,
+  "failed_generic_hnf_replay_retained": true
+}

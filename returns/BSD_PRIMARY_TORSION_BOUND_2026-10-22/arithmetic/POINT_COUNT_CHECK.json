@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "method": "independent integer quadratic-residue point counts",
+  "degree_one_split_pair_count": 26,
+  "rows": [
+    {
+      "q": 7,
+      "order": 10,
+      "a_q": -2,
+      "valuation_5": 1
+    },
+    {
+      "q": 29,
+      "order": 30,
+      "a_q": 0,
+      "valuation_5": 1
+    },
+    {
+      "q": 31,
+      "order": 40,
+      "a_q": -8,
+      "valuation_5": 1
+    },
+    {
+      "q": 53,
+      "order": 60,
+      "a_q": -6,
+      "valuation_5": 1
+    },
+    {
+      "q": 67,
+      "order": 60,
+      "a_q": 8,
+      "valuation_5": 1
+    },
+    {
+      "q": 73,
+      "order": 80,
+      "a_q": -6,
+      "valuation_5": 1
+    },
+    {
+      "q": 113,
+      "order": 120,
+      "a_q": -6,
+      "valuation_5": 1
+    },
+    {
+      "q": 137,
+      "order": 140,
+      "a_q": -2,
+      "valuation_5": 1
+    },
+    {
+      "q": 149,
+      "order": 160,
+      "a_q": -10,
+      "valuation_5": 1
+    },
+    {
+      "q": 151,
+      "order": 160,
+      "a_q": -8,
+      "valuation_5": 1
+    },
+    {
+      "q": 181,
+      "order": 180,
+      "a_q": 2,
+      "valuation_5": 1
+    },
+    {
+      "q": 223,
+      "order": 240,
+      "a_q": -16,
+      "valuation_5": 1
+    },
+    {
+      "q": 229,
+      "order": 240,
+      "a_q": -10,
+      "valuation_5": 1
+    }
+  ],
+  "scope": "degree-one primes independently checked; absence of higher-degree pairs from exact maximal-order ideal computation"
+}

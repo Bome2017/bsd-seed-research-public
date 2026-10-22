@@ -1,0 +1,17 @@
+host: Intel(R) Core(TM) i9-10910 CPU @ 3.60GHz, 20 threads, 16 GB
+ProductName:		macOS ProductVersion:		26.7 BuildVersion:		25G227 
+Apple clang version 21.0.0 (clang-2100.1.1.101)
+FLINT 3.3.1 (Arb included) at /Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env
+GMP 6.3
+MPFR 4.2.2
+PARI 2.17.4 at /Users/bsm/H41_ANALYTIC_BLIND_RESEARCH_2026-09-12/sources/research_computation/pari-2.17.4
+Reference tools (validation only, never in the trust base):
+  SageMath 10.9 with eclib (exact modular symbols), at the sage-env above
+  PARI/GP 2.17.3 (sage-env gp: periods, lfun L''/2, intnum G2, curve data)
+  Python 3.13.2 (comparators: exact Fraction/Decimal arithmetic on the rigorous printed balls)
+Source identities (sha256; binary hashes change per link because of the Mach-O LC_UUID):
+  verifier/wverify.c 128e7960f8efc0756557f2ee5619c1e80f7e9e0f69b6007f70cac63707abb596
+  src/apwit.c        e6cca7ffed1256b5cde682d48561805fc2111e97a0a4b08d438e593126af9d8b
+  src/fastap.c       7d3f4d515aea25a10add93ef02b36b3e5da7ec409348a166e07d260df0b69526 (byte-identical LP5 copy)
+  src/arbcore.c v3   56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7 (replays, validation, p3plan)
+  arbcore.c v2       8a4bda9d5bab99088010c9cab93a9020d9e34dd7e9bffc1f34337f31dcf6b5fc (certified seed l2 run; logs/src_history/)

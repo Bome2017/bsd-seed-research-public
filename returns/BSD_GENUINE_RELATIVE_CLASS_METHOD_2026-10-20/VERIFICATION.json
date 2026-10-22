@@ -1,0 +1,15 @@
+{
+  "nested_manifest_entries_verified": {
+    "arithmetic": 97,
+    "theory": 13,
+    "review": 52
+  },
+  "parent_replay": "EIGHT_REPLAYS_PASS",
+  "mathematical_grade": "Written deductions and exact arithmetic under retained inputs; not formal certification",
+  "new_complete_bound": false,
+  "endpoints_unchanged": [
+    "FIN",
+    "ORDER9",
+    "Q36"
+  ]
+}

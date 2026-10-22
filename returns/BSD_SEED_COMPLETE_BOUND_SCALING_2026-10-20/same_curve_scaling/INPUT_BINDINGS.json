@@ -1,0 +1,45 @@
+{
+  "input_sources": [
+    {
+      "path": "/Users/bsm/BSD_CLASS_MAP_AND_PARTIAL_RELATIONS_2026-10-20/class_map/PROOF.md",
+      "sha256": "509448309829f3a3fc2ef4ccfeca30a4462de61d65dfb4c59bbe0d01e5174cfd"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_MAP_AND_PARTIAL_RELATIONS_2026-10-20/class_map/REPORT.md",
+      "sha256": "fde3957de4c0f9ee92a34bddc0c37ff350ddadf506e3b9635882b67b0a493980"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_arithmetic/construct.gp",
+      "sha256": "40cf3b96821d9f2c20acf715a166b7d4d6c8312b6f9fb600eb126a21d21feafc"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_arithmetic/divisors.gp",
+      "sha256": "cbbf7b7d95771977ace8ef75e517f50a0013a4defd36dacf50599113aa4756b3"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_arithmetic/class_quotient.gp",
+      "sha256": "4ea26dd026efba9586575480878de85601191ae08156d102f6d92b75f3a9f948"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_norm_upper/evaluate.py",
+      "sha256": "dbafc1dd784334a0ae4c2b23a89c2f35763e96e934f4bece095066100a50c668"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_norm_upper/export.gp",
+      "sha256": "368f8c29933ba22912611aa424b7aaa234335dbca18caee80a802baf688a4ee4"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_norm_upper/split_primes.gp",
+      "sha256": "5fac21060c394bb3c9df10f3088fa2810e89bfc9be8fa1b2f4226767b3874d32"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_norm_upper/unit_authentication/authenticate.gp",
+      "sha256": "6319bd7ef08e607dd1227019c9adfeb04d34190c364a273f4fd9545ca46154a5"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/p5_norm_upper/unit_authentication/replay.gp",
+      "sha256": "e818c009f3fb8d2c75ffe79a39b6b65749f2e20144d981692a70f3863f7d7bb7"
+    }
+  ],
+  "scope": "Prior scripts are templates; no control389 arithmetic is substituted for1664. Prior p3 report supplies the comparison baseline."
+}

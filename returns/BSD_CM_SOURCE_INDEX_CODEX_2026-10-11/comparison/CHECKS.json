@@ -1,0 +1,36 @@
+{
+  "status": "EXACT_ARITHMETIC_CONTROLS_PASS",
+  "scope": "Checks recorded Brandt matrices and arithmetic constants; does not rederive quaternion model, C3, GZ or analytic enclosures.",
+  "matrix_dimensions_mod5": [
+    11,
+    4,
+    1
+  ],
+  "point_counts_traces": {
+    "base": {
+      "2": -1,
+      "5": -3,
+      "13": -7
+    },
+    "raised": {
+      "2": -1,
+      "5": -3,
+      "13": -2
+    }
+  },
+  "base_norm": 144,
+  "doubled_norm": 288,
+  "even_source_indices_zero_based": [
+    0,
+    1
+  ],
+  "source_evaluation": 1,
+  "raw_source_scalar_base": 3,
+  "raw_source_scalar_raised": -2,
+  "normalized_source_multiplier_mod5": 1,
+  "graph_degree_over_component_square_mod5": 2,
+  "retained_classical_degree": 20576640,
+  "derived_shimura_degree": 293952,
+  "conditional_component_square": 1,
+  "conditional_normalized_source_ratio_square": 4
+}

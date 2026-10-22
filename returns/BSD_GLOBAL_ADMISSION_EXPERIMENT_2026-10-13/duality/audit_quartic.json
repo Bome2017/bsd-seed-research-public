@@ -1,0 +1,110 @@
+{
+  "status": "PASS_WITH_SCAN_FILTER_CORRECTION",
+  "tau_has_order4": true,
+  "tau_T_equals_2T": true,
+  "prime_decompositions": {
+    "3": {
+      "number": 1,
+      "ramification_residue": [
+        [
+          2,
+          2
+        ]
+      ],
+      "permutation": [
+        0
+      ],
+      "chi2_valuation_dimension": 0
+    },
+    "5": {
+      "number": 1,
+      "ramification_residue": [
+        [
+          4,
+          1
+        ]
+      ],
+      "permutation": [
+        0
+      ],
+      "chi2_valuation_dimension": 0
+    },
+    "11": {
+      "number": 4,
+      "ramification_residue": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "permutation": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "chi2_valuation_dimension": 1
+    },
+    "61": {
+      "number": 2,
+      "ramification_residue": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "permutation": [
+        1,
+        0
+      ],
+      "chi2_valuation_dimension": 0
+    },
+    "239": {
+      "number": 2,
+      "ramification_residue": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "permutation": [
+        1,
+        0
+      ],
+      "chi2_valuation_dimension": 0
+    }
+  },
+  "chi2_boundary_value_mod5": 1,
+  "point_vectors_span_empty_eigenline": true,
+  "q331": {
+    "point_values": [
+      112,
+      89
+    ],
+    "count": 325,
+    "nontrivial_fifth_character_of_40": 150
+  },
+  "class_group_basis_recomputed": false,
+  "class_group_grade": "retained certified producer computation; linear consequences independently checked",
+  "invalid_fifth_test_scan_primes": []
+}

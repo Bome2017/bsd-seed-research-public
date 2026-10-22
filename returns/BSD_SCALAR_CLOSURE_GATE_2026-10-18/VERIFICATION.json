@@ -1,0 +1,15 @@
+{
+  "status": "INPUT_CUSTODY_AND_INDEPENDENT_SAVED_MATRIX_REPLAY_PASS",
+  "portable_inputs": 6,
+  "nested_manifest_entries": {
+    "arithmetic": 16,
+    "review": 18
+  },
+  "support_primes": 331,
+  "scalar_columns": 120,
+  "rank_mod7": 60,
+  "projected_rank": 20,
+  "projected_nullity": 0,
+  "gate_seconds": 3.417198455,
+  "scope": "Hashes and independent exact saved-matrix replay. No new factorization, source generation, full-source bound or BSD certification."
+}

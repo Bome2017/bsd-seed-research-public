@@ -1,0 +1,10 @@
+{
+  "N": 6503188012738584,
+  "bad_euler_augmentation": "17469664/13105849",
+  "fixed_smoothing_c": 39019128076431505,
+  "fixed_smoothing_d": 78038256152863009,
+  "fixed_smoothing_valid_away_from_its_support": true,
+  "pointwise_lattice_indices_computed": false,
+  "interpolation_factor_controls": "PASS",
+  "sha_bound_proved": false
+}

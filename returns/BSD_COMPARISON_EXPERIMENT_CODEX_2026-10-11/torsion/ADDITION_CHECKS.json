@@ -1,0 +1,42 @@
+[
+  {
+    "map": "map_113_0_0.json",
+    "checks": {
+      "independent_addition_x": true,
+      "independent_addition_y": true,
+      "doubling_x": true,
+      "doubling_y": true
+    },
+    "seconds": 10.390244996058755
+  },
+  {
+    "map": "map_113_1_0.json",
+    "checks": {
+      "independent_addition_x": true,
+      "independent_addition_y": true,
+      "doubling_x": true,
+      "doubling_y": true
+    },
+    "seconds": 10.53634410793893
+  },
+  {
+    "map": "map_167_0_0.json",
+    "checks": {
+      "independent_addition_x": true,
+      "independent_addition_y": true,
+      "doubling_x": true,
+      "doubling_y": true
+    },
+    "seconds": 11.113008513930254
+  },
+  {
+    "map": "map_167_1_0.json",
+    "checks": {
+      "independent_addition_x": true,
+      "independent_addition_y": true,
+      "doubling_x": true,
+      "doubling_y": true
+    },
+    "seconds": 10.964398197014816
+  }
+]

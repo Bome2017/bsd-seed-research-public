@@ -1,0 +1,15 @@
+direct scale p^2*sqrt(Q) = 8.5666e+12   (width of b/p^2 = 2899325908488 = Q: True)
+(1) b=       2: k_b=  -948710  |c|=N|k| = 6.170e+21  = 7.20e+08 x direct
+(1) b=       3: k_b= -2427621  |c|=N|k| = 1.579e+22  = 1.84e+09 x direct
+(1) b=       5: k_b=  2426509  |c|=N|k| = 1.578e+22  = 1.84e+09 x direct
+(1) b=       7: k_b=   913244  |c|=N|k| = 5.939e+21  = 6.93e+08 x direct
+(1) b=      11: k_b=  1824389  |c|=N|k| = 1.186e+22  = 1.38e+09 x direct
+(1) b=    1000: k_b= -1522786  |c|=N|k| = 9.903e+21  = 1.16e+09 x direct
+(1) b=  123456: k_b=   332508  |c|=N|k| = 2.162e+21  = 2.52e+08 x direct
+(1) b= 2243017: k_b=  -205687  |c|=N|k| = 1.338e+21  = 1.56e+08 x direct
+(1) b= 5031047: k_b=   239922  |c|=N|k| = 1.560e+21  = 1.82e+08 x direct
+(1) min over k != 0 of N|k| = N = 6.5032e+15 = 759.1 x direct; k_b is fixed mod p^2 by b
+(2) W_Q route: for every tested b, W_Q(b/p^2) = inf and W_Q(inf) = +-u_b/p^2 -> exactly the pairing R1
+(3) W_p route: scale of x/(Qz) >= Q*sqrt(p) = 1.3731e+14 = 16.03 x direct (width(Q) = 2243 = p)
+(4) W_N route: c = Q|b'| >= Q, scale >= 1.3731e+14 = 16.03 x direct
+conclusion: min over tested orbit moves = direct scale; every alternative is >= 16.03 x

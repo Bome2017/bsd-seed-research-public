@@ -1,0 +1,86 @@
+\section{Sufficient criteria at good primes}\label{sec:goodprimes}
+
+Each result in this section is a \emph{sufficient} criterion at a single prime. A failed criterion proves nothing, and no criterion here holds uniformly in $p$.
+
+\subsection{Cyclotomic criteria}
+\begin{criterion}[\cid{B.1}; written proof applying published theorems]\label{crit:cyclo}
+For every good ordinary prime $p\ge5$: if $C_p=[T^2]L_p(E,T)\not\equiv0\pmod p$, then $\Sha[p^\infty]=0$.
+\end{criterion}
+This is Lemma~\ref{lem:goodord}, stated for all good ordinary primes; for this curve every other hypothesis is automatic. The coefficient $C_p\bmod p$ is a finite weighted sum of the symbols $[b/p^2]^+$, and it is computable with the engine of Appendix~\ref{app:methods}. The Fourier cutoff grows roughly like $p^2\sqrt N$: it was $5.5\cdot10^{10}$ at $p=13$.
+
+\begin{criterion}[\cid{B.2}; written proof applying published theorems]\label{crit:ss}
+Let $p\ge5$ be a good supersingular prime, so $a_p=0$. If the $X^2$-coefficient of the depth-one Mazur--Tate element $\theta_1$ is nonzero modulo $p$, then $\Sha[p^\infty]=0$. That coefficient is a finite weighted sum of the symbols $[a/p^2]^+$.
+\end{criterion}
+The proof combines three published inputs:
+\begin{itemize}[leftmargin=*]
+\item Pollack's congruence $\theta_1\equiv\widetilde\omega_1^{+}L_p^{+}\pmod{\omega_1}$, which has no cyclotomic factor at $n=1$ \cite[Prop.~6.18]{pollack}, \cite[Prop.~1.11]{kimkurihara};
+\item Kobayashi's integral divisibility $(L_p^+)\subseteq\mathrm{char}(X^-)$ \cite{kobayashi};
+\item level-zero control and the absence of finite $\Lambda$-submodules \cite{kitajima}.
+\end{itemize}
+The criterion passed a hostile automated audit with corrections to constants and sign labels, none of which affects the implication. Some primary results were read through the restatements identified in the claim index. For this curve the estimated costs are $270$ and $460$ core-hours at $p=23$ and $29$; neither computation has been run.
+
+\subsection{Anticyclotomic forward bridges}
+Let $K=\Q(\sqrt{-7})$. By Theorem~\ref{thm:d7}, $\rank E(K)=2$ with $(r^+,r^-)=(2,0)$. The primes $3,2243,5843$ are inert in $K$, which puts us in the definite setting of Bertolini--Longo--Venerucci \cite{blv} with $N^-=3\cdot2243\cdot5843$ and $N^+=2^3\cdot4547^2$.
+
+For a good prime $p\ge5$ with $p\nmid7N$, let $Q^{\rm Gr}_1$ be BLV's traced Gross point of conductor $p^2$, and let $\bar\psi$ be the reduction of the (primitive) Jacquet--Langlands transfer of $f$. Put
+\[
+M_i(p)=\sum_{j=0}^{p-1}j^i\,\bar\psi(\gamma^jQ^{\rm Gr}_1)\in\F_p .
+\]
+
+\begin{theorem}[\cid{B.4}; written proof, algebraic core Lean-checked, published theorems applied; conditional]\label{thm:a3}
+Let $p\ge5$ be a good supersingular prime with $p\nmid7N$. Then:
+\begin{enumerate}[label=(\roman*)]
+\item $M_0(p)=M_1(p)=0$.
+\item $\bar b_2=M_2(p)/2$, where $b_2$ is the $T^2$-coefficient of BLV's primitive minus square-root series $F^-$.
+\item If $M_2(p)\neq0$, then $\Sha[p^\infty]=0$.
+\end{enumerate}
+\end{theorem}
+\begin{proof}[Summary; complete argument in Appendix~\ref{app:a3proof}]
+If $\overline{F^-}\neq0$, put $d=\ord_T(\overline{F^-})$. This implies $\mu=0$ and $\lambda=d$. The argument in this case has three steps.
+\begin{enumerate}[label=\arabic*.]
+\item \emph{No finite submodule.} Equality in BLV's Theorem~7.1 at a character of infinite order shows that the dual signed Selmer module $X$ has no finite $\Lambda$-submodule.
+\item \emph{Balanced ranks.} A $\tau$-equivariant freeing-set argument (Poitou--Tate, BLV \S5) gives $\rank_{\Zp}X^+=\rank_{\Zp}X^-=d$.
+\item \emph{Conclusion.} Nonvanishing of $M_2(p)$ gives $d=2$. With $\rank E(\Q)=2$, the surjection $X^+\twoheadrightarrow\Sel(E/\Q)^\vee\twoheadrightarrow\Zp^2$ is then an isomorphism, so $\Sha[p^\infty]^\vee=0$.
+\end{enumerate}
+The same rank count forces $d\ge2$, so the constant and linear coefficients vanish. If $\overline{F^-}=0$, those coefficients vanish directly. The first-layer packet formula then gives $M_0=M_1=0$ and $\bar b_2=M_2/2$.
+\end{proof}
+\begin{remark}[What is checked, and how]\label{rem:a3check}
+\emph{Formalized.} The algebra of steps 1--3 is checked in Lean~4 (v4.32.2, Mathlib at tag v4.32.2): zero errors and zero warnings, using only the axioms \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}. A rebuild made while this release was assembled produced output identical to the recorded build log.
+
+\emph{Hypotheses, not formalized.} Two groups of inputs enter the Lean statement as hypotheses:
+\begin{itemize}[leftmargin=*]
+\item the four arithmetic inputs: control, exact length at one character, the graded free presentation with the base-layer eigenspace equality, and $\rank E(\Q)=2$;
+\item four structural facts about $\Lambda$-modules.
+\end{itemize}
+Two modeling steps (eigenspace exactness in characteristic $\neq2$, and Pontryagin duality) are stated but not formalized.
+
+\emph{What the formalization sharpened.} The control input is used only as a $\tau$-compatible surjection; only the minus part of the presentation equality is used; and the separate $\mu=0$ hypothesis is unnecessary when one assumes finite $d=\ord_T(\overline{F^-})$. Finiteness of the usual Iwasawa $\lambda$ alone does not imply $\mu=0$ (for example, $pT^2$ has $\mu=1$, $\lambda=2$).
+
+\emph{Source checking and imports.} The BLV citations were checked at the source (arXiv v2). BLV's own imports (Fouquet--Wan and others) were not read.
+\end{remark}
+
+\begin{theorem}[\cid{B.3}; written proof, published theorems applied; conditional]\label{thm:ordbridge}
+Let $p\ge5$ be a prime of good ordinary reduction with $p\nmid7N$, and let $c_2(p)$ be the $I^2/I^3$-coefficient of the stabilized Gross-point square-root theta element. If $c_2(p)\in\Zp^\times$, then $\Sha[p^\infty]=0$.
+\end{theorem}
+The records contain two proofs.
+\begin{itemize}[leftmargin=*]
+\item \emph{The frozen route.} The lower bound $\ord_I\mathcal L_p\ge2\max(r^+,r^-)$ \cite[Cor.~3]{bd05} holds unconditionally, by Theorem~\ref{thm:d7}. A unit $c_2(p)$ forces equality, and BLV's equality of characteristic ideals holds in the ordinary case. The derived-height theory of Bertolini--Darmon \cite{bdheights} then gives $\mathrm{Div}\,\Sha(E/K)[p^\infty]=0$ with the exponent bound $v_p\#\Sha(E/K)[p^\infty]\le2c$, where $p^c$ is the exponent of $B=\Sha(E^{-7}/\Q)[p^\infty]$. Because $\Sha(E/K)[p^\infty]\simeq\Sha(E/\Q)[p^\infty]\oplus B$ for odd $p$, and the Cassels--Tate pairing on the finite group $B$ forces $\#B\ge p^{2c}$, the summand $\Sha(E/\Q)[p^\infty]$ vanishes.
+\item \emph{The A3 route.} The argument of Theorem~\ref{thm:a3}, with trivial sign, applies verbatim at ordinary $p$. It uses neither derived heights nor the twist certificate, and its algebraic core is the same Lean development.
+\end{itemize}
+The two routes differ in how much has been checked. The frozen route rests on several steps read only by two external automated audits: the BLV--BD module identification, \cite[Thms.~2.18(5), 2.23, Lemma~3.1]{bdheights}, and the odd-$p$ descent. The records designate it as canonical, and record the second route without substituting it (Appendix~\ref{app:register}).
+
+\begin{corollary}[\cid{B.5}; conditional]\label{cor:unified}
+For every good prime $p\ge5$ with $p\nmid7N$, ordinary or supersingular, $M_2(p)\neq0$ implies $\Sha[p^\infty]=0$. At ordinary $p$, given $M_1=0$, one has $\bar c_2=c_{p-3}/2=-M_2/2$, where $c_i$ are the Lagrange coefficients of $j\mapsto\bar\psi(\gamma^jQ^{\rm Gr}_1)$ on $\F_p$.
+\end{corollary}
+
+\begin{remark}[No prime is gained]\label{rem:m2cost}
+Nonvanishing of $M_2(p)$ is open at every prime. We know of no way to evaluate $M_2(p)$ for this curve. The form $\bar\psi$ lives on the definite Shimura set attached to the quaternion algebra ramified at $\{3,2243,5843,\infty\}$ with Eichler level $N^+=2^3\cdot4547^2$, whose mass is
+\[
+\frac{1}{12}\prod_{q\mid N^-}(q-1)\cdot\psi(N^+)\approx5.4\cdot10^{14} .
+\]
+This mass is a scale estimate for full enumeration, not the exact number of classes or a lower bound for every evaluation algorithm. Full enumeration exceeds the project's resources; no compressed evaluator of the required packet has been supplied. The conditional theorems remain single-prime criteria and could become computationally useful if such an evaluator is found. The currently implemented individual-prime tools are Criteria~\ref{crit:cyclo} and~\ref{crit:ss}.
+\end{remark}
+
+\begin{remark}[Stabilization]\label{rem:invis}
+For $p\ge5$ the norm element $\sum_{i<p}(1+t)^i$ lies in $p\Lambda+I^3$ (\cid{B.15}). So the $\alpha$-stabilization correction in the ordinary theta measure is invisible modulo $(p,I^3)$, which is exactly the quotient detecting the degree-two witness.
+\end{remark}

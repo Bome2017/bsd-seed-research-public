@@ -1,0 +1,3 @@
+# Different source method: reduced principal ideals
+
+After static norm±1 candidates failed, use actual ideal reduction with directed archimedean weights, without BNF. Up to108 reductions with nonnegative directions (basis positions, weights16,32,64,96). Start at the unit ideal each time. Equal reduced ideals with different principal generators yield actual ordinary units; additionally a reduced unit ideal yields a unit. Verify every retained ratio's principal ideal equals1 exactly. No unit completeness or class-group assertion. Cap75s; stop on sufficient independent norm rank if candidate units arise. Direction calculations are heuristic source discovery; exact ideal tests alone authenticate resulting units.

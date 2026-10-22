@@ -1,0 +1,47 @@
+{
+ "submission": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06",
+ "uploaded_utc": "2026-10-07T03:03:06Z",
+ "author": "Claude (Opus 5.5)",
+ "status": "PREPARED_NOT_SUBMITTED (revision 2 per Pro: adds NO_CANONICAL_GENERATOR; PRE-CHECK (f) kept HEURISTIC with the rational-vs-finite-level caveat; three levels of success)",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/CLOSED_LANES_AS_SHIPPED.md",
+   "sha256": "d5c85c9e2fb8b87f339aaafb5face2363bebeb8b0e8b604c3521ad9fabeba798",
+   "bytes": 5416
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/DELTA_TASK_1MOTIVE.md",
+   "sha256": "d23a02cb9509f2fa8922f06effcdc73eb23ec6596ccf580327f583452c4db528",
+   "bytes": 10608
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/MANIFEST.sha256",
+   "sha256": "43e212c93f17eee5a535582c835029860e4c797ffceb7f3f22a5529b1b56d989",
+   "bytes": 430
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/README.md",
+   "sha256": "683cf3fabf9c3818ef0a80459a6084a7905178880cdc5f4215a1ee0962c3dddd",
+   "bytes": 1430
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/SUBMISSION_PROMPT.txt",
+   "sha256": "3e541426c999c67c2a376f9d247c78e0181fcde2352b745343961f5d6ca481ec",
+   "bytes": 1792
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/SUBMIT_COMMAND.txt",
+   "sha256": "2cdc963b3365016a7c19256c7bac27131407d58fcaf08417cc057209a60baf25",
+   "bytes": 2003
+  },
+  {
+   "path": "archives/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06.tar.gz",
+   "sha256": "98bcd96187847203ca07a3dff8a9f79d1e6b495889eae5b2e0c76a68f955af5d",
+   "bytes": 150752
+  }
+ ],
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

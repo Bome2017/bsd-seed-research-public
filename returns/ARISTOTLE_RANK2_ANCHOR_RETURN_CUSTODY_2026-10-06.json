@@ -1,0 +1,61 @@
+{
+ "return": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06",
+ "uploaded_utc": "2026-10-07T01:34:53Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "PRECISE_OBSTRUCTION (none of the tested known constructions supplies a rank-two global anchor; not an impossibility proof)",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/ARISTOTLE_SUMMARY.md",
+   "sha256": "87fb11eb2eb90ebf325e84e22bf97d59f6e972b28d906edf535160747d1618aa",
+   "bytes": 4519
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/CLAUDE_CHECK.md",
+   "sha256": "05367da9bfad6740f757a4105e8f17c8184856438a379d1e332e4bccb6f319e2",
+   "bytes": 2419
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/MANIFEST.sha256",
+   "sha256": "db929ed22086289f446885f2252ae8b34bade5973833b22b9258393fc0b41b7f",
+   "bytes": 518
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/README.md",
+   "sha256": "1a593ca802722493d0e32ebe94d50b3373b50f7adfce5c805408250c2684881b",
+   "bytes": 1878
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/RESULT_RANK2_ANCHOR.md",
+   "sha256": "45a2ea2f9f26a83e628c7a7734ceb69eba29ea8cfd616feaad0f3dc92a7aace8",
+   "bytes": 14886
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/Rank2Anchor/Obstruction.lean",
+   "sha256": "6d88debad85b12b887063f0d88451a294f269c037a25411a2b7703cb5d7ba170",
+   "bytes": 6401
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/lakefile.toml.returned",
+   "sha256": "6d3817d333af2251d53defce10fc050c4a75569960c953eda437913b9406e37d",
+   "bytes": 657
+  },
+  {
+   "path": "archives/260d2438-ccc3-4c96-86be-37bf942b89f0-aristotle.tar.gz",
+   "sha256": "5585848fb200287748eeb85b80b33992018390170336303ff99dcf2505445243",
+   "bytes": 130326
+  },
+  {
+   "path": "archives/9c9db2d8-a942-4b6f-8917-f6f7081ef69c-aristotle.tar.gz",
+   "sha256": "80da2dc04970b0d907ed763db2b60add0d1459c4f8619afa254a6bcac8b47869",
+   "bytes": 121614
+  }
+ ],
+ "inputs": {
+  "aristotle_run": "119f14f9 (actual); c0bac71a (no-op custody run)",
+  "custody_correction": "the archive delta MANIFEST covers only README/TASK; this folder MANIFEST covers all files and supersedes it"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

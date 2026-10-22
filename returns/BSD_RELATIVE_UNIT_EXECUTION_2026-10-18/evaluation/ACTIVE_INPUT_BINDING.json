@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/field.gp",
+    "sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22",
+    "bytes": 314993,
+    "matches_previous_twist_field": true
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/nf.gp",
+    "sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e",
+    "bytes": 2477699,
+    "matches_previous_twist_field": true
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/basis_scalar_matrix.gp",
+    "sha256": "5e6919aa169afb19f8dd5a754fd11fbaca4f30f0c83c12e6ef2084329eb5b214",
+    "bytes": 7237
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/field_point.json",
+    "sha256": "6daac9cc5e48ab98b9d047cc7932ee082d1ffb536c0bf38c1a0e8bc61e213e0e",
+    "bytes": 116823
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/split_primes.json",
+    "sha256": "b1a679c3c092692023cdbd8067c8512e1885d2585b30b43f2c2fa1c61f9ff92f",
+    "bytes": 934
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/local_branch.json",
+    "sha256": "7335abaf7e6e2cd8e2093a831680ec21d2ac609bc151e0a901f87644c433789b",
+    "bytes": 31
+  }
+]

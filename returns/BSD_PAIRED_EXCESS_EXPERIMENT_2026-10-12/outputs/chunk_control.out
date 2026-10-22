@@ -1,0 +1,5 @@
+CONTROL [13, 1]
+CONTROL [29, 1]
+CONTROL [-7, 1]
+CONTROL [43737, 1, O(5^5) + O(5^3)*x + (4*5^2 + O(5^3))*x^2 + O(5^2)*x^3 + O(5)*x^4 + O(x^5)]
+DONE

@@ -1,0 +1,49 @@
+P1 = [20341:1355400:1]	  is generator number 1
+P2 = [844757892:38806079435:46656]	  is generator number 2
+saturating basis (reg=71.18606989)...Saturation index bound (for points of good reduction)  = 2
+Tamagawa index primes are [ 2 ]
+Saturation primes are now[ 2 ]
+Checking saturation at [ 2 ]
+Checking 2-saturation 
+possible kernel vector = [0,1,0]
+This point may be in 2E(Q): [844757892:38806079435:46656]
+...and it is! 
+Replacing old generator #2 with new generator [-5030:-2906928:1]
+The index bound 2 has not changed
+Points have successfully been 2-saturated (max q used = 31)
+Index gain = 2^1
+done
+Gained index 2
+New regulator =  17.79651747
+E' = (0, 45470, 0, 91790289, 0)  (-2a, a^2-4b) = ( 45470 , 91790289 ) = (10A, 3^2 * 2243 * 4547 )
+Sage Velu codomain: (0, -22735, 0, -425089936, 9664419694960)  isomorphic to E'? True
+psi(P1) = (5184 : 1355400 : 1)   psi(P2) = (3822025/1296 : 38806079435/46656 : 1)
+psihat(psi(P1)) == 2*P1: True   psihat(psi(P2)) == 2*P2: True
+psi(P1+P2) == psi(P1)+psi(P2): True
+Delta' = 229220930730474357815337984 = 2^10 * 3^4 * 2243^2 * 4547^3 * 5843  sign: 1  real_components: 2
+c4' = 28674400528 = 2^4 * 29 * 4547 * 13591
+is_global_minimal_model: True  minimal_model: (0, -1, 0, -597383344, 5572681004764)  iso: Elliptic-curve morphism:
+  From: Elliptic Curve defined by y^2 = x^3 + 45470*x^2 + 91790289*x over Rational Field
+  To:   Elliptic Curve defined by y^2 = x^3 - x^2 - 597383344*x + 5572681004764 over Rational Field
+  Via:  (u,r,s,t) = (1, -15157, 0, 0)
+conductor: 2^3 * 3 * 2243 * 4547^2 * 5843  same as E: True
+p=2 generic-Tate: III* f=3 c=2 v(D)=10 split=False nonsplit=False | pari: III* c=2
+p=3 generic-Tate: I4 f=1 c=2 v(D)=4 split=False nonsplit=True | pari: I4 c=2
+p=2243 generic-Tate: I2 f=1 c=2 v(D)=2 split=True nonsplit=False | pari: I2 c=2
+p=4547 generic-Tate: III f=2 c=2 v(D)=3 split=False nonsplit=False | pari: III c=2
+p=5843 generic-Tate: I1 f=1 c=1 v(D)=1 split=False nonsplit=True | pari: I1 c=1
+tamagawa_product': 16  root_number': 1
+torsion': (2,)  gens: ((0 : 0 : 1),)  lutz_nagell: (2,)  two_torsion_rank: 1
+#E'(F_p) p=5,7,11: [8, 10, 14]
+Tp in psi(E(Q))? Tp is 2-divisible? division_points(2): []
+eclib saturate(psi P1, psi P2) on minimal E': (ok,index,unsat) = (True, 2, '[ ]')
+saturated basis on E' model: [(5184 : 1355400 : 1), (-20187 : -2906928 : 1)]
+Reg(psi P1, psi P2) = 71.186069889961361196699764877744153665219889855112754129065   4*Reg(E) = 71.186069889961361196699764877744153665219889855112754129065
+Reg(saturated) = 17.796517472490340299174941219436038416304972463778188532266
+E'.gens(proof=True) = [(-2243 : -107664 : 1), (5184 : -1355400 : 1)]  certain: True  Reg: 17.796517472490340299174941219436038416304972463778188532266
+   (5184 : 1355400 : 1) : g = combo [(1, 0, 0)] ; 2g = combo [(2, 0, 0)]
+   (-20187 : -2906928 : 1) : g = combo [] ; 2g = combo [(0, 1, 0)]
+   (-2243 : -107664 : 1) : g = combo [] ; 2g = combo [(2, 1, 0)]
+   (5184 : -1355400 : 1) : g = combo [(-1, 0, 0)] ; 2g = combo [(-2, 0, 0)]
+Omega' (PARI 2*omega[1], 53 bits): 0.0560898030388728   Omega (E): 0.0560898030388728
+CPS bound E' (minimal): 10.818841593801887  Silverman: 17.991421737142034

@@ -1,0 +1,18 @@
+{
+  "grade": "EXACT_ARITHMETIC_FROM_RETAINED_INPUTS",
+  "q_open_interval": [
+    "3599427/100000",
+    "3600573/100000"
+  ],
+  "bsd_q_per_sha_order": "4",
+  "conditional_sha_order_open_interval": [
+    "3599427/400000",
+    "3600573/400000"
+  ],
+  "integers_in_interval": [
+    9
+  ],
+  "retained_second_derivative_interval_excludes_zero": true,
+  "new_seed_certificate": false,
+  "large_certificate_replay_performed": false
+}

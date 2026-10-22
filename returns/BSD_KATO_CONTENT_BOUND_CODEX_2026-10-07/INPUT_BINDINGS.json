@@ -1,0 +1,57 @@
+[
+  {
+    "source": "/Users/bsm/Downloads/REVIEW.md",
+    "copy": "context/SUBMITTED_REVIEW.md",
+    "sha256": "b7c89f09549e6bc0137e719f8e20d75a02a462122d509b5ed939086c76fc83d8"
+  },
+  {
+    "source": "/Users/bsm/.codex/attachments/4fcd7834-01ab-4a1f-a45b-cfa831015b41/Pasted text.txt",
+    "copy": "context/USER_REVIEW.txt",
+    "sha256": "6e1e85726be0543f8e8f6a6b8c90fdde4fae7748ae7dd39e3bdb784113d1885e"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+    "copy": "context/WEAK_ORDER_PROOF.md",
+    "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+    "copy": "context/FOUNDATION_CHECK.md",
+    "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/PROOF.md",
+    "copy": "context/MW_PLACEMENT.md",
+    "sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/INTEGRAL_MATCHING.md",
+    "copy": "context/INTEGRAL_MATCHING.md",
+    "sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/ALGEBRA_REVIEW.md",
+    "copy": "context/ALGEBRA_REVIEW.md",
+    "sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COMPARISON_REVIEW.md",
+    "copy": "context/RUBIN_COMPARISON.md",
+    "sha256": "888c6e35d10c28bde93011eb026f8f277d3d9a02e63a54ac1f9c6386d1b75166"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COFINITE_NORMALIZATION.md",
+    "copy": "context/COFINITE_NORMALIZATION.md",
+    "sha256": "71ef880907350d939a36196461ace4b0ff757d608d7d1d5f4453112e03bf4826"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/SEED_CALIBRATION.md",
+    "copy": "context/SEED_CALIBRATION.md",
+    "sha256": "01fafd9d3f88a2e7f3dfbb8cd638bd31ff46b99faadb54a5569ab498110685bf"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/archives/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07.zip",
+    "copy": "context/RUBIN_PREDECESSOR.zip",
+    "sha256": "376b040dd57cb43118f7abcb6d5b4e86b9a0710f994b8b83633f973f52b90570"
+  }
+]

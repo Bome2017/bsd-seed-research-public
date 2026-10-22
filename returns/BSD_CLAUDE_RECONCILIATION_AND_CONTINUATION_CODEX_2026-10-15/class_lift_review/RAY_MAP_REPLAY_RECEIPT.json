@@ -1,0 +1,33 @@
+{
+  "status": "INDEPENDENT_RAY_MAP_REVIEW_PASS",
+  "seconds": 0.14438197598792613,
+  "two_runs_byte_identical": true,
+  "input_bindings": [
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/ray/clean_replay/certificate.gp",
+      "sha256": "086d80dbfd2bad316b78868c2934cfd66c2a5a6dc045654644dae0647c54259f"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/ray/clean_replay/quotient_certificate.gp",
+      "sha256": "a58cc2b5c22d2aef7f6cb4e3fcd42fec8aa263a21c4b0af433204afdb91d1515"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/ray/clean_replay/ray.bin",
+      "sha256": "c3b8c23d293314343f7e063f8f35927a54ab3b3d2050cf07e273a77d2e758d8e"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/ray/clean_replay/ray_coordinates.gp",
+      "sha256": "01687743e069c91ece4d7e8f71b56182a9cffb2969b5ee96640bbeb8fa59cf2a"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/search/1613a1_grh/certify_saved.gp",
+      "sha256": "7a89a00ebaf325b43e842b66711764408d2e1049f4f48287f699bc09328aa913"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/search/1613a1_grh/certify_saved.out",
+      "sha256": "7564f213269ba9265be47a7e8b9baad54139f1a3d6ea416e44d856a8150e760c"
+    }
+  ],
+  "script_sha256": "fe7dc0a2898e60589cee44764ffb2e5d034af61f1e11062aea84aeea3d7e3ce5",
+  "complete_bnf_certification_rerun": false
+}

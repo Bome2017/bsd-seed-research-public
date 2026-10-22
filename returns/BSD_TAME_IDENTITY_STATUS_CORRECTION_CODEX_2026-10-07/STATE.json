@@ -1,0 +1,15 @@
+{
+  "phase": "complete",
+  "task": "identity and endpoint status correction",
+  "status": "RECORD_REFINEMENT_CORRECTED_NO_NEW_ARITHMETIC_RESULT",
+  "source_bindings": 8,
+  "stored_rows": 338,
+  "defined_rows": 275,
+  "clean_depth_rows": 104,
+  "producer_replay": "NOT_PERFORMED",
+  "exit1_formula_audit": "NOT_PERFORMED",
+  "live_job_execution": "NOT_VERIFIED",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

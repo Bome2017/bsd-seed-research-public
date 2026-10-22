@@ -1,0 +1,15 @@
+PASS: new patch and navigation bindings
+PASS: claim index, evidence provenance and retained verifier unchanged
+PASS: three patched source files match checked candidate
+PASS: historical review redirect preserves old bytes and all other bindings
+PASS: AUDIT_FILES.sha256 has unique paths
+PASS: review/pro6_v020/AUDIT_FILES.sha256: all 39 hashes agree
+PASS: BSD_v020_FRESH_AUDIT: imported report members unchanged
+PASS: seed_bsd_v0.2.0_second_pass_review: imported report members unchanged
+PASS: exact Arb dump bound to retained certificate
+PASS: displayed enclosure rounds outward including midpoint error
+PASS: displayed enclosure lies inside unchanged theorem interval
+PASS: both printed radii corrected
+PASS: distinct ARS references and CNS theorem label retained correctly
+PASS: coverage supplement: 681 manifest entries, integrity only
+PATCH_RECHECK_PASS: no new mathematical or large numerical replay claimed

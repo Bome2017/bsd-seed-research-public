@@ -1,0 +1,27 @@
+{
+  "retained": [
+    "rank-two rational basis and saturation",
+    "odd residual surjectivity",
+    "G2 and W with named domains and normalizations",
+    "Ota implication on retained domain",
+    "torsion order 2 and Tamagawa product 16"
+  ],
+  "published_imports": [
+    "Kato 12.4,12.5(3),12.6 with transported elliptic realization",
+    "global Euler characteristic",
+    "cyclotomic derived control; cohomological dimension two",
+    "compact Kummer sequence and cofinite generation"
+  ],
+  "not_assumed_for_weak_order": [
+    "Sha finiteness",
+    "Iwasawa main conjecture equality",
+    "ordinarity",
+    "BKS analytic or algebraic comparison",
+    "regulator nonvanishing"
+  ],
+  "unproved_for_tame_endpoint": [
+    "fixed nonzero rational arithmetic scalar",
+    "finiteness-free comparison T1 (or sufficient unit-valued version)",
+    "rationality if scalar chosen as q_E"
+  ]
+}

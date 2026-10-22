@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "segments": 3420,
+  "bytes": 9673187648,
+  "elapsed_seconds": 11.928769190097228,
+  "workers": 2,
+  "prefix_root": "53de8838b356300dbb7aed6cfc57cab3498c82bd585954fd244095e338f997da",
+  "full_receipt_root_6445": "92cd0222d32e722087897738839a560b24af45a9a44221c6271502e0ed7de60f",
+  "coefficient_hashes_matched": 3420,
+  "coefficients_recomputed": false,
+  "source_mutation_detected": false
+}

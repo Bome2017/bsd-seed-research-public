@@ -1,0 +1,46 @@
+{
+ "frozen_utc": "2026-09-26T14:26:26Z",
+ "files": {
+  "LAUNCH_COMMAND.txt": "b100a9805c8d31e3ae935779dd64517dd150dc1611eadd0041fe908acc65cd02",
+  "PREREGISTRATION.md": "11d7a4ec4e10c4cafc690deb5f881ad73cf7647a52d3c768eaaebf51f1b08930",
+  "checker/CONTROLS.json": "0eb13c03aa95035348b3b700a882d501dc562763f318c83ea63999408fac5cff",
+  "checker/run_singleton.sh": "1ae4f5f65e24697a18d2fa53e6ae630fc325c8cf967e7fbdc93d1867af95eca0",
+  "checker/singleton_check.py": "cdbb8f3201ca26ec6add611a8ec983e971857836cd291a1db744a41623062bf6",
+  "checker/test_singleton_check.py": "9e6f35df49e071239cb30c06e785c5e2a6bbf5dada45e8944b72b5210941b946",
+  "corpus/CORPUS_CHECK.json": "b68391f9e7b9a53e12d32d8b96b54debe2acdc5d169a28e258b9e96b42698915",
+  "spec/SINGLETON_ROUTE_NOTE.md": "b01c486557b5e602462db27919387d2282eb0a72d71dd8e87b964a73e79924e0",
+  "spec/SINGLETON_SPEC.md": "a734be63d72dadabf356f701ca654c01040e1c2c8da8aed022997497666e9921",
+  "regression/compare_asserting.sage": "37ca9eb6107b7257ba087fd210591e8c6c40744b68e395c97e2a23632b22cf0f",
+  "regression/compare_asserting.txt": "7e5f854925a0d213f348cb02c437288d73a31b9b00f8acb84e9dd2ad70251ce3",
+  "regression/compare_asserting_tamper.txt": "aafdf86075c49219974b36aad34a0efeba16fafdd8c2769b3bdad148eb4b47b1",
+  "engine/arbcore.c": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7"
+ },
+ "originals": {
+  "checker/run_singleton.sh": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/run_singleton.sh",
+  "checker/singleton_check.py": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/singleton_check.py",
+  "checker/test_singleton_check.py": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/test_singleton_check.py",
+  "checker/CONTROLS.json": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/CONTROLS.json",
+  "spec/SINGLETON_SPEC.md": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC.md",
+  "corpus/CORPUS_CHECK.json": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/corpus/CORPUS_CHECK.json",
+  "engine/arbcore.c": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore.c"
+ },
+ "engine_binary": {
+  "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+  "sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db"
+ },
+ "engine_source_sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+ "controls": {
+  "all_ok": true,
+  "cases": 20
+ },
+ "pinned_receipt_roots": {
+  "l103_segments_1980": "5509573097647fcb6e7f92439bc707a0a894d2b0cc18f282974fb95eb4695a17",
+  "l137_segments_2649": "556394c7107ecb9a2c2aaeaaca4f47a67e1fe6d5c7b8183088aab1ad15bdb29a"
+ },
+ "launch_command": "SINGLETON_AUTHORIZED=yes caffeinate -i /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/checker/run_singleton.sh \"0 -22735 0 106272484 0\" 6503188012738584 17 103 33218887679 /Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/ap \"/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/logs/ver_*.log\" /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103 8 5509573097647fcb6e7f92439bc707a0a894d2b0cc18f282974fb95eb4695a17",
+ "outcomes": [
+  "NONZERO",
+  "INCONCLUSIVE_ZERO",
+  "INVALID"
+ ]
+}

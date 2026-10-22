@@ -1,0 +1,81 @@
+{
+  "packet": "BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22",
+  "date": "2026-09-22",
+  "scope": "good-ordinary definite anticyclotomic bridge ONLY",
+  "conditional_input": "[c_2] != 0 (NOT proved; do not attempt)",
+  "certified_inputs": [
+    "L(E^-7,1) in [9.054319,9.054421]",
+    "rank E^-7(Q) = 0",
+    "Sha(E^-7/Q) finite",
+    "(r+,r-) = (2,0)"
+  ],
+  "source_checked": [
+    "BD Annals 2005 Cor 3 (definite, good ordinary): ord_I L_p >= 2 max(r+,r-)",
+    "BLV arXiv:2306.17784 Hyp 1.1 + Thm A; ordinary => non-exceptional => EQUALITY"
+  ],
+  "NOT_source_read": [
+    "BD Derived p-adic heights Thms 2.7, 2.18, 2.23, Rmk 2.21"
+  ],
+  "open": [
+    "module identification BLV Char_p vs BD X_inf",
+    "tau-eigenspace bridge for pro-p Selmer and T_p Sha",
+    "A2a divisible Sha",
+    "A2b leading term"
+  ],
+  "out_of_scope": [
+    "supersingular / A3",
+    "anomalous primes / B",
+    "proving [c_2] != 0",
+    "redoing the D=-7 certificate",
+    "BSD, FIN, FORMULA"
+  ],
+  "verdicts": [
+    "ORDINARY_BRIDGE_PROVED",
+    "MODULE_IDENTIFICATION_FAILS",
+    "DERIVED_ORDER_INEQUALITY_FAILS",
+    "TWIST_EIGENSPACE_BRIDGE_FAILS",
+    "LEADING_TERM_STEP_FAILS",
+    "FIRST_MISSING_THEOREM: <statement>"
+  ],
+  "files": [
+    "00_READ_ME_FIRST.md",
+    "GATE.md",
+    "INPUTS.md",
+    "RESUME.md",
+    "TASK.md",
+    "evidence/BRANCH_THETA.md",
+    "evidence/D7_CERTIFICATE_RESULT.md",
+    "evidence/STAGE5_A0_RESOLVED.md",
+    "evidence/STAGE6_A2_SPLIT.md",
+    "evidence/STAGE7_A2A_ROUTE_LIVE.md",
+    "evidence/STAGE8_D7_CERTIFIED.md"
+  ],
+  "graded": "2026-09-22",
+  "returned": {
+    "runA_sha256": "922acd766e3d7016a9e16c9483f9d1717cf5bfdea11f73504b6bf6c9c3013cfc",
+    "runB_sha256": "ba4ea713a9f69a27cc8e13ec3492adbedacb2e6a75b90fa93109208f84518479",
+    "both_verdicts": "LEADING_TERM_STEP_FAILS",
+    "converged": true,
+    "both_caught": "BD Lemma 3.1 sits in a chapter assuming Sha finite; both re-derived it without that assumption",
+    "tasks_1_to_6": "SURVIVE",
+    "task_7": "FAILS"
+  },
+  "result": {
+    "ORDINARY_A2a_SHA_FINITENESS": "PROVED_CONDITIONAL_ON_C2",
+    "ORDINARY_VANISHING_OFF_TWIST_SHA": "PROVED_CONDITIONAL_ON_C2",
+    "ORDINARY_EVERY_P_VANISHING": "FALSE where p | #Sha(E^-7/Q) - a fact, not a gap",
+    "needed": "v_p(R_der) >= 0; A_2 = 0 is SUFFICIENT not equivalent (both runs said 'equivalently' - shared error)",
+    "new_target": "prime divisors of #Sha(E^-7/Q) - finite, fixed-curve"
+  },
+  "corrections_applied": {
+    "torsion_factor_vacuous": "#E^-7(Q)_tors = 2 exactly, so run A's extra factor is empty for all p >= 5; run A and run B bounds have the SAME support {p : p | #Sha(E^-7/Q)}",
+    "cofinite_is_narrower": "admissible still excludes supersingular (proved infinite) and anomalous (conj. infinite); this is NOT finite support, not even restricted to ordinary primes",
+    "falsity_point_is_run_Bs_own": "run B states it verbatim, not our inference"
+  },
+  "next": {
+    "blocked_on_host": "prod c_v needs Tate's algorithm at 2,3,7,2243,4547,5843; no PARI/Sage here",
+    "computable_here": "Omega, and L and #tors already in hand",
+    "proof_route": "p-part of BSD at analytic rank 0 = Kato + Skinner-Urban, ordinary Eisenstein case = Keller's area",
+    "open_thread": "[private-correspondence context omitted]"
+  }
+}

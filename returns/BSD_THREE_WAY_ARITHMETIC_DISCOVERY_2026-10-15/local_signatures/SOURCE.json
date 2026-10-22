@@ -1,0 +1,107 @@
+[
+  {
+    "case": "1913b1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/data.gp",
+    "copy": "1913b1/data.gp",
+    "sha256": "bdbac56d60e62907a577cee78d3e0a6c563f20bf41b3aab68bce8c9e39e6addf",
+    "bytes": 1048721
+  },
+  {
+    "case": "1913b1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/bnf.bin",
+    "copy": "1913b1/bnf.bin",
+    "sha256": "0bf32ae4691c9c180c2eaa0ebf0fe6189a6cd678b47c6c00b2f7a4394fea54a8",
+    "bytes": 258193
+  },
+  {
+    "case": "1913b1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/affine_norm_certificate.gp",
+    "copy": "1913b1/affine_norm_certificate.gp",
+    "sha256": "8dd0ad416cfa2338b5708450c1a33c9ee003d0eb773531baf3443f63a26bdc59",
+    "bytes": 2998
+  },
+  {
+    "case": "28042a1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/data.gp",
+    "copy": "28042a1/data.gp",
+    "sha256": "10b235912cd202edc392b4b39edd42741d069f46b90069054b8a025388ab6830",
+    "bytes": 1184577
+  },
+  {
+    "case": "28042a1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/bnf.bin",
+    "copy": "28042a1/bnf.bin",
+    "sha256": "6430e6844106ffa94cd7c9c5d9fb26152cd3892a0f271720b9d9e5e3b27b8c6c",
+    "bytes": 484849
+  },
+  {
+    "case": "28042a1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/affine_norm_certificate.gp",
+    "copy": "28042a1/affine_norm_certificate.gp",
+    "sha256": "20cd133bf57a2f71028769c9291472b4df59a45aa2f278c838a1b46432cd8efe",
+    "bytes": 6793
+  },
+  {
+    "case": "seed3",
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/stage1_data.gp",
+    "copy": "seed3/data.gp",
+    "sha256": "cdd9f7e8cba2273bf43c7fde509cb35402ac905fdb6634c9c857531d0c2e26a3",
+    "bytes": 139135
+  },
+  {
+    "case": "seed3",
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/inputs/previous/seed3/nf_only.gp",
+    "copy": "seed3/nf.gp",
+    "sha256": "0da92519de70b5b714a6147160e6a80e20acfcf8a22d148d26cea212d0085c4f",
+    "bytes": 12051
+  },
+  {
+    "case": "seed3",
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/inputs/previous/seed3/actual_representatives.gp",
+    "copy": "seed3/actual_representatives.gp",
+    "sha256": "038a2f243e59fc6dffb4049eab2b5b3f937cafb44b949f4c36c98bef122b5b66",
+    "bytes": 5229
+  },
+  {
+    "case": "seed3",
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/MATRICES.json",
+    "copy": "seed3/cached_matrices.json",
+    "sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+    "bytes": 95141
+  },
+  {
+    "case": "389a1",
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/data.gp",
+    "copy": "389a1/data.gp",
+    "sha256": "5e0bca36fcb33d1038150080cc13ffef0002a7b456a79453e601b4ce5570bd2a",
+    "bytes": 197256
+  },
+  {
+    "case": "389a1",
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/nf.gp",
+    "copy": "389a1/nf.gp",
+    "sha256": "c3b79049db0fe7e5afed845951291d2f1353c215c89b0ae04c10c95eccdb4117",
+    "bytes": 23986
+  },
+  {
+    "case": "mirror389_false",
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/data.gp",
+    "copy": "mirror389_false/data.gp",
+    "sha256": "f7de104f3895edf5d2048c7748e2e396b7c2b1f51d96c7eeee5babc8bdeb54cf",
+    "bytes": 1079483
+  },
+  {
+    "case": "mirror389_false",
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/bnf.bin",
+    "copy": "mirror389_false/bnf.bin",
+    "sha256": "948bda03fd1bd63beea60a1eee1ae6a7f708770f6531352de0b448a28da97022",
+    "bytes": 125425
+  },
+  {
+    "case": "mirror389_false",
+    "source": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/coupling.json",
+    "copy": "mirror389_false/prior_coupling.json",
+    "sha256": "4dc6fb9660998b005c94ead56dd2a33745933c16c23ecd858e32c7852cc3cf41",
+    "bytes": 7879
+  }
+]

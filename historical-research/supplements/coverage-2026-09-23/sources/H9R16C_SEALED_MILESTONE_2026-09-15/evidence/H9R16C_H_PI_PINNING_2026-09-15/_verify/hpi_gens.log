@@ -1,0 +1,325 @@
+=== N_g=1 p=5 r=1:  M=5 -> pM=25   (mod 1000003)
+    dim MS(M)=3  dim MS(pM)=51
+    rank(varpi_1^*) = 3 / 3   INJ
+    rank(varpi_2^*) = 3 / 3   INJ
+    rank(varpi_{1,*}) = 3 / 3  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_5 (p)_pM = U'_5 (p)_M o push1                   PASS
+    (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M                  FAIL
+    (E2) U'_5 (p)_pM o pull2 = pull2 o U'_5 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_3 (l coprime)_pM = T'_3 (l coprime)_M o push1   PASS
+    (E1) T'_3 (l coprime)_pM o pull1 = pull1 o T'_3 (l coprime)_M  PASS
+    (E2) T'_3 (l coprime)_pM o pull2 = pull2 o T'_3 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_5 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_5 (UNPRIMED, control)_M PASS
+    (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 20 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M
+   !! FAILED: (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M
+=== N_g=1 p=5 r=1:  M=5 -> pM=25   (mod 999983)
+    dim MS(M)=3  dim MS(pM)=51
+    rank(varpi_1^*) = 3 / 3   INJ
+    rank(varpi_2^*) = 3 / 3   INJ
+    rank(varpi_{1,*}) = 3 / 3  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_5 (p)_pM = U'_5 (p)_M o push1                   PASS
+    (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M                  FAIL
+    (E2) U'_5 (p)_pM o pull2 = pull2 o U'_5 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_3 (l coprime)_pM = T'_3 (l coprime)_M o push1   PASS
+    (E1) T'_3 (l coprime)_pM o pull1 = pull1 o T'_3 (l coprime)_M  PASS
+    (E2) T'_3 (l coprime)_pM o pull2 = pull2 o T'_3 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_5 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_5 (UNPRIMED, control)_M PASS
+    (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 20 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M
+   !! FAILED: (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M
+=== N_g=5 p=3 r=1:  M=15 -> pM=45   (mod 1000003)
+    dim MS(M)=17  dim MS(pM)=145
+    rank(varpi_1^*) = 17 / 17   INJ
+    rank(varpi_2^*) = 17 / 17   INJ
+    rank(varpi_{1,*}) = 17 / 17  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_5 (l|N_g)_pM = U'_5 (l|N_g)_M o push1           PASS
+    (E1) U'_5 (l|N_g)_pM o pull1 = pull1 o U'_5 (l|N_g)_M          PASS
+    (E2) U'_5 (l|N_g)_pM o pull2 = pull2 o U'_5 (l|N_g)_M          PASS
+    (G) push1 o U'_3 (p)_pM = U'_3 (p)_M o push1                   PASS
+    (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M                  FAIL
+    (E2) U'_3 (p)_pM o pull2 = pull2 o U'_3 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_3 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_3 (UNPRIMED, control)_M PASS
+    (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 24 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M
+   !! FAILED: (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M
+=== N_g=5 p=3 r=1:  M=15 -> pM=45   (mod 999983)
+    dim MS(M)=17  dim MS(pM)=145
+    rank(varpi_1^*) = 17 / 17   INJ
+    rank(varpi_2^*) = 17 / 17   INJ
+    rank(varpi_{1,*}) = 17 / 17  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_5 (l|N_g)_pM = U'_5 (l|N_g)_M o push1           PASS
+    (E1) U'_5 (l|N_g)_pM o pull1 = pull1 o U'_5 (l|N_g)_M          PASS
+    (E2) U'_5 (l|N_g)_pM o pull2 = pull2 o U'_5 (l|N_g)_M          PASS
+    (G) push1 o U'_3 (p)_pM = U'_3 (p)_M o push1                   PASS
+    (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M                  FAIL
+    (E2) U'_3 (p)_pM o pull2 = pull2 o U'_3 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_3 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_3 (UNPRIMED, control)_M PASS
+    (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 24 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M
+   !! FAILED: (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M
+=== N_g=2 p=3 r=2:  M=18 -> pM=54   (mod 1000003)
+    dim MS(M)=19  dim MS(pM)=163
+    rank(varpi_1^*) = 19 / 19   INJ
+    rank(varpi_2^*) = 19 / 19   INJ
+    rank(varpi_{1,*}) = 19 / 19  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_2 (l|N_g)_pM = U'_2 (l|N_g)_M o push1           PASS
+    (E1) U'_2 (l|N_g)_pM o pull1 = pull1 o U'_2 (l|N_g)_M          PASS
+    (E2) U'_2 (l|N_g)_pM o pull2 = pull2 o U'_2 (l|N_g)_M          PASS
+    (G) push1 o U'_3 (p)_pM = U'_3 (p)_M o push1                   PASS
+    (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M                  FAIL
+    (E2) U'_3 (p)_pM o pull2 = pull2 o U'_3 (p)_M                  PASS
+    (G) push1 o T'_5 (l coprime)_pM = T'_5 (l coprime)_M o push1   PASS
+    (E1) T'_5 (l coprime)_pM o pull1 = pull1 o T'_5 (l coprime)_M  PASS
+    (E2) T'_5 (l coprime)_pM o pull2 = pull2 o T'_5 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_3 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_3 (UNPRIMED, control)_M PASS
+    (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_5 = <5>T'_5 (UNPRIMED, control)_pM = T_5 = <5>T'_5 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_5 = <5>T'_5 (UNPRIMED, control)_pM o pull1 = pull1 o T_5 = <5>T'_5 (UNPRIMED, control)_M PASS
+    (E2) T_5 = <5>T'_5 (UNPRIMED, control)_pM o pull2 = pull2 o T_5 = <5>T'_5 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 18 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M
+   !! FAILED: (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M
+=== N_g=2 p=3 r=2:  M=18 -> pM=54   (mod 999983)
+    dim MS(M)=19  dim MS(pM)=163
+    rank(varpi_1^*) = 19 / 19   INJ
+    rank(varpi_2^*) = 19 / 19   INJ
+    rank(varpi_{1,*}) = 19 / 19  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_2 (l|N_g)_pM = U'_2 (l|N_g)_M o push1           PASS
+    (E1) U'_2 (l|N_g)_pM o pull1 = pull1 o U'_2 (l|N_g)_M          PASS
+    (E2) U'_2 (l|N_g)_pM o pull2 = pull2 o U'_2 (l|N_g)_M          PASS
+    (G) push1 o U'_3 (p)_pM = U'_3 (p)_M o push1                   PASS
+    (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M                  FAIL
+    (E2) U'_3 (p)_pM o pull2 = pull2 o U'_3 (p)_M                  PASS
+    (G) push1 o T'_5 (l coprime)_pM = T'_5 (l coprime)_M o push1   PASS
+    (E1) T'_5 (l coprime)_pM o pull1 = pull1 o T'_5 (l coprime)_M  PASS
+    (E2) T'_5 (l coprime)_pM o pull2 = pull2 o T'_5 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_3 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_3 (UNPRIMED, control)_M PASS
+    (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_5 = <5>T'_5 (UNPRIMED, control)_pM = T_5 = <5>T'_5 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_5 = <5>T'_5 (UNPRIMED, control)_pM o pull1 = pull1 o T_5 = <5>T'_5 (UNPRIMED, control)_M PASS
+    (E2) T_5 = <5>T'_5 (UNPRIMED, control)_pM o pull2 = pull2 o T_5 = <5>T'_5 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 18 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M
+   !! FAILED: (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M
+=== N_g=7 p=3 r=1:  M=21 -> pM=63   (mod 1000003)
+    dim MS(M)=33  dim MS(pM)=289
+    rank(varpi_1^*) = 33 / 33   INJ
+    rank(varpi_2^*) = 33 / 33   INJ
+    rank(varpi_{1,*}) = 33 / 33  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_7 (l|N_g)_pM = U'_7 (l|N_g)_M o push1           PASS
+    (E1) U'_7 (l|N_g)_pM o pull1 = pull1 o U'_7 (l|N_g)_M          PASS
+    (E2) U'_7 (l|N_g)_pM o pull2 = pull2 o U'_7 (l|N_g)_M          PASS
+    (G) push1 o U'_3 (p)_pM = U'_3 (p)_M o push1                   PASS
+    (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M                  FAIL
+    (E2) U'_3 (p)_pM o pull2 = pull2 o U'_3 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_5 (l coprime)_pM = T'_5 (l coprime)_M o push1   PASS
+    (E1) T'_5 (l coprime)_pM o pull1 = pull1 o T'_5 (l coprime)_M  PASS
+    (E2) T'_5 (l coprime)_pM o pull2 = pull2 o T'_5 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_3 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_3 (UNPRIMED, control)_M PASS
+    (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 36 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M
+   !! FAILED: (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M
+=== N_g=7 p=3 r=1:  M=21 -> pM=63   (mod 999983)
+    dim MS(M)=33  dim MS(pM)=289
+    rank(varpi_1^*) = 33 / 33   INJ
+    rank(varpi_2^*) = 33 / 33   INJ
+    rank(varpi_{1,*}) = 33 / 33  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_7 (l|N_g)_pM = U'_7 (l|N_g)_M o push1           PASS
+    (E1) U'_7 (l|N_g)_pM o pull1 = pull1 o U'_7 (l|N_g)_M          PASS
+    (E2) U'_7 (l|N_g)_pM o pull2 = pull2 o U'_7 (l|N_g)_M          PASS
+    (G) push1 o U'_3 (p)_pM = U'_3 (p)_M o push1                   PASS
+    (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M                  FAIL
+    (E2) U'_3 (p)_pM o pull2 = pull2 o U'_3 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_5 (l coprime)_pM = T'_5 (l coprime)_M o push1   PASS
+    (E1) T'_5 (l coprime)_pM o pull1 = pull1 o T'_5 (l coprime)_M  PASS
+    (E2) T'_5 (l coprime)_pM o pull2 = pull2 o T'_5 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_3 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_3 (UNPRIMED, control)_M PASS
+    (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 36 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_3 (p)_pM o pull1 = pull1 o U'_3 (p)_M
+   !! FAILED: (G) push1 o U^t_3 (UNPRIMED, control)_pM = U^t_3 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_3 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_3 (UNPRIMED, control)_M
+=== N_g=3 p=5 r=1:  M=15 -> pM=75   (mod 1000003)
+    dim MS(M)=17  dim MS(pM)=401
+    rank(varpi_1^*) = 17 / 17   INJ
+    rank(varpi_2^*) = 17 / 17   INJ
+    rank(varpi_{1,*}) = 17 / 17  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_3 (l|N_g)_pM = U'_3 (l|N_g)_M o push1           PASS
+    (E1) U'_3 (l|N_g)_pM o pull1 = pull1 o U'_3 (l|N_g)_M          PASS
+    (E2) U'_3 (l|N_g)_pM o pull2 = pull2 o U'_3 (l|N_g)_M          PASS
+    (G) push1 o U'_5 (p)_pM = U'_5 (p)_M o push1                   PASS
+    (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M                  FAIL
+    (E2) U'_5 (p)_pM o pull2 = pull2 o U'_5 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_5 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_5 (UNPRIMED, control)_M PASS
+    (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 40 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M
+   !! FAILED: (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M
+=== N_g=3 p=5 r=1:  M=15 -> pM=75   (mod 999983)
+    dim MS(M)=17  dim MS(pM)=401
+    rank(varpi_1^*) = 17 / 17   INJ
+    rank(varpi_2^*) = 17 / 17   INJ
+    rank(varpi_{1,*}) = 17 / 17  (mod ell; p-adic surjectivity is 04 S3)
+    (G) push1 o U'_3 (l|N_g)_pM = U'_3 (l|N_g)_M o push1           PASS
+    (E1) U'_3 (l|N_g)_pM o pull1 = pull1 o U'_3 (l|N_g)_M          PASS
+    (E2) U'_3 (l|N_g)_pM o pull2 = pull2 o U'_3 (l|N_g)_M          PASS
+    (G) push1 o U'_5 (p)_pM = U'_5 (p)_M o push1                   PASS
+    (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M                  FAIL
+    (E2) U'_5 (p)_pM o pull2 = pull2 o U'_5 (p)_M                  PASS
+    (G) push1 o T'_2 (l coprime)_pM = T'_2 (l coprime)_M o push1   PASS
+    (E1) T'_2 (l coprime)_pM o pull1 = pull1 o T'_2 (l coprime)_M  PASS
+    (E2) T'_2 (l coprime)_pM o pull2 = pull2 o T'_2 (l coprime)_M  PASS
+    (G) push1 o T'_7 (l coprime)_pM = T'_7 (l coprime)_M o push1   PASS
+    (E1) T'_7 (l coprime)_pM o pull1 = pull1 o T'_7 (l coprime)_M  PASS
+    (E2) T'_7 (l coprime)_pM o pull2 = pull2 o T'_7 (l coprime)_M  PASS
+    (G) push1 o T'_11 (l coprime)_pM = T'_11 (l coprime)_M o push1 PASS
+    (E1) T'_11 (l coprime)_pM o pull1 = pull1 o T'_11 (l coprime)_M PASS
+    (E2) T'_11 (l coprime)_pM o pull2 = pull2 o T'_11 (l coprime)_M PASS
+    (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1 FAIL
+    (E1) U^t_5 (UNPRIMED, control)_pM o pull1 = pull1 o U^t_5 (UNPRIMED, control)_M PASS
+    (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M FAIL
+    (G) push1 o T_2 = <2>T'_2 (UNPRIMED, control)_pM = T_2 = <2>T'_2 (UNPRIMED, control)_M o push1 PASS
+    (E1) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull1 = pull1 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (E2) T_2 = <2>T'_2 (UNPRIMED, control)_pM o pull2 = pull2 o T_2 = <2>T'_2 (UNPRIMED, control)_M PASS
+    (W) varpi_2^* = W_pM o varpi_1^* o W_M                         PASS
+    (deg) varpi_{1,*} varpi_1^* = p^2                              PASS
+    (G4)  push1 o <dt>_pM = <dt mod M>_M o push1, all 40 units: PASS
+    (E2d) <dt>_pM o pull2 = pull2 o <dt mod M>_M, all units:                 PASS
+   !! FAILED: (E1) U'_5 (p)_pM o pull1 = pull1 o U'_5 (p)_M
+   !! FAILED: (G) push1 o U^t_5 (UNPRIMED, control)_pM = U^t_5 (UNPRIMED, control)_M o push1
+   !! FAILED: (E2) U^t_5 (UNPRIMED, control)_pM o pull2 = pull2 o U^t_5 (UNPRIMED, control)_M
+SOME FAIL

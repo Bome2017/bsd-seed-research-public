@@ -1,0 +1,110 @@
+{
+  "p": 7,
+  "unit_columns_1based": [
+    1,
+    2,
+    17,
+    24
+  ],
+  "row_definitions": [
+    {
+      "type": "split_additivity",
+      "q": 4831,
+      "point": [
+        418,
+        3164
+      ],
+      "point_label": [
+        4,
+        6
+      ],
+      "torsion_basis": [
+        [
+          4,
+          2950
+        ],
+        [
+          925,
+          1631
+        ]
+      ]
+    },
+    {
+      "type": "split_additivity",
+      "q": 4831,
+      "point": [
+        4350,
+        2352
+      ],
+      "point_label": [
+        4,
+        2
+      ],
+      "torsion_basis": [
+        [
+          4,
+          2950
+        ],
+        [
+          925,
+          1631
+        ]
+      ]
+    },
+    {
+      "type": "split_additivity",
+      "q": 4831,
+      "point": [
+        2802,
+        2892
+      ],
+      "point_label": [
+        5,
+        3
+      ],
+      "torsion_basis": [
+        [
+          4,
+          2950
+        ],
+        [
+          925,
+          1631
+        ]
+      ]
+    },
+    {
+      "type": "formal_local_log",
+      "precision": 8,
+      "coordinate_1based": 1
+    }
+  ],
+  "matrix_mod7": [
+    [
+      2,
+      2,
+      4,
+      3
+    ],
+    [
+      6,
+      5,
+      2,
+      6
+    ],
+    [
+      4,
+      5,
+      3,
+      4
+    ],
+    [
+      2,
+      4,
+      4,
+      3
+    ]
+  ],
+  "det_mod7": 6,
+  "interpretation": "Nonzero minor of authenticated ordinary chi-units under necessary global and coefficient-local conditions; whole-unit dimension4."
+}

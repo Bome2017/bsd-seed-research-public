@@ -1,0 +1,42 @@
+{
+ "3": {
+  "singular_x": 2,
+  "B,C (must be 0)": [
+   0,
+   0
+  ],
+  "quadratic_coeff_A": 2,
+  "type": "node, non-split",
+  "#E_ns(F_q)": 4
+ },
+ "2243": {
+  "singular_x": 425,
+  "B,C (must be 0)": [
+   0,
+   0
+  ],
+  "quadratic_coeff_A": 1274,
+  "type": "node, split",
+  "#E_ns(F_q)": 2242
+ },
+ "4547": {
+  "singular_x": 1516,
+  "B,C (must be 0)": [
+   0,
+   0
+  ],
+  "quadratic_coeff_A": 0,
+  "type": "cusp (additive)",
+  "#E_ns(F_q)": 4547
+ },
+ "5843": {
+  "singular_x": 4108,
+  "B,C (must be 0)": [
+   0,
+   0
+  ],
+  "quadratic_coeff_A": 637,
+  "type": "node, non-split",
+  "#E_ns(F_q)": 5844
+ }
+}

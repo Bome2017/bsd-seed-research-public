@@ -1,0 +1,45 @@
+FINAL start 2026-09-23 00:17:47; build:
+25eaf42fc27e368e16cc906965df057dee84d1e30fcc591d90408b36ba3969b4  acc2243v2.c
+2af3abf63e928ecf2359bfcd3985c0f90a3327e99b2662dc18d9617cb5cb407f  acc2243v2
+211a10bb0f9cec97fe0dac6a803c276b6ad9929c815c03d3dcc6af7b396e1353  acc2243v2_shim
+b1378f169118351bfd8a1ea22124fa735ae9a5b6282d02f86127f9c3e1b6e606  stream_seg.sh
+850f29faadcc8e579bb6add204fc68a629263555abdc92328bdb00f175f40708  compat/CommonCrypto/CommonDigest.h
+2af3abf63e928ecf2359bfcd3985c0f90a3327e99b2662dc18d9617cb5cb407f  ../acc2243v2
+211a10bb0f9cec97fe0dac6a803c276b6ad9929c815c03d3dcc6af7b396e1353  ../acc2243v2_shim
+b1378f169118351bfd8a1ea22124fa735ae9a5b6282d02f86127f9c3e1b6e606  ../stream_seg.sh
+R1 acc2243v2 m=27 PASS (      52 substantive lines identical to the S2 merge)
+R1 acc2243v2 m=81 PASS (     146 substantive lines identical to the S2 merge)
+R1 acc2243v2_shim m=27 PASS (      52 substantive lines identical to the S2 merge)
+R1 acc2243v2_shim m=81 PASS (     146 substantive lines identical to the S2 merge)
+R2 PASS: 18 symbols, 36 ball pairs overlap, identical candidates/flags; max radius ratio dft/direct = 1.000; []
+R2 PASS: 54 symbols, 108 ball pairs overlap, identical candidates/flags; max radius ratio dft/direct = 1.000; ['A_EXACT', 'A_MOD_P', 'EXCL', 'WEIGHTS']
+R3 PASS fresh v2 run == S2 merge; digest e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681
+R4a shard B first attempt exit 9 (1 simulated crash)
+RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1445, shard 1/2, already done 0 in 0 checkpoints, generation 1, W 4
+NEG R4a-missing-shard PASS (refused: FATAL: units missing: run incomplete)
+R4a PASS pooled shards (with crash/restart) digest == R3 digest e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681; 10 checkpoints
+R4b first attempt exit 9
+RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 24, shard 0/1, already done 6 in 1 checkpoints, generation 2, W 2
+MERGE checkpoints 4 units 1445 selected 24 missing 0 terms 897652842  SELECTION L0/0-5,L7,L100-103,L287,S0-9,S500,S1151
+COUNT_SELECTION pairs 1972891384 recount 1972891384 match 1  smooth 26521595 (S-block smooth counts are covered only by the full-run identity)
+CHUNK_DIGEST 5ba823318537525a140ca92fafeff4cc7fc6b068c0a0512ef808e1551fa749ba
+R4b PASS selection digest identical after crash/restart
+NEG R4b-wrong-selection PASS (refused: FATAL: ACC_SELECT differs from the checkpoints' selection)
+NEG R4b-bad-token PASS (refused: FATAL: ACC_SELECT: a token selects no unit (segment without primes > sqrt T, sub-unit or block out of range))
+NEG R4b-duplicated-ckpt PASS (refused: FATAL: unit covered twice)
+NEG R4b-corrupted-ckpt PASS (refused: FATAL: ckpt self-hash mismatch (corrupted checkpoint))
+NEG R4b-missing-ckpt PASS (refused: FATAL: units missing: run incomplete)
+R4c stream run exit 0; leftover ap/sha256 files in stream dirs: 0
+R4c PASS streamed a_q path digest == certified a_q path digest 3a50588eae29290f7e190f8d129a1be9364389231ffe7610f470ac42df5a41d1, SEGHASH identical (8 segments)
+R4c PASS verifier ap_sha256 (stream log) == accumulator segment hashes (8 streamed segments)
+NEG R4c-producer-fails PASS (refused: FATAL: stream command failed (produce/verify): fail closed)
+NEG R4c-witness-corrupted PASS (refused: FATAL: stream command failed (produce/verify): fail closed)
+R4c-witness-corrupted verifier said: FATAL: q=855638071: factor not prime
+NEG R4c-tampered-stored-ap PASS (refused: FATAL: a_q file consumed differs from the file the verifier hashed: fail closed)
+SMALL_DONE
+R4d gen1 exit 9
+R4d gen2 exit 9: RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 246, shard 0/1, already done 39 in 5 checkpoints, generation 2, W 3
+R4d gen3 exit 0: RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 246, shard 0/1, already done 127 in 7 checkpoints, generation 3, W 5
+R4d PASS restart from partial checkpoints (gen2 resumed 39 units from 5 ckpts; gen3 resumed 127 units from 7 ckpts; 12 ckpt files, 3 generations) digest == reference c32d37f9fc019e064c4e5e24e50453ae063e80dc0e18c2905805003d77e656d5
+ap files: 35
+ 0:41  up 21 days,  1:27, 1 user, load averages: 4.05 4.35 5.19

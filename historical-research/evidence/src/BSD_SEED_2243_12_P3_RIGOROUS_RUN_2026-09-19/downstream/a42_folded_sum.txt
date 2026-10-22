@@ -1,0 +1,29 @@
+a_{4,2} = sum over b = 1..40, 3 !| b, of (w_b + w_{81-b}) [b/81]^+   (w_b = sum of C(j,2) over b = omega(a) 4^j mod 81)
+  b= 1  folded weight    0  [b/81]^+ = -101
+  b= 2  folded weight  182  [b/81]^+ = 63
+  b= 4  folded weight    0  [b/81]^+ = 88
+  b= 5  folded weight  600  [b/81]^+ = 76
+  b= 7  folded weight   56  [b/81]^+ = 14
+  b= 8  folded weight  210  [b/81]^+ = -36
+  b=10  folded weight  132  [b/81]^+ = 76
+  b=11  folded weight  380  [b/81]^+ = -89
+  b=13  folded weight   12  [b/81]^+ = 93
+  b=14  folded weight  462  [b/81]^+ = -36
+  b=16  folded weight    2  [b/81]^+ = 14
+  b=17  folded weight    6  [b/81]^+ = -60
+  b=19  folded weight  552  [b/81]^+ = -13
+  b=20  folded weight  650  [b/81]^+ = 108
+  b=22  folded weight   42  [b/81]^+ = -60
+  b=23  folded weight  342  [b/81]^+ = -57
+  b=25  folded weight  506  [b/81]^+ = 63
+  b=26  folded weight  306  [b/81]^+ = -57
+  b=28  folded weight   72  [b/81]^+ = 88
+  b=29  folded weight   20  [b/81]^+ = -66
+  b=31  folded weight   90  [b/81]^+ = -101
+  b=32  folded weight  240  [b/81]^+ = -53
+  b=34  folded weight  272  [b/81]^+ = -89
+  b=35  folded weight   30  [b/81]^+ = 93
+  b=37  folded weight  420  [b/81]^+ = -53
+  b=38  folded weight  110  [b/81]^+ = 108
+  b=40  folded weight  156  [b/81]^+ = -13
+SUM = 15480;  15480 = 2^3 * 3^2 * 5 * 43 ; mod 27 = 9; ord_3 = 2

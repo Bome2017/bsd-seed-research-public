@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-07",
+  "return_folder": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+  "manifest_entries_verified": 22,
+  "copied_input_bindings": 7,
+  "prior_manifests_verified": [
+    22,
+    14,
+    19
+  ],
+  "archive": "work/returns/archives/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07.zip",
+  "archive_bytes": 204372,
+  "archive_sha256": "d476dda98421e5df4ddf6503328f6c6eec2cab53b1c0a8240caddfc910ed1fab",
+  "status": "CUSTODY_PASS",
+  "mathematical_grade": "WRITTEN_DERIVATION_PENDING_INDEPENDENT_REVIEW",
+  "endpoint_effect": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  },
+  "authorization": "Standing user instruction to upload each completed BSD return to lab; no research-release promotion."
+}

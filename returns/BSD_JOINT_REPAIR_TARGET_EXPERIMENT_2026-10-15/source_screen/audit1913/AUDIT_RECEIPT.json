@@ -1,0 +1,16 @@
+[
+  {
+    "script": "independent.gp",
+    "status": "PASS",
+    "returncode": 0,
+    "stderr_bytes": 0,
+    "stdout_sha256": "117661c398a02f72c1c8a44cac6202fb527c1a2d2c0bf3a429bff0c33bc25e99"
+  },
+  {
+    "script": "independent_28042.gp",
+    "status": "PASS",
+    "returncode": 0,
+    "stderr_bytes": 0,
+    "stdout_sha256": "870544ad895fa59f19554477fd4514f4aa2640b35053ba9771df289da6e391f0"
+  }
+]

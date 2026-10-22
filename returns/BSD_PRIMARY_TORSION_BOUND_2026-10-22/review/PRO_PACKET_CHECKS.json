@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SCOPED_REVIEW",
+  "manifest_entries": 45,
+  "all_norms_reconstructed": 20440,
+  "direct_product_verifier": "PASS_DIRECT_PRODUCT_VERIFIER rows=20440 GMP=6.3.0",
+  "matrix_samples": 17,
+  "mod_five_linear_rows": 20180,
+  "byte_identical_replayed_json": {
+    "ANALYTIC_OBSTRUCTION.json": true,
+    "LINEAR_MOD5_CHECK.json": true
+  },
+  "matrix_result_identical_except_timing": true,
+  "endpoints": {
+    "FIN": "OPEN",
+    "ORDER9": "OPEN",
+    "Q36": "OPEN"
+  }
+}

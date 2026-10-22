@@ -1,0 +1,33 @@
+{
+ "time_utc": "2026-09-21T23:39:45Z",
+ "status": "C13_NONZERO_BOTH_NORMALIZATIONS",
+ "C13_independent_weights": 8,
+ "C13_predeclared_weights": 7,
+ "uniform_weight_ratio_mine_over_theirs": 3,
+ "verdict": "NONZERO under both; the discrepancy is a uniform unit factor and cannot change nonvanishing",
+ "partition_identical": true,
+ "nonzero_folded_symbols": 66,
+ "interpolation_factor_1024_inverse_mod_13": 4,
+ "stage_C": "P3_CHECK_PASS failures=0",
+ "segment_root_m169": "67099795305a9550",
+ "segment_root_m13": "38cdd26014b0206e",
+ "verified_segments_m169": 3281,
+ "verified_segments_m13": 240,
+ "symbols_identified": "156 plus + 156 minus in (1/1024)Z at m=169; 12+12 at m=13",
+ "hecke_T13_identities": 24,
+ "timings": {
+  "stage_W": "13:34:05-15:21:46 (1h47m41s, 948 new segments, 6.7 s/seg)",
+  "stage_A_m169": "15:21:46-16:06:35 (44m49s)",
+  "stage_A_m13": "16:06:35-16:09:31 (2m56s)",
+  "total": "2h35m27s",
+  "peak_rss_bytes": 1092530176
+ },
+ "files": {
+  "run/SYMBOLS_m169.txt": "f6d25a550cd91efc3975b334b2b78c833f5ea6264b7a4e8b27a6f2a7011a052c",
+  "run/SYMBOLS_m13.txt": "1b7758c66ac5df0f7a1e48aa29b67837d6d8c8410325d6ca68558c94c8e67691",
+  "run/P3_CHECK.txt": "dd8f7808cd89f70af92223c4a59da5ec9a49d64bccee04e61a077efff430a612",
+  "run/targets.txt": "e702ef5444a69953e17e10a01b005240de8ee6fcb6df83dbd4cfd32bf8088bec"
+ },
+ "sealed_corpus_reverified_after_incident": "2333/2333 clean (POST_ABORT_INTEGRITY.json)",
+ "SUPERSEDED": "Values 8 and 7 here are WRONG. Corrected C13 = 2 (omega1), 1 (full real period). Two errors: omitted alpha^-2 = 9, and divided by 1024 which SYMBOLS_m169.txt had already divided out. See SUPERSEDED_BY_NORMALIZATION.md."
+}

@@ -1,0 +1,1362 @@
+[
+  {
+    "label": "8890o3",
+    "conductor": 8890,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -3184418010,
+      -69166354628740
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 2274,
+    "raw": "8890 o 3 [1,0,0,-3184418010,-69166354628740]\t1\t1\t9"
+  },
+  {
+    "label": "26110k3",
+    "conductor": 26110,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -11764185,
+      -15531675065
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.20000-29999",
+    "line": 2306,
+    "raw": "26110 k 3 [1,0,0,-11764185,-15531675065]\t1\t1\t9"
+  },
+  {
+    "label": "28042a1",
+    "conductor": 28042,
+    "rank": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -1367381,
+      615777525
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.20000-29999",
+    "line": 3018,
+    "raw": "28042 a 1 [1,-1,0,-1367381,615777525]\t1\t2\t9"
+  },
+  {
+    "label": "28042a2",
+    "conductor": 28042,
+    "rank": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -21878101,
+      39393344757
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.20000-29999",
+    "line": 3019,
+    "raw": "28042 a 2 [1,-1,0,-21878101,39393344757]\t1\t2\t9"
+  },
+  {
+    "label": "35882a1",
+    "conductor": 35882,
+    "rank": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -156926,
+      -24991340
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.30000-39999",
+    "line": 2554,
+    "raw": "35882 a 1 [1,-1,0,-156926,-24991340]\t1\t2\t9"
+  },
+  {
+    "label": "35882a2",
+    "conductor": 35882,
+    "rank": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -2542846,
+      -1560092268
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.30000-39999",
+    "line": 2555,
+    "raw": "35882 a 2 [1,-1,0,-2542846,-1560092268]\t1\t2\t9"
+  },
+  {
+    "label": "36575e3",
+    "conductor": 36575,
+    "rank": 1,
+    "ainvs": [
+      0,
+      -1,
+      1,
+      209446467,
+      -4237643072282
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.30000-39999",
+    "line": 2862,
+    "raw": "36575 e 3 [0,-1,1,209446467,-4237643072282]\t1\t1\t9"
+  },
+  {
+    "label": "37037e3",
+    "conductor": 37037,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -18749983,
+      -31256208328
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.30000-39999",
+    "line": 3058,
+    "raw": "37037 e 3 [0,1,1,-18749983,-31256208328]\t1\t1\t9"
+  },
+  {
+    "label": "38570h3",
+    "conductor": 38570,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -2844050,
+      -1846416310
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.30000-39999",
+    "line": 3669,
+    "raw": "38570 h 3 [1,0,0,-2844050,-1846416310]\t1\t1\t9"
+  },
+  {
+    "label": "42350dc2",
+    "conductor": 42350,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -1715238,
+      -864781708
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.40000-49999",
+    "line": 1006,
+    "raw": "42350 dc 2 [1,0,0,-1715238,-864781708]\t1\t1\t9"
+  },
+  {
+    "label": "46462a1",
+    "conductor": 46462,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -10179744,
+      12500399598
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.40000-49999",
+    "line": 2751,
+    "raw": "46462 a 1 [1,0,1,-10179744,12500399598]\t1\t1\t9"
+  },
+  {
+    "label": "49300u2",
+    "conductor": 49300,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -27453708,
+      -55375978412
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.40000-49999",
+    "line": 3991,
+    "raw": "49300 u 2 [0,1,0,-27453708,-55375978412]\t1\t1\t9"
+  },
+  {
+    "label": "52598t3",
+    "conductor": 52598,
+    "rank": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -4526613,
+      -3708763007
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.50000-59999",
+    "line": 1147,
+    "raw": "52598 t 3 [1,1,1,-4526613,-3708763007]\t1\t1\t9"
+  },
+  {
+    "label": "52598v3",
+    "conductor": 52598,
+    "rank": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -236697,
+      -1099140403
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.50000-59999",
+    "line": 1150,
+    "raw": "52598 v 3 [1,1,1,-236697,-1099140403]\t1\t1\t9"
+  },
+  {
+    "label": "55874m3",
+    "conductor": 55874,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -1307954472,
+      -18207052903904
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.50000-59999",
+    "line": 2705,
+    "raw": "55874 m 3 [1,0,0,-1307954472,-18207052903904]\t1\t1\t9"
+  },
+  {
+    "label": "59150bv3",
+    "conductor": 59150,
+    "rank": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -66176263,
+      -207233165469
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.50000-59999",
+    "line": 4108,
+    "raw": "59150 bv 3 [1,1,1,-66176263,-207233165469]\t1\t1\t9"
+  },
+  {
+    "label": "59150bx5",
+    "conductor": 59150,
+    "rank": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -2234923688,
+      -40667933624219
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.50000-59999",
+    "line": 4109,
+    "raw": "59150 bx 5 [1,1,1,-2234923688,-40667933624219]\t1\t2\t9"
+  },
+  {
+    "label": "59150bx6",
+    "conductor": 59150,
+    "rank": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -2235219438,
+      -40656632425219
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.50000-59999",
+    "line": 4110,
+    "raw": "59150 bx 6 [1,1,1,-2235219438,-40656632425219]\t1\t2\t9"
+  },
+  {
+    "label": "59690m2",
+    "conductor": 59690,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -949180,
+      -355963040
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.50000-59999",
+    "line": 4380,
+    "raw": "59690 m 2 [1,0,0,-949180,-355963040]\t1\t1\t9"
+  },
+  {
+    "label": "61504bq1",
+    "conductor": 61504,
+    "rank": 1,
+    "ainvs": [
+      0,
+      0,
+      0,
+      3844,
+      -238328
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.60000-69999",
+    "line": 795,
+    "raw": "61504 bq 1 [0,0,0,3844,-238328]\t1\t1\t9"
+  },
+  {
+    "label": "61672a1",
+    "conductor": 61672,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      30256,
+      1885664
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.60000-69999",
+    "line": 852,
+    "raw": "61672 a 1 [0,1,0,30256,1885664]\t1\t1\t9"
+  },
+  {
+    "label": "63002a1",
+    "conductor": 63002,
+    "rank": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -1229171,
+      -524019275
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.60000-69999",
+    "line": 1472,
+    "raw": "63002 a 1 [1,-1,0,-1229171,-524019275]\t1\t2\t9"
+  },
+  {
+    "label": "63002a2",
+    "conductor": 63002,
+    "rank": 1,
+    "ainvs": [
+      1,
+      -1,
+      0,
+      -1425691,
+      -345068163
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.60000-69999",
+    "line": 1473,
+    "raw": "63002 a 2 [1,-1,0,-1425691,-345068163]\t1\t2\t9"
+  },
+  {
+    "label": "63973e1",
+    "conductor": 63973,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -53313,
+      4720303
+    ],
+    "torsion": 3,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.60000-69999",
+    "line": 1962,
+    "raw": "63973 e 1 [0,1,1,-53313,4720303]\t1\t3\t9"
+  },
+  {
+    "label": "73406e3",
+    "conductor": 73406,
+    "rank": 1,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -7060854,
+      -7224550891
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.70000-79999",
+    "line": 1585,
+    "raw": "73406 e 3 [1,1,1,-7060854,-7224550891]\t1\t1\t9"
+  },
+  {
+    "label": "74074p5",
+    "conductor": 74074,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -116325419398,
+      -15270748691647404
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.70000-79999",
+    "line": 1945,
+    "raw": "74074 p 5 [1,0,0,-116325419398,-15270748691647404]\t1\t2\t9"
+  },
+  {
+    "label": "74074p6",
+    "conductor": 74074,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -1861206710738,
+      -977327450556095000
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.70000-79999",
+    "line": 1946,
+    "raw": "74074 p 6 [1,0,0,-1861206710738,-977327450556095000]\t1\t2\t9"
+  },
+  {
+    "label": "76570i3",
+    "conductor": 76570,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -92412721,
+      -341944428135
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.70000-79999",
+    "line": 2937,
+    "raw": "76570 i 3 [1,0,0,-92412721,-341944428135]\t1\t1\t9"
+  },
+  {
+    "label": "82288o1",
+    "conductor": 82288,
+    "rank": 1,
+    "ainvs": [
+      0,
+      0,
+      0,
+      -82136,
+      -10008697
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.80000-89999",
+    "line": 1046,
+    "raw": "82288 o 1 [0,0,0,-82136,-10008697]\t1\t1\t9"
+  },
+  {
+    "label": "82940k2",
+    "conductor": 82940,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -2521045,
+      -1540405817
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.80000-89999",
+    "line": 1334,
+    "raw": "82940 k 2 [0,1,0,-2521045,-1540405817]\t1\t1\t9"
+  },
+  {
+    "label": "84493a1",
+    "conductor": 84493,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -97,
+      -402
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.80000-89999",
+    "line": 2055,
+    "raw": "84493 a 1 [0,1,1,-97,-402]\t1\t1\t9"
+  },
+  {
+    "label": "90334i2",
+    "conductor": 90334,
+    "rank": 1,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -2528891,
+      1546840693
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 169,
+    "raw": "90334 i 2 [1,1,0,-2528891,1546840693]\t1\t1\t9"
+  },
+  {
+    "label": "90568c1",
+    "conductor": 90568,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -1328992,
+      589257952
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 276,
+    "raw": "90568 c 1 [0,1,0,-1328992,589257952]\t1\t1\t9"
+  },
+  {
+    "label": "90706f3",
+    "conductor": 90706,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -1735212,
+      -2011571862
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 326,
+    "raw": "90706 f 3 [1,0,1,-1735212,-2011571862]\t1\t1\t9"
+  },
+  {
+    "label": "90706g3",
+    "conductor": 90706,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -24568295,
+      -46873739030
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 327,
+    "raw": "90706 g 3 [1,0,1,-24568295,-46873739030]\t1\t1\t9"
+  },
+  {
+    "label": "92690h3",
+    "conductor": 92690,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -6962866241,
+      -223630646283025
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 1295,
+    "raw": "92690 h 3 [1,0,0,-6962866241,-223630646283025]\t1\t1\t9"
+  },
+  {
+    "label": "97090l3",
+    "conductor": 97090,
+    "rank": 1,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -2418366601,
+      -45775514061669
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 3361,
+    "raw": "97090 l 3 [1,0,0,-2418366601,-45775514061669]\t1\t1\t9"
+  },
+  {
+    "label": "99856g2",
+    "conductor": 99856,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -8140344,
+      -2683494316
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 4697,
+    "raw": "99856 g 2 [0,1,0,-8140344,-2683494316]\t1\t1\t9"
+  },
+  {
+    "label": "99856g3",
+    "conductor": 99856,
+    "rank": 1,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -520900904,
+      -4576113258316
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.90000-99999",
+    "line": 4698,
+    "raw": "99856 g 3 [0,1,0,-520900904,-4576113258316]\t1\t1\t9"
+  },
+  {
+    "label": "100720f1",
+    "conductor": 100720,
+    "rank": 1,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -421,
+      -3144
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.100000-109999",
+    "line": 354,
+    "raw": "100720 f 1 [0,-1,0,-421,-3144]\t1\t2\t9"
+  },
+  {
+    "label": "182b3",
+    "conductor": 182,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -15663,
+      -755809
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 6,
+    "raw": "182 b 3 [1,0,0,-15663,-755809]\t0\t1\t9"
+  },
+  {
+    "label": "448c5",
+    "conductor": 448,
+    "rank": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -10913,
+      -436447
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 29,
+    "raw": "448 c 5 [0,-1,0,-10913,-436447]\t0\t2\t9"
+  },
+  {
+    "label": "448c6",
+    "conductor": 448,
+    "rank": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -174753,
+      -28059871
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 30,
+    "raw": "448 c 6 [0,-1,0,-174753,-28059871]\t0\t2\t9"
+  },
+  {
+    "label": "475a3",
+    "conductor": 475,
+    "rank": 0,
+    "ainvs": [
+      0,
+      -1,
+      1,
+      -19233,
+      -1020257
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 32,
+    "raw": "475 a 3 [0,-1,1,-19233,-1020257]\t0\t1\t9"
+  },
+  {
+    "label": "578a3",
+    "conductor": 578,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -29773,
+      -1989473
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 51,
+    "raw": "578 a 3 [1,1,1,-29773,-1989473]\t0\t2\t9"
+  },
+  {
+    "label": "578a4",
+    "conductor": 578,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -32663,
+      -1583717
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 52,
+    "raw": "578 a 4 [1,1,1,-32663,-1583717]\t0\t2\t9"
+  },
+  {
+    "label": "910e3",
+    "conductor": 910,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -50503198,
+      -146507820272
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 92,
+    "raw": "910 e 3 [1,0,1,-50503198,-146507820272]\t0\t1\t9"
+  },
+  {
+    "label": "910j5",
+    "conductor": 910,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -528976,
+      -148126020
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 93,
+    "raw": "910 j 5 [1,0,0,-528976,-148126020]\t0\t2\t9"
+  },
+  {
+    "label": "910j6",
+    "conductor": 910,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -529046,
+      -148084874
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 94,
+    "raw": "910 j 6 [1,0,0,-529046,-148084874]\t0\t2\t9"
+  },
+  {
+    "label": "938d3",
+    "conductor": 938,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -351399,
+      -80206123
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 99,
+    "raw": "938 d 3 [1,0,0,-351399,-80206123]\t0\t1\t9"
+  },
+  {
+    "label": "1913b1",
+    "conductor": 1913,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -34,
+      -135
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 279,
+    "raw": "1913 b 1 [1,1,0,-34,-135]\t0\t2\t9"
+  },
+  {
+    "label": "1913b2",
+    "conductor": 1913,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -39,
+      -112
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 280,
+    "raw": "1913 b 2 [1,1,0,-39,-112]\t0\t2\t9"
+  },
+  {
+    "label": "2006e1",
+    "conductor": 2006,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -58293654,
+      -171333232940
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 301,
+    "raw": "2006 e 1 [1,1,0,-58293654,-171333232940]\t0\t1\t9"
+  },
+  {
+    "label": "2366d1",
+    "conductor": 2366,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      1,
+      503,
+      -2702
+    ],
+    "torsion": 3,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 399,
+    "raw": "2366 d 1 [1,0,1,503,-2702]\t0\t3\t9"
+  },
+  {
+    "label": "2429b1",
+    "conductor": 2429,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -115,
+      -528
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 416,
+    "raw": "2429 b 1 [1,1,0,-115,-528]\t0\t2\t9"
+  },
+  {
+    "label": "2429b2",
+    "conductor": 2429,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -1850,
+      -31411
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 417,
+    "raw": "2429 b 2 [1,1,0,-1850,-31411]\t0\t2\t9"
+  },
+  {
+    "label": "2534e1",
+    "conductor": 2534,
+    "rank": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -1393324,
+      -640018129
+    ],
+    "torsion": 4,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 437,
+    "raw": "2534 e 1 [1,-1,1,-1393324,-640018129]\t0\t4\t9"
+  },
+  {
+    "label": "2534e2",
+    "conductor": 2534,
+    "rank": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -22364844,
+      -40704009937
+    ],
+    "torsion": 4,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 438,
+    "raw": "2534 e 2 [1,-1,1,-22364844,-40704009937]\t0\t4\t9"
+  },
+  {
+    "label": "2534e3",
+    "conductor": 2534,
+    "rank": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -357837484,
+      -2605325248209
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 439,
+    "raw": "2534 e 3 [1,-1,1,-357837484,-2605325248209]\t0\t2\t9"
+  },
+  {
+    "label": "2534e4",
+    "conductor": 2534,
+    "rank": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -22436524,
+      -40429905617
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 440,
+    "raw": "2534 e 4 [1,-1,1,-22436524,-40429905617]\t0\t2\t9"
+  },
+  {
+    "label": "2534f1",
+    "conductor": 2534,
+    "rank": 0,
+    "ainvs": [
+      1,
+      -1,
+      1,
+      -303,
+      -1955
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 441,
+    "raw": "2534 f 1 [1,-1,1,-303,-1955]\t0\t1\t9"
+  },
+  {
+    "label": "2590c3",
+    "conductor": 2590,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      1,
+      -76353,
+      -13098892
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 461,
+    "raw": "2590 c 3 [1,0,1,-76353,-13098892]\t0\t1\t9"
+  },
+  {
+    "label": "2674b1",
+    "conductor": 2674,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -2758,
+      -55020
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 479,
+    "raw": "2674 b 1 [1,1,0,-2758,-55020]\t0\t2\t9"
+  },
+  {
+    "label": "2674b2",
+    "conductor": 2674,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -43718,
+      -3536620
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 480,
+    "raw": "2674 b 2 [1,1,0,-43718,-3536620]\t0\t2\t9"
+  },
+  {
+    "label": "2710c1",
+    "conductor": 2710,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      -48498,
+      -4131148
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 494,
+    "raw": "2710 c 1 [1,1,0,-48498,-4131148]\t0\t1\t9"
+  },
+  {
+    "label": "2768c1",
+    "conductor": 2768,
+    "rank": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -52,
+      -180
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 525,
+    "raw": "2768 c 1 [0,-1,0,-52,-180]\t0\t2\t9"
+  },
+  {
+    "label": "2768c2",
+    "conductor": 2768,
+    "rank": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -57,
+      -148
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 526,
+    "raw": "2768 c 2 [0,-1,0,-57,-148]\t0\t2\t9"
+  },
+  {
+    "label": "2849a1",
+    "conductor": 2849,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -53484,
+      -4843180
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 533,
+    "raw": "2849 a 1 [1,1,1,-53484,-4843180]\t0\t2\t9"
+  },
+  {
+    "label": "2849a2",
+    "conductor": 2849,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      -858739,
+      -306652754
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 534,
+    "raw": "2849 a 2 [1,1,1,-858739,-306652754]\t0\t2\t9"
+  },
+  {
+    "label": "2932a1",
+    "conductor": 2932,
+    "rank": 0,
+    "ainvs": [
+      0,
+      0,
+      0,
+      -239,
+      -1530
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 554,
+    "raw": "2932 a 1 [0,0,0,-239,-1530]\t0\t2\t9"
+  },
+  {
+    "label": "2932a2",
+    "conductor": 2932,
+    "rank": 0,
+    "ainvs": [
+      0,
+      0,
+      0,
+      -244,
+      -1467
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 555,
+    "raw": "2932 a 2 [0,0,0,-244,-1467]\t0\t2\t9"
+  },
+  {
+    "label": "3094h3",
+    "conductor": 3094,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -819,
+      -223769
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 588,
+    "raw": "3094 h 3 [1,0,0,-819,-223769]\t0\t1\t9"
+  },
+  {
+    "label": "3536h1",
+    "conductor": 3536,
+    "rank": 0,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -2319216,
+      -485927468
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 691,
+    "raw": "3536 h 1 [0,1,0,-2319216,-485927468]\t0\t2\t9"
+  },
+  {
+    "label": "3536h2",
+    "conductor": 3536,
+    "rank": 0,
+    "ainvs": [
+      0,
+      1,
+      0,
+      -30008176,
+      -63229110828
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 692,
+    "raw": "3536 h 2 [0,1,0,-30008176,-63229110828]\t0\t2\t9"
+  },
+  {
+    "label": "3605c3",
+    "conductor": 3605,
+    "rank": 0,
+    "ainvs": [
+      0,
+      1,
+      1,
+      -839515,
+      -296347561
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 706,
+    "raw": "3605 c 3 [0,1,1,-839515,-296347561]\t0\t1\t9"
+  },
+  {
+    "label": "3712j1",
+    "conductor": 3712,
+    "rank": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -2242,
+      -40122
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 731,
+    "raw": "3712 j 1 [0,-1,0,-2242,-40122]\t0\t2\t9"
+  },
+  {
+    "label": "3712j2",
+    "conductor": 3712,
+    "rank": 0,
+    "ainvs": [
+      0,
+      -1,
+      0,
+      -2237,
+      -40315
+    ],
+    "torsion": 2,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 732,
+    "raw": "3712 j 2 [0,-1,0,-2237,-40315]\t0\t2\t9"
+  },
+  {
+    "label": "3850e2",
+    "conductor": 3850,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      0,
+      247175,
+      -158947875
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 750,
+    "raw": "3850 e 2 [1,1,0,247175,-158947875]\t0\t1\t9"
+  },
+  {
+    "label": "3850y2",
+    "conductor": 3850,
+    "rank": 0,
+    "ainvs": [
+      1,
+      0,
+      0,
+      -4213013,
+      41270106017
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 751,
+    "raw": "3850 y 2 [1,0,0,-4213013,41270106017]\t0\t1\t9"
+  },
+  {
+    "label": "4046j2",
+    "conductor": 4046,
+    "rank": 0,
+    "ainvs": [
+      1,
+      1,
+      1,
+      248823,
+      611945365
+    ],
+    "torsion": 1,
+    "analytic_sha_selection": 9,
+    "source_file": "sources/allbigsha.00000-09999",
+    "line": 798,
+    "raw": "4046 j 2 [1,1,1,248823,611945365]\t0\t1\t9"
+  }
+]

@@ -1,0 +1,2 @@
+crash run exit=9 (expect 9); ckpt files after crash: 3
+restart exit=0

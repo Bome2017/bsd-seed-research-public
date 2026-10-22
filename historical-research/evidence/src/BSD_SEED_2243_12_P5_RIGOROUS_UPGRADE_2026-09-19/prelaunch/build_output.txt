@@ -1,0 +1,12 @@
+fastap.c:31:24: warning: unused function 'fromm' [-Wunused-function]
+   31 | static inline uint64_t fromm(uint64_t a) { return mmul(a, 1); }
+      |                        ^~~~~
+1 warning generated.
+128e7960f8efc0756557f2ee5619c1e80f7e9e0f69b6007f70cac63707abb596  /Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/verifier/wverify.c
+e6cca7ffed1256b5cde682d48561805fc2111e97a0a4b08d438e593126af9d8b  /Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/apwit.c
+7d3f4d515aea25a10add93ef02b36b3e5da7ec409348a166e07d260df0b69526  /Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/fastap.c
+56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7  /Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore.c
+9f4b136ae1163ca928043d4f33f56fa3718e00070ea9626a668f4242b29d1751  /Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/verifier/wverify
+c21429ccc103f1526fe0b8e94b67658704e2e5fd518e95f3fe58f33494daaa43  /Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/apwit
+47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db  /Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore
+run apwit with DYLD_LIBRARY_PATH=/Users/bsm/H41_ANALYTIC_BLIND_RESEARCH_2026-09-12/sources/research_computation/pari-2.17.4/Odarwin-x86_64

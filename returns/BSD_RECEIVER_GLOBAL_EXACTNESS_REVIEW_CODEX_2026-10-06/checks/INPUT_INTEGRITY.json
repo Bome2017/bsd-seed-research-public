@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "fc843c8bfc3a7e9def27f97e800f4b57bc010e366b435f82341c063068e7fcc3",
+  "bytes": 14801,
+  "zip_crc": "PASS",
+  "manifest_verified": [
+    "CHECK_RESULTS.json",
+    "INTEGRATION_NOTE.md",
+    "PROOF.md",
+    "README.md",
+    "SOURCES.md",
+    "SOURCE_BINDINGS.json",
+    "checks.py",
+    "verify_manifest.py"
+  ]
+}

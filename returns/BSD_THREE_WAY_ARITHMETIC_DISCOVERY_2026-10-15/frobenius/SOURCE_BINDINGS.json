@@ -1,0 +1,86 @@
+[
+  {
+    "original": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/data.gp",
+    "local": "inputs/mirror_data.gp",
+    "bytes": 1079483,
+    "sha256": "f7de104f3895edf5d2048c7748e2e396b7c2b1f51d96c7eeee5babc8bdeb54cf"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/data.gp",
+    "local": "inputs/1913_data.gp",
+    "bytes": 1048721,
+    "sha256": "bdbac56d60e62907a577cee78d3e0a6c563f20bf41b3aab68bce8c9e39e6addf"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/affine_norm_certificate.gp",
+    "local": "inputs/1913_norm.gp",
+    "bytes": 2998,
+    "sha256": "8dd0ad416cfa2338b5708450c1a33c9ee003d0eb773531baf3443f63a26bdc59"
+  },
+  {
+    "original": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/inputs/previous/seed3/actual_representatives.gp",
+    "local": "inputs/seed_representatives.gp",
+    "bytes": 5229,
+    "sha256": "038a2f243e59fc6dffb4049eab2b5b3f937cafb44b949f4c36c98bef122b5b66"
+  },
+  {
+    "original": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/affine_norm_certificate.gp",
+    "local": "inputs/seed_norm.gp",
+    "bytes": 5748,
+    "sha256": "d5b3250ff5cf15aaaa41098466ea37da435a725cd40a37ac2d0d2f3bf4350d40"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/heldout/mirror_extension/source.json",
+    "local": "inputs/heldout/mirror_extension/source.json",
+    "bytes": 2418,
+    "sha256": "f8d3c2739d3af279e72596ef26856a1b3ce21ef570f99eaa0dfe542d3978c42f"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/heldout/mirror_extension/blocks.json",
+    "local": "inputs/heldout/mirror_extension/blocks.json",
+    "bytes": 549520,
+    "sha256": "279b66e56b5552c3aadc266c76c143e887965a7aacb6b81331049cf9e04b01a1"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/heldout/mirror389/blocks.json",
+    "local": "inputs/heldout/mirror389/blocks.json",
+    "bytes": 109856,
+    "sha256": "2d7e9c8df1ed21d64ba609bf03d64519cd83d866f4e3924f04aa9b540fa8b61c"
+  },
+  {
+    "original": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/incidence_review/check_incidence.py",
+    "local": "inputs/incidence_check.py",
+    "bytes": 4107,
+    "sha256": "dc20e5117dcbdeda523989bb22711bf241ad2a5b702e00e5449242b0a56c4ed4"
+  },
+  {
+    "original": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/incidence_review/RESULT.json",
+    "local": "inputs/incidence_result.json",
+    "bytes": 817,
+    "sha256": "54d09bb929e8312e0b6b6cdc2e8ed87fb8e4552853bb5967e627244837088ce2"
+  },
+  {
+    "original": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/incidence_review/image_check.gp",
+    "local": "inputs/image_check.gp",
+    "bytes": 374,
+    "sha256": "b8162a852dd7f7427676430404b0bd7c52e4897a31043978f11c54cc1dc84a0b"
+  },
+  {
+    "original": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/incidence_review/image_check.out",
+    "local": "inputs/image_check.out",
+    "bytes": 347,
+    "sha256": "b3fafc935c0b92690a7554578683d6c8f338c1d6d5065ad652a1537b4724f855"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/RESULT.md",
+    "local": "inputs/1913_SOURCE_GRADE.md",
+    "bytes": 3246,
+    "sha256": "bf081b50252a4cd107f98aedfc97119b87776ebf8c72be124502d242281168ea"
+  },
+  {
+    "original": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/PROOF.md",
+    "local": "inputs/seed_SOURCE_GRADE.md",
+    "bytes": 4675,
+    "sha256": "9be777e80c23b898bd42b0d5b12b6c4d34828597f17b01cce3c2cef4d081f2fd"
+  }
+]

@@ -1,0 +1,7 @@
+psi(N) = [SL2(Z):Gamma_0(N)] = 13017263840621568 = 1.3017e+16
+  dim S_2(Gamma_0(N)) ~ psi/12 = 1.085e+15;  modular-symbol space M_2(Gamma_0(N)) ~ psi/6 = 2.170e+15;  Manin symbols P^1(Z/N) = 1.302e+16
+Serre-weight route: weight k = p+1 = 2244, level N/p = 2899325908488: dim S_k(Gamma_0(N/p)) ~ (k-1) psi(N/p)/12 = 1.084e+15
+current: cusp scale m*sqrt(N/gcd(m,N)) = p^2 sqrt(N/p) = 8.5666e+12; T_run = 3.9120e+13; ratio T/scale = 4.567
+Kurihara (two Kolyvagin primes): n = l1*l2 = 54056092922301293 = 5.4056e+16; gcd(n,N) = 1; scale n*sqrt(N) = 4.3592e+24; cutoff ~ 1.991e+25 (x5.089e+11 the current); symbols needed ~ phi(n) = 5.406e+16
+T_5 relation route (denominator 5p^2, gcd = p): scale 5 p^2 sqrt(N/p) = 4.2833e+13 (x5), and it only yields ell-fold sums
+loop-period route (gamma in Gamma_0(N) with 1/p -> b/p^2 has |c| >= N): analytic scale >= N = 6.503e+15 (x759.1 per loop)

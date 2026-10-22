@@ -1,0 +1,55 @@
+{
+  "bindings": [
+    {
+      "source": "/Users/bsm/.codex/attachments/a959b2a0-473a-4880-83bc-ac888040d1e8/Pasted text.txt",
+      "copy": "input/PRO_REVIEW.txt",
+      "sha256": "0b0cb574101ff3afa9e9bb0cd02976a46172b9767423d86c1fd9f5201681512c",
+      "bytes": 6004,
+      "verified_equal": true
+    },
+    {
+      "source": "/Users/bsm/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/return/STAGE_A_DERIVATION.md",
+      "copy": "input/STAGE_A_DERIVATION.md",
+      "sha256": "e43cad34e081a929d0ff6e547a21cf7315932bd7e1adc0ed12cb525258c1a040",
+      "bytes": 13558,
+      "verified_equal": true
+    },
+    {
+      "source": "/Users/bsm/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/return/SECOND_ORDER_PROOF.md",
+      "copy": "input/SECOND_ORDER_PROOF.md",
+      "sha256": "167c1707ac695e194596adbe7ea13c3bd2086aaf7b0d4ba9141c62d6cf7cbe0d",
+      "bytes": 11207,
+      "verified_equal": true
+    },
+    {
+      "source": "/Users/bsm/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/return/CHARACTER_REALIZATION.md",
+      "copy": "input/CHARACTER_REALIZATION.md",
+      "sha256": "b4aa6fd15581d1a7dff26b855f08a6607e77042ce62ba0931ae787bc43ded56d",
+      "bytes": 7089,
+      "verified_equal": true
+    },
+    {
+      "source": "/Users/bsm/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/return/HANDOFF.md",
+      "copy": "input/HANDOFF.md",
+      "sha256": "dd73dc52838a50b3bc33aefcdc710fe6668b69fbc3b121478d16c11d23f54d27",
+      "bytes": 2900,
+      "verified_equal": true
+    },
+    {
+      "source_commit": "c4f53313e92f9cae9392132a51e2780626539699",
+      "source_path": "work/returns/BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+      "copy": "input/CONCURRENT_KATO_GATE_REVIEW.md",
+      "sha256": "80de31d54e9680d3abf49641246d97aea5b886dc3e5fb3f49ed9264e95ad1b3c",
+      "verified_equal": true
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-10-04/dossiers/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/sources/Kato2004_fresh.txt",
+      "copy": null,
+      "sha256": "23f8f255d0822ac203599be37d5eb6e6e5ea6db456e422f6a4b7cc483ac2caa8",
+      "bytes": 483480,
+      "read_scope": "Theorem 14.2(2), printed page 235; no source text bundled"
+    }
+  ],
+  "lab_start_commit": "bcb6e11ff21c88b42d29cfd4801f952acac5abea",
+  "concurrent_review_commit": "c4f53313e92f9cae9392132a51e2780626539699"
+}

@@ -1,0 +1,387 @@
+{
+  "status": "PASS",
+  "arithmetic_is_new": false,
+  "purpose": "Reapply unchanged complete-source data to the combined unit/class/valuation upper bound",
+  "cases": [
+    {
+      "label": "1070a1",
+      "input_sha256": "638eee5b8c319c0fc0691d384dd94f4ac42b81096815511da2a250eccf4e35e7",
+      "source_dimension": 14,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 1,
+        "full_upper": 3
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "1141a1",
+      "input_sha256": "7fbd92034156e89c95c73a2795c53488106f61849a5a4e35ee1836cce985ff3a",
+      "source_dimension": 13,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 0,
+        "full_upper": 2
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "1246c1_retry600",
+      "input_sha256": "3ac578b5e6ff728fa899d3353b9f3d3407d991f111dbf48ea8297b8d255ade1e",
+      "source_dimension": 13,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 0,
+        "full_upper": 2
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "1480a1",
+      "input_sha256": "da63d61cffe103a5a8ff16ed74a54c51e377dcc91dd86d8df0527e1c8aa3ee01",
+      "source_dimension": 13,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 1,
+        "full_upper": 3
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "1525c1",
+      "input_sha256": "60c1d70e5dcf7d2a8e495cea301bccaaf295b2ba2aa75f25b7f58b318131bd98",
+      "source_dimension": 10,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 0,
+        "full_upper": 2
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "1613a1_grh",
+      "input_sha256": "ad72c85ff504c859b8016a7f92cbef39bd5b14f2c95d2a7130b86f1d9fab5fb1",
+      "source_dimension": 10,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 0,
+        "full_upper": 2
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "718b1",
+      "input_sha256": "7e39c9d0eafa79ad624a644a7ba29a052892f66e31330793eb3c919c8b70b957",
+      "source_dimension": 13,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 0,
+        "full_upper": 2
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "997c1",
+      "input_sha256": "7a015a8dfdd9fd57bb0b52e0ddb351305d962079e4788c4a5838ca87cc38e7d9",
+      "source_dimension": 10,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 1,
+        "classes": 1,
+        "valuation_layer": 0,
+        "full_upper": 2
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 1,
+        "admitted_units": 1,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 1,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 2
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "mirror389",
+      "input_sha256": "a5c45a386a0ff05260e3c189a4a76008ad98d5627d79f5445a3e423503ba99c2",
+      "source_dimension": 11,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 1,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 1,
+      "global_necessary_screen": {
+        "units": 0,
+        "classes": 1,
+        "valuation_layer": 2,
+        "full_upper": 3
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 2,
+        "admitted_units": 0,
+        "class_defect_rank_after_unit_repairs": 1,
+        "admitted_classes": 0,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 0
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 1,
+        "compatibility_rank": 1
+      },
+      "point_comparison_after_upper": {
+        "rank": 0,
+        "units": 0,
+        "classes": 0,
+        "unit_excess_upper": 0,
+        "class_excess_upper": 0,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 0
+      },
+      "all_unramified_elements_enumerated": 243,
+      "retained_source_grade": "certified complete class/unit source; retained arithmetic replay"
+    },
+    {
+      "label": "seed3",
+      "input_sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+      "source_dimension": 15,
+      "raw_ordinary_unit_dimension": 4,
+      "raw_ordinary_class_dimension": 2,
+      "faithful_unit_dimension": 2,
+      "faithful_class_dimension": 2,
+      "global_necessary_screen": {
+        "units": 2,
+        "classes": 2,
+        "valuation_layer": 0,
+        "full_upper": 4
+      },
+      "joint": {
+        "unit_rejection_rank_on_faithful_units": 0,
+        "admitted_units": 2,
+        "class_defect_rank_after_unit_repairs": 0,
+        "admitted_classes": 2,
+        "admitted_valuation_layer": 0,
+        "whole_source_upper": 4
+      },
+      "compatible_repair": {
+        "separately_repairable_class_intersection": 2,
+        "compatibility_rank": 0
+      },
+      "point_comparison_after_upper": {
+        "rank": 2,
+        "units": 1,
+        "classes": 1,
+        "unit_excess_upper": 1,
+        "class_excess_upper": 1,
+        "valuation_excess_upper": 0,
+        "total_excess_upper": 2
+      },
+      "all_unramified_elements_enumerated": 729,
+      "retained_source_grade": "GRH-dependent complete class presentation"
+    }
+  ]
+}

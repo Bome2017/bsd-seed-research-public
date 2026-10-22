@@ -1,0 +1,207 @@
+{
+  "paper": "The Selmer converse for elliptic curves at every prime (OpenAI, October 7, 2026; openai/math preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026; version note: only change from Sept-24-2026 version is the citation of the revised Goldfeld-density companion; grade IMPORTED_PREPRINT, unrefereed, AI-generated, no Lean formalization for BSD family 002)",
+  "main_theorems": [
+    {
+      "label": "Theorem 1.1 (thm:main) [The unrestricted low-corank Selmer converse]",
+      "statement": "\"For every elliptic curve $A_0/\\Q$, every prime $p$, and $r\\in\\{0,1\\}$, $s_p(A_0)=r \\Longrightarrow a(A_0)=\\rank_{\\Z}A_0(\\Q)=r, \\#\\Sha(A_0/\\Q)<\\infty$. There is no restriction on reduction type, complex multiplication, the residual representation, rational torsion, or rational isogenies.\" Here $s_p(A_0)=\\corank_{\\Z_p}\\Sel_{p^\\infty}(A_0/\\Q)$ and $a(A_0)=\\ord_{s=1}L(A_0,s)$. Following text: \"The finiteness conclusion concerns the entire Tate--Shafarevich group, not just its $p$-primary part. ... The theorem gives rank equality and finiteness; it does not evaluate the leading coefficient in the refined Birch--Swinnerton-Dyer formula.\"",
+      "hypotheses": "A_0/Q elliptic curve; p any prime; full p-power Selmer group (local Kummer conditions at every place) has Z_p-corank exactly r in {0,1}. No other hypothesis stated. Proof additionally relies on: (i) the 2-converse and (ii) Goldfeld analytic twist-density theorem, both imported as 'established' from the openai/math manuscript OpenAIGoldfeldDensity2026 (Section 2.1); (iii) p-parity theorem (Dokchitser-Dokchitser); (iv) modularity, Gross-Zagier, Kolyvagin in rank 0/1.",
+      "location": "build/sections/01-introduction.tex lines 25-44; proof concluded in build/sections/09-extension-extraction.tex lines 599-610"
+    },
+    {
+      "label": "Corollary 10.1 (cor:sylvester) [Sylvester's positive prime cases]",
+      "statement": "\"Let $\\ell$ be a rational prime with $\\ell\\equiv4,7,8\\pmod 9$, and equip the projective cubic $E_\\ell: X^3+Y^3=\\ell Z^3$ with origin $(1:-1:0)$. Then $\\ord_{s=1}L(E_\\ell,s)=\\rank_\\Z E_\\ell(\\Q)=1, \\#\\Sha(E_\\ell/\\Q)<\\infty$. In particular, there are $x,y\\in\\Q$ such that $x^3+y^3=\\ell$.\"",
+      "hypotheses": "ell prime, ell = 4,7,8 mod 9. Proof uses Theorem 1.1 at p=3 (additive prime for E_ell), Satge 1987 Prop. 1.2 (dim_{F_3} S = dim S' = 1 for D=ell) and his equation (2), and Dasgupta-Voight 2018 eq. (1.1.3) for root number -1. Not verified here that Satge's Prop 1.2 covers all three residue classes as cited.",
+      "location": "build/sections/10-sylvester-cube-sums.tex lines 26-118"
+    },
+    {
+      "label": "Theorem 2.1 (thm:two-converse-input) [Established converse at 2] -- IMPORTED, not proved here",
+      "statement": "\"If $E/\\Q$ is any elliptic curve and $\\corank_{\\Z_2}\\Sel_{2^\\infty}(E/\\Q)=r\\in\\{0,1\\}$, then $\\ord_{s=1}L(E,s)=\\rank E(\\Q)=r$, $\\Sha(E/\\Q)$ is finite.\" \"These are \\citet[Theorems~1.1 and~1.2]{OpenAIGoldfeldDensity2026}.\"",
+      "hypotheses": "2-power Selmer corank in {0,1}. Source: openai/math manuscript 'Goldfeld's analytic density conjecture and the 2-converse for elliptic curves' Theorem 1.1 (unrefereed, AI-generated).",
+      "location": "build/sections/02-reduction.tex lines 38-57"
+    },
+    {
+      "label": "Theorem 2.2 (thm:twist-density-input) [Established analytic twist-density theorem] -- IMPORTED, not proved here",
+      "statement": "\"For any elliptic curve $E/\\Q$, among nonzero squarefree integers $d$ ordered by $|d|$, the quadratic twists $E^{(d)}$ of analytic rank zero and one each have density $1/2$. In particular the exceptional set of twists of analytic rank at least two has density zero.\"",
+      "hypotheses": "None beyond E/Q. Source: OpenAIGoldfeldDensity2026 Theorem 1.2, which per that manuscript's own introduction 'follows by combining the pointwise 2-converse with Smith's distribution of full 2-power Selmer coranks [Smith2025, Theorem 1.1]'. Used here only through its density-zero exceptional-set consequence in positive-density congruence classes (Lemma 2.3).",
+      "location": "build/sections/02-reduction.tex lines 48-61"
+    }
+  ],
+  "general_results": [
+    {
+      "label": "Eq. (2.root-sign) via p-parity theorem",
+      "statement": "\"The $p$-parity theorem \\citep[Theorem~1.4]{DokchitserDokchitser2010} gives the global root number $w(A_0)=(-1)^r$\" (with r = s_p(A_0)).",
+      "hypotheses": "A_0/Q any elliptic curve, p any prime; imported (Dokchitser-Dokchitser 2010, Annals).",
+      "location": "build/sections/02-reduction.tex lines 66-71",
+      "kind": "parity",
+      "relevance": "none (lab already has w(E)=+1 and s_p(E) even; consistent, nothing new)"
+    },
+    {
+      "label": "Lemma 2.3 (lem:auxiliary-fields)",
+      "statement": "\"There are coprime negative odd fundamental discriminants $D,D'$ such that every prime dividing $2Np$ splits in both quadratic fields, $(D/|D'|)=1$, and each of $A_0^D,A_0^{D'},A_0^{DD'}$ has the smallest analytic rank permitted by its sign. They may also be chosen so that $K=\\Q(\\sqrt D)$, $F=\\Q(\\sqrt{DD'})$, $L=\\Q(\\sqrt D,\\sqrt{D'})$ satisfy: $L/F$ is CM and unramified at every finite prime, $L$ has only the roots of unity $\\{\\pm1\\}$, and $L$ does not contain the CM field of $A_0$ if $A_0$ has CM.\"",
+      "hypotheses": "A_0/Q any elliptic curve, p odd. Proof depends entirely on imported Theorem 2.2 (OAI Goldfeld density).",
+      "location": "build/sections/02-reduction.tex lines 78-132",
+      "kind": "twists",
+      "relevance": "none (requires p split in the auxiliary K; existence only, non-effective; the lab's K=Q(sqrt-7) has 3, 2243, 5843 inert)"
+    },
+    {
+      "label": "Lemma 3.1 (lem:base-green) one-sided Greenberg Selmer spaces over K",
+      "statement": "\"If the compact Selmer line of $W/K$ has nonzero localization, then $H^1_{\\Gr}(K,W)=H^1_{\\overline{\\Gr}}(K,W)=0$. The only remaining possibility is the following strict case in the $V$ summand: $r=1$, and the compact Selmer space is generated by a class $a$ such that $a^c=a$ and every localization of $a$ is zero. In that case $H^1_{\\Gr}(K,V)=\\langle a,h\\rangle$, $H^1_{\\overline{\\Gr}}(K,V)=\\langle a,h^c\\rangle$...\"",
+      "hypotheses": "Setting of Prop 2.4: dim H^1_f(K,V)=1 (i.e. r in {0,1}, auxiliary twists chosen); p odd split in K; Poitou-Tate duality. Not rank-free in substance (needs the compact Selmer line to be 1-dimensional).",
+      "location": "build/sections/03-tame-deformation.tex lines 63-119",
+      "kind": "control",
+      "relevance": "none (needs dim H^1_f(K,V)=1; for E/K the dimension is 2)"
+    },
+    {
+      "label": "Proposition 3.2 (prop:tame-primes)",
+      "statement": "\"There are rational primes $q_i\\notin S$, split completely in $L$, distinguished places $\\mathfrak q_i$ of $K$ above them, cyclic $p$-quotients $\\Delta_i$ of the ring class group of conductor $q_i$, and surjections $\\ell_i:G_K\\to\\Delta_i\\simeq\\Z/p^{n_i}\\Z$, $n_i\\to\\infty$, with: (i) $\\ell_i$ unramified outside the pair above $q_i$, surjective on inertia at $\\mathfrak q_i$, $\\ell_i^c=-\\ell_i$, $\\ell_i|_{G_{K_s}}=0$ for $s\\in S$; (ii) $v_p(q_i-1)-n_i$ bounded, ring class field of conductor $q_i$ unramified at $p$ with bounded $p$-part of local degree; (iii) Frobenius at $\\mathfrak q_i$ tends to $\\gamma\\in G_L$ with $\\eps(\\gamma)=1$, $\\det(V(\\gamma)-1)\\ne0$, $\\cC(\\gamma)$ not a root of unity...\"",
+      "hypotheses": "Any A_0/Q (CM or not; uses Serre open image or CM torus), K imaginary quadratic with p split, L biquadratic CM; Chebotarev.",
+      "location": "build/sections/03-tame-deformation.tex lines 130-235",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 3.6 (lem:uniform-local-log) uniform local logarithm estimate",
+      "statement": "\"Fix an integer $d_0\\ge0$. There is a constant $c$ such that, for every finite unramified extension $E/\\Q_p$ with $v_p([E:\\Q_p])\\le d_0$, $\\log_{A_0,p}(A_0(E))\\subseteq p^{-c}\\cO_E$. If $P\\in A_0(E)$ and the Kummer class of $p^C P$ vanishes in $H^1(E,A_0[p^n])$, then $v_p(\\log_{A_0,p}P)\\ge n-C-c$.\"",
+      "hypotheses": "A_0/Q any elliptic curve, any reduction type at p ('including at bad reduction').",
+      "location": "build/sections/03-tame-deformation.tex lines 688-733",
+      "kind": "local_factor",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 3.7 (prop:heegner-log) weighted Heegner logarithm vanishing",
+      "statement": "\"At the distinguished place over $p$, and for either sign, $\\sum_{g\\in\\mathcal G_i}(1+t)^{\\pm\\ell_i(g)}\\log_{A_0,p}(y_i^g)\\to0\\pmod{t^{b_*}}$\" (raw sums over Gal(H_i/K) of logs of conductor-q_i Heegner points, split Heegner norm relation with augmentation the Kummer class of $(a_{q_i}-2)y$).",
+      "hypotheses": "Contradiction hypothesis: conductor-one Heegner trace y torsion in A_0(K); Heegner hypothesis (all primes of N split in K); strict-case analysis uses Manin-Drinfeld and the Fricke involution.",
+      "location": "build/sections/03-tame-deformation.tex lines 746-862",
+      "kind": "heegner_theta",
+      "relevance": "none (conditional on y torsion; split-prime Heegner setting, not the lab's inert-prime level-raised theta elements of lemma TH)"
+    },
+    {
+      "label": "Lemma 4.1 (lem:split-u-operators) and Proposition 4.3 (prop:theta-family)",
+      "statement": "Lemma: \"Every test (4.p-pivot-test) satisfies $U_2\\Phi_p=p^2\\Phi_p$ and $U_3\\Phi_p=p^2\\Phi_p$.\" Proposition: \"For the characters $\\eta=\\cC^m\\nu_i$ and every sufficiently large positive $m$ on the prescribed branch, the theta construction gives holomorphic algebraic forms $\\Theta_{i,m}$ of weight $(m,m,1;-1)$ [on U(3,1) at both real places of F]. In the canonical ordinary monomial-dual lattice their coefficients have a common bounded denominator... spherical parameters $(\\pi\\otimes\\eta)\\oplus|\\cdot|^{-1/2}\\oplus|\\cdot|^{1/2}$, and at both distinguished $p$-places $p^{-2}U_2\\Theta_{i,m}=\\Theta_{i,m}$, $p^{-2}U_3\\Theta_{i,m}=\\Theta_{i,m}$.\" \"The operator calculation allows arbitrary reduction of $A_0$ at $p$.\"",
+      "hypotheses": "A_0 modular (BCDT), its weight-2 form base-changed to real quadratic F and JL-transferred to the definite quaternion algebra ramified only at the two real places; p split in L; Weil representation (Kudla 1994); unary moment bounds (Lemma 4.4) via Katz/Andreatta-Goren/Hida-Tilouine.",
+      "location": "build/sections/04-theta-construction.tex lines 221-240, 286-303, 360-377",
+      "kind": "heegner_theta",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 5.2 (lem:cleared-period-comparison) [Cleared period comparison]",
+      "statement": "\"There are group-ring polynomial factors $A_i(m),B_i(m)$ with uniformly bounded coefficients such that $A_i(m)S_i(m)^2=B_i(m)P_{0,i}(m)^2P_{1,i}(m)^2$. For each $i$, after taking $m$ sufficiently close to zero on its branch, $A_i(m)$ has nonzero augmentation whose valuation is bounded above by a constant independent of $i$... The identity holds in the full characteristic-zero tame group algebra, including at zeros of the global central $L$-values.\"",
+      "hypotheses": "Rallis inner product (Yamana 2011 Thms 2.1(i),2.2(i); Gan-Qiu-Takeda 2014 Thm 7.1) and Waldspurger 1985 toric period formula; Jacquet-Langlands local functional equations; raw conductor-q toric periods; p split.",
+      "location": "build/sections/05-constant-terms.tex lines 193-207, proof 341-597",
+      "kind": "padic_L",
+      "relevance": "none"
+    },
+    {
+      "label": "Eq. (5.katz-abelian-log): BDP-type inverse-theta primitive and abelian logarithm, extended to p | N",
+      "statement": "\"For a path from a compatible cusp $c$ to $x$, functoriality ... now give $F_0(x)=\\kappa^{-1}\\sum_r e_rp^{-r}\\log_{A_0,p}(\\varphi(\\mathrm{Fr}^{r}x))$\" where $F_0=\\theta^{-1}f_0^{[p]}$ on the ordinary locus of the 'good tame modular curve' and $E_p(X)=\\sum e_rX^r$ is the depletion polynomial. \"The passage from raised CM values to a Heegner logarithm follows the $p$-adic period method of BDP ... Their construction is made under $p\\nmid N$. We give the primitive and logarithm comparison for the reduction types occurring here.\" \"No ordinary hypothesis on $A_0$ at $p$ has entered this argument.\"",
+      "hypotheses": "A_0 modular; p arbitrary (split in K); Berkovich-Coleman integration (Katz-Rabinoff-Zureick-Brown 2016); Manin-Drinfeld; 'canonical $\\Gamma_0(p^{\\ord_pN})$ section and canonical-subgroup Frobenius maps' used to read the p-depleted form on the tame ordinary locus when p | N.",
+      "location": "build/sections/05-constant-terms.tex lines 224-337",
+      "kind": "additive_prime",
+      "relevance": "none (methodological only; split-p Heegner setting, no theorem the lab chains need)"
+    },
+    {
+      "label": "Lemma 6.3 (lem:simultaneous-unary-nonvanishing)",
+      "statement": "\"The fixed finite-order parts of $\\xi_1,\\xi_2$ can be chosen, preserving $\\xi_1\\xi_2=\\cC^md_0$, so that suitable permitted local tests give $T_j(d_{j0})\\ne0$ at positive classical cut weights $d_{10},d_{20}$. The weights can be chosen so that $d_{10}+d_{20}+1$ is divisible by every prescribed torsion order and a prescribed sufficiently large fixed power of $p$.\"",
+      "hypotheses": "Imports Burungale-He-Tian-Ye 2026 (arXiv 2508.19706v2) Theorem 1.1, Corollary 4.20, Lemma 4.12, Section 4.4.3 (characteristic-zero nonvanishing of self-dual Hecke L-values over the CM field L along an anticyclotomic Z_ell-extension) and Borade et al. 2025 Thm 3.5, Thm 4.2, Prop 4.3 (epsilon dichotomy / line theta lift criterion).",
+      "location": "build/sections/06-nonconstant-coefficient.tex lines 192-299",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 6.6 (prop:bounded-content) [The combined theta output]",
+      "statement": "\"There exist positive integers $m_i\\to\\infty$, tending $p$-adically to zero on the prescribed torsion branch, and theta forms $\\Theta_i$ of weight $(m_i,m_i,1;-1)$ with: (i) uniform denominator bound in the full tame group algebra; (ii) all constant Fourier--Jacobi coefficients tend to zero through degree $b_*-1$ of the tame variable; (iii) at augmentation, a nonconstant Fourier--Jacobi coefficient has an integral-frame evaluation of valuation bounded above independent of $i$; (iv) at both places above $p$ the operators $p^{-2}U_2,p^{-2}U_3$ have value 1 ...; (v) at split good spherical places the Hecke parameters are $(\\pi\\otimes\\eta)\\oplus|\\cdot|^{-1/2}\\oplus|\\cdot|^{1/2}$.\"",
+      "hypotheses": "Assumes y torsion (via Prop 5.1); all preceding constructions.",
+      "location": "build/sections/06-nonconstant-coefficient.tex lines 506-553",
+      "kind": "heegner_theta",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 7.6 (prop:cusp-congruence) [Classical cusp congruence]",
+      "statement": "\"After reducing $M_i$ by a fixed constant and relabeling it, there are homomorphisms of $\\cO$-algebras $\\lambda_i^0:T_i^0\\to(\\cO/p^{M_i}\\cO)[t]/(t^{b_*})$, $M_i\\to\\infty$, which send every indicated operator to its theta comparison eigenvalue, in the full truncated ring. The weights are (7.shifted-weight), and the two normalized $p$-operators have value $1$ at each distinguished place.\"",
+      "hypotheses": "Integral PEL compactifications (Lan 2013 Thm 6.4.1.1, Sect 7.1.2; Lan 2018 ordinary loci), Katz Serre-Tate coordinates, Hasse-invariant lifting, Serre vanishing; the theta output of Prop 6.6 (hence y torsion).",
+      "location": "build/sections/07-cusp-lifting.tex lines 551-634",
+      "kind": "level_raising",
+      "relevance": "none"
+    },
+    {
+      "label": "Theorem 8.3 (thm:racsd-galois-input) [Regular algebraic conjugate-self-dual Galois input] -- IMPORTED",
+      "statement": "\"Let $\\Pi$ be a regular algebraic conjugate-self-dual cuspidal representation of $\\GL_d(\\A_L)$ and fix $\\iota$. There is a continuous semisimple representation $r_p(\\Pi)$ of $G_L$, with $r_p(\\Pi)^c\\simeq r_p(\\Pi)^\\vee\\eps^{1-d}$. It is de Rham above $p$... At every finite place $w$, $\\iota\\WD(r_p(\\Pi)|_{G_{L_w}})^{F-ss}\\preceq\\operatorname{rec}_w(\\Pi_w\\otimes|\\det|_w^{(1-d)/2})$.\"",
+      "hypotheses": "BGHT 2011 Thm 1.2, Chenevier-Harris 2013 Thm 3.2.3, BLGGT 2014 Thm 1.1; applied after Labesse 2011 Cor 5.3 CM base change (Prop 8.2) to the U(3,1) cusp forms.",
+      "location": "build/sections/08-galois-parameters.tex lines 273-306; Prop 8.4 (galois-package) lines 308-405",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 9.6 (prop:extension-extraction) [Extension extraction]",
+      "statement": "\"There is an injective $R_b$-linear map $\\Hom_{R_b}(D_{fy}\\otimes_{T,\\lambda}R_b,R_b)\\hookrightarrow\\GrH(L,V\\otimes\\psi^{\\pm1})$. Its source has $R_b$-length at least $b$.\" Together with Prop 3.9 (prop:green-length): \"$\\length_{R_b}\\GrH(L,V\\otimes\\psi^{\\eta})=0$ outside the strict case, $\\le2$ in the strict case\" this yields the contradiction.",
+      "hypotheses": "Entire chain under the contradiction hypothesis y torsion; ultraproduct limiting algebra T, Fitting ideal vanishing (Cor 9.5), Bellaiche-Chenevier style generalized matrix algebra.",
+      "location": "build/sections/09-extension-extraction.tex lines 527-597; build/sections/03-tame-deformation.tex lines 623-677",
+      "kind": "euler_system",
+      "relevance": "none"
+    },
+    {
+      "label": "Appendix Lemma A.1 (lem:global-torus-factor) and Lemma A.2 (lem:nonstandard-change-characteristic)",
+      "statement": "A.1: for K=F_q(X) and tori T_1,T_2 with isomorphic rational character modules, \"$\\frac{c_{\\eta_1}(T_1)/b(T_1)}{c_{\\eta_2}(T_2)/b(T_2)}=\\frac{I(T_1)}{I(T_2)}$\". A.2: \"Suppose the nonstandard weighted fundamental lemma holds over local fields of sufficiently large positive characteristic for their unramified forms... Then it holds over characteristic-zero local fields of sufficiently large residue characteristic...\"",
+      "hypotheses": "Function-field Tamagawa numbers (Geisser-Suzuki 2022), Ngo 2010, Chaudouard-Laumon 2012, Cluckers-Hales-Loeser 2011 transfer principle; refers throughout to the undated author-hosted draft HalleckDubeWFLDraft (Thms 16.5, 17.7, Cor 17.11). The appendix is described in the introduction as 'separate' and is not cited anywhere in Sections 2-10.",
+      "location": "build/sections/10-nonstandard-transfer.tex lines 24-64, 292-307",
+      "kind": "other",
+      "relevance": "none"
+    }
+  ],
+  "external_inputs": [
+    {"name": "Dokchitser-Dokchitser 2010, Thm 1.4 (p-parity)", "how_used": "w(A_0)=(-1)^{s_p(A_0)} (eq. root-sign, 02-reduction.tex l.66-71)", "black_box": true},
+    {"name": "Gross-Zagier 1986; Kolyvagin 1990; BCDT 2001", "how_used": "Rank 0/1 analytic-to-arithmetic theorems and Heegner norm relations; non-torsion Heegner trace y implies Thm 1.1 (Prop 2.4); CM point conventions in 03-tame-deformation.tex", "black_box": true},
+    {"name": "Serre 1972 (open image), Serre 1968 (CM / locally algebraic characters)", "how_used": "Existence of gamma with det(V(gamma)-1) != 0 (Prop 3.2); absolute irreducibility of V|G_L; rank-one constituent is algebraic Hecke character (Lemma 9.4)", "black_box": true},
+    {"name": "Manin 1972 / Drinfeld 1973", "how_used": "Images of cusps are torsion (strict-case conjugation identity, Prop 3.7; cusp constant in eq. katz-abelian-log)", "black_box": true},
+    {"name": "Bertolini-Darmon-Prasanna 2013 (Intro, Prop 3.24)", "how_used": "Method for passing from raised CM values via theta^{-1} to Heegner logarithm; manuscript extends it to p | N itself (05-constant-terms.tex l.224-337)", "black_box": false},
+    {"name": "Katz-Rabinoff-Zureick-Brown 2016 (Def 3.5, Cor 3.18, Ex 3.11)", "how_used": "Berkovich-Coleman integration equals abelian logarithm in good and (split) multiplicative reduction", "black_box": true},
+    {"name": "Katz 1976 Sect 5.2; Katz 1978 Cor 2.6.25; Andreatta-Goren 2005 (Thm 6.10, Sect 7.2, 11.1-11.7, 15.21-15.24); Hida-Tilouine 1993 Sect 1.4 Thm 1.2; Katz 1981 Serre-Tate", "how_used": "Expansion principle, Katz differentiation, unit-root vs CM splitting, Serre-Tate coordinates (unary moment bound Lemma 4.4; integral trace Lemma 7.4)", "black_box": true},
+    {"name": "Weil 1964; Kudla 1994; Rallis 1984; Yamana 2011 (Thms 2.1(i), 2.2(i)); Gan-Qiu-Takeda 2014 (Thm 7.1, Sects 11.3-11.6); Waldspurger 1985 (II.7, III.3 Prop 7)", "how_used": "Weil representation, Siegel-Weil/Rallis inner product formula and Waldspurger toric period formula for the cleared period comparison (Lemma 5.2)", "black_box": true},
+    {"name": "Jacquet-Langlands 1970 (Thm 13.1(iii),(v); Thm 2.18; Prop 3.6, Cor 3.7); Arthur-Clozel 1989; Newton 2015 (Thm 1.1, Rem 1.2)", "how_used": "Local matrix/Whittaker functional equations; quaternionic transfer and real quadratic base change; multiplicity one for the binary lift", "black_box": true},
+    {"name": "Burungale-He-Tian-Ye 2026 (arXiv 2508.19706v2; Thm 1.1, Cor 4.20, Lemma 4.12, Sect 4.4.3)", "how_used": "Simultaneous characteristic-zero nonvanishing of self-dual Hecke L-values along an anticyclotomic Z_ell-tower (Lemma 6.3) -- recent arXiv preprint", "black_box": true},
+    {"name": "Borade-Franzel-Girsch-Yao-Yu-Zelingher 2025 (Selecta; Thm 3.5, Thm 4.2, Prop 4.3)", "how_used": "Epsilon dichotomy and line-theta-lift criterion giving nonzero unary periods (Lemma 6.3)", "black_box": true},
+    {"name": "Tadic 1986 (Thm 7.5); Zelevinsky 1980 (Thms 6.1, 9.7, Prop 8.5); Bernstein-Zelevinsky 1977 (Lemma 2.12); Bernstein-Deligne-Kazhdan 1986; Casselman 1995", "how_used": "Unitary dual bounds, segment classification, geometric lemma, Jacquet modules (Lemmas 6.4, 8.6, 8.7, 9.4; Prop 8.8)", "black_box": true},
+    {"name": "Lan 2013 (Thm 6.4.1.1, Sect 7.1.2); Lan 2018 (Def 3.2.2.9, Props 5.2.3.3, 5.2.3.18, 4.2.1.34, Cor 4.2.1.36, Thm 8.2.1.3); Hartshorne III.5.2, 5.3, 11.1", "how_used": "Integral toroidal/minimal compactifications, ordinary loci, Fourier-Jacobi expansions, Serre vanishing and formal functions in cusp lifting (Section 7)", "black_box": true},
+    {"name": "Labesse 2011 (CM base change, Cor 5.3, Sects 4.8, 5.1); Clozel-Delorme 1990; Salamanca-Riba 1988 (Thm 1.2); Adams-Johnson 1987 (Thm 8.2, Lemma 8.8); Moeglin-Waldspurger 1989; KMSW 2014 (Sect 1.6.3)", "how_used": "Simultaneous automorphic transfer from U(3,1) to GL_4(A_L) with full infinitesimal character and local base change at split places (Prop 8.2); 'does not use the weighted fundamental lemma'", "black_box": true},
+    {"name": "BGHT 2011 (Thm 1.2); Chenevier-Harris 2013 (Thm 3.2.3); BLGGT 2014 (Thm 1.1); Colmez-Fontaine 2000", "how_used": "Galois representations for RACSDC representations with local-global compatibility (Thm 8.3); weakly admissible subobjects for Hodge-Newton contacts (Lemma 8.5)", "black_box": true},
+    {"name": "Bellaiche-Chenevier 2009 (Sects 1.3-1.5); Amitsur-Levitzki 1950; Shirshov 1957; NSW 2008 (Ch X, 8.6); Milne 1986", "how_used": "Generalized matrix algebra corners, polynomial identity bounding module generators, Galois finiteness and duality (Section 9, Section 3)", "black_box": true},
+    {"name": "Satge 1987 (Prop 1.2, Lemma 1.1, eqs (1),(1'),(2)); Dasgupta-Voight 2018 (eq (1.1.3), Thm 1.2.1)", "how_used": "3-isogeny Selmer dimensions dim S = dim S' = 1 and rank formula rank = 1 - a - b; root number -1 for ell = 4,7,8 mod 9 (Cor 10.1)", "black_box": true},
+    {"name": "Halleck-Dube, 'The Weighted Fundamental Lemma for Non-Split Groups' (undated author-hosted draft, 185 pp., identified by SHA-256); Ngo 2010; Chaudouard-Laumon 2012; Geisser-Suzuki 2022; Cluckers-Hales-Loeser 2011", "how_used": "Appendix only (measure comparison and change of characteristic for nonstandard weighted orbital integrals); not invoked in the main proof", "black_box": true},
+    {"name": "Context-only citations: Skinner-Urban 2014, Skinner 2020 Thm B, W. Zhang 2014 Thm 1.4, BCS 2025, CGLS 2022, Keller-Yin 2024 (Conj A), Keller-Yin semistable 2024, Castella-Wan 2024, Castella 2024 Thms 1.1/1.3, BSTW 2024 Thms 1.6/1.10, BCST 2022 Thm A, Burungale-Tian 2026 (Annals), Kriz 2022 preprint, Yin 2026 (two arXiv preprints), Burungale-Tian 2026 Sylvester (arXiv), Kato 2004, Coates-Wiles 1977, Castella-Liu-Wan 2022 + undated addendum, Ribet 1976, Wiles 1990", "how_used": "Cited in the introduction for history/comparison only; none of their theorems is used in the proof", "black_box": true}
+  ],
+  "internal_dependencies": [
+    {
+      "oai_paper": "Goldfeld's analytic density conjecture and the 2-converse for elliptic curves (OpenAIGoldfeldDensity2026; October 7, 2026 edition, previous Sept 23, 2026; the Oct-7 revision is stated to change only citations)",
+      "what_used": "Theorem 1.1 (the 2-converse: c_2(E) in {0,1} implies a(E)=r(E)=c_2(E) and Sha finite) -- used verbatim as Theorem 2.1 to settle p=2; Theorem 1.2 (Goldfeld analytic density: analytic ranks 0 and 1 each density 1/2 among signed squarefree d) -- used as Theorem 2.2 to choose auxiliary discriminants D, D' (Lemma 2.3). The Goldfeld manuscript's Theorem 1.2 in turn rests on its own Theorem 1.1 plus Smith 2025 Thm 1.1 (2-Selmer distribution); that manuscript also cites this one as a 'subsequent companion' (mutual cross-citation, not logical circularity as far as checked). Not withdrawn per history.md; no Lean formalization.",
+      "location": "build/sections/01-introduction.tex lines 126-130; build/sections/02-reduction.tex lines 36-61 ('We use the following two established results... These are \\citet[Theorems~1.1 and~1.2]{OpenAIGoldfeldDensity2026}')"
+    }
+  ],
+  "self_declared_gaps": [
+    "Introduction l.42-44: 'The theorem gives rank equality and finiteness; it does not evaluate the leading coefficient in the refined Birch--Swinnerton-Dyer formula.'",
+    "Section 2.1 l.36-61: the prime 2 and the twist-density input are not proved; they are imported as 'established' from the companion openai/math manuscript OpenAIGoldfeldDensity2026 (Theorems 1.1, 1.2).",
+    "05-constant-terms.tex l.226-228: BDP's 'construction is made under $p\\nmid N$. We give the primitive and logarithm comparison for the reduction types occurring here' -- the extension to p | N is the manuscript's own, unrefereed.",
+    "05-constant-terms.tex l.594-595: 'We do not assert that the inverse of $A_i$ is a bounded measure on the entire finite group'; l.686-687: 'No assertion about bounded character idempotents or bounded inverses on the full group ring is required'; l.203-204: 'The required neighborhood of zero may depend on $i$.'",
+    "03-tame-deformation.tex l.239: 'Fix a nonprincipal ultrafilter' -- the whole deformation/limiting argument is built on ultralimits ('admissible cochains', Def 3.4), a non-constructive framework; l.498-500: 'Only finitely many fixed primitives were chosen; no bounded contracting homotopy on all cochains is being asserted.'",
+    "07-cusp-lifting.tex l.524-525: 'Neither its rank nor the size of the model field is required to be bounded as $i$ varies'; l.567-568: 'No reduction of the operator algebra is asserted here.'",
+    "08-galois-parameters.tex l.138-139: of Labesse Cor 5.3, 'We do not invoke its additional conclusion requiring cuspidality of the transfer'; eq. (8.four-dimensional-compatibility) 'gives only monodromy domination', so actual monodromy must be controlled separately (Lemma 8.6).",
+    "06-nonconstant-coefficient.tex l.281: 'Only characteristic-zero nonvanishing is used here' (from the mod-ell nonvanishing preprint BHTY2026).",
+    "Appendix l.282-283: 'The calculation does not assert a generic isomorphism $J_1^0\\simeq J_2^0$ or constitute a new proof of those geometric results'; Lemma A.2 is conditional ('Suppose the nonstandard weighted fundamental lemma holds...') and rests on an undated author-hosted draft.",
+    "Section 10 l.16-24: the cube-sum cases 'have also been treated by direct Heegner-point methods' (Yin 2026, Burungale-Tian 2026); the corollary is presented as an illustration, not a new result."
+  ],
+  "applicability": {
+    "seed_E": "FAILS at every prime (kill test K-RANK2). Theorem 1.1 requires s_p(E) = corank Sel_{p^infty}(E/Q) in {0,1}; for the seed, rank E(Q) = 2 so s_p(E) >= 2 for every p (s_2 = s_3 = 2 exactly, since Sha[2^infty]=0 and Sha[3^infty] = (Z/3)^2 is finite). Nothing in the manuscript addresses corank >= 2, and the manuscript itself disclaims the leading coefficient, so it offers nothing for FIN, ORDER9 or Q36. The intermediate Heegner/theta machinery is built over an auxiliary imaginary quadratic K in which every prime of 2Np splits and is conditional on a contradiction hypothesis; it does not transfer to the lab's K = Q(sqrt-7) (3, 2243, 5843 inert) or to lemma TH.",
+    "twist_Em7": "Hypotheses hold vacuously (s_p(E^{-7}) = 0 for every p) but the conclusion -- a(E^{-7}) = rank = 0 and Sha(E^{-7}/Q) finite -- is ALREADY PROVED in the lab from L(E^{-7},1) != 0 (PROVED_COMPUTER_ASSISTED) via Gross-Zagier-Kolyvagin/Kato. The converse runs in the wrong direction for the open obligation #Sha(E^{-7}/Q) (exact order or Sha[p^infty](E^{-7}) = 0 at named primes), which it does not give. No gain.",
+    "by_prime": "p=2: theorem would apply with no reduction hypothesis (E has I1* additive at 2) but only via the imported OAI 2-converse; s_2(E)=2 -> hypothesis fails; for E^{-7} conclusion already known. p=3 (I2 nonsplit mult.): no reduction restriction, s_3(E)=2 -> fails; Sha[3^infty] already settled by the lab. p=2243 (I1 split mult.), p=4547 (type III additive, pot. supersingular), p=5843 (I2 nonsplit mult.): the theorem has no reduction-type hypothesis, but s_p(E) >= 2 -> fails at each; nothing bears on Sha[p^infty](E)=0, on B.18 or on the plectic/lemma-TH route (which needs p inert in K and a level-raised theta element, outside this manuscript's split-prime setting). Good ordinary and good supersingular p: same failure (s_p(E) >= 2); no statement about Sha[p^infty] for corank >= 2 and no cost reduction for Kurihara witnesses or Brandt enumeration. The only prime-specific residue of value is methodological (BDP-type logarithm formula at p | N, eq. 5.katz-abelian-log), unrefereed and not needed by any lab chain."
+  },
+  "red_flags": [
+    "Whole theorem depends on another unrefereed AI-generated openai/math manuscript (OpenAIGoldfeldDensity2026) for BOTH the prime 2 and the auxiliary-field selection at every odd prime; that manuscript in turn rests on its own novel 'pointwise 2-converse' plus Smith's 2-Selmer distribution. Neither manuscript has a Lean formalization (BSD family 002 has none). The two manuscripts cite each other within the same release (not shown to be logically circular, but the chain is entirely internal to the release).",
+    "Appendix (10-nonstandard-transfer.tex) on the nonstandard weighted fundamental lemma is never used: the introduction calls it 'a separate normalized global measure comparison' and Lemma 8.1 states Labesse's argument 'does not use the weighted fundamental lemma'. It relies on an undated, author-hosted 185-page draft (HalleckDubeWFLDraft, cited by SHA-256 only). A dangling appendix citing an unpublished draft suggests an abandoned earlier proof route left in the text.",
+    "Novel, unprecedented proof technology at the core: 'admissible cochains' defined as p-adic ultralimits of finite-stage cochains along a nonprincipal ultrafilter over a sequence of tame primes, a truncated Artin 'tame ring' R_b = k[t]/(t^b) with character psi = (1+t)^ell built from ring-class characters of growing p-power order, an ultraproduct Hecke algebra T = (prod_U T_i)_q^h, and a length comparison 0 or <= 2 versus >= b_* in {1,3}. Lemma 3.5 (admissible H^1 = ordinary H^1) and Lemma 9.3 (finite-value admissibility) carry the whole weight; no published antecedent is cited for this framework and it cannot be checked without a full audit.",
+    "Extension of the BDP p-adic logarithm method to p | N (05-constant-terms.tex l.224-337) is asserted in a few sentences: the primitive F_0 = theta^{-1} f_0^{[p]} is built on 'the completed ordinary locus of the good tame modular curve' using a 'canonical Gamma_0(p^{ord_p N}) section and the canonical-subgroup Frobenius maps', while the modular parametrization phi lives on X_0(N); the passage between the tame-level curve and X_0(N) at additive p (e.g. p=3 for the cube-sum curves, exactly the case the Sylvester application needs) is not spelled out. Handwaving at a key step.",
+    "Heavy reliance on very recent or unpublished inputs: BHTY2026 (arXiv 2508.19706v2, Mar 2026) for simultaneous nonvanishing; Borade et al. 2025; Castella-Liu-Wan undated addendum; Kriz 2022 preprint; Yin 2026 and Burungale-Tian 2026 arXiv preprints (context). Lemma 6.3 depends on BHTY's exact sign and root-number statements (Lemma 4.12, Sect 4.4.3) whose applicability to the induced CM type on the biquadratic L is asserted, not checked here.",
+    "Prop 3.9 strict-case length bound (<= 2) rests on Lemma 3.8's Heisenberg-commutator modification of gamma making the obstruction pairing kappa != 0; this uses 'absolute irreducibility with End_G(V)=Q_p' and a central scalar in the image, with a CM/non-CM case split glossed in one sentence. Plausible but unverified; the whole contradiction hinges on b_* = 3 vs length <= 2.",
+    "Corollary 10.1 imports Satge 1987 Prop 1.2 as giving dim_{F_3} S = dim S' = 1 uniformly for ell = 4, 7, 8 mod 9 and an exact rank formula rank = 1 - a - b with Sha terms; the precise content of Satge's Prop 1.2 / eq (2) for all three classes could not be verified from the clone (no source available) -- treat as unverified import.",
+    "Abstract and Theorem 1.1 are consistent with each other; CONTENTS.md entry 002 ('The full BSD formula from low Selmer corank') advertises the whole family as giving full BSD for density-one twists, which goes beyond this manuscript's explicit disclaimer about leading coefficients -- family-level overclaim relative to this paper's own statement."
+  ],
+  "notes": "Scope: the ENTIRE manuscript was read (sections 01-10 and the appendix, main.tex, preamble, roadmap figure, references.bib, both READMEs, history.md). Verdict for the seed: the manuscript is a corank-<=1 converse theorem and therefore cannot apply to the rank-2 seed curve E at any prime (K-RANK2); for the twist E^{-7} its hypotheses hold but its conclusion is strictly weaker than what the lab already has from L(E^{-7},1) != 0, and it says nothing about #Sha(E^{-7}) or Sha[p^infty]. It contains no IMC, no Euler-system divisibility, no control theorem, no p-adic L-function interpolation formula, no parity result beyond citing Dokchitser-Dokchitser, no twist result beyond citing the OAI Goldfeld manuscript, no algorithmic/computational statement, and no local BSD-factor lemma usable by the lab. Grade of every statement: IMPORTED_PREPRINT at best; nothing here licenses FIN, ORDER9 or Q36, nor any Sha[p^infty] claim. The lab would have to (a) audit OpenAIGoldfeldDensity2026 and Smith 2025, (b) audit the ultralimit cohomology framework of Section 3 and the GU(3,1) theta/cusp-lifting/Galois chain of Sections 4-9, and (c) independently verify the p | N extension of BDP -- none of which is worthwhile for the seed since the hypothesis fails. Not Lean-formalized (lean/formalization.yaml has no entry for this family). JSON written to scratchpad/scan/map/selmer-converse.json."
+}

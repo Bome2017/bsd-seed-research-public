@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-10-20T17:49:33.560447+00:00",
+  "baseline_commit": "a53ed608514f741d2f5f6aa057283b58639dfeb7",
+  "branch": "research/state-sync-2026-10-04",
+  "return": "work/returns/BSD_CLASS_MAP_AND_PARTIAL_RELATIONS_2026-10-20",
+  "regular_files": 441,
+  "manifest_entries": 440,
+  "byte_identical_copy": true,
+  "archive": "work/returns/archives/BSD_CLASS_MAP_AND_PARTIAL_RELATIONS_2026-10-20.zip",
+  "archive_bytes": 3582338,
+  "archive_sha256": "46bcee1f34ea392296b2b2aa5d3a167be960376f62b7b2f369e1e462f4abfa47",
+  "report_sha256": "e0f0a246266e39dd32930203fc833173318a806ac40707f8734df1a77604f967",
+  "manifest_sha256": "2476519c8c8bcbaa42013da4f06ccfc88d1567703635770ceb075af8a64788bd",
+  "mathematical_status": "Complete faithful S-source upper2 on 1664n1 at3; conditional control Selmer consequence; selected partial-relation family excluded; no original-seed or uniform bound",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "scope": "software-assisted arithmetic under retained source/rank inputs; separate same-team review; no human or formal verification",
+  "publication_scope": "authorized lab branch only; no main merge or research-repository promotion"
+}

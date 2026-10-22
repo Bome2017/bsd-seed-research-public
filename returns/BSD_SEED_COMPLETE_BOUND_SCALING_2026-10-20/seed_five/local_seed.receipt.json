@@ -1,0 +1,13 @@
+{
+  "script": "local_seed.gp",
+  "sha256": "825ff1b6618eb9da3557fd9b86f7983921c85463fa394bbd7b17ad4da6b07456",
+  "marker": "SEED_LOCAL_BINDING_PASS",
+  "wall_cap_seconds": 15.0,
+  "started_unix": 1792519165.206537,
+  "elapsed_seconds": 0.027285501826554537,
+  "exit_code": 0,
+  "timed_out": false,
+  "accepted": true,
+  "stdout_sha256": "c42d7ecc5d8b505c2a57331ea37921f23d73b5225b9d4da9d24dfc25a9362953",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

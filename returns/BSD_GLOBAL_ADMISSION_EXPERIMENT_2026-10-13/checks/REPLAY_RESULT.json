@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "replayed_outputs": 11,
+  "all_outputs_byte_identical": true,
+  "sage_python": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/python3.13",
+  "python": "/opt/miniconda3/bin/python3",
+  "jobs": [
+    {
+      "directory": "explicit",
+      "runs": [
+        {
+          "script": "explicit/admission.py",
+          "exit_code": 0,
+          "seconds": 4.615,
+          "stderr": ""
+        },
+        {
+          "script": "explicit/verify_local.py",
+          "exit_code": 0,
+          "seconds": 0.062,
+          "stderr": ""
+        }
+      ],
+      "outputs": [
+        {
+          "path": "explicit/admission.json",
+          "byte_identical": true,
+          "original_sha256": "0066d26610fb4905ee1e3dfda595fb1c63e789f2ab209048e954a79d381e465d",
+          "replayed_sha256": "0066d26610fb4905ee1e3dfda595fb1c63e789f2ab209048e954a79d381e465d"
+        },
+        {
+          "path": "explicit/independent_local.json",
+          "byte_identical": true,
+          "original_sha256": "e2e764ad0d3047417e7f0a5554d7f757edbed51631f13b4f756ede31d2bc6f49",
+          "replayed_sha256": "e2e764ad0d3047417e7f0a5554d7f757edbed51631f13b4f756ede31d2bc6f49"
+        }
+      ]
+    },
+    {
+      "directory": "seed",
+      "runs": [
+        {
+          "script": "seed/principal_probe.py",
+          "exit_code": 0,
+          "seconds": 2.928,
+          "stderr": ""
+        },
+        {
+          "script": "seed/leak_repair.py",
+          "exit_code": 0,
+          "seconds": 2.936,
+          "stderr": ""
+        },
+        {
+          "script": "seed/line_source_probe.py",
+          "exit_code": 0,
+          "seconds": 2.913,
+          "stderr": ""
+        },
+        {
+          "script": "seed/verify_line_source.py",
+          "exit_code": 0,
+          "seconds": 0.054,
+          "stderr": ""
+        }
+      ],
+      "outputs": [
+        {
+          "path": "seed/principal_probe.json",
+          "byte_identical": true,
+          "original_sha256": "96574626a2cb15d8f1fd5c6196f833a5ef3e8997e01865e09187b1274104e555",
+          "replayed_sha256": "96574626a2cb15d8f1fd5c6196f833a5ef3e8997e01865e09187b1274104e555"
+        },
+        {
+          "path": "seed/leak_repair.json",
+          "byte_identical": true,
+          "original_sha256": "1ab6171427a2e7869ce3658adb0472b575a6ec5e5a78fd6bc6c1f793e564fdd2",
+          "replayed_sha256": "1ab6171427a2e7869ce3658adb0472b575a6ec5e5a78fd6bc6c1f793e564fdd2"
+        },
+        {
+          "path": "seed/line_source_probe.json",
+          "byte_identical": true,
+          "original_sha256": "ea8c96a385a07cab866af24e1e6b7a3a403f207552b78f1b84d8a809b089c92a",
+          "replayed_sha256": "ea8c96a385a07cab866af24e1e6b7a3a403f207552b78f1b84d8a809b089c92a"
+        },
+        {
+          "path": "seed/verify_principal.json",
+          "byte_identical": true,
+          "original_sha256": "740b2f2cf34c6b06c989cd35182e928f101ba814f6127327711b92670d42f19b",
+          "replayed_sha256": "740b2f2cf34c6b06c989cd35182e928f101ba814f6127327711b92670d42f19b"
+        },
+        {
+          "path": "seed/verify_line_source.json",
+          "byte_identical": true,
+          "original_sha256": "1cd24dafa495bb50f4a07b294af7153c2d814f707856caff5034bd521b7a85fb",
+          "replayed_sha256": "1cd24dafa495bb50f4a07b294af7153c2d814f707856caff5034bd521b7a85fb"
+        }
+      ]
+    },
+    {
+      "directory": "local_pairing",
+      "runs": [
+        {
+          "script": "local_pairing/check.py",
+          "exit_code": 0,
+          "seconds": 2.951,
+          "stderr": ""
+        },
+        {
+          "script": "local_pairing/line_source.py",
+          "exit_code": 0,
+          "seconds": 2.861,
+          "stderr": ""
+        }
+      ],
+      "outputs": [
+        {
+          "path": "local_pairing/RESULT.json",
+          "byte_identical": true,
+          "original_sha256": "e7e6584833c9e89bae4abcdffa25bcd7c446ec9de75e1720613357ffbc4a64e7",
+          "replayed_sha256": "e7e6584833c9e89bae4abcdffa25bcd7c446ec9de75e1720613357ffbc4a64e7"
+        },
+        {
+          "path": "local_pairing/LINE_SOURCE.json",
+          "byte_identical": true,
+          "original_sha256": "07026dde0bde3d9b387c4ee9a4762aec0b5931c6f08219eb3924541662cb0035",
+          "replayed_sha256": "07026dde0bde3d9b387c4ee9a4762aec0b5931c6f08219eb3924541662cb0035"
+        }
+      ]
+    },
+    {
+      "directory": "duality",
+      "runs": [
+        {
+          "script": "duality/local_row.py",
+          "exit_code": 0,
+          "seconds": 2.942,
+          "stderr": ""
+        },
+        {
+          "script": "duality/audit_quartic.py",
+          "exit_code": 0,
+          "seconds": 2.977,
+          "stderr": ""
+        }
+      ],
+      "outputs": [
+        {
+          "path": "duality/local_row.json",
+          "byte_identical": true,
+          "original_sha256": "7ed58c71019b8a8d37851ac79f86afeb1cd2cd07571d7b18d35cee9786678bb8",
+          "replayed_sha256": "7ed58c71019b8a8d37851ac79f86afeb1cd2cd07571d7b18d35cee9786678bb8"
+        },
+        {
+          "path": "duality/audit_quartic.json",
+          "byte_identical": true,
+          "original_sha256": "c3f0a440f81b3e9a196fa0bf3548e71500610f26f1f5186bf6cad50330025833",
+          "replayed_sha256": "c3f0a440f81b3e9a196fa0bf3548e71500610f26f1f5186bf6cad50330025833"
+        }
+      ]
+    }
+  ],
+  "scope": "Producer reruns plus separately implemented exact controls; not independent class-group software or formal verification."
+}

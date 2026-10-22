@@ -1,0 +1,25 @@
+{
+  "status": "SEALED",
+  "context_bindings": 12,
+  "source_pdf_bindings": 8,
+  "control_groups": 9,
+  "control_replay_byte_identical": true,
+  "relative_links_checked": 6,
+  "mathematical_scope": "Formula and custody controls only. Independent proof review pending.",
+  "return_folder": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04",
+  "manifest_entries": 31,
+  "archive": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04.zip",
+  "archive_sha256": "fd5a9b17274d6c1475a3c64e0ae4832ed2f79f64388e959ca0a6dedbca5193fd",
+  "archive_bytes": 74908,
+  "input_archive_sha256": "dd4ad047006838c3d161096335a7060552684c5d916540d4dda9d1dfc0ff4339",
+  "copied_manifest_pass": true,
+  "old_root_hashes_preserved": true,
+  "protected_root_hashes": {
+    "README.md": "f00e521dea926924f240e34b0bc7f66d19dd8192eb841f486c67cffcf3321b95",
+    "CLAUDE.md": "186895a45109ff965663a5fda920f502bd84f9e668b6bb29907076ec1e74ced4",
+    "work/README.md": "af55a9ae960bd413ccb5307d94b8733f9eb37da90fe7bdd50a3e99800d644a48",
+    "SHA256SUMS": "e147fe187e6a9a74e8ef98ab84d1a2e2953d5682799d5db24726e13ce7e2341a"
+  },
+  "publication_grade": "experimental written derivation, independent review pending; no endpoint promotion",
+  "standing_user_authorization": "Each time upload to lab GitHub so I can show pro 6"
+}

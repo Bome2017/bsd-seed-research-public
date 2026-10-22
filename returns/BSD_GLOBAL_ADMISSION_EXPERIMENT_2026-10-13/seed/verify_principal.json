@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "method": "integer polynomial recurrence,15x15 Bareiss determinant, finite residue enumeration",
+  "checks": [
+    {
+      "r": 1089,
+      "exact_norm_matches": true,
+      "local_checks": [
+        {
+          "prime": 7,
+          "roots": [],
+          "point_count": 10
+        },
+        {
+          "prime": 73,
+          "roots": [
+            51
+          ],
+          "point_count": 80
+        },
+        {
+          "prime": 1783,
+          "roots": [
+            1591
+          ],
+          "point_count": 1730
+        }
+      ]
+    },
+    {
+      "r": 2872,
+      "exact_norm_matches": true,
+      "local_checks": [
+        {
+          "prime": 7,
+          "roots": [
+            5
+          ],
+          "point_count": 10
+        },
+        {
+          "prime": 73,
+          "roots": [],
+          "point_count": 80
+        },
+        {
+          "prime": 1783,
+          "roots": [
+            1591
+          ],
+          "point_count": 1730
+        }
+      ]
+    }
+  ]
+}

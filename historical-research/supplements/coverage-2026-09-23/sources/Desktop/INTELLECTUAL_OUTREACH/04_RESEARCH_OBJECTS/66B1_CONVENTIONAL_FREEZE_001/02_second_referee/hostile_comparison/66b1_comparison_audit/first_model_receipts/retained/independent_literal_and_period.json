@@ -1,0 +1,19 @@
+{
+  "literal_checks": {
+    "primes_below500": 92,
+    "affine_points_per_model": 21504,
+    "nonzero_y_duplications": 21324,
+    "errors": []
+  },
+  "period_numerical_crosscheck": {
+    "precision_decimal_digits": 100,
+    "fourier_cutoff": 700,
+    "assumed_functional_equation_sign": 1,
+    "L_at_1": "1.102192530121609113744716956447607913631536274183839104191959360421504762038679772798922859097104782",
+    "least_period_E": "2.204385060243218227489433912895215827263072548367678208383918720843009524077359545597845718194209564",
+    "full_period_E": "4.408770120486436454978867825790431654526145096735356416767837441686019048154719091195691436388419129",
+    "L_over_least": "0.5",
+    "L_over_full": "0.25",
+    "warning": "Numerical cross-check only; exact rational L-ratio remains established curve data, not proved by floating-point coincidence."
+  }
+}

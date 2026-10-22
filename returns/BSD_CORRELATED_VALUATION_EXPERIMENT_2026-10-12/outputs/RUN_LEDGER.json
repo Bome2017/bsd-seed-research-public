@@ -1,0 +1,50 @@
+[
+  {
+    "curve": "655a1",
+    "p": 7,
+    "moment_precision": 5,
+    "status": "completed",
+    "elapsed_seconds": 1.8717211190378293,
+    "output_sha256": "7c117646efada26cfe8941b7971d967f3148fbbb158dcba9b305802c25febe8e",
+    "initial_wrapper_status": "error",
+    "status_correction": "Stack-growth warnings were incorrectly treated as errors; raw output retained."
+  },
+  {
+    "curve": "433a1",
+    "p": 13,
+    "moment_precision": 5,
+    "status": "completed",
+    "elapsed_seconds": 3.308247725944966,
+    "output_sha256": "a599d5e5f57c68a5ae2b841d384b103e119fbdf13a381a2cc52d842278238cb1",
+    "initial_wrapper_status": "error",
+    "status_correction": "Stack-growth warnings were incorrectly treated as errors; raw output retained."
+  },
+  {
+    "curve": "655a1",
+    "p": 31,
+    "moment_precision": 5,
+    "status": "error",
+    "elapsed_seconds": 6.175409725983627,
+    "output_sha256": "e3d3230746aaa68d03a8709f3bf90c54e90b60ef15dc06ba45fd93b3a52688f9"
+  },
+  {
+    "curve": "433a1",
+    "p": 7,
+    "moment_precision": 5,
+    "status": "completed",
+    "elapsed_seconds": 0.8762707060668617,
+    "output_sha256": "1c9038e1397dd7be7217d3332b0e35a73afd49099f73f727b0af3faa36b8fd23",
+    "initial_wrapper_status": "error",
+    "status_correction": "Stack-growth warnings were incorrectly treated as errors; raw output retained."
+  },
+  {
+    "curve": "655a1",
+    "p": 11,
+    "moment_precision": 5,
+    "status": "completed",
+    "elapsed_seconds": 4.794752464047633,
+    "output_sha256": "bc973fadade151032e51faa9c788a3a1ad10751ae4d6fb15097351307331bc74",
+    "initial_wrapper_status": "error",
+    "status_correction": "Stack-growth warnings were incorrectly treated as errors; raw output retained."
+  }
+]

@@ -1,0 +1,1 @@
+REJECTED: the independent residue evaluator had not skipped primes dividing coefficient denominators. Such rows are omitted before evaluation; PASS requires an independently sufficient surviving rank. No partial output accepted.

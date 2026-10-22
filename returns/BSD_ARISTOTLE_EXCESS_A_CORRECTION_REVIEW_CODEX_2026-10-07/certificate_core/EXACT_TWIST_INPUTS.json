@@ -1,0 +1,24 @@
+{
+  "D": -23,
+  "twist_conductor": 3440186458738710936,
+  "D_mod8": 1,
+  "coprime_ND": true,
+  "splitting_checks": {
+    "3": 1,
+    "2243": 1,
+    "4547": 1,
+    "5843": 1,
+    "13": 1
+  },
+  "seed_root_number_imported": 1,
+  "twist_root_number_deduction": -1,
+  "a13_imported": -4,
+  "all_Np_split_for_p13": true,
+  "twist_rank_certified": true,
+  "twist_analytic_rank": 1,
+  "twist_algebraic_rank": 1,
+  "rank_over_K": 3,
+  "certificate": "RESULT.json",
+  "theorem_dependencies": "PROOF.md; retained analytic-rank-one theorem and seed rank theorem",
+  "grade": "Computer-assisted derivative certificate with retained coefficient/software and imported theorem inputs"
+}

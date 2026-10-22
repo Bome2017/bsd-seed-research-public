@@ -1,0 +1,15 @@
+{
+  "rank2_report_sha256": "747c37fb2cf52fdfdf849754733f3fd3b9d2bf606d8602524a742cf59e665858",
+  "rank2_report_files": [
+    "REPORT.md"
+  ],
+  "replay": "saved-output only",
+  "fresh_primary_sources": [
+    "https://arxiv.org/html/2311.03100v2",
+    "https://arxiv.org/html/2609.15328v1",
+    "https://arxiv.org/html/2609.08431v1",
+    "https://arxiv.org/pdf/1805.08448",
+    "https://pari.math.u-bordeaux.fr/dochtml/html-stable/Elliptic_curves.html#ellpadicbsd",
+    "https://sites.math.duke.edu/~dasgupta/papers/Glennfest.pdf"
+  ]
+}

@@ -1,0 +1,12 @@
+PASS  E (seed): v_4547(Delta)=3 v(c4)=1 v(c6)=2 j mod 4547=1728 (type III, minimal at 4547)
+PASS  E' (2-isogenous): v_4547(Delta)=3 v(c4)=1 v(c6)=2 j mod 4547=1728 (type III, minimal at 4547)
+PASS  4547 = 3 mod 4 -> j = 1728 reduction is supersingular
+PASS  p=5 (m=25): gcd(d,N)=1, exact divisor of N: True
+PASS  p=7 (m=49): gcd(d,N)=1, exact divisor of N: True
+PASS  p=11 (m=121): gcd(d,N)=1, exact divisor of N: True
+PASS  p=13 (m=169): gcd(d,N)=1, exact divisor of N: True
+PASS  p=3 (m=27): gcd(d,N)=3, exact divisor of N: True
+PASS  p=3 (m=81): gcd(d,N)=3, exact divisor of N: True
+PASS  p=2243 route (m=2243^2): gcd(d,N)=2243, exact divisor of N: True
+PASS  lower levels 5,7,11,13,3,9: gcd(d,N)=3, exact divisor of N: True
+ALL PASS

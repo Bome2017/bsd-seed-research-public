@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "method": "direct multiplicative products; no discrete logs or producer row/rank outputs",
+  "rows": [
+    {
+      "q": 38711,
+      "root_count": 48,
+      "direct_projected_unit_character_products": 4752,
+      "all_equal_one": true
+    },
+    {
+      "q": 66977,
+      "root_count": 48,
+      "direct_projected_unit_character_products": 4752,
+      "all_equal_one": true
+    },
+    {
+      "q": 131671,
+      "root_count": 48,
+      "direct_projected_unit_character_products": 4752,
+      "all_equal_one": true
+    }
+  ],
+  "elapsed_seconds": 0.5489167079795152,
+  "scope": "finite residues only; no proof that character components globally zero or seventh powers"
+}

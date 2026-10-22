@@ -1,0 +1,23 @@
+[
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_controls/inputs/389a1_data.gp",
+    "local": "inputs/389_data.gp",
+    "sha256": "5e0bca36fcb33d1038150080cc13ffef0002a7b456a79453e601b4ce5570bd2a"
+  },
+  {
+    "source": "https://pari.math.u-bordeaux.fr/dochtml/html-stable/General_number_fields.html#bnfcertify",
+    "read_date": "2026-10-17",
+    "scope": "bnfcertify flag1 proves actual class group is a quotient; BNF outputs remain GRH-dependent until certification",
+    "not_imported": "No coefficient-prime-only certification option found in the documented API"
+  },
+  {
+    "local": "control37/field.gp",
+    "sha256": "0b9e8abeafbc06e7807f591486238ad819d9190ead2316564ab5e2538285bdaf",
+    "scope": "Actual constructed rank-one control, model [0,0,1,-1,0]; exact field and point replay"
+  },
+  {
+    "local": "units_compact.gp",
+    "sha256": "37a3e28222c5723abd649fdbe555f9eb0809673cc9cf023e8b8c2ecb5df70801",
+    "scope": "Compact units exported from saved389 BNF for parent follow-up; completeness remains GRH-dependent"
+  }
+]

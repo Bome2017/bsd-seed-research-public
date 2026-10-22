@@ -1,0 +1,113 @@
+**The missing step is concrete: control the common \(p\)-divisibility of the derivative’s two coordinates.** The latest criterion has not been shown incapable of reaching the seed; it has been shown sufficient *when those coordinates are primitive*. Their primitivity remains unproved. 
+
+I worked on expressing those coordinates in terms of existing arithmetic, rather than sending another instruction to “prove primitivity.”
+
+**I obtained a written conditional comparison, requiring independent review:**
+\[
+\boxed{
+\mathsf H_{p,\rho}
+\begin{pmatrix}A_p\\B_p\end{pmatrix}
+=
+Q_{p,\rho}
+\begin{pmatrix}
+\log_\omega(P_1)\\
+\log_\omega(P_2)
+\end{pmatrix}.
+}
+\]
+
+Here \(\mathsf H_{p,\rho}\) is a \(p\)-adic height matrix of the two known points, and \(Q_{p,\rho}\) comes from the quadratic Coleman coefficient of the **same transported, smoothed Kato class**. This is a proposed adaptation of BKS’s generalized Rubin formula, not the conjectural comparison with the complex BSD quotient. BKS explicitly supplies the height/Coleman formula under its hypotheses, including good supersingular reduction. [arXiv](https://arxiv.org/html/1910.07404v2)
+
+PROOF_AND_NEXT_TARGET.md[Written derivation and exact arithmetic target](sandbox:/mnt/data/BSD_RUBIN_COORDINATE_COMPARISON_2026-10-07/PROOF_AND_NEXT_TARGET.md) · BSD_RUBIN_COORDINATE_COMPARISON_2026-10-07.zip[Complete package with algebra checks](sandbox:/mnt/data/BSD_RUBIN_COORDINATE_COMPARISON_2026-10-07.zip)
+
+## What changes the earlier obstruction to using this formula
+
+The existing record already knew BKS’s formula. Its finiteness hypothesis was the obstacle. The newer derivative construction supplies a way to address that hypothesis **for this particular class**.
+
+Write \(\delta_p=\partial_\gamma z\).
+
+When \(\delta_p\neq0\), your retained argument already implies primary Sha finiteness. BKS’s formula can therefore be applied in that branch without assuming finiteness at the outset. The placement proof explicitly establishes that implication. 
+
+When \(\delta_p=0\), injectivity of the augmentation map gives
+\[
+y_\infty\in UM,\qquad z_\infty\in U^2M.
+\]
+I supplied a separate local-duality argument showing that the Coleman image of every global Iwasawa class has zero constant coefficient here. Consequently,
+\[
+\operatorname{Col}_\rho(z_\infty)\in U^3,
+\]
+so its quadratic coefficient is zero. Both sides of the comparison then vanish. The source’s Rubin and Coleman identities are the relevant interfaces; the finiteness-free treatment of this zero branch is part of my written deduction and still needs review. [arXiv](https://arxiv.org/html/1910.07404v2)
+
+Thus the proposed comparison does not obtain finiteness by assuming the derivative nonzero. It treats both cases.
+
+## What the coordinates actually require
+
+Set
+\[
+\mathsf H_{p,\rho}=
+\begin{pmatrix}
+h_{11}&h_{12}\\
+h_{12}&h_{22}
+\end{pmatrix},
+\qquad
+L_i=\log_\omega(P_i).
+\]
+For an allowable Frobenius root \(\rho\), with \(\sigma=p/\rho\), the scalar is
+\[
+Q_{p,\rho}
+=
+(1-\rho^{-1})^{-1}(1-\sigma^{-1})
+[U^2]\operatorname{Col}_\rho(z_\infty).
+\]
+The root factors and height convention come from the actual generalized Rubin formula. [arXiv](https://arxiv.org/html/1910.07404v2)
+
+**Where the height matrix is nonsingular**, the matrix equation gives
+\[
+\boxed{
+\begin{pmatrix}A_p\\B_p\end{pmatrix}
+=
+\frac{Q_{p,\rho}}{h_{11}h_{22}-h_{12}^{\,2}}
+\begin{pmatrix}
+h_{22}L_1-h_{12}L_2\\
+h_{11}L_2-h_{12}L_1
+\end{pmatrix}.
+}
+\]
+
+That identifies the arithmetic whose divisibility matters. For a nonzero right-hand side,
+\[
+\begin{aligned}
+\min\{v_p(A_p),v_p(B_p)\}
+={}&v_p(Q_{p,\rho})\\
+&+\min\!\left\{
+v_p(h_{22}L_1-h_{12}L_2),
+v_p(h_{11}L_2-h_{12}L_1)
+\right\}\\
+&-v_p(\det\mathsf H_{p,\rho}).
+\end{aligned}
+\]
+
+**The missing estimate is that this entire expression is zero on a cofinite domain—not that the regulator separately is a unit.** This is the correlated-valuation question in an explicit coordinate form.
+
+I have not proved that estimate. I have also not assumed height nondegeneracy: the package retains the matrix equation when the determinant vanishes and derives a one-sided row estimate that avoids dividing by it.
+
+## One avoidable source of divisibility can be separated now
+
+The retained source formula has smoothing augmentation
+\[
+cd(c-1)(d-1)c_N.
+\]
+On the criterion’s domain, \(c_N\) is already a \(p\)-unit. 
+
+The Chinese remainder theorem permits valid choices
+\[
+c,d\equiv1\pmod{6N},
+\qquad c,d\equiv2\pmod p,
+\]
+making the smoothing contribution a unit. **This removes artificial divisibility from the smoothing choice; it does not make the underlying derivative primitive.** Changing between unit smoothings of the same source cannot repair intrinsic nonprimitivity.
+
+There is still a normalization task before inserting existing numerical data: \(Q_{p,\rho}\) must be matched to the evaluator’s period, lattice, Euler factors and smoothing. It cannot simply be declared equal to the old W3 coefficient \(\ell_2\).
+
+**This is where I would focus:** first audit this finiteness-free Rubin comparison, then use its exact coordinate expression to investigate correlated divisibility. No new receiver, no further placement proof, and no unrestricted search for another global object.
+
+I have supplied the comparison deduction and its algebra—not the required cofinite valuation bound. No new prime is settled. The point is that the remaining task now has specified arithmetic terms to analyze, rather than an unspecified instruction to invent something that controls \(\Sha\).

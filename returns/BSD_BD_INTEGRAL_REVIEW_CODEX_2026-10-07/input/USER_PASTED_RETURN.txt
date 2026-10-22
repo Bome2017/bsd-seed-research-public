@@ -1,0 +1,68 @@
+I've set up the folder with RESUME.md and STATE.json, and reviewed the sibling notes and gate. Now I'll read BD05 Theorem 4.1 and trace its proof chain to identify where p enters.
+
+I found the exact remark after Thm 4.1 explaining the ambiguity from two normalizations (the H¹_sing ≅ Λ/pⁿ identification and L_f). Now I'll trace §5–§9 to check whether either normalization has an integral, p-free version before the p-part is taken.
+
+BD05's geometric arguments hold over ℤ with p only entering at Thm 5.15/5.17 and the multiplicity-one step in §8. I'll save these notes and move on to reading §9 and Howard.
+
+Howard's framework is p-local (R a principal Artinian local ring, residue characteristic p > 3), and his reciprocity laws preserve only isomorphism classes/valuations. Next, I'll verify the record's facts on the seed—conductor and the definite setting over ℚ(√−7)—so I can cite them accurately rather than guess.
+
+Updating the user briefly, then a light check of the seed's conductor and how its bad primes split in ℚ(√−7), so the next-attack note cites real numbers.
+
+Light check confirms N and N⁻ factorizations with both root numbers +1, and ℓ = 283 admissible for p = 5 and 7 with sign ε = −1. Now mapping each citation to its PDF page and writing the p-entry map.
+
+The 2×2 step in Thm 5.15 checks out over ℤ for all 16 seed cases, though the seed's definite Shimura set is too large (mass ≈5.4×10¹⁴) for direct numeric testing. I'll now write the step-1 p-entry map and step-2 integrality analysis to disk.
+
+I'm writing the report now, but first I'm downgrading the D2 parity claim to HEURISTIC since it actually relies on BD's (61) rather than a fully verified norm argument.
+
+Notes for steps 1–2 are on disk. Now writing REPORT.md, which states the verdict, the p-entry map, the u-cancellation finding, and the named next attack.
+
+Report written. Before finishing, verifying the exact wording of Howard's Thm 2.3.7, which D5 relies on.
+
+Confirmed: H06 Thm 2.3.7 (p. 9) gives length(M_n) ≤ ind(λ_n, R) for n ∈ N^even, so D5 holds as written. Finalizing the state files and the hand-over note in the shared folder.
+
+I've drafted the hand-over note, and since the report points to a concrete next step—the literature gate, then the definite-only formula for C(ℓ₁,ℓ₂)—I'm proposing it as a card, though nothing will run until it's started.
+
+Proposal card created. Last step: recording the reusable finding in memory, checking for an existing hub entry first so I don't duplicate.
+
+I read Bertolini–Darmon (Annals 2005) and Howard (bipartite Euler systems) against the pre-registered kill test, and it fired: **`INTEGRAL_LAW_NOT_AVAILABLE_IN_BD`**. Neither source states either reciprocity law integrally. But the unit ambiguity turned out not to be intrinsic, so this is a stop on what the sources contain, not a proof the integral law is impossible. Step 3 (the seed's depth-2 statement and the gate lemma) was not run. FIN, ORDER9 and Q36 are unchanged. Everything is in `~/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/`; [REPORT.md](REPORT.md) is the deliverable.
+
+**Kill test, clause by clause**
+- **Clause (i) fired.** BD05 proves Thm 5.17's identification and the freeness / multiplicity-one inputs only after choosing p (Thm 5.15 hyp. 2, p. 58; Thm 5.17, pp. 61–62; §8, p. 69). Howard's ring is local Artinian of residue characteristic p > 3 by definition, and his laws keep only valuations (Def 2.3.2, p. 7; Thm 2.5.1, p. 13).
+- **Clause (ii) did not fire.** The remark after Thm 4.1 (p. 37) blames two normalizations, not lost information. Each source of the ambiguity can be removed.
+
+**Findings**
+- **Where p enters.** BD05's geometry is already stated over ℤ: Čerednik–Drinfeld, character and component groups (Props 5.11, 5.13, 5.14), and the §8 reduction of Heegner points to CM vertices. Outside the anticyclotomic tower, p enters in only three places:
+  - the freeness hypothesis of Thm 5.15;
+  - the isomorphism of Thm 5.17, which exists only abstractly and is unique only up to (ℤ/pⁿ)^×;
+  - the multiplicity-one step in §8.
+- **Depth 1 (the brief's best case): available, but vacuous for the seed.** Reading the component group through the definite form f makes the first law one identity mod m, for all p dividing the level-raising modulus at once. It needs neither Thm 5.17 nor multiplicity one. For the seed both sides are 0, because L(E,1)·L(E^{−7},1) = 0. The ℤ-version of BD's 2×2 step checks out on 16/16 seed cases.
+- **The CRT trap.** Gluing BD's per-p laws by CRT gives a law up to (ℤ/m)^×, i.e. an independent unit at each p. That carries no cross-p information. The Thm 5.17 isomorphism has no geometric source, since Hom(J^(ℓ), E) = 0.
+- **Depth 2 can be normalized with no unit at each p.** Define C(ℓ₁,ℓ₂) as the Gross divisor at discriminant N⁻ℓ₁ℓ₂ (through BD's §9 maps) divided by the 2×2 determinant of the reductions of a basis of E(ℚ). It lands in Φ_ℓ₁/I ≅ ℤ/m.
+  - The Thm 5.17 unit cancels in it, so C is canonical up to a single global sign.
+  - Its definition uses no Ш.
+  - BD and Howard determine only its p-adic valuation (Howard's δ_p), not its residue.
+- **Strength.** The natural law, C(ℓ₁,ℓ₂) ≡ ±C_E for one rational C_E (call it RIGID_LR), implies Ш(E/K)[p] = 0 for every good p not dividing C_E (Howard Thm 2.3.7). So it has the strength of FIN. It is a target in a new coordinate (the number of level-raising primes), not a way around the open problem.
+
+**Seed facts (light check)**
+- N = 2³·3·2243·4547²·5843, so N⁻ = 3·2243·5843 and the setting over ℚ(√−7) is definite. Both root numbers are +1.
+- ℓ = 283 is admissible for p = 5 and p = 7 with the same sign, so one law there covers both primes.
+- The seed's definite Shimura set has mass about 5.4·10¹⁴. Any numerical test has to use small curves, e.g. 389a1, whose set has mass about 32.
+
+**Not shown**
+- C(ℓ₁,ℓ₂) is defined but not shown to be constant, and no value was computed for any curve.
+- The derivations are same-session and unreviewed, so they need an independent check.
+- The bottom-layer setting (conductor-1 Heegner points, p not in the level) is not BD's own. It was not checked against the seed's non-squarefree level at 4547.
+- Nothing yet links C(ℓ₁,ℓ₂) to the record's tame scalar.
+
+**Next attack (named, not run).** I proposed it as a card (task_6b0192d7); nothing runs unless it is started.
+- **Stage 1, literature gate:** do any of Pollack–Weston, Kim–Pollack–Weston, Chida–Hsieh, W. Zhang 2014, Bertolini–Darmon 1999, Vatsal, Gross–Parson, Ribet–Takahashi or Darmon 1992 state a law with an explicit generator or exact constant? If none does, record `NO_UNIT_PINNED_LAW_IN_LITERATURE`.
+- **Stage 2, first lemma:** derive a formula for C(ℓ₁,ℓ₂) from definite quaternion data alone. If that is impossible, record `DEFINITE_FORMULA_NOT_AVAILABLE`. If it works, design (not run) a sealed RIGID_LR probe on 389a1-type curves.
+
+A hand-over note is in the shared folder as `BD_INTEGRAL_RECIPROCITY_2026-10-07.md`, and a memory entry was added under the 10-01→10-07 seed hub.
+
+Files are in `~/BSD_INTEGRAL_BD_RECIPROCITY_2026-10-07/`:
+- [REPORT.md](REPORT.md)
+- [notes/02_step1_p_entry_map.md](notes/02_step1_p_entry_map.md)
+- [notes/03_step2_integral_test.md](notes/03_step2_integral_test.md)
+- [checks/seed_facts2_output.txt](checks/seed_facts2_output.txt)
+- [checks/integral_2x2_check_output.txt](checks/integral_2x2_check_output.txt)

@@ -1,0 +1,152 @@
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:56:42: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HSMul ℤ_[p] (Submodule ℤ_[p] X) ?m.31
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:104:11: error: unsolved goals
+case zero
+p : ℕ
+hp : Fact (Nat.Prime p)
+X : Type u_1
+inst✝² : AddCommGroup X
+inst✝¹ : Module ℤ_[p] X
+inst✝ : Module.Finite ℤ_[p] X
+φ : X →ₗ[ℤ_[p]] X
+hnil : ∃ n, ∀ (x : X), (φ ^ n) x ∈ sorry
+hinj : Function.Injective ⇑(phiY φ)
+e : ℕ
+hexact : Nat.card (X ⧸ φ.range) = p ^ e
+hchar : Nat.card ((X ⧸ torsion ℤ_[p] X) ⧸ (phiY φ).range) = p ^ e
+H : Submodule ℤ_[p] X := torsion ℤ_[p] X
+hH : H = torsion ℤ_[p] X
+hle : φ.range ≤ comap H.mkQ (phiY φ).range
+q : X ⧸ φ.range →ₗ[ℤ_[p]] (X ⧸ torsion ℤ_[p] X) ⧸ (phiY φ).range := φ.range.mapQ (phiY φ).range H.mkQ hle
+hq_def : q = φ.range.mapQ (phiY φ).range H.mkQ hle
+hq : Function.Surjective ⇑q
+hcard : p ^ e = Nat.card ↥q.ker * p ^ e
+hiso : Nat.card ((X ⧸ φ.range) ⧸ q.ker) = p ^ e
+hp0 : 0 < p ^ e
+hker1 : Nat.card ↥q.ker = 1
+hkerbot : q.ker = ⊥
+hH_le_range : H ≤ φ.range
+hH_le_map : H ≤ map φ H
+⊢ H ≤ map 1 H
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:134:42: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HSMul ℤ_[p] (Submodule ℤ_[p] X) ?m.31
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:141:12: error(lean.unknownIdentifier): Unknown identifier `torsion_eq_bot_of_exact_lengths`
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:140:60: error: unsolved goals
+p : ℕ
+hp : Fact (Nat.Prime p)
+X : Type u_1
+inst✝² : AddCommGroup X
+inst✝¹ : Module ℤ_[p] X
+inst✝ : Module.Finite ℤ_[p] X
+φ : X →ₗ[ℤ_[p]] X
+hnil : ∃ n, ∀ (x : X), (φ ^ n) x ∈ sorry
+hinj : Function.Injective ⇑(phiY φ)
+e : ℕ
+hexact : Nat.card (X ⧸ φ.range) = p ^ e
+hchar : Nat.card ((X ⧸ torsion ℤ_[p] X) ⧸ (phiY φ).range) = p ^ e
+d : ℕ
+hrank : Module.finrank ℤ_[p] (X ⧸ torsion ℤ_[p] X) = 2 * d
+⊢ Module.Free ℤ_[p] X ∧ Module.finrank ℤ_[p] X = 2 * d
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:343:8: error: Type mismatch
+  Eq.symm (neg_add_eq_zero.mp hy)
+has type
+  u x = u (t x)
+but is expected to have type
+  u (t x) = u x
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:357:23: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  - -?a
+in the target expression
+  -u (t x) = -u (t x)
+
+k : Type u_1
+inst✝² : Field k
+F : Type u_2
+inst✝¹ : AddCommGroup F
+inst✝ : Module k F
+t u : F →ₗ[k] F
+htu : t ∘ₗ u = -u ∘ₗ t
+x : F
+this : t (u x) = -u (t x)
+⊢ -u (t x) = -u (t x)
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:399:39: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ?a • ?b₁ + ?a • ?b₂
+in the target expression
+  y = 2⁻¹ • (t y + y) + (2⁻¹ • y - 2⁻¹ • t y)
+
+k : Type u_1
+inst✝² : Field k
+F : Type u_2
+inst✝¹ : AddCommGroup F
+inst✝ : Module k F
+h2 : 2 ≠ 0
+t u : F →ₗ[k] F
+ht : t ∘ₗ t = LinearMap.id
+htu : t ∘ₗ u = -u ∘ₗ t
+htt : ∀ (x : F), t (t x) = x
+Fm : Submodule k F := (t + LinearMap.id).ker
+hmaps : ∀ (x : ↥Fm), u.range.mkQ ↑x ∈ (tbar t u htu + LinearMap.id).ker
+g : ↥Fm →ₗ[k] ↥(tbar t u htu + LinearMap.id).ker :=
+  codRestrict (tbar t u htu + LinearMap.id).ker (u.range.mkQ ∘ₗ Fm.subtype) hmaps
+y : F
+hy : Submodule.Quotient.mk y ∈ (tbar t u htu + LinearMap.id).ker
+hy' : Submodule.Quotient.mk (t y + y) = 0
+v : F := 2⁻¹ • (y - t y)
+hv : v ∈ Fm
+hmem : t y + y ∈ u.range
+⊢ y = 2⁻¹ • (t y + y) + (2⁻¹ • y - 2⁻¹ • t y)
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:372:89: warning: declaration uses `sorry`
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:426:7: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'PadicInt.instCommRing', which is 'noncomputable'
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:461:2: error: Tactic `apply` failed: could not unify the conclusion of `@Subtype.ext`
+  ?a1 = ?a2
+with the goal
+  (↥(σ - LinearMap.id).ker →ₗ[ℤ_[p]] SQ) = (↥(σ - LinearMap.id).ker ≃ₗ[ℤ_[p]] SQ)
+
+Note: The full type of `@Subtype.ext` is
+  ∀ {α : Sort ?u.184} {p : α → Prop} {a1 a2 : { x // p x }}, ↑a1 = ↑a2 → a1 = a2
+
+case e_1
+p : ℕ
+hp : Fact (Nat.Prime p)
+X : Type u_1
+SK : Type u_2
+SQ : Type u_3
+inst✝⁵ : AddCommGroup X
+inst✝⁴ : Module ℤ_[p] X
+inst✝³ : AddCommGroup SK
+inst✝² : Module ℤ_[p] SK
+inst✝¹ : AddCommGroup SQ
+inst✝ : Module ℤ_[p] SQ
+τ : X →ₗ[ℤ_[p]] X
+hτ : τ ∘ₗ τ = LinearMap.id
+c : X →ₗ[ℤ_[p]] SK
+hc : Function.Surjective ⇑c
+σ : SK →ₗ[ℤ_[p]] SK
+hcσ : c ∘ₗ τ = σ ∘ₗ c
+ρ : ↥(σ - LinearMap.id).ker ≃ₗ[ℤ_[p]] SQ
+hττ : ∀ (x : X), τ (τ x) = x
+x : X
+hy : c x ∈ (σ - LinearMap.id).ker
+hy' : σ (c x) = c x
+v : ℤ_[p]ˣ
+hv : ↑v = 2
+x' : X := ↑v⁻¹ • (x + τ x)
+hx' : x' ∈ plusPart τ
+⊢ (↥(σ - LinearMap.id).ker →ₗ[ℤ_[p]] SQ) = (↥(σ - LinearMap.id).ker ≃ₗ[ℤ_[p]] SQ)
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:482:24: error: typeclass instance problem is stuck
+  Module ℤ_[?m.21] ?m.23
+
+Note: Lean will not try to resolve this typeclass instance problem because the first, second, third, and fourth type arguments to `Module` contain metavariables. These arguments must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:543:14: error(lean.unknownIdentifier): Unknown constant `A3Core.free_of_rank_of_exact_lengths`
+'A3Core.finrank_eq_of_graded_presentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.minusOfQuotientEquiv' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'A3Core.range_inf_minus_eq_map_plus' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'A3Core.two_le_finrank_plus' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+/Users/bsm/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean:548:14: error(lean.unknownIdentifier): Unknown constant `A3Core.sha_dual_eq_bot_of_finrank_plus_eq_two`
+'A3Core.M1_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A3Core.order_eq_two' depends on axioms: [propext, Classical.choice, Quot.sound]

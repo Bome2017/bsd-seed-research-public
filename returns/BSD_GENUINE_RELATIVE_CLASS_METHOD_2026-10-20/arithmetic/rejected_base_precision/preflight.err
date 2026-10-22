@@ -1,0 +1,25 @@
+  ***   at top-level: alarm(110);gettime();relative_setup();if(#ORB=
+  ***                                      ^-------------------------
+  ***   in function relative_setup: ...A=idealprimedec(NF,q);PB=
+  ***   idealprimedec(N12,q);
+  ***   ^---------------------
+  *** idealprimedec: precision too low in get_norm.
+... skipping file 'preflight.gp'
+        0.13 real         0.12 user         0.00 sys
+            15122432  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                4055  page reclaims
+                  56  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  26  involuntary context switches
+          1241609127  instructions retired
+           612052356  cycles elapsed
+            12300288  peak memory footprint

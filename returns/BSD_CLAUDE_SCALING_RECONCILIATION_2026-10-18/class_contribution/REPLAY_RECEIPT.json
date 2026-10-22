@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "runs": 2,
+  "byte_identical": true,
+  "result_sha256": "95e74fce2937a8b3210ac610ca52152e6e3ec7aa6a3ea08d7660d8078b308346",
+  "arithmetic_scope": "complete saved finite-field matrices; no fresh number-field source certification"
+}

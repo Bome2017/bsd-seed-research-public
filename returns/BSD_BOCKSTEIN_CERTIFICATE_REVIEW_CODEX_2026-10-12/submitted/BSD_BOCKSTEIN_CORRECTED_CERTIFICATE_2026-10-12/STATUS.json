@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "status": "SHARPER_CONDITIONAL_CERTIFICATE_DERIVED",
+  "grade": "written derivation under explicitly retained arithmetic inputs; exact algebra controls",
+  "new_seed_primary_result": false,
+  "FIN": "UNCHANGED_OPEN",
+  "ORDER9": "UNCHANGED_OPEN",
+  "Q36": "UNCHANGED_OPEN",
+  "new_actual_seed_kato_values": 0,
+  "new_actual_seed_bockstein_values": 0,
+  "exact_source_unit_comparison_proved": false,
+  "numerical_height_to_primitive_bockstein_matching_proved": false,
+  "formal_verification": false,
+  "external_review": false,
+  "remote_write": false,
+  "novelty_claim": false
+}

@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-13T21:20:34.303412+00:00",
+  "pid": 60067,
+  "command": [
+    "/usr/bin/caffeinate",
+    "-i",
+    "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/checker/run_singleton.sh",
+    "0 -22735 0 106272484 0",
+    "6503188012738584",
+    "83",
+    "167",
+    "57378078719",
+    "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/corpus_ext_6445/view/ap",
+    "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/corpus/receipts/ver_*.log",
+    "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/production/p83_l167",
+    "8",
+    "53de8838b356300dbb7aed6cfc57cab3498c82bd585954fd244095e338f997da"
+  ],
+  "caps": {
+    "cpu_hours": 20,
+    "wall_hours": 3,
+    "new_bytes": 5000000000,
+    "minimum_free_bytes": 60000000000,
+    "external_spend_USD": 0
+  }
+}

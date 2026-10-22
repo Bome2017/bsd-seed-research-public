@@ -1,0 +1,15 @@
+{
+  "status": "ALL_SCOPE_CLARIFICATIONS_APPLIED",
+  "utc": "2026-10-15T18:19:03.658913+00:00",
+  "items": {
+    "1613_grade": "retained successful full BNF certification; not inferred from filename and not rerun",
+    "local_images": "root report explicitly retains injection and full local-image dimension theorem",
+    "raw_ray_vs_joint": "stale sentence replaced; actualraworder9 distinguished from order3 after local allowance"
+  },
+  "files": {
+    "REPORT.md": "3c439b19cec3442302d2e1b95f224c4d293324a957158355202f59aec2120185",
+    "class_lift_review/COMPATIBILITY_REVIEW.md": "0fbbcd1f5ed23455fa25ef381d1da391631da7a7dea442d2691a02829be5a3a9",
+    "class_lift/mirror389/RESULT.md": "a8a4ce91404a2952840a09c5bca8fcd88a40aa070d9eea3c88daa3825c4091fa",
+    "class_lift_review/RAY_MAP_REVIEW.md": "7080d85ff1e5d591c71cd511643fbc75d0f32298c040ba28c8a00edb871615c1"
+  }
+}

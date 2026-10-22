@@ -1,0 +1,4 @@
+EXACT_TAU_AND_POINT_IDENTITIES=ng
+PROFILE=[full,H0,unit,scalarfull,addfull,localfull,jointfull,jointunit,jointH0]
+POINT_VALUATIONS=AC*V
+COUPLING_COMPLETE

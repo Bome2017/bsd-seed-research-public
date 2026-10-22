@@ -1,0 +1,30 @@
+{
+  "status": "W3_SOURCE_LAW_PROVED_WITH_VARIABLE_SPECIALIZATION_CERTIFICATE",
+  "input_local_review": "CONFIRMED_UNDER_RETAINED_HIDA_INPUTS",
+  "new_grade": "WRITTEN_DERIVATION_UNDER_RETAINED_INPUTS_AND_IMPORTED_THEOREMS",
+  "independent_new_review": "PENDING",
+  "arithmetic_source": "Ochiai optimized integral family Euler system; its own index is used",
+  "new_sufficient_condition": "F_p not in (p,T,S)^4 implies seed Sha[p^infinity]=0 on the cofinite ordinary domain",
+  "new_readout": "ten critical points (w,s)=(10+i,7+j), i+j<=3",
+  "low_jets": "f_00=f_10=f_01=0 by written global Selmer-determinant argument",
+  "remaining_coefficients": {
+    "quadratic_precision": "mod p^2",
+    "cubic_precision": "mod p",
+    "number": 7,
+    "evaluated": false
+  },
+  "cofinite_hida_review": "RETAINED_WRITTEN_DERIVATION_NOT_NEWLY_INDEPENDENTLY_REVIEWED",
+  "eta_unit_proved": false,
+  "old_Cp_collision_proved": false,
+  "uniform_nonvanishing_proved": false,
+  "new_primary_vanishing_primes": [],
+  "supersingular_coverage": false,
+  "FIN": "OPEN",
+  "ORDER9": "OPEN",
+  "Q36": "OPEN",
+  "input_manifest_entries_verified": 7,
+  "retained_hida_manifest_entries_verified": 31,
+  "input_checker_replay_byte_equal": true,
+  "new_formal_jet_reconstructions": 2300,
+  "lab_publication": "To be recorded separately after sealing; standing user authorization applies"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "NOT_ADMITTED_UNIT_TWIST_PRECONDITION_FAILED",
+  "producer_exit_code": 143,
+  "terminated_by": "SIGTERM",
+  "termination_reason": "Exact quadratic twisted sums both have5-adic valuation1, so the sealed unit-twist discriminator is inapplicable. Stopped on this failed prerequisite before any Gross output.",
+  "stdout_bytes": 0,
+  "stderr_bytes": 0,
+  "receipt_utc": "2026-10-15T18:04:02.222830+00:00",
+  "no_scalar_conclusion": true,
+  "timing_scope": "Planned600-second cap; the last captured ps observation was5m54s. Exact termination elapsed time was not captured."
+}

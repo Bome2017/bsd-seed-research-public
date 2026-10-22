@@ -1,0 +1,69 @@
+{
+  "inputs": [
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/nf.gp",
+      "bytes": 2477699,
+      "sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e",
+      "bundle_encoding": "gzip",
+      "bundle_path": "inputs/nf.gp.gz",
+      "bundle_sha256": "5246a8649b1e29a20c5a9c4f945c716661c7a81c7b621b87fec054bfc21ece22"
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/field.gp",
+      "bytes": 314993,
+      "sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22",
+      "bundle_encoding": "gzip",
+      "bundle_path": "inputs/field.gp.gz",
+      "bundle_sha256": "0fa31112d590a6b71878cfe4855cea70cf3c956bf6443f5930cadcbd43f8c3bc"
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/inputs/basis_scalar_matrix.gp",
+      "bytes": 7237,
+      "sha256": "5e6919aa169afb19f8dd5a754fd11fbaca4f30f0c83c12e6ef2084329eb5b214",
+      "bundle_encoding": "identity",
+      "bundle_path": "inputs/basis_scalar_matrix.gp",
+      "bundle_sha256": "5e6919aa169afb19f8dd5a754fd11fbaca4f30f0c83c12e6ef2084329eb5b214"
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/setup.gp",
+      "bytes": 98040,
+      "sha256": "6f0de23d06c0dcae8f5a31f959079ab7bbe92daf4084ccccdaf8e8be2b0b026b",
+      "bundle_encoding": "identity",
+      "bundle_path": "inputs/setup.gp",
+      "bundle_sha256": "6f0de23d06c0dcae8f5a31f959079ab7bbe92daf4084ccccdaf8e8be2b0b026b"
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/WEIGHT_DIRECTIONS.gp",
+      "bytes": 1435,
+      "sha256": "b08f9d13814cb669807384b336b1b62e9cad38314970c57bf6732d1be370661e",
+      "bundle_encoding": "identity",
+      "bundle_path": "inputs/WEIGHT_DIRECTIONS.gp",
+      "bundle_sha256": "b08f9d13814cb669807384b336b1b62e9cad38314970c57bf6732d1be370661e"
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/norm_trials.gp",
+      "bytes": 907342,
+      "sha256": "11b04adb141976722e4935431c7a601605f9f27c66847ffc63c38eb32b77d2b8",
+      "bundle_encoding": "identity",
+      "bundle_path": "inputs/norm_trials.gp",
+      "bundle_sha256": "11b04adb141976722e4935431c7a601605f9f27c66847ffc63c38eb32b77d2b8"
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/search.gp",
+      "bytes": 2698,
+      "sha256": "f57165d6eb155333e967e4c51740dec0aabc11ca7950e99bdf28185067b05e8c",
+      "bundle_encoding": "identity",
+      "bundle_path": "inputs/search.gp",
+      "bundle_sha256": "f57165d6eb155333e967e4c51740dec0aabc11ca7950e99bdf28185067b05e8c"
+    },
+    {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/DIAGNOSTIC_TOP20.json",
+      "bytes": 1512,
+      "sha256": "ed1b1241055d33d532e74dfca1cc9251babf7579ace7e1ef6b5b6f408539549d",
+      "bundle_encoding": "identity",
+      "bundle_path": "inputs/DIAGNOSTIC_TOP20.json",
+      "bundle_sha256": "ed1b1241055d33d532e74dfca1cc9251babf7579ace7e1ef6b5b6f408539549d"
+    }
+  ],
+  "gp": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp"
+}

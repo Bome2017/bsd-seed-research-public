@@ -1,0 +1,95 @@
+{
+  "archive": {
+    "path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/CC7B3522-9C12-41D1-AE01-1627EF0C5B5E/1-BSD_W3_GLOBAL_PERIOD_ATTACK_2026-10-04.zip",
+    "sha256": "dd4ad047006838c3d161096335a7060552684c5d916540d4dda9d1dfc0ff4339",
+    "zip_integrity": "PASS",
+    "entries": 1
+  },
+  "context": [
+    {
+      "source": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/REPORT.md",
+      "copy": "context/W3_LOCAL_REPORT.md",
+      "bytes": 3262,
+      "sha256": "842e3dc1529b6508df6971190648cc6dcf11fa8ba9a2f44c6f608ea38c57db1e",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/LOCAL_LATTICE.md",
+      "copy": "context/W3_LOCAL_LATTICE.md",
+      "bytes": 8430,
+      "sha256": "3e41198fe73e55f8e4cce41cba8edead14c8a2ab3738a02389cff89300b4dc65",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/KATO_MATCH.md",
+      "copy": "context/W3_KATO_MATCH.md",
+      "bytes": 4353,
+      "sha256": "469eb99dfaf44027987ae85b55beb2834efac7ff7bad0792acf5b891be5788ab",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/HIDA_ATTEMPT.md",
+      "copy": "context/W3_HIDA_PRIOR.md",
+      "bytes": 3721,
+      "sha256": "5cca1714f272aba9f1469655530f93eda42570a41b82177ac71d47973f5ca934",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/VERIFIED_DERIVATION.md",
+      "copy": "context/W3_INDEX_DERIVATION.md",
+      "bytes": 12248,
+      "sha256": "f09c02926f617d2101fa2173c5e04ab9b65fffad2537da3bb9db7d6f4cf46523",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_WEIGHT3_GLOBAL_CONTROL_CHECK_CODEX_2026-10-01/VERIFIED_DERIVATION.md",
+      "copy": "context/W3_GLOBAL_CONTROL.md",
+      "bytes": 7215,
+      "sha256": "816b1b8336a0f02fedd1ea7cdf82a0631e48fb01cd7390ecd6f4980ab61a2d08",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/REPORT.md",
+      "copy": "context/TWO_PRIME_REPORT.md",
+      "bytes": 5460,
+      "sha256": "c3c4c0b12406cbe6848f58985d79dd9ada26090be8d3b30fe9cd17c35dc0f0b3",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/NORMALIZATION_CHECK.md",
+      "copy": "context/TWO_PRIME_NORMALIZATION.md",
+      "bytes": 2437,
+      "sha256": "7eaf4c88e3a108644f535114b6ef8631fc0d50ad826551afadc2d32c20889540",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_MECHANISM_B_SINGLETON_CONVERSE_CHECK_CODEX_2026-09-30/REPORT.md",
+      "copy": "context/SINGLETON_CLASS_CORRECTION.md",
+      "bytes": 8217,
+      "sha256": "9eee8569bb8abeb936d07fceaf9a03d6f3e9a3f833e14f1cd68373e406191411",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_INDEX_DISCOVERY_RETURN_FABLE_B_2026-10-01/CANDIDATE_B2_TAME_WILD_PENCIL.md",
+      "copy": "context/TAME_WILD_CORRECTION.md",
+      "bytes": 7212,
+      "sha256": "3e27bcbbb87b5f81344f02edfec62396866cfcb7a289d85cdc164dffc359031b",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_ARISTOTLE_TAIL_COMPRESSION_2026-09-22/review_2026-09-22/BRANCH_THETA.md",
+      "copy": "context/BRANCH_THETA.md",
+      "bytes": 4897,
+      "sha256": "f001ec46bf59eab5b8aea151f87e82fca40f6af99aeb8dd2432471593834b102",
+      "byte_identity": true
+    },
+    {
+      "source": "/Users/bsm/BSD_DEFINITE_FIELD_GATE_2026-09-22/STAGE6_A2_SPLIT.md",
+      "copy": "context/DEFINITE_THETA_ORDER.md",
+      "bytes": 6435,
+      "sha256": "8abaf0693f258edcb16d7a6f33a3540921661c8020a83d394cfbe310fd249aea",
+      "byte_identity": true
+    }
+  ],
+  "scope": "Copied inputs retain their grades and corrections. Copying does not independently certify them."
+}

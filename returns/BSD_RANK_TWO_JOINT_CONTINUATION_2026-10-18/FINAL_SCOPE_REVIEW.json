@@ -1,0 +1,73 @@
+{
+  "status": "PASS_SCOPE_UNDER_RETAINED_INPUTS",
+  "no_complete_unit_bound": true,
+  "no_complete_class_bound": true,
+  "finite_source_exclusions_not_promoted": true,
+  "ordinary_class_source_preserved": true,
+  "twist_class_transfer_not_asserted": true,
+  "new_seed_result": false,
+  "new_search_or_arithmetic_run": false,
+  "minor_wording_note": "Applied: table now says No bound obtained; complete_class_bound remains null.",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 8625,
+      "sha256": "51fa515b958f8fdc72e6117a62218ba69c1371513683514a43c04d85f5c4dc12"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 3601,
+      "sha256": "364080d74524fbcc5fcc6da1ae9f3262f74d8f39d69261c180a593fcabca91c0"
+    },
+    {
+      "path": "STATE.json",
+      "bytes": 1130,
+      "sha256": "cac80e1110e36590f3f37d2266f8db845d7ca5c992698676e61f444d3ac831f2"
+    },
+    {
+      "path": "RESUME.md",
+      "bytes": 1541,
+      "sha256": "72ccb0314f3fedb170ab4b7d976e1aadecf50dc14118e975f08921c8a2fc54cf"
+    },
+    {
+      "path": "class_control/REPORT.md",
+      "bytes": 3939,
+      "sha256": "1c2e7d07ab7cd461b139aacf94bddfbb33a3b20afb589c3fcd6543c959ab6141"
+    },
+    {
+      "path": "class_control/PROOF.md",
+      "bytes": 3643,
+      "sha256": "5634d03c507b19e33d8a901e9bd1e1a67ad59b404075c377cc92333f9b06d064"
+    },
+    {
+      "path": "class_twist_notes/REPORT.md",
+      "bytes": 2006,
+      "sha256": "f77feab1fceaf4aa52ce61d996eb167f1fadba3de60211fb854c2791d5d751d0"
+    },
+    {
+      "path": "class_twist_notes/PROOF.md",
+      "bytes": 3963,
+      "sha256": "4b2874bca193f49ff814bd7a35ff68395c44bb25db1a2262362ffe921575fde7"
+    },
+    {
+      "path": "ROOT_INSTRUMENTATION_REVIEW.md",
+      "bytes": 3693,
+      "sha256": "7a1fde22e93b76bd16dc1cbd92edff835c8822895132aec485d53bae36a4509b"
+    },
+    {
+      "path": "ROOT_MIXED_INSTRUMENTATION_REVIEW.md",
+      "bytes": 3445,
+      "sha256": "a3e096818509b65d5e2a463e2a75d6d20ba2efa14b37368ed7e757f0474384f5"
+    },
+    {
+      "path": "pari_partial_source/REPORT.md",
+      "bytes": 3763,
+      "sha256": "589041d00a05255df2eb384e4544ab831f18f714da5ae8d429a5ac3784f6dfdf"
+    },
+    {
+      "path": "pari_partial_source/CENTRAL_CHARACTER_PROOF.md",
+      "bytes": 1608,
+      "sha256": "c07880838e0159f86713d6f633b6c685b9504554ca59596a466ea66a87506f44"
+    }
+  ]
+}

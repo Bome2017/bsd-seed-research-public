@@ -1,0 +1,23 @@
+{
+  "url": "https://www.math.utoronto.ca/~ila/Cohen%20--%20Advanced%20topics%20in%20computational%20number%20theory.pdf",
+  "sha256": "0b01c8f1755378c216c563c7d75e05edbf1c3a95843524f4ede6f0216a1cb159",
+  "pages_extracted": [
+    379,
+    380,
+    381,
+    382,
+    383
+  ],
+  "purpose": "primary-source reading; not mathematical certification",
+  "local_reading_cache": "/tmp/bsd_genuine_relative_sources_20261020",
+  "redistribution": "Whole book and reading extract excluded from deliverable",
+  "bddf": {
+    "url": "https://www.math.u-bordeaux.fr/~kbelabas/research/OnBach.pdf",
+    "manuscript_date": "2005-12-05",
+    "sha256": "e619d0f0c52bfddd0316e354d72c1b3b7946d85a1cdcbad05aac990cf911fc78",
+    "bytes": 181472,
+    "read": "Full primary PDF section5; Corollary5.2 equation23 printedpage12",
+    "local_reading_cache": "/tmp/bsd_genuine_relative_sources_20261020/OnBach.pdf",
+    "redistribution": "PDF and extracted page excluded from deliverable"
+  }
+}

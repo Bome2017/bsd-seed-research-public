@@ -1,0 +1,244 @@
+{
+  "recorded_at_utc": "2026-09-21T14:08:15.820270+00:00",
+  "scope": "Selected original claim records and theorem signatures; not fresh proof replay or full corpus review",
+  "sources": [
+    {
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/STATUS.md",
+      "sha256": "5f8e37bf0bfd1752150a44168cab5cef41ec114ebe7c88d189fa1528d48601a5",
+      "reading_depth": "Selected statements and exact implication chain; STATUS and PROOF read in full",
+      "role": "Run013 conventional family theorem and qualified full-BSD assembly; no new literature validation",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/PROOF.md",
+      "sha256": "42aca37560fb281a213b781e951682c0a7d564883407720b81996c5ef3edaf17",
+      "reading_depth": "Selected statements and exact implication chain; STATUS and PROOF read in full",
+      "role": "Run013 conventional family theorem and qualified full-BSD assembly; no new literature validation",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/BSD_CHAIN.md",
+      "sha256": "f767c276c91ea1db332d048a97fda6ea40667bf279762b7a5d26c2e259a15f2a",
+      "reading_depth": "Selected statements and exact implication chain; STATUS and PROOF read in full",
+      "role": "Run013 conventional family theorem and qualified full-BSD assembly; no new literature validation",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/PROPOSITIONS_A_B.md",
+      "sha256": "de8af03d6806910d03dd70d2acfbf3391def495388f413ff1047ab0dc9922fbd",
+      "reading_depth": "Selected propositions, proof and formalization boundary",
+      "role": "Family minimization and exact distinction between conventional proof and formal interface",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/RUN013_FAMILY_MINIMISATION_AUDIT.md",
+      "sha256": "1db0307a4f730bdd6509963583335d0757bd420762bc8082763e302b1ee12373",
+      "reading_depth": "Selected propositions, proof and formalization boundary",
+      "role": "Family minimization and exact distinction between conventional proof and formal interface",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/INDEPENDENT_REFEREE_VERIFICATION.md",
+      "sha256": "480207c5689b36d7ae1e3a9348eeb061cd5b259143d74a846137c1e245d9d541",
+      "reading_depth": "Selected propositions, proof and formalization boundary",
+      "role": "Family minimization and exact distinction between conventional proof and formal interface",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/RUN013_BANWAIT_CAPSULE_001/RUN013_62A1_TECHNICAL_CAPSULE.md",
+      "sha256": "86cb672a906c4459593cdbf0a40c10a76eb064d6da62a5e6fcc3eb017d11cba4",
+      "reading_depth": "Selected technical scope and source references",
+      "role": "Historical Run013 capsule",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/66B1_CONVENTIONAL_FREEZE_001/THEOREM_STATEMENT.md",
+      "sha256": "24feaa78c0b8fc82843f7c05c3f9b83ace30d360dd09fd2db5587fa2cfb33910",
+      "reading_depth": "Full record",
+      "role": "66b1 precise family and conventional 2-descent theorem",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/66B1_CONVENTIONAL_FREEZE_001/LITERATURE_DEPENDENT_STRONG_BSD_COROLLARY.md",
+      "sha256": "9064ce6788eddc1826ff26f005f8b1ac06f46f45a07bdc6e75b414af2827b4b5",
+      "reading_depth": "Full record",
+      "role": "66b1 qualified full-BSD assembly, distinct from inapplicable direct source routes",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/THEOREM_STATUS_H1_FREE_BRIDGE_COMPLETE_001/THEOREM_STATUS.md",
+      "sha256": "bb1dd287ae5d397aeacf691a3b041488ea1a2f2935e76118f3b73f04ee83da21",
+      "reading_depth": "Selected theorem and nonclaim sections",
+      "role": "Actual-point-group bridge; intermediate historical rank boundary",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINAL_ASSEMBLY_FORMALIZATION_FREEZE_001/STATUS.md",
+      "sha256": "30b604c606bd2d09db2cd80e23600af996122d870840c7da164d2752cc066bfd",
+      "reading_depth": "Full record",
+      "role": "Retained Lean rank-zero assembly and recorded build grade",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/THEOREM_STATUS_GATE_R_COMPLETE_001/CERTIFIED_ENDPOINTS.md",
+      "sha256": "39f62a531dafdc3b010a506b516cbdc89e3e89ffbc30fce3235e04828c1c7089",
+      "reading_depth": "Full record",
+      "role": "Exact actual-point-group theorem endpoints",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/ULTRA_WHOLE_PROGRAM_AUDIT_FREEZE_001/STATUS.md",
+      "sha256": "ed0289afea3564b453175239b641e7238cc26a0f528953e96f24163c9c422d30",
+      "reading_depth": "Full record",
+      "role": "Historical audit before formal finiteness successor; preserve scope",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINITENESS_FORMALIZATION_FREEZE_001/STATUS.md",
+      "sha256": "463cf8e98bb555ce3fa8ac598e1522e82d27f079b85dd65e6c9d238d8f6f7c27",
+      "reading_depth": "Full record",
+      "role": "Later formal finiteness of rational-point group, not Sha",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINITENESS_FORMALIZATION_FREEZE_001/01_run_A/tree/RequestProject/GateRFinite/Finiteness.lean",
+      "sha256": "e3e9368290b2596ba57640cb905a591e7b641ecf4f4488b63eff4eadbc655b89",
+      "reading_depth": "Full proof body inspected; not rebuilt",
+      "role": "Actual h41_finite signature and finite-generation derivation",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/GATE_R_FINITENESS_FORMALIZATION_FREEZE_001/02_run_B/tree/RequestProject/GateRFinite/Finiteness.lean",
+      "sha256": "1849cd8aa0f6d0eaabe8f62868f4e2be61bc883a2376619adb576c37343e30be",
+      "reading_depth": "Final theorem signature inspected; not rebuilt",
+      "role": "Second retained actual-point-group finiteness signature",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/P04C_TWO_DESCENT_QUOTIENT_FORMALIZATION_FREEZE_001/01_run_A/tree/RequestProject/P04c/TwoDescent.lean",
+      "sha256": "a174a7c4b73676c344850c4179934143e66da1b5c7376799f1c0759f227ba1ab",
+      "reading_depth": "Quotient theorem block inspected; not rebuilt",
+      "role": "Actual rational-point quotient target",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/POST_FS_BSD2_COMPOSITION_FREEZE_001/THEOREM_A_ALGEBRAIC_COMPOSITION.md",
+      "sha256": "d52080deac51c36898e163798d971b9056a9bcc9904a9555df62803753cf1331",
+      "reading_depth": "Full record",
+      "role": "Conventional Selmer-to-rank/Sha2 composition",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/POST_FS_BSD2_COMPOSITION_FREEZE_001/THEOREM_B_BASE_CONDITIONED_BSD2.md",
+      "sha256": "9f163f6063847f4cf7188b9a6faf9a60ce1a888d790d360f37d8c5962f0f2c7b",
+      "reading_depth": "Full record",
+      "role": "Earlier analytic base-value input isolated; supplied later only on retained H41 branches",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/POST_SATURATION_SEL2_BRIDGE_FREEZE_001/STATUS.md",
+      "sha256": "1931dacaef92c16773db3a64b9c0a2ef71baa6d80ddb65198e506a94684d6528",
+      "reading_depth": "Full record",
+      "role": "Older bridge checkpoint superseded in its point-group/rank targets",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_MOD4_SUCCESSOR_ADDENDUM_018/README.md",
+      "sha256": "c3b67822e8c84bd20b1be664acc122c036663ec8cfc0692ac53c77f57cf5889a",
+      "reading_depth": "Full record",
+      "role": "Seal and scope of mod-4 successor",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_MOD4_SUCCESSOR_ADDENDUM_018/ADDENDUM.md",
+      "sha256": "83088651058fea8919292bdfd944c138c062ce88dff33ba9d5bf26a18b85db9f",
+      "reading_depth": "Full record",
+      "role": "Exact H41 supersession; conventional/model-reviewed and external-literature qualifications",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_MOD4_SUCCESSOR_ADDENDUM_018/R/PROOF.md",
+      "sha256": "71024db1ca0893acf7cd20bd271fc80be5a6faf209feb15635b3a8d24201f2e3",
+      "reading_depth": "Identity comparison only in this operation; statement imported through addendum",
+      "role": "Byte-identical sealed copy of home mod-4 proof; not an extra independent proof",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_W_AUDIT_IMPORT_ROWS_CUSTODY_ADDENDUM_019/README.md",
+      "sha256": "12290a8a4ffc834fb0e94c94132fc4f23faccc47c09c7d82b57763223e17a957",
+      "reading_depth": "Full record",
+      "role": "Import-row custody scope",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS/H41_W_AUDIT_IMPORT_ROWS_CUSTODY_ADDENDUM_019/ADDENDUM.md",
+      "sha256": "f6e86bb538539a165131430837b3f0d3989f251f01cf1c9282d65c26a97fa7f4",
+      "reading_depth": "Full record",
+      "role": "I3/I4/I5 import binding; not a new theorem",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/PROOF.md",
+      "sha256": "71024db1ca0893acf7cd20bd271fc80be5a6faf209feb15635b3a8d24201f2e3",
+      "reading_depth": "Identity comparison only in this operation",
+      "role": "Home proof identical to Desktop sealed copy; claim scope from addenda",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/01_BSD_SUCCESSOR_MASTER_STATUS_AND_DEPENDENCY_MAP.md",
+      "sha256": "5e0bdaf2193054157d4d458f89b92d0ce910a1d9266f91e87cf8dd826504f9ba",
+      "reading_depth": "Selected governing status, supersession and custody sections",
+      "role": "Older whole-program synthesis; distinguish original checkpoint from later supersession",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/14_WHOLE_MAP_ASSEMBLY_AND_MISSING_INPUT_AUDIT_2026-09-16.md",
+      "sha256": "30ded0faf0f69369c44a7e7adef70ea486dd6657cdc71e6cce501ffb3d507bf9",
+      "reading_depth": "Selected governing status, supersession and custody sections",
+      "role": "Older whole-program synthesis; distinguish original checkpoint from later supersession",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/05_H9_CURRENT_FRONTIER.md",
+      "sha256": "109d96a19154f97cb2ffe00201487ca07691a3410a5a2f2b62fb4e09477e21d0",
+      "reading_depth": "Selected governing status, supersession and custody sections",
+      "role": "Older whole-program synthesis; distinguish original checkpoint from later supersession",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run014-b-negative-crux-control-2026-08-23/seed/official/BSD_CRUX.md",
+      "sha256": "bd15a6f58736b84d237d17cf10bdf9dc42b120a8dedd1613bfe9fe75a09da3c4",
+      "reading_depth": "Full record",
+      "role": "Historical problem-statement control; not a new BSD result",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run014-b-negative-crux-control-2026-08-23/seed/run013/BSD_CHAIN.md",
+      "sha256": "f767c276c91ea1db332d048a97fda6ea40667bf279762b7a5d26c2e259a15f2a",
+      "reading_depth": "Opening scope, hypothesis and comparison sections",
+      "role": "Copied conditional chain does not override completed original descent",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/run014-frontier-prep-2026-08-23/CURRENT_STATE.md",
+      "sha256": "549b4bb80b31d97a4b2c0e1c8d39002997fbfa47052bf4238ddf105089f388ea",
+      "reading_depth": "Full record",
+      "role": "Historical multiple-problem scouting status; no negative theorem of mathematical impossibility",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/C1_ULTRA_PARALLEL_NORM_RELATIONS_001/RESULT.md",
+      "sha256": "98eea683e3e96d09be34ba5b7eebabb6c88a0bc42372f0a44b400f18e28767d5",
+      "reading_depth": "Full result record, not underlying proof audit",
+      "role": "Scoped mod-5 lower-degree transfer obstruction; no Sha result",
+      "fresh_proof_replay": false
+    },
+    {
+      "path": "/Users/bsm/FIXED_E5_DEGREE2_TWIST_ATTACK_2026-09-17/00_REPORT.md",
+      "sha256": "8e9e51cab4306aa705000b0460e316c3852ab2687ac3e0c5a7622a72fe154951",
+      "reading_depth": "Opening result and first geometry/genus-zero theorem sections",
+      "role": "Parked fixed-E5 genus-zero obstruction and unresolved genus-one scope; not a new arithmetic dependency",
+      "fresh_proof_replay": false
+    }
+  ]
+}

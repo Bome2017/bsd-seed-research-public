@@ -1,0 +1,125 @@
+{
+  "scope": "Sources actually used in this bounded check; primary source statements versus imported project grades are distinguished in REPORT.md",
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_SEED_2243_12_LINE_HOSTILE_AUDIT_2026-09-19/LINE_HOSTILE_AUDIT.md",
+      "sha256": "4e7208397257f75fc955dcb0da04d73b184bccf08cb50d1f94cac3332733c178"
+    },
+    {
+      "path": "/Users/bsm/BSD_LINE_TA_COMPATIBILITY_REVIEW_2026-09-24/INPUT_TA_TB_RESOLUTION.md",
+      "sha256": "df3ab36991a2bf4412ca9533e7e31e0f8f5210ed04432458d575a231c161f165"
+    },
+    {
+      "path": "/Users/bsm/BSD_K288_UNIFORMITY_AUDIT_CODEX_2026-09-27/AUDIT.md",
+      "sha256": "d1090708ad629a0d4c58f15a114091bc03bf980b5925321761fe1b03c4a7281a"
+    },
+    {
+      "path": "/Users/bsm/BSD_U22_ENGINE_LINK2_CHECK_CODEX_2026-09-29/REPORT.md",
+      "sha256": "4f51a9dbc84fc44a100bf792e00248d3de5b9c7ac366d469b84a073093dd747b"
+    },
+    {
+      "path": "/Users/bsm/BSD_G2_INDEPENDENT_AUDIT_CODEX_2026-09-26/REPORT.md",
+      "sha256": "730797b16cc9b1ee18f70cc113e54c49eaf7928979a9e5fec19964b1c3b8bfe6"
+    },
+    {
+      "path": "/Users/bsm/BSD_BATCH_C_AUDIT_CODEX_2026-09-27/REVIEW.md",
+      "sha256": "679cde1a6c4e9ee3f17750e6098b636ae14f9d870f645f7d184fd7467b8cb3e1"
+    },
+    {
+      "path": "/Users/bsm/BSD_PRO_FOLLOWUP_LEAN_BATCH_C_AUDIT_CODEX_2026-09-27/AUDIT.md",
+      "sha256": "12675da9fdc9c8d93dcb2895c26acbbabc0f9bd22f9e76a78e1f2512eca824d3"
+    },
+    {
+      "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/REVIEW.md",
+      "sha256": "3b225eb283e6f6624a251f8ba7444bece9610272000e7b2c2f142fb6508d5b76"
+    },
+    {
+      "path": "/Users/bsm/BSD_BUILD_MAP/reviews/pro_kato_followup_2026-09-27/BSD_KATO_FOLLOWUP_REVIEW_2026-09-27/REVIEW.md",
+      "sha256": "0feb6538149b401d477e5b03d0db843b120b5906e9b195ce08ea8798932d566a"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/claims/claims.json",
+      "sha256": "83ff05fb7c52f7569f3c557c21027c349ea675bffec4bb47d4587285e500f242"
+    },
+    {
+      "path": "/Users/bsm/BSD_OUTREACH_ASSESSMENT_2026-09-22/KELLER_REPLY_AND_CONSEQUENCE.md",
+      "sha256": "8ba8f777a8ff29ef6ac0c4cb6e51832be8a5f299412c2ce2dbd9991cddb9d662"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_FIXED_EISENSTEIN_GATE_2026-09-19/STRUCTURAL_STOP_REGISTER.md",
+      "sha256": "409004b1104434449722dd0ac73480a871d7df15bf2cadd2cc6e24037ea24b82"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/DR16.txt",
+      "sha256": "75a2b9b2f57d25221ce5a99e7ff8048803767d99d9183a79b093ee01a17c459f"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/DR16.pdf",
+      "sha256": "80c2b9e1b3843e65a47e013925a4d27fdb8bd2b0cf5239d3477f296184e194cf"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/DLR15.txt",
+      "sha256": "d6aa8b37d2075120678b2d4366d12acccabd5f24438dec6a386834a17aaf7627"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/DLR15.pdf",
+      "sha256": "4e0e92e42019c312942a23008489c6d044ce6cced427cb2e0b1e3eea6104cd96"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/1912.11942v3.txt",
+      "sha256": "5eeedac64d7f2b420e9e2e6edb34e08154becd742903d654bad5dd8791822810"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/1912.11942v3.pdf",
+      "sha256": "84dc7c8369298314bd4e7ece5a45e5e096f39bd376f08c4c489950873c46fe86"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/2006.06139v5.txt",
+      "sha256": "b054c5801f89e1843bb42ab150d21e92e439195c5098c1966f9f5e8446d78067"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/2006.06139v5.pdf",
+      "sha256": "b3705e15817c142a2319660f12b07bf3871e13389d6d5557397c776809cec289"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/1512.02683v3.txt",
+      "sha256": "b2cc252fadba9029666a349d7bfc2db85df3272abd38891e194bc2d5eed41a43"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/sources/1512.02683v3.pdf",
+      "sha256": "76bb3576bc75dc1c5214597197e3d8ef62abc10784e2b2625657a0e7ea1821ff"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/verdicts/C1_DARMON_ROTGER_2016.md",
+      "sha256": "218571db1e49cd7e21dd705637bce1a3bc4d3071b009abc00c499be97854eee8"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/verdicts/C2_DLR_ELLIPTIC_STARK.md",
+      "sha256": "79bf6cc836a9be1557f0151f0ed41d7251565cd955f776adecd008646382e912"
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK2_GEOMETRIC_SOURCE_SCREEN_RETURN_fable_2026-09-29/verdicts/C5_KUDLA_THETA_SHTUKA.md",
+      "sha256": "9dce6963cb50a899641c632f3ff9a0294e4f6b5182255a013c1304c95a564999"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/evidence/PROVENANCE.tsv",
+      "sha256": "f663f920e430c5ce783cde90348eb574b886be74917d0ddf685dededb6003754"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/MANIFEST.sha256",
+      "sha256": "75b3ca0d378585925b18ba3a2c57159a2e2c31a15a198e0c6d608b392fe58fa0"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+      "sha256": "4bb78c75aa1f9ff1b07b4c758af7a5a7fa3681c151a7fb239165765934784317"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/evidence/src/BSD_SEED_P13_RUN_2026-09-21/STATE.json",
+      "sha256": "0e79378b7f14931479d947eb970ad0cb2093b69d926a17f96c03ef28a8cc3703"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESUME.md",
+      "sha256": "02d0a77aff5f3014c8f6ffed4c747ec0c3be73afa45027ac1ce7d68f676fe9a9"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  *** read: Warning: increasing stack size to 128000000.
+  *** read: Warning: increasing stack size to 256000000.
+  *** read: Warning: increasing stack size to 512000000.
+  *** read: Warning: increasing stack size to 1000001536.
+  ***   at top-level: read("inspect.gp")
+  ***                 ^------------------
+  ***   in function read: ...29/work/kb2a_bnf.bin");B=subst(B,variable(B.po
+  ***                                                 ^---------------------
+  *** subst: the PARI stack overflows !
+  current stack size: 1000001536 (953.676 Mbytes)
+  [hint] you can increase 'parisizemax' using default()
+

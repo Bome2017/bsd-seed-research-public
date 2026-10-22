@@ -1,0 +1,1 @@
+{alarm(54);gettime();B=read("bnf.bin");Q=bnfcertify(B,1);if(Q!=1,error("class quotient certification failed"));write("class_quotient_certificate.gp",[Q,B.cyc,B.no]);print("CLASS_GROUP_QUOTIENT_CERTIFIED=",Q,";COMPUTED_CYCLIC=",B.cyc,";FIVE_PRIMARY_TRIVIAL=",(B.no%5!=0),";MS=",gettime());quit;}

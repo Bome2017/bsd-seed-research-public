@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "D_shape": [
+    150,
+    156
+  ],
+  "K_shape": [
+    156,
+    99
+  ],
+  "integer_product_zero": true,
+  "finite_field_ranks": {
+    "7": {
+      "D": 57,
+      "K": 99
+    },
+    "101": {
+      "D": 57,
+      "K": 99
+    }
+  },
+  "rational_D_rank_certified_by_complementary_modular_minors": 57,
+  "rational_kernel_dimension": 99,
+  "p7_modular_kernel_dimension": 99,
+  "new_mod7_relations_beyond_reductions_of_integer_kernel": 0,
+  "interpretation": "exponent relations authenticate units; no claim their field classes independent or complete; modular additional relations if any are only candidates for class-supported virtual units"
+}

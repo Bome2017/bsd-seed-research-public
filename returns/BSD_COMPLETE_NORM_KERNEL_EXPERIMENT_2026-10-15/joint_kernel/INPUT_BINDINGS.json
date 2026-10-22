@@ -1,0 +1,114 @@
+[
+  {
+    "case": "1913b1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/matrices.json",
+    "sha256": "56adc05b6f210cc9009d4796de601a24b31cd98356325166d8431deb2931d3f9",
+    "input": "inputs/1913b1_matrices.json",
+    "operation": "Retain admission, point and source structure only; no supplied excess columns."
+  },
+  {
+    "case": "1913b1",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/1913b1/SIGNATURES.json",
+    "sha256": "cf578cd093301e7e79758ef3e24a6c9e509a994d99d77002c53b026c6f8736ba",
+    "input": "inputs/1913b1_signatures.json",
+    "operation": "Only actual full-source evaluation matrices; discard all known-class values, quotients and detector selections."
+  },
+  {
+    "case": "389a1",
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/matrices.json",
+    "sha256": "35617b8c04952c3c610f397d94fdfc8a975d9eaf7ed3f0a39af676298d92e570",
+    "input": "inputs/389a1_matrices.json",
+    "operation": "Retain admission, point and source structure only; no supplied excess columns."
+  },
+  {
+    "case": "389a1",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/389a1/SIGNATURES.json",
+    "sha256": "6bbb29bd990315380edac0dd9c9b456fa348346b1aa9767b3609eb04a781b874",
+    "input": "inputs/389a1_signatures.json",
+    "operation": "Only actual full-source evaluation matrices; discard all known-class values, quotients and detector selections."
+  },
+  {
+    "case": "433a1",
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/matrices.json",
+    "sha256": "19eb9f4c3f720ae49c57f0c307e0095ce5bb50951423e8b191e4e411d94026b2",
+    "input": "inputs/433a1_matrices.json",
+    "operation": "Retain admission, point and source structure only; no supplied excess columns."
+  },
+  {
+    "case": "seed3",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/seed3/matrices.json",
+    "sha256": "31135567952d2246bc76e81cad24db1f25da6bd849b9fc68b8b049be7f888ed1",
+    "input": "inputs/seed3_matrices.json",
+    "operation": "Retain admission, point and source structure only; no supplied excess columns."
+  },
+  {
+    "case": "seed3",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/seed3/SIGNATURES.json",
+    "sha256": "5dd669c9382f61864d35a2dbdc51cfe07361a9cf1593ced213daf4c4105d4344",
+    "input": "inputs/seed3_signatures.json",
+    "operation": "Only actual full-source evaluation matrices; discard all known-class values, quotients and detector selections."
+  },
+  {
+    "case": "28042a1",
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/matrices.json",
+    "sha256": "3b146b3ef35cddcb99b00c37b3e8ee02cc59543387bd00ba1763224df31d5dde",
+    "input": "inputs/28042a1_matrices.json",
+    "operation": "Retain admission, point and source structure only; no supplied excess columns."
+  },
+  {
+    "case": "28042a1",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/28042a1/SIGNATURES.json",
+    "sha256": "5c2240a75f1ec63436804e8bc8237ab465f32a74241c3ec23321d0d330ab2225",
+    "input": "inputs/28042a1_signatures.json",
+    "operation": "Only actual full-source evaluation matrices; discard all known-class values, quotients and detector selections."
+  },
+  {
+    "case": "433a1",
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/data.gp",
+    "sha256": "c1a8a2a2e0257b7ea88ebce172a49f826bc107e2411263395860d06f62d62ab2",
+    "input": "433_scan/data.gp",
+    "operation": "literal copy, source order unchanged"
+  },
+  {
+    "case": "433a1",
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/nf.gp",
+    "sha256": "1f3942b8438d0c358f7590c2751d15be83e4ac15b4a2eb00241997924953daf2",
+    "input": "433_scan/nf.gp",
+    "operation": "literal copy, source order unchanged"
+  },
+  {
+    "case": "433a1",
+    "source": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm433/complete_certificate.json",
+    "sha256": "9b8bacf61b53ed45c674f276baa38a07dd91af24ffcb002452e354e249b3a13f",
+    "input": "inputs/433a1_matrices.json",
+    "operation": "Replace local rows with fresh authenticated rows; preserve prior local rows for comparison."
+  },
+  {
+    "case": "1913b1",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/1913b1/coordinates.json",
+    "sha256": "7eaffa2b20431e58f6bd389daacf29e4fa7275f8a30151946725ac3acf266ea5",
+    "input": "heldout/1913b1_known.json",
+    "operation": "Known columns stored separately; read only by post-kernel compare_holdout.py."
+  },
+  {
+    "case": "389a1",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/389a1/coordinates.json",
+    "sha256": "59899b885560e73b0c1a86de3484c16a0b0c3a9044ac5110360a141477fdfa9b",
+    "input": "heldout/389a1_known.json",
+    "operation": "Known columns stored separately; read only by post-kernel compare_holdout.py."
+  },
+  {
+    "case": "seed3",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/seed3/coordinates.json",
+    "sha256": "cf5b22b4d52fd9544c3ce2708d894028058334b6c7dcf73763216ca2ea3a9e20",
+    "input": "heldout/seed3_known.json",
+    "operation": "Known columns stored separately; read only by post-kernel compare_holdout.py."
+  },
+  {
+    "case": "28042a1",
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/28042a1/coordinates.json",
+    "sha256": "bb298ed163c7f2268defc6d51baca50bc96b00eb5261ec5743b46c0f8e0201f2",
+    "input": "heldout/28042a1_known.json",
+    "operation": "Known columns stored separately; read only by post-kernel compare_holdout.py."
+  }
+]

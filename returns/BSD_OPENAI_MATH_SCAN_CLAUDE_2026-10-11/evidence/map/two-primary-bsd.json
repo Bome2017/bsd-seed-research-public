@@ -1,0 +1,243 @@
+{
+  "paper": "The two-primary Birch–Swinnerton-Dyer formula in Selmer corank at most one (OpenAI, October 6, 2026; OAI:The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026). Sources: preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026/build/{paper.tex, sections/01..15-*.tex, references.tex}; 16 numbered sections (file 12-alternation-imaginary.tex holds Sections 12 and 13). Version note: 'updates citations to revised manuscripts in this collection' (previous version Sept 24, 2026). Grade: IMPORTED_PREPRINT (unrefereed, AI-generated, no Lean formalization in the BSD family).",
+  "main_theorems": [
+    {
+      "label": "Theorem 1.1 (thm:main)",
+      "statement": "Let E/Q be any elliptic curve with s_2(E) ≤ 1. Then r := rank E(Q) = ord_{s=1} L(E,s) = s_2(E), #Ш(E/Q) < ∞. Moreover, Q_E = L^{(r)}(E,1)(#T_E)^2 / (r! Ω_E Reg_E ∏_{ℓ finite} c_ℓ(E)) ∈ Q_{>0}, v_2(Q_E) = v_2(#Ш(E/Q)). There is no restriction on E[2] or on the reduction of E at two.",
+      "hypotheses": "s_2(E) := corank_{Z_2} Sel_{2^∞}(E/Q) ≤ 1 (usual local Kummer conditions incl. the real place). Normalizations: Ω_E = ∫_{E(R)}|ω_E| over ALL real components; H = canonical height attached to 2[O] (i.e. twice the usual one), Reg_E = det of B(P,Q) = (H(P+Q)-H(P)-H(Q))/2 on a Z-basis of E(Q)/T_E (Buhler–Gross–Zagier convention); v_2(2)=1. No CM, residual-image, torsion, isogeny or reduction-type hypothesis.",
+      "location": "sections/01-introduction.tex:54-71"
+    },
+    {
+      "label": "Corollary 1.2 (cor:any-prime-bsd, 'An any-prime input criterion')",
+      "statement": "Let E/Q be an elliptic curve. Suppose that, for some prime p, its full p-power Selmer group with the usual local Kummer conditions at every place satisfies s_p(E) := corank_{Z_p} Sel_{p^∞}(E/Q) ≤ 1. Then all conclusions of Theorem 1.1 hold, with common rank r = s_p(E).",
+      "hypotheses": "s_p(E) ≤ 1 for SOME prime p. Proof (01-introduction.tex:84-95) imports [OpenAIAllPrimeSelmer2026, Theorem 1.1] (rank = s_p and whole Ш finite), then the Kummer sequence at 2 gives s_2 = rank ≤ 1 and Theorem 1.1 applies. Entirely dependent on another OAI manuscript for the odd-p step.",
+      "location": "sections/01-introduction.tex:73-95"
+    },
+    {
+      "label": "Propositions 1.3–1.5 (prop:positive, prop:anchor, prop:cm) — the three comparisons organizing the proof",
+      "statement": "1.3 (Positive comparison): Let A/Q be non-CM. If an(A) ≤ 1, then X(A) ≥ 0. Suppose a positive fundamental discriminant a prime to 2N_A, or a=1, satisfies an(A^a) ≤ 1 and X(A^a)=0. Then s_2(A) ≤ 1 implies an(A) = s_2(A) and X(A)=0. 1.4 (Split-pair anchor): Let A/Q be non-CM. There exist a fundamental discriminant h prime to 2N_A, allowing h=1, and an imaginary quadratic field of discriminant k prime to 2hN_A, in which all primes dividing 2hN_A split, such that an(A^h)+an(A^{hk}) = 1, X(A^h)+X(A^{hk}) = 0. 1.5 (CM comparison): If A/Q has CM and s_2(A) ≤ 1, then an(A) = s_2(A) and X(A)=0. Here X(A) = v_2( L^{(an)}(A,1)(#A(Q)_tors)^2 / (an! Ω_A Reg_A ∏c_q(A) #Ш(A/Q)) ) for an(A) ≤ 1.",
+      "hypotheses": "All three are internal to the Selmer-corank ≤ 1 / analytic-rank ≤ 1 world; X(A) is only defined when an(A) ≤ 1 (uses GZ–Kolyvagin for finiteness of Ш). 1.3 proved in Sections 4–7, 1.4 in Sections 8–10, 12–15 by residual-image cases (reducible / imaginary S_3 / real S_3 / C_3), 1.5 in Section 11.",
+      "location": "sections/01-introduction.tex:206-249; proofs assembled in sections/15-conclusion.tex:3-79"
+    },
+    {
+      "label": "Corollary 16.1 (cor:quadratic-twist-density, 'Exact two-primary BSD for almost all quadratic twists')",
+      "statement": "Fix E/Q. Among nonzero squarefree d ordered by |d|, the sets {d : s_2(E^d) = j} (j = 0,1) each have density 1/2. For every nonzero squarefree d with s_2(E^d) = j ∈ {0,1}, F = E^d satisfies rank F(Q) = ord_{s=1} L(F,s) = s_2(F) = j, #Ш(F/Q) < ∞, Q_F ∈ Q_{>0}, v_2(Q_F) = v_2(#Ш(F/Q)).",
+      "hypotheses": "Density statement imported from [OpenAIGoldfeldDensity2026, proof of Theorem 1.2]; pointwise part is Theorem 1.1. 'the formula asserts equality only at the prime two'.",
+      "location": "sections/15-conclusion.tex:82-129"
+    }
+  ],
+  "general_results": [
+    {
+      "label": "Lemma 2.1 (lem:classical-parity, 'Two-primary parity')",
+      "statement": "For every elliptic curve A/Q, (-1)^{s_2(A)} = w(A). For a quadratic field K = Q(√k), s_2(A/K) = s_2(A) + s_2(A^k). Moreover, dim_{F_2} Sel_2(A) − dim_{F_2} A(Q)[2] − s_2(A) is a nonnegative even integer. These statements do not require finiteness of Ш(A).",
+      "hypotheses": "None on rank or reduction. Proof imports Kramer81, Kramer–Tunnell82, DD10, DD11, CI16 (dyadic local root numbers), Milne ADT Rem. I.6.11 and Poonen–Stoll Thm 5/Cor 7 (Cassels–Tate alternating), plus a calibrating twist with nonzero central value (FH95) and the rank-zero GZK theorem. Essentially the Dokchitser–Dokchitser/Monsky 2-parity theorem restated.",
+      "location": "sections/02-classical.tex:34-69",
+      "kind": "parity",
+      "relevance": "none (2-parity for E/Q is published; seed has s_2(E) ≥ 2, w(E) = +1, consistent)."
+    },
+    {
+      "label": "Theorem 2.2 (thm:classical-gz, 'Split Gross–Zagier formula') and Corollary 2.3 (cor:classical-G, 'full-index discrepancy')",
+      "statement": "2.2: With the preceding hypotheses and units modulo signs one, √D/(8π²(f,f)_N) · L'(f/K,1) = 2 H_{abs,f}(P_X). (GZ-E): L'(E/K,1) = (∫_{E(C)}|ω_E∧ω̄_E| / (√D c_E²)) · 2H_abs(P). 2.3: Under these assumptions [L(E/K,s) simple zero at 1], the single Hilbert-class trace satisfies X(E)+X(E^k) = v_2( [E(K):ZP]² / (c_E² ∏_ℓ c_ℓ(E)² #Ш(E/K)) ).",
+      "hypotheses": "f ∈ S_2(Γ_0(N)) newform; K odd fundamental discriminant −D < −4 prime to N with ALL level primes split (Heegner hypothesis); Cor 2.3 additionally assumes ord_{s=1} L(E/K,s) = 1 and uses Tate1966 Thm 2.1 / Cassels65 isogeny invariance for Res_{K/Q}E ~ E×E^k.",
+      "location": "sections/02-classical.tex:96-173",
+      "kind": "heegner_theta",
+      "relevance": "none for the seed: K = Q(√−7) is NOT a Heegner field for N (3, 2243, 5843 inert) and ord_{s=1} L(E/K,s) ≥ 2."
+    },
+    {
+      "label": "Lemmas 3.1–3.11 (finite cochain models, complementary duality, line/square switches, global Kummer volume, tame division, pole test)",
+      "statement": "3.1: '…the following constructions can be made by cochain contractions. (1) There are degreewise finite free minimal models with ordinary base change… (2) Suppose on a fixed nonprincipal ultrafilter on a sequence of stages the scalar precisions identify… Transfer cochain diagrams at the stages and take matrix limits at all fixed precisions.' 3.4 (strict–finite comparison, eq. D): d(C_F,(Y,Y^∨)) = d(C_*,1) + 2(v(p) + d(U_w,e)). 3.5 (Line switch): d(C_f,Y) = d(C_s,Y'). 3.6 (Square switch): d(C_f,(Y,Y^∨)) = d(C_s,(Y',(Y')^∨)). 3.7 (Kum): for rank one, d(C_Kum,(P,P^∨)) = 2n_P + 2τ_g − s_K with s_K = v_2(#Ш(E/K)).",
+      "hypotheses": "Purely cohomological, 2-primary coefficients; 3.7 assumes Ш(E/K) finite and rank one. Relies on an ad hoc 'ultrafilter matrix limit' formalism replacing Iwasawa algebras of moving tame conductors.",
+      "location": "sections/03-foundations.tex:223-416 (Lemma 3.1 at 223-256; eq. D at 395-409; switches 451-488; Kum 512-522)",
+      "kind": "other",
+      "relevance": "none directly; these are p=2 Kolyvagin-system-style finite/singular comparisons (manuscript cites Mazur–Rubin04 §1.2). Not transferable to the lab's odd-p obligations without reproving everything."
+    },
+    {
+      "label": "Propositions 4.2–4.5 (Kato classes at p=2: integrality, full-level reciprocity, norm relations, period law K4)",
+      "statement": "4.2: 'The classes obtained from (K1) are integral for support containing the primes of 2n_2 and infinity… The projected smoothed classes on Q… admit integral lifts to ordinary positive cohomology.' 4.4: adjoining a fresh prime ℓ ∤ cdn_2L gives the rational norm multiplier 1 − a_ℓ(f)[ℓ]/ℓ + [ℓ]²/ℓ. 4.5 (K4): for the projected weighted class z_ν, the coefficient of its dual exponential relative to ω is ± Δ_ν L^{(M)}(f,ν,1)/Ω_0 · δ_ξ(a), Δ_ν = (c²−cν(c)^{-1})(d²−dν(d)^{-1}).",
+      "hypotheses": "Any modular elliptic isogeny class over Q (E' = optimal J_1(N)-quotient modulo cusp differences), square/rectangular level patterns, v_2(M) ≥ 6, c,d prime to 6M (resp. ≡ 1 mod L for 4.5), ν even finite character. Imports Kato04 Thm 9.5 'specialized to k=2, r=r'=1… The theorem applies at p=2', Wang12 distribution formula, Manin–Drinfeld. No rank hypothesis.",
+      "location": "sections/04-siegel.tex:173-226 (4.2), 241-458 (4.3), 462-570 (4.4), 574-733 (4.5)",
+      "kind": "euler_system",
+      "relevance": "none: it is the 2-adic Kato Euler system with explicit smoothing; the seed's p=2 obligation (Ш[2^∞]=0) is already settled. Not a statement about odd p."
+    },
+    {
+      "label": "Proposition 5.1 (prop:positive-determinant:integral, 'Integral positive determinant') with Lemma 5.7",
+      "statement": "5.1: 'The complex C^+ ⊗_B B_{(2)} is a free module of rank two in degree one, up to homotopy. Generically over B, the tensor a∧z is nonzero and gives a coordinate U_raw ∈ Frac B… U = U_raw/Δ · ∏_{q∈S_f, q≠2} D_q/P_q … The assertion is that U ∈ B∖{0}. If the construction is made simultaneously for E' and a positive fundamental twist E'^{(h)}, the two reductions of U differ by a unit of B/2B.' 5.7: 'if an(A_0) = 0, then v_2 U(0) = X(A_0). In particular X(A_0) ≥ 0. If only s_2(A_0)=0 is known and U is a unit, then L(A_0,1) ≠ 0.'",
+      "hypotheses": "E' non-CM (Serre open image used for bounded torsion), B = Z_2[[t,u_1,…,u_k]] (cyclotomic + k tame variables at auxiliary primes r_{j,i} → 1), 'Throughout the construction itself, no analytic-rank hypothesis is imposed' (05:9-10). Lemma 5.7 needs an(A_0)=0 or s_2=0.",
+      "location": "sections/05-positive-determinant.tex:34-61 (5.1), 501-555 (5.7)",
+      "kind": "IMC",
+      "relevance": "none for the seed obligations: this is an integral 'Kato class ∈ determinant lattice' divisibility (one direction of a 2-adic main conjecture, with tame variables) for non-CM curves at p=2 only; the rank-0 inequality X ≥ 0 is a Kato-type bound on Ш[2^∞]. Seed is done at 2."
+    },
+    {
+      "label": "Theorem 6.1 (tame:logarithm) and Proposition 6.3 (tame:spectral, 'Spectral-height comparison')",
+      "statement": "6.1: 'Suppose an(E)=1, and let P ∈ E(Q) be nontorsion. Then log_ω z / (log_ω P)² = ± d_0 L'(f,1)/(Ω_0 H(P)). (T1)' 6.3: 'For the horizontal data of Definition 6.2, and the tame height defined below, one has C Ω_0 L(f⊗ε,1) Z'/d_0 = ±(2−a_*) h_λ^K(Q_X,Q_X)/δ. This assertion requires the odd functional sign and the nonzero companion value, but does not assume an(E)=1 or that E(Q) spans the rational Selmer group. In particular, if Q_X is torsion, then Z'=0.'",
+      "hypotheses": "E/Q non-CM with primitive form f; 6.1: an(E)=1 (rank one). 6.3: only w(E) = −1 and an auxiliary imaginary quadratic K (odd disc < −4, split at 2N) with L(f⊗ε_K,1) ≠ 0 (FH95); tame characters λ_i of conductor r_i → 1 with Frobenius limit of det 1, trace a_* ≠ ±2. The manuscript says (T1) 'belongs to the framework proposed by Perrin-Riou… Bertolini–Darmon–Venerucci prove such a relation, up to a nonzero rational factor, at odd semistable primes'.",
+      "location": "sections/06-tame.tex:30-39 (6.1), 130-141 (6.3), proofs 1203-1337",
+      "kind": "padic_L",
+      "relevance": "none; conceptually adjacent to lemma TH (derivative of a Kato class in a tame direction identified with a tame height of the Heegner trace), but it is cyclotomic-type (even characters of conductor r), 2-adic, and requires w(E) = −1 — the seed E and E^{-7} both have w = +1, and the lab's TH is anticyclotomic at p = 5843."
+    },
+    {
+      "label": "Lemma 7.5 (lem:positive-completion:bockstein, 'Nonzero Selmer Bockstein') and the unknown-center argument",
+      "statement": "'For the direction of Lemma 7.4, ord_v δ(v) = 1. In particular, C_f^{Sel} is generically acyclic over R = Q_2[[v]].' Used to show: if s_2(E')=1 and the positive anchor hypothesis holds, the dual exponential of the Kato class has a simple zero along the prescribed tame direction, whence by Prop 6.3 L'(E,1) ≠ 0 (07:350-403).",
+      "hypotheses": "Non-CM, s_2(E')=1, positive anchor hypothesis (unit U) — i.e. corank-one only. The Bockstein nonvanishing itself uses only a nonzero compact Selmer class x, its self-cup primitive k (Lemma 7.3, via Poitou–Tate and local Kummer isotropy) and a Frobenius direction with k(g) − β(g)g_T(g_T−1)^{-1}x(g) ≠ 0.",
+      "location": "sections/07-positive-completion.tex:237-346; 350-403",
+      "kind": "control",
+      "relevance": "none (corank ≤ 1 only; K-RANK2). Note: this is the manuscript's 2-adic 'Selmer corank 1 ⇒ analytic rank 1' step for arbitrary non-CM curves — far beyond published p-converse theorems; extraordinary claim."
+    },
+    {
+      "label": "Proposition 8.1 (split-measures:reducible-input, 'Reducible split-product comparison') and Propositions 9.11–9.12",
+      "statement": "8.1: 'Let E/Q be a non-CM elliptic curve with E(Q)[2] ≠ 0, and put N = cond(E). Let d ≡ 7 (mod 16) be prime and suppose that every prime dividing 2N splits in K = Q(√−d). If s_2(E/K)=1, then L(E/K,s) = L(E,s)L(E^{-d},s) has a simple zero at 1, and X(E)+X(E^{-d}) = 0. If the product is already known to have a simple zero at 1, the same valuation identity holds without separately assuming the Selmer corank condition.' 9.12 (eq. E): 2(n_P+τ_g) = 2v_2(c_E) + 2Σ_ℓ v_2(c_ℓ) + s_K.",
+      "hypotheses": "Non-CM, rational 2-torsion, d ≡ 7 mod 16 prime, all primes of 2N split in K, s_2(E/K) = 1 (or simple zero of L(E/K,s)). Proof: paired 2-adic CM-disk logarithmic measures (BDP-style depleted primitives) vs strict Selmer determinant over Z_2[[t,u]], unit comparison via residual Eisenstein congruence.",
+      "location": "sections/08-split-measures.tex:9-22; sections/09-split-local.tex:350-434",
+      "kind": "heegner_theta",
+      "relevance": "none. Seed check: E(Q)[2] = Z/2 ✓, d = 7 ≡ 7 mod 16 prime ✓, but 3, 2243, 5843 are inert in Q(√−7) ✗ and s_2(E/K) = s_2(E) + s_2(E^{-7}) ≥ 2 ✗."
+    },
+    {
+      "label": "Proposition 9.7 (split-local:derivative, 'Inert derivative identity', eq. K) with Lemma 9.5",
+      "statement": "'Fix a finite collection of auxiliary inert prime sequences satisfying the full-Tate approximation conditions… Let Z_I be their descended, χ-weighted corestrictions to K, transferred to the limiting coefficient model. In the finite and singular coordinates f_loc, s_loc of Lemma 9.5, at a newly switched prime ℓ ∉ I one has s_loc(Z_{I∪{ℓ}}) = J f_loc(Z_I), f_loc(Z_{I∪{ℓ}}) = 0, (K) and the transverse condition in the second identity holds at every switched prime.'",
+      "hypotheses": "Modular abelian variety A (or E), K imaginary quadratic with O_K^× = {±1}, 2 and the level split; auxiliary inert primes ℓ_i → −1, a_ℓ → 0, ρ(γ_i) → J with J² = 1 (2-adically, on the full Tate module). Descent multiplier L via Bogomolov80 homotheties. No rank hypothesis.",
+      "location": "sections/09-split-local.tex:145-162 (9.5), 203-266 (9.7)",
+      "kind": "euler_system",
+      "relevance": "none: a 2-adic Kolyvagin-derivative (finite/singular) relation for Heegner points at inert primes; the lab's level-raising/bipartite route (TH) is at p = 5843."
+    },
+    {
+      "label": "Proposition 9.13 (split-local:heegner-rank, 'Characteristic-zero Heegner rank test', eq. K0)",
+      "statement": "'Let f be a normalized primitive weight-two newform of trivial nebentypus and level N_f, and let A be its modular abelian factor. Let K have odd fundamental discriminant −D < −4, prime to N_f, and suppose every prime dividing N_f splits in K… Assume V_f|_{G_K} absolutely irreducible. Then L(f/K,s) has a simple zero at 1 ⟹ H^1_f(K,V_f) = F_f y, y ≠ 0, τy = −w(f)y, where y is the Kummer class of the projected Hilbert trace… For a general A, no assertion of finiteness for its entire prime-primary Tate–Shafarevich group is included.'",
+      "hypotheses": "Heegner hypothesis for K, V_f|G_K absolutely irreducible, L(f/K,s) simple zero; coefficient field F_f ⊃ Q_2 (2-adic). Proof: GZ86/CST14 + inert derivative identity (K) + global reciprocity; 'does not require a residual Euler-system bound' (Remark 9.14).",
+      "location": "sections/09-split-local.tex:441-486",
+      "kind": "euler_system",
+      "relevance": "none (Kolyvagin's rank-one theorem re-proved 2-adically; seed has ord ≥ 2 over any K)."
+    },
+    {
+      "label": "Proposition 10.1 (prop:reducible-seed, 'Finite Selmer seed'), Proposition 10.8 (split imaginary partner), Lemma 13.3, Lemma 14.3, Lemma 15.1 (twisting to small 2-Selmer)",
+      "statement": "10.1: 'There are a permitted twisting factor h and an elliptic curve E_0, isogenous over Q to E^h, with rational two-torsion and dim Sel_2(E_0) = dim E_0(Q)[2]. (seed)' 10.8: 'For h, E_0 in Proposition 10.1, there is a fresh prime d ≡ 7 (mod 16) such that K = Q(√−d) splits all primes of 2hN_E, and d_2(E_0^{-d}) = s_2(E_0^{-d}) = 1, s_2(E_0) = 0, s_2(E_0/K) = 1.' 13.3: for S_3-imaginary image there is a squarefree h of primes ≡ 1 mod 8 with dim Sel_2(E^h) + dim Sel_2(E^{hk}) = 1 and s_2(E^h/K)=1.",
+      "hypotheses": "E non-CM with rational 2-torsion (10.1/10.8) or residual image S_3/C_3 (13.3, 14.3, 15.1); twisting primes avoid 2N_E; 'Neither construction uses analytic nonvanishing or finiteness of the Tate–Shafarevich group.' Finite 2-descent + Chebotarev (Mazur–Rubin10 Lemma 3.2/Prop 3.3/Lemma 3.5 style), plus an 'orientation by isogeny' Lemma 10.5 maximizing v_2(Ω∏c_q) in the 2-isogeny graph.",
+      "location": "sections/10-reducible.tex:25-32, 542-645; sections/12-alternation-imaginary.tex:86-96; sections/13-real.tex:85-132; sections/14-cyclic.tex:18-72",
+      "kind": "twists",
+      "relevance": "none: produces auxiliary twists of small 2-Selmer rank; says nothing about E itself."
+    },
+    {
+      "label": "Theorem 11.3 (cm:external-units, 'Individual-character elliptic-unit comparison') and Lemma 11.4",
+      "statement": "'Let Γ ≅ Z_2² be the free pro-2 factor of the ray-tower group… If f_χ | f, then, inside generic rank-one cohomology, Λ_O z_{2^∞ f} = det^{-1}_{Λ_O} RΓ(O_L[1/2f], Λ(χ)(1)). For the character motive of type (1,0)… elliptic-unit reciprocity gives the period equation per(exp^* z(γ)) = L_{2f}(φ̄,1)γ… The equation includes the case of a zero L-value.' 11.4 (C2): under concentration, O z(T_α ψ) = D(RΓ(O_L[1/2f], T_α ψ)), 'No nonvanishing hypothesis on a complex L-value is required.'",
+      "hypotheses": "L imaginary quadratic, CM Hecke character of type (1,0), p = 2. 'The determinant assertion is the Johnson-Leung–Kings theorem in the form of [BF23, Theorem 4.1]… That theorem includes p=2. The period equation is Kato's reciprocity law [Kato04, Prop 15.9], in the CM formulation [BF23, Prop 3.1].'",
+      "location": "sections/11-cm.tex:136-246",
+      "kind": "IMC",
+      "relevance": "none (CM only; seed is non-CM)."
+    },
+    {
+      "label": "Proposition 11.14 (cm:corank-one, 'CM corank one') and Corollary 11.11 (CM corank zero)",
+      "statement": "11.14: 'If E/Q is CM and s_2(E) = 1, then an(E) = 1 and X(E) = 0.' 11.11: 'If E/Q is CM and s_2(E) = 0, then an(E) = 0 and X(E) = 0.'",
+      "hypotheses": "E/Q CM, s_2(E) ≤ 1. 11.14 claims a 2-adic CM corank-one converse at EVERY reduction type at 2 (published: LTYZ2025/BCST22 need good ordinary at 2).",
+      "location": "sections/11-cm.tex:617-629, 910-1048",
+      "kind": "p2_p3",
+      "relevance": "none (CM only)."
+    },
+    {
+      "label": "Lemma 12.1 (alternation-imaginary:alternation, 'Conjugate Bockstein alternation') and Corollary 12.2 (parity of special and generic ranks)",
+      "statement": "12.1: 'With the coefficient module, local conditions, and isotropy data just specified, let s ∈ R be a regular scalar. On degree one for coefficients mod s, with ∂ the Bockstein from mod s², one has ⟨x, ∂x⟩ = 0. (H1)' 12.2: 'For a perfect two-term DVR complex in degrees 1,2 with perfect self-duality of shift −3, arising from the preceding local conditions and satisfying (H1), the generic and special first-cohomology dimensions have the same parity.'",
+      "hypotheses": "V = Ind_K^Q(Tχ), T a free plane from Q with perfect alternating form, χ anticyclotomic, R a complete 2-adic scalar/power-series ring; local conditions: one unrestricted coordinate at split pairs, unramified at discriminant primes. No rank hypothesis.",
+      "location": "sections/12-alternation-imaginary.tex:18-59",
+      "kind": "parity",
+      "relevance": "none directly: an anticyclotomic Selmer-parity lemma (Nekovář/Howard-type) at p = 2. The lab's anticyclotomic route is at p = 5843 and uses published BD/BLV; no p-independent statement is given."
+    },
+    {
+      "label": "Proposition 14.4 (real:detector, 'The detector at infinity') and Lemma 14.6 (parity on primitive components)",
+      "statement": "14.4: 'There is an F_2-linear functional Θ: H^1(⟨σ⟩, T_2J) → F_2, Θ T_p = tr W(Fr_p) Θ (p ∤ 2n), Θ([Y']) ≠ 0. (R0)' 14.6: 'If g is one of the primitive components or its quadratic twist and has odd functional sign, its two-adic characteristic-zero Kummer Selmer dimension over Q at the chosen embedding is odd.'",
+      "hypotheses": "W = E[2] with image S_3 and REAL quadratic subfield L; J = J_0(n) with n = 2^δ d_L^odd (b^odd ℓ_0)², σ = w_n c; Y' = (T_ℓ − ℓ − 1)·(Hilbert trace) for a Heegner K of discriminant −d ≡ 7 mod 8 splitting 2nhN_E.",
+      "location": "sections/13-real.tex:138-263, 306-314",
+      "kind": "p2_p3",
+      "relevance": "none (residual real-S_3 branch of the 2-adic anchor)."
+    },
+    {
+      "label": "Lemma 14.9/14.11/14.12 (Pfaffian cofactor lift and 'Pfaffian divisibility with repeated factors')",
+      "statement": "14.11: 'Let R_0 be a commutative ring, let A, B be alternating matrices of even size, and let Δ = diag(d_1,…,d_{2r}). Suppose A = ΔBΔ, v = Δb, L = HΔ with all matrices integral… If Q_Δ = ∏_k d_k, then Pf(A) = Q_Δ Pf(B), L#A v = Q_Δ H #B b. Thus L#A v + Pf(A)c is divisible by Q_Δ for every integral c. Neither regularity nor coprimality of the d_k is required.' 14.12: global coordinates of the cofactor-lifted cycle are divisible by Q_aux = ∏_{j>0} α_j.",
+      "hypotheses": "Pure algebra (14.11); 14.12 in the real-S_3 strict-pair setting over R_1 = A[[u_0]].",
+      "location": "sections/13-real.tex:374-422, 473-506, 508-629",
+      "kind": "other",
+      "relevance": "none."
+    },
+    {
+      "label": "Proposition 15.4 (cyclic:ray-basis, 'Primitive ray determinant') and Proposition 15.6 (comparator determinant, Y2)",
+      "statement": "15.4: 'The class z_S = e_S z_ray is a basis of the inverse determinant of the unrestricted global complex on O(τ)(1)τ, with support S', over the dyadic character integers. Rationally this determinant is its single H^1-line.' 15.6: v_2(D) = 2v_2(ℓ_w z_ray) + Σ_{q∈S, v_0|q} v_2(P_q(χ(Fr_{v_0}))).",
+      "hypotheses": "K imaginary quadratic with O_K^× = ±1 and odd class number, τ = ρχ a ray-class character of order 3·2^a (ρ cubic from the C_3 residual image), z_ray the weighted Kummer trace of a Siegel unit (Oukhaba03 §2.2 normalization), S' ≠ ∅; proof via S'-truncated Dedekind class number formula and Epstein–Kronecker limit formula.",
+      "location": "sections/14-cyclic.tex:275-433, 494-527",
+      "kind": "IMC",
+      "relevance": "none (a one-character Stark/Rubin-type unit determinant at p=2 used as an Eisenstein comparator)."
+    },
+    {
+      "label": "Lemma 11.6 (cm:log-nonzero) and Lemma 8.5/8.6/8.7 (integral depleted primitive, disk measure support, exact logarithmic primitive M1)",
+      "statement": "11.6: 'For every nontorsion P ∈ B(Q), one has log_ω P ≠ 0' (B a Q-simple CM abelian variety, via Fuchs–Pham p-adic analytic subgroup theorem). 8.5: F_0 = d_mod^{-1} f^{[2]} converges to an integral weight-zero function on the ordinary locus, including when 2 | N. 8.7: 'F_0 = P_2(V_2) G (M1)' on interior ordinary CM disks; 8.6: the disk measure μ with F(z) = ∫ z^x dμ(x) is supported on Z_2^×.",
+      "hypotheses": "Primitive weight-two newform of trivial character, imaginary quadratic field with units ±1 split at 2 and the level; ordinary (split) CM disks. No rank hypothesis.",
+      "location": "sections/11-cm.tex:326-351; sections/08-split-measures.tex:244-334",
+      "kind": "padic_L",
+      "relevance": "none: 2-adic BDP-type anticyclotomic measure construction (manuscript: 'antecedents in Bertolini–Darmon–Prasanna §3.8, 5.3'); the seed's split-at-p anticyclotomic route needs p = 5843 (inert in K = Q(√−7), so even the analogue would not apply)."
+    }
+  ],
+  "external_inputs": [
+    {"name": "Breuil–Conrad–Diamond–Taylor 2001 (modularity)", "how_used": "Every curve is modular; parametrizations X_0(N) → E, Kato classes on X_1(N).", "black_box": true},
+    {"name": "Gross–Zagier 1986 (Ch. I (4.3),(6.4); Ch. V Thm (2.1)), with Cai–Shu–Tian 2014 and Conrad 2003 ('Gross–Zagier revisited', Thm 5.1, Cor 7.15)", "how_used": "Split Gross–Zagier formula Thm 2.2/(GZ-E) with absolute heights; Conrad's proper-intersection and inert lifting-length formulas in the tame height computation (Prop 6.13).", "black_box": true},
+    {"name": "Kolyvagin 1990 (+GZ) 'analytic rank ≤ 1 ⇒ rank and finiteness of Ш'", "how_used": "Used AFTER analytic order is established (02:5-9, 15:55-62) to get rank, Ш finite, and rationality of Q_E; also defines X(A).", "black_box": true},
+    {"name": "Kato 2004 (Thm 9.5 full-level explicit reciprocity at k=2, r=r'=1; Prop 3.11(1), §4.2; Prop 15.9; Thm 13.5(2) Rohrlich nonvanishing)", "how_used": "Prop 4.3 proportionality of dual exponential to Eisenstein products 'at p=2'; CM reciprocity (Thm 11.3); generic nonvanishing of the Kato class (Cor 5.5, Lemma 4.6). Manuscript claims to prove the integral primitivity statements itself.", "black_box": true},
+    {"name": "Wang 2012 (Kato Euler system, §2.3.3, Thm 1.4, Prop 5.5)", "how_used": "Consistency check of the matrix form of the specialization at (k,j)=(2,1); depth condition v_p(M) ≥ v_p(2p).", "black_box": true},
+    {"name": "Friedberg–Hoffstein 1995; Anandavardhanan–Prasad 2013 Thm 10.6; Bump–Friedberg–Hoffstein 1990; Murty–Murty 1991; Rohrlich 1988", "how_used": "Existence of quadratic twists / Heegner companions with prescribed local splitting, sign and nonzero central value or simple zero (Prop 1.4 anchors, Lemma 13.2, 6.1 companion K); Rohrlich for cyclotomic twist nonvanishing.", "black_box": true},
+    {"name": "Lapid–Rallis 2003 (nonnegativity of L(1/2,π))", "how_used": "Positivity of normalized central values (02:29-32).", "black_box": true},
+    {"name": "Kramer 1981; Kramer–Tunnell 1982; Dokchitser–Dokchitser 2010, 2011; Česnavičius–Imai 2016", "how_used": "Lemma 2.1 two-primary parity via local root numbers/norm indices incl. dyadic cases.", "black_box": true},
+    {"name": "Milne ADT (Rem. I.6.11), Poonen–Stoll 1999 (Thm 5, Cor 7)", "how_used": "Cassels–Tate pairing alternating for elliptic curves (parity of Sel_2 modulo torsion); Poitou–Tate/local duality throughout.", "black_box": true},
+    {"name": "Tate 1966 Thm 2.1; Cassels 1965", "how_used": "Isogeny invariance of the BSD arithmetic volume, applied to Res_{K/Q}E ~ E×E^k (Cor 2.3) and to transfer between isogenous curves (E vs E', E_0).", "black_box": true},
+    {"name": "Serre 1972 (open image); Bogomolov 1980 (homotheties); Faltings 1983", "how_used": "Bounded torsion in H^1(T), deep SL_2 subgroups for Chebotarev evaluation arguments, descent multipliers, CM endomorphism algebras.", "black_box": true},
+    {"name": "Nekovář 2006 (Selmer complexes); Mazur–Rubin 2004 §1.2 (Kolyvagin systems); Mazur–Rubin 2010 Lemma 3.2, Prop 3.3, Lemma 3.5", "how_used": "Language/analogy for mapping fibers, Bockstein, finite–singular comparisons; finite change-of-local-condition inequalities and simultaneous residual evaluations in the 2-descent twisting arguments.", "black_box": true},
+    {"name": "Knudsen–Mumford 1976; Bloch–Kato 1990 §3.7–3.11", "how_used": "Determinant-line formalism; Bloch–Kato local duality identifying the dyadic singular coordinate with exp^* against log.", "black_box": true},
+    {"name": "Manin–Drinfeld 1973; Deligne–Rapoport 1973; Katz–Mazur 1985", "how_used": "Cusp differences torsion (E' = E_0/C_cusp); ordinary/Igusa moduli for the 2-adic depleted primitives and Néron tangent lattice at cusps.", "black_box": true},
+    {"name": "Johnson-Leung–Kings 2011 via Burungale–Flach 2023/24 (Thm 4.1, Prop 3.1, Prop 4.1, §3–4 units)", "how_used": "CM main conjecture for individual characters at p=2 (Thm 11.3) and elliptic-unit reciprocity/distributions.", "black_box": true},
+    {"name": "Schütt 2009 Thms 1.1, 1.4; Ribet 1977 §3–4", "how_used": "CM newforms with rational coefficients, induced Tate realizations (Lemma 11.1).", "black_box": true},
+    {"name": "Oukhaba 2003 §2.2, eq. (2.4)", "how_used": "Siegel-function transformation laws and ray invariants in the cyclic-cubic comparator (Prop 15.4).", "black_box": true},
+    {"name": "Fuchs–Pham 2015 Thm 2.2 (p-adic analytic subgroup theorem)", "how_used": "log_ω P ≠ 0 for CM abelian varieties (Lemma 11.6).", "black_box": true},
+    {"name": "Perrin-Riou 1993 §3.3; Bertolini–Darmon–Venerucci 2022 Thm A; Bertolini–Darmon–Prasanna 2013 §3.8, 5.3", "how_used": "Cited only as framework/antecedents for (T1) and the depleted CM primitives; not used as inputs.", "black_box": false},
+    {"name": "Skinner–Urban 2014; W. Zhang 2014; Jetchev–Skinner–Wan 2017; Burungale–Skinner–Tian–Wan 2024; Burungale–Tian 2026; Burungale–Castella–Skinner–Tian 2022; Li–Tian–Yan–Zhu 2025; Zhao 1997; Coates–Li–Tian–Zhai 2015; Cai–Li–Zhai 2020; Shu–Zhai 2021; Kriz–Li 2019; Rubin 1991; Buhler–Gross–Zagier 1985", "how_used": "History/context only (Section 1.2) or regulator convention (BGZ); none is used in a proof.", "black_box": false}
+  ],
+  "internal_dependencies": [
+    {
+      "oai_paper": "OpenAIAllPrimeSelmer2026 — 'The Selmer converse for elliptic curves at every prime' (OAI:…-October-7-2026; present in clone, not withdrawn; Oct 7 version 'updates a citation to a revised manuscript'). It itself imports [OpenAIGoldfeldDensity2026, Theorems 1.1 and 1.2] (02-reduction.tex:56) for p=2 and twist densities.",
+      "what_used": "Theorem 1.1: s_p(E) ∈ {0,1} for some p ⇒ rank = an = s_p and Ш(E/Q) finite. Sole input of Corollary 1.2 beyond Theorem 1.1.",
+      "location": "sections/01-introduction.tex:85; references.tex:277-282"
+    },
+    {
+      "oai_paper": "OpenAIGoldfeldDensity2026 — 'Goldfeld's analytic density conjecture and the 2-converse for elliptic curves' (OAI:…-October-7-2026; present, not withdrawn). Note: that paper's Theorem 1.2 / Cor. 'finite Selmer criterion' independently claims the rank/finiteness half of Theorem 1.1 here, and its intro cites THIS manuscript (Thm 1.1, Cor 16.1) for the leading-coefficient consequence (mutual citation, not a proof cycle as far as the cited statements show).",
+      "what_used": "'the signed-squarefree Selmer-corank densities in [proof of Theorem 1.2]' (density 1/2 each for s_2 = 0,1), used only for Corollary 16.1.",
+      "location": "sections/01-introduction.tex:97-103; sections/15-conclusion.tex:121-125; references.tex:270-275"
+    }
+  ],
+  "self_declared_gaps": [
+    "01-introduction.tex:18-20: 'The theorem concerns the two-primary part of the leading term; it makes no assertion about higher Selmer corank or the remaining prime parts.'",
+    "Corollary 1.2 (any-prime criterion) is proved only by importing [OpenAIAllPrimeSelmer2026, Thm 1.1]; Corollary 16.1 only by importing [OpenAIGoldfeldDensity2026, proof of Thm 1.2] — both unrefereed AI companions.",
+    "02-classical.tex:5-9: modularity and the Gross–Zagier–Kolyvagin theorem are declared inputs ('These analytic low-rank theorems are inputs here', 01:114-115); rationality/positivity of Q_E rests on modular-symbol period theorem and Lapid–Rallis.",
+    "03-foundations.tex:13-17: 'At two, the standing hypotheses in [Nekovář] impose a totally imaginary base field; our ordinary-positive and Tate-real comparisons over Q are given explicitly below. The other standard inputs are étale localization and purity, Shapiro's Lemma, and arithmetic cohomological dimension and finiteness theorems.' (used without proof)",
+    "03-foundations.tex:58-61 ('Arithmetic hypotheses for the models'): residual dimension bounds required by Lemma 3.1 are asserted in a paragraph, not proved.",
+    "Lemma 3.2 proof: 'We specify nullhomotopies or their existence from degree/amplitude or unramified factorizations when used; exact Selmer orthogonality on a DVR does not follow just from two generic dimensions.'",
+    "04-siegel.tex:258-265: the explicit reciprocity input is Kato Thm 9.5 'specialized… The theorem applies at p=2'; 04:453-456 'This is a cancellation in the rational differential identity. It makes no assertion of integral divisibility by that scalar.'",
+    "05-positive-determinant.tex:476: 'No bound on a comparison constant or uniform 2-denominator is being asserted, and this step uses no separate primitive-form characteristic-ideal divisibility theorem.'",
+    "09-split-local.tex:67: 'The constants may depend on the fixed character θ… Uniformity as θ varies is not needed'; 09:128: 'it does not assert an unramified logarithmic isomorphism over the entire power-series ring.'",
+    "Prop 9.13: 'For a general A, no assertion of finiteness for its entire prime-primary Tate–Shafarevich group is included.'",
+    "11-cm.tex:160-173: Theorem 11.3 is the Johnson-Leung–Kings theorem via [BF23, Thm 4.1] and Kato's reciprocity [Kato04 Prop 15.9]/[BF23 Prop 3.1] — imported, with a convention translation (infinity type (−1,0) vs (1,0)) asserted by the authors.",
+    "13-real.tex:826-830 (Lemma 14.16): 'This is a horizontal statement; it makes no assertion that a fixed two-power lattice denominator is an integral unit.'",
+    "13-real.tex:275-277 (Lemma 14.5): 'No freeness of D over A is asserted or needed.'",
+    "15-conclusion.tex:116-117: 'The density is in the full signed squarefree family for fixed E; the formula asserts equality only at the prime two.'",
+    "Standard facts used without proof throughout: Haar-measure identities τ_ℓ = v_2(c_ℓ P_ℓ(1)) (03:350-356), Serre–Tate/Grothendieck–Messing lifting lengths (06:1173-1195), Eichler–Shimura relation, Chebotarev at increasing precision on 'evaluation matrices'."
+  ],
+  "applicability": {
+    "seed_E": "NOT APPLICABLE (kill test K-RANK2). Theorem 1.1 needs s_2(E) ≤ 1; the seed has rank E(Q) = 2, so s_2(E) ≥ 2 (and s_p(E) ≥ 2 for every p, so Corollary 1.2 also fails). The manuscript itself states it 'makes no assertion about higher Selmer corank or the remaining prime parts' (01:18-20). Every intermediate comparison (Props 1.3–1.5, 8.1, 9.11–9.13, 11.14, 13.1, 14.1, 15.9) is conditioned on Selmer corank ≤ 1 over Q or over an auxiliary split K, or on a simple zero. The only rank-free statements (Lemma 2.1 parity; Props 4.2–4.5 Kato classes; Prop 5.1 integral determinant; Prop 6.3 spectral-height, which needs w = −1; Prop 9.7 derivative identity; Lemma 12.1 alternation; twisting Props 10.1/10.8) are all 2-adic, and the seed's p = 2 obligation (Ш[2^∞] = 0) is already PROVED in the lab. Contribution to FIN: none. ORDER9: none (needs Ш[p^∞]=0 for p ≥ 5). Q36: none — no rank-2 archimedean (Gross–Zagier-type) formula appears; the manuscript's leading-term identities are rank ≤ 1 only and at the prime 2 only.",
+    "twist_Em7": "FORMALLY APPLICABLE at grade IMPORTED_PREPRINT. E^{-7} has rank 0 and L(E^{-7},1) ≠ 0 (PROVED_COMPUTER_ASSISTED), hence by GZK Ш(E^{-7}) is finite and s_2(E^{-7}) = 0 ≤ 1; Theorem 1.1 allows additive reduction at 2 (I_1^*) and rational 2-torsion. Its new content for E^{-7} is only v_2( L(E^{-7},1)·(#T)^2 / (Ω_{E^{-7}} ∏ c_ℓ(E^{-7})) ) = v_2(#Ш(E^{-7}/Q)) (rank 0 and finiteness are classical). This touches the '#Ш(E^{-7}/Q)' item only at p = 2 and gives nothing about odd parts of #Ш(E^{-7}). Cost reduction: nil — Ш(E^{-7})[2] is obtainable by a cheap 2-descent, whereas verifying this 9,500-line manuscript (ultrafilter finite models, Pfaffian lifts, 2-adic CM measures) is far costlier. The published literature (Zhao 1997, CLZ 2020, Shu–Zhai 2021, Kriz–Li 2019) does not cover E^{-7} generically, so if the manuscript were correct it would be the only route to the 2-part of BSD for E^{-7}; but this is not a seed obligation. Nothing for E^{-7} at p ∈ {3, 2243, 4547, 5843} or good primes.",
+    "by_prime": "p = 2: this is the manuscript's only prime; its general lemmas' hypotheses (any E[2], any reduction at 2, non-CM via Serre) are satisfied by the seed, but the seed's 2-primary obligation is already settled and Theorem 1.1 fails for E (s_2 ≥ 2); for E^{-7} see above. p = 3: nothing — 3 appears only as a smoothing-avoidance prime ('c,d prime to 6'); the seed's 3-part is already done. p = 2243 (split mult.), p = 5843 (nonsplit mult.), p = 4547 (additive, pot. supersingular): nothing; no odd-p Iwasawa, Kolyvagin, level-raising, or additive-prime statement is made; Corollary 1.2 would require s_p(E) ≤ 1, which fails. Good ordinary / good supersingular p ≥ 5: nothing; the manuscript's odd-prime inputs enter only as local Euler factors P_q and Tamagawa/Haar identities. Lemma TH (anticyclotomic theta-element derivative at p = 5843, K = Q(√−7) with 5843 inert): no bearing — the closest analogue (Prop 6.3 / Lemma 7.5) is 2-adic, cyclotomic-tame, and requires w(E) = −1."
+  },
+  "red_flags": [
+    "Extraordinary claim with no residual hypothesis: Theorem 1.1 asserts a 2-adic Selmer-corank-one ⇒ analytic-rank-one converse for ALL non-CM curves (Section 7.2–7.4, via a nonzero Selmer Bockstein and the 'torsion implication' of Prop 6.3), and CM corank-one converse at every reduction type at 2 (Prop 11.14), far beyond published p-converse theorems (which need p odd and residual/local hypotheses, or good ordinary at 2 for CM). Treat the unknown-center argument as the highest-risk step.",
+    "Nonstandard foundations: all limit objects are 'matrix limits on a fixed nonprincipal ultrafilter' of finite-precision cochain models (Lemma 3.1, half-page proof: 'the following constructions can be made by cochain contractions'); the residual bounds the lemma needs are asserted in a paragraph (03:58-61). Every determinant/measure comparison in Sections 5–15 rests on this.",
+    "Dense, compressed proofs with frequent 'as before'/'by the diagram conventions' (e.g. Prop 13.6, Prop 14.8, Lemma 14.16, Prop 14.21) — key integrality steps (unit transfer Prop 5.1, square-switch nonnegativity Prop 9.9, primitivity detected at infinity Prop 14.21, Eisenstein comparator Y1 in Section 15) are not independently checkable without reconstructing the formalism.",
+    "Kato Thm 9.5 is invoked 'at p=2' with a stated justification only by the containment/degree conditions (04:258-265); Kato Thm 13.5(2) (Rohrlich) is used for 2-power conductor characters; whether Kato's §9/§13 statements apply verbatim at p = 2 with the manuscript's normalizations needs checking against Kato's standing hypotheses.",
+    "Citation coupling among three OAI manuscripts: this paper ↔ OpenAIGoldfeldDensity2026 cite each other (two-primary cites Goldfeld's proof of Thm 1.2 for Cor 16.1; Goldfeld cites two-primary Thm 1.1/Cor 16.1), and Corollary 1.2 depends on OpenAIAllPrimeSelmer2026 which depends on OpenAIGoldfeldDensity2026 Thms 1.1–1.2. The rank/finiteness half of Theorem 1.1 is also claimed independently by Goldfeld's companion ('low-corank 2-converse'); two separate AI proofs of the same statement without cross-reference in the proof text.",
+    "Nonvanishing inputs: Prop 1.4 and Lemma 13.2 need imaginary quadratic companions with simple zero AND prescribed splitting at finitely many primes AND compatible sign (BFH90/MurtyMurty91/FH95); the manuscript asserts 'Every local prescription below respects this sign condition' (02:26-27) without verifying that the published derivative-nonvanishing theorems allow the exact local prescriptions used.",
+    "Version drift: Oct 6 version 'updates citations to revised manuscripts'; the sibling 'Exact BSD Formula from Low Selmer Corank' (Oct 7) 'removes an obsolete supporting citation' to a removed supporting manuscript (history.md) — the BSD family has had at least one supporting manuscript removed. No manuscript cited here is in the Oct 7 withdrawal list (the withdrawals are Hodge/K3 papers).",
+    "Internal consistency check: Goldfeld's companion cites 'Corollary 16.1' of this paper; the LaTeX section count (file 12 holds two \\section commands) gives Section 16 = Conclusion, so the numbering matches, but the tex file names (15-conclusion) differ from section numbers — minor.",
+    "No Lean formalization of any statement in this manuscript or the BSD family (lean/formalization.yaml lists only external elliptic-curve dependencies); grade cannot exceed IMPORTED_PREPRINT."
+  ],
+  "notes": "Read in full: paper.tex, sections 01–15 (9,525 lines incl. references.tex), both READMEs of the internal dependencies, history.md, CONTENTS.md, and the relevant intro/reduction passages of the two companions. Summary verdict for the lab: the manuscript is a 2-adic, Selmer-corank-≤1 result; by kill test K-RANK2 it cannot apply to the seed curve E (rank 2), and its only applicable instance, Theorem 1.1 for E^{-7} (s_2 = 0), yields the 2-part of #Ш(E^{-7}) — not a seed obligation, cheaper by direct 2-descent, and only at grade IMPORTED_PREPRINT. No statement addresses odd primes, additive/multiplicative primes, anticyclotomic theta elements at inert p, rank-2 leading terms, or any computational shortcut; nothing here reduces the cost of the lab's Kurihara, B.18, Brandt or plectic computations. Should the lab ever want the 2-part of BSD for a rank-0 twist, the chain to verify would be: Sections 2–7 (positive comparison) + Section 10 (reducible anchor, since E^{-7} has rational 2-torsion) + Sections 8–9 (split comparison) + Section 16, i.e. roughly 5,000 lines, plus the Kato-at-p=2 and nonvanishing-with-local-conditions imports."
+}

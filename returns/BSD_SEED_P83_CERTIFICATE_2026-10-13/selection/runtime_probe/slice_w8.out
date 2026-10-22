@@ -1,0 +1,3 @@
+SETUP T 57378078719 m 167 RT 239537 NSEG 3420 NLU 3420 NBLK 13680 wall 0.12 cpu 0.12 rss_MB 40
+SLICE segs 50..97 units 50..97 W 8 cpu 188.80 wall 26.19 pairs 1829875290 rss_MB 192 receipts_bytes 10637 merged 98
+END rss_MB 192 total_cpu 188.92

@@ -1,0 +1,11 @@
+default(parisizemax,1000000000);
+alarm(120);setrand(20261015);gettime();
+read("lib/cubinv.gp");read("lib/classimg.gp");read("lib/selmer.gp");
+E=ellinit([1, 1, 0, -34, -135]);Pts=[];
+for(i=1,#Pts,if(!ellisoncurve(E,Pts[i]),error("point not on curve")));
+FL=field3(E);fL=FL[1];ps=FL[2];print("FIELD=",fL,"; S=",ps);
+B=bnfinit(fL,1);print("BNFINIT_MS=",gettime(),";CLASS_GROUP=",B.cyc);
+writebin("bnf.bin",B);
+CERT=bnfcertify(B);if(CERT!=1,error("bnfcertify did not return 1"));print("BNFCERTIFY=",CERT,";MS=",gettime());
+nf=B.nf;T=torsT(E,nf);tau=tauL(nf,E,T);SL=[];for(i=1,#ps,SL=concat(SL,idealprimedec(nf,ps[i])));
+write("context.gp",[E,Pts,fL,ps,T,tau,SL]);print("CERTIFIED_CONTEXT_COMPLETE");quit;

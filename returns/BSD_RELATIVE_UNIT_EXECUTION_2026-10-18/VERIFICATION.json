@@ -1,0 +1,27 @@
+{
+  "status": "CUSTODY_AND_SAVED_OUTPUT_CONSISTENCY_PASS",
+  "portable_input_files": 6,
+  "final_review_file_bindings": 30,
+  "nested_manifest_entries": {
+    "source": 47,
+    "evaluation": 12,
+    "review": 22
+  },
+  "mixed_exact_norm_output_rows": 14326,
+  "completed_search_stages": 1317,
+  "planned_search_stages": 1344,
+  "main_search_completed_schedule": false,
+  "pair_HNF_comparisons": 380,
+  "anti_divisor_record": [
+    20,
+    127,
+    20,
+    20,
+    0
+  ],
+  "anti_divisor_factor_and_repair_seconds": 25.304901041999997,
+  "admitted_units": 0,
+  "actual_norm_local_rank": "UNMEASURED",
+  "arithmetic_reexecuted_by_this_script": false,
+  "scope": "Hashes and deterministic saved-output consistency only. See independent reviews for arithmetic replay. No seed theorem certification."
+}

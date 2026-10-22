@@ -1,0 +1,16 @@
+[
+  {"source":"Zhai, arXiv:1409.0231","url":"https://arxiv.org/pdf/1409.0231","locations":"printed p.2 (minimal least-positive real period); p.5 Theorem 1.7 and following prose","role":"analytic nonvanishing, valuation and finiteness; not the explicit local Selmer proof"},
+  {"source":"Cremona, Algorithms for Modular Elliptic Curves","url":"https://johncremona.github.io/book/fulltext/chapter2.pdf","locations":"section 2.8, printed p.30","role":"table period convention"},
+  {"source":"Cremona, Table 4","url":"https://johncremona.github.io/book/fulltext/table4.pdf","locations":"printed pp.313–314, row 66B(E)","role":"exact base modular-symbol ratio 1/4, not a BSD assumption"},
+  {"source":"Cremona, ecdata opt_man","url":"https://raw.githubusercontent.com/JohnCremona/ecdata/master/opt_man/opt_man.00000-09999","locations":"row 66 b 1 [1,1,1,-2,-1] 1 1","role":"optimality and Manin constant one; schema at https://johncremona.github.io/ecdata/"},
+  {"source":"Cremona, elliptic curve algorithms","url":"https://johncremona.github.io/book/fulltext/chapter3.pdf","locations":"section 3.2, printed p.67","role":"Tate algorithm, multiplicative and I0* component rules"},
+  {"source":"Miller, arXiv:1010.2431","url":"https://arxiv.org/pdf/1010.2431","locations":"printed p.1, Theorem 7.1 p.16","role":"explicit full-real period; bounded conductor BSD(2), not an unbounded uniform twist theorem"},
+  {"source":"BSTW, arXiv:2409.01350v2","url":"https://arxiv.org/pdf/2409.01350v2","locations":"Conjecture 1.1; Theorem 1.7 p.4; section 2.2.7; Theorem 10.12 p.89; Example 1 p.90","role":"stronger pre-existing statement includes 66b1; literal a3 hypothesis obstruction and component-factor ambiguity retained"},
+  {"source":"Banwait–Huang, arXiv:2601.16044v3 (4 June 2026)","url":"https://arxiv.org/html/2601.16044v3","locations":"Definitions 2.1,2.7; Remark 2.11; Theorems 2.13,2.14; section 2.7","role":"case (3) fails; separate upgrade after BSD(2); conductor-150 discrepancy discussion"},
+  {"source":"Skinner, arXiv:1407.1093","url":"https://arxiv.org/pdf/1407.1093","locations":"section 3.3, printed p.25","role":"primitive invariant-homology Neron-period convention; odd-prime comparison cannot settle factor two"},
+  {"source":"Nam doctoral thesis","url":"https://spectrum.library.concordia.ca/id/eprint/984957/1/Nam_PhD_S2019.pdf","locations":"Theorem 4.9 printed p.81 (PDF index90), proof p.82","role":"condition at 2 fails; rank statement is not normalized BSD(2)"},
+  {"source":"Cai–Li–Zhai, arXiv:1712.01271","url":"https://arxiv.org/pdf/1712.01271","locations":"period definition and Theorems 1.1,1.5","role":"full-real convention; different valuation-one prime/base hypotheses"},
+  {"source":"Shu–Zhai, arXiv:2102.11808","url":"https://arxiv.org/pdf/2102.11808","locations":"printed p.2 condition (Tor)","role":"requires order-two rational 2-torsion on both curves, unlike this quotient"},
+  {"source":"Barrios–Mok, arXiv:2510.00926","url":"https://arxiv.org/pdf/2510.00926","locations":"Theorem 1.4 and Corollary 1.5 printed p.5","role":"modulo-rational-squares result is not an exact 2-adic valuation formula"},
+  {"source":"Barrios et al., arXiv:2501.03209v2","url":"https://arxiv.org/pdf/2501.03209v2","locations":"Theorem 4.1, Tables 4 and 5","role":"local twisting data; arithmetic ledger also derived independently via Tate algorithm"}
+]

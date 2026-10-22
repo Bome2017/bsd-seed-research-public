@@ -1,0 +1,9 @@
+P487_EXPLICIT_ORBIT_CHECK_COMPLETE 0.873031762894243
+{
+  "status": "EXACT_FINITE_GROUP_LEMMA_CHECKS_PASS",
+  "cases": 79,
+  "character_checks": 158,
+  "elapsed_seconds": 1.0113461487926543,
+  "scope": "Finite group local multiplicative models; not a global class or seed FIN bound. The uniform proof is separate.",
+  "predicted_rule_checked_after_actual_matrix_construction": "kernel dimension = 1 iff epsilon*q=1 mod p; off-formal unit channel exists iff epsilon=1"
+}

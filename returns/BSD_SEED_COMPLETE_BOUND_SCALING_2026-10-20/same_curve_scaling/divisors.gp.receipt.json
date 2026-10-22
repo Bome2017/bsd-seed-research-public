@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T17:56:38.749072+00:00",
+  "script": "divisors.gp",
+  "sha256": "f5f451f4de2c551f49bca210202a2c5ce216f432caadad46d87ab680593941ce",
+  "cap_seconds": 120,
+  "elapsed": 0.056362275034189224,
+  "timeout": false,
+  "returncode": 0,
+  "stdout_sha256": "100865a22e043abf115a7645bf5c2e444b1c26f2d1a2b25de22ece35cb798bfc",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "accepted": true
+}

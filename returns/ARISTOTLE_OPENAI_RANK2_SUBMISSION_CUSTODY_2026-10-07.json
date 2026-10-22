@@ -1,0 +1,47 @@
+{
+ "submission": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07",
+ "uploaded_utc": "2026-10-07T03:49:17Z",
+ "author": "Claude (Opus 5.5)",
+ "status": "PREPARED_NOT_SUBMITTED (Pro GO 10-07): Stage A universal obstruction map with D_p^W (decided before any anchor); Stage B rank-two determinant switch in the top exterior power; Stage C fixed global support invariant; three stops (p=17 false alarm, fixed 1-motive receiver, fixed-local-condition stop); OpenAI lemmas read from github.com/openai/math with hypothesis audit (sources not bundled)",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/CLOSED_LANES_AS_SHIPPED.md",
+   "sha256": "626de60678eb58a949a402259235ab7d86cdc7c550ae16b1637fe08bb24bda84",
+   "bytes": 6337
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2.md",
+   "sha256": "4233a9669247cc9f3f54676076ea5e4df025360d6f38704e2f4ce657befb7988",
+   "bytes": 11236
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/MANIFEST.sha256",
+   "sha256": "1a19def826b69e0b0e60625705b9261e0e6f51a1bc5730a625c0a252001f3e1b",
+   "bytes": 435
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/README.md",
+   "sha256": "2f1b2cfb59582c080a1269fb073272241d08119616379074bcc921bdfc890e40",
+   "bytes": 1630
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/SUBMISSION_PROMPT.txt",
+   "sha256": "9a482fc03bb7c156ceddf48e5b2818bb344bb7a087970d0a14699e521f5ddfb2",
+   "bytes": 1999
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/SUBMIT_COMMAND.txt",
+   "sha256": "f935db4b94b918f38ba8602badc32d9f111d7652f8c0f06d3ac95b737d232e59",
+   "bytes": 2215
+  },
+  {
+   "path": "archives/BSD_ARISTOTLE_OPENAI_RANK2_PROJECT_2026-10-06.tar.gz",
+   "sha256": "cc9b58044dcb075bdaa0f72ea2eefc62548cf54a0611d433fdc88fb403db18fa",
+   "bytes": 167433
+  }
+ ],
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

@@ -1,0 +1,11 @@
+{
+  "status": "CLEAN_DIRECTORY_ARITHMETIC_REPLAY_MATCH",
+  "arithmetic_sha256": "651de6f5eecefaf56d65005ea4d6b1208f98bf7e5ba5e8f38592c17a96ea7b2b",
+  "timing_fields_excluded": [
+    "seconds",
+    "elapsed_seconds"
+  ],
+  "returncode": 0,
+  "stderr_empty": true,
+  "same_code_replay_not_independent_implementation": true
+}

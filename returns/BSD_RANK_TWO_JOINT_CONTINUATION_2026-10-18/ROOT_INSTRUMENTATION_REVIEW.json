@@ -1,0 +1,77 @@
+{
+  "status": "PASS_CANDIDATE_EXPORT_BOUNDARY",
+  "archive_source_match": true,
+  "only_expected_patch_changes": true,
+  "private_entry_prototype_match": true,
+  "source_header_library_version": "2.17.3",
+  "build_hash_match": true,
+  "captured_elements_not_yet_authenticated_by_this_review": true,
+  "class_completeness_not_implied": true,
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/SOURCE_BINDING.json",
+      "sha256": "e75a31e21cfb2293099f81f8ce15772a3bcc349085c9e3b929713056c17a98e4",
+      "bytes": 180
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/BUILD_RECEIPT.json",
+      "sha256": "c7fc49ad56f1ea045e96fdc9cc7c679104f1aa60ace22115cf4a10ecb86db176",
+      "bytes": 892
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/instrumentation.patch",
+      "sha256": "c13cef95fdb82e36cf27050848b57d614c1a9396bfc7a0085cad43855d97f48f",
+      "bytes": 882
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/buch2.c",
+      "sha256": "904ced8034732c7fcfe1da393e23950aac0862b085150fdc24ce1e31beb7d1ac",
+      "bytes": 119247
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/buch2.partial.c",
+      "sha256": "ed652f3b8414f55c0683f201a20073f87393990a33e0977a00bea27c2cbc862e",
+      "bytes": 119453
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/harvest.gp",
+      "sha256": "e26ffe68c6710337a478766f6158f70a8d7198c56557b8b510695023f2ee9fce",
+      "bytes": 335
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/smoke.gp",
+      "sha256": "22525cce8e8d5109cd8addd8ed3f6d792700e7ea04aec3ef6c9b06709a20e9ad",
+      "bytes": 231
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/smoke.out",
+      "sha256": "52bc66f675b4c11831d60bac614d409f572fed07814433de73ab02b1e55c9861",
+      "bytes": 23
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/smoke.err",
+      "sha256": "2c5b1a05e4cadf947b13b2550f9d539df2c8a1eadf8556a94f9bdd88e8568603",
+      "bytes": 1430
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/run_bounded.py",
+      "sha256": "8bf1f91f69161d22032f200038955d647d624f9e9875cffe252937bd70c4c527",
+      "bytes": 1155
+    },
+    {
+      "path": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/include/pari/paridecl.h",
+      "sha256": "bebef7ed06c9e7ac61fa5a63960237384dd441302504dbf8b072238701e85c30",
+      "bytes": 260744
+    },
+    {
+      "path": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/include/pari/paricfg.h",
+      "sha256": "5a6d64ec6eefc35ad4270b25aaf277c0035bae03e54f74ef1a220d4ffb6f1883",
+      "bytes": 1468
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18_PARI_BUILD/libbsdpartial.dylib",
+      "sha256": "5059658702c6bd520f69223b25b8ac47f3a4eadd5f15f1d7b044afef11f3da89",
+      "bytes": 127536
+    }
+  ]
+}

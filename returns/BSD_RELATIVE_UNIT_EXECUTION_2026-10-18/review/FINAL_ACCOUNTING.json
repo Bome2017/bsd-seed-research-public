@@ -1,0 +1,30 @@
+{
+  "status": "SCOPED_OUTPUT_ACCOUNTING_PASS",
+  "exact_norm_log_rows": 14326,
+  "last_complete_checkpoint": {
+    "stage": 1317,
+    "amplitude": 64,
+    "direction": 15,
+    "ideal": 1,
+    "exact_norms": 14326,
+    "pure_skips": 17281,
+    "duplicates": 1,
+    "admitted": 0,
+    "wall_ms": 176594
+  },
+  "logged_exact_norm_matches": 0,
+  "no_completion_marker": true,
+  "gp_alarm_recorded": true,
+  "admissions_file_present": false,
+  "source_norms_recomputed": false,
+  "scope": "Independent arithmetic/accounting comparison of saved exact norm outputs to exact ideal norms; no regeneration of candidate norms or search.",
+  "hashes": {
+    "search.gp": "f57165d6eb155333e967e4c51740dec0aabc11ca7950e99bdf28185067b05e8c",
+    "SEARCH_CONTRACT.md": "2c3d040a7b73658b6fe3a3c50520c4faeeea895a436e64949619caf656ccd708",
+    "norm_trials.gp": "11b04adb141976722e4935431c7a601605f9f27c66847ffc63c38eb32b77d2b8",
+    "search.gp.out": "bd65bac456fd0307d63c32f18e49475408c13bdcd56bef4ba6901284bb5bf155",
+    "search.gp.err": "f01148aee66e2b54870e4e339d308a693475ad12ee409d1a79ee6fe60119a639",
+    "search.gp.receipt.json": "e41ab613f25a2982198f840e532d3c892b8e44c76d3cf627aba64f94ddeb25a8",
+    "IDEAL_NORMS.json": "9d205bb21f08c67c98a25c2d5c89d759f264e465e99098b5867a75c9ea5f3791"
+  }
+}

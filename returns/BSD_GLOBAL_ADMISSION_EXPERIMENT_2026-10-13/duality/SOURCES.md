@@ -1,0 +1,10 @@
+# Sources and custody
+
+- Schaefer–Stoll, *How to do a p-descent on an elliptic curve*, long version dated June13,2001, author-hosted PDF: https://www.mathe2.uni-bayreuth.de/stoll/papers/p-descent-long.pdf . Freshly downloaded and text-read at Lemma4.5, Proposition4.6, Corollaries7.1/7.9 and Proposition7.10. SHA256 `d1900c03c034d7ba7a5a02b4a7096a03613926f79e54c6e856cf2d636c42a81f`. It supplies the explicit cohomological embedding and local-condition reduction; no seed Selmer answer is imported from it. The downloaded PDF/text live under sources/ for local reading and are not intended for republication.
+- Mazur–Rubin, *Kolyvagin Systems*, Theorem2.3.4, orthogonal complements for two Selmer structures. AMS record: https://doi.org/10.1090/memo/0799 . Statement checked in indexed source text; no fresh proof audit of the book is claimed.
+- Rubin, *Euler systems and Kolyvagin systems*, Theorem1.10.2, author-hosted formulation: https://www.math.uci.edu/~krubin/oldcourses/09.234/lectures.pdf . Search extraction returned the statement; direct download failed with RemoteDisconnected. Do not say the PDF was freshly read end-to-end.
+- Sakamoto, *On the theory of higher rank Euler, Kolyvagin and Stark systems*, Theorem3.4: https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/260695/1/B83-11.pdf . Indexed source statement supplies the exact Selmer comparison sequence. Browser open redirected to repository HTML; only the indexed theorem text was read.
+- Prior lab files read: `BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md` §4; `BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11/notes/C3_ASSEMBLY.md`; `BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/context/SINGLETON_CLASS_CORRECTION.md`. These establish collisions/remaining source interfaces, not new theorem imports.
+- Prior exact seed probe: `BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13/seed_probe/RESULT.md`. Basis and saturation remain retained inputs; the present finite-field calculation recomputes the count and torsion structure.
+
+No known Sha order/vanishing, p-adic L-value, height determinant or analytic BSD quotient is used by local_row.py or in the constructive system(E).

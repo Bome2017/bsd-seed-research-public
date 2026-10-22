@@ -1,0 +1,76 @@
+{
+  "manifest": [
+    {
+      "path": "PROOF.md",
+      "matches": true
+    },
+    {
+      "path": "REPORT.md",
+      "matches": true
+    },
+    {
+      "path": "REVIEW_NOTES.md",
+      "matches": true
+    },
+    {
+      "path": "SOURCES.md",
+      "matches": true
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "matches": true
+    },
+    {
+      "path": "checks/RESULTS.json",
+      "matches": true
+    },
+    {
+      "path": "checks/verify_palette.py",
+      "matches": true
+    }
+  ],
+  "replay_byte_identical": true,
+  "branch_commit": "5110be8805f202ebc9a4a112ec0854fd764a620c",
+  "published_files": [
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/PROOF.md",
+      "sha256": "ce4f48b9880d316eee820c4a5987cdd322ae48a6c513e507d393739f94cba13e",
+      "identical": true
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/REPORT.md",
+      "sha256": "e16e3b85b86e3ff476317c818b03c3bc450719601489049c229f12006fe117e7",
+      "identical": true
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/REVIEW_NOTES.md",
+      "sha256": "56d193262a1b0c08329484aac380522b7b80191d21bc4530c118ff8dc646760b",
+      "identical": true
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/SHA256SUMS",
+      "sha256": "f918149dcac62ce97c2b97a6fd9af61523b727ab8b738d51c200008336d0d2b6",
+      "identical": true
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/SOURCES.md",
+      "sha256": "64fb5760338efeb8c83277f28622449dd3bbc822825044a2894ad0f4ad55e16a",
+      "identical": true
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/SOURCE_BINDINGS.json",
+      "sha256": "519d3dab73b340a86d3b3d789a4ee00c9afd575673b0f9220546aed6959ac42c",
+      "identical": true
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/checks/RESULTS.json",
+      "sha256": "c3c6073a492063fb0d775ffaab68c40d317ccfc16393d08e2fb55f1664e70321",
+      "identical": true
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/checks/verify_palette.py",
+      "sha256": "f6c0214be8699807286746295d8a1c70f43bf688cfb4013d730513ef3290ff39",
+      "identical": true
+    }
+  ]
+}

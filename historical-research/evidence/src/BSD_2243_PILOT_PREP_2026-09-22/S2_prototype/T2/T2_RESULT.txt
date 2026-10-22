@@ -1,0 +1,8 @@
+PASS m=27 coverage, fingerprint and count identity
+PASS m=27 all 27 class sums overlap the certified msl balls
+PASS m=27 all 18 (+/-) symbols identified and equal to the certified values (36 numbers)
+PASS m=81 coverage, fingerprint and count identity
+PASS m=81 all 81 class sums overlap the certified msl balls
+PASS m=81 all 54 (+/-) symbols identified and equal to the certified values (108 numbers)
+PASS m=81 a_{4,2} (Lane 3 convention, alpha=-1): LATDEN*a = 15851520 == 1024*15480 -> a_{4,2} = 15480.0
+T2_PASS checks=7 fails=0

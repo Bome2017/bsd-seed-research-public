@@ -1,0 +1,26 @@
+--- legacy/wverify.c
++++ review/repairs/wverify_distinct.c
+@@ -1,3 +1,5 @@
++/* First-review repair: distinct factors and checked multiplication.
++ * Legacy source is preserved in evidence/src. See FIRST_REVIEW.md. */
+ /* wverify.c -- INDEPENDENT verifier for the rigorous stream core (integer arithmetic only; no PARI, no Arb, no floats in results).
+  *  wit a1 a2 a3 a4 a6 T QB SEGQ witdir outdir s0 s1 : check witness segments s0..s1-1; write outdir/ap_<s>.bin (int32 per prime)
+  *  an  a1 a2 a3 a4 a6 T SEGQ outdir                  : rebuild a_n (n <= T) from ap_*.bin by a multiplicative sieve; print the
+@@ -84,13 +86,15 @@
+   pt P = {mulm(d, X0), mulm(d, d), 0};
+   if (mulm(P.y, P.y) != addm(addm(mulm(P.x, mulm(P.x, P.x)), mulm(CA, P.x)), CB)) fail(q, "P not on E_d");
+   if (!pmul(P, (u64)h).inf) fail(q, "[h]P != O");
+-  u64 D = 1;
++  u64 D = 1, seen[256];
+   for (int i = 0; i < k; i++) { u64 l; unsigned char e; if (!rd(f, &l, 8) || !rd(f, &e, 1)) fail(q, "truncated factor list");
+     if (!isprime64(l) || e == 0) fail(q, "factor not prime"); Q = q;
++    for (int j = 0; j < i; j++) if (seen[j] == l) fail(q, "duplicate prime factor");
++    seen[i] = l;
+     u64 hh = (u64)h; int v = 0; while (hh % l == 0) { hh /= l; v++; } if (v < e) fail(q, "l^e does not divide h");
+     u64 m = (u64)h; for (int j = 0; j < v - e + 1; j++) m /= l;
+     if (pmul(P, m).inf) fail(q, "order certificate: [h/l^(v-e+1)]P = O");
+-    for (int j = 0; j < e; j++) { if (D > (u64)h) fail(q, "D overflow"); D *= l; } }
++    for (int j = 0; j < e; j++) { if (D > (u64)h / l) fail(q, "D exceeds h or overflows"); D *= l; } }
+   u64 s = isqrt64(4 * q), lo = q + 1 - s, hi = q + 1 + s;
+   if (D <= 2 * s) fail(q, "D <= 2s: uniqueness not implied");
+   if (hi / D - (lo - 1) / D != 1 || (u64)h % D) fail(q, "not exactly one multiple of D in the Hasse interval");

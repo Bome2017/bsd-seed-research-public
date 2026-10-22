@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "copied_files_matched": 8,
+  "prior_manifests": [
+    {
+      "input": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "manifest_entries_verified": 22
+    },
+    {
+      "input": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "manifest_entries_verified": 14
+    }
+  ],
+  "zip_integrity": "PASS for both context archives",
+  "meaning": "byte custody only; not mathematical certification"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "ACTUAL_PAIRED_MAPS_AND_GENUINE_EXCESS_BOUNDARY_COUNTERCONTROL",
+  "dimensions": [
+    4,
+    5
+  ],
+  "ranks": [
+    2,
+    2
+  ],
+  "homology": [
+    0,
+    1
+  ],
+  "mirror_homology": "ordinary-class supported",
+  "1913_positive_control": "two literal reverse global-unit preimages of genuine excess; no new companion BNF",
+  "boundaries_are_points": "refuted under retained membership and algebraic rank inputs",
+  "whole_kernel_companion_index_bound": "separate ongoing proposal, not refuted here",
+  "seed_endpoints_changed": false
+}

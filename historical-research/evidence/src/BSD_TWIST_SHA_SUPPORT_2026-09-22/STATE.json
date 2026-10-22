@@ -1,0 +1,91 @@
+{
+  "packet": "BSD_TWIST_SHA_SUPPORT_2026-09-22",
+  "date": "2026-09-22",
+  "supersedes_as_active_problem": "BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22 (now history)",
+  "structure": {
+    "READ_FIRST": "canonical freeze + D=-7 certificate + fixed-curve data",
+    "PRIMARY_SOURCES.md": "load-bearing sources",
+    "GATE.md": "binding constraints",
+    "TASK.md": "two-stage question",
+    "STAGE_II_ONLY": "prior audits, sealed until Stage I frozen"
+  },
+  "stage_I_A": "p-support of #Sha(E^-7/Q) - restrict or eliminate, unconditionally",
+  "stage_I_B": "eigenspace-refined leading term isolating the + part (NEW - neither prior run saw this)",
+  "stage_II": "adjudicate the prior runs' A_2 bound and their 'equivalently'",
+  "verdicts_I_A": [
+    "TWIST_SHA_PGE5_ZERO",
+    "TWIST_SHA_EXPLICIT_FINITE_SUPPORT",
+    "TWIST_SHA_COFINITE_ONLY",
+    "FIRST_MISSING_THEOREM: <statement>"
+  ],
+  "verdicts_I_B": [
+    "EIGENSPACE_REFINEMENT_EXISTS",
+    "EIGENSPACE_REFINEMENT_OBSTRUCTED",
+    "EIGENSPACE_REFINEMENT_UNKNOWN"
+  ],
+  "verdicts_II": [
+    "PRIOR_BOUND_CONFIRMED",
+    "PRIOR_BOUND_OVERSTATED",
+    "PRIOR_BOUND_REFUTED"
+  ],
+  "deliberately_absent": [
+    "nothing - the local data and the prediction are now both supplied, under K1/K1b"
+  ],
+  "files": [
+    "00_READ_ME_FIRST.md",
+    "GATE.md",
+    "PRIMARY_SOURCES.md",
+    "READ_FIRST/BSD_QUOTIENT_PREDICTION.txt",
+    "READ_FIRST/D7_CERTIFICATE.md",
+    "READ_FIRST/FREEZE.md",
+    "READ_FIRST/PARI_LOCAL_DATA.txt",
+    "READ_FIRST/TWIST_INVARIANTS.txt",
+    "STAGE_II_ONLY/DO_NOT_OPEN_UNTIL_STAGE_I_IS_FROZEN.md",
+    "STAGE_II_ONLY/PRIOR_AUDIT_runA.md",
+    "STAGE_II_ONLY/PRIOR_AUDIT_runB.md",
+    "STAGE_II_ONLY/RECONCILIATION.md",
+    "TASK.md"
+  ],
+  "environment_correction": {
+    "earlier_claim": "no PARI or Sage on this host",
+    "status": "FALSE",
+    "found": "~/run040-.../tools/sage-env/bin/gp-2.17 (PARI 2.17.3) and .../bin/sage; also ~/.conda/pkgs/",
+    "why_missed": "find used -maxdepth 4; that bin/ is at depth 5. Same env already used to link central7 vs libflint.",
+    "memory_note_that_should_have_caught_it": "search-sibling-projects-before-claiming-tool-absent"
+  },
+  "computed_with_PARI": {
+    "minimal_model": [
+      0,
+      1,
+      0,
+      -3235025292,
+      22326945153120
+    ],
+    "prod_c_v": 32,
+    "torsion": 2,
+    "omega_1": "0.011548941266157222748917603067270380054",
+    "real_components": 2,
+    "kodaira": {
+      "2": "I_1* c=2",
+      "3": "I_2 c=2",
+      "7": "I_0* c=2",
+      "2243": "I_1 c=1",
+      "4547": "III c=2",
+      "5843": "I_2 c=2"
+    }
+  },
+  "prediction_NOT_PROVED": {
+    "sha_predicted": 49,
+    "=": "7^2",
+    "interval": "[48.99972, 49.00028]",
+    "self_check": "omega_1 alone gives 98 (not a square); 2*omega_1 gives 49 (square) -> normalisation confirmed",
+    "predicted_support": [
+      7
+    ],
+    "structural_note": "BLV Hyp 1.1 needs p \u2224 disc(K) = -7, so p = 7 is ALREADY excluded from the admissible lane",
+    "status": "PREDICTION ONLY - GATE K1 forbids promoting it; K1b makes restating it a failed run"
+  },
+  "variant": "PREDICTION_AWARE",
+  "experiment": "bias control: identical mathematics, two exposure conditions, run simultaneously in fresh sessions",
+  "stage_I_exposure": "prediction supplied in READ_FIRST; GATE K1b makes restating it a failed run"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_WRITTEN_RETURN",
+  "mathematical_statuses": [
+    "SECOND_ORDER_COMMON_CORRECTION_CRITERION_DERIVED",
+    "FIXED_TAME_EQUAL_CHARACTERISTIC_FORMAL_STAGE_REFUTED",
+    "MIXED_CHARACTERISTIC_CHARACTER_CONSTRUCTED"
+  ],
+  "grade": "Written derivations requiring independent review; Stage-A arithmetic span retained provisionally",
+  "seed_alpha_evaluated": false,
+  "unconditional_point_lifts": false,
+  "generic_rank_two_proved": false,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "checks": "9915 exact algebra assertions; not seed arithmetic",
+  "lab_base": "e7abad93",
+  "prior_stage_a_commit": "bb6ed896fd17db4279b07ad735694137dbb19fa6",
+  "remote_jobs_launched": false,
+  "subagents_used": false
+}

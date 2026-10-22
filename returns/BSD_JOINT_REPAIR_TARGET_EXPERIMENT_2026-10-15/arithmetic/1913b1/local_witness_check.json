@@ -1,0 +1,30 @@
+{
+  "status": "EXACT_RATIONAL_HENSEL_CHECK_PASS",
+  "ainvariants": [
+    1,
+    1,
+    0,
+    -34,
+    -135
+  ],
+  "samples": 2,
+  "minimum_margin": 86,
+  "checks": [
+    {
+      "prime": 3,
+      "certified_precision": 42,
+      "margins": [
+        86,
+        130
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 42,
+      "margins": [
+        86,
+        130
+      ]
+    }
+  ]
+}

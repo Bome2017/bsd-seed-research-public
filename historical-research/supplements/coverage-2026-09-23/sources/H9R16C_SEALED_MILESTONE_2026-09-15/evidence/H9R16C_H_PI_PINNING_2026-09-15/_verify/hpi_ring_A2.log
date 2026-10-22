@@ -1,0 +1,82 @@
+--- PART A  N_g=2 p=3 r=2  M=18->54  mod ell=1000003, monomial degree <= 4
+    dim MS(M)=19 dim MS(pM)=163; generators used: ["U'_p", "U'_2", "T'_5", "T'_7", "T'_11", '<5>']
+    rank V (= Z-rank of T'_(pM) on 210 monomials) = 111
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 17
+    rank [V;W]                                            = 111
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 17; joint span = 17
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 99 independent relations at level pM : PASS
+--- PART A  N_g=2 p=3 r=2  M=18->54  mod ell=999983, monomial degree <= 4
+    dim MS(M)=19 dim MS(pM)=163; generators used: ["U'_p", "U'_2", "T'_5", "T'_7", "T'_11", '<5>']
+    rank V (= Z-rank of T'_(pM) on 210 monomials) = 111
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 17
+    rank [V;W]                                            = 111
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 17; joint span = 17
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 99 independent relations at level pM : PASS
+--- PART A  N_g=1 p=5 r=1  M=5->25  mod ell=1000003, monomial degree <= 3
+    dim MS(M)=3 dim MS(pM)=51; generators used: ["U'_p", "T'_2", "T'_3", "T'_7", '<2>']
+    rank V (= Z-rank of T'_(pM) on 56 monomials) = 39
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 3
+    rank [V;W]                                            = 39
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 3; joint span = 3
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 17 independent relations at level pM : PASS
+--- PART A  N_g=1 p=5 r=1  M=5->25  mod ell=999983, monomial degree <= 3
+    dim MS(M)=3 dim MS(pM)=51; generators used: ["U'_p", "T'_2", "T'_3", "T'_7", '<2>']
+    rank V (= Z-rank of T'_(pM) on 56 monomials) = 39
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 3
+    rank [V;W]                                            = 39
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 3; joint span = 3
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 17 independent relations at level pM : PASS
+--- PART A  N_g=1 p=3 r=2  M=9->27  mod ell=1000003, monomial degree <= 3
+    dim MS(M)=7 dim MS(pM)=55; generators used: ["U'_p", "T'_2", "T'_5", "T'_7", '<2>']
+    rank V (= Z-rank of T'_(pM) on 56 monomials) = 42
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 7
+    rank [V;W]                                            = 42
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 7; joint span = 7
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 14 independent relations at level pM : PASS
+--- PART A  N_g=1 p=3 r=2  M=9->27  mod ell=999983, monomial degree <= 3
+    dim MS(M)=7 dim MS(pM)=55; generators used: ["U'_p", "T'_2", "T'_5", "T'_7", '<2>']
+    rank V (= Z-rank of T'_(pM) on 56 monomials) = 42
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 7
+    rank [V;W]                                            = 42
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 7; joint span = 7
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 14 independent relations at level pM : PASS
+--- PART A  N_g=5 p=3 r=1  M=15->45  mod ell=1000003, monomial degree <= 3
+    dim MS(M)=17 dim MS(pM)=145; generators used: ["U'_p", "U'_5", "T'_2", "T'_7", "T'_11", '<2>', '<7>']
+    rank V (= Z-rank of T'_(pM) on 120 monomials) = 103
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 16
+    rank [V;W]                                            = 103
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 16; joint span = 16
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 17 independent relations at level pM : PASS
+--- PART A  N_g=5 p=3 r=1  M=15->45  mod ell=999983, monomial degree <= 3
+    dim MS(M)=17 dim MS(pM)=145; generators used: ["U'_p", "U'_5", "T'_2", "T'_7", "T'_11", '<2>', '<7>']
+    rank V (= Z-rank of T'_(pM) on 120 monomials) = 103
+    rank W (= Z-rank of T'_(M)  on the same monomials)    = 16
+    rank [V;W]                                            = 103
+    (WD)  ker(V) subset ker(W)   <=>  rank V = rank[V;W] : PASS
+    (NI)  pi_r NOT injective     <=>  rank W < rank[V;W] : PASS
+    rank of T'_(M) from M's OWN generators, same degree     = 16; joint span = 16
+    (SURJ) im(pi_r) = T'_(M)  <=> rank W = rank W_own = rank joint : PASS
+    (NONVAC) the WD test has content: 17 independent relations at level pM : PASS
+ALL PASS
+A2 exit 0

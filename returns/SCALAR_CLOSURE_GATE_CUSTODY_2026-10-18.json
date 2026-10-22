@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-10-19T01:10:59.440837+00:00",
+  "baseline_commit": "79fe49d73acf7f134c3d4344481095b2f1a8184f",
+  "branch": "research/state-sync-2026-10-04",
+  "return": "work/returns/BSD_SCALAR_CLOSURE_GATE_2026-10-18",
+  "regular_files": 54,
+  "byte_identical_copy": true,
+  "manifest_entries": 53,
+  "archive": "work/returns/archives/BSD_SCALAR_CLOSURE_GATE_2026-10-18.zip",
+  "archive_bytes": 1411759,
+  "archive_sha256": "d08f9fa9e622e7368709d41c4e16353691355e6a61f00dfd8406b2b141b702cf",
+  "report_sha256": "260685a997ee3e192570dd91394f8ee4c8f68d5b264eda202f1098578b392b73",
+  "manifest_sha256": "5228ac59a7d7b9e7d609ab879a3473c7a3cbd80b4cb18090d1d89bc390f81327",
+  "mathematical_status": "Finite scalar-generated family excluded; no whole-source bound",
+  "scope": "Exact current scalar/rank computations with retained field and factorization inputs; publication is not proof certification",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "publication_scope": "Authorized lab branch only; no main merge or research promotion; remote readback receipt separate"
+}

@@ -1,0 +1,3 @@
+alarm(10);D=read("/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/data.gp");
+rc(v)=vector(8,i,my(c=polcoef(lift(v),i-1));[numerator(c),denominator(c)]);
+print(Str("{\"source_generators\":",vector(#D[6],i,rc(D[6][i])),",\"torsion_point\":",vector(2,i,rc(D[5][i])),"}"));quit;

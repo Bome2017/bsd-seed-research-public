@@ -1,0 +1,10 @@
+  ***   at top-level: ... root"));for(j=1,15,my(t=subst(lift(G[j]),w,Mo
+  ***                                             ^---------------------
+  *** subst: impossible inverse in Fl_inv: Mod(0, 13).
+... skipping file 'verify_exact_maps.gp'
+  ***   at top-level: ...)~,3);if(matrank(RR)!=15,error("source indepen
+  ***                                             ^---------------------
+  ***   user error: source independence
+  ***   at top-level: ...DEPENDENT_RESIDUE_ROWS=",matsize(RR)[1],";SOUR
+  ***                                             ^---------------------
+  *** matsize: incorrect type in matsize (t_POL).

@@ -1,0 +1,12 @@
+'Continuation.TraceCongruence.derived_invariance_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Continuation.TraceCongruence.derived_invariance_mod_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Continuation.TraceCongruence.derived_invariance_mod_gcd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Continuation.TraceCongruence.reduced_target_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Continuation.TraceCongruence.affCount_53' depends on axioms: [propext]
+'Continuation.TraceCongruence.affCount_29' depends on axioms: [propext]
+'Continuation.TraceCongruence.ordinary_53' depends on axioms: [propext]
+'Continuation.TraceCongruence.minimal_discriminant' depends on axioms: [propext]
+'Continuation.TraceCongruence.residues_mod_53' depends on axioms: [propext]
+'Continuation.TraceCongruence.inert_3391' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Continuation.TraceCongruence.inert_21089' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Continuation.TraceCongruence.common_modulus_21089' does not depend on any axioms

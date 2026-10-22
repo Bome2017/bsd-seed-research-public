@@ -1,0 +1,49 @@
+--- a/paper/sections/F_lattice_proof.tex
++++ b/paper/sections/F_lattice_proof.tex
+@@ -10,7 +10,7 @@
+ The retained isogeny-class computation identifies two curves, $E$ and its rational $2$-isogenous partner. Thus the map used for $E$ is $\phi_E=\phi_0$ if $E=E_0$, and otherwise $\phi_E=\psi\circ\phi_0$, where $\psi:E_0\to E$ is that $2$-isogeny. This definition does not allow subsequent composition with an arbitrary multiplication map.
+ For $\psi^*\omega_E=c_\psi\omega_0$, integrality and the dual isogeny give $c_\psi\mid2$, hence $c_E\mid2c_0$; see \cite[proof of Cor.~7.3]{cns}.
+ 
+-The odd-prime support theorem \cite[Cor.~3.7]{ars} restricts the odd divisors of $c_0$ to primes whose squares divide $N$, here only $4547$. Both displayed isogeny-class members have type III at $4547$, with $(v(c_4),v(c_6),v(\Delta))=(1,2,3)$ and $j\equiv1728$. Since $4547\equiv3\pmod4$, this is potentially supersingular reduction. Theorem~4.6.3 of \cite{edixhoventhesis} excludes $4547$ from $c_0$: its hypotheses $p>7$, the stated additive-type exclusions, and absence of a rational $p$-isogeny all hold (the last follows also from Theorem~\ref{thm:image}). Therefore $c_0$ is a power of two. The direct thesis check concerns that theorem's statement, not a new proof of the thesis.
++The odd-prime support theorem \cite[Cor.~3.7]{arsmanin} restricts the odd divisors of $c_0$ to primes whose squares divide $N$, here only $4547$. Both displayed isogeny-class members have type III at $4547$, with $(v(c_4),v(c_6),v(\Delta))=(1,2,3)$ and $j\equiv1728$. Since $4547\equiv3\pmod4$, this is potentially supersingular reduction. Theorem~4.6.3 of \cite{edixhoventhesis} excludes $4547$ from $c_0$: its hypotheses $p>7$, the stated additive-type exclusions, and absence of a rational $p$-isogeny all hold (the last follows also from Theorem~\ref{thm:image}). Therefore $c_0$ is a power of two. The direct thesis check concerns that theorem's statement, not a new proof of the thesis.
+ 
+ \subsection{Reduction to an integral differential lattice}
+ Put $R=\Z_{(2)}$, $X=X_0(N)_R$, and
+@@ -18,7 +18,7 @@
+  S=S_2(\Gamma_0(N),R),\qquad H=H^0(X,\omega_{X/R}),\qquad
+  e'=\min\{e:2^e S\subseteq H\}.
+ \]
+-Here $S$ denotes the forms with integral expansion at $\infty$. Because $3\mid N$ and $3\equiv3\pmod4$, \cite[Thm.~6.12(c), Prop.~6.2]{cns} identify $H$ with the N\'eron differential lattice of $J_0(N)$. Their Corollary~5.15 puts $\omega_f$ in $H$. Its first coefficient is one, so
++Here $S$ denotes the forms with integral expansion at $\infty$. Because $3\mid N$ and $3\equiv3\pmod4$, \cite[Thm.~6.12(c), Prop.~6.2]{cns} identify $H$ with the N\'eron differential lattice of $J_0(N)$. Their Theorem~5.15 puts $\omega_f$ in $H$. Its first coefficient is one, so
+ $H\cap\Q\omega_f=S\cap\Q\omega_f=R\omega_f$.
+ 
+ Let $P_f$ be the Petersson projection onto $\Q\omega_f$, and choose a generator $\eta$ of $P_f(H)$ with $\omega_f=2^\kappa\eta$, after absorbing an $R$-unit. The prime-to-$N$ Hecke operators are self-adjoint, and strong multiplicity one makes their common $f$-eigenspace one-dimensional. Dualizing $\pi t=\chi_f(t)\pi$ therefore shows that $(\pi^\vee)^*$ factors through $P_f$. Writing $(\pi^\vee)^*\eta=u\omega_0$ with $u\in R$, the identity $\pi\pi^\vee=[\deg\phi_0]$ gives
+--- a/paper/sections/03_rank.tex
++++ b/paper/sections/03_rank.tex
+@@ -15,9 +15,9 @@
+ \begin{theorem}[\cid{R.3}; computer-assisted]\label{thm:lpp}
+ $L''(E,1)/2\in[35.929604,\ 35.941023]$. Consequently $\ord_{s=1}L(E,s)=2$.
+ \end{theorem}
+-The value comes from the standard exponentially convergent series for $L''(E,1)$ \cite[\S2.13]{cremona}. The partial sum over $n\le1.5\cdot10^8$ is enclosed in an Arb ball \cite{arb} of radius $2.65\cdot10^{-26}$; an elementary tail bound of $5.709\cdot10^{-3}$ is then added. The resulting ball is
++The value comes from the standard exponentially convergent series for $L''(E,1)$ \cite[\S2.13]{cremona}. The partial sum over $n\le1.5\cdot10^8$ is enclosed in an Arb ball \cite{arb} of radius $2.65\cdot10^{-26}$; an elementary tail bound of $5.70901\cdot10^{-3}$ is then added. An outward-rounded enclosure is
+ \[
+-35.93531375275170089\pm5.709\cdot10^{-3}.
++35.93531375275170089\pm5.70901\cdot10^{-3}.
+ \]
+ Its computational inputs are:
+ \begin{itemize}[leftmargin=*]
+--- a/paper/refs.bib
++++ b/paper/refs.bib
+@@ -240,6 +240,12 @@
+   title = {The {M}anin constant and the modular degree},
+   journal = {J. Eur. Math. Soc.}, volume = {26}, number = {2},
+   pages = {573--637}, year = {2024}, note = {DOI 10.4171/JEMS/1367; arXiv:1911.09446}
++}
++@article{arsmanin,
++  author = {Agashe, Amod and Ribet, Kenneth A. and Stein, William A.},
++  title = {The {Manin} Constant},
++  journal = {Pure and Applied Mathematics Quarterly},
++  volume = {2}, number = {2}, year = {2006}, pages = {617--636}
+ }
+ @incollection{ars,
+   author = {Agashe, Amod and Ribet, Kenneth A. and Stein, William A.},

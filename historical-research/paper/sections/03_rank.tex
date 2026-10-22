@@ -1,0 +1,61 @@
+\section{Rank and the analytic side}\label{sec:rank}
+
+\begin{theorem}[\cid{R.1}; exact computation (two independent descents); global saturation computer-assisted]\label{thm:mw}
+$E(\Q)=\langle T\rangle\oplus\Z P_1\oplus\Z P_2$, with $T=(0,0)$, $P_1=(4547,327384)$ and $P_2=(5184,281520)$. The points $P_1,P_2$ are a basis of $E(\Q)/E(\Q)_{\mathrm{tors}}$, not merely generators of a subgroup of finite index. Moreover $\Sha[2]=0$.
+\end{theorem}
+The specialization is $m=2243$, $n=12$: $m+16n^2=4547$ and $m+25n^2=5843$, all three primes being $11$ modulo $24$. An exact $2$-isogeny descent supplies the rank and $2$-descent input. Write $E'\colon y^2=x(x^2+45470x+91790289)$ for the $2$-isogenous curve, and $\alpha,\alpha'$ for the descent maps ($x$-coordinate modulo squares). Since $106272484=2^2\cdot4547\cdot5843$ and $22735^2-4\cdot106272484=3^2\cdot2243\cdot4547$, both descents are local at $\{2,3,2243,4547,5843,\infty\}$ and involve no class groups. The torsion points, $P_1$ and one point of $E'(\Q)$ give $\#\alpha(E(\Q))\cdot\#\alpha'(E'(\Q))=16=2^{r+2}$. This equals the Selmer bound, computed independently by PARI's unconditional \texttt{ellrank} and by eclib's \texttt{mwrank}. Hence $\rank E(\Q)=2$ and $\Sha[2]=0$, the $2$-Selmer rank being $3=2+\dim_{\F_2}E(\Q)[2]$. The family theorem \cite[Thm.~1.2]{zywina} gives the same conclusions for the whole family and is retained as corroboration. It does not itself assert that the displayed points form an integral basis. The separate Lane~3 certificate uses eclib saturation with a computed global index bound: that bound is $2$, the points are proved $2$-saturated, and the index is $1$. A basis returned independently is $P_2,G$, where $G=(5843,210348)=-P_1-P_2+T$; the change-of-basis determinant is $1$. This calculation was replayed during the first release review. Its scripts, outputs and the corrected alternative Silverman/ratpoints proof are now included in the evidence. A bounded PARI saturation check up to $50$ or $100$ alone would not prove full saturation. No preprint input remains in this theorem. The descent and the basis computation each have their own computer-assisted trust base, and the descent certificate replays in seconds (\path{evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/}).
+
+\begin{proposition}[\cid{R.2}; published theorems applied]\label{prop:vanish}
+$L(E,1)=L'(E,1)=0$.
+\end{proposition}
+\begin{proof}
+If $L(E,1)\neq0$, then $E(\Q)$ would be finite by Kolyvagin \cite{kolyvagin} (or Kato \cite{kato}); but $P_1$ has infinite order. The root number is $+1$, so $\ord_{s=1}L(E,s)$ is even and at least $2$.
+\end{proof}
+
+\begin{theorem}[\cid{R.3}; computer-assisted]\label{thm:lpp}
+$L''(E,1)/2\in[35.929604,\ 35.941023]$. Consequently $\ord_{s=1}L(E,s)=2$.
+\end{theorem}
+The value comes from the standard exponentially convergent series for $L''(E,1)$ \cite[\S2.13]{cremona}. The partial sum over $n\le1.5\cdot10^8$ is enclosed in an Arb ball \cite{arb} of radius $2.65\cdot10^{-26}$; an elementary tail bound of $5.70901\cdot10^{-3}$ is then added. An outward-rounded enclosure is
+\[
+35.93531375275170089\pm5.70901\cdot10^{-3}.
+\]
+Its computational inputs are:
+\begin{itemize}[leftmargin=*]
+\item the coefficients $a_n$, generated multiplicatively from $8{,}444{,}396$ prime coefficients $a_q$;
+\item the check of each $a_q$ by an integer verifier that is independent of the program that produced it;
+\item no uncontrolled floating-point approximation: Arb propagates rigorous rounding and truncation bounds.
+\end{itemize}
+A single-thread replay with a later engine version was bit-identical. The trust base is FLINT/Arb~3.3.1, GMP, MPFR, the compiler, the two program sources, and the hardware.
+
+\begin{theorem}[\cid{R.4}; RANK]\label{thm:rank}
+$\rank E(\Q)=\ord_{s=1}L(E,s)=2$.
+\end{theorem}
+
+\begin{theorem}[\cid{R.5}; computer-assisted]\label{thm:reg}
+The least positive real period is
+\[
+\omega_1=0.0280449015194364044483094018079\pm3.04\cdot10^{-32},
+\]
+and $\Omega_E=2\omega_1$. The regulator of $P_1,P_2$, in the BSD normalization, satisfies
+\[
+17.79651747249034020748<\Reg<17.79651747249034039153,
+\]
+and
+\[
+0.99820315980984172437<\Omega_E\Reg<0.99820315980984173470 .
+\]
+\end{theorem}
+The certificate evaluates the local heights with directed-rounding decimal arithmetic and an exact tail bound. It checks exactly that $2P$ lies in the identity component at every bad prime. It was replayed byte-identically at two precision settings.
+
+\begin{theorem}[\cid{R.6}; computer-assisted]\label{thm:qint}
+$35.99427<q<36.00573$.
+\end{theorem}
+A much narrower floating-point estimate, $q=36\pm3\cdot10^{-15}$, exists. It is evidence only, and is never used as an input to any proof here.
+
+\begin{theorem}[\cid{R.7}; elementary]\label{thm:endpoint}
+Full BSD for $E$ holds if and only if $\Sha$ is finite of order $9$ and $q=36$.
+\end{theorem}
+\begin{proof}
+With $\prod c_\ell=16$ and $\#E(\Q)_{\mathrm{tors}}=2$, the BSD formula reads $q=16\,\#\Sha/2^2=4\,\#\Sha$. If it holds, $\#\Sha=q/4$ is an integer in $(8.99856,9.00144)$, hence equal to $9$, and then $q=36$. The converse is substitution.
+\end{proof}
+Theorem~\ref{thm:endpoint} describes the endpoint exactly; it supplies no method for either open assertion.

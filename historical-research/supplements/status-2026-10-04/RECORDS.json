@@ -1,0 +1,175 @@
+[
+  {
+    "id": "two-prime-scalar",
+    "status": "Reviewed at retained/imported-theorem grade; scalar not independently controlled",
+    "files": [
+      "records/two-prime-scalar/REPORT.md",
+      "records/two-prime-scalar/AUDIT.md",
+      "records/two-prime-scalar/NORMALIZATION_CHECK.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "weight-three-index",
+    "status": "Reviewed at retained/imported-theorem grade; ordinary domain only; bound on b open",
+    "files": [
+      "records/weight-three-index/REPORT.md",
+      "records/weight-three-index/VERIFIED_DERIVATION.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "weight-three-pairing",
+    "status": "Confirmed with corrections; mixed-height interpretation not established",
+    "files": [
+      "records/weight-three-pairing/REPORT.md",
+      "records/weight-three-pairing/CORRECTIONS.md",
+      "records/weight-three-pairing/DERIVATION.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "receiver-exactness",
+    "status": "Local exactness confirmed at retained-input grade; no upper bound",
+    "files": [
+      "records/receiver-exactness/REPORT.md",
+      "records/receiver-exactness/REVIEW.md",
+      "records/receiver-exactness/input/BSD_SECOND_TORSION_LOCAL_EXACTNESS_PUSH_2026-10-03/LOCAL_EXACTNESS.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "receiver-pairings",
+    "status": "Pairing audit confirmed at retained-input grade; no new bound",
+    "files": [
+      "records/receiver-pairings/REPORT.md",
+      "records/receiver-pairings/REVIEW.md",
+      "records/receiver-pairings/AMBIENT_LIFT_SCREEN.md",
+      "records/receiver-pairings/BOUND_ATTEMPT.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "receiver-relations",
+    "status": "Arithmetic generation/relations review; no sufficient relation-rank estimate",
+    "files": [
+      "records/receiver-relations/REPORT.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "product-relations",
+    "status": "Scoped review; tested failures are not a universal exclusion",
+    "files": [
+      "records/product-relations/REPORT.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "additive-support",
+    "status": "Support and actual-coefficient distinctions retained",
+    "files": [
+      "records/additive-support/REPORT.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "uniform-findings-repair",
+    "status": "Specific corrections supersede blanket architectural closures",
+    "files": [
+      "records/uniform-findings-repair/REPORT.md",
+      "records/uniform-findings-repair/AUDIT.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "rs2-and-compendium",
+    "status": "Analytic derivation and scoped reconciliation; arithmetic height comparison open",
+    "files": [
+      "records/rs2-and-compendium/REPORT.md",
+      "records/rs2-and-compendium/COMBINATION_CHECK.md",
+      "records/rs2-and-compendium/coverage/READ_LOG.md",
+      "records/rs2-and-compendium/sources/RS2_INDEPENDENT_REVIEW.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "packet-transfer",
+    "status": "Written derivations awaiting independent review; no admissible witness realization",
+    "files": [
+      "records/packet-transfer/REPORT.md",
+      "records/packet-transfer/CONSTRUCTION.md",
+      "records/packet-transfer/SOURCES.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "closed-lift",
+    "status": "Written derivation awaiting independent review; no Sha consequence established",
+    "files": [
+      "records/closed-lift/REPORT.md",
+      "records/closed-lift/PROOF.md",
+      "records/closed-lift/SOURCES.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "uniform-refocus",
+    "status": "Historical strategic review; fixed-prime work is not a uniform theorem",
+    "files": [
+      "records/uniform-refocus/REPORT.md"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  },
+  {
+    "id": "p53-preflight",
+    "status": "Frozen preflight; not a new primary certificate",
+    "files": [
+      "records/p53-preflight/PREFLIGHT_RETURN.md",
+      "records/p53-preflight/STATE.json"
+    ],
+    "release_claim_promotion": false,
+    "FIN_changed": false,
+    "ORDER9_changed": false,
+    "Q36_changed": false
+  }
+]

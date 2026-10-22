@@ -1,0 +1,12 @@
+{
+  "separation": "review files and original Claude source archive published separately to avoid duplicate binary payloads",
+  "generated_archives_moved_to_parent": [
+    "BSD_CLAUDE_SOURCE_RECORD_2026-10-15.zip",
+    "BSD_CLAUDE_SOURCE_RECORD_2026-10-15.zip.part001",
+    "BSD_CLAUDE_SOURCE_RECORD_2026-10-15.zip.part002",
+    "BSD_CLAUDE_SOURCE_RECORD_2026-10-15.zip.part003"
+  ],
+  "original_source_archive_preserved": "/Users/bsm/BSD_CLAUDE_SOURCE_RECORD_2026-10-15.zip",
+  "original_source_archive_sha256": "1551a14da7e1bd01ada486937ff0c43c6cae32e8d25b1eb17a87f8623cb78062",
+  "original_source_folders_unchanged": true
+}

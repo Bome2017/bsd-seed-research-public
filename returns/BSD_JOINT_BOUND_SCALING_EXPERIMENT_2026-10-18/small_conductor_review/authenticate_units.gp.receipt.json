@@ -1,0 +1,9 @@
+{
+  "script": "authenticate_units.gp",
+  "budget_seconds": 110,
+  "elapsed_seconds": 59.07464929809794,
+  "returncode": 0,
+  "timeout": false,
+  "required_marker": "EXACT_FREE_UNIT_AUTHENTICATION_PASS;",
+  "success": true
+}

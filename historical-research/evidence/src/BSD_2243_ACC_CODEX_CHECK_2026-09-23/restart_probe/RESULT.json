@@ -1,0 +1,36 @@
+{
+  "same_stream_directory": true,
+  "old_stream_alive_after_parent_kill": true,
+  "checkpoint_count_at_restart": 0,
+  "events": [
+    {
+      "pid": 88930,
+      "segment": "1",
+      "directory": "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23/restart_probe/out/stream_g001_w00"
+    },
+    {
+      "pid": 88932,
+      "segment": "1",
+      "directory": "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23/restart_probe/out/stream_g001_w00"
+    }
+  ],
+  "cmd": [
+    "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23/acc2243v2_codex",
+    "run",
+    "0",
+    "-22735",
+    "0",
+    "106272484",
+    "0",
+    "27",
+    "2167729337579528",
+    "1",
+    "33554431",
+    "16777216",
+    "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23/restart_probe/ap",
+    "1",
+    "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23/restart_probe/out",
+    "500000000",
+    "40"
+  ]
+}

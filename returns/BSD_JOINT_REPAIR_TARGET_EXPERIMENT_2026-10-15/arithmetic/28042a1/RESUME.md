@@ -1,0 +1,1 @@
+Do not rerun certification without new authorization. Exact three-class lower bound and algebraic rank one are available. Read RESULT.md and construct_receipt.json first. Upper completeness remains unconfirmed.

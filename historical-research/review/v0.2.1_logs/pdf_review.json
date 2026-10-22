@@ -1,0 +1,14 @@
+{
+  "pdf_sha256": "70d4ae547cb62581cdad681973e78b2a03e672834dbb7df08e92b3e37c9a1b4e",
+  "pages": 32,
+  "rendered_pages_visually_inspected": [
+    1,
+    7,
+    25,
+    30
+  ],
+  "result": "PASS: version and source stamp, corrected rank enclosure, distinct ARS references and CNS theorem label render correctly; no clipping on reviewed pages.",
+  "undefined_reference_or_citation": false,
+  "overfull_or_missing_glyph": false,
+  "qualification": "Targeted rendered-page review, not independent mathematical verification. Nonfatal hyperref bookmark-string and underfull-box warnings remain."
+}

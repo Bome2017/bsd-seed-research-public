@@ -1,0 +1,110 @@
+=== TAME case Ng=3, t=3 (N=9), p=2, r=1, prime=1000003
+  level s=1: common 18 (dim 19) -> native 6 (dim 3)
+  (T5-a) s=1: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=1: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=1: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=1: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=1: pr^t_1* <d> = <d> pr^t_1*  (d=5)                   PASS
+  (C-D') s=1: pr^t_2* <d> = <d> pr^t_2*  (d=5)                   PASS
+  (COMP) A_r pr^t_1* W_(Np^r) = (U_p)^r pr^t_2*                  PASS
+  level s=2: common 36 (dim 73) -> native 12 (dim 9)
+  (T5-a) s=2: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=2: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=2: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=2: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=2: pr^t_1* <d> = <d> pr^t_1*  (d=5)                   PASS
+  (C-D') s=2: pr^t_2* <d> = <d> pr^t_2*  (d=5)                   PASS
+  (C-W)  pr^t_1* varpi_1* = varpi_1* pr^t_1*                     PASS
+  (C-W') pr^t_2* varpi_1* = varpi_1* pr^t_2*                     PASS
+=== TAME case Ng=3, t=3 (N=9), p=2, r=1, prime=999983
+  level s=1: common 18 (dim 19) -> native 6 (dim 3)
+  (T5-a) s=1: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=1: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=1: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=1: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=1: pr^t_1* <d> = <d> pr^t_1*  (d=5)                   PASS
+  (C-D') s=1: pr^t_2* <d> = <d> pr^t_2*  (d=5)                   PASS
+  (COMP) A_r pr^t_1* W_(Np^r) = (U_p)^r pr^t_2*                  PASS
+  level s=2: common 36 (dim 73) -> native 12 (dim 9)
+  (T5-a) s=2: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=2: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=2: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=2: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=2: pr^t_1* <d> = <d> pr^t_1*  (d=5)                   PASS
+  (C-D') s=2: pr^t_2* <d> = <d> pr^t_2*  (d=5)                   PASS
+  (C-W)  pr^t_1* varpi_1* = varpi_1* pr^t_1*                     PASS
+  (C-W') pr^t_2* varpi_1* = varpi_1* pr^t_2*                     PASS
+=== TAME case Ng=5, t=3 (N=15), p=2, r=1, prime=1000003
+  level s=1: common 30 (dim 49) -> native 10 (dim 7)
+  (T5-a) s=1: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=1: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=1: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=1: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=1: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=1: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (COMP) A_r pr^t_1* W_(Np^r) = (U_p)^r pr^t_2*                  PASS
+  level s=2: common 60 (dim 193) -> native 20 (dim 25)
+  (T5-a) s=2: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=2: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=2: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=2: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=2: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=2: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (C-W)  pr^t_1* varpi_1* = varpi_1* pr^t_1*                     PASS
+  (C-W') pr^t_2* varpi_1* = varpi_1* pr^t_2*                     PASS
+=== TAME case Ng=5, t=3 (N=15), p=2, r=1, prime=999983
+  level s=1: common 30 (dim 49) -> native 10 (dim 7)
+  (T5-a) s=1: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=1: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=1: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=1: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=1: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=1: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (COMP) A_r pr^t_1* W_(Np^r) = (U_p)^r pr^t_2*                  PASS
+  level s=2: common 60 (dim 193) -> native 20 (dim 25)
+  (T5-a) s=2: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=2: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=2: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=2: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=2: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=2: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (C-W)  pr^t_1* varpi_1* = varpi_1* pr^t_1*                     PASS
+  (C-W') pr^t_2* varpi_1* = varpi_1* pr^t_2*                     PASS
+=== TAME case Ng=5, t=2 (N=10), p=3, r=1, prime=1000003
+  level s=1: common 30 (dim 49) -> native 15 (dim 17)
+  (T5-a) s=1: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=1: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=1: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=1: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=1: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=1: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (COMP) A_r pr^t_1* W_(Np^r) = (U_p)^r pr^t_2*                  PASS
+  level s=2: common 90 (dim 433) -> native 45 (dim 145)
+  (T5-a) s=2: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=2: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=2: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=2: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=2: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=2: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (C-W)  pr^t_1* varpi_1* = varpi_1* pr^t_1*                     PASS
+  (C-W') pr^t_2* varpi_1* = varpi_1* pr^t_2*                     PASS
+=== TAME case Ng=5, t=2 (N=10), p=3, r=1, prime=999983
+  level s=1: common 30 (dim 49) -> native 15 (dim 17)
+  (T5-a) s=1: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=1: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=1: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=1: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=1: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=1: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (COMP) A_r pr^t_1* W_(Np^r) = (U_p)^r pr^t_2*                  PASS
+  level s=2: common 90 (dim 433) -> native 45 (dim 145)
+  (T5-a) s=2: pr^t_1* W_(Np^s) = W_(Ngp^s) pr^t_2*               PASS
+  (T5-b) s=2: pr^t_2* W_(Np^s) = W_(Ngp^s) pr^t_1*               PASS
+  (C-U)  s=2: pr^t_1* U'_p = U'_p pr^t_1*                        PASS
+  (C-U') s=2: pr^t_2* U'_p = U'_p pr^t_2*                        PASS
+  (C-D)  s=2: pr^t_1* <d> = <d> pr^t_1*  (d=7)                   PASS
+  (C-D') s=2: pr^t_2* <d> = <d> pr^t_2*  (d=7)                   PASS
+  (C-W)  pr^t_1* varpi_1* = varpi_1* pr^t_1*                     PASS
+  (C-W') pr^t_2* varpi_1* = varpi_1* pr^t_2*                     PASS
+ALL PASS
+python3 msym_tame_check.py 3,3,2,1 5,3,2,1 5,2,3,1  25.37s user 0.11s system 99% cpu 25.565 total

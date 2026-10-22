@@ -1,0 +1,18 @@
+{
+  "status": "LIVE_COMMAND_BINDING_PASS",
+  "checked_utc": "2026-10-13T21:21:33.742964+00:00",
+  "actual_PARAMS": "msl 0 -22735 0 106272484 0 167 6503188012738584 1 57378078719 16777216 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/corpus_ext_6445/view/ap /Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/production/p83_l167/units 1024",
+  "matches_frozen_PARAMS": true,
+  "actual_command_matches_config": true,
+  "actual_caps_match_config": true,
+  "monitor_sha256": "7402a4497d0fe53878b783cc7c4e97f763ca3ef68d824d5001051a6fd89bea44",
+  "freeze_manifest_sha256": "e0ec2c8c096f779ac13916293e09133cabbdb87ffb11913bb5b30c7cd0a7638b",
+  "monitor_is_adapter": true,
+  "evaluator_unchanged": true,
+  "notes": [
+    "Monitor does not replace unchanged acceptance checker.",
+    "Process-group CPU statistic is maximum observed active-group sum, not exact cumulative accounting of exited helpers; long-lived threaded evaluator dominates this job.",
+    "Output cap measures production tree; monitoring logs are small additional files outside it.",
+    "A resource stop is no mathematical verdict."
+  ]
+}

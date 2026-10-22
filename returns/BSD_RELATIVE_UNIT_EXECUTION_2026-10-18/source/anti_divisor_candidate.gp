@@ -1,0 +1,2 @@
+\\ Pending explicit authorization: exact full anti-divisor kernel on the twenty new weighted candidates.
+{alarm(57);NF=read("../inputs/nf.gp");AM=read("../inputs/basis_scalar_matrix.gp");AR=apply(eval,readstr("adaptation_checks.gp"));for(k=1,#AR,my(v=AR[k][3],ff=idealfactor(NF,v),ids=vector(matsize(ff)[1],i,idealhnf(NF,ff[i,1])),ex=Vec(ff[,2]));if(idealhnf(NF,v)!=idealfactorback(NF,ids,ex),error("factor reconstruction"));write("anti_factor_records.gp",[k,v,ids,ex]);print("ANTI_FACTOR_AUTH=",k));print("ALL_ANTI_FACTORS_AUTHENTICATED");quit;}

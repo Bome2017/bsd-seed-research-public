@@ -1,0 +1,8 @@
+cc: Apple clang version 21.0.0 (clang-2100.1.1.101)
+FLINT: #define __FLINT_VERSION 3 
+#define __FLINT_VERSION 3 #define __FLINT_VERSION_MINOR 3 #define __FLINT_VERSION_PATCHLEVEL 1 
+GMP: #define __GNU_MP_VERSION            6 #define __GNU_MP_VERSION_MINOR      3
+MPFR: #define MPFR_VERSION_STRING "4.2.2"
+PARI (producer): 
+python3: Python 3.13.2
+macOS: 26.7

@@ -1,0 +1,46 @@
+{
+  "closed_lift_manifest": [
+    {
+      "path": "COLLISION_SEARCH.json",
+      "ok": true
+    },
+    {
+      "path": "INPUT_BINDINGS.json",
+      "ok": true
+    },
+    {
+      "path": "NOTES.md",
+      "ok": true
+    },
+    {
+      "path": "PROOF.md",
+      "ok": true
+    },
+    {
+      "path": "REPORT.md",
+      "ok": true
+    },
+    {
+      "path": "RESUME.md",
+      "ok": true
+    },
+    {
+      "path": "SOURCES.md",
+      "ok": true
+    },
+    {
+      "path": "STATE.json",
+      "ok": true
+    },
+    {
+      "path": "checks/RESULTS.json",
+      "ok": true
+    },
+    {
+      "path": "checks/check.py",
+      "ok": true
+    }
+  ],
+  "bound_input_count": 12,
+  "limits": "File integrity only; not proof verification."
+}

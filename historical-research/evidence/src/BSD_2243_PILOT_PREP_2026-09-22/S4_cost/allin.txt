@@ -1,0 +1,20 @@
+cutoff                                               scenario       core-h  compute $ storage $ merge $   TOTAL $  wall @20x64 cores
+per-symbol exact identification (T_run, the design)  low             89383       1341      20.4     6.6      1368         69.8 h (2.9 d)
+per-symbol exact identification (T_run, the design)  central        113941       2131      24.6     6.6      2162         89.0 h (3.7 d)
+per-symbol exact identification (T_run, the design)  high-spot      156346       3909      31.8     6.6      3947        122.1 h (5.1 d)
+per-symbol exact identification (T_run, the design)  on-demand      111729       5732      24.2     6.6      5762         87.3 h (3.6 d)
+per-symbol exact identification (T_run, the design)  worst          156346       8021      31.8     6.6      8059        122.1 h (5.1 d)
+nonzero-only scalar screen, best case                low            140259       2104      29.1     6.6      2140        109.6 h (4.6 d)
+nonzero-only scalar screen, best case                central        178795       3343      35.7     6.6      3386        139.7 h (5.8 d)
+nonzero-only scalar screen, best case                high-spot      245338       6133      47.1     6.6      6187        191.7 h (8.0 d)
+nonzero-only scalar screen, best case                on-demand      175324       8994      35.1     6.6      9036        137.0 h (5.7 d)
+nonzero-only scalar screen, best case                worst          245338      12586      47.1     6.6     12639        191.7 h (8.0 d)
+exact scalar identification                          low            171109       2567      34.3     6.6      2608        133.7 h (5.6 d)
+exact scalar identification                          central        218122       4079      42.4     6.6      4128        170.4 h (7.1 d)
+exact scalar identification                          high-spot      299300       7482      56.3     6.6      7545        233.8 h (9.7 d)
+exact scalar identification                          on-demand      213886      10972      41.7     6.6     11021        167.1 h (7.0 d)
+exact scalar identification                          worst          299300      15354      56.3     6.6     15417        233.8 h (9.7 d)
+
+plus the pilot itself: hard cap $100 (planned spend <= $50 by construction; see PILOT_PROPOSAL.md)
+$ per fully verified accumulated chunk (central): top-range 0.00102, average segment 0.00087
+$ per fully verified accumulated chunk (on-demand): top-range 0.00279, average segment 0.00238

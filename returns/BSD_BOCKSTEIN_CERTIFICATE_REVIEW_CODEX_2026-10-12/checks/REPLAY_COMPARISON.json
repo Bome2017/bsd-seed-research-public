@@ -1,0 +1,14 @@
+[
+  {
+    "path": "checks/RESULTS.json",
+    "identical": true
+  },
+  {
+    "path": "checks/BOUNDARY_CASES.json",
+    "identical": true
+  },
+  {
+    "path": "examples/abstract_improved.json",
+    "identical": true
+  }
+]

@@ -1,0 +1,33 @@
+{
+ "p": 4547,
+ "precision_N": 8,
+ "v_p(Delta)": 3,
+ "v_p(c4)": 1,
+ "singular_x_mod_p": [
+  1516
+ ],
+ "P1": {
+  "point": [
+   -3031,
+   327384
+  ],
+  "reduction_nonsingular": false,
+  "x_mod_p": 1516,
+  "y_mod_p": 0,
+  "in_E0": false,
+  "generates_E(Qp)/p": "not tested directly: reduction is the singular point, so P lies off the identity component E_0 (component group Z/2)"
+ },
+ "P2": {
+  "point": [
+   -2394,
+   281520
+  ],
+  "reduction_nonsingular": true,
+  "x_mod_p": 2153,
+  "y_mod_p": 4153,
+  "in_E0": true,
+  "v_p(x((p-1)P)-x(P))": 1,
+  "v_p(y((p-1)P)+y(P))": 1,
+  "generates_E(Qp)/p": true
+ }
+}

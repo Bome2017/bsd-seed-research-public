@@ -1,0 +1,90 @@
+\section{The signed bridge: proof and formalization boundary}\label{app:a3proof}
+
+This is the written deduction behind Theorem~\ref{thm:a3}, supplied for review rather than replaced by a build-success label. The complete retained argument is
+\path{evidence/src/BSD_SUPERSINGULAR_SIGNED_BRIDGE_2026-09-22/SIGNED_MINIMAL_LAMBDA_BRIDGE.md}.
+The source review and Lean report are separate evidence; no theorem of BLV is formalized here.
+
+\subsection{Arithmetic inputs and conventions}
+Let $\Lambda=\Zp[[T]]$, $\gamma=1+T$, $\iota(\gamma)=\gamma^{-1}$, and let $X$ be the Pontryagin dual of the minus signed Selmer group over the anticyclotomic extension of $K=\Q(\sqrt{-7})$, with the $\iota$-twist required by the sesquilinear Poitou--Tate pairing. Replacing $X$ by $X^\iota$ preserves all augmentation quotients and conjugation eigenspace ranks used below. Write $F=F^-$.
+The following are the arithmetic imports and source-comparison obligations of the argument:
+\begin{enumerate}[label=(I\arabic*)]
+\item \emph{Control:} $X/TX\simeq\Sel_{p^\infty}(E/K)^\vee$, compatibly with complex conjugation $\tau$. The local and control inputs are \cite[Props.~5.3, 5.9, Cor.~5.5]{blv}, with the retained bad-place comparisons.
+\item \emph{Characteristic and exact specialization:} $\operatorname{char}_\Lambda X=(FF^\iota)$ by \cite[Thm.~7.3]{blv}. At a character $\gamma\mapsto1+a$, $a\in p\Zp$, where both factors are nonzero,
+\[
+ \operatorname{length}_{\Zp}X/(T-a)X
+ =v_p\bigl(F(a)F((1+a)^{-1}-1)\bigr).
+\]
+This is the exact, non-exceptional minus case of \cite[Thm.~7.1]{blv}, with Proposition~5.9 and Remark~5.16. One applies the finite-coefficient theorem for arbitrarily large depths; the asserted bounded lengths stabilize and give the full specialization. Equality, not merely characteristic-ideal divisibility, is essential.
+\item \emph{Equivariant presentation:} over $A=\F_p[[u]]$, where $u=\gamma-\gamma^{-1}$, the residual Poitou--Tate map gives
+\[
+ F_1\longrightarrow F_0\longrightarrow W=X/pX\longrightarrow0,
+\]
+with $F_1,F_0$ free of equal rank and $\tau$-equivariant. Here $F_1$ is the relaxed compact signed Selmer module for a freeing set and $F_0$ the sum of its singular local groups. The freeing primes are inert in $K$, hence stable under $\tau$; see \cite[\S3.2, Lemma~3.1, Prop.~5.13]{blv}. Finite-level Poitou--Tate followed by inverse limits of finite groups gives this presentation; Corollary~5.14 identifies the relaxed limit. No integral Selmer-complex freeness is postulated.
+
+At $u=0$, Proposition~5.10's injection is an isomorphism by the rank calculation in Proposition~5.13 at the base and infinite levels. The specialized kernel is the classical compact $p$-Selmer group and the cokernel its discrete dual. Naturality of the Weil pairing and local invariant maps under $\tau$ identifies their individual plus and minus dimensions. This equivariant identification is a written arithmetic comparison in the retained proof, not a consequence of equality of their total dimensions and not a theorem checked by Lean.
+\item \emph{Rank and descent:} for odd $p$, restriction/corestriction identifies the plus part of the classical Selmer dual over $K$ with that over $\Q$. Kummer theory and Theorem~\ref{thm:mw} give
+\[
+0\to\Sha[p^\infty]^\vee\to\Sel_{p^\infty}(E/\Q)^\vee\to\Zp^2\to0.
+\]
+\end{enumerate}
+The retained source review checks the cited BLV version and these comparisons. BLV's imported main-conjecture results remain published/preprint imports at their recorded grades; a successful algebra replay does not reprove them.
+
+\begin{lemma}[Removal of the finite error]\label{lem:a3finite}
+Assume (I2) and $\overline F\ne0$. If $d=\ord_T\overline F$, then $X$ is free over $\Zp$ of rank $2d$.
+\end{lemma}
+\begin{proof}
+Weierstrass preparation gives $\mu(F)=0$, $\lambda(F)=d$, so $X$ is finite over $\Zp$ and $Y=X/H$ is free of rank $2d$, where $H$ is its finite $\Zp$-torsion. Choose a nonzero $a\in p\Zp$ away from the finitely many zeros of $FF^\iota$. On $Y$, $T-a$ has nonzero determinant and is injective. The determinant-index formula gives
+\[
+\operatorname{length}Y/(T-a)Y=v_p((FF^\iota)(a))
+=\operatorname{length}X/(T-a)X.
+\]
+The Tor term is $Y[T-a]=0$, so specialization of $0\to H\to X\to Y\to0$ is exact on the left as well. Additivity of length gives $H/(T-a)H=0$. Since $T-a$ is in the maximal ideal of $\Lambda$, Nakayama gives $H=0$.
+\end{proof}
+
+\begin{lemma}[Conjugation rank balance]\label{lem:a3balance}
+Under (I3) and Lemma~\ref{lem:a3finite}, $\rank_{\Zp}X^+=\rank_{\Zp}X^-=d$.
+\end{lemma}
+\begin{proof}
+The parameter $u=T(2+T)/(1+T)$ generates the augmentation ideal, and $\tau(u)=-u$. The finite-dimensional space $W=X/pX$ has dimension $2d$ and nilpotent $u$-action $U$, with $\tau U=-U\tau$.
+Since the cokernel in (I3) is $A$-torsion and the free modules have equal rank, $F_1\to F_0$ is injective. Reducing this resolution modulo $u$, the equality of the individual eigenspace dimensions of its kernel and cokernel gives
+\[
+[F_0/uF_0]-[F_1/uF_1]=0
+\]
+in the representation group of $\langle\tau\rangle$. A second equivariant free resolution is
+\[
+0\to A\otimes_{\F_p}(W\otimes\mathrm{sgn})
+\xrightarrow{\ u-U\ } A\otimes_{\F_p}W\to W\to0.
+\]
+Nilpotence of $U$ proves exactness. The sign on the source is necessary for equivariance because both $u$ and $U$ reverse sign. The two resolutions compute the same equivariant Tor groups at $u=0$, so $[W]-[W\otimes\mathrm{sgn}]=0$. As $p$ is odd, this says $\dim W^+=\dim W^-=d$. The idempotents $(1\pm\tau)/2$ split the free $\Zp$-module $X$ and commute with reduction modulo $p$, proving the assertion.
+\end{proof}
+
+\begin{lemma}[The rank-two quotient]\label{lem:a3quotient}
+Under (I1)--(I4), $d\ge2$ and $d=2$ implies $\Sha[p^\infty]=0$.
+\end{lemma}
+\begin{proof}
+The composite $X^+\twoheadrightarrow\Sel_{p^\infty}(E/\Q)^\vee\twoheadrightarrow\Zp^2$ is surjective, hence $d\ge2$. At $d=2$ it is a surjective map of free modules of the same rank, so its determinant is a unit and its kernel is zero. Every element of the kernel of the second map lifts through the first and would lie in this zero kernel. Thus $\Sha[p^\infty]^\vee=0$, and Pontryagin duality gives the result. This proves nothing about the minus eigenspace or the twist's Sha.
+\end{proof}
+
+If $\overline F=0$, its constant and linear coefficients vanish directly. Otherwise $d\ge2$ gives the same conclusion. BLV's first-layer minus formula is
+$\overline F\equiv\sum_{j<p}v_j(1+t)^j\pmod{t^3}$, where
+$v_j=\bar\psi(\gamma^jQ^{\rm Gr}_1)$ and $Q^{\rm Gr}_1$ is the traced conductor-$p^2$ Gross point. Thus
+$\bar b_0=M_0$, $\bar b_1=M_1$, and $\bar b_2=(M_2-M_1)/2=M_2/2$.
+Nonzero $M_2$ gives $d=2$ and completes Theorem~\ref{thm:a3}. This argument supplies no nonzero packet value.
+
+\subsection{The precise Lean boundary}
+The complete source signature, including typeclass and map hypotheses, is reproduced verbatim in
+\path{review/proofs/A3_SIGNATURE_AND_INPUTS.md}; the underlying file is
+\path{evidence/src/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean}.
+The correspondence is:
+\begin{center}\begin{tabular}{@{}p{0.22\textwidth}p{0.67\textwidth}@{}}\toprule
+Lean hypothesis & arithmetic or structural justification\\\midrule
+\texttt{c, hc, hc$\sigma$, $\rho$} & (I1), plus-part descent in (I4)\\
+\texttt{hexact} & exact specialization in (I2)\\
+\texttt{iA, iB, $\pi$A, $\pi$B, u1, u0}, exactness and commutation & the two graded pieces of (I3)\\
+\texttt{harith} & equality of the minus kernel and cokernel dimensions in (I3)\\
+\texttt{$\kappa$, h$\kappa$} & Kummer surjection in (I4); identifying its kernel with the Sha dual is external\\
+\texttt{Module.Finite, hrank, hlam} & $\mu=0$, characteristic ideal, and $d=\ord_T\overline F$\\
+\texttt{hnil, hinj, hchar} & topological nilpotence and determinant-index formula for $Y$\\
+\texttt{h$\tau$, h$\tau$u} & conjugation is an involution and $\tau u=-u\tau$\\\bottomrule
+\end{tabular}\end{center}
+Exactness of eigenspaces (averaging by $(1\pm\tau)/2$), their compatibility with reduction, and Pontryagin duality are mathematical modeling steps. The sign-twist identity is formalized, but not every identification from Selmer theory to these abstract modules is. The prior pinned Lean replay is retained; unchanged Lean code was not rebuilt merely to revise this exposition.

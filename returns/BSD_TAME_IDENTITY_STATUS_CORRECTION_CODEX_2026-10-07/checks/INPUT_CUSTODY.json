@@ -1,0 +1,11 @@
+{
+  "regular_manifest_entries": 49,
+  "regular_mismatches": [],
+  "aggregate_entry": {
+    "files": 171,
+    "expected": "e036e6930f469b904cafe213131eb7526a14ca5d30067b09704351f945555258",
+    "actual": "e036e6930f469b904cafe213131eb7526a14ca5d30067b09704351f945555258",
+    "pass": true
+  },
+  "interpretation": "Custody only. Aggregate line is not standard sha256sum filename syntax. No modular-symbol or regulator producer replay."
+}

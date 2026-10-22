@@ -1,0 +1,78 @@
+{
+  "status": "EXACT_RATIONAL_HENSEL_CHECK_PASS",
+  "ainvariants": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "samples": 6,
+  "minimum_margin": 43,
+  "checks": [
+    {
+      "prime": 3,
+      "certified_precision": 45,
+      "margins": [
+        43,
+        43,
+        89,
+        86,
+        86
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 45,
+      "margins": [
+        43,
+        43,
+        89,
+        86,
+        86
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 45,
+      "margins": [
+        43,
+        43,
+        89,
+        86,
+        86
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 46,
+      "margins": [
+        44,
+        44,
+        91,
+        88,
+        88
+      ]
+    },
+    {
+      "prime": 433,
+      "certified_precision": 45,
+      "margins": [
+        44,
+        134,
+        134,
+        44
+      ]
+    },
+    {
+      "prime": 433,
+      "certified_precision": 45,
+      "margins": [
+        44,
+        134,
+        134,
+        44
+      ]
+    }
+  ]
+}

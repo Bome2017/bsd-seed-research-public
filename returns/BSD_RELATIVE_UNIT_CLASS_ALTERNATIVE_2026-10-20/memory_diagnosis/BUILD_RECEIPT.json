@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/usr/bin/clang",
+    "-arch",
+    "x86_64",
+    "-O1",
+    "-fPIC",
+    "-dynamiclib",
+    "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/buch2.lowmem.c",
+    "-I/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/include/pari",
+    "-L/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib",
+    "-lpari",
+    "-Wl,-rpath,/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib",
+    "-o",
+    "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/libbsd_lowmem.dylib"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.077714527025819,
+  "original_source_sha256": "904ced8034732c7fcfe1da393e23950aac0862b085150fdc24ce1e31beb7d1ac",
+  "patched_source_sha256": "fa50997d38eb8c12c105e4ac5b800e329bd5a20f80d35928445e89163531b86c",
+  "library_sha256": "00ebafbdc08721a99db977c50bb9c77aa60997cbc7c0062453c5983dab68cd15"
+}

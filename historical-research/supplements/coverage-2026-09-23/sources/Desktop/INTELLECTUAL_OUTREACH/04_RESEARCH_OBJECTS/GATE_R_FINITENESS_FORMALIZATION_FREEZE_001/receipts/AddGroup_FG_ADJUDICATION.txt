@@ -1,0 +1,40 @@
+`AddGroup.FG` IN BOTH RETURNS — ADJUDICATED, AND A DEFECT IN MY OWN MANDATE AND SCANNER
+
+WHAT HAPPENED.  `TASK.md` listed `AddGroup.FG` among things that may not be used.  Both returns
+contain the name.  I checked before judging.
+
+FINDING: NO VIOLATION.  In each return `AddGroup.FG` occurs exactly once, in the form
+
+    haveI : AddGroup.FG ((P01.Ecurve ε m q).toAffine.Point) :=
+      AddGroup.fg_iff.mpr ⟨…, hgen, hfin⟩            (run A, line 131)
+      AddGroup.fg_iff.mpr ⟨S, hStop, hSfin⟩          (run B, line 140)
+
+i.e. **derived with a proof term, from a finite generating set the run itself constructed.**  A
+binder-position test found ZERO occurrences in a hypothesis position in either return, and the
+type-identity check confirms the shipped signature is unchanged: the theorem carries exactly
+`Params`, `H41` and the prime instance.  Finite generation is an internal intermediate, not a
+premise, and the result is not conditional on it.  Both then conclude via
+`AddCommGroup.finite_of_fg_torsion` with torsion supplied by the frozen `GateR.every_point_torsion`.
+
+MY MANDATE WAS AMBIGUOUS.  The clause reads "Premises that would make the result conditional.
+Mordell–Weil finite generation, `Module.Finite ℤ`, `Module.Free ℤ`, `AddGroup.FG`, or any assumed
+finiteness … hypothesis".  The governing words are "premises" and "assumed", and both runs read it
+that way, which is the reading I intended.  But the clause sits under a heading that says "What may
+not be used", and a reader could have taken the name to be banned outright — which would have
+forced a contorted proof or a false failure report.  The defect is mine.  A prohibition on a
+*premise* must say so in the same sentence as the name, and should name the test: not in a binder.
+
+MY SCANNER COULD NOT HAVE CAUGHT A REAL VIOLATION.  When I rewrote the construct scanner after the
+axiom defect, I dropped `AddGroup.FG`, `Module.Finite`, `Module.Free`, `Fintype` and `Mordell` from
+its pattern list.  So the corrected scanner tests the construct prohibitions and NOT the premise
+prohibitions.  I found the FG occurrence through the divergence measurement, not through the scan.
+
+This is the same defect family as findings 1 and 5 of the Ultra audit — a check narrower than its
+stated scope — appearing for the third time, but for the first time found by me rather than by an
+external reviewer.  Recorded, not repaired: the adjudication above is the correction, and the
+binder-position test is now the check of record for premise prohibitions.
+
+MATHEMATICAL NOTE, offered as an observation.  The route both runs chose is arguably better than the
+one I had privately verified: a finitely generated torsion abelian group is finite, and finite
+generation follows from a finite generating set produced by strict height descent.  It uses the
+already-certified `bounded_halving` and `translateMax` rather than re-deriving an orbit bound.

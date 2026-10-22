@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "height_cancellation_cases": 36,
+  "source_and_height_arithmetic_authenticated": false,
+  "actual_seed_values_computed": 0,
+  "cases": [
+    {
+      "p": 5,
+      "w": 0,
+      "b": 0,
+      "m": 0,
+      "r": 1,
+      "K_valuation": 1,
+      "corrected_gap": 0
+    },
+    {
+      "p": 5,
+      "w": 0,
+      "b": 0,
+      "m": 1,
+      "r": 1,
+      "K_valuation": 2,
+      "corrected_gap": 1
+    },
+    {
+      "p": 5,
+      "w": 0,
+      "b": 0,
+      "m": 2,
+      "r": 1,
+      "K_valuation": 3,
+      "corrected_gap": 2
+    },
+    {
+      "p": 5,
+      "w": 0,
+      "b": 2,
+      "m": 2,
+      "r": 5,
+      "K_valuation": 5,
+      "corrected_gap": 0
+    },
+    {
+      "p": 5,
+      "w": 0,
+      "b": 2,
+      "m": 3,
+      "r": 5,
+      "K_valuation": 6,
+      "corrected_gap": 1
+    },
+    {
+      "p": 5,
+      "w": 0,
+      "b": 2,
+      "m": 4,
+      "r": 5,
+      "K_valuation": 7,
+      "corrected_gap": 2
+    },
+    {
+      "p": 5,
+      "w": 2,
+      "b": 0,
+      "m": 2,
+      "r": 1,
+      "K_valuation": 1,
+      "corrected_gap": 0
+    },
+    {
+      "p": 5,
+      "w": 2,
+      "b": 0,
+      "m": 3,
+      "r": 1,
+      "K_valuation": 2,
+      "corrected_gap": 1
+    },
+    {
+      "p": 5,
+      "w": 2,
+      "b": 0,
+      "m": 4,
+      "r": 1,
+      "K_valuation": 3,
+      "corrected_gap": 2
+    },
+    {
+      "p": 5,
+      "w": 2,
+      "b": 2,
+      "m": 4,
+      "r": 5,
+      "K_valuation": 5,
+      "corrected_gap": 0
+    },
+    {
+      "p": 5,
+      "w": 2,
+      "b": 2,
+      "m": 5,
+      "r": 5,
+      "K_valuation": 6,
+      "corrected_gap": 1
+    },
+    {
+      "p": 5,
+      "w": 2,
+      "b": 2,
+      "m": 6,
+      "r": 5,
+      "K_valuation": 7,
+      "corrected_gap": 2
+    },
+    {
+      "p": 7,
+      "w": 0,
+      "b": 0,
+      "m": 0,
+      "r": 1,
+      "K_valuation": 1,
+      "corrected_gap": 0
+    },
+    {
+      "p": 7,
+      "w": 0,
+      "b": 0,
+      "m": 1,
+      "r": 1,
+      "K_valuation": 2,
+      "corrected_gap": 1
+    },
+    {
+      "p": 7,
+      "w": 0,
+      "b": 0,
+      "m": 2,
+      "r": 1,
+      "K_valuation": 3,
+      "corrected_gap": 2
+    },
+    {
+      "p": 7,
+      "w": 0,
+      "b": 2,
+      "m": 2,
+      "r": 5,
+      "K_valuation": 5,
+      "corrected_gap": 0
+    },
+    {
+      "p": 7,
+      "w": 0,
+      "b": 2,
+      "m": 3,
+      "r": 5,
+      "K_valuation": 6,
+      "corrected_gap": 1
+    },
+    {
+      "p": 7,
+      "w": 0,
+      "b": 2,
+      "m": 4,
+      "r": 5,
+      "K_valuation": 7,
+      "corrected_gap": 2
+    },
+    {
+      "p": 7,
+      "w": 2,
+      "b": 0,
+      "m": 2,
+      "r": 1,
+      "K_valuation": 1,
+      "corrected_gap": 0
+    },
+    {
+      "p": 7,
+      "w": 2,
+      "b": 0,
+      "m": 3,
+      "r": 1,
+      "K_valuation": 2,
+      "corrected_gap": 1
+    },
+    {
+      "p": 7,
+      "w": 2,
+      "b": 0,
+      "m": 4,
+      "r": 1,
+      "K_valuation": 3,
+      "corrected_gap": 2
+    },
+    {
+      "p": 7,
+      "w": 2,
+      "b": 2,
+      "m": 4,
+      "r": 5,
+      "K_valuation": 5,
+      "corrected_gap": 0
+    },
+    {
+      "p": 7,
+      "w": 2,
+      "b": 2,
+      "m": 5,
+      "r": 5,
+      "K_valuation": 6,
+      "corrected_gap": 1
+    },
+    {
+      "p": 7,
+      "w": 2,
+      "b": 2,
+      "m": 6,
+      "r": 5,
+      "K_valuation": 7,
+      "corrected_gap": 2
+    },
+    {
+      "p": 17,
+      "w": 0,
+      "b": 0,
+      "m": 0,
+      "r": 1,
+      "K_valuation": 1,
+      "corrected_gap": 0
+    },
+    {
+      "p": 17,
+      "w": 0,
+      "b": 0,
+      "m": 1,
+      "r": 1,
+      "K_valuation": 2,
+      "corrected_gap": 1
+    },
+    {
+      "p": 17,
+      "w": 0,
+      "b": 0,
+      "m": 2,
+      "r": 1,
+      "K_valuation": 3,
+      "corrected_gap": 2
+    },
+    {
+      "p": 17,
+      "w": 0,
+      "b": 2,
+      "m": 2,
+      "r": 5,
+      "K_valuation": 5,
+      "corrected_gap": 0
+    },
+    {
+      "p": 17,
+      "w": 0,
+      "b": 2,
+      "m": 3,
+      "r": 5,
+      "K_valuation": 6,
+      "corrected_gap": 1
+    },
+    {
+      "p": 17,
+      "w": 0,
+      "b": 2,
+      "m": 4,
+      "r": 5,
+      "K_valuation": 7,
+      "corrected_gap": 2
+    },
+    {
+      "p": 17,
+      "w": 2,
+      "b": 0,
+      "m": 2,
+      "r": 1,
+      "K_valuation": 1,
+      "corrected_gap": 0
+    },
+    {
+      "p": 17,
+      "w": 2,
+      "b": 0,
+      "m": 3,
+      "r": 1,
+      "K_valuation": 2,
+      "corrected_gap": 1
+    },
+    {
+      "p": 17,
+      "w": 2,
+      "b": 0,
+      "m": 4,
+      "r": 1,
+      "K_valuation": 3,
+      "corrected_gap": 2
+    },
+    {
+      "p": 17,
+      "w": 2,
+      "b": 2,
+      "m": 4,
+      "r": 5,
+      "K_valuation": 5,
+      "corrected_gap": 0
+    },
+    {
+      "p": 17,
+      "w": 2,
+      "b": 2,
+      "m": 5,
+      "r": 5,
+      "K_valuation": 6,
+      "corrected_gap": 1
+    },
+    {
+      "p": 17,
+      "w": 2,
+      "b": 2,
+      "m": 6,
+      "r": 5,
+      "K_valuation": 7,
+      "corrected_gap": 2
+    }
+  ],
+  "non_p_height_one_negative_control": {
+    "D": "(0,U*(U+p^2))",
+    "g": "1",
+    "m": 0,
+    "tau": 0,
+    "b": 2,
+    "failed_height_one": "(U+p^2)",
+    "claimed_corrected_bound": -2
+  },
+  "augmentation_defect_control": {
+    "D": "(0,U)",
+    "g": "U+p^2",
+    "v_height_one_p_g": 0,
+    "e": 2
+  },
+  "singular_height_control": "restricted row nonzero; determinant ratio not defined"
+}

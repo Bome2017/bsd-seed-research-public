@@ -1,0 +1,1 @@
+alarm(120);gettime();B=read("provisional_bnf.bin");C=read("arithmetic.gp");write("data.gp",[C[1],C[2],C[3][1],C[3][2],C[4]]);print("SOURCE_CERT_START;CLASS=",B.cyc,";DISC=",B.disc);ok=bnfcertify(B);if(ok!=1,error("sourcecert"));writebin("bnf.bin",B);print("SOURCE_CERTIFIED=",ok,";MS=",gettime());quit;

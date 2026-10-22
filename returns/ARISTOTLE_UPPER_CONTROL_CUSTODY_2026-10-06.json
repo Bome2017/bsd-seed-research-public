@@ -1,0 +1,18 @@
+{
+  "status": "COPIED_AND_VERIFIED",
+  "return": "BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06",
+  "manifest_entries_verified": 63,
+  "review_zip": {
+    "path": "work/returns/archives/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06.zip",
+    "bytes": 107580,
+    "sha256": "17db8533f4b6807d797bd9742e36e110d5e467ed5d5242757a0fd18f80d010a4"
+  },
+  "original_archive": {
+    "path": "work/returns/archives/561ea6c5-7426-4788-851a-22e0510be16e-aristotle.tar.gz",
+    "bytes": 66138845,
+    "sha256": "f11c5378fd746cbf46ee2e22888e93d914929d23470e2f3c1f8090d126bcef71"
+  },
+  "mathematical_status": "EXACTNESS_EXTENSION_CONFIRMED_WITH_CORRECTIONS; NO_NEW_UPPER_BOUND",
+  "not_a_full_formal_proof": true,
+  "scope": "Lab evidence only, no research release promotion or new remote job"
+}

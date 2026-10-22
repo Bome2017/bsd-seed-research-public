@@ -1,0 +1,53 @@
+Tiny nested-reading runtime test - transcript (self-written by the agent; evidence to inspect, not an independent attestation)
+
+Date: 2026-10-06
+Working directory: /workspace/request-project/project
+Python version: Python 3.11.14
+Note: the uploaded project root was the outer folder; the test was run inside its project/ subfolder, which contains TASK.md.
+
+$ pwd
+/workspace/request-project/project
+$ python3 --version
+Python 3.11.14
+
+$ python3 prepare_reference.py > /tmp/stdout.txt 2>/tmp/stderr.txt; echo "exit=$?"
+exit=0
+--- stdout ---
+{
+  "status": "READING_SET_VERIFIED",
+  "members_checked": 3,
+  "path": "/workspace/request-project/project/reading_set/BSD_NESTED_RUNTIME_SMOKE"
+}
+--- stderr ---
+(empty)
+
+$ find reading_set -type f | sort
+reading_set/BSD_NESTED_RUNTIME_SMOKE/STARTER_MANIFEST.sha256
+reading_set/BSD_NESTED_RUNTIME_SMOKE/START_HERE.md
+reading_set/BSD_NESTED_RUNTIME_SMOKE/controls/three_lines.txt
+reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt
+
+$ for f in $(find reading_set -type f | sort); do echo "== $f"; cat "$f"; done
+(the three manifest-listed text files and the manifest were printed; contents shown below for the probe file)
+== reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt
+# Buried runtime probe
+
+ARISTOTLE_NESTED_READ_TEST = e1e17c91277c88e029dcbb4c29521e8f4731e79d2c045eb3
+
+Return this exact value and this file's path only after reading the extracted file.
+
+$ grep -rn ARISTOTLE_NESTED_READ_TEST reading_set
+reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt:3:ARISTOTLE_NESTED_READ_TEST = e1e17c91277c88e029dcbb4c29521e8f4731e79d2c045eb3
+
+$ sha256sum $(find reading_set -type f | sort)
+95780fc972a0d3577130e7e5bd3e522888617a6a28388578010393affddabde1  reading_set/BSD_NESTED_RUNTIME_SMOKE/STARTER_MANIFEST.sha256
+11c631bb636439d4251ba9f0f34ca6d0a349f06f2f811e229ba39e87026ecdb1  reading_set/BSD_NESTED_RUNTIME_SMOKE/START_HERE.md
+4fdbc441ea7b546100e086ac1e4fc5ae6749b7314311c99db05be450eca12996  reading_set/BSD_NESTED_RUNTIME_SMOKE/controls/three_lines.txt
+58da37079750e05df03b8225f2234c26e9f8ef6059a854ab9832269b597e19af  reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt
+
+$ cp /tmp/stdout.txt EXTRACTOR_STDOUT.json
+(then RUNTIME_RESULT.json was written with the values above)
+
+$ cd /workspace/request-project && python3 verify_return.py /workspace/request-project/project; echo "exit=$?"
+(local checker shipped in the outer folder; run after the return files were written)
+status: CONTENT_RECOVERED_EXECUTION_REPORTED; content_checks token/file/file_sha256 all true; exit=0

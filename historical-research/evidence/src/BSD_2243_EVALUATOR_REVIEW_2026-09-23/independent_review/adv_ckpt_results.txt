@@ -1,0 +1,99 @@
+=== A0_control  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=0
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+    COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+    CHUNK_DIGEST e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681
+    XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)
+    XB 1 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+    XB 2 plus [-60.000 +/- 4.85e-4] cand -61440/1024 contains 1 unique 1 minus [-16.000 +/- 4.45e-4] cand -16384/1024 contains 1 unique 1
+=== A1_flip_nofix  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: ckpt self-hash mismatch (corrupted checkpoint)
+=== A2_flip_low_rehash  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: fingerprint mismatch
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array 860495fd710b8d46 match 0
+=== A3_flip_high_rehash  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=0
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+    COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+    CHUNK_DIGEST 8e33b044bf2043ceddacf34004f8af2fc3ac8f42a60f713d4ad93776aa714ffd
+    XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)
+    XB 1 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+    XB 2 plus [-60.000 +/- 4.85e-4] cand -61440/1024 contains 1 unique 1 minus [-16.000 +/- 4.45e-4] cand -16384/1024 contains 1 unique 1
+=== A3b_flip_bit96_rehash  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=0
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+    COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+    CHUNK_DIGEST f1f2487cad4c9c34c429f1bff7d613db510de1c7c19a0ac9fc397f805b5d226c
+    XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)
+    XB 1 plus [57.950 +/- 7.03e-4] cand 59341/1024 contains 1 unique 1 minus [21.621 +/- 6.33e-4] cand 22140/1024 contains 1 unique 1
+    XB 2 plus [-11.061 +/- 7.04e-4] cand -11327/1024 contains 1 unique 1 minus [-63.610 +/- 6.44e-4] cand -65136/1024 contains 1 unique 1
+=== A3c_shift_plus_by_1  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=0
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+    COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+    CHUNK_DIGEST e3ae25b3dd36550bc3a1e2fd5b5c506dd25435619c85d9d8b38591e5545eefec
+    XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)
+    XB 1 plus [71.000 +/- 4.85e-4] cand 72704/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+    XB 2 plus [-59.000 +/- 4.85e-4] cand -60416/1024 contains 1 unique 1 minus [-16.000 +/- 4.45e-4] cand -16384/1024 contains 1 unique 1
+=== A4_delU_rehash  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: ckpt record
+=== A5_delU_fixnrec_rehash  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: units missing: run incomplete
+    MERGE checkpoints 4 units 1445 selected 1445 missing 1 terms 2133842043
+    FINGERPRINT sum_units ec6f871e2586c5c7 array ac56a61d710b8d46 match 0
+=== A6_dup_ckpt  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: unit covered twice
+=== A6b_dup_tmp  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=0
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+    COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+    CHUNK_DIGEST e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681
+    XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)
+    XB 1 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+    XB 2 plus [-60.000 +/- 4.85e-4] cand -61440/1024 contains 1 unique 1 minus [-16.000 +/- 4.45e-4] cand -16384/1024 contains 1 unique 1
+=== A6c_missing_ckpt  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: units missing: run incomplete
+    MERGE checkpoints 3 units 1445 selected 1445 missing 252 terms 1354206511
+    FINGERPRINT sum_units e277acce6c55b31b array e277acce6c55b31b match 1
+=== A6d_truncated  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: ckpt not terminated
+=== A7_m81  (merge m=81 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: merge command line does not match the checkpoints' PARAMS
+=== A7_T  (merge m=27 T=4831838206 Q=2167729337579528 sign=1)  exit=3
+    FATAL: merge command line does not match the checkpoints' PARAMS
+=== A7_Q  (merge m=27 T=4831838207 Q=2167729337579529 sign=1)  exit=3
+    FATAL: gcd(Q, m) != 1
+=== A7_sign  (merge m=27 T=4831838207 Q=2167729337579528 sign=-1)  exit=3
+    FATAL: merge command line does not match the checkpoints' PARAMS
+=== A8_move_record  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=0
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+    COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+    CHUNK_DIGEST e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681
+    XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)
+    XB 1 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+    XB 2 plus [-60.000 +/- 4.85e-4] cand -61440/1024 contains 1 unique 1 minus [-16.000 +/- 4.45e-4] cand -16384/1024 contains 1 unique 1
+=== A9_params_UT  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=3
+    FATAL: ckpt PARAMS differ from this run (refusing to mix)
+=== A10_select_at_merge exit=3
+    FATAL: ACC_SELECT given but the checkpoints are a full (unselected) run
+=== A11_run_other_UT (run, UNIT_TERMS 4e8 into a 5e8 directory) exit=3
+    FATAL: ckpt PARAMS differ from this run (refusing to mix)
+=== A12_run_complete (rerun on a complete directory) exit=0  files: ckpt_g001_w00.bin ckpt_g001_w01.bin ckpt_g001_w02.bin ckpt_g001_w03.bin run.lock 
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1445, shard 0/1, already done 1445 in 4 checkpoints, generation 2, W 1
+    RUN done seconds 0.00
+=== A12_run_complete  (merge m=27 T=4831838207 Q=2167729337579528 sign=1)  exit=0
+    MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+    FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+    COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+    CHUNK_DIGEST e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681
+    XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)
+    XB 1 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+    XB 2 plus [-60.000 +/- 4.85e-4] cand -61440/1024 contains 1 unique 1 minus [-16.000 +/- 4.45e-4] cand -16384/1024 contains 1 unique 1
+=== A7_Q2 (merge Q+2, coprime to 27) exit=3
+    FATAL: merge command line does not match the checkpoints' PARAMS
+=== A7_curve (merge a4+1) exit=3
+    FATAL: merge command line does not match the checkpoints' PARAMS
+=== A7_SEGQ (merge SEGQ 2^25) exit=3
+    FATAL: merge command line does not match the checkpoints' PARAMS

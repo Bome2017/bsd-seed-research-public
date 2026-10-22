@@ -1,0 +1,10 @@
+  ***   at top-level: ...,Kl=matker(Bl[1]~)~,Rr=Kl*Ml);listput(Info,[l,
+  ***                                             ^---------------------
+  *** _*_: inconsistent operation 'RgM_mul' t_MAT (0 x 0) , t_MAT (1 x 15).
+... skipping file 'stage4_local.gp'
+  ***   at top-level: if(Rows*AC!=0*(Rows*AC),error("local screens r
+  ***                        ^---------------------------------------
+  *** _*_: inconsistent operation 'RgM_mul' t_MAT (0 x 0) , t_MAT (15 x 4).
+  ***   at top-level: ...MIFIED_DIM=",#matker(Rows*H0),"; LOCAL_UNIT_DI
+  ***                                             ^---------------------
+  *** _*_: inconsistent operation 'RgM_mul' t_MAT (0 x 0) , t_MAT (15 x 6).

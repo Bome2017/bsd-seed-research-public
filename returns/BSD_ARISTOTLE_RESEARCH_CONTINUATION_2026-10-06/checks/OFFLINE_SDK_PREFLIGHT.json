@@ -1,0 +1,60 @@
+{
+  "transport": "MOCKED_LOCAL_CAPTURE_NO_NETWORK",
+  "request_body": {
+    "prompt": "Read the root TASK.md, WHAT_WE_LEARNED.md and CONSTRUCTION_WORK.md. Continue mathematical research toward the fixed BSD seed from the accepted BFR review and complete retained reading set. Develop an actual arithmetic control mechanism; use useful partial results to continue it. Do not spend this run re-proving BFR or merely formalizing more local coverage.",
+    "agent_questions_setting": 1
+  },
+  "upload_name": "BSD_ARISTOTLE_CONTINUATION_2026-10-06.tar.gz",
+  "payload_bytes": 66232668,
+  "payload_sha256": "fe2043071bbd2209a20b5acaeb587e79e72b781b25c5fa0696996748b93ef839",
+  "sdk_limit_bytes": 104857600,
+  "all_project_files_in_sdk_payload": true,
+  "files_verified": 27,
+  "source_file_sha256": {
+    "CONSTRUCTION_WORK.md": "75a7d618d355489f454ad221e6332eeb6c6f2c846fe469428de0d384ab22bf05",
+    "SUBMIT_COMMAND.txt": "c8be64f7662c64a3d3f3c88a22c8df033a959e2275ed342743284ef48411de4e",
+    "MANIFEST.sha256": "cb510ccdf1d4192d09b20a3864dbf72e86ce38bb907cca06594db8f7cfa44a1c",
+    "LATEST_REVIEW_BINDING.json": "6947ac8fbbdc927067cf34a1a9ef92f61796a14141def25a34ee2e0a788885b4",
+    "prepare_reference.py": "ebf8a3b580141ba8c29af350d25ac85f6e81589d95a515ddb00a06b62f156327",
+    "SUBMISSION_PROMPT.txt": "85cc2916a589f797ce6a4aa76f3d316a2bdf9cb6ea9ceca652d890d5190fa692",
+    "BSD_SEED_RESEARCH_MAP.md": "3abbb760ad6c1bab2805609d9b5a0758530d54dcc0b87a696847d5ef3d090bcd",
+    "HISTORICAL_STOPS_AND_CORRECTIONS.md": "8aefa608256599fb57895568ab65553b928dbb4a020f7354c053da4eea0d397c",
+    "README_ARISTOTLE.md": "419607e6f164b441ccf375e46f0afdecfe7958a1b21b93fc67736609e6a0f8d4",
+    "READING_SET_BINDING.json": "8164493ad0175ec90ac3860498f0d038cc22c3db11a50315bc963ce66fe6c313",
+    "CONTINUATION_BINDING.json": "b4e24203b640dff445c2dff68d229376e67d180f9066e88553155b82a0263dcd",
+    "FULL_COMPENDIUM.md": "a7d5db63eae00fb9433fa2276e7a9f876c0c32cbd4d99fb2e9d887f14a6d3a97",
+    "TASK.md": "f4c5e4558df869a97dfd6b3dda60ae797fb541cac3550760364e2b06579a704e",
+    "WHAT_WE_LEARNED.md": "09d907ec0535962892098ee85b3f8023808295715b5847d74b2024a7e1250aeb",
+    "prepare_latest_review.py": "b0ec6e182ff2ccf9294ad8d134239fab95610e1210a87287766ce0dd71888a33",
+    "full_record_index/BULK_BINARY_RECEIPTS.jsonl.gz": "b5f827ed6dce14f8186abe5594df949f975fc6bf188cf20a23f106959f3a0ce6",
+    "full_record_index/EXPIRED_UPLOAD_RECOVERY.json": "8d21138c0d59aa28d9e5ac25eefdd236f95398dc5d9de407c8b4bbe61d562f4a",
+    "full_record_index/CAPTURE.jsonl.gz": "a144a8e1acf7619e11cc1603578639c18326b988e111e6a0a6ec2b27270d432f",
+    "full_record_index/COVERAGE.md": "d9fa545170f7677aaada9d75478902f0e62172bc5376abf10bfb60c9f659fdf5",
+    "full_record_index/FILE_INVENTORY.jsonl.gz": "1cfb4c91894de0646467d1cf293c2f56559269714dfd7f22ed7bd456a0c5a2f7",
+    "full_record_index/COMPENDIUM_CITATIONS.json.gz": "c978a3c9dea425546a4204b91b65b66fe346079f9039c3c556146b70833f3b4f",
+    "historical_task/SUBMIT_COMMAND.txt": "adc60c2d3db622ad3b0f653fd147bb9722a0d50bce2dce49b811b99b18d4dbeb",
+    "historical_task/MANIFEST.sha256": "582f9b4f7d86cc6dbba78314a0295d15808f1b4329bb51de02edf4493ffbe3dd",
+    "historical_task/README_ARISTOTLE.md": "d1f4cdcf7e437aad27584f9e6a56c8b3ff8a9f631c1b52e7baa2c1203489d3aa",
+    "historical_task/TASK.md": "d315d972df514020f7fe6dc8a059a6e3a144766e991b115bc26fe394aa67c96d",
+    "payload/COMPLETE_READING_SET.zip": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27",
+    "payload/BFR_REVIEW.zip": "5b866e2c3826b2ca5455170972caaf2677af5fb8c86452cb129cfbc606928e3c"
+  },
+  "oversize_rejection_control": "File /var/folders/kp/6_xhp0jd2bngj728lwbzkl7w0000gn/T/tmp4os6a8aw/synthetic_oversize.bin is too large (104857601 bytes). Maximum allowed size is 104857600 bytes.",
+  "reading_set_extraction": {
+    "status": "READING_SET_VERIFIED",
+    "members_checked": 5180,
+    "path": "temporary offline extraction; original files unchanged"
+  },
+  "sdk_distribution": {
+    "version": "2.1.0",
+    "author": "Harmonic",
+    "filename": "aristotlelib-2.1.0-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/c5/63/1d25b34c331deee0e667881f81b5760d4d9c10f4f787cb8c6e0992ed5c16/aristotlelib-2.1.0-py3-none-any.whl",
+    "sha256": "f290c8e0b74b15b5b5b432db6dd7915adc8f49fe83efef0fd2f2ea53b5c33555"
+  },
+  "status": "OFFLINE_SDK_PACKAGING_AND_READING_SET_VERIFIED",
+  "server_submission": false,
+  "real_project_created": false,
+  "server_acceptance_or_quota_tested": false,
+  "mathematical_proof_verified_by_this_check": false
+}

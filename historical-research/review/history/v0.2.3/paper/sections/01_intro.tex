@@ -1,0 +1,96 @@
+\section{Introduction}\label{sec:intro}
+
+\subsection{The curve}
+Let
+\[
+E\colon y^2=x^3-22735x^2+106272484x,\qquad N=2^3\cdot3\cdot2243\cdot4547^2\cdot5843=6503188012738584 .
+\]
+The curve arises in a family studied by Zywina \cite{zywina}. It has rational $2$-torsion, root number $+1$, and a Mordell--Weil group of rank two with an explicit basis. Its Birch--Swinnerton-Dyer quotient is certified to lie within $0.006$ of $36$.
+
+This paper does three things for $E$:
+\begin{itemize}[leftmargin=*]
+\item it collects what is proved about the Birch--Swinnerton-Dyer (BSD) conjecture;
+\item it states the conditional criteria that have been established;
+\item it states precisely what remains open.
+\end{itemize}
+We call $E$ a \emph{candidate seed} only informally. No statement below should be read as more than its stated grade.
+
+\subsection{What is proved}
+Write $\Sha=\Sha(E/\Q)$, $\Reg$ for the N\'eron--Tate regulator of the basis in Theorem~\ref{thm:mw}, $\Omega_E=2\omega_1$ for the full real period, and
+\[
+q=\frac{L''(E,1)}{2\,\Omega_E\Reg}.
+\]
+
+\begin{theorem}[Rank and the BSD quotient]\label{thm:A}
+\begin{enumerate}[label=(\roman*)]
+\item $E(\Q)=\langle(0,0)\rangle\oplus\Z P_1\oplus\Z P_2$ with $P_1=(4547,327384)$ and $P_2=(5184,281520)$.
+\item $\ord_{s=1}L(E,s)=2=\rank E(\Q)$.
+\item $35.99427<q<36.00573$.
+\item Full BSD for $E$ holds if and only if $\Sha$ is finite of order $9$ and $q=36$.
+\end{enumerate}
+\end{theorem}
+
+Part (i) combines Zywina's family theorem \cite{zywina} with the separate global saturation certificate and its replay. Part (ii) combines a rigorous interval certificate for $L''(E,1)$ with standard results. Part (iii) combines that certificate with a certified regulator. Part (iv) is elementary. See Theorems~\ref{thm:mw}--\ref{thm:endpoint}.
+
+\begin{theorem}[Primary components]\label{thm:B}
+$\Sha[2^\infty]=\Sha[5^\infty]=\Sha[7^\infty]=\Sha[11^\infty]=\Sha[13^\infty]=0$ and $\Sha[3^\infty]\simeq(\Z/3)^2$.
+\end{theorem}
+
+These computer-assisted claims retain the explicit symbol-lattice proof, coefficient-verifier and custody qualifications in Appendices~\ref{app:latticeproof} and~\ref{app:verifierproof}; the $13$-primary status-file discrepancy is not suppressed. The components at $3,5,7,11,13$ come from certified depth-two (at $3$, depth-four) Mazur--Tate coefficients. They combine with Kato's divisibility at the good ordinary primes and with Skinner's multiplicative main-conjecture theorem at $3$. See \S\ref{sec:primary}. The proof at $3$ imports Skinner's Theorem~A as published; the internal provenance of one normalization step in its good-ordinary input is recorded as open (Remark~\ref{rem:su}).
+
+\subsection{What is proved conditionally}
+\begin{theorem}[Forward bridges; conditional]\label{thm:C}
+For every prime $p\ge5$ of good reduction with $p\nmid 7N$ there is an explicit anticyclotomic quantity $M_2(p)\in\F_p$, built from Gross points of conductor $p^2$ over $\Q(\sqrt{-7})$, such that
+\[
+M_2(p)\neq0\quad\Longrightarrow\quad \Sha[p^\infty]=0 .
+\]
+\end{theorem}
+The supersingular case has a written proof whose algebraic core is checked in Lean~4. The ordinary case has two written proofs. No prime is settled by Theorem~\ref{thm:C}: nonvanishing of $M_2(p)$ is open at every prime, and we know of no method to evaluate it on this curve (Remark~\ref{rem:m2cost}).
+
+\begin{theorem}[The split multiplicative prime $2243$; conditional]\label{thm:D}
+There is an explicit integer $K$, a weighted sum of plus modular symbols at the cusps $b/2243^2$, such that $K\not\equiv0\pmod{2243}$ implies $\Sha[2243^\infty]=0$. Its theoretical inputs are supplied at the source-import and computation grades listed in \S\ref{sec:badprimes}. The coefficient has not been computed; its cost is about $10^5$ core-hours. A zero value would prove nothing.
+\end{theorem}
+
+\subsection{What remains}
+Full BSD for $E$ is equivalent to three open statements (Theorem~\ref{thm:A}(iv)):
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{FIN}: $\Sha$ is finite;
+\item \textbf{ORDER9}: its order is $9$;
+\item \textbf{Q36}: $q=36$.
+\end{enumerate}
+Given FIN, the settled components force $\#\Sha=9t^2$ with $\gcd(t,30030)=1$, so the next possible order is $2601$. The unsettled primes fall into three regimes:
+\begin{itemize}[leftmargin=*]
+\item the good ordinary primes $p\ge17$;
+\item the good supersingular primes $23,29,131,\dots$, of which there are infinitely many;
+\item the three bad primes $2243$, $4547$, $5843$.
+\end{itemize}
+Section~\ref{sec:remaining} states these obligations with quantifiers and describes the structure of the problem as the whole record shows it.
+
+\subsection{How to read the grades}\label{subsec:grades}
+The principal claims carry identifiers in typewriter type, for example \cid{R.3}. The identifier points to the entry in \path{claims/CLAIM_INDEX.md} of the accompanying repository, which lists:
+\begin{itemize}[leftmargin=*]
+\item the exact supporting artifacts, with SHA-256 hashes;
+\item the imported theorems, and how closely they were checked at their sources;
+\item the normalization;
+\item what has been replayed or reviewed;
+\item every qualification.
+\end{itemize}
+We use the following grades, and never merge them:
+\begin{itemize}[leftmargin=*]
+\item \grade{published theorem, applied}: we apply a published result; the index records whether its statement was checked at the source.
+\item \grade{preprint theorem, applied}: the same, for an unrefereed preprint.
+\item \grade{written proof}: an argument given here or in the cited records, possibly combining imported results.
+\item \grade{computer-assisted}: a certificate with rigorous error control (interval arithmetic or exact arithmetic), with a stated trust base.
+\item \grade{Lean-checked}: a deduction checked by Lean~4 from hypotheses that are listed and are not themselves formalized.
+\item \grade{conditional}: an implication whose antecedent is not established. Such an antecedent is a \emph{sufficient witness}, never an obligation: its failure proves nothing.
+\end{itemize}
+
+\textbf{No statement in this paper has yet received independent human review.} Several statements were reviewed by automated (language-model) reviewers, in some cases of a different model family from the author's tools; the index records which. Stopped research routes are graded separately (Appendix~\ref{app:grades}). A \emph{proved obstruction} is a theorem about an explicitly delimited class; an \emph{unaffordable} route is a budget decision; an \emph{unsuccessful attempt} claims nothing.
+
+\subsection{What is new}
+The release separates four kinds of contribution. First, the rank and fixed-prime conclusions apply existing descent and Iwasawa methods to this high-conductor curve; rank-two primary computations are not a new methodology by themselves. Second, the numerical contribution is the curve-specific certificate implementation and its explicit, reviewable trust chain. Third, the equivariant deduction in Appendix~\ref{app:a3proof} is proposed mathematical work built on BLV's arithmetic inputs; its novelty has not been independently established. Fourth, the archived equivalences and stopped constructions document limits of the methods examined and are not evidence that every route in those broad subjects fails.
+
+The curve offers an explicit rank-two basis, nontrivial $3$-primary Sha, both multiplicative types and an additive potentially supersingular prime. These make its comparison of local regimes concrete. Its high conductor is also a serious computational disadvantage, not evidence by itself that mass computation will close BSD. Whether these features make it a useful research seed is left for mathematical assessment.
+
+\subsection{Organization}
+\S\ref{sec:curve} fixes the curve. \S\ref{sec:rank} proves Theorem~\ref{thm:A}. \S\ref{sec:primary} proves Theorem~\ref{thm:B}. \S\ref{sec:scalar} records the exact endgame for $q$. \S\ref{sec:twists} certifies two quadratic twists. \S\S\ref{sec:goodprimes}--\ref{sec:badprimes} give the conditional criteria. \S\ref{sec:reductions} records equivalences. \S\ref{sec:obstructions} records obstructions. \S\ref{sec:remaining} states what remains. The appendices describe the grades, the computations and their trust base, the full lattice and A3 arguments and the computational custody chain. Historical source sections and unrelated-curve records remain in the repository, outside the main PDF.

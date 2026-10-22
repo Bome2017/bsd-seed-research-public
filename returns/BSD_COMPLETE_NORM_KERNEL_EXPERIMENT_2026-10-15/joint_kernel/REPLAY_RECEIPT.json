@@ -1,0 +1,31 @@
+{
+  "status": "ISOLATED_JOINT_KERNEL_REPLAY_PASS",
+  "outputs": [
+    {
+      "path": "KERNEL_RESULTS.json",
+      "sha256": "5117fbd8eff72c011dcc026bf4f3d16837f39a782b72e6f2f83c3646f2e5ffbf",
+      "byte_identical": true
+    },
+    {
+      "path": "ADMISSION_FILTRATION.json",
+      "sha256": "e6b7c15f63a97a6a01a29a7f166cc06cd7414a594d4241b0e55afc0e99cefe77",
+      "byte_identical": true
+    },
+    {
+      "path": "HOLDOUT_COMPARISON.json",
+      "sha256": "574060574f7c25cda7319a6dfbe6a5dd8a35aee654661adab3c44b3c6de58d8a",
+      "byte_identical": true
+    },
+    {
+      "path": "433_COMMON_REPAIR.json",
+      "sha256": "fa197b651ae13b82e9d24d001a47b8ce0f70ff781754c973f24864e6785bbf47",
+      "byte_identical": true
+    },
+    {
+      "path": "FRESH_433_LITERAL_REPLAY.json",
+      "sha256": "36cb46c0c9056dbef638ea4333bb0d5a53363ed31b4a97046b2b10e369e919f4",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Full-source finite algebra, after-the-fact heldout comparison and624 literal433 evaluations. No upstream BNF, rank or norm-map rerun."
+}

@@ -1,0 +1,187 @@
+{
+  "prime": 2243,
+  "model": [
+    0,
+    -1,
+    0,
+    -66020924,
+    -65074271436
+  ],
+  "invariants": {
+    "c4": 3169004368,
+    "c6": 56243184546880,
+    "discriminant": 16586638656786071143743744,
+    "q_mod_p3": 4521378839,
+    "q_over_p_mod_p2": 2015773,
+    "log_q_over_p_mod_p": 1799,
+    "C_inverse_squared_mod_p": 610
+  },
+  "point_calculations": {
+    "P1": {
+      "R_x": "21915913/2304",
+      "R_y": "45261179675/110592",
+      "R_a": 21915913,
+      "R_b": 45261179675,
+      "R_d": 48,
+      "smooth_reductions": {
+        "2": "infinity (smooth)",
+        "3": "infinity (smooth)",
+        "2243": {
+          "x": 1721,
+          "y": 1043,
+          "Fx": 1582,
+          "Fy": 2086
+        },
+        "4547": {
+          "x": 2812,
+          "y": 3361,
+          "Fx": 772,
+          "Fy": 2175
+        },
+        "5843": {
+          "x": 4189,
+          "y": 718,
+          "Fx": 174,
+          "Fy": 1436
+        }
+      },
+      "n": 2242,
+      "m": 4484,
+      "precision_digits": 7,
+      "psi_n": 53199252234258652764439,
+      "psi_2n": 44071648879570977241665,
+      "v_psi_n": 1,
+      "v_psi_2n": 1,
+      "phi_n": 237677011678048151758168,
+      "quotient_precision_digits": 6,
+      "U_mod_p2": 206355,
+      "t_mod_p2": 2063560,
+      "log_U_over_p_mod_p": 2151,
+      "uncorrected_mP_height_over_p": 2059,
+      "Tate_correction_mP_over_p": 280,
+      "height_P_over_p_mod_p": 2127,
+      "division_polynomial_cache": {
+        "hits": 243,
+        "misses": 73,
+        "maxsize": null,
+        "currsize": 73
+      }
+    },
+    "P2": {
+      "R_x": "243863107564849/19813377600",
+      "R_y": "2770308703880628849143/2788931030976000",
+      "R_a": 243863107564849,
+      "R_b": 2770308703880628849143,
+      "R_d": 140760,
+      "smooth_reductions": {
+        "2": "infinity (smooth)",
+        "3": "infinity (smooth)",
+        "2243": {
+          "x": 441,
+          "y": 1216,
+          "Fx": 1162,
+          "Fy": 189
+        },
+        "4547": {
+          "x": 2812,
+          "y": 3361,
+          "Fx": 772,
+          "Fy": 2175
+        },
+        "5843": {
+          "x": 4684,
+          "y": 4203,
+          "Fx": 5467,
+          "Fy": 2563
+        }
+      },
+      "n": 2242,
+      "m": 4484,
+      "precision_digits": 7,
+      "psi_n": 114209028703066210324895,
+      "psi_2n": 173505182462802218581574,
+      "v_psi_n": 1,
+      "v_psi_2n": 1,
+      "phi_n": 212718374504372203673036,
+      "quotient_precision_digits": 6,
+      "U_mod_p2": 2402252,
+      "t_mod_p2": 2599637,
+      "log_U_over_p_mod_p": 1172,
+      "uncorrected_mP_height_over_p": 101,
+      "Tate_correction_mP_over_p": 1531,
+      "height_P_over_p_mod_p": 764,
+      "division_polynomial_cache": {
+        "hits": 243,
+        "misses": 73,
+        "maxsize": null,
+        "currsize": 73
+      }
+    },
+    "P1_plus_P2": {
+      "R_x": "12568297/576",
+      "R_y": "-41200602155/13824",
+      "R_a": 12568297,
+      "R_b": -41200602155,
+      "R_d": 24,
+      "smooth_reductions": {
+        "2": "infinity (smooth)",
+        "3": "infinity (smooth)",
+        "2243": {
+          "x": 749,
+          "y": 599,
+          "Fx": 1036,
+          "Fy": 1198
+        },
+        "4547": {
+          "x": 1840,
+          "y": 3262,
+          "Fx": 1185,
+          "Fy": 1977
+        },
+        "5843": {
+          "x": 3449,
+          "y": 4787,
+          "Fx": 1680,
+          "Fy": 3731
+        }
+      },
+      "n": 2242,
+      "m": 4484,
+      "precision_digits": 7,
+      "psi_n": 75890708365885277184650,
+      "psi_2n": 34917303746316245551305,
+      "v_psi_n": 1,
+      "v_psi_2n": 1,
+      "phi_n": 123398807683677809851876,
+      "quotient_precision_digits": 6,
+      "U_mod_p2": 2675898,
+      "t_mod_p2": 4663197,
+      "log_U_over_p_mod_p": 1050,
+      "uncorrected_mP_height_over_p": 2100,
+      "Tate_correction_mP_over_p": 371,
+      "height_P_over_p_mod_p": 993,
+      "division_polynomial_cache": {
+        "hits": 243,
+        "misses": 73,
+        "maxsize": null,
+        "currsize": 73
+      }
+    }
+  },
+  "height_matrix_divided_by_p_mod_p": [
+    [
+      2127,
+      1294
+    ],
+    [
+      1294,
+      764
+    ]
+  ],
+  "determinant_divided_by_p2_mod_p": 2181,
+  "regulator_valuation": 2,
+  "normalized_Reg_gamma_mod_p": 2181,
+  "method": "Independent division-polynomial global denominator plus low-precision Bernardi/Tate correction; standard-library exact integers only",
+  "wall_seconds": 0.0010790089999999988,
+  "peak_RSS_bytes": 10694656
+}

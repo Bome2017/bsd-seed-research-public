@@ -1,0 +1,1 @@
+{alarm(20);gettime();B=read("bnf.bin");if(B.pol!=read("field.gp")[4],error("bnf field mismatch"));FU=bnfunits(B);write("units_compact.gp",FU);print("UNITS_COMPACT_SAVED;NGENERATORS=",#FU[1],";CLASS=",B.cyc,";MS=",gettime());quit;}

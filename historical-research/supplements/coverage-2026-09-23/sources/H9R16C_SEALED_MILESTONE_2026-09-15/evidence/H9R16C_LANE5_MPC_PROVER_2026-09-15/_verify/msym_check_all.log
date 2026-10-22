@@ -1,0 +1,130 @@
+=== case N_g=2, p=3, r=2: levels M=18 -> pM=54, prime=1000003
+  Manin symbols: 108 / 972;  dim MS(M)=19, dim MS(pM)=163
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_2 varpi_(1,*) = A_3 N_(3, 2)   [MPC_2, d_r = 1] PASS
+         rank(LHS) = 15, rank(RHS) = 15, dim MS(M) = 19
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=2, p=3, r=2: levels M=18 -> pM=54, prime=999983
+  Manin symbols: 108 / 972;  dim MS(M)=19, dim MS(pM)=163
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_2 varpi_(1,*) = A_3 N_(3, 2)   [MPC_2, d_r = 1] PASS
+         rank(LHS) = 15, rank(RHS) = 15, dim MS(M) = 19
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=7, p=2, r=1: levels M=14 -> pM=28, prime=1000003
+  Manin symbols: 72 / 288;  dim MS(M)=13, dim MS(pM)=49
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_1 varpi_(1,*) = A_2 N_(2, 1)   [MPC_1, d_r = 1] PASS
+         rank(LHS) = 13, rank(RHS) = 13, dim MS(M) = 13
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=7, p=2, r=1: levels M=14 -> pM=28, prime=999983
+  Manin symbols: 72 / 288;  dim MS(M)=13, dim MS(pM)=49
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_1 varpi_(1,*) = A_2 N_(2, 1)   [MPC_1, d_r = 1] PASS
+         rank(LHS) = 13, rank(RHS) = 13, dim MS(M) = 13
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=3, p=2, r=2: levels M=12 -> pM=24, prime=1000003
+  Manin symbols: 48 / 192;  dim MS(M)=9, dim MS(pM)=33
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_2 varpi_(1,*) = A_3 N_(3, 2)   [MPC_2, d_r = 1] PASS
+         rank(LHS) = 7, rank(RHS) = 7, dim MS(M) = 9
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=3, p=2, r=2: levels M=12 -> pM=24, prime=999983
+  Manin symbols: 48 / 192;  dim MS(M)=9, dim MS(pM)=33
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_2 varpi_(1,*) = A_3 N_(3, 2)   [MPC_2, d_r = 1] PASS
+         rank(LHS) = 7, rank(RHS) = 7, dim MS(M) = 9
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=4, p=5, r=1: levels M=20 -> pM=100, prime=1000003
+  Manin symbols: 144 / 3600;  dim MS(M)=25, dim MS(pM)=601
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_1 varpi_(1,*) = A_2 N_(2, 1)   [MPC_1, d_r = 1] PASS
+         rank(LHS) = 25, rank(RHS) = 25, dim MS(M) = 25
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=4, p=5, r=1: levels M=20 -> pM=100, prime=999983
+  Manin symbols: 144 / 3600;  dim MS(M)=25, dim MS(pM)=601
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS[killed pure-Python run after (4,5,1) prime 1 completed; (4,5,1) rerun with both primes below via numpy variant]

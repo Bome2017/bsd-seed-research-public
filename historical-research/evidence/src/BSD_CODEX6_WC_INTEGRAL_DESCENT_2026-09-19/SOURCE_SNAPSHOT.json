@@ -1,0 +1,246 @@
+{
+  "captured_utc": "2026-09-19T17:18:26.719840+00:00",
+  "scope": "Exact source identities at finalization, with actual reading scope; hashes are not theorem verification. Predecessor manifest separately checked.",
+  "entries": [
+    {
+      "id": "S01",
+      "path": "/Users/bsm/.codex/attachments/c49c20e2-f0c1-450b-9a55-ca6b41d3636f/Pasted text.txt",
+      "sha256": "9246a6e4a1e369e7340f9ed7ff29322aa58beb843f8e70c341af5ff2cfd9268c",
+      "bytes": 13899,
+      "scope": "Current user mandate; read in full",
+      "anchor_line": 1
+    },
+    {
+      "id": "S02",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/00_VERDICT.md",
+      "sha256": "41611609b1cb8537aae9a1dd16e6618d30274b582cd88802ab379b55eb1dfeaa",
+      "bytes": 8793,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S03",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/WITNESS_CONTENT_THEOREM.md",
+      "sha256": "556ecfa56f87f4497cdc7f2e25db3ec6a5431b2a70393ccbb80ea96fc085738e",
+      "bytes": 8480,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S04",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/FIN_ATTACK.md",
+      "sha256": "0fb5b18c5c773978dff0770c1e04178860d0f12ac619e132b71b7bdb3e681dfc",
+      "bytes": 7238,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S05",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/NEW_THEOREM_DAG.md",
+      "sha256": "810b5f5f7ec3da00de596f9a944b69b47655c52c713d0ce160db49a413f8a74f",
+      "bytes": 5550,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S06",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/COMMON_OBJECT_ANALYSIS.md",
+      "sha256": "8b7c91a24d0450699953447c58ab58e7dd0c522d9739698011e5c70a0d842387",
+      "bytes": 4161,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S07",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/DO_NOT_RESURRECT_ADDENDUM.md",
+      "sha256": "1f18ad4173268857aaa139e6111b28cb8ecf99efa4435edfbc043fad030f3aaf",
+      "bytes": 3269,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S08",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/SOURCE_INDEX.md",
+      "sha256": "93f78e4fba6e73ad9c1fead0cac2d780998e8499af87a9885ec5f287c2d19fdb",
+      "bytes": 21057,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S09",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/STATE.json",
+      "sha256": "bcbd7882eb7095271c67053f6ceace29455f5b688fa25aa7d45377766917c98c",
+      "bytes": 2470,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S10",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/RESUME.md",
+      "sha256": "9bba5642d2786ad60278cc52c68483557e27c7b4687b3752e672560b31d2b026",
+      "bytes": 1801,
+      "scope": "Required predecessor reading and carryforward; computations not replayed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S11",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/WHOLE_MAP_RECONCILIATION.md",
+      "sha256": "b44286bcf16c7177d89dedae80f2f8e8d261f8885257dd4c03ca366fddd717ff",
+      "bytes": 9378,
+      "scope": "Bounded older-object conclusions read; historical archives not reopened",
+      "anchor_line": 1
+    },
+    {
+      "id": "S12",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/ALGEBRAIC_REDUCTION_LEMMAS.md",
+      "sha256": "8dcd44af28fef1648a0a0e37085eda632f80bca2aa214585df6935c797d3f8b6",
+      "bytes": 7664,
+      "scope": "Lemmas D/E read exactly; other established reductions carried from predecessor",
+      "anchor_line": 46
+    },
+    {
+      "id": "S13",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/FORMULA_ATTACK.md",
+      "sha256": "d5098589066dda8d371d23640d21e5b095ceac6af57d1021c15f5adfce0d47d3",
+      "bytes": 9204,
+      "scope": "Opening numerical/certificate distinctions read; no new analytic computation",
+      "anchor_line": 1
+    },
+    {
+      "id": "S14",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/REGULATOR_CERTIFICATE.md",
+      "sha256": "182bf46ded79383ef3912c19def8fd89de28b73608d8faf12deb088ffdc52145",
+      "bytes": 7122,
+      "scope": "Inherited certificate pointer; identity checked by predecessor manifest, not rerun in this session",
+      "anchor_line": 1
+    },
+    {
+      "id": "S15",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/REGULATOR_INTERVAL_100D_30.json",
+      "sha256": "eaaf833f7e92ca78aa75003e8e2eaedab4cfddfa875983f808e6db19746e93a4",
+      "bytes": 4166,
+      "scope": "Inherited certificate pointer; identity checked by predecessor manifest, not rerun in this session",
+      "anchor_line": 1
+    },
+    {
+      "id": "S16",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/REPLAY_VERIFICATION.json",
+      "sha256": "f1ccb5ba767655a9240b0a8f27c20c95f621df79ffa548f535079b33d914c692",
+      "bytes": 2041,
+      "scope": "Inherited certificate pointer; identity checked by predecessor manifest, not rerun in this session",
+      "anchor_line": 1
+    },
+    {
+      "id": "S17",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/verify_regulator.py",
+      "sha256": "6e53a287a4804e3bc09b3dae8749c64f7f2ce0e5a3cf8c94cce2c1c7711aefcd",
+      "bytes": 7395,
+      "scope": "Inherited certificate pointer; identity checked by predecessor manifest, not rerun in this session",
+      "anchor_line": 1
+    },
+    {
+      "id": "S18",
+      "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/MANIFEST.sha256",
+      "sha256": "29997d2337802a45c8b3a1237894177c980445ff2289bf900a03d10422ca19bb",
+      "bytes": 2388,
+      "scope": "27/27 entries checked at start and finalization",
+      "anchor_line": 1
+    },
+    {
+      "id": "S19",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/FIN_FRONTIER.md",
+      "sha256": "60b82cd136fc082ec33c816ef0e7275d9cd36de9e962c7f26155b0cd65511ada",
+      "bytes": 13530,
+      "scope": "Ordinary converse pointer located; direct Kim/Castella-Sano sources govern",
+      "anchor_line": 9
+    },
+    {
+      "id": "S20",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_LARGE_P_SHA_HUNT.md",
+      "sha256": "f04a1b3f0cb229ea967ab52d60bd95df98d019a0958dee7baf642237d2d479df",
+      "bytes": 47246,
+      "scope": "Selected exact ordinary converse row and hypotheses; no broad literature audit",
+      "anchor_line": 73
+    },
+    {
+      "id": "S21",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/D/ota_1509.00682.txt",
+      "sha256": "4bb177618ed9fded191bb06b59653767df0d9a58a00cd1d37fe7b1204b976f51",
+      "bytes": 140153,
+      "scope": "Primary arXiv v1; selected definitions and proofs at lines 30-76,172-335,405-482,958-978,1380-1474,1648-1993,2060-2244",
+      "anchor_line": 184
+    },
+    {
+      "id": "S22",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/D/kim_2203.12159.txt",
+      "sha256": "358469b220d6bc95767de485ae330cea9e5adb5b82ce7917d20ef190e36a5c90",
+      "bytes": 157065,
+      "scope": "Primary arXiv v6; lines 150-189,235-430,437-471,675-789,1104-1130,1643-1698,1897-1965",
+      "anchor_line": 446
+    },
+    {
+      "id": "S23",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/C/CastellaSano_2601.14504.txt",
+      "sha256": "0cc82d8ce84c48e4161953d5cae1e8b262a853a4d3698dce6553ad00050211bf",
+      "bytes": 99243,
+      "scope": "Primary arXiv v1 preprint; definitions/Theorem B 42-183 and selected Kato/rigidity 335-410,471-507",
+      "anchor_line": 173
+    },
+    {
+      "id": "S24",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/C/BKS_1910.07404.txt",
+      "sha256": "e8218aa90c874b551e2a4abb358eb8938da4b7fe3dd95ab8a2fc6bfc12f1c8be",
+      "bytes": 191733,
+      "scope": "Primary proof of Theorem 4.3 / complex at lines 1075-1130; broader post-FIN restrictions carried from predecessor",
+      "anchor_line": 1108
+    },
+    {
+      "id": "S25",
+      "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/00_REPORT.md",
+      "sha256": "6a29866d31fe08f7dd5c686066c9eb97397657be0a40d52c03c9798d322415ee",
+      "bytes": 13324,
+      "scope": "Opening 110 lines; Manin/isogeny imports retained, no old Lean rebuild",
+      "anchor_line": 1
+    },
+    {
+      "id": "S26",
+      "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/LANE2_REPORT.md",
+      "sha256": "277eba753f7b541a6390420b1cd31837647bcee9bce3f657962140e3944369e4",
+      "bytes": 13867,
+      "scope": "Opening 135 lines including adopted regulator/one-bit conclusion",
+      "anchor_line": 1
+    },
+    {
+      "id": "S27",
+      "path": "/Users/bsm/H9R16C_SEALED_MILESTONE_2026-09-15/05_NON_CLAIMS.md",
+      "sha256": "ffa0331cc920add596b113392f8f8ad3cb1443508514a399d7456f15da520fb1",
+      "bytes": 4156,
+      "scope": "Sealed receptacle and comparison limits; opening 80 lines",
+      "anchor_line": 1
+    },
+    {
+      "id": "S28",
+      "path": "/Users/bsm/H9R23_CORRESPONDENCE_NO_LIFT_HARDENING.md",
+      "sha256": "54936e56e4b2581fb77f4b777ae8f67d2764071bf14971b919d8a8e525413761",
+      "bytes": 11817,
+      "scope": "Opening 110 lines; exact saturated coefficient-lattice proof and scope",
+      "anchor_line": 1
+    },
+    {
+      "id": "S29",
+      "path": "/Users/bsm/H9R19_WEIGHTED_RECIPROCITY_2026-09-15/08_PROGRAM_STATUS_FREEZE.md",
+      "sha256": "7062cfd0c5fe2f212e29f7d3aa244b088f262e38bb5a189f996cd66cc4850685",
+      "bytes": 65302,
+      "scope": "Targeted headings and lines 79-106; later correction governs",
+      "anchor_line": 79
+    },
+    {
+      "id": "S30",
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/STATUS.md",
+      "sha256": "5f8e37bf0bfd1752150a44168cab5cef41ec114ebe7c88d189fa1528d48601a5",
+      "bytes": 1428,
+      "scope": "Qualification status read; no historical theorem replay",
+      "anchor_line": 1
+    }
+  ]
+}

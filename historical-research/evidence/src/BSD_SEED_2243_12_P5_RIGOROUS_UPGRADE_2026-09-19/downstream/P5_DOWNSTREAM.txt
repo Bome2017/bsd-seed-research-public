@@ -1,0 +1,29 @@
+a_5 (verified a_q file) = -2
+PASS symbol sets complete: 20 at m = 25, 4 at m = 5 (both signs)
+PASS symmetries [m-b]^+ = [b]^+ and [m-b]^- = -[b]^- (m = 25, 5)
+PASS all symbol denominators prime to 5 (c = 0 in SW Prop 3.5)
+PASS extra: every plus symbol lies in (1/512)Z (master N7 lattice (1/c_E)Z, c_E | 512)
+INFO all plus symbols integral: True
+PASS T_5 Hecke relation a_5[c/5] = sum_j [(c+5j)/25] + [0] for c = 1..4, both signs, with [0] = 0 (L(E,1) = 0)
+PASS T_5 at r = 0: sum_{c=1..4} [c/5]^+ = (a_5 - 2)[0]^+ = 0
+ROUTE_A six-symbol value 3([2]+[3]+[4]+[11]) + 4([9]+[12]) = 152  -> mod 5 = 2
+PASS alpha = unit root of x^2 - (-2)x + 5 mod 5^20; alpha mod 25 = 13 (gate: 13)
+PASS seed: alpha = 13 mod 25 (master certificate N6)
+PASS Teichmuller lifts mod 25 = [1, 7, 18, 24] (gate: 1, 7, 18, 24)
+PASS residues omega(a) 6^j (a = 1..4, j = 0..4) run over all 20 units mod 25
+ROUTE_B a_{2,0} = 0 (mod 5^20)
+ROUTE_B a_{2,1} = 23423269769395 (mod 5^20); ord_5 = 1
+ROUTE_B a_{2,2} = 75624204287282 (mod 5^20); mod 5 = 2; ord_5 = 0
+PASS a_{2,0} = 0 exactly (total mass (1 - 1/alpha)^2 [0]^+ = 0)
+PASS a_{2,1} = 0 mod 5 (a_1 = 0 since ord_T L_5 >= 2; SW Prop 3.5 e_{1,1} = 1)
+PASS route B a_{2,2} mod 5 = 2 equals route A (six-symbol) mod 5 = 2
+PASS the alpha^-3 [b/5]^+ contribution to a_{2,2} vanishes mod 5 (sum_j C(j,2) = 10): ord_5 = 20
+NORMALISATION omega_1 (symbols x_b = Re lambda_f(b/m)/omega_1, as computed; = master N6/N9 and LP5):  a_{2,2} mod 5 = 2
+NORMALISATION f-Neron (divide by Omega_E^+ = 2 omega_1, Delta > 0):                               a_{2,2} mod 5 = 1
+NORMALISATION SW with the curve parametrisation (factor c_E/2, c_E = 2^k | 512, k unknown):   residues for k = 0..9: [1, 2, 4, 3, 1, 2, 4, 3, 1, 2]
+=> every normalisation in play differs by a 5-adic unit (5 does not divide c_E); ord_5 a_{2,2} is normalisation-independent.
+PASS route C: all 20 rigorous [b/25]^+ equal the historical LP5 double-precision identifications (consistency only)
+PASS route C: six-symbol value 152 equals the historical LP5 value 152 (consistency only)
+RESULT a_{2,2} mod 5 = 2 (omega_1 normalisation); ord_5(a_2) = ord_5(a_{2,2} mod 5) = 0
+DOWNSTREAM_P5_PASS failures=0
+exit 0

@@ -1,0 +1,111 @@
+# Read-only recompile of the Lean files in the 10-06 Aristotle returns (Claude, Opus 5.5)
+toolchain: leanprover/lean4:v4.28.0; Mathlib 8f9d9cff prebuilt (read-only LEAN_PATH recipe: lean -R . -o build/X.olean X.lean)
+
+## Sources (sha256 of the file as received)
+650bab87daefdb3ecd43234142155f3911fe1283ccd9df5387512535634c5da3  69_4/output-final_aristotle/Coinvariant/Frontier.lean
+1c354f58c79da0474c644b1fa19846340d50a44a7c9aae79caa59e5a2dbe5cb1  69_4/output-final_aristotle/Coinvariant/DetectorRule.lean
+800e3379ed243d8ca5c105f4af95547f505f12b0b91af0476aec1dd462c1b72a  69_5/output-final_aristotle/Coinvariant/TameCarrier.lean
+63f16c7453ced54800944ae0239c1426601b9df72d7dc3437cc9d8e65b9f7506  69_6/Coinvariant/TameCircularity.lean
+4d8c9e22f66d2644cbb55369eb3acbd679cb73752e8235eb5dc5f8288f270a2d  69_7/output-final_aristotle/Coinvariant/TameLink.lean
+d51f3a598ea883ef76fb92c6408b054b3d1173c9f75711c503435ff9e6ea6e23  eb5/output-final_aristotle/RequestProject/Continuation/MiddleGround.lean
+b2dd6a13884d8654a2754a0bbd5089c7cc3ad3157877c844e50f8479e20c2e08  eb5/output-final_aristotle/RequestProject/Continuation/Frontier.lean
+8a63fcc74202bfd0ed2d0afc27fe9223b0f326b63cb011458dc05268179c8cfe  eb6/output-final_aristotle/RequestProject/Continuation/TamePointCounts.lean
+93216f6054ca04882f01c96fd361ca113777746b2631c6c2b308e049fbd41419  eb6/output-final_aristotle/RequestProject/Continuation/TameScalar.lean
+cb143c4c0d4aef75e2b17621cb32546b8fee4979dfb61b909501503b4b012f92  eb7/output-final_aristotle/RequestProject/Continuation/AuxiliaryPrime.lean
+
+## Compile results (exit status, wall time)
+Coinvariant/Frontier 0 70s; Coinvariant/DetectorRule 0 8s; Continuation/MiddleGround 0 12s; Continuation/Frontier 0 9s;
+Coinvariant/TameCarrier 0 70s; Continuation/TamePointCounts 0 144s (kernel decide); Continuation/TameScalar 0 13s;
+Coinvariant/TameCircularity 0 67s; Coinvariant/TameLink 0 67s (no warnings); Continuation/AuxiliaryPrime 0 45s. No errors in any module.
+
+## #print axioms for every theorem in the eight newest modules (one combined run)
+(The single 'Unknown constant TameCircularity.alone' line was an artifact of the extraction grep matching a docstring; there is no such theorem.)
+'Frontier.detector_architecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.false_alarms_harmless' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.alarms_subset_of_carrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.int_alarm_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.rat_alarm_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.exists_fixed_carrier_iff_finite_alarms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.per_prime_carrier_always_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.per_prime_carrier_useless' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.alarms_unit_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.tame_bad_prime_dvd_W' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.identity_vacuous_if_R_vanishes' depends on axioms: [propext, Quot.sound]
+'TameCarrier.tame_bad_primes_dvd_W' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.tame_tail_of_W_eq_288' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.W_eq_288_of_eq_eight_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.W_eq_288_of_small_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.denominator_22_not_enough' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.integer_pinned_by_nine_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.rational_pinned_by_nine_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCarrier.carrier_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.prime_dvd_card_of_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.circular_W_detects' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.circular_template_tautology' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.circular_W_eq_288_iff' depends on axioms: [propext, Quot.sound]
+'TameCircularity.circular_nine_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.det_one_sub_fin_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.trace_eq_two_iff_det_one_sub_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.trace_eq_two_iff_fixed_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.traceTwo_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.traceTwoCount_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.slTwoCount_eq' depends on axioms: [propext,
+ Classical.choice,
+ Lean.ofReduceBool,
+ Lean.trustCompiler,
+ Quot.sound]
+'TameCircularity.exists_nondegenerate_of_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.nondegenerate_forces_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameCircularity.degenerate_everywhere_of_bad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.dvd_x_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.bad_dvd_x' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.link_detects' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.link_iff_finite_alarms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.link_iff_fin_and_kato' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.x_eq_of_tame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.C2_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameLink.two_eighty_eight_ne_zero' depends on axioms: [propext, Quot.sound]
+'TameLink.nine_primes_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.detector_iff_certificate' depends on axioms: [propext]
+'Frontier.support_subset_zeroSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.support_finite_of_zeroSet_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.dvd_num_of_tameCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.support_subset_of_tameCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.support_finite_of_tameCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.primeFactors_288' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.support_subset_of_tameCarrier_288' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.support_subset_of_tame8q' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.support_subset_of_tame8q_36' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.dvd_of_valuationCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.support_subset_of_valuationCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.k288_reconstruction_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Frontier.not_anomalous_of_even_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameScalar.card_47' depends on axioms: [propext]
+'TameScalar.card_83' depends on axioms: [propext]
+'TameScalar.card_103' depends on axioms: [propext]
+'TameScalar.card_149' depends on axioms: [propext]
+'TameScalar.card_173' depends on axioms: [propext]
+'TameScalar.card_191' depends on axioms: [propext]
+'TameScalar.card_233' depends on axioms: [propext]
+'TameScalar.card_283' depends on axioms: [propext]
+'TameScalar.card_311' depends on axioms: [propext]
+'TameScalar.k288_rows_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameScalar.k288_rows_counts' depends on axioms: [propext]
+'TameScalar.k288_rows_primes' does not depend on any axioms
+'TameScalar.k288_modulus' depends on axioms: [propext]
+'TameScalar.eq_288_of_mem_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameScalar.eq_288_of_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameScalar.lattice_bound_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TameScalar.carrier_conclusion_of_sha_factor' depends on axioms: [propext]
+'AuxiliaryPrime.tameCarrier_of_law_of_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.support_subset_of_law_of_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.degenerate_of_shaNonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.sha_zero_of_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.support_subset_degenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.degenerate_subset_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.support_finite_iff_degenerate_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.support_subset_of_law_288' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.exists_sl2_trace_ne_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryPrime.card_trace_two_sl2' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Summary: 82 theorems; all use only {propext, Classical.choice, Quot.sound} or a subset, except TameCircularity.slTwoCount_eq (native_decide: Lean.ofReduceBool, Lean.trustCompiler), which states |SL2(F_p)| = p(p^2-1) for p = 5..47 and is not load-bearing.

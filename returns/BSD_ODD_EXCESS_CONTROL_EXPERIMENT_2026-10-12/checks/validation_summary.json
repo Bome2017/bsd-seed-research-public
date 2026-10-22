@@ -1,0 +1,12 @@
+{
+  "exact_python_checker": "passed",
+  "exact_gp_checker": "passed with DONE and empty stderr",
+  "numerator_n5_replay": "same VALUES, VALUATIONS, PRECISION as admitted n5 run",
+  "series_coefficient": "4*5^2+O(5^3)",
+  "invalid_numerator_attempts": [
+    "n8 at 256 MB: stack overflow",
+    "n6 at 1400 MB: stack overflow"
+  ],
+  "rank_upper_bound": "PARI ellrank [2,2]; not a formal proof certificate",
+  "classgroup_candidate": "bnfcertify returned 1; not needed in the final isogeny lower-bound proof"
+}

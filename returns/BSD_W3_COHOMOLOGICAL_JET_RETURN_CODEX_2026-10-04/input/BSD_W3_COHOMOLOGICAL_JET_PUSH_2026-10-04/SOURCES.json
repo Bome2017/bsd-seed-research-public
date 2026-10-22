@@ -1,0 +1,68 @@
+{
+  "project_commit": "1f402a60b6fb8f1002fe6a4211f33e5a713e0884",
+  "project_inputs": [
+    {
+      "file": "REPORT.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/1f402a60b6fb8f1002fe6a4211f33e5a713e0884/work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/REPORT.md",
+      "grade": "producer written derivation, read not independently fully certified here"
+    },
+    {
+      "file": "HANDOFF.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/1f402a60b6fb8f1002fe6a4211f33e5a713e0884/work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "grade": "producer written derivation, read not independently fully certified here"
+    },
+    {
+      "file": "COFINITE_HIDA_CONTROL.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/1f402a60b6fb8f1002fe6a4211f33e5a713e0884/work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/COFINITE_HIDA_CONTROL.md",
+      "grade": "producer written derivation, read not independently fully certified here"
+    },
+    {
+      "file": "INTEGRAL_EVALUATION.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/1f402a60b6fb8f1002fe6a4211f33e5a713e0884/work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/INTEGRAL_EVALUATION.md",
+      "grade": "producer written derivation, read not independently fully certified here"
+    },
+    {
+      "file": "SOURCE_UNIT_REPAIR.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/1f402a60b6fb8f1002fe6a4211f33e5a713e0884/work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/SOURCE_UNIT_REPAIR.md",
+      "grade": "producer written derivation, read not independently fully certified here"
+    },
+    {
+      "file": "DE_RHAM_TRANSPORT.md",
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/1f402a60b6fb8f1002fe6a4211f33e5a713e0884/work/returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/DE_RHAM_TRANSPORT.md",
+      "grade": "producer written derivation, read not independently fully certified here"
+    }
+  ],
+  "retained_index": {
+    "url": "https://github.com/Bome2017/bsd-seed-research/blob/9ebaca3b80adfd4a18e77eebe23c9db3bc201448/supplements/status-2026-10-04/records/weight-three-index/VERIFIED_DERIVATION.md",
+    "read": "Sections 5-7, especially the dimension bound and index definition",
+    "grade": "retained/imported-theorem grade, not new proof here"
+  },
+  "public_sources": [
+    {
+      "name": "Kings--Loeffler--Zerbes, Rankin--Eisenstein classes and explicit reciprocity laws",
+      "url": "https://arxiv.org/pdf/1503.02888",
+      "used": "Prop 11.2.1 (finite-free local perfectness/base change), Theorem 7.2.3 (ordinary graded profile); Prop 10.1.1 read for comparison limits",
+      "read_method": "parsed text; printed page 51 with the 10.1.1 diagram viewed; screenshot of local-cohomology page failed",
+      "limits": "No rank-four Selmer-bound theorem applied to the rank-two target; published source summaries here are not an independent proof of Fukaya--Kato or Ohta"
+    },
+    {
+      "name": "Ochiai, A generalization of the Coleman map for Hida deformations",
+      "url": "https://www.math.titech.ac.jp/top/~ochiai/coleman.pdf",
+      "used": "Definitions 3.1/3.7, Remark 3.8, Proposition 5.1; 3.14-3.17 read to locate the arithmetic family source and its periods",
+      "read_method": "parsed text and printed page 27 visually inspected",
+      "limits": "The source period/winding-vector normalization is not asserted to be the retained primitive Kato vector; the global family source still must be instantiated"
+    },
+    {
+      "name": "Venjakob, On Kato local epsilon-isomorphism conjecture for rank-one Iwasawa modules",
+      "url": "https://arxiv.org/pdf/1204.4269",
+      "used": "Appendix A inspected for consistency with prior ramified formula; not used to claim eta_p is a unit",
+      "read_method": "parsed text",
+      "limits": "The prior p^-2 frame is retained, not independently re-certified in full here"
+    }
+  ],
+  "source_custody": {
+    "latest_zip_manifest_31_of_31": "producer claim only; ZIP not downloaded/replayed in this run",
+    "public_pdf_local_hashes": "not available; attempted container downloads failed DNS. No fabricated PDF hashes."
+  },
+  "new_work": "Local family lemma, pseudo-null/free rank-one algebra, finite jet and shifted-coordinate algebra, valuation-aware fallback. No novelty claim."
+}

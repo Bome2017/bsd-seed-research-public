@@ -1,0 +1,29 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 0.32134037278592587,
+  "required_marker": true,
+  "scope": "Savedfactor candidate/scalar-HNF bindings and reconstructed exact127x20 anti-divisor matrix and rank; no factor search or BNF. Original factor-product reconstruction remains producer input; attempted independent replay hit15sec alarm and was preserved.",
+  "independent_python_rank_mod7": 20,
+  "pivot_columns_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ]
+}

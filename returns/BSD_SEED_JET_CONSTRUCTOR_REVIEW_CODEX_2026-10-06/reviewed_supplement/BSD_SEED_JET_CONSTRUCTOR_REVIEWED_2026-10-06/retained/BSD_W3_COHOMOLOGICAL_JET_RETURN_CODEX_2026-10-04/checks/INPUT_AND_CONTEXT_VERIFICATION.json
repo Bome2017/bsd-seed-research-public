@@ -1,0 +1,17 @@
+{
+  "manifests": [
+    {
+      "folder": "/Users/bsm/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/input/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04",
+      "entries": 7,
+      "verified": true
+    },
+    {
+      "folder": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04",
+      "entries": 31,
+      "verified": true
+    }
+  ],
+  "input_replay_byte_equal": true,
+  "context_copies": 5,
+  "custody_only_not_proof": true
+}

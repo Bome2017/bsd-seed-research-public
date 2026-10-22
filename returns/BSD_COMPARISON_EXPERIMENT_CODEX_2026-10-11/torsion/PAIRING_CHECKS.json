@@ -1,0 +1,80 @@
+{
+  "q": 3061,
+  "P": [
+    2489,
+    640,
+    1
+  ],
+  "Q": [
+    2200,
+    1779,
+    1
+  ],
+  "weil_pairing": 2589,
+  "maps": [
+    {
+      "map": "map_113_0_0.json",
+      "image_P": [
+        1824,
+        2391,
+        1
+      ],
+      "image_Q": [
+        1596,
+        2514,
+        1
+      ],
+      "target_pairing": 655,
+      "multiplier_mod5": 4,
+      "all_625_additions_in_reduction": true
+    },
+    {
+      "map": "map_113_1_0.json",
+      "image_P": [
+        3032,
+        1449,
+        1
+      ],
+      "image_Q": [
+        856,
+        1768,
+        1
+      ],
+      "target_pairing": 2589,
+      "multiplier_mod5": 1,
+      "all_625_additions_in_reduction": true
+    },
+    {
+      "map": "map_167_0_0.json",
+      "image_P": [
+        2644,
+        1413,
+        1
+      ],
+      "image_Q": [
+        1322,
+        2301,
+        1
+      ],
+      "target_pairing": 485,
+      "multiplier_mod5": 3,
+      "all_625_additions_in_reduction": true
+    },
+    {
+      "map": "map_167_1_0.json",
+      "image_P": [
+        1167,
+        1548,
+        1
+      ],
+      "image_Q": [
+        2895,
+        650,
+        1
+      ],
+      "target_pairing": 2392,
+      "multiplier_mod5": 2,
+      "all_625_additions_in_reduction": true
+    }
+  ]
+}

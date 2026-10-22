@@ -1,0 +1,21 @@
+STALE-PROCESS CHECK 2026-09-19T06:27:27
+  apwit: 0
+  wverify: 0
+  arbcore: 0
+  swstream: 0
+  sage-env/bin/python: 0
+  sage-env/bin/gp: 0
+  gp-dyn: 0
+  run_p3: 0
+  monitor.sh: 0
+  replay_: 0
+  processes >= 20% CPU:
+     37.2   545 /usr/libexec/sysmond
+  load: { 1.47 1.54 1.46 }
+  swap: total = 3072.00M  used = 1596.50M  free = 1475.50M  (encrypted)
+  memory: System-wide memory free percentage: 62%
+  disk: 142Gi free of 932Gi
+Note: No thermal warning level has been recorded
+Note: No performance warning level has been recorded
+	CPU_Scheduler_Limit 	= 100
+	CPU_Speed_Limit 	= 100

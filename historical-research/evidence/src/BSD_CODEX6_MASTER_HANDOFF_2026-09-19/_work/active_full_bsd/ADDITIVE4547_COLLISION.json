@@ -1,0 +1,577 @@
+[
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/00_READ_FIRST.md",
+    "line": 54,
+    "text": "- p = 4547: SEMI_DECISION + ROUTE_BLOCKED under a prime-by-prime strategy; disappears if FIN is proved globally."
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/CODEX_QUESTIONS.md",
+    "line": 79,
+    "text": "- Degree-24 class-group computations; Kolyvagin/Kurihara witnesses at p \u2265 30 or at 4547, 2243, 5843 (n \u2248 10\u00b9\u00b9\u201310\u00b9\u2077)."
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/DO_NOT_RESURRECT.md",
+    "line": 13,
+    "text": "| 7 | \"p = 4547 is merely cost-blocked\" (and \"n \u2265 9095\u00b718191 \u2248 1.6\u00b710\u2078\") | KILLED | Theory gap AND cost: no p-adic L-function / IMC / control theorem at an additive potentially supersingular prime; Kim Thm 1.8 is a semi-decision whose witness existence is unproved; 9095 is composite, 18191 \u2262 1, a_\u2113 \u2261 2 was ignored; true smallest pair \u2248 8.1\u00b710\u00b9\u2075. SEMI_DECISION + ROUTE_BLOCKED, UNDER FIN | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/DO_NOT_RESURRECT.md",
+    "line": 15,
+    "text": "| 9 | \"LINE is a tractable reduction / the route\" | KILLED | LINE is FORMULATED, one candidate mechanism. Per prime it is essentially the Ota/Kurihara witness; all content is cross-prime rationality (more than FIN needs); no intermediate lemma found; no finite computation can prove it; silent at {2,3,2243,4547,5843}; silent on L\u2033 | LINE hostile audit C5 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/FIN_FRONTIER.md",
+    "line": 88,
+    "text": "| **4547** | only chain: Kim Thm 1.8 two-prime Kurihara witness | **SEMI_DECISION + ROUTE_BLOCKED**: additive III, potentially supersingular; no cyclotomic p-adic L-function (U_p-eigenvalue 0), no main conjecture, no control theorem (Kim\u2013Nakamura); witness existence = Kim Conj 1.7 at an additive prime (unproved; Fouquet\u2013Wan unpublished would give it); smallest Kolyvagin pair 87 256 931 \u00b7 92 849 741 \u2248 8.1\u00b710\u00b9\u2075 (\u2273 10\u00b2\u2074 terms) \u2014 the earlier 1.6\u00b710\u2078 estimate was wrong by \u2248 8 orders | no. Research di"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 40,
+    "text": "| FIN.4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED | no cyclotomic p-adic L-function, no IMC, no control theorem at this additive potentially supersingular prime; Kim Thm 1.8 witness n \u2248 8.1\u00b710\u00b9\u2075 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 87,
+    "text": "| Fouquet\u2013Wan IMC (unpublished) | FIN.ss, FIN.4547 (decision instead of semi-decision) | PROPOSED (unrefereed preprint; not relied on by its co-author's later paper) | F2 \u00a7E\u2032 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/SEED_PROVED_STATE.md",
+    "line": 19,
+    "text": "| 4547 | additive III, potentially good SUPERSINGULAR (j \u2261 1728, 4547 \u2261 3 mod 4), inertia cyclic of order 4, no abelian base change to good reduction | PROVED (F2 \u00a7B) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/SEED_PROVED_STATE.md",
+    "line": 61,
+    "text": "| 4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED (theory gap AND cost; see `FIN_FRONTIER.md` \u00a74) | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/00_READ_FIRST.md",
+    "line": 55,
+    "text": "- p = 4547: SEMI_DECISION + ROUTE_BLOCKED under a prime-by-prime strategy; disappears if FIN is proved globally."
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/CODEX_QUESTIONS.md",
+    "line": 79,
+    "text": "- Degree-24 class-group computations; Kolyvagin/Kurihara witnesses at p \u2265 30 or at 4547, 2243, 5843 (n \u2248 10\u00b9\u00b9\u201310\u00b9\u2077)."
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/DO_NOT_RESURRECT.md",
+    "line": 13,
+    "text": "| 7 | \"p = 4547 is merely cost-blocked\" (and \"n \u2265 9095\u00b718191 \u2248 1.6\u00b710\u2078\") | KILLED | Theory gap AND cost: no p-adic L-function / IMC / control theorem at an additive potentially supersingular prime; Kim Thm 1.8 is a semi-decision whose witness existence is unproved; 9095 is composite, 18191 \u2262 1, a_\u2113 \u2261 2 was ignored; true smallest pair \u2248 8.1\u00b710\u00b9\u2075. SEMI_DECISION + ROUTE_BLOCKED, UNDER FIN | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/DO_NOT_RESURRECT.md",
+    "line": 15,
+    "text": "| 9 | \"LINE is a tractable reduction / the route\" | KILLED | LINE is FORMULATED, one candidate mechanism. Per prime it is essentially the Ota/Kurihara witness; all content is cross-prime rationality (more than FIN needs); no intermediate lemma found; no finite computation can prove it; silent at {2,3,2243,4547,5843}; silent on L\u2033 | LINE hostile audit C5 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/FIN_FRONTIER.md",
+    "line": 88,
+    "text": "| **4547** | only chain: Kim Thm 1.8 two-prime Kurihara witness | **SEMI_DECISION + ROUTE_BLOCKED**: additive III, potentially supersingular; no cyclotomic p-adic L-function (U_p-eigenvalue 0), no main conjecture, no control theorem (Kim\u2013Nakamura); witness existence = Kim Conj 1.7 at an additive prime (unproved; Fouquet\u2013Wan unpublished would give it); smallest Kolyvagin pair 87 256 931 \u00b7 92 849 741 \u2248 8.1\u00b710\u00b9\u2075 (\u2273 10\u00b2\u2074 terms) \u2014 the earlier 1.6\u00b710\u2078 estimate was wrong by \u2248 8 orders | no. Research di"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/MASTER_BSD_DAG.md",
+    "line": 40,
+    "text": "| FIN.4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED | no cyclotomic p-adic L-function, no IMC, no control theorem at this additive potentially supersingular prime; Kim Thm 1.8 witness n \u2248 8.1\u00b710\u00b9\u2075 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/MASTER_BSD_DAG.md",
+    "line": 87,
+    "text": "| Fouquet\u2013Wan IMC (unpublished) | FIN.ss, FIN.4547 (decision instead of semi-decision) | PROPOSED (unrefereed preprint; not relied on by its co-author's later paper) | F2 \u00a7E\u2032 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/SEED_PROVED_STATE.md",
+    "line": 19,
+    "text": "| 4547 | additive III, potentially good SUPERSINGULAR (j \u2261 1728, 4547 \u2261 3 mod 4), inertia cyclic of order 4, no abelian base change to good reduction | PROVED (F2 \u00a7B) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/SEED_PROVED_STATE.md",
+    "line": 61,
+    "text": "| 4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED (theory gap AND cost; see `FIN_FRONTIER.md` \u00a74) | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_DIVISION_FIELD_HORIZONTAL_2026-09-19/DIVISION_FIELD_REDUCTION_THEOREM.md",
+    "line": 69,
+    "text": "| 4547 | additive III, potentially good supersingular | 2 | 2 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_EXACT_SHA_COVERAGE_2026-09-19/EXCEPTIONAL_PRIMES.md",
+    "line": 13,
+    "text": "| 4547 | Additive, potentially good supersingular | Open |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_EXACT_SHA_COVERAGE_2026-09-19/PRIME_COVERAGE_MAP.md",
+    "line": 41,
+    "text": "| \\(\\{4547\\}\\) | Additive \\(III\\), \\(c=2\\) | Open |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FIXED_EISENSTEIN_GATE_2026-09-19/EISENSTEIN_TYPE_AND_DIRECTION_AUDIT.md",
+    "line": 159,
+    "text": "| 4547 | Additive III; for \\(p\\ne4547\\), inertia of order 4 with square \\(-I\\) | \\(\\mathcal L_{4547}=0\\) for \\(p\\ge7\\), \\(p\\ne4547\\) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/FIN_ATTACK.md",
+    "line": 19,
+    "text": "| 4547 primary finiteness | ROUTE_BLOCKED | Recorded cyclotomic/additive route blocked; witness alternative remains a costly semi-decision |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/CODEX_QUESTIONS.md",
+    "line": 84,
+    "text": "- Degree-24 class-group computations; Kolyvagin/Kurihara witnesses at p \u2265 30 or at 4547, 2243, 5843 (n \u2248 10\u00b9\u00b9\u201310\u00b9\u2077)."
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/DO_NOT_RESURRECT.md",
+    "line": 15,
+    "text": "| 7 | \"p = 4547 is merely cost-blocked\" (and \"n \u2265 9095\u00b718191 \u2248 1.6\u00b710\u2078\") | KILLED | Theory gap AND cost: no p-adic L-function / IMC / control theorem at an additive potentially supersingular prime; Kim Thm 1.8 is a semi-decision whose witness existence is unproved; 9095 is composite, 18191 \u2262 1, a_\u2113 \u2261 2 was ignored; true smallest pair \u2248 8.1\u00b710\u00b9\u2075. SEMI_DECISION + ROUTE_BLOCKED, UNDER FIN | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/DO_NOT_RESURRECT.md",
+    "line": 17,
+    "text": "| 9 | \"LINE is a tractable reduction / the route\" | KILLED | LINE is FORMULATED, one candidate mechanism. Per prime it is essentially the Ota/Kurihara witness; all content is cross-prime rationality (more than FIN needs); no intermediate lemma found; no finite computation can prove it; silent at {2,3,2243,4547,5843}; silent on L\u2033 | LINE hostile audit C5 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/FIN_FRONTIER.md",
+    "line": 92,
+    "text": "| **4547** | only chain: Kim Thm 1.8 two-prime Kurihara witness | **SEMI_DECISION + ROUTE_BLOCKED**: additive III, potentially supersingular; no cyclotomic p-adic L-function (U_p-eigenvalue 0), no main conjecture, no control theorem (Kim\u2013Nakamura); witness existence = Kim Conj 1.7 at an additive prime (unproved; Fouquet\u2013Wan unpublished would give it); smallest Kolyvagin pair 87 256 931 \u00b7 92 849 741 \u2248 8.1\u00b710\u00b9\u2075 (\u2273 10\u00b2\u2074 terms) \u2014 the earlier 1.6\u00b710\u2078 estimate was wrong by \u2248 8 orders | no. Research di"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+    "line": 166,
+    "text": "| 4547 | A recorded witness semi-decision | No witness or applicable replacement for the missing additive-prime control theorem |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+    "line": 347,
+    "text": "**Midpoint \\(U_{4547}\\)-trace test.** The [bounded calculation](audits/MIDPOINT_UP_TRACE_TEST.md) verifies \\(U_{4547}f=0\\) from exact conductor exponent two, trivial nebentypus, and the newform theorem. The \\(p=4547\\) translated residual periods satisfy \\(\\sum_{a\\bmod p}I_a=0\\) and \\(I_{-a}=\\overline{I_a}\\). Their additive Fourier components obey \\(J_0=0\\), while"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+    "line": 543,
+    "text": "| 4547 is merely a compute-cost problem | The recorded approach has a theory gap as well | \u00a73 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+    "line": 21,
+    "text": "| 4547 | additive III, potentially good SUPERSINGULAR (j \u2261 1728, 4547 \u2261 3 mod 4), inertia cyclic of order 4, no abelian base change to good reduction | PROVED (F2 \u00a7B) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+    "line": 63,
+    "text": "| 4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED (theory gap AND cost; see `FIN_FRONTIER.md` \u00a74) | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/fixed_visibility_2026-09-19/FIXED_VISIBILITY_AUDIT.md",
+    "line": 65,
+    "text": "At the additive primes \\(q=2,4547\\), \\(p\\ne q\\). The filtration of \\(E(\\mathbf Q_q)\\) has pro-\\(q\\) kernel, additive residue quotient, and component group of order at most four. Multiplication by \\(p>3\\) is bijective on each quotient, so \\(E(\\mathbf Q_q)/p=0\\). Equivalently \\(E[p](\\mathbf Q_q)=0\\); local duality and the Euler characteristic for \\(q\\ne p\\) then give"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_WC_INTEGRAL_DESCENT_2026-09-19/00_VERDICT.md",
+    "line": 32,
+    "text": "9. **FIN executable?** No. No A was constructed, no new h_p value was computed, and finiteness at 2243,4547,5843 remains open. The positive-depth ordinary converse for the exact cyclic auxiliary subset is not fully transferred from the broader printed Kurihara prime set."
+  },
+  {
+    "path": "/Users/bsm/BSD_MANIN_2_PRIMARY_GATE_2243_12_2026-09-18/00_REPORT.md",
+    "line": 171,
+    "text": "With 4547 \u2224 c\u2080: c\u2080 = 2^a with a \u2264 8, and c_E | 2c\u2080, so c_E \u2264 512 < 3 999 (T\u2081). All 20 [b/25]\u207a are the recovered integers, and a\u2082(L\u2085) \u2261 2 (mod 5) unconditionally. Hence ord_T L\u2085(E, T) = 2, v\u2085(L\u2085*) = 0, b\u2085 = 0 and **Sha(E/Q)[5^\u221e] = 0**. The proof uses Kato and Stein\u2013Wuthrich Thm 6.1 only: no Manin conjecture, no p-adic BSD, no Skinner\u2013Urban."
+  },
+  {
+    "path": "/Users/bsm/BSD_MANIN_2_PRIMARY_GATE_2243_12_2026-09-18/referee/REFEREE.md",
+    "line": 45,
+    "text": "   - \"4547 \u2224 c\u2080 (Edixhoven)\": Edixhoven's Thm 3 excludes additive potentially ordinary reduction of Kodaira types II, III and IV (CNS l.77\u201379). That check was not audited here."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/00_READ_FIRST.md",
+    "line": 46,
+    "text": "- p = 4547: SEMI_DECISION + ROUTE_BLOCKED under a prime-by-prime strategy; disappears if FIN is proved globally."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/CODEX_QUESTIONS.md",
+    "line": 58,
+    "text": "- Degree-24 class-group computations; Kolyvagin/Kurihara witnesses at p \u2265 30 or at 4547, 2243, 5843 (n \u2248 10\u00b9\u00b9\u201310\u00b9\u2077)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/DO_NOT_RESURRECT.md",
+    "line": 13,
+    "text": "| 7 | \"p = 4547 is merely cost-blocked\" (and \"n \u2265 9095\u00b718191 \u2248 1.6\u00b710\u2078\") | KILLED | Theory gap AND cost: no p-adic L-function / IMC / control theorem at an additive potentially supersingular prime; Kim Thm 1.8 is a semi-decision whose witness existence is unproved; 9095 is composite, 18191 \u2262 1, a_\u2113 \u2261 2 was ignored; true smallest pair \u2248 8.1\u00b710\u00b9\u2075. SEMI_DECISION + ROUTE_BLOCKED, UNDER FIN | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/DO_NOT_RESURRECT.md",
+    "line": 15,
+    "text": "| 9 | \"LINE is a tractable reduction / the route\" | KILLED | LINE is FORMULATED, one candidate mechanism. Per prime it is essentially the Ota/Kurihara witness; all content is cross-prime rationality (more than FIN needs); no intermediate lemma found; no finite computation can prove it; silent at {2,3,2243,4547,5843}; silent on L\u2033 | LINE hostile audit C5 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/FIN_FRONTIER.md",
+    "line": 88,
+    "text": "| **4547** | only chain: Kim Thm 1.8 two-prime Kurihara witness | **SEMI_DECISION + ROUTE_BLOCKED**: additive III, potentially supersingular; no cyclotomic p-adic L-function (U_p-eigenvalue 0), no main conjecture, no control theorem (Kim\u2013Nakamura); witness existence = Kim Conj 1.7 at an additive prime (unproved; Fouquet\u2013Wan unpublished would give it); smallest Kolyvagin pair 87 256 931 \u00b7 92 849 741 \u2248 8.1\u00b710\u00b9\u2075 (\u2273 10\u00b2\u2074 terms) \u2014 the earlier 1.6\u00b710\u2078 estimate was wrong by \u2248 8 orders | no. Research di"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 40,
+    "text": "| FIN.4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED | no cyclotomic p-adic L-function, no IMC, no control theorem at this additive potentially supersingular prime; Kim Thm 1.8 witness n \u2248 8.1\u00b710\u00b9\u2075 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 79,
+    "text": "| Fouquet\u2013Wan IMC (unpublished) | FIN.ss, FIN.4547 (decision instead of semi-decision) | PROPOSED (unrefereed preprint; not relied on by its co-author's later paper) | F2 \u00a7E\u2032 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/SEED_PROVED_STATE.md",
+    "line": 19,
+    "text": "| 4547 | additive III, potentially good SUPERSINGULAR (j \u2261 1728, 4547 \u2261 3 mod 4), inertia cyclic of order 4, no abelian base change to good reduction | PROVED (F2 \u00a7B) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/SEED_PROVED_STATE.md",
+    "line": 61,
+    "text": "| 4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED (theory gap AND cost; see `FIN_FRONTIER.md` \u00a74) | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/00_READ_FIRST.md",
+    "line": 53,
+    "text": "- p = 4547: SEMI_DECISION + ROUTE_BLOCKED under a prime-by-prime strategy; disappears if FIN is proved globally."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/CODEX_QUESTIONS.md",
+    "line": 65,
+    "text": "- Degree-24 class-group computations; Kolyvagin/Kurihara witnesses at p \u2265 30 or at 4547, 2243, 5843 (n \u2248 10\u00b9\u00b9\u201310\u00b9\u2077)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/DO_NOT_RESURRECT.md",
+    "line": 13,
+    "text": "| 7 | \"p = 4547 is merely cost-blocked\" (and \"n \u2265 9095\u00b718191 \u2248 1.6\u00b710\u2078\") | KILLED | Theory gap AND cost: no p-adic L-function / IMC / control theorem at an additive potentially supersingular prime; Kim Thm 1.8 is a semi-decision whose witness existence is unproved; 9095 is composite, 18191 \u2262 1, a_\u2113 \u2261 2 was ignored; true smallest pair \u2248 8.1\u00b710\u00b9\u2075. SEMI_DECISION + ROUTE_BLOCKED, UNDER FIN | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/DO_NOT_RESURRECT.md",
+    "line": 15,
+    "text": "| 9 | \"LINE is a tractable reduction / the route\" | KILLED | LINE is FORMULATED, one candidate mechanism. Per prime it is essentially the Ota/Kurihara witness; all content is cross-prime rationality (more than FIN needs); no intermediate lemma found; no finite computation can prove it; silent at {2,3,2243,4547,5843}; silent on L\u2033 | LINE hostile audit C5 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/FIN_FRONTIER.md",
+    "line": 88,
+    "text": "| **4547** | only chain: Kim Thm 1.8 two-prime Kurihara witness | **SEMI_DECISION + ROUTE_BLOCKED**: additive III, potentially supersingular; no cyclotomic p-adic L-function (U_p-eigenvalue 0), no main conjecture, no control theorem (Kim\u2013Nakamura); witness existence = Kim Conj 1.7 at an additive prime (unproved; Fouquet\u2013Wan unpublished would give it); smallest Kolyvagin pair 87 256 931 \u00b7 92 849 741 \u2248 8.1\u00b710\u00b9\u2075 (\u2273 10\u00b2\u2074 terms) \u2014 the earlier 1.6\u00b710\u2078 estimate was wrong by \u2248 8 orders | no. Research di"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 40,
+    "text": "| FIN.4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED | no cyclotomic p-adic L-function, no IMC, no control theorem at this additive potentially supersingular prime; Kim Thm 1.8 witness n \u2248 8.1\u00b710\u00b9\u2075 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 81,
+    "text": "| Fouquet\u2013Wan IMC (unpublished) | FIN.ss, FIN.4547 (decision instead of semi-decision) | PROPOSED (unrefereed preprint; not relied on by its co-author's later paper) | F2 \u00a7E\u2032 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/SEED_PROVED_STATE.md",
+    "line": 19,
+    "text": "| 4547 | additive III, potentially good SUPERSINGULAR (j \u2261 1728, 4547 \u2261 3 mod 4), inertia cyclic of order 4, no abelian base change to good reduction | PROVED (F2 \u00a7B) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/SEED_PROVED_STATE.md",
+    "line": 61,
+    "text": "| 4547 | Sha[4547^\u221e] = 0 | SEMI_DECISION + ROUTE_BLOCKED (theory gap AND cost; see `FIN_FRONTIER.md` \u00a74) | F2 R1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/00_REPORT.md",
+    "line": 108,
+    "text": "| bad p = 4547 (additive, III) | **UNKNOWN** | No cyclotomic p-adic L-function in SW's framework. Kim 2203.12159 Thm 1.8 applies (a Kurihara witness would prove Sha[4547^\u221e] = 0), but a witness is not guaranteed to exist: the IMC at additive 4547 is not known | semi-decision only; prohibitive (\u2113 \u2261 1 mod 4547) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/00_REPORT.md",
+    "line": 316,
+    "text": "      4547: UNKNOWN (Kurihara semi-decision only)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/03_tamagawa.md",
+    "line": 11,
+    "text": "| 4547 | 3 | 2 | III (3) | III | 2 | 0 | additive |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/07_bsd_constant_isogenous.md",
+    "line": 30,
+    "text": "| model | E\u2032: y\u00b2 = x\u00b3 + 10A x\u00b2 + 9mA x = [0, 45470, 0, 91790289, 0]. \u03c8(x,y) = (y\u00b2/x\u00b2, y(4AB \u2212 x\u00b2)/x\u00b2). Checked: \u03c8\u0302\u2218\u03c8 = [2] on P\u2081 and P\u2082, and \u03c8 is additive on P\u2081+P\u2082. Sage's V\u00e9lu codomain is isomorphic to it by (u,r,s,t) = (1, 22735, 0, 0). | PROVED (exact) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/00_LANE_C.md",
+    "line": 65,
+    "text": "| 17 | p = 4547 (additive): only the Kurihara route; a witness's existence is not guaranteed | UNKNOWN | C3 \u00a76 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/C1_BSD_DECOMPOSITION.md",
+    "line": 17,
+    "text": "| 4547 | III | 2 | 3 | 0 | additive (f = 2), potentially good; v(j) = 0 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/C3_PER_PRIME_STATUS.md",
+    "line": 242,
+    "text": "| 4547 | additive, III, potentially good (supersingular over the tame quartic extension) | no cyclotomic p-adic L-function / Kato divisibility in SW's framework (SW Thm 7.3 needs semistable at p); **Kim Thm 1.8 applies** (p \u2265 5, \u03c1\u0304 surjective by Mazur since 4547 > 163, 4547 \u2224 c_E by Edixhoven); Castella\u2013Sano Thm A: a witness exists \u21d4 IMC at 4547, which is **not** known for additive p | semi-decision only: a found witness would PROVE Sha[4547^\u221e] = 0; none found proves nothing; cost prohibitive (\u2113"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/C3_PER_PRIME_STATUS.md",
+    "line": 277,
+    "text": "| 4547 | only Kurihara witnesses (Kim 1.8), existence not guaranteed | UNKNOWN |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/C4_MAIN_CONJECTURE_AND_P5.md",
+    "line": 47,
+    "text": "- It is **not** available from these theorems at the supersingular primes (not ordinary) or at p = 4547 (additive)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/C5_DISTANCE_TO_FULL_BSD.md",
+    "line": 30,
+    "text": "| 9 | Sha[p^\u221e] at p = 2243, 5843 (IMC known) and 4547 (Kurihara witnesses only; existence not guaranteed) | per p | symbols of denominator \u2265 p\u00b2 (unitary at 2243 and 5843, but m \u2265 5\u00b710\u2076), or n = \u2113\u2081\u2113\u2082 with \u2113_i \u2261 1 (mod p) | \u2248 10\u2074\u201310\u2075 CPU-h; infeasible with present code |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/RESUME.md",
+    "line": 66,
+    "text": "   2: I1*, c=2, additive; 4547: III, c=2, additive, v(j)=0. ord_q(Dmin): 3\u21922, 2243\u21921, 5843\u21922, 4547\u21923, 2\u21928."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/RESUME.md",
+    "line": 121,
+    "text": "   with \u03bd(n) = 2 \u21d2 corank 2, length(Sel/div) = 0 \u21d2 Sha[p^inf] = 0. Works at supersingular p and at p = 4547 (additive)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/RESUME.md",
+    "line": 127,
+    "text": "F12 (C3 supersingular) BSTW arXiv 2409.01350 (IMC at supersingular p) is for SEMISTABLE E \u2014 seed is not (2, 4547 additive)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_C.md",
+    "line": 92,
+    "text": "3. NON_BLOCKING \u2014 00_LANE_C \"Headline\": \"the known theorems reduce to finite computations everything except two things\" overstates rows 16\u201317: at supersingular p only an upper-bound method is proved to apply, at 4547 only a semi-decision procedure (Kurihara witness) exists, and at 2243/5843 the finite computation is infeasible. Reword to match the table."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/session_scratch_2026-09-18/C3_before_sha9.md",
+    "line": 133,
+    "text": "| 4547 | additive, III, potentially good (supersingular over the tame quartic extension) | no cyclotomic p-adic L-function / Kato divisibility in SW's framework (SW Thm 7.3 needs semistable at p); **Kim Thm 1.8 applies** (p \u2265 5, \u03c1\u0304 surjective by Mazur since 4547 > 163, 4547 \u2224 c_E by Edixhoven); Castella\u2013Sano Thm A: a witness exists \u21d4 IMC at 4547, which is **not** known for additive p | semi-decision only: a found witness would PROVE Sha[4547^\u221e] = 0; none found proves nothing; cost prohibitive (\u2113"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/session_scratch_2026-09-18/C3_before_sha9.md",
+    "line": 168,
+    "text": "| 4547 | only Kurihara witnesses (Kim 1.8), existence not guaranteed | UNKNOWN |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/state/00_REPORT.pre_critic_fixes.md",
+    "line": 108,
+    "text": "| bad p = 4547 (additive, III) | **UNKNOWN** | No cyclotomic p-adic L-function in SW's framework. Kim 2203.12159 Thm 1.8 applies (a Kurihara witness would prove Sha[4547^\u221e] = 0), but a witness is not guaranteed to exist: the IMC at additive 4547 is not known | semi-decision only; prohibitive (\u2113 \u2261 1 mod 4547) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/state/00_REPORT.pre_critic_fixes.md",
+    "line": 314,
+    "text": "      4547: UNKNOWN (Kurihara semi-decision only)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/00_CHECKPOINT.md",
+    "line": 32,
+    "text": "| bad p = 4547 | UNKNOWN (Kurihara semi-decision only) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/ARCHIVE_RECOVERED_BRIDGES.md",
+    "line": 23,
+    "text": "| B1 \u2714 | **Kim, Thm 1.8** + the merged Edixhoven check \u21d2 a finite route at **every** p \u2265 5 | `~/BSD_ABC_REVIEW_2026-09-17/sources/KIM_2203.12159.txt` (arXiv v6, May 2025; `358469b2\u2026`), Thm 1.8 at l. 362\u2013400; bad reduction in \u00a73.2.3, Lemmas 3.8 (multiplicative) and 3.9 (additive, via Kim\u2013Nakamura) | If ord(\u03b4\u0303) < \u221e, then cork Sel(Q,E[p^\u221e]) = ord(\u03b4\u0303), and length(Sel/div) = \u2202^{(ord)} \u2212 \u2202^{(\u221e)}. So one two-prime Kurihara number \u03b4\u0303_{\u2113\u2081\u2113\u2082} that is a p-adic unit forces **Sha(E/Q)[p^\u221e] = 0** at a rank-2 "
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/FULL_BSD_SEED_DAG.md",
+    "line": 58,
+    "text": "| G22 | Sha[4547^\u221e] = 0 (additive III, potentially supersingular) | ROUTE_BLOCKED (revised from OPEN, \u00a75 and bridge B1) | No cyclotomic p-adic L-function or IMC at an additive prime in the SW framework. **Chain: Kim Thm 1.8.** Its hypothesis p \u2224 c\u2080 at 4547 is the merged Edixhoven check, and \u00a73.2.3 / Lemma 3.9 treat additive p. A unit two-prime Kurihara number proves the node. It is a semi-decision (witness existence needs Kim's Conj. 1.7 at 4547), and \u2113\u1d62 \u2261 1 (mod 4547) makes the cost prohibitive"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/FULL_BSD_SEED_DAG.md",
+    "line": 130,
+    "text": "| G22 (Sha[4547^\u221e] = 0) | OPEN (no chain) | **ROUTE_BLOCKED.** The chain is Kim Thm 1.8, whose hypothesis p \u2224 c\u2080 at 4547 is the merged Edixhoven check. It is a semi-decision (a witness needs Conj. 1.7), and n \u2273 1.6\u00b710\u2078 puts the cost out of reach | B1 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/A_HOME_BSD_ARCHIVE.md",
+    "line": 173,
+    "text": "  split mult (O5; needs L-invariant/Tate period), p = 5843 non-split and p = 3 non-split (O5, O2). NOT at p = 4547 (additive; SW sec 3.6"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/B_DESKTOP_ICLOUD_ARCHIVE.md",
+    "line": 116,
+    "text": "  p >= 3); E(Q_p)[p] = 0 at 2243 (I1, p !| ord_p(j)) and 4547 (additive, p > 7) by Kim Prop 3.1; Manin constant (brief: controlled)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 25,
+    "text": "| R1 | **REPAIRABLE \u2014 structural** | **A third root, W3 = Sha[4547^\u221e] = 0.** The only chain at the additive, potentially supersingular prime 4547 (Kim Thm 1.8) is a *semi*-decision whose witness is guaranteed only by an unproved localized IMC at an additive prime, **and** its cost was mis-estimated by ~8 orders of magnitude: 9095 = 5\u00b717\u00b7107 is not prime, 18191 \u2261 3 (mod 4547), and the condition a_\u2113 \u2261 2 (mod p) was ignored. True smallest Kolyvagin pair: 87 256 931 \u00b7 92 849 741 \u2248 **8.1\u00b710\u00b9\u2075** (not "
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 30,
+    "text": "| R6 | COSMETIC | DAG \u00a74(c) still says \"4547: OPEN (no chain)\" against G22/\u00a75; Cassels\u2013Tate is not needed for S3 \u2227 S\u22657 \u27fa #Sha = 9; SU's IMC is over-cited in G17/G18 (Kato alone proves, SU only guarantees termination); the per-p saturation gate is redundant given G2; \"D < 10\u2077, 36 \u00b1 10\u207b\u00b9\u00b3\" is inconsistent with the certified radius (D \u2272 3\u00b710\u00b9\u2074) | \u00a7A, \u00a7B, \u00a7D, \u00a7F |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 128,
+    "text": "| **4547** | additive III, pot. good **supersingular** (j \u2261 1728, p \u2261 3 (4); inertia image cyclic of order 4, decomposition image non-abelian, e = 4 \u2224 p \u2212 1 so no abelian base change makes the reduction good) | Kim Thm 1.8 only (no cyclotomic p-adic L-function is *known*: U_p-eigenvalue 0, so no finite-slope stabilization; Delbourgo's Compositio 1998 construction is, FROM MEMORY and unverified, for reduction made good ordinary by an abelian twist \u2014 impossible here) | **SEMI + GAP + astronomicall"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 133,
+    "text": "**too strong** in two ways: (a) at supersingular p and at 4547 the route is a semi-decision whose success rests on an unproved"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 264,
+    "text": "| conductor 2\u00b3\u00b73\u00b72243\u00b74547\u00b2\u00b75843 | \u2713 | **two non-split multiplicative primes (3, 5843) with \u03c1\u0304_p ramified for every odd p** (v(\u0394) = 2): this is exactly Fouquet\u2013Wan's hypothesis at p with \u03c1\u0304\\|G_p irreducible \u2014 *including the additive prime 4547* \u2014 and Sweeting's hypothesis at non-ordinary p; one split prime (2243, v(\u0394) = 1) for SU/Skinner. W. Zhang's (\u2660) imposes *no* condition at the additive primes 2, 4547 (his own note, quoted by my scout from CJM p.195) | makes per-p theorems *applicable*; N \u2248"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 265,
+    "text": "| 4547: type III, j \u2261 1728 (mod 4547), p \u2261 3 (mod 4) | \u2713 | locally at 4547 the seed has the same shape as a Z[i]-CM curve at an inert additive prime \u2014 the setting of **Forr\u00e1s\u2013Lei arXiv 2609.13063 (11 Sep 2026)**, whose \u00b1 theory is proved for CM curves only. The *local* half of that theory depends only on E/Q_p; the global half could be replaced by Kato's Euler system. This is a research direction for W3 (\u00a7F), not a theorem | global input there is elliptic units / CM |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 299,
+    "text": "   main conjecture nor a control theorem\" exists there. (Confirms 4547 is a theory gap, not only a cost gap.)"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 335,
+    "text": "| **S_4547** | Sha[4547^\u221e] = 0 | **OPEN ROOT W3** *(was ROUTE_BLOCKED)* | only chain: Kim Thm 1.8 = SEMI (witness existence = Kim Conj. 1.7 at an additive prime: unproved; FW would give it), n = \u2113\u2081\u2113\u2082 \u2265 87 256 931 \u00b7 92 849 741 \u2248 8.1\u00b710\u00b9\u2075 \u27f9 \u2273 10\u00b2\u2074 terms. No cyclotomic p-adic L-function, no main conjecture, no control theorem at this prime (Kim\u2013Nakamura Rem. 1.8). **Both a theory gap and a de-facto computational wall** |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 371,
+    "text": "| 5 | **W3 = S_4547** | 4 | necessary for FULL BSD unless W1 arrives in Kolyvagin form | **medium\u2013high, and neglected**: a sharply posed local question \u2014 transport Forr\u00e1s\u2013Lei's \u00b1 local theory (potentially supersingular, e = 4, j \u2261 1728) from CM curves to E/Q_p, and feed it Kato's Euler system instead of elliptic units, to get a signed divisibility and a Mazur\u2013Tate-element criterion at additive p. Even success leaves a \u2248 5\u00b710\u2076 CPU-h vertical computation, so the *real* hope is that W1's eventual e"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_PERPRIME_AND_RATIONALITY.md",
+    "line": 34,
+    "text": "- What it yields for the seed IF the preprint is accepted as a theorem: Kato's IMC EQUALITY (integral) at every good supersingular p, at every good ordinary p with a_p != +-1 mod p, and (subject to the UNKNOWN above) at the additive prime p = 4547. With the equality, the Lambda-adic Kato Kolyvagin system is primitive (Mazur\u2013Rubin 5.3.10 direction \"IMC <=> primitive\", see ITEM on Kim below), which is what turns a Kurihara-number / Kolyvagin-derivative search into a terminating procedure."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_PERPRIME_AND_RATIONALITY.md",
+    "line": 35,
+    "text": "- Verdict: ROUTE_FOUND but CONDITIONAL ON AN UNPUBLISHED PREPRINT (arXiv v3, Apr 2022; 90+ pp.; depends on Wan's Rankin\u2013Selberg Greenberg IMC [their ref 126] and a new U(3,1) Eisenstein/Fourier\u2013Jacobi appendix). A hostile referee may refuse to count it as a THEOREM. If accepted => DECISION_PROCEDURE at supersingular p and at 4547; if rejected => SEMI_DECISION_ONLY there."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_PERPRIME_AND_RATIONALITY.md",
+    "line": 75,
+    "text": "- Theorem 1.8 (quoted): \"Let E be an elliptic curve over Q and p >= 5 a prime such that rho-bar is surjective and the Manin constant is prime to p. If ord(delta-tilde) < infty, then (1) cork Sel(Q,E[p^infty]) = ord(delta-tilde) ... (3) length_{Z_p}(Sel(Q,E[p^infty])_{/div}) = d^{(ord(delta))}(delta) - d^{(infty)}(delta). ... If we further assume the finiteness of Sha(E/Q)[p^infty], then (4) rk_Z E(Q) = ord(delta), ... (6) length(Sha(E/Q)[p^infty]) = d^{(ord delta)}(delta) - d^{(infty)}(delta).\" "
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_PERPRIME_AND_RATIONALITY.md",
+    "line": 79,
+    "text": "  (A) SOUNDNESS (unconditional, every p >= 5 incl. 4547): if a search finds n = l1*l2 (l_i in P_1) with delta_n != 0 mod p, then with rank 2 known, Thm 1.8 gives ord(delta)=2 and length(Sel/div) = 0 - 0, i.e. Sha[p^infty] = 0. No IMC needed. Hypotheses: p>=5, rho-bar surjective (SEED_OK, caller), Manin constant prime to p (UNKNOWN at p = 4547 where reduction is additive \u2014 Mazur's Cor. 4.1 only covers semistable p; Edixhoven's unpublished result that Manin-constant primes are <= 7 is cited by Fou"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_PERPRIME_AND_RATIONALITY.md",
+    "line": 87,
+    "text": "- Hypotheses vs seed at p = 4547: p > 7 additive: SEED_OK. (1): Tam(E) is a power of 2; N_st = {2243}, 2242 = 2*19*59; N_ns = {3, 5843}, 4 and 5844 = 2^2*3*487 \u2014 none divisible by 4547: SEED_OK (hand arithmetic). (2) surjective: SEED_OK (caller). (3) Manin constant prime to 4547: UNKNOWN (not covered by Mazur's semistable result; see I.0)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_PERPRIME_AND_RATIONALITY.md",
+    "line": 88,
+    "text": "- Yield: IF a Kurihara number delta_n != 0 mod 4547 is found, THEN Kato's IMC holds at 4547 (and, by Kim's Thm 1.8, Sha[4547^infty]=0 when nu(n)=2). Existence of such n is only \"expected\"."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_WALL1_LARGE_PRIMES.md",
+    "line": 124,
+    "text": "- Hypotheses vs seed: (unr) p not dividing 2N: SEED_OK for p not in {2,3,2243,4547,5843}. Absolutely irreducible / scalar in image: SEED_OK (surjective). NON-ORDINARY p allowed provided some l||N exists with non-split toric reduction (3 and 5843 are non-split) or image contains SL_2(Z_p): SEED_OK. No squarefree-N hypothesis (only N^- squarefree; additive primes 2, 4547 go into N^+): SEED_OK."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_WALL1_LARGE_PRIMES.md",
+    "line": 142,
+    "text": "- Hypotheses vs seed: p>3 good ordinary split in K: per-prime (supersingular p SEED_FAILS); rho-bar irreducible: SEED_OK; N^- squarefree with rho-bar ramified at q|N^-: SEED_OK taking N^- among {3, 2243, 5843} (odd number of inert primes for the definite setting; 2 and 4547 split); L(E^K,1) != 0, L(E/K,chi^2,1) != 0: exist by [BFH90],[Vat03] (as quoted in Remark 1.4), per-K numerical check. UNKNOWN: whether BD05/PW11/Chida\u2013Hsieh hypotheses tolerate the additive primes 2^3 and 4547^2 in N^+ (not "
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/RESUME.md",
+    "line": 8,
+    "text": "  \u00a74(c) vs G22 inconsistency; SU over-cited in G17/G18; supersingular + 4547 routes are SEMI-decisions (witness existence"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/AGENT_BRIEF.md",
+    "line": 10,
+    "text": "- Reduction: 2 additive (I_1^*); 3 non-split multiplicative (I_2); 2243 split multiplicative (I_1); 4547 additive (type III,"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/B_kato_kurihara_bks_mazurtate.md",
+    "line": 6,
+    "text": "Seed reminder: E = Zywina (2243,12), N = 2^3*3*2243*4547^2*5843 (not squarefree; additive at 2 and 4547), rank = an. rank = 2,"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/C_diagonal_generalized_kato.md",
+    "line": 119,
+    "text": "4. Seed: not semistable (2 and 4547 additive); seed sign is +1 for E/Q (the theorem is about twists by 4-diml rho with sign -1)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/D_imc_explicit_rank2.md",
+    "line": 4,
+    "text": "Conventions: \"seed\" = E: y^2 = x^3 - 22735x^2 + 106272484x, N = 2^3*3*2243*4547^2*5843 (additive at 2 and 4547; N not squarefree),"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/D_imc_explicit_rank2.md",
+    "line": 26,
+    "text": "4. Seed: satisfies all Algorithm 11.1 hypotheses for every odd p not in {4547} (additive only at 2, 4547; image GL_2(F_l) all odd l;"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/E_uniformity_mechanisms.md",
+    "line": 101,
+    "text": "4. Seed: conductor ~ 6.5 * 10^15, far outside Thm 1.1's table; (c) applies in principle for each odd p not in {4547} (additive) since all"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_SECOND_DERIVATIVE_RATIONALITY_HUNT.md",
+    "line": 318,
+    "text": "| S3 | curves y\u00b2 = x(x\u00b2 + ax + b); conductor 2\u00b3\u00b73\u00b72243\u00b74547\u00b2\u00b75843 with additive, potentially supersingular reduction at 4547 (j \u2261 1728) | Tunnell/Waldspurger-type formulas are for central *values* (rank 0); no derivative formula attached to this shape found. The non-semistable conductor *excludes* the seed from several theorems (KRY square-free level; Yun\u2013Zhang II square-free level \u2014 function field anyway; BSTW semistable) but nothing of order 2 exists to be excluded from | nothing found |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/agents/D_refined_bsd.md",
+    "line": 62,
+    "text": "- Seed check: p = 5 proved Sha[5^inf]=0 and image GL_2(F_l) for odd l: the Kurihara-number structure theorem could be *applicable* to the seed at semistable p (p not in {2,4547}) if IMC-localized holds, but it yields Selmer structure, not L''."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/agents/PROMPTS.md",
+    "line": 19,
+    "text": "Conductor N = 2\u00b3\u00b73\u00b72243\u00b74547\u00b2\u00b75843, so NOT semistable: additive at 2 and at 4547 (Kodaira III, potentially"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/RESUME.md",
+    "line": 77,
+    "text": "| Cited, not re-verified here | \u2022 LC-4, odd isogenies.<br>\u2022 The 4547 exclusion.<br>\u2022 Kato / SW Thm 6.1, L\u2085. |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/audit/A0_blind_reconstruction.md",
+    "line": 137,
+    "text": "PARI (numerics/A0_seed_local2.gp): N = 2^3 3 2243 4547^2 5843 confirmed; at 2: Kodaira I_1^* (code -5), f_2 = 3, c_2 = 2; isogeny class = 2 curves (2-isogeny), other curve III^* at 2; torsion Z/2 on both; a_2 = 0 (additive)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/audit/LC_consequence.md",
+    "line": 3,
+    "text": "Scope: only the NEW links C.1\u2013C.5. Not re-derived: the 4547 exclusion, L\u2085, Kato, SW Thm 6.1, Steps A/B themselves."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/audit/LC_consequence.md",
+    "line": 24,
+    "text": "4547: E4547/00_REPORT.md (l.1\u20133, \u00a71, \u00a73) is stated for \"the Manin constant c\u2080 of the strong Weil curve\", citing Edixhoven [Edi91 Thm 3] via CNS \u00a71 (CNS.txt l.76\u201379, stated in the context of optimal \u03c6: p \u2224 c_\u03c6 for p \u2265 11 not additive potentially ordinary of type II/III/IV) and Ces18 \u00a71.2 (\"new elliptic optimal quotient J\u2080(n) \u21a0 E\"). The local data (type III, v(j)=0, j \u2261 1728, supersingular since 4547 \u2261 3 mod 4) are recorded for BOTH curves of the class, so the conclusion does not depend on which c"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/audit/LC_consequence.md",
+    "line": 102,
+    "text": "PASS. Every new link checks: c\u2080 = 2^a (Mazur, ARS2006 l.101; independently Ces18 l.58\u201363, plus the 4547 report stated for c\u2080 of E\u2080); class = {E, E'} with one 2-isogeny (non-square discriminants 9Am and 64AB, no cyclic 4-isogeny, odd images cited plus PARI ellisomat); c_E | 2c\u2080 with the correct direction of \u03c8 (CNS l.3109\u20133110); c_E \u2264 512 < 3999 \u2264 399 575; the hypothesis list matches the seed data. No defect found. Findings: one COSMETIC provenance item (stale charter pin, already recorded by othe"
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L1A_CASTELLA_THM_A/00_REPORT.md",
+    "line": 76,
+    "text": "   read those primaries; any extra hypothesis on N+ (here N+ = 2^3\u00b72243\u00b74547^2\u00b75843, NOT squarefree, with additive primes"
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L1B_CH_COR_B/00_REPORT.md",
+    "line": 50,
+    "text": "| S8' | Substitute: Bertolini\u2013Longo\u2013Venerucci, \"The anticyclotomic main conjectures for elliptic curves\", arXiv:2306.17784 (Math. Ann. 2026) (`sources/BCS_2306.17784.txt`). Hypothesis 1.1 (l.105-113) verbatim: \"(1) The rational prime p is >= 5 and does not divide N. (2) The rational prime p does not divide the class number hK and the discriminant of K. (3) ... rho-bar_{E,p} ... is surjective. (4) N- is squarefree. (5) If E has good ordinary reduction at p, then ... ap(E) != 1 (mod p) if p splits"
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L3C_ELL_PRIMARY/00_REPORT.md",
+    "line": 34,
+    "text": "2. **Each single-l target is NOT one of the recorded open items.** For a fixed odd l, not 4547, the Stein-Wuthrich certificate (Kato + Schneider/Perrin-Riou) is a finite computation. It was carried out at l = 5 (master certificate). It is not equivalent to Proposition K, the C1 Gate-B class-group component, the MR residual Stark equivalence or Gate G. Those are reformulations of Sha[5] = 0 for other members or at the residual level, and none of them is used here. So the per-l program is **not ex"
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L3C_ELL_PRIMARY/00_REPORT.md",
+    "line": 62,
+    "text": "| 4547 = A | III | 2 | 0 | 3 | additive (potentially good, supersingular type) |"
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L4B_CERTIFICATE_AUDIT/00_REPORT.md",
+    "line": 114,
+    "text": "Edixhoven [Edi91, Thm 3] as restated verbatim in CNS.txt l. 77\u201379: \"p \u2224 c_\u03c6 for any prime p \u2265 11 at which E does not have an additive potentially ordinary reduction of Kodaira type II, III, or IV\", and in Ces18.txt l. 75\u201377. The seed at 4547 (both curves of the class, A15\u2013A16): additive, type III, potentially good with j \u2261 1728, and the good reduction over the semistable extension is a j = 1728 curve over F\u2084\u2085\u2084\u2087 with 4547 \u2261 3 (mod 4), which is supersingular (a_p = 0). \"Potentially ordinary\" fails"
+  }
+]

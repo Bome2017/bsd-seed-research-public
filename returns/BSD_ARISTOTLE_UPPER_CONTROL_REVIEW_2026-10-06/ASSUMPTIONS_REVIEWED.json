@@ -1,0 +1,60 @@
+{
+  "retained_inputs": [
+    {
+      "id": "R1",
+      "statement": "Full residual image, product G0, translation module V^2 plus optional V epsilon, and restriction kernel W",
+      "grade": "Retained BFR/seed inputs; full original evidence not rerun"
+    },
+    {
+      "id": "R2",
+      "statement": "Rank-two saturated basis P1,P2 and rational 2-torsion",
+      "grade": "Retained released arithmetic"
+    },
+    {
+      "id": "R3",
+      "statement": "BFR forward injection for every p>=5 and primitive local generator divided over L_w",
+      "grade": "Previously independently reviewed written proof"
+    },
+    {
+      "id": "R4",
+      "statement": "Minimal model, reduction types and Tamagawa numbers, E(Q_p)[p]=0",
+      "grade": "Retained local arithmetic; q=2 explanation repaired independently"
+    },
+    {
+      "id": "R5",
+      "statement": "dim Sha[p] is even",
+      "grade": "Retained parity input; used only for bound/vanishing equivalence"
+    },
+    {
+      "id": "R6",
+      "statement": "Supersingular local image over Q_p is full nonsplit-Cartan normalizer; ordinary inertia has omega and 1",
+      "grade": "Serre input retained from reviewed local exactness"
+    }
+  ],
+  "imported_theorems": [
+    "Kummer exact sequences",
+    "Hochschild-Serre and restriction/corestriction",
+    "Group extension classification and cyclic cohomology",
+    "Local Tate duality and Euler characteristic",
+    "Finite Kummer local conditions and Tamagawa comparison",
+    "Global reciprocity / Greenberg-Wiles",
+    "Class field theory, Brauer-Hasse-Noether and Chebotarev",
+    "Formal group and nonsingular reduction structure"
+  ],
+  "new_review_work": [
+    "Independent reconstruction and repairs in CORRECTED_PROOF.md",
+    "Fresh Lean compilation and axiom audit of 18 declarations in three new modules",
+    "Six independent nodal-torus confirmations of local images",
+    "Exact q=2 c4, discriminant and j valuations",
+    "Scoped refutation and repair of S-only relative Brauer injection"
+  ],
+  "not_proved": [
+    "Independent upper bound",
+    "New primary vanishing",
+    "FIN",
+    "ORDER9",
+    "Q36",
+    "Literature novelty",
+    "Whole receiver theorem in Lean"
+  ]
+}

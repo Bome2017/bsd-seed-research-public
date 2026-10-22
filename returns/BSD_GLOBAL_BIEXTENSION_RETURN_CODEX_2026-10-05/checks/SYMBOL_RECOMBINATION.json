@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Exact recombination of retained identified symbols; corpus, intervals and Ota application not recertified",
+  "symbols": 102,
+  "p": 17,
+  "ell": 103,
+  "generator": 5,
+  "moments": [
+    "0",
+    "7242",
+    "46298"
+  ],
+  "mod_p": [
+    0,
+    0,
+    7
+  ],
+  "regulator": 6,
+  "a_ell": -2,
+  "w_17": 16,
+  "comparison_to_288": true,
+  "global_rational_scalar_constructed": false
+}

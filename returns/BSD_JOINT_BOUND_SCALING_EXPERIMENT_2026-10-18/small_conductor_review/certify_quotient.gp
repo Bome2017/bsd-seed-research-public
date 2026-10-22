@@ -1,0 +1,1 @@
+{alarm(58);gettime();B=read("../small_conductor7/bnf.bin");if(B.cyc!=[],error("unexpected provisional group"));print("CLASS_QUOTIENT_CERTIFICATION_START");Q=bnfcertify(B,1);if(Q!=1,error("class quotient certificate failure"));write("class_quotient_certificate.gp",[Q,B.cyc,B.no]);print("CLASS_QUOTIENT_CERTIFIED;RESULT=",Q,";CLASS_NUMBER=",B.no,";MS=",gettime());quit;}

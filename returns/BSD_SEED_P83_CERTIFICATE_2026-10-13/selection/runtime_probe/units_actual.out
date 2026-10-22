@@ -1,0 +1,8 @@
+SETUP T 57378078719 m 167 RT 239537 NSEG 3420 NLU 3420 NBLK 13680 wall 0.12 cpu 0.12 rss_MB 40
+UNIT 1000 lseg cpu 0.326 wall 0.328 max_rad 1.493e-38 max_abs 7.563e-07 uhash 1
+UNIT 3000 lseg cpu 0.214 wall 0.215 max_rad 1.891e-45 max_abs 5.626e-14 uhash 1
+UNIT 3419 lseg cpu 0.211 wall 0.213 max_rad 5.533e-47 max_abs 1.772e-15 uhash 1
+UNIT 3420 blk cpu 0.790 wall 0.790 max_rad 1.946e-32 max_abs 1.040e+00 uhash 1
+UNIT 10260 blk cpu 0.704 wall 0.705 max_rad 1.087e-40 max_abs 1.232e-09 uhash 1
+UNIT 17099 blk cpu 0.714 wall 0.715 max_rad 1.318e-46 max_abs 1.304e-15 uhash 1
+END rss_MB 121 total_cpu 3.08

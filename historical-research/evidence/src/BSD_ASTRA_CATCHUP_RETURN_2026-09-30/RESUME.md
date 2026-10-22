@@ -1,0 +1,1 @@
+COMPLETE. Items 1-4 saved. Route K passes at retained-input grade; release wording and uniform-search scoping corrections in RECORD_REPAIRS.md. No further work running. No release/map edits or publishing. Manifest generated last.

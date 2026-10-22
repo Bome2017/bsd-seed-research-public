@@ -1,0 +1,23 @@
+{
+  "status": "EXACT_FIRST_BATCH_REPLAY_PASS_NO_NEW_PROJECTED_RELATION",
+  "rows_checked": 196,
+  "closed_cycles_checked": 17,
+  "selected_orbits": 8,
+  "relative_ramified_finite_primes": 4,
+  "faithful_relation_ranks": [
+    0,
+    0
+  ],
+  "literal_relative_units_in_producer": 0,
+  "scope": "Replayed saved exact ideals and multipliers. No ideal reduction or class computation rerun.",
+  "sha256": {
+    "arithmetic/batch_rows.gp": "289f0818759bfc32aeb2e320c52162fa5e161975d866aaea10f07f4d8b84879f",
+    "arithmetic/closed_cycles.gp": "ea4bd88ddb2db1f62f10990e90ab83350f74fdd0d24f19601f499c6607d390c4",
+    "arithmetic/closed_relation_matrices.gp": "7a777dcdeb1755551327bd55ec50596851b56f1cd8a695f6d8230cef878ab646",
+    "arithmetic/setup_data.gp": "ad7b922edc30cfbdd9f98172836bab2eea2d5a7c86c12ceea53920595dee8204",
+    "review/replay_relative.gp": "0b7cd2e0f8d3efac336ae38f59f5a4045ac767a11a6ea55d4da2b739c20496f4",
+    "review/replay_relative.out": "22659b4dbd8857c28a6d6012d95564fca857c29c414472b0ae777356f487eddd",
+    "review/replay_relative.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "setup_log_note": "The producer appends identical setup records on subsequent runs; the recorded setup hash is the version used in the first independent replay. replay_support independently verifies the final scalar action and all support rows."
+}

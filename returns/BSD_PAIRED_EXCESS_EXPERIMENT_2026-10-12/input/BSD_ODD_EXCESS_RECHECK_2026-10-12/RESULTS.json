@@ -1,0 +1,317 @@
+{
+  "Cassels_selmer_ratio": "1/25",
+  "F_Sha5_dimension_lower_bound": 2,
+  "baseline_commit": "f97843a1b4768606787a9760ea4bad727a3dc4a1",
+  "differential_pullback": 1,
+  "discriminants": {
+    "A": {
+      "factorization": {
+        "11": 5,
+        "239": 6,
+        "3": 6,
+        "61": 6
+      },
+      "sign": -1
+    },
+    "F": {
+      "factorization": {
+        "11": 1,
+        "239": 6,
+        "3": 6,
+        "61": 6
+      },
+      "sign": -1
+    }
+  },
+  "formal_proof_assistant_verification": false,
+  "isogeny_Sha_dimension_difference": 2,
+  "kernel_real_checks": [
+    {
+      "Y2_div_d_square_root": "481107/2",
+      "x": 204106
+    },
+    {
+      "Y2_div_d_square_root": "5292177/2",
+      "x": 685213
+    }
+  ],
+  "local_Tamagawa_data": {
+    "A": [
+      {
+        "Tate_cubic_coeffs": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "Tate_cubic_discriminant": 1,
+        "Tate_cubic_roots": [],
+        "c_q": 1,
+        "conductor_exponent": 2,
+        "q": 3,
+        "reduction": "I0*",
+        "v5_cq": 0,
+        "v_Delta": 6,
+        "v_c4": 2,
+        "v_c6": 3,
+        "x_shift": 1
+      },
+      {
+        "c_q": 5,
+        "conductor_exponent": 1,
+        "q": 11,
+        "reduction": "split multiplicative I_5",
+        "split_test_minus_c6": 1,
+        "v5_cq": 1,
+        "v_Delta": 5,
+        "v_c4": 0,
+        "v_c6": 0
+      },
+      {
+        "Tate_cubic_coeffs": [
+          1,
+          0,
+          54,
+          0
+        ],
+        "Tate_cubic_discriminant": 30,
+        "Tate_cubic_roots": [
+          0
+        ],
+        "c_q": 2,
+        "conductor_exponent": 2,
+        "q": 61,
+        "reduction": "I0*",
+        "v5_cq": 0,
+        "v_Delta": 6,
+        "v_c4": 2,
+        "v_c6": 4,
+        "x_shift": 0
+      },
+      {
+        "Tate_cubic_coeffs": [
+          1,
+          0,
+          19,
+          182
+        ],
+        "Tate_cubic_discriminant": 39,
+        "Tate_cubic_roots": [
+          163
+        ],
+        "c_q": 2,
+        "conductor_exponent": 2,
+        "q": 239,
+        "reduction": "I0*",
+        "v5_cq": 0,
+        "v_Delta": 6,
+        "v_c4": 2,
+        "v_c6": 3,
+        "x_shift": 0
+      }
+    ],
+    "F": [
+      {
+        "Tate_cubic_coeffs": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "Tate_cubic_discriminant": 1,
+        "Tate_cubic_roots": [],
+        "c_q": 1,
+        "conductor_exponent": 2,
+        "q": 3,
+        "reduction": "I0*",
+        "v5_cq": 0,
+        "v_Delta": 6,
+        "v_c4": 2,
+        "v_c6": 3,
+        "x_shift": 1
+      },
+      {
+        "c_q": 1,
+        "conductor_exponent": 1,
+        "q": 11,
+        "reduction": "split multiplicative I_1",
+        "split_test_minus_c6": 1,
+        "v5_cq": 0,
+        "v_Delta": 1,
+        "v_c4": 0,
+        "v_c6": 0
+      },
+      {
+        "Tate_cubic_coeffs": [
+          1,
+          0,
+          31,
+          0
+        ],
+        "Tate_cubic_discriminant": 30,
+        "Tate_cubic_roots": [
+          0
+        ],
+        "c_q": 2,
+        "conductor_exponent": 2,
+        "q": 61,
+        "reduction": "I0*",
+        "v5_cq": 0,
+        "v_Delta": 6,
+        "v_c4": 2,
+        "v_c6": 4,
+        "x_shift": 0
+      },
+      {
+        "Tate_cubic_coeffs": [
+          1,
+          0,
+          101,
+          90
+        ],
+        "Tate_cubic_discriminant": 97,
+        "Tate_cubic_roots": [
+          21
+        ],
+        "c_q": 2,
+        "conductor_exponent": 2,
+        "q": 239,
+        "reduction": "I0*",
+        "v5_cq": 0,
+        "v_Delta": 6,
+        "v_c4": 2,
+        "v_c6": 3,
+        "x_shift": 0
+      }
+    ]
+  },
+  "local_products": {
+    "A": {
+      "Tamagawa_product": 20,
+      "conductor": 21042176859
+    },
+    "F": {
+      "Tamagawa_product": 4,
+      "conductor": 21042176859
+    }
+  },
+  "new_seed_value": false,
+  "p_adic_recheck": {
+    "Euler_mod5": 4,
+    "H_U_mod5pow8": 1419,
+    "L2_mod125": 100,
+    "Q_mod125": 25,
+    "Q_over25_mod5": 1,
+    "Tamagawa_product_F": 4,
+    "v_L2": 2,
+    "v_det_H_U": 0
+  },
+  "paired_isogeny_deduction": {
+    "L2_A_mod25_derived": 20,
+    "normalized_excess_A_derived": 0,
+    "normalized_excess_F_observed": 2,
+    "quotient_F_over_A_derived": 25,
+    "v_L2_A_derived": 1,
+    "v_height_A_derived": 0,
+    "v_tam_A": 1,
+    "warning": "A numerator/height values are derived by isogeny, not a new independent run"
+  },
+  "point_images_exact": true,
+  "point_matrix": [
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      -2
+    ]
+  ],
+  "polynomial_identity": true,
+  "quadratic_twist_model_identity": true,
+  "rational_torsion_order_both": 1,
+  "reduction_certificates": {
+    "A": {
+      "det_mod5": 1,
+      "rows": [
+        {
+          "generator_short": [
+            0,
+            2
+          ],
+          "group_order": 10,
+          "q": 7,
+          "row": [
+            4,
+            4
+          ]
+        },
+        {
+          "generator_short": [
+            12,
+            5
+          ],
+          "group_order": 20,
+          "q": 19,
+          "row": [
+            4,
+            3
+          ]
+        }
+      ]
+    },
+    "F": {
+      "det_mod5": 2,
+      "rows": [
+        {
+          "generator_short": [
+            4,
+            3
+          ],
+          "group_order": 10,
+          "q": 7,
+          "row": [
+            3,
+            2
+          ]
+        },
+        {
+          "generator_short": [
+            15,
+            4
+          ],
+          "group_order": 20,
+          "q": 19,
+          "row": [
+            4,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "retained_not_recomputed": [
+    "rank upper bound from PARI",
+    "overconvergent modular symbol and its error bounds"
+  ],
+  "small_counts": {
+    "A": {
+      "13": 18,
+      "19": 20,
+      "5": 7,
+      "7": 10
+    },
+    "F": {
+      "13": 18,
+      "19": 20,
+      "5": 7,
+      "7": 10
+    }
+  },
+  "status": "PASS_EXACT_RECHECK_UNDER_STATED_RETAINED_INPUTS",
+  "theorem_inputs_not_formalized": [
+    "Cassels isogeny-Selmer ratio",
+    "specified branches of the Tate algorithm",
+    "isogeny functoriality of canonical ordinary p-adic heights"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 0.2720095629338175,
+  "required_marker": true,
+  "scope": "Actual candidate-selection metric only; no LLL or candidate search performed. Cached embeddings not recomputed.",
+  "repairs": [
+    "Initial reviewer omitted producer realprecision setting; corrected to180 before constructing192-bit rounded metric.",
+    "Second reviewer script attempted vecmax on vector of matrix columns; corrected to nested scalar maxima."
+  ],
+  "failures_preserved": true
+}

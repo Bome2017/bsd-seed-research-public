@@ -1,0 +1,27 @@
+{
+  "lab_baseline": "257af6888c80fda3b90d481cf2d94f9950701811",
+  "input_commit": "0048c241f4737ddc5b6d4044a04599d3910a96da",
+  "files": [
+    {
+      "path": "work/returns/BSD_CORRELATED_VALUATION_EXPERIMENT_2026-10-12/checks/height_geometry.gp",
+      "sha256": "139f9022ee6cafd9dbd1ba783a8fdb786510f1c080c684dccfb01de8a6810f58"
+    },
+    {
+      "path": "work/returns/BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12/TOWER_AUDIT.md",
+      "sha256": "08f2e43989fc99a9fb6e7283b37fcf7a6f1ac6d97e848876dea95587676d59dd"
+    },
+    {
+      "path": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/working_set/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/input/BSD_SECOND_TORSION_LOCAL_EXACTNESS_PUSH_2026-10-03/PENCIL_TAILS.md",
+      "sha256": "54785a60af343a398c51882d2a10eb0028839463724282593ba2a62205831bcd"
+    },
+    {
+      "path": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/governing/RECEIVER_ADDITIVE.md",
+      "sha256": "2406d3fd55e79ca2bc2808f2c67dba627747ad62768082c1fabf9e99a539a7d7"
+    },
+    {
+      "path": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/working_set/BSD_MECHANISM_B_RETURN_REVIEW_CODEX_2026-09-30/CYCLIC_DETECTION_REPAIR.md",
+      "sha256": "e03581f809ed5c345f83f75d89d6073ffc57db27a8e1fc12bc0ff5752d039c3b"
+    }
+  ],
+  "qualification": "Retained theorem and arithmetic inputs; hashes bind sources, not independent proof or replay."
+}

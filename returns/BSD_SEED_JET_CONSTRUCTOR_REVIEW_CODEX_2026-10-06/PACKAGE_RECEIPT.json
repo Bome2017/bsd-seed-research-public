@@ -1,0 +1,34 @@
+{
+  "status": "REVIEWED_SUPPLEMENT_PREPARED_NOT_SUBMITTED",
+  "zip": "/Users/bsm/Desktop/BSD_SEED_JET_CONSTRUCTOR_REVIEWED_2026-10-06.zip",
+  "bytes": 386174,
+  "sha256": "83dcf2a1e3bfa1a3ae128bc58b9b64a270f26e1dcac3694ceb82ec5e700a522d",
+  "manifest_entries": 167,
+  "nested_manifests": [
+    {
+      "folder": "original",
+      "count": 17
+    },
+    {
+      "folder": "retained/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04",
+      "count": 40
+    },
+    {
+      "folder": "retained/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04",
+      "count": 32
+    },
+    {
+      "folder": "retained/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04",
+      "count": 31
+    },
+    {
+      "folder": "retained/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04",
+      "count": 27
+    },
+    {
+      "folder": "retained/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05",
+      "count": 3
+    }
+  ],
+  "source_commit": "203219857f29631dc56455b0543870a347a25d5e"
+}

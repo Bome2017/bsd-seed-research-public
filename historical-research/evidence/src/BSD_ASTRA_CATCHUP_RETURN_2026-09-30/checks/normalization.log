@@ -1,0 +1,12 @@
+exit=0
+wall_seconds=0.231
+STDOUT
+ON_CURVE 1 1
+A3 -1
+PREC 8 REG 3^2 + 3^4 + 2*3^5 + 3^6 + 2*3^7 + 2*3^8 + 3^9 + O(3^10) VREG 2 VLOG 1 VNORMALIZED 0
+PREC 11 REG 3^2 + 3^4 + 2*3^5 + 3^6 + 2*3^7 + 2*3^8 + 3^9 + 3^10 + 3^11 + 3^12 + O(3^13) VREG 2 VLOG 1 VNORMALIZED 0
+PREC 14 REG 3^2 + 3^4 + 2*3^5 + 3^6 + 2*3^7 + 2*3^8 + 3^9 + 3^10 + 3^11 + 3^12 + 3^13 + 2*3^14 + 2*3^15 + O(3^16) VREG 2 VLOG 1 VNORMALIZED 0
+V5843 1
+VA2 2 2
+
+STDERR

@@ -1,0 +1,114 @@
+{
+  "status": "EXACT_LOCAL_TESTS_PASS",
+  "counts": {
+    "integral_interpolation_determinant_24": 1,
+    "action_matches_dirac_evaluation": 1920,
+    "independent_slot_lift_invariance": 360,
+    "semigroup_law_on_arbitrary_local_arrays": 240,
+    "central_weight_shift": 48,
+    "functional_matches_independent_character_evaluation": 24,
+    "functional_mixed_precision_invariance": 24,
+    "valuation_three_retained": 6,
+    "nonzero_local_array_all_four_values_zero": 6,
+    "wrong_weight_rescaling_detected": 6,
+    "principal_log_independent_power_identity": 30,
+    "out_of_scope_prime_rejected": 6
+  },
+  "total_checks": 2671,
+  "interpolation_determinant": 24,
+  "moment_slots": 10,
+  "base_p_digits_per_divisor": 20,
+  "test_details": [
+    {
+      "p": 17,
+      "local_action_matrices": 20,
+      "toy_dirac_functionals": {
+        "3,2": 50897,
+        "3,3": 79527,
+        "4,3": 22339,
+        "4,4": 1563
+      },
+      "toy_assignments_are_not_global_symbols": true
+    },
+    {
+      "p": 19,
+      "local_action_matrices": 20,
+      "toy_dirac_functionals": {
+        "3,2": 22210,
+        "3,3": 90099,
+        "4,3": 43207,
+        "4,4": 95740
+      },
+      "toy_assignments_are_not_global_symbols": true
+    },
+    {
+      "p": 23,
+      "local_action_matrices": 20,
+      "toy_dirac_functionals": {
+        "3,2": 119070,
+        "3,3": 13893,
+        "4,3": 154124,
+        "4,4": 101728
+      },
+      "toy_assignments_are_not_global_symbols": true
+    },
+    {
+      "p": 31,
+      "local_action_matrices": 20,
+      "toy_dirac_functionals": {
+        "3,2": 698274,
+        "3,3": 543927,
+        "4,3": 7751,
+        "4,4": 450057
+      },
+      "toy_assignments_are_not_global_symbols": true
+    },
+    {
+      "p": 73,
+      "local_action_matrices": 20,
+      "toy_dirac_functionals": {
+        "3,2": 23973199,
+        "3,3": 10607485,
+        "4,3": 16847890,
+        "4,4": 14906818
+      },
+      "toy_assignments_are_not_global_symbols": true
+    },
+    {
+      "p": 107,
+      "local_action_matrices": 20,
+      "toy_dirac_functionals": {
+        "3,2": 116939336,
+        "3,3": 99595708,
+        "4,3": 17701225,
+        "4,4": 111180061
+      },
+      "toy_assignments_are_not_global_symbols": true
+    }
+  ],
+  "seed_local_checks": [
+    {
+      "p": 17,
+      "points": 24,
+      "a_p": -6,
+      "ordinary": true,
+      "unit_root_mod_p4": 6981,
+      "modulus": 83521,
+      "does_not_check_Hida_exceptional_domain": true
+    },
+    {
+      "p": 31,
+      "points": 40,
+      "a_p": -8,
+      "ordinary": true,
+      "unit_root_mod_p4": 57776,
+      "modulus": 923521,
+      "does_not_check_Hida_exceptional_domain": true
+    }
+  ],
+  "seed_global_symbol_computed": false,
+  "seed_W3_values_computed": false,
+  "new_primary_certificate": false,
+  "uniform_bound_proved": false,
+  "lean_replay_performed": false
+}

@@ -1,0 +1,23 @@
+{
+  "archive": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/provenance/before_historical_coverage_20260921T140324Z.tar.gz",
+  "sha256": "51d7ec256e0f0ff995ba7a6ab91d470415fe4eec8bb90c1349db4b501964ab69",
+  "files": {
+    "MASTER_BSD_DAG.md": "c3b6a6eb78198214e4ea5dddc8b93e2c7048197eadd0ea955c81a476c194a957",
+    "SOURCE_BINDINGS.json": "4e1ae3dd29a703ae6e63af24109420b7bf585093fa156eb562fbb89b4b5e46a4",
+    "RECONCILIATION_INVENTORY.json": "82bec2f9a733f40e816b8a0479fa203ac6cd200b1f165060206ec9fd566248f9",
+    "STATE.json": "e211da26c54273a07ebf1cd7f895c3a9d8e09c8616f2d92d1014dda560891eb3",
+    "RESUME.md": "3ddea91af8aea0f414c3792cadb6bae6464fb6c9ca71f37bf7a383dfde141d30",
+    "00_READ_FIRST.md": "5d30560405a2fa929a783b55b69925d00feea14be8e67431a14aa23d0b43a664",
+    "verify_master.py": "e04b2719944425c88843596341ca5f08cd67329c48852ef0fcbf67861ee821de",
+    "VERIFICATION.json": "bcc8e0dd710bce8467aef20bf9a560c8d13bb2408fc408e9844ce605a909ce90",
+    "MANIFEST.sha256": "2705bb6fafa09b15d117456d7d8e32244e681e02a81698040f6a18aeee16e5e6"
+  },
+  "preserved_at_utc": "2026-09-21T14:03:24.423285+00:00",
+  "known_preexisting_manifest_mismatches": [
+    "MASTER_BSD_DAG.md",
+    "RECONCILIATION_INVENTORY.json",
+    "RESUME.md",
+    "SOURCE_BINDINGS.json",
+    "STATE.json"
+  ]
+}

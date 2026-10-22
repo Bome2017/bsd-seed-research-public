@@ -1,0 +1,40 @@
+{
+  "research_snapshot": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+  "lab_snapshot": "ceadfa43c5543cf5efd75d0ed72cad5728d6e7cc",
+  "separate_lab_branch_packets": {
+    "c728f2d2c993f480d99de297906e8482838419f9": "BSD_CYCLOTOMIC5_AND_MOMENT_2026-10-12",
+    "3f49551ab14268be879eb7f31820aa604350d7e3": "BSD_DIRECT_BASE_CONTROL_PROBE_2026-10-12",
+    "5110be8805f202ebc9a4a112ec0854fd764a620c": "BSD_FINITE_SOURCE_PALETTE_2026-10-12",
+    "0048c241f4737ddc5b6d4044a04599d3910a96da": "BSD_LOCAL_OBSTRUCTION_DETECTOR_2026-10-13",
+    "8365c394f1017280a6463d7f25afac2e321c0c25": "BSD_QUINTIC_RELATIVE_LEADING_TERM_2026-10-12",
+    "45821d2778ea277db2cbfaf5eed6e59dec392377": "BSD_VALUATION_MECHANISM_2026-10-13"
+  },
+  "exported_files": 12246,
+  "exported_bytes": 554697964,
+  "redacted_files": 22,
+  "omitted_files": 6177,
+  "credential_pattern_files": [],
+  "proof_validation": "No mathematical claim upgraded by publication; original grades retained; omissions mean not every legacy replay can run from this export.",
+  "later_pinned_packets": [
+    {
+      "commit": "b204bbf582cf5cdfc081c7f93ddb9e0bc5976444",
+      "folder": "BSD_FIN_RELATIVE_DISCRIMINANT_GATE_2026-10-21"
+    },
+    {
+      "commit": "b204bbf582cf5cdfc081c7f93ddb9e0bc5976444",
+      "folder": "BSD_FIN_SOURCE_EXPERIMENTS_2026-10-21"
+    },
+    {
+      "commit": "d078b61482a57375aeb20eeeb2c72698a67f4a01",
+      "folder": "BSD_PRIMARY_TORSION_BOUND_2026-10-22"
+    }
+  ],
+  "public_edition_prepared": "2026-10-22",
+  "complete_supplied_packet": {
+    "folder": "BSD_FIN_SOURCE_EXPERIMENTS_2026-10-21",
+    "files": 46,
+    "manifest_entries": 45,
+    "archive_sha256": "6f0aa3eab6268e034e2874d8cb75041b17d93a91e02562207d54137c43543595",
+    "grade": "Source packet disclosed; arithmetic recheck supplied separately by current return."
+  }
+}

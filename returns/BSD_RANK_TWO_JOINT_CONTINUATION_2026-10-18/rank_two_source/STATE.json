@@ -1,0 +1,23 @@
+{
+  "status": "SEALED_SOURCE_FAILURE_WITH_EXACT_FIELD",
+  "curve": "655a1",
+  "p": 7,
+  "wall_budget": 180,
+  "probe_wall_used": 473.2692243682686,
+  "endpoints_unchanged": true,
+  "field_constructed": true,
+  "rank_recheck": [
+    2,
+    2
+  ],
+  "default_bnf": "alarm_no_units",
+  "dense_bnf": "alarm_no_units_KC5364",
+  "tangent_wall_used": 116.29812857275829,
+  "tangent_bases": 14,
+  "tangent_integer_units": 24,
+  "tangent_divisor_rank": 60,
+  "bnf_extended": "alarm_no_units",
+  "actual_nontrivial_units": 0,
+  "tangent_products_all_signs": true,
+  "rank_two_source_usable": false
+}

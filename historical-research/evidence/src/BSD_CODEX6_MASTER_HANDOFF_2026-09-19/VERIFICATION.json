@@ -1,0 +1,8 @@
+{
+  "result": "PASS_WITH_STATED_COVERAGE_LIMITS",
+  "canonical_document": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+  "bound_sources_checked": 351,
+  "discovered_records": 15435,
+  "issues": [],
+  "scope": "Freshness and local integrity only. No proof validation, exhaustive history recovery, or automatic maintenance."
+}

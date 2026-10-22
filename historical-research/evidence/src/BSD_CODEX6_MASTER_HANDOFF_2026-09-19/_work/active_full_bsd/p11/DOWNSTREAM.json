@@ -1,0 +1,1188 @@
+{
+  "status": "P11_COEFFICIENT_UNIT_PROVED",
+  "p": 11,
+  "a11": -2,
+  "point_count_F11": 14,
+  "finite_P2_precision_exponent": 20,
+  "finite_P2_coefficients_mod_11pow20": [
+    0,
+    535970640764846628330,
+    389380548516665685251
+  ],
+  "infinite_L11_leading_coefficient_certified_digits": 1,
+  "residue_omega1": 8,
+  "residue_neron_full_period": 4,
+  "folded_exact_integer_or_rational": "-190",
+  "lower_contribution_mod_11": 0,
+  "alpha_mod_121": 64,
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "name": "unique row b=1 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=2 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=3 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=4 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=5 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=6 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=7 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=8 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=9 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=10 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=12 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=13 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=14 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=15 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=16 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=17 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=18 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=19 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=20 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=21 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=23 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=24 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=25 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=26 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=27 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=28 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=29 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=30 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=31 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=32 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=34 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=35 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=36 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=37 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=38 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=39 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=40 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=41 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=42 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=43 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=45 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=46 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=47 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=48 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=49 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=50 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=51 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=52 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=53 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=54 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=56 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=57 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=58 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=59 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=60 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=61 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=62 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=63 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=64 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=65 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=67 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=68 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=69 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=70 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=71 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=72 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=73 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=74 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=75 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=76 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=78 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=79 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=80 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=81 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=82 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=83 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=84 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=85 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=86 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=87 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=89 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=90 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=91 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=92 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=93 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=94 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=95 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=96 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=97 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=98 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=100 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=101 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=102 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=103 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=104 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=105 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=106 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=107 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=108 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=109 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=111 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=112 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=113 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=114 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=115 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=116 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=117 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=118 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=119 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=120 at denominator 121",
+      "passed": true
+    },
+    {
+      "name": "unique row b=1 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=2 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=3 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=4 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=5 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=6 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=7 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=8 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=9 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "unique row b=10 at denominator 11",
+      "passed": true
+    },
+    {
+      "name": "point count agrees with verified coefficient",
+      "passed": true
+    },
+    {
+      "name": "complete unit symbols at 121",
+      "passed": true
+    },
+    {
+      "name": "conjugation at 121",
+      "passed": true
+    },
+    {
+      "name": "lattice and p-integrality at 121",
+      "passed": true
+    },
+    {
+      "name": "complete unit symbols at 11",
+      "passed": true
+    },
+    {
+      "name": "conjugation at 11",
+      "passed": true
+    },
+    {
+      "name": "lattice and p-integrality at 11",
+      "passed": true
+    },
+    {
+      "name": "Hecke relation at zero cusp",
+      "passed": true
+    },
+    {
+      "name": "all two-level Hecke relations for both signs",
+      "passed": true
+    },
+    {
+      "name": "predeclared folded formula exactly matches all weights",
+      "passed": true
+    },
+    {
+      "name": "folded and unfolded Fermat-quotient residues agree",
+      "passed": true
+    },
+    {
+      "name": "Hensel unit root",
+      "passed": true
+    },
+    {
+      "name": "Teichmuller lifts",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=1",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=12",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=23",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=34",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=45",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=56",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=67",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=78",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=89",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=100",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=111",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=112",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=13",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=35",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=57",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=79",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=101",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=2",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=24",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=46",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=68",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=90",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=3",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=36",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=69",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=102",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=14",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=47",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=80",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=113",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=25",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=58",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=91",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=81",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=4",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=48",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=92",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=15",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=59",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=103",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=26",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=70",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=114",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=37",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=27",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=82",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=16",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=71",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=5",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=60",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=115",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=49",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=104",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=38",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=93",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=94",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=39",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=105",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=50",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=116",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=61",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=6",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=72",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=17",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=83",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=28",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=40",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=117",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=73",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=29",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=106",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=62",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=18",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=95",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=51",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=7",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=84",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=118",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=85",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=52",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=19",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=107",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=74",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=41",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=8",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=96",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=63",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=30",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=9",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=108",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=86",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=64",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=42",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=20",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=119",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=97",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=75",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=53",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=31",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=120",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=109",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=98",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=87",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=76",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=65",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=54",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=43",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=32",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=21",
+      "passed": true
+    },
+    {
+      "name": "independent exponent at b=10",
+      "passed": true
+    },
+    {
+      "name": "each unit at depth two occurs once",
+      "passed": true
+    },
+    {
+      "name": "finite P2 constant term is zero",
+      "passed": true
+    },
+    {
+      "name": "finite P2 linear term vanishes modulo p",
+      "passed": true
+    },
+    {
+      "name": "lower-level quadratic contribution vanishes modulo p",
+      "passed": true
+    },
+    {
+      "name": "two independent coefficient evaluations agree",
+      "passed": true
+    }
+  ],
+  "symbol_file_sha256": {
+    "SYMBOLS_m121.txt": "97403b1840b46c67d7a72ec5f5824bb52a1541b6278f78caee9b5dce447ca95c",
+    "SYMBOLS_m11.txt": "6426cb1eea0fb81a1be8d0158fd14bd6439dbdf847a8bf3d4d22e6a0f8cf8b23"
+  },
+  "plus_symbols_121": {
+    "1": "-129",
+    "2": "-133",
+    "3": "114",
+    "4": "-5",
+    "5": "134",
+    "6": "110",
+    "7": "142",
+    "8": "47",
+    "9": "-13",
+    "10": "134",
+    "12": "85",
+    "13": "138",
+    "14": "83",
+    "15": "-40",
+    "16": "85",
+    "17": "52",
+    "18": "-121",
+    "19": "-13",
+    "20": "44",
+    "21": "-149",
+    "23": "-59",
+    "24": "47",
+    "25": "-133",
+    "26": "160",
+    "27": "80",
+    "28": "45",
+    "29": "20",
+    "30": "-182",
+    "31": "83",
+    "32": "110",
+    "34": "80",
+    "35": "-97",
+    "36": "-97",
+    "37": "-40",
+    "38": "-32",
+    "39": "-59",
+    "40": "20",
+    "41": "-18",
+    "42": "-182",
+    "43": "-73",
+    "45": "45",
+    "46": "-18",
+    "47": "-123",
+    "48": "-5",
+    "49": "-73",
+    "50": "-129",
+    "51": "-121",
+    "52": "138",
+    "53": "-123",
+    "54": "52",
+    "56": "-32",
+    "57": "114",
+    "58": "44",
+    "59": "142",
+    "60": "-149",
+    "61": "-149",
+    "62": "142",
+    "63": "44",
+    "64": "114",
+    "65": "-32",
+    "67": "52",
+    "68": "-123",
+    "69": "138",
+    "70": "-121",
+    "71": "-129",
+    "72": "-73",
+    "73": "-5",
+    "74": "-123",
+    "75": "-18",
+    "76": "45",
+    "78": "-73",
+    "79": "-182",
+    "80": "-18",
+    "81": "20",
+    "82": "-59",
+    "83": "-32",
+    "84": "-40",
+    "85": "-97",
+    "86": "-97",
+    "87": "80",
+    "89": "110",
+    "90": "83",
+    "91": "-182",
+    "92": "20",
+    "93": "45",
+    "94": "80",
+    "95": "160",
+    "96": "-133",
+    "97": "47",
+    "98": "-59",
+    "100": "-149",
+    "101": "44",
+    "102": "-13",
+    "103": "-121",
+    "104": "52",
+    "105": "85",
+    "106": "-40",
+    "107": "83",
+    "108": "138",
+    "109": "85",
+    "111": "134",
+    "112": "-13",
+    "113": "47",
+    "114": "142",
+    "115": "110",
+    "116": "134",
+    "117": "-5",
+    "118": "114",
+    "119": "-133",
+    "120": "-129"
+  },
+  "plus_symbols_11": {
+    "1": "-32",
+    "2": "70",
+    "3": "70",
+    "4": "-76",
+    "5": "-32",
+    "6": "-32",
+    "7": "-76",
+    "8": "70",
+    "9": "70",
+    "10": "-32"
+  },
+  "folded_weights": {
+    "2": 2,
+    "5": 3,
+    "6": 2,
+    "7": 7,
+    "8": 5,
+    "10": 6,
+    "14": 3,
+    "15": 3,
+    "16": 6,
+    "17": 3,
+    "18": 2,
+    "19": 7,
+    "20": 5,
+    "21": 7,
+    "23": 6,
+    "24": 5,
+    "25": 3,
+    "26": 5,
+    "28": 6,
+    "29": 7,
+    "30": 6,
+    "31": 6,
+    "32": 3,
+    "34": 7,
+    "35": 6,
+    "37": 6,
+    "38": 7,
+    "41": 2,
+    "42": 3,
+    "43": 5,
+    "45": 3,
+    "46": 3,
+    "47": 5,
+    "48": 6,
+    "49": 5,
+    "50": 7,
+    "51": 3,
+    "52": 6,
+    "53": 7,
+    "54": 2,
+    "56": 5,
+    "57": 7,
+    "58": 7,
+    "59": 5,
+    "60": 5
+  }
+}

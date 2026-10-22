@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "return": "BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15",
+  "parent_commit": "52c2b796933200f0ee3895a6a750089cd801be72",
+  "destination_branch": "research/state-sync-2026-10-04",
+  "copied_files": 289,
+  "top_manifest_entries": 288,
+  "nested_plus_top_manifest_entries": 545,
+  "archive": {
+    "path": "work/returns/archives/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15.zip",
+    "bytes": 842448,
+    "sha256": "5cd36e8b42dd5ee18136647cec20b7f8b3431c01ab1142f364cb33721443dfcb",
+    "crc": "pass"
+  },
+  "copied_bytes": "all match",
+  "mathematics": "Written source-bound deductions and exact finite arithmetic; not a seed upper bound",
+  "unchanged": [
+    "FIN",
+    "ORDER9",
+    "Q36",
+    "seed coefficient-prime coverage"
+  ],
+  "authorization": "Standing user instruction: Each time upload to lab GitHub so I can show pro 6. No main merge or expert promotion."
+}

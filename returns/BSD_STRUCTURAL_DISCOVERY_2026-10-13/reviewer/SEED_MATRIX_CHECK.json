@@ -1,0 +1,82 @@
+{
+  "status": "EXACT_LINEAR_ALGEBRA_PASS",
+  "dimensions": {
+    "valuation": 0,
+    "unit": 1,
+    "class": 1
+  },
+  "dimension_sum": 2,
+  "dim_A0": 4,
+  "dim_W0": 2,
+  "dim_U": 2,
+  "dim_UW": 1,
+  "rank_valuation": 0,
+  "rank_point_valuation": 0,
+  "rank_class": 2,
+  "rank_point_class": 1,
+  "unramified_basis": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "unit_basis": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ]
+  ],
+  "point_unramified_basis": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "scope": "Checks supplied matrices and exact sequences, not their number-field arithmetic or class-group completeness.",
+  "producer_binding": {
+    "probe.out": "4d82f4a93f796df154ce39efb06dc982788e025ab5370f0a646a277e11c14dba",
+    "probe.err": "56d5fc3f52fded51ae307ae233e1116e143268030f7b6046a0869894a6bdbcbc",
+    "probe.gp": "dc8e8510ef8c1a522fc46e348c3e23940f6a3c8ff2027fde37316be14e7d85c4"
+  },
+  "producer_gp_diagnostics": [
+    "  *** read: Warning: increasing stack size to 1000000000.",
+    "  *** subst: Warning: increasing stack size to 2000000000."
+  ],
+  "class_group_scope": "Class-coordinate completeness remains at the retained BNF grade; this checker does not certify it."
+}

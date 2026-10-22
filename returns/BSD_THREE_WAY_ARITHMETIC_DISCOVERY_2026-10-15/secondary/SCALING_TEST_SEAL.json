@@ -1,0 +1,7 @@
+{
+  "sealed_utc": "2026-10-15T19:27:55.281882+00:00",
+  "test": "same-class cube rescaling of all five genuine unit representatives",
+  "operation": "alpha_new=alpha/8, s_new=s/8, incidence norm degree=3",
+  "prediction": "all five same Kummer classes now have a nonintegral affine norm cube root, so root integrality is not invariant under changing a representative by a cube",
+  "scope": "No secondary Selmer conclusion; source class unchanged"
+}

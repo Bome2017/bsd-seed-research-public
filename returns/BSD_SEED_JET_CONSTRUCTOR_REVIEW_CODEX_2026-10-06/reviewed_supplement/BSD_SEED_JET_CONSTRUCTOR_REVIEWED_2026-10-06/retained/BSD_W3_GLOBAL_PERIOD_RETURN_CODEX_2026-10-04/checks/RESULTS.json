@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "scope": "formula controls only; no seed Sha, Hecke algebra or class group computed",
+  "groups": 9,
+  "results": {
+    "seed_coordinate_change": {
+      "minimal_cubic_low_to_high": [
+        -65074271436,
+        -66020924,
+        -1,
+        1
+      ],
+      "rational_two_torsion_x": -7578
+    },
+    "p5_count": {
+      "affine_points": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "order": 8,
+      "a5": -2
+    },
+    "hasse_integer_inequality": {
+      "value_at_7": 8,
+      "derivative_at_7": 8,
+      "derivative_slope": 2
+    },
+    "boston_parameter_change": "exact inverse identities; residual slope -1",
+    "evaluation_sign": "plus projection preserves the chosen Y functional",
+    "cyclic_norm_mod_p_I3": {
+      "5": [
+        5,
+        10,
+        10
+      ],
+      "7": [
+        7,
+        21,
+        35
+      ],
+      "11": [
+        11,
+        55,
+        165
+      ],
+      "13": [
+        13,
+        78,
+        286
+      ],
+      "17": [
+        17,
+        136,
+        680
+      ]
+    },
+    "divided_tests_assuming_unit_comparison": [
+      {
+        "p": 5,
+        "b": 2,
+        "a2": 1,
+        "J": 1
+      },
+      {
+        "p": 5,
+        "b": 3,
+        "a2": 0,
+        "J": 5
+      },
+      {
+        "p": 5,
+        "b": 4,
+        "a2": 0,
+        "J": 0
+      },
+      {
+        "p": 5,
+        "b": 5,
+        "a2": 0,
+        "J": 0
+      },
+      {
+        "p": 7,
+        "b": 2,
+        "a2": 1,
+        "J": 1
+      },
+      {
+        "p": 7,
+        "b": 3,
+        "a2": 0,
+        "J": 7
+      },
+      {
+        "p": 7,
+        "b": 4,
+        "a2": 0,
+        "J": 0
+      },
+      {
+        "p": 7,
+        "b": 5,
+        "a2": 0,
+        "J": 0
+      },
+      {
+        "p": 11,
+        "b": 2,
+        "a2": 1,
+        "J": 1
+      },
+      {
+        "p": 11,
+        "b": 3,
+        "a2": 0,
+        "J": 11
+      },
+      {
+        "p": 11,
+        "b": 4,
+        "a2": 0,
+        "J": 0
+      },
+      {
+        "p": 11,
+        "b": 5,
+        "a2": 0,
+        "J": 0
+      }
+    ],
+    "unproved_unit_cannot_transfer_divisibility": "eta=p^2, M=1, A=p^2",
+    "countercontrols": [
+      "dense-point nonzero is not a unit",
+      "free Hida coefficient ring does not bound a value",
+      "nonzero ancestor needs a non-killing realization"
+    ]
+  }
+}

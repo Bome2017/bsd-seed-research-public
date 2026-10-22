@@ -1,0 +1,24 @@
+{
+  "archive": {
+    "path": "/Users/bsm/Downloads/561ea6c5-7426-4788-851a-22e0510be16e-aristotle.tar.gz",
+    "bytes": 66138845,
+    "sha256": "f11c5378fd746cbf46ee2e22888e93d914929d23470e2f3c1f8090d126bcef71"
+  },
+  "retained_sources": [
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/governing/RECEIVER_DESCENT.md",
+      "copy": "context/RECEIVER_DESCENT.md",
+      "sha256": "8474f0c724f5fb8d5f86badbac4a165accd42276fce5acd64007aaaae350bfd0"
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/working_set/BSD_LOCAL_EXACTNESS_PUSH_REVIEW_CODEX_2026-10-04/input/BSD_SECOND_TORSION_LOCAL_EXACTNESS_PUSH_2026-10-03/LOCAL_EXACTNESS.md",
+      "copy": "context/LOCAL_EXACTNESS.md",
+      "sha256": "602c4b9e63c0dca66ee482eb60946060702b97de92b3de2573c369fe92ff1d90"
+    },
+    {
+      "source": "/Users/bsm/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/REPORT.md",
+      "copy": "context/BFR_REVIEW.md",
+      "sha256": "e824f9ad16a5af3991f4d3aa4c84ee83d47d5e00864185459065324a6b63ad0e"
+    }
+  ]
+}

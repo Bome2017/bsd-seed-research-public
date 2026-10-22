@@ -1,0 +1,40 @@
+{
+  "cutoff": 419775,
+  "status": "RETAINED_UNMODIFIED_PARI_GRH_GENERATOR_OUTPUT_SOURCE_TRACED",
+  "source_version": "2.17.3",
+  "source_location": "buch2.c lines3809-3819",
+  "criterion_location": "init_GRHcheck358-369; GRHok386-389; GRHchk723-759",
+  "exact_source_quote": "Assuming GRH, {P, NP <= LIMC2} generate Cl(K)",
+  "runtime_log_locations": {
+    "unmodified_small_base.err": 5,
+    "random_relations.err": 5,
+    "balanced_relations.err": 5
+  },
+  "scope": "No unconditional class generation or independent analytic certification asserted by this binding.",
+  "files": {
+    "buch2.original.c": {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/buch2.original.c",
+      "sha256": "904ced8034732c7fcfe1da393e23950aac0862b085150fdc24ce1e31beb7d1ac"
+    },
+    "unmodified_small_base.gp": {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/unmodified_small_base.gp",
+      "sha256": "d2f56f928bf9e519fafc59d9d70be2ef4f07372499d36aa1e5c8ab7e6bc18baa"
+    },
+    "unmodified_small_base.err": {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/unmodified_small_base.err",
+      "sha256": "e1fa53c6ad70dc8b51e2424e01a9bbb7e5adc2abd6c54d6757ad3d0560803242"
+    },
+    "unmodified_small_base.receipt.json": {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/unmodified_small_base.receipt.json",
+      "sha256": "4d6829529e5336c6a1985d82a2101ffc3f824e50b1bdf3f33d25a35e93a3ba08"
+    },
+    "random_relations.err": {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/random_relations.err",
+      "sha256": "7e09ce0fc92b86645d558b5f9a9890585f2262e667c2c17d24435896eee8c42b"
+    },
+    "balanced_relations.err": {
+      "path": "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/balanced_relations.err",
+      "sha256": "08299504e314f7bf01f6099421a418e68b388d3f7e32bc7cca14b80b8a939a69"
+    }
+  }
+}

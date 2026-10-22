@@ -1,0 +1,15 @@
+{
+  "status": "FINITE_SOURCE_EXHAUSTED_WITHOUT_FAITHFUL_UNITS",
+  "norm_candidates": 2000,
+  "actual_norm_units": 3,
+  "central_fixed_norm_units": 3,
+  "mixed_candidates": 1471,
+  "selected_mixed_orbits": 24,
+  "divisor_shape": [
+    421,
+    144
+  ],
+  "divisor_rank": 144,
+  "integer_unit_relations": 0,
+  "full_source_complete": false
+}

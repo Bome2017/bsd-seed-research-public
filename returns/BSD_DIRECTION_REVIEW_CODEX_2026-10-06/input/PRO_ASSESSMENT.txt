@@ -1,0 +1,164 @@
+**Yes—but the progress is uneven, and I would not send every research lane back unchanged.** The receiver work has completed a genuine mathematical step. The other runs are testing constructions that could supply the missing arithmetic, but they have not yet shown that the relevant \(\Sha\)-bound is getting smaller.
+
+The distinction is important: **you now have a better-defined problem and several more concrete ways to attack it—not yet evidence that one of those attacks will close the remaining bound.**
+
+I inspected the supplied returns and the new GitHub review, checked the relevant published statements, and independently verified the 30 listed Heegner auxiliaries. I also found several corrections worth sending back.
+
+:chatgpt-content-reference{index="16"}[Download the assessment, corrections, checks, and worker instructions](sandbox:/mnt/data/BSD_DIRECTION_REVIEW_2026-10-06.zip)
+
+## Where the progress actually stands
+
+| Workstream | What it contributes | What it has not supplied |
+|---|---|---|
+| **Global receiver comparison** | An exact identification \(B_p\cong\Sha[p]\) for every \(p\ge5\), under the retained inputs. This part is complete. | An independent upper bound on \(B_p\). |
+| **Coinvariant/norm descent** | A reduction to a class-group component over a substantially lower-degree field, with explicit correction terms. | A numerical or uniform bound on that smaller component. |
+| **Heegner construction** | A single derived point that can be tested at several coefficient primes, plus a scoped obstruction to a proposed height test. | A verified full-domain application of the central theorem, or any computed indivisibility witness. |
+| **Jet-source experiment** | Small-conductor calibration and increasingly concrete sparse-relation experiments. | An authenticated new seed source value or the requested seed-specific dual certificate. |
+
+The receiver conclusion is confirmed by the new review; the coinvariant and jet boundaries are stated in their supplied records. The Heegner boundary is explicit in its actual `PROOF.md`: no derived point was computed, and its main theorem application was left for review.  :chatgpt-content-reference{index="1"} :chatgpt-content-reference{index="2"}
+
+## 1. The receiver work has reached its intended endpoint
+
+The accepted result
+
+\[
+B_p\cong\Sha(E/\mathbb Q)[p]\qquad(p\ge5)
+\]
+
+is not merely an analogy or an auxiliary space that might contain irrelevant global directions. Under its retained hypotheses, it identifies the actual obstruction at every coefficient prime in the stated range. The 4547 correction finishes that comparison without assuming finiteness of \(\Sha\). 
+
+**That is a completed piece of the seed program. It should now be treated as an input, not another research assignment.**
+
+The same review also makes the limiting point correctly: reciprocity against \(P_2\) removes a possible failure of a local Selmer condition. It does not constrain classes that already satisfy all Selmer conditions. Repeating that argument cannot reduce their \(\Sha\)-quotient. 
+
+Therefore, another run on receiver exactness, the old transgression argument, or its abstract Lean assembly would have low value **unless a genuinely new arithmetic estimate enters the calculation**.
+
+## 2. The coinvariant result is more useful than “nothing,” but less than an upper bound
+
+The smaller-field reduction has a legitimate potential payoff. The return moves the problem from \(L_p\) to a class-group component over \(K'_p\), removing a field-degree factor of \(p^4\) or \(p^6\). That does not make the remaining calculation easy, but it changes the arithmetic object on which a future calculation or estimate would operate. :chatgpt-content-reference{index="5"}
+
+The sentence “this is a strict Selmer group, so the route ends” needs careful interpretation.
+
+**It means the formal descent has not furnished a bound. It does not mean an independent arithmetic bound on the smaller class group would be circular or useless.** An independently proved estimate transfers through an isomorphism; that is precisely what makes an isomorphism useful.
+
+There is also a clean way to state the reduced target. On the return’s stated domain, put
+
+\[
+h_p=\dim_{\mathbb F_p}
+\operatorname{Hom}_{G_0}\!\left(\operatorname{Cl}_S(K'_p)/p,E[p]\right).
+\]
+
+Its strict-Selmer identification, combined with the rank-two Kummer sequence, gives
+
+\[
+h_p
+=
+2+\dim_{\mathbb F_p}\Sha[p]
+-\dim_{\mathbb F_p}\operatorname{loc}_p\operatorname{Sel}_p.
+\]
+
+The last dimension is zero or one. Consequently, using the **separately retained even-parity input**,
+
+\[
+\boxed{h_p\le2\quad\Longleftrightarrow\quad\Sha[p]=0.}
+\]
+
+This is my elementary deduction from the return’s identification—not a newly obtained bound. It does not require assuming that one of the rational points always localizes nontrivially. :chatgpt-content-reference{index="6"}
+
+That gives this lane a precise continuation condition: **produce arithmetic that independently forces \(h_p\le2\), or another sufficient estimate.** Re-deriving the norm sequences will not do it. Also, the coinvariant argument’s own local hypotheses still exclude 4547; the larger receiver’s global exactness does not automatically certify every downstream local calculation there.
+
+## 3. The Heegner experiment is a genuine alternative—but it needs two adjustments
+
+### Its main criterion has a real published counterpart, but the application is not finished
+
+I located the residual dimension statement that the return needs: **Wei Zhang, §8.2, Lemma 8.4, printed page 46**. It relates the first nonzero level of a residual Kolyvagin system to the dimensions of the two Selmer eigenspaces. That is the appropriate kind of theorem behind the proposed one-prime derived-point criterion. :chatgpt-content-reference{index="7"}
+
+However, the lemma imports the paper’s standing hypotheses, including **good ordinarity at \(p\)** and Hypothesis ♥. It cannot simply be cited for the return’s entire ordinary-and-supersingular domain without further justification. The genuine system, normalization, sign, and local hypotheses must all be matched. :chatgpt-content-reference{index="8"}
+
+Nor does Kim’s September 2026 Theorem 1.1 automatically repair the supersingular case: that theorem assumes the curve is semistable in that case, whereas this seed has additive places. This does **not** refute the proposed criterion; it means the claimed domain is not yet authenticated by those references. :chatgpt-content-reference{index="9"}
+
+**The next useful theorem-check is therefore specific and finite—not another general literature survey.** Establish the precise criterion at a concrete admissible prime, then obtain actual arithmetic information about its derived point.
+
+### Exact \(a_\ell=0\) is not required to preserve the finite-batch idea
+
+There is a useful adjustment available immediately.
+
+Instead of insisting on exact supersingularity at the auxiliary prime, define
+
+\[
+M_\ell=\gcd(a_\ell,\ell+1).
+\]
+
+The standard derivative and norm relations give
+
+\[
+(\sigma-1)D_\ell y_\ell
+=
+(\ell+1)y_\ell-a_\ell y_1
+\equiv0
+\pmod{M_\ell E(H_\ell)}.
+\]
+
+Thus the trace term that reappears when \(a_\ell\ne0\) **still vanishes modulo the intended common modulus**. A single derived point remains available for all eligible prime factors of \(M_\ell\). This is the standard Kolyvagin-prime congruence mechanism, not a new uniform theorem. :chatgpt-content-reference{index="10"}
+
+Moreover, for any **fixed finite batch** of eligible primes with squarefree product \(M\), the usual Chebotarev construction in \(K(E[M])/\mathbb Q\), using the conjugacy class of complex conjugation, supplies inert auxiliaries satisfying
+
+\[
+a_\ell\equiv0,\qquad \ell\equiv-1\pmod M.
+\]
+
+This supplies the finite-batch auxiliary primes; it does not control the derived point’s divisibility.
+
+**The strategic consequence:** do not make the additional exact-supersingular progression problem a mandatory obstacle merely to obtain simultaneous source compatibility. Keep \(a_\ell=0\) when it provides an additional arithmetic advantage, not simply because it makes the identity look cleaner.
+
+The hard part remains the same: independently detecting that the genuine derived point is nonzero modulo the target prime.
+
+### The height obstruction is narrower than its summary
+
+The argument establishes that the test
+
+\[
+\frac{\widehat h(P_\ell)}{p^2}
+<
+\text{minimum positive height}
+\]
+
+cannot establish indivisibility in the situation analyzed: the derivative makes the left side too large.
+
+It does **not** establish that all uses of heights are incapable of helping. For example, a height bound used with an authenticated Mordell–Weil lattice or a rigorously bounded search is a different operation. No feasible seed-scale implementation of those alternatives is supplied here, but the displayed inequality does not rule them out.
+
+I verified the listed auxiliaries independently: all 30 have the stated primality, inertness, exact point count, and factorization. **That validates the auxiliary data—not a single derived-point indivisibility claim.** The checks and their limits are in the download.
+
+Two smaller but important errors are also corrected there: a squarefree product of bad primes cannot safely be removed from \(\ell+1\) by division when those primes occur to higher powers; and cofinite vanishing plus finite exceptional primary groups proves FIN, **not automatically ORDER9**.
+
+## 4. The jet-source experiment remains pointed at a missing input—but its snapshot is not yet the result
+
+This is the lane most directly connected to the already retained one-way W3 bound: construct the actual source and evaluate an independently defined arithmetic expression.
+
+The supplied snapshot shows calibration on other curves and later sparse-relation tests. Its seed inventory still reports **zero seed source values**. The final visible tests are on smaller conductors, not on the seed. Those are legitimate controls, but they cannot be counted as a successful seed constructor. :chatgpt-content-reference{index="11"} :chatgpt-content-reference{index="12"}
+
+There is one concrete implementation issue worth fixing now. The shown sparse elimination code tests whether target and normalization vectors become proportional after reduction. But it does **not retain the row-combination provenance needed to return the explicit multipliers \(\lambda\)**. A Boolean “certificate” flag is therefore not yet the independently recombinable identity requested by the experiment. :chatgpt-content-reference{index="13"}
+
+The required next deliverable is:
+
+\[
+\lambda J=v
+\]
+
+with actual seed row identifiers, normalization, eigenvalue-derivative terms, and **every column checked by independent recombination**—or the exact residual showing where that chosen support fails.
+
+The enormous full presentation does not prove that every sparse method is infeasible. Conversely, successful small-curve tests do not prove the sparse method will work at the seed. The experiment needs the seed-specific test to distinguish those possibilities.
+
+**My earlier design supplied a starting coefficient construction, not a demonstrated global solver. This return has not yet closed that gap.**
+
+## What I would do with the running program
+
+**Freeze the completed comparison. Continue the source work, but require its next result to be seed-specific. Retain the smaller-field reduction without repeating its formal algebra.**
+
+For the Heegner lane, the immediate task is the exact theorem application followed by an authenticated derived-point reduction or an independent evaluation identity. Further auxiliary-prime enumeration does not address that task. For the jet lane, the task is a reproducible seed relation certificate or a fully specified failed support—not more point counts or interpolation formalizations.
+
+The statement about rank-two finiteness is consistent with the September 2026 literature I checked: it explicitly separates the unresolved global prime-support question from individual \(p\)-primary results. **That is context for the missing arithmetic, not a reason to stop trying to construct it.** :chatgpt-content-reference{index="14"}
+
+So my assessment is:
+
+**You are heading toward a more precise, usable seed research program. You have completed one genuine comparison and obtained some useful reductions and failed-test information. But the latest returns do not yet demonstrate independent control of the central obstruction. The next meaningful advance is actual seed source arithmetic or an independently proved estimate—not another equivalent description of \(\Sha[p]\).**

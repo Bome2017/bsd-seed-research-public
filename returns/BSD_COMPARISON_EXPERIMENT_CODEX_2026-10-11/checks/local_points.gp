@@ -1,0 +1,18 @@
+default(parisizemax,1000000000);
+E=ellinit([1, 1, 1, 3, 12]);r=ellrank(E); print("2541c1 RANK_RESULT ",r);
+print("2541c1 TORSION ",elltors(E));
+E=ellinit([1, 1, 1, -1669982047, -25795561267816]);r=ellrank(E); print("287133c1 RANK_RESULT ",r);
+print("287133c1 TORSION ",elltors(E));
+Y=r[4][1];l=113;Y5=ellmul(E,Y,5);print("287133c1 LOCAL ",elllocalred(E,l)," A_BAD ",ellap(E,l));
+print("287133c1 Y ",Y," Y5 ",Y5);
+print("287133c1 DENOM_VAL ",valuation(denominator(Y[1]),l)," ",valuation(denominator(Y[2]),l));
+x=Mod(Y[1],l); y=Mod(Y[2],l); print("287133c1 GRADIENT ",lift(E.a1*y-3*x^2-2*E.a2*x-E.a4)," ",lift(2*y+E.a1*x+E.a3));
+Et=ellinit(elltwist(E,-19));print("287133c1 TWIST_MINUS19_RANK ",ellrank(Et));
+E=ellinit([1, 1, 1, 1878418, -485198548]);r=ellrank(E); print("424347b1 RANK_RESULT ",r);
+print("424347b1 TORSION ",elltors(E));
+Y=r[4][1];l=167;Y5=ellmul(E,Y,5);print("424347b1 LOCAL ",elllocalred(E,l)," A_BAD ",ellap(E,l));
+print("424347b1 Y ",Y," Y5 ",Y5);
+print("424347b1 DENOM_VAL ",valuation(denominator(Y[1]),l)," ",valuation(denominator(Y[2]),l));
+x=Mod(Y[1],l); y=Mod(Y[2],l); print("424347b1 GRADIENT ",lift(E.a1*y-3*x^2-2*E.a2*x-E.a4)," ",lift(2*y+E.a1*x+E.a3));
+Et=ellinit(elltwist(E,-19));print("424347b1 TWIST_MINUS19_RANK ",ellrank(Et));
+quit;

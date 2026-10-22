@@ -1,0 +1,1627 @@
+[
+  {
+    "path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/E82FE491-4D74-4187-88EA-B6A7B8AF27A3/1-BSD_SEED_NEXT_WORK_2026-09-23.zip",
+    "timestamp": "2026-09-23T23:07:57.544Z",
+    "reason": "explicit attachment path not currently present",
+    "surviving_extracted_members": [
+      {
+        "path": "/Users/bsm/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/README.md",
+        "sha256": "f4b9e55b5deb0add76c2101d3138011135b23fb5a6ac7655cd9a2ff6cd4c3c24",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/SOURCE_MAP.md",
+        "sha256": "ff486b0fdeaf259a847b3d4d796f733ff572f654e21ff7f81e2231c01bf7bf20",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/AGENT_TASKS.md",
+        "sha256": "ad6a7bebb462f6f3252fe4787bef2ff30d5de073818e95e0b2b13ffe194f2b00",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/source_identity.json",
+        "sha256": "001acc4dc93bf67233f5a13bb62b2fb223a24190960000bebdbe45de79adc01b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/test_pair_witness.py",
+        "sha256": "aef7090fa63f0349d22433f4ad72b56978ceed624a41245a316e55e50e61672b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/PAIR_WITNESS_LEMMAS.md",
+        "sha256": "3feac8cb4f3631c399ff2b16a96c19426ef612d2a62703ce31eb5111620fae39",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/pair_witness_tests.json",
+        "sha256": "18b475181c870d574001a247864bbe9c91511d90c9512ff14fae6e42685fc804",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_BACKFILL_2026-10-04/repo/work/backfill-2026-09-15-to-30/dossiers/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/README.md",
+        "sha256": "f4b9e55b5deb0add76c2101d3138011135b23fb5a6ac7655cd9a2ff6cd4c3c24",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_BACKFILL_2026-10-04/repo/work/backfill-2026-09-15-to-30/dossiers/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/SOURCE_MAP.md",
+        "sha256": "ff486b0fdeaf259a847b3d4d796f733ff572f654e21ff7f81e2231c01bf7bf20",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_BACKFILL_2026-10-04/repo/work/backfill-2026-09-15-to-30/dossiers/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/AGENT_TASKS.md",
+        "sha256": "ad6a7bebb462f6f3252fe4787bef2ff30d5de073818e95e0b2b13ffe194f2b00",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_BACKFILL_2026-10-04/repo/work/backfill-2026-09-15-to-30/dossiers/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/source_identity.json",
+        "sha256": "001acc4dc93bf67233f5a13bb62b2fb223a24190960000bebdbe45de79adc01b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_BACKFILL_2026-10-04/repo/work/backfill-2026-09-15-to-30/dossiers/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/test_pair_witness.py",
+        "sha256": "aef7090fa63f0349d22433f4ad72b56978ceed624a41245a316e55e50e61672b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_BACKFILL_2026-10-04/repo/work/backfill-2026-09-15-to-30/dossiers/BSD_NEXT_WORK_CHECK_2026-09-23/input/BSD_SEED_NEXT_WORK_2026-09-23/pair_witness_tests.json",
+        "sha256": "18b475181c870d574001a247864bbe9c91511d90c9512ff14fae6e42685fc804",
+        "disposition": "EMBEDDED"
+      }
+    ],
+    "scope": "Extracted dossier survives; identity of the expired original ZIP bytes is not claimed."
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/63AD46E4-D198-4D97-B59E-AEC158230764/1-BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+    "timestamp": "2026-09-24T21:11:47.346Z",
+    "reason": "explicit attachment path not currently present",
+    "surviving_extracted_members": [
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/AUDIT.md",
+        "sha256": "ae9ccabd16cd42fb979993bd1bec3fb181921469d6d46be0dd9f1fafc99edd57",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/README.md",
+        "sha256": "c1435811a651b2d9fb8113c5cf77092d05548798cf5f6b3c1a590aac1a1541c7",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SHA256SUMS",
+        "sha256": "a860b414856c4e95c05eec8669760bd36aed0ffe67ada339bed2d8da3a490706",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/CHECKS.json",
+        "sha256": "0761250637a37d8fc5207295e978fbd305023231e1e123338da634b9ecd71738",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/period_check.py",
+        "sha256": "c6065c08f541371b41addf2eeeefc2080b3b96691fee633f6bc23b667b3d63e3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SOURCE_CHECKS.md",
+        "sha256": "bf16b570cdba9e0ba4c20ac99dec822eecf0f2c39767e5e3ba810ed824fa0c4f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/CHECKS.stdout.txt",
+        "sha256": "48b5d6cf4b07eb54791169616c27bc6f923aa91056bb0c5b5eb498b3b878ed83",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/PERIOD_CHECK.json",
+        "sha256": "dc1a1331653ec6b66b225b6a6a0208600ac1805f8b4a8fda655eae63ef282c64",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "ec33e18b2257159f484fea988dfdd1ee93fd72592ebe690e45c55edb3075ba5e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/independent_checks.py",
+        "sha256": "f9712ff1b93989b3fd6026217ee2f73892f634c8343134882b0991cb31fe80e8",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/reference/normalize_from_balls.py",
+        "sha256": "84bf4c3e60c6fa380a0b943f1eaec84c8d3a677c1361577f120fc24924ca3ffc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/AUDIT.md",
+        "sha256": "ae9ccabd16cd42fb979993bd1bec3fb181921469d6d46be0dd9f1fafc99edd57",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/README.md",
+        "sha256": "c1435811a651b2d9fb8113c5cf77092d05548798cf5f6b3c1a590aac1a1541c7",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SHA256SUMS",
+        "sha256": "a860b414856c4e95c05eec8669760bd36aed0ffe67ada339bed2d8da3a490706",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/CHECKS.json",
+        "sha256": "0761250637a37d8fc5207295e978fbd305023231e1e123338da634b9ecd71738",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/period_check.py",
+        "sha256": "c6065c08f541371b41addf2eeeefc2080b3b96691fee633f6bc23b667b3d63e3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SOURCE_CHECKS.md",
+        "sha256": "bf16b570cdba9e0ba4c20ac99dec822eecf0f2c39767e5e3ba810ed824fa0c4f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/CHECKS.stdout.txt",
+        "sha256": "48b5d6cf4b07eb54791169616c27bc6f923aa91056bb0c5b5eb498b3b878ed83",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/PERIOD_CHECK.json",
+        "sha256": "dc1a1331653ec6b66b225b6a6a0208600ac1805f8b4a8fda655eae63ef282c64",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/AUDIT.md",
+        "sha256": "ae9ccabd16cd42fb979993bd1bec3fb181921469d6d46be0dd9f1fafc99edd57",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/README.md",
+        "sha256": "c1435811a651b2d9fb8113c5cf77092d05548798cf5f6b3c1a590aac1a1541c7",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SHA256SUMS",
+        "sha256": "a860b414856c4e95c05eec8669760bd36aed0ffe67ada339bed2d8da3a490706",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "ec33e18b2257159f484fea988dfdd1ee93fd72592ebe690e45c55edb3075ba5e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/CHECKS.json",
+        "sha256": "0761250637a37d8fc5207295e978fbd305023231e1e123338da634b9ecd71738",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/independent_checks.py",
+        "sha256": "f9712ff1b93989b3fd6026217ee2f73892f634c8343134882b0991cb31fe80e8",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/period_check.py",
+        "sha256": "c6065c08f541371b41addf2eeeefc2080b3b96691fee633f6bc23b667b3d63e3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SOURCE_CHECKS.md",
+        "sha256": "bf16b570cdba9e0ba4c20ac99dec822eecf0f2c39767e5e3ba810ed824fa0c4f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/CHECKS.stdout.txt",
+        "sha256": "48b5d6cf4b07eb54791169616c27bc6f923aa91056bb0c5b5eb498b3b878ed83",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/PERIOD_CHECK.json",
+        "sha256": "dc1a1331653ec6b66b225b6a6a0208600ac1805f8b4a8fda655eae63ef282c64",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "ec33e18b2257159f484fea988dfdd1ee93fd72592ebe690e45c55edb3075ba5e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/independent_checks.py",
+        "sha256": "f9712ff1b93989b3fd6026217ee2f73892f634c8343134882b0991cb31fe80e8",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/reference/normalize_from_balls.py",
+        "sha256": "84bf4c3e60c6fa380a0b943f1eaec84c8d3a677c1361577f120fc24924ca3ffc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_NERON_RESULT_CROSSCHECK_2026-09-24/input/BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24/reference/normalize_from_balls.py",
+        "sha256": "84bf4c3e60c6fa380a0b943f1eaec84c8d3a677c1361577f120fc24924ca3ffc",
+        "disposition": "EMBEDDED"
+      }
+    ],
+    "scope": "Extracted dossier survives; identity of the expired original ZIP bytes is not claimed."
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/65F11A38-FD92-4DBE-BC82-022B76ACAF3C/1-BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24.zip",
+    "timestamp": "2026-09-24T22:03:29.373Z",
+    "reason": "explicit attachment path not currently present",
+    "surviving_extracted_members": [
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/README.md",
+        "sha256": "4eb3975a0a3fbe45491965fd3c9eeda0c1da7a6b503694c4f7d1480b1ddafa25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/VERIFY.py",
+        "sha256": "0b668612fb8c403a1079154cc6aec8fe903a6fca7b41186e2264387b7946df9c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SHA256SUMS",
+        "sha256": "67156726bdfd5b87a46a64a1aa7ebdd86573811b736380eb801cc7a94d9b356a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/NEXT_TASK.md",
+        "sha256": "dac2e6b12bd3c5de704ef64a0b3477089b83761535634ed84d9ff070973064a9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/GEOMETRY_NOTES.md",
+        "sha256": "f9204d34d98428bb70e7545e2cf896b3a8bf6cb9bcbf4372f15cbd840ae9b0d3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "95fef2066b49be22401b5cfd22df347c994508f48b334f4eea3c6f6a8fb1c435",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/PROOF_SQUARECLASSES.md",
+        "sha256": "a503d7f8b7621d4a5a366392c7f02e93a730823fc9e374afbc876d9fc8834e02",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/DENSE_PLANES.json",
+        "sha256": "a5386e37d5bfde8947767c89c23e9c4eed01c311e10066b8fd2ae8bb390e052a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/seed_geometry.json",
+        "sha256": "f3f2ed95dda55627b79d8006407ce695cfdeedd1a31290dc1577a986caaf39d5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SQUARECLASS_TESTS.json",
+        "sha256": "ae4c85862903dc40b3d2d755ef7726d2e87f13b0cbff6c8c5ad7b537d1f70f34",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/test_squareclasses.py",
+        "sha256": "fef12cab6efb3f3f091b653adec7d21a743491de9584344dc06a4455bbaa4e86",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/build_seed_geometry.py",
+        "sha256": "abe4a7c9fbf33d239226b8e85d72f3dd096af2a0cf2af006ea3eb0401e49287f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/check_seed_geometry.py",
+        "sha256": "04e8af0f17ef5ccfdb836fedda1365a8919ae33f576914e71a53935eda1b6c5b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SEED_GEOMETRY_CHECK.json",
+        "sha256": "a02ec9efb6aaac46a6a202ae7bab6e2a67960238cf8a842870498eeae3755921",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/describe_dense_planes.py",
+        "sha256": "0338890873ff2a4b8f0437ca605cc95abc0d9cac1f2f79c4f7ee5283c258248a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/squareclass_acceptance.py",
+        "sha256": "d044d3f6d46146fc8764c69e965666832b492fe21d00d6890d46dcdb5b27f4a3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/README.md",
+        "sha256": "4eb3975a0a3fbe45491965fd3c9eeda0c1da7a6b503694c4f7d1480b1ddafa25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/VERIFY.py",
+        "sha256": "0b668612fb8c403a1079154cc6aec8fe903a6fca7b41186e2264387b7946df9c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SHA256SUMS",
+        "sha256": "67156726bdfd5b87a46a64a1aa7ebdd86573811b736380eb801cc7a94d9b356a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/NEXT_TASK.md",
+        "sha256": "dac2e6b12bd3c5de704ef64a0b3477089b83761535634ed84d9ff070973064a9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/GEOMETRY_NOTES.md",
+        "sha256": "f9204d34d98428bb70e7545e2cf896b3a8bf6cb9bcbf4372f15cbd840ae9b0d3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "95fef2066b49be22401b5cfd22df347c994508f48b334f4eea3c6f6a8fb1c435",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/PROOF_SQUARECLASSES.md",
+        "sha256": "a503d7f8b7621d4a5a366392c7f02e93a730823fc9e374afbc876d9fc8834e02",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/DENSE_PLANES.json",
+        "sha256": "a5386e37d5bfde8947767c89c23e9c4eed01c311e10066b8fd2ae8bb390e052a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/seed_geometry.json",
+        "sha256": "f3f2ed95dda55627b79d8006407ce695cfdeedd1a31290dc1577a986caaf39d5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SQUARECLASS_TESTS.json",
+        "sha256": "ae4c85862903dc40b3d2d755ef7726d2e87f13b0cbff6c8c5ad7b537d1f70f34",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/test_squareclasses.py",
+        "sha256": "fef12cab6efb3f3f091b653adec7d21a743491de9584344dc06a4455bbaa4e86",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/build_seed_geometry.py",
+        "sha256": "abe4a7c9fbf33d239226b8e85d72f3dd096af2a0cf2af006ea3eb0401e49287f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/check_seed_geometry.py",
+        "sha256": "04e8af0f17ef5ccfdb836fedda1365a8919ae33f576914e71a53935eda1b6c5b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SEED_GEOMETRY_CHECK.json",
+        "sha256": "a02ec9efb6aaac46a6a202ae7bab6e2a67960238cf8a842870498eeae3755921",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/describe_dense_planes.py",
+        "sha256": "0338890873ff2a4b8f0437ca605cc95abc0d9cac1f2f79c4f7ee5283c258248a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/squareclass_acceptance.py",
+        "sha256": "d044d3f6d46146fc8764c69e965666832b492fe21d00d6890d46dcdb5b27f4a3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/README.md",
+        "sha256": "4eb3975a0a3fbe45491965fd3c9eeda0c1da7a6b503694c4f7d1480b1ddafa25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/VERIFY.py",
+        "sha256": "0b668612fb8c403a1079154cc6aec8fe903a6fca7b41186e2264387b7946df9c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SHA256SUMS",
+        "sha256": "67156726bdfd5b87a46a64a1aa7ebdd86573811b736380eb801cc7a94d9b356a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/NEXT_TASK.md",
+        "sha256": "dac2e6b12bd3c5de704ef64a0b3477089b83761535634ed84d9ff070973064a9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/GEOMETRY_NOTES.md",
+        "sha256": "f9204d34d98428bb70e7545e2cf896b3a8bf6cb9bcbf4372f15cbd840ae9b0d3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/README.md",
+        "sha256": "4eb3975a0a3fbe45491965fd3c9eeda0c1da7a6b503694c4f7d1480b1ddafa25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/VERIFY.py",
+        "sha256": "0b668612fb8c403a1079154cc6aec8fe903a6fca7b41186e2264387b7946df9c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SHA256SUMS",
+        "sha256": "67156726bdfd5b87a46a64a1aa7ebdd86573811b736380eb801cc7a94d9b356a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "95fef2066b49be22401b5cfd22df347c994508f48b334f4eea3c6f6a8fb1c435",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/NEXT_TASK.md",
+        "sha256": "dac2e6b12bd3c5de704ef64a0b3477089b83761535634ed84d9ff070973064a9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/PROOF_SQUARECLASSES.md",
+        "sha256": "a503d7f8b7621d4a5a366392c7f02e93a730823fc9e374afbc876d9fc8834e02",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/DENSE_PLANES.json",
+        "sha256": "a5386e37d5bfde8947767c89c23e9c4eed01c311e10066b8fd2ae8bb390e052a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/GEOMETRY_NOTES.md",
+        "sha256": "f9204d34d98428bb70e7545e2cf896b3a8bf6cb9bcbf4372f15cbd840ae9b0d3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/seed_geometry.json",
+        "sha256": "f3f2ed95dda55627b79d8006407ce695cfdeedd1a31290dc1577a986caaf39d5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SQUARECLASS_TESTS.json",
+        "sha256": "ae4c85862903dc40b3d2d755ef7726d2e87f13b0cbff6c8c5ad7b537d1f70f34",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/test_squareclasses.py",
+        "sha256": "fef12cab6efb3f3f091b653adec7d21a743491de9584344dc06a4455bbaa4e86",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "95fef2066b49be22401b5cfd22df347c994508f48b334f4eea3c6f6a8fb1c435",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/build_seed_geometry.py",
+        "sha256": "abe4a7c9fbf33d239226b8e85d72f3dd096af2a0cf2af006ea3eb0401e49287f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/check_seed_geometry.py",
+        "sha256": "04e8af0f17ef5ccfdb836fedda1365a8919ae33f576914e71a53935eda1b6c5b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SEED_GEOMETRY_CHECK.json",
+        "sha256": "a02ec9efb6aaac46a6a202ae7bab6e2a67960238cf8a842870498eeae3755921",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/PROOF_SQUARECLASSES.md",
+        "sha256": "a503d7f8b7621d4a5a366392c7f02e93a730823fc9e374afbc876d9fc8834e02",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/describe_dense_planes.py",
+        "sha256": "0338890873ff2a4b8f0437ca605cc95abc0d9cac1f2f79c4f7ee5283c258248a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/squareclass_acceptance.py",
+        "sha256": "d044d3f6d46146fc8764c69e965666832b492fe21d00d6890d46dcdb5b27f4a3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/DENSE_PLANES.json",
+        "sha256": "a5386e37d5bfde8947767c89c23e9c4eed01c311e10066b8fd2ae8bb390e052a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/seed_geometry.json",
+        "sha256": "f3f2ed95dda55627b79d8006407ce695cfdeedd1a31290dc1577a986caaf39d5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SQUARECLASS_TESTS.json",
+        "sha256": "ae4c85862903dc40b3d2d755ef7726d2e87f13b0cbff6c8c5ad7b537d1f70f34",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/test_squareclasses.py",
+        "sha256": "fef12cab6efb3f3f091b653adec7d21a743491de9584344dc06a4455bbaa4e86",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/build_seed_geometry.py",
+        "sha256": "abe4a7c9fbf33d239226b8e85d72f3dd096af2a0cf2af006ea3eb0401e49287f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/check_seed_geometry.py",
+        "sha256": "04e8af0f17ef5ccfdb836fedda1365a8919ae33f576914e71a53935eda1b6c5b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SEED_GEOMETRY_CHECK.json",
+        "sha256": "a02ec9efb6aaac46a6a202ae7bab6e2a67960238cf8a842870498eeae3755921",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/describe_dense_planes.py",
+        "sha256": "0338890873ff2a4b8f0437ca605cc95abc0d9cac1f2f79c4f7ee5283c258248a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/squareclass_acceptance.py",
+        "sha256": "d044d3f6d46146fc8764c69e965666832b492fe21d00d6890d46dcdb5b27f4a3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/README.md",
+        "sha256": "4eb3975a0a3fbe45491965fd3c9eeda0c1da7a6b503694c4f7d1480b1ddafa25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/VERIFY.py",
+        "sha256": "0b668612fb8c403a1079154cc6aec8fe903a6fca7b41186e2264387b7946df9c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SHA256SUMS",
+        "sha256": "67156726bdfd5b87a46a64a1aa7ebdd86573811b736380eb801cc7a94d9b356a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/NEXT_TASK.md",
+        "sha256": "dac2e6b12bd3c5de704ef64a0b3477089b83761535634ed84d9ff070973064a9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/GEOMETRY_NOTES.md",
+        "sha256": "f9204d34d98428bb70e7545e2cf896b3a8bf6cb9bcbf4372f15cbd840ae9b0d3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/README.md",
+        "sha256": "4eb3975a0a3fbe45491965fd3c9eeda0c1da7a6b503694c4f7d1480b1ddafa25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/VERIFY.py",
+        "sha256": "0b668612fb8c403a1079154cc6aec8fe903a6fca7b41186e2264387b7946df9c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SHA256SUMS",
+        "sha256": "67156726bdfd5b87a46a64a1aa7ebdd86573811b736380eb801cc7a94d9b356a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "95fef2066b49be22401b5cfd22df347c994508f48b334f4eea3c6f6a8fb1c435",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/NEXT_TASK.md",
+        "sha256": "dac2e6b12bd3c5de704ef64a0b3477089b83761535634ed84d9ff070973064a9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/PROOF_SQUARECLASSES.md",
+        "sha256": "a503d7f8b7621d4a5a366392c7f02e93a730823fc9e374afbc876d9fc8834e02",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/DENSE_PLANES.json",
+        "sha256": "a5386e37d5bfde8947767c89c23e9c4eed01c311e10066b8fd2ae8bb390e052a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/GEOMETRY_NOTES.md",
+        "sha256": "f9204d34d98428bb70e7545e2cf896b3a8bf6cb9bcbf4372f15cbd840ae9b0d3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/seed_geometry.json",
+        "sha256": "f3f2ed95dda55627b79d8006407ce695cfdeedd1a31290dc1577a986caaf39d5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SQUARECLASS_TESTS.json",
+        "sha256": "ae4c85862903dc40b3d2d755ef7726d2e87f13b0cbff6c8c5ad7b537d1f70f34",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/test_squareclasses.py",
+        "sha256": "fef12cab6efb3f3f091b653adec7d21a743491de9584344dc06a4455bbaa4e86",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "95fef2066b49be22401b5cfd22df347c994508f48b334f4eea3c6f6a8fb1c435",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/build_seed_geometry.py",
+        "sha256": "abe4a7c9fbf33d239226b8e85d72f3dd096af2a0cf2af006ea3eb0401e49287f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/check_seed_geometry.py",
+        "sha256": "04e8af0f17ef5ccfdb836fedda1365a8919ae33f576914e71a53935eda1b6c5b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SEED_GEOMETRY_CHECK.json",
+        "sha256": "a02ec9efb6aaac46a6a202ae7bab6e2a67960238cf8a842870498eeae3755921",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/PROOF_SQUARECLASSES.md",
+        "sha256": "a503d7f8b7621d4a5a366392c7f02e93a730823fc9e374afbc876d9fc8834e02",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/describe_dense_planes.py",
+        "sha256": "0338890873ff2a4b8f0437ca605cc95abc0d9cac1f2f79c4f7ee5283c258248a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/squareclass_acceptance.py",
+        "sha256": "d044d3f6d46146fc8764c69e965666832b492fe21d00d6890d46dcdb5b27f4a3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/DENSE_PLANES.json",
+        "sha256": "a5386e37d5bfde8947767c89c23e9c4eed01c311e10066b8fd2ae8bb390e052a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/fixtures/seed_geometry.json",
+        "sha256": "f3f2ed95dda55627b79d8006407ce695cfdeedd1a31290dc1577a986caaf39d5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SQUARECLASS_TESTS.json",
+        "sha256": "ae4c85862903dc40b3d2d755ef7726d2e87f13b0cbff6c8c5ad7b537d1f70f34",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/test_squareclasses.py",
+        "sha256": "fef12cab6efb3f3f091b653adec7d21a743491de9584344dc06a4455bbaa4e86",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/build_seed_geometry.py",
+        "sha256": "abe4a7c9fbf33d239226b8e85d72f3dd096af2a0cf2af006ea3eb0401e49287f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/check_seed_geometry.py",
+        "sha256": "04e8af0f17ef5ccfdb836fedda1365a8919ae33f576914e71a53935eda1b6c5b",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/checks/SEED_GEOMETRY_CHECK.json",
+        "sha256": "a02ec9efb6aaac46a6a202ae7bab6e2a67960238cf8a842870498eeae3755921",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/describe_dense_planes.py",
+        "sha256": "0338890873ff2a4b8f0437ca605cc95abc0d9cac1f2f79c4f7ee5283c258248a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_HANDOFF_2026-09-24/input/BSD_SEED_STRUCTURE_NEXT_STEP_2026-09-24/scripts/squareclass_acceptance.py",
+        "sha256": "d044d3f6d46146fc8764c69e965666832b492fe21d00d6890d46dcdb5b27f4a3",
+        "disposition": "EMBEDDED"
+      }
+    ],
+    "scope": "Extracted dossier survives; identity of the expired original ZIP bytes is not claimed."
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/638E60CF-E16F-4507-9372-5DCE5BFCFD02/1-BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24.zip",
+    "timestamp": "2026-09-24T23:26:42.186Z",
+    "reason": "explicit attachment path not currently present",
+    "surviving_extracted_members": [
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/README.md",
+        "sha256": "9200506a04d7b37a16921fd95b23351ca80e4d9c44c7818185a058fd008fb510",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESULT.md",
+        "sha256": "b19eeb407b133252a36976ab5277c0269f23f24556e2e248055e6185b2f93979",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESUME.md",
+        "sha256": "1232f7e818b1696ab8d12f54057d6a6a5aceec46866a211ebde9c42c8fa2f455",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/VERIFY.py",
+        "sha256": "9ae671f52e9a474c26814c49fee186e95b8791e8c1b688b70e5ca8f99c40f024",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SHA256SUMS",
+        "sha256": "9d30ef45af27fdf855fcb2bbad006c2979c4166bc469156e390a5a66e3c31ffa",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/WORK_LOG.md",
+        "sha256": "1454e805c4d67819740f1baacb30aba2261c8ae0d8086d62bfe8f6058085e24c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/pair01.json",
+        "sha256": "78e5c7ad854caae4ee15e085709597d86eeab00769f7327a343412441948530e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_exact.py",
+        "sha256": "7959629c7cb7bcf5d4dfc6c01f67c5e3021abe0ec549bef472dd0546ad3e2a07",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_verify.log",
+        "sha256": "917ddefa09b4a4c163bd77303b47c9d89c9eb4dcc2849f0ef227fcae4d53961d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_check.json",
+        "sha256": "54f64662c7be89a64be2c7a94f192da073b64e38d7dd6dd216fe412dfe3f1e09",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_planner.py",
+        "sha256": "7c74e825832a7bc04dfa418d9ef281b145c51122b0111629840e3652f21ca6b5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/cost_contract.json",
+        "sha256": "27b7a4465880c5b90ff17f8b469ec1b737359ebb3b84d8af178e8617e99b1217",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check.json",
+        "sha256": "3a3ab01993aeedd09170577d32e42e786c2b7e7fef1cf48c0b94ed4e9a6ffd26",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_resources.log",
+        "sha256": "a78db29eda186a79d68705df3df60c467d4d30ef92c55f3ec8da5ec132c8ccb4",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "9a6be5179be0aaca9db0748eea8359c681a2b0cc976059d2c97cf6323e1212fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/source_preservation.json",
+        "sha256": "afa10fd2ab83e1093b45a5965968c4865d9309a93df281c9f02124e2b84d8108",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_coupled_transform.py",
+        "sha256": "aa42a929efcb09e3f72190ec65fbd769cc3e724cf1d5638b0344dc02035dfb25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check_resources.log",
+        "sha256": "9756afa954ef1760c08376ddf67de839632e9296af927cebed6062741dfa636e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/README.md",
+        "sha256": "9200506a04d7b37a16921fd95b23351ca80e4d9c44c7818185a058fd008fb510",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESULT.md",
+        "sha256": "b19eeb407b133252a36976ab5277c0269f23f24556e2e248055e6185b2f93979",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESUME.md",
+        "sha256": "1232f7e818b1696ab8d12f54057d6a6a5aceec46866a211ebde9c42c8fa2f455",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/VERIFY.py",
+        "sha256": "9ae671f52e9a474c26814c49fee186e95b8791e8c1b688b70e5ca8f99c40f024",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/README.md",
+        "sha256": "9200506a04d7b37a16921fd95b23351ca80e4d9c44c7818185a058fd008fb510",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESULT.md",
+        "sha256": "b19eeb407b133252a36976ab5277c0269f23f24556e2e248055e6185b2f93979",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESUME.md",
+        "sha256": "1232f7e818b1696ab8d12f54057d6a6a5aceec46866a211ebde9c42c8fa2f455",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/VERIFY.py",
+        "sha256": "9ae671f52e9a474c26814c49fee186e95b8791e8c1b688b70e5ca8f99c40f024",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SHA256SUMS",
+        "sha256": "9d30ef45af27fdf855fcb2bbad006c2979c4166bc469156e390a5a66e3c31ffa",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SHA256SUMS",
+        "sha256": "9d30ef45af27fdf855fcb2bbad006c2979c4166bc469156e390a5a66e3c31ffa",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/WORK_LOG.md",
+        "sha256": "1454e805c4d67819740f1baacb30aba2261c8ae0d8086d62bfe8f6058085e24c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/pair01.json",
+        "sha256": "78e5c7ad854caae4ee15e085709597d86eeab00769f7327a343412441948530e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/WORK_LOG.md",
+        "sha256": "1454e805c4d67819740f1baacb30aba2261c8ae0d8086d62bfe8f6058085e24c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/pair01.json",
+        "sha256": "78e5c7ad854caae4ee15e085709597d86eeab00769f7327a343412441948530e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_exact.py",
+        "sha256": "7959629c7cb7bcf5d4dfc6c01f67c5e3021abe0ec549bef472dd0546ad3e2a07",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_exact.py",
+        "sha256": "7959629c7cb7bcf5d4dfc6c01f67c5e3021abe0ec549bef472dd0546ad3e2a07",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_verify.log",
+        "sha256": "917ddefa09b4a4c163bd77303b47c9d89c9eb4dcc2849f0ef227fcae4d53961d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_check.json",
+        "sha256": "54f64662c7be89a64be2c7a94f192da073b64e38d7dd6dd216fe412dfe3f1e09",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_planner.py",
+        "sha256": "7c74e825832a7bc04dfa418d9ef281b145c51122b0111629840e3652f21ca6b5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_verify.log",
+        "sha256": "917ddefa09b4a4c163bd77303b47c9d89c9eb4dcc2849f0ef227fcae4d53961d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_check.json",
+        "sha256": "54f64662c7be89a64be2c7a94f192da073b64e38d7dd6dd216fe412dfe3f1e09",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_planner.py",
+        "sha256": "7c74e825832a7bc04dfa418d9ef281b145c51122b0111629840e3652f21ca6b5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/cost_contract.json",
+        "sha256": "27b7a4465880c5b90ff17f8b469ec1b737359ebb3b84d8af178e8617e99b1217",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check.json",
+        "sha256": "3a3ab01993aeedd09170577d32e42e786c2b7e7fef1cf48c0b94ed4e9a6ffd26",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/cost_contract.json",
+        "sha256": "27b7a4465880c5b90ff17f8b469ec1b737359ebb3b84d8af178e8617e99b1217",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check.json",
+        "sha256": "3a3ab01993aeedd09170577d32e42e786c2b7e7fef1cf48c0b94ed4e9a6ffd26",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_resources.log",
+        "sha256": "a78db29eda186a79d68705df3df60c467d4d30ef92c55f3ec8da5ec132c8ccb4",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/README.md",
+        "sha256": "9200506a04d7b37a16921fd95b23351ca80e4d9c44c7818185a058fd008fb510",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESULT.md",
+        "sha256": "b19eeb407b133252a36976ab5277c0269f23f24556e2e248055e6185b2f93979",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESUME.md",
+        "sha256": "1232f7e818b1696ab8d12f54057d6a6a5aceec46866a211ebde9c42c8fa2f455",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/VERIFY.py",
+        "sha256": "9ae671f52e9a474c26814c49fee186e95b8791e8c1b688b70e5ca8f99c40f024",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_resources.log",
+        "sha256": "a78db29eda186a79d68705df3df60c467d4d30ef92c55f3ec8da5ec132c8ccb4",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "9a6be5179be0aaca9db0748eea8359c681a2b0cc976059d2c97cf6323e1212fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SHA256SUMS",
+        "sha256": "9d30ef45af27fdf855fcb2bbad006c2979c4166bc469156e390a5a66e3c31ffa",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "9a6be5179be0aaca9db0748eea8359c681a2b0cc976059d2c97cf6323e1212fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/WORK_LOG.md",
+        "sha256": "1454e805c4d67819740f1baacb30aba2261c8ae0d8086d62bfe8f6058085e24c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/pair01.json",
+        "sha256": "78e5c7ad854caae4ee15e085709597d86eeab00769f7327a343412441948530e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/source_preservation.json",
+        "sha256": "afa10fd2ab83e1093b45a5965968c4865d9309a93df281c9f02124e2b84d8108",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_exact.py",
+        "sha256": "7959629c7cb7bcf5d4dfc6c01f67c5e3021abe0ec549bef472dd0546ad3e2a07",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/source_preservation.json",
+        "sha256": "afa10fd2ab83e1093b45a5965968c4865d9309a93df281c9f02124e2b84d8108",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_coupled_transform.py",
+        "sha256": "aa42a929efcb09e3f72190ec65fbd769cc3e724cf1d5638b0344dc02035dfb25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_verify.log",
+        "sha256": "917ddefa09b4a4c163bd77303b47c9d89c9eb4dcc2849f0ef227fcae4d53961d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_check.json",
+        "sha256": "54f64662c7be89a64be2c7a94f192da073b64e38d7dd6dd216fe412dfe3f1e09",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_planner.py",
+        "sha256": "7c74e825832a7bc04dfa418d9ef281b145c51122b0111629840e3652f21ca6b5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_coupled_transform.py",
+        "sha256": "aa42a929efcb09e3f72190ec65fbd769cc3e724cf1d5638b0344dc02035dfb25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check_resources.log",
+        "sha256": "9756afa954ef1760c08376ddf67de839632e9296af927cebed6062741dfa636e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check_resources.log",
+        "sha256": "9756afa954ef1760c08376ddf67de839632e9296af927cebed6062741dfa636e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/cost_contract.json",
+        "sha256": "27b7a4465880c5b90ff17f8b469ec1b737359ebb3b84d8af178e8617e99b1217",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check.json",
+        "sha256": "3a3ab01993aeedd09170577d32e42e786c2b7e7fef1cf48c0b94ed4e9a6ffd26",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_resources.log",
+        "sha256": "a78db29eda186a79d68705df3df60c467d4d30ef92c55f3ec8da5ec132c8ccb4",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "9a6be5179be0aaca9db0748eea8359c681a2b0cc976059d2c97cf6323e1212fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/source_preservation.json",
+        "sha256": "afa10fd2ab83e1093b45a5965968c4865d9309a93df281c9f02124e2b84d8108",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_coupled_transform.py",
+        "sha256": "aa42a929efcb09e3f72190ec65fbd769cc3e724cf1d5638b0344dc02035dfb25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check_resources.log",
+        "sha256": "9756afa954ef1760c08376ddf67de839632e9296af927cebed6062741dfa636e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/README.md",
+        "sha256": "9200506a04d7b37a16921fd95b23351ca80e4d9c44c7818185a058fd008fb510",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESULT.md",
+        "sha256": "b19eeb407b133252a36976ab5277c0269f23f24556e2e248055e6185b2f93979",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESUME.md",
+        "sha256": "1232f7e818b1696ab8d12f54057d6a6a5aceec46866a211ebde9c42c8fa2f455",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/VERIFY.py",
+        "sha256": "9ae671f52e9a474c26814c49fee186e95b8791e8c1b688b70e5ca8f99c40f024",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SHA256SUMS",
+        "sha256": "9d30ef45af27fdf855fcb2bbad006c2979c4166bc469156e390a5a66e3c31ffa",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/WORK_LOG.md",
+        "sha256": "1454e805c4d67819740f1baacb30aba2261c8ae0d8086d62bfe8f6058085e24c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/pair01.json",
+        "sha256": "78e5c7ad854caae4ee15e085709597d86eeab00769f7327a343412441948530e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_exact.py",
+        "sha256": "7959629c7cb7bcf5d4dfc6c01f67c5e3021abe0ec549bef472dd0546ad3e2a07",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_verify.log",
+        "sha256": "917ddefa09b4a4c163bd77303b47c9d89c9eb4dcc2849f0ef227fcae4d53961d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_check.json",
+        "sha256": "54f64662c7be89a64be2c7a94f192da073b64e38d7dd6dd216fe412dfe3f1e09",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_planner.py",
+        "sha256": "7c74e825832a7bc04dfa418d9ef281b145c51122b0111629840e3652f21ca6b5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/cost_contract.json",
+        "sha256": "27b7a4465880c5b90ff17f8b469ec1b737359ebb3b84d8af178e8617e99b1217",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check.json",
+        "sha256": "3a3ab01993aeedd09170577d32e42e786c2b7e7fef1cf48c0b94ed4e9a6ffd26",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/README.md",
+        "sha256": "9200506a04d7b37a16921fd95b23351ca80e4d9c44c7818185a058fd008fb510",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESULT.md",
+        "sha256": "b19eeb407b133252a36976ab5277c0269f23f24556e2e248055e6185b2f93979",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/RESUME.md",
+        "sha256": "1232f7e818b1696ab8d12f54057d6a6a5aceec46866a211ebde9c42c8fa2f455",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/VERIFY.py",
+        "sha256": "9ae671f52e9a474c26814c49fee186e95b8791e8c1b688b70e5ca8f99c40f024",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_resources.log",
+        "sha256": "a78db29eda186a79d68705df3df60c467d4d30ef92c55f3ec8da5ec132c8ccb4",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SHA256SUMS",
+        "sha256": "9d30ef45af27fdf855fcb2bbad006c2979c4166bc469156e390a5a66e3c31ffa",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "9a6be5179be0aaca9db0748eea8359c681a2b0cc976059d2c97cf6323e1212fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/WORK_LOG.md",
+        "sha256": "1454e805c4d67819740f1baacb30aba2261c8ae0d8086d62bfe8f6058085e24c",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/pair01.json",
+        "sha256": "78e5c7ad854caae4ee15e085709597d86eeab00769f7327a343412441948530e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_exact.py",
+        "sha256": "7959629c7cb7bcf5d4dfc6c01f67c5e3021abe0ec549bef472dd0546ad3e2a07",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/source_preservation.json",
+        "sha256": "afa10fd2ab83e1093b45a5965968c4865d9309a93df281c9f02124e2b84d8108",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_verify.log",
+        "sha256": "917ddefa09b4a4c163bd77303b47c9d89c9eb4dcc2849f0ef227fcae4d53961d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_check.json",
+        "sha256": "54f64662c7be89a64be2c7a94f192da073b64e38d7dd6dd216fe412dfe3f1e09",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/exact_planner.py",
+        "sha256": "7c74e825832a7bc04dfa418d9ef281b145c51122b0111629840e3652f21ca6b5",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_coupled_transform.py",
+        "sha256": "aa42a929efcb09e3f72190ec65fbd769cc3e724cf1d5638b0344dc02035dfb25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check_resources.log",
+        "sha256": "9756afa954ef1760c08376ddf67de839632e9296af927cebed6062741dfa636e",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/cost_contract.json",
+        "sha256": "27b7a4465880c5b90ff17f8b469ec1b737359ebb3b84d8af178e8617e99b1217",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check.json",
+        "sha256": "3a3ab01993aeedd09170577d32e42e786c2b7e7fef1cf48c0b94ed4e9a6ffd26",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/entry_resources.log",
+        "sha256": "a78db29eda186a79d68705df3df60c467d4d30ef92c55f3ec8da5ec132c8ccb4",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/SOURCE_BINDINGS.json",
+        "sha256": "9a6be5179be0aaca9db0748eea8359c681a2b0cc976059d2c97cf6323e1212fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/source_preservation.json",
+        "sha256": "afa10fd2ab83e1093b45a5965968c4865d9309a93df281c9f02124e2b84d8108",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/check_coupled_transform.py",
+        "sha256": "aa42a929efcb09e3f72190ec65fbd769cc3e724cf1d5638b0344dc02035dfb25",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_DENSE_PLANE_RESULT_AUDIT_2026-09-24/package/BSD_DENSE_PLANE_RESUMMATION_INDEPENDENT_AUDIT_2026-09-24/input/BSD_DENSE_PLANE_RESUMMATION_RESULT_2026-09-24/coupled_check_resources.log",
+        "sha256": "9756afa954ef1760c08376ddf67de839632e9296af927cebed6062741dfa636e",
+        "disposition": "EMBEDDED"
+      }
+    ],
+    "scope": "Extracted dossier survives; identity of the expired original ZIP bytes is not claimed."
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/8DA22A15-3011-43A1-B432-FEF84E4BCECA/1-BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27.zip",
+    "timestamp": "2026-09-27T16:24:05.387Z",
+    "reason": "explicit attachment path not currently present",
+    "surviving_extracted_members": [
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/README.md",
+        "sha256": "099f8e2bf1f263b10bc56da1663cd837cf62e312d2cad7b78494188cd5f53974",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/SHA256SUMS",
+        "sha256": "cb146fa238e0a721100cdfabe2fe76f6b96e23fdaf07ed816c701fe561ef500a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/VERDICT.json",
+        "sha256": "e4ad36641eb76d20a01618434600e42f1024c1258f33d282df28aa25051cfcc0",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/MANIFEST_CHECK.json",
+        "sha256": "733a5b8faefd1838bfc1b0834b26befbb087d9a456c1a7f9a900ef0a69c48ea1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/FINAL_INPUT_CHECK.json",
+        "sha256": "f318ae74f8df5882bfa97c8e303020a6504f17402459ca31557d9bc640aa43ec",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/SOURCE_BINDINGS_CHECK.json",
+        "sha256": "c3bcd0cbfb384be3a3910a1e437d9f2ac542a7a6323e99b3705ee74cb16b5600",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/REFRESH.md",
+        "sha256": "82df46707e1b13c99da3d9a5f0d8dff2148c59b9cd1a2b8da7d13de8bc542562",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/READ_FIRST.md",
+        "sha256": "1ca97780ef3279d3d9f85bea104f666717e1f4950f05db45454fe2691c4050f0",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_V025_BANK_2026-09-29/repo/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/MANIFEST.sha256",
+        "sha256": "742c3c7237ae52687c3d2cf1320160b2947450ce991ebf000a9741088bdd54bf",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_V025_BANK_2026-09-29/repo/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/SOURCE_BINDINGS.json",
+        "sha256": "5675242f5d6389e89a456fa80b162c1bd6caa07ab6485683308900750bc6fdbb",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/research/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/research/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/BH_BAD_PRIME_REVIEW_TASK.md",
+        "sha256": "d2f5fe012a492e31bf67219ee5ffca69c2572b66d65a3c716e971136ffa0ee9d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/CURRENT_GAP_ATLAS.md",
+        "sha256": "2e626cee7eead6f2b9a2efebe5bf5abba77310c85e951049d117cd768734c6f3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RELEASE_CORE_CLAIMS.py",
+        "sha256": "6469222b02df2d73e6fa07622d56dfa6971ec7bbbe9066a0dc9028d23eb73b01",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RESIDUAL_IMAGE_PROOF.md",
+        "sha256": "d4014ba00f14de941aaea30947721644bdc5b8d597f1dfe517b80039989164a8",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RELEASE_BRIDGE_CLAIMS.py",
+        "sha256": "a9b9e47334a464a359d42dbebd87a69b0e44754ea5d661ed6cb098d37b6342fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RESIDUAL_IMAGE_REVIEW.md",
+        "sha256": "676d0f840781e002498c7f35c833239f6eca0004c32bd594debbcd23b281863a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/README.md",
+        "sha256": "099f8e2bf1f263b10bc56da1663cd837cf62e312d2cad7b78494188cd5f53974",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/SHA256SUMS",
+        "sha256": "cb146fa238e0a721100cdfabe2fe76f6b96e23fdaf07ed816c701fe561ef500a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/VERDICT.json",
+        "sha256": "e4ad36641eb76d20a01618434600e42f1024c1258f33d282df28aa25051cfcc0",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/SINGLETON_SPEC_v1_audited.md",
+        "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/README.md",
+        "sha256": "099f8e2bf1f263b10bc56da1663cd837cf62e312d2cad7b78494188cd5f53974",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/MANIFEST_CHECK.json",
+        "sha256": "733a5b8faefd1838bfc1b0834b26befbb087d9a456c1a7f9a900ef0a69c48ea1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/SHA256SUMS",
+        "sha256": "cb146fa238e0a721100cdfabe2fe76f6b96e23fdaf07ed816c701fe561ef500a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/VERDICT.json",
+        "sha256": "e4ad36641eb76d20a01618434600e42f1024c1258f33d282df28aa25051cfcc0",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/FINAL_INPUT_CHECK.json",
+        "sha256": "f318ae74f8df5882bfa97c8e303020a6504f17402459ca31557d9bc640aa43ec",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/SOURCE_BINDINGS_CHECK.json",
+        "sha256": "c3bcd0cbfb384be3a3910a1e437d9f2ac542a7a6323e99b3705ee74cb16b5600",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/MANIFEST_CHECK.json",
+        "sha256": "733a5b8faefd1838bfc1b0834b26befbb087d9a456c1a7f9a900ef0a69c48ea1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/FINAL_INPUT_CHECK.json",
+        "sha256": "f318ae74f8df5882bfa97c8e303020a6504f17402459ca31557d9bc640aa43ec",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/SOURCE_BINDINGS_CHECK.json",
+        "sha256": "c3bcd0cbfb384be3a3910a1e437d9f2ac542a7a6323e99b3705ee74cb16b5600",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+        "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+        "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/REFRESH.md",
+        "sha256": "82df46707e1b13c99da3d9a5f0d8dff2148c59b9cd1a2b8da7d13de8bc542562",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/READ_FIRST.md",
+        "sha256": "1ca97780ef3279d3d9f85bea104f666717e1f4950f05db45454fe2691c4050f0",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/MANIFEST.sha256",
+        "sha256": "742c3c7237ae52687c3d2cf1320160b2947450ce991ebf000a9741088bdd54bf",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/REFRESH.md",
+        "sha256": "82df46707e1b13c99da3d9a5f0d8dff2148c59b9cd1a2b8da7d13de8bc542562",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/SOURCE_BINDINGS.json",
+        "sha256": "5675242f5d6389e89a456fa80b162c1bd6caa07ab6485683308900750bc6fdbb",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/READ_FIRST.md",
+        "sha256": "1ca97780ef3279d3d9f85bea104f666717e1f4950f05db45454fe2691c4050f0",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/MANIFEST.sha256",
+        "sha256": "742c3c7237ae52687c3d2cf1320160b2947450ce991ebf000a9741088bdd54bf",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/BH_BAD_PRIME_REVIEW_TASK.md",
+        "sha256": "d2f5fe012a492e31bf67219ee5ffca69c2572b66d65a3c716e971136ffa0ee9d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/CURRENT_GAP_ATLAS.md",
+        "sha256": "2e626cee7eead6f2b9a2efebe5bf5abba77310c85e951049d117cd768734c6f3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RELEASE_CORE_CLAIMS.py",
+        "sha256": "6469222b02df2d73e6fa07622d56dfa6971ec7bbbe9066a0dc9028d23eb73b01",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/SOURCE_BINDINGS.json",
+        "sha256": "5675242f5d6389e89a456fa80b162c1bd6caa07ab6485683308900750bc6fdbb",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RESIDUAL_IMAGE_PROOF.md",
+        "sha256": "d4014ba00f14de941aaea30947721644bdc5b8d597f1dfe517b80039989164a8",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RELEASE_BRIDGE_CLAIMS.py",
+        "sha256": "a9b9e47334a464a359d42dbebd87a69b0e44754ea5d661ed6cb098d37b6342fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RESIDUAL_IMAGE_REVIEW.md",
+        "sha256": "676d0f840781e002498c7f35c833239f6eca0004c32bd594debbcd23b281863a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_LAB_SYNC_2026-09-30/repo/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/SINGLETON_SPEC_v1_audited.md",
+        "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/BH_BAD_PRIME_REVIEW_TASK.md",
+        "sha256": "d2f5fe012a492e31bf67219ee5ffca69c2572b66d65a3c716e971136ffa0ee9d",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/CURRENT_GAP_ATLAS.md",
+        "sha256": "2e626cee7eead6f2b9a2efebe5bf5abba77310c85e951049d117cd768734c6f3",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RELEASE_CORE_CLAIMS.py",
+        "sha256": "6469222b02df2d73e6fa07622d56dfa6971ec7bbbe9066a0dc9028d23eb73b01",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RESIDUAL_IMAGE_PROOF.md",
+        "sha256": "d4014ba00f14de941aaea30947721644bdc5b8d597f1dfe517b80039989164a8",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RELEASE_BRIDGE_CLAIMS.py",
+        "sha256": "a9b9e47334a464a359d42dbebd87a69b0e44754ea5d661ed6cb098d37b6342fc",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/RESIDUAL_IMAGE_REVIEW.md",
+        "sha256": "676d0f840781e002498c7f35c833239f6eca0004c32bd594debbcd23b281863a",
+        "disposition": "EMBEDDED"
+      },
+      {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/state-sync-2026-09-30/dossiers/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_REVIEW_BRIEF/inputs/SINGLETON_SPEC_v1_audited.md",
+        "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f",
+        "disposition": "EMBEDDED"
+      }
+    ],
+    "scope": "Extracted dossier survives; identity of the expired original ZIP bytes is not claimed."
+  }
+]

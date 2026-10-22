@@ -1,0 +1,21 @@
+ok  baseline_l29_copy                          expect NONZERO            got NONZERO            exit 0  
+ok  baseline_l379_copy                         expect INCONCLUSIVE_ZERO  got INCONCLUSIVE_ZERO  exit 3  
+ok  row_values_copied                          expect INVALID            got INVALID            exit 2  symmetry [(l-b)/l]^+ = [b/l]^+ or [(l-b)/l]^- = -[b/l]^- fails
+ok  duplicate_label_audit_attack               expect INVALID            got INVALID            exit 2  duplicate XB labels: [1]
+ok  missing_row                                expect INVALID            got INVALID            exit 2  label set differs from the units mod 29: missing [5], extra []
+ok  out_of_range_label                         expect INVALID            got INVALID            exit 2  label set differs from the units mod 29: missing [28], extra [30]
+ok  false_count                                expect INVALID            got INVALID            exit 2  COUNT fields inconsistent: smooth 0 pairs 0 sum 0 T 0 identity 1 (frozen T 65535)
+ok  wrong_expected_sign                        expect INVALID            got INVALID            exit 2  PARAMS mismatch: got "msl 0 1 1 -2 0 29 389 1 65535 65536 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleto
+ok  wrong_expected_Q                           expect INVALID            got INVALID            exit 2  Q must equal N for an auxiliary prime not dividing N (M = 1)
+ok  wrong_expected_T                           expect INVALID            got INVALID            exit 2  PARAMS mismatch: got "msl 0 1 1 -2 0 29 389 1 65535 65536 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleto
+ok  stale_params_from_other_run                expect INVALID            got INVALID            exit 2  PARAMS mismatch: got "msl 0 1 1 -2 0 379 389 1 65535 65536 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singlet
+ok  tampered_symbol_manifest_not_updated       expect INVALID            got INVALID            exit 2  manifest msl_output_sha256 does not match the output file
+ok  tampered_symbol_asymmetric                 expect INVALID            got INVALID            exit 2  symmetry [(l-b)/l]^+ = [b/l]^+ or [(l-b)/l]^- = -[b/l]^- fails
+ok  tampered_pair_breaks_c0                    expect INVALID            got INVALID            exit 2  c0 = 2 != 0 (Hecke relation at l with [0]^+ = 0)
+ok  two_lattice_candidates                     expect INVALID            got INVALID            exit 2  b=3: not a unique point of (1/1024)Z
+ok  bad_receipt_hash                           expect INVALID            got INVALID            exit 2  AP_SEGROOT does not equal the root of the verifier receipts over segments 0..k-1
+ok  wrong_engine_binary                        expect INVALID            got INVALID            exit 2  manifest arbcore_sha256 does not match the engine binary
+ok  wrong_pinned_root                          expect INVALID            got INVALID            exit 2  receipt root differs from the pinned segment root
+ok  launcher_refuses_unauthorized_seed         expect REFUSED            got REFUSED: a seed run needs SINGLETON_AUTHORIZED=yes exit 2  
+ok  launcher_refuses_existing_outdir           expect REFUSED            got REFUSED: /Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/sele exit 2  
+ALL CONTROLS OK

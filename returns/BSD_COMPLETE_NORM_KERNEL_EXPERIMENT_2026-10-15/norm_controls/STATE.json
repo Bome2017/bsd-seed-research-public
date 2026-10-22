@@ -1,0 +1,19 @@
+{
+  "stage": "complete",
+  "status": "COMPLETE_NORM_KERNELS_CERTIFIED",
+  "cases": {
+    "1913b1": {
+      "scalar_dimension": 3,
+      "norm_kernel_dimension": 2,
+      "norm_rank": 1
+    },
+    "389a1": {
+      "scalar_dimension": 4,
+      "norm_kernel_dimension": 2,
+      "norm_rank": 2
+    }
+  },
+  "candidate": "valuation-zero equivalence holds on two controls; falsified by433a1 global norm-cube direction",
+  "fresh_temp_replay": true,
+  "endpoint_change": false
+}

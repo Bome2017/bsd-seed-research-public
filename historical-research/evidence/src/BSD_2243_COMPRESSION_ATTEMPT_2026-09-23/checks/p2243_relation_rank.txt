@@ -1,0 +1,9 @@
+Q = N/p = 2899325908488;  L = l(Q) = 1989 (mod 2243);  self-paired column j0 = -L/2 = 127
+constraint space dimension = 1121 (= (p-1)/2 = 1121)
+c0 vanishes identically on the constraint space: True
+c2 = -(1+L)/2 * c1 identically: True
+rank{c0,c1,c2} = 1 ; rank{c0,c1,c2,c3} = 2  -> c3 is NOT determined by c0..c2 on the constraint space
+c4 lies in span{c1, c3} on the constraint space: True
+c4 = a*c3 + b*c1 identically on all 1121 basis vectors: True;  a = 1247 vs -(3+L)/2 = 1247: True;  b = 511
+Gauss periods over mu_(p-1) cosets: max 194.105, min -172.157, max|eta| 194.105; aggregated coefficient bound max|G| = max - min = 366.262 (s = -1); per-symbol bound is 2
+kappa = 7.334539e-13; extra cutoff to identify column sums exactly: ln(max|G|/2)/kappa = 7.1037e+12

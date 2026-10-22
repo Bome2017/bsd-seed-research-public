@@ -1,0 +1,14 @@
+{
+  "status": "PREPARED_NOT_SUBMITTED_REMOTE_RUNTIME_UNTESTED",
+  "date": "2026-10-05",
+  "base_lab_commit": "99dac1e217fbd67e4c747406f5d22e0a95a71e7c",
+  "remote_job_created": false,
+  "large_job_authorized_by_this_step": false,
+  "server_execution_verified": false,
+  "user_instruction": "Prepare the test without submitting",
+  "local_controls_passed": 23,
+  "sdk_project_files_verified": 4,
+  "sdk_payload_bytes": 3739,
+  "full_corpus_capacity_tested": false,
+  "prior_large_archives_preserved": true
+}

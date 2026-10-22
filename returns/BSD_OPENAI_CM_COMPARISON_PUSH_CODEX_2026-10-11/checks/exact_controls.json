@@ -1,0 +1,88 @@
+{
+  "a_q": {
+    "5": -2,
+    "13": -4
+  },
+  "alternating_models": [
+    {
+      "a": 1,
+      "cokernel_length": 2,
+      "determinant": 25,
+      "p": 5,
+      "quotient": 1
+    },
+    {
+      "a": 2,
+      "cokernel_length": 4,
+      "determinant": 625,
+      "p": 5,
+      "quotient": 1
+    },
+    {
+      "a": 5,
+      "cokernel_length": 10,
+      "determinant": 9765625,
+      "p": 5,
+      "quotient": 1
+    },
+    {
+      "a": 1,
+      "cokernel_length": 2,
+      "determinant": 49,
+      "p": 7,
+      "quotient": 1
+    },
+    {
+      "a": 2,
+      "cokernel_length": 4,
+      "determinant": 2401,
+      "p": 7,
+      "quotient": 1
+    },
+    {
+      "a": 5,
+      "cokernel_length": 10,
+      "determinant": 282475249,
+      "p": 7,
+      "quotient": 1
+    },
+    {
+      "a": 1,
+      "cokernel_length": 2,
+      "determinant": 121,
+      "p": 11,
+      "quotient": 1
+    },
+    {
+      "a": 2,
+      "cokernel_length": 4,
+      "determinant": 14641,
+      "p": 11,
+      "quotient": 1
+    },
+    {
+      "a": 5,
+      "cokernel_length": 10,
+      "determinant": 25937424601,
+      "p": 11,
+      "quotient": 1
+    }
+  ],
+  "counts": {
+    "5": 8,
+    "13": 18
+  },
+  "degree_correction": {
+    "degree": 0,
+    "eigenvalue": 2,
+    "single_prime_constants": {
+      "13": -18,
+      "5": -8
+    }
+  },
+  "grade": "EXACT_FORMULA_CONTROLS_NOT_SEED_BOUND",
+  "limitations": [
+    "No CM class or mixed-place scalar computed",
+    "No source theorem or geometric map certified by this script"
+  ]
+}

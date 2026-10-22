@@ -1,0 +1,33 @@
+T_run 39119887532031 (least k*2^24-1 >= T_min 39119884424954)
+seg 0: SEG 0 lo 0 hi 16777216 witnesses 1077305 fast 1077305 pari 0 retried_x0 3399 cpu 23.08 | verifier user 12.31
+seg 59: SEG 59 lo 989855744 hi 1006632960 witnesses 809619 fast 809619 pari 0 retried_x0 151 cpu 32.59 | verifier user 13.53
+seg 5960: SEG 5960 lo 99992207360 hi 100008984576 witnesses 662078 fast 662078 pari 0 retried_x0 12 cpu 58.48 | verifier user 18.82
+seg 596046: SEG 596046 lo 9999992487936 hi 10000009265152 witnesses 560910 fast 560910 pari 0 retried_x0 0 cpu 131.05 | verifier user 21.60
+p0 UNIT L seg 0 sub 0/35452 m [1,178) pairs 114829281 terms 51887600 seconds 0.244 setup 2.9 ns_per_term 4.7
+p0 UNIT L seg 59 sub 0/583 m [1,69) pairs 55054092 terms 25907200 seconds 0.158 setup 2.9 ns_per_term 6.1
+p0 UNIT L seg 5960 sub 0/4 m [1,99) pairs 64883644 terms 29793420 seconds 0.190 setup 2.9 ns_per_term 6.4
+p0 UNIT L seg 596046 sub 0/1 m [1,4) pairs 1682730 terms 1121820 seconds 0.101 setup 2.9 ns_per_term 90.1
+p0 UNIT L seg 2331725 sub 0/1 m [1,2) pairs 536236 terms 536236 seconds 0.101 setup 2.9 ns_per_term 187.6
+p0 UNIT S blk 2384 smooth 2470066 terms 2470066 seconds 0.553 setup 2.9 ns_per_n 131.9
+p0 UNIT S blk 238418 smooth 1722531 terms 1722531 seconds 0.656 setup 2.9 ns_per_n 156.5
+p0 UNIT S blk 9326906 smooth 1210081 terms 1210081 seconds 0.696 setup 2.9 ns_per_n 165.8
+p1 UNIT L seg 0 sub 0/35452 m [1,178) pairs 114829281 terms 51887600 seconds 5.458 setup 2.9 ns_per_term 105.2
+p1 UNIT L seg 59 sub 0/583 m [1,69) pairs 55054092 terms 25907200 seconds 2.770 setup 2.9 ns_per_term 106.9
+p1 UNIT L seg 5960 sub 0/4 m [1,99) pairs 64883644 terms 29793420 seconds 3.213 setup 2.9 ns_per_term 107.8
+p1 UNIT L seg 596046 sub 0/1 m [1,4) pairs 1682730 terms 1121820 seconds 0.244 setup 2.9 ns_per_term 217.6
+p1 UNIT L seg 2331725 sub 0/1 m [1,2) pairs 536236 terms 536236 seconds 0.181 setup 2.9 ns_per_term 337.7
+p1 UNIT S blk 2384 smooth 2470066 terms 2470066 seconds 0.811 setup 2.9 ns_per_n 193.3
+p1 UNIT S blk 238418 smooth 1722531 terms 1722531 seconds 0.881 setup 2.9 ns_per_n 210.1
+p1 UNIT S blk 9326906 smooth 1210081 terms 1210081 seconds 0.900 setup 2.9 ns_per_n 214.7
+p2 UNIT L seg 0 sub 0/35452 m [1,178) pairs 114829281 terms 51887600 seconds 11.336 setup 2.9 ns_per_term 218.5
+p2 UNIT L seg 59 sub 0/583 m [1,69) pairs 55054092 terms 25907200 seconds 5.650 setup 2.9 ns_per_term 218.1
+p2 UNIT L seg 5960 sub 0/4 m [1,99) pairs 64883644 terms 29793420 seconds 6.698 setup 2.9 ns_per_term 224.8
+p2 UNIT L seg 596046 sub 0/1 m [1,4) pairs 1682730 terms 1121820 seconds 0.377 setup 2.9 ns_per_term 336.3
+p2 UNIT L seg 2331725 sub 0/1 m [1,2) pairs 536236 terms 536236 seconds 0.249 setup 2.9 ns_per_term 464.6
+p2 UNIT S blk 2384 smooth 2470066 terms 1016286 seconds 0.886 setup 2.9 ns_per_n 211.3
+p2 UNIT S blk 238418 smooth 1722531 terms 696705 seconds 0.939 setup 2.9 ns_per_n 223.9
+p2 UNIT S blk 9326906 smooth 1210081 terms 475312 seconds 0.944 setup 2.9 ns_per_n 225.0
+UNIT L seg 2331725 sub 0/1 m [1,2) pairs 536236 terms 536236 seconds 0.248 setup 2.9 ns_per_term 462.2
+CKPT_WRITE bytes 80496784 seconds 0.308
+DFTBENCH m 5031049 seconds 184.95  sample_radius 1.245e-20
+S3_DONE

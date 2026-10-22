@@ -1,0 +1,7 @@
+  ***   at top-level: ...spadicinit(ms,p,nn,0);mu=mspadicmoments(mp,phi
+  ***                                             ^---------------------
+  *** mspadicmoments: the PARI stack overflows !
+  current stack size: 4000000000 (3814.697 Mbytes)
+  [hint] set 'parisizemax' to a nonzero value in your GPRC
+
+... skipping file 'checks/combined329233.gp'

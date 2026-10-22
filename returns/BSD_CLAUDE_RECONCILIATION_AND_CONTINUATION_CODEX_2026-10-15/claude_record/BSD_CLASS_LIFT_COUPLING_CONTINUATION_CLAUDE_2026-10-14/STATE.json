@@ -1,0 +1,27 @@
+{
+  "status": "CONTINUATION_COMPLETE",
+  "copy_of": "BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13 (Codex; original untouched)",
+  "continued_by": "Claude Opus 5.5, 2026-10-14, at the user request (Codex unavailable until ~10-20)",
+  "codex_state_at_copy": "continuation/CODEX_STATE_AT_COPY.json",
+  "codex_completed": {
+    "718b1": "repaired into P1+2P2",
+    "997c1": "repaired into 2P1+P2",
+    "1070a1": "repaired into 2P1+P2",
+    "reviews": "all PASS; replayed byte-identically in this copy"
+  },
+  "continuation": {
+    "extended_scan": "next 24 candidates (48 total), Codex verbatim scan script and limits",
+    "new_relevant_certified": {
+      "1141a1": "2P1+P2",
+      "1246c1": "P1 (retry 600 s)",
+      "1480a1": "P1+P2",
+      "1525c1": "2P1+P2 (2-torsion column dropped in witness rerun)",
+      "1613a1": "2P2 (saved bnf certified separately, bnfcertify=1, 1296 s)"
+    },
+    "unrepairable_class_found": false,
+    "mechanism": "in all nine: scalar leaves two anti-units, affine-line norm rejects one at an explicit split prime, joint admitted unit 1 + class 1 = point plane; class direction repaired into points"
+  },
+  "endpoints": "FIN ORDER9 Q36 unchanged",
+  "pushed": false,
+  "running_jobs": []
+}

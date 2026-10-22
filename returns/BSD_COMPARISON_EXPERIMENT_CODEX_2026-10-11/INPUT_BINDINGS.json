@@ -1,0 +1,21 @@
+{
+  "baseline_lab_commit": "790e118677dbe6a6415df998d76c246f772f1d62",
+  "inputs": [
+    {
+      "path": "/Users/bsm/BSD_COMPARISON_DISCOVERY_PROCESS_CODEX_2026-10-11/REPORT.md",
+      "sha256": "788e2b6d0688153ab1a2c60476a955f5594870ae78611f03a2538aef35692b3f",
+      "scope": "governing or predecessor record; not a fresh audit of all antecedent mathematics"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPARISON_DISCOVERY_PROCESS_CODEX_2026-10-11/FIRST_EXPERIMENT.md",
+      "sha256": "709d1839a22de6a9e7c4248dd0735af1ba377c0163f9bd6d04ad46e24223a53a",
+      "scope": "governing or predecessor record; not a fresh audit of all antecedent mathematics"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "sha256": "111b73becca09325141084a6dd89f2fd2e8294e24d7920522281cb6d8bb202e8",
+      "scope": "governing or predecessor record; not a fresh audit of all antecedent mathematics"
+    }
+  ],
+  "additional_bindings": "admission/RESULT.json and geometry/INPUT_BINDINGS.json retain their source identities"
+}

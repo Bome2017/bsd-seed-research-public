@@ -1,0 +1,11 @@
+conductor 6503188012738584
+torsion [2, [2]]
+P1,P2 on E: 1 1
+ellrank(E) [r1,r2,s] = [2, 2, 0]
+E' torsion [2, [2]]
+ellrank(E') [r1,r2,s] = [2, 2, 0]
+alpha(T)  = 26568121   alpha(P1) = 4547   alpha(P2) = 1
+alpha'(T') = 10198921
+alpha'(E' point 1) = -2243
+alpha'(E' point 2) = -2243
+$GP -q -D parisizemax=4000000000 < pari_descent.gp  0.03s user 0.01s system 50% cpu 0.088 total

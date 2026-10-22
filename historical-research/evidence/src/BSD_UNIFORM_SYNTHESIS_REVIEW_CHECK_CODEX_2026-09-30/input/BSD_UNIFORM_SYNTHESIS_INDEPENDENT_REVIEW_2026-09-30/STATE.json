@@ -1,0 +1,58 @@
+{
+  "status": "ACCEPT_AT_IMPORT_GRADE",
+  "task": "Independent review of NEXT_TASK.md, Parts A and B",
+  "date": "2026-09-30",
+  "phase": "complete",
+  "part_a": {
+    "checks_completed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "first_failing_step": null,
+    "conclusion": "For every good p>=5, M_infinity(delta)=0 and some mod-p unit Kurihara witness exists.",
+    "grade": "imported source theorems plus retained seed inputs",
+    "prime_domain": {
+      "minimum": 5,
+      "excluded_bad_primes": [
+        2243,
+        4547,
+        5843
+      ]
+    },
+    "extra_exclusion_of_19_59_487": false
+  },
+  "part_b": {
+    "minimum_unit_length_equals_mod_p_selmer_dimension": true,
+    "length_two_iff_primary_sha_zero": true,
+    "bh_full_normalized_character_depth_strictly_less_than_four_is_sufficient": true,
+    "composite_conductor_allowed": true,
+    "finite_sha_assumed": false,
+    "first_nonzero_index_conflated_with_first_unit_index": false,
+    "threshold_less_than_or_equal_to_four_accepted": false
+  },
+  "uniform_low_depth_bound_proved": false,
+  "uniform_finite_support_proved": false,
+  "new_primary_vanishing": "NONE",
+  "historical_scalar_comparisons": "NOT_PERFORMED",
+  "retained_arithmetic_certificates_replayed": false,
+  "input_manifest": {
+    "entries": 26,
+    "mismatches": 0
+  },
+  "live_author_pdf_byte_hash_independently_reverified": false,
+  "source_delivery_discrepancy_documented": true,
+  "canonical_state_changed": false,
+  "production_computation": false,
+  "pari_processes": 0,
+  "paid_compute": false,
+  "subagents": 0,
+  "repository_changes": false,
+  "pushes": false,
+  "correspondence": false,
+  "successor_construction_launched": false,
+  "next": "No automatic continuation. Any later construction requires an explicit independent upper-bound mechanism.",
+  "boundary": "FIN, ORDER9 and Q36 are unchanged."
+}

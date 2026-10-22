@@ -1,0 +1,35 @@
+{
+ "task": "RIGOROUS_STREAM_CORE",
+ "started": "2026-09-19",
+ "phase": "DONE__RIGOROUS_STREAM_CORE_READY",
+ "done": [
+  "DESIGN.md",
+  "verifier/wverify.c (145 lines, compiles clean)",
+  "src/apwit.c (+fastap.c byte-identical to LP5 copy, sha 7d3f4d51)",
+  "round trip 389a1 T=2e5 and seed T=2e6: all witnesses verified; 17984 + 148933 a_p == PARI ellap",
+  "6/6 negative tests rejected (runs/negtest)",
+  "src/arbcore.c v2 (l2, ms, msl, tmin, g2t; range guard, PARAMS lock, AP segment hashes); v1 archived in logs/src_history",
+  "g2t: 200000 points, 0 non-overlapping; PARI intnum G2 at 6 points inside Arb balls (validation/g2_crosscheck.txt)",
+  "validation v3: 192/192 checks, 1117 exact symbols (validation/compare_val_output.txt); negative tests 7/7 detected (runs/negcore)",
+  "seed T=1.5e8: 8444396 a_q verified; a_n Merkle 8c0b71cc == wverify an; L''/2 in [35.929604, 35.941023], ZERO_EXCLUDED 1 (v2 W=4); v3 W=1 replay bit-identical",
+  "seed m=25 regression: ms == msl; LP5 double A_k agree to 6.2e-17 rel",
+  "p3plan: tmin exact (m=81: 14832175873 @ 1/1024), calibration at 1.48e10 (prod 65.5us, ver 25.7us), run_p3.sh guarded + tested on 24a1/37a1 (168/168 = Sage)",
+  "full fresh-directory replay 9/9 PASS (certificate/replay_seed_l2_output.txt)",
+  "15a1/24a1 symbols determined in (1/4)Z (validation/quarter_lattice_15a1_24a1.txt); 852+852 symbols of 7 curves determined in (1/2)Z",
+  "reports: 00_REPORT.md, ANALYTIC_RANK_CERTIFICATE.md, P3_RUN_PLAN.md; DESIGN.md addendum; build.sh; TOOLCHAIN.txt",
+  "memory: seed-2243-12-rigorous-core.md, macos-shell-traps.md"
+ ],
+ "next": [
+  "(operator) decide on P3_AUTHORIZED=yes p3plan/run_p3.sh",
+  "(optional) finish 234446a1 minus references if the Sage job completes"
+ ],
+ "caps": {
+  "threads": 4,
+  "ram_gb": 4,
+  "analytic_rank_cpu_h": 2
+ },
+ "no_p3_run": true,
+ "merged": false,
+ "return": "RIGOROUS_STREAM_CORE_READY",
+ "p3_run_launched": false
+}

@@ -1,0 +1,9 @@
+{
+  "root": "BSD_NESTED_RUNTIME_SMOKE",
+  "sha256": "b3758b68ccc9064df9713b0a6ae5e6e6cc29d94470e7603ca31c26555a8de22c",
+  "bytes": 1197,
+  "manifest_entries": 3,
+  "zip_file_entries_including_manifest": 4,
+  "expanded_bytes_including_manifest": 610,
+  "purpose": "Tiny nested extraction/read probe only; no BSD computation"
+}

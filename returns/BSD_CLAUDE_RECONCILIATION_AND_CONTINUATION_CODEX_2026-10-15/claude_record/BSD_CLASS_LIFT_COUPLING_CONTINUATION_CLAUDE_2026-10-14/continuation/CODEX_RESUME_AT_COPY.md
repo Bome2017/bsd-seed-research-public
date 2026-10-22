@@ -1,0 +1,3 @@
+Active continuation: find a complete rank-two full-image mod3 control with nontrivial class source, construct class-to-defect coupling and determine whether independent admission removes its class directions. Read CONTRACT.md and STATE.json. Previous sealed returns unchanged.
+
+Checkpoint: 718b1 and997c1 complete sources have classC3, unit-admitted1, class-admitted1, both filled by points. 718 rawbeta repaired intoP1+2P2; independent matrix checker passes both. Actual noncube antiunit at split829 independently checked. First24-candidate search continues for an unrepairable class; do not mark complete prematurely. Ray pushout for718 is constructed separately.

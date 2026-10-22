@@ -1,0 +1,48 @@
+[
+  {
+    "map": "TORSOR_MAP_0.json",
+    "checks": {
+      "source_fiber_polynomial": true,
+      "target_fiber_polynomial": true,
+      "source_irreducible": true,
+      "target_irreducible": true,
+      "target_polynomial_at_r": true,
+      "source_division_point": true,
+      "target_division_point": true,
+      "x_map_degree25": true,
+      "source_differential_formula": true,
+      "target_differential_formula": true,
+      "all_relevant_rational_denominators_prime_to_3061": true,
+      "source_fiber_separable_mod3061": true,
+      "target_fiber_separable_mod3061": true,
+      "both_curves_good_at3061": true,
+      "source_psi5_irreducible": true,
+      "transvection_input_at7": true
+    },
+    "source_discriminant": "-53361",
+    "source_c4": "-143"
+  },
+  {
+    "map": "TORSOR_MAP_113_0.json",
+    "checks": {
+      "source_fiber_polynomial": true,
+      "target_fiber_polynomial": true,
+      "source_irreducible": true,
+      "target_irreducible": true,
+      "target_polynomial_at_r": true,
+      "source_division_point": true,
+      "target_division_point": true,
+      "x_map_degree25": true,
+      "source_differential_formula": true,
+      "target_differential_formula": true,
+      "all_relevant_rational_denominators_prime_to_3061": true,
+      "source_fiber_separable_mod3061": true,
+      "target_fiber_separable_mod3061": true,
+      "both_curves_good_at3061": true,
+      "source_psi5_irreducible": true,
+      "transvection_input_at7": true
+    },
+    "source_discriminant": "-53361",
+    "source_c4": "-143"
+  }
+]

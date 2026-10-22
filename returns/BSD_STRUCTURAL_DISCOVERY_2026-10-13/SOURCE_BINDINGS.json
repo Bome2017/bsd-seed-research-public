@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/verify_certificate.gp",
+    "included": "inputs/verify_certificate.gp",
+    "bytes": 15003,
+    "sha256": "4d8cbd23a781e82e8051c19c751ce3220693a17b5e45bf0407ebf9bb7d927774"
+  },
+  {
+    "path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/RETURN.md",
+    "included": "inputs/RETURN.md",
+    "bytes": 8090,
+    "sha256": "377d2fd88f1c4aed60639b88040ac454fa8750263c124b46f29be5b54e740549"
+  },
+  {
+    "path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/METHOD.md",
+    "included": "inputs/METHOD.md",
+    "bytes": 2958,
+    "sha256": "35a160d370d90f03d4428fced74ec5052bb9146946fae78351058b71c412347e"
+  }
+]

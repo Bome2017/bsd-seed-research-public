@@ -1,0 +1,38 @@
+[
+  {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/arithmetic/718b1/data.gp",
+    "path": "inputs/718_data.gp",
+    "sha256": "c7d453e4233c882a5ced7270f7ba92b68a4146d72e69f128f7536fe06eb57360",
+    "bytes": 1160662
+  },
+  {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/arithmetic/718b1/witness_data.gp",
+    "path": "inputs/718_witness.gp",
+    "sha256": "18bd88929588f4606f607e422182e4035fb32f81a476f07d9499c0798ffddafe",
+    "bytes": 2564
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/data.gp",
+    "path": "inputs/1913_data.gp",
+    "sha256": "bdbac56d60e62907a577cee78d3e0a6c563f20bf41b3aab68bce8c9e39e6addf",
+    "bytes": 1048721
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/affine_norm_certificate.gp",
+    "path": "inputs/1913_norm.gp",
+    "sha256": "8dd0ad416cfa2338b5708450c1a33c9ee003d0eb773531baf3443f63a26bdc59",
+    "bytes": 2998
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/data.gp",
+    "path": "inputs/28042_data.gp",
+    "sha256": "10b235912cd202edc392b4b39edd42741d069f46b90069054b8a025388ab6830",
+    "bytes": 1184577
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/affine_norm_certificate.gp",
+    "path": "inputs/28042_norm.gp",
+    "sha256": "20cd133bf57a2f71028769c9291472b4df59a45aa2f278c838a1b46432cd8efe",
+    "bytes": 6793
+  }
+]

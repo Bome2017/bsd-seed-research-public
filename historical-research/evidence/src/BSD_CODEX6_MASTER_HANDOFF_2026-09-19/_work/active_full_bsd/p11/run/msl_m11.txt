@@ -1,0 +1,39 @@
+AP_SEGROOT_SHA256 c219a9b3e682f0c41b5bd3373fa150934a13b7f6fbb665cba8b4390bf4d11391 segments 202
+SMOOTH_MERKLE_SHA256 07091564632a313700293d4be92f739c2a3c00f387b312a8d72253aa3bbc6811 blocks 808
+COUNT smooth 1110879230 pairs 2278118401 sum 3388997631 T 3388997631 identity 1
+TAIL_MS_UPPER_TIMES2 1.312158070e-5
+S 0 [0.004004614013915469706610363 +/- 3.00e-28]
+S 1 [1.222280784164329496342028 +/- 2.81e-25]
+S 2 [-0.7383797525873748260799075 +/- 3.33e-26]
+S 3 [0.1033177476826892882302716 +/- 3.29e-26]
+S 4 [0.3010033378140758425074746 +/- 2.33e-26]
+S 5 [-0.4970563261373138748356996 +/- 1.54e-26]
+S 6 [-0.6105611078640798127296286 +/- 3.77e-26]
+S 7 [-0.2181512822853806701489896 +/- 3.97e-27]
+S 8 [0.4142621600647940662174531 +/- 6.40e-27]
+S 9 [-0.4461959753375808583976855 +/- 7.30e-27]
+S 10 [0.5095265546301376706500623 +/- 1.53e-26]
+SDUMP 0 8339231c87030156d7a33719b32246e1 -87 129ae149 -7e
+SDUMP 1 9c73b25d41ec7fbe23516b4e442495b3 -7f 325b537d -7f
+SDUMP 2 -5e833a4cb217a25f24fda72b10208675 -7f 1930e505 -7e
+SDUMP 3 d398415b25f333d989638412ef027bab -83 3258a197 -7f
+SDUMP 4 4d0e8e03e5f6b7e083bd733b5fc5adb9 -80 3272bac5 -7f
+SDUMP 5 -1fcfc55641e629fe0e122c936b87471b -7e 32871671 -7f
+SDUMP 6 -9c4dbb967c5a30f3d228b739f9c4e923 -80 325a89f3 -7f
+SDUMP 7 -df630cbbfc151159fda6a6620fd6d0b3 -82 c992ff -79
+SDUMP 8 1a83456f5cb5fd4d856037cc2c89a3d5 -7e 32af7699 -7f
+SDUMP 9 -e473cc835d0c05aa51871726824a6409 -81 3259f12f -7f
+SDUMP 10 82705510947acafd7885a04f5667d353 -80 c98fb73 -7d
+OMEGA_PLUS [0.0280449015194364044483094018079 +/- 3.04e-32]
+OMEGA_MINUS [0.0305556264963434249561173450733 +/- 1.88e-32]
+XB 1 plus [-32.000 +/- 4.69e-4] cand -32768/1024 contains 1 unique 1 minus [+/- 4.30e-4] cand 0/1024 contains 1 unique 1
+XB 2 plus [70.000 +/- 4.69e-4] cand 71680/1024 contains 1 unique 1 minus [-49.000 +/- 4.30e-4] cand -50176/1024 contains 1 unique 1
+XB 3 plus [70.000 +/- 4.69e-4] cand 71680/1024 contains 1 unique 1 minus [49.000 +/- 4.30e-4] cand 50176/1024 contains 1 unique 1
+XB 4 plus [-76.000 +/- 4.69e-4] cand -77824/1024 contains 1 unique 1 minus [46.000 +/- 4.30e-4] cand 47104/1024 contains 1 unique 1
+XB 5 plus [-32.000 +/- 4.69e-4] cand -32768/1024 contains 1 unique 1 minus [+/- 4.30e-4] cand 0/1024 contains 1 unique 1
+XB 6 plus [-32.000 +/- 4.69e-4] cand -32768/1024 contains 1 unique 1 minus [+/- 4.30e-4] cand 0/1024 contains 1 unique 1
+XB 7 plus [-76.000 +/- 4.69e-4] cand -77824/1024 contains 1 unique 1 minus [-46.000 +/- 4.30e-4] cand -47104/1024 contains 1 unique 1
+XB 8 plus [70.000 +/- 4.69e-4] cand 71680/1024 contains 1 unique 1 minus [-49.000 +/- 4.30e-4] cand -50176/1024 contains 1 unique 1
+XB 9 plus [70.000 +/- 4.69e-4] cand 71680/1024 contains 1 unique 1 minus [49.000 +/- 4.30e-4] cand 50176/1024 contains 1 unique 1
+XB 10 plus [-32.000 +/- 4.69e-4] cand -32768/1024 contains 1 unique 1 minus [+/- 4.30e-4] cand 0/1024 contains 1 unique 1
+XB_PLUS_DETERMINED 10 of 10 (lattice 1/1024 Z)

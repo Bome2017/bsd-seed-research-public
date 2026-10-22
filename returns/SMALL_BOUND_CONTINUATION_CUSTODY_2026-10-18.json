@@ -1,0 +1,13 @@
+{
+  "source_folder": "/Users/bsm/BSD_SMALL_BOUND_CONTINUATION_2026-10-18",
+  "lab_folder": "work/returns/BSD_SMALL_BOUND_CONTINUATION_2026-10-18",
+  "archive": "work/returns/archives/BSD_SMALL_BOUND_CONTINUATION_2026-10-18.zip",
+  "archive_bytes": 3616606,
+  "archive_sha256": "9cc623167b70cce1c80d42f8124ccb8442cb9cdd9bf41ac480a6530ceea99354",
+  "root_manifest_entries": 186,
+  "root_manifest_sha256": "4e217d3da3a03cd66b6a1f80dd9c78b523bcc481502d9e2060041654646d7d3b",
+  "byte_copy_verified": true,
+  "mathematical_grade": "written conditional derivation and bounded computations; no new cross-prime bound",
+  "publication_is_not_proof": true,
+  "diff_check_exception": "One trailing space in sealed class_control/replay_norm.gp line 7 retained to preserve nested manifest and executed source bytes; no other staged whitespace errors."
+}

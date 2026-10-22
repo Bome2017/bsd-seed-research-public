@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-15",
+  "parent_commit": "87cdf8c9732b9d1e7fda26e0978e98a3b83c8651",
+  "branch": "research/state-sync-2026-10-04",
+  "return": "BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15",
+  "copied_files": 255,
+  "byte_identical": true,
+  "root_manifest_entries": 254,
+  "nested_manifest_entries": 233,
+  "zip": "work/returns/archives/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15.zip",
+  "zip_bytes": 481243,
+  "zip_sha256": "3d9a338127c94e37fd8dd850e916d59d47a639e528e9a07c2aa46136fa2ad798",
+  "grade": "Actual complete-source control arithmetic and written separation deduction with same-team review; retained input grades; no novelty/formal certification",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "scope": "Lab publication only; no main merge or expert-repository promotion"
+}

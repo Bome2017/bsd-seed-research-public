@@ -1,0 +1,213 @@
+{
+ "rows": [
+  {
+   "p": 17,
+   "l": 103,
+   "run": "l103",
+   "#E(F_l)": 106,
+   "a_l": -2,
+   "M": 212,
+   "g": 5,
+   "c2": 46298,
+   "c2_mod_p": 7,
+   "R": 6,
+   "w": 16,
+   "288_mod_p": 16,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 6,
+    "c2_mod_p": 6,
+    "R": 10,
+    "w": 16
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 19,
+   "l": 191,
+   "run": "p19_l191_v2",
+   "#E(F_l)": 202,
+   "a_l": -10,
+   "M": 404,
+   "g": 19,
+   "c2": -30432,
+   "c2_mod_p": 6,
+   "R": 3,
+   "w": 3,
+   "288_mod_p": 3,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 21,
+    "c2_mod_p": 11,
+    "R": 15,
+    "w": 3
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 23,
+   "l": 47,
+   "run": "p23_l47",
+   "#E(F_l)": 44,
+   "a_l": 4,
+   "M": 88,
+   "g": 5,
+   "c2": 103854,
+   "c2_mod_p": 9,
+   "R": 9,
+   "w": 12,
+   "288_mod_p": 12,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 10,
+    "c2_mod_p": 2,
+    "R": 2,
+    "w": 12
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 29,
+   "l": 233,
+   "run": "p29_l233_v2",
+   "#E(F_l)": 248,
+   "a_l": -14,
+   "M": 496,
+   "g": 3,
+   "c2": -98942,
+   "c2_mod_p": 6,
+   "R": 2,
+   "w": 27,
+   "288_mod_p": 27,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 5,
+    "c2_mod_p": 28,
+    "R": 19,
+    "w": 27
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 31,
+   "l": 311,
+   "run": "p31_l311",
+   "#E(F_l)": 296,
+   "a_l": 16,
+   "M": 592,
+   "g": 17,
+   "c2": 330990,
+   "c2_mod_p": 3,
+   "R": 17,
+   "w": 9,
+   "288_mod_p": 9,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 19,
+    "c2_mod_p": 27,
+    "R": 29,
+    "w": 9
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 37,
+   "l": 149,
+   "run": "p37_l149",
+   "#E(F_l)": 160,
+   "a_l": -10,
+   "M": 80,
+   "g": 2,
+   "c2": 762756,
+   "c2_mod_p": 1,
+   "R": 32,
+   "w": 29,
+   "288_mod_p": 29,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 3,
+    "c2_mod_p": 30,
+    "R": 35,
+    "w": 29
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 41,
+   "l": 83,
+   "run": "p41_l83",
+   "#E(F_l)": 92,
+   "a_l": -8,
+   "M": 184,
+   "g": 2,
+   "c2": -83420,
+   "c2_mod_p": 15,
+   "R": 19,
+   "w": 1,
+   "288_mod_p": 1,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 5,
+    "c2_mod_p": 12,
+    "R": 7,
+    "w": 1
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 43,
+   "l": 173,
+   "run": "p43_l173",
+   "#E(F_l)": 196,
+   "a_l": -22,
+   "M": 196,
+   "g": 2,
+   "c2": -227412,
+   "c2_mod_p": 15,
+   "R": 17,
+   "w": 30,
+   "288_mod_p": 30,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 3,
+    "c2_mod_p": 14,
+    "R": 13,
+    "w": 30
+   },
+   "generator_invariant": true
+  },
+  {
+   "p": 47,
+   "l": 283,
+   "run": "p47_l283",
+   "#E(F_l)": 288,
+   "a_l": -4,
+   "M": 576,
+   "g": 3,
+   "c2": 596378,
+   "c2_mod_p": 42,
+   "R": 38,
+   "w": 6,
+   "288_mod_p": 6,
+   "w_is_288": true,
+   "second_generator": {
+    "g": 5,
+    "c2_mod_p": 34,
+    "R": 33,
+    "w": 6
+   },
+   "generator_invariant": true
+  }
+ ],
+ "summary": {
+  "modulus": 20475850236047,
+  "crt_value": 288,
+  "rational_reconstruction": [
+   288,
+   1
+  ],
+  "wang_bound": 3199675,
+  "all_nine_w_eq_288": true,
+  "all_generator_invariant": true
+ }
+}

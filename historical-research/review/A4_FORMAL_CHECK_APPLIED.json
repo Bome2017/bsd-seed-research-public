@@ -1,0 +1,335 @@
+{
+ "research_base": "2a726213a27a12f10fece5bc70137e65e30911ba",
+ "release_tag_of_base": "v0.2.2-private-review",
+ "history_root": "review/history/v0.2.2",
+ "scope": "Local, unreleased v0.2.3: adds the A4 formal check of the finite part (Lean-checked deduction for S.5, S.7, S.11, S.13 and B.1; Remark rem:a4lean) with its evidence. No other statement, grade, certificate or evidence changes. No tag, push or publication.",
+ "historical_bindings": {
+  "README.md": {
+   "path": "review/history/v0.2.2/README.md",
+   "sha256": "516e5a499267c3f3500643e3021f3a65b349ad1a12dbb03cfe50ff6b53dd39b0",
+   "bound_by": [
+    "EDITORIAL.current_bindings"
+   ]
+  },
+  "claims/CLAIM_INDEX.md": {
+   "path": "review/history/v0.2.2/claims/CLAIM_INDEX.md",
+   "sha256": "7e6b1b84c9990e12ec4e40871efe02549535b0cb18aa64d36e517ee34bdd2fbe",
+   "bound_by": [
+    "EDITORIAL.unchanged",
+    "PATCH_APPLIED.unchanged"
+   ]
+  },
+  "claims/claims.json": {
+   "path": "review/history/v0.2.2/claims/claims.json",
+   "sha256": "5db652a5cb96c50710cbef88829bd153265fe998eecc66cb6667f593e39dc5f0",
+   "bound_by": [
+    "EDITORIAL.unchanged",
+    "PATCH_APPLIED.unchanged"
+   ]
+  },
+  "evidence/PROVENANCE.tsv": {
+   "path": "review/history/v0.2.2/evidence/PROVENANCE.tsv",
+   "sha256": "2407756aca058b15c1dae0942e2064fd88aa30d45d760cf58d4b4529ee9a49f1",
+   "bound_by": [
+    "EDITORIAL.unchanged",
+    "PATCH_APPLIED.unchanged"
+   ]
+  },
+  "tools/verify_patch_release.py": {
+   "path": "review/history/v0.2.2/tools/verify_patch_release.py",
+   "sha256": "53e0c49aeea5640cf49ebc84f4e2e6a14351034f06d4812acfc237b657111276",
+   "bound_by": [
+    "EDITORIAL.current_bindings"
+   ]
+  }
+ },
+ "base_copies": {
+  "MANIFEST.sha256": {
+   "path": "review/history/v0.2.2/MANIFEST.sha256",
+   "sha256": "8d33aa9187c5ca96af4df8d932ce186a79b61b0284e56dd36bccab6e2a0c8489"
+  },
+  "README.md": {
+   "path": "review/history/v0.2.2/README.md",
+   "sha256": "516e5a499267c3f3500643e3021f3a65b349ad1a12dbb03cfe50ff6b53dd39b0"
+  },
+  "claims/CLAIM_INDEX.md": {
+   "path": "review/history/v0.2.2/claims/CLAIM_INDEX.md",
+   "sha256": "7e6b1b84c9990e12ec4e40871efe02549535b0cb18aa64d36e517ee34bdd2fbe"
+  },
+  "claims/claims.json": {
+   "path": "review/history/v0.2.2/claims/claims.json",
+   "sha256": "5db652a5cb96c50710cbef88829bd153265fe998eecc66cb6667f593e39dc5f0"
+  },
+  "claims/spec/part1_core.py": {
+   "path": "review/history/v0.2.2/claims/spec/part1_core.py",
+   "sha256": "2b0722b7c480480daba9512a94b7762848e3e4f7533fdf5cdd7613e29a3050c8"
+  },
+  "claims/spec/part2_bridges.py": {
+   "path": "review/history/v0.2.2/claims/spec/part2_bridges.py",
+   "sha256": "806168987e8841076a71d1511399b497917761b1830c40a011378b92a2b4e82b"
+  },
+  "evidence/EXCLUDED.tsv": {
+   "path": "review/history/v0.2.2/evidence/EXCLUDED.tsv",
+   "sha256": "4a799c7843507fe16a4b985929b34e85bb459d0c51c0d4e914044ae6f9a06ad5"
+  },
+  "evidence/PROVENANCE.tsv": {
+   "path": "review/history/v0.2.2/evidence/PROVENANCE.tsv",
+   "sha256": "2407756aca058b15c1dae0942e2064fd88aa30d45d760cf58d4b4529ee9a49f1"
+  },
+  "evidence/REDACTIONS.tsv": {
+   "path": "review/history/v0.2.2/evidence/REDACTIONS.tsv",
+   "sha256": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694"
+  },
+  "paper/release_id.tex": {
+   "path": "review/history/v0.2.2/paper/release_id.tex",
+   "sha256": "3fafeed879717881e754c8e360aae5a32944c4ba18ba7cad1f76ade345666b39"
+  },
+  "paper/sections/04_primary.tex": {
+   "path": "review/history/v0.2.2/paper/sections/04_primary.tex",
+   "sha256": "16cc5dd612892928c4c36adc5a4b6d38a334ae6d0afa3b0efbfc7ef4edc31e64"
+  },
+  "paper/seed_bsd.pdf": {
+   "path": "review/history/v0.2.2/paper/seed_bsd.pdf",
+   "sha256": "e2f530b38153abb1c28c6caf0983829e034214ead37b58e3af58862b0215a805"
+  },
+  "review/SYNTHESIS_CHECK_BRIEF.md": {
+   "path": "review/history/v0.2.2/review/SYNTHESIS_CHECK_BRIEF.md",
+   "sha256": "c0256d72b4cb789114851c66a8b85ae91b6c808fb99dece360fdebd83d5f07b0"
+  },
+  "tools/extra_evidence.txt": {
+   "path": "review/history/v0.2.2/tools/extra_evidence.txt",
+   "sha256": "02df3f0a057368314c97702a3391a55715bbf55996885011364a0a9ab3b44fac"
+  },
+  "tools/verify_patch_release.py": {
+   "path": "review/history/v0.2.2/tools/verify_patch_release.py",
+   "sha256": "53e0c49aeea5640cf49ebc84f4e2e6a14351034f06d4812acfc237b657111276"
+  }
+ },
+ "current_bindings": {
+  "README.md": "50dbe22d3fd49487244aeb37ef1128a4b600bfeabb940842322bb8b27c1b60cf",
+  "claims/CLAIM_INDEX.md": "ddb1e7399849725d007113fde7551450a81366660a7ed2f87a0c9141a9b45cdb",
+  "claims/claims.json": "e5758a3b5308a1fb88a812443ccb0c3ed51e06881fc326ad594b214e7f3e6736",
+  "evidence/PROVENANCE.tsv": "425261f5325316541eec9605c13bea64368fe9e9b7a8c7393bfbbc7e08075aaf",
+  "tools/verify_patch_release.py": "56eaf7ff8369fbebb44415667c5e2bd1fa0ddadff41642a265c3bc099d6598fc"
+ },
+ "claim_delta": {
+  "S.5": {
+   "grades_added": [
+    "LEAN_CHECKED"
+   ],
+   "evidence_added": [
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+     "role": "formal check: replay of two separate proof runs",
+     "sha256": "8691cb8986bee859e7ac76b1f20024122c2f7a7fa44e5d0dba690422bed8cc8d",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+     "role": "frozen formal statements and sha-bound certified data",
+     "sha256": "3f809e8478059d5a89f8e69a3354d4dadf4ca815ad47640d19557abbf0c7fbd3",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz"
+    }
+   ],
+   "qualifications_added": [
+    "LEAN_CHECKED covers the deduction from the listed imports (every field of FixedPrimeInputs, entered as hypotheses, including the unit property of epsilon_p) and the certified symbol table (entered as sha-bound data) to the conclusion, together with the certificate arithmetic. It checks neither the imports nor the numerical symbol certificate."
+   ],
+   "verification_added": {
+    "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: FinitePart.shaPrimaryZero_5, certificate_5, weights_5, foldedExact_5, pointCount_5, unitRoot_5; two separate proof runs, each replayed from a fresh unpack (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+   },
+   "post_master": "Changed since the master record: LEAN_CHECKED added after the 2026-09-24 formal check (two proof runs replayed)."
+  },
+  "S.7": {
+   "grades_added": [
+    "LEAN_CHECKED"
+   ],
+   "evidence_added": [
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+     "role": "formal check: replay of two separate proof runs",
+     "sha256": "8691cb8986bee859e7ac76b1f20024122c2f7a7fa44e5d0dba690422bed8cc8d",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+     "role": "frozen formal statements and sha-bound certified data",
+     "sha256": "3f809e8478059d5a89f8e69a3354d4dadf4ca815ad47640d19557abbf0c7fbd3",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz"
+    }
+   ],
+   "qualifications_added": [
+    "LEAN_CHECKED covers the deduction from the listed imports (every field of FixedPrimeInputs, entered as hypotheses, including the unit property of epsilon_p) and the certified symbol table (entered as sha-bound data) to the conclusion, together with the certificate arithmetic. It checks neither the imports nor the numerical symbol certificate."
+   ],
+   "verification_added": {
+    "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: FinitePart.shaPrimaryZero_7, certificate_7, weights_7, foldedExact_7, pointCount_7, unitRoot_7; two separate proof runs, each replayed from a fresh unpack (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+   },
+   "post_master": "Changed since the master record: LEAN_CHECKED added after the 2026-09-24 formal check (two proof runs replayed)."
+  },
+  "S.11": {
+   "grades_added": [
+    "LEAN_CHECKED"
+   ],
+   "evidence_added": [
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+     "role": "formal check: replay of two separate proof runs",
+     "sha256": "8691cb8986bee859e7ac76b1f20024122c2f7a7fa44e5d0dba690422bed8cc8d",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+     "role": "frozen formal statements and sha-bound certified data",
+     "sha256": "3f809e8478059d5a89f8e69a3354d4dadf4ca815ad47640d19557abbf0c7fbd3",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz"
+    }
+   ],
+   "qualifications_added": [
+    "LEAN_CHECKED covers the deduction from the listed imports (every field of FixedPrimeInputs, entered as hypotheses, including the unit property of epsilon_p) and the certified symbol table (entered as sha-bound data) to the conclusion, together with the certificate arithmetic. It checks neither the imports nor the numerical symbol certificate."
+   ],
+   "verification_added": {
+    "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: FinitePart.shaPrimaryZero_11, certificate_11, weights_11, foldedExact_11, pointCount_11, unitRoot_11; two separate proof runs, each replayed from a fresh unpack (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+   },
+   "post_master": "Changed since the master record: LEAN_CHECKED added after the 2026-09-24 formal check (two proof runs replayed)."
+  },
+  "S.13": {
+   "grades_added": [
+    "LEAN_CHECKED"
+   ],
+   "evidence_added": [
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+     "role": "formal check: replay of two separate proof runs",
+     "sha256": "8691cb8986bee859e7ac76b1f20024122c2f7a7fa44e5d0dba690422bed8cc8d",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+     "role": "frozen formal statements and sha-bound certified data",
+     "sha256": "3f809e8478059d5a89f8e69a3354d4dadf4ca815ad47640d19557abbf0c7fbd3",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz"
+    }
+   ],
+   "qualifications_added": [
+    "LEAN_CHECKED covers the deduction from the listed imports (every field of FixedPrimeInputs, entered as hypotheses, including the unit property of epsilon_p) and the certified symbol table (entered as sha-bound data) to the conclusion, together with the certificate arithmetic. It checks neither the imports nor the numerical symbol certificate."
+   ],
+   "verification_added": {
+    "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: FinitePart.shaPrimaryZero_13, certificate_13, weights_13, foldedExact_13, pointCount_13, unitRoot_13; two separate proof runs, each replayed from a fresh unpack (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+   },
+   "post_master": "Changed since the master record: LEAN_CHECKED added after the 2026-09-24 formal check (two proof runs replayed)."
+  },
+  "B.1": {
+   "grades_added": [
+    "LEAN_CHECKED"
+   ],
+   "evidence_added": [
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+     "role": "formal check: replay of two separate proof runs",
+     "sha256": "8691cb8986bee859e7ac76b1f20024122c2f7a7fa44e5d0dba690422bed8cc8d",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+     "role": "frozen formal statements and sha-bound certified data",
+     "sha256": "3f809e8478059d5a89f8e69a3354d4dadf4ca815ad47640d19557abbf0c7fbd3",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/14bef1c1-77d3-4afa-962e-31d92ca66935-aristotle.tar.gz",
+     "role": "formal proofs, run 1",
+     "sha256": "1eaa2f8e8021fe4568b4adef209b202822ecbeb55a9fef649a3d8cb965f5be12",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/14bef1c1-77d3-4afa-962e-31d92ca66935-aristotle.tar.gz"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/b2b41135-4ba2-4bdc-b687-db0a4e6ecaea-aristotle.tar.gz",
+     "role": "formal proofs, run 2",
+     "sha256": "cece61f459ed9f69096440f8f119b7a2f809316d4a09b170ca79b28a533a5173",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/b2b41135-4ba2-4bdc-b687-db0a4e6ecaea-aristotle.tar.gz"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R1_14bef1c1_axioms.log",
+     "role": "axiom report, run 1",
+     "sha256": "b27c2f90848cc64ca34ec4121a4e4c48f832d151d43ae4a6bceaedde0a0e78af",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R1_14bef1c1_axioms.log"
+    },
+    {
+     "path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R2_b2b41135_axioms.log",
+     "role": "axiom report, run 2",
+     "sha256": "b27c2f90848cc64ca34ec4121a4e4c48f832d151d43ae4a6bceaedde0a0e78af",
+     "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R2_b2b41135_axioms.log"
+    }
+   ],
+   "qualifications_added": [
+    "The Lean check takes every field of FixedPrimeInputs as a hypothesis: Kato divisibility (kato), SW Thm 6.1 (rankBound, equalityClause, leadingTerm), Reg_gamma integrality (regIntegral), the unit property of epsilon_p, the Tamagawa product and the torsion order (epsUnit, tamUnit, torsUnit), and SW Prop. 3.5 (swCongruence). None of them is formalized; the abstract lemma EpsUnit_of_root is not applied to the epsilon_p of E."
+   ],
+   "verification_added": {
+    "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: FinitePart.fixedPrimeCriterion (with coeff2_of_X_sq_dvd, isUnit_of_toZMod_ne_zero, order_eq_two, shaExp_zero_of_norm, lowerLevelVanishes) and foldedFormula_general (every prime p >= 5); two separate proof runs replayed; axioms propext, Classical.choice, Quot.sound"
+   },
+   "post_master": "Changed since the master record: LEAN_CHECKED added after the 2026-09-24 formal check (two proof runs replayed)."
+  }
+ },
+ "evidence": {
+  "declared": {
+   "path": "review/A4_EVIDENCE_ADDITIONS.json",
+   "sha256": "0afe95b5e95a421bf027ac141c7f1bdf6f347dbf0a60de8ce528e52e1bc01a09"
+  },
+  "tool": {
+   "path": "tools/build_evidence_transition.py",
+   "sha256": "fd7fcce2c8872f3ced89bf0a0ed44c726eea758217d71e9ec6cd8e15e9247804"
+  },
+  "transition_log": {
+   "path": "review/A4_EVIDENCE_TRANSITION.json",
+   "sha256": "757834195fdd5f2b91dc51f8434cbdcbe3a2b281ddcdab24cffa9aa9730f7817"
+  },
+  "builder_unmodified_sha256": "428d30f0a222025da95eed11b2499035b2c402666288460c2800791870123ae4"
+ },
+ "paper_edit": {
+  "path": "paper/sections/04_primary.tex",
+  "base_copy": "review/history/v0.2.2/paper/sections/04_primary.tex",
+  "anchor": "\\subsection[The prime 3]{The prime $3$}",
+  "inserted_sha256": "5e40729666d01bfd442de8762cb367dc1d5a6833c445bd543dd193950d5114f5",
+  "insert_source_sha256": "83b81bfe83dc9824f1fa96ce9e98b58772cc4e31e6530db0f4b66e5e8e9eba92",
+  "after_sha256": "0e01860f0799c61edb1db7fff1ab2e3bcd8a90ddb604b8b1f4fc0df8e073f59d"
+ },
+ "version_labels": {
+  "readme_old_line": "**Private review version 0.2.2 (2026-09-23).** A private research release, in three connected parts:",
+  "readme_new_line": "**Private review version 0.2.3 (local, unreleased; 2026-09-25), built on version 0.2.2 (2026-09-23).** Version 0.2.3 adds only the A4 formal check of the finite part (see `RECHECK_V0_2_3.md`). A private research release, in three connected parts:",
+  "release_id_sha256": "2d7e5f88fd2cac03214892bf1d965747b2317fb33da6964d8242b7a830faaf57",
+  "bound_title_labels": "paper/seed_bsd.tex keeps its v0.2.2 date and tag (historically bound); release_id.tex states that they belong to the base release"
+ },
+ "paper_pdf_sha256": "7898cffb0e91c71d184b5b66bae02c5aa89bc674c5f8fa47323efea097801904",
+ "added_paths": [
+  "RECHECK_V0_2_3.md",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/PACKET_INDEX.md",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/14bef1c1-77d3-4afa-962e-31d92ca66935-aristotle.tar.gz",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/MANIFEST.sha256",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R1_14bef1c1_axioms.log",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R2_b2b41135_axioms.log",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+  "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/b2b41135-4ba2-4bdc-b687-db0a4e6ecaea-aristotle.tar.gz",
+  "review/A4_EVIDENCE_ADDITIONS.json",
+  "review/A4_EVIDENCE_TRANSITION.json",
+  "review/A4_FORMAL_CHECK_APPLIED.json",
+  "review/history/v0.2.2/MANIFEST.sha256",
+  "review/history/v0.2.2/README.md",
+  "review/history/v0.2.2/claims/CLAIM_INDEX.md",
+  "review/history/v0.2.2/claims/claims.json",
+  "review/history/v0.2.2/claims/spec/part1_core.py",
+  "review/history/v0.2.2/claims/spec/part2_bridges.py",
+  "review/history/v0.2.2/evidence/EXCLUDED.tsv",
+  "review/history/v0.2.2/evidence/PROVENANCE.tsv",
+  "review/history/v0.2.2/evidence/REDACTIONS.tsv",
+  "review/history/v0.2.2/paper/release_id.tex",
+  "review/history/v0.2.2/paper/sections/04_primary.tex",
+  "review/history/v0.2.2/paper/seed_bsd.pdf",
+  "review/history/v0.2.2/review/SYNTHESIS_CHECK_BRIEF.md",
+  "review/history/v0.2.2/tools/extra_evidence.txt",
+  "review/history/v0.2.2/tools/verify_patch_release.py",
+  "tools/build_evidence_transition.py"
+ ],
+ "nonredirectable_review_maps": [
+  "review/REVIEW_BINDINGS.json",
+  "review/SECOND_REVIEW_BINDINGS.json"
+ ]
+}

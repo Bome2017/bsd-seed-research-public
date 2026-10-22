@@ -1,0 +1,79 @@
+{
+  "status": "TARGETED_C13_BINDINGS_PASS_WITH_THREE_HISTORICAL_METADATA_MISMATCHES",
+  "scope": "No original manifests changed. Current symbol/Arb tables and exact downstream inputs checked against pre-change bindings. Large-data acceptance remains imported with supplemental verifier repair.",
+  "changed_metadata": [
+    {
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+      "original_sha256": "a7803c1b5b22f8d4793925cae45d56b6e9b1520d5e6f710d0198712c35b59155",
+      "current_sha256": "4bb78c75aa1f9ff1b07b4c758af7a5a7fa3681c151a7fb239165765934784317"
+    },
+    {
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/STATE.json",
+      "original_sha256": "b5548dd1204fc1ea96da7956ec21766e0a428db0b0ebc95325f3de2c71f39dc7",
+      "current_sha256": "0e79378b7f14931479d947eb970ad0cb2093b69d926a17f96c03ef28a8cc3703"
+    },
+    {
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESUME.md",
+      "original_sha256": "7d04b7381c3cc06fc3f9d75e9ffbc6cfcfe7bb64cdc0f8a4c4e387408fd4e45e",
+      "current_sha256": "02d0a77aff5f3014c8f6ffed4c747ec0c3be73afa45027ac1ce7d68f676fe9a9"
+    }
+  ],
+  "unchanged_calculation_inputs": [
+    {
+      "role": "arb_output",
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/run/msl_m169.txt",
+      "original_sha256": "b9586870e1217e5a64e30a59857fb17b304fe7014e020eba838af49ea4bf3d26",
+      "current_sha256": "b9586870e1217e5a64e30a59857fb17b304fe7014e020eba838af49ea4bf3d26"
+    },
+    {
+      "role": "exact_symbols",
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/run/SYMBOLS_m169.txt",
+      "original_sha256": "f6d25a550cd91efc3975b334b2b78c833f5ea6264b7a4e8b27a6f2a7011a052c",
+      "current_sha256": "f6d25a550cd91efc3975b334b2b78c833f5ea6264b7a4e8b27a6f2a7011a052c"
+    },
+    {
+      "role": "arb_output",
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/run/msl_m13.txt",
+      "original_sha256": "810e9cff55f35b96bac8c815f848397e6a27fd9c4fdc24b0aadd4cbd35a2c21f",
+      "current_sha256": "810e9cff55f35b96bac8c815f848397e6a27fd9c4fdc24b0aadd4cbd35a2c21f"
+    },
+    {
+      "role": "exact_symbols",
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/run/SYMBOLS_m13.txt",
+      "original_sha256": "1b7758c66ac5df0f7a1e48aa29b67837d6d8c8410325d6ca68558c94c8e67691",
+      "current_sha256": "1b7758c66ac5df0f7a1e48aa29b67837d6d8c8410325d6ca68558c94c8e67691"
+    },
+    {
+      "role": "inputs",
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/INPUT_BINDINGS.json",
+      "original_sha256": "a0f922857dd16a244bb02de80ecbd451e9d1d6732ab619100bf813c3eddaaab7",
+      "current_sha256": "a0f922857dd16a244bb02de80ecbd451e9d1d6732ab619100bf813c3eddaaab7"
+    },
+    {
+      "role": "check_output",
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/run/P3_CHECK.txt",
+      "original_sha256": "dd8f7808cd89f70af92223c4a59da5ec9a49d64bccee04e61a077efff430a612",
+      "current_sha256": "dd8f7808cd89f70af92223c4a59da5ec9a49d64bccee04e61a077efff430a612"
+    },
+    {
+      "role": "downstream_script",
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/downstream.py",
+      "original_sha256": "1bc3f3c859e8fe55262e8eb73d872b7e1405e2abd2c6d0e77f5aa313b3cdb5b4",
+      "current_sha256": "1bc3f3c859e8fe55262e8eb73d872b7e1405e2abd2c6d0e77f5aa313b3cdb5b4"
+    },
+    {
+      "role": "downstream_result",
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/DOWNSTREAM.json",
+      "original_sha256": "97e6b3701733093b18099e0c87fcf0f0130aa2a2cafea6b7a435caa81e1e199c",
+      "current_sha256": "97e6b3701733093b18099e0c87fcf0f0130aa2a2cafea6b7a435caa81e1e199c"
+    },
+    {
+      "role": "incident",
+      "path": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/INCIDENT_2026-09-21.md",
+      "original_sha256": "c3a28e7f7b908dc711be5bf075c8992fbbd354eec29bacd27c80ad676210fbae",
+      "current_sha256": "c3a28e7f7b908dc711be5bf075c8992fbbd354eec29bacd27c80ad676210fbae"
+    }
+  ],
+  "certificate_binding_sha256": "fb7c42ef193ea9bccdb1955ac4ba8307a098ea6b7d3dfcfc92423f24d27442e1",
+  "unrecovered_history": "The pre-change STATE status has not been recovered; no claim that historical metadata are intact."
+}

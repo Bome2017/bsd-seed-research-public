@@ -1,0 +1,11 @@
+{
+  "return": "BSD_CORRELATED_VALUATION_EXPERIMENT_2026-10-12",
+  "baseline_commit": "3948b848ecac11ecc2fcf9afbf4a5aa87af71537",
+  "manifest_entries_verified": 54,
+  "zip_sha256": "eb5399dea9e65f5099abe5e3c68fd30a1f586c087cc94059e15c1a952984cfb7",
+  "zip_bytes": 218697,
+  "grade": "same-session actual arithmetic experiment; no seed bound",
+  "seed_endpoints": "FIN ORDER9 Q36 unchanged",
+  "author_inputs": "historical files preserved",
+  "publication_scope": "lab work branch only"
+}

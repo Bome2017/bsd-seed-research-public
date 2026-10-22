@@ -1,0 +1,249 @@
+{
+  "paper": "The mean analytic rank of quadratic twists of elliptic curves (OpenAI, October 6, 2026; version note: only citation updates vs. September 23, 2026 edition). Sources: /tmp/claude-0/-home-user-bsd-seed-lab/ab9d3026-f88f-51d1-8e47-f94a5d2c0e6f/scratchpad/openai_math_clone/repo/preprints/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/build/ (main.tex; sections/introduction.tex, setup.tex, analytic.tex, weights.tex, model.tex, tail.tex, algebraic.tex; references.bib). Grade: IMPORTED_PREPRINT (unrefereed, AI-generated, no Lean formalization; BSD family 002/006 has none).",
+  "main_theorems": [
+    {
+      "label": "Theorem 1.1 (thm:mean) — Goldfeld mean analytic rank",
+      "statement": "For every elliptic curve E/Q, lim_{Y->infty} (1/#D(Y)) sum_{d in D(Y)} a(E^{(d)}) = 1/2, where D(Y) = {d in Z : 0 < |d| <= Y, d squarefree}, a(E^{(d)}) = ord_{s=1} L(E^{(d)}, s), and both signs of d are included.",
+      "hypotheses": "E/Q any elliptic curve ('without restrictions on complex multiplication, rational torsion, rational isogenies, or reduction type'). Counting convention: signed squarefree twist parameters ordered by absolute value (NOT fundamental discriminants, NOT coprime-to-conductor). Proof (tail.tex:217-247) uses (i) the companion OpenAI manuscript's density theorem eq. (1.1) [OpenAIAnalyticDensityV2, Theorem 1.2]: #{d in D(Y): a(E^{(d)})=j}/#D(Y) -> 1/2 for j=0,1, and (ii) Theorem 1.2 (tail) proved in this paper. Modularity (BCDT Theorem A) is used for continuation/functional equation. 'The proof invokes neither the Birch--Swinnerton-Dyer conjecture nor the generalized Riemann hypothesis.'",
+      "location": "sections/introduction.tex:22-28 (statement); proof sections/tail.tex:217-247"
+    },
+    {
+      "label": "Theorem 1.2 (thm:tail) — rank-weighted tail bound",
+      "statement": "For every elliptic curve E/Q, there are constants C_E > 0 and an integer R_E >= 1 such that, for every integer R >= R_E, limsup_{Y->infty} (1/Y) sum_{d in D(Y), a(E^{(d)}) > R} a(E^{(d)}) <= C_E / R.",
+      "hypotheses": "E/Q arbitrary. Claimed proved in this paper independently of the companion density theorem ('whose proof is independent of (1.1)'). Inputs: modularity (BCDT), Hasse bound and local Euler-factor rules (Silverman, Dokchitser–Anni), Gauss-sum/Poisson method in the style of Soundararajan 2000, inflation mechanism related to Li 2022/2024 (not used as input), elementary prime estimates (Erdős 1932). Constants C_E, R_E ineffective and depend on E (k_0 >= 65536 is forced in model.tex:265 via sqrt(k_0) >= 256).",
+      "location": "sections/introduction.tex:50-58 (statement); proof sections/tail.tex:168-213 via Proposition 6.1 and Lemma 6.2"
+    },
+    {
+      "label": "Corollary 1.3 (cor:algebraic-moments) — fixed algebraic-rank moments",
+      "statement": "Fix an elliptic curve E/Q. For every fixed real t, lim_{Y->infty} (1/#D(Y)) sum_{d in D(Y)} exp(t r(E^{(d)})) = (1+e^t)/2. For every fixed positive integer m, lim_{Y->infty} (1/#D(Y)) sum_{d in D(Y)} r(E^{(d)})^m = 1/2. Here r = Mordell–Weil rank.",
+      "hypotheses": "E/Q arbitrary; t and m fixed before Y -> infty. Inputs: companion [OpenAIAnalyticDensityV2, Theorem 1.2] including its 'density-one equality of analytic and algebraic ranks', and Koymans–Smith 2026 [arXiv:2606.31649v1, Theorem 1.4] exponential-moment bound (1/(2Y)) sum_{0<|v|<=Y} exp(kappa rank E^{(v)}(Q)) <= exp(exp(C_E kappa)) for large Y. Does NOT use Theorem 1.2. Explicit limitation: 'gives no higher analytic-rank moments, no uniformity for parameters varying with Y, and no moment limit for thin polynomial subfamilies.'",
+      "location": "sections/introduction.tex:79-91 (statement); proof sections/algebraic.tex:10-79"
+    }
+  ],
+  "general_results": [
+    {
+      "label": "Lemma 2.1 (setup:reduction) — reduction of twists to a finite family",
+      "statement": "For every F in F and signed squarefree b, there are F' in F and an admissible d such that F^{(b)} ≅ (F')^{(d)}, |d| <= |b|. The correspondence can be chosen to have bounded multiplicity, uniformly in b.",
+      "hypotheses": "F = finite set of twists of E by signed squarefree products of primes in S = {p : p | 2 q_E}; d admissible means d ≡ 1 (mod 4), (d, Q_S) = 1. Elementary (square-class composition of twists).",
+      "location": "sections/setup.tex:88-113",
+      "kind": "twists",
+      "relevance": "none (bookkeeping; for the seed S = {2,3,2243,4547,5843}, so E^{-7} with -7 ≡ 1 mod 4 and (-7, Q_S)=1 is 'admissible' with F'=E, but nothing pointwise follows)"
+    },
+    {
+      "label": "Lemma 2.2 (setup:local-factors) — L-series and conductor of an admissible twist",
+      "statement": "For F in F and admissible d, L_{F^{(d)}}(s) = sum_{n>=1} lambda_F(n) chi_d(n) n^{-s}, q_{F^{(d)}} = q_F |d|^2, chi_d(n) = (d/n) (Kronecker). For an arbitrary signed squarefree b, the same good-prime twisting rule holds at primes outside S: the local trace is multiplied by (b/p) when p ∤ b, and the local factor is one when p | b.",
+      "hypotheses": "Unitary normalization L_F(s) = L(F, s+1/2). Proved via Tate-module tensor with quadratic character and Artin-conductor computation, citing Dokchitser–Anni 2014 Definitions 17–18 and Theorem 19 for the local rules (good: two parameters of modulus 1; multiplicative: one parameter of modulus p^{-1/2}; additive: factor 1).",
+      "location": "sections/setup.tex:115-150; local rules setup.tex:16-30",
+      "kind": "local_factor",
+      "relevance": "none (standard; consistent with seed data: additive at 2 and 4547 give trivial Euler factor, multiplicative at 3, 2243, 5843 give one parameter; E^{-7} has conductor N·49? NO — note: the lab records E^{-7} with conductor N; this lemma's q_F |d|^2 applies only to admissible d coprime to Q_S, and 7 ∤ N so q_{E^{-7}} = N·49 per this lemma, which the lab should reconcile with its own record 'conductor N')"
+    },
+    {
+      "label": "Proposition 3.1 (analytic:moment) — logarithmic second moments of twist L-functions",
+      "statement": "There are fixed positive integers A, B such that, for every dyadic M >= 1, every F in F, every t in R, and 1/2 <= sigma <= 2, (1/M) sum_{d admissible, M<=|d|<2M} |L_{F^{(d)}}(sigma+it)|^2 <<_F log^B(3M) (1+|t|)^A. For arbitrary signed squarefree h and H >= 1, sum_{0<|h|<=H, h squarefree} |L_{F^{(h)}}(sigma+it)|^2 <<_F H log^B(3H) (1+|t|)^A.",
+      "hypotheses": "F in the finite family F of twists of an arbitrary E/Q; unitary normalization. Proved by induction on dyadic height M with Poisson summation, prime-square inflation (U = M P^2), approximate functional equation, and a strip (Phragmén–Lindelöf) principle. Exponents fixed explicitly: C_0=512, C_ar=256, A=B=2(C_3+20).",
+      "location": "sections/analytic.tex:22-37 (statement); proof analytic.tex:381-756",
+      "kind": "other",
+      "relevance": "none (average over twists; no pointwise statement at d=1 or d=-7)"
+    },
+    {
+      "label": "Proposition 3.2 (analytic:polynomial-moment) — Dirichlet-polynomial second moments",
+      "statement": "With the same fixed integers A, B, every fixed smooth G of compact support in (0,infty) satisfies (1/M) sum_{d admissible, M<=|d|<2M} |P_d(N,t;G)|^2 <<_{F,G} log^B(3M) (1+|t|)^A (1+N/M)^A (N > 0), where P_d(N,t;G) = sum_n lambda_F(n) chi_d(n) n^{-1/2-it} G(n/N).",
+      "hypotheses": "As in Proposition 3.1; uniform for fixed uniformly smooth families of weights with common compact support.",
+      "location": "sections/analytic.tex:39-52; proof analytic.tex:381-756",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 3.3 (analytic:gauss) — exact Gauss-sum formulas",
+      "statement": "For fixed h, l -> B_h(l) = tau_h(l)/(epsilon_l sqrt l) is multiplicative on odd positive integers; B_{-h}(l) = (-1/l) B_h(l); and for h ≠ 0, p odd, t = v_p(h), v >= 1: B_h(p^v) = p^{v/2}(1-p^{-1}) (v even, v<=t); -p^{v/2-1} (v even, v=t+1); p^{(v-1)/2}((h/p^{v-1})/p) (v odd, v=t+1); 0 otherwise.",
+      "hypotheses": "Elementary; re-proved in the present normalization following Soundararajan 2000, Lemma 2.3.",
+      "location": "sections/analytic.tex:91-148",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 3.4 (analytic:euler) — two-variable Euler factorization",
+      "statement": "For r odd positive and h = h_1 h_2^2 ≠ 0 (h_1 signed squarefree), the series G^nu_{h,r}(s_1,s_2) = sum_{n_1,n_2 odd} lambda_F(n_1) lambda_F(n_2) B_{nu h}(r n_1 n_2) n_1^{-s_1} n_2^{-s_2} continues to Re s_1, Re s_2 > 1/2 as L_{F^{(nu h_1)}}(s_1) L_{F^{(nu h_1)}}(s_2) Q^nu_{h,r}(s_1,s_2) with |Q| <<_F b^{-C_ar} r^{C_ar} tau(h_2)^{C_ar} for 0 < b <= 1/4, Re s_i >= 1/2 + b, C_ar = 256.",
+      "hypotheses": "F in F; local computation at three types of odd primes; 'This argument never divides by a global L-value.'",
+      "location": "sections/analytic.tex:157-250",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 3.5 (analytic:poisson) — weighted Poisson estimate",
+      "statement": "In the expression (1/U) sum_m sum_{n_1,n_2 odd} lambda_F(n_1)lambda_F(n_2)(n_1 n_2)^{-1/2} n_1^{-it_1} n_2^{-it_2} (m/(r n_1 n_2)) W(n_1/N_1, n_2/N_2, m/U), Poisson summation gives the zero frequency (complete-residue average) plus nonzero frequencies h = h_1 h_2^2 each bounded by C ||W||_{D,*} (N_1N_2)^{-1/2+b} b^{-C_ar} r^{C_ar} tau(h_2)^{C_ar} (1+|h|U/(rN_1N_2))^{-J_1} · sum_{nu} ∫∫ prod_i |L_{F^{(nu h_1)}}(1/2+b+i(t_i+v_i))| (1+|v_1|+|v_2|)^{-J_1} dv. If the Fourier transform of W in x is supported in [-C_W, C_W], all modes with |h| > C_W a_1^2 r N_1 N_2 / U vanish exactly.",
+      "hypotheses": "Quadratic Poisson method of Soundararajan 2000 Lemma 2.6 adapted; smooth compactly supported weights.",
+      "location": "sections/analytic.tex:275-367",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 3.7 (analytic:comparison) — comparison with the independent model",
+      "statement": "(1/X) sum_m Psi(m/X) |H_{z_m} S_{z_m}(m/X) - A(m/X)|^2 = ∫ Psi(x) E|H_Z S_Z(x) - A(x)|^2 dx + O(exp(-c_2 Delta ell)), for short polynomials S_V of length <= X^{1-Delta}, multipliers H_V of length R_0 <= X^{eta Delta} with sum |h(r')| <= C_H R_0^2, c_1 ell^{-1/10} <= Delta <= 1/2; one may take C' = 257, eta = 1/(4(4+2C')), c_2 = 1/2.",
+      "hypotheses": "Z = independent random completely multiplicative model with Z(2)=c, P(Z(p)=0)=1/p, P(Z(p)=±1)=(1-1/p)/2 at odd p. Uses Props 3.1–3.2 and Lemmas 3.5–3.6.",
+      "location": "sections/analytic.tex:807-957",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 4.1 (weights:vanishing) — completed derivative identity",
+      "statement": "Let d be admissible, X <= |d| < 2X, x = d/X, g_d(z) = L_{F^{(d)}}(1/2+z)(C_F|d|)^z Gamma(1+z), epsilon_d = sign(F^{(d)}). Then g_d is entire, g_d(-z) = epsilon_d g_d(z), and S_d := sum_{n>=1} lambda(n)chi_d(n) n^{-1/2} W_{k,x}(ell^{-1} log n) = (k!/ell^k)(1/2πi) ∫_{(2)} g_d(z) dz/z^{k+1}. More precisely (1 + epsilon_d (-1)^k) S_d = ell^{-k} g_d^{(k)}(0). Consequently, if a(F^{(d)}) > k and epsilon_d = (-1)^k, then sum_n lambda(n)chi_d(n) n^{-1/2} W_{k,d/X}(ell^{-1} log n) = 0.",
+      "hypotheses": "W_{k,x}(u) = ∫_0^∞ e^{-v} (1 - u + log(C_F|x|v)/ell)_+^k dv; k >= 1; uses only entireness and functional equation of the completed L-function (modularity).",
+      "location": "sections/weights.tex:50-132",
+      "kind": "other",
+      "relevance": "none / already available (at k=2, d=1 this is the standard Mellin formula for Lambda''(E,1) as a smoothed Dirichlet series, equivalent to what the lab uses to evaluate L''(E,1) numerically; it gives no new information on Q36)"
+    },
+    {
+      "label": "Proposition 4.4 (weights:terminal) — terminal mean square",
+      "statement": "There is a fixed exponent C_T, chosen before k_0, such that uniformly in k_0 <= k <= ell^{3/5}, (1/X) sum_{d admissible, X<=|d|<2X} |S_{*,chi_d}(d/X)|^2 << ell^{C_T} delta_J^{2k}. The same estimate holds after restricting the summation to either value of chi_d(2).",
+      "hypotheses": "Terminal weight w_* supported in u >= 1 - delta_J/2 with delta_J ≍ ell^{-1/10}; uses Proposition 3.2.",
+      "location": "sections/weights.tex:359-454",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 5.2 (model:integer-moments) — 64th moment of prime sums over integers",
+      "statement": "Let I be any set of primes at most Y_0 and B_I(V) = sum_{p in I} lambda(p) V(p) p^{-1/2-s}. If k_0 is a sufficiently large absolute constant, then (1/X) sum_{X<=|m|<2X} |B_I(z_m)|^{64} << (1 + sum_{p in I} 1/p)^{32} uniformly in I, k, X.",
+      "hypotheses": "Y_0 = X^{1/sqrt k}; passage from integers to the model costs O(Y_0^{128}/X) = O(X^{-1/2}) 'after requiring sqrt(k_0) >= 256'.",
+      "location": "sections/model.tex:220-269",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 5.3 (model:good-event) — simultaneous product event",
+      "statement": "Except for O(X k^{-2}) integers in X <= |m| < 2X, the following hold simultaneously: 1/2 <= H_j(z_m) P_j^{eu}(z_m) <= 2 (0<=j<=J); P_0^{eu}(z_m)/P_j^{eu}(z_m) >= 2^{-jk/8} (1<=j<=J); P_0^{eu}(z_m) >= 2^{-Jk/8}. The implied constant and the lower threshold k_0 do not depend on k, j, X.",
+      "hypotheses": "H_j = block-truncated mollifiers (model.tex:156-164), P_j^{eu} = prod_{p<=Y_j} D_p(s,V)^{-1}; uses Lemma 5.2 and Cauchy coefficient estimates.",
+      "location": "sections/model.tex:271-347",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 5.6 (model:shifted-norms) and Proposition 5.9 (model:main-model-estimates) — model mean squares",
+      "statement": "5.6: ||H_0(Z) L_Q(s/2 + i theta s)||_2 << (1+|theta|)^C; ||H_0(Z) L_Q(s) - 1||_2 << e^{-c_0 k^{1/4}}; ||H_j(Z) L_Q((1+i theta)/ell)||_2 << (1+|theta|)^C (k 2^j)^C. 5.9: ||H_0(Z) S_{0,Z}(x) - A_x||_2 << k^{-1}; ||H_j(Z) S_{j,Z}(x)||_2 << (k 2^j)^{C_5} delta_j^k (1<=j<=J), uniform in x and k_0 <= k <= ell^{3/5}.",
+      "hypotheses": "Independent random model Z; finite Euler cutoff Q >= Y_0 with bounds independent of Q; A_x = (C_F|x|)^s Gamma(1+s), s = k/ell.",
+      "location": "sections/model.tex:562-602 and 734-824",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 6.1 (tail:count) — counting large orders of vanishing",
+      "statement": "There are k_0, X_0, and C, depending on E, such that for every F in F, every dyadic X >= X_0, and every integer k_0+1 <= k <= (log X)^{3/5}, one has #{d in A(X) : a(F^{(d)}) > k} <= C X k^{-2}.",
+      "hypotheses": "A(X) = admissible d with X <= |d| < 2X; combines Props 3.7, 5.3, 5.9, 4.4 and Lemma 4.1 (parity (-1)^k then k-1 for the other sign). Ineffective constants.",
+      "location": "sections/tail.tex:16-111",
+      "kind": "other",
+      "relevance": "none (a count over a dyadic block of twists; nothing pointwise)"
+    },
+    {
+      "label": "Lemma 6.2 (tail:jensen) — uniform pointwise bound on analytic rank of a twist",
+      "statement": "Uniformly for F in F and d in A(X), a(F^{(d)}) <<_E log(3X).",
+      "hypotheses": "Jensen's formula on the disk |s-2| <= 5/2 (unitary normalization), using |L(-1+it)| <<_E X^3 (1+|t|)^3 from the functional equation and |L(2)| >= (zeta(4)/zeta(2))^2.",
+      "location": "sections/tail.tex:115-164",
+      "kind": "other",
+      "relevance": "none (for the seed it only says a(E) = O(log N); the lab already knows a(E) >= 2 and sign +1)"
+    },
+    {
+      "label": "Corollary 1.3 proof step (algebraic.tex) — exponential-moment bound restricted to squarefree d",
+      "statement": "limsup_{Y->infty} (1/N(Y)) sum_{d in D(Y)} e^{kappa r_d} <= zeta(2) exp(exp(C_E kappa)) < infty for each fixed kappa > 0 (eq. algebraic-exp-bound).",
+      "hypotheses": "Imported from Koymans–Smith 2026 Theorem 1.4 'specialized to F = Q, A = E, one variable, and P(u) = u'; N(Y) ~ 2Y/zeta(2).",
+      "location": "sections/algebraic.tex:28-48",
+      "kind": "twists",
+      "relevance": "none (statistical; Mordell–Weil rank moments over the family)"
+    }
+  ],
+  "external_inputs": [
+    {
+      "name": "Breuil–Conrad–Diamond–Taylor 2001, Theorem A (modularity of elliptic curves over Q)",
+      "how_used": "Analytic continuation, entireness and functional equation Lambda_F(s) = epsilon_F Lambda_F(1-s) of every twist L-function (setup.tex:39-42, introduction.tex:162-166). Used throughout (Lemma 4.1, Lemma 6.2, Prop 3.1).",
+      "black_box": true
+    },
+    {
+      "name": "Silverman 2009 (Ch. V Thm 2.3.1(a) Hasse bound; Appendix C Thms 16.3–16.4 completion)",
+      "how_used": "Modulus-one local parameters at good primes, |lambda_F(n)| <= tau(n); standard completed L-function (setup.tex:22-23, 41-42).",
+      "black_box": true
+    },
+    {
+      "name": "Dokchitser–Anni 2014 lecture notes (Definitions 17–18, Theorem 19)",
+      "how_used": "Local Euler factor rules at multiplicative/additive primes and Artin conductor of a twist (setup.tex:24-26, 131-132) in Lemma 2.2. Cited lecture notes rather than a refereed source.",
+      "black_box": true
+    },
+    {
+      "name": "Smith 2025, arXiv:2503.17619v1, Theorem 1.1 (2^infty-Selmer corank 0/1 each with density 1/2 for signed integer twist parameters) and Corollary 1.2 (analytic density under BSD)",
+      "how_used": "Context only in introduction.tex:137-146; enters the mean theorem only indirectly through the companion density manuscript. Unrefereed arXiv preprint at the cited version.",
+      "black_box": true
+    },
+    {
+      "name": "Koymans–Smith 2026, arXiv:2606.31649v1 'Tamagawa Ratios and Unbounded Selmer Moments', Theorem 1.4 (exponential moments of Mordell–Weil rank in polynomial quadratic-twist families)",
+      "how_used": "Sole analytic input beyond the companion for Corollary 1.3 (algebraic.tex:28-48), used as exp-moment bound exp(exp(C_E kappa)). Black box; cited version 'Version 1, 30 June 2026' could not be verified from the lab (unrefereed preprint).",
+      "black_box": true
+    },
+    {
+      "name": "Li 2022/2024 (Invent. Math. 237, 'Moments of quadratic twists of modular L-functions'), Lemmas 2.7, 3.1, Prop 3.2, Thm 1.1",
+      "how_used": "Methodological: Fourier-cutoff and prime-square inflation mechanism adapted; 'Neither asymptotic is an input to the argument' (introduction.tex:193-198, analytic.tex:68-69).",
+      "black_box": false
+    },
+    {
+      "name": "Soundararajan 2000 (Annals 152), Lemma 2.3 (Gauss sums) and Lemma 2.6 (Poisson)",
+      "how_used": "Gauss-sum formulas and quadratic Poisson method re-proved in present normalization (Lemma 3.3, Lemma 3.5).",
+      "black_box": false
+    },
+    {
+      "name": "Radziwiłł–Soundararajan 2015 (Invent. Math. 202), Sections 3, 8, 9",
+      "how_used": "Methodological precedent for block mollifiers / truncated exponential polynomials (model.tex:117-123); not used as input.",
+      "black_box": false
+    },
+    {
+      "name": "Erdős 1932 (§6, eq. (10)) — Chebyshev-type dyadic prime count",
+      "how_used": "|P| >> P/log(2P) for primes in [P,2P] outside S (analytic.tex:411-413).",
+      "black_box": true
+    },
+    {
+      "name": "Goldfeld 1979 Conjecture (B); Heath-Brown 2003/2004 Thm 3; Miller–Wong 2012 Thm 1.1/Cor 1.2; Fiorilli 2016 Thm 1.1 & Hypothesis M; Kowalski–Michel–VanderKam 2000; Perelli–Pomykała 1997; Pomykała 1997; Soundararajan–Young 2010 Thm 1.2",
+      "how_used": "Historical context only (introduction.tex:101-198); none is an input.",
+      "black_box": false
+    },
+    {
+      "name": "Hanners 2026, 'Resolution of the Birch and Swinnerton-Dyer Conjecture' (Zenodo/ResearchGate author upload, Theorems 28.1, 39.4, 39.5)",
+      "how_used": "Explicitly NOT used: 'We do not use this claim. The unresolved point is how the bridge conditions supported by tests on eighteen curves in Section 39.1 are established for every rational elliptic curve' (introduction.tex:155-160).",
+      "black_box": false
+    },
+    {
+      "name": "Bibliography entries never cited in the text: Wei–Zhai 2026 (arXiv:2605.09251v1, Taylor coefficients of L-functions of elliptic curves) and Heath-Brown 1995 (mean value of real character sums)",
+      "how_used": "Present in references.bib but no \\cite in any section file (stale bibliography).",
+      "black_box": false
+    }
+  ],
+  "internal_dependencies": [
+    {
+      "oai_paper": "Goldfeld's analytic density conjecture and the 2-converse for elliptic curves (OAI, October 7, 2026; bib key OpenAIAnalyticDensityV2; previous edition September 23, 2026; family 006, same BSD cluster as family 002 — no Lean formalization). NOT withdrawn; the Oct 7 version note says only 'updates citations to revised manuscripts'.",
+      "what_used": "Theorem 1.2 (thm:main-density, companion sections/00-introduction.tex:35-46): for every E/Q and j in {0,1}, #{d in D(X): a(E^{(d)}) = j}/#D(X) -> 1/2; twists of analytic rank >= 2 have density zero; for a density-one set of d the analytic and Mordell–Weil ranks of E^{(d)} agree and Sha is finite. Used as eq. (1.1) in the proof of Theorem 1.1 (tail.tex:229-231) — 'the only input from the companion manuscript' — and its rank-equality clause in the proof of Corollary 1.3 (algebraic.tex:13-21). The companion in turn rests on its own pointwise 2-converse (Theorem 1.1 there) plus Smith 2025 Theorem 1.1.",
+      "location": "introduction.tex:35-48, 73-77, 137-146; tail.tex:229-231; algebraic.tex:4-5, 13-21; references.bib:51-58"
+    }
+  ],
+  "self_declared_gaps": [
+    "Theorem 1.1 (the mean) is NOT self-contained: it requires the companion density theorem eq. (1.1) [OpenAIAnalyticDensityV2, Thm 1.2]; only Theorem 1.2 (tail) is claimed independent of it (introduction.tex:43-48, 60-69).",
+    "Corollary 1.3 depends on the companion's density-one analytic=algebraic rank equality AND on the unrefereed Koymans–Smith 2026 arXiv preprint Theorem 1.4 (introduction.tex:73-77; algebraic.tex:4-8).",
+    "Explicit limitation of Corollary 1.3: 'it gives no higher analytic-rank moments, no uniformity for parameters varying with Y, and no moment limit for thin polynomial subfamilies' (introduction.tex:95-99).",
+    "Counting convention differs from Goldfeld's original: signed squarefree integers d rather than quadratic-field discriminants ordered by absolute value (introduction.tex:103-110); the result is 'in this counting convention'.",
+    "Hanners 2026 full-BSD claim is cited but declared unused; the manuscript flags an 'unresolved point' in it (introduction.tex:155-160).",
+    "All constants (C_E, R_E, k_0, X_0) are ineffective and depend on E; 'The numerical exponents used in the length partition leave ample room ... their optimization is not needed' (introduction.tex:251-253). In particular sqrt(k_0) >= 256 is required (model.tex:265), so R_E >= 65536.",
+    "'The standard finite-order bounds' and polynomial growth of L_F in vertical strips are asserted with a sketch ('follow, for example, from the split Mellin integral') rather than a cited theorem (setup.tex:43-66).",
+    "Local Euler-factor and conductor rules are sourced to unpublished lecture notes (Dokchitser–Anni 2014) rather than a refereed reference (setup.tex:24-26, 131-132).",
+    "No statement whatsoever is made about Sha, Selmer groups, p-adic L-functions, or BSD for any individual curve; the manuscript is purely about averages of analytic ranks over twist families."
+  ],
+  "applicability": {
+    "seed_E": "NOT USABLE for the seed curve E (rank 2, N = 2^3·3·2243·4547^2·5843). Every theorem is a statistical statement over the family {E^{(d)} : X <= |d| < 2X} or {d in D(Y)} as Y -> infty; nothing is asserted about the single member d = 1. The only pointwise facts are Lemma 4.1 (the exact Mellin identity (1+epsilon(-1)^k) S_d = ell^{-k} g_d^{(k)}(0), which at k = 2, d = 1 is the standard smoothed-Dirichlet-series formula for Lambda''(E,1) the lab already uses numerically) and Lemma 6.2 (a(E) <<_E log N, trivial here). No input to FIN, ORDER9 or Q36; no Sha[p^infty] statement at any prime; no archimedean rank-2 comparison (Q36 remains without a Gross–Zagier-type formula). Kill tests: K-A not triggered (nothing is assumed about E); K-RANK2 not relevant (no Selmer hypotheses at all); K-GRADE: IMPORTED_PREPRINT, and Theorem 1.1 additionally inherits the unrefereed companion dependency.",
+    "twist_Em7": "NOT USABLE. E^{-7} is the member d = -7 of the family: -7 ≡ 1 (mod 4) and gcd(-7, 2·3·2243·4547·5843) = 1, so it is 'admissible' in the paper's sense (setup.tex:79-82), but all estimates hold only for dyadic X >= X_0 (ineffective, huge) and bound counts/averages over X <= |d| < 2X, never a single d. rank E^{-7}(Q) = 0 and finiteness of Sha(E^{-7}) are already PROVED in the lab by Gross–Zagier–Kolyvagin from L(E^{-7},1) ≠ 0; #Sha(E^{-7}/Q) is not addressed by this manuscript at all. Side note for the lab's records: Lemma 2.2 gives q_{E^{(d)}} = q_E |d|^2 for admissible d, i.e. conductor N·49 for E^{-7}, whereas SEED_CONTEXT.md records 'conductor N'; this should be reconciled (7 ∤ N so the twist by -7 is ramified at 7).",
+    "by_prime": "p = 2 (additive I1*, in S): no statement; prime 2 enters only as the deterministic value z_m(2) = c = chi_d(2) and via admissibility d ≡ 1 mod 4. p = 3 (nonsplit multiplicative, in S): no statement; Lemma 2.2 only records the one-parameter Euler factor. p = 2243 (split multiplicative, in S): none. p = 4547 (additive III, in S): none; Euler factor 1 (setup.tex:25-26) consistent with seed. p = 5843 (nonsplit multiplicative, in S): none; nothing on lemma TH, theta elements, level raising or the plectic route. Good ordinary primes: none (the paper does not distinguish ordinary/supersingular; only Hasse's bound is used). Good supersingular primes (23, 29, 131, ...): none. There is no Iwasawa-theoretic, Selmer, Euler-system, p-adic L-function, Heegner, parity, Tamagawa, 2-adic/3-adic, or algorithmic content anywhere in the manuscript. Verdict: no Sha[p^infty] information at any prime; hypothesis checks are vacuous because no arithmetic hypotheses are imposed."
+  },
+  "red_flags": [
+    "Abstract says 'For every elliptic curve over Q, we prove that the average analytic rank ... tends to 1/2' without flagging that Theorem 1.1 is conditional on a companion OpenAI manuscript (Goldfeld's analytic density conjecture and the 2-converse, Oct 7 2026), itself unrefereed, AI-generated, not Lean-checked, and resting on a pointwise 2^infty-Selmer converse plus Smith 2025 (arXiv v1). Section 1 does state the dependence (introduction.tex:35-48). Only Theorem 1.2 (tail) is claimed self-contained.",
+    "Corollary 1.3 rests on Koymans–Smith 2026 'arXiv:2606.31649v1, Version 1, 30 June 2026', used as a black box with a specific bound exp(exp(C_E kappa)); the lab cannot verify this preprint's existence or statement from local resources. Treat Corollary 1.3 as doubly conditional.",
+    "Bibliography contains two uncited entries (WeiZhai2026 arXiv:2605.09251v1; HeathBrown1995), and cites a non-peer-reviewed full-BSD claim (Hanners 2026, Zenodo/ResearchGate) — declared unused, but this signals the bibliography was assembled loosely.",
+    "Ineffectivity: the construction forces sqrt(k_0) >= 256 (model.tex:263-265), i.e. k_0 >= 65536, and X_0 is chosen so that (log X)^{3/5} > k_0 and 2^{k_0/2} ell^{C_T - k_0/20} -> 0 (weights.tex:485-493); hence R_E >= 65536 and all thresholds are astronomically large. The theorem has no computable content for any specific twist.",
+    "Potential soft step (not verified by the lab): the simultaneous induction on dyadic heights for all F in F (analytic.tex:381-742) juggles constants C_0=512, C_ar=256, C_1, C_2, R, C_3, A=B=2(C_3+20), epsilon, P_0, K with a claimed 'noncircular' ordering; the inductive prefix bound (analytic.tex:392-400) relies on Lemma 2.1's height-nonincreasing reduction with bounded multiplicity. The order-of-choices argument is plausible but intricate and unrefereed.",
+    "Potential soft step: Proposition 5.3's exceptional set uses a 64th-moment Lemma 5.2 whose integer-to-model passage needs O(Y_0^{128}/X) = O(X^{-1/2}); this is the only place the integer parameter range is tied to k_0 and is asserted rather than displayed in detail (model.tex:251-268).",
+    "Lemma 2.2 gives conductor q_F |d|^2 for admissible d (so E^{-7} would have conductor 49 N), which conflicts with the lab's SEED_CONTEXT.md record 'E^{-7} (conductor N, same bad primes)'. This is a flag for the lab's own records, not for the manuscript: 7 ∤ N and the twist by Q(sqrt(-7)) is ramified at 7.",
+    "No dependence on the three manuscripts withdrawn on 2026-10-07 (Weil classes / Kuga–Satake / Hodge for K3 products, per history.md); the only internal dependency (companion density manuscript) was revised on Oct 7 for citations only, not withdrawn."
+  ],
+  "notes": "Complete map of all seven section files (introduction, setup, analytic, weights, model, tail, algebraic) and references.bib. Purely analytic-number-theory paper: mollified completed-derivative weights, Poisson/inflation second moments with logarithmic losses, an independent random model for Kronecker symbols, and a count O(X k^{-2}) of twists of analytic rank > k uniformly for k <= (log X)^{3/5}. It contains NO Iwasawa main conjecture, Euler system, control theorem, p-adic L-function, Heegner/theta result, parity theorem beyond the functional-equation sign, Tamagawa/period lemma, level-raising, 2-adic/3-adic machinery, additive-prime arithmetic, or algorithmic statement. Nothing here proves, or reduces the cost of proving, FIN, ORDER9, Q36, Sha[p^infty] at any named prime, #Sha(E^{-7}), or lemma TH. The weakest-sense 'relevant' item is Lemma 4.1 (exact Mellin identity for the k-th completed derivative), the standard formula behind numerical L''(E,1), already in the lab's toolkit. Recommendation: record as IMPORTED_PREPRINT, 'not applicable to the seed'; only actionable by-product: reconcile the lab's recorded conductor of E^{-7} (N vs. 49N) with Lemma 2.2. The companion density/2-converse manuscript and the family-002 'Exact BSD from low Selmer corank' / 'Selmer converse at every prime' manuscripts need separate maps for E^{-7} (Selmer corank 0), read with K-RANK2 in mind (they cannot apply to E, corank >= 2)."
+}

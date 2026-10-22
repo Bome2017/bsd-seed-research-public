@@ -1,0 +1,23 @@
+\section{Grades, reviews and the claim index}\label{app:grades}
+
+The accompanying repository contains \path{claims/CLAIM_INDEX.md}, generated from one specification. Each entry gives the statement, its kind, its evidence grades, imports, dependencies, normalization, verification record and qualifications, together with the supporting artifacts and their SHA-256 hashes. The kinds are:
+\begin{itemize}[leftmargin=*]
+\item fact, theorem, conditional, equivalence, obstruction, open;
+\item historical (results about other curves);
+\item withdrawn (assertions made and later retracted; listed so that they are not revived).
+\end{itemize}
+
+\emph{Review levels.} No statement has had independent human review. Some statements were reviewed by automated reviewers that were language models. The index records whether the reviewer was of the same model family as the tools that produced the argument, or of a different family. Such reviews are not counted as independent proofs: agreement among several models is not equivalent to several independent proofs. Independence, where it exists, comes from three sources:
+\begin{itemize}[leftmargin=*]
+\item checking statements at the source;
+\item replaying computations through different code paths;
+\item formal verification.
+\end{itemize}
+
+\emph{Lean.} Lean-checked statements are deductions from explicit hypotheses. The hypotheses (arithmetic inputs imported from the literature, and structural facts) are listed, and are not themselves formalized unless the index says so.
+
+\emph{Stops.} Stopped routes are classified as proved obstructions, defective sources, equivalent reformulations, unaffordable routes, unsuccessful attempts or procedural stops (\S\ref{sec:obstructions}). No stop is used as evidence against a route outside its stated scope.
+
+\emph{Sufficient witnesses.} Nonvanishing of a coefficient such as $C_p$, $M_2(p)$ or $K$ is a sufficient witness. Its failure refutes nothing, and the obligation it serves may be met by other means.
+
+\emph{AI assistance.} This project used Codex, Claude and Aristotle to propose and examine mathematical arguments, write and review code, perform computations, construct formal proofs, and assemble this manuscript under the author's direction. AI reviews are not human peer review. The named software checks verify only their stated computations or formal implications; they do not validate unformalized arithmetic imports automatically. The first release review and its scope are recorded separately.

@@ -1,0 +1,10 @@
+{
+  "status": "CUSTODY_PASS",
+  "manifest_entries_verified": 4,
+  "previous_manifest_entries_verified": 22,
+  "return_folder": "work/returns/BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07",
+  "archive": "work/returns/archives/BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07.zip",
+  "archive_sha256": "2bf5abf00256e06272e5b6c47262bac3751d0af2c46f2e81278e34bfd96b42c8",
+  "archive_bytes": 4773,
+  "mathematical_effect": "Review accounting and normalization guard only; no new arithmetic result."
+}

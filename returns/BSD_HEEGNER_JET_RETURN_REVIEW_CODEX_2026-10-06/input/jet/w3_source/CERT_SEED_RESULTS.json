@@ -1,0 +1,158 @@
+{
+ "level": 201598828394896104,
+ "a_q": {
+  "5": -2,
+  "7": -2
+ },
+ "alpha0": 57776,
+ "alpha0_mod_31": 23,
+ "cosets_of_{inf,0}": [
+  "1:0;1:0;1:0;1:0;1:0;1:0"
+ ],
+ "divisor_level_identity_checks": {
+  "(i) U_31 pushes fix the (n,0) slots": true,
+  "(ii) (n,0) coefficients of V uniform = (-1)^s w^n mod 31": true
+ },
+ "target_cosets": 74,
+ "order0_certificates": {
+  "V_32": {
+   "label": "V_32 mod 31, order 0",
+   "rows_used": 1,
+   "nonzero_multipliers": 1,
+   "nu_multiplier": 9,
+   "remaining_X1_columns": 0,
+   "remaining_base_columns": 0,
+   "remaining_derivative_columns": 0,
+   "recombination_verified": true,
+   "columns_checked": 74,
+   "identity": "V_32 == 9 * Xi_0({inf,0})  (mod 31)",
+   "multipliers": {
+    "T31@1:0;1:0;1:0;1:0;1:0;1:0": 30
+   }
+  },
+  "V_33": {
+   "label": "V_33 mod 31, order 0",
+   "rows_used": 1,
+   "nonzero_multipliers": 1,
+   "nu_multiplier": 22,
+   "remaining_X1_columns": 0,
+   "remaining_base_columns": 0,
+   "remaining_derivative_columns": 0,
+   "recombination_verified": true,
+   "columns_checked": 74,
+   "identity": "V_33 == 22 * Xi_0({inf,0})  (mod 31)",
+   "multipliers": {
+    "T31@1:0;1:0;1:0;1:0;1:0;1:0": 1
+   }
+  },
+  "V_43": {
+   "label": "V_43 mod 31, order 0",
+   "rows_used": 1,
+   "nonzero_multipliers": 1,
+   "nu_multiplier": 22,
+   "remaining_X1_columns": 0,
+   "remaining_base_columns": 0,
+   "remaining_derivative_columns": 0,
+   "recombination_verified": true,
+   "columns_checked": 74,
+   "identity": "V_43 == 22 * Xi_0({inf,0})  (mod 31)",
+   "multipliers": {
+    "T31@1:0;1:0;1:0;1:0;1:0;1:0": 1
+   }
+  },
+  "V_44": {
+   "label": "V_44 mod 31, order 0",
+   "rows_used": 1,
+   "nonzero_multipliers": 1,
+   "nu_multiplier": 9,
+   "remaining_X1_columns": 0,
+   "remaining_base_columns": 0,
+   "remaining_derivative_columns": 0,
+   "recombination_verified": true,
+   "columns_checked": 74,
+   "identity": "V_44 == 9 * Xi_0({inf,0})  (mod 31)",
+   "multipliers": {
+    "T31@1:0;1:0;1:0;1:0;1:0;1:0": 30
+   }
+  }
+ },
+ "order1_attempts": [
+  {
+   "label": "V_32 order-1 slot (1,0): U_31 row at {0,inf} only",
+   "rows_used": 3,
+   "nonzero_multipliers": 1,
+   "nu_multiplier": 0,
+   "remaining_X1_columns": 1,
+   "remaining_base_columns": 115,
+   "remaining_derivative_columns": 1,
+   "recombination_verified": true,
+   "columns_checked": 190
+  },
+  {
+   "label": "radius 0: + S, tau, T5, U31 rows at all target cosets",
+   "rows_used": 888,
+   "nonzero_multipliers": 1,
+   "nu_multiplier": 0,
+   "remaining_X1_columns": 1,
+   "remaining_base_columns": 115,
+   "remaining_derivative_columns": 1,
+   "recombination_verified": true,
+   "columns_checked": 190,
+   "seconds": 36.8,
+   "unresolved_X1_cosets": 1,
+   "unresolved_X1_cosets_without_rows": 0
+  },
+  {
+   "label": "radius 0 with base z-moment rows",
+   "rows_used": 2072,
+   "nonzero_multipliers": 55,
+   "nu_multiplier": 0,
+   "remaining_X1_columns": 1,
+   "remaining_base_columns": 120,
+   "remaining_derivative_columns": 1,
+   "recombination_verified": true,
+   "columns_checked": 252,
+   "seconds": 64.7,
+   "remaining_columns_by_type": {
+    "Xi_1 at {0,inf} coset": [
+     "0"
+    ],
+    "Xi_1 elsewhere": 0,
+    "Xi_0 slots at {0,inf} coset": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "Xi_0 slots at target cosets": 116,
+    "eigenvalue-derivative symbols": [
+     "(0, 0, 3100)"
+    ]
+   }
+  }
+ ],
+ "order2_attempt": {
+  "label": "V_32 order-2 slot (2,0), radius 0",
+  "rows_used": 592,
+  "nonzero_multipliers": 1,
+  "nu_multiplier": 0,
+  "remaining_X1_columns": 116,
+  "remaining_base_columns": 176,
+  "remaining_derivative_columns": 2,
+  "recombination_verified": true,
+  "columns_checked": 367,
+  "seconds": 26.6,
+  "remaining_columns_by_type": {
+   "Xi_2 at {0,inf} coset": [
+    "0"
+   ],
+   "Xi_2 elsewhere": 0,
+   "Xi_1 slots (retained RHS)": 115,
+   "Xi_0 slots (retained RHS)": 176,
+   "eigenvalue-derivative symbols": [
+    "a_(31,2)*m_(0,0)[1:0;1:0;1:0;1:0;1:0;1:0]",
+    "a_(31,1)*m_(1,0)[1:0;1:0;1:0;1:0;1:0;1:0]"
+   ]
+  }
+ }
+}

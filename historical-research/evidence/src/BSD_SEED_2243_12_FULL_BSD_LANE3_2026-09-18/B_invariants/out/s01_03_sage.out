@@ -1,0 +1,22 @@
+E = Elliptic Curve defined by y^2 = x^3 - 22735*x^2 + 106272484*x over Rational Field
+is_minimal(): False  is_global_minimal_model: True
+minimal_model(): (0, -1, 0, -66020924, -65074271436)
+isomorphism E->Em: Elliptic-curve morphism:
+  From: Elliptic Curve defined by y^2 = x^3 - 22735*x^2 + 106272484*x over Rational Field
+  To:   Elliptic Curve defined by y^2 = x^3 - x^2 - 66020924*x - 65074271436 over Rational Field
+  Via:  (u,r,s,t) = (1, 7578, 0, 0)
+discriminant: 16586638656786071143743744 = 2^8 * 3^2 * 2243 * 4547^3 * 5843^2
+conductor: 6503188012738584 = 2^3 * 3 * 2243 * 4547^2 * 5843
+real_components(): 2
+torsion_order(): 2  torsion_subgroup gens: ((0 : 0 : 1),)  (algorithm pari default)
+torsion via 'doud': 2 (2,)
+torsion via 'lutz_nagell': (2,)
+two_torsion_rank: 1
+p=2  generic-Tate: kodaira=I1* f=3 c_p=2 disc_val=8  split?False nonsplit?False additive?True | pari: kodaira=I1* c_p=2
+p=3  generic-Tate: kodaira=I2 f=1 c_p=2 disc_val=2  split?False nonsplit?True additive?False | pari: kodaira=I2 c_p=2
+p=2243  generic-Tate: kodaira=I1 f=1 c_p=1 disc_val=1  split?True nonsplit?False additive?False | pari: kodaira=I1 c_p=1
+p=4547  generic-Tate: kodaira=III f=2 c_p=2 disc_val=3  split?False nonsplit?False additive?True | pari: kodaira=III c_p=2
+p=5843  generic-Tate: kodaira=I2 f=1 c_p=2 disc_val=2  split?False nonsplit?True additive?False | pari: kodaira=I2 c_p=2
+tamagawa_product: 16
+root_number: 1
+j: 1322372123614064/689197281363

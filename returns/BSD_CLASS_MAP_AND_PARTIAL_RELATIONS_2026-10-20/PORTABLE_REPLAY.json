@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "Actual selected-panel reconstruction and exact ideal/scalar arithmetic from bundled inputs, not a new search or independent field construction",
+  "receipts": [
+    {
+      "script": "reconstruct.gp",
+      "seconds": 13.996499847853556,
+      "exit_code": 0,
+      "marker_present": true,
+      "stderr_empty": true,
+      "accepted": true
+    },
+    {
+      "script": "private_pivots.gp",
+      "seconds": 4.936571708181873,
+      "exit_code": 0,
+      "marker_present": true,
+      "stderr_empty": true,
+      "accepted": true
+    },
+    {
+      "script": "scalar_pivots.gp",
+      "seconds": 1.0012997519224882,
+      "exit_code": 0,
+      "marker_present": true,
+      "stderr_empty": true,
+      "accepted": true
+    }
+  ],
+  "byte_comparisons": [
+    {
+      "file": "reconstructed.gp",
+      "byte_identical": true,
+      "sha256": "f2c37fe58a8f78688c35c59c9ef6684cebd94dcd145923df25b1c0f885bc8cd2"
+    },
+    {
+      "file": "private_pivots.gp.data",
+      "byte_identical": true,
+      "sha256": "c7596af7913fc23f2e89bb0957807cd911b48d0fd9cacbfee296d454a2faa8a6"
+    },
+    {
+      "file": "scalar_orbits.gp.data",
+      "byte_identical": true,
+      "sha256": "dd5a6a020033972102b609bb972fdaa115a99580a7176394ac6aebb4a0b7fe02"
+    }
+  ],
+  "root_change": "Portable wrapper now rejects any GP stderr; historical scripts and outputs preserved."
+}

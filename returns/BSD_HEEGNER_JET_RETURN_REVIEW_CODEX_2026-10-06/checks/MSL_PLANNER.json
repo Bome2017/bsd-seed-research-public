@@ -1,0 +1,91 @@
+{
+  "engine": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+  "sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+  "scope": "cutoff planner only; no evaluation or corpus production",
+  "plans": [
+    {
+      "m": 17,
+      "args": [
+        "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+        "tmin",
+        "0",
+        "-22735",
+        "0",
+        "106272484",
+        "0",
+        "17",
+        "6503188012738584",
+        "4096"
+      ],
+      "exit_code": 0,
+      "stdout": "KAPPA [4.583189264558652405936011e-9 +/- 2.01e-34]\nOMEGA_PLUS [0.02804490151943640444830940 +/- 1.81e-27]\nTAIL_TARGET [1.7100533398618365378e-6 +/- 4.43e-26]\nTMIN 5582260929\nTAIL_AT_TMIN [1.7100533328547536560e-6 +/- 1.09e-26]\nTAIL_AT_TMIN_MINUS_1 [1.7100533406343279361e-6 +/- 3.65e-26]  (not below target: 1)\n",
+      "stderr": "",
+      "segments": 333,
+      "aligned_cutoff": 5586812927,
+      "fits_6445": true
+    },
+    {
+      "m": 289,
+      "args": [
+        "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+        "tmin",
+        "0",
+        "-22735",
+        "0",
+        "106272484",
+        "0",
+        "289",
+        "6503188012738584",
+        "4096"
+      ],
+      "exit_code": 0,
+      "stdout": "KAPPA [2.695993685034501415256477e-10 +/- 1.77e-35]\nOMEGA_PLUS [0.02804490151943640444830940 +/- 1.81e-27]\nTAIL_TARGET [1.7100533398618365378e-6 +/- 4.43e-26]\nTMIN 100324370478\nTAIL_AT_TMIN [1.7100533395037583150e-6 +/- 3.24e-26]\nTAIL_AT_TMIN_MINUS_1 [1.7100533399617900527e-6 +/- 2.04e-26]  (not below target: 1)\n",
+      "stderr": "",
+      "segments": 5980,
+      "aligned_cutoff": 100327751679,
+      "fits_6445": true
+    },
+    {
+      "m": 31,
+      "args": [
+        "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+        "tmin",
+        "0",
+        "-22735",
+        "0",
+        "106272484",
+        "0",
+        "31",
+        "6503188012738584",
+        "4096"
+      ],
+      "exit_code": 0,
+      "stdout": "KAPPA [2.513361854757970674222974e-9 +/- 1.16e-34]\nOMEGA_PLUS [0.02804490151943640444830940 +/- 1.81e-27]\nTAIL_TARGET [1.7100533398618365378e-6 +/- 4.43e-26]\nTMIN 10302967622\nTAIL_AT_TMIN [1.7100533365629550948e-6 +/- 1.99e-26]\nTAIL_AT_TMIN_MINUS_1 [1.7100533408300472564e-6 +/- 2.32e-27]  (not below target: 1)\n",
+      "stderr": "",
+      "segments": 615,
+      "aligned_cutoff": 10317987839,
+      "fits_6445": true
+    },
+    {
+      "m": 961,
+      "args": [
+        "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+        "tmin",
+        "0",
+        "-22735",
+        "0",
+        "106272484",
+        "0",
+        "961",
+        "6503188012738584",
+        "4096"
+      ],
+      "exit_code": 0,
+      "stdout": "KAPPA [8.107618886316034432977335e-11 +/- 1.11e-36]\nOMEGA_PLUS [0.02804490151943640444830940 +/- 1.81e-27]\nTAIL_TARGET [1.7100533398618365378e-6 +/- 4.43e-26]\nTMIN 341242174491\nTAIL_AT_TMIN [1.7100533398573384550e-6 +/- 2.15e-26]\nTAIL_AT_TMIN_MINUS_1 [1.7100533399951271370e-6 +/- 8.79e-27]  (not below target: 1)\n",
+      "stderr": "",
+      "segments": 20340,
+      "aligned_cutoff": 341248573439,
+      "fits_6445": false
+    }
+  ]
+}

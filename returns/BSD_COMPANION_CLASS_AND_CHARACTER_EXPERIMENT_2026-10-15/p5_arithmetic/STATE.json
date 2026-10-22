@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED_BOUNDED_EXPERIMENT",
+  "mathematical_status": "CONDITIONAL_WHOLE_SOURCE_UPPER_BOUND_3_AT_P5",
+  "controls": ["389a1", "37a1"],
+  "actual_field_and_scalar_checks": "EXACT_PASS",
+  "class_group_status": "PROVISIONAL_GRH_DEPENDENT_CERTIFICATION_TIMED_OUT",
+  "new_unconditional_class_bound": false,
+  "seed_endpoint_effect": "NONE",
+  "no_new_seed_prime": true
+}

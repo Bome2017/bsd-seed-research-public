@@ -1,0 +1,64 @@
+{
+  "scope": "Parent replay from path-rebound copy using only included inputs; no global seed hypotheses recertified",
+  "setup_repair": "First copy retained old GP write outputs and Python parse rejected appended duplicate objects. Helper now moves four saved verifier outputs aside in replay copy before running. Original arithmetic untouched.",
+  "checks": [
+    {
+      "script": "replay_relative",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_seconds": 9.650061703054234,
+      "stdout": "INDEPENDENT_RELATIVE_REPLAY_COMPLETE;ROWS=196;CYCLES=17;RANKS=[0, 0];MS=14772\n",
+      "stderr": ""
+    },
+    {
+      "script": "replay_support",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_seconds": 16.25999682303518,
+      "stdout": "INDEPENDENT_SUPPORT_REPLAY_COMPLETE;ROWS=196;ATOMS=743;FAITHFUL_COLUMNS=185;MS=19654\n",
+      "stderr": ""
+    },
+    {
+      "script": "replay_unit_kernel",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_seconds": 0.8880737288855016,
+      "stdout": "INDEPENDENT_UNIT_KERNEL_REPLAY_COMPLETE;RANK=312;KERNEL=80;PLUS_ONE=78;MINUS_ONE=2;MS=803\n",
+      "stderr": ""
+    },
+    {
+      "script": "replay_private_support",
+      "exit_code": 0,
+      "accepted": true,
+      "elapsed_seconds": 0.3199516620952636,
+      "stdout": "INDEPENDENT_PRIVATE_INSIDE_SUPPORT_COMPLETE;INSIDE=21;PRIVATE=177;MS=232\n",
+      "stderr": ""
+    },
+    {
+      "script": "review/check_support_rank.py",
+      "accepted": true,
+      "stdout": "{\n  \"characters\": [\n    {\n      \"character_eigenvalue\": 2,\n      \"expanded_formal_quotient_dimension\": 29,\n      \"full_rank\": 156,\n      \"original_image_upper_bound_from_these_rows\": 8,\n      \"private_rank\": 156,\n      \"rank_of_relations_supported_on_originals\": 0\n    },\n    {\n      \"character_eigenvalue\": 3,\n      \"expanded_formal_quotient_dimension\": 29,\n      \"full_rank\": 156,\n      \"original_image_upper_bound_from_these_rows\": 8,\n      \"private_rank\": 156,\n      \"rank_of_relations_supported_on_originals\": 0\n    }\n  ],\n  \"columns\": 185,\n  \"complete_class_bound\": false,\n  \"original_columns\": 8,\n  \"private_columns\": 177,\n  \"private_factor_certificate_sha256\": \"7b680dcd633392a79e9ef2bb0f7fccd1f60f0bf11ad4cbab37291d785b1cee60\",\n  \"rows\": 196,\n  \"scope\": \"Independent Python elimination after exact GP reconstruction of every divisor row. The 29-dimensional expanded formal quotient does not generate the full class group.\",\n  \"source_sha256\": \"5a8d270500f68e49d9a021cda8c892ddb183879390ac16faea328b999eb0b246\",\n  \"status\": \"NO_NEW_RELATION_BOUND_ON_ORIGINAL_EIGHT_GENERATORS\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "review/check_complete_accounting.py",
+      "accepted": true,
+      "stdout": "{\n  \"characters\": [\n    {\n      \"character_eigenvalue\": 2,\n      \"formal_complete_bound_after_adding_rows\": 8918,\n      \"net_relation_rank_on_bounded_generators\": 0,\n      \"outside_support_rank\": 156,\n      \"retained_GRH_complete_generator_count\": 8918,\n      \"total_relation_rank\": 156\n    },\n    {\n      \"character_eigenvalue\": 3,\n      \"formal_complete_bound_after_adding_rows\": 8918,\n      \"net_relation_rank_on_bounded_generators\": 0,\n      \"outside_support_rank\": 156,\n      \"retained_GRH_complete_generator_count\": 8918,\n      \"total_relation_rank\": 156\n    }\n  ],\n  \"classification_method\": \"Independent exhaustive integer trial division; actual ideal factorizations and residue degrees for all21 inside symbols\",\n  \"factor_certificate_sha256\": \"bdad63a0f6fa0fad7f476bef931041bc1dd56cac9a6873edca2fc900bfae535a\",\n  \"input_sha256\": \"6d011067ea510d14e71ae29670f9ff7c3672df160ed4261ddcb444a57adc1249\",\n  \"inside_private_orbits\": 21,\n  \"new_seed_complete_bound\": false,\n  \"outside_cofactors_after_all_small_primes_removed\": [\n    [\n      9,\n      \"78878496367435246926756795818248252051\"\n    ],\n    [\n      10,\n      \"31070604177183398987819208107031803919124084377884896165111\"\n    ],\n    [\n      13,\n      \"1349921823652666632114823026440870144727211860278526319998825379966279811526556240811\"\n    ],\n    [\n      14,\n      \"142884402091717171910728908202667198455419503495091088819356144646741364402342933\"\n    ],\n    [\n      17,\n      \"1742360004113613570383329186217066932663650440341701175305485789277179195495479357\"\n    ],\n    [\n      19,\n      \"490246466526606663348713453819220350805961520857033737545168200586758469123141\"\n    ],\n    [\n      20,\n      \"3807985570890637794600202305853201384866744290861596591266580581465778760263809911\"\n    ],\n    [\n      21,\n      \"15698558606870482435273648748409962359866453374369523995730606636999388173123829927\"\n    ],\n    [\n      22,\n      \"64327879324087615358882267110576782737440849310163621708019734181959975302891\"\n    ],\n    [\n      23,\n      \"125624935954652965736997179107725379915700645241119183430663008192582274383747639\"\n    ],\n    [\n      25,\n      \"292609016542939471805389969059293633572684520118869300722236408121777376729000852917\"\n    ],\n    [\n      26,\n      \"172030760022330657473572169002723000731587336024125235866407032043490337929868427882709\"\n    ],\n    [\n      27,\n      \"111982707153043526286271883565106604745471265033033844154870733644527381983926813049\"\n    ],\n    [\n      29,\n      \"631697858502795848036234222810068230631815235134292492073578430259153211066442641\"\n    ],\n    [\n      30,\n      \"940092486322284133361399397587891770822031950522153861669982776371966895559999969993\"\n    ],\n    [\n      31,\n      \"102641452172146836471398804961269973658515864497089204117744984205405029494169\"\n    ],\n    [\n      32,\n      \"248709796766988462286388139981003259620868499976440335420893673152560761658526240131\"\n    ],\n    [\n      33,\n      \"3816058924904049167298696263378798077238621370062881669617399481362400502205",
+      "stderr": ""
+    },
+    {
+      "script": "theory/check_bddf.py",
+      "accepted": true,
+      "stdout": "{\n  \"T\": 419776,\n  \"criterion\": \"Belabas-Diaz y Diaz-Friedman Corollary 5.2, inequality (23), unconditional\",\n  \"diagnostic_decimal_not_certificate\": {\n    \"gap_rhs_minus_lhs\": \"393.018410393008869413162791752893816148578870587176119987445\",\n    \"lhs\": \"23.9784935223574776348588551920094914088039315871488516390428\",\n    \"rhs\": \"416.996903915366347048021646944903307557382802174324971626488\"\n  },\n  \"exact_failure_margin_lower\": \"73954686883/250000000\",\n  \"exact_lhs_upper\": \"14045313117/250000000\",\n  \"exact_rhs_lower\": \"352\",\n  \"generation_disproved\": false,\n  \"generator_defect_bounded\": false,\n  \"input_hashes\": {\n    \"review/DISCRIMINANT_GENERATION_BOUND.json\": \"8e0e2a60d978a1783558346833191950fd418be6d3e9ebaa98da16112fefa0da\",\n    \"review/norm_inventory_result.gp\": \"8b7c1fac76224cc7a9904dadc19ecc2c53f7a5d26294eb04f358f2a54e919751\"\n  },\n  \"n\": 24,\n  \"new_class_bound\": false,\n  \"norm_rows\": 8515,\n  \"prime_ideals\": 35749,\n  \"prime_power_terms_with_multiplicity\": 35923,\n  \"r1\": 4,\n  \"status\": \"FAIL_AT_THIS_CUTOFF\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "scaling/orbit_scaling.py",
+      "accepted": true,
+      "stdout": "{\"status\": \"FINITE_GENERATOR_DEMAND_ONLY\", \"norm_cutoff\": 2000, \"excluded_rational_bad_primes\": [2, 3, 2243, 4547, 5843], \"count_rows_verified\": 301}\n{\"p\": 5, \"faithful_unit_rank\": 3, \"relative_antiunit_rank\": 6, \"unramified_columns\": 71, \"identity_frobenius_primes\": []}\n{\"p\": 7, \"faithful_unit_rank\": 4, \"relative_antiunit_rank\": 12, \"unramified_columns\": 54, \"identity_frobenius_primes\": []}\n{\"p\": 11, \"faithful_unit_rank\": 6, \"relative_antiunit_rank\": 30, \"unramified_columns\": 25, \"identity_frobenius_primes\": []}\n{\"p\": 13, \"faithful_unit_rank\": 7, \"relative_antiunit_rank\": 42, \"unramified_columns\": 27, \"identity_frobenius_primes\": []}\n",
+      "stderr": ""
+    }
+  ],
+  "source_input_sha256": "7757659ec9ec41a97e3390fafbbfb68cfc9a0add06a3137bda6bee1262aaea5c",
+  "status": "EIGHT_REPLAYS_PASS"
+}

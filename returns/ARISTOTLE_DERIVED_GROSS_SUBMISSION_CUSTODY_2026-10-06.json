@@ -1,0 +1,42 @@
+{
+ "submission": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06",
+ "uploaded_utc": "2026-10-07T02:26:20Z",
+ "author": "Claude (Opus 5.5)",
+ "status": "SUBMITTED_BY_USER (one question: a degree-two derived Gross identity over Q(sqrt(-7)), definite case)",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/DELTA_TASK_DERIVED_GROSS.md",
+   "sha256": "9f16a72c0058b24c78b76a30f41e593d12cd4315e319c1c8ed2b587f35f2daa6",
+   "bytes": 6014
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/MANIFEST.sha256",
+   "sha256": "738f893af5279f5ccede4fdd3507eb03e5f52923fed62f6f2071f4e83c3a63c4",
+   "bytes": 343
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/README.md",
+   "sha256": "89482d52d8329934fedfb36ff10ad8d57d68b5421360e2166a3cac3e8c331ce1",
+   "bytes": 987
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/SUBMISSION_PROMPT.txt",
+   "sha256": "bd3a069c767b2df5455a6f4f06019f4e38d0bab99e947053dbcbe1f0297b8914",
+   "bytes": 1220
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/SUBMIT_COMMAND.txt",
+   "sha256": "3eaad9dcf8bd49f2e5e07ba913be661845a2dd8ec72d14d8f7b86cc2cfc0c8fe",
+   "bytes": 1437
+  },
+  {
+   "path": "archives/BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026-10-06.tar.gz",
+   "sha256": "50a704936dcb57c61fce635e61604d36412f2270494b65264c735e8857bd05d5",
+   "bytes": 135613
+  }
+ ],
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

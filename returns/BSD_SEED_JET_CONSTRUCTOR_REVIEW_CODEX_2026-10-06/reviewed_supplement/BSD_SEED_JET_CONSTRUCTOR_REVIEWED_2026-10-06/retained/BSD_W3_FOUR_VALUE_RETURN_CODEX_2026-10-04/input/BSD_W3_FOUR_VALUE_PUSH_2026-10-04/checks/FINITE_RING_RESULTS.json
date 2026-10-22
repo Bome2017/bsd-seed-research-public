@@ -1,0 +1,78 @@
+{
+  "critical_ranges": [
+    {
+      "r": 2,
+      "s": 2,
+      "twist_exponent": 1,
+      "w": 3,
+      "weight": 5
+    },
+    {
+      "r": 1,
+      "s": 3,
+      "twist_exponent": 0,
+      "w": 3,
+      "weight": 5
+    },
+    {
+      "r": 2,
+      "s": 3,
+      "twist_exponent": 1,
+      "w": 4,
+      "weight": 6
+    },
+    {
+      "r": 1,
+      "s": 4,
+      "twist_exponent": 0,
+      "w": 4,
+      "weight": 6
+    }
+  ],
+  "determinant": 864,
+  "incompatible_precision_cases_rejected": 35,
+  "index_three_basis_cases": 140,
+  "primes": [
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97,
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149,
+    151,
+    157,
+    163,
+    167,
+    173,
+    179
+  ],
+  "random_reconstruction_cases": 4200,
+  "rational_inverse_checked": true,
+  "scope": "EXACT_FORMAL_CONTROLS_ONLY; no actual Kato value evaluated",
+  "seed_primary_certificate": false,
+  "source_theorems_reproved": false,
+  "status": "PASS"
+}

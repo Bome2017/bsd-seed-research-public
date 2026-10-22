@@ -1,0 +1,23 @@
+{
+  "curve": "28042a1",
+  "ainvariants": [
+    1,
+    -1,
+    0,
+    -1367381,
+    615777525
+  ],
+  "points": [
+    [
+      653,
+      675
+    ]
+  ],
+  "coefficient_prime": 3,
+  "BNF_seconds_cap": 120,
+  "stack_bytes_cap": 1000000000,
+  "acceptance": "bnfcertify=1, exact source/lift witnesses, all local image expected dimensions and Hensel checks. Necessary finite additivity acceptance alone does not establish Selmer membership.",
+  "selection": "Primary Cremona predicted Sha only selected this input; producer does not read or use that value.",
+  "point_rank_grade": "rank zero/one database selection; exact point-source dimension will be checked; no claim rank two.",
+  "no_seed_endpoint_claim": true
+}

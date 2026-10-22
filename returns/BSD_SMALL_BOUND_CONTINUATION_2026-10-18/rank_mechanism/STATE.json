@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED_SCOPED_RANK_MECHANISM_SCREEN",
+  "result": "Homogeneous torsion-coordinate sources have zero odd projection; exact actual-torsion checks pass.",
+  "whole_source_formula": "dim K <= (p+1)/2 - rank(u_units) + t_D + k_C",
+  "uniform_rank_bound_obtained": false,
+  "new_seed_prime": false,
+  "prior_files_modified": false,
+  "next_experiment_owner": "parent shifted odd-coordinate source experiment",
+  "source_search_review": "All5637 resultants replay; asymmetric37 candidate has forbidden prime2 divisor after projection; no ordinary-unit rank gain."
+}

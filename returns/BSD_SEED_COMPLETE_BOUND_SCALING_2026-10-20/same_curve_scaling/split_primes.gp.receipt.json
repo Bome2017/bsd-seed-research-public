@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T17:57:16.788950+00:00",
+  "script": "split_primes.gp",
+  "sha256": "3532c01279b10ef6e98c8f465572deca0d8ba1ad1a20c2ba5621e739b5a4245c",
+  "cap_seconds": 120,
+  "elapsed": 0.042695146054029465,
+  "timeout": false,
+  "returncode": 0,
+  "stdout_sha256": "d60969dec6b2c4dc366aaebe6f63a6e072f09b54bc9999ab3203eceda5607647",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "accepted": true
+}

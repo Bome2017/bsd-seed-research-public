@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_P7_JOINT_UNIT_BOUND_CLASS_TERM_OPEN",
+  "started_utc": "2026-10-18T15:44:04.643127+00:00",
+  "completed_utc": "2026-10-18T16:06:58.348367+00:00",
+  "curve": "11a1",
+  "coefficient_prime": 7,
+  "unit_dimension": 4,
+  "actual_global_norm_screen_rank": 3,
+  "actual_coefficient_local_screen_rank": 1,
+  "actual_joint_unit_rank": 4,
+  "complete_unit_joint_kernel_dimension": 0,
+  "primitive_divisor_kernel_dimension": 0,
+  "ordinary_class_completeness": "NOT_CERTIFIED; bounded quotient-only certification did not produce a success marker",
+  "whole_source": "injects into ordinary Cl(A)[7]^chi under retained source inputs; no unconditional class bound",
+  "rank_two_389a1_attempt": "three finite divisor-relation sources give only +/-1 products",
+  "new_seed_prime": false,
+  "uniform_bound": false,
+  "FIN": "open",
+  "ORDER9": "open",
+  "Q36": "open",
+  "endpoints_changed": false
+}

@@ -1,0 +1,22 @@
+PASS TMAX + 1 = 14847836160 is a multiple of SEGQ; NSEG = 885
+PASS done markers: 885 of 885, none missing
+PASS verifier logged each of the 885 segments exactly once
+PASS verifier tiling lo = s*SEGQ, hi = (s+1)*SEGQ for every segment (violations: [])
+INFO primes verified: 663685727; by witness: 663685161; exhaustive (small/bad): 566
+PASS producer witness count == verifier witness count, every segment
+PASS all 885 verified a_q files: size = 4*primes and SHA-256 = verifier log (bad: [])
+PASS kept witness files: 885; every one matches its logged SHA-256 (bad: [])
+PASS m=81: PARAMS = "msl 0 -22735 0 106272484 0 81 2167729337579528 1 14847836159... _2026-09-19/run/units_m81 1024"
+PASS m=81: unit set complete: 885 L-units + 3540 S-units, no leftover .tmp
+PASS m=81: every unit self-hash valid (4425 units; bad: [])
+PASS m=81: unit headers index-consistent; every Part-L unit a_q hash = verifier ap_sha256 (bad: [])
+PASS m=81: AP_SEGROOT = SHA-256 over 885 verifier segment hashes = 5f9994d95c31a49e7cbd91435fd33a9cbdadc81fcc4f47439fbbf2fa5bb4713f
+PASS m=81: count identity COUNT smooth 4841666641 pairs 10006169518 sum 14847836159 T 14847836159 identity 1
+PASS m=27: PARAMS = "msl 0 -22735 0 106272484 0 27 2167729337579528 1 4831838207 ... _2026-09-19/run/units_m27 1024"
+PASS m=27: unit set complete: 288 L-units + 1152 S-units, no leftover .tmp
+PASS m=27: every unit self-hash valid (1440 units; bad: [])
+PASS m=27: unit headers index-consistent; every Part-L unit a_q hash = verifier ap_sha256 (bad: [])
+PASS m=27: AP_SEGROOT = SHA-256 over 288 verifier segment hashes = ca234d65fa40332695f5f08675ade782c9a8439bee068b69ac9b64a470002084
+PASS m=27: count identity COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+INTEGRITY_PASS failures=0
+exit 0

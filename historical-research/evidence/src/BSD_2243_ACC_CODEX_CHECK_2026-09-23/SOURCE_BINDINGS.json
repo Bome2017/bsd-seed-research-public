@@ -1,0 +1,62 @@
+{
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/acc2243v2.c": {
+    "sha256": "295a14c2dc59451266463684e00a6df397c3a75ce197ec80142fccb6a068a730",
+    "bytes": 52772
+  },
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/acc2243v2": {
+    "sha256": "794702deacf9d5862752914ffe0bfb993755218a73a2142e4b99530fb4c18866",
+    "bytes": 66368
+  },
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/acc2243v2_shim": {
+    "sha256": "eeb6e1bd987fd8849ef84c131a19dc61f5df70c1cf92462d023e41bf5c20fdf2",
+    "bytes": 70416
+  },
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/stream_seg.sh": {
+    "sha256": "b1378f169118351bfd8a1ea22124fa735ae9a5b6282d02f86127f9c3e1b6e606",
+    "bytes": 1933
+  },
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/compat/CommonCrypto/CommonDigest.h": {
+    "sha256": "850f29faadcc8e579bb6add204fc68a629263555abdc92328bdb00f175f40708",
+    "bytes": 4192
+  },
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/FINAL_BUILD_HASHES.txt": {
+    "sha256": "a9f6b0c8dd7cc9d6138c109eb3a1eee53205881c3c0f0623ef8f4e21577ba11d",
+    "bytes": 416
+  },
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/CODEX_CHECK_REQUEST.md": {
+    "sha256": "019f0b5e3a1119708db68a15751d8892ef0f60b61b69acca7e0474fa8923ed5d",
+    "bytes": 8102
+  },
+  "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore.c": {
+    "sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+    "bytes": 34328
+  },
+  "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S1_RESULTS.md": {
+    "sha256": "7fddfb39c6022aece7f6e19739306da985a7042bb8f6031a20baf2dcdc315700",
+    "bytes": 6716
+  },
+  "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m27.txt": {
+    "sha256": "7ab435cf5d3909b51daf922e0867bf913a43829b9576cc83c8711b482b5166b1",
+    "bytes": 273
+  },
+  "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt": {
+    "sha256": "2049b76315da25d0a5557a513aee5d21177fe39512c7a562a4b6b63ac410bfd9",
+    "bytes": 626
+  },
+  "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/msl_m27.txt": {
+    "sha256": "3013e0e3e0a54647976aacfcb65b59369d0c4c6b00c77eabb69c3b3ce96cb30c",
+    "bytes": 5748
+  },
+  "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/msl_m81.txt": {
+    "sha256": "9d371aef39ca944f4b7028e10f2d33d40d38a728fb14b47727f1ebb2bd729734",
+    "bytes": 16334
+  },
+  "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/sources/Skinner2016_published.txt": {
+    "sha256": "cb68c04d0919e7a40a88c8d307e42f809c730e88eeb2a74b252b8528c7cc9713",
+    "bytes": 103238
+  },
+  "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/aristotle_handoff/ARISTOTLE_C11_RESULT/sources/SteinWuthrich2013_shark.txt": {
+    "sha256": "680283f876a20954828d4cb473bea3ef7fb92f99523972e17bb3d5b5897ba038",
+    "bytes": 122449
+  }
+}

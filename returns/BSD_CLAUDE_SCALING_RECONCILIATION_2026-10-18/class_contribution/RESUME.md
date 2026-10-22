@@ -1,0 +1,1 @@
+Completed. Run python3 check_filtered_bound.py from this directory. No BNF or exact number-field producer is launched. Read REPORT.md and PROOF.md. Saved source completeness and local image grades remain retained; seed3 class upper is GRH conditional. No running jobs.

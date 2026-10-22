@@ -1,0 +1,1 @@
+Completed. Read REPORT.md then PROOF.md. The actual divisor character spaces are zero. Shared x-field separates original/twist faithful class groups into different biquadratic eigenspaces; no class bound transfers. No running jobs. Replay python3 check_twist.py; the optional old-discriminant GP read needs -s256M.

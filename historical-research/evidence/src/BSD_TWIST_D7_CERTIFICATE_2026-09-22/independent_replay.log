@@ -1,0 +1,13 @@
+Independent end-to-end replay at T = 16777215
+Nothing shared with the C adapter except the raw a_p bytes.
+primes below T: 1077871
+ap file values: 1077871   match pi(2^24)? True
+a_5,a_7,a_11,a_13 = -2 -2 -2 -4  (expect -2 -2 -2 -4)
+a_2243 = 1   a_4547 = 0   a_5843 = -1
+
+independent 2S_T = 9.28074326789452896946
+engine     2S_T = 9.28074326789452806960721098863
+abs diff        = 1.776e-15
+
+independent tail at T=2013265919 :  0.00005068075129247713082249
+engine       tail at T=2013265919 :  5.068075129247713082248669e-5

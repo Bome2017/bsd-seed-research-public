@@ -1,0 +1,1 @@
+{alarm(57);C=read("field.gp");NF=read("nf.gp");E=C[1];print("DISCRIMINANT_FACTOR=",factor(NF.disc));print("REDUCED_POLYNOMIAL=",C[4]);print("MODEL=",E[1..5],";CURVE_DISC=",factor(E.disc),";A7=",ellap(E,7),";LOCAL131=",elllocalred(E,131));print("POINTS=",ellisoncurve(E,[1,2]),ellisoncurve(E,[3,2]));print("RANK_RECHECK=",ellrank(E));print("FIELD_STATS_DONE");quit;}

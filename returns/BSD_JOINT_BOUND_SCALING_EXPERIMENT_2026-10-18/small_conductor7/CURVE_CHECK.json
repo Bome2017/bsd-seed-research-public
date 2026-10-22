@@ -1,0 +1,35 @@
+{
+  "model": [
+    0,
+    -1,
+    1,
+    -10,
+    -20
+  ],
+  "discriminant": -161051,
+  "counts": [
+    {
+      "q": 7,
+      "projective_point_count": 10,
+      "a_q": -2,
+      "good": true
+    },
+    {
+      "q": 11,
+      "projective_point_count": 11,
+      "a_q": 1,
+      "good": false
+    },
+    {
+      "q": 13,
+      "projective_point_count": 10,
+      "a_q": 4,
+      "good": true
+    }
+  ],
+  "coefficient": 7,
+  "nonanomalous_ordinary": true,
+  "multiplicative_discriminant_exponent": 5,
+  "image_grade": "Irreducible degree48 torsion point polynomial plus nontrivial multiplicative transvection and cyclotomic determinant give full GL2(F7), under standard retained subgroup facts.",
+  "new_seed_result": false
+}

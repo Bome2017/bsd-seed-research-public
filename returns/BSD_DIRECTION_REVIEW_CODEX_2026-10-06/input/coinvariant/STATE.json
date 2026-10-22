@@ -1,0 +1,20 @@
+{
+  "status": "EXACTNESS_EXTENSION_CONFIRMED_WITH_CORRECTIONS",
+  "upper_bound": "NOT_OBTAINED",
+  "method_exhaustion_claim": "NOT_JUSTIFIED_WITHDRAWN_IN_REVIEW",
+  "endpoints": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  },
+  "review_grade": "Independent model review; written corrected proof under retained inputs",
+  "lean_new_modules": 3,
+  "lean_declarations": 18,
+  "no_remote_job_launched": true,
+  "coinvariant_descent": {
+    "status": "NO_NEW_BOUND_FROM_COINVARIANTS",
+    "file": "COINVARIANT_DESCENT.md",
+    "lean": "Coinvariant/Descent.lean",
+    "p_4547": "NOT_REVISITED"
+  }
+}

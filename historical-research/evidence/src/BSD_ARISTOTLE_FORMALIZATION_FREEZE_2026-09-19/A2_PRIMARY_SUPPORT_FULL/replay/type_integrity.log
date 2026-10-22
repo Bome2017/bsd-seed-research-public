@@ -1,0 +1,56 @@
+OK  PrimarySupport.primary_zero_of_torsionfree : PrimarySupport.Spec.Primary_zero_of_torsionfree  (declared type is exactly the frozen constant)
+OK  PrimarySupport.torsion_decomposition : PrimarySupport.Spec.Torsion_decomposition  (declared type is exactly the frozen constant)
+OK  PrimarySupport.assembly : PrimarySupport.Spec.Assembly  (declared type is exactly the frozen constant)
+OK  PrimarySupport.assembly_WC_shape : PrimarySupport.Spec.Assembly_WC_shape  (declared type is exactly the frozen constant)
+OK  PrimarySupport.JOf_ideal : PrimarySupport.Spec.JOf_ideal  (declared type is exactly the frozen constant)
+OK  PrimarySupport.JOf_ne_zero_iff : PrimarySupport.Spec.JOf_ne_zero_iff  (declared type is exactly the frozen constant)
+OK  PrimarySupport.positive_depth_divides : PrimarySupport.Spec.Positive_depth_divides  (declared type is exactly the frozen constant)
+OK  PrimarySupport.content_dvd_iff : PrimarySupport.Spec.Content_dvd_iff  (declared type is exactly the frozen constant)
+OK  PrimarySupport.content_padic : PrimarySupport.Spec.Content_padic  (declared type is exactly the frozen constant)
+OK  PrimarySupport.CM_each_local_finite : PrimarySupport.Spec.CM_each_local_finite  (declared type is exactly the frozen constant)
+OK  PrimarySupport.CM_finite_support : PrimarySupport.Spec.CM_finite_support  (declared type is exactly the frozen constant)
+OK  PrimarySupport.CM_nonzero_everywhere : PrimarySupport.Spec.CM_nonzero_everywhere  (declared type is exactly the frozen constant)
+OK  PrimarySupport.CM_profinite_perfectness : PrimarySupport.Spec.CM_profinite_perfectness  (declared type is exactly the frozen constant)
+OK  PrimarySupport.finite_iff_local_and_support : PrimarySupport.Spec.Finite_iff_local_and_support  (declared type is exactly the frozen constant)
+OK  PrimarySupport.JOf_generator : PrimarySupport.Spec.JOf_generator  (declared type is exactly the frozen constant)
+OK  PrimarySupport.content_basic : PrimarySupport.Spec.Content_basic  (declared type is exactly the frozen constant)
+OK  PrimarySupport.content_unimodular : PrimarySupport.Spec.Content_unimodular  (declared type is exactly the frozen constant)
+OK  PrimarySupport.exists_primitive : PrimarySupport.Spec.Exists_primitive  (declared type is exactly the frozen constant)
+OK  PrimarySupport.content_mod_pk : PrimarySupport.Spec.Content_mod_pk  (declared type is exactly the frozen constant)
+OK  PrimarySupport.content_bounds_J : PrimarySupport.Spec.Content_bounds_J  (declared type is exactly the frozen constant)
+OK  PrimarySupport.lemmaB_valuation : PrimarySupport.Spec.LemmaB_valuation  (declared type is exactly the frozen constant)
+OK  PrimarySupport.lemmaB_cokernel : PrimarySupport.Spec.LemmaB_cokernel  (declared type is exactly the frozen constant)
+OK  PrimarySupport.card_eq_prod_primary : PrimarySupport.Spec.Card_eq_prod_primary  (declared type is exactly the frozen constant)
+OK  PrimarySupport.order_nine_t_sq : PrimarySupport.Spec.Order_nine_t_sq  (declared type is exactly the frozen constant)
+OK  PrimarySupport.CM_order_441 : PrimarySupport.Spec.CM_order_441  (declared type is exactly the frozen constant)
+OK  PrimarySupport.alternating_square : PrimarySupport.Spec.Alternating_square  (declared type is exactly the frozen constant)
+OK  PrimarySupport.CM_noncyclic_target : PrimarySupport.Spec.CM_noncyclic_target  (declared type is exactly the frozen constant)
+OK  PrimarySupport.CM_codex_torsion_example : PrimarySupport.Spec.CM_codex_torsion_example  (declared type is exactly the frozen constant)
+PrimarySupport.Spec constants (28): [PrimarySupport.Spec.Alternating_square,
+ PrimarySupport.Spec.Assembly,
+ PrimarySupport.Spec.Assembly_WC_shape,
+ PrimarySupport.Spec.CM_codex_torsion_example,
+ PrimarySupport.Spec.CM_each_local_finite,
+ PrimarySupport.Spec.CM_finite_support,
+ PrimarySupport.Spec.CM_noncyclic_target,
+ PrimarySupport.Spec.CM_nonzero_everywhere,
+ PrimarySupport.Spec.CM_order_441,
+ PrimarySupport.Spec.CM_profinite_perfectness,
+ PrimarySupport.Spec.Card_eq_prod_primary,
+ PrimarySupport.Spec.Content_basic,
+ PrimarySupport.Spec.Content_bounds_J,
+ PrimarySupport.Spec.Content_dvd_iff,
+ PrimarySupport.Spec.Content_mod_pk,
+ PrimarySupport.Spec.Content_padic,
+ PrimarySupport.Spec.Content_unimodular,
+ PrimarySupport.Spec.Exists_primitive,
+ PrimarySupport.Spec.Finite_iff_local_and_support,
+ PrimarySupport.Spec.JOf_generator,
+ PrimarySupport.Spec.JOf_ideal,
+ PrimarySupport.Spec.JOf_ne_zero_iff,
+ PrimarySupport.Spec.LemmaB_cokernel,
+ PrimarySupport.Spec.LemmaB_valuation,
+ PrimarySupport.Spec.Order_nine_t_sq,
+ PrimarySupport.Spec.Positive_depth_divides,
+ PrimarySupport.Spec.Primary_zero_of_torsionfree,
+ PrimarySupport.Spec.Torsion_decomposition]

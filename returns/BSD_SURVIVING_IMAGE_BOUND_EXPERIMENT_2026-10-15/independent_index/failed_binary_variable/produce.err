@@ -1,0 +1,6 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: read("produce.gp")
+  ***                 ^------------------
+  ***   in function read: if(nA.pol!=fA,error("point field binding"))
+  ***                                   ^-----------------------------
+  ***   user error: point field binding

@@ -1,0 +1,9 @@
+# Replay and custody
+
+Run `python3 replay.py`, with `BSD_GP=/path/to/gp` if needed. The only non-standard runtime is PARI/GP. The script verifies SOURCE_BINDINGS.json, makes a fresh local output directory, substitutes bound local input paths into the historical producer scripts, and replays the exact norm, cube controls, first40-prime selector, fixed polynomial, and source-character verification. It compares literal arithmetic files and all112 result records. It does not regenerate a BNF, compute new Selmer groups or overwrite the frozen predictions. REPLAY.json records the completed pass.
+
+All arithmetic inputs are in inputs/. Historical paths remain in the original scripts and custody map to preserve what was executed; the portable runner resolves them to the local copies. Inputs retain their old grades. Current code independently verifies the exact source-polynomial serialization, but does not reprove rank bounds, global source completeness or local Selmer membership.
+
+GP write appends: the construction replay initially appended an identical line to two files. Those outputs were rejected, the equality checked, and the files reduced to one line before predictions. The originals and SERIALIZATION_REPAIR.json are retained. A one-line GP function definition in the first source-export helper swallowed its following commands; its empty output was rejected by JSON parsing and the original helper is retained. No result was accepted from it. These were serialization issues and did not change mathematical source data or any prediction.
+
+The frozen source/norm prediction seals precede the full-source outputs. The fixed-polynomial root-count replay was derived after the forty outcomes and is labelled post hoc. External primary references were freshly read: Milne FT Theorem5.30/Remark5.32 and ANT Theorem8.31, URLs in PROOF.md.

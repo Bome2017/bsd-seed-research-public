@@ -1,0 +1,53 @@
+get_red_G: starting LLL, prec = 128 (64 + 64)
+PREC = 128
+Time nfinit & nfrootsof1: 0
+Algebraic bnf: R1 = 1, R2 = 1
+D = 23
+LIMC2 = 7
+Time computing Bach constant: 0
+Time computing inverse of hR: 0
+*** Bach constant: 1.1188726995952089638
+LIMC = 11, LIMC2 = 11
+Time factorbase (#subFB = 3) and ideal permutations: 0
+KCZ = 3, KC = 3, n = 9
+
+#### Look for 9 relations in 3 ideals (small_norm)
+BSD_RELGEN=-2*x^2 + x
+1 BSD_RELGEN=2*x - 1
+BSD_RELGEN=-2*x^2 + 3*x - 1
+BSD_RELGEN=2*x^2 + x - 1
+BSD_RELGEN=-4*x^2 + 4*x - 1
+2 BSD_RELGEN=4*x^2 - 1
+3 BSD_RELGEN=-6*x^2 + 5*x - 1
+4 BSD_RELGEN=2*x^2 - 1
+5 BSD_RELGEN=-x^2 + x - 1
+BSD_RELGEN=x^2 + x - 2
+BSD_RELGEN=-3*x^2 + x
+6 BSD_RELGEN=3*x^2 + x - 3
+7 BSD_RELGEN=7*x^2 + x - 5
+BSD_RELGEN=2*x - 3
+BSD_RELGEN=4*x^2 + 2*x - 5
+8 BSD_RELGEN=-x^2 + x + 2
+9 
+  *** bsdpartial: Warning: starting 9 threads.
+  *** bsdpartial: Warning: stopping 9 threads.
+Time hnfspec [3 x 9]: 2
+  *** bsdpartial: Warning: starting 9 threads.
+  *** bsdpartial: Warning: stopping 9 threads.
+Time hnfspec floating points: 1
+
+#### Computing regulator multiple
+
+#### Tentative class number: 1
+
+#### Tentative regulator: 0.2811995743229618465120507641
+
+ ***** check = 0.9889251374393660231
+
+Time computing regulator and check: 0
+Time units LLL: 0
+
+#### Computing fundamental units
+Time getfu: 0
+Time cleanarch: 0
+I/O: closing file /Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/smoke.gp (code 1) 

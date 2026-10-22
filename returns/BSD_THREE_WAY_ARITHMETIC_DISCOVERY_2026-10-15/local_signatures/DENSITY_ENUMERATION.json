@@ -1,0 +1,68 @@
+{
+  "status": "EXHAUSTIVE_F3_MATRIX_ENUMERATION_PASS",
+  "sealed_prediction_path": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/incidence_review/JOINT_DENSITY_PREDICTIONS.md",
+  "sealed_prediction_sha256": "b58e61d5c6eb2dd61e355ee13b8bb71049bf3fc8d3330453d48a4ff59df37b58",
+  "cases": [
+    {
+      "r": 0,
+      "s": 2,
+      "rank_difference_counts": [
+        1,
+        32,
+        48
+      ],
+      "total": 81,
+      "conditional_densities": [
+        "1/81",
+        "32/81",
+        "48/81"
+      ]
+    },
+    {
+      "r": 1,
+      "s": 2,
+      "rank_difference_counts": [
+        73,
+        608,
+        48
+      ],
+      "total": 729,
+      "conditional_densities": [
+        "73/729",
+        "608/729",
+        "48/729"
+      ]
+    },
+    {
+      "r": 2,
+      "s": 2,
+      "rank_difference_counts": [
+        4177,
+        2336,
+        48
+      ],
+      "total": 6561,
+      "conditional_densities": [
+        "4177/6561",
+        "2336/6561",
+        "48/6561"
+      ]
+    },
+    {
+      "r": 2,
+      "s": 0,
+      "rank_difference_counts": [
+        81,
+        0,
+        0
+      ],
+      "total": 81,
+      "conditional_densities": [
+        "81/81",
+        "0/81",
+        "0/81"
+      ]
+    }
+  ],
+  "scope": "Exact finite algebra supporting the stated fixed-coefficient-prime Chebotarev deduction; not a statistical inference from the first24 scanned primes."
+}

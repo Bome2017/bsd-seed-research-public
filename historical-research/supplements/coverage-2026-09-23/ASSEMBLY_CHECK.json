@@ -1,0 +1,23 @@
+{
+  "source_files": 671,
+  "source_bytes": 4694599,
+  "groups": {
+    "SEED_RETAINED_DERIVATIONS": 33,
+    "DIRECT_CLAIM_SUPPORT": 34,
+    "ARISTOTLE_CORRECTIONS": 29,
+    "FAMILY_66B1": 117,
+    "GATE_R_ANCESTORS": 58,
+    "GATE_R_FORMAL": 135,
+    "H41_HISTORY": 34,
+    "H41_FINAL": 58,
+    "H9_MILESTONE": 95,
+    "H9_BOUNDARIES": 17,
+    "RUN013": 73,
+    "RUN014_BSD_SCOPE": 9
+  },
+  "redacted_files": 3,
+  "source_drift": [],
+  "known_identifier_patterns_checked": 1,
+  "credentials_pattern_hits": 0,
+  "scope": "Targeted pattern screening; not a comprehensive privacy/legal review. Names, local paths and historical model prompts remain."
+}

@@ -1,0 +1,18 @@
+{
+  "authentication/mirror389/data.gp": {
+    "source": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/inputs/data.gp",
+    "sha256": "f7de104f3895edf5d2048c7748e2e396b7c2b1f51d96c7eeee5babc8bdeb54cf"
+  },
+  "authentication/mirror389/bnf.bin": {
+    "source": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/inputs/bnf.bin",
+    "sha256": "948bda03fd1bd63beea60a1eee1ae6a7f708770f6531352de0b448a28da97022"
+  },
+  "authentication/718b1/data.gp": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/718b1/data.gp",
+    "sha256": "c7d453e4233c882a5ced7270f7ba92b68a4146d72e69f128f7536fe06eb57360"
+  },
+  "authentication/718b1/bnf.bin": {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/search/718b1/bnf.bin",
+    "sha256": "8b4c9da2e48e30a8f201863495525c0c847934657eb129fbd9c825dd2498d5ed"
+  }
+}

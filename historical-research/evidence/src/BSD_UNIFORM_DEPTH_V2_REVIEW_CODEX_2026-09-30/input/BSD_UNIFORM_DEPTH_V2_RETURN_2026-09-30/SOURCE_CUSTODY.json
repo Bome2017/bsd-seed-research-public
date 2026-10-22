@@ -1,0 +1,162 @@
+{
+  "controlling_brief": {
+    "name": "PRO_BRIEF_UNIFORM_STEP_2026-09-30_v2.md",
+    "sha256": "5786a977dd509417bb3d731d6c1fdadbb894eabb8e1221ee34f40a5ca3a82dc5"
+  },
+  "provided_source_manifest": {
+    "entries": 26,
+    "all_verified": true,
+    "details": [
+      {
+        "path": "CHECKS.json",
+        "verified": true
+      },
+      {
+        "path": "DEPTH_TARGET.md",
+        "verified": true
+      },
+      {
+        "path": "LOCAL_BINDINGS.json",
+        "verified": true
+      },
+      {
+        "path": "NEW_INPUT_APPLICATION.md",
+        "verified": true
+      },
+      {
+        "path": "NEXT_TASK.md",
+        "verified": true
+      },
+      {
+        "path": "REPORT.md",
+        "verified": true
+      },
+      {
+        "path": "RESUME.md",
+        "verified": true
+      },
+      {
+        "path": "SEED_LOCAL_CHECK.json",
+        "verified": true
+      },
+      {
+        "path": "SOURCE_BINDINGS.json",
+        "verified": true
+      },
+      {
+        "path": "SOURCE_REGISTER.md",
+        "verified": true
+      },
+      {
+        "path": "STATE.json",
+        "verified": true
+      },
+      {
+        "path": "check_arithmetic.py",
+        "verified": true
+      },
+      {
+        "path": "sources/BH_2511.07203v1.pdf",
+        "verified": true
+      },
+      {
+        "path": "sources/BH_2511.07203v1.txt",
+        "verified": true
+      },
+      {
+        "path": "sources/CLW2.pdf",
+        "verified": true
+      },
+      {
+        "path": "sources/CLW2.txt",
+        "verified": true
+      },
+      {
+        "path": "sources/CLW_arxiv_2608.29470v1.pdf",
+        "verified": true
+      },
+      {
+        "path": "sources/CLW_arxiv_2608.29470v1.txt",
+        "verified": true
+      },
+      {
+        "path": "sources/Castella_Sano_2601.14504v1.pdf",
+        "verified": true
+      },
+      {
+        "path": "sources/Castella_Sano_2601.14504v1.txt",
+        "verified": true
+      },
+      {
+        "path": "sources/Castella_Sano_author.pdf",
+        "verified": true
+      },
+      {
+        "path": "sources/Castella_Sano_author.txt",
+        "verified": true
+      },
+      {
+        "path": "sources/Kim_2203.12159v6.pdf",
+        "verified": true
+      },
+      {
+        "path": "sources/Kim_2203.12159v6.txt",
+        "verified": true
+      },
+      {
+        "path": "sources/Kriz_Nordentoft_2310.20678v3.pdf",
+        "verified": true
+      },
+      {
+        "path": "sources/Kriz_Nordentoft_2310.20678v3.txt",
+        "verified": true
+      }
+    ]
+  },
+  "selected_sources": {
+    "BH_2511.07203v1.pdf": {
+      "sha256": "d3355b216eff780f070df45778d161d8636b4acc43f73b8c7186b1c037f52481",
+      "bytes": 1125308
+    },
+    "Kriz_Nordentoft_2310.20678v3.pdf": {
+      "sha256": "327b7e0e0d4e24fe2f2a101de3528176b2e0345cc0e9a842b98374f718a93edf",
+      "bytes": 875327
+    }
+  },
+  "web_verification": [
+    {
+      "source": "arXiv:2511.07203v1",
+      "items": [
+        "Hypothesis 1.2",
+        "Theorem 1.4(b)",
+        "Definition 2.2",
+        "Proposition 2.4"
+      ],
+      "printed_pages": [
+        2,
+        8,
+        9
+      ],
+      "pdf_pages_viewed": [
+        1,
+        7,
+        8
+      ]
+    },
+    {
+      "source": "arXiv:2310.20678v3",
+      "items": [
+        "Corollary 5.20"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_pages_viewed": [
+        42
+      ]
+    }
+  ],
+  "source_proofs_independently_verified": false,
+  "seed_arithmetic_certificates_replayed": false,
+  "arithmetic_scripts_run": []
+}

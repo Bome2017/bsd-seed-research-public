@@ -1,0 +1,81 @@
+{
+  "status": "PASS_MIXED_CANDIDATE_EXPORT_BOUNDARY",
+  "exact_build_source_reconstruction": true,
+  "source_library_hashes_match": true,
+  "candidates": "literal reduced-ideal column sums/differences",
+  "central_basis_guard": "literal equality of NF.zk before applying supplied central matrix",
+  "per_ideal_invocation_mixed_candidate_cap": 128,
+  "raw_column_pairs_per_degree48_ideal_max": 696,
+  "global_export_cap": 64,
+  "global_candidate_count_cap": null,
+  "global_time_cap_seconds": 117,
+  "class_or_unit_basis_claim": false,
+  "output_arithmetic_authentication_still_required": true,
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/buch2.c",
+      "sha256": "904ced8034732c7fcfe1da393e23950aac0862b085150fdc24ce1e31beb7d1ac",
+      "bytes": 119247
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/buch2.mixed.c",
+      "sha256": "96f5906fdf428111730d4b721a113c6f4483c083a879c669af1e6d6006165530",
+      "bytes": 120418
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/mixed_instrumentation.patch",
+      "sha256": "1ec22ada3ec3bc50b69c929cdbdef11bd03d20e39bd8d0155fc0d99479a7f464",
+      "bytes": 2076
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/build_mixed.py",
+      "sha256": "f6790f3fcee64113687493f6f27afa13ac23c57eeea11bccf5fa2a1ee18e6586",
+      "bytes": 3606
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/MIXED_BUILD_RECEIPT.json",
+      "sha256": "84de93d2f117ca925ba7cbfc00945bc842e0dcbd3703c8e32dd17dd4d19e8db9",
+      "bytes": 870
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/mixed_harvest.gp",
+      "sha256": "4c2c57821dc4efb299d794bda35b068ba7a7c4a38e90a48132ee574b1548d9dc",
+      "bytes": 344
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/MIXED_CONTRACT.md",
+      "sha256": "2c553d3d9ba7d8781b26bf07f9c7fc45843676f27445f7e7e2c03064f86943fd",
+      "bytes": 820
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/run_bounded.py",
+      "sha256": "8bf1f91f69161d22032f200038955d647d624f9e9875cffe252937bd70c4c527",
+      "bytes": 1155
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18_PARI_BUILD/libbsdmixed.dylib",
+      "sha256": "e915cd8c28ce5fa32d4429f7c61df05d62b6ac16faf61142b4e96a1cd61639c1",
+      "bytes": 123232
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/nf.gp",
+      "sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e",
+      "bytes": 2477699
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/field.gp",
+      "sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22",
+      "bytes": 314993
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/basis_scalar_matrix.gp",
+      "sha256": "5e6919aa169afb19f8dd5a754fd11fbaca4f30f0c83c12e6ef2084329eb5b214",
+      "bytes": 7237
+    },
+    {
+      "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/direct_units/unit_export.gp",
+      "sha256": "958f850ffdc97dd7f2a04ffb7cae7ce83f268b035bc2b3ed2d9e4fec265b2708",
+      "bytes": 890
+    }
+  ]
+}

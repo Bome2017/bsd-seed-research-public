@@ -1,0 +1,8 @@
+{
+  "script": "mixed_harvest.gp",
+  "budget_seconds": 120.0,
+  "elapsed_seconds": 120.087226264,
+  "peak_rss_bytes": 230342656,
+  "exit_code": -9,
+  "stop": "WALL_BUDGET"
+}

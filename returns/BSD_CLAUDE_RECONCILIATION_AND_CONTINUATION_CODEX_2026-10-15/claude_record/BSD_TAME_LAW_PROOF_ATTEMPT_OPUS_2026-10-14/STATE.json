@@ -1,0 +1,10 @@
+{
+  "folder": "BSD_TAME_LAW_PROOF_ATTEMPT_OPUS_2026-10-14",
+  "date": "2026-10-14",
+  "author": "Claude Opus 5.5, same-session written analysis, not reviewed",
+  "verdict": "STEP_C_MISSING_SAME_INGREDIENT_AS_Q36",
+  "summary": "Rank-0/1 recipe has three steps: order of vanishing (have: Ota/Kato), auxiliary-independent shape (have: Theorem W), one global constant for all p (missing). Every known global object over Q gives first-derivative height formulas, which vanish in rank 2; nonzero rank-2 objects are p-adic, one prime at a time. Step C needs a second-derivative height formula over Q, the same ingredient Q36 needs.",
+  "new_in_record": "weight-(2,2,2) diagonal cycles / Chow-Heegner points screened for the seed: (f,g,g) contains L(E,s-1) but its height is L'(.)=0 in rank 2; g!=h points are global but tied to triple-product L', not L(E)",
+  "endpoints": "FIN ORDER9 Q36 unchanged",
+  "running_jobs": []
+}

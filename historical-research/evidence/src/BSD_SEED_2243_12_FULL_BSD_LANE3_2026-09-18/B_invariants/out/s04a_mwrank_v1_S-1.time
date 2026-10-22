@@ -1,0 +1,31 @@
+Program mwrank: uses 2-descent (via 2-isogeny if possible) to
+determine the rank of an elliptic curve E over Q, and list a
+set of points that generate E(Q) modulo 2E(Q).
+and finally saturate to obtain generating points on the curve.
+For more details see the mwrank documentation.
+For details of algorithms see the author's book.
+
+Please acknowledge use of this program in published work, 
+and send problems to [email-redacted].
+
+eclib version 20250627, using NTL bigints and NTL real and complex multiprecision floating point
+Using multiprecision floating point with 50 bits precision.
+Enter curve:  (0.290213 seconds)
+Enter curve:         0.35 real         0.28 user         0.02 sys
+            31006720  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                8636  page reclaims
+                 681  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                   1  voluntary context switches
+                 239  involuntary context switches
+            21902749  instructions retired
+            24396149  cycles elapsed
+              413696  peak memory footprint

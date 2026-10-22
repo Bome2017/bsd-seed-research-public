@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_DISCOVERY_PROCESS_CODEX_2026-10-11/REPORT.md",
+    "sha256": "788e2b6d0688153ab1a2c60476a955f5594870ae78611f03a2538aef35692b3f"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_DISCOVERY_PROCESS_CODEX_2026-10-11/FIRST_EXPERIMENT.md",
+    "sha256": "709d1839a22de6a9e7c4248dd0735af1ba377c0163f9bd6d04ad46e24223a53a"
+  },
+  {
+    "path": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/construction/CONSTRUCTION.md",
+    "sha256": "af11a1abaf7086e871610afa756556485d92988c8c05cfca17f2c459b40461af"
+  },
+  {
+    "path": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/notes/stage2_derivation.md",
+    "sha256": "face7a24eb7979755eca7f59c42122b9a80192d9f72024c0b8f060b20176d563"
+  },
+  {
+    "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11/notes/CM_MAP_ATTEMPT.md",
+    "sha256": "51fe8fcb9b296d2626ec23db7a24db0060f4886e861349b86caaa76cdae61c1c"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/checks/local_points.out",
+    "sha256": "7e79535868d570d918c110de3e0b8cd258e97ef7a0ae88e41f92ac63ca3cfa4b",
+    "scope": "read completed curve rank/local point transcript; source rank algorithms not independently replayed by geometry worker"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/torsors/TORSOR_INPUT.json",
+    "sha256": "d9c67b8d820555b722ebc1859cf78850fbce5b06e6177c98ac9773274f004dc6",
+    "scope": "exact replay of supplied rational map and independent finite-field scalar audit"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/torsors/TORSOR_INPUT_113.json",
+    "sha256": "34d1673ab0e434060765bd87e2f38cc47c911de981a999255ec65d50a1215747",
+    "scope": "exact replay of supplied rational map and independent finite-field scalar audit"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/torsors/TORSOR_MAP_0.json",
+    "sha256": "fc4430a690154f56eb75a612f951c81373b38cd2b6a1255fdabe304c63e9e748",
+    "scope": "exact replay of supplied rational map and independent finite-field scalar audit"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/torsors/TORSOR_MAP_113_0.json",
+    "sha256": "711417b57392a255502a4166fb8c7f5440f50d3b874bb926af1def05cc6a78d8",
+    "scope": "exact replay of supplied rational map and independent finite-field scalar audit"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/torsors/TORSOR_ACTION_CHECKS.json",
+    "sha256": "c696f6faf9f6e31560913e2bc1061ab88be02f2677fe82dafb199c3ac89fa590",
+    "scope": "exact replay of supplied rational map and independent finite-field scalar audit"
+  },
+  {
+    "path": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/torsors/TORSOR_ACTION_CHECKS_113.json",
+    "sha256": "af30505175dd84f16bf489c09ef42715c9041a91a105f52a057c5c4ea6ca162d",
+    "scope": "exact replay of supplied rational map and independent finite-field scalar audit"
+  }
+]

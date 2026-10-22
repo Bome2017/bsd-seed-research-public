@@ -1,0 +1,136 @@
+{
+ "package": "ARISTOTLE_A2_PRIMARY_SUPPORT_2026-09-19",
+ "status": "COMPLETE",
+ "maintainer_instructions": "Aristotle: update as you work (per-target status SORRY | IN_PROGRESS | CLEAN | FAILED; level_reached; first_unformalized_statement; notes).",
+ "environment": {
+  "lean": "leanprover/lean4:v4.28.0",
+  "mathlib": "v4.28.0 (8f9d9cff6bd728b17a24e163c9402775d9e6a365)"
+ },
+ "targets": {
+  "primary_zero_of_torsionfree": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "torsion_decomposition": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "assembly": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "assembly_WC_shape": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "JOf_ideal": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "JOf_ne_zero_iff": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "positive_depth_divides": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "content_dvd_iff": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "content_padic": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "CM_each_local_finite": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "CM_finite_support": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "CM_nonzero_everywhere": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "CM_profinite_perfectness": {
+   "level": "CORE",
+   "status": "CLEAN"
+  },
+  "finite_iff_local_and_support": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "JOf_generator": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "content_basic": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "content_unimodular": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "exists_primitive": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "content_mod_pk": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "content_bounds_J": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "lemmaB_valuation": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "lemmaB_cokernel": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "card_eq_prod_primary": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "order_nine_t_sq": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "CM_order_441": {
+   "level": "FULL",
+   "status": "CLEAN"
+  },
+  "alternating_square": {
+   "level": "STRETCH",
+   "status": "CLEAN"
+  },
+  "CM_noncyclic_target": {
+   "level": "STRETCH",
+   "status": "CLEAN"
+  },
+  "CM_codex_torsion_example": {
+   "level": "STRETCH",
+   "status": "CLEAN"
+  }
+ },
+ "level_reached": "A2_FULL",
+ "first_unformalized_statement": null,
+ "frozen_files_verified": true,
+ "last_clean_build_utc": "2026-09-19T18:49:10Z",
+ "fin_claim": "NONE. Abstract group theory / number theory only. Formalizing WC proves only the implication from the stated witness-content antecedent; it does not establish that the antecedent is easier than FIN or that FIN has been reduced.",
+ "notes": [
+  "All 13 CORE, 12 FULL and 3 STRETCH targets are CLEAN: axioms are a subset of {propext, Classical.choice, Quot.sound}. No sorry, no admit, no new axiom.",
+  "Frozen files (Defs.lean, Spec.lean, Acceptance.lean, lakefile.toml, lean-toolchain, scripts/level.py) are byte-identical; only Targets.lean was edited, plus new helper files.",
+  "Helper files added under PrimarySupport/: Content.lean (L1-L6), Depth.lean (J1-J4, CM2), Descent.lean (L7), LemmaB.lean (B1, B2, CM3 data), Primary.lean (P1-P5), Countermodels.lean (CM1, CM1'), Order.lean (H0, H2, CM4), Pairing.lean (S2), CodexExample.lean (S3), Symplectic.lean (S1).",
+  "No suspected false statement was found; every packaged target was provable exactly as stated.",
+  "S1 (alternating_square) is proved by splitting off hyperbolic planes: an element x of maximal order m pairs onto a generator c of the image subgroup of ZMod N with addOrderOf c = m; a partner y with beta x y = c also has order m; the plane H they span has order m^2, its perpendicular K is a complement with the same kind of pairing, and induction on the order applies. The cyclic target is essential - see CM_noncyclic_target.",
+  "No claim about FIN, finiteness of Sha, J_E nonzero, or #Sha = 9 is made anywhere: all arithmetic inputs remain hypotheses of the abstract statements."
+ ]
+}

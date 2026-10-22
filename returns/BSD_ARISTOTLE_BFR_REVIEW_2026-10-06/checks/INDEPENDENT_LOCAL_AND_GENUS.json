@@ -1,0 +1,130 @@
+{
+  "method": "binary addition modulo p^4 with independently written affine formulas",
+  "p": 4547,
+  "additions": 16,
+  "all_denominators_units": true,
+  "x_difference_mod_p2": 5792878,
+  "normalized_x_difference_mod_p": 1274,
+  "point_mod_p4": [
+    111842672927238,
+    109546897022428
+  ],
+  "translated_coefficients": [
+    4547,
+    -59129188,
+    -161680134380
+  ],
+  "coefficients_divided_by_p": [
+    1,
+    -13004,
+    -35557540
+  ],
+  "all_translated_coefficients_p_divisible": true,
+  "E2_discriminant": 70238788572192542757188406290873039400678887424,
+  "frobenius_counts": [
+    {
+      "q": 5,
+      "nE": 8,
+      "nE2": 8,
+      "aE": -2,
+      "aE2": -2,
+      "difference": 0
+    },
+    {
+      "q": 7,
+      "nE": 10,
+      "nE2": 10,
+      "aE": -2,
+      "aE2": -2,
+      "difference": 0
+    },
+    {
+      "q": 11,
+      "nE": 14,
+      "nE2": 18,
+      "aE": -2,
+      "aE2": -6,
+      "difference": 4
+    },
+    {
+      "q": 13,
+      "nE": 18,
+      "nE2": 12,
+      "aE": -4,
+      "aE2": 2,
+      "difference": -6
+    },
+    {
+      "q": 17,
+      "nE": 24,
+      "nE2": 24,
+      "aE": -6,
+      "aE2": -6,
+      "difference": 0
+    },
+    {
+      "q": 19,
+      "nE": 16,
+      "nE2": 20,
+      "aE": 4,
+      "aE2": 0,
+      "difference": 4
+    },
+    {
+      "q": 23,
+      "nE": 24,
+      "nE2": 24,
+      "aE": 0,
+      "aE2": 0,
+      "difference": 0
+    },
+    {
+      "q": 29,
+      "nE": 30,
+      "nE2": 36,
+      "aE": 0,
+      "aE2": -6,
+      "difference": 6
+    },
+    {
+      "q": 31,
+      "nE": 40,
+      "nE2": 28,
+      "aE": -8,
+      "aE2": 4,
+      "difference": -12
+    },
+    {
+      "q": 37,
+      "nE": 28,
+      "nE2": 42,
+      "aE": 10,
+      "aE2": -4,
+      "difference": 14
+    },
+    {
+      "q": 41,
+      "nE": 36,
+      "nE2": 42,
+      "aE": 6,
+      "aE2": 0,
+      "difference": 6
+    },
+    {
+      "q": 43,
+      "nE": 52,
+      "nE2": 40,
+      "aE": -8,
+      "aE2": 4,
+      "difference": -12
+    },
+    {
+      "q": 47,
+      "nE": 44,
+      "nE2": 56,
+      "aE": 4,
+      "aE2": -8,
+      "difference": 12
+    }
+  ]
+}

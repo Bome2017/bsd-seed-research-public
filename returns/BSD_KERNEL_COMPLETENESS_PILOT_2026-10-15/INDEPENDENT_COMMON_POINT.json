@@ -1,0 +1,4225 @@
+{
+  "status": "INDEPENDENT_EXHAUSTIVE_COMMON_POINT_REPAIR_PASS",
+  "curve": "seed3",
+  "class_order": [
+    "P1",
+    "P2",
+    "beta1",
+    "beta2"
+  ],
+  "blocks": [
+    {
+      "prime": 1213,
+      "point_evaluations": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "class_evaluations": [
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ]
+      ],
+      "repair_matrix": [
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "prime": 1543,
+      "point_evaluations": [
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "class_evaluations": [
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "repair_matrix": [
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "prime": 1699,
+      "point_evaluations": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "class_evaluations": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ]
+      ],
+      "repair_matrix": [
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    }
+  ],
+  "pair_and_triple": [
+    {
+      "primes": [
+        1213,
+        1543
+      ],
+      "difference_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ]
+      ],
+      "rank_by_exhaustive_image_cardinality": 1,
+      "tested_class_combinations": 81,
+      "point_coefficients_per_local_test": 9,
+      "separate_local_repairs_exist_for": 81,
+      "common_local_repairs_exist_for": 27,
+      "common_kernel_vectors": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      "residual_excess_vectors": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "all_combinations": [
+        {
+          "class_coefficients": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "primes": [
+        1213,
+        1543,
+        1699
+      ],
+      "difference_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "rank_by_exhaustive_image_cardinality": 2,
+      "tested_class_combinations": 81,
+      "point_coefficients_per_local_test": 9,
+      "separate_local_repairs_exist_for": 81,
+      "common_local_repairs_exist_for": 9,
+      "common_kernel_vectors": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "residual_excess_vectors": [
+        [
+          0,
+          0
+        ]
+      ],
+      "all_combinations": [
+        {
+          "class_coefficients": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            0,
+            2,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            0,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "common_repairs": [
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            0,
+            2
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            2,
+            0
+          ],
+          "individual_repairs": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "individual_repairs": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "common_repairs": []
+        },
+        {
+          "class_coefficients": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "individual_repairs": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "common_repairs": []
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "path": "COMMON_POINT_CONTRACT.md",
+      "sha256": "33f6b53275c9e7b3bd3f93cc12032b06b34a76e7bf98db616b56883897361eed"
+    },
+    {
+      "path": "COMMON_POINT_CONTRACT.sha256",
+      "sha256": "ab7b098f4a16df5bf9a8a711404cdc29ce207c08530cd421c4b795517e8f68cf"
+    },
+    {
+      "path": "inputs/seed3_SIGNATURES.json",
+      "sha256": "5dd669c9382f61864d35a2dbdc51cfe07361a9cf1593ced213daf4c4105d4344"
+    },
+    {
+      "path": "inputs/seed3_coordinates.json",
+      "sha256": "cf5b22b4d52fd9544c3ce2708d894028058334b6c7dcf73763216ca2ea3a9e20"
+    }
+  ],
+  "scope": "Actual saved source arithmetic, independent finite verification. Known four-dimensional span only; no completeness or unseen-kernel assertion. Separate local point repairs may differ; common-point repair must use one rational-point coefficient vector at every place. Input W is used unchanged; repair matrices have identity point columns."
+}

@@ -1,0 +1,12 @@
+seed model b2 = -90940  truncate(b2/12) = -7578
+r=0: Reg5 = 5^2 + 2*5^4 + 3*5^5 + 3*5^7 + 3*5^8 + 4*5^9 + 3*5^11 + 4*5^12 + 3*5^13 + O(5^14)  ord5 = 2
+r=-3: b2=-90976  ord5 Reg5 = 2  (Rr-R0) ord5 = 3
+r=-2: b2=-90964  ord5 Reg5 = 2  (Rr-R0) ord5 = 3
+r=-1: b2=-90952  ord5 Reg5 = 2  (Rr-R0) ord5 = 3
+r=1: b2=-90928  ord5 Reg5 = 2  (Rr-R0) ord5 = 3
+r=2: b2=-90916  ord5 Reg5 = 2  (Rr-R0) ord5 = 3
+r=3: b2=-90904  ord5 Reg5 = 2  (Rr-R0) ord5 = 3
+r=7578 (b2 ~ 0 model): b2=-4  ord5 Reg5 = 2  (Rr-R0) ord5 = 3
+minimal model (u=1): ord5 Reg5 = 2  (Rm-R0) ord5 = 3
+ord5 log P1, log P2 = [2, 1]
+done

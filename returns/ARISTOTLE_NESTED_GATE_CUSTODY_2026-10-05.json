@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-10-05T19:48:46.756915+00:00",
+  "return": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05",
+  "status": "PREPARED_NOT_SUBMITTED_REMOTE_RUNTIME_UNTESTED",
+  "base_lab_commit": "99dac1e217fbd67e4c747406f5d22e0a95a71e7c",
+  "manifest_entries_verified": 24,
+  "source_copy_byte_identical": true,
+  "zip_integrity": "PASS",
+  "zip_bytes": 32058,
+  "zip_sha256": "3b70712851d3a87ab572045180d09ed9d9d697966d2b28c33b85674538f17724",
+  "local_controls_passed": 23,
+  "sdk_payload_bytes": 3739,
+  "sdk_transport": "MOCKED_LOCAL_CAPTURE_NO_NETWORK",
+  "aristotle_job_created": false,
+  "research_repo_modified": false,
+  "full_corpus_capacity_tested": false,
+  "publication_is_not_remote_runtime_or_mathematical_verification": true
+}

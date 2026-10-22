@@ -1,0 +1,82 @@
+{
+  "BD_local_eligibility": {
+    "minus7_inert": true,
+    "positive_sign": true,
+    "q_squared_not_one": true
+  },
+  "H1_tate_matrix_in_normalized_dual_bases": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "P_frobenius_eigenvalue": 1,
+  "Q_frobenius_eigenvalue": 3,
+  "cardinality": 1730,
+  "division_polynomial_factor_degrees": [
+    1,
+    1,
+    2,
+    4,
+    4
+  ],
+  "extension_modulus": [
+    1261,
+    562,
+    1229,
+    1066,
+    1
+  ],
+  "finite_quotient_cocycle_checks": 30000,
+  "global_obstruction_class_constructed": false,
+  "p": 5,
+  "q": 1783,
+  "status": "PASS_EXACT_LOCAL_ARITHMETIC_ONLY",
+  "tate_matrix_status": "THEOREM_NORMALIZATION_NOT_A_NUMERICAL_GLOBAL_CLASS",
+  "torsion_eigenvectors": {
+    "P": [
+      [
+        1591
+      ],
+      [
+        1089
+      ]
+    ],
+    "Q": [
+      [
+        1677,
+        163,
+        1617,
+        865
+      ],
+      [
+        1531,
+        1665,
+        856,
+        1645
+      ]
+    ]
+  },
+  "trace": 54,
+  "weil_matrix": [
+    [
+      0,
+      1
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "weil_pairing_coefficients": [
+    1694,
+    796,
+    1160,
+    29
+  ],
+  "weil_pairing_order": 5
+}

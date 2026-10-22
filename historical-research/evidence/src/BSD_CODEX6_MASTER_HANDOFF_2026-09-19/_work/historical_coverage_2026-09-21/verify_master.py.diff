@@ -1,0 +1,34 @@
+--- before/verify_master.py
++++ after/verify_master.py
+@@ -8,7 +8,17 @@
+ import sys
+ 
+ ROOT = Path(__file__).resolve().parent
+-PREFIXES = ('BSD_', 'H41_', 'H9', 'FABLE_FIXED_E5', 'FABLE_TZ', 'SEED_2243', 'run013-')
++PREFIXES = (
++    'BSD_', 'H41_', 'H9', 'FABLE_FIXED_E5', 'FABLE_TZ', 'FIXED_E5_',
++    'SEED_2243', 'C1_', 'GATE_R_', 'ULTRA_GATE_R_', 'run013-', 'run014-',
++)
++# These locations contain older proofs and supersession records missed by the
++# original top-level prefix search. Discovery includes historical controls and
++# unrelated records in mixed archives; it is not mathematical admission.
++ADDITIONAL_ROOTS = (
++    'Desktop/INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS',
++    'clay-work-chat-audit-2026-09-09',
++)
+ EXCLUSIONS = ('sources', 'evidence', 'provenance', '_work', 'history', 'run', 'logs', '.lake', 'src')
+ 
+ 
+@@ -17,7 +27,11 @@
+ 
+ 
+ def discover(home):
+-    roots = sorted(p for p in home.iterdir() if p.is_dir() and p.name.startswith(PREFIXES))
++    roots = {p for p in home.iterdir() if p.is_dir() and p.name.startswith(PREFIXES)}
++    roots.update(home / name for name in ADDITIONAL_ROOTS if (home / name).is_dir())
++    roots = sorted(roots)
++    if not roots:
++        return [], []
+     args = ['rg', '--files', '-g', '*.md', '-g', '*.json', '-g', '*.txt']
+     for directory in EXCLUSIONS:
+         args += ['-g', '!**/' + directory + '/**']

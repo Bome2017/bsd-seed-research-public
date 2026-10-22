@@ -1,0 +1,32 @@
+{
+  "status": "FOUR_VALUE_REDUCTION_CONFIRMED_CONDITIONALLY_CLASSICAL_SYMBOL_EXTRACTION_DERIVED_UNIFORM_BOUND_OPEN",
+  "target": "uniform ordinary seed primary vanishing via genuine arithmetic source",
+  "input_zip_sha256": "b5e321bb1ad18ff82b93711bcf600b4a1ec4c329f87f68a55bf8ac41fe81eab6",
+  "input_manifest_entries_verified": 10,
+  "prior_git_bindings_verified": 8,
+  "input_check_outputs_reproduced_byte_for_byte": true,
+  "arithmetic_extraction": "explicit four critical moments from 2(p-1) polynomial source-symbol values",
+  "new_derivation_grade": "written derivation under retained integral source/control inputs; independent review pending",
+  "genuine_modular_symbol_calibration": {
+    "form": "Delta",
+    "level": 1,
+    "weight": 12,
+    "p": 11,
+    "riemann_terms": 13310,
+    "moments_checked": 3,
+    "seed_data": false
+  },
+  "synthetic_formula_controls": 192,
+  "malformed_inputs_rejected": 192,
+  "seed_source_symbols_constructed": false,
+  "seed_values_computed": false,
+  "new_seed_primary_certificate": false,
+  "uniform_nonvanishing_proved": false,
+  "retained_foundations_recertified": false,
+  "supersingular_coverage": false,
+  "affordable_seed_evaluator_demonstrated": false,
+  "novelty_assessed": false,
+  "FIN": "OPEN",
+  "ORDER9": "OPEN",
+  "Q36": "OPEN"
+}

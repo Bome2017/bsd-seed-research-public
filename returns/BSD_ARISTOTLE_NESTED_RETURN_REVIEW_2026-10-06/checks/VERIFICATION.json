@@ -1,0 +1,33 @@
+{
+  "status": "SMALL_NESTED_CONTENT_RECOVERY_CONFIRMED_EXECUTION_REPORTED",
+  "original_manifest_entries_verified": 24,
+  "original_manifest_itself_unchanged": true,
+  "original_files_unchanged_in_return": 25,
+  "extracted_entries_byte_equal_to_original_zip": 4,
+  "manifest_listed_text_files": 3,
+  "returned_summary_matches_supplied_summary": true,
+  "token_matches_original_hash_oracle": true,
+  "path_and_file_hash_match": true,
+  "transcript_hashes_match_all_extracted_files": true,
+  "new_return_files": [
+    "ARISTOTLE_SUMMARY.md",
+    "README.md",
+    "RequestProject/.gitkeep",
+    "RequestProject/Main.lean",
+    "lake-manifest.json",
+    "lakefile.toml",
+    "lean-toolchain",
+    "project/EXTRACTOR_STDOUT.json",
+    "project/RUNTIME_RESULT.json",
+    "project/RUNTIME_TRANSCRIPT.txt",
+    "project/reading_set/BSD_NESTED_RUNTIME_SMOKE/STARTER_MANIFEST.sha256",
+    "project/reading_set/BSD_NESTED_RUNTIME_SMOKE/START_HERE.md",
+    "project/reading_set/BSD_NESTED_RUNTIME_SMOKE/controls/three_lines.txt",
+    "project/reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt"
+  ],
+  "native_service_execution_log_supplied": false,
+  "git_history_supplied": false,
+  "remote_python_execution_independently_attested": false,
+  "full_corpus_capacity_tested": false,
+  "new_aristotle_job_created_by_this_review": false
+}

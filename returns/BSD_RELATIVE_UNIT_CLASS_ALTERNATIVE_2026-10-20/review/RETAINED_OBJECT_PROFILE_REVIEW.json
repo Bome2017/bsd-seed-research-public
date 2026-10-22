@@ -1,0 +1,32 @@
+{
+  "status": "OBSERVED_RETAINED_OBJECT_DOMINATION_NOT_A_RIGOROUS_MEMORY_BOUND",
+  "input_sha256": "ce766bfd38bfdcb63e850b8c1ff1b63951d92fdfe0416adfc121a675ef0d2308",
+  "samples": 25,
+  "full_c2": 419775,
+  "rational_primes_through_c2": 35373,
+  "all_discarded_zero": true,
+  "stack_minus_retained_values": [
+    11985832
+  ],
+  "last_sample": {
+    "prime": 287117,
+    "seen": 25000,
+    "accepted": 6024,
+    "stack": 498131896,
+    "retained": 486146064,
+    "logical": 495050000,
+    "discarded": 0
+  },
+  "retained_fraction_of_stack": 0.9759384369958113,
+  "bytes_per_additional_rational_prime_min_mean_max": [
+    17204.784,
+    19310.700666666668,
+    21890.04
+  ],
+  "linear_full_FB_estimates_bytes": {
+    "observed_min_increment": 676597120.432,
+    "observed_mean_increment": 698441794.0153334,
+    "observed_max_increment": 725197280.9200001
+  },
+  "caveat": "Observed linear extrapolation, not an upper bound. Excludes later relation collection, matrix reduction, unit recovery, honesty checks, certification and any exceptional decomposition peak."
+}

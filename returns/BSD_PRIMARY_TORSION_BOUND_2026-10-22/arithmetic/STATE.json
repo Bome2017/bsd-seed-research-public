@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "outcome": "ACTUAL_PRIMARY_TORSION_METHOD_TESTED_NO_NEW_SMALL_CLASS_BOUND",
+  "range_counts": {
+    "published_literal": 0,
+    "author_relative": 2,
+    "original_EV_absolute": 26
+  },
+  "independent_checks": [
+    "A-prime HNF and tau action",
+    "K-prime quadratic residue",
+    "finite elliptic point counts",
+    "fresh exact replay"
+  ],
+  "FIN": "OPEN unchanged",
+  "ORDER9": "OPEN unchanged",
+  "Q36": "OPEN unchanged"
+}

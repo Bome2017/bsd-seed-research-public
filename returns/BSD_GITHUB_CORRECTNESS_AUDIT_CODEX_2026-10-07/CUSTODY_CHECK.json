@@ -1,0 +1,999 @@
+{
+  "status": "PASS",
+  "scope": "Pinned ten recent returns; manifests, ZIP CRC, exact archive/tree equality, external custody digests; not theorem verification",
+  "returns": [
+    {
+      "return": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+      "manifest_count": 15,
+      "manifest_pass": true,
+      "archive_members": 16,
+      "archive_copy_pass": true,
+      "archive_sha256": "563b742966fe5c11f981e56b38c0454eb64d5957c855dcb6e7251900fa6a5d1e",
+      "archive_bytes": 34094,
+      "custody_matches": [
+        "work/returns/BD_INTEGRAL_REVIEW_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "HANDOFF.md",
+          "sha256": "8814ccbea8577617fc40cd160537e80ec9d2fc099e0f4e1176ef40fb04743c8c",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "d5ef6b1b6c7defb2edf9deb3a1864516fc7a8d1ae448652ab6ddc801542ca3e9",
+          "ok": true
+        },
+        {
+          "path": "MATHEMATICAL_REVIEW.md",
+          "sha256": "8b6aa4d15427a357f6f220a39899b78a129a9df4c134a997850cc46f108d2791",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "56c107ee6d6fc78928bcd75a7c8ed39f9097694cf406d086061d271070afd50d",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "f3f4b62ee8fdc88718cfd8492550e00bb2a5082eb4c044a7d288ac1852c4bb0e",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "d89214b6643828d217c7b0d1deb8f310605241afdcbe661da9a804168723844a",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "a1dfdaa33aae537b01d19a4ea07fbd8c3fd48e40ff7d42dd22d7ef4db89c648c",
+          "ok": true
+        },
+        {
+          "path": "VERIFICATION.json",
+          "sha256": "5abafb9b9962409b2e6b21dfe716039aa7bccea29401d33638289134f66fec14",
+          "ok": true
+        },
+        {
+          "path": "checks/original_2x2_replay.txt",
+          "sha256": "cdb228c290b370ae015ac74d95416fcfc10c45ab91878006484e0bdb5cc8d1c6",
+          "ok": true
+        },
+        {
+          "path": "checks/point_detector.json",
+          "sha256": "ee847e671c68314662e16c56b03036a025fc2d45c6ae03a60b436c9dbcaf48ed",
+          "ok": true
+        },
+        {
+          "path": "checks/point_detector.py",
+          "sha256": "026eb5edb71dbca08652e4a1e015560ba3beef4294bd6b8328d9136c6291aea8",
+          "ok": true
+        },
+        {
+          "path": "input/ORIGINAL_DERIVATION.md",
+          "sha256": "bb774f0e9dfde64dd71131d0c10bbbf6ba54c656357a1d69e59a8b5dc5e36f3a",
+          "ok": true
+        },
+        {
+          "path": "input/ORIGINAL_REPORT.md",
+          "sha256": "b890782da86f3fc5d010dbea95c5d336d075f96a2c27bc4d15c9cc96f64983f9",
+          "ok": true
+        },
+        {
+          "path": "input/USER_PASTED_RETURN.txt",
+          "sha256": "5b8aa00f87950b1fefdb32bf181909c66dc52847f89b54621bd94cf1360a4da6",
+          "ok": true
+        },
+        {
+          "path": "input/original_2x2_check.py",
+          "sha256": "fc33c353e5eb3380d0f53a8c8fa53d60fdeab2069a6702a90648c0a10201f0ad",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "manifest_count": 22,
+      "manifest_pass": true,
+      "archive_members": 23,
+      "archive_copy_pass": true,
+      "archive_sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc",
+      "archive_bytes": 57098,
+      "custody_matches": [
+        "work/returns/BKS_COMBINATION_LEDGER_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "ASSUMPTIONS.json",
+          "sha256": "ce8bcabad8f5b2c364249eb654fefd2255e38e3d64f5e2558f3df5e8e7e95101",
+          "ok": true
+        },
+        {
+          "path": "COMBINATION_LEDGER.md",
+          "sha256": "ed575320335717093a5f84ff01130a9cebfa51a33c7964fc1297bf80d116695f",
+          "ok": true
+        },
+        {
+          "path": "HANDOFF.md",
+          "sha256": "8195d5c08221883d6faa1acfa52876a89b61d96a945f964bfc3797f5e5b70dc6",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "8c70acf754920a9c32eb8288be0cb2f8a2cf6155b8059d855785018190690c84",
+          "ok": true
+        },
+        {
+          "path": "NOTES.md",
+          "sha256": "0f46d510f5cd8448736b8822d1e84c6c6c236e18116b9eb5fb2a9576f9935504",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "e0bc8124be83b116dbeb151a50b2c8815ab96e72e1d9971f41e98187c12bfae6",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "3b47b28e049d265c976a7f6431380c6cc15471a9ca01b23b79eed0e2d01325a2",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "85c28b465634a6dfd50cadf7456c4996b3bf3368cf07f5ad18591c984991270d",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "b694df03783d832e488cee3297996f9e4a4d49613735baf4cb0a9ff944fdf3a5",
+          "ok": true
+        },
+        {
+          "path": "TAME_COMPARISON.md",
+          "sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718",
+          "ok": true
+        },
+        {
+          "path": "WEAK_ORDER_PROOF.md",
+          "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+          "ok": true
+        },
+        {
+          "path": "checks/INPUT_INTEGRITY.json",
+          "sha256": "4ef507a026efd0cd2bc6ac782882dc6db62688df43c913201cc18bc7ca90e2f6",
+          "ok": true
+        },
+        {
+          "path": "checks/RESULTS.json",
+          "sha256": "05069a218f694900eab08556a2187ec5112deba5c86d353cc1eaf0f873a4f812",
+          "ok": true
+        },
+        {
+          "path": "checks/check_formulas.py",
+          "sha256": "49f580fdd8b1b83363fcb21cf88ed473c03cb9cc169a24bda9aa384a7477bbf1",
+          "ok": true
+        },
+        {
+          "path": "context/A_CORRECTION_DETAILS.md",
+          "sha256": "17fc4e1a771d85d341e8fa1c90b49040ff953b99e52d9cfc4ec9f99e479aab01",
+          "ok": true
+        },
+        {
+          "path": "context/A_FIRST_MATHEMATICAL_REVIEW.md",
+          "sha256": "c2142e4d600fbc504357853c6fcc51bbb74eb685d3b56e53f1934d3126a695cb",
+          "ok": true
+        },
+        {
+          "path": "context/A_RECOVERY_REPORT.md",
+          "sha256": "beeb3c68e0ffd70b2a75d53357e011782771e214cd2934c1bca1fa34d2378784",
+          "ok": true
+        },
+        {
+          "path": "context/G2_PROOF.md",
+          "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+          "ok": true
+        },
+        {
+          "path": "context/K288_CORRECTIONS.md",
+          "sha256": "d1090708ad629a0d4c58f15a114091bc03bf980b5925321761fe1b03c4a7281a",
+          "ok": true
+        },
+        {
+          "path": "context/NORMALIZATION_ADDENDUM.md",
+          "sha256": "a621f9de99d17d2e02e02a3181c8220ba12fdd39295fbcfa3404cc13401f3ed1",
+          "ok": true
+        },
+        {
+          "path": "context/TAME_ADMISSION.md",
+          "sha256": "332849a01822a85f9cf88c69ed3743fb09e7c50a159d79a822629542c4a56023",
+          "ok": true
+        },
+        {
+          "path": "context/THEOREM_W_REPAIRED.md",
+          "sha256": "26ceeff20cb7d6d0f8cf465835ccc487818fb99a844306a95ec45d018a200f01",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "manifest_count": 14,
+      "manifest_pass": true,
+      "archive_members": 15,
+      "archive_copy_pass": true,
+      "archive_sha256": "9b9b9e3c7f471cac8e360f19de4205ed59a2cc80172de373b7bff48c00b471be",
+      "archive_bytes": 75028,
+      "custody_matches": [
+        "work/returns/BKS_FOUNDATION_AUDIT_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "CHECK_RESULTS.json",
+          "sha256": "39c8807160415ee6925893be79be3ab2be779c391cb3795c16f8e7dd8863c9d8",
+          "ok": true
+        },
+        {
+          "path": "FOUNDATION_CHECK.md",
+          "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "391a4be367d86066e6af18f1baa835bcc23d7c17e9ce34123a1d046f4b080e51",
+          "ok": true
+        },
+        {
+          "path": "NOTES.md",
+          "sha256": "e6696a1cdd5a4cb16f77ff2b6e256bb73d2049746d7d9b12c7284ada3302e89c",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "05543da6fb80a9c73afca188391a7c002673f977bd01e6e91cb1c2e223625416",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "a11704a4c1f04d2f8d781909aeab4bcc38a866e201ec21363993ba1004fdde60",
+          "ok": true
+        },
+        {
+          "path": "REVIEW_SCOPE.md",
+          "sha256": "4c1e95c27aa0a9d64cc4e7b4e57c000dd09916126022f0c2417c33e613bd4ed4",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "b99056218995c979f20ca08cbeae02cd3b30521c9bf002674776d61e447baaaf",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "f4096ad07c8ba78c2c0af4a509a4f8daf4d5f514c871e6278d6cbb96d5a78e91",
+          "ok": true
+        },
+        {
+          "path": "check_formulas.py",
+          "sha256": "0f3eca8b6b035ea944d7b993a09645d7a63ee11038c5570eaa4d874e11535624",
+          "ok": true
+        },
+        {
+          "path": "context/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+          "sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc",
+          "ok": true
+        },
+        {
+          "path": "context/HANDOFF.md",
+          "sha256": "8195d5c08221883d6faa1acfa52876a89b61d96a945f964bfc3797f5e5b70dc6",
+          "ok": true
+        },
+        {
+          "path": "context/TAME_COMPARISON.md",
+          "sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718",
+          "ok": true
+        },
+        {
+          "path": "context/WEAK_ORDER_PROOF.md",
+          "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+      "manifest_count": 24,
+      "manifest_pass": true,
+      "archive_members": 25,
+      "archive_copy_pass": true,
+      "archive_sha256": "93bf0839999be02d264ba540d5978c3675a47ada5a911696e4b299830fb5410b",
+      "archive_bytes": 478671,
+      "custody_matches": [
+        "work/returns/KATO_CONTENT_BOUND_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "CONTENT_BOUND_PROOF.md",
+          "sha256": "10327d5f65e6fa98411eb5cf9859184bdf4e2c3ba63907c746fa00d0d33a6636",
+          "ok": true
+        },
+        {
+          "path": "HANDOFF.md",
+          "sha256": "0c44d2e1919ff4f242da031e4bb4ffeec7e0d79b96092c5d959b3caed216c9e2",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "d49757f634be0d220be26baa83bcac6cc54425d9128c7b9a86211d74d97352f0",
+          "ok": true
+        },
+        {
+          "path": "NOTES.md",
+          "sha256": "b33297f9b556fc275c8ff001159864c777aecc5d98bb5456631e2e89537f4ac8",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "58aa3da37e1a9a796d582945e54a01ba1a5dbeefaf2b6a1736689027079d63f2",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "c5f7c00c38ccaf968601cefb4aaa443be02785bc3f3d28aa76bbfa6d3d4bc703",
+          "ok": true
+        },
+        {
+          "path": "REVIEW_LEDGER.md",
+          "sha256": "6badbca77f6807975f8a7b53d0c253cf20e53c455696104105a4b0635c3aecf4",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "1bcf96eb9def20cfb14b4d0261ed849e9e01ee4b50fef7a2f498407686557260",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "1044a70a1d98b1341792cb95b4f75857a38a2d88ebe14082d25f2fbddc392239",
+          "ok": true
+        },
+        {
+          "path": "VALUATION_TARGET.md",
+          "sha256": "8efc5c3d46c24e5fa9eb940ea528da49870e63490ba7721b90e0f7b4216e9cf3",
+          "ok": true
+        },
+        {
+          "path": "checks/CONTENT_CONTROLS.json",
+          "sha256": "5962e83452961189efd703f40a187e0fa51ab3ed80737d21ebd1f853c354dac4",
+          "ok": true
+        },
+        {
+          "path": "checks/INPUT_AND_REPLAY_VERIFICATION.json",
+          "sha256": "08ae6f7c103f3d555d3104bc979340a18e432a1bc5689d853f94cfcbac4c95ff",
+          "ok": true
+        },
+        {
+          "path": "checks/check_content_bound.py",
+          "sha256": "1b52afec0a0caf56f2e15b8489752d5b78c11588e8bfb5a9cf037d8165021f4b",
+          "ok": true
+        },
+        {
+          "path": "context/ALGEBRA_REVIEW.md",
+          "sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205",
+          "ok": true
+        },
+        {
+          "path": "context/COFINITE_NORMALIZATION.md",
+          "sha256": "71ef880907350d939a36196461ace4b0ff757d608d7d1d5f4453112e03bf4826",
+          "ok": true
+        },
+        {
+          "path": "context/FOUNDATION_CHECK.md",
+          "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+          "ok": true
+        },
+        {
+          "path": "context/INTEGRAL_MATCHING.md",
+          "sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d",
+          "ok": true
+        },
+        {
+          "path": "context/MW_PLACEMENT.md",
+          "sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e",
+          "ok": true
+        },
+        {
+          "path": "context/RUBIN_COMPARISON.md",
+          "sha256": "888c6e35d10c28bde93011eb026f8f277d3d9a02e63a54ac1f9c6386d1b75166",
+          "ok": true
+        },
+        {
+          "path": "context/RUBIN_PREDECESSOR.zip",
+          "sha256": "376b040dd57cb43118f7abcb6d5b4e86b9a0710f994b8b83633f973f52b90570",
+          "ok": true
+        },
+        {
+          "path": "context/SEED_CALIBRATION.md",
+          "sha256": "01fafd9d3f88a2e7f3dfbb8cd638bd31ff46b99faadb54a5569ab498110685bf",
+          "ok": true
+        },
+        {
+          "path": "context/SUBMITTED_REVIEW.md",
+          "sha256": "b7c89f09549e6bc0137e719f8e20d75a02a462122d509b5ed939086c76fc83d8",
+          "ok": true
+        },
+        {
+          "path": "context/USER_REVIEW.txt",
+          "sha256": "6e1e85726be0543f8e8f6a6b8c90fdde4fae7748ae7dd39e3bdb784113d1885e",
+          "ok": true
+        },
+        {
+          "path": "context/WEAK_ORDER_PROOF.md",
+          "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07",
+      "manifest_count": 6,
+      "manifest_pass": true,
+      "archive_members": 7,
+      "archive_copy_pass": true,
+      "archive_sha256": "6ae0522a19f39e91913ace35e6de451379e07d7c23c6eb95b794a59bb1e345e7",
+      "archive_bytes": 9638,
+      "custody_matches": [
+        "work/returns/KATO_CONTENT_REVIEW_LEDGER_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "FINITE_ERROR_CHECK.md",
+          "sha256": "af5707c3a9bd53baf121c8cd73ebb56cdc592e70a1220c14ab6aa00f1ec085cd",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "496e7ae790ee93f8c099ba61bf450da6fb57586f3699ad338b4280f438ca2acc",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "47c0d43d233f8d3fb275a8e98013d197199c10c6e5eb6bdde3e2cbad71a4231a",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "b0c7758c99aabcee872ae0581caa22114ca3a110492e4f33fc360a7974dd4eb9",
+          "ok": true
+        },
+        {
+          "path": "SUBMITTED_REVIEW.md",
+          "sha256": "d7eba09a99d06eac7ac7d90ee050542cd747e0ed7d448bbd5825c64d3f673098",
+          "ok": true
+        },
+        {
+          "path": "VERIFICATION.json",
+          "sha256": "4d1dc16d1a1f61b88e2d77f8784e62738e37cd16ba2b444eb649e05a7a874869",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "manifest_count": 19,
+      "manifest_pass": true,
+      "archive_members": 20,
+      "archive_copy_pass": true,
+      "archive_sha256": "9eebf67f611e5d42c8be1ba2d6c4aa6f9368609ebd85d1f15076f9abae07a462",
+      "archive_bytes": 156606,
+      "custody_matches": [
+        "work/returns/KATO_DERIVATIVE_MW_PLACEMENT_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "ASSUMPTIONS.json",
+          "sha256": "5375e71dfea0154f3cebade30f9e3630d8125f81cce4d13a6e46a3d935b8db18",
+          "ok": true
+        },
+        {
+          "path": "CONTROLS.md",
+          "sha256": "9be9d93c795a17f2b0ba767dc9c51bed506229a34f9650b7bc4624687abe7324",
+          "ok": true
+        },
+        {
+          "path": "HANDOFF.md",
+          "sha256": "21e1297dfcdab87c7b583299f03bec88daaaf0206fb39d8ff283455a4cd5802d",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "e432fec653a59487a9f6ec1cea7675baef1e627ec3302a845ecdf2fd904d97de",
+          "ok": true
+        },
+        {
+          "path": "INPUT_INTEGRITY.json",
+          "sha256": "f801781b53796c4e07376e53c5f62abd126479565590ecab4cb0d742afa86fd5",
+          "ok": true
+        },
+        {
+          "path": "NOTES.md",
+          "sha256": "04f12725ff8cc086d03df66bd80fce4744e9d120c942700e6b192f8cdec22801",
+          "ok": true
+        },
+        {
+          "path": "PROOF.md",
+          "sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "7a9b9380c9b74ed4826b74abdfb1e1dfdd861e686e185fe625a51ec5169c76b6",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "6cbadee94594ed75689a24525b71e7e87209a0d818e7a4f371e7a3356be9d637",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "be6dc7468e991cbfab344ec90cba23a70d9c3ea7ab6b0cf017491df679c096af",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "369922c449a4dcf1702c0023b6c5c2f136193cfb878a83c52b9c32cb4c43132f",
+          "ok": true
+        },
+        {
+          "path": "context/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+          "sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc",
+          "ok": true
+        },
+        {
+          "path": "context/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07.zip",
+          "sha256": "9b9b9e3c7f471cac8e360f19de4205ed59a2cc80172de373b7bff48c00b471be",
+          "ok": true
+        },
+        {
+          "path": "context/FOUNDATION_CHECK.md",
+          "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+          "ok": true
+        },
+        {
+          "path": "context/FOUNDATION_REPORT.md",
+          "sha256": "05543da6fb80a9c73afca188391a7c002673f977bd01e6e91cb1c2e223625416",
+          "ok": true
+        },
+        {
+          "path": "context/FOUNDATION_SOURCES.md",
+          "sha256": "b99056218995c979f20ca08cbeae02cd3b30521c9bf002674776d61e447baaaf",
+          "ok": true
+        },
+        {
+          "path": "context/TAME_COMPARISON.md",
+          "sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718",
+          "ok": true
+        },
+        {
+          "path": "context/WEAK_ORDER_ASSUMPTIONS.json",
+          "sha256": "ce8bcabad8f5b2c364249eb654fefd2255e38e3d64f5e2558f3df5e8e7e95101",
+          "ok": true
+        },
+        {
+          "path": "context/WEAK_ORDER_PROOF.md",
+          "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07",
+      "manifest_count": 9,
+      "manifest_pass": true,
+      "archive_members": 10,
+      "archive_copy_pass": true,
+      "archive_sha256": "56a62af2c0cd0e29cc810c5233a49e59dc4eb479df19c3efa23bf42bef1c988d",
+      "archive_bytes": 9728,
+      "custody_matches": [
+        "work/returns/KATO_EXCESS_CONTENT_SOURCE_TEST_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "d7c6ee8931e4df03f9b985e8f338e96910612adc48de536b069ca4988b1d630e",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "495015315ed586c2e41ce2c6c393c963daa80aa2b9583a6e3b78cd253b11506a",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "90633c0a936afb294afdc3b0ba45303a1a7eb1c86a6ec856a390fc05bfe3ec3d",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "a90afddc270d6de4af785a9304604fde6b7fd1625fa9589dcbc69146c576da15",
+          "ok": true
+        },
+        {
+          "path": "SOURCE_TESTS.md",
+          "sha256": "adff20b42cb06d9bd3e2be08fc3877a242bb241287f6209c12a3c4a77a4bcad7",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "0118611f96494e1fe383d927e272077eab6baffa022bee7cba48d87b486942a6",
+          "ok": true
+        },
+        {
+          "path": "VERIFICATION.json",
+          "sha256": "0e5856afe2dc9b3ae2a11eb3819104705a0698d9b51f14d73a1f7b445eccc182",
+          "ok": true
+        },
+        {
+          "path": "checks/check_minors.py",
+          "sha256": "17f730124dcddc9442dd3cc6371637c867c76a95f45ad872effc8c7ba3490b00",
+          "ok": true
+        },
+        {
+          "path": "checks/result.json",
+          "sha256": "d32e1b8ef66795278049cce325c1624ba17adf9013df0bdc66577c6e4a2fee63",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "manifest_count": 22,
+      "manifest_pass": true,
+      "archive_members": 23,
+      "archive_copy_pass": true,
+      "archive_sha256": "d476dda98421e5df4ddf6503328f6c6eec2cab53b1c0a8240caddfc910ed1fab",
+      "archive_bytes": 204372,
+      "custody_matches": [
+        "work/returns/RESIDUAL_KATO_CRITERION_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "ALGEBRA_REVIEW.md",
+          "sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205",
+          "ok": true
+        },
+        {
+          "path": "ASSUMPTIONS.json",
+          "sha256": "c190c367ec0a8a8eb7b46a1775b0d267aa627548c4c8593f4ec30f9fa17797ad",
+          "ok": true
+        },
+        {
+          "path": "HANDOFF.md",
+          "sha256": "63e1d48654c1480f6e2fc647cd48824712d1bab7ea46ad4ee5cdef5fe4202b5a",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "78071f11c2a6e007ebb784d408b3b81d0dc114587d513ce06076c9d6b1114892",
+          "ok": true
+        },
+        {
+          "path": "INTEGRAL_MATCHING.md",
+          "sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d",
+          "ok": true
+        },
+        {
+          "path": "NOTES.md",
+          "sha256": "de76a68174c40b8328ebc0df255e821f8276ec34c6c5982aea3968c861d5cdfe",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "6b90f998499465e839ca977be9d1ad58007fe74c267d9cc145015512d56e0746",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "bb5a71eb8e360de6c5ada64467c0b73f8eef68ee92886a1a81c17018e28f2e87",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "7eada824d96a7289d9eda9af0834aac98c43611e9e1097ce90f25d0b7fc3f983",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "1574bc0d4d0cfaedb1a96c4e4d37abe6c8247edfc718a84ca7709afe873693b8",
+          "ok": true
+        },
+        {
+          "path": "checks/GROUP_CONTROLS.json",
+          "sha256": "ccaa4c34f42744af55537bf645617c98f97c484708e3c9f07e8733573d79ad54",
+          "ok": true
+        },
+        {
+          "path": "checks/INPUT_INTEGRITY.json",
+          "sha256": "5ceafeccb668d209319734ba9bba15e03cde0100494b7b175dda390cae4b472e",
+          "ok": true
+        },
+        {
+          "path": "checks/SEED_LOCAL_DATA.json",
+          "sha256": "d0da64c223137d6fce5b122b0525b89acabcc0319481d21d1d0bffb1ccac25be",
+          "ok": true
+        },
+        {
+          "path": "checks/group_controls.py",
+          "sha256": "b32b2c68722f320bf468ce8ff678b85ee91c9ffe5e1a6ae3001af3dc08fe5dda",
+          "ok": true
+        },
+        {
+          "path": "checks/seed_local_data.py",
+          "sha256": "30dda3f4013baa0d5ff686a9ca9b8cfe07c7c64ea0d0fc2868e86d5154ae6856",
+          "ok": true
+        },
+        {
+          "path": "context/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+          "sha256": "9eebf67f611e5d42c8be1ba2d6c4aa6f9368609ebd85d1f15076f9abae07a462",
+          "ok": true
+        },
+        {
+          "path": "context/FOUNDATION_CHECK.md",
+          "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+          "ok": true
+        },
+        {
+          "path": "context/G2_PROOF.md",
+          "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+          "ok": true
+        },
+        {
+          "path": "context/NORMALIZATION_ADDENDUM.md",
+          "sha256": "a621f9de99d17d2e02e02a3181c8220ba12fdd39295fbcfa3404cc13401f3ed1",
+          "ok": true
+        },
+        {
+          "path": "context/PLACEMENT_PROOF.md",
+          "sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e",
+          "ok": true
+        },
+        {
+          "path": "context/SUBMITTED_CRITERION.md",
+          "sha256": "e20f30f9cbef05f06fa2ed21beb96914e4600e4719c3c43933c41d7bc79d5ba3",
+          "ok": true
+        },
+        {
+          "path": "context/WEAK_ORDER_PROOF.md",
+          "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07",
+      "manifest_count": 4,
+      "manifest_pass": true,
+      "archive_members": 5,
+      "archive_copy_pass": true,
+      "archive_sha256": "2bf5abf00256e06272e5b6c47262bac3751d0af2c46f2e81278e34bfd96b42c8",
+      "archive_bytes": 4773,
+      "custody_matches": [
+        "work/returns/RESIDUAL_KATO_REVIEW_LEDGER_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "LEDGER.md",
+          "sha256": "708ae08b0503d14122d6a2d213eb80b4782ccb85f4288a036d69b90ed2044632",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "d5821dbb456a515ae0a717de417bc8313c7bf899391b63550d70b5c9466da8d5",
+          "ok": true
+        },
+        {
+          "path": "SOURCE_BINDINGS.json",
+          "sha256": "3a410c400d97a9d70aeae4d1f563e41fe7ea2f115fa6595bb8c0764267df676a",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "9469024236499c530f72096b2e9fa9b563075538475024d31b74543307928c93",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "manifest_count": 33,
+      "manifest_pass": true,
+      "archive_members": 34,
+      "archive_copy_pass": true,
+      "archive_sha256": "376b040dd57cb43118f7abcb6d5b4e86b9a0710f994b8b83633f973f52b90570",
+      "archive_bytes": 424705,
+      "custody_matches": [
+        "work/returns/RUBIN_COORDINATE_FOLLOW_CUSTODY_2026-10-07.json"
+      ],
+      "custody_pass": true,
+      "manifest_entries": [
+        {
+          "path": "COFINITE_NORMALIZATION.md",
+          "sha256": "71ef880907350d939a36196461ace4b0ff757d608d7d1d5f4453112e03bf4826",
+          "ok": true
+        },
+        {
+          "path": "COMPARISON_REVIEW.md",
+          "sha256": "888c6e35d10c28bde93011eb026f8f277d3d9a02e63a54ac1f9c6386d1b75166",
+          "ok": true
+        },
+        {
+          "path": "HANDOFF.md",
+          "sha256": "13afec6a686970cfb1c0dd2ae3ac865297153bf257341f65da844036a1012822",
+          "ok": true
+        },
+        {
+          "path": "INPUT_BINDINGS.json",
+          "sha256": "4e694d1c76d91b0775baf1e3b80593a47517b03ecb2a93258eb2f20530af417f",
+          "ok": true
+        },
+        {
+          "path": "NOTES.md",
+          "sha256": "ca9ed6d772dd600460090e4c752f4513830983ac090bcde7c4131fae5f87b29e",
+          "ok": true
+        },
+        {
+          "path": "REPORT.md",
+          "sha256": "c873b0c16fc9efe36c86e412c23cfdfaec7c89f70348aad03a6651598841ae05",
+          "ok": true
+        },
+        {
+          "path": "RESUME.md",
+          "sha256": "3cd4dd53b2e16a72d4a6bb59276c48f2cf5e2f765b9d882d731716a7df68dac5",
+          "ok": true
+        },
+        {
+          "path": "SEED_CALIBRATION.md",
+          "sha256": "01fafd9d3f88a2e7f3dfbb8cd638bd31ff46b99faadb54a5569ab498110685bf",
+          "ok": true
+        },
+        {
+          "path": "SOURCES.md",
+          "sha256": "c259802126f23285a6a0aa60d0b9b38ede03df69d957bc716e06482ab04f26dc",
+          "ok": true
+        },
+        {
+          "path": "STATE.json",
+          "sha256": "6e5cb758868e5efcb8388831d61aa4c39b20d15ff1e32c3b16b3318f627a619b",
+          "ok": true
+        },
+        {
+          "path": "checks/NORMALIZATION_CONTROLS.json",
+          "sha256": "6e408ab4236115d7fc098b6dce08410bd39b41705bc914f4efd2c773775fdab7",
+          "ok": true
+        },
+        {
+          "path": "checks/OLD_P5_SYMBOL_REPLAY.json",
+          "sha256": "6ca4a3731de76b30471c8a090767ee4839c8b4e7ce641aad94b597585b40020b",
+          "ok": true
+        },
+        {
+          "path": "checks/SEED_COFACTORS.json",
+          "sha256": "4709127f2273db4211714389bb6c8d90a9534873ebe514360341306d1f32625b",
+          "ok": true
+        },
+        {
+          "path": "checks/check_normalization.py",
+          "sha256": "6e1c53bc6bd5449453b11e6e8cf8d8a3e9117e7df5e38b62085f1c20541d89ca",
+          "ok": true
+        },
+        {
+          "path": "checks/check_seed_cofactors.py",
+          "sha256": "2134a4112940f730ad616c5793dc92378137d9fdc5be432615317d275fe80f5a",
+          "ok": true
+        },
+        {
+          "path": "context/ALGEBRA_REVIEW.md",
+          "sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205",
+          "ok": true
+        },
+        {
+          "path": "context/FOUNDATION_CHECK.md",
+          "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+          "ok": true
+        },
+        {
+          "path": "context/INTEGRAL_MATCHING.md",
+          "sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d",
+          "ok": true
+        },
+        {
+          "path": "context/MW_PLACEMENT.md",
+          "sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e",
+          "ok": true
+        },
+        {
+          "path": "context/SUBMITTED_PROOF.md",
+          "sha256": "9ce956dcac6e5df919551c10ae828518ce0b8c78c9138d8914a56c82c0aa5703",
+          "ok": true
+        },
+        {
+          "path": "context/USER_REQUEST.txt",
+          "sha256": "a48c92f7f3839551c6a77ee87bb4968f83298f04cc2e6374d19eb55e40de8afe",
+          "ok": true
+        },
+        {
+          "path": "context/WEAK_ORDER_PROOF.md",
+          "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+          "ok": true
+        },
+        {
+          "path": "evidence/CYCLOTOMIC_EXTRACTION.md",
+          "sha256": "e359f9b37af5145ade5578d0cbc5414bfa58826ba4c91c060296b864cbd5d20e",
+          "ok": true
+        },
+        {
+          "path": "evidence/REGULATOR_P17.md",
+          "sha256": "6b88ecb738b76af5e3cfa1b23d818480795235167093831805e5dd382b2daaf7",
+          "ok": true
+        },
+        {
+          "path": "evidence/c9_sage_output.txt",
+          "sha256": "0d1a1165d9567a632236e6c9576f104cd5c9b57cb450b1ac652afd2a6ea624c7",
+          "ok": true
+        },
+        {
+          "path": "evidence/msl_cyclotomic_adapter.py",
+          "sha256": "13753bd9d3a8a3bd16116130a900ac22200b9bfc7b7c9d1293786d8e5259c386",
+          "ok": true
+        },
+        {
+          "path": "evidence/msl_m25.txt",
+          "sha256": "3acf685d435abae71b572abb0380e8b1efdc826668c7979687a5f83939560b6d",
+          "ok": true
+        },
+        {
+          "path": "evidence/msl_m5.txt",
+          "sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7",
+          "ok": true
+        },
+        {
+          "path": "evidence/reg17_pari_2173.txt",
+          "sha256": "294d257bd63d5d40852ac726db3f7e38ef65afdc04bb2f51d9180db0e4529883",
+          "ok": true
+        },
+        {
+          "path": "evidence/reg17_sage.txt",
+          "sha256": "7c3e4e14d8e067b25f2c881f498f01403f950b0208d10674669b1887000c8ec6",
+          "ok": true
+        },
+        {
+          "path": "evidence/reg5_sage.txt",
+          "sha256": "883eb2e1a672c0f232cb001ea9ff87a8a3085902758b68acde600f01ac728d89",
+          "ok": true
+        },
+        {
+          "path": "sources/bks896.png",
+          "sha256": "670fc326bdcbed0e6b11e416137bbb83feda84b0902f2729cd6d267202782f55",
+          "ok": true
+        },
+        {
+          "path": "sources/bks903.png",
+          "sha256": "11512d5c89ed78ae0b6472ed80718d005b9ed648e7e0d9fe8241cc2701c13dec",
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "manifest_entries": 168,
+  "archive_members": 178,
+  "errors": []
+}

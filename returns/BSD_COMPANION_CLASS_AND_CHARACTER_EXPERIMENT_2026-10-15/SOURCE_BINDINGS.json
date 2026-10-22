@@ -1,0 +1,22 @@
+{
+  "parent_commit": "d61b2af9653be14e1da758ae81f26209bde2a117",
+  "completed": "2026-10-17",
+  "sha256": {
+    "CONTRACT.md": "bf437170db767e449df9b72db6a572325342c24056462db415f1be691842d94a",
+    "seed_class/PROOF.md": "7a641d43a4ed4cae2f4e6345c87427a7525e756a0bf670353a52d56c2f5840d1",
+    "seed_class/STATE.json": "31cd41168549466fad4912bc420e0ad58e7d418bbbdc7b29642289a20d1701fe",
+    "p5_arithmetic/BOUND.md": "6e821870e0b07f5b5855d020fc89f4071f7ca1dae12e0af211a535b1a540d6b8",
+    "general_character/PROOF.md": "03aa6e0194f5c971f19ee2bed21c2d07aaa59a08e54e2a954ba6fe33fcb6c144",
+    "general_character/LOCAL_DIVISOR_PROOF.md": "6b2d8116bd91d28ea247b7d6a8d309012bd1dbaa5c9b3806a59f3682076c98c5",
+    "p5_norm_upper/export.gp": "368f8c29933ba22912611aa424b7aaa234335dbca18caee80a802baf688a4ee4",
+    "p5_norm_upper/eval_data.json": "81e66afd44c4c5b7b08e01faeec53c0f1c4973f3a4e12582709b2dade674ef97",
+    "p5_norm_upper/split_primes.json": "a78ab7478dc965e10f7df2e9edac088cd0b4df46063d16cdaad420e84341fb73",
+    "p5_norm_upper/NORM_UPPER.json": "96f36e6a4b5f5fc15f3012d5bfddee07567dfdcf93c09f1bc726ee96bafd98b0",
+    "p5_arithmetic/units_compact.gp": "37a3e28222c5723abd649fdbe555f9eb0809673cc9cf023e8b8c2ecb5df70801",
+    "p5_arithmetic/field.gp": "28e04d5c68def9ba479e2c395765f3e8af6408223b7799a22ed40790f76e5fa1",
+    "p5_arithmetic/nf.gp": "4647f4db5bb31b850695ab263c0a95bfde6c72d09dc8d2559346e25faf753341",
+    "p5_norm_upper/unit_authentication/AUTHENTICATION_DATA.gp": "ac31b35c61a3725d9b98b384e738dea3508426a778d8da5b4caec264410e51e2",
+    "character_review/MINIMAL_NORM_WITNESS.json": "76069bd549477b22579c7256c610f28cd5815886a6f5f6082ffdf1687a0b7d01"
+  },
+  "scope": "Exact output/input custody; not theorem certification"
+}

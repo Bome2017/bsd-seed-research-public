@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE_SOURCE_EXPERIMENTS_AND_REVIEW_COMPLETE",
+  "publication": "sealed; see external publication receipt",
+  "scope": "Four exact full norm maps, common-point kernel certificates, adaptive class comparison, written split-prime separation deduction under retained inputs",
+  "norm_scalar_dimensions": [
+    3,
+    4,
+    6,
+    5
+  ],
+  "norm_kernel_dimensions": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "local_admitted_dimensions": [
+    2,
+    2,
+    2,
+    0
+  ],
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "seed_prime_coverage": "unchanged",
+  "adaptive_seed_class_excess_rank": 1
+}

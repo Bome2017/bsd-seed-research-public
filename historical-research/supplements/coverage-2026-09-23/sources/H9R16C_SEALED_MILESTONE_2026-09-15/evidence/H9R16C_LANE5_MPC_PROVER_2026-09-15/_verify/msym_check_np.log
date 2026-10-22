@@ -1,0 +1,73 @@
+=== case N_g=1, p=7, r=1: levels M=7 -> pM=49, prime=1000003
+  Manin symbols: 24 / 1176;  dim MS(M)=5, dim MS(pM)=197
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_1 varpi_(1,*) = A_2 N_(2, 1)   [MPC_1, d_r = 1] PASS
+         rank(LHS) = 5, rank(RHS) = 5, dim MS(M) = 5
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=1, p=7, r=1: levels M=7 -> pM=49, prime=999983
+  Manin symbols: 24 / 1176;  dim MS(M)=5, dim MS(pM)=197
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_1 varpi_(1,*) = A_2 N_(2, 1)   [MPC_1, d_r = 1] PASS
+         rank(LHS) = 5, rank(RHS) = 5, dim MS(M) = 5
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=1, p=5, r=2: levels M=25 -> pM=125, prime=1000003
+  Manin symbols: 300 / 7500;  dim MS(M)=51, dim MS(pM)=1251
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_2 varpi_(1,*) = A_3 N_(3, 2)   [MPC_2, d_r = 1] PASS
+         rank(LHS) = 43, rank(RHS) = 43, dim MS(M) = 51
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+=== case N_g=1, p=5, r=2: levels M=25 -> pM=125, prime=999983
+  Manin symbols: 300 / 7500;  dim MS(M)=51, dim MS(pM)=1251
+  (vi-a) W_M^2 = 1                                        PASS
+  (vi-b) W_pM^2 = 1                                       PASS
+  (vi-c) W_M U'_M = U^t_M W_M  (W intertwines U' and U)   PASS
+  (vi-d) varpi_{1,*} U'_pM = U'_M varpi_{1,*}             PASS
+  (vi-e) N U' = U' N on MS(pM)                            PASS
+  (i)    varpi_{1,*} varpi_1^* = p^2                      PASS
+  (i')   varpi_{2,*} varpi_2^* = p^2                      PASS
+  (ii)   varpi_{2,*} U'_pM = p varpi_{1,*}  [KLZ17 Prop 2.4.5] PASS
+  (ii')  varpi_{2,*} varpi_1^* = p U^t_M   [02 S2(a)]     PASS
+  (ii'') varpi_{1,*} varpi_2^* = p U'_M   [02 S2(a)]      PASS
+  (iii)  varpi_2^* varpi_{1,*} = U'_pM N   [NORM ELEMENT] PASS
+  (iv)   varpi_1^* W_M = W_pM varpi_2^*   [Lemma W]       PASS
+  (iv')  varpi_2^* W_M = W_pM varpi_1^*   [Lemma W]       PASS
+  (v)    varpi_1^* A_2 varpi_(1,*) = A_3 N_(3, 2)   [MPC_2, d_r = 1] PASS
+         rank(LHS) = 43, rank(RHS) = 43, dim MS(M) = 51
+  (iii^t) varpi_1^* varpi_{2,*} = U^t_pM N   [transpose of iii] PASS
+ALL PASS

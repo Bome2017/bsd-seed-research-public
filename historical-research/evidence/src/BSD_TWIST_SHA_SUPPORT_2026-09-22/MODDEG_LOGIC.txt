@@ -1,0 +1,22 @@
+=== WHY ellmoddegree CANNOT ANSWER THIS, regardless of feasibility ===
+PARI ellmoddegree returns  R = deg(phi) / c^2   (by design, see its own help).
+Put k = val_7(c), m = val_7(deg phi), v = val_7(R) = m - 2k.
+CNS Thm 1.2 gives k <= m = v + 2k, i.e.  0 <= v + k, i.e.  k >= -v.
+That is a LOWER bound on k. An upper bound on k is exactly what we need, and R does not give one.
+  v >= 0  =>  k >= -v is vacuous (k >= 0 anyway): NO information.
+  v <  0  =>  k >= |v| > 0: tells us 7 | c. Bad news, still no upper bound.
+
+Sage modular_degree WOULD give deg(phi) itself - but its docstring makes correctness
+'subject to ... Manin's conjecture: the Manin constant is 1'. Circular. Also heuristic.
+
+=== WHAT WOULD CLOSE IT: an unconditional upper bound deg(phi) <= N^A ===
+N_{-7} = 318656212624190616.0    log_7(N) = 20.7116
+
+   A  k = A*log_7(N)   need halfwidth(L) <   segments    ~cost
+ 1.0              21             6.462e-22        340  ~12 min
+ 1.5              32             3.268e-31        460  ~17 min
+ 2.0              42             1.157e-39        560  ~21 min
+ 3.0              63             2.071e-57        780  ~29 min
+
+So ANY unconditional polynomial bound deg(phi) <= N^A with A <= 3 is closable by a rerun of
+at most ~900 segments. The blocker is the BOUND, not the precision.

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-07",
+  "return": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+  "manifest_entries_verified": 22,
+  "archive_sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc",
+  "archive_bytes": 57098,
+  "input_hashes_verified": 11,
+  "math_grade": "written derivation; independent review pending",
+  "endpoints": {
+    "FIN": "unchanged",
+    "ORDER9": "unchanged",
+    "Q36": "unchanged"
+  },
+  "remote_job_started": false
+}

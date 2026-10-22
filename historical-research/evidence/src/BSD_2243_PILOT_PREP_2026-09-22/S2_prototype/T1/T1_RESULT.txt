@@ -1,0 +1,18 @@
+PASS 65a1 m=25: 40 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 65a1 m=125: 200 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 85a1 m=25: 40 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 85a1 m=125: 200 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 130a1 m=25: 40 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 130a1 m=125: 200 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 15a1 m=25: 40 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 15a1 m=125: 200 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 189a1 m=49: 84 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 189a1 m=343: 588 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 21a1 m=49: 84 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 21a1 m=343: 588 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 189b1 m=49: 84 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 189b1 m=343: 588 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 105a1 m=49: 84 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+PASS 105a1 m=343: 588 exact symbols contained in new-engine balls; coverage/fingerprint/count ok=True
+SYMBOLS_COMPARED 3648
+T1_PASS checks=16 fails=0

@@ -1,0 +1,40 @@
+{
+  "status": "ALL_FIVE_ARITHMETIC_REPLAYS_PASS",
+  "commands": [
+    {
+      "cwd": "norm_controls",
+      "cmd": "python3 run_replay.py --gp <retained GP>",
+      "result": "eight arithmetic products byte-identical; 27+81 scalar enumeration; determinant norm checks pass"
+    },
+    {
+      "cwd": "norm433",
+      "cmd": "python3 replay.py",
+      "result": "eight products byte-identical; six Hensel certificates pass"
+    },
+    {
+      "cwd": "norm_mirror",
+      "cmd": "python3 replay.py",
+      "result": "eight products byte-identical; twenty Hensel certificates pass"
+    },
+    {
+      "cwd": "joint_kernel",
+      "cmd": "python3 replay.py",
+      "result": "five products byte-identical;624 literal field character checks pass"
+    },
+    {
+      "cwd": "class_comparison",
+      "cmd": "python3 replay.py",
+      "result": "class quotient results byte-identical in isolated copy"
+    }
+  ],
+  "notes": [
+    "This receipt records commands actually executed by the root agent; it is not independent proof of execution.",
+    "An initial command requested nonexistent norm_controls/replay.py; corrected to the documented run_replay.py.",
+    "run_replay.py overwrote its receipt including nondeterministic elapsed-time logs. Its old manifest is preserved in review. Arithmetic products remained byte-identical. The replay runner now writes a receipt only with explicit --receipt; the new packet manifest is resealed."
+  ],
+  "endpoints_unchanged": [
+    "FIN",
+    "ORDER9",
+    "Q36"
+  ]
+}

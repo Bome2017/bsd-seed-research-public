@@ -1,0 +1,37 @@
+{
+  "folder": "BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14",
+  "status": "COMPLETE",
+  "sealed_by": "Claude Opus 5.5, 2026-10-14, before any seed table at these ell exists",
+  "rows": {
+    "101": "c2 == 1 mod 25",
+    "109": "c2 == 9 mod 27",
+    "127": "c2 == 9 mod 63",
+    "163": "c2 == 18 mod 81",
+    "19": "c2 == 0 mod 9",
+    "37": "c2 == 0 mod 9",
+    "73": "c2 == 0 mod 9"
+  },
+  "estimated_cost": "about 18 CPU-h for 101/109/127/163 with the frozen p83 engine (T scales with ell; all within the existing 57.4e9 coefficient prefix); about 5 CPU-h more for 19/37/73",
+  "endpoint_effect": "none; FIN, ORDER9, Q36 unchanged; no new prime",
+  "needs": "user go; engine = ~/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167 adapted per ell; independent full-level evaluator",
+  "running_jobs": [],
+  "launched_utc": "2026-10-14T16:25:44Z",
+  "authorization": "user: \"Sure do 1\" (2026-10-14)",
+  "progress": {
+    "l19": "PASS (smoke)",
+    "regulators_independent": "7/7 agree with sealed",
+    "evaluator_validation": "p83 c2=44 mod 83 reproduced; l103 full level mod 51 passes"
+  },
+  "verdict": "SEALED_PREDICTIONS_7_OF_7_PASS",
+  "results": {
+    "101": "c2=1 mod 25 PASS",
+    "109": "c2=9 mod 27 PASS",
+    "127": "c2=9 mod 63 PASS (checker NONZERO mod 7)",
+    "163": "c2=18 mod 81 PASS",
+    "19": "0 mod 9 PASS",
+    "37": "0 mod 9 PASS",
+    "73": "0 mod 9 PASS"
+  },
+  "cost": "22.8 CPU-h, 2h52m wall, 16:25:48-19:17:30Z",
+  "pushed": false
+}

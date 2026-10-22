@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_folder": "/Users/bsm/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11",
+  "return_folder": "work/returns/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11",
+  "archive": "work/returns/archives/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11.zip",
+  "archive_sha256": "d13d51b4f419336e4b9ecbd6479cc472f4f7929ae5e1c4ffa9c989ca041fcfe6",
+  "archive_bytes": 43297,
+  "manifest_entries_verified": 20,
+  "archive_files_verified": 21,
+  "local_download_copy": "/Users/bsm/Downloads/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11.zip",
+  "baseline_commit": "9793ff7bddd1214afe5d3567beeb27f1d59a0fc8",
+  "scope": "byte custody and synthetic replays; not theorem certification",
+  "endpoints_unchanged": [
+    "FIN",
+    "ORDER9",
+    "Q36"
+  ]
+}

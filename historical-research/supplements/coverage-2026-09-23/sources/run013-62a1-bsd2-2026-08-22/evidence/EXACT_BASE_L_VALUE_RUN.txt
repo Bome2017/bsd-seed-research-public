@@ -1,0 +1,41 @@
+run_date=2026-08-22
+working_directory=/Users/bsm/run013-62a1-bsd2-2026-08-22
+platform=Darwin 25.6.0 x86_64
+compiler=Apple clang version 21.0.0 (clang-2100.1.1.101)
+pari_version=2.17.4
+pari_source_url=https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.17.4.tar.gz
+pari_source_sha256=02651d99c391007d384b3fadbc20abc6916b77036f9e496c99e9ce8688ca4b53
+pari_archived_source=evidence/tooling/pari-2.17.4.tar.gz
+script=checker/exact_base_modular_symbol.gp
+script_sha256=6ed0eb886e8220ab5c4011aa8b37370548867200a948303fd04d3665329d9155
+command=/private/tmp/run013-pari.jHjDm5/pari-2.17.4/gp -q -f checker/exact_base_modular_symbol.gp
+exit_status=0
+
+[stdout]
+pari_version=[2, 17, 4]
+curve_ainvariants=[1,-1,1,-1,1]
+conductor=62
+minimal_discriminant=-496
+rational_torsion_order=4
+modular_symbol_level=62
+modular_symbol_weight=2
+modular_symbol_sign=1
+new_plus_dimension=3
+isolated_hecke_line_dimension=1
+hecke_data=[[3, 0], [5, -2], [7, 0], [11, 0]]
+canonical_plus_lattice_vector=[1/2; 1/2; 0; -1; -1/2; 1/2; 0; 1/2; 1/2; 1/2]
+path=[oo,0]=[0]-[oo]
+canonical_plus_lattice_path_value=1/2
+normalization=primitive_plus_lattice_generator_is_2*x_plus
+abs_L(E,1)/Omega_E_plus=1/4
+v2_L_alg=-2
+result=PASS_EXACT_INTEGRAL_MODULAR_LATTICE
+
+[stderr]
+empty
+
+[claim]
+The exact primitive integral plus-lattice path value is 1/2.  Since the
+one-component canonical lattice intersects the plus line in Z*(2*x_plus),
+optimality and Manin constant 1 give |L(E,1)/Omega_E_plus|=1/4 and v2=-2.
+No numerically normalized msfromell call or rational reconstruction is used.

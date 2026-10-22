@@ -1,0 +1,840 @@
+{
+  "grade": "EXACT_DOWNSTREAM_RECOMPUTATION_WITH_RETAINED_SYMBOL_CERTIFICATION_AND_HEIGHT_CONVENTIONS",
+  "tame": [
+    {
+      "curve": "seed",
+      "p": 17,
+      "ell": 103,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+      "symbols": 102,
+      "g": 5,
+      "moments_exact": [
+        "0",
+        "7242",
+        "46298"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        7
+      ],
+      "aell": -2,
+      "Euler_mod_p": 13,
+      "regulator_mod_p": 6,
+      "scalar": 16,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 16,
+      "point_count_at_p": 24,
+      "ap": -6,
+      "primitive_root_checks": 32,
+      "two_generators": [
+        {
+          "g": 5,
+          "c2_mod_p": 7,
+          "regulator": 6,
+          "scalar": 16
+        },
+        {
+          "g": 6,
+          "c2_mod_p": 6,
+          "regulator": 10,
+          "scalar": 16
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 19,
+      "ell": 191,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9",
+      "symbols": 190,
+      "g": 19,
+      "moments_exact": [
+        "0",
+        "-3572",
+        "-30432"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        6
+      ],
+      "aell": -10,
+      "Euler_mod_p": 7,
+      "regulator_mod_p": 3,
+      "scalar": 3,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 3,
+      "point_count_at_p": 16,
+      "ap": 4,
+      "primitive_root_checks": 72,
+      "two_generators": [
+        {
+          "g": 19,
+          "c2_mod_p": 6,
+          "regulator": 3,
+          "scalar": 3
+        },
+        {
+          "g": 21,
+          "c2_mod_p": 11,
+          "regulator": 15,
+          "scalar": 3
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 23,
+      "ell": 47,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "97407c4f450facd5605d7f9df1f79dbc7c8175367156ddad87341dff986f62ec",
+      "symbols": 46,
+      "g": 5,
+      "moments_exact": [
+        "0",
+        "9430",
+        "103854"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        9
+      ],
+      "aell": 4,
+      "Euler_mod_p": 2,
+      "regulator_mod_p": 9,
+      "scalar": 12,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 12,
+      "point_count_at_p": 24,
+      "ap": 0,
+      "primitive_root_checks": 22,
+      "two_generators": [
+        {
+          "g": 5,
+          "c2_mod_p": 9,
+          "regulator": 9,
+          "scalar": 12
+        },
+        {
+          "g": 10,
+          "c2_mod_p": 2,
+          "regulator": 2,
+          "scalar": 12
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 29,
+      "ell": 59,
+      "role": "inconclusive_zero",
+      "raw_sha256": "ecd44fd658599f99e8069c413e575fbd7990f910925dae7bca4c259fffd4283e",
+      "symbols": 58,
+      "g": 2,
+      "moments_exact": [
+        "0",
+        "0",
+        "24360"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        0
+      ],
+      "aell": -4,
+      "Euler_mod_p": 23,
+      "regulator_mod_p": 0,
+      "scalar": null,
+      "arithmetic_normalized_scalar": null,
+      "expected_scalar": 27,
+      "point_count_at_p": 30,
+      "ap": 0,
+      "primitive_root_checks": 28,
+      "two_generators": [
+        {
+          "g": 2,
+          "c2_mod_p": 0,
+          "regulator": 0,
+          "scalar": null
+        },
+        {
+          "g": 6,
+          "c2_mod_p": 0,
+          "regulator": 0,
+          "scalar": null
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 29,
+      "ell": 233,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "f5d5c24f8027d2a45b60ecf0be0d90fa782e9623666b28d11ec53cb6780e7bcb",
+      "symbols": 232,
+      "g": 3,
+      "moments_exact": [
+        "0",
+        "2320",
+        "-98942"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        6
+      ],
+      "aell": -14,
+      "Euler_mod_p": 13,
+      "regulator_mod_p": 2,
+      "scalar": 27,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 27,
+      "point_count_at_p": 30,
+      "ap": 0,
+      "primitive_root_checks": 112,
+      "two_generators": [
+        {
+          "g": 3,
+          "c2_mod_p": 6,
+          "regulator": 2,
+          "scalar": 27
+        },
+        {
+          "g": 5,
+          "c2_mod_p": 28,
+          "regulator": 19,
+          "scalar": 27
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 31,
+      "ell": 311,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431",
+      "symbols": 310,
+      "g": 17,
+      "moments_exact": [
+        "0",
+        "22072",
+        "330990"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        3
+      ],
+      "aell": 16,
+      "Euler_mod_p": 14,
+      "regulator_mod_p": 17,
+      "scalar": 9,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 9,
+      "point_count_at_p": 40,
+      "ap": -8,
+      "primitive_root_checks": 120,
+      "two_generators": [
+        {
+          "g": 17,
+          "c2_mod_p": 3,
+          "regulator": 17,
+          "scalar": 9
+        },
+        {
+          "g": 19,
+          "c2_mod_p": 27,
+          "regulator": 29,
+          "scalar": 9
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 37,
+      "ell": 149,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "07f2a5e8e5c5cd93300ca1126e1255629c053a7279ff1210859560ab96e6b015",
+      "symbols": 148,
+      "g": 2,
+      "moments_exact": [
+        "0",
+        "28860",
+        "762756"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        1
+      ],
+      "aell": -10,
+      "Euler_mod_p": 25,
+      "regulator_mod_p": 32,
+      "scalar": 29,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 29,
+      "point_count_at_p": 28,
+      "ap": 10,
+      "primitive_root_checks": 72,
+      "two_generators": [
+        {
+          "g": 2,
+          "c2_mod_p": 1,
+          "regulator": 32,
+          "scalar": 29
+        },
+        {
+          "g": 3,
+          "c2_mod_p": 30,
+          "regulator": 35,
+          "scalar": 29
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 41,
+      "ell": 83,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "385557f41b6fab7f5fb09963d4334a6e3d045d8cdb7f66210a3ef81a5d2d90dd",
+      "symbols": 82,
+      "g": 2,
+      "moments_exact": [
+        "0",
+        "-5904",
+        "-83420"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        15
+      ],
+      "aell": -8,
+      "Euler_mod_p": 31,
+      "regulator_mod_p": 19,
+      "scalar": 1,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 1,
+      "point_count_at_p": 36,
+      "ap": 6,
+      "primitive_root_checks": 40,
+      "two_generators": [
+        {
+          "g": 2,
+          "c2_mod_p": 15,
+          "regulator": 19,
+          "scalar": 1
+        },
+        {
+          "g": 5,
+          "c2_mod_p": 12,
+          "regulator": 7,
+          "scalar": 1
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 43,
+      "ell": 173,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8",
+      "symbols": 172,
+      "g": 2,
+      "moments_exact": [
+        "0",
+        "-13072",
+        "-227412"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        15
+      ],
+      "aell": -22,
+      "Euler_mod_p": 19,
+      "regulator_mod_p": 17,
+      "scalar": 30,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 30,
+      "point_count_at_p": 52,
+      "ap": -8,
+      "primitive_root_checks": 84,
+      "two_generators": [
+        {
+          "g": 2,
+          "c2_mod_p": 15,
+          "regulator": 17,
+          "scalar": 30
+        },
+        {
+          "g": 3,
+          "c2_mod_p": 14,
+          "regulator": 13,
+          "scalar": 30
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 47,
+      "ell": 283,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "5e9c034fd4be8c3147f72b3cdfb70c055a126f2c585fa84ce8b70aafb81297eb",
+      "symbols": 282,
+      "g": 3,
+      "moments_exact": [
+        "0",
+        "27260",
+        "596378"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        42
+      ],
+      "aell": -4,
+      "Euler_mod_p": 41,
+      "regulator_mod_p": 38,
+      "scalar": 6,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 6,
+      "point_count_at_p": 44,
+      "ap": 4,
+      "primitive_root_checks": 92,
+      "two_generators": [
+        {
+          "g": 3,
+          "c2_mod_p": 42,
+          "regulator": 38,
+          "scalar": 6
+        },
+        {
+          "g": 5,
+          "c2_mod_p": 34,
+          "regulator": 33,
+          "scalar": 6
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 83,
+      "ell": 167,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "b77ac22a524526d09080ad08c8a47e5a77a8ac2bc5687feb8fefcdbc97329342",
+      "symbols": 166,
+      "g": 5,
+      "moments_exact": [
+        "0",
+        "-23240",
+        "-1049574"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        44
+      ],
+      "aell": 0,
+      "Euler_mod_p": 81,
+      "regulator_mod_p": 42,
+      "scalar": 39,
+      "arithmetic_normalized_scalar": 9,
+      "expected_scalar": 39,
+      "point_count_at_p": 92,
+      "ap": -8,
+      "primitive_root_checks": 82,
+      "two_generators": [
+        {
+          "g": 5,
+          "c2_mod_p": 44,
+          "regulator": 42,
+          "scalar": 39
+        },
+        {
+          "g": 10,
+          "c2_mod_p": 10,
+          "regulator": 2,
+          "scalar": 39
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 5,
+      "ell": 191,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9",
+      "symbols": 190,
+      "g": 19,
+      "moments_exact": [
+        "0",
+        "-2860",
+        "-4516"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        4
+      ],
+      "aell": -10,
+      "Euler_mod_p": 3,
+      "regulator_mod_p": 1,
+      "scalar": 3,
+      "arithmetic_normalized_scalar": 4,
+      "expected_scalar": 3,
+      "point_count_at_p": 8,
+      "ap": -2,
+      "primitive_root_checks": 72,
+      "two_generators": [
+        {
+          "g": 19,
+          "c2_mod_p": 4,
+          "regulator": 1,
+          "scalar": 3
+        },
+        {
+          "g": 21,
+          "c2_mod_p": 1,
+          "regulator": 4,
+          "scalar": 3
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 5,
+      "ell": 311,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431",
+      "symbols": 310,
+      "g": 17,
+      "moments_exact": [
+        "0",
+        "-1970",
+        "-2804"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        1
+      ],
+      "aell": 16,
+      "Euler_mod_p": 4,
+      "regulator_mod_p": 3,
+      "scalar": 3,
+      "arithmetic_normalized_scalar": 4,
+      "expected_scalar": 3,
+      "point_count_at_p": 8,
+      "ap": -2,
+      "primitive_root_checks": 120,
+      "two_generators": [
+        {
+          "g": 17,
+          "c2_mod_p": 1,
+          "regulator": 3,
+          "scalar": 3
+        },
+        {
+          "g": 19,
+          "c2_mod_p": 4,
+          "regulator": 2,
+          "scalar": 3
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "seed",
+      "p": 3,
+      "ell": 103,
+      "role": "positive_excess_control",
+      "raw_sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+      "symbols": 102,
+      "g": 5,
+      "moments_exact": [
+        "0",
+        "0",
+        "168"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        0
+      ],
+      "aell": -2,
+      "Euler_mod_p": 2,
+      "regulator_mod_p": 2,
+      "scalar": 0,
+      "arithmetic_normalized_scalar": 0,
+      "expected_scalar": 0,
+      "point_count_at_p": 5,
+      "ap": -1,
+      "primitive_root_checks": 32,
+      "two_generators": [
+        {
+          "g": 5,
+          "c2_mod_p": 0,
+          "regulator": 2,
+          "scalar": 0
+        },
+        {
+          "g": 6,
+          "c2_mod_p": 0,
+          "regulator": 2,
+          "scalar": 0
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "389a1",
+      "p": 7,
+      "ell": 29,
+      "role": "nonzero_certificate_or_crosscheck",
+      "raw_sha256": "89a12f8eee953b399c36da1ea0397eae9d0404d1bcac2a6e862e7b73a479364b",
+      "symbols": 28,
+      "g": 2,
+      "moments_exact": [
+        "0",
+        "0",
+        "8"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        1
+      ],
+      "aell": -6,
+      "Euler_mod_p": 6,
+      "regulator_mod_p": 6,
+      "scalar": 1,
+      "arithmetic_normalized_scalar": 1,
+      "expected_scalar": 1,
+      "point_count_at_p": 13,
+      "ap": -5,
+      "primitive_root_checks": 12,
+      "two_generators": [
+        {
+          "g": 2,
+          "c2_mod_p": 1,
+          "regulator": 6,
+          "scalar": 1
+        },
+        {
+          "g": 3,
+          "c2_mod_p": 2,
+          "regulator": 5,
+          "scalar": 1
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    },
+    {
+      "curve": "389a1",
+      "p": 7,
+      "ell": 379,
+      "role": "inconclusive_zero",
+      "raw_sha256": "785fdc4b648542c8d59560d983d2b8cba44d254316d02ded24af4843def407e5",
+      "symbols": 378,
+      "g": 2,
+      "moments_exact": [
+        "0",
+        "0",
+        "0"
+      ],
+      "moments_mod_p": [
+        0,
+        0,
+        0
+      ],
+      "aell": 4,
+      "Euler_mod_p": 2,
+      "regulator_mod_p": 0,
+      "scalar": null,
+      "arithmetic_normalized_scalar": null,
+      "expected_scalar": 1,
+      "point_count_at_p": 13,
+      "ap": -5,
+      "primitive_root_checks": 108,
+      "two_generators": [
+        {
+          "g": 2,
+          "c2_mod_p": 0,
+          "regulator": 0,
+          "scalar": null
+        },
+        {
+          "g": 3,
+          "c2_mod_p": 0,
+          "regulator": 0,
+          "scalar": null
+        }
+      ],
+      "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+    }
+  ],
+  "ordinary": [
+    {
+      "p": 5,
+      "top_denominator": 25,
+      "raw_quadratic_moment": "608",
+      "moments_mod_p": [
+        0,
+        0,
+        3
+      ],
+      "unit_root_mod_p": 3,
+      "L2_full_period_mod_p": 1,
+      "height_regulator_U_mod_p": 1,
+      "epsilon_mod_p": 1,
+      "torsion_square": 4,
+      "tamagawa_product": 16,
+      "corrected_quotient_mod_p": 4,
+      "expected_9_mod_p": 4,
+      "precision": "mod p only for L2; higher regulator digits do not increase numerator precision",
+      "height": "fresh GP ellpadicregulator on retained point pair and U=gamma-1, gamma=1+p; not derived from Sha"
+    },
+    {
+      "p": 7,
+      "top_denominator": 49,
+      "raw_quadratic_moment": "-5904",
+      "moments_mod_p": [
+        0,
+        0,
+        4
+      ],
+      "unit_root_mod_p": 5,
+      "L2_full_period_mod_p": 4,
+      "height_regulator_U_mod_p": 1,
+      "epsilon_mod_p": 4,
+      "torsion_square": 4,
+      "tamagawa_product": 16,
+      "corrected_quotient_mod_p": 2,
+      "expected_9_mod_p": 2,
+      "precision": "mod p only for L2; higher regulator digits do not increase numerator precision",
+      "height": "fresh GP ellpadicregulator on retained point pair and U=gamma-1, gamma=1+p; not derived from Sha"
+    },
+    {
+      "p": 11,
+      "top_denominator": 121,
+      "raw_quadratic_moment": "-11144",
+      "moments_mod_p": [
+        0,
+        0,
+        10
+      ],
+      "unit_root_mod_p": 9,
+      "L2_full_period_mod_p": 4,
+      "height_regulator_U_mod_p": 1,
+      "epsilon_mod_p": 5,
+      "torsion_square": 4,
+      "tamagawa_product": 16,
+      "corrected_quotient_mod_p": 9,
+      "expected_9_mod_p": 9,
+      "precision": "mod p only for L2; higher regulator digits do not increase numerator precision",
+      "height": "fresh GP ellpadicregulator on retained point pair and U=gamma-1, gamma=1+p; not derived from Sha"
+    },
+    {
+      "p": 13,
+      "top_denominator": 169,
+      "raw_quadratic_moment": "-41022",
+      "moments_mod_p": [
+        0,
+        0,
+        6
+      ],
+      "unit_root_mod_p": 9,
+      "L2_full_period_mod_p": 1,
+      "height_regulator_U_mod_p": 1,
+      "epsilon_mod_p": 4,
+      "torsion_square": 4,
+      "tamagawa_product": 16,
+      "corrected_quotient_mod_p": 9,
+      "expected_9_mod_p": 9,
+      "precision": "mod p only for L2; higher regulator digits do not increase numerator precision",
+      "height": "fresh GP ellpadicregulator on retained point pair and U=gamma-1, gamma=1+p; not derived from Sha"
+    }
+  ],
+  "summary": {
+    "tame_rows": 16,
+    "ordinary_rows": 4,
+    "tame_all_defined_ratios_match": true,
+    "tame_zero_detector_rows": [
+      [
+        "seed",
+        29,
+        59
+      ],
+      [
+        "389a1",
+        7,
+        379
+      ]
+    ],
+    "positive_excess_row": [
+      {
+        "curve": "seed",
+        "p": 3,
+        "ell": 103,
+        "role": "positive_excess_control",
+        "raw_sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+        "symbols": 102,
+        "g": 5,
+        "moments_exact": [
+          "0",
+          "0",
+          "168"
+        ],
+        "moments_mod_p": [
+          0,
+          0,
+          0
+        ],
+        "aell": -2,
+        "Euler_mod_p": 2,
+        "regulator_mod_p": 2,
+        "scalar": 0,
+        "arithmetic_normalized_scalar": 0,
+        "expected_scalar": 0,
+        "point_count_at_p": 5,
+        "ap": -1,
+        "primitive_root_checks": 32,
+        "two_generators": [
+          {
+            "g": 5,
+            "c2_mod_p": 0,
+            "regulator": 2,
+            "scalar": 0
+          },
+          {
+            "g": 6,
+            "c2_mod_p": 0,
+            "regulator": 2,
+            "scalar": 0
+          }
+        ],
+        "selection": "retrospective; not randomly sampled; later seed auxiliary selection used nonzero-regulator prescreen"
+      }
+    ],
+    "crossmethod_shared_prime": 5,
+    "uniform_theorem_proved": false,
+    "new_primary_vanishing": false
+  }
+}

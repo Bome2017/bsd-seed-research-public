@@ -1,0 +1,871 @@
+{
+  "p": 13,
+  "a_p": -4,
+  "point_count": 18,
+  "alpha_mod_p_squared": 126,
+  "residue_omega1": 2,
+  "residue_full_real_period": 1,
+  "group_sums": {
+    "1": "163",
+    "2": "-138",
+    "4": "272",
+    "5": "-52",
+    "10": "-230",
+    "11": "-215"
+  },
+  "folded_exact_rational": "-3950",
+  "folded_weights": {
+    "2": 4,
+    "3": 11,
+    "4": 1,
+    "5": 5,
+    "6": 5,
+    "7": 4,
+    "8": 4,
+    "9": 4,
+    "10": 11,
+    "11": 2,
+    "12": 5,
+    "15": 4,
+    "17": 4,
+    "18": 1,
+    "20": 10,
+    "21": 11,
+    "24": 11,
+    "25": 2,
+    "27": 5,
+    "28": 2,
+    "29": 4,
+    "31": 5,
+    "32": 2,
+    "33": 10,
+    "35": 2,
+    "36": 4,
+    "37": 5,
+    "38": 4,
+    "40": 2,
+    "41": 11,
+    "42": 10,
+    "43": 2,
+    "44": 4,
+    "45": 11,
+    "46": 4,
+    "47": 10,
+    "48": 10,
+    "49": 10,
+    "50": 10,
+    "51": 11,
+    "53": 4,
+    "54": 5,
+    "55": 5,
+    "56": 10,
+    "57": 11,
+    "58": 1,
+    "59": 5,
+    "60": 2,
+    "61": 11,
+    "62": 5,
+    "64": 10,
+    "66": 11,
+    "67": 10,
+    "68": 2,
+    "69": 11,
+    "71": 11,
+    "73": 2,
+    "74": 5,
+    "75": 2,
+    "76": 1,
+    "77": 1,
+    "79": 10,
+    "81": 1,
+    "82": 5,
+    "83": 10,
+    "84": 2
+  },
+  "finite_P2_precision_exponent": 20,
+  "finite_P2_coefficients": [
+    0,
+    10093657881597978772877,
+    4752663108717701672939
+  ],
+  "infinite_series_certified_digits": 1,
+  "lower_correction_mod_p": 0,
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "name": "trace matches exact point count",
+      "passed": true
+    },
+    {
+      "name": "complete units at 169",
+      "passed": true
+    },
+    {
+      "name": "conjugation at 169",
+      "passed": true
+    },
+    {
+      "name": "lattice and p-integrality at 169",
+      "passed": true
+    },
+    {
+      "name": "complete units at 13",
+      "passed": true
+    },
+    {
+      "name": "conjugation at 13",
+      "passed": true
+    },
+    {
+      "name": "lattice and p-integrality at 13",
+      "passed": true
+    },
+    {
+      "name": "zero-cusp Hecke sum",
+      "passed": true
+    },
+    {
+      "name": "both-sign Hecke relations",
+      "passed": true
+    },
+    {
+      "name": "folded formula matches predeclared or regression groups",
+      "passed": true
+    },
+    {
+      "name": "folded and full rational-symbol functional agree",
+      "passed": true
+    },
+    {
+      "name": "Hensel unit root",
+      "passed": true
+    },
+    {
+      "name": "Teichmuller lifts",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=1",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=14",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=27",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=40",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=53",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=66",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=79",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=92",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=105",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=118",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=131",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=144",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=157",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=80",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=106",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=132",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=158",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=15",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=41",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=67",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=93",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=119",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=145",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=2",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=28",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=54",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=146",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=16",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=55",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=94",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=133",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=3",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=42",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=81",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=120",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=159",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=29",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=68",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=107",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=147",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=30",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=82",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=134",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=17",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=69",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=121",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=4",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=56",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=108",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=160",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=43",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=95",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=70",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=135",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=31",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=96",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=161",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=57",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=122",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=18",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=83",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=148",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=44",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=109",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=5",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=19",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=97",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=6",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=84",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=162",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=71",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=149",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=58",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=136",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=45",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=123",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=32",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=110",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=150",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=72",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=163",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=85",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=7",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=98",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=20",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=111",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=33",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=124",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=46",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=137",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=59",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=99",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=34",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=138",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=73",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=8",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=112",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=47",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=151",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=86",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=21",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=125",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=60",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=164",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=22",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=139",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=87",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=35",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=152",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=100",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=48",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=165",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=113",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=61",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=9",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=126",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=74",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=23",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=153",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=114",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=75",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=36",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=166",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=127",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=88",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=49",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=10",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=140",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=101",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=62",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=89",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=63",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=37",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=11",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=154",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=128",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=102",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=76",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=50",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=24",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=167",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=141",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=115",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=168",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=155",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=142",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=129",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=116",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=103",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=90",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=77",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=64",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=51",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=38",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=25",
+      "passed": true
+    },
+    {
+      "name": "independent exponent b=12",
+      "passed": true
+    },
+    {
+      "name": "depth-two enumeration covers each unit once",
+      "passed": true
+    },
+    {
+      "name": "finite constant coefficient zero",
+      "passed": true
+    },
+    {
+      "name": "finite linear coefficient zero modulo p",
+      "passed": true
+    },
+    {
+      "name": "lower-level quadratic correction zero modulo p",
+      "passed": true
+    },
+    {
+      "name": "full depth-two measure agrees with Fermat route",
+      "passed": true
+    },
+    {
+      "name": "lattice scaling and inverse",
+      "passed": true
+    },
+    {
+      "name": "missing alpha factor explains weight ratio",
+      "passed": true
+    },
+    {
+      "name": "reported gate residue reproduced from lattice numerators",
+      "passed": true
+    },
+    {
+      "name": "reported alternative residue reproduced with both missing factors",
+      "passed": true
+    },
+    {
+      "name": "both returned residues correct to the same exact coefficient",
+      "passed": true
+    }
+  ],
+  "symbols": {
+    "SYMBOLS_m169.txt": {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/SYMBOLS_m169.txt",
+      "sha256": "f6d25a550cd91efc3975b334b2b78c833f5ea6264b7a4e8b27a6f2a7011a052c"
+    },
+    "SYMBOLS_m13.txt": {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/SYMBOLS_m13.txt",
+      "sha256": "1b7758c66ac5df0f7a1e48aa29b67837d6d8c8410325d6ca68558c94c8e67691"
+    }
+  },
+  "normalization_reconciliation": {
+    "lattice_numerator_factor_mod_13": 10,
+    "lattice_inverse_mod_13": 4,
+    "unit_root_factor_mod_13": 9,
+    "omission_ratio_mod_13": 3,
+    "raw_sum_without_unit_root": "-41022",
+    "reported_7": 7,
+    "reported_8": 8,
+    "corrected_from_7": 2,
+    "corrected_from_8": 2,
+    "note": "The two occurrences of 4 (lattice inverse and interpolation factor) have different definitions."
+  },
+  "status": "P13_COEFFICIENT_UNIT_PROVED",
+  "recorded_at_utc": "2026-09-21T23:45:45.509961+00:00",
+  "regressions": [
+    {
+      "p": 7,
+      "residue_omega1": 1,
+      "residue_full_real_period": 4,
+      "all_checks_passed": true,
+      "symbols": {
+        "SYMBOLS_m49.txt": {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/SYMBOLS_m49.txt",
+          "sha256": "ab892f517414a8bc8ab96eb05845ef185de4ede6604b71c135c67005668cd778"
+        },
+        "SYMBOLS_m7.txt": {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/SYMBOLS_m7.txt",
+          "sha256": "aa9451247e7a3e49a63d7b79f0f50c4fb3dbe6bd22de9635cca2819cb5516a6c"
+        }
+      }
+    },
+    {
+      "p": 11,
+      "residue_omega1": 8,
+      "residue_full_real_period": 4,
+      "all_checks_passed": true,
+      "symbols": {
+        "SYMBOLS_m121.txt": {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/SYMBOLS_m121.txt",
+          "sha256": "97403b1840b46c67d7a72ec5f5824bb52a1541b6278f78caee9b5dce447ca95c"
+        },
+        "SYMBOLS_m11.txt": {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/SYMBOLS_m11.txt",
+          "sha256": "6426cb1eea0fb81a1be8d0158fd14bd6439dbdf847a8bf3d4d22e6a0f8cf8b23"
+        }
+      }
+    }
+  ],
+  "scope": "Exact arithmetic on imported certified symbols; no additional digits of the infinite series or independent numerical implementation"
+}

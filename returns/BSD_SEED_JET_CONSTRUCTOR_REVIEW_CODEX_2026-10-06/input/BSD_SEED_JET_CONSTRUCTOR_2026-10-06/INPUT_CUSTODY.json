@@ -1,0 +1,8 @@
+{
+  "uploaded_archive": "BSD_ARISTOTLE_BFR_REVIEW_2026-10-06.zip",
+  "uploaded_archive_sha256": "5b866e2c3826b2ca5455170972caaf2677af5fb8c86452cb129cfbc606928e3c",
+  "context_files": "byte copies from supplied archive, not rewritten",
+  "input_custody_checker": "replayed",
+  "input_independent_python_checks": "replayed",
+  "input_Lean_build": "not freshly replayed"
+}

@@ -1,0 +1,69 @@
+{
+  "base_commit": "07ddf564fe350c87f949bde642338441eb166116",
+  "release_tag": "v0.2.2-private-review",
+  "scope": "Two editorial corrections; historical review bindings remain attached to their original bytes.",
+  "historical_v021_files": {
+    "README.md": {
+      "path": "review/history/v0.2.1/README.md",
+      "sha256": "96d900d73f48cf2e6ed56719816c34f1d8a430a1acfb1913f003802e17f356f8"
+    },
+    "SHARING.md": {
+      "path": "review/history/v0.2.1/SHARING.md",
+      "sha256": "ed01ac5e0f9e6529be67298fa7306eaef7f4a255110fc7600af7d45c7011a00c"
+    },
+    "paper/refs.bib": {
+      "path": "review/history/v0.2.1/paper/refs.bib",
+      "sha256": "c8dc232a5b63ebb398c7da40e935e9dd9820144f4a0a053b0d060838ce3f4b2a"
+    },
+    "paper/sections/G_bridge_proof.tex": {
+      "path": "review/history/v0.2.1/paper/sections/G_bridge_proof.tex",
+      "sha256": "411e82672ae5bf4c57ac96fdb1b5cafca0df4e7db6497ab8187df672d78bed55"
+    },
+    "paper/seed_bsd.tex": {
+      "path": "review/history/v0.2.1/paper/seed_bsd.tex",
+      "sha256": "b1c527650385d1faa8d4b13376c42199cc6c548998550dbda20d77e8b663ba6a"
+    },
+    "paper/release_id.tex": {
+      "path": "review/history/v0.2.1/paper/release_id.tex",
+      "sha256": "e2fbb569f0355f9e38336caa2b805d7f91318a08c08cc90bd4ff2574c2d87f5d"
+    },
+    "SOURCE_SNAPSHOT.json": {
+      "path": "review/history/v0.2.1/SOURCE_SNAPSHOT.json",
+      "sha256": "54c27b125bff2ccb97428bf81869fecdc8e0d965688ce5ee59731f537d1576c6"
+    },
+    "tools/verify_patch_release.py": {
+      "path": "review/history/v0.2.1/tools/verify_patch_release.py",
+      "sha256": "8eac8d5602193fce268debaaeb6c86b56a0b34ae4781db710f0656064c22336e"
+    },
+    "review/VERIFICATION_RUN.md": {
+      "path": "review/history/v0.2.1/review/VERIFICATION_RUN.md",
+      "sha256": "d382e320d811ebe7e2864c46d6c1c41dbd8e21412e3c3318fe523825c7e5ccdb"
+    }
+  },
+  "source_edits": {
+    "paper/refs.bib": {
+      "before": "c8dc232a5b63ebb398c7da40e935e9dd9820144f4a0a053b0d060838ce3f4b2a",
+      "after": "1cd0e8fb9b0e1e35b5db10068617084256d6c91faefecb37b9b47b3e861a7de8"
+    },
+    "paper/sections/G_bridge_proof.tex": {
+      "before": "411e82672ae5bf4c57ac96fdb1b5cafca0df4e7db6497ab8187df672d78bed55",
+      "after": "c9bf72578646fabbfa5669365fa9ad8742eb7483aa1168d24c8a313c1b8242a0"
+    }
+  },
+  "current_bindings": {
+    "README.md": "516e5a499267c3f3500643e3021f3a65b349ad1a12dbb03cfe50ff6b53dd39b0",
+    "SHARING.md": "2c634b4b5ef6193626b17b9ba134a4b14c690a32e5dbf44ecd1211f07e944b22",
+    "RECHECK_V0_2_2.md": "b9ed3cbe3508bb00288381f3443b21c26e69b24495dce8c5343b41eded278fdf",
+    "paper/refs.bib": "1cd0e8fb9b0e1e35b5db10068617084256d6c91faefecb37b9b47b3e861a7de8",
+    "paper/sections/G_bridge_proof.tex": "c9bf72578646fabbfa5669365fa9ad8742eb7483aa1168d24c8a313c1b8242a0",
+    "paper/seed_bsd.tex": "cda9a319ca0c178b6aebc0117ea43f7ab9e2d17c2515c51f892727583555405d",
+    "tools/verify_patch_release.py": "53e0c49aeea5640cf49ebc84f4e2e6a14351034f06d4812acfc237b657111276"
+  },
+  "unchanged": {
+    "claims/claims.json": "5db652a5cb96c50710cbef88829bd153265fe998eecc66cb6667f593e39dc5f0",
+    "claims/CLAIM_INDEX.md": "7e6b1b84c9990e12ec4e40871efe02549535b0cb18aa64d36e517ee34bdd2fbe",
+    "evidence/PROVENANCE.tsv": "2407756aca058b15c1dae0942e2064fd88aa30d45d760cf58d4b4529ee9a49f1",
+    "tools/verify_release.py": "f35f0c31916eb2036831d6ac11964c7e01712a85bd305558620336ebf6f93b07",
+    "evidence/src/BSD_A3_LEAN_CORE_2026-09-22/A3Core.lean": "f7a3c861c998f99630a46a9c988e41554ef630d46fdfbbe7f90383a4bf7f24ca"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "research_commit": "8414aea58180f3a18bcee7fba23475c8cac90996",
+  "inputs": [
+    {
+      "path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/claims/CLAIM_INDEX.md",
+      "bytes": 213165,
+      "sha256": "dcff8f0dee085d1ea5bc6db8a5d8f8d590ed8a00498338bb1fbba11f052c8efc",
+      "role": "retained evidence read; underlying computation not replayed"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/claims/spec/part1_core.py",
+      "bytes": 72047,
+      "sha256": "f65207e43b469797e9fe712dc17bb3a6547954b58a9545245c10e897ed093c31",
+      "role": "retained evidence read; underlying computation not replayed"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out",
+      "bytes": 375,
+      "sha256": "b962f15a5007d3bdbfdeb6457c1f9f777592c96e4be84a15f5ab0c2d03c89dfd",
+      "role": "retained evidence read; underlying computation not replayed"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log",
+      "bytes": 3327,
+      "sha256": "4cdd862eeff8a3fb2043cf5d08f45e10a1357bfcb3060fc4488907b886fcb7d3",
+      "role": "retained evidence read; underlying computation not replayed"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/evidence/src/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/REGULATOR_CERTIFICATE.md",
+      "bytes": 7122,
+      "sha256": "182bf46ded79383ef3912c19def8fd89de28b73608d8faf12deb088ffdc52145",
+      "role": "retained evidence read; underlying computation not replayed"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/ANALYTIC_RANK_CERTIFICATE.md",
+      "bytes": 10223,
+      "sha256": "ef0d90f1e17d68c89459aad2dcbe3822f8fb52c58f6fecd118fa5b3cbebdc614",
+      "role": "retained evidence read; underlying computation not replayed"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=i1hiPIQbt0M",
+      "artifact": "auto-generated English transcript export; not redistributed",
+      "bytes": 2682,
+      "sha256": "b9c1e69de8e1d3843f822c1b7febc442097a974b23f9c9757226fec4c6689cd5"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "grade": "written_derivation_and_same_team_desk_review_under_retained_inputs",
+  "author_commit": "8365c394f1017280a6463d7f25afac2e321c0c25",
+  "baseline_commit": "84a7333af028ff5bc694bc82bcb3c768a019f5c6",
+  "relative_analytic_identity": "supported",
+  "relative_Sha_finiteness": "derived_via_Kato_14_3",
+  "canonical_decomposition": "Sha_F=res_Sha_Q_direct_sum_finite_T",
+  "relative_order_19_to_four": "not_proved",
+  "base_bound": "not_obtained",
+  "route_disposition": "park_direct_quintic_transfer_as_seed_finishing_attempt; requires_new_control_of_invariant_component",
+  "new_symbol_values": 0,
+  "new_coefficient_prime_coverage": 0,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

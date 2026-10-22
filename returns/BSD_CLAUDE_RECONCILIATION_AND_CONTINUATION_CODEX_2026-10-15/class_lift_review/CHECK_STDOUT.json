@@ -1,0 +1,61 @@
+{
+  "status": "EXHAUSTIVE_COMPATIBILITY_CHECK_PASS",
+  "cases": [
+    {
+      "curve": "718b1",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "997c1",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "1070a1",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "1141a1",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "1246c1_retry600",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "1480a1",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "1525c1",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "1613a1_grh",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 3,
+      "nonzero_class_common_repairs": 3
+    },
+    {
+      "curve": "mirror389",
+      "unit_corrections_enumerated": 81,
+      "compatibility_quotient_dimension": 4,
+      "nonzero_class_common_repairs": 0
+    }
+  ],
+  "mirror389_hensel_samples": 6,
+  "minimum_hensel_cube_margin": 40
+}

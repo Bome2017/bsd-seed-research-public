@@ -1,0 +1,143 @@
+{
+  "manifest": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/MANIFEST.sha256",
+  "manifest_sha256": "29997d2337802a45c8b3a1237894177c980445ff2289bf900a03d10422ca19bb",
+  "matches": 27,
+  "total": 27,
+  "entries": [
+    {
+      "file": "00_VERDICT.md",
+      "expected": "41611609b1cb8537aae9a1dd16e6618d30274b582cd88802ab379b55eb1dfeaa",
+      "actual": "41611609b1cb8537aae9a1dd16e6618d30274b582cd88802ab379b55eb1dfeaa"
+    },
+    {
+      "file": "ALGEBRAIC_REDUCTION_LEMMAS.md",
+      "expected": "8dcd44af28fef1648a0a0e37085eda632f80bca2aa214585df6935c797d3f8b6",
+      "actual": "8dcd44af28fef1648a0a0e37085eda632f80bca2aa214585df6935c797d3f8b6"
+    },
+    {
+      "file": "CHECKPOINT_DOCX_CHECK.json",
+      "expected": "dceb320de657b51dc1d1ed883f6e90c7158a9cf6aaad402d4452da227b60f5fa",
+      "actual": "dceb320de657b51dc1d1ed883f6e90c7158a9cf6aaad402d4452da227b60f5fa"
+    },
+    {
+      "file": "COMMON_OBJECT_ANALYSIS.md",
+      "expected": "8b7c91a24d0450699953447c58ab58e7dd0c522d9739698011e5c70a0d842387",
+      "actual": "8b7c91a24d0450699953447c58ab58e7dd0c522d9739698011e5c70a0d842387"
+    },
+    {
+      "file": "DO_NOT_RESURRECT_ADDENDUM.md",
+      "expected": "1f18ad4173268857aaa139e6111b28cb8ecf99efa4435edfbc043fad030f3aaf",
+      "actual": "1f18ad4173268857aaa139e6111b28cb8ecf99efa4435edfbc043fad030f3aaf"
+    },
+    {
+      "file": "FIN_ATTACK.md",
+      "expected": "0fb5b18c5c773978dff0770c1e04178860d0f12ac619e132b71b7bdb3e681dfc",
+      "actual": "0fb5b18c5c773978dff0770c1e04178860d0f12ac619e132b71b7bdb3e681dfc"
+    },
+    {
+      "file": "FORMALIZABLE_GAPS.md",
+      "expected": "2f19d86fe01191d76f34c12038ce4d56b25c5e50b964d61a82fdc52b6d7bd699",
+      "actual": "2f19d86fe01191d76f34c12038ce4d56b25c5e50b964d61a82fdc52b6d7bd699"
+    },
+    {
+      "file": "FORMULA_ATTACK.md",
+      "expected": "d5098589066dda8d371d23640d21e5b095ceac6af57d1021c15f5adfce0d47d3",
+      "actual": "d5098589066dda8d371d23640d21e5b095ceac6af57d1021c15f5adfce0d47d3"
+    },
+    {
+      "file": "HANDOFF_MANIFEST_CHECK.json",
+      "expected": "38d0dd31ade16da472fa590397c9965cc5e5162f1a9744b62cac52ce47d86b51",
+      "actual": "38d0dd31ade16da472fa590397c9965cc5e5162f1a9744b62cac52ce47d86b51"
+    },
+    {
+      "file": "HANDOFF_REFERENCED_HASH_CHECK.json",
+      "expected": "fb11494020ff4f2ef6085d2b2cc509cc93d21d4e4f96bb61b22a842f33bb3cf5",
+      "actual": "fb11494020ff4f2ef6085d2b2cc509cc93d21d4e4f96bb61b22a842f33bb3cf5"
+    },
+    {
+      "file": "NEW_THEOREM_DAG.md",
+      "expected": "810b5f5f7ec3da00de596f9a944b69b47655c52c713d0ce160db49a413f8a74f",
+      "actual": "810b5f5f7ec3da00de596f9a944b69b47655c52c713d0ce160db49a413f8a74f"
+    },
+    {
+      "file": "RECON_ADDITIONAL_NAMES.txt",
+      "expected": "73019277828ba1a4f3b35542afadd13f780a0d1a37bff28f945eda4e8eb61870",
+      "actual": "73019277828ba1a4f3b35542afadd13f780a0d1a37bff28f945eda4e8eb61870"
+    },
+    {
+      "file": "RECON_FILENAMES.txt",
+      "expected": "555d347aa0059e4c454bb567759316b627aa64194f6db544219b5c3850725608",
+      "actual": "555d347aa0059e4c454bb567759316b627aa64194f6db544219b5c3850725608"
+    },
+    {
+      "file": "RECON_ROOTS.txt",
+      "expected": "76d3f50c3f2d0face53a5a80e2bdec33992bfc78854786f4f40390951206f3d5",
+      "actual": "76d3f50c3f2d0face53a5a80e2bdec33992bfc78854786f4f40390951206f3d5"
+    },
+    {
+      "file": "RECON_SHORTLIST.txt",
+      "expected": "3899e0b0c8d72b85118186d00ff725a35c716f3fc25acd924ac1886bdf719f94",
+      "actual": "3899e0b0c8d72b85118186d00ff725a35c716f3fc25acd924ac1886bdf719f94"
+    },
+    {
+      "file": "REGULATOR_CERTIFICATE.md",
+      "expected": "182bf46ded79383ef3912c19def8fd89de28b73608d8faf12deb088ffdc52145",
+      "actual": "182bf46ded79383ef3912c19def8fd89de28b73608d8faf12deb088ffdc52145"
+    },
+    {
+      "file": "REGULATOR_INTERVAL_100D_30.json",
+      "expected": "eaaf833f7e92ca78aa75003e8e2eaedab4cfddfa875983f808e6db19746e93a4",
+      "actual": "eaaf833f7e92ca78aa75003e8e2eaedab4cfddfa875983f808e6db19746e93a4"
+    },
+    {
+      "file": "REGULATOR_INTERVAL_80D_24.json",
+      "expected": "664305c162af37c25fb2a8b1a3a6869354fc6bb8f1eca2e826e08207796ae18c",
+      "actual": "664305c162af37c25fb2a8b1a3a6869354fc6bb8f1eca2e826e08207796ae18c"
+    },
+    {
+      "file": "REPLAY_VERIFICATION.json",
+      "expected": "f1ccb5ba767655a9240b0a8f27c20c95f621df79ffa548f535079b33d914c692",
+      "actual": "f1ccb5ba767655a9240b0a8f27c20c95f621df79ffa548f535079b33d914c692"
+    },
+    {
+      "file": "RESUME.md",
+      "expected": "9bba5642d2786ad60278cc52c68483557e27c7b4687b3752e672560b31d2b026",
+      "actual": "9bba5642d2786ad60278cc52c68483557e27c7b4687b3752e672560b31d2b026"
+    },
+    {
+      "file": "SOURCE_INDEX.md",
+      "expected": "93f78e4fba6e73ad9c1fead0cac2d780998e8499af87a9885ec5f287c2d19fdb",
+      "actual": "93f78e4fba6e73ad9c1fead0cac2d780998e8499af87a9885ec5f287c2d19fdb"
+    },
+    {
+      "file": "SOURCE_SNAPSHOT.json",
+      "expected": "708af40af00da5847399038f79c864ef6fbcfb55594f4b7bc8d1d0862e2e05f0",
+      "actual": "708af40af00da5847399038f79c864ef6fbcfb55594f4b7bc8d1d0862e2e05f0"
+    },
+    {
+      "file": "STATE.json",
+      "expected": "bcbd7882eb7095271c67053f6ceace29455f5b688fa25aa7d45377766917c98c",
+      "actual": "bcbd7882eb7095271c67053f6ceace29455f5b688fa25aa7d45377766917c98c"
+    },
+    {
+      "file": "VERIFICATION.md",
+      "expected": "8bd1426e4e065f20ba8e649c5b76b337c487d4b2c18f084682b6b823eefe9dbc",
+      "actual": "8bd1426e4e065f20ba8e649c5b76b337c487d4b2c18f084682b6b823eefe9dbc"
+    },
+    {
+      "file": "WHOLE_MAP_RECONCILIATION.md",
+      "expected": "b44286bcf16c7177d89dedae80f2f8e8d261f8885257dd4c03ca366fddd717ff",
+      "actual": "b44286bcf16c7177d89dedae80f2f8e8d261f8885257dd4c03ca366fddd717ff"
+    },
+    {
+      "file": "WITNESS_CONTENT_THEOREM.md",
+      "expected": "556ecfa56f87f4497cdc7f2e25db3ec6a5431b2a70393ccbb80ea96fc085738e",
+      "actual": "556ecfa56f87f4497cdc7f2e25db3ec6a5431b2a70393ccbb80ea96fc085738e"
+    },
+    {
+      "file": "verify_regulator.py",
+      "expected": "6e53a287a4804e3bc09b3dae8749c64f7f2ce0e5a3cf8c94cce2c1c7711aefcd",
+      "actual": "6e53a287a4804e3bc09b3dae8749c64f7f2ce0e5a3cf8c94cce2c1c7711aefcd"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+== 1. frozen files (statements, definitions, probe, toolchain pin)
+WitnessContent/Defs.lean: OK
+WitnessContent/Spec.lean: OK
+WitnessContent/Acceptance.lean: OK
+lakefile.toml: OK
+lean-toolchain: OK
+scripts/level.py: OK
+== 2. clean build of this package (mathlib itself is not rebuilt)
+✔ [8035/8037] Built WitnessContent.Targets (7.8s)
+✔ [8036/8037] Built WitnessContent (7.3s)
+Build completed successfully (8037 jobs).
+== 3. informational: sorry / admit / axiom tokens in non-frozen Lean files (step 4 is authoritative)
+(none)
+== 4. axioms of every target
+'WitnessContent.lemmaA_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.gr_killed_by_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.depth_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.zero_infinitely_divisible' depends on axioms: [propext]
+'WitnessContent.hInf_lt_top_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.hInf_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.JE_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.WC_abstract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.CM_uniform_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.CM_nonzero_everywhere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.WC_abstract_nonvacuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.gr_p_primary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.bridge_517' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.cls2_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.WC_groupRing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.padicInt_units' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.units_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.lemmaA_general' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.gr_finite_Z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WitnessContent.gr_rational_trivial' depends on axioms: [propext, Classical.choice, Quot.sound]
+== 5. level
+CORE     lemmaA_comm                      CLEAN
+CORE     gr_killed_by_exponent            CLEAN
+CORE     depth_spec                       CLEAN
+CORE     zero_infinitely_divisible        CLEAN
+CORE     hInf_lt_top_iff                  CLEAN
+CORE     hInf_le_iff                      CLEAN
+CORE     JE_bounds                        CLEAN
+CORE     WC_abstract                      CLEAN
+CORE     CM_uniform_denominator           CLEAN
+CORE     CM_nonzero_everywhere            CLEAN
+CORE     WC_abstract_nonvacuous           CLEAN
+FULL     gr_p_primary                     CLEAN
+FULL     bridge_517                       CLEAN
+FULL     cls2_zero_iff                    CLEAN
+FULL     WC_groupRing                     CLEAN
+FULL     padicInt_units                   CLEAN
+FULL     units_exponent                   CLEAN
+STRETCH  lemmaA_general                   CLEAN
+STRETCH  gr_finite_Z                      CLEAN
+STRETCH  gr_rational_trivial              CLEAN
+LEVEL: A1_FULL
+FIRST_NOT_CLEAN_TARGET: None
+STRETCH_CLEAN: ['lemmaA_general', 'gr_finite_Z', 'gr_rational_trivial']

@@ -1,0 +1,15 @@
+{
+  "status": "CONTENT_RECOVERED_EXECUTION_REPORTED",
+  "content_match": true,
+  "execution_evidence": "SELF_REPORTED_TRANSCRIPT_AND_STDOUT; INSPECT_NATIVE_PLATFORM_LOGS",
+  "remote_run_identity_verified": false,
+  "python_execution_independently_verified": false,
+  "full_corpus_capacity": "UNTESTED",
+  "large_research_job_authorized": false,
+  "mathematical_result": false,
+  "content_checks": {
+    "token": true,
+    "file": true,
+    "file_sha256": true
+  }
+}

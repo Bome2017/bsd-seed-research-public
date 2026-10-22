@@ -1,0 +1,25 @@
+{
+  "libraries": [
+    {
+      "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/cubinv.gp",
+      "sha256": "4c6daec403143281dac6c4e2b3009a60d0c61aea28a0289d1a25738d26f1df59"
+    },
+    {
+      "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/classimg.gp",
+      "sha256": "af807f8f3b15e09b8f1ec91e1c85cb0e2b36788c82445b25d1e12f8d4d733f34"
+    },
+    {
+      "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/patches/selmer_corrected.gp",
+      "sha256": "3f89d2164231ccadd3d995fdda0d08e525a2ee36e57e820a1c0230d9fc7d194d"
+    }
+  ],
+  "model_source": "lab work/returns/BSD_VALUATION_MECHANISM_REVIEW_2026-10-13/input/BSD_VALUATION_MECHANISM_2026-10-13/checks/verify.py for433a1/655a1; retained389a1 model, confirmed conductor/discriminant in freshrun",
+  "max_control_curves": 3,
+  "pari_alarm_seconds_each": 90,
+  "pari_stack_max_bytes": 1000001536,
+  "local_point_precision": [
+    35,
+    45
+  ],
+  "status": "COMPLETE_SOURCE_CONTROLS_EXECUTED_NO_SEED_BOUND"
+}

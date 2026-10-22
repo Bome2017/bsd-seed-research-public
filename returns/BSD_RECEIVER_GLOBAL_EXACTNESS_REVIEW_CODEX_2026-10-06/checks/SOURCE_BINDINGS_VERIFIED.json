@@ -1,0 +1,34 @@
+{
+  "commit": "6c1cb9398ce6d4791fc7988ee18893cd74bc1cdf",
+  "files": [
+    {
+      "path": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/REPORT.md",
+      "expected_blob": "5bf8fe09d4dc32b785943b3c47fd551eb85f882d",
+      "actual_blob": "5bf8fe09d4dc32b785943b3c47fd551eb85f882d",
+      "sha256": "140f1a8e79d3b2d0f410f4aa9a81efd995f1f86106d50a5342b77e14d5860e59",
+      "match": true
+    },
+    {
+      "path": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/CORRECTED_PROOF.md",
+      "expected_blob": "efe25155f20704aec4941122fde816832817f6c3",
+      "actual_blob": "efe25155f20704aec4941122fde816832817f6c3",
+      "sha256": "faddfd5e5a4899c3c134d85cb798558ae3c35bd7e792af353ec3c2fcba8ed5c4",
+      "match": true
+    },
+    {
+      "path": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/CORRECTIONS.md",
+      "expected_blob": "53af99cd33f580ce2ccc7c4c684b7977b851bcb5",
+      "actual_blob": "53af99cd33f580ce2ccc7c4c684b7977b851bcb5",
+      "sha256": "4545e1627719e07495593c2be7bc7e92024dfbafc2b68bd17bc347bd85a5a436",
+      "match": true
+    },
+    {
+      "path": "work/returns/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/MATHEMATICAL_RECONSTRUCTION.md",
+      "expected_blob": "38d98caa6eef3c93556bad10faf2bfd19d87e9f9",
+      "actual_blob": "38d98caa6eef3c93556bad10faf2bfd19d87e9f9",
+      "sha256": "c8b4e408aae5339ef99912ead6574ca289d10567347b8b8060a8b9dcae81d853",
+      "match": true
+    }
+  ],
+  "bfr_archive_hash_matches": true
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-12",
+  "repository": "Bome2017/bsd-seed-lab",
+  "baseline_commit": "0e8bb6859d1391e6d449b1ef02aff2cfd85310f1",
+  "retained_documents": [
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/REPORT.md",
+      "git_blob": "e31dae4ebdf33f9bc1e73a8682c936a6831bb26e",
+      "read": true,
+      "full_arithmetic_replayed": false
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md",
+      "git_blob": "008c22932c67d6df5fe4948bd55f1f2dcd930e56",
+      "read": true,
+      "full_arithmetic_replayed": false
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md",
+      "git_blob": "291e618f69600e05864c9d2542dc1de1688a37ba",
+      "read": true,
+      "full_arithmetic_replayed": false
+    }
+  ],
+  "copied_inputs": [
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m25.txt",
+      "local_path": "inputs/SYMBOLS_m25.txt",
+      "git_blob": "b0d766f63e90ac9d17b2ca15ee2e387cd6b34ff6",
+      "sha256": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e",
+      "bytes": 293,
+      "matches_returned_git_blob": true,
+      "original_large_numeric_certificate_replayed": false
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m5.txt",
+      "local_path": "inputs/SYMBOLS_m5.txt",
+      "git_blob": "a9961d9d45bc22605a331c994a3dee4119c1c12b",
+      "sha256": "fb7b98d89b1885bacbb1d9d306c6c17fcefeafbb094baf1fcb5258756e6edf9c",
+      "bytes": 135,
+      "matches_returned_git_blob": true,
+      "original_large_numeric_certificate_replayed": false
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "SW",
+      "url": "https://www.wstein.org/papers/mcom2649-iwasawa-alg.pdf",
+      "scope": "3.1, 3.5, 6.1, 7.2, good ordinary 7.3",
+      "source_version": "published author offprint",
+      "screenshots": "requested but failed; parsed text used",
+      "pdf_bytes_redistributed": false
+    },
+    {
+      "id": "Greenberg",
+      "url": "https://arxiv.org/pdf/math/9809206",
+      "scope": "Prop. 4.14 pp.52-53; restriction discussion p.26",
+      "source_version": "arXiv v1; published chapter not separately compared",
+      "screenshots": "statement at PDF page 51 visually checked",
+      "pdf_bytes_redistributed": false
+    }
+  ],
+  "new_work_grade": "single-assistant written derivation and executed exact checks",
+  "new_symbol_values": 0,
+  "new_coefficient_primes_settled": 0,
+  "tower_claim": "rank two and Sha[5^infinity]=0 in each cyclotomic degree-5^n layer, under retained inputs",
+  "tower_claim_formalized": false,
+  "independent_review": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

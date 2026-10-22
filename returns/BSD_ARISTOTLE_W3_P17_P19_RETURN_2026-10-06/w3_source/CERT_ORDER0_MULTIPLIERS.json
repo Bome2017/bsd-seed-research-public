@@ -1,0 +1,62 @@
+{
+ "V_32": {
+  "label": "V_32 mod 31, order 0",
+  "rows_used": 1,
+  "nonzero_multipliers": 1,
+  "nu_multiplier": 9,
+  "remaining_X1_columns": 0,
+  "remaining_base_columns": 0,
+  "remaining_derivative_columns": 0,
+  "recombination_verified": true,
+  "columns_checked": 74,
+  "identity": "V_32 == 9 * Xi_0({inf,0})  (mod 31)",
+  "multipliers": {
+   "T31@1:0;1:0;1:0;1:0;1:0;1:0": 30
+  }
+ },
+ "V_33": {
+  "label": "V_33 mod 31, order 0",
+  "rows_used": 1,
+  "nonzero_multipliers": 1,
+  "nu_multiplier": 22,
+  "remaining_X1_columns": 0,
+  "remaining_base_columns": 0,
+  "remaining_derivative_columns": 0,
+  "recombination_verified": true,
+  "columns_checked": 74,
+  "identity": "V_33 == 22 * Xi_0({inf,0})  (mod 31)",
+  "multipliers": {
+   "T31@1:0;1:0;1:0;1:0;1:0;1:0": 1
+  }
+ },
+ "V_43": {
+  "label": "V_43 mod 31, order 0",
+  "rows_used": 1,
+  "nonzero_multipliers": 1,
+  "nu_multiplier": 22,
+  "remaining_X1_columns": 0,
+  "remaining_base_columns": 0,
+  "remaining_derivative_columns": 0,
+  "recombination_verified": true,
+  "columns_checked": 74,
+  "identity": "V_43 == 22 * Xi_0({inf,0})  (mod 31)",
+  "multipliers": {
+   "T31@1:0;1:0;1:0;1:0;1:0;1:0": 1
+  }
+ },
+ "V_44": {
+  "label": "V_44 mod 31, order 0",
+  "rows_used": 1,
+  "nonzero_multipliers": 1,
+  "nu_multiplier": 9,
+  "remaining_X1_columns": 0,
+  "remaining_base_columns": 0,
+  "remaining_derivative_columns": 0,
+  "recombination_verified": true,
+  "columns_checked": 74,
+  "identity": "V_44 == 9 * Xi_0({inf,0})  (mod 31)",
+  "multipliers": {
+   "T31@1:0;1:0;1:0;1:0;1:0;1:0": 30
+  }
+ }
+}

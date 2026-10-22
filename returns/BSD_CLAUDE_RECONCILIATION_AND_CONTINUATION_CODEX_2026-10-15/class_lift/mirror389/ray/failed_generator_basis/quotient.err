@@ -1,0 +1,16 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: ...,k,k==j)~);if(LG!=target,error("local generato
+  ***                                             ^---------------------
+  ***   user error: local generator basis changed
+  ***   at top-level: ...N=matsnf(RAWREL);ALLOW=KS*lift(C[11]);FINALREL
+  ***                                             ^---------------------
+  *** _*_: inconsistent operation 'RgM_mul' t_MAT (6 x 9) , t_MAT (10 x 3).
+  ***   at top-level: if(select(a->a>1,FINALSN)!=[3,3,3,3],error("ac
+  ***                    ^-------------------------------------------
+  *** select: incorrect type in select (t_POL).
+  ***   at top-level: if(matsolvemod(matconcat([CY,3*KG,ALLOW]),vect
+  ***                    ^-------------------------------------------
+  *** matsolvemod: incorrect type in matsolvemod (M) (t_MAT).
+  ***   at top-level: BC=lift(C[10]);BR=KS*BC;RB=RR[3];if(matsolvemo
+  ***                                     ^--------------------------
+  *** _*_: inconsistent operation 'RgM_mul' t_MAT (6 x 9) , t_MAT (10 x 1).

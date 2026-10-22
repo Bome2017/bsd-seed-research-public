@@ -1,0 +1,22 @@
+{
+ "curve": "0 -22735 0 106272484 0",
+ "N": 6503188012738584,
+ "p": 43,
+ "l": 173,
+ "Q": 6503188012738584,
+ "sign": 1,
+ "T": 59475230719,
+ "SEGQ": 16777216,
+ "LATDEN": 1024,
+ "apdir": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/corpus_ext_4802/view/ap",
+ "receipts_glob": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/corpus_ext_4802/view/logs/ver_*.log",
+ "pinned_segroot": "80b814ed11cb387bbca86919c4ce01fcb6afe68bc9a0f037006777307ddbbf6a",
+ "threads": 8,
+ "arbcore_path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+ "arbcore_sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+ "msl_output_sha256": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8",
+ "params": "msl 0 -22735 0 106272484 0 173 6503188012738584 1 59475230719 16777216 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/corpus_ext_4802/view/ap /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/units 1024",
+ "start_utc": "2026-09-27T15:32:53Z",
+ "end_utc": "2026-09-27T16:26:48Z",
+ "stage_W_run": false
+}

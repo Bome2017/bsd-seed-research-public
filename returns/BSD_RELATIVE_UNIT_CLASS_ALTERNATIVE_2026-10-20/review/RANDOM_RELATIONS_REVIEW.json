@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "script_sha256": true,
+    "stdout_sha256": true,
+    "stderr_sha256": true,
+    "no_install": true,
+    "alarm": true,
+    "no_bnf": true,
+    "no_success_marker": true
+  },
+  "status": "NO_BNF_OUTPUT_FROM_BOUNDED_RUN",
+  "elapsed_seconds": 177.11065399693325,
+  "max_rss_bytes": 734720000
+}

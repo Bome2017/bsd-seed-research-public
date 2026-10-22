@@ -1,0 +1,25 @@
+  ***   at top-level: read("relative_setup.gp")
+  ***                 ^-------------------------
+  *** read: unexpected closing brace.
+... skipping file 'preflight.gp'
+  ***   variable name expected: ...t"));for(i=1,min(2,#ORB),
+  ***   I=idealpow(NF,ORB[i][
+  ***   ^---------------------
+        0.02 real         0.01 user         0.00 sys
+             8196096  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                2415  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  15  involuntary context switches
+           222143385  instructions retired
+           108037947  cycles elapsed
+             6897664  peak memory footprint

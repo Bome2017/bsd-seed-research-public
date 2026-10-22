@@ -1,0 +1,23 @@
+REACHABILITY WAS ESTABLISHED BEFORE THESE RUNS WERE COMMISSIONED
+
+This must be read alongside any statement of the result.
+
+Before the handoff was released, Claude privately proved all five targets, with the exact
+shipped signatures, against both certified trees, exit 0, axiom footprint
+[propext, Classical.choice, Quot.sound].  That is recorded in
+GATE_R_FINAL_ASSEMBLY_PRESHIP_RECORD_001 (archive
+5190b65f8b6c197c3c0a5a3101cef27d071ec3e0a61b39b85de9cd5a7f858b1c), receipt
+WITHHELD_ROUTE.txt, dated before the returns arrived.
+
+CONSEQUENCE.  A PASS from these runs confirms
+  (a) that two independent searches each found their OWN route to the shipped propositions, and
+  (b) that the propositions hold in the pinned environment, now checked by three separate
+      elaborations of the same kernel.
+It does NOT establish that the assembly was hard.  It was known to be closeable.
+
+WHAT THE RUNS ADDED THAT THE PRIVATE CHECK DID NOT.  The private module was built on component
+proofs authored by the Codex reviewer, so it measured reachability only.  These two returns are
+independent constructions: neither used the reviewer's components, and on the one step where
+the reviewer, both Pro reviews and the private check all used a closure/index argument, BOTH
+runs independently used prime/square arithmetic instead.  See PROOF_DIVERGENCE_MEASUREMENT.txt
+section 4.  That is the part of this result the private check could not have produced.

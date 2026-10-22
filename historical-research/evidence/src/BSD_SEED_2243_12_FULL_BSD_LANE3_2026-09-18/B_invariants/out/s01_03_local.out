@@ -1,0 +1,28 @@
+A=4547 B=5843
+a-invariants: [0, -22735, 0, 106272484, 0]
+disc = 16586638656786071143743744 = [2, 8; 3, 2; 2243, 1; 4547, 3; 5843, 2]
+sign(disc) = 1
+c4 = 3169004368 factor [2, 4; 43, 1; 1013, 1; 4547, 1]
+c6 = 56243184546880
+j = 1322372123614064/689197281363
+ellminimalmodel change [u,r,s,t] = [1, 7578, 0, 0]
+minimal model a-invariants: [0, -1, 0, -66020924, -65074271436]
+minimal disc = 16586638656786071143743744  equal to disc of E? 1
+ellglobalred = [N, [u,r,s,t], prod c_p, faN, L] : [6503188012738584, [1, 7578, 0, 0], 16, [2, 3; 3, 1; 2243, 1; 4547, 2; 5843, 1], [[3, -5, 0, 2], [1, 6, 0, 2], [1, 5, 0, 1], [2, 3, 0, 2], [1, 6, 0, 2]]]
+conductor N = 6503188012738584 = [2, 3; 3, 1; 2243, 1; 4547, 2; 5843, 1]
+real roots of 4x^3+b2x^2+2b4x+b6: [0.E-77 + 0.E-77*I, 6577.13756590380731555407536336538844354152105971779875546254 + 0.E-77*I, 16157.8624340961926844459246366346115564584789402822012445375 + 0.E-77*I]~
+number of real components = 2
+E.roots = [16157.8624340961926844459246366346115564584789402822012445375, 6577.13756590380731555407536336538844354152105971779875546254, 0.E-77, 6577.13756590380731555407536336538844354152105971779875546254, 16157.8624340961926844459246366346115564584789402822012445375, 9580.72486819238536889184927326922311291695788056440248907491]~
+disc of x^2-5Ax+4AB = 91790289 = [3, 2; 2243, 1; 4547, 1] issquare? 0
+elltors(E) = [2, [2], [[0, 0]]]
+elltors(M) = [2, [2], [[-7578, 0]]]
+--- local data (elllocalred: [f, kodaira, [u,r,s,t], c]) ---
+p=2  v_p(Delta)=8  f_p=3  kodaira=-5  c_p=2  change=[1, 0, 0, 0]  a_p=0  additive
+p=3  v_p(Delta)=2  f_p=1  kodaira=6  c_p=2  change=[1, 0, 0, 0]  a_p=-1  NON-SPLIT multiplicative
+p=2243  v_p(Delta)=1  f_p=1  kodaira=5  c_p=1  change=[1, 0, 0, 0]  a_p=1  SPLIT multiplicative
+p=4547  v_p(Delta)=3  f_p=2  kodaira=3  c_p=2  change=[1, 0, 0, 0]  a_p=0  additive
+p=5843  v_p(Delta)=2  f_p=1  kodaira=6  c_p=2  change=[1, 0, 0, 0]  a_p=-1  NON-SPLIT multiplicative
+product c_p = 16
+ellrootno(E) = 1
+PARI kodaira code convention check: see ?elllocalred
+u for minimal model = 1

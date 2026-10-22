@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "target": "independent bound on admitted unit and class contributions",
+  "parent": "4270aa03",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "independent_bounds": {
+    "389a1": 2,
+    "mirror389": 3
+  },
+  "inputs_used": "integral primitive divisor norm and certified cached companion S-class groups; no Selmer rows",
+  "positive_control_extension": "literal_reverse_preimages_verified",
+  "result": "INDEPENDENT_CONTROL_UPPER_BOUNDS_COMPUTED_NO_NEW_SEED_BOUND",
+  "seed3_divisor_index": 1,
+  "seed_companion_class_bound": "not_supplied",
+  "review": "same-team written proof review under retained inputs",
+  "replay": "PASS"
+}

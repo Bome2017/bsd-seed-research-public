@@ -1,0 +1,607 @@
+{
+  "full_source": [
+    {
+      "case": "1913",
+      "source_dimension": 9,
+      "containing_kernel_dimension": 2,
+      "containing_kernel_basis": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "point_dimension": 0,
+      "candidate_quotient_dimension": 2,
+      "scalar_and_local_only_dimension": 2,
+      "without_local_conditions_dimension": 2,
+      "detector_kernels": [
+        {
+          "primes": [
+            1867
+          ],
+          "dimension": 1,
+          "basis": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "primes": [
+            997
+          ],
+          "dimension": 0,
+          "basis": []
+        },
+        {
+          "primes": [
+            1867,
+            997
+          ],
+          "dimension": 0,
+          "basis": []
+        }
+      ],
+      "exhaustive_vectors_tested": 19683,
+      "exhaustive_survivors": 9,
+      "withheld_class_list_recovered": true
+    },
+    {
+      "case": "389",
+      "source_dimension": 10,
+      "containing_kernel_dimension": 2,
+      "containing_kernel_basis": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "point_dimension": 2,
+      "candidate_quotient_dimension": 0,
+      "scalar_and_local_only_dimension": 2,
+      "without_local_conditions_dimension": 2
+    },
+    {
+      "case": "433",
+      "source_dimension": 13,
+      "containing_kernel_dimension": 2,
+      "containing_kernel_basis": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "point_dimension": 2,
+      "candidate_quotient_dimension": 0,
+      "scalar_and_local_only_dimension": 2,
+      "without_local_conditions_dimension": 3
+    }
+  ],
+  "common_point": {
+    "seed3": {
+      "individually_blind_primes": [
+        1213,
+        1543,
+        1699,
+        1987,
+        2281,
+        3769,
+        6577,
+        6949,
+        6961,
+        9109,
+        9421,
+        10687
+      ],
+      "pair_rank_histogram": {
+        "1->1": 64,
+        "1->2": 96,
+        "2->2": 50,
+        "0->1": 24,
+        "0->2": 42
+      },
+      "pair_count": 276
+    },
+    "389a1": {
+      "individually_blind_primes": [
+        73,
+        151,
+        523,
+        1663,
+        2767,
+        3343,
+        3571,
+        3691,
+        4273,
+        4507,
+        5443,
+        6421,
+        8269,
+        8443,
+        9151,
+        9949,
+        10753,
+        10939,
+        11497,
+        11743,
+        12421,
+        12547,
+        14683,
+        15013
+      ],
+      "pair_rank_histogram": {
+        "0->0": 276
+      },
+      "pair_count": 276
+    },
+    "1913b1": {
+      "individually_blind_primes": [],
+      "pair_rank_histogram": {
+        "2->2": 269,
+        "1->1": 7
+      },
+      "pair_count": 276
+    },
+    "28042a1": {
+      "individually_blind_primes": [
+        9433,
+        12781
+      ],
+      "pair_rank_histogram": {
+        "2->2": 180,
+        "1->2": 66,
+        "1->1": 29,
+        "0->1": 1
+      },
+      "pair_count": 276
+    }
+  },
+  "seed_sealed_pair": {
+    "primes": [
+      1213,
+      1543
+    ],
+    "old_rank": 0,
+    "common_point_rank": 1,
+    "local_value_rank": 3,
+    "diagonal_point_rank": 2,
+    "old_kernel_basis": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "common_kernel_basis": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "common_signature_rows": [
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "common_root_weight_rows": [
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "point_repairs": [
+      {
+        "prime": 1213,
+        "columns_in_known_class_order": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "prime": 1543,
+        "columns_in_known_class_order": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    ],
+    "repair_difference_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ]
+    ]
+  }
+}

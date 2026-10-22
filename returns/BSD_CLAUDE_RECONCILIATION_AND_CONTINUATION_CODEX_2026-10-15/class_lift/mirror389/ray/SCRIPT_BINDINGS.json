@@ -1,0 +1,28 @@
+{
+  "status": "CANONICAL_SCRIPTS_MATCH_ACCEPTED_REPLAY",
+  "canonical_matches_clean": true,
+  "files": {
+    "construct.gp": "3763796324aba57f0bff3f6e2edb9657a0254234c40121f8771dd87cd174af57",
+    "quotient.gp": "4e866644e1851cc308db9b2a110e16e6b05c34628ab1c16958a447cb3793f29e",
+    "replay.py": "6b82eef88d51a4ebf0c0e6dfd2940f9bbe19dbfea2479d5a57654b131960f70f",
+    "clean_replay/construct.gp": "3763796324aba57f0bff3f6e2edb9657a0254234c40121f8771dd87cd174af57",
+    "clean_replay/quotient.gp": "4e866644e1851cc308db9b2a110e16e6b05c34628ab1c16958a447cb3793f29e",
+    "clean_replay/construct.out": "b14506bc8a644ac97e70076c9df7fd5cfef59806d00d6cc352769c9c25c55c59",
+    "clean_replay/construct.err": "c7c74ad8b7a735cfa4ff70e9728a31fd5bbdb0591cddc0cd2e432297da0c1efd",
+    "clean_replay/quotient.out": "390ce9f8c981a23f34aec0976c0b3cf6778931c3b48f453694796f1a62d4afa8",
+    "clean_replay/quotient.err": "c7c74ad8b7a735cfa4ff70e9728a31fd5bbdb0591cddc0cd2e432297da0c1efd",
+    "clean_replay/certificate.gp": "086d80dbfd2bad316b78868c2934cfd66c2a5a6dc045654644dae0647c54259f",
+    "clean_replay/ray_coordinates.gp": "01687743e069c91ece4d7e8f71b56182a9cffb2969b5ee96640bbeb8fa59cf2a",
+    "clean_replay/quotient_certificate.gp": "a58cc2b5c22d2aef7f6cb4e3fcd42fec8aa263a21c4b0af433204afdb91d1515",
+    "portable_matrices.gp": "55bd41d94a7123564a8b3edbf12993bab03a02b3db8580414dcbf45f86236f5f",
+    "verify_integer_quotients.gp": "9a7b669656cef75436ca50150872c17d342855d548d88090624da378fc9ef0a1",
+    "verify_integer_quotients.out": "7f1da959bcb59c648cfd3fbc7553686898a6a871e253f9ec08e4578e5e562d65",
+    "verify_integer_quotients.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "REPLAY.json": "6a0573f772e0222f80e3e64aefab55d4ff341742f04097a2f8d286b812e17af6",
+    "construct.out": "b14506bc8a644ac97e70076c9df7fd5cfef59806d00d6cc352769c9c25c55c59",
+    "construct.err": "c7c74ad8b7a735cfa4ff70e9728a31fd5bbdb0591cddc0cd2e432297da0c1efd",
+    "quotient.out": "390ce9f8c981a23f34aec0976c0b3cf6778931c3b48f453694796f1a62d4afa8",
+    "quotient.err": "c7c74ad8b7a735cfa4ff70e9728a31fd5bbdb0591cddc0cd2e432297da0c1efd"
+  },
+  "scope": "portable matrix check is algebra only; arithmetic input provenance remains full replay"
+}

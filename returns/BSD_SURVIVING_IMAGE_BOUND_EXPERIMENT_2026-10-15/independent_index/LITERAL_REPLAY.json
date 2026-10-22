@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "independent_index",
+      "stdout": "CHECKED_DIVISOR_RANK=2;CHECKED_INDEX=0\nLITERAL_DIVISOR_CERTIFICATE_PASS\n",
+      "stderr": "",
+      "scope": "literal prime decomposition, primitive divisor bases, determinant norms and valuations"
+    },
+    {
+      "case": "positive1913",
+      "stdout": "CHECKED_DIVISOR_RANK=1;CHECKED_INDEX=0\nLITERAL_DIVISOR_CERTIFICATE_PASS\n",
+      "stderr": "",
+      "scope": "literal prime decomposition, primitive divisor bases, determinant norms and valuations"
+    },
+    {
+      "case": "seed3_divisors",
+      "stdout": "CHECKED_DIVISOR_RANK=2;CHECKED_INDEX=1\nLITERAL_DIVISOR_CERTIFICATE_PASS\n",
+      "stderr": "",
+      "scope": "literal prime decomposition, primitive divisor bases, determinant norms and valuations"
+    }
+  ]
+}

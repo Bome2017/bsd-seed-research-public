@@ -1,0 +1,952 @@
+{
+  "status": "LOCATED_ACTUAL_COVERAGE_NOT_EXHAUSTIVE_HOST_AUDIT",
+  "as_of": "2026-10-13",
+  "rows": [
+    {
+      "p": 2,
+      "result": "Sha[2-infinity]=0",
+      "method": "rational two-isogeny descent",
+      "trigger": "Zywina theorem explicitly gives Sha[2]=0; PARI ellrank=[2,2,0] is a rank replay, not here promoted to a separate proof of Sha[2]=0",
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+          "line_matches": [
+            52,
+            92,
+            291,
+            337,
+            456,
+            508
+          ],
+          "anchor": "Mordell|G\\[2|Zywina"
+        },
+        {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+          "line_matches": [
+            29,
+            53
+          ],
+          "anchor": "2 \\| Sha|index 1"
+        },
+        {
+          "path": "/Users/bsm/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md",
+          "line_matches": [
+            18,
+            45,
+            70
+          ],
+          "anchor": "N1 MW|N1 \\(PUB"
+        }
+      ],
+      "grade": "retained preprint theorem with exact rank/saturation checks",
+      "dependencies": [
+        "Zywina arXiv:2502.01957v1 Theorem1.2",
+        "finite-level Kummer/descent"
+      ],
+      "shared_evidence": "rank/basis theorem also used in every later certificate",
+      "not_independent": [
+        "ellrank s=0 is recorded as consistency evidence"
+      ],
+      "limitations": "This is a rational2-isogeny method; no analogous rational odd isogeny for the seed."
+    },
+    {
+      "p": 3,
+      "result": "Sha[3-infinity]=(Z/3)^2",
+      "method": "multiplicative cyclotomic coefficient plus integral main conjecture and leading term",
+      "trigger": {
+        "denominator": 81,
+        "omega1_quadratic_coefficient": 15480,
+        "modulus": 27,
+        "residue": 9,
+        "valuation": 2,
+        "normalized_regulator_valuation": 0
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+          "line_matches": [
+            9,
+            34,
+            39,
+            43,
+            49,
+            51,
+            52,
+            70,
+            75,
+            79,
+            106,
+            115,
+            124
+          ],
+          "anchor": "15480|Skinner|Jones|Reg_γ"
+        },
+        {
+          "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+          "lines": [
+            1,
+            136
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+          "line_matches": [
+            3,
+            100,
+            106,
+            124,
+            126,
+            128,
+            151,
+            464,
+            603,
+            604,
+            605,
+            606,
+            637,
+            644,
+            648
+          ],
+          "anchor": "R1 passes|R2|Euler-removal|3-primary theorem retained"
+        }
+      ],
+      "grade": "retained computer-assisted theorem via published Skinner Theorem A; source history governed by canonical master corrections",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Skinner2016 TheoremA integral equality",
+        "Stein-Wuthrich Proposition3.5 and Theorem6.1; multiplicative Jones input",
+        "Cassels-Tate finite-primary alternating pairing"
+      ],
+      "shared_evidence": "same fixed rational modular symbol and Fourier certificate engine as later vanishing primes",
+      "limitations": "Bad nonsplit multiplicative prime; Kato good-ordinary divisibility is not the source at3. Historical internal SU Euler-removal audit remains incomplete; no new source re-certification here."
+    },
+    {
+      "p": 5,
+      "result": "Sha[5-infinity]=0",
+      "method": "ordinary cyclotomic quadratic modular-symbol moment plus integral Kato divisibility",
+      "trigger": {
+        "denominators": [
+          25,
+          5
+        ],
+        "omega1_evaluation_integer": 152,
+        "omega1_residue": 2,
+        "neron_residue": 1,
+        "certified_precision": "mod5",
+        "a_p": -2,
+        "cardinality_EFp": 8
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/SHA5_RIGOROUS_THEOREM.md",
+          "lines": [
+            1,
+            75
+          ]
+        }
+      ],
+      "grade": "retained computer-assisted fixed-prime theorem",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Stein-Wuthrich Proposition3.5",
+        "Kato good-ordinary integral divisibility as Stein-Wuthrich Theorem7.3",
+        "algebraic leading-term Theorem6.1",
+        "canonical-height integrality; at5 also retained normalized regulator unit certificate"
+      ],
+      "shared_evidence": "common rational modular symbol, lattice1/1024, ordinary finite measure, Arb engine and partially overlapping certified Fourier coefficient corpus",
+      "limitations": "Two extraction checks share certified symbol table. One quadratic digit is certified, not higher precision from finite-polynomial outputs. No integral main-conjecture equality required at5/7/11/13."
+    },
+    {
+      "p": 7,
+      "result": "Sha[7-infinity]=0",
+      "method": "ordinary cyclotomic quadratic modular-symbol moment plus integral Kato divisibility",
+      "trigger": {
+        "denominators": [
+          49,
+          7
+        ],
+        "omega1_evaluation_integer": -1931,
+        "omega1_residue": 1,
+        "neron_residue": 4,
+        "certified_precision": "mod7",
+        "a_p": -2,
+        "cardinality_EFp": 10
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P7_PRIMARY_THEOREM.md",
+          "lines": [
+            1,
+            210
+          ]
+        }
+      ],
+      "grade": "retained computer-assisted fixed-prime theorem",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Stein-Wuthrich Proposition3.5",
+        "Kato good-ordinary integral divisibility as Stein-Wuthrich Theorem7.3",
+        "algebraic leading-term Theorem6.1",
+        "canonical-height integrality; at5 also retained normalized regulator unit certificate"
+      ],
+      "shared_evidence": "common rational modular symbol, lattice1/1024, ordinary finite measure, Arb engine and partially overlapping certified Fourier coefficient corpus",
+      "limitations": "Two extraction checks share certified symbol table. One quadratic digit is certified, not higher precision from finite-polynomial outputs. No integral main-conjecture equality required at5/7/11/13."
+    },
+    {
+      "p": 11,
+      "result": "Sha[11-infinity]=0",
+      "method": "ordinary cyclotomic quadratic modular-symbol moment plus integral Kato divisibility",
+      "trigger": {
+        "denominators": [
+          121,
+          11
+        ],
+        "omega1_evaluation_integer": -190,
+        "omega1_residue": 8,
+        "neron_residue": 4,
+        "certified_precision": "mod11",
+        "a_p": -2,
+        "cardinality_EFp": 14
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P11_PRIMARY_THEOREM.md",
+          "lines": [
+            1,
+            139
+          ]
+        }
+      ],
+      "grade": "retained computer-assisted fixed-prime theorem",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Stein-Wuthrich Proposition3.5",
+        "Kato good-ordinary integral divisibility as Stein-Wuthrich Theorem7.3",
+        "algebraic leading-term Theorem6.1",
+        "canonical-height integrality; at5 also retained normalized regulator unit certificate"
+      ],
+      "shared_evidence": "common rational modular symbol, lattice1/1024, ordinary finite measure, Arb engine and partially overlapping certified Fourier coefficient corpus",
+      "limitations": "Two extraction checks share certified symbol table. One quadratic digit is certified, not higher precision from finite-polynomial outputs. No integral main-conjecture equality required at5/7/11/13."
+    },
+    {
+      "p": 13,
+      "result": "Sha[13-infinity]=0",
+      "method": "ordinary cyclotomic quadratic modular-symbol moment plus integral Kato divisibility",
+      "trigger": {
+        "denominators": [
+          169,
+          13
+        ],
+        "omega1_evaluation_integer": -3950,
+        "omega1_residue": 2,
+        "neron_residue": 1,
+        "certified_precision": "mod13",
+        "a_p": -4,
+        "cardinality_EFp": 18
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P13_PRIMARY_THEOREM.md",
+          "lines": [
+            1,
+            178
+          ]
+        }
+      ],
+      "grade": "retained computer-assisted fixed-prime theorem",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Stein-Wuthrich Proposition3.5",
+        "Kato good-ordinary integral divisibility as Stein-Wuthrich Theorem7.3",
+        "algebraic leading-term Theorem6.1",
+        "canonical-height integrality; at5 also retained normalized regulator unit certificate"
+      ],
+      "shared_evidence": "common rational modular symbol, lattice1/1024, ordinary finite measure, Arb engine and partially overlapping certified Fourier coefficient corpus",
+      "limitations": "Two extraction checks share certified symbol table. One quadratic digit is certified, not higher precision from finite-polynomial outputs. No integral main-conjecture equality required at5/7/11/13."
+    },
+    {
+      "p": 17,
+      "result": "Sha[17-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 103,
+        "generator": 5,
+        "c0": "0",
+        "c1": "7242",
+        "c2": "46298",
+        "c2_mod_p": 7,
+        "symbols": 102,
+        "E_Fl_order": 106
+      },
+      "exact_local_recheck": {
+        "a_p": -6,
+        "cardinality_EFp": 24,
+        "ordinary": true,
+        "a_l": -2,
+        "l_minus_1_over_p": 6,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RESULT_P17.md",
+          "lines": [
+            1,
+            57
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt",
+        "sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 19,
+      "result": "Sha[19-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 191,
+        "generator": 19,
+        "c0": "0",
+        "c1": "-3572",
+        "c2": "-30432",
+        "c2_mod_p": 6,
+        "symbols": 190,
+        "E_Fl_order": 202
+      },
+      "exact_local_recheck": {
+        "a_p": 4,
+        "cardinality_EFp": 16,
+        "ordinary": true,
+        "a_l": -10,
+        "l_minus_1_over_p": 10,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RESULT_P19.md",
+          "lines": [
+            1,
+            52
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt",
+        "sha256": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 23,
+      "result": "Sha[23-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 47,
+        "generator": 5,
+        "c0": "0",
+        "c1": "9430",
+        "c2": "103854",
+        "c2_mod_p": 9,
+        "symbols": 46,
+        "E_Fl_order": 44
+      },
+      "exact_local_recheck": {
+        "a_p": 0,
+        "cardinality_EFp": 24,
+        "ordinary": false,
+        "a_l": 4,
+        "l_minus_1_over_p": 2,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RESULT_P23.md",
+          "lines": [
+            1,
+            39
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt",
+        "sha256": "97407c4f450facd5605d7f9df1f79dbc7c8175367156ddad87341dff986f62ec",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 29,
+      "result": "Sha[29-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 233,
+        "generator": 3,
+        "c0": "0",
+        "c1": "2320",
+        "c2": "-98942",
+        "c2_mod_p": 6,
+        "symbols": 232,
+        "E_Fl_order": 248
+      },
+      "exact_local_recheck": {
+        "a_p": 0,
+        "cardinality_EFp": 30,
+        "ordinary": false,
+        "a_l": -14,
+        "l_minus_1_over_p": 8,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RESULT_P29_L233.md",
+          "lines": [
+            1,
+            45
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt",
+        "sha256": "f5d5c24f8027d2a45b60ecf0be0d90fa782e9623666b28d11ec53cb6780e7bcb",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 31,
+      "result": "Sha[31-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 311,
+        "generator": 17,
+        "c0": "0",
+        "c1": "22072",
+        "c2": "330990",
+        "c2_mod_p": 3,
+        "symbols": 310,
+        "E_Fl_order": 296
+      },
+      "exact_local_recheck": {
+        "a_p": -8,
+        "cardinality_EFp": 40,
+        "ordinary": true,
+        "a_l": 16,
+        "l_minus_1_over_p": 10,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RESULT_P31.md",
+          "lines": [
+            1,
+            25
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt",
+        "sha256": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 37,
+      "result": "Sha[37-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 149,
+        "generator": 2,
+        "c0": "0",
+        "c1": "28860",
+        "c2": "762756",
+        "c2_mod_p": 1,
+        "symbols": 148,
+        "E_Fl_order": 160
+      },
+      "exact_local_recheck": {
+        "a_p": 10,
+        "cardinality_EFp": 28,
+        "ordinary": true,
+        "a_l": -10,
+        "l_minus_1_over_p": 4,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RESULT_P37.md",
+          "lines": [
+            1,
+            49
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt",
+        "sha256": "07f2a5e8e5c5cd93300ca1126e1255629c053a7279ff1210859560ab96e6b015",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 41,
+      "result": "Sha[41-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 83,
+        "generator": 2,
+        "c0": "0",
+        "c1": "-5904",
+        "c2": "-83420",
+        "c2_mod_p": 15,
+        "symbols": 82,
+        "E_Fl_order": 92
+      },
+      "exact_local_recheck": {
+        "a_p": 6,
+        "cardinality_EFp": 36,
+        "ordinary": true,
+        "a_l": -8,
+        "l_minus_1_over_p": 2,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RESULT_P41.md",
+          "lines": [
+            1,
+            47
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt",
+        "sha256": "385557f41b6fab7f5fb09963d4334a6e3d045d8cdb7f66210a3ef81a5d2d90dd",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 43,
+      "result": "Sha[43-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 173,
+        "generator": 2,
+        "c0": "0",
+        "c1": "-13072",
+        "c2": "-227412",
+        "c2_mod_p": 15,
+        "symbols": 172,
+        "E_Fl_order": 196
+      },
+      "exact_local_recheck": {
+        "a_p": -8,
+        "cardinality_EFp": 52,
+        "ordinary": true,
+        "a_l": -22,
+        "l_minus_1_over_p": 4,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RESULT_P43.md",
+          "lines": [
+            1,
+            39
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt",
+        "sha256": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 47,
+      "result": "Sha[47-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 283,
+        "generator": 3,
+        "c0": "0",
+        "c1": "27260",
+        "c2": "596378",
+        "c2_mod_p": 42,
+        "symbols": 282,
+        "E_Fl_order": 288
+      },
+      "exact_local_recheck": {
+        "a_p": 4,
+        "cardinality_EFp": 44,
+        "ordinary": true,
+        "a_l": -4,
+        "l_minus_1_over_p": 6,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RESULT_P47.md",
+          "lines": [
+            1,
+            25
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt",
+        "sha256": "5e9c034fd4be8c3147f72b3cdfb70c055a126f2c585fa84ce8b70aafb81297eb",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    },
+    {
+      "p": 83,
+      "result": "Sha[83-infinity]=0",
+      "method": "Ota singleton tame quadratic augmentation moment",
+      "trigger": {
+        "l": 167,
+        "generator": 5,
+        "c0": "0",
+        "c1": "-23240",
+        "c2": "-1049574",
+        "c2_mod_p": 44,
+        "symbols": 166,
+        "E_Fl_order": 168
+      },
+      "exact_local_recheck": {
+        "a_p": -8,
+        "cardinality_EFp": 92,
+        "ordinary": true,
+        "a_l": 0,
+        "l_minus_1_over_p": 2,
+        "reduced_p_torsion_zero": true
+      },
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_P83_CERTIFICATE_2026-10-13/REPORT.md",
+          "lines": [
+            1,
+            70
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_P83_CERTIFICATE_2026-10-13/production/p83_l167/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "output_binding": {
+        "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_P83_CERTIFICATE_2026-10-13/production/p83_l167/msl.txt",
+        "sha256": "b77ac22a524526d09080ad08c8a47e5a77a8ac2bc5687feb8fefcdbc97329342",
+        "matches_checker_field": true
+      },
+      "grade": "retained computer-assisted fixed-prime theorem; model review, with per-return scope limitations",
+      "dependencies": [
+        "retained rank two and saturated point basis",
+        "retained full residual and integral image",
+        "retained Manin/lattice and period conventions",
+        "retained local Tamagawa product16",
+        "Ota Theorems1.5/6.4 with order-of-vanishing input5.17",
+        "auxiliary ell=1 modp, v_p(ell-1)=1 and cyclic E(Fell)[p]"
+      ],
+      "shared_evidence": "same engine47d07f2e..., same fixed modular form, same period/lattice, overlapping Fourier coefficient corpus; downstream/checker replays are not new independent symbols",
+      "limitations": "No main conjecture or prior Sha finiteness assumed. Ordinary/supersingular both allowed. Numerical independence limited by common engine/corpus; no implication to other coefficient primes from this single conductor."
+    }
+  ],
+  "negative_runs": [
+    {
+      "run": "p29_l59",
+      "result": "INCONCLUSIVE_ZERO",
+      "p": 29,
+      "ell": 59,
+      "c2": "24360",
+      "c2_mod_p": 0,
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l59/RESULT_P29.md",
+          "lines": [
+            1,
+            35
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l59/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            19
+          ]
+        }
+      ],
+      "meaning": "valid mathematical zero at chosen auxiliary, not Sha nonzero"
+    },
+    {
+      "run": "p19_l191",
+      "result": "INVALID",
+      "p": 19,
+      "ell": 191,
+      "c2": null,
+      "c2_mod_p": null,
+      "source": [
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191/RESULT_P19_RUN1_INVALID.md",
+          "lines": [
+            1,
+            29
+          ]
+        },
+        {
+          "path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191/SINGLETON_REPORT.json",
+          "lines": [
+            1,
+            16
+          ]
+        }
+      ],
+      "meaning": "failed numerical identification; no witness value accepted"
+    }
+  ],
+  "additional_consequences": [
+    {
+      "type": "field_tower_not_new_coefficient_coverage",
+      "p": 5,
+      "statement": "E(Q_n)=E(Q), rank2, Sha(E/Q_n)[5-infinity]=0 for every cyclotomicZ5 finite layer",
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12/REPORT.md",
+      "new_arithmetic": "none: uses original L2,5 unit plus Greenberg finite-submodule exclusion"
+    },
+    {
+      "type": "reverse_deduction_not_new_coefficient",
+      "p": 17,
+      "statement": "v17(L2,17)=1",
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_VALUATION_MECHANISM_REVIEW_2026-10-13/REPORT.md",
+      "new_arithmetic": "none: inferred from prior Ota17 vanishing, matched regulatorvaluation1 and integral main conjecture"
+    },
+    {
+      "type": "descent_structural_experiment_not_new_primary_order",
+      "p": 3,
+      "statement": "four actual classes; unit/class excess dimensions1/1; complete norm-one unit componentrank2",
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/REPORT.md",
+      "new_arithmetic": "actual representative maps, units, local/norm matrices; does not independently prove higher3-primary order"
+    }
+  ],
+  "coefficient_primes_proved_zero": [
+    2,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    83
+  ],
+  "coefficient_primary_nonzero": {
+    "3": "(Z/3)^2"
+  },
+  "unresolved_explicit": [
+    53,
+    59,
+    487,
+    2243,
+    4547,
+    5843
+  ],
+  "eligibility_only_not_coverage": [
+    89,
+    113
+  ],
+  "infinite_unresolved": [
+    "ordinary coefficient-prime tail",
+    "supersingular coefficient-prime tail"
+  ],
+  "endpoint_effect": "No new prime; FIN ORDER9 Q36 unchanged",
+  "search_scope": [
+    "canonicalDAG and subordinatePARTS_MAP",
+    "all current top-level lab return REPORT.md files for later89/113/53 coverage",
+    "historical singleton seed RESULT and checkerJSON files",
+    "specific original5/7/11/13/3 theorems"
+  ],
+  "not_claimed": "No completeTB/archive audit, no numericalproduction replay, no independent recertification of imported theorem hypotheses."
+}

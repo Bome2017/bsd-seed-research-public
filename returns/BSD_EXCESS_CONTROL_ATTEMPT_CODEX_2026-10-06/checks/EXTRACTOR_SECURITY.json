@@ -1,0 +1,32 @@
+[
+  {
+    "case": "parent_path",
+    "rejected": true,
+    "diagnostic": "ValueError: unsafe member name: ../escape"
+  },
+  {
+    "case": "absolute_path",
+    "rejected": true,
+    "diagnostic": "ValueError: unsafe member name: /escape"
+  },
+  {
+    "case": "backslash",
+    "rejected": true,
+    "diagnostic": "ValueError: unsafe member name: root/..\\escape"
+  },
+  {
+    "case": "symlink",
+    "rejected": true,
+    "diagnostic": "ValueError: non-regular ZIP member: root/link"
+  },
+  {
+    "case": "duplicate",
+    "rejected": true,
+    "diagnostic": "ValueError: duplicate ZIP path: root/a"
+  },
+  {
+    "case": "digest_mismatch",
+    "rejected": true,
+    "diagnostic": "ValueError: archive binding mismatch: probe.zip"
+  }
+]

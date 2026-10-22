@@ -1,0 +1,3 @@
+  ***   variable name expected: ...gp");N=poldegree(NF.pol);
+  ***   I=matid(N);seen=Map()
+  ***   ^---------------------

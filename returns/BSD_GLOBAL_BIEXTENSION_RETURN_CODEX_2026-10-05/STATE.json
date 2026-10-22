@@ -1,0 +1,26 @@
+{
+  "status": "NO_GLOBAL_SCALAR_CONSTRUCTED",
+  "date": "2026-10-05",
+  "input_sha256": "88cbfaf0217dd23e8d24a247434bbb75530282cd79cb97d26a75ebfd73a8b2fc",
+  "target": "Cofinite seed primary vanishing via a nonzero rational scalar matching the actual tame regulator and Mazur-Tate coefficient",
+  "result": "Explicit Neron fiber construction and corrected determinant carrier; modular section and global scalar not constructed",
+  "review_grade": "Written derivation under named retained inputs; same-worker checked; independent review pending",
+  "new_seed_primary_result": false,
+  "new_uniform_input": false,
+  "historical_carrier_collision": "Squared MW determinant line and LINE already present in September 18/19 record",
+  "checks": {
+    "input_manifest": "3/3",
+    "rational_points_crosschecked": 7,
+    "fiber_normalizers": 4,
+    "retained_pairing_cases": 3,
+    "retained_symbols_recombined": 102,
+    "symbolic_GL2_identity": true,
+    "primitive_integral_kernel": true
+  },
+  "endpoints": {
+    "FIN": "OPEN",
+    "ORDER9": "OPEN",
+    "Q36": "OPEN"
+  },
+  "publication": "Sealed-copy lab publication authorized; custody is recorded outside the sealed return"
+}

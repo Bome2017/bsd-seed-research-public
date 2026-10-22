@@ -1,0 +1,19 @@
+{
+  "scope": "v0.2.1 applied corrections and current navigation; old reviews and supplement retain their original grades. Excludes self, final PDF, source stamp and run logs, which are covered by the final root manifest.",
+  "files": {
+    "README.md": "96d900d73f48cf2e6ed56719816c34f1d8a430a1acfb1913f003802e17f356f8",
+    "SHARING.md": "ed01ac5e0f9e6529be67298fa7306eaef7f4a255110fc7600af7d45c7011a00c",
+    "RECHECK_V0_2_1.md": "c65e491d46804dd76b4d32ac58b533a643f2a5155b9c2927e60ce7be258a7710",
+    "paper/seed_bsd.tex": "b1c527650385d1faa8d4b13376c42199cc6c548998550dbda20d77e8b663ba6a",
+    "paper/refs.bib": "c8dc232a5b63ebb398c7da40e935e9dd9820144f4a0a053b0d060838ce3f4b2a",
+    "paper/sections/03_rank.tex": "b99b0ed8f5f084c1b4b2904ef3f6c328a56c99e10fbf7a0d6aaf2640e52d8f4f",
+    "paper/sections/F_lattice_proof.tex": "eab78bd1672902101facd2e6eb2fa22f19c1b63ebb41028971f9c375e112eeca",
+    "tools/verify_patch_release.py": "8eac8d5602193fce268debaaeb6c86b56a0b34ae4781db710f0656064c22336e",
+    "review/PATCH_APPLIED.json": "5de09ca7c90e86f7fe5eb6721767510fbf360719ba6efa0d2908b86fde2c8a36",
+    "review/SECOND_REVIEW_BINDINGS.json": "e845133ec77028b65035164bf2431f3437a848f335f4842c9402962964cb21ab",
+    "review/history/v0.2.0/SECOND_REVIEW_BINDINGS.json": "5c47a66330d3a8a4bc6979124cdb222ddb3fec5591856bb1d7901fbc293cd93d",
+    "review/history/v0.2.0/SHARING.md": "f389c9007756e47dad45b7f827beae0b9e92d5f7386545bb06e2701938c92bc8",
+    "review/pro6_v020/AUDIT_FILES.sha256": "273724e0e1141b28cbf4d2de7f6e73f7f10687266455155cdd00fc6ed68dc737",
+    "supplements/coverage-2026-09-23/MANIFEST.sha256": "c753e25d1c74338453e797e10e17802b9dc3ac9f336ce01e5d9da9e0ebdaa257"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "transport": "MOCKED_LOCAL_CAPTURE_NO_NETWORK",
+  "request_body": {
+    "prompt": "Read TASK.md. Perform only the tiny nested-reading runtime test, return its three result files, and stop. Do not start BSD research.",
+    "agent_questions_setting": 1
+  },
+  "upload_name": "project.tar.gz",
+  "payload_bytes": 3739,
+  "payload_sha256": "b34cc230861ac6de3ae79ba5a240b81502bff248b130bf98eabc040234b47af1",
+  "sdk_limit_bytes": 104857600,
+  "all_project_files_in_sdk_payload": true,
+  "files_verified": 4,
+  "source_file_sha256": {
+    "prepare_reference.py": "ebf8a3b580141ba8c29af350d25ac85f6e81589d95a515ddb00a06b62f156327",
+    "READING_SET_BINDING.json": "f7078c131622347f907a55d6b514470771a1f7fb3514165b57de84fce672c285",
+    "TASK.md": "c94d8c2bfe62983be7830a3d74a4eef52ff470db1c94a8e23656edecccb9051a",
+    "payload/COMPLETE_READING_SET.zip": "b3758b68ccc9064df9713b0a6ae5e6e6cc29d94470e7603ca31c26555a8de22c"
+  },
+  "oversize_rejection_control": "File /var/folders/kp/6_xhp0jd2bngj728lwbzkl7w0000gn/T/tmpb12gxuws/synthetic_oversize.bin is too large (104857601 bytes). Maximum allowed size is 104857600 bytes.",
+  "reading_set_extraction": {
+    "status": "READING_SET_VERIFIED",
+    "members_checked": 3,
+    "path": "temporary offline extraction; original files unchanged"
+  },
+  "sdk_distribution": {
+    "version": "2.1.0",
+    "author": "Harmonic",
+    "filename": "aristotlelib-2.1.0-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/c5/63/1d25b34c331deee0e667881f81b5760d4d9c10f4f787cb8c6e0992ed5c16/aristotlelib-2.1.0-py3-none-any.whl",
+    "sha256": "f290c8e0b74b15b5b5b432db6dd7915adc8f49fe83efef0fd2f2ea53b5c33555"
+  },
+  "status": "OFFLINE_SDK_PACKAGING_AND_READING_SET_VERIFIED",
+  "server_submission": false,
+  "real_project_created": false,
+  "server_acceptance_or_quota_tested": false,
+  "mathematical_proof_verified_by_this_check": false
+}

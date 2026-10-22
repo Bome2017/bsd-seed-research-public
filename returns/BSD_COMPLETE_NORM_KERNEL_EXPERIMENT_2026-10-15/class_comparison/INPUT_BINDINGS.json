@@ -1,0 +1,37 @@
+[
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/seed3/matrices.json",
+    "copy": "inputs/seed3_matrices.json",
+    "sha256": "31135567952d2246bc76e81cad24db1f25da6bd849b9fc68b8b049be7f888ed1"
+  },
+  {
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/seed3/coordinates.json",
+    "copy": "inputs/seed3_coordinates.json",
+    "sha256": "cf5b22b4d52fd9544c3ce2708d894028058334b6c7dcf73763216ca2ea3a9e20"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/matrices.json",
+    "copy": "inputs/28042a1_matrices.json",
+    "sha256": "3b146b3ef35cddcb99b00c37b3e8ee02cc59543387bd00ba1763224df31d5dde"
+  },
+  {
+    "source": "/Users/bsm/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/local_signatures/28042a1/coordinates.json",
+    "copy": "inputs/28042a1_coordinates.json",
+    "sha256": "bb298ed163c7f2268defc6d51baca50bc96b00eb5261ec5743b46c0f8e0201f2"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/PROOF.md",
+    "copy": "inputs/seed_unit_proof.md",
+    "sha256": "9be777e80c23b898bd42b0d5b12b6c4d34828597f17b01cce3c2cef4d081f2fd"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/reviewer/REPRESENTATION_SCREEN.md",
+    "copy": "inputs/seed_unit_exhaustion_review.md",
+    "sha256": "96d043106d82a35f71c00abea290ad1dcb0f9235a936171b48815933f1581397"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/28042a1/RESULT.md",
+    "copy": "inputs/28042_grade.md",
+    "sha256": "dae338860e57ee5f78051c9ef330ae755c556d07d2244c27ee55ba26bb780b36"
+  }
+]

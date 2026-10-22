@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "date": "2026-10-11",
+  "return": "BSD_NEW_SOURCE_DELTA_CODEX_2026-10-11",
+  "baseline_lab": "006c407c848e25eadfc7acc2c3a830196e7eed27",
+  "manifest_entries": 29,
+  "archive_entries": 30,
+  "archive_bytes": 49102,
+  "archive_sha256": "87a617410d1ac2f2e6595c83959f54be17abdda1b3b19c0b0c730c999d503817",
+  "archive_integrity": "PASS",
+  "copied_manifest": "PASS",
+  "archive_bytes_equal_source": "PASS",
+  "external_full_sources_published": false,
+  "mathematical_validation": "targeted reading and arithmetic screen only; not theorem certification",
+  "endpoints_changed": false
+}

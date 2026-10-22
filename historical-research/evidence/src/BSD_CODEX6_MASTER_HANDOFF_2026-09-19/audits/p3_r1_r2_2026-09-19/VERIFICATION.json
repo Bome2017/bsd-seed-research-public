@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-09-20T00:40:15.620212+00:00",
+  "result": "INTEGRITY_PASS_AND_WRITTEN_PROOF_COMPLETED",
+  "proof_grade": "Written mathematical proof with primary-source checks and self-review; no independent referee acceptance or proof-assistant verification.",
+  "proof_file": "R1_R2_THEOREM.md",
+  "proof_sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+  "original_source_inputs_unchanged": true,
+  "original_p3_manifest_entries_verified": 18928,
+  "downloaded_originals_checked": 17,
+  "source_files_manifest_checked": 47,
+  "prior_master_archive": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/provenance/before_p3_r1_r2_20260920T003530Z.tar.gz",
+  "prior_master_archive_sha256": "0633e0a4c1208982c59186e2ddb1d9156827afa1f1226e256c6ecd2bf2aef13b",
+  "reviewed_mathematical_steps": [
+    {
+      "id": "R1-SOURCE",
+      "status": "CHECKED",
+      "location": "Theorem section 2.1",
+      "basis": "Jones author copy pp.3-5,8,11-12,17-18; Jones 1990 Theorem 4.3; SW 4.2 and 6.1"
+    },
+    {
+      "id": "R1-NONCIRCULAR",
+      "status": "WRITTEN_PROOF",
+      "location": "Theorem (2.1)-(2.4)",
+      "basis": "No torsion over Q_infinity; Selmer restriction injection; Kummer corank; characteristic order bounds"
+    },
+    {
+      "id": "R1-NORMALIZATION",
+      "status": "CHECKED",
+      "location": "Theorem (2.5)",
+      "basis": "Nonsplit local unit; Reg3/(log3(4))^2; retained v3(Reg3)=2 and coefficient valuation 2"
+    },
+    {
+      "id": "R2-MULTIPLICITY",
+      "status": "CHECKED",
+      "location": "Theorem 3.1",
+      "basis": "Wiles 2.1(ii) and corollaries; published p>=3 read from page image; p=3 distinguished and ordinary"
+    },
+    {
+      "id": "R2-CHARACTER",
+      "status": "WRITTEN_PROOF",
+      "location": "Theorem 3.2",
+      "basis": "Actual J[m] has dimension 2; ramified q-inertia invariants have dimension 1; Nakayama and faithful q-new action"
+    },
+    {
+      "id": "R2-DEFINITE",
+      "status": "WRITTEN_PROOF",
+      "location": "Theorem 3.3",
+      "basis": "Ribet integral supersingular description; evaluation duality and Gorenstein; order-three stabilizers excluded by cyclic 2-level"
+    },
+    {
+      "id": "R2-CONGRUENCE",
+      "status": "WRITTEN_PROOF",
+      "location": "Theorem 3.4",
+      "basis": "Elementary perfect balanced pairing lemma and primitive eigenline"
+    },
+    {
+      "id": "R2-PERIOD",
+      "status": "WRITTEN_PROOF_WITH_SOURCE_CROSS_CHECK",
+      "location": "Theorem 3.5",
+      "basis": "Prime-to-3 trace index; primitive cohomology pairing; Riemann bilinear identity; SU 12.2.2 normalization"
+    },
+    {
+      "id": "R2-MU",
+      "status": "CHECKED",
+      "location": "Theorem 3.6",
+      "basis": "CH Theorem C/5.7 correct hypotheses; p-split Gauss-sum product; SU 12.3.5 Euler factors"
+    },
+    {
+      "id": "SCOPE",
+      "status": "PRESERVED",
+      "location": "Theorem 1 and 5",
+      "basis": "No global FIN, order-nine, or scalar closure; other upstream inputs retained"
+    }
+  ],
+  "machine_check_scope": "Hashes, source byte identity, preservation and document syntax only; mathematical statuses record written proof review, not a software proof check.",
+  "independent_reviewer": false,
+  "formal_verification": false,
+  "arithmetic_rerun": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "date": "2026-10-15",
+  "new_arithmetic": "Six sourceblind433split-prime blocks;624exact literal source-character checks",
+  "full_source_controls": [
+    "1913b1",
+    "389a1",
+    "433a1"
+  ],
+  "conditional_or_incomplete": [
+    "seed3",
+    "28042a1"
+  ],
+  "known_excess_columns_used_for_kernel": false,
+  "exact_global_norm_maps": "Imported and hash-bound from parallel full-source calculations",
+  "replay": "BYTE_IDENTICAL",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

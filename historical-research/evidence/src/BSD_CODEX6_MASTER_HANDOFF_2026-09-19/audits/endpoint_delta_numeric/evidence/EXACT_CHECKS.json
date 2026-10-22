@@ -1,0 +1,18 @@
+{
+  "class": "Fricke symmetrization of one vertex spherical line; fixed away-from-p data and constant-term normalization",
+  "endpoint_divisor_count": 64,
+  "endpoint_coefficients_equal_original_formula_13": true,
+  "averaging_factor": "1/2",
+  "retained_inputs_sha256_all_unchanged": true,
+  "two_representations_both_exclude_zero": true,
+  "other_linear_combinations_tested": false,
+  "vertex_Fricke_orbits": [
+    [
+      0,
+      2
+    ],
+    [
+      1
+    ]
+  ]
+}

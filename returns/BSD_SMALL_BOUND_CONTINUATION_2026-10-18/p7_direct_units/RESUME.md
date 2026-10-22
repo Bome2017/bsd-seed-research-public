@@ -1,0 +1,1 @@
+Completed finite search, no improved bound. Read REPORT.md and STATE.json. No jobs running. Do not rerun BNF or these same2000 candidates. Prior p7_arithmetic remains sealed. The S-unit source repair was executed and gave only1; broader ideal-cancellation scan gave no nontrivial unit. All failed attempts and their elapsed time are retained.

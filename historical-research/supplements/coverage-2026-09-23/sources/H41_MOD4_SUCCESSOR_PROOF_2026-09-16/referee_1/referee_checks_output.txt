@@ -1,0 +1,20 @@
+A. Ligozat: div F = (l^2-1)([0]-[inf]) (8 cusps of X0(6l)); div F_p = ((p^2-1)/8)([0]-[inf]) (4 cusps of X0(2p)): True
+B. pos m=3 N=66: theta_0=-120, theta_1=-67, theta_2=-131, a_2=1, a_3=-1; theta_n = +a_n mod 4 (1<=n<=200), 8|theta_0: True
+B. pos m=5 N=258: theta_0=-1848, theta_1=-259, theta_2=-515, a_2=1, a_3=-1; theta_n = +a_n mod 4 (1<=n<=200), 8|theta_0: True
+B. pos m=7 N=114: theta_0=-360, theta_1=-115, theta_2=-227, a_2=1, a_3=-1; theta_n = +a_n mod 4 (1<=n<=200), 8|theta_0: True
+B. neg m=3 N=62: theta_0=-120, a_2=1, a_3=0; theta_n = -a_n mod 4 (1<=n<=200), 8|theta_0: True
+B. neg m=5 N=254: theta_0=-2016, a_2=1, a_3=0; theta_n = -a_n mod 4 (1<=n<=200), 8|theta_0: True
+C. master-map minimal models: Delta formulas, integrality, c4 odd, n_E=4(m-2), n_B=2(m-2), n_F=n_G=m-2 (eps=+-1, m=3..15): True
+C. Phi_2 self-tests: True ; Phi_2(j_P,j_Q)=0 identically in r: {'EB': True, 'BF': True, 'BG': True, 'EF': False, 'EG': False, 'FG': False}
+D. BH(v) Frobenius exclusions on the minimal model, all odd m: True [('neg', 3, 0), ('neg', 5, -2), ('neg', 5, 2), ('pos', 5, -2), ('pos', 5, 2), ('pos', 7, -4), ('pos', 7, 0), ('pos', 7, 4)]
+E. v2(#E(F_q)) = 2, (r/q) = -1, a_q = 2 mod 8 at 210 retained (eps,m,q), q<1200: True
+F. 62a1 [1,-1,1,-1,1]: Omega_R=4.434962641447 L=1.108740660361 lambda~0.2500000000 4*lambda~1.000000000
+F. 66b1 [1,1,1,-2,-1]: Omega_R=4.408770120486 L=1.102192530121 lambda~0.2500000000 4*lambda~1.000000000
+F. 114c1 [1,1,1,-352,-2431]: Omega_R=1.110178985461 L=1.387723731826 lambda~1.250000000 4*lambda~5.000000000
+F. 254d1 [1,-1,1,-19,51]: Omega_R=2.699610027209 L=2.024707520407 lambda~0.7500000000 4*lambda~3.000000000
+F. 258d1 [1,1,1,-24,-39]: Omega_R=2.217121680165 L=1.662841260124 lambda~0.7500000000 4*lambda~3.000000000
+F. 4098f1 [1,1,1,-5504,-155359]: Omega_R=0.555292592869 L=0.971762037522 lambda~1.750000000 4*lambda~7.000000000
+F. 16382b1 [1,-1,1,-87211,10000251]: Omega_R=0.520775334593 L=1.171744502836 lambda~2.250000000 4*lambda~9.000000000
+F. 16386a1 [1,1,1,-87552,-9942111]: Omega_R=0.277671710090 L=5.622852129322 lambda~20.25000000 4*lambda~81.00000000
+F. 262142c1 [1,-1,1,-22366891,40737565051]: Omega_R=0.160823866263 L=4.704098088214 lambda~29.25000000 4*lambda~117.0000000
+F. 262146b1 [1,1,1,-22372352,-40722653791]: Omega_R=0.069419913501 L=0.225614718878 lambda~3.250000000 4*lambda~13.00000000

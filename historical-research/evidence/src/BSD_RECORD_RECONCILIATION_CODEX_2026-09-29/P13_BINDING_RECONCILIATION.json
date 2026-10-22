@@ -1,0 +1,30 @@
+{
+  "result": "THREE_STALE_BINDINGS_RECONCILED",
+  "checks": [
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+      "previous_sha256": "a7803c1b5b22f8d4793925cae45d56b6e9b1520d5e6f710d0198712c35b59155",
+      "accepted_sha256": "4bb78c75aa1f9ff1b07b4c758af7a5a7fa3681c151a7fb239165765934784317",
+      "release_copy": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+      "retained_role": "Preserved external result; 7/8 values and unresolved normalization superseded by P13 theorem",
+      "provenance_binding_check": "CHANGED_SINCE_MASTER_BINDING"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/STATE.json",
+      "previous_sha256": "b5548dd1204fc1ea96da7956ec21766e0a428db0b0ebc95325f3de2c71f39dc7",
+      "accepted_sha256": "0e79378b7f14931479d947eb970ad0cb2093b69d926a17f96c03ef28a8cc3703",
+      "release_copy": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/evidence/src/BSD_SEED_P13_RUN_2026-09-21/STATE.json",
+      "retained_role": "Preserved external execution checkpoint; local completion governs current status",
+      "provenance_binding_check": "CHANGED_SINCE_MASTER_BINDING"
+    },
+    {
+      "path": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/RESUME.md",
+      "previous_sha256": "7d04b7381c3cc06fc3f9d75e9ffbc6cfcfe7bb64cdc0f8a4c4e387408fd4e45e",
+      "accepted_sha256": "02d0a77aff5f3014c8f6ffed4c747ec0c3be73afa45027ac1ce7d68f676fe9a9",
+      "release_copy": "/Users/bsm/BSD_SEED_V024_PERIMETER_2026-09-25/repo/evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESUME.md",
+      "retained_role": "Historical stale restart/downstream instructions; completed local result supersedes them",
+      "provenance_binding_check": "CHANGED_SINCE_MASTER_BINDING"
+    }
+  ],
+  "scope": "Direct read of current status and normalization supersession plus exact release-copy/provenance/manifest match. Not new certificate mathematics."
+}

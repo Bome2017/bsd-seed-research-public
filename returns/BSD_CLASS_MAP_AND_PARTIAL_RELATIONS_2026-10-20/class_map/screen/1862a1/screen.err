@@ -1,0 +1,11 @@
+  ***   at top-level: FD=field3(E);B=bnfinit(FD[1],1);ix=select(i->B
+  ***                    ^-------------------------------------------
+  ***   in function field3: ...ible(g)||poldegree(g)!=8,error("field3: rho-ba
+  ***                                                   ^---------------------
+  ***   user error: field3: rho-bar_3 not transitive on E[3]-{0}
+  ***   at top-level: nf=B.nf;T=torsT(E,nf);tau=tauL(nf,E,T);CA=matr
+  ***                      ^-----------------------------------------
+  *** _.nf: incorrect type in nf (t_POL).
+  ***   at top-level: ...1,#ix,my(J=idealpow(nf,B.gen[ix[j]],B.cyc[ix[j
+  ***                                             ^---------------------
+  *** _.gen: incorrect type in clgp (t_POL).

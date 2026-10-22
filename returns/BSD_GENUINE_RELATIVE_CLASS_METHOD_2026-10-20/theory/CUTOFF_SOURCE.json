@@ -1,0 +1,24 @@
+{
+  "cutoff": 419775,
+  "status": "RETAINED_SOFTWARE_GRH_BOUND_NOT_UNCONDITIONAL_GENERATION",
+  "official_source_url": "https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.17.3.tar.gz",
+  "official_archive_binding_retained": {
+    "official_url": "https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.17.3.tar.gz",
+    "archive_sha256": "8d9c4fcd584c468d27e0f23c36836587284452094c4b1c404c20c4b810462dcb",
+    "member": "pari-2.17.3/src/basemath/buch2.c",
+    "source_sha256": "904ced8034732c7fcfe1da393e23950aac0862b085150fdc24ce1e31beb7d1ac",
+    "source_matches_official_archive": true
+  },
+  "inputs": {
+    "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/buch2.original.c": "904ced8034732c7fcfe1da393e23950aac0862b085150fdc24ce1e31beb7d1ac",
+    "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/SOURCE_BINDING.json": "b343ceae5e74e26c8b6cc70bfb44fb05b86f4ad888e720d1fc8ad9e5d763acb6",
+    "/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/memory_diagnosis/unmodified_small_base.err": "e1fa53c6ad70dc8b51e2424e01a9bbb7e5adc2abd6c54d6757ad3d0560803242"
+  },
+  "source_lines": [
+    3809,
+    3819
+  ],
+  "fresh_archive_download": false,
+  "GRH_checker_independently_recomputed": false,
+  "unconditional_BDDF_test": "BDDF_RESULT.json"
+}

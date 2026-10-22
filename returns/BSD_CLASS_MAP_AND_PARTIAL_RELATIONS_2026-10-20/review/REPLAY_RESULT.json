@@ -1,0 +1,20 @@
+{
+  "class_map_seal_entries": 5,
+  "partial_relations_seal_entries": 5,
+  "exact_norm_stripping_rows": 14326,
+  "deterministic_selected_rows": 80,
+  "distinct_abs_norms": 14326,
+  "private_one": 0,
+  "fully_smooth": 0,
+  "shared_nontrivial": 5519,
+  "batch_gcd_independent_rows": 15,
+  "class_panel_status": {
+    "screened": 59,
+    "rejected": 5
+  },
+  "class_dim_distribution": {
+    "0": 45,
+    "1": 14
+  },
+  "scope": "Saved-output replay and exact integer identities; no BNF rerun, class certification, source search, or new seed arithmetic."
+}

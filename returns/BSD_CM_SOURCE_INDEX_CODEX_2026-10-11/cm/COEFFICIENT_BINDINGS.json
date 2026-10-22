@@ -1,0 +1,14 @@
+[
+  {
+    "file": "C_coefficients.json.gz",
+    "vector_sha256": "801e944b94a70cecedcd361a4abbac686055ca1abb06c7b0e3476d265ce007ab",
+    "file_sha256": "38fdee81d8db202f3f6d64b91ee79262ba2b4ad3063e92a1f7fe8dc6e4a58677",
+    "cutoff": 12000
+  },
+  {
+    "file": "C_twist_minus19_coefficients.json.gz",
+    "vector_sha256": "a44455c8bfc37f6abb1627d3c72510314271a176f1ed657d60cf718ff020bee9",
+    "file_sha256": "5b79dc3e2acbc84a4b734147178b0ea0f2bfd3ffdab25b6a61fe7e6642b06f8d",
+    "cutoff": 120000
+  }
+]

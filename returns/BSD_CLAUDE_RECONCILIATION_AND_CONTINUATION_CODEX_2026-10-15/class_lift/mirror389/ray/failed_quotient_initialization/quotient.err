@@ -1,0 +1,28 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: ...t(vector(#LI,j,vector(#LI[j][2],i,LI[j][2][i][
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: ...ix(#PRS,2,i,j,if(j==1,PRS[i],DEP[i]));KG=List(
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: ...alstar(nf,idealpow(nf,PRS[i],DEP[i]),2));if(BI
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: ...(SELECT3);KS=matrix(#RAY.cyc,#SEL,i,j,KG[i,SEL
+  ***                                             ^---------------------
+  *** _.cyc: incorrect type in clgp (t_POL).
+  ***   at top-level: ...lect(a->a>1,KINDEX)!=[3],error("residue kernel
+  ***                                             ^---------------------
+  ***   user error: residue kernel image index not3
+  ***   at top-level: ...f(RAWREL);ALLOW=KS*lift(C[11]);FINALREL=mathnf
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: if(select(a->a>1,FINALSN)!=[3,3,3,3],error("ac
+  ***                    ^-------------------------------------------
+  *** select: incorrect type in select (t_POL).
+  ***   at top-level: ...3*KG,ALLOW]),vector(#RAY.cyc),3*RC)==0,error("
+  ***                                             ^---------------------
+  *** _.cyc: incorrect type in clgp (t_POL).
+  ***   at top-level: BC=lift(C[10]);BR=KS*BC;RB=RR[3];if(matsolvemo
+  ***                          ^-------------------------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).

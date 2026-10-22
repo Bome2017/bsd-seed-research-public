@@ -1,0 +1,12 @@
+  ***   at top-level: Hv=10.5;ev=enumpts(Hv)
+  ***                            ^-----------
+  ***   in function enumpts: ...getabstime()-t0," hash=",hash(Str(pts))));ck_d
+  ***                                                    ^---------------------
+  ***   not a function in function call
+... skipping file 'scripts/s07b_Eprime_enum.gp'
+  ***   at top-level: bf=List();eHv=floor(exp(Hv))
+  ***                               ^--------------
+  *** floor: incorrect type in gfloor (t_SER).
+  ***   at top-level: for(e=1,sqrtint(eHv),for(mm=-eHv,eHv,if(gcd(mm
+  ***                         ^--------------------------------------
+  *** sqrtint: incorrect type in sqrtint (t_POL).

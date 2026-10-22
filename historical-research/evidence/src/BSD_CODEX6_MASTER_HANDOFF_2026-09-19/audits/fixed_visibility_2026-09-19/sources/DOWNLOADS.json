@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/2402.07317",
+      "file": "Tamiozzo_2402.07317.pdf",
+      "sha256": "e69171ff8a6760c2a4fd912531bd836e6489d0215502b02cec45528e0c27edfb",
+      "bytes": 326017
+    },
+    {
+      "url": "https://archive.intlpress.com/site/pub/files/_fulltext/journals/cjm/2014/0002/0002/CJM-2014-0002-0002-a002.pdf",
+      "file": "Zhang2014_published.pdf",
+      "bytes": 565064,
+      "sha256": "698eb8a6d2297684c683c4c3f43a195cac1d8752ef0c8362ab90c74f5b3792ec"
+    }
+  ]
+}

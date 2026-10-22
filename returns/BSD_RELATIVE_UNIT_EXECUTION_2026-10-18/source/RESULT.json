@@ -1,0 +1,113 @@
+{
+  "status": "NO_AUTHENTICATED_RELATIVE_UNIT_IN_BOUNDED_SEARCH",
+  "curve": "-47 quadratic twist of 11a1",
+  "curve_model": [
+    0,
+    -1,
+    1,
+    -22826,
+    2411880
+  ],
+  "coefficient_prime": 7,
+  "field_degree": 48,
+  "stable_ideals": 14,
+  "archimedean_pairs": 12,
+  "planned_stages": 1344,
+  "completed_stages": 1317,
+  "distinct_mixed_exact_norm_tests": 14326,
+  "last_completed_stage_norm_tests": 14326,
+  "partial_stage_norm_tests": 0,
+  "pure_candidate_skips": 17281,
+  "duplicate_mixed_skips": 1,
+  "assigned_ideal_generator_admissions": 0,
+  "minimum_exact_norm_ratio": 801129246295188925,
+  "minimum_record": [
+    801129246295188925,
+    667,
+    3,
+    16,
+    9,
+    1,
+    -37653074575873879475
+  ],
+  "minimum_by_amplitude_index": {
+    "1": [
+      498475201232597603843,
+      223,
+      1,
+      16,
+      13,
+      14,
+      5373171530252775785833134909347
+    ],
+    "2": [
+      104994604857838288748885,
+      441,
+      2,
+      16,
+      7,
+      6,
+      -186004347176556856654263459485
+    ],
+    "3": [
+      801129246295188925,
+      667,
+      3,
+      16,
+      9,
+      1,
+      -37653074575873879475
+    ],
+    "4": [
+      7711579065407056043263,
+      756,
+      4,
+      6,
+      14,
+      1,
+      83124771272631232126302616778527
+    ],
+    "5": [
+      1329491154167518816429,
+      971,
+      5,
+      6,
+      5,
+      1,
+      160868429654269776787909
+    ],
+    "6": [
+      2787233517995085486875,
+      1207,
+      6,
+      7,
+      3,
+      1,
+      -327915236158603812445356875
+    ]
+  },
+  "actual_principal_ideal_panel": 20,
+  "actual_principal_tau_stable": 0,
+  "relative_units_admitted": 0,
+  "complete_source_bound": null,
+  "class_group_bound": null,
+  "search_wall_seconds": 177.110361078,
+  "search_stop": "INTERNAL_ALARM_NO_SCHEDULE_COMPLETION_MARKER",
+  "adaptation_wall_seconds": 2.763006635,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "paired_comparisons": 380,
+  "paired_ideal_matches": 0,
+  "paired_check_wall_seconds": 0.212946035,
+  "anti_divisor_columns": 20,
+  "anti_divisor_prime_rows": 127,
+  "anti_divisor_rank_Q": 20,
+  "anti_divisor_rank_F7": 20,
+  "anti_divisor_integer_kernel_dimension": 0,
+  "anti_divisor_scope": "Exactly twenty beta_i=alpha_i/tau(alpha_i), not their full scalar closure",
+  "anti_divisor_factor_and_kernel_wall_seconds": 25.195205614,
+  "anti_divisor_finalization_wall_seconds": 0.109695428,
+  "anti_divisor_complete": true,
+  "anti_divisor_export_error": "Empty zero-column exporter failed after saved full matrix; finalization replay repaired without refactorization"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "ALL_FRESH_LITERAL_NORMS_AND_ROWS_REPLAYED",
+  "count": 40,
+  "affine_norm_products": 320,
+  "nonzero_sum_triples": 1280,
+  "survivor_primes": [
+    51439,
+    56701,
+    58237
+  ],
+  "inputs": [
+    {
+      "path": "frobenius/norm.json",
+      "sha256": "0165ead00d24d125ed8b017e20c3e49aa09d21c3f94e136c91087412f56b6419"
+    },
+    {
+      "path": "frobenius/FRESH_RESULTS.json",
+      "sha256": "ed3ad70c07f5b7c887cfde55df71db5e450d1e004a5e7ba50784ab3c7ae61a3a"
+    },
+    {
+      "path": "frobenius/NORM_PREDICTIONS.json",
+      "sha256": "5d08db186abe3a9b39e2d4be807f43ae2d08bc603bc2be37d03bb6d3026100f5"
+    }
+  ],
+  "scope": "Exact rational-polynomial reductions and finite-field arithmetic; the number-field norm identity and Chebotarev theorem are separate written arguments."
+}

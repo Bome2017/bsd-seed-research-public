@@ -1,0 +1,475 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "p": 5,
+      "precision": 4,
+      "idempotent_denominator_unit": true,
+      "characters": [
+        {
+          "k": 1,
+          "inverse_k": 3,
+          "full_rank": 6,
+          "full_mod_p_kernel": 2,
+          "real_rank": 3,
+          "real_geometric_index": 1,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              443,
+              181
+            ],
+            [
+              1,
+              181,
+              443
+            ]
+          ]
+        },
+        {
+          "k": 3,
+          "inverse_k": 1,
+          "full_rank": 6,
+          "full_mod_p_kernel": 4,
+          "real_rank": 3,
+          "real_geometric_index": 2,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              182,
+              442
+            ],
+            [
+              1,
+              442,
+              182
+            ]
+          ]
+        }
+      ],
+      "sum_geometric_indices": 3,
+      "arithmetic_unit_index": null
+    },
+    {
+      "p": 7,
+      "precision": 4,
+      "idempotent_denominator_unit": true,
+      "characters": [
+        {
+          "k": 1,
+          "inverse_k": 5,
+          "full_rank": 8,
+          "full_mod_p_kernel": 2,
+          "real_rank": 4,
+          "real_geometric_index": 1,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              1047,
+              1047,
+              306
+            ],
+            [
+              1,
+              1047,
+              306,
+              1047
+            ],
+            [
+              1,
+              306,
+              1047,
+              1047
+            ]
+          ]
+        },
+        {
+          "k": 3,
+          "inverse_k": 3,
+          "full_rank": 8,
+          "full_mod_p_kernel": 4,
+          "real_rank": 4,
+          "real_geometric_index": 2,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              2399,
+              0
+            ],
+            [
+              1,
+              2399,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              1,
+              2399
+            ]
+          ]
+        },
+        {
+          "k": 5,
+          "inverse_k": 1,
+          "full_rank": 8,
+          "full_mod_p_kernel": 6,
+          "real_rank": 4,
+          "real_geometric_index": 3,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              1353,
+              1353,
+              2095
+            ],
+            [
+              1,
+              1353,
+              2095,
+              1353
+            ],
+            [
+              1,
+              2095,
+              1353,
+              1353
+            ]
+          ]
+        }
+      ],
+      "sum_geometric_indices": 6,
+      "arithmetic_unit_index": null
+    },
+    {
+      "p": 11,
+      "precision": 4,
+      "idempotent_denominator_unit": true,
+      "characters": [
+        {
+          "k": 1,
+          "inverse_k": 9,
+          "full_rank": 12,
+          "full_mod_p_kernel": 2,
+          "real_rank": 6,
+          "real_geometric_index": 1,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              12678,
+              7824,
+              4749,
+              8882,
+              9789
+            ],
+            [
+              1,
+              7824,
+              8882,
+              9789,
+              4749,
+              12678
+            ],
+            [
+              1,
+              4749,
+              9789,
+              7824,
+              12678,
+              8882
+            ],
+            [
+              1,
+              8882,
+              4749,
+              12678,
+              9789,
+              7824
+            ],
+            [
+              1,
+              9789,
+              12678,
+              8882,
+              7824,
+              4749
+            ]
+          ]
+        },
+        {
+          "k": 3,
+          "inverse_k": 7,
+          "full_rank": 12,
+          "full_mod_p_kernel": 4,
+          "real_rank": 6,
+          "real_geometric_index": 2,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              6816,
+              2065,
+              9788,
+              720,
+              9892
+            ],
+            [
+              1,
+              2065,
+              720,
+              9892,
+              9788,
+              6816
+            ],
+            [
+              1,
+              9788,
+              9892,
+              2065,
+              6816,
+              720
+            ],
+            [
+              1,
+              720,
+              9788,
+              6816,
+              9892,
+              2065
+            ],
+            [
+              1,
+              9892,
+              6816,
+              720,
+              2065,
+              9788
+            ]
+          ]
+        },
+        {
+          "k": 5,
+          "inverse_k": 5,
+          "full_rank": 12,
+          "full_mod_p_kernel": 6,
+          "real_rank": 6,
+          "real_geometric_index": 3,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              14640,
+              0,
+              2,
+              0,
+              14639
+            ],
+            [
+              1,
+              0,
+              0,
+              14639,
+              2,
+              14640
+            ],
+            [
+              1,
+              2,
+              14639,
+              0,
+              14640,
+              0
+            ],
+            [
+              1,
+              0,
+              2,
+              14640,
+              14639,
+              0
+            ],
+            [
+              1,
+              14639,
+              14640,
+              0,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "k": 7,
+          "inverse_k": 3,
+          "full_rank": 12,
+          "full_mod_p_kernel": 8,
+          "real_rank": 6,
+          "real_geometric_index": 4,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              11855,
+              1962,
+              4852,
+              5862,
+              4750
+            ],
+            [
+              1,
+              1962,
+              5862,
+              4750,
+              4852,
+              11855
+            ],
+            [
+              1,
+              4852,
+              4750,
+              1962,
+              11855,
+              5862
+            ],
+            [
+              1,
+              5862,
+              4852,
+              11855,
+              4750,
+              1962
+            ],
+            [
+              1,
+              4750,
+              11855,
+              5862,
+              1962,
+              4852
+            ]
+          ]
+        },
+        {
+          "k": 9,
+          "inverse_k": 1,
+          "full_rank": 12,
+          "full_mod_p_kernel": 10,
+          "real_rank": 6,
+          "real_geometric_index": 5,
+          "real_matrix_mod_p4": [
+            [
+              1,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              12575,
+              2785,
+              9891,
+              13818,
+              4853
+            ],
+            [
+              1,
+              2785,
+              13818,
+              4853,
+              9891,
+              12575
+            ],
+            [
+              1,
+              9891,
+              4853,
+              2785,
+              12575,
+              13818
+            ],
+            [
+              1,
+              13818,
+              9891,
+              12575,
+              4853,
+              2785
+            ],
+            [
+              1,
+              4853,
+              12575,
+              13818,
+              2785,
+              9891
+            ]
+          ]
+        }
+      ],
+      "sum_geometric_indices": 15,
+      "arithmetic_unit_index": null
+    }
+  ],
+  "scope": "exact finite geometry modulo p^4; not arithmetic unit-lattice or class-number data"
+}

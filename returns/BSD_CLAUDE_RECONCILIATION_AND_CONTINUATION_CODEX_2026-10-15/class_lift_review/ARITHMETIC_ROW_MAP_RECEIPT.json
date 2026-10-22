@@ -1,0 +1,49 @@
+{
+  "status": "ARITHMETIC_ROWS_INDEPENDENTLY_REGENERATED",
+  "second_run_seconds": 0.12605879898183048,
+  "two_runs_byte_identical": true,
+  "additivity_prefix_rows_checked": 64,
+  "source_local_unit_coordinates_freshly_evaluated": 11,
+  "literal_tau_cube_identities_checked": 11,
+  "source_generation_rerun": false,
+  "bnf_rerun": false,
+  "local_point_sampling_rerun": false,
+  "inputs": [
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/data.gp",
+      "sha256": "f7de104f3895edf5d2048c7748e2e396b7c2b1f51d96c7eeee5babc8bdeb54cf",
+      "bytes": 1079483
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/matrices.json",
+      "sha256": "a5c45a386a0ff05260e3c189a4a76008ad98d5627d79f5445a3e423503ba99c2",
+      "bytes": 272256
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/lib/selmer.gp",
+      "sha256": "adb81dedbb2e073d7ec4da8e0ef68deb157aa78594a97a6eb2a1b9322b4b6f0e",
+      "bytes": 11067
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/lib/cubinv.gp",
+      "sha256": "4c6daec403143281dac6c4e2b3009a60d0c61aea28a0289d1a25738d26f1df59",
+      "bytes": 1409
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/lib/classimg.gp",
+      "sha256": "af807f8f3b15e09b8f1ec91e1c85cb0e2b36788c82445b25d1e12f8d4d733f34",
+      "bytes": 2809
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/bnf.bin",
+      "sha256": "948bda03fd1bd63beea60a1eee1ae6a7f708770f6531352de0b448a28da97022",
+      "bytes": 125425
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/context.gp",
+      "sha256": "29e0e1380b2bb8e60e24abcf05724aca6236bc941e8f23d7ab1420cc8ff0a6d4",
+      "bytes": 2873
+    }
+  ],
+  "script_sha256": "90a1ff0880dc171c9d19d17a82d7495367f12e006d1afb9f8bb91cc155577d3b"
+}

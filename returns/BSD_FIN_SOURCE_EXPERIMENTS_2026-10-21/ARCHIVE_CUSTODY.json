@@ -1,0 +1,27 @@
+{
+  "publication_scope": "Report, written proofs, state and archive receipts are published in this folder. The complete code and raw arithmetic evidence are supplied in the conversation archives, not copied into this GitHub folder.",
+  "full_archive": {
+    "filename": "BSD_FIN_SOURCE_EXPERIMENTS_2026-10-21.zip",
+    "bytes": 9423398,
+    "sha256": "6f0aa3eab6268e034e2874d8cb75041b17d93a91e02562207d54137c43543595",
+    "manifest_entries": 45,
+    "zip_crc_check": "PASS",
+    "manifest_check": "PASS",
+    "contains": "Proofs, input polynomial, Python and C sources, exact traces and norms, complete private-support certificates, independent checks and fresh replay receipt. Compiled binaries excluded."
+  },
+  "compact_archive": {
+    "filename": "BSD_FIN_SOURCE_EXPERIMENTS_2026-10-21_COMPACT.zip",
+    "bytes": 32757,
+    "sha256": "4e1bff9d17ba713e98c9868747274c00f890dfebabe58fb6241d990db4805f78",
+    "contains": "Proofs, scripts, input polynomial, compact summaries and a separate compact manifest. Multi-megabyte raw rows omitted; scripts regenerate them."
+  },
+  "fresh_replay": {
+    "status": "PASS_FRESH_DIRECTORY_REPLAY",
+    "deterministic_raw_files_byte_identical": 12,
+    "summaries_equal_excluding_elapsed_time": 4,
+    "independent_direct_product_verifier": "PASS_DIRECT_PRODUCT_VERIFIER rows=20440 GMP=6.3.0"
+  },
+  "review_boundary": "File identity and independent implementations do not amount to human or proof-assistant certification. Seed field/scalar and elliptic inertia identifications remain retained inputs.",
+  "deferred_stages": ["p53/ell743 production not launched", "Q36 comparison not attempted in this batch"],
+  "main_and_research_release": "UNCHANGED"
+}

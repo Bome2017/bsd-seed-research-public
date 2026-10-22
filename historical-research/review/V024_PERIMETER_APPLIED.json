@@ -1,0 +1,745 @@
+{
+ "research_base": "8ed37c54ae3630338ce32d441901d964e331820d",
+ "base_version": "v0.2.3 (local)",
+ "history_root": "review/history/v0.2.3",
+ "scope": "Local, unreleased v0.2.4: exact descent certificate for the rank and Sha[2] (replaces the preprint import of R.1, R.4, S.2; S.P and S.5 follow); the A5 formal check at p = 3 (S.3 LEAN_CHECKED, Remark rem:a5lean); the statement that FIN together with ORDER9, and Q36, are the endpoint obligations (equivalent to full BSD for E by R.7) and form the current known frontier; README status-table corrections; audit repairs F1-F3 (whole-table provenance invariants and exact appended rows in the transition checker; narrowed preprint and frontier wording); recheck notes K2 (two section-10 sentences narrowed). No other statement, grade, certificate or evidence changes. No tag, push or publication.",
+ "base_copies": {
+  "MANIFEST.sha256": {
+   "path": "review/history/v0.2.3/MANIFEST.sha256",
+   "sha256": "594f337a0bd583d784ad3af6960c932a0910a3370fec1847991f99e085170be5"
+  },
+  "README.md": {
+   "path": "review/history/v0.2.3/README.md",
+   "sha256": "50dbe22d3fd49487244aeb37ef1128a4b600bfeabb940842322bb8b27c1b60cf"
+  },
+  "claims/CLAIM_INDEX.md": {
+   "path": "review/history/v0.2.3/claims/CLAIM_INDEX.md",
+   "sha256": "ddb1e7399849725d007113fde7551450a81366660a7ed2f87a0c9141a9b45cdb"
+  },
+  "claims/claims.json": {
+   "path": "review/history/v0.2.3/claims/claims.json",
+   "sha256": "e5758a3b5308a1fb88a812443ccb0c3ed51e06881fc326ad594b214e7f3e6736"
+  },
+  "claims/spec/part1_core.py": {
+   "path": "review/history/v0.2.3/claims/spec/part1_core.py",
+   "sha256": "6469222b02df2d73e6fa07622d56dfa6971ec7bbbe9066a0dc9028d23eb73b01"
+  },
+  "evidence/PROVENANCE.tsv": {
+   "path": "review/history/v0.2.3/evidence/PROVENANCE.tsv",
+   "sha256": "425261f5325316541eec9605c13bea64368fe9e9b7a8c7393bfbbc7e08075aaf"
+  },
+  "paper/release_id.tex": {
+   "path": "review/history/v0.2.3/paper/release_id.tex",
+   "sha256": "2d7e5f88fd2cac03214892bf1d965747b2317fb33da6964d8242b7a830faaf57"
+  },
+  "paper/sections/01_intro.tex": {
+   "path": "review/history/v0.2.3/paper/sections/01_intro.tex",
+   "sha256": "1253827339dc2dc50cc5bf9fce89ef899397cef92b95632ca9b3e75af8e77f26"
+  },
+  "paper/sections/03_rank.tex": {
+   "path": "review/history/v0.2.3/paper/sections/03_rank.tex",
+   "sha256": "b99b0ed8f5f084c1b4b2904ef3f6c328a56c99e10fbf7a0d6aaf2640e52d8f4f"
+  },
+  "paper/sections/04_primary.tex": {
+   "path": "review/history/v0.2.3/paper/sections/04_primary.tex",
+   "sha256": "0e01860f0799c61edb1db7fff1ab2e3bcd8a90ddb604b8b1f4fc0df8e073f59d"
+  },
+  "paper/sections/10_obstructions.tex": {
+   "path": "review/history/v0.2.3/paper/sections/10_obstructions.tex",
+   "sha256": "72e6dd85db4fd0e07cc6bc099ccfcb7566b0658f85b9ca6166658dad38732bcf"
+  },
+  "paper/sections/11_remaining.tex": {
+   "path": "review/history/v0.2.3/paper/sections/11_remaining.tex",
+   "sha256": "2349fd41ae933a0dfcd35b7f787a0b4f72817e0410113bb82e5fc16b4083cd45"
+  },
+  "paper/seed_bsd.pdf": {
+   "path": "review/history/v0.2.3/paper/seed_bsd.pdf",
+   "sha256": "7898cffb0e91c71d184b5b66bae02c5aa89bc674c5f8fa47323efea097801904"
+  },
+  "review/SYNTHESIS_CHECK_BRIEF.md": {
+   "path": "review/history/v0.2.3/review/SYNTHESIS_CHECK_BRIEF.md",
+   "sha256": "65e4c5c1e553ef91ff66075d3236cac443ab72f29880b5b4ee145c12fbde4a7a"
+  },
+  "tools/extra_evidence.txt": {
+   "path": "review/history/v0.2.3/tools/extra_evidence.txt",
+   "sha256": "26d15456a686f2fd9b675bfe592a476fdbc751b18aa4c1033fdbe2f9fb333764"
+  },
+  "tools/verify_patch_release.py": {
+   "path": "review/history/v0.2.3/tools/verify_patch_release.py",
+   "sha256": "56eaf7ff8369fbebb44415667c5e2bd1fa0ddadff41642a265c3bc099d6598fc"
+  }
+ },
+ "added_paths": [
+  "RECHECK_V0_2_4.md",
+  "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/ERRATUM_v2_2026-09-25.md",
+  "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/PACKET_INDEX.md",
+  "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/MANIFEST.sha256",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_2isogeny_only.log",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_Eprime_2isogeny_only.log",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.gp",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.out",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.sage",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/verify_descent.sh",
+  "review/V024_EVIDENCE_ADDITIONS.json",
+  "review/V024_EVIDENCE_TRANSITION.json",
+  "review/V024_PERIMETER_APPLIED.json",
+  "review/history/v0.2.3/MANIFEST.sha256",
+  "review/history/v0.2.3/README.md",
+  "review/history/v0.2.3/claims/CLAIM_INDEX.md",
+  "review/history/v0.2.3/claims/claims.json",
+  "review/history/v0.2.3/claims/spec/part1_core.py",
+  "review/history/v0.2.3/evidence/EXCLUDED.tsv",
+  "review/history/v0.2.3/evidence/PROVENANCE.tsv",
+  "review/history/v0.2.3/evidence/REDACTIONS.tsv",
+  "review/history/v0.2.3/paper/release_id.tex",
+  "review/history/v0.2.3/paper/sections/01_intro.tex",
+  "review/history/v0.2.3/paper/sections/03_rank.tex",
+  "review/history/v0.2.3/paper/sections/04_primary.tex",
+  "review/history/v0.2.3/paper/sections/10_obstructions.tex",
+  "review/history/v0.2.3/paper/sections/11_remaining.tex",
+  "review/history/v0.2.3/paper/seed_bsd.pdf",
+  "review/history/v0.2.3/review/SYNTHESIS_CHECK_BRIEF.md",
+  "review/history/v0.2.3/tools/extra_evidence.txt",
+  "review/history/v0.2.3/tools/verify_patch_release.py",
+  "tools/verify_v024_transition.py"
+ ],
+ "claim_delta": {
+  "R.1": {
+   "grades": {
+    "before": [
+     "IMPORTED_PREPRINT",
+     "PROVED_COMPUTER_ASSISTED",
+     "EXACT_COMPUTATION"
+    ],
+    "after": [
+     "PROVED_COMPUTER_ASSISTED",
+     "EXACT_COMPUTATION"
+    ]
+   },
+   "origin": {
+    "before": "Family rank and 2-descent theorem; separate global saturation computation with a computed index bound",
+    "after": "exact 2-descent computed by two independent implementations; separate global saturation computation with a computed index bound"
+   },
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+      "role": "section 1",
+      "sha256": "31317c0100baae0407404ebd1d3c1880e6fb40db4acead8958a82bb5e7ad26aa",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2, first row",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/04_mordell_weil_saturation.md",
+      "role": "Global saturation, including the corrected second proof",
+      "sha256": "da3a9cc91c246892439aa3d85689beae6223b34d05ecc1a46dfae9ae049f0997",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/04_mordell_weil_saturation.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04a_sage.sage",
+      "role": "eclib saturation with max_prime=-1 and exact basis conversion",
+      "sha256": "468af66a51ca1b8e1ada32462a4057f4b12b81395d6c69ca9d97eb8c8bb75e88",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04a_sage.sage"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_sage.out",
+      "role": "Computed global index bound 2 and full saturation index 1",
+      "sha256": "e711dcc56edf80804fb1069a2932a8815122019c2471a8478252b3cfdf785e9d",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_sage.out"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_B_R2.md",
+      "role": "Resolved denominator-box defect and retained qualifications",
+      "sha256": "05ad30468c016cdf802465af31297d4fed4900801dd1516b9210d0b29ca63694",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_B_R2.md"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+      "role": "section 1",
+      "sha256": "31317c0100baae0407404ebd1d3c1880e6fb40db4acead8958a82bb5e7ad26aa",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2, first row",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/04_mordell_weil_saturation.md",
+      "role": "Global saturation, including the corrected second proof",
+      "sha256": "da3a9cc91c246892439aa3d85689beae6223b34d05ecc1a46dfae9ae049f0997",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/04_mordell_weil_saturation.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04a_sage.sage",
+      "role": "eclib saturation with max_prime=-1 and exact basis conversion",
+      "sha256": "468af66a51ca1b8e1ada32462a4057f4b12b81395d6c69ca9d97eb8c8bb75e88",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04a_sage.sage"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_sage.out",
+      "role": "Computed global index bound 2 and full saturation index 1",
+      "sha256": "e711dcc56edf80804fb1069a2932a8815122019c2471a8478252b3cfdf785e9d",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_sage.out"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_B_R2.md",
+      "role": "Resolved denominator-box defect and retained qualifications",
+      "sha256": "05ad30468c016cdf802465af31297d4fed4900801dd1516b9210d0b29ca63694",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_B_R2.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md",
+      "role": "descent certificate: rank 2, Sha[2] = 0, index one",
+      "sha256": "0e6cb82e815dbe7822996ea2b857f4e91b0978fc1832db5be1a86f2a61178eb2",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out",
+      "role": "PARI ellrank, unconditional: [2,2,0] for E and E'; exact descent images",
+      "sha256": "b962f15a5007d3bdbfdeb6457c1f9f777592c96e4be84a15f5ab0c2d03c89dfd",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log",
+      "role": "eclib mwrank: Rank = 2, #III(E/Q)[2] = 1",
+      "sha256": "4cdd862eeff8a3fb2043cf5d08f45e10a1357bfcb3060fc4488907b886fcb7d3",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_2isogeny_only.log",
+      "role": "eclib mwrank, first 2-isogeny descent only: rank bound 2",
+      "sha256": "6757e12f35eec0c596e7d4772d7bd96df141f4bdedc028827d40c64be62933c7",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_2isogeny_only.log"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.out",
+      "role": "eclib saturation at a proven bound, reproduced 2026-09-25: index 1",
+      "sha256": "e41e3114eba2b2207834abb6a4057a05331284161aabef8a005ff8fa36a26d8e",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.out"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/verify_descent.sh",
+      "role": "replay script",
+      "sha256": "bfe6427ebdac71af7ca566241e5deeddef5eee6ec5f5a1c6220694c3f50c2c79",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/verify_descent.sh"
+     }
+    ]
+   },
+   "imports": {
+    "before": [
+     "Zywina, arXiv:2502.01957v1, Theorem 1.2 (2025 preprint; 2-isogeny descent for the family)"
+    ],
+    "after": []
+   },
+   "verification": {
+    "before": {
+     "replay": "Full global saturation replay: eclib computed index bound 2, proved 2-saturation, returned index 1. Exact relation G=-P1-P2+T has determinant-one basis change. See review/FIRST_REVIEW.md."
+    },
+    "after": {
+     "replay": "Full global saturation replay: eclib computed index bound 2, proved 2-saturation, returned index 1. Exact relation G=-P1-P2+T has determinant-one basis change. See review/FIRST_REVIEW.md.",
+     "descent": "exact 2-isogeny descent: PARI 2.17.3 ellrank (unconditional) gives [2,2,0] on E and E'; eclib 20250627 mwrank gives Rank = 2, 2-Selmer rank 3, #III(E/Q)[2] = 1; explicit images alpha(T) = 4547*5843, alpha(P1) = 4547, alpha'(T') = 2243*4547, alpha'(Q') = -2243 give |alpha(E(Q))|*|alpha'(E'(Q))| = 16 = 2^(r+2); replay descent/verify_descent.sh (about 4 s)",
+     "corroboration": "Zywina, arXiv:2502.01957v1, Theorem 1.2 (2025 preprint) gives the same rank and Sha[2] statements for the whole family"
+    }
+   },
+   "qualifications": {
+    "before": [
+     "Zywina proves abstract rank two and the 2-primary input, not that the displayed points form a full integral basis. Full saturation uses the separate Lane 3 certificate. A bounded ellsaturation(...,50) or (...,100) alone does not prove it.",
+     "The eclib computation and exact basis conversion were replayed in this first review; the separate Silverman/ratpoints proof is restored but not rerun here."
+    ],
+    "after": [
+     "The rank and Sha[2] = 0 come from an exact 2-descent computed by two independent implementations (PARI, eclib); no preprint input remains, and Zywina's family theorem is corroboration only. Full saturation uses eclib with a proven index bound (the Lane 3 certificate, reproduced 2026-09-25). A bounded ellsaturation(...,50) or (...,100) alone does not prove it.",
+     "The eclib computation and exact basis conversion were replayed in this first review; the separate Silverman/ratpoints proof is restored but not rerun here."
+    ]
+   },
+   "post_master": {
+    "before": "",
+    "after": "Changed since the master record: the Zywina preprint import is replaced by an exact two-implementation 2-descent certificate (2026-09-25)."
+   }
+  },
+  "R.4": {
+   "grades": {
+    "before": [
+     "PROVED_COMPUTER_ASSISTED",
+     "IMPORTED_PREPRINT"
+    ],
+    "after": [
+     "PROVED_COMPUTER_ASSISTED",
+     "EXACT_COMPUTATION"
+    ]
+   },
+   "qualifications": {
+    "before": [
+     "Inherits the preprint qualification of R.1."
+    ],
+    "after": [
+     "The algebraic rank comes from the exact descent certificate of R.1; no preprint input remains."
+    ]
+   },
+   "post_master": {
+    "before": "",
+    "after": "Changed since the master record: the Zywina preprint import is replaced by an exact two-implementation 2-descent certificate (2026-09-25)."
+   }
+  },
+  "S.2": {
+   "grades": {
+    "before": [
+     "IMPORTED_PREPRINT"
+    ],
+    "after": [
+     "EXACT_COMPUTATION"
+    ]
+   },
+   "origin": {
+    "before": "application of a preprint theorem",
+    "after": "exact 2-descent computed by two independent implementations"
+   },
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+      "role": "section 3, row 2",
+      "sha256": "31317c0100baae0407404ebd1d3c1880e6fb40db4acead8958a82bb5e7ad26aa",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+      "role": "section 3, row 2",
+      "sha256": "31317c0100baae0407404ebd1d3c1880e6fb40db4acead8958a82bb5e7ad26aa",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md",
+      "role": "descent certificate: rank 2, Sha[2] = 0, index one",
+      "sha256": "0e6cb82e815dbe7822996ea2b857f4e91b0978fc1832db5be1a86f2a61178eb2",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out",
+      "role": "PARI ellrank, unconditional: [2,2,0] for E and E'; exact descent images",
+      "sha256": "b962f15a5007d3bdbfdeb6457c1f9f777592c96e4be84a15f5ab0c2d03c89dfd",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log",
+      "role": "eclib mwrank: Rank = 2, #III(E/Q)[2] = 1",
+      "sha256": "4cdd862eeff8a3fb2043cf5d08f45e10a1357bfcb3060fc4488907b886fcb7d3",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log"
+     }
+    ]
+   },
+   "imports": {
+    "before": [
+     "Zywina, arXiv:2502.01957v1, Theorem 1.2 (Sha[2] = 0)"
+    ],
+    "after": []
+   },
+   "verification": {
+    "before": {},
+    "after": {
+     "descent": "PARI ellrank s = 0 with r1 = r2 = 2 (unconditional); eclib mwrank #III(E/Q)[2] = 1",
+     "corroboration": "Zywina, arXiv:2502.01957v1, Theorem 1.2 (2025 preprint) gives the same rank and Sha[2] statements for the whole family"
+    }
+   },
+   "qualifications": {
+    "before": [
+     "Preprint qualification."
+    ],
+    "after": [
+     "Exact computation, two independent implementations; Sha[2] = 0 implies Sha[2^infinity] = 0. Zywina's preprint theorem corroborates."
+    ]
+   },
+   "post_master": {
+    "before": "",
+    "after": "Changed since the master record: the Zywina preprint import is replaced by an exact two-implementation 2-descent certificate (2026-09-25)."
+   }
+  },
+  "S.3": {
+   "grades": {
+    "before": [
+     "PROVED_COMPUTER_ASSISTED",
+     "IMPORTED_PUBLISHED",
+     "PROVED_WRITTEN"
+    ],
+    "after": [
+     "PROVED_COMPUTER_ASSISTED",
+     "IMPORTED_PUBLISHED",
+     "PROVED_WRITTEN",
+     "LEAN_CHECKED"
+    ]
+   },
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "role": "retained theorem and computation",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "numerical certificate",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt",
+      "role": "certified symbol table at 81",
+      "sha256": "2049b76315da25d0a5557a513aee5d21177fe39512c7a562a4b6b63ac410bfd9",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+      "role": "R1: finiteness-first chain; R2 integral comparison (section 3.6 rejected)",
+      "sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+      "role": "hostile model review of the repair",
+      "sha256": "73ec678408626d1ce437b3576ccf36077d82af45807045b1102f17daced664e2",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+      "role": "bounded Euler-normalization reconciliation",
+      "sha256": "7b494d3615e8349f149739a656f759f323914a9e076e876861bb8ba5c9ed8c36",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2: current qualification",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp",
+      "role": "Independent formal-series height derivation (canonical sigma residue to the precision needed)",
+      "sha256": "3e01dafd069f54fbbe4df63097b15ae700da51f15a811c605211d1f184899efe",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt",
+      "role": "Recorded result; determinant valuation 2, not a claim that all displayed high-order digits are certified",
+      "sha256": "0ade6a44890b310eeeba6bf84a0966de386f371c49968c6b9d1f910f527cf8f1",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp",
+      "role": "Saturation check at 3 and up to 100",
+      "sha256": "04618f23026fec6f2c231e20b7a374923689b3dae820493e3ae8ec733974a145",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "role": "retained theorem and computation",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "numerical certificate",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt",
+      "role": "certified symbol table at 81",
+      "sha256": "2049b76315da25d0a5557a513aee5d21177fe39512c7a562a4b6b63ac410bfd9",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+      "role": "R1: finiteness-first chain; R2 integral comparison (section 3.6 rejected)",
+      "sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+      "role": "hostile model review of the repair",
+      "sha256": "73ec678408626d1ce437b3576ccf36077d82af45807045b1102f17daced664e2",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+      "role": "bounded Euler-normalization reconciliation",
+      "sha256": "7b494d3615e8349f149739a656f759f323914a9e076e876861bb8ba5c9ed8c36",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2: current qualification",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp",
+      "role": "Independent formal-series height derivation (canonical sigma residue to the precision needed)",
+      "sha256": "3e01dafd069f54fbbe4df63097b15ae700da51f15a811c605211d1f184899efe",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt",
+      "role": "Recorded result; determinant valuation 2, not a claim that all displayed high-order digits are certified",
+      "sha256": "0ade6a44890b310eeeba6bf84a0966de386f371c49968c6b9d1f910f527cf8f1",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp",
+      "role": "Saturation check at 3 and up to 100",
+      "sha256": "04618f23026fec6f2c231e20b7a374923689b3dae820493e3ae8ec733974a145",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+      "role": "formal check at p = 3: replay record (A5_FULL)",
+      "sha256": "e4288f949c7123e7635ce92781282e7cfcd11b0a7e2e27bdee75b768f6c2893d",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+      "role": "formal proofs (one run)",
+      "sha256": "4ef8506cd7e02ee6857735a81a99b08378b9ee8dff50169726448fd607925831",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+      "role": "frozen formal statements and sha-bound certified data",
+      "sha256": "cb374846b3e7aee1b1405757d41aa26c8797e6ece88f41d5185add25c11f379d",
+      "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+      "role": "axiom report of the replay",
+      "sha256": "5a3a3672b727b15a0cb542b5b49bb6867085422d5d21553d26edf0c40b6c1cee",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log"
+     }
+    ]
+   },
+   "verification": {
+    "before": {
+     "coefficients": "663,685,727 prime coefficients independently verified",
+     "symbols": "54 + 54 entries at 81 and 18 + 18 at 27; 72 per sign across both levels, identified in (1/1024)Z",
+     "release_replay": "tools/replay/coefficients_from_symbols.py recomputes this coefficient from the certified symbol table with an independent implementation of the depth-n formula (PASS, 2026-09-23) (exact integers a_{4,0} = 0, a_{4,1} = -54, a_{4,2} = 15480)",
+     "review": "MODEL_SAME_FAMILY (F1 hostile audit; separate R1/R2 hostile review)"
+    },
+    "after": {
+     "coefficients": "663,685,727 prime coefficients independently verified",
+     "symbols": "54 + 54 entries at 81 and 18 + 18 at 27; 72 per sign across both levels, identified in (1/1024)Z",
+     "release_replay": "tools/replay/coefficients_from_symbols.py recomputes this coefficient from the certified symbol table with an independent implementation of the depth-n formula (PASS, 2026-09-23) (exact integers a_{4,0} = 0, a_{4,1} = -54, a_{4,2} = 15480)",
+     "review": "MODEL_SAME_FAMILY (F1 hostile audit; separate R1/R2 hostile review)",
+     "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: ShaThree.shaThreePrimary with fixedPrimeCriterion3, casselsTate_order9, certificate_3, certValuation_3, weights_3, foldedExact_3, pointCount_3, unitRoot_3, nonSplit_3, multiplicative_3 (A5_FULL, 23/23 targets; STRETCH casselsTate_square clean); one proof run, replayed from a fresh copy (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+    }
+   },
+   "qualifications": {
+    "before": [
+     "Retained via Skinner Theorem A as published; the internal SU provenance at the Euler-removal interface is open and is a recorded provenance limit, not an active cleanup target.",
+     "The original R2 repair failed at its section 3.6 (removed Euler factor 1 - q^-2 has v_3 = 1); R1 and the integral period comparison passed review.",
+     "The original SHA3_THEOREM.md wording invokes the equality clause of SW Theorem 6.1 at a multiplicative prime; the governing chain is the R1 finiteness-first argument with the independent height certificate, which does not use that clause."
+    ],
+    "after": [
+     "Retained via Skinner Theorem A as published; the internal SU provenance at the Euler-removal interface is open and is a recorded provenance limit, not an active cleanup target.",
+     "The original R2 repair failed at its section 3.6 (removed Euler factor 1 - q^-2 has v_3 = 1); R1 and the integral period comparison passed review.",
+     "The original SHA3_THEOREM.md wording invokes the equality clause of SW Theorem 6.1 at a multiplicative prime; the governing chain is the R1 finiteness-first argument with the independent height certificate, which does not use that clause.",
+     "LEAN_CHECKED covers the deduction, in the governing order of inference, from the listed imports (every field of ThreeInputs: Skinner Thm A with the integral identifications, control finiteness, the independent height certificate, Jones Thm 3.1 forward, SW Prop. 3.5, the Cassels-Tate pairing; entered as hypotheses) and the certified symbol tables (sha-bound data) to Sha[3^infinity] = (Z/3)^2, together with the certificate arithmetic at 3. It checks neither the imports (including the SU provenance limit) nor the numerical symbol certificates."
+    ]
+   },
+   "post_master": {
+    "before": "",
+    "after": "Changed since the master record: LEAN_CHECKED added after the 2026-09-25 formal check at p = 3 (one proof run, replayed)."
+   }
+  },
+  "S.5": {
+   "qualifications": {
+    "before": [
+     "Inherits the Manin-constant (A.4) and preprint (R.1) qualifications.",
+     "LEAN_CHECKED covers the deduction from the listed imports (every field of FixedPrimeInputs, entered as hypotheses, including the unit property of epsilon_p) and the certified symbol table (entered as sha-bound data) to the conclusion, together with the certificate arithmetic. It checks neither the imports nor the numerical symbol certificate."
+    ],
+    "after": [
+     "Inherits the Manin-constant (A.4) qualification (the R.1 preprint qualification was removed on 2026-09-25).",
+     "LEAN_CHECKED covers the deduction from the listed imports (every field of FixedPrimeInputs, entered as hypotheses, including the unit property of epsilon_p) and the certified symbol table (entered as sha-bound data) to the conclusion, together with the certificate arithmetic. It checks neither the imports nor the numerical symbol certificate."
+    ]
+   },
+   "post_master": {
+    "before": "Changed since the master record: LEAN_CHECKED added after the 2026-09-24 formal check (two proof runs replayed).",
+    "after": "Changed since the master record: LEAN_CHECKED added after the 2026-09-24 formal check (two proof runs replayed). Changed since the master record: the Zywina preprint import is replaced by an exact two-implementation 2-descent certificate (2026-09-25)."
+   }
+  },
+  "S.P": {
+   "grades": {
+    "before": [
+     "PROVED_COMPUTER_ASSISTED",
+     "IMPORTED_PUBLISHED",
+     "IMPORTED_PREPRINT"
+    ],
+    "after": [
+     "PROVED_COMPUTER_ASSISTED",
+     "IMPORTED_PUBLISHED",
+     "EXACT_COMPUTATION"
+    ]
+   },
+   "post_master": {
+    "before": "",
+    "after": "Changed since the master record: the Zywina preprint import is replaced by an exact two-implementation 2-descent certificate (2026-09-25)."
+   }
+  }
+ },
+ "text_edits": {
+  "paper/sections/03_rank.tex": [
+   {
+    "old": "\\begin{theorem}[\\cid{R.1}; preprint theorem applied; global saturation computer-assisted]\\label{thm:mw}",
+    "new": "\\begin{theorem}[\\cid{R.1}; exact computation (two independent descents); global saturation computer-assisted]\\label{thm:mw}"
+   },
+   {
+    "old": "The family theorem \\cite[Thm.~1.2]{zywina} supplies the abstract rank and $2$-descent input; it does not itself assert that these displayed points form an integral basis.",
+    "new": "An exact $2$-isogeny descent supplies the rank and $2$-descent input. Write $E'\\colon y^2=x(x^2+45470x+91790289)$ for the $2$-isogenous curve, and $\\alpha,\\alpha'$ for the descent maps ($x$-coordinate modulo squares). Since $106272484=2^2\\cdot4547\\cdot5843$ and $22735^2-4\\cdot106272484=3^2\\cdot2243\\cdot4547$, both descents are local at $\\{2,3,2243,4547,5843,\\infty\\}$ and involve no class groups. The torsion points, $P_1$ and one point of $E'(\\Q)$ give $\\#\\alpha(E(\\Q))\\cdot\\#\\alpha'(E'(\\Q))=16=2^{r+2}$. This equals the Selmer bound, computed independently by PARI's unconditional \\texttt{ellrank} and by eclib's \\texttt{mwrank}. Hence $\\rank E(\\Q)=2$ and $\\Sha[2]=0$, the $2$-Selmer rank being $3=2+\\dim_{\\F_2}E(\\Q)[2]$. The family theorem \\cite[Thm.~1.2]{zywina} gives the same conclusions for the whole family and is retained as corroboration. It does not itself assert that the displayed points form an integral basis."
+   },
+   {
+    "old": "The preprint qualification attaches to the imported family theorem; the basis computation has its own computer-assisted trust base.",
+    "new": "No preprint input remains in this theorem. The descent and the basis computation each have their own computer-assisted trust base, and the descent certificate replays in seconds (\\path{evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/})."
+   }
+  ],
+  "paper/sections/01_intro.tex": [
+   {
+    "old": "Part (i) combines Zywina's family theorem \\cite{zywina} with the separate global saturation certificate and its replay.",
+    "new": "Part (i) combines an exact $2$-descent, computed by two independent implementations, with the separate global saturation certificate and its replay. Zywina's family theorem \\cite{zywina} corroborates it."
+   }
+  ],
+  "paper/sections/04_primary.tex": [
+   {
+    "old": "\\subsection{Consequences}",
+    "new": "\\begin{remark}[Formal check at $3$]\\label{rem:a5lean}\n\\emph{Formalized.} The deduction of Theorem~\\ref{thm:sha3} from its inputs is checked in Lean~4 (v4.28.0, Mathlib at tag v4.28.0), using only the axioms \\texttt{propext}, \\texttt{Classical.choice} and \\texttt{Quot.sound}. It runs from the certified depth-four coefficient to $\\Sha[3^\\infty]\\simeq(\\Z/3)^2$, in the order of inference above. The formal statements cover:\n\\begin{itemize}[leftmargin=*]\n\\item the finite arithmetic at $3$: the point count, the nonsplit reduction, $a_{4,\\cdot}=(0,-54,15480)$ and $\\ord_3a_{4,2}=2$, the recorded weights, the $U_3$ relation with the independent denominator-$27$ table, depth three, and the normalization control;\n\\item the criterion, in which finiteness comes from the control step, nondegeneracy from the independent height certificate, and the leading term from Jones's theorem in its forward direction;\n\\item the Cassels--Tate step: a group of order $9$ carrying a nondegenerate alternating pairing is $(\\Z/3)^2$, and in general such a group has square order.\n\\end{itemize}\nThe proofs were produced in one run and replayed by the author from a fresh copy. The replay confirmed that the frozen statements and target types were unchanged, found no unsafe construct, and reproduced the axiom report above in an independent compile.\n\n\\emph{Hypotheses, not formalized.} In the order of inference, the hypotheses are: Skinner's Theorem~A \\cite{skinner} with the integral identifications of \\cite{gv}; the control argument; the independent height certificate; Jones's Theorem~3.1 \\cite{jones}; the congruence of \\cite[Prop.~3.5]{sw}; and the Cassels--Tate pairing. The certified symbol tables enter as data bound by SHA-256.\n\n\\emph{Not checked.} The formal check does not cover the imported theorems, including the provenance limit of Remark~\\ref{rem:su}, or the numerical certificates. The archive and replay record are in \\path{evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/}.\n\\end{remark}\n\n\\subsection{Consequences}"
+   }
+  ],
+  "paper/sections/11_remaining.tex": [
+   {
+    "old": "\\end{obligation}\n\nThe primes not yet settled fall into five regimes:",
+    "new": "\\end{obligation}\n\nTogether these three obligations are equivalent to full BSD for $E$ (Theorem~\\ref{thm:endpoint}): the group obligation is finiteness together with order nine, and the real obligation is $q=36$. FIN does not imply ORDER9; given FIN, the settled components allow $\\#\\Sha=9t^2$ with $\\gcd(t,30030)=1$. Every other statement in this paper is settled at its stated grade (Appendix~\\ref{app:grades}), so these endpoint obligations form the current known frontier. The claim index also keeps \\cid{B.8} (the unevaluated witness at $4547$, a regime within the prime-by-prime strategy) and \\cid{O.4} (Question~\\ref{q:uniform}, a proposed mechanism) open; neither is a further endpoint obligation. The frontier describes the endpoint; it is not a count of missing lemmas. In this revision:\n\\begin{itemize}[leftmargin=*]\n\\item the rank, the basis and the established primary components (\\cid{R.1}, \\cid{R.4}, \\cid{S.2}, \\cid{S.3}, \\cid{S.5}--\\cid{S.13} and \\cid{S.P}) no longer depend on an unrefereed preprint; the conditional route results \\cid{B.9} and \\cid{B.13} keep their explicit preprint dependencies;\n\\item the deductions of the primary components at $3,5,7,11,13$ are Lean-checked from their listed hypotheses (Remarks~\\ref{rem:a4lean} and~\\ref{rem:a5lean});\n\\item the $2$-primary component is an exact computation.\n\\end{itemize}\nUnder the retained prime-by-prime strategy, FIN and ORDER9 need every good prime $p\\ge17$ and the bad primes $2243$, $4547$ and $5843$ (the table below). Prime-by-prime work cannot finish on its own, and a proof need not use that strategy. For Q36, rationality of $q$ with denominator at most $174$ would already give $q=36$ (Proposition~\\ref{prop:ratl}); bounded algebraicity (Proposition~\\ref{prop:alg}) and the common certificate of Proposition~\\ref{prop:commonB} are other sufficient routes. None of these antecedents is proved.\n\nThe primes not yet settled fall into five regimes:"
+   }
+  ],
+  "README.md": [
+   {
+    "old": "**Private review version 0.2.3 (local, unreleased; 2026-09-25), built on version 0.2.2 (2026-09-23).** Version 0.2.3 adds only the A4 formal check of the finite part (see `RECHECK_V0_2_3.md`). A private research release, in three connected parts:",
+    "new": "**Private review version 0.2.4 (local, unreleased; 2026-09-25), built on version 0.2.2 (2026-09-23).** Version 0.2.3 added the A4 formal check of the finite part; version 0.2.4 replaces the rank and 2-descent preprint import by an exact descent certificate and adds the A5 formal check at p = 3 (see `RECHECK_V0_2_3.md` and `RECHECK_V0_2_4.md`). A private research release, in three connected parts:"
+   },
+   {
+    "old": "For this editorial revision, start with [RECHECK_V0_2_2.md](RECHECK_V0_2_2.md). It restores the correct Bertolini–Darmon issue/pages and defines the first-layer variable explicitly. Earlier review reports and the separately graded coverage supplement remain preserved; claim grades are unchanged.",
+    "new": "The v0.2.2 editorial revision is described in [RECHECK_V0_2_2.md](RECHECK_V0_2_2.md). It restores the correct Bertolini–Darmon issue/pages and defines the first-layer variable explicitly. Earlier review reports and the separately graded coverage supplement remain preserved. v0.2.2 left claim grades unchanged; v0.2.3 and v0.2.4 change them only as their recheck notes record."
+   },
+   {
+    "old": "| preprint rank theorem applied, plus replayed global saturation for the displayed basis; computer-assisted L''(E,1) certificate |",
+    "new": "| exact 2-descent computed by two independent implementations, plus replayed global saturation for the displayed basis; computer-assisted L''(E,1) certificate |"
+   },
+   {
+    "old": "| computer-assisted, with published theorems applied (Kato; Skinner, as published) |",
+    "new": "| exact computation at p = 2; at p = 3, 5, 7, 11, 13 computer-assisted, with published theorems applied (Kato; Skinner, as published), and the deductions Lean-checked |"
+   }
+  ],
+  "paper/release_id.tex": [
+   {
+    "old": "\\par\\noindent\\small Local revision v0.2.3 (unreleased, 25 September 2026) of the private-review release above. It adds Remark~\\ref{rem:a4lean} (a formal check of the deduction at $p=5,7,11,13$) and the corresponding claim grades. The date and tag above are those of the base release v0.2.2; this revision is a local working copy, not yet published, with no tag or snapshot link. Base mathematical source snapshot: \\nolinkurl{bf75979a9fb1b53af7868c8c1a31eb5bc010e8ab}.\\normalsize\n",
+    "new": "\\par\\noindent\\small Local revision v0.2.4 (unreleased, 25 September 2026) of the private-review release above. It adds Remarks~\\ref{rem:a4lean} and~\\ref{rem:a5lean} (formal checks of the deductions at $p=3,5,7,11,13$), an exact descent certificate for the rank and $\\Sha[2]$ (Theorem~\\ref{thm:mw}), and the corresponding claim grades. The date and tag above are those of the base release v0.2.2; this revision is a local working copy, not yet published, with no tag or snapshot link. Base mathematical source snapshot: \\nolinkurl{bf75979a9fb1b53af7868c8c1a31eb5bc010e8ab}.\\normalsize\n"
+   }
+  ],
+  "paper/sections/10_obstructions.tex": [
+   {
+    "old": "\\item \\emph{The prime-by-prime ladder} (\\cid{X.14}). It was stopped at $13$: each further prime moves only the conditional threshold.",
+    "new": "\\item \\emph{The prime-by-prime ladder} (\\cid{X.14}). It was stopped at $13$. Climbing the ladder in order ($17$, $19$, $23$, \\dots) moves only the conditional threshold ($2601\\to3249\\to4761\\to\\cdots$) and never reaches the infinite tail; a prime settled out of order does not move it, because the threshold advances only when the smallest remaining prime is excluded."
+   },
+   {
+    "old": "The $2243$ and $5843$ certificates (\\cid{X.16}) need about $1.1\\cdot10^5$ and $6.3\\cdot10^5$ core-hours.",
+    "new": "The current cost models estimate the $2243$ and $5843$ certificates (\\cid{X.16}) at about $1.1\\cdot10^5$ and $6.3\\cdot10^5$ core-hours; these are model estimates, not necessary workloads."
+   }
+  ]
+ },
+ "evidence": {
+  "declared": {
+   "path": "review/V024_EVIDENCE_ADDITIONS.json",
+   "sha256": "8b6d2c0ce0a141f650aaa7b4b360ddc5907ae56b810aa43120e6431a027977a3"
+  },
+  "transition_log": {
+   "path": "review/V024_EVIDENCE_TRANSITION.json",
+   "sha256": "11ef25ad8f7097aede56322b0f64c4c74533e61a14878670b1063a55753bc02c"
+  },
+  "tool": "tools/build_evidence_transition.py (unchanged since v0.2.3)"
+ },
+ "current_bindings": {
+  "README.md": "6833ddf0559bd5f766db36b2a0af780a2e1c7264715a7c3d520abc35eed5434a",
+  "RECHECK_V0_2_4.md": "33f75c8416ce4bc68efbb02c48738901a4ad6c8aecb5bd9052e663fe5dba7005",
+  "claims/CLAIM_INDEX.md": "cf89ad60f4bcea013fcb70c1e0934fff92c49e51fcdbc5bb2cf530279692acdd",
+  "claims/claims.json": "83ff05fb7c52f7569f3c557c21027c349ea675bffec4bb47d4587285e500f242",
+  "claims/spec/part1_core.py": "34941a20763a4025163e479f774bc1b8ad3ac722269314abc9864385fd130965",
+  "evidence/PROVENANCE.tsv": "f663f920e430c5ce783cde90348eb574b886be74917d0ddf685dededb6003754",
+  "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/ERRATUM_v2_2026-09-25.md": "c440e7e6cb0839d572cdfb6824349a269689277db2528d5d1cf96bd83c6f6f31",
+  "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/PACKET_INDEX.md": "84f1377673fb673b407f4e4ec5bfa5118be4da0186249edf9f45956cf5348334",
+  "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz": "cb374846b3e7aee1b1405757d41aa26c8797e6ece88f41d5185add25c11f379d",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md": "e4288f949c7123e7635ce92781282e7cfcd11b0a7e2e27bdee75b768f6c2893d",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz": "4ef8506cd7e02ee6857735a81a99b08378b9ee8dff50169726448fd607925831",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log": "5a3a3672b727b15a0cb542b5b49bb6867085422d5d21553d26edf0c40b6c1cee",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md": "0e6cb82e815dbe7822996ea2b857f4e91b0978fc1832db5be1a86f2a61178eb2",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/MANIFEST.sha256": "35b24936becaf5f63d02c94771bec6bccc55d9933f236dba2564a8e5eb2d923b",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_2isogeny_only.log": "6757e12f35eec0c596e7d4772d7bd96df141f4bdedc028827d40c64be62933c7",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log": "4cdd862eeff8a3fb2043cf5d08f45e10a1357bfcb3060fc4488907b886fcb7d3",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_Eprime_2isogeny_only.log": "6d6b9ce61d9c70cf0d3f536d28646f3affa2f15505cc919b401f9d6090f56bce",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.gp": "5831d9a30d70173f292cfe742614b7d8b5a2317f4af5fdd8f7dc2eb1743e3e0f",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out": "b962f15a5007d3bdbfdeb6457c1f9f777592c96e4be84a15f5ab0c2d03c89dfd",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.out": "e41e3114eba2b2207834abb6a4057a05331284161aabef8a005ff8fa36a26d8e",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.sage": "27648eae6c473949fc97cc52a2aca6964f819281f148b722d71b0f096a0a54b9",
+  "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/verify_descent.sh": "bfe6427ebdac71af7ca566241e5deeddef5eee6ec5f5a1c6220694c3f50c2c79",
+  "paper/release_id.tex": "098ebfcab3013399cd34731129b47f04bf2a5581bcb16300622372a3faaeb530",
+  "paper/sections/01_intro.tex": "cd2af7aebc9837d53620f86120229435c289b12ef31e94d2a8fe951f8a992b5a",
+  "paper/sections/03_rank.tex": "d46b0eda6788a4f3b9831a40909b52932fc4d614342a243191127716b612b53a",
+  "paper/sections/04_primary.tex": "b2278919106cace66a98979d4ac6ae232995b551dee16ebd263d15e122852506",
+  "paper/sections/10_obstructions.tex": "620ec997acc6235a13cf3c1f3885866ca46f32a07b2cf99ffae009efc20d49d7",
+  "paper/sections/11_remaining.tex": "4f3165e8337986ea0e0d624a7f1798d1b49afb02065f19da7169d93d1b5602b9",
+  "paper/seed_bsd.pdf": "0d81265d8d09957536c56bc4b2abfa3964dcb7771766aaf1ed903eb24f8b0145",
+  "review/SYNTHESIS_CHECK_BRIEF.md": "feddb52c5b087327a7782ebb9dba3b52fecd15cfb8e6e5fe29393a7895b10a41",
+  "review/V024_EVIDENCE_ADDITIONS.json": "8b6d2c0ce0a141f650aaa7b4b360ddc5907ae56b810aa43120e6431a027977a3",
+  "review/V024_EVIDENCE_TRANSITION.json": "11ef25ad8f7097aede56322b0f64c4c74533e61a14878670b1063a55753bc02c",
+  "review/history/v0.2.3/MANIFEST.sha256": "594f337a0bd583d784ad3af6960c932a0910a3370fec1847991f99e085170be5",
+  "review/history/v0.2.3/README.md": "50dbe22d3fd49487244aeb37ef1128a4b600bfeabb940842322bb8b27c1b60cf",
+  "review/history/v0.2.3/claims/CLAIM_INDEX.md": "ddb1e7399849725d007113fde7551450a81366660a7ed2f87a0c9141a9b45cdb",
+  "review/history/v0.2.3/claims/claims.json": "e5758a3b5308a1fb88a812443ccb0c3ed51e06881fc326ad594b214e7f3e6736",
+  "review/history/v0.2.3/claims/spec/part1_core.py": "6469222b02df2d73e6fa07622d56dfa6971ec7bbbe9066a0dc9028d23eb73b01",
+  "review/history/v0.2.3/evidence/EXCLUDED.tsv": "4a799c7843507fe16a4b985929b34e85bb459d0c51c0d4e914044ae6f9a06ad5",
+  "review/history/v0.2.3/evidence/PROVENANCE.tsv": "425261f5325316541eec9605c13bea64368fe9e9b7a8c7393bfbbc7e08075aaf",
+  "review/history/v0.2.3/evidence/REDACTIONS.tsv": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694",
+  "review/history/v0.2.3/paper/release_id.tex": "2d7e5f88fd2cac03214892bf1d965747b2317fb33da6964d8242b7a830faaf57",
+  "review/history/v0.2.3/paper/sections/01_intro.tex": "1253827339dc2dc50cc5bf9fce89ef899397cef92b95632ca9b3e75af8e77f26",
+  "review/history/v0.2.3/paper/sections/03_rank.tex": "b99b0ed8f5f084c1b4b2904ef3f6c328a56c99e10fbf7a0d6aaf2640e52d8f4f",
+  "review/history/v0.2.3/paper/sections/04_primary.tex": "0e01860f0799c61edb1db7fff1ab2e3bcd8a90ddb604b8b1f4fc0df8e073f59d",
+  "review/history/v0.2.3/paper/sections/10_obstructions.tex": "72e6dd85db4fd0e07cc6bc099ccfcb7566b0658f85b9ca6166658dad38732bcf",
+  "review/history/v0.2.3/paper/sections/11_remaining.tex": "2349fd41ae933a0dfcd35b7f787a0b4f72817e0410113bb82e5fc16b4083cd45",
+  "review/history/v0.2.3/paper/seed_bsd.pdf": "7898cffb0e91c71d184b5b66bae02c5aa89bc674c5f8fa47323efea097801904",
+  "review/history/v0.2.3/review/SYNTHESIS_CHECK_BRIEF.md": "65e4c5c1e553ef91ff66075d3236cac443ab72f29880b5b4ee145c12fbde4a7a",
+  "review/history/v0.2.3/tools/extra_evidence.txt": "26d15456a686f2fd9b675bfe592a476fdbc751b18aa4c1033fdbe2f9fb333764",
+  "review/history/v0.2.3/tools/verify_patch_release.py": "56eaf7ff8369fbebb44415667c5e2bd1fa0ddadff41642a265c3bc099d6598fc",
+  "tools/extra_evidence.txt": "fa2f643f216fbce4fda95578992fe5d6656fdf13f4034266409a297becb0fba0",
+  "tools/verify_patch_release.py": "799ce82bf31d5d4f81600e112ad519d4f0dc9a28c1b000bddbfe327914d243c3",
+  "tools/verify_v024_transition.py": "5dd7ae6e01a75dd48c64376c84355fac75e646c4e00c4fdc86ecf88b512722dc"
+ },
+ "v023_manifest": {
+  "path": "review/history/v0.2.3/MANIFEST.sha256",
+  "sha256": "594f337a0bd583d784ad3af6960c932a0910a3370fec1847991f99e085170be5"
+ },
+ "v023_checker_sha256": "56eaf7ff8369fbebb44415667c5e2bd1fa0ddadff41642a265c3bc099d6598fc"
+}

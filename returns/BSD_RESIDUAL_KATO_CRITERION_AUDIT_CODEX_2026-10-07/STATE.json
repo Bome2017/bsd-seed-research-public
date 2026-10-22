@@ -1,0 +1,17 @@
+{
+  "status": "CRITERION_ALGEBRA_CONFIRMED__INTEGRAL_SOURCE_MATCHING_DERIVED_ON_D",
+  "grade": "WRITTEN_DERIVATION_UNDER_RETAINED_AND_PUBLISHED_INPUTS",
+  "independent_review": "PENDING",
+  "base_lab_commit": "f3b3ce88883969e37b48d4db34d5d843a4947283",
+  "domain": "good p >= 5 excluding 19,59,487",
+  "covers_supersingular": true,
+  "derivative_evaluations": 0,
+  "new_primary_results": 0,
+  "endpoint_effect": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  },
+  "continuation": "Independent review of source matching, then actual residual arithmetic input; no nonvanishing is supplied.",
+  "remote_jobs_started": 0
+}

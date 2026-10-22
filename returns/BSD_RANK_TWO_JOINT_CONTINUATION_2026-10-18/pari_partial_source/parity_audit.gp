@@ -1,0 +1,1 @@
+{alarm(25);NF=read("../twist_source/nf.gp");AM=read("../twist_source/direct_units/basis_scalar_matrix.gp");AA=AM^3;RR=readstr("captured_generators.gp");plus=0;minus=0;mixed=0;for(k=1,#RR,my(v=nfalgtobasis(NF,Mod(eval(RR[k]),NF.pol)));if(AA*v==v,plus++,if(AA*v==-v,minus++,mixed++)));write("PARITY_AUDIT.json",[plus,minus,mixed]);print("PARITY_AUDIT_DONE=",[plus,minus,mixed]);quit;}

@@ -1,0 +1,16 @@
+{
+  "curve": "389a1",
+  "model": [
+    0,
+    1,
+    1,
+    -2,
+    0
+  ],
+  "pari": "2.17 retained runtime",
+  "a_389": 1,
+  "reduction_389": "split multiplicative",
+  "a_5": -3,
+  "nonanomalous_at_5": true,
+  "correction": "An initial unverified nonsplit guess in agent messages was rejected by this direct check before theorem use."
+}

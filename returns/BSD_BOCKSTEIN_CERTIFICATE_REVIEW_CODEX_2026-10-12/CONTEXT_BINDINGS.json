@@ -1,0 +1,42 @@
+[
+  {
+    "copy": "context/RETAINED_CONTENT_BOUND.md",
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+    "source_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+    "sha256": "10327d5f65e6fa98411eb5cf9859184bdf4e2c3ba63907c746fa00d0d33a6636"
+  },
+  {
+    "copy": "context/RETAINED_VALUATION_TARGET.md",
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+    "source_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+    "sha256": "8efc5c3d46c24e5fa9eb940ea528da49870e63490ba7721b90e0f7b4216e9cf3"
+  },
+  {
+    "copy": "context/RETAINED_RUBIN_COMPARISON.md",
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+    "source_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/RUBIN_COMPARISON.md",
+    "sha256": "888c6e35d10c28bde93011eb026f8f277d3d9a02e63a54ac1f9c6386d1b75166"
+  },
+  {
+    "copy": "context/EXIT1_PENDING_FORMULA.md",
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "commit": "02e86ce876cb83cef314b53d86f73a193298b203",
+    "source_path": "work/returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/context/EXIT1_PENDING_FORMULA.md",
+    "sha256": "44e7ed5f222c4297d68d09d35f52f0233138095279b22fa59871b062b2d4166e"
+  },
+  {
+    "copy": "context/HISTORICAL_bockstein_content.gp",
+    "source_path": "/Users/bsm/BSD_EXIT1_KATO_POINT_LINE_MAP_CLAUDE_2026-10-07/checks/bockstein_content.gp",
+    "sha256": "c64691220f6ce291ed0fabb8e880ca7cde07da2fd30c31e7fd30f6fde5c9f56b",
+    "grade": "historical producer or summary; not replayed"
+  },
+  {
+    "copy": "context/HISTORICAL_RESULTS.md",
+    "source_path": "/Users/bsm/BSD_EXIT1_KATO_POINT_LINE_MAP_CLAUDE_2026-10-07/checks/RESULTS.md",
+    "sha256": "39250afe6f61a4c7e7f27299e75b8177ce1ae20aefe99c935e2e2e32adb260dc",
+    "grade": "historical producer or summary; not replayed"
+  }
+]

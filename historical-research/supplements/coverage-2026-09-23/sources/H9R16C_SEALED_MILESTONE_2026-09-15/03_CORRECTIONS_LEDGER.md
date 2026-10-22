@@ -1,0 +1,18 @@
+# 03 — Corrections ledger
+
+Everything the process corrected, with where the error was and what it cost. Kept because a milestone that
+hides its corrections cannot be audited later.
+
+| # | correction | origin | cost |
+|---|---|---|---|
+| 1 | **`A_r` is self-adjoint in weight 2**, so both orientations of `Γ_A` give the same functional | found by the second referee; retires Lane 5 `07` item 5, first referee `03` §2.4, and pressure point P5 of the audit packet | nil, and it **removes** a caveat three documents carried |
+| 2 | **`rank T^♮_r = rank(R_r)·2g^{(1)}_r` is FALSE**; correct is `rank(R_r)·rank(e'_ord T_pJ^{(1)}_r)`, the ordinary part being a proper summand for `r ≥ 2` | first referee `06` §3, copied verbatim into the claims file by the coordinator | nil; the operative content ("no `\|G_r\|`") is unaffected and no downstream claim uses the value |
+| 3 | **The tower constant is 1 only with the carrier normalization `(U'_p)^{-2s}`.** With the factor-1 normalization alone — Lane 4 `04` `(T♮_r)`, Lane 5 `05` §4 as printed — the leftover is `(1⊗(U'_p)²)`, exactly BCPV's `a_p(g)^{-2r}` | first referee `05` §6; sharpened by the second: `(T♮_r)` is unrescuable by any diamond **unit** `δ♮_r`, since `N_{r+1,r}` is a zero-divisor (`N² = pN`) | wording defect in two lane files; the charter's own target was already the correct statement |
+| 4 | **The two tame push-downs differ by `pr^t_{2,*} = W_{N_gp^s}∘pr^t_{1,*}∘W_{Np^s}`**, not by "a tame Hecke scalar" — a single scalar exists only after projecting to lines where each `W` acts by a scalar | second referee, C5 | phrasing only; also corrects how H9R17 stated its `(P)` hypothesis |
+| 5 | **The type-A receptacle `I_r^†⊗_Z J_r` is refuted** (Tate module `\|G_r\|` times too large); the MRS lattice character is `c_r^{+1/2}` | Lanes 2 and 4 independently; the second referee showed the `+1/2` is **forced** by the `W`-inverted diamond action on `Δ^ord`, not a convention | nil for this seal; it is why the receptacle is type B |
+| 6 | **`B^bal_r ≅ R_r` must always carry its hypothesis** — after the `A_r`-transport and passage to the transported commutative primed ordinary Hecke model — and must never be applied to the raw pre-transport `g`/`g^c` modules | operator instruction, 2026-09-15 | nil; it is a statement-hygiene rule, enforced in `01` §6 |
+| 7 | **Lane 2's common-level carrier wording is discarded** in favour of the native-level `R_r` | second referee, C1 narrowing 4.1 | nil |
+| 8 | **The `Hom`/`H¹` interchange is for `F ⊇ Q(μ_N)`** and must not be applied to the `⋆`-module over `K_0` | second referee, C1 narrowing 4.3 | nil; `C3`/`C4` already state their identities over `F'_r`, `F'_{r+1}` |
+| 9 | **BCPV's tame push-down is NOT_PRINTED.** They write `ϖ_{1,*}` for it (l.1457, l.1486–1487) but define `ϖ_1` only in the p-direction (l.1198–1199); the forgetful reading is inherited convention | coordinator erratum `02a`, after the first referee's packet over-stated it | nil for the tower (both audits proved the relation and its constant are independent of the choice); it does move the constructed point |
+| 10 | **Ohta99 (1.5.4) is an identity on modular forms**; the cohomological statement is the *sentence following it* | Lane 3 recorded the same slip in BCPV's (1.8)–(1.9); the `H_π` lane then made it independently | nil; the fact is printed there and is over-determined by Lemma W + BSV22 (68) |
+| 11 | **BCPV (4.9)'s printed `1/p` should be `p^{-3}`** | Lanes 2 and 4 independently, plus an operator re-check | nil — (4.9) is prohibited and unused throughout. **No erratum is published from this project.** |

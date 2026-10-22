@@ -1,0 +1,28 @@
+[
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+    "sha256": "178d1a6701f4ccb3977c31ff48b1ae5e302dcafbf7da785dccf769d654c20794"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+    "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/addenda/P3_R2_PERIOD_PROVENANCE_AUDIT.md",
+    "sha256": "2b984abaa1a20fa91a8ad6795b1f3da3fd647832924aaba6049627ff3274892d"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+    "sha256": "099c84a350f33afa9d2ad668c7de650e45958ee19db2d3410f86bb03c2bbd3a8"
+  },
+  {
+    "path": "/Users/bsm/BSD_STEIN_WUTHRICH_P5_GATE_2026-09-18/src/SteinWuthrich2013_shark.txt",
+    "sha256": "680283f876a20954828d4cb473bea3ef7fb92f99523972e17bb3d5b5897ba038",
+    "role": "Retained primary-paper text; sections 4.2 and 6.1 checked in this operation"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_MANIFEST.sha256",
+    "sha256": "c6a8ad85e488654b58dbc9037c559d4cff8e6e198fcf27c581697ea2b38c81f3",
+    "role": "Original sealed p3 manifest; all entries hash-checked, no arithmetic rerun"
+  }
+]

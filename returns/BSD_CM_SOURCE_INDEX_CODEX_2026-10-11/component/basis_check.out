@@ -1,0 +1,14 @@
+P1 = [480:22723:1]	  is generator number 1
+SATURATION_START
+saturating basis (reg=3.524059017)...Saturation index bound (for points of good reduction)  = 1
+Tamagawa index primes are [ 2 5 ]
+Saturation primes are now[ 2 5 ]
+Checking saturation at [ 2 5 ]
+Checking 2-saturation 
+Points were proved 2-saturated (max q used = 13)
+Checking 5-saturation 
+Points were proved 5-saturated (max q used = 43)
+done
+SATURATION_RETURN (True, 1, '[ ]')
+POINTS [[480, 22723, 1]]
+SATURATION_DONE

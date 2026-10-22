@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "input_sha256": "d5c1560a57971b49ee55b69a7cc617c78daca17e29de92e10dac97f06cfc55ea",
+  "result": "VALUATION_LAW_SUPPORTED_UNDER_RETAINED_INPUTS; COMBINED_CONTROL_PRIMARY_GROUP_DETERMINED",
+  "new_results": [
+    "Sha(F_329233)[5-infinity] = (Z/5)^2",
+    "Sha(A_43737)[5-infinity] = 0",
+    "Sha(A_329233)[5-infinity] = 0"
+  ],
+  "retained_claims_supported": [
+    "Sha(F_43737)[5-infinity] = (Z/5)^2",
+    "seed L2,17 valuation1 derived from old Sha certificate"
+  ],
+  "new_seed_primes": 0,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "new_coefficient_computation": false,
+  "grade": "written theorem applications under retained arithmetic; same-team source and data review"
+}

@@ -1,0 +1,97 @@
+\section{Equivalences and reductions}\label{sec:reductions}
+
+This section summarizes archived reductions. The research-record entries use definitions and hypotheses supplied in their linked claim-index evidence; they are not standalone theorem statements or proofs in this manuscript. They are not used to prove the main results. Some restate parts of the open problem in other terms. An equivalence earns no reduction in difficulty by itself. We record these results because they fix the exact shape of the remaining quantifiers.
+
+\begin{researchrecord}[\cid{B.9}; written proof from published and preprint sources; an equivalence]\label{thm:o1}
+Let $S_0=\{2,3,5,2243,4547,5843\}$. For every good ordinary prime $p\notin S_0$,
+\[
+h_p=0\iff\Sha[p^\infty]=0 ,
+\]
+where $h_p$ is the witness depth of Ota's theta elements \cite{ota} over admissible pairs of auxiliary primes.
+\end{researchrecord}
+The forward direction is Ota's Theorem~6.4. The converse combines three inputs:
+\begin{itemize}[leftmargin=*]
+\item Castella--Sano \cite{castellasano}, whose Theorem~B produces a $p$-unit Kurihara number;
+\item C.-H.~Kim \cite{kimch}, Theorem~1.10, which localizes the Selmer group at the minimal pair;
+\item a normalization check between the period conventions.
+\end{itemize}
+Uniform primitive witnesses on the ordinary tail are exactly uniform vanishing there. The theorem gives no converse at positive depth or at supersingular primes.
+
+\begin{researchrecord}[\cid{B.10}; written proof; an equivalence]\label{thm:divfield}\leavevmode\par
+Let $p\ge7$ with $p\notin\{19,59,487,2243,4547,5843\}$, and put
+\[
+\mathcal C_p=\mathrm{Hom}_{\GL_2(\F_p)}\bigl(\mathrm{Cl}(\Q(E[p]))/p,\ E[p]\bigr).
+\]
+Then $\Sha[p]=0$ if and only if $\dim_{\F_p}\mathcal C_p\le2$. Moreover $\dim\mathcal C_p\ge1$.
+\end{researchrecord}
+The excluded primes limit where this simplified reduction applies. They are \emph{not} a bound on the primes dividing $\#\Sha$.
+
+\begin{researchrecord}[\cid{B.11}; written proof, finite algebra Lean-checked; conditional]\label{thm:line}
+\emph{LINE} is the hypothesis that one rational scalar $a/b$ relates the tame leading terms $\delta_n$ and the regulator terms $\rho_n$ at all required auxiliary pairs and primes, by $b\delta_n=a\rho_n$. Under LINE, the primary components at the covered good primes are finite, and they vanish away from the support of the numerator.
+
+\emph{Witness content} weakens LINE to the existence of a nonzero integer $A\in J_E$, and the same conclusion holds under it.
+\end{researchrecord}
+The finite algebra of both implications is formalized in Lean (the frozen archives A1 and A2). The arithmetic antecedents are not proved: neither the cross-prime scalar of LINE nor the nonzero integer $A$ is known to exist.
+
+LINE is related to the residue observation of Remark~\ref{rem:singletons}, but it is not equivalent to it. LINE needs a common rational comparison on core pairs at every $p$-power level, with auxiliaries that carry $p$-power point torsion; the observation concerns nonvanishing modulo $p$ at selected auxiliaries (Research record~\ref{thm:g2}). Neither is known to imply the other. At the grade of a conjecture (Conjecture~2.3 of Burns--Kurihara--Sano \cite{bks}, in the production conventions) the constant of the tame comparison is
+\[
+K_E=\frac{4\,c_\infty\,\#\Sha\,\mathrm{Tam}}{\#E(\Q)_{\mathrm{tors}}^2},\qquad c_\infty=\#\pi_0(E(\mathbf{R})).
+\]
+It matches exactly on six rank-two curves with trivial $\Sha$: $68$ of $68$ rows with nonzero tame regulator, and $7$ of $7$ rows where both sides vanish. The factor $\#\Sha$ was tested on the curve 194040co6, whose analytic order of $\Sha$ is $4$: $17$ of $17$ rows match, and its isogenous curves with trivial $\Sha$ match $40$ of $40$. Every constant there is a power of $2$. No rank-two curve of conductor below $500{,}000$ has odd analytic order of $\Sha$ other than $1$, so an odd factor such as the $9$ expected here cannot be tested on such curves. For $E$ one has $K_E=32\,\#\Sha$, and $288=32\cdot9$ is consistency evidence, at conjecture grade, for $\#\Sha\equiv9$ modulo each observed prime. It says nothing about $q$.
+
+\begin{proposition}[\cid{B.12}; standard deduction with an exact computation]\label{prop:localsel}
+\begin{enumerate}[label=(\roman*)]
+\item For $p\in\{2,3,5,7,11\}$, the rational $p$-adic Selmer group is\[\Qp\delta_p(P_1)\oplus\Qp\delta_p(P_2).\]
+\item For $p=5,7,11$, one has $\Sel_{p^n}(E/\Q)\simeq(\Z/p^n)^2$ for all $n$, and
+\[
+\ker(\mathrm{loc}_p)=\Qp\bigl(\log_p(P_2)\,\delta_p(P_1)-\log_p(P_1)\,\delta_p(P_2)\bigr).
+\]
+\item At $p=11$, with $S=\{\infty,2,3,11,2243,4547,5843\}$, the kernel of $\mathrm{loc}_S$ on $\Sel_{11}(E/\Q)$ is the line $\F_{11}\,\delta_{11}(2P_1-P_2)$.
+\end{enumerate}
+\end{proposition}
+
+\begin{researchrecord}[\cid{B.13}; written source composition; conditional]\label{thm:mcs}
+Let $p\ge5$ be a good ordinary prime with $p\notin\{19,59,487\}$ and $p\nmid\#\widetilde E(\F_p)$. Combining Burungale--Castella--Kim \cite{bck}, Kataoka--Sano and Macias Castillo--Sano \cite{mcs} gives two things over a suitable imaginary quadratic field:
+\begin{itemize}[leftmargin=*]
+\item a base-layer Heegner Stark-system basis;
+\item Fitting-ideal identities for the classical Selmer group at every depth.
+\end{itemize}
+For $K=\Q(\sqrt{-23})$ (Theorem~\ref{thm:d23}) the identity reads
+\[
+\mathrm{Fitt}^{\,i}\bigl(\Sha(E/K)[p^n]^*\bigr)=I_{i+3}(\epsilon^{\mathrm{Hg}}_{n,0}),
+\]
+at $p=13,31,41,47,71,73,101,127,139,151$ among the primes $p\le160$.
+\end{researchrecord}
+The ideals $I_{i+3}$ are not evaluated at any prime, and the Heegner $\Lambda$-index does not determine them (an explicit counterexample is recorded). Moreover, $I_3=\F_{13}$ would require $\Sha(E^{-23}/\Q)[13]=0$ as well as the seed's $13$-part. The twist part is not supplied, so no unit specialization is known at $13$ (see the withdrawn claim \cid{W.1}).
+
+\begin{lemma}[\cid{B.14}; Lean-checked]\label{lem:minors}
+Let $A$ be a fixed integer matrix. Suppose that for every $p$, $I_3(p)=\F_p$ holds if and only if some $k\times k$ minor of $A$ is nonzero modulo $p$, and that this holds for at least one $p$. Then $C_1=|\gcd(\text{$k\times k$ minors of }A)|$ is nonzero, and $I_3(p)\ne\F_p$ implies $p\mid C_1$.
+\end{lemma}
+No such integral model has been constructed, so Lemma~\ref{lem:minors} currently has no instance.
+
+\begin{researchrecord}[\cid{B.16}; written proof applying published constructions]\label{thm:g2}
+Let $S_0=\{2,3,5,2243,4547,5843\}$. For every prime $p\notin S_0$ there are infinitely many primes $\ell\nmid pN$ with
+\[
+\ell\equiv1+p\pmod{p^2},\qquad \bar\rho_{E,p}(\mathrm{Frob}_\ell)=-1,\qquad R_{p,\ell}\ne0\ \text{in }\F_p ,
+\]
+where $R_{p,\ell}$ is the normalized determinant of the tame pairing on the basis of Theorem~\ref{thm:mw}. In particular $v_p(\ell-1)=1$ and $\#E(\F_\ell)\equiv4\pmod p$.
+\end{researchrecord}
+The proof fixes one Poincar\'e biextension over $\Q$ before $p$ or $\ell$ is chosen, following Tan \cite{tan} and Jossen \cite{jossen}, shows that the relevant Kummer image is full, and applies Chebotarev's theorem. It is existential and gives no bound for the smallest $\ell$. It does not identify $C_2(p,\ell)$ with $R_{p,\ell}$, so it proves nothing about $\Sha$.
+
+\begin{researchrecord}[\cid{B.17}; written proof from preprint sources]\label{thm:katofact}
+Let $p$ be a prime outside $\{2,3,5,19,59,487,2243,4547,5843\}$, let $m$ be a squarefree product of primes $\ell\nmid pN$ with $\ell\equiv1\pmod p$ and $p\nmid\#E(\F_\ell)$, and let $I$ be the augmentation ideal of $\Z_p[\Gal(F/\Q)]$ for the corresponding abelian $p$-extension $F$. Put $s_p=2+\operatorname{corank}\Sha[p^\infty]$ and $A_p=H^2_f(\Q,T_pE)_{\mathrm{tors}}$. If $s_p>2$, the degree-two witness $t_{p,m}$ is $0$. If $s_p=2$, then $\Sha[p^\infty]$ is finite, $\#A_p=\#\Sha[p^\infty]$, and
+\[
+t_{p,m}=u_{p,m}\,x_{\Q,\Sigma}\,\#A_p\,\det(B_m)\quad\text{in }I^2/I^3,
+\]
+where $u_{p,m}$ is a unit, $x_{\Q,\Sigma}$ is the coordinate of the determinantal Kato element and $\det(B_m)$ is the Bockstein determinant.
+\end{researchrecord}
+The inputs are the determinant constructions of Burns--Kurihara--Sano \cite{bks}, arithmetic Selmer duality and a Bockstein theorem, all imported. This is an identity in a finite quotient: a sufficiently divisible coefficient is $0$, and its depth is not a finite truncation endpoint. Nothing here bounds the multiplier $x_{\Q,\Sigma}\,\#A_p\,\det(B_m)$ uniformly in $p$. A nonzero singleton witness in this range forces both $\Sha[p^\infty]=0$ and primitivity of the Kato element; the range excludes $19$.
+
+\begin{researchrecord}[\cid{B.19}; written proof from published and preprint sources]\label{thm:w}
+Let $p\notin B^*=\{2,3,19,59,487,2243,4547,5843\}$, and let $\ell\neq\ell'$ be primes with $\gcd(\ell\ell',pN)=1$, $\ell\equiv\ell'\equiv1\pmod p$, $p\nmid\#E(\F_\ell)\,\#E(\F_{\ell'})$ and $R_{p,\ell}R_{p,\ell'}\not\equiv0\pmod p$. With one period, one saturated basis and matching generators,
+\[
+\frac{C_2(p,\ell)}{(a_\ell-2)R_{p,\ell}}=\frac{C_2(p,\ell')}{(a_{\ell'}-2)R_{p,\ell'}}\quad\text{in }\F_p ,
+\]
+and both sides vanish if $\Sha[p]\ne0$.
+\end{researchrecord}
+This is a statement at one prime $p$. It relates no two primes, does not show that the common value is nonzero, and does not derive the value $288$. At $p=5$ it only compares eligible pairs, and it says nothing at $19$, $59$ or $487$. A mismatched generator changes the ratio by a square factor, which can be $-1$; a change of period scales every ratio by one common constant.

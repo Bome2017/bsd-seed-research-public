@@ -1,0 +1,41 @@
+{
+  "grade": "identity_only; source grades retained",
+  "predecessor_commit": "19866bd9ef40cb1abd82a964fe4de16685902adc",
+  "files": [
+    {
+      "source": "/Users/bsm/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11/notes/C3_ASSEMBLY.md",
+      "copy": "context/C3_ASSEMBLY.md",
+      "sha256": "91a630cc3d79a49e4626918136dcc37e567bcfc24621c4451f6c05c8bc3afacc"
+    },
+    {
+      "source": "/Users/bsm/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11/notes/C3_REVIEW.md",
+      "copy": "context/C3_REVIEW.md",
+      "sha256": "880c743a060b936219df49e715a485219bd6b50690911f960c975b0fa8d1831c"
+    },
+    {
+      "source": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/geometry/MIXED_PLACE_DIAGRAM.md",
+      "copy": "context/MIXED_PLACE_DIAGRAM.md",
+      "sha256": "3a91e1eaf93ba638d95aab7319ca54b5464f57e69db6def1e008ba842c20eae7"
+    },
+    {
+      "source": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/torsors/RESULT.md",
+      "copy": "context/GLOBAL_TORSOR_RESULT.md",
+      "sha256": "f173cc07027e301f78d4a0113e52542c6d10836580a5118014c109e8798c33e2"
+    },
+    {
+      "source": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/geometry/GLOBAL_TORSOR_REVIEW.md",
+      "copy": "context/GLOBAL_TORSOR_REVIEW.md",
+      "sha256": "7acd49c596eb9a9992cdfe04710c96fdee7916d893bd8c21432c9ab9630c83b3"
+    },
+    {
+      "source": "/Users/bsm/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/admission/ADMISSION.md",
+      "copy": "context/ADMISSION.md",
+      "sha256": "55b44eba9dbec19a1f863b148cb6c84ecf3811425bdf8819f1ad56adf0234dfb"
+    },
+    {
+      "source": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/construction/CONSTRUCTION.md",
+      "copy": "context/EARLIER_CONSTRUCTION.md",
+      "sha256": "af11a1abaf7086e871610afa756556485d92988c8c05cfca17f2c459b40461af"
+    }
+  ]
+}

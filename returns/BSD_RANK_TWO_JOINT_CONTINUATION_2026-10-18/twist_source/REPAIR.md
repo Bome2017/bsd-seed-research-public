@@ -1,0 +1,1 @@
+Initial template edit changed the resultant but missed the Y2 recovery relation. Exact point recovery failed before admission; GP exit 0 was not accepted as success. Corrected both curve equations and reran, requiring explicit point/scalar and field markers. The dependent reduction attempt had no input and was not accepted.

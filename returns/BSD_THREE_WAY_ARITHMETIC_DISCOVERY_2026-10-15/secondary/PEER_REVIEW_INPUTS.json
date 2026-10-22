@@ -1,0 +1,47 @@
+[
+  {
+    "path": "frobenius/PROOF.md",
+    "sha256": "564a77310e452a82e79d212ba8648e9c2bade1d6cacc6a7a10857de4726e71d2",
+    "bytes": 11880
+  },
+  {
+    "path": "incidence_review/check_incidence.py",
+    "sha256": "dc20e5117dcbdeda523989bb22711bf241ad2a5b702e00e5449242b0a56c4ed4",
+    "bytes": 4107
+  },
+  {
+    "path": "incidence_review/RESULT.json",
+    "sha256": "54d09bb929e8312e0b6b6cdc2e8ed87fb8e4552853bb5967e627244837088ce2",
+    "bytes": 817
+  },
+  {
+    "path": "local_signatures/analyze_signatures.py",
+    "sha256": "5af33613cf8d5e66d20a6fb96b421e4c2d8cd55bafbacc254d47d0d3aba6597a",
+    "bytes": 3018
+  },
+  {
+    "path": "local_signatures/RESULTS.json",
+    "sha256": "114ff04b220b6696c67e9bd99cbe00153cbd7c463a76167c7334187adef22715",
+    "bytes": 11737
+  },
+  {
+    "path": "local_signatures/seed3/coordinates.json",
+    "sha256": "cf5b22b4d52fd9544c3ce2708d894028058334b6c7dcf73763216ca2ea3a9e20",
+    "bytes": 506
+  },
+  {
+    "path": "local_signatures/seed3/scan.gpdata",
+    "sha256": "041a06e09e922fa371a9bfbd9c92ff7db5ba72b80cb504f5d406619fd0e06c55",
+    "bytes": 21866
+  },
+  {
+    "path": "local_signatures/PROOF.md",
+    "sha256": "66229f594278bbecc74570c49c424b955e005231239ad785bcca7224ce45c92b",
+    "bytes": 9193
+  },
+  {
+    "path": "local_signatures/JOINT_EVALUATION_DENSITY.md",
+    "sha256": "35cb74bad9c5e579c0c25824d56754c63d3490fd720783e52911a2e4ae93438b",
+    "bytes": 6791
+  }
+]

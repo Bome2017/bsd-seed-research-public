@@ -1,0 +1,20 @@
+{
+  "status": "LEAN_CORE_REPLAY_PASS__A3_PROMOTED",
+  "lean_file": "A3Core.lean",
+  "lean_file_sha256": "f7a3c861c998f99630a46a9c988e41554ef630d46fdfbbe7f90383a4bf7f24ca",
+  "build_log": "build6.log",
+  "build_log_sha256": "07ec913c6c7979f7077940f01dced7a3ff2c5baf018d12bfc23a36bac86d2ca8",
+  "toolchain": "leanprover/lean4:v4.32.2",
+  "mathlib_rev": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "sorry_free": true,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "first_failed_implication": null,
+  "promotion": "DONE: ~/BSD_TWIST_SHA_SUPPORT_2026-09-22/SUPERSINGULAR_LANE_FREEZE_ADDENDUM_2026-09-22.md (A3 = CONDITIONAL_FORWARD_BRIDGE_PROVED)",
+  "sealed_inputs_modified": false,
+  "m2_nonvanishing": "OPEN_AT_EVERY_PRIME",
+  "ordinary": "ORDINARY_SECOND_PROOF_AVAILABLE (recorded, not substituted)"
+}

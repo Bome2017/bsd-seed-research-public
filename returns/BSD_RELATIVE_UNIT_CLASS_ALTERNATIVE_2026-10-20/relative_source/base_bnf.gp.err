@@ -1,0 +1,9 @@
+  ***   at top-level: main();quit
+  ***                 ^-----------
+  ***   in function main: ...],1);NF=nfinit(RF[1]);BB=bnfinit(RF[1],1);writ
+  ***                                                 ^---------------------
+  *** bnfinit: the PARI stack overflows !
+  current stack size: 256000000 (244.141 Mbytes)
+  [hint] set 'parisizemax' to a nonzero value in your GPRC
+
+... skipping file '/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/relative_source/base_bnf.gp'

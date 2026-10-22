@@ -1,0 +1,13 @@
+{
+  "status": "supported_under_retained_inputs_no_improvement",
+  "best_new_rank_bound": 106,
+  "retained_better_rank_bound": 97,
+  "new_small_bound": false,
+  "updated": "2026-10-22",
+  "independent_review": "../review/PRIMARY_PACKING_REVIEW.md",
+  "endpoints": {
+    "FIN": "OPEN unchanged",
+    "ORDER9": "OPEN unchanged",
+    "Q36": "OPEN unchanged"
+  }
+}

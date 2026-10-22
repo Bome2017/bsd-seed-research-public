@@ -1,0 +1,4 @@
+CASE [7, 29, 30, 30, 2, 4, 3, 4, 3]
+CASE [11, 23, 24, 12, 5, 2, 2, 6, 3]
+CASE [17, 103, 106, 106, 1, 12, 14, 6, 3]
+PAIRING_CHECK_PASS cases=3 translation_choices=9 wrong_factor_rejected=3

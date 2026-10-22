@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_BOUNDED_TESTS_NO_COMPLETE_SEED_BOUND",
+  "started_utc": "2026-10-20T17:54:38.325823+00:00",
+  "base_commit": "51434e21c788612ec21f552a1b1b92910679a46f",
+  "lanes": {
+    "seed_three": "old arithmetic replay complete, no new certificate",
+    "seed_five": "actual valuation complete; unit/class attempts failed before table",
+    "same_curve_scaling": "full unit upper2; valuation0; class certificate unfinished",
+    "uniform_valuation": "written uniform source-divisor theorem reviewed under retained inputs"
+  },
+  "FIN": "open",
+  "ORDER9": "open",
+  "Q36": "open",
+  "finished_utc": "2026-10-20T18:08:45.617496+00:00",
+  "outcomes": {
+    "same_curve_p5": "complete unit upper2; valuation0; ordinary class contribution unresolved",
+    "seed_p5": "valuation0; no unit/class table returned",
+    "seed_p3": "old attained conditional source4 recovered",
+    "uniform_seed_valuation": "t_D=indicator{19,59,487} for good p>=5 under retained inputs",
+    "complete_seed_bound": "NOT_OBTAINED"
+  }
+}

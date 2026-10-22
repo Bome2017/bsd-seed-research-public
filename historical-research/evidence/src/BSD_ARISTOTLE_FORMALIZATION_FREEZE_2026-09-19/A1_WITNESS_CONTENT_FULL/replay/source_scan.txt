@@ -1,0 +1,41 @@
+# Source scan of the returned tree (13 .lean files, code AND comments), 2026-09-19
+files:
+  ./A1_WITNESS_CONTENT/WitnessContent.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Acceptance.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Countermodels.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Defs.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Depth.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/GroupRing.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Instances.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Primary.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Spec.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Stretch.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/Targets.lean
+  ./A1_WITNESS_CONTENT/WitnessContent/WC.lean
+  ./RequestProject/Main.lean
+
+## forbidden / escape tokens: sorry admit axiom unsafe @[extern implemented_by native_decide ofReduceBool trustCompiler opaque @[csimp macro/elab/syntax debug.* skipKernelTC Lean.Elab run_cmd run_tac #eval
+(no matches)
+
+## set_option in proof sources (RequestProject/Main.lean is Aristotle wrapper boilerplate, not imported by WitnessContent)
+./A1_WITNESS_CONTENT/WitnessContent/WC.lean:13:set_option synthInstance.maxHeartbeats 1000000
+./A1_WITNESS_CONTENT/WitnessContent/WC.lean:14:set_option maxHeartbeats 1000000
+
+## instance / attribute declarations
+(none)
+
+## new def/abbrev/structure/class/inductive in helper files
+(none)
+
+## imports of Targets.lean
+1:import WitnessContent.Spec
+2:import WitnessContent.GroupRing
+3:import WitnessContent.Depth
+4:import WitnessContent.Primary
+5:import WitnessContent.WC
+6:import WitnessContent.Countermodels
+7:import WitnessContent.Instances
+8:import WitnessContent.Stretch
+
+## does any WitnessContent file import RequestProject?
+(no)

@@ -1,0 +1,327 @@
+[
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/FIN_FRONTIER.md",
+    "line": 87,
+    "text": "| 2243 (split), 5843 (non-split) | Skinner Thm A + SW Thm 6.1 (split case needs L-invariant \u2260 0) | COST_BLOCKED (\u2248 2\u00b710\u2074 / \u2248 10\u2075 CPU-h; architect's figures, not re-derived). Note: an R2-type period-comparison question may recur at p \u2223 N (not examined) | in principle |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 39,
+    "text": "| FIN.2243, FIN.5843 | Sha[p^\u221e] = 0 at the multiplicative primes | COST_BLOCKED | Skinner Thm A + SW (split case needs L-invariant \u2260 0); \u2248 2\u00b710\u2074 / 10\u2075 CPU-h (not re-derived) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup/SOURCE_AND_HASH_INDEX.md",
+    "line": 76,
+    "text": "| `7b3e32bcd2f536b0e1b581b3d81babf62488b081df566b24fb6083e69f0eb93f` | `BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md` | HISTORICAL: Lane 3 Arb interval \u03a9/Reg (labelled CERT-NUM there); superseded by the certificate above, kept unedited |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/FIN_FRONTIER.md",
+    "line": 87,
+    "text": "| 2243 (split), 5843 (non-split) | Skinner Thm A + SW Thm 6.1 (split case needs L-invariant \u2260 0) | COST_BLOCKED (\u2248 2\u00b710\u2074 / \u2248 10\u2075 CPU-h; architect's figures, not re-derived). Note: an R2-type period-comparison question may recur at p \u2223 N (not examined) | in principle |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/MASTER_BSD_DAG.md",
+    "line": 39,
+    "text": "| FIN.2243, FIN.5843 | Sha[p^\u221e] = 0 at the multiplicative primes | COST_BLOCKED | Skinner Thm A + SW (split case needs L-invariant \u2260 0); \u2248 2\u00b710\u2074 / 10\u2075 CPU-h (not re-derived) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/handoff_patch_backup_2/SOURCE_AND_HASH_INDEX.md",
+    "line": 76,
+    "text": "| `7b3e32bcd2f536b0e1b581b3d81babf62488b081df566b24fb6083e69f0eb93f` | `BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md` | HISTORICAL: Lane 3 Arb interval \u03a9/Reg (labelled CERT-NUM there); superseded by the certificate above, kept unedited |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_DIVISION_FIELD_HORIZONTAL_2026-09-19/LOCAL_CONDUCTOR_AND_MODULES.md",
+    "line": 174,
+    "text": "| 2243 | Tate-invariant line \\(\\chi\\); residual transvection is nontrivial | 1 | **0** |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FIXED_EISENSTEIN_GATE_2026-09-19/EISENSTEIN_TYPE_AND_DIRECTION_AUDIT.md",
+    "line": 158,
+    "text": "| 2243 | Split multiplicative \\(I_1\\), nonzero transvection | \\(\\mathcal L_{2243}=0\\) unless \\(p\\in\\{19,59,2243\\}\\); otherwise retain the exact Kummer image |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/RESUME.md",
+    "line": 9,
+    "text": "The new FIN reduction uses S0={2,3,5,2243,4547,5843}. The nonzero witness-content ideal J_E is UNKNOWN; the theorem proving its sufficiency is complete. No new h_p, integer A, arithmetic zeta element, or H9 comparison was constructed. The excluded 2,3,5 primary results are imported; 2243,4547,5843 remain open in this route. p=3 R1/R2 survive unchanged."
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/SOURCE_INDEX.md",
+    "line": 57,
+    "text": "| S49 | [BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md](</Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md:1>) | Full numerical method, normalization and values; corrected z-bound prose | `7b3e32bcd2f536b0` |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/SOURCE_INDEX.md",
+    "line": 58,
+    "text": "| S50 | [BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/rig_lib.sage](</Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/rig_lib.sage:1>) | Height/AGM library and tail-bound implementation read; not executed | `38bb5f5aa7248c74` |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/SOURCE_INDEX.md",
+    "line": 59,
+    "text": "| S51 | [BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s06_seed.sage](</Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s06_seed.sage:1>) | Seed driver read; not executed | `b3dc4476867f2781` |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/SOURCE_INDEX.md",
+    "line": 60,
+    "text": "| S52 | [BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_seed.out](</Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_seed.out:1>) | Historical printed interval output; not an independent old replay | `300c1b2ffedf19c8` |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/DO_NOT_RESURRECT.md",
+    "line": 52,
+    "text": "| 44 | \"DM now closes the tail with five exceptions\" / a universal trace or fixed-field lift repair | KILLED IN SPECIFIED SCOPE | Theorem 6 (135) to (137) fails; its universal lifting claim and Proposition 10 are false. No exhaustive five-prime set follows. Selmer-specific or different global invariants are not all excluded | DM hostile audit; canonical register D1\u2013D3 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/FIN_FRONTIER.md",
+    "line": 91,
+    "text": "| 2243 (split), 5843 (non-split) | Skinner Thm A + SW Thm 6.1 (split case needs L-invariant \u2260 0) | COST_BLOCKED (\u2248 2\u00b710\u2074 / \u2248 10\u2075 CPU-h; architect's figures, not re-derived). Note: an R2-type period-comparison question may recur at p \u2223 N (not examined) | in principle |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+    "line": 396,
+    "text": "**Final vertex-spherical endpoint test.** The [scoped proof and interval certificate](audits/ENDPOINT_VERTEX_COMPLETION_TEST.md) first defines the class: choose the spherical line of one of the three vertices of the specified length-two segment at \\(p=4547\\), apply Fricke symmetrization, and retain the existing away-from-\\(p\\) data and incoming/scattered normalizations. The lines \\(e_0,e_1,e_2\\) map to exactly two lines, \\(\\mathcal M(e_0+e_2)\\) and \\(\\mathcal M e_1\\). The constant-term equations uniquely normalize them to \\(\\mathcal E_*\\) and \\(\\mathcal E_{\\rm mid}\\). This is a classification of single-vertex symmetrizations; their full invariant linear span has further lines and is not reduced to two possibilities."
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_AND_HASH_INDEX.md",
+    "line": 78,
+    "text": "| `7b3e32bcd2f536b0e1b581b3d81babf62488b081df566b24fb6083e69f0eb93f` | `BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md` | HISTORICAL: Lane 3 Arb interval \u03a9/Reg (labelled CERT-NUM there); superseded by the certificate above, kept unedited |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/CURVATURE_AREA_TEST.md",
+    "line": 109,
+    "text": "There is no additional invariant measure to insert. With the complex orientation,"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/CHECKPOINTS.md",
+    "line": 12,
+    "text": "The source and proof checks close R1/R2 at the written-proof tier for this seed. The old source audit's assertion that all relevant multiplicity-one methods require p>=5 or p not dividing N is corrected: Wiles Theorem 2.1(ii), with its actual p>=3 standing assumption, covers ordinary distinguished p||N. The q=2243 toric character module is cyclic by residual inertia invariants and faithful by absence of q-old support, hence free of rank one. The definite module is its integral dual and is free by Gorenstein duality. All stabilizer denominators and the Gamma1/Gamma0 index are 3-units. The pairing identifies its primitive eigenform norm with the congruence ideal; the canonical periods and interpolation conductor factors were checked explicitly."
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+    "line": 47,
+    "text": "| Theorem 3.1 and its specialization, pp. 17\u201318 | Explicit nonsplit elliptic leading-term formula; no extra zero and no split Tate-period factor. |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+    "line": 99,
+    "text": "| Theorem 3.1 and specialization, logical pp. 17\u201318 | The elliptic nonsplit formula has no split-multiplicative extra zero or Tate-period factor. |"
+  },
+  {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+    "line": 108,
+    "text": "2. Inflation\u2013restriction and preservation of Kummer conditions inject base Selmer into the infinite-level invariants."
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/00_LANE2_CHARTER.md",
+    "line": 46,
+    "text": "- **Global invariants.** Root number +1; torsion Z/2."
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/C_CALIBRATION/00_REPORT.md",
+    "line": 281,
+    "text": "  - Sage on the family model and on the reduced minimal model agree to O(5\u00b2\u2077). Sage's height is model-invariant, unlike PARI's."
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/RESUME.md",
+    "line": 23,
+    "text": "- Coordinator check (11:12, C's v1 CSV, 1233 members): min ord5 of h11, h22, h12 and log P1, log P2 is 1 on every member, so a model change moves det by c*(l1^2 h22 - 2 l1 l2 h12 + l2^2 h11), which has ord >= 3. The dichotomy ord5 Reg5 = 2 vs >= 3 (hence the n = 22 mod 25 criterion) is MODEL-INVARIANT on every calibrated member. In general: [8]P lies in E^1(Q5) because #E(F5) = 8, so log P is in 5Z5, and heights are in 5Z5 (Lane 1 L2A Thm A; U integrality). C's split of ord 3 vs ord 4 inside n = 22 is NOT protected; it needs the canonical recompute."
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/RESUME.md",
+    "line": 29,
+    "text": "- B FINISHED (author level): no mechanism makes a2 != 0 mod 5 hold on a congruence class (NOT FOUND in the sources checked). a2 in Reg_gamma*Z5, so a2 = 0 mod 5 is forced where ord Reg5 >= 3, i.e. on n = 22 mod 25 by R-FAIL. That is congruence control, value 0, degenerate. The useful invariant is \u00e32 = a2/Reg_gamma, and with SU, \u00e32 a unit <=> Sha[5^inf] = 0. First unavailable input: Sha[5] = 0 (dim Sel5 = 2) on a Lemma-A-admissible class avoiding n = 22 mod 25. Normalization note: the seed's a2 is 1 mod 5 in SW's 2\u03c91 normalization (bit unchanged)."
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/RESUME.md",
+    "line": 32,
+    "text": "- V_B flag RESOLVED by Lane 3 (bsm-c4, 11:37; their numbers are UNAUDITED): certified L''(E,1)/2 = 35.9353137531543022480 +- 3e-15; Omega*Reg*prod c/#tors^2 = 3.99281263923936691806855; ratio 8.999999999999999996, so Sha_an = 9, predicted Sha = Sha[3^inf] = (Z/3)^2. p-adic BSD check at 5: 4*#Sha*Reg_gamma*eps = 4*9*1*1 = 36 = 1 mod 5 = observed a2^SW. The complex and 5-adic data are consistent; no sign error. Irrelevant to the 5-primary claims (Sha[5^inf] = 0 unaffected). Lane 3 files: ~/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/{A_analytic,B_invariants}/00_LANE_*.md. Lane 3 also reports ord_17 Reg_17 = 3 (confirmed canonically in Sage, not the PARI bug), while ord_p Reg_p = 2 at the other ordinary p <= 100."
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/U_UNIFORMITY/ZZ_FORK_UNVERIFIED_BLOCK_1102_1105.md",
+    "line": 92,
+    "text": "| q \u2016 N, q \u2260 5, \u03c1\u0304\u2085 ramified at q | yes: q = m, with v_m(N) = 1 and v_m(\u0394_min) = 1 \u2262 0 (mod 5), so the Tate period has valuation 1 and \u03c1\u0304\u2085 is ramified at m. (q = 3 and q = B also qualify: v(\u0394) = 2.) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/V_VERIFY/V_PARI.md",
+    "line": 36,
+    "text": "(iv) Check: f_e - s2_e g_e = f_E - r g_E/u^2 - (u^2 s2_E - r) g_E/u^2 = f_E - s2_E g_E. Model-invariant, as it must be."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/FIN_FRONTIER.md",
+    "line": 87,
+    "text": "| 2243 (split), 5843 (non-split) | Skinner Thm A + SW Thm 6.1 (split case needs L-invariant \u2260 0) | COST_BLOCKED (\u2248 2\u00b710\u2074 / \u2248 10\u2075 CPU-h; architect's figures, not re-derived). Note: an R2-type period-comparison question may recur at p \u2223 N (not examined) | in principle |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 39,
+    "text": "| FIN.2243, FIN.5843 | Sha[p^\u221e] = 0 at the multiplicative primes | COST_BLOCKED | Skinner Thm A + SW (split case needs L-invariant \u2260 0); \u2248 2\u00b710\u2074 / 10\u2075 CPU-h (not re-derived) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/ADDENDUM_CROSS_FAMILY_2026-09-19.md",
+    "line": 19,
+    "text": "- My \u00a70/\u00a76 label \"\u03a9, Reg (PARI; CERT-NUM)\" and the handoff's \"Reg and C are PARI values, not Arb enclosures\" were both wrong. Lane 3 already had an Arb interval Tate-series computation (`BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md`, 4000-bit balls), which it labelled CERTIFIED_NUMERIC. Codex hardened its tail step."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/FIN_FRONTIER.md",
+    "line": 87,
+    "text": "| 2243 (split), 5843 (non-split) | Skinner Thm A + SW Thm 6.1 (split case needs L-invariant \u2260 0) | COST_BLOCKED (\u2248 2\u00b710\u2074 / \u2248 10\u2075 CPU-h; architect's figures, not re-derived). Note: an R2-type period-comparison question may recur at p \u2223 N (not examined) | in principle |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/handoff_patch_backup/MASTER_BSD_DAG.md",
+    "line": 39,
+    "text": "| FIN.2243, FIN.5843 | Sha[p^\u221e] = 0 at the multiplicative primes | COST_BLOCKED | Skinner Thm A + SW (split case needs L-invariant \u2260 0); \u2248 2\u00b710\u2074 / 10\u2075 CPU-h (not re-derived) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/00_REPORT.md",
+    "line": 5,
+    "text": "Seed (m, n) = (2243, 12): E: y\u00b2 = x\u00b3 \u2212 22735x\u00b2 + 106272484x, N = 2\u00b3\u00b73\u00b72243\u00b74547\u00b2\u00b75843, T = (0,0), P\u2081 = (4547, 327384), P\u2082 = (5184, 281520). Lane files: `A_analytic/`, `B_invariants/`, `C_frontier/`, `D_primes/`. Audits: `audits/`."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/00_REPORT.md",
+    "line": 106,
+    "text": "| bad p = 2243 (split multiplicative, exceptional zero) | **UNKNOWN** | IMC for L_f by Skinner 2016 Thm A with q = 5843 or 3 (identification with L_p(E,T) as at p = 3); Kobayashi divisibility; Jones's split case | infeasible with present code: cusps b/2243\u00b2 need \u2248 4\u00b710\u00b9\u00b3 terms, \u2248 2\u00b710\u2074 CPU-h |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/07_bsd_constant_isogenous.md",
+    "line": 26,
+    "text": "## 7.2 E\u2032 = E/\u27e8T\u27e9: full invariants"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/C_frontier/C3_PER_PRIME_STATUS.md",
+    "line": 240,
+    "text": "| 2243 | split multiplicative (a = +1), I\u2081, c = 1 | exceptional zero: ord_T L_p \u2265 r + 1 = 3 (MTT); \u2112-invariant log_p(q_E)/ord_p(q_E) \u2260 0 (Saint-\u00c9tienne theorem, Barr\u00e9-Sirieix\u2013Diaz\u2013Gramain\u2013Philibert 1996); Kato divisibility via Kobayashi 2006 (SW Thm 7.3); IMC by Skinner Thm A with q = 5843 or 3; Jones (SW Thm 6.1, split case, \u2112_p/log \u03ba(\u03b3) replaces \u03b5_p); Kim 1.8 Kurihara witnesses (\u2113 \u2261 1 mod 2243) | finite computation. The cusps b/2243^k are unitary (2243 \u2225 N), but m \u2265 2243\u00b2 gives m\u00b7\u221a(N/2243) \u2248 8.6\u00b710\u00b9\u00b2, i.e. \u2248 4\u00b710\u00b9\u00b3 terms (\u2248 2\u00b710\u2074 CPU-h by the \u00a72.3 scaling); Kurihara n = \u2113\u2081\u2113\u2082 \u2273 2\u00b710\u2077 is costlier. **Infeasible with the present code**; UNKNOWN |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_B.md",
+    "line": 4,
+    "text": "Scope: /Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/ (00_LANE_B.md, 01..07, scripts/, out/, RESUME.md)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_C.md",
+    "line": 31,
+    "text": "Printed hypotheses: p >= 3; f in S_k(Gamma_0(N)) newform; f ordinary at p w.r.t. L (a_p a unit in O); (i) k = 2 mod (p-1); (ii) rho-bar_f irreducible; (iii) exists q != p, q || N, rho-bar_f ramified at q. Conclusion: Ch_L(f) = (L_f) in Lambda_O. Footnote 1: (ii)+(iii) suffice for the integral equality (no SL_2(Z_p) image hypothesis). Skinner's own text (l.59\u201362) says the p | N case is excluded from Kato Thm 17.4. Lane C's transcription (C4 \u00a71) is exact. No split/non-split restriction appears in Thm A (the L-invariant condition is only in Thm B(iii), split case)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/RESUME_AUDIT_B.md",
+    "line": 3,
+    "text": "Checked: A0\u2013A2 (predecessor, reading level + forensics); B0\u2013B6 (successor): e-cap defect confirmed and closed, all invariants recomputed independently (python/mpmath, 2-adic point count for c_2, quadrature for Omega, doubling-limit heights), s06 rerun byte-identical, Sage source for Silverman constants, label pass."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/session_scratch_2026-09-18/C3_before_sha9.md",
+    "line": 131,
+    "text": "| 2243 | split multiplicative (a = +1), I\u2081, c = 1 | exceptional zero: ord_T L_p \u2265 r + 1 = 3 (MTT); \u2112-invariant log_p(q_E)/ord_p(q_E) \u2260 0 (Saint-\u00c9tienne theorem, Barr\u00e9-Sirieix\u2013Diaz\u2013Gramain\u2013Philibert 1996); Kato divisibility via Kobayashi 2006 (SW Thm 7.3); IMC by Skinner Thm A with q = 5843 or 3; Jones (SW Thm 6.1, split case, \u2112_p/log \u03ba(\u03b3) replaces \u03b5_p); Kim 1.8 Kurihara witnesses (\u2113 \u2261 1 mod 2243) | finite computation; symbols of denominator \u2265 2243\u00b2 at non-unitary cusps, or n = \u2113\u2081\u2113\u2082 \u2273 2\u00b710\u2077 \u2014 **infeasible with the present code**; UNKNOWN |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/state/00_REPORT.pre_critic_fixes.md",
+    "line": 5,
+    "text": "Seed (m, n) = (2243, 12): E: y\u00b2 = x\u00b3 \u2212 22735x\u00b2 + 106272484x, N = 2\u00b3\u00b73\u00b72243\u00b74547\u00b2\u00b75843, T = (0,0), P\u2081 = (4547, 327384), P\u2082 = (5184, 281520). Lane files: `A_analytic/`, `B_invariants/`, `C_frontier/`, `D_primes/`. Audits: `audits/`."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/state/00_REPORT.pre_critic_fixes.md",
+    "line": 106,
+    "text": "| bad p = 2243 (split multiplicative, exceptional zero) | **UNKNOWN** | IMC for L_f by Skinner 2016 Thm A with q = 5843 or 3 (identification with L_p(E,T) as at p = 3); Kobayashi divisibility; Jones's split case | infeasible with present code: cusps b/2243\u00b2 need \u2248 4\u00b710\u00b9\u00b3 terms, \u2248 2\u00b710\u2074 CPU-h |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/FABLE_HOSTILE_AUDIT_PROMPTS.md",
+    "line": 147,
+    "text": "- (iv) whether scaling ambiguities other than the E\u2082 constant exist at non-split multiplicative p (the Tate parameter, the choice of log branch, the quadratic twist over Q\u2089), and whether any could shift ord\u2083 det."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/FULL_BSD_SEED_DAG.md",
+    "line": 56,
+    "text": "| G20 | Sha[2243^\u221e] = 0 (split multiplicative, exceptional zero) | ROUTE_BLOCKED | Skinner Thm A (q = 3 or 5843); SW split case with the L-invariant \u2260 0 (Barr\u00e9-Sirieix et al.). Cusps b/2243\u00b2: \u2248 2\u00b710\u2074 CPU-h |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/NEXT_3_TARGETS.md",
+    "line": 82,
+    "text": "- The IMC is PROVED at every good ordinary p (SU, q = 2243) and at 3, 2243 and 5843 (Skinner). So the only missing ingredient at ordinary p is the *nonvanishing* of one coefficient, a\u2082(L_p) mod p, for each p."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/00_SHARED_BRIEF.md",
+    "line": 34,
+    "text": "- **O5** bad multiplicative p = 2243 (split, exceptional zero) and p = 5843 (non-split)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/00_SHARED_BRIEF.md",
+    "line": 54,
+    "text": "\"L-invariant\", \"strong BSD\", \"full BSD\", \"Heegner\", \"Gross-Zagier\", \"Kato class\", \"Beilinson-Flach\", \"diagonal cycle\","
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/A_HOME_BSD_ARCHIVE.md",
+    "line": 147,
+    "text": "  needed). Node: O2 (exact), O5 (p = 2243 needs Mazur-Tate-Teitelbaum L-invariant != 0 \u2014 Thm B (iii) \u2014 known for elliptic curves)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/A_HOME_BSD_ARCHIVE.md",
+    "line": 173,
+    "text": "  split mult (O5; needs L-invariant/Tate period), p = 5843 non-split and p = 3 non-split (O5, O2). NOT at p = 4547 (additive; SW sec 3.6"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/A_HOME_BSD_ARCHIVE.md",
+    "line": 179,
+    "text": "  max(r+, r-) = nu + 1. For the seed (rank 2, K with 2,3,2243,4547,5843 split and E^K rank 1): a single nonzero derived class c(l) (nu = 1)"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/archaeology/A_HOME_BSD_ARCHIVE.md",
+    "line": 195,
+    "text": "  Stein-Wuthrich/exceptional zero/L-invariant/visibility/Cassels-Tate/Manin constant/analytic rank: ZERO analysis hits (only source texts)."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+    "line": 31,
+    "text": "  (b) Thm B (iii) / \u00a73.2 \u2014 the L-invariant and the extra zero, *split only* (l. 1120\u20131136: \"H\u00b9(F_p,(M\u207b)^{I_p}) = 0 unless \u03b1_p = 1\")."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+    "line": 84,
+    "text": "- **No hidden 3-power from the local term at 3:** #\u1ebc_ns(F_3) = p + 1 = 4; there is no L-invariant and no Tate-period term in the non-split case (those occur only in the split formula (5.2) and in the split height of \u00a74.2, l. 863\u2013871). \u2714"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+    "line": 105,
+    "text": "**E.3 Independent height (`f1_indep_height.gp`).** Does not call `ellpadics2`/`ellpadicheight`, uses no Tate parameter and never leaves Q\u2083:"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+    "line": 124,
+    "text": "**E.6 \"Can a non-split Tate-height ambiguity shift det by a factor 3?\"** Not found. (i) log branch: irrelevant, see 3; (ii) twist over Q\u2089 / Tate parameter: never used by the integrality route, and the Tate route (PARI) agrees with it; (iii) L-invariant correction \u2212log(u)\u00b2/log(q_E): split case only (SW l. 863\u2013871); that the non-split Schneider height is the plain \u03c3-height is printed in SW l. 831\u2013832 and is consistent with the universal-norm computation in CP-D. **Block E: PASS, strengthened.**"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 126,
+    "text": "| 2243 | split mult. I\u2081 (exceptional zero) | Skinner Thm A + SW split case (L-invariant \u2260 0 by Barr\u00e9-Sirieix\u2013Diaz\u2013Gramain\u2013Philibert) at cusps b/2243\u00b2; Kim | **DEC on paper, COST \u2248 2\u00b710\u2074 CPU-h** (architect's figure, not re-derived) via L_p; Kim route: Kolyvagin primes 224829349, 240431657 \u27f9 n \u2248 5.4\u00b710\u00b9\u2076 \u2014 astronomically out of reach | \u2014 |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "line": 334,
+    "text": "| S_2243, S_5843 | Sha[p^\u221e] = 0 at the multiplicative primes | ROUTE_BLOCKED by cost (\u2248 2\u00b710\u2074 and \u2248 10\u2075 CPU-h, architect's figures, not re-derived), **DEC on paper** | Skinner Thm A + SW (split case: L-invariant \u2260 0). The Kim alternative is *not* an alternative (n \u2248 5\u00b710\u00b9\u2076\u20137\u00b710\u00b9\u2076) |"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_work/LIT_WALL1_LARGE_PRIMES.md",
+    "line": 164,
+    "text": "- Content: elliptic Stark conjectures of Darmon\u2013Lauder\u2013Rotger when E has split multiplicative reduction at p; L-invariants; reduces a conjecture to exceptional-zero statements for triple-product p-adic L-functions. No Selmer/Sha bound in rank 2."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/A_heegner_kolyvagin.md",
+    "line": 147,
+    "text": "   partial invariants; Sel(Q,E[p^infty]) inside the span of the kappa_n; explicit 2 ord + 1 Kolyvagin primes giving a (Z/p^k)^{r_p^+}"
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/A_heegner_kolyvagin.md",
+    "line": 296,
+    "text": "   partial invariants; (vii) its length is d^{(ord)}(kappa) - d^{(infty)}(kappa); (viii) kappa primitive iff d^{(infty)} = 0."
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/agents/C_padic_rank2.md",
+    "line": 37,
+    "text": "  - Cor. 1.10 (= Cor. 6.7), l.364-374: \"The Generalized Perrin-Riou Conjecture of Conjecture 1.5 implies the following 'p-adic Beilinson Formula': one has (1 - 1/alpha)^{-1}(1 - 1/beta) L^{(r)}_{S,p} = L_S^{(r)}(E,1)/(Omega^+ * R_inf) * R_p if E has good or non-split multiplicative reduction at p\" (and an L-invariant version for split multiplicative p). Cor. 6.7 (l.2136-2147) adds: \"If R_p != 0 ... then the converse also holds\"."
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L3C_ELL_PRIMARY/00_REPORT.md",
+    "line": 105,
+    "text": "- Tate parameter: ord q_E = 1."
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/L3C_ELL_PRIMARY/00_REPORT.md",
+    "line": 106,
+    "text": "- L-invariant: L_2243 = log_p(q_E)/ord_p(q_E) = 1799*2243 + ..., ord 1, so ord(L_p / log kappa(gamma)) = 0."
+  }
+]

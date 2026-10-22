@@ -1,0 +1,7 @@
+{
+  "executable_logic_unchanged": true,
+  "old_sha256": "c3aa6e84bf4f62cd7c08e9a55535d4024dce7926485526539294c3d689946ba9",
+  "new_sha256": "01528b1c6b5d802b2e55ecc06afd185a51b91e7674f81307e98e7f2bce6c74db",
+  "only_change": "introductory docstring both -> all; existing generic loop now reads third binding",
+  "new_security_claim": false
+}

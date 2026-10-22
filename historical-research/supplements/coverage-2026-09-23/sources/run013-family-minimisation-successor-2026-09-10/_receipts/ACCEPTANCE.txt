@@ -1,0 +1,32 @@
+====================================================================
+ACCEPTANCE — family minimisation pass
+====================================================================
+
+[1] BUILD                    : exit 0, 8045 jobs (baseline also 8045)
+
+[2] HARNESS ENTRIES          : 42  (expected 42)   -> PASS
+    legacy printed           : 35/35
+    new _min printed         : 7/7  ['dual_phi_selmer_eq_min', 'dual_phi_selmer_ncard_min', 'phi_selmer_eq_min', 'phi_selmer_eq_torsion_image_min', 'phi_selmer_ncard_min', 'run013_primary_theorem_min', 'run013_selmer_orders_min']
+
+[3] LEGACY AXIOM SETS (parsed): 35/35 identical -> PASS
+    control eq_one_of_two_primary        ['propext']  unchanged
+    control sha_analytic_two_valuation   ['Quot.sound', 'propext']  unchanged
+    raw byte diff (legacy 35): IDENTICAL
+
+[4] NEW _min FOOTPRINTS      :
+    dual_phi_selmer_eq_min             [Classical.choice, Quot.sound, propext]
+    dual_phi_selmer_ncard_min          [Classical.choice, Quot.sound, propext]
+    phi_selmer_eq_min                  [Classical.choice, Quot.sound, propext]
+    phi_selmer_eq_torsion_image_min    [Classical.choice, Quot.sound, propext]
+    phi_selmer_ncard_min               [Classical.choice, Quot.sound, propext]
+    run013_primary_theorem_min         [Classical.choice, Quot.sound, propext]
+    run013_selmer_orders_min           [Classical.choice, Quot.sound, propext]
+    all inside standard axioms -> PASS
+
+[5] F62 BLOCK (Family 57-111) : 638b75d17a20592d47a1a4b1f8006643…
+    expected                 : 638b75d17a20592d47a1a4b1f800…
+    byte-identical           -> PASS
+    ten helper slice hashes  : 10/10 -> PASS
+
+[6] HYGIENE                  : sorry=0 admit=0 axiom=0 native_decide=0
+    theorems=0 lemmas=0

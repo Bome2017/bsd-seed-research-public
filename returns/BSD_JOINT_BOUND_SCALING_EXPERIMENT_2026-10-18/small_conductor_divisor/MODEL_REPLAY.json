@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "byte_identical": true,
+  "sha256": "dc60458d7071bdb88b418fc48d1d53b9a6477879a672289950274ad5a9d66506",
+  "elapsed_seconds": 0.03953748382627964,
+  "stdout": "PASS: I_order=7; D_order=21; primitive chi-divisor map is a unit; tDchi=0\nACTUAL_P7_AND_P11_BINDING_PASS: tDchi(S)=0\n"
+}

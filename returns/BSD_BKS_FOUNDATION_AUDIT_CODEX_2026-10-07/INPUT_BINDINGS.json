@@ -1,0 +1,38 @@
+{
+  "prior_lab_commit": "d4d86454eedd7e3be2c0b398f4a8210fa4abc4a3",
+  "prior_manifest_entries_verified": 22,
+  "entries": [
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "copy": "context/WEAK_ORDER_PROOF.md",
+      "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/TAME_COMPARISON.md",
+      "copy": "context/TAME_COMPARISON.md",
+      "sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/HANDOFF.md",
+      "copy": "context/HANDOFF.md",
+      "sha256": "8195d5c08221883d6faa1acfa52876a89b61d96a945f964bfc3797f5e5b70dc6"
+    },
+    {
+      "source": "/Users/bsm/Downloads/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "copy": "context/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "sha256": "fb9fcf0d91ee0d218aea7be5ae3a995e16b95086bf0b056a3f6b91c9ecffa8dc"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/sources/BKS2024_published.pdf",
+      "copy": null,
+      "sha256": "bc930bdfc4a979b80e03f953068842fcc30b12edb6edc2530290763724596386",
+      "description": "primary source PDF; not redistributed"
+    },
+    {
+      "source": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/sources/Kato2004_AST295.pdf",
+      "copy": null,
+      "sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d",
+      "description": "primary source PDF; not redistributed"
+    }
+  ]
+}

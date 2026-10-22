@@ -1,0 +1,536 @@
+[
+  {
+    "curve": "718b1",
+    "input_sha256": "7e39c9d0eafa79ad624a644a7ba29a052892f66e31330793eb3c919c8b70b957",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "local_repair": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "997c1",
+    "input_sha256": "7a015a8dfdd9fd57bb0b52e0ddb351305d962079e4788c4a5838ca87cc38e7d9",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "local_repair": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "1070a1",
+    "input_sha256": "638eee5b8c319c0fc0691d384dd94f4ac42b81096815511da2a250eccf4e35e7",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "local_repair": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "1141a1",
+    "input_sha256": "7fbd92034156e89c95c73a2795c53488106f61849a5a4e35ee1836cce985ff3a",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          2,
+          2,
+          0,
+          1
+        ],
+        "local_repair": [
+          2,
+          2,
+          0,
+          1
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "1246c1_retry600",
+    "input_sha256": "3ac578b5e6ff728fa899d3353b9f3d3407d991f111dbf48ea8297b8d255ade1e",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "local_repair": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "1480a1",
+    "input_sha256": "da63d61cffe103a5a8ff16ed74a54c51e377dcc91dd86d8df0527e1c8aa3ee01",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "local_repair": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "1525c1",
+    "input_sha256": "60c1d70e5dcf7d2a8e495cea301bccaaf295b2ba2aa75f25b7f58b318131bd98",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "local_repair": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "1613a1_grh",
+    "input_sha256": "ad72c85ff504c859b8016a7f92cbef39bd5b14f2c95d2a7130b86f1d9fab5fb1",
+    "units_dimension": 4,
+    "global_admitted_units": 1,
+    "local_admitted_units": 1,
+    "sum_of_repair_kernels_rank": 1,
+    "compatibility_quotient_dimension": 3,
+    "quotient_map": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          1,
+          2,
+          0,
+          2
+        ],
+        "local_repair": [
+          1,
+          2,
+          0,
+          2
+        ],
+        "difference_global_minus_local": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "compatible": true,
+        "separating_functional": null
+      }
+    ]
+  },
+  {
+    "curve": "mirror389",
+    "input_sha256": "a5c45a386a0ff05260e3c189a4a76008ad98d5627d79f5445a3e423503ba99c2",
+    "units_dimension": 4,
+    "global_admitted_units": 0,
+    "local_admitted_units": 0,
+    "sum_of_repair_kernels_rank": 0,
+    "compatibility_quotient_dimension": 4,
+    "quotient_map": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "class_lifts": [
+      {
+        "global_repair": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "local_repair": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "difference_global_minus_local": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "compatibility_quotient_coordinates": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "compatible": false,
+        "separating_functional": [
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+]

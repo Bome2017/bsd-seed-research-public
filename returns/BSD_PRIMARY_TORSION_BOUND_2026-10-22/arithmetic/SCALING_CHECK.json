@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "proof": "see SCALING_TEST.md for all p>=5, finite rows only cross-check exact exponent arithmetic",
+  "rows": [
+    {
+      "p": 5,
+      "relative_unit_rank": 6,
+      "base_degree": 12,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 7,
+      "relative_unit_rank": 12,
+      "base_degree": 24,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 11,
+      "relative_unit_rank": 30,
+      "base_degree": 60,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 13,
+      "relative_unit_rank": 42,
+      "base_degree": 84,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 17,
+      "relative_unit_rank": 72,
+      "base_degree": 144,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 19,
+      "relative_unit_rank": 90,
+      "base_degree": 180,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 23,
+      "relative_unit_rank": 132,
+      "base_degree": 264,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 29,
+      "relative_unit_rank": 210,
+      "base_degree": 420,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 31,
+      "relative_unit_rank": 240,
+      "base_degree": 480,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 53,
+      "relative_unit_rank": 702,
+      "base_degree": 1404,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 83,
+      "relative_unit_rank": 1722,
+      "base_degree": 3444,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    },
+    {
+      "p": 101,
+      "relative_unit_rank": 2550,
+      "base_degree": 5100,
+      "bare_expression_exceeds_p_to_4": true,
+      "class_group_computed": false
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+Yes. This is now the right admission problem.
+
+I would make **one further refinement**, because it closes the last way Stage A could accidentally become linear algebra disguised as deformation theory.
+
+Instead of initially asking Aristotle to manufacture some finite-dimensional target \(V_p\), define the **universal arithmetic obstruction map** from all admissible tame directions:
+
+\[
+\boxed{
+\mathcal O_p^{\mathrm{univ}}:
+S_p
+\longrightarrow
+\operatorname{Hom}_{\mathbf F_p}
+(\mathscr D_p,\mathbf F_p)
+}
+\]
+
+where \(\mathscr D_p\) is the space/module of tame deformation directions actually supplied by the OpenAI construction, and
+
+\[
+\mathcal O_p^{\mathrm{univ}}(x)(d)
+=
+\operatorname{Obs}_d(x).
+\]
+
+Then the real Stage-A theorem is
+
+\[
+\boxed{
+\ker \mathcal O_p^{\mathrm{univ}}=W_p.
+}
+\]
+
+That formulation is stronger and cleaner than choosing finitely many functionals first.
+
+It forces Aristotle to prove two independent facts:
+
+\[
+\operatorname{Obs}_d(P_1)
+=
+\operatorname{Obs}_d(P_2)
+=
+0
+\qquad
+\text{for every admissible }d
+\]
+
+for an arithmetic reason intrinsic to the construction, and
+
+\[
+x\notin W_p
+\quad\Longrightarrow\quad
+\exists d\in\mathscr D_p:
+\operatorname{Obs}_d(x)\neq0.
+\]
+
+The second statement is exactly where the OpenAI `obstruction-span` theorem should enter.
+
+Only **after** proving this universal kernel statement may finite-dimensionality be used to choose finitely many directions
+
+\[
+d_1,\ldots,d_r
+\]
+
+and obtain
+
+\[
+S_p/W_p
+\hookrightarrow
+\mathbf F_p^r.
+\]
+
+That prevents three hidden cheats at once:
+
+- choosing a complement \(S_p=W_p\oplus C_p\);
+- choosing a basis of \(\Sha[p]\);
+- choosing the number/directions only after being told \(\dim\Sha[p]\).
+
+I would therefore broaden `NONCANONICAL_SPLITTING` slightly:
+
+\[
+\boxed{\texttt{NONCANONICAL\_SPLITTING}}
+\]
+
+also covers any construction whose injectivity requires an unavailable basis, complement, or prior knowledge of \(\dim\Sha[p]\).
+
+### The crucial Stage-A fork
+
+There is an important possibility the run needs to test explicitly.
+
+OpenAI's obstruction-span theorem may prove that its tame directions separate **all** residual Selmer classes. If so, it may naturally detect the Kummer classes of \(P_1,P_2\) as well.
+
+Then we do **not** get
+
+\[
+W_p\subseteq\ker\mathcal O_p.
+\]
+
+To repair that, Aristotle might try to impose two linear equations on the deformation directions so that the obstruction vanishes on \(P_1,P_2\).
+
+That is admissible only if those two equations arise from the **known point sections themselves** and the remaining admissible direction space can be proved to separate the quotient. In other words, a construction of
+
+\[
+\mathscr D_p^W
+=
+\{d\in\mathscr D_p:
+\operatorname{Obs}_d(P_1)=
+\operatorname{Obs}_d(P_2)=0\}
+\]
+
+would be legitimate, provided Aristotle proves
+
+\[
+x\notin W_p
+\Longrightarrow
+\exists d\in\mathscr D_p^W:
+\operatorname{Obs}_d(x)\neq0.
+\]
+
+That is a genuinely arithmetic quotient construction. It uses the **known** Mordell–Weil basis, not unknown information about \(\Sha[p]\).
+
+But if restricting to \(\mathscr D_p^W\) destroys the obstruction-span property, Stage A fails. That is exactly what this run should discover.
+
+### Stage B is correctly separated
+
+I strongly agree with your warning that
+
+> “rank-two evaluation”
+
+does not imply
+
+> “rank-two determinant switch.”
+
+The printed square-switch lemma has rank-two localization at the special fiber but retains a **generic rank-one** class. The new theorem would genuinely have to replace its determinant tensor by
+
+\[
+\Delta_W
+=
+(P_1\wedge P_2)
+\otimes
+(P_1^\vee\wedge P_2^\vee).
+\]
+
+The clean target is:
+
+\[
+\begin{aligned}
+\dim H^1(C_\eta)&=\dim H^2(C_\eta)=2,\\
+H^1(C_\eta)&=\langle P_1,P_2\rangle,\\
+\dim H^1(C_k)&=2+2r,
+\end{aligned}
+\]
+
+and a rank-two switch should send
+
+\[
+2+2r\longmapsto2+2(r-1)
+\]
+
+while preserving the valuation/class of \(\Delta_W\).
+
+The proof must be redone in the top exterior power. It cannot cite the existing generic-rank-one lemma as though the generalization were formal.
+
+Your Bockstein restriction is also correct. The released alternation theorem was proved in a specialized induced/dyadic setting. At odd \(p\), an analogue may actually be cleaner because \(2\) is invertible, but Aristotle must either derive it from the relevant self-dual Selmer complex or cite an exact theorem with matching local conditions. No silent transfer.
+
+I would not make the Bockstein itself mandatory if the rank-two determinant switch can be established without it. It is an available mechanism, not something we should force into the proof architecture.
+
+### Stage C threshold is exactly right
+
+The first two statuses are meaningful new project mathematics:
+
+\[
+\texttt{EXCESS\_OBSTRUCTION\_PROVED}
+\]
+
+and
+
+\[
+\texttt{RANK2\_DETERMINANT\_SWITCH}.
+\]
+
+But neither is FIN.
+
+The global ledger moves only if we get
+
+\[
+\boxed{
+p\notin S,\quad
+\Sha[p]\neq0
+\Longrightarrow
+p\mid A_E
+}
+\]
+
+for one fixed
+
+\[
+0\neq A_E\in\mathbf Z
+\]
+
+—or equivalently one fixed nonzero rational/fractional ideal after explicitly clearing a finite denominator set.
+
+And your exclusions are exactly the right ones:
+
+\[
+A_{E,p}
+\]
+
+does not count;
+
+\[
+\operatorname{Reg}_p
+\]
+
+does not count;
+
+an uncontrolled \(p\)-unit ambiguity does not count;
+
+and
+
+\[
+q,\quad \#\Sha,\quad\text{ETNC normalization}
+\]
+
+do not count.
+
+### So I would send it with this one insertion
+
+Immediately before your Stage-A numbered tests, add:
+
+> **Universal-map requirement.** First define the full module \(\mathscr D_p\) of admissible tame deformation directions from the audited OpenAI construction and the universal obstruction map
+> \[
+> \mathcal O_p^{\rm univ}:S_p\to\operatorname{Hom}_{\mathbf F_p}(\mathscr D_p,\mathbf F_p).
+> \]
+> If necessary define intrinsically
+> \[
+> \mathscr D_p^W=\{d:\operatorname{Obs}_d(P_1)=\operatorname{Obs}_d(P_2)=0\}.
+> \]
+> Stage A succeeds only if
+> \[
+> \ker\bigl(S_p\to\operatorname{Hom}(\mathscr D_p^W,\mathbf F_p)\bigr)=W_p.
+> \]
+> The proof may use \(P_1,P_2\), which are fixed known data, but may not choose a complement or basis of \(S_p/W_p\), nor use its unknown dimension to define the obstruction map. A finite list of directions may be extracted only after the universal kernel theorem is proved.
+
+With that addition:
+
+\[
+\boxed{\mathbf{GO}.}
+\]
+
+This is a sharply falsifiable new question. If Stage A succeeds, we have for the first time an arithmetic deformation construction that sees **exactly the excess over the Mordell–Weil plane**, rather than merely identifying that excess after the fact. If it fails, it should tell us precisely why the OpenAI obstruction machinery cannot descend to the \(\Sha[p]\) quotient.

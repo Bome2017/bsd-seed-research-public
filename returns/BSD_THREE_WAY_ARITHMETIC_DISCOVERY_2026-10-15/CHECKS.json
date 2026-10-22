@@ -1,0 +1,57 @@
+{
+  "norm_predictions": {
+    "fresh_primes": 40,
+    "matches": 40,
+    "misses": [
+      51439,
+      56701,
+      58237
+    ],
+    "prior_calibrations": 72
+  },
+  "root_independent_replays": {
+    "local_blocks": 120,
+    "invariance_checks": 9864,
+    "fresh_norm_products": 320,
+    "fresh_additivity_triples": 1280
+  },
+  "producer_representative_controls": {
+    "unit_cubes": 6912,
+    "nonunit_cubes": 4608,
+    "uniformizers": 2304,
+    "point_shifts": 1584
+  },
+  "module_check": {
+    "group_elements": 48,
+    "incidence_rank_mod3": 2,
+    "integer_smith": [
+      1,
+      1,
+      3,
+      3
+    ]
+  },
+  "secondary_controls": {
+    "norm_cases": 6,
+    "representative_scalings": 5
+  },
+  "seed_detector": {
+    "coefficient_prime": 3,
+    "auxiliary_primes": [
+      811,
+      2767
+    ],
+    "excess_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "determinant_mod3": 2
+  },
+  "grade": "Exact arithmetic checks and written proofs under retained inputs; no formal verification or endpoint change"
+}

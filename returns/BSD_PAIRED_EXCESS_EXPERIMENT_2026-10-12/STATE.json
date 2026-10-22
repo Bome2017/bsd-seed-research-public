@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "result": "POSITIVE_EXCESS_NONUNIT_REGULATOR_CONTROL_COMPUTED",
+  "paired_control_d": 43737,
+  "combined_control_d": 329233,
+  "combined_L2_valuation": 4,
+  "combined_HU_valuation": 2,
+  "combined_corrected_Q_valuation": 2,
+  "Sha5_dimension_lower_bound": 2,
+  "grade": "written arithmetic deduction plus finite computations; no formal verification",
+  "seed_endpoints": "FIN ORDER9 Q36 unchanged",
+  "jobs_running": false
+}

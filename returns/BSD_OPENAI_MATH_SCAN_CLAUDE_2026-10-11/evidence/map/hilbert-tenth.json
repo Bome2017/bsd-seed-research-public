@@ -1,0 +1,171 @@
+{
+  "paper": "Hilbert's tenth problem over the rational numbers (OpenAI, dated October 6, 2026; openai/math family 004). Sources: preprints/Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026/build/{main.tex, sections/01-introduction.tex .. 07-consequences.tex, references/references.bib}. Grade: IMPORTED_PREPRINT (unrefereed, AI-generated); no Lean entry for this paper or any of its three OpenAI dependencies in lean/formalization.yaml. The section sources are byte-identical to the September-24-2026 edition; the only change is the three OAI citation hrefs (README: 'This version updates citations to revised manuscripts in this collection').",
+  "main_theorems": [
+    {
+      "label": "Theorem 1.1 (thm:main)",
+      "statement": "There is no algorithm which, given a polynomial $f\\in\\Z[X_1,\\ldots,X_n]$, with $n$ part of the input, decides whether $f$ has a zero in $\\Q^n$.",
+      "hypotheses": "Stated unconditionally. The proof (Prop. 2.14 red:finite-test-success + parallel search, 02-reduction.tex:755-887) rests on: DPRM theorem (published); Prop. 2.2 rank E(Q(sqrt2))=1 for y^2=x^3-d^2x, d=75-53sqrt2 (proved, 2-isogeny descent); Prop. 2.3 formal-log estimates (proved); Thm 2.4 five-point height estimate (proved MODULO OAI 'Fontaine-Mazur modularity at the prime 2' Thm 1.1); Prop. 2.9 pole-parity formula (proved MODULO OAI 'pointwise 2-converse' Thm 1.1); Lemma 6.1 prime patterns (Green-Tao-Ziegler, published). So the theorem is conditional on two unrefereed OAI companions.",
+      "location": "sections/01-introduction.tex:7-11; proof sections/02-reduction.tex:876-887"
+    },
+    {
+      "label": "Corollary 7.1 (thm:degree-normal-form)",
+      "statement": "With the usual effective coding, let $\\mathrm{H10}(\\Q)$ be the set of integral polynomials having a rational zero, with the number of variables part of the input. Then $\\mathrm{H10}(\\Q)$ has Turing degree $0'$, the degree of the halting problem. The same is true for each of the following restricted input problems: (i) rational solvability for integral polynomials of total degree at most four; (ii) given a nonempty finite list $q_1,\\ldots,q_s\\in\\Z[X_1,\\ldots,X_N]$, each of total degree at most two, whether $\\sum_{i=1}^s q_i^2$ has a zero in $\\Q^N$. No bound is imposed on the number of variables, the number of summands in (ii), or the coefficient heights.",
+      "hypotheses": "Same inputs as Theorem 1.1 (the finite-test Turing reduction H10(Z) <=_T H10(Q)) plus Davis 1973 Thm 8.1/7.5 and the four-square theorem. Manuscript states it 'does not establish many-one completeness of H10(Q)' and 'gives no single existential definition of Z in Q'.",
+      "location": "sections/07-consequences.tex:8-23; proof 25-108"
+    }
+  ],
+  "general_results": [
+    {
+      "label": "Imported statement used in Lemma 3.5 (par:global-point): consequence of OAI PointwiseTwoConverse Thm 1.1",
+      "statement": "The consequence we use from Theorem~1.1 of \\cite{PointwiseTwoConverse} is the following: an elliptic curve $C/\\Q$ with $C(\\Q)[2]\\ne0$ and $\\corank_{\\Z_2}\\Sel_{2^\\infty}(C/\\Q)\\in\\{0,1\\}$ has finite $\\Sha(C/\\Q)$. (CONTENTS.md for that companion: analytic rank and Mordell-Weil rank equal that corank, Sha finite; 'allows arbitrary reduction at 2'.)",
+      "hypotheses": "C/Q elliptic curve with nonzero rational 2-torsion and Z_2-corank of Sel_{2^infty}(C/Q) equal to 0 or 1. NOT proved here; quoted as a black box from another OAI manuscript (unrefereed, not Lean-checked).",
+      "location": "sections/03-parity.tex:457-462 (statement), 492-494 (use)",
+      "kind": "p2_p3",
+      "relevance": "K-RANK2: fails for the seed E (every p^infty-Selmer corank >= 2). For E^{-7}: hypotheses hold (E^{-7}(Q)[2] contains the twist of T=(0,0); corank Sel_{2^infty}(E^{-7}/Q)=0) but the conclusion (rank 0, Sha(E^{-7}) finite) is already PROVED by Gross-Zagier-Kolyvagin from L(E^{-7},1)!=0. No new information on #Sha(E^{-7}) or on Sha(E)[2^infty] (already 0). Relevance: none."
+    },
+    {
+      "label": "Remark after Lemma 3.5 (unnumbered): OAI UnrestrictedTwoConverse Thm 1.1",
+      "statement": "The unrestricted $2$-converse \\cite[Theorem~1.1]{UnrestrictedTwoConverse} can replace the pointwise theorem in the preceding proof. It gives finiteness of the whole $\\Sha(E_l/\\Q)$ from the same full Selmer-corank bound, without any rational-two-torsion hypothesis.",
+      "hypotheses": "E/Q with corank_{Z_2} Sel_{2^infty}(E/Q) in {0,1}. Imported from OAI 'Goldfeld's analytic density conjecture and the 2-converse for elliptic curves' (Oct 7 2026 edition); not proved here.",
+      "location": "sections/03-parity.tex:528-533",
+      "kind": "p2_p3",
+      "relevance": "Same as above: K-RANK2 kills it for E; for E^{-7} it reproduces GZK. none."
+    },
+    {
+      "label": "Modularity input (unnumbered display): OAI OddRegularFontaineMazurAtTwo Thm 1.1 as quoted",
+      "statement": "The modularity input is \\cite[Theorem 1.1]{OddRegularFontaineMazurAtTwo} in its exact form: every continuous irreducible odd two-dimensional $2$-adic representation of $G_\\Q$, unramified outside finitely many primes and de Rham at $2$ with distinct Hodge--Tate weights, is a Tate twist of the representation associated with a classical cuspidal eigenform. There is no residual-image hypothesis in that statement.",
+      "hypotheses": "Continuous, irreducible, odd, 2-dimensional, 2-adic, unramified outside finite set, de Rham at 2 with distinct HT weights. No residual-image / residual-irreducibility hypothesis. Imported black box from an unrefereed OAI manuscript (Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026); far beyond published modularity-lifting results at p=2.",
+      "location": "sections/04-height.tex:901-913; weight normalization 956-963 citing its Section 2.1",
+      "kind": "p2_p3",
+      "relevance": "none for the seed: E is modular by Wiles/BCDT; no Iwasawa/Selmer content. Only relevant as a grading warning for any other openai/math result citing this companion."
+    },
+    {
+      "label": "Lemma 3.4 (par:descent): 2-Selmer rank of y^2=x(x-l)(x+3l) via Monsky/Redei matrices",
+      "statement": "Let $l>0$ be squarefree, prime to $6$, with $l\\equiv3\\pmod4$ and $l\\equiv2\\pmod3$. Suppose that its support $Q$ contains the nonempty set $B$ of Lemma~3.3 and a prime outside $B$, and suppose that $\\ker K=\\langle\\mathbf1,\\mathbf1_B\\rangle$, $\\lambda\\notin\\operatorname{im}K$. Then $\\dim_{\\F_2}\\Sel_2(E_l/\\Q)=3$, and $(\\beta,1)$ is a Selmer class outside the subgroup of rational two-torsion classes, in Kummer coordinates $(x+3l,x-l)$.",
+      "hypotheses": "Specific one-parameter family E_l: y^2=x(x-l)(x+3l) with FULL rational 2-torsion; l squarefree, (l,6)=1, l=3 mod 4, l=2 mod 3; Legendre-symbol matrix conditions (par:matrices, par:matrix-target). Proved in the manuscript by full 2-descent with explicit local images at odd q, at 3, a necessary condition at 2, and the real place (Silverman X.1.4, X.4.2; Monsky appendix in Heath-Brown 1994; Wei-Guo 2022).",
+      "location": "sections/03-parity.tex:300-454",
+      "kind": "algorithmic",
+      "relevance": "none: the seed E has E(Q)_tors = Z/2 (not full 2-torsion) and is not in this family; Sha(E)[2]=0 is already known."
+    },
+    {
+      "label": "Lemma 3.5 (par:global-point) proof step: Cassels-Tate parity of dim Sha[2]",
+      "statement": "The Cassels--Tate pairing on this finite group is perfect and alternating ... Hence $\\dim_{\\F_2}\\Sha(E_l/\\Q)[2]$ is even. This conclusion uses the perfect pairing on the full finite $2$-primary group; its restriction to the subgroup killed by $2$ need not be perfect.",
+      "hypotheses": "Sha(E/Q) finite (here obtained from the imported 2-converse); principal polarization from the divisor (O); Cassels 1962, Poonen-Stoll 1999 Cor. 9.",
+      "location": "sections/03-parity.tex:496-514",
+      "kind": "parity",
+      "relevance": "none (standard published fact; the seed's Sha[2]=0 and Sha[3^infty]=(Z/3)^2 are consistent with it and already recorded)."
+    },
+    {
+      "label": "Proposition 2.2 (ell:rank)",
+      "statement": "The group $E(F)$ has rank one. Consequently there exist a positive integer $m$ and a nontorsion point $P\\in E(F)$ such that $mE(F)=\\Z P$. We fix such $m$ and $P$ once and for all.",
+      "hypotheses": "F=Q(sqrt2), d=75-53sqrt2 (norm 7), E: y^2=x^3-d^2x (specific CM-by-Q(i) twist). Proved by 2-isogeny descent over the PID Z[sqrt2] (sections/05-elliptic.tex:20-101). The rank-one point Q=(-dw, 2sqrt2 d^2), w=-5+4sqrt2.",
+      "location": "sections/02-reduction.tex:27-34; proof sections/05-elliptic.tex:20-101",
+      "kind": "algorithmic",
+      "relevance": "none (one specific curve over Q(sqrt2))."
+    },
+    {
+      "label": "Proposition 2.3 (ell:formal): formal-logarithm index comparison",
+      "statement": "There is a fixed finite set of rational primes $S_E$ with the following properties. Let $p\\notin S_E$, let $v$ be any place of $F$ above $p$, normalized by $v(p)=1$, and let $n,n'\\in\\Z$, with $n'\\ne0$. Assume $nP,n'P$ reduce to $O$ at $v$. Then $v(z(nP)/z(n'P))=v_p(n/n')$. For every integer $K\\ge1$, if in addition $p>K+1$ and $v_p(n/n')\\ge0$, then $\\ell_K(z(n'P))\\ne0$ and $v(\\ell_K(z(nP))/\\ell_K(z(n'P))-n/n')\\ge K$.",
+      "hypotheses": "Fixed E/F and P as above; p outside S_E (which contains 2, bad primes, ramified primes); points in the formal kernel; p>K+1. Proved from integrality of the formal group logarithm (Silverman IV.6).",
+      "location": "sections/02-reduction.tex:109-127; proof sections/05-elliptic.tex:130-181",
+      "kind": "other",
+      "relevance": "none."
+    },
+    {
+      "label": "Theorem 2.4 (hei:height): Five-point height estimate",
+      "statement": "There exist five distinct points $\\mathcal C\\subset\\mathbf P^1(\\Q)$, including $\\infty$, a finite set $S$ of rational primes, and constants $H,c>0$ with the following property. For each $b\\in\\mathcal C$, choose a primitive integral linear form $L_b(U,V)$ vanishing at $b$, with $L_\\infty(U,V)=V$. For $s=(u:v)\\in\\mathbf P^1(\\Q)\\setminus\\mathcal C$, let $M_S(s)$ be the product, taken without repetition, of primes $q\\notin S$ for which at least one of the integers $v_q(L_b(u,v))-\\min\\{v_q(u),v_q(v)\\}$, $b\\in\\mathcal C$, is odd. Then $\\hgt(s)\\le H M_S(s)^c$.",
+      "hypotheses": "C = the five branch values of the Atkin-Lehner quotient X^* of the discriminant-210 Shimura curve (genus 5 -> P^1). Proof: QM abelian-surface family over a fine level Y, Pazuki theta/Faltings comparison, Q-curve-type descent cocycle, OAI Fontaine-Mazur modularity at 2 (black box, no residual-image hypothesis), Carayol local-global compatibility, Javanpeykar Belyi height bound for J_1(N), Gaudron-Remond isogeny theorem, Zarhin trick, Bost lower bound. Ineffective constants (CM case uses ineffective class-number finiteness).",
+      "location": "sections/02-reduction.tex:232-248; proof sections/04-height.tex (whole section; completion 1299-1309)",
+      "kind": "other",
+      "relevance": "none for BSD obligations. (Note the manuscript's own list of related published bounds: von Kaenel 2013 Prop 9.9, von Kaenel-Kret 2023 Thm 7.1, 04-height.tex:1311-1326.)"
+    },
+    {
+      "label": "Proposition 2.9 (par:pole-parity)",
+      "statement": "There are a positive existential formula $\\Phi(b)$ in the language of rings, with fixed rational coefficients, and a finite set $S_1$ of rational primes such that: (1) $\\Q\\models\\Phi(b)$ for every $b\\in\\Z$; (2) if $b\\in\\Q^\\times$ and $\\Q\\models\\Phi(b)$, then, for every $q\\notin S_1$, the inequality $v_q(b)<0$ implies $v_q(b)\\in2\\Z$.",
+      "hypotheses": "Soundness (2) is proved elementarily (Lemma 3.1). Integer completeness (1) requires realizing a 2-Selmer class of y^2=x(x-l)(x+3l) by a rational point for two parameters l=n, n*theta, which uses the imported OAI pointwise 2-converse (Lemma 3.5) and the simultaneous Monsky-matrix construction (Lemma 3.6, Dirichlet + CRT).",
+      "location": "sections/02-reduction.tex:477-486; proof sections/03-parity.tex:706-718",
+      "kind": "twists",
+      "relevance": "none."
+    },
+    {
+      "label": "Lemma 6.1 (pri:pattern): Prime patterns",
+      "statement": "There is a finite set $\\mathcal K\\subset\\Z_{>0}$ such that, for every $A\\in\\Z$ and every real $B>0$, there exist integers $u_1,u_2,v$, with $v\\ne0$, for which, on setting $u_3=Av-u_1-u_2$, each of the thirteen numbers $v$, $L_b(u_j,v)$ ($1\\le j\\le3$, $b\\in\\mathcal C\\setminus\\{\\infty\\}$) has the form $\\epsilon kr$, where $\\epsilon\\in\\{1,-1\\}$, $k\\in\\mathcal K$, and $r>B$ is a positive rational prime. Every such prime splits in $F$ and is a prime of good reduction for both $E$ and $E^\\sigma$. At either place of $F$ above $r$, if $d_1,d_2$ are the cardinalities of the reduction groups of $E,E^\\sigma$ over $\\F_r$, then $\\gcd(d_1,d_2)\\mid4$, $r\\nmid d_1d_2$.",
+      "hypotheses": "r = 1 mod 8, r = 3 mod 7 so E, E^sigma reduce to opposite twists of y^2=x^3-x with orders r+1 +/- 2a. Proof: Green-Tao 2010 linear equations in primes (finite complexity, 13 affine-linear forms on Z^3) + Green-Tao 2012 + GTZ 2012 inverse theorem with 2024 erratum; Selberg upper sieve (Lemma 6.3) to remove common odd factors of the two group orders; Mertens in progressions (Williams 1974).",
+      "location": "sections/06-primes.tex:21-40; proof 121-699",
+      "kind": "algorithmic",
+      "relevance": "none."
+    },
+    {
+      "label": "Corollary 6.2 (pri:integer-tests): Simultaneous integer tests",
+      "statement": "Fix an integer $K\\ge1$ and a prime $r$ supplied by Lemma 6.1, large enough for Proposition 2.3 at precision $K$. At each of the two places $v$ above $r$ there are nonzero integers $h,j_0$, chosen independently of $a\\in\\Z$, such that, for every $a\\in\\Z$: (1) $hP$ and $haP$ reduce to $O$ at $v$, $\\ell_K(z(hP))\\ne0$, and $v(\\ell_K(z(haP))/\\ell_K(z(hP))-a)\\ge K$; (2) $j_0P^\\sigma$ and $(h-4)aP^\\sigma$ reduce to $O$ at the same place $v$, and $v(z((h-4)aP^\\sigma)/z(j_0P^\\sigma))\\ge K$.",
+      "hypotheses": "As in Lemma 6.1; proof by CRT using gcd(d_1,d_2)|4 and r does not divide d_1 (j_0=d_2, h=0 mod d_1, h=4 mod d_2 r^K).",
+      "location": "sections/06-primes.tex:53-101",
+      "kind": "other",
+      "relevance": "none."
+    },
+    {
+      "label": "Lemma 6.3 (pri:upper-sieve): two-dimensional Selberg upper sieve",
+      "statement": "The number of points in this square avoiding every $\\Omega_p$ is at most $n^2/G(Z)+O(nZ^6+Z^8)$, $G(Z)=\\sum_{e\\le Z\\ \\text{squarefree},\\ p\\mid e\\Rightarrow p\\in\\mathcal P_Z}\\prod_{p\\mid e}g(p)/(1-g(p))$. The error constant is absolute.",
+      "hypotheses": "Forbidden sets Omega_p in F_p^2 of density g(p) in (0,1/2); square of side n in Z^2; Selberg lambda^2 method.",
+      "location": "sections/06-primes.tex:458-509",
+      "kind": "algorithmic",
+      "relevance": "none."
+    }
+  ],
+  "external_inputs": [
+    {"name": "Davis-Putnam-Robinson 1961 + Matiyasevich 1970 (DPRM); Davis 1973 Thm 7.5, 8.1", "how_used": "Undecidability of H10(Z) and the fixed universal polynomial for the halting set (proof of Thm 1.1, Cor. 7.1).", "black_box": true},
+    {"name": "Silverman, Arithmetic of Elliptic Curves (X.1.4, X.4.2, X.4.7/4.9, IV.6, III.7.4, III.8.6, VIII canonical height)", "how_used": "2-isogeny descent for Prop. 2.2; full 2-descent/Kummer map and Selmer sequence in Lemma 3.4; formal group logarithm in Prop. 2.3; canonical height quadraticity h(x(nP))=2hhat(P)n^2+O(1) in Prop. 2.14.", "black_box": true},
+    {"name": "Cassels 1962; Poonen-Stoll 1999 (Sec. 1, Cor. 9)", "how_used": "Cassels-Tate pairing alternating for the principal polarization (O), hence dim Sha[2] even once Sha is finite (Lemma 3.5).", "black_box": true},
+    {"name": "Monsky appendix to Heath-Brown 1994; Mokrani 2020; Wei-Guo 2022 (arXiv, unrefereed)", "how_used": "Selmer graph-matrix viewpoint and the quadratic-reciprocity Redei identity K+K^t=ss^t+D_s for the family y^2=x(x-l)(x+3l) (Lemma 3.4, 3.6).", "black_box": false},
+    {"name": "Demeyer-Van Geel 2006; Cornelissen-Zahidi 2007", "how_used": "Cited only as precedent for existential odd-valuation predicates; not used in proofs.", "black_box": true},
+    {"name": "Deligne 1971/1979 (canonical models of Shimura varieties)", "how_used": "Existence of the model of the discriminant-210 Shimura curve X and fine level Y over Q, functoriality to the Siegel variety carrying the universal ppav (Sec. 4.1-4.2).", "black_box": true},
+    {"name": "Voight, Quaternion Algebras (Thm 39.1.2 Eichler area; Thms 28.2.10-11 conjugacy of maximal orders; ABHN embedding criterion)", "how_used": "g(X)=5, Atkin-Lehner group (Z/2)^4, five rational branch values labelled 30,42,70,105,210 (Sec. 4.1); also Long-Maclachlan-Reid 2006 Table 3 and Nualart 2015 Props 4.1-4.2 as tabulated confirmation.", "black_box": true},
+    {"name": "Pazuki 2012 (Sec. 2.3, Def. 2.6, Cor. 1.3(2), Thm 1.1)", "how_used": "Theta height vs Faltings height comparison in Lemma 4.3 (hei:base-height).", "black_box": true},
+    {"name": "Gaudron-Remond 2014 Duke (Thm 1.4, p. 2058) and 2014 CMH (Cor. 8.4, Sec. 2.3)", "how_used": "Explicit isogeny theorem kappa(C_1) to transfer the Faltings-height bound from J_1(N)^8 to A^8 x D_Z; Bost lower bound for h_F(D_Z); Deligne normalization (Sec. 4.5, 4.8).", "black_box": true},
+    {"name": "Faltings 1983 (semisimplicity, Hom theorem, height under isogeny)", "how_used": "End_{G_{L'}}(V_l(A))=B tensor Q_l; existence of A->J_1(N) over L' from a Tate-module Hom; h_F(C_2)<=h_F(C_1)+(1/2)log deg phi.", "black_box": true},
+    {"name": "Scholze 2013 Cor. 1.8 + 2016 corrigendum; Fontaine 1994 Sec. 3.9(ii)", "how_used": "V_l(A) de Rham with HT exponents 0,1; descent of de Rham property through finite extensions (Sec. 4.6).", "black_box": true},
+    {"name": "Carayol 1986 (Thm A, Sec. 0.5/0.7)", "how_used": "Local-global compatibility with conductor preservation to bound the newform level N <= C M^2 (Lemma 4.7).", "black_box": true},
+    {"name": "Silverberg-Zarhin 1995 Thm 3.5; Serre, Local Fields", "how_used": "Semistable reduction over F(A[p_0]) and upper-ramification-group bookkeeping for the conductor at small primes (Lemma 4.7).", "black_box": true},
+    {"name": "Javanpeykar 2014 (Thm 1.1.1, Sec. 2.3, Lemma 2.4.4)", "how_used": "h_F(J_1(N)) <= 13*10^6 g deg_B^5 with Belyi degree O(N^2) (Sec. 4.8).", "black_box": true},
+    {"name": "Zarhin 2023 (Thm 1.1(ii), Rem. 1.4); Bost 1996 Bourbaki", "how_used": "Quaternion trick: principal polarization on (D_0 x D_0^vee)^4 (Sec. 4.8).", "black_box": true},
+    {"name": "Ribet 1977 (Thm 2.1); Ribet 1992 Sec. 3, 6; Pyle 1995; Quer 2001; Deligne 1971 (Formes modulaires); Milne AV notes", "how_used": "Eichler-Shimura realization of r_2 in V_2(J_1(N)); Q-curve/building-block cocycle framework; Chebotarev + Brauer-Nesbitt identification of r_3 with the same newform (Lemma 4.6).", "black_box": true},
+    {"name": "Green-Tao 2010 (Main Theorem, finite complexity); Green-Tao 2012 Thm 1.1; Green-Tao-Ziegler 2012 Thm 1.3 + 2024 erratum", "how_used": "Asymptotic for 13 affine-linear forms simultaneously prime on a dilated box (eq. pri:gtz) in Lemma 6.1.", "black_box": true},
+    {"name": "Selberg 1947; Montgomery-Vaughan 2007 Sec. 3.2; Williams 1974 (Mertens in progressions); Davenport (Dirichlet)", "how_used": "Upper sieve Lemma 6.3; density lower bounds; choice of multiplier primes h_nu.", "black_box": false},
+    {"name": "Marker 2002 (compactness)", "how_used": "Lemma 2.10 red:compactness: elementary extension and embedded ring R from success of all finite tests.", "black_box": true},
+    {"name": "Cox 2013; Siegel 1935", "how_used": "Ineffective finiteness of CM j-invariants of bounded degree (CM case of Thm 2.4).", "black_box": true},
+    {"name": "Mazur-Rubin 2010; Koymans-Pagano 2026; Alpoge-Bhargava-Ho-Shnidman 2026; Poonen 2002/2003/2009; Koenigsmann 2016; Garcia-Fritz-Pasten-Vidaux 2025; Eisentraeger-Miller-Park-Shlapentokh 2017", "how_used": "Historical context in the introduction only.", "black_box": true},
+    {"name": "NOT CITED: Kato, Skinner-Urban, Skinner, Kobayashi, Sprung, Wan, Castella-Wan, Burungale-Skinner-Tian, Jetchev-Skinner-Wan, Zhang, BDP, Bertolini-Darmon, Nekovar, Gross-Zagier, Kolyvagin, Smith, Bhargava-Shankar", "how_used": "None of the Iwasawa/Euler-system/Heegner literature is cited; all BSD-type content is delegated to the two OAI 2-converse companions.", "black_box": true}
+  ],
+  "internal_dependencies": [
+    {"oai_paper": "A pointwise 2-converse for elliptic curves with rational two-torsion (OAI, October-7-2026 edition; Sept-24-2026 edition cited in the previous H10 version; its Oct-7 README says only 'updates a citation to a revised manuscript')", "what_used": "Theorem 1.1: C/Q with C(Q)[2] != 0 and corank_{Z_2} Sel_{2^infty}(C/Q) in {0,1} implies Sha(C/Q) finite. Used to realize the Selmer class (beta,1) on E_l by a rational point, i.e. integer completeness of the pole-parity formula Phi. Load-bearing for Theorem 1.1.", "location": "sections/03-parity.tex:457-462, 492-494; introduction 01-introduction.tex:232-235; references.bib:16-23"},
+    {"oai_paper": "Goldfeld's analytic density conjecture and the 2-converse for elliptic curves (OAI, October-7-2026 edition; citation-update revision only)", "what_used": "Theorem 1.1 (unrestricted 2-converse) offered as an alternative to the pointwise theorem, removing the rational-2-torsion hypothesis. Not load-bearing (Remark).", "location": "sections/03-parity.tex:528-533; references.bib:24-31"},
+    {"oai_paper": "Fontaine-Mazur modularity at the prime 2 (OAI, October-6-2026 edition; citation-update revision only)", "what_used": "Theorem 1.1 (odd regular 2-adic Fontaine-Mazur with NO residual-image hypothesis) to make r_2 modular; Section 2.1 for the arithmetic-Frobenius weight/determinant normalization. Load-bearing for Theorem 2.4 and hence Theorem 1.1.", "location": "sections/04-height.tex:901-913, 956-963; introduction 01-introduction.tex:236-239; references.bib:32-39"}
+  ],
+  "self_declared_gaps": [
+    "Theorem 1.1 is unconditional only relative to two unrefereed OAI companions: the manuscript explicitly routes 'its passage from two-descent data to rational points' through the pointwise 2-converse and 'its modularity step' through the odd regular Fontaine-Mazur theorem at 2 'whose statement has no hypothesis on the residual image' (01-introduction.tex:231-239).",
+    "Non-constructive constants: 'The finite sets, fixed integers, rational coefficients, and coordinates of P are finitely many exact constants that can be hardcoded in the theory. Their existence suffices for the existence of the decision procedure constructed below; no effective search for those fixed choices is required.' (02-reduction.tex:463-467). The five points C, the exceptional set S, and H, c are never computed.",
+    "'The finiteness invoked here need not be effective.' (CM case of the height estimate, 04-height.tex:680).",
+    "'This establishes the claimed necessary condition at 2; no sufficiency is being asserted.' (local Kummer image at 2, 03-parity.tex:373-374).",
+    "'This argument does not establish many-one completeness of H10(Q)' and 'it gives no single existential definition of Z in Q' (07-consequences.tex:100-107).",
+    "Dependence on the 2024 GTZ erratum: the manuscript asserts the erratum 'leaves the stated inverse theorem, and hence (pri:gtz), unchanged' (06-primes.tex:376-378) without further argument.",
+    "'We require no uniformity in the little-oh error as A or L varies.' (06-primes.tex:423) - the order of limits (K, A, box, L, then X) is asserted to be consistent.",
+    "Lemma 4.3 (theta-null nonconstancy) states 'The following argument avoids an assumption about generic injectivity of a particular theta map' (04-height.tex:465-466); the theta-data 'good choices' are taken from Pazuki after unspecified finite covers.",
+    "Wei-Guo 2022 is cited as an arXiv preprint (unrefereed) for the Redei-matrix formulation, though the manuscript redoes the calculation."
+  ],
+  "applicability": {
+    "seed_E": "NOT APPLICABLE. The manuscript proves no statement about a general elliptic curve over Q; its only general-EC statements are IMPORTED (2-converse theorems requiring corank_{Z_2} Sel_{2^infty} <= 1). For the seed E, rank 2 forces every p^infty-Selmer corank >= 2, so K-RANK2 kills both imported theorems. The 2-Selmer matrix lemma (Lemma 3.4) is for y^2=x(x-l)(x+3l) with full rational 2-torsion; E has E(Q)_tors = Z/2 and is not in that family. Nothing touches FIN, ORDER9, Q36, Sha[p^infty] at any prime, lemma TH, or the Brandt/B.18 cost. No Iwasawa main conjecture, Euler system, control theorem, p-adic L-function, Heegner/theta, parity, Tamagawa, twist-distribution, level-raising, additive-prime, or anticyclotomic statement appears anywhere in the manuscript.",
+    "twist_Em7": "NO GAIN. The imported pointwise 2-converse (Thm 1.1 of the companion) has hypotheses that E^{-7} satisfies: E^{-7}(Q)[2] != 0 (the quadratic twist keeps the 2-torsion point (0,0)) and corank_{Z_2} Sel_{2^infty}(E^{-7}/Q) = 0. Its conclusion (rank 0, Sha(E^{-7}/Q) finite) is already PROVED in the lab by Gross-Zagier-Kolyvagin from L(E^{-7},1) in [9.054319, 9.054421] != 0. The companion is not proved in this manuscript, and nothing here gives #Sha(E^{-7}) or any BSD leading-term formula. Even if the companion were accepted at grade IMPORTED_PREPRINT it would be strictly weaker than the existing PROVED chain.",
+    "by_prime": "p=2: nothing new (Sha(E)[2]=0 known; the 2-adic content is only the imported 2-converse, inapplicable to E by K-RANK2). p=3: nothing (manuscript has no 3-adic arithmetic beyond local square classes at 3 in Lemma 3.2). p=2243 (split mult.), 5843 (nonsplit mult.), 4547 (additive, type III): no results at multiplicative or additive primes; Section 4's conductor bookkeeping is for the auxiliary QM surface, not for elliptic curves. Good ordinary / good supersingular primes: nothing (no Kurihara/Mazur-Tate, no signed Selmer, no IMC). Conclusion for every prime: no hypothesis of any theorem here is satisfiable by E in a way that yields Sha(E)[p^infty]=0; the only EC-level theorems are imported and need Selmer corank <= 1."
+  },
+  "red_flags": [
+    "Load-bearing dependence on OAI 'Fontaine-Mazur modularity at the prime 2' Thm 1.1 with NO residual-image hypothesis (04-height.tex:901-913). Published modularity lifting at p=2 (Kisin, Khare-Wintenberger, Allen, Pan) requires residual conditions; a hypothesis-free odd regular Fontaine-Mazur at 2 is a major open claim. The H10 theorem inherits this grade (IMPORTED_PREPRINT, not Lean-checked).",
+    "Load-bearing dependence on OAI 'pointwise 2-converse' Thm 1.1 (corank_{Z_2} Sel_{2^infty} <= 1 with rational 2-torsion, arbitrary reduction at 2 => Sha finite; 03-parity.tex:457-462). Published 2-converse/2-adic BSD results (Tian, Smith, Burungale-Skinner-Tian) have strong hypotheses; this is well beyond the literature and not Lean-checked. The manuscript does not attempt an unconditional route (e.g. Heath-Brown/Smith-type density for the specific family would not suffice since it needs every integer b).",
+    "Chain of citation-only revisions: this paper's Oct-6 edition differs from Sept-24 only in the hrefs of the three OAI citations (diff of sections/ is empty); the cited companions' Oct-7/Oct-6 READMEs likewise say they only updated citations. history.md (Oct 7) records that 'Exact Birch-Swinnerton-Dyer Formula from Low Selmer Corank' had 'an obsolete introductory citation to a removed supporting manuscript' - a removed BSD-family manuscript exists; whether the 2-converse companions depend on it is NOT verified here (outside this task's scope). Neither of the three companions is among the three withdrawn Oct-7 papers (all in the Hodge/K3 family).",
+    "Mismatch in strength of claim vs. abstract: the abstract and Theorem 1.1 are stated unconditionally with no mention that the proof rests on two unrefereed companion results; the dependence is disclosed only in the proof-strategy paragraph (01-introduction.tex:231-239).",
+    "Lemma 4.3 (hei:base-height) and Lemma 4.4-4.7 are long, delicate arguments (theta-null nonconstancy via density of rational characteristics; Brauer-obstruction splitting with inertia control; uniform upper-ramification cut) whose correctness has not been checked here; any error would break Theorem 2.4. The CM/non-CM dichotomy relies on D = End^0(A) being exactly B or M_2(k), which needs C_B in {Q, imaginary quadratic} - argued via the real centralizer of the complex structure (04-height.tex:625-633); plausible but terse.",
+    "Lemma 2.1 (red:local-comparison) and Lemma 2.11 (red:coarsening) transfer ordinary statements to a non-standard model; the 'external' convex-subgroup coarsening is used 'one prime at a time' and then a transferred universal statement is invoked (02-reduction.tex:802-814). The logical hygiene looks careful but the step from externally chosen coarsenings to the internal divisibility M_K^K | delta is the most delicate model-theoretic point.",
+    "The relevance of Wei-Guo 2022 (arXiv preprint) and the dependence on a 2024 erratum of GTZ are flagged by the manuscript itself; the GTZ application needs 13 forms in 3 variables with pairwise non-proportional linear parts - satisfied by construction, but the little-oh error is not uniform in A or L and the order of limits must be respected.",
+    "No circularity found within this paper; circularity between this paper and its three OAI companions was not checked (the companions were not read)."
+  ],
+  "notes": "Summary for the lab: this manuscript is a logic/Diophantine-definability paper. Its elliptic-curve content is (a) one explicit rank-one curve over Q(sqrt2) used as an integer model, (b) a 2-Selmer rank-3 construction in the family y^2=x(x-l)(x+3l), and (c) two black-box imports from other openai/math manuscripts (pointwise/unrestricted 2-converse at corank <= 1) plus a black-box modularity theorem at 2. None of these proves or reduces the cost of any seed obligation (FIN, ORDER9, Q36, Sha[p^infty] at 2, 3, 2243, 4547, 5843 or good primes, #Sha(E^{-7}), lemma TH). The only item of indirect interest is the hypothesis list of the imported 2-converse theorems, which the lab should examine in the companion manuscripts themselves if it wants anything at p=2 for twists of E; for E itself they are excluded by K-RANK2. Grade of everything here: IMPORTED_PREPRINT; nothing Lean-checked. File written: /tmp/claude-0/-home-user-bsd-seed-lab/ab9d3026-f88f-51d1-8e47-f94a5d2c0e6f/scratchpad/scan/map/hilbert-tenth.json."
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-13",
+  "return": "BSD_VALUATION_MECHANISM_REVIEW_2026-10-13",
+  "author_commit": "45821d2778ea277db2cbfaf5eed6e59dec392377",
+  "lab_baseline": "d926f9300576226dd441309d17bf91ff4f8e091b",
+  "manifest_entries": 26,
+  "all_copied_bytes_equal": true,
+  "input_zip_sha256": "d5c1560a57971b49ee55b69a7cc617c78daca17e29de92e10dac97f06cfc55ea",
+  "return_zip_sha256": "11bdf307e27ac0983f8bd6caaa8530fd604ebb2ddca0dd502ff4e6a6a90be7ec",
+  "author_files_verified": 7,
+  "new_coefficient_computation": false,
+  "status": "written theorem application under retained arithmetic; same-team review, not human/formal certification",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

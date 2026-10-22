@@ -1,0 +1,26 @@
+{
+  "geometric_gcd.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 56.7160220281221,
+    "maximum_resident_set_bytes": 32346112,
+    "script_sha256": "59cc29174caa3c204acf19418b9b46ff0bdd37839bc65581d8ca6240495d5584"
+  },
+  "norm_screen.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 0.13194528897292912,
+    "maximum_resident_set_bytes": 18915328,
+    "script_sha256": "66c96ae79728cb9318a54b5b316e1fe3341fe3ddf0ed49b84ab7603a4c1fe4ea"
+  },
+  "geometric_rank.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 57.02342751296237,
+    "maximum_resident_set_bytes": 77746176,
+    "script_sha256": "9404065926edd80314f82dd8417ad0ee5e8cf0b5a6e147dee94546edc5ee0df9"
+  },
+  "geometric_units.receipt.json": {
+    "accepted": true,
+    "elapsed_seconds": 0.721858331002295,
+    "maximum_resident_set_bytes": 77471744,
+    "script_sha256": "15f93efb2953d8f337d3604f0fb81b97f48a82fa9d2de4f191b52e33c1ce5fc4"
+  }
+}

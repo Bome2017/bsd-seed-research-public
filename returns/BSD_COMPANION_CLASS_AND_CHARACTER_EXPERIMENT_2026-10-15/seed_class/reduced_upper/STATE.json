@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETED_BNF_TIMEOUT",
+  "reduction": "PASS after recorded variable-convention repair",
+  "BNF": "TIMEOUT120s",
+  "BNF_result": "none",
+  "certification": "not run; no BNF exists"
+}

@@ -1,0 +1,11 @@
+reviewer: p=3 n=4 r=0 alpha=-1: a_(n,r) = 0   LATDEN*a = 0   mod p = 0   unit=False
+reviewer: p=3 n=4 r=1 alpha=-1: a_(n,r) = -54   LATDEN*a = -55296   mod p = 0   unit=False
+   PASS engine m81_merge_w3_4_1_-1_dft1.txt A_EXACT -55296 vs reviewer -55296
+reviewer: p=3 n=4 r=2 alpha=-1: a_(n,r) = 15480   LATDEN*a = 15851520   mod p = 0   unit=False
+   PASS engine m81_merge_direct.txt A_EXACT 15851520 vs reviewer 15851520
+   PASS engine m81_merge_dft.txt A_EXACT 15851520 vs reviewer 15851520
+reviewer: p=3 n=4 r=3 alpha=-1: a_(n,r) = 308736   LATDEN*a = 316145664   mod p = 0   unit=False
+reviewer: p=3 n=4 r=6 alpha=-1: a_(n,r) = 59770322   LATDEN*a = 61204809728   mod p = 2   unit=True
+   PASS engine m81_merge_w3_4_6_-1_dft1.txt A_EXACT 61204809728 vs reviewer 61204809728
+reviewer: p=3 n=4 r=7 alpha=-1: a_(n,r) = 184690678   LATDEN*a = 189123254272   mod p = 1   unit=True
+   PASS engine m81_merge_w3_4_7_-1_dft1.txt A_EXACT 189123254272 vs reviewer 189123254272

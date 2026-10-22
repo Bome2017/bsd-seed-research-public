@@ -1,0 +1,46 @@
+{
+  "lab_commit": "6847ff04e983a6179ccaad636a9b8227561a144a",
+  "files": [
+    {
+      "path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+      "sha256": "10327d5f65e6fa98411eb5cf9859184bdf4e2c3ba63907c746fa00d0d33a6636",
+      "bytes": 10850
+    },
+    {
+      "path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+      "sha256": "8efc5c3d46c24e5fa9eb940ea528da49870e63490ba7721b90e0f7b4216e9cf3",
+      "bytes": 3748
+    },
+    {
+      "path": "work/returns/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/SUBMITTED_REVIEW.md",
+      "sha256": "d7eba09a99d06eac7ac7d90ee050542cd747e0ed7d448bbd5825c64d3f673098",
+      "bytes": 8977
+    },
+    {
+      "path": "work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COFINITE_NORMALIZATION.md",
+      "sha256": "71ef880907350d939a36196461ace4b0ff757d608d7d1d5f4453112e03bf4826",
+      "bytes": 6598
+    },
+    {
+      "path": "work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+      "bytes": 10104
+    },
+    {
+      "path": "work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/COMBINATION_LEDGER.md",
+      "sha256": "ed575320335717093a5f84ff01130a9cebfa51a33c7964fc1297bf80d116695f",
+      "bytes": 7348
+    },
+    {
+      "path": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/working_set/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/sources/Kato2004_fresh.txt",
+      "sha256": "23f8f255d0822ac203599be37d5eb6e6e5ea6db456e422f6a4b7cc483ac2caa8",
+      "bytes": 483480
+    },
+    {
+      "path": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "sha256": "8aefa608256599fb57895568ab65553b928dbb4a020f7354c053da4eea0d397c",
+      "bytes": 4400051
+    }
+  ],
+  "reading_scope": "Bindings are not assertions of full reading. Current source-test sections and historical keyword hits are identified in SOURCE_TESTS.md; prior proofs retain their grade."
+}

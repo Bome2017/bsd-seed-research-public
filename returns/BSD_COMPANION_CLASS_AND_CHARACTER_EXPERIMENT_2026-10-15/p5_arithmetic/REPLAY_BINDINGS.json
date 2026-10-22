@@ -1,0 +1,22 @@
+{
+  "arithmetic.json": "3baf427b53ba7b3f74256fe90d84826ae8704e702df101d50e998e00340e7830",
+  "field.gp": "28e04d5c68def9ba479e2c395765f3e8af6408223b7799a22ed40790f76e5fa1",
+  "nf.gp": "4647f4db5bb31b850695ab263c0a95bfde6c72d09dc8d2559346e25faf753341",
+  "divisors.gpout": "4d1e4db2a1fdf423a1811ad74125db8d54f5bae2e9d6adf1b8b9e429a08f603e",
+  "check_exact.gp": "d766d9ae23fd48a09fed67320606394523242781360173ce9d86b84df74dc5e2",
+  "check_divisors.py": "5bb928ba26bbe8e4c57fb712c675a0912ea4369f027589fcc1de2079453d04ff",
+  "class_group.gp.out": "9e0aa28211686cfe3f9833a7e08dca8d94951d7386deac0469d195f26b0c2708",
+  "class_group.gp.err": "e0422fe9e55cd80918c2f0da04ab5cbdffd30999534cd7a875a0c3dc516cefcc",
+  "class_group.gp.receipt.json": "1b65f3f0851a53589a760e17e20901b575faceeda1da2e943051cd9c6000a9d2",
+  "class_quotient.gp.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "class_quotient.gp.err": "d9cd2b6d607e9707e6cd4220246084fc4cfdcf2501f00236297a034ea6b97d67",
+  "class_quotient.gp.receipt.json": "c4a16bc1bb4f55514576e4bbd42a83329bc742a511afd15c8b5c845635e32c43",
+  "control37/arithmetic.json": "6563131c5a10239998a8a876dba8081e576564abcc8991d10d830be8e951e135",
+  "control37/field.gp": "0b9e8abeafbc06e7807f591486238ad819d9190ead2316564ab5e2538285bdaf",
+  "control37/nf.gp": "b1727106497336822b226562b233f9e84e2dfc74b0f54af442442795c4e5d747",
+  "control37/divisors.gpout": "c6696c353a6517d7e65449f5079d4cb1ae25b5eaf33003f8bfa228b805745c3b",
+  "control37/check_exact.gp": "d766d9ae23fd48a09fed67320606394523242781360173ce9d86b84df74dc5e2",
+  "control37/class_group.gp.out": "4184bb376743218cc5cd3fef75b6ec444cfe13b3bb3236428554ab20b08dcf85",
+  "control37/class_group.gp.err": "451f05745e6c5efdee0896842ed6f2e2d667f90294aaaccd2dd9e52741405988",
+  "control37/class_group.gp.receipt.json": "840f598bbf73da87c404db7d754a3b41d172da29ce81be437825653f4aa9e787"
+}

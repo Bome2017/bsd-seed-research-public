@@ -1,0 +1,4 @@
+FATAL: selection pair recount fails
+MERGE checkpoints 1 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+COUNT_SELECTION pairs 70944209 recount 70944208 match 0  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)

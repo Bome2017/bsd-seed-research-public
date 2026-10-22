@@ -1,0 +1,103 @@
+{
+  "manifest_entries": 6,
+  "manifest_all_match": true,
+  "manifest": [
+    {
+      "path": "PROOF.md",
+      "expected": "54d0811946434f3f16918dfeedd57764dee28f1b59924beaaba48e221bbc54bd",
+      "actual": "54d0811946434f3f16918dfeedd57764dee28f1b59924beaaba48e221bbc54bd",
+      "ok": true
+    },
+    {
+      "path": "REPORT.md",
+      "expected": "963c56507d9f13136deb88f57582f499ad3ccc69efed5815c8d663d598c398a2",
+      "actual": "963c56507d9f13136deb88f57582f499ad3ccc69efed5815c8d663d598c398a2",
+      "ok": true
+    },
+    {
+      "path": "SOURCES.md",
+      "expected": "6ebb7d413a0383c2240ae43744697bd7abd73d637dcccc9f391ba596cfc2258c",
+      "actual": "6ebb7d413a0383c2240ae43744697bd7abd73d637dcccc9f391ba596cfc2258c",
+      "ok": true
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "expected": "c87c5f0afc965a336c04c885f91f0537434077ff6d65963255caad79bf053f17",
+      "actual": "c87c5f0afc965a336c04c885f91f0537434077ff6d65963255caad79bf053f17",
+      "ok": true
+    },
+    {
+      "path": "checks/RESULTS.json",
+      "expected": "28a964f5b2027d06f0924b67d82edd434e037749085aac9a1ee2213e461a1bbe",
+      "actual": "28a964f5b2027d06f0924b67d82edd434e037749085aac9a1ee2213e461a1bbe",
+      "ok": true
+    },
+    {
+      "path": "checks/verify.py",
+      "expected": "36ff54d3517382969bb2a5b5352a4b562358a0ab4794a4df428a49d076b7322f",
+      "actual": "36ff54d3517382969bb2a5b5352a4b562358a0ab4794a4df428a49d076b7322f",
+      "ok": true
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "work/returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/REPORT.md",
+      "expected_blob": "34196d680f37b7795d31a59cf872c11605b774ad",
+      "actual_blob": "34196d680f37b7795d31a59cf872c11605b774ad",
+      "blob_match": true,
+      "current_worktree_matches": true,
+      "size": 6834
+    },
+    {
+      "path": "work/returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/PROOF.md",
+      "expected_blob": "9d63bdf806efa88a025609f4c7c3ad4f7cdb58d5",
+      "actual_blob": "9d63bdf806efa88a025609f4c7c3ad4f7cdb58d5",
+      "blob_match": true,
+      "current_worktree_matches": true,
+      "size": 6285
+    },
+    {
+      "path": "work/returns/BSD_CORRELATED_VALUATION_EXPERIMENT_2026-10-12/REPORT.md",
+      "expected_blob": "f8a66bcf6b14da412a17df6d2619b2c75119e9df",
+      "actual_blob": "f8a66bcf6b14da412a17df6d2619b2c75119e9df",
+      "blob_match": true,
+      "current_worktree_matches": true,
+      "size": 9613
+    },
+    {
+      "path": "work/returns/BSD_CORRELATED_VALUATION_EXPERIMENT_2026-10-12/outputs/RESULTS.json",
+      "expected_blob": "73efe5e25af9f02faa4b6c55a80c677284a7a4fe",
+      "actual_blob": "73efe5e25af9f02faa4b6c55a80c677284a7a4fe",
+      "blob_match": true,
+      "current_worktree_matches": true,
+      "size": 881
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/RETURN.md",
+      "expected_blob": "1314530bc27d45570c20fd0b2bfd5ad87faf4da5",
+      "actual_blob": "1314530bc27d45570c20fd0b2bfd5ad87faf4da5",
+      "blob_match": true,
+      "current_worktree_matches": true,
+      "size": 9677
+    },
+    {
+      "path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+      "expected_blob": "f3adaa6527b6fdb4142eceb91f17d3dab4939a68",
+      "actual_blob": "f3adaa6527b6fdb4142eceb91f17d3dab4939a68",
+      "blob_match": true,
+      "current_worktree_matches": true,
+      "size": 3748
+    },
+    {
+      "path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/context/RUBIN_COMPARISON.md",
+      "expected_blob": "20dcfa44ad16d0bdc7b888766d01565908b20055",
+      "actual_blob": "20dcfa44ad16d0bdc7b888766d01565908b20055",
+      "blob_match": true,
+      "current_worktree_matches": true,
+      "size": 5987
+    }
+  ],
+  "all_bindings_match": true,
+  "replay_byte_identical": true,
+  "replay_semantically_identical": true
+}

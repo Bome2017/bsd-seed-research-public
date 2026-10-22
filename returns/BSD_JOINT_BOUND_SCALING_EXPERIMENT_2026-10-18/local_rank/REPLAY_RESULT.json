@@ -1,0 +1,41 @@
+{
+  "point_count_11a1_mod7": 10,
+  "local_product_replays": [
+    {
+      "file": "formal_branch_8.json",
+      "raw_rank": 0,
+      "chi_rank": 0,
+      "point_branch_checked": true,
+      "valuation_cancellation_checked": true,
+      "nonpower_calibration_nonzero": true
+    },
+    {
+      "file": "11a1_formal_8.json",
+      "raw_rank": 6,
+      "chi_rank": 1,
+      "point_branch_checked": true,
+      "valuation_cancellation_checked": true,
+      "nonpower_calibration_nonzero": true
+    },
+    {
+      "file": "formal_branch_9.json",
+      "raw_rank": 0,
+      "chi_rank": 0,
+      "point_branch_checked": true,
+      "valuation_cancellation_checked": true,
+      "nonpower_calibration_nonzero": true
+    },
+    {
+      "file": "11a1_formal_9.json",
+      "raw_rank": 6,
+      "chi_rank": 1,
+      "point_branch_checked": true,
+      "valuation_cancellation_checked": true,
+      "nonpower_calibration_nonzero": true
+    }
+  ],
+  "actual_joint_rank_11a1_p7": 4,
+  "minor_det_mod7": 6,
+  "independent_unit_dimension_bound": 4,
+  "class_completeness_claim": false
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "exploratory real approximations with Sage reported series-tail bounds; not independent rounding-certified enclosures",
+  "curve": [
+    1,
+    1,
+    1,
+    1878418,
+    -485198548
+  ],
+  "N": 424347,
+  "discriminant": "-1 * 3^14 * 7 * 11^2 * 167^5",
+  "Y": [
+    "480",
+    "22723"
+  ],
+  "height_normalised_BSD": "3.5240590168638977891412299819821355137165",
+  "periods": [
+    "0.092674457156300142848254908600592365143001",
+    "0.046337228578150071424127454300296182571501 + 0.052330806335614612307190555937370475547679*I"
+  ],
+  "period_area": "0.0048497290697045564624553288731248391763216",
+  "a5": -3,
+  "a13": -2,
+  "source_multiplier": -2,
+  "classical_modular_degree_record": 20576640,
+  "classical_degree_factors": "2^7 * 3 * 5 * 7 * 1531",
+  "locals": {
+    "3": {
+      "kodaira": "I14",
+      "tamagawa": 2,
+      "vdisc": 14
+    },
+    "7": {
+      "kodaira": "I1",
+      "tamagawa": 1,
+      "vdisc": 1
+    },
+    "11": {
+      "kodaira": "II",
+      "tamagawa": 1,
+      "vdisc": 2
+    },
+    "167": {
+      "kodaira": "I5",
+      "tamagawa": 5,
+      "vdisc": 5
+    }
+  },
+  "Lprime": "3.2659025637462649825367196326155350416376512541216620921377759060526622032",
+  "Lprime_tail": "1.95731e-65",
+  "twist_L": "3.025388605559863904637139217923124",
+  "twist_tail": "1.37697e-23",
+  "twist_N": 153189267,
+  "raw_GZ_ratio_using_degree_and_Sage_height": "0.000061234487263226649248856956233017730619366"
+}

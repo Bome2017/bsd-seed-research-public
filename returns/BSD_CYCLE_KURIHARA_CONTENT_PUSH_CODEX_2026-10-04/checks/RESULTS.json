@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "counts": {
+    "integral_operator_coefficients": 1156,
+    "cyclic_basis_vectors": 1156,
+    "borel_commutators": 1156,
+    "oldform_scalars": 24,
+    "mixed_grid_basis_vectors": 1014,
+    "polarized_vectors": 72,
+    "diagonal_differences": 1014,
+    "unit_packet_zero_controls": 72,
+    "free_mixed_coefficients": 1156,
+    "joint_oldform_matrices": 24,
+    "cross_pair_identities": 72
+  },
+  "seed_local_normalization_controls": [
+    {
+      "p": 5,
+      "ap": -2,
+      "point_count": 8,
+      "supersingular": false
+    },
+    {
+      "p": 7,
+      "ap": -2,
+      "point_count": 10,
+      "supersingular": false
+    },
+    {
+      "p": 11,
+      "ap": -2,
+      "point_count": 14,
+      "supersingular": false
+    },
+    {
+      "p": 13,
+      "ap": -4,
+      "point_count": 18,
+      "supersingular": false
+    },
+    {
+      "p": 17,
+      "ap": -6,
+      "point_count": 24,
+      "supersingular": false
+    },
+    {
+      "p": 19,
+      "ap": 4,
+      "point_count": 16,
+      "supersingular": false
+    },
+    {
+      "p": 23,
+      "ap": 0,
+      "point_count": 24,
+      "supersingular": true
+    },
+    {
+      "p": 29,
+      "ap": 0,
+      "point_count": 30,
+      "supersingular": true
+    },
+    {
+      "p": 31,
+      "ap": -8,
+      "point_count": 40,
+      "supersingular": false
+    },
+    {
+      "p": 37,
+      "ap": 10,
+      "point_count": 28,
+      "supersingular": false
+    },
+    {
+      "p": 41,
+      "ap": 6,
+      "point_count": 36,
+      "supersingular": false
+    },
+    {
+      "p": 43,
+      "ap": -8,
+      "point_count": 52,
+      "supersingular": false
+    },
+    {
+      "p": 47,
+      "ap": 4,
+      "point_count": 44,
+      "supersingular": false
+    },
+    {
+      "p": 53,
+      "ap": -6,
+      "point_count": 60,
+      "supersingular": false
+    },
+    {
+      "p": 59,
+      "ap": -4,
+      "point_count": 64,
+      "supersingular": false
+    },
+    {
+      "p": 61,
+      "ap": -12,
+      "point_count": 74,
+      "supersingular": false
+    },
+    {
+      "p": 67,
+      "ap": 8,
+      "point_count": 60,
+      "supersingular": false
+    },
+    {
+      "p": 71,
+      "ap": -2,
+      "point_count": 74,
+      "supersingular": false
+    },
+    {
+      "p": 73,
+      "ap": -6,
+      "point_count": 80,
+      "supersingular": false
+    },
+    {
+      "p": 79,
+      "ap": 16,
+      "point_count": 64,
+      "supersingular": false
+    },
+    {
+      "p": 83,
+      "ap": -8,
+      "point_count": 92,
+      "supersingular": false
+    },
+    {
+      "p": 89,
+      "ap": -14,
+      "point_count": 104,
+      "supersingular": false
+    },
+    {
+      "p": 97,
+      "ap": 2,
+      "point_count": 96,
+      "supersingular": false
+    },
+    {
+      "p": 101,
+      "ap": -6,
+      "point_count": 108,
+      "supersingular": false
+    }
+  ],
+  "limits": [
+    "No actual seed Kurihara pair was evaluated.",
+    "No modular-curve homology matrix or new primary certificate was computed.",
+    "The arbitrary mixed coefficients are quotient controls, not claimed seed realizations.",
+    "Passing finite controls does not prove the imported arithmetic theorems or the uniform bound."
+  ]
+}

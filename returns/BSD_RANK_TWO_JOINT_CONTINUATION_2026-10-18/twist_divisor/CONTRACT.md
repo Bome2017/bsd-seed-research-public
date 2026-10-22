@@ -1,0 +1,1 @@
+Bind every S-prime divisor orbit on the actual -47 twist point field at S={7,11,47}. Exact maximal-order decomposition and scalar action; faithful-character source dimensions computed directly. No norm-rank conclusion from a missing source coordinate. 30 seconds, 1GiB.

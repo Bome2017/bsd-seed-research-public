@@ -1,0 +1,109 @@
+**This return is useful, and combining it with the earlier BFR result gives a stronger conclusion than its report records: the remaining 4547 exception can also be removed.** Under the retained receiver inputs, the comparison becomes
+
+\[
+\boxed{B_p\cong\Sha(E/\mathbf Q)[p]\qquad\text{for every prime }p\ge5.}
+\]
+
+The extra step uses \(P_2\) and the same global reciprocity argument already used elsewhere in the corrected proof. It does not require another Aristotle run or a new local-representation calculation. This is a **written deduction under the retained inputs**, not a newly formalized theorem or a new upper bound.  
+
+:chatgpt-content-reference{index="11"}[Download the proof addendum, arithmetic checks, and integration note](sandbox:/mnt/data/BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06.zip)  
+:chatgpt-content-reference{index="12"}[Read the proof](sandbox:/mnt/data/BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06/PROOF.md)
+
+## The additional step the review missed
+
+The corrected proof supplies two ingredients at \(p=4547\).
+
+First, every global class in the pulled-back receiver space \(\mathcal S_p\) already satisfies the ordinary Selmer condition at **every place other than \(4547\)**. Its exceptional away-from-\(p\) pairs occur at coefficient primes \(19,59,487\), so none applies here. Second, the earlier BFR result proves that the global rational point \(P_2\) generates the local Kummer line at \(4547\). Both ingredients are explicitly retained in the new corrected proof. 
+
+That is enough to eliminate the possible **global** error.
+
+Write
+\[
+f_v=\operatorname{im}\!\left(E(\mathbf Q_v)/pE(\mathbf Q_v)
+\longrightarrow H^1(\mathbf Q_v,E[p])\right),
+\qquad k=\delta(P_2).
+\]
+
+Take any \(c\in\mathcal S_{4547}\). At every \(v\ne4547\), both \(c_v\) and \(k_v\) belong to \(f_v\). The local Kummer subspace is its own annihilator under the local Tate pairing, so their pairing vanishes there. This self-annihilation applies at additive primes and at the coefficient prime as well; it is not restricted to good reduction. :chatgpt-content-reference{index="3"}
+
+Global reciprocity therefore forces
+\[
+0=\sum_v\langle c_v,k_v\rangle_v
+=\langle c_{4547},k_{4547}\rangle_{4547}.
+\]
+The global sum is zero because it is the sum of local invariants of a global Brauer class. :chatgpt-content-reference{index="4"}
+
+But \(k_{4547}\) spans \(f_{4547}\). Consequently,
+\[
+c_{4547}\in f_{4547}^{\perp}=f_{4547}.
+\]
+
+Thus \(c\) satisfies the missing Selmer condition too:
+\[
+\mathcal S_{4547}=\operatorname{Sel}_{4547}(E/\mathbf Q).
+\]
+
+Substituting into the corrected proof’s existing restriction sequence gives
+\[
+B_{4547}\cong
+\operatorname{Sel}_{4547}(E/\mathbf Q)/W
+\cong\Sha(E/\mathbf Q)[4547].
+\]
+
+**The important distinction remains global versus local.** This does not prove that the entire pulled-back *local* condition at \(4547\) equals the finite condition. It proves that any extra local direction cannot occur in a global class satisfying the other required conditions. That is precisely the distinction the review correctly introduced for \(19,59,487\); the same argument finishes \(4547\). 
+
+Neither parity nor finiteness of \(\Sha\) is needed for this additional comparison step.
+
+## I checked the concrete \(P_2\) input
+
+The argument depends on \(P_2\) genuinely generating the local line—not merely being a nonzero rational point.
+
+For the supplied minimal model, translating \(x=X+1516\) gives
+\[
+y^2=X^3+4547X^2-59129188X-161680134380.
+\]
+All three lower coefficients are divisible by \(4547\). The point
+\[
+P_2=(-2394,281520)
+\]
+reduces in these coordinates to
+\[
+(X,y)=(637,4153)\pmod{4547},
+\]
+a smooth affine point, not the identity.
+
+The included integer-arithmetic program freshly verifies these statements and reproduces the prior local addition residue \(1274\). Pannekoek’s Theorem 1 then supplies the relevant structure of \(E_0(\mathbf Q_{4547})\); together with the retained component number \(2\), the smooth nonidentity reduction makes \(P_2\) a generator of \(E(\mathbf Q_{4547})/4547E(\mathbf Q_{4547})\). This agrees with the earlier BFR reconstruction. :chatgpt-content-reference{index="6"} 
+
+I did **not** rerun the three new upper-control Lean modules. Their compilation and axiom audits remain checks reported by the supplied review. The new global step above is a written proof, with its dependencies identified in the addendum.
+
+## What this contributes toward the actual seed
+
+The third return’s substantive contribution is the reverse comparison at the previously excluded primes. Its finite-group transgression argument was largely already present, as the review itself records. Combining the new exceptional-prime treatment with the short argument above leaves an **exception-free global identification of the receiver with the seed’s \(p\)-torsion obstruction**. 
+
+That has a precise use: an independently proved estimate on this particular class-group component transfers directly to \(\Sha[p]\), without a remaining comparison error at \(4547\). It also makes a genuinely computed receiver direction diagnostically meaningful—it cannot be dismissed as an extra global direction introduced by the construction.
+
+**However, this does not improve the sufficient numerical threshold already available.** The third review already established, using the retained even-parity input,
+\[
+\dim_{\mathbf F_p}B_p\le1
+\quad\Longleftrightarrow\quad
+\Sha(E/\mathbf Q)[p]=0
+\]
+for every \(p\ge5\), including \(4547\). Removing the last identification error does not itself establish that inequality. 
+
+There is also a specific reason not to turn this \(P_2\) argument into another bound experiment: **it removes a possible failure of a local Selmer condition, but it imposes no additional restriction on classes that are already Selmer.** Every genuine \(\Sha[p]\) class is compatible with the orthogonality used above. Repeating that pairing will not reduce the unknown \(\Sha\)-dimension.
+
+The withdrawal of the claimed impossibility theorem is therefore correct. An exact identification
+\[
+B_p\cong\Sha[p]
+\]
+does not make an independent class-group estimate circular. It tells us what such an estimate would prove. Circularity would arise only from obtaining the estimate by assuming the desired conclusion about \(\Sha\).
+
+## How I would use this alongside the running jobs
+
+**Integrate the addendum, but leave the source-construction experiments running on their present tasks.** This comparison supplies neither the jet constructor’s authenticated global seed source nor its missing forcing term or valuation estimate. Redirecting that work to another receiver refinement would not address its bottleneck.
+
+For the receiver record, the revised statement is now:
+
+> Under the retained inputs, \(B_p\cong\Sha(E/\mathbf Q)[p]\) for every \(p\ge5\). The final global exception is removed by reciprocity against \(P_2\). Independent upper control remains the research target.
+
+The package contains that integration note and the complete proof. **This third result contributes a usable, now exception-free comparison—not the missing bound—and its remaining comparison issue can be finished here rather than consuming another research run.**

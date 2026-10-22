@@ -1,0 +1,16 @@
+[
+  {
+    "label": "endpoint128",
+    "command": [
+      "src/delta",
+      "eval",
+      "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/moments.bin",
+      "128",
+      "1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 54.31464618910104,
+    "cpu_seconds": 53.707693,
+    "peak_rss_bytes": 33234944
+  }
+]

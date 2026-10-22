@@ -1,0 +1,42 @@
+{
+  "status": "INDEPENDENT_EXACT_NORM_MAP_AND_LOCAL_MATRIX_PASS",
+  "source_dimension": 13,
+  "scalar_dimension": 6,
+  "norm_image_rank": 3,
+  "norm_kernel_dimension": 3,
+  "positive_cube_witnesses": "three literal roots replayed separately in verify_exact.gp",
+  "noncube_residue_rows": 6,
+  "witness_primes": [
+    43,
+    67,
+    103
+  ],
+  "minor": [
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      1
+    ]
+  ],
+  "minor_determinant_mod3": 2,
+  "global_kernel_unit_dimension": 2,
+  "global_kernel_valuation_dimension": 1,
+  "global_kernel_class_dimension": 0,
+  "local_restriction_rank": 1,
+  "joint_kernel_dimension": 2,
+  "joint_kernel_equals_points": true,
+  "extra_rejected_at": [
+    3,
+    433
+  ]
+}

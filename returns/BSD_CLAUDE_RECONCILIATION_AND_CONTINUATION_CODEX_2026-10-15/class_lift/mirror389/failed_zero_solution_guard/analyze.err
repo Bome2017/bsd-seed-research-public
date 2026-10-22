@@ -1,0 +1,77 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: G=lsgens2(B,SL,"");G=vector(#G,j,redcube(nf,G[
+  ***                   ^--------------------------------------------
+  ***   in function lsgens2: ...emod(lp,cyc~,lc);if(e==0,error("lsgens2: c^3 n
+  ***                                                    ^---------------------
+  ***   user error: lsgens2: c^3 not in <S>
+  ***   at top-level: V=Mod(matrix(#SL,ng,i,j,nfeltval(nf,G[j],SL[i]
+  ***                       ^----------------------------------------
+  *** matrix: incorrect type in gtos [integer expected] (t_POL).
+  ***   at top-level: ...=auxprimes(fL,150,ps);PH=phimat(nf,concat(conc
+  ***                                             ^---------------------
+  ***   in function phimat: ...reak(2));sj+=fl[j][k][2]*cr3(e,AP[q]));r[j]=sj
+  ***                                                   ^---------------------
+  ***   in function cr3: ...u==1,0,u==om,1,u==om^2,2,error("cr3"))
+  ***                                                ^-------------
+  ***   user error: cr3
+  ***   at top-level: if(matrank(PG)!=ng,error("source residue evalu
+  ***                    ^-------------------------------------------
+  *** matrank: incorrect type in rank (t_POL).
+  ***   at top-level: TR=vector(ng,j,0);AR=vector(#Pts,j,0)
+  ***                    ^----------------------------------
+  *** vector: incorrect type in gtos [integer expected] (t_POL).
+  ***   at top-level: for(j=1,ng,my(rr=nfroots(nf,X^3-GT[j]/prod(i=1
+  ***                 ^----------------------------------------------
+  *** for: forbidden comparison t_POL , t_INT.
+  ***   at top-level: ...g+#Pts);SCALAR=TAU+matid(ng);LR=linrows(E,nf,T
+  ***                                             ^---------------------
+  ***   incorrect type in gtos [integer expected] (t_POL).
+  ***   at top-level: ...ector(#UG-1,j,UG[j]);UPH=phimat(nf,concat(G,UG
+  ***                                             ^---------------------
+  ***   in function phimat: ...ator(content(lift(e)))%AP[q][1]==0,ok=0;break(
+  ***                                                   ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).
+  ***   at top-level: if(matrank(UB)!=sum(i=1,2,nf.sign[i])-1,error(
+  ***                    ^-------------------------------------------
+  *** matrank: incorrect type in rank (t_POL).
+  ***   at top-level: AF=vector(ng,j,idealfactor(nf,G[j]));ALLP=List
+  ***                    ^-------------------------------------------
+  *** vector: incorrect type in gtos [integer expected] (t_POL).
+  ***   at top-level: for(j=1,ng,for(i=1,#AF[j]~,my(pr=AF[j][i,1],fo
+  ***                 ^----------------------------------------------
+  *** for: forbidden comparison t_POL , t_INT.
+  ***   at top-level: ALLP=Vec(ALLP);VV=matrix(#ALLP,ng,i,j,nfeltval
+  ***                                   ^----------------------------
+  *** matrix: incorrect type in gtos [integer expected] (t_POL).
+  ***   at top-level: for(j=1,#H0,my(ev=lift(H0[,j]),vv=VV*ev,I=mati
+  ***                                          ^---------------------
+  ***   incorrect type in _[,_] OCcompoC [not a matrix] (t_POL).
+  ***   at top-level: ...Mod(matrix(#ix,#H0,i,j,CR[ix[i],j]/(B.cyc[ix[i
+  ***                                             ^---------------------
+  ***   incorrect type in _[_,_] OCcompo2 [not a matrix] (t_POL).
+  ***   at top-level: if(matrank(CC)!=#ix,error("full ordinary class
+  ***                    ^-------------------------------------------
+  *** matrank: incorrect type in rank (t_POL).
+  ***   at top-level: CPIV=matindexrank(CC)[2];CL=matrix(ng,#CPIV,i,
+  ***                      ^-----------------------------------------
+  *** matindexrank: incorrect type in indexrank (t_POL).
+  ***   at top-level: ...,T,l,Dl,35),Ml=matconcat(vector(ng,j,Mod(conca
+  ***                                             ^---------------------
+  *** vector: incorrect type in gtos [integer expected] (t_POL).
+  ***   at top-level: ...SCREEN*AC!=0*(SCREEN*AC),error("point rejected
+  ***                                             ^---------------------
+  ***   user error: point rejected
+  ***   at top-level: ...("PROFILE=",[ng,#H0,#UB,#matker(SCALAR),#matke
+  ***                                             ^---------------------
+  *** matker: incorrect type in matker (t_POL).
+  ***   at top-level: ...S[j],DU=DD*UB,Ann=matker(DU~)~,DC=Ann*DD*CL,Kc
+  ***                                             ^---------------------
+  *** _~: incorrect type in gtrans (t_POL).
+  ***   at top-level: ...NIT_POINT_INTERSECTION=",matrank(AC)+#matker(S
+  ***                                             ^---------------------
+  *** matrank: incorrect type in rank (t_POL).
+  ***   at top-level: ...s.json","\"valuation\":",jm(V),",");write("mat
+  ***                                             ^---------------------
+  ***   in function jm: vector(matsize(A)[1],i,vector(matsize(A)[2],j,
+  ***                          ^---------------------------------------
+  *** matsize: incorrect type in matsize (t_POL).

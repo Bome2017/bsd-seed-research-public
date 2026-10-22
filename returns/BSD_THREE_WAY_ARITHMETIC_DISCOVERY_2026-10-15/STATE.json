@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETED_THREE_WAY_ARITHMETIC_DISCRIMINATION_NO_SEED_BOUND",
+  "started_utc": "2026-10-15T19:08:41.668998+00:00",
+  "endpoints": {
+    "FIN": "open",
+    "ORDER9": "open",
+    "Q36": "open"
+  },
+  "parent_commit": "52c2b796933200f0ee3895a6a750089cd801be72",
+  "user_request": "test against all three until we find something",
+  "updated_utc": "2026-10-15T19:27:24.230968+00:00",
+  "arithmetic": {
+    "norm_predictor_fresh_primes": 40,
+    "all_norm_predictions_correct": true,
+    "point_relative_prime_blocks_replayed": 120,
+    "seed_excess_detector_primes": [
+      811,
+      2767
+    ],
+    "known_seed_excess_rank_detected": 2
+  },
+  "limits": [
+    "No bound on unlisted classes",
+    "No change to FIN ORDER9 Q36",
+    "Written global arguments, not formal verification"
+  ],
+  "completed_utc": "2026-10-15T19:33:35.090426+00:00",
+  "review": "Separate same-team proof review and independent literal arithmetic replay completed; retained antecedents not recertified"
+}

@@ -1,0 +1,64 @@
+\section{Equivalences and reductions}\label{sec:reductions}
+
+This section summarizes archived reductions. The research-record entries use definitions and hypotheses supplied in their linked claim-index evidence; they are not standalone theorem statements or proofs in this manuscript. They are not used to prove the main results. Some restate parts of the open problem in other terms. An equivalence earns no reduction in difficulty by itself. We record these results because they fix the exact shape of the remaining quantifiers.
+
+\begin{researchrecord}[\cid{B.9}; written proof from published and preprint sources; an equivalence]\label{thm:o1}
+Let $S_0=\{2,3,5,2243,4547,5843\}$. For every good ordinary prime $p\notin S_0$,
+\[
+h_p=0\iff\Sha[p^\infty]=0 ,
+\]
+where $h_p$ is the witness depth of Ota's theta elements \cite{ota} over admissible pairs of auxiliary primes.
+\end{researchrecord}
+The forward direction is Ota's Theorem~6.4. The converse combines three inputs:
+\begin{itemize}[leftmargin=*]
+\item Castella--Sano \cite{castellasano}, whose Theorem~B produces a $p$-unit Kurihara number;
+\item C.-H.~Kim \cite{kimch}, Theorem~1.10, which localizes the Selmer group at the minimal pair;
+\item a normalization check between the period conventions.
+\end{itemize}
+Uniform primitive witnesses on the ordinary tail are exactly uniform vanishing there. The theorem gives no converse at positive depth or at supersingular primes.
+
+\begin{researchrecord}[\cid{B.10}; written proof; an equivalence]\label{thm:divfield}\leavevmode\par
+Let $p\ge7$ with $p\notin\{19,59,487,2243,4547,5843\}$, and put
+\[
+\mathcal C_p=\mathrm{Hom}_{\GL_2(\F_p)}\bigl(\mathrm{Cl}(\Q(E[p]))/p,\ E[p]\bigr).
+\]
+Then $\Sha[p]=0$ if and only if $\dim_{\F_p}\mathcal C_p\le2$. Moreover $\dim\mathcal C_p\ge1$.
+\end{researchrecord}
+The excluded primes limit where this simplified reduction applies. They are \emph{not} a bound on the primes dividing $\#\Sha$.
+
+\begin{researchrecord}[\cid{B.11}; written proof, finite algebra Lean-checked; conditional]\label{thm:line}
+\emph{LINE} is the hypothesis that one rational scalar $a/b$ relates the tame leading terms $\delta_n$ and the regulator terms $\rho_n$ at all required auxiliary pairs and primes, by $b\delta_n=a\rho_n$. Under LINE, the primary components at the covered good primes are finite, and they vanish away from the support of the numerator.
+
+\emph{Witness content} weakens LINE to the existence of a nonzero integer $A\in J_E$, and the same conclusion holds under it.
+\end{researchrecord}
+The finite algebra of both implications is formalized in Lean (the frozen archives A1 and A2). The arithmetic antecedents are not proved: neither the cross-prime scalar of LINE nor the nonzero integer $A$ is known to exist.
+
+\begin{proposition}[\cid{B.12}; standard deduction with an exact computation]\label{prop:localsel}
+\begin{enumerate}[label=(\roman*)]
+\item For $p\in\{2,3,5,7,11\}$, the rational $p$-adic Selmer group is\[\Qp\delta_p(P_1)\oplus\Qp\delta_p(P_2).\]
+\item For $p=5,7,11$, one has $\Sel_{p^n}(E/\Q)\simeq(\Z/p^n)^2$ for all $n$, and
+\[
+\ker(\mathrm{loc}_p)=\Qp\bigl(\log_p(P_2)\,\delta_p(P_1)-\log_p(P_1)\,\delta_p(P_2)\bigr).
+\]
+\item At $p=11$, with $S=\{\infty,2,3,11,2243,4547,5843\}$, the kernel of $\mathrm{loc}_S$ on $\Sel_{11}(E/\Q)$ is the line $\F_{11}\,\delta_{11}(2P_1-P_2)$.
+\end{enumerate}
+\end{proposition}
+
+\begin{researchrecord}[\cid{B.13}; written source composition; conditional]\label{thm:mcs}
+Let $p\ge5$ be a good ordinary prime with $p\notin\{19,59,487\}$ and $p\nmid\#\widetilde E(\F_p)$. Combining Burungale--Castella--Kim \cite{bck}, Kataoka--Sano and Macias Castillo--Sano \cite{mcs} gives two things over a suitable imaginary quadratic field:
+\begin{itemize}[leftmargin=*]
+\item a base-layer Heegner Stark-system basis;
+\item Fitting-ideal identities for the classical Selmer group at every depth.
+\end{itemize}
+For $K=\Q(\sqrt{-23})$ (Theorem~\ref{thm:d23}) the identity reads
+\[
+\mathrm{Fitt}^{\,i}\bigl(\Sha(E/K)[p^n]^*\bigr)=I_{i+3}(\epsilon^{\mathrm{Hg}}_{n,0}),
+\]
+at $p=13,31,41,47,71,73,101,127,139,151$ among the primes $p\le160$.
+\end{researchrecord}
+The ideals $I_{i+3}$ are not evaluated at any prime, and the Heegner $\Lambda$-index does not determine them (an explicit counterexample is recorded). Moreover, $I_3=\F_{13}$ would require $\Sha(E^{-23}/\Q)[13]=0$ as well as the seed's $13$-part. The twist part is not supplied, so no unit specialization is known at $13$ (see the withdrawn claim \cid{W.1}).
+
+\begin{lemma}[\cid{B.14}; Lean-checked]\label{lem:minors}
+Let $A$ be a fixed integer matrix. Suppose that for every $p$, $I_3(p)=\F_p$ holds if and only if some $k\times k$ minor of $A$ is nonzero modulo $p$, and that this holds for at least one $p$. Then $C_1=|\gcd(\text{$k\times k$ minors of }A)|$ is nonzero, and $I_3(p)\ne\F_p$ implies $p\mid C_1$.
+\end{lemma}
+No such integral model has been constructed, so Lemma~\ref{lem:minors} currently has no instance.

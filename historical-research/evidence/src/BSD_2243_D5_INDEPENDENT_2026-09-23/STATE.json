@@ -1,0 +1,33 @@
+{
+  "phase": "COMPLETED_D5_CERTIFIED_NONZERO",
+  "started_utc": "2026-09-23T15:25:03.101129+00:00",
+  "target": "Nonzero corrected split height determinant at 2243 on retained P1,P2",
+  "budget": {
+    "active_wall_minutes": 90,
+    "per_process_cpu_seconds": 120,
+    "per_process_RAM_MiB": 1024,
+    "output_disk_MiB": 50,
+    "subagents": 0,
+    "paid_compute": false
+  },
+  "source_grade": "local published formulas imported; no main conjecture or BSD assumed for height computation",
+  "comparison_only_PARIdeterminant": "2181*p^2 + O(p^3)",
+  "algorithm": "Low-precision Bernardi height plus Tate correction, global denominator via division polynomials",
+  "first_matrix": [
+    [
+      2127,
+      1294
+    ],
+    [
+      1294,
+      764
+    ]
+  ],
+  "first_det": 2181,
+  "completed_utc": "2026-09-23T15:38:49.049930+00:00",
+  "regulator_valuation": 2,
+  "Reg_gamma_mod_2243": 2181,
+  "next_operation": "NONE: bounded request completed; no successor authorized",
+  "verification": "ALL_CHECKS_PASS",
+  "inputs_unchanged": true
+}

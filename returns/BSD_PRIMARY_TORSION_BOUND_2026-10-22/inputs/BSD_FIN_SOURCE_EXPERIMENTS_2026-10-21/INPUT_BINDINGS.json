@@ -1,0 +1,27 @@
+{
+  "repository": "Bome2017/bsd-seed-lab",
+  "ref": "77d4b331885138eb1f3f93d8063b06d6d7eb730b",
+  "source_files": [
+    {
+      "path": "work/returns/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/construct.out",
+      "git_blob_sha1": "683e82fabc0c21afc55cc56176740a59d881645b"
+    },
+    {
+      "path": "work/returns/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/construct.gp",
+      "git_blob_sha1": "755ff7f4f96cc8cb67166a82fbe62dc47f0241b3"
+    },
+    {
+      "path": "work/returns/BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20/theory/SCALING.md",
+      "git_blob_sha1": "2d9cba993aad05674cdbdf7fd6b81fa2d21c0f65"
+    }
+  ],
+  "polynomial_input_sha256": "653f7c6e21cdbb27fa784c551a9d9df15e2f5544d7db7aaedc5101293d7612a6",
+  "retained_not_reproved": [
+    "actual seed torsion point-field identification",
+    "scalar automorphism with sigma squared sending w to -w",
+    "full residual image",
+    "type-III inertia at 4547",
+    "earlier general-p analytic class-bound derivation"
+  ],
+  "source_scope": "Exact polynomial transcribed from source output and used for all new arithmetic; no full repository or maximal-order replay."
+}

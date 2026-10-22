@@ -1,0 +1,36 @@
+{
+  "status": "SUPPORTED_UNDER_RETAINED_INPUTS",
+  "source_bindings": [
+    {
+      "path": "general_character/PROOF.md",
+      "sha256": "03aa6e0194f5c971f19ee2bed21c2d07aaa59a08e54e2a954ba6fe33fcb6c144"
+    },
+    {
+      "path": "general_character/LOCAL_DIVISOR_PROOF.md",
+      "sha256": "6b2d8116bd91d28ea247b7d6a8d309012bd1dbaa5c9b3806a59f3682076c98c5"
+    },
+    {
+      "path": "general_character/check_characters.py",
+      "sha256": "6ec0007aba55d7c04a986cf79d0a6fea881c55830f5e74906aced15360af504b"
+    },
+    {
+      "path": "general_character/check_local_divisors.py",
+      "sha256": "67a44a86e9899fe326188804eb2628764854801633d756f7fe5f22532356ad45"
+    },
+    {
+      "path": "general_character/CHARACTER_CHECKS.json",
+      "sha256": "b8cc83906539dc0788b23c7d235f0408718f208a6244d4c24c8ee219b0a54ab5"
+    },
+    {
+      "path": "general_character/LOCAL_DIVISOR_CHECK.json",
+      "sha256": "a95528c07bce0d32d0a0e54d391bbc43971c653ee80df678289b9db1f0add9e1"
+    }
+  ],
+  "replay_byte_matches": {
+    "CHARACTER_CHECKS.json": true,
+    "LOCAL_DIVISOR_CHECK.json": true
+  },
+  "new_deduction": "class-map-kernel upper bound, not evaluated on seed",
+  "endpoints_changed": false,
+  "scope": "Desk proof audit and exact finite algebra replay; no class certification or new seed arithmetic"
+}

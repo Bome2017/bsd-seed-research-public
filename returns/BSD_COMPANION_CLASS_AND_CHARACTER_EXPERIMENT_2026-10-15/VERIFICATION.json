@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "exact arithmetic and source binding; no unconditional class certificate",
+  "root_export_replay": "byte-identical, binds compact source units to residual input",
+  "root_residue_matrix_replay": "byte-identical",
+  "minimal_witness_replay": "separate extraction, byte-identical",
+  "source_presentation_check": "exact, conditional on completeness",
+  "candidate_unit_ideal_identity": "13 units, 317 factors, 295 ideal rows; independent replay passed",
+  "finite_character_checks": [
+    5,
+    7,
+    11
+  ],
+  "class_certification": "NO_SUCCESS_MARKER; all timeout claims retained",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

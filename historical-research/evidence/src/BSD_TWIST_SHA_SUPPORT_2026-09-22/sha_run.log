@@ -1,0 +1,22 @@
+conductor = 318656212624190616
+additive primes (Kodaira) : [2, 7, 4547]
+multiplicative primes     : [3, 2243, 5843]
+  p=2     kodaira=I1*    c_p=2 additive=True split_mult=False
+  p=3     kodaira=I2     c_p=2 additive=False split_mult=True
+  p=7     kodaira=I0*    c_p=2 additive=True split_mult=False
+  p=2243  kodaira=I1     c_p=1 additive=False split_mult=False
+  p=4547  kodaira=III    c_p=2 additive=True split_mult=False
+  p=5843  kodaira=I2     c_p=2 additive=False split_mult=True
+---- isogeny_class_size (limit 300s) ----
+isogeny_class_size = 2
+---- non_surjective (limit 600s) ----
+non_surjective = [2]
+---- L_ratio (limit 600s) ----
+L_ratio : RAISED PariError: the PARI stack overflows (current size: 8000000; maximum size: 1073741824)
+You can use pari.allocatemem() to change the stack size and try again
+---- sha.an (limit 600s) ----
+sha.an : RAISED PariError: the PARI stack overflows (current size: 8000000; maximum size: 1073741824)
+You can use pari.allocatemem() to change the stack size and try again
+---- sha.bound_kato (limit 600s) ----
+sha.bound_kato : RAISED PariError: the PARI stack overflows (current size: 8000000; maximum size: 1073741824)
+You can use pari.allocatemem() to change the stack size and try again

@@ -1,0 +1,39 @@
+{
+  "status": "RECEIPT_BINDINGS_VERIFIED",
+  "checked": [
+    {
+      "stage": "diagnosis",
+      "accepted": false
+    },
+    {
+      "stage": "smoke",
+      "accepted": true
+    },
+    {
+      "stage": "changed_seed",
+      "accepted": false
+    },
+    {
+      "stage": "profile_seed",
+      "accepted": false
+    },
+    {
+      "stage": "unmodified_small_base",
+      "accepted": false
+    },
+    {
+      "stage": "random_relations",
+      "accepted": false
+    },
+    {
+      "stage": "default_kc_count",
+      "accepted": true
+    },
+    {
+      "stage": "balanced_relations",
+      "accepted": false
+    }
+  ],
+  "seed_bnf_completed": false,
+  "scope": "saved output custody only; no arithmetic producer rerun"
+}

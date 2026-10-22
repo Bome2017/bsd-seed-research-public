@@ -1,0 +1,28 @@
+\section{Computations and their trust base}\label{app:methods}
+
+\emph{Coefficients.} Prime coefficients $a_q$ are produced by an untrusted fast program. Each is then checked by an independent integer verifier, either by exhaustive point counting for small $q$ or by an integer group-order witness. The verified values are stored in segments covering intervals of $2^{24}$ integers (one coefficient per prime in the interval), which are hash-chained and bound by manifests; the composite coefficients $a_n$ are generated multiplicatively. The corpus used here reaches $T=5.5\cdot10^{10}$. It is not in the repository (\path{data/LARGE_DATA.md}) and is available by arrangement or by regeneration.
+
+\emph{First-review repair.} The legacy group-order verifier failed to require its listed prime factors to be distinct. A concrete false certificate at $q=4099$ was accepted: $a_{4099}=68$ instead of the exact value $86$. The repaired verifier rejects it and guards the factor product against overflow. A separate read-only scan of all $3757$ retained witness files checked distinct factors and safe product bounds on $2{,}693{,}070{,}671$ records (including overlaps), and matched every file to its retained hash. All passed. This supplements the retained original group-arithmetic checks; it is not a fresh end-to-end coefficient replay. Original sources are preserved, with the repair and adversarial regression under \path{review/repairs/}. The mathematical acceptance predicate and preservation argument, including the original-receipt join, are given in Appendix~\ref{app:verifierproof}. This does not claim a new large group-arithmetic replay.
+
+\emph{Interval evaluation.} Symbols and $L$-values are evaluated with Arb \cite{arb}. Each series is truncated at a cutoff chosen from an explicit elementary tail bound, and the tail bound is added to the ball radius. A modular symbol is \emph{identified} only when its ball has radius below $1/2048$ and contains exactly one point of $\frac1{1024}\Z$. Downstream arithmetic is exact, and each coefficient was computed twice by independent exact methods.
+
+\emph{Trust base.} The trust base for the numerical certificates consists of:
+\begin{itemize}[leftmargin=*]
+\item the verifier and engine sources (included);
+\item FLINT/Arb~3.3.1, GMP, MPFR;
+\item the compiler, operating system and hardware.
+\end{itemize}
+No certificate has a second, independent end-to-end implementation, except for small-scale cross-checks. The regulator certificate uses directed-rounding decimal arithmetic in Python, and the $2243$-adic height certificate uses only the Python standard library.
+
+\emph{Formal verification.} The Lean development for Theorem~\ref{thm:a3} builds with Lean~4.32.2 and Mathlib at tag v4.32.2. The build uses only the standard axioms. Replay instructions are in the repository.
+
+\emph{Exact replays in the repository.} The script \path{tools/verify_release.py} checks every evidence hash and reruns the following:
+\begin{itemize}[leftmargin=*]
+\item \path{tools/replay/curve_invariants.py}, which recomputes the invariants, the minimal model, the points and the supersingular primes below $2000$;
+\item \path{tools/replay/coefficients_from_symbols.py}, which recomputes every certified coefficient from the certified symbol tables;
+\item the $2243$-adic height certificate and its separate verifier;
+\item the exact rank computation of Proposition~\ref{prop:compress};
+\item the Atkin--Lehner pairing on the certified tables at $27$ and $81$;
+\item optionally, the Lean core.
+\end{itemize}
+All pass; the run is recorded in \path{review/VERIFICATION_RUN.md}. The large certificates cannot be replayed without the coefficient corpus.

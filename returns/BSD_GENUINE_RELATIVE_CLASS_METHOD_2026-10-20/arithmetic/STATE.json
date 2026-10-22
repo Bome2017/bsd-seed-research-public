@@ -1,0 +1,39 @@
+{
+  "status": "EXACT_RELATIVE_RELATIONS_NO_COMPLETE_BOUND_GAIN",
+  "active_jobs": [],
+  "selected_input_orbits": 8,
+  "pseudo_relations": 196,
+  "scalar_collision_rows": 17,
+  "coprime_ideal_atoms": 743,
+  "faithful_columns": 185,
+  "private_columns": 177,
+  "relation_ranks": {
+    "chi2": 156,
+    "chi3": 156
+  },
+  "original_supported_relation_ranks": {
+    "chi2": 0,
+    "chi3": 0
+  },
+  "private_support_within_grh_bound": 21,
+  "private_support_outside_grh_bound": 156,
+  "outside_column_ranks": {
+    "chi2": 156,
+    "chi3": 156
+  },
+  "conditional_complete_generator_bounds": {
+    "chi2": 8918,
+    "chi3": 8918
+  },
+  "grh_assumed_for_complete_generator_bounds": true,
+  "integer_kernel_dimension": 80,
+  "unit_products": {
+    "plus_one": 78,
+    "minus_one": 2,
+    "nontorsion": 0
+  },
+  "full_class_bound_new": null,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

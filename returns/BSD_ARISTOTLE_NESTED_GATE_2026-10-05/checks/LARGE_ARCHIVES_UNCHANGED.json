@@ -1,0 +1,23 @@
+{
+  "status": "ALL_THREE_PRIOR_ARCHIVES_UNCHANGED",
+  "archives": [
+    {
+      "path": "/Users/bsm/Desktop/BSD_ARISTOTLE_SUBMISSION_2026-10-05.zip",
+      "bytes": 66094382,
+      "sha256": "d783ea8718a89e90fe59a6c3b084b6e4818586edd59bff7ed3ff947f8d17965a",
+      "matches_prior_digest": true
+    },
+    {
+      "path": "/Users/bsm/Desktop/BSD_SEED_ARISTOTLE_2026-10-05_STARTER.zip",
+      "bytes": 32962911,
+      "sha256": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27",
+      "matches_prior_digest": true
+    },
+    {
+      "path": "/Users/bsm/Desktop/BSD_SEED_ARISTOTLE_2026-10-05_FULL.zip",
+      "bytes": 4164930580,
+      "sha256": "4261985eba239682d7536d1fbaf479fdd2b82a43e82ed16395ceb29cc5b4704a",
+      "matches_prior_digest": true
+    }
+  ]
+}

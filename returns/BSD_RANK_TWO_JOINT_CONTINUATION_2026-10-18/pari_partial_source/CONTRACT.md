@@ -1,0 +1,3 @@
+# Partial relation-generator capture
+
+Changed source: export the exact algebraic generator before PARI 2.17.3 rejects a relation during rank collection. No internal relation vector will be trusted. Every admitted product requires complete principal-ideal authentication in unmodified GP and an integer divisor relation. Build <=120 s; one harvest <=120 s; independent authentication/kernel <=120 s. No BNF or class-group conclusion follows from unfinished collection. The fixed source is the rank-two -47 twist of 11a1 at p=7. Goal: at least two independently rejecting faithful unit directions, not a complete unit basis. Failure of this bounded capture is not nonexistence.

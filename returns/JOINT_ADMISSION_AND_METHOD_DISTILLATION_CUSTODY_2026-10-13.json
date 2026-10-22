@@ -1,0 +1,39 @@
+{
+  "return": "BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13",
+  "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13",
+  "destination": "work/returns/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13",
+  "branch": "research/state-sync-2026-10-04",
+  "prior_head": "628d802771ec80bd6f74121dcd4c7f7c496f0da4",
+  "files_including_manifest": 153,
+  "archive_bytes": 583570,
+  "archive_sha256": "c11b283d79f993d3fd951bb4d1e1bdf893d00a23917bbfdb64439d8a3830285e",
+  "manifest_sha256": "9d730d5b9b4c9eb50e353bd60c0d99657f60729fda5be1b39e871205484ebda4",
+  "byte_identical_copy": true,
+  "archive_member_readback": true,
+  "published_copy_replay": {
+    "status": "PACKAGE_AND_DOWNSTREAM_REPLAY_PASS",
+    "manifest_entries": 152,
+    "nested_manifest_entries": 71,
+    "replays": [
+      {
+        "script": "synthesis/checks/distill.py",
+        "result": "byte_identical"
+      },
+      {
+        "script": "checks/independent_rank_check.py",
+        "result": "byte_identical"
+      },
+      {
+        "script": "checks/prime_features.py",
+        "result": "byte_identical"
+      },
+      {
+        "script": "controls/check_gl2_3.py",
+        "result": "identical_group_enumeration"
+      }
+    ],
+    "scope": "Hash custody and exact downstream arithmetic. Consumes saved producer outputs. Fresh complete-source BNF replay is separately documented in controls/REPLAY.json; historical Fourier/symbol production is not replayed."
+  },
+  "grade": "Custody and arithmetic checks, not independent certification",
+  "endpoints": "FIN ORDER9 Q36 unchanged; no new seed prime"
+}

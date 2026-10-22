@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_INPUTS_AND_CACHED_CORPUS_PASS",
+  "manifest_entries": 3452,
+  "coefficient_files": 3420,
+  "coefficient_bytes": 9673187648,
+  "pinned_receipt_root": "53de8838b356300dbb7aed6cfc57cab3498c82bd585954fd244095e338f997da",
+  "free_bytes": 101135536128,
+  "engine_sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+  "elapsed_seconds": 12.037987329997122,
+  "production_launched": false,
+  "source_files_changed": false
+}

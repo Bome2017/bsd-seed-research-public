@@ -1,0 +1,22 @@
+H0_CLASS_COLUMN=1; class=[8, 4, 0]~
+H0_CLASS_COLUMN=2; class=[0, 2, 0]~
+H0_CLASS_COLUMN=3; class=[0, 0, 0]~
+H0_CLASS_COLUMN=4; class=[0, 0, 0]~
+H0_CLASS_COLUMN=5; class=[0, 0, 0]~
+H0_CLASS_COLUMN=6; class=[0, 0, 0]~
+FULL_VALUATION_ZERO_DIM=6; UNIT_DIM=4; NORM_UNIT_DIM=2; KNOWN_UNIT_RANK=2
+H0_BASIS=[1, 1, 0, 0, 0, 0; 1, 1, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0; 1, 0, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0; 0, 1, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0; 0, 0, 1, 0, 0, 0; 0, 0, 0, 1, 0, 0; 0, 0, 0, 0, 1, 0; 0, 0, 0, 0, 0, 1]
+H0_CLASS_RAW=[8, 0, 0, 0, 0, 0; 4, 2, 0, 0, 0, 0; 0, 0, 0, 0, 0, 0]
+H0_CLASS3=[2, 0, 0, 0, 0, 0; 2, 1, 0, 0, 0, 0]
+UNIT_BASIS=[0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 0, 0, 0, 0; 1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0, 0, 1]
+TAU_ON_UNITS=[1, 0, 0, 0; 0, 2, 0, 0; 0, 0, 1, 0; 0, 0, 0, 2]
+NORM_UNIT_BASIS=[0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 1, 0; 0, 0; 0, 1]
+COUPLING_RANK_NORM=0; COUPLING_RANK_NORM_ADDITIVITY=0
+CLASS_LIFTS=[1, 1; 1, 1; 0, 0; 1, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 1; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0]
+UNIT_REPAIR_BASIS=[0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 0, 0; 1, 0; 0, 0; 0, 1; 0, 0]
+UNIT_REPAIR_COORDINATES=[0, 0; 2, 1]
+UNIT_CLASS_MAP_MS=51512
+POINT_UNIT_CERTIFIED=1; compact_factors=1843
+POINT_UNIT_MS=3716
+REJECTED_UNIT_SOURCE_INDEX=0
+STAGE3_COMPLETE

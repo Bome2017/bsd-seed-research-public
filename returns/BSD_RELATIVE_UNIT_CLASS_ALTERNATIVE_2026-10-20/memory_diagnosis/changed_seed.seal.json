@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp",
+    "-q",
+    "-f",
+    "-s",
+    "512M",
+    "changed_seed.gp"
+  ],
+  "script_sha256": "832faf9599ae75eca61fa0d7f6834176a5832638102cac35f68484c8017a6884",
+  "wall_cap": 90.0,
+  "marker": "CHANGED_SEED_BNF_COMPLETE"
+}

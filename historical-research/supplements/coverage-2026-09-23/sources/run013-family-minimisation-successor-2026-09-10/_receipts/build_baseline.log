@@ -1,0 +1,58 @@
+=== BASELINE BUILD (pre-edit control) ===
+✔ [8026/8045] Built RequestProject.Main (63s)
+✔ [8027/8045] Built RequestProject.Run013.Basic (67s)
+✔ [8028/8045] Built RequestProject.Run013.Family (67s)
+✔ [8029/8045] Built RequestProject.Run013.Curves (67s)
+✔ [8030/8045] Built RequestProject.Run013.Squareclasses (8.7s)
+✔ [8031/8045] Built RequestProject.Run013.LocalInfinity (9.6s)
+✔ [8032/8045] Built RequestProject.Run013.PadicTools (12s)
+✔ [8033/8045] Built RequestProject.Run013.Selmer (18s)
+✔ [8034/8045] Built RequestProject.Run013.Support (9.0s)
+✔ [8035/8045] Built RequestProject.Run013.LocalQ (10s)
+✔ [8036/8045] Built RequestProject.Run013.LocalThirtyOne (7.5s)
+✔ [8037/8045] Built RequestProject.Run013.LocalTwo (17s)
+✔ [8038/8045] Built RequestProject.Run013.DualPhiSelmer (8.2s)
+✔ [8039/8045] Built RequestProject.Run013.PhiSelmer (7.4s)
+✔ [8040/8045] Built RequestProject.Run013.FullTwoSelmer (7.8s)
+✔ [8041/8045] Built RequestProject.Run013.Isogeny (7.9s)
+✔ [8042/8045] Built RequestProject.Run013.BSDTwoBookkeeping (7.1s)
+✔ [8043/8045] Built RequestProject.Run013.Main (6.8s)
+ℹ [8044/8045] Built RequestProject.Run013.Audit (21s)
+info: RequestProject/Run013/Audit.lean:26:0: 'Run013.phi_selmer_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:27:0: 'Run013.dual_phi_selmer_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:30:0: 'Run013.run013_primary_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:31:0: 'Run013.run013_selmer_orders' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:34:0: 'Run013.support_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:35:0: 'Run013.support_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:36:0: 'Run013.squarefree_int_classify' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:37:0: 'Run013.exists_squarefree_rep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:40:0: 'Run013.localinf_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:41:0: 'Run013.local2_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:42:0: 'Run013.local31_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:43:0: 'Run013.localq_dual_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:44:0: 'Run013.localq_dual_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:45:0: 'Run013.localq_dual_twoq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:48:0: 'Run013.cov_iff_inKummer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:49:0: 'Run013.mem_selmerSet_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:52:0: 'Run013.model_62a1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:53:0: 'Run013.EqCurve_Δ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:54:0: 'Run013.EqPrimeCurve_Δ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:55:0: 'Run013.phi_maps_to' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:56:0: 'Run013.dual_phi_maps_to' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:57:0: 'Run013.dual_comp_phi_eq_double' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:58:0: 'Run013.phi_coeffs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:59:0: 'Run013.dual_coeffs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:60:0: 'Run013.phi_selmer_eq_torsion_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:63:0: 'Run013.phi_selmer_ncard' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:64:0: 'Run013.dual_phi_selmer_ncard' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:65:0: 'Run013.card_middle_of_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:66:0: 'Run013.subsingleton_of_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:67:0: 'Run013.eq_one_of_two_primary' depends on axioms: [propext]
+info: RequestProject/Run013/Audit.lean:70:0: 'Run013.cq_component_root_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:71:0: 'Run013.no_rational_four_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:72:0: 'Run013.descent_differential_is_half_neron' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:73:0: 'Run013.tamagawa_product_valuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RequestProject/Run013/Audit.lean:74:0: 'Run013.sha_analytic_two_valuation' depends on axioms: [propext, Quot.sound]
+Build completed successfully (8045 jobs).
+lake build  163.93s user 91.22s system 158% cpu 2:40.97 total
+exit=0

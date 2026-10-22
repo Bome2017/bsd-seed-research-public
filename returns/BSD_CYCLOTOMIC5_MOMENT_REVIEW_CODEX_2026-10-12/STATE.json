@@ -1,0 +1,13 @@
+{
+  "status": "CYCLOTOMIC_5_TOWER_DEDUCTION_SUPPORTED_UNDER_RETAINED_INPUTS",
+  "moment_status": "ONE_TABLE_EXTRACTION_SUPPORTED",
+  "additional_result": "E(Q_n)=E(Q) and E(Q_infinity)=E(Q), with retained all-ell>=5 residual irreducibility",
+  "input_commit": "c728f2d2c993f480d99de297906e8482838419f9",
+  "baseline_commit": "0e8bb6859d1391e6d449b1ef02aff2cfd85310f1",
+  "new_symbol_values": 0,
+  "new_base_field_coefficient_primes": 0,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "review_grade": "Written source review and separate same-team model audits, no human or formal certification"
+}

@@ -1,0 +1,1 @@
+First adapted Python replay passed the primitive matrix but stopped at an inherited 11a1 actual-prime assertion. Updated that assertion to the independently produced655a1 decomposition (threeprimesat7, nonsplit5, sevenprimesat131). No arithmetic data or intended condition changed. Required final binding marker is ACTUAL_P7_P5_P131_BINDING_PASS.

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_THREE_WAY_LOCAL_SIGNATURE_EXPERIMENT",
+  "date": "2026-10-15",
+  "coefficient_prime": 3,
+  "fresh_blocks": 120,
+  "new_seed_prime": false,
+  "endpoints": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  },
+  "result": "Actual global norm rejects false candidate; local point-quotient signatures distinguish both known admitted excess directions on seed and positive controls; full point image killed. Joint Kummer/conditional density explanation written.",
+  "replay": "ISOLATED_ARITHMETIC_REPLAY_PASS",
+  "source_grade": "Retain separate actual-membership, full-point-lattice and ambient-completeness grades; no upgrade.",
+  "next": "Parent integration; no further local-prime accumulation needed for this result."
+}

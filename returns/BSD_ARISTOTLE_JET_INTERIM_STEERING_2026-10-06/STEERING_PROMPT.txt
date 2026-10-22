@@ -1,0 +1,9 @@
+Continue the assigned W3 source-construction experiment. Do not switch to recounting a_31, alpha_31, the ambient dimension, the supplied four-value interpolation, or formalizing those facts as the main output: they are already in the input.
+
+The huge full presentation rules out that implementation here; it does not establish that every sparse evaluation or symbolic construction needs it. Absence of Sage is also not a proof of that claim.
+
+Perform the concrete sparse attempt: write the target functional using exact cusp/coset identifiers, construct an actual Manin/Hecke relation and its first-order lifting right-hand side, and attempt lambda J=v on a finite support. Retain unknown eigenvalue derivatives and every boundary/tail column. If base-source values are missing, isolate the exact required evaluations and attempt their authenticated acquisition or symbolic elimination; do not insert arbitrary values. A sparse dual certificate must cover all columns, not just a truncated subsystem.
+
+Correct two shortcuts: an individual dual certificate need not require global congruence-freeness, and a/31 is not Gamma_0(N)-equivalent to infinity when gcd(31,N)=1. Also preserve the specified omega^(-w) nebentypus at weights five and six; their different weights do not invalidate the prescribed family component.
+
+Keep source existence, integral normalization and the unverified p=31 Hida-domain condition explicit. If this particular support fails, use its exact residual equations to try a different construction or prove a source-specific lifting/comparison result. Do not turn the level estimate into a universal impossibility claim, and do not fake a seed source. A useful partial result must remove a specific missing arithmetic step; p=31 alone is already settled.

@@ -1,0 +1,302 @@
+{
+  "exact_hecke_rows": {
+    "1": [
+      -288,
+      -288
+    ],
+    "2": [
+      288,
+      288
+    ],
+    "3": [
+      288,
+      288
+    ],
+    "4": [
+      -288,
+      -288
+    ]
+  },
+  "gamma_weights": [
+    -76,
+    0,
+    -76,
+    76,
+    76
+  ],
+  "historical_commit": "0e8bb6859d1391e6d449b1ef02aff2cfd85310f1",
+  "historical_table_bytes_match": true,
+  "lower_transfer_is_exactly_zero": true,
+  "neron_moment": 304,
+  "new_modular_symbol_evaluations": 0,
+  "original_arb_core_replayed": false,
+  "precision_controls": [
+    {
+      "difference_multiple": "(p-1)*U*((1+U)^q-1)",
+      "n": 2,
+      "p": 5,
+      "quadratic_coefficients": [
+        5,
+        25
+      ]
+    },
+    {
+      "difference_multiple": "(p-1)*U*((1+U)^q-1)",
+      "n": 3,
+      "p": 5,
+      "quadratic_coefficients": [
+        25,
+        125
+      ]
+    },
+    {
+      "difference_multiple": "(p-1)*U*((1+U)^q-1)",
+      "n": 2,
+      "p": 7,
+      "quadratic_coefficients": [
+        7,
+        49
+      ]
+    },
+    {
+      "difference_multiple": "(p-1)*U*((1+U)^q-1)",
+      "n": 2,
+      "p": 11,
+      "quadratic_coefficients": [
+        11,
+        121
+      ]
+    },
+    {
+      "difference_multiple": "(p-1)*U*((1+U)^q-1)",
+      "n": 2,
+      "p": 17,
+      "quadratic_coefficients": [
+        17,
+        289
+      ]
+    }
+  ],
+  "raw_jet_degrees_0_through_4": [
+    0,
+    380,
+    608,
+    380,
+    76
+  ],
+  "sha256": {
+    "SYMBOLS_m25.txt": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e",
+    "SYMBOLS_m5.txt": "fb7b98d89b1885bacbb1d9d306c6c17fcefeafbb094baf1fcb5258756e6edf9c"
+  },
+  "standard_L2_mod5": 1,
+  "status": "PASS_SEPARATE_SAVED_TABLE_AND_TRANSFER_CHECK",
+  "teichmuller_mod25": [
+    1,
+    7,
+    18,
+    24
+  ],
+  "tower_theorem_verified_by_this_script": false,
+  "transfer_controls": [
+    {
+      "n": 2,
+      "p": 5,
+      "precision_modulus": 5,
+      "transfer_coefficients": [
+        5,
+        10,
+        10
+      ]
+    },
+    {
+      "n": 3,
+      "p": 5,
+      "precision_modulus": 25,
+      "transfer_coefficients": [
+        5,
+        50,
+        350
+      ]
+    },
+    {
+      "n": 4,
+      "p": 5,
+      "precision_modulus": 125,
+      "transfer_coefficients": [
+        5,
+        250,
+        9250
+      ]
+    },
+    {
+      "n": 5,
+      "p": 5,
+      "precision_modulus": 625,
+      "transfer_coefficients": [
+        5,
+        1250,
+        233750
+      ]
+    },
+    {
+      "n": 2,
+      "p": 7,
+      "precision_modulus": 7,
+      "transfer_coefficients": [
+        7,
+        21,
+        35
+      ]
+    },
+    {
+      "n": 3,
+      "p": 7,
+      "precision_modulus": 49,
+      "transfer_coefficients": [
+        7,
+        147,
+        2156
+      ]
+    },
+    {
+      "n": 4,
+      "p": 7,
+      "precision_modulus": 343,
+      "transfer_coefficients": [
+        7,
+        1029,
+        108731
+      ]
+    },
+    {
+      "n": 5,
+      "p": 7,
+      "precision_modulus": 2401,
+      "transfer_coefficients": [
+        7,
+        7203,
+        5349428
+      ]
+    },
+    {
+      "n": 2,
+      "p": 11,
+      "precision_modulus": 11,
+      "transfer_coefficients": [
+        11,
+        55,
+        165
+      ]
+    },
+    {
+      "n": 3,
+      "p": 11,
+      "precision_modulus": 121,
+      "transfer_coefficients": [
+        11,
+        605,
+        22990
+      ]
+    },
+    {
+      "n": 4,
+      "p": 11,
+      "precision_modulus": 1331,
+      "transfer_coefficients": [
+        11,
+        6655,
+        2815065
+      ]
+    },
+    {
+      "n": 5,
+      "p": 11,
+      "precision_modulus": 14641,
+      "transfer_coefficients": [
+        11,
+        73205,
+        340988890
+      ]
+    },
+    {
+      "n": 2,
+      "p": 13,
+      "precision_modulus": 13,
+      "transfer_coefficients": [
+        13,
+        78,
+        286
+      ]
+    },
+    {
+      "n": 3,
+      "p": 13,
+      "precision_modulus": 169,
+      "transfer_coefficients": [
+        13,
+        1014,
+        54418
+      ]
+    },
+    {
+      "n": 4,
+      "p": 13,
+      "precision_modulus": 2197,
+      "transfer_coefficients": [
+        13,
+        13182,
+        9275734
+      ]
+    },
+    {
+      "n": 5,
+      "p": 13,
+      "precision_modulus": 28561,
+      "transfer_coefficients": [
+        13,
+        171366,
+        1568627242
+      ]
+    },
+    {
+      "n": 2,
+      "p": 17,
+      "precision_modulus": 17,
+      "transfer_coefficients": [
+        17,
+        136,
+        680
+      ]
+    },
+    {
+      "n": 3,
+      "p": 17,
+      "precision_modulus": 289,
+      "transfer_coefficients": [
+        17,
+        2312,
+        215016
+      ]
+    },
+    {
+      "n": 4,
+      "p": 17,
+      "precision_modulus": 4913,
+      "transfer_coefficients": [
+        17,
+        39304,
+        62454056
+      ]
+    },
+    {
+      "n": 5,
+      "p": 17,
+      "precision_modulus": 83521,
+      "transfer_coefficients": [
+        17,
+        668168,
+        18054567528
+      ]
+    }
+  ]
+}

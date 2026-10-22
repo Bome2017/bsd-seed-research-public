@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "character_eigenvalue": 2,
+      "expanded_formal_quotient_dimension": 29,
+      "full_rank": 156,
+      "original_image_upper_bound_from_these_rows": 8,
+      "private_rank": 156,
+      "rank_of_relations_supported_on_originals": 0
+    },
+    {
+      "character_eigenvalue": 3,
+      "expanded_formal_quotient_dimension": 29,
+      "full_rank": 156,
+      "original_image_upper_bound_from_these_rows": 8,
+      "private_rank": 156,
+      "rank_of_relations_supported_on_originals": 0
+    }
+  ],
+  "columns": 185,
+  "complete_class_bound": false,
+  "original_columns": 8,
+  "private_columns": 177,
+  "private_factor_certificate_sha256": "7b680dcd633392a79e9ef2bb0f7fccd1f60f0bf11ad4cbab37291d785b1cee60",
+  "rows": 196,
+  "scope": "Independent Python elimination after exact GP reconstruction of every divisor row. The 29-dimensional expanded formal quotient does not generate the full class group.",
+  "source_sha256": "5a8d270500f68e49d9a021cda8c892ddb183879390ac16faea328b999eb0b246",
+  "status": "NO_NEW_RELATION_BOUND_ON_ORIGINAL_EIGHT_GENERATORS"
+}

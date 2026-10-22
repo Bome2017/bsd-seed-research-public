@@ -1,0 +1,11 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  *** read: Warning: increasing stack size to 128000000.
+  *** read: Warning: increasing stack size to 256000000.
+  *** read: Warning: increasing stack size to 512000000.
+  *** read: Warning: increasing stack size to 1000001536.
+  *** bnfcertify: Warning: Zimmert's bound is large (226849291805255087108915200), certification will take a long time.
+  ***   at top-level: read("certify.gp")
+  ***                 ^------------------
+  ***   in function read: c=bnfcertify(B,1);print("CLASS_QUOTIENT_CERTIF
+  ***                       ^--------------------------------------------
+  *** bnfcertify: alarm interrupt after 1min, 29,134 ms.

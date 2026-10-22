@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "objective": "Bounded Tamiozzo applicability and fixed-level horizontal support test for the BSD seed",
+  "started_at_utc": "2026-09-20T01:05:44.379706+00:00",
+  "canonical_record": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+  "prior_master_archive": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/provenance/before_fixed_visibility_20260920T010544Z.tar.gz",
+  "arithmetic_rerun": false,
+  "verdict": "NO_HORIZONTAL_GAIN",
+  "ordinary_applicability": "WRITTEN_DEDUCTION_FROM_ZHANG_WITH_SEED_HYPOTHESES_CHECKED",
+  "fixed_auxiliary_stock": "OBSTRUCTED",
+  "p_unit_functorial_fixed_level_descent": "OBSTRUCTED",
+  "fixed_support_integer_obtained": false,
+  "supersingular_transfer_proved": false,
+  "global_FIN_changed": false,
+  "report": "FIXED_VISIBILITY_AUDIT.md",
+  "updated_at_utc": "2026-09-20T01:33:37.214709+00:00",
+  "proof_grade": "Written source-dependent ordinary transfer plus elementary scoped obstruction proofs; not formally verified or independently refereed",
+  "canonical_integration": "MASTER_BSD_DAG.md section 5.11; final freshness receipt at root VERIFICATION.json",
+  "successor_started": false
+}

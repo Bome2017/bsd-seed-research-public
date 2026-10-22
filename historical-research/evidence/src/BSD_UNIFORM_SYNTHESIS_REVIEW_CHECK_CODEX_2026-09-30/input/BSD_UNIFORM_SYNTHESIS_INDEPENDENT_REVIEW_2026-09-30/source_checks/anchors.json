@@ -1,0 +1,150 @@
+{
+  "CLW2.txt": [
+    {
+      "pattern": "^Theorem A\\.",
+      "text_line": 146,
+      "pdf_page": 3
+    },
+    {
+      "pattern": "^1\\.5\\. Remarks",
+      "text_line": 405,
+      "pdf_page": 7
+    },
+    {
+      "pattern": "^2\\.1\\. Modular forms",
+      "text_line": 444,
+      "pdf_page": 8
+    },
+    {
+      "pattern": "^Lemma 2\\.10\\.",
+      "text_line": 795,
+      "pdf_page": 13
+    },
+    {
+      "pattern": "^Remark 2\\.20\\.",
+      "text_line": 958,
+      "pdf_page": 16
+    },
+    {
+      "pattern": "^Theorem 5\\.3\\.",
+      "text_line": 2572,
+      "pdf_page": 36
+    },
+    {
+      "pattern": "^5\\.5\\. Proof",
+      "text_line": 2778,
+      "pdf_page": 39
+    },
+    {
+      "pattern": "^\\(5\\.18\\)",
+      "text_line": 2852,
+      "pdf_page": 40
+    },
+    {
+      "pattern": "^\\(5\\.21\\)",
+      "text_line": 2898,
+      "pdf_page": 41
+    },
+    {
+      "pattern": "^\\(5\\.22\\)",
+      "text_line": 2899,
+      "pdf_page": 41
+    },
+    {
+      "pattern": "^\\(5\\.23\\)",
+      "text_line": 2912,
+      "pdf_page": 41
+    }
+  ],
+  "Castella_Sano_2601.14504v1.txt": [
+    {
+      "pattern": "^1\\.1\\.3\\. Refined",
+      "text_line": 118,
+      "pdf_page": 2
+    },
+    {
+      "pattern": "^Theorem A\\.",
+      "text_line": 159,
+      "pdf_page": 3
+    },
+    {
+      "pattern": "^Corollary A\\.",
+      "text_line": 163,
+      "pdf_page": 3
+    },
+    {
+      "pattern": "^Theorem B ",
+      "text_line": 173,
+      "pdf_page": 3
+    },
+    {
+      "pattern": "^2\\.1\\.1\\. Kato",
+      "text_line": 334,
+      "pdf_page": 6
+    },
+    {
+      "pattern": "^2\\.2\\. Determinantal",
+      "text_line": 544,
+      "pdf_page": 9
+    },
+    {
+      "pattern": "^Conjecture 2\\.2\\.2 ",
+      "text_line": 580,
+      "pdf_page": 9
+    },
+    {
+      "pattern": "^Proposition 2\\.2\\.3\\.",
+      "text_line": 592,
+      "pdf_page": 9
+    }
+  ],
+  "Kim_2203.12159v6.txt": [
+    {
+      "pattern": "^1\\.2\\.2\\.",
+      "text_line": 182,
+      "pdf_page": 4
+    },
+    {
+      "pattern": "^1\\.4\\.1\\.",
+      "text_line": 288,
+      "pdf_page": 6
+    },
+    {
+      "pattern": "^Theorem 1\\.8\\.",
+      "text_line": 362,
+      "pdf_page": 7
+    },
+    {
+      "pattern": "^Corollary 1\\.12\\.",
+      "text_line": 499,
+      "pdf_page": 9
+    }
+  ],
+  "BH_2511.07203v1.txt": [
+    {
+      "pattern": "^\\(1\\.2\\) Hypothesis\\.",
+      "text_line": 82,
+      "pdf_page": 2
+    },
+    {
+      "pattern": "^\\(1\\.4\\) Theorem\\.",
+      "text_line": 109,
+      "pdf_page": 2
+    },
+    {
+      "pattern": "^2\\.1\\. Modular symbols",
+      "text_line": 497,
+      "pdf_page": 8
+    },
+    {
+      "pattern": "^\\(2\\.2\\) Definition\\.",
+      "text_line": 526,
+      "pdf_page": 8
+    },
+    {
+      "pattern": "^\\(2\\.5\\) Remark\\.",
+      "text_line": 568,
+      "pdf_page": 9
+    }
+  ]
+}

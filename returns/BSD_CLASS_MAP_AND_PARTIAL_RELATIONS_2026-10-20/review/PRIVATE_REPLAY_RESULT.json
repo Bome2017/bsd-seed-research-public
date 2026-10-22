@@ -1,0 +1,13 @@
+{
+  "unique_prime_support_witnesses": 80,
+  "full_norm_rows_checked_for_each": 14326,
+  "norm_valuation_one_witnesses": 80,
+  "independent_actual_ideal_replay": 80,
+  "independent_six_element_scalar_orbit_replay": 80,
+  "scalar_block_rank_Q": 3,
+  "scalar_block_rank_F7": 3,
+  "scalar_family_rank": 240,
+  "faithful_projected_family_rank": 80,
+  "nontrivial_ordinary_units_in_selected_scalar_group": 0,
+  "scope": "Retained field and scalar action; 80 new element-vector replays, four overlap old twenty; not all candidate vectors or complete unit space."
+}

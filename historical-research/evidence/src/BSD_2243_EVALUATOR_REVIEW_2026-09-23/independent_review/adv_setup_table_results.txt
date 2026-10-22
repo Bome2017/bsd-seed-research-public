@@ -1,0 +1,13 @@
+shard 1/2 tag D with corrupted segment 0 (a_5+2): run exit=0
+merge pool A (good) + D (bad segment 0), good apdir at merge: exit=0
+    MERGE checkpoints 2 units 1445 selected 50 missing 0 terms 50709590  SELECTION L50-69,S200-229
+    FINGERPRINT sum_units 8484d40a63e0e25a array 8484d40a63e0e25a match 1
+    COUNT_SELECTION pairs 70944208 recount 70944208 match 1  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)
+    AP_SEGROOT_SHA256 b1e5595d9bd91087a5d344172340e692e8ace6949b9ecffca66386e6239d5f7e segments 20
+    CHUNK_DIGEST 28cbdf4fb0b104b478fcb807ce8f4744d46fba6763917f91a4b567ee2b3f10dc
+reference (all good) merge of the same selection:
+    AP_SEGROOT_SHA256 b1e5595d9bd91087a5d344172340e692e8ace6949b9ecffca66386e6239d5f7e segments 20
+    CHUNK_DIGEST b63083a28cc1ecfc414f58e16dad206c82cd41545ac93647eb27fb2c009a8a74
+full run, S-block cnt+1 (re-hashed): merge exit=3
+    FATAL: count identity fails
+    COUNT smooth 1580993509 pairs 3250844699 sum 4831838208 T 4831838207 identity 0

@@ -1,0 +1,1 @@
+Complete and frozen. Adaptive question sealed before calculation. Read REPORT.md; replay with python3 replay.py. Seed known class quotient rank1 after removing point class image; 28042 known class quotient0. Source grades are explicit in SOURCE_GRADES.json. No new class-group certification, Selmer computation or seed endpoint. Sibling joint_kernel remained untouched.

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "payload/COMPLETE_READING_SET.zip",
+    "bytes": 32962911,
+    "sha256": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27",
+    "destination": "reading_set",
+    "root": "BSD_SEED_ARISTOTLE_2026-10-05",
+    "manifest": "STARTER_MANIFEST.sha256",
+    "manifest_entries": 5180,
+    "expanded_bytes": 112768170
+  },
+  {
+    "path": "payload/CURRENT_OVERLAY.zip",
+    "bytes": 4307989,
+    "sha256": "b26e42945df5b8f52afe5644c3efec8ad6a6996306c7302ffdea025f8600e74a",
+    "destination": "current_overlay",
+    "root": "BSD_CURRENT_OVERLAY_2026-10-06",
+    "manifest": "MANIFEST.sha256",
+    "manifest_entries": 1386,
+    "expanded_bytes": 9418192
+  },
+  {
+    "path": "payload/A_CORRECTIONS.zip",
+    "bytes": 1246941,
+    "sha256": "a67ad68f0e3bd5d2fa209fd943f9782a5b47664b7b2f81d7c5c16f5990fd5839",
+    "destination": "a_corrections",
+    "root": "BSD_A_CORRECTIONS_2026-10-07",
+    "manifest": "MANIFEST.sha256",
+    "manifest_entries": 1162,
+    "expanded_bytes": 2672970
+  }
+]

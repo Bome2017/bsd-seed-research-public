@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "source_sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8",
+  "local_block_reconstruction": [
+    {
+      "prime": 2,
+      "local_target_dimension": 1,
+      "point_image_dimension": 0,
+      "annihilator_dimension": 1,
+      "source_constraint_rank": 1,
+      "producer_block_rowspace_matches": true
+    },
+    {
+      "prime": 3,
+      "local_target_dimension": 10,
+      "point_image_dimension": 1,
+      "annihilator_dimension": 9,
+      "source_constraint_rank": 6,
+      "producer_block_rowspace_matches": true
+    },
+    {
+      "prime": 2243,
+      "local_target_dimension": 4,
+      "point_image_dimension": 0,
+      "annihilator_dimension": 4,
+      "source_constraint_rank": 2,
+      "producer_block_rowspace_matches": true
+    },
+    {
+      "prime": 4547,
+      "local_target_dimension": 2,
+      "point_image_dimension": 0,
+      "annihilator_dimension": 2,
+      "source_constraint_rank": 2,
+      "producer_block_rowspace_matches": true
+    },
+    {
+      "prime": 5843,
+      "local_target_dimension": 4,
+      "point_image_dimension": 1,
+      "annihilator_dimension": 3,
+      "source_constraint_rank": 2,
+      "producer_block_rowspace_matches": true
+    }
+  ],
+  "dimensions": {
+    "full": {
+      "none": 15,
+      "V": 6,
+      "N": 4,
+      "V+N": 4,
+      "A": 5,
+      "V+A": 4,
+      "N+A": 4,
+      "V+N+A": 4,
+      "L": 4,
+      "V+L": 4,
+      "N+L": 4,
+      "V+N+L": 4,
+      "A+L": 4,
+      "V+A+L": 4,
+      "N+A+L": 4,
+      "V+N+A+L": 4
+    },
+    "unramified": {
+      "none": 6,
+      "V": 6,
+      "N": 4,
+      "V+N": 4,
+      "A": 4,
+      "V+A": 4,
+      "N+A": 4,
+      "V+N+A": 4,
+      "L": 4,
+      "V+L": 4,
+      "N+L": 4,
+      "V+N+L": 4,
+      "A+L": 4,
+      "V+A+L": 4,
+      "N+A+L": 4,
+      "V+N+A+L": 4
+    },
+    "units": {
+      "none": 4,
+      "V": 4,
+      "N": 2,
+      "V+N": 2,
+      "A": 2,
+      "V+A": 2,
+      "N+A": 2,
+      "V+N+A": 2,
+      "L": 2,
+      "V+L": 2,
+      "N+L": 2,
+      "V+N+L": 2,
+      "A+L": 2,
+      "V+A+L": 2,
+      "N+A+L": 2,
+      "V+N+A+L": 2
+    }
+  },
+  "reproduced_old_zero_target_skip_dimension": 7,
+  "corrected_all_local_dimension": 4,
+  "norm_kernel_equals_local_kernel": true,
+  "known_units_span_admitted_unit_component": true,
+  "class_lift_repairs_cancel_norm_additivity_and_local_rows": true,
+  "coupling_quotient_ranks": {
+    "norm": 0,
+    "norm_additivity": 0,
+    "norm_additivity_local": 0
+  },
+  "scope": "Exact matrix replay. Cached source completeness and numerical local evaluation provenance retain producer grades; this does not prove a new Selmer upper bound."
+}

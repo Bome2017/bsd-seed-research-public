@@ -1,0 +1,23 @@
+{
+  "status": "SOURCE_COUNT_AND_DENSE_CACHE_INTERPRETATION_SUPPORTED",
+  "checks": {
+    "script_sha256": true,
+    "stdout_sha256": true,
+    "stderr_sha256": true,
+    "count_complete": true,
+    "baseline_KC_matches": true,
+    "baseline_KCZ_matches": true,
+    "prime_count_matches_independent_prior_sieve": true,
+    "cache_entry_bytes_match": true
+  },
+  "KC_default": 35749,
+  "default_entry_bytes": 10223928008,
+  "default_entry_gib": 9.52177495509386,
+  "KC_c1_point2": 5077,
+  "c1_point2_entry_bytes": 206207432,
+  "source_sha256": "904ced8034732c7fcfe1da393e23950aac0862b085150fdc24ce1e31beb7d1ac",
+  "installed_inline_header_sha256": "decd5d50544803dbb718d12212c2000fbfe923f3b11257d4281834519b2ce63d",
+  "source_cache_line": 3865,
+  "inline_constructor_line": 490,
+  "meaning": "Dense entries alone. Headers, ideal objects, relation and precision matrices and later stages are additional. It bounds this allocation, not all mathematical algorithms."
+}

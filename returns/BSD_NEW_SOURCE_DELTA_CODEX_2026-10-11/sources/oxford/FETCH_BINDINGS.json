@@ -1,0 +1,29 @@
+[
+  {
+    "name": "clay_lecture",
+    "url": "https://www.claymath.org/lectures/arithmetic-diagonal-cycles-and-l-functions/",
+    "sha256": "52a6cc377ca3c68a8c8c0f533cc6821c244936e0567f4f234f34bb19ce0fff2b"
+  },
+  {
+    "name": "clay_workshop",
+    "url": "https://www.claymath.org/events/the-birch-and-swinnerton-dyer-conjecture-and-related-problems-recent-results/",
+    "sha256": "d4a90f70f578d804f2d8c82ba6846d8838353cb1765fdff265c985a2e886d531"
+  },
+  {
+    "name": "clay_lectures",
+    "url": "https://www.claymath.org/lectures/",
+    "sha256": "f845f1d28d59f5bc339bb0cef6dfbdfcafee2b6e3208ffd375918c03a6a40414"
+  },
+  {
+    "name": "SV2024_thesis",
+    "url": "https://theses-dissertations.princeton.edu/bitstreams/d06bd1e5-3563-446e-b347-654b81c3a8be/download",
+    "sha256": "f2b5a1c23efc2ad931f77de58d07a74eae6446c9252fb5a69809eed496466512",
+    "bytes": 1793413,
+    "scope": "\u00a71.2.2 pp28\u201333; ch6 p270; \u00a78.2.3 pp355\u2013365; \u00a78.2.4 pp366\u2013367; theorem E p32 visually inspected"
+  },
+  {
+    "name": "masv_preprints",
+    "url": "https://sites.google.com/princeton.edu/masv/preprints",
+    "sha256": "a54d3fc0da6b135e2afa207a4bba7bd6db3a5135eb15ac55df93f0c6acadcdf9"
+  }
+]

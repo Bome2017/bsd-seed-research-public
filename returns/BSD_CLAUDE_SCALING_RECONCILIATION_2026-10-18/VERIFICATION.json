@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "nested_manifests": {
+    "class_contribution/MANIFEST.sha256": 22,
+    "unit_rank/MANIFEST.sha256": 3
+  },
+  "independent_joint_check_replay": "byte-identical",
+  "matrix_cases": 10,
+  "claude_source_hash_check": {
+    "nine_roots": 9,
+    "source_files_checked": 64883,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "older_named_roots_keyword_screened": 60,
+    "older_markdown_files_with_hits": 102,
+    "scope": "Nine complete source inventories rehashed; older named roots screened in top-level Markdown; selected relevant reports read. Not an exhaustive host or every-file mathematical audit."
+  },
+  "mathematical_scope": "saved complete-source linear algebra under retained arithmetic and completeness grades; no fresh field computations",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

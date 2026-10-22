@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "version": "0.2.0-private-review",
+  "source_commit": "6831af0dcc03f506040b139405a880bf38e1b30c",
+  "pdf": "paper/seed_bsd.pdf",
+  "pdf_sha256": "5f3455927c0099fac1edafb35d67a215ee43d1c77266754a5e045642081efcf8",
+  "pages": 32,
+  "build_log_sha256": "2338d45803cb403f05ccff61da4f8a2970b0a5f20fd4d451174b7529753e5fb5",
+  "unresolved_references_or_citations": false,
+  "overfull_boxes": false,
+  "visual_check": "All 32 pages rendered and inspected on four contact sheets: no clipping or overlap observed. This checks layout, not mathematical validity.",
+  "built_utc": "2026-09-23T19:04:21.496638+00:00"
+}

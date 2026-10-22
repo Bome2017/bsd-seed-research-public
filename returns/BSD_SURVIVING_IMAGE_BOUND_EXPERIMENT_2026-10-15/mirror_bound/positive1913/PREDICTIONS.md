@@ -1,0 +1,5 @@
+# Positive1913 reverse-boundary test
+
+Use the two actual global units and literal forward cube roots already retained for1913b1. Odd-project both source units and their cube roots. Test the exact transpose norm in the same incidence field: its value on each projected cube root should be the projected original unit. This would exhibit actual genuine excess classes in the opposite norm image and refute any rule that all boundaries are point classes. No companion BNF or unit enumeration is required.
+
+Conceptual prerequisite: transpose times forward is multiplication by3 on odd multiplicative functions. Integral odd unit rank is2 on both point/line fields. Two independent mod3 unit classes with cube forward norms would force forward Smith(3,3) and reverse norm invertible overZ3. Use the Z3 statement unless integral lattice identifications and prime-to3 torsion are explicitly resolved. Do not infer a full primary Sha order; only the retained two independent Sha[3] classes and rank0 are needed.

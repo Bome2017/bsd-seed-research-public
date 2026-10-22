@@ -1,0 +1,21 @@
+{
+  "base_commit": "e8af0b76db3cec7c2610355babc4da25c8396be1",
+  "files": [
+    {
+      "path": "paper/sections/F_lattice_proof.tex",
+      "old_sha256": "f68708597503923ebb380142272dc581e23347df4d406b94e9561959206eccf2",
+      "candidate_sha256": "eab78bd1672902101facd2e6eb2fa22f19c1b63ebb41028971f9c375e112eeca"
+    },
+    {
+      "path": "paper/sections/03_rank.tex",
+      "old_sha256": "3eaf61c394680da56285af5c7c346d2a996055a59b205a92adab567c96f889a1",
+      "candidate_sha256": "b99b0ed8f5f084c1b4b2904ef3f6c328a56c99e10fbf7a0d6aaf2640e52d8f4f"
+    },
+    {
+      "path": "paper/refs.bib",
+      "old_sha256": "36c66558bf7ebb96fdbc695913ba25dea14b16d8329acaeba6a10d0745bb666d",
+      "candidate_sha256": "c8dc232a5b63ebb398c7da40e935e9dd9820144f4a0a053b0d060838ce3f4b2a"
+    }
+  ],
+  "scope": "Applied to three isolated copies only; no PDF rebuild, bibliography compilation, manifest update, Git commit or push."
+}

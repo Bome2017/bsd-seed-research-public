@@ -1,0 +1,1400 @@
+{
+ "research_base": "4344c6a85e6940d6477807ef5d8dda761134bc2e",
+ "base_version": "v0.2.5 with the route-K and K2 follow-ons (4344c6a; GitHub branch v0.2.5)",
+ "history_root": "review/history/v0.2.5k2",
+ "scope": "v0.2.6 content commit on v0.2.6-bank: the Kurihara position. New claims B.20 (THEOREM: M_infinity(delta) = 0 and a mod-p unit Kurihara witness at every good p >= 5, supersingular primes and 19, 59, 487 included; the bad primes and p <= 3 not covered), B.21 (THEOREM: r_p = dim_{F_p} Sel_p(E/Q), even and >= 2; r_p = 2 iff Sha[p^inf] = 0) and B.22 (CONDITIONAL: strict character depth < 4 at the actual conductor implies Sha[p^inf] = 0; no converse), each PROVED_WRITTEN and IMPORTED_PREPRINT with the verbatim review label in verification.review_label. O.1 carries the exact open target; O.1 and O.2 wording refreshed to the current thresholds (grades unchanged). Paper: section 9.1 (B.20-B.22) and section 11 (the current known frontier); README status rows and frontier. Evidence: 38 governing files appended; 29 third-party files bound by hash only. The v0.2.5, route-K and K2 records are unchanged. No tag, push or publication.",
+ "user_decisions": [
+  "inputs/V026_SCOPE.md governs; revised on 2026-09-30 after the cross-model and Codex checks; every correction in it is mandatory (release grades PROVED_WRITTEN / IMPORTED_PREPRINT; B.22 kind CONDITIONAL) (user, 2026-09-30)",
+  "label placement: the verbatim review label in the claims verification record and the recheck/evidence documents; the paper and README carry grades, citations and a one-line provenance clause (the v0.2.5 precedent)"
+ ],
+ "review_label": "Derived by Codex (OpenAI). Independent review by ChatGPT Pro (OpenAI): ACCEPT_AT_IMPORT_GRADE. The source statements were checked by Claude Opus 5.5 and Claude Fable 5.1 (Anthropic); the Δ-component bridge by Claude Fable 5.1; the Part B deductions by Claude Opus 5.5. The author-hosted CLW revision is byte-identical across three independent downloads (sha256 0686fa41…d036fb98); arXiv v1 is a different file. Not a human review; not formalized.",
+ "base_copies": {
+  "MANIFEST.sha256": {
+   "path": "review/history/v0.2.5k2/MANIFEST.sha256",
+   "sha256": "a3702d844b072d99b45057fa7a3890e6a177915eeab4b50235ac986edcf25e12"
+  },
+  "README.md": {
+   "path": "review/history/v0.2.5k2/README.md",
+   "sha256": "8d44e5cf3f9aac4b04d81543b45c3dc504bd5c1620be1dd3b10cbe413b1bada3"
+  },
+  "SOURCE_SNAPSHOT.json": {
+   "path": "review/history/v0.2.5k2/SOURCE_SNAPSHOT.json",
+   "sha256": "de94d6a4d7bdc5eb4bb3950c729a4d910b559ac3a3405ccb2f2b8d96b0e1a100"
+  },
+  "claims/CLAIM_INDEX.md": {
+   "path": "review/history/v0.2.5k2/claims/CLAIM_INDEX.md",
+   "sha256": "aa9033d0da90ee10a96aac1d94267cf51f5ff177bf7ffdb5afe63f3fd650580c"
+  },
+  "claims/claims.json": {
+   "path": "review/history/v0.2.5k2/claims/claims.json",
+   "sha256": "a2f6130719acf1ecb712b8a164cd2c8a315df792a010effbc4a508cd4079dba8"
+  },
+  "claims/spec/common.py": {
+   "path": "review/history/v0.2.5k2/claims/spec/common.py",
+   "sha256": "3ff9e8523462453afe75c531322aeb55d759ae076215f662c1a8c4df8227f4b6"
+  },
+  "claims/spec/part2_bridges.py": {
+   "path": "review/history/v0.2.5k2/claims/spec/part2_bridges.py",
+   "sha256": "ffcbe9b8346f556dcc7bdb9e38b9472e1e13212edea0ed160c5e55fd9d2fa614"
+  },
+  "claims/spec/part4_open.py": {
+   "path": "review/history/v0.2.5k2/claims/spec/part4_open.py",
+   "sha256": "76f13f5f3fddc670d20fa33a3d5f9ba7e6d6292135cca5684162122ed2cfdf96"
+  },
+  "evidence/PROVENANCE.tsv": {
+   "path": "review/history/v0.2.5k2/evidence/PROVENANCE.tsv",
+   "sha256": "a7f865b3a5919a91642965264e92056106870e5369e158a9881e8f426290cfe0"
+  },
+  "paper/refs.bib": {
+   "path": "review/history/v0.2.5k2/paper/refs.bib",
+   "sha256": "c6f4a8fc65a554e1f85babd758120e35d5f96bb2eb1d73796e0a876c16f03f7b"
+  },
+  "paper/release_id.tex": {
+   "path": "review/history/v0.2.5k2/paper/release_id.tex",
+   "sha256": "189b345bed436f47df3005a368bdd35018bd0840837bc010af5973075c208b77"
+  },
+  "paper/sections/09_reductions.tex": {
+   "path": "review/history/v0.2.5k2/paper/sections/09_reductions.tex",
+   "sha256": "c9f8b4bd08c8681d169fa37e288c530cfdc4fd7e2657e723aed7bbae6b7c9a7c"
+  },
+  "paper/sections/11_remaining.tex": {
+   "path": "review/history/v0.2.5k2/paper/sections/11_remaining.tex",
+   "sha256": "a81ada88c1336c6d5fdce2b80aad05d0eed24eca4b5b7a7378cbf9eb310561b9"
+  },
+  "paper/seed_bsd.bbl": {
+   "path": "review/history/v0.2.5k2/paper/seed_bsd.bbl",
+   "sha256": "cb09c38f8eda4ffa3471c65f27d184f2a2b8c391d2f610ebe6c0960cbf59d01a"
+  },
+  "paper/seed_bsd.pdf": {
+   "path": "review/history/v0.2.5k2/paper/seed_bsd.pdf",
+   "sha256": "9ae05ea71f0c88a61e25e132ec70da9d38dce92cbdfdaadd8d7fc431e183d41c"
+  },
+  "review/SYNTHESIS_CHECK_BRIEF.md": {
+   "path": "review/history/v0.2.5k2/review/SYNTHESIS_CHECK_BRIEF.md",
+   "sha256": "d42309536fe6c3a85a8004aeb8a58fc77849d01c42016ef877b7cb2250707ff0"
+  },
+  "tools/extra_evidence.txt": {
+   "path": "review/history/v0.2.5k2/tools/extra_evidence.txt",
+   "sha256": "226500f5995b49f7d07a479aba99884958259e8f0ec9a1bb73910a2a7e7cdf83"
+  },
+  "tools/verify_patch_release.py": {
+   "path": "review/history/v0.2.5k2/tools/verify_patch_release.py",
+   "sha256": "553736173ebe536a3a593310d6fa620e0571e1b9f5b6f9ab7b5da6f23508ec40"
+  }
+ },
+ "added_paths": [
+  "RECHECK_V0_2_6.md",
+  "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+  "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json",
+  "review/V026_APPLIED.json",
+  "review/V026_EVIDENCE_ADDITIONS.json",
+  "review/V026_EVIDENCE_TRANSITION.json",
+  "review/history/v0.2.5k2/MANIFEST.sha256",
+  "review/history/v0.2.5k2/README.md",
+  "review/history/v0.2.5k2/SOURCE_SNAPSHOT.json",
+  "review/history/v0.2.5k2/claims/CLAIM_INDEX.md",
+  "review/history/v0.2.5k2/claims/claims.json",
+  "review/history/v0.2.5k2/claims/spec/common.py",
+  "review/history/v0.2.5k2/claims/spec/part2_bridges.py",
+  "review/history/v0.2.5k2/claims/spec/part4_open.py",
+  "review/history/v0.2.5k2/evidence/EXCLUDED.tsv",
+  "review/history/v0.2.5k2/evidence/PROVENANCE.tsv",
+  "review/history/v0.2.5k2/evidence/REDACTIONS.tsv",
+  "review/history/v0.2.5k2/paper/refs.bib",
+  "review/history/v0.2.5k2/paper/release_id.tex",
+  "review/history/v0.2.5k2/paper/sections/09_reductions.tex",
+  "review/history/v0.2.5k2/paper/sections/11_remaining.tex",
+  "review/history/v0.2.5k2/paper/seed_bsd.bbl",
+  "review/history/v0.2.5k2/paper/seed_bsd.pdf",
+  "review/history/v0.2.5k2/review/SYNTHESIS_CHECK_BRIEF.md",
+  "review/history/v0.2.5k2/tools/extra_evidence.txt",
+  "review/history/v0.2.5k2/tools/verify_patch_release.py",
+  "tools/verify_v026_transition.py"
+ ],
+ "claim_order": [
+  "A.1",
+  "A.2",
+  "A.3",
+  "A.4",
+  "R.1",
+  "R.2",
+  "R.3",
+  "R.4",
+  "R.5",
+  "R.6",
+  "R.7",
+  "S.2",
+  "S.3",
+  "S.3L",
+  "S.3F",
+  "S.3K",
+  "S.5",
+  "S.7",
+  "S.11",
+  "S.13",
+  "S.17-47",
+  "S.P",
+  "S.FIN",
+  "S.U",
+  "S.K",
+  "Q.1",
+  "Q.2",
+  "Q.3",
+  "Q.4",
+  "K.1",
+  "K.2",
+  "B.1",
+  "B.2",
+  "B.3",
+  "B.4",
+  "B.5",
+  "B.6",
+  "B.7",
+  "B.8",
+  "B.18",
+  "B.9",
+  "B.10",
+  "B.11",
+  "B.12",
+  "B.13",
+  "B.14",
+  "B.15",
+  "B.16",
+  "B.17",
+  "B.19",
+  "B.20",
+  "B.21",
+  "B.22",
+  "X.1",
+  "X.2",
+  "X.3",
+  "X.4",
+  "X.5",
+  "X.6",
+  "X.7",
+  "X.8",
+  "X.9",
+  "X.10",
+  "X.11",
+  "X.12",
+  "X.13",
+  "X.14",
+  "X.15",
+  "X.16",
+  "X.17",
+  "O.1",
+  "O.2",
+  "O.3",
+  "O.4",
+  "H.1",
+  "H.2",
+  "H.3",
+  "H.4",
+  "H.5",
+  "W.1",
+  "W.2",
+  "W.3",
+  "W.4",
+  "W.5",
+  "W.6",
+  "W.7",
+  "W.8"
+ ],
+ "claim_delta": {
+  "O.1": {
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "sections 1, 3, 7",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "sections 1, 3, 7",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+      "role": "item 4: the current known frontier for the uniform step",
+      "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+      "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md"
+     }
+    ]
+   },
+   "qualifications": {
+    "before": [
+     "Equivalently (S.K): every primary component finite and Sha[p] = 0 for almost all p.",
+     "Remaining regimes: good ordinary p >= 17; good supersingular p (infinitely many, by Elkies; 23, 29, 131, ...); the bad primes 2243, 4547, 5843."
+    ],
+    "after": [
+     "Equivalently (S.K): every primary component finite and Sha[p] = 0 for almost all p.",
+     "Remaining regimes: good ordinary p >= 53; good supersingular p >= 53 (infinitely many, by Elkies; 131, 167, 281, ...); the bad primes 2243, 4547, 5843. The primes p <= 47 are settled (S.P, S.17-47).",
+     "Current known frontier for the uniform step (B.20-B.22): Find one finite set S containing {2,3,2243,4547,5843} and an independent argument that, for every p outside S, either a two-prime mod-p unit Kurihara witness exists or dim_{F_p} Sel_p(E/Q) ≤ 3. Under B.21 these two conditions are equivalent to each other and to Sha[p^∞]=0. A faithful value of the full BH-normalized element of a real cyclic degree-p field at its actual conductor prime to pN, with depth strictly below four, is another sufficient condition. No converse from Sha vanishing to existence of that character value is claimed. Fields, conductors and estimates may depend on p. No applicable theorem was located in the screened sources. Together with finiteness of the primary components at the primes of S, this target would give FIN."
+    ]
+   }
+  },
+  "O.2": {
+   "qualifications": {
+    "before": [
+     "FIN alone permits 9t^2 with gcd(t, 30030) = 1; a proof that #Sha < 2601 given FIN, or the uniform bound (U), would suffice.",
+     "Any nonzero bad-prime component would contribute at least 2243^2 to the order.",
+     "The uniform bound #Sha[n]<2601 for every n is equivalent to FIN together with ORDER9, not to the conditional assertion ORDER9 alone."
+    ],
+    "after": [
+     "FIN alone permits 9t^2 with every prime factor of t at least 53 (S.FIN); a proof that #Sha < 25,281 given FIN, or the uniform bound (U), would suffice.",
+     "Any nonzero bad-prime component would contribute at least 2243^2 to the order.",
+     "The uniform bound #Sha[n]<2601 for every n is equivalent to FIN together with ORDER9, not to the conditional assertion ORDER9 alone."
+    ]
+   }
+  }
+ },
+ "new_claims": {
+  "B.20": {
+   "id": "B.20",
+   "title": "A mod-p unit Kurihara witness at every good prime p >= 5",
+   "statement": "For every prime p >= 5 of good reduction for E, including the supersingular primes and 19, 59 and 487, M_infinity(delta) = 0. Hence some squarefree Kato conductor n, which may depend on p, gives a mod-p unit Kurihara witness: delta_n is nonzero mod p. The bad primes 2243, 4547 and 5843 and the primes p <= 3 are not covered.",
+   "kind": "THEOREM",
+   "grades": [
+    "PROVED_WRITTEN",
+    "IMPORTED_PREPRINT"
+   ],
+   "origin": "written application of preprint theorems",
+   "section": "9",
+   "evidence": [
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+     "role": "uniform synthesis (Codex): verdicts and scope",
+     "sha256": "c90bef60c754c3c1a58240078bf5629d6fbe3ccc8e9a9793b5f0f87edf8023fb",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+     "role": "uniform synthesis (Codex): the application of CLW and Castella-Sano to the seed",
+     "sha256": "d755340b405c2a9f7512c8b68627d4ecafcb2311735602d94cf2bc4f7ad68bbe",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+     "role": "uniform synthesis (Codex): sources and anchors",
+     "sha256": "d624e9a80216a81af06d93d628f19e53e2d46c36b0f9b59737a2b740ecaed931",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+     "role": "uniform synthesis (Codex): source URLs and hashes (the pinned CLW revision)",
+     "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+     "role": "uniform synthesis (Codex): hashes of the local records read",
+     "sha256": "664137fe827f5b246c9178785cb3479177f70d9cef70ec8ef5aaf3165041f148",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+     "role": "uniform synthesis (Codex): v_2243(Delta) = 1 and c4 mod 2243",
+     "sha256": "42f1f0a52766a0f672c493dfe4544c4fa75548acbd744649b2d07da3d14c3141",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+     "role": "uniform synthesis (Codex): the local arithmetic check",
+     "sha256": "e4cc502ae1f91780e91485db2f082a2d5e996f03e3aadb0d48dcd8a444d6930e",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+     "role": "uniform synthesis (Codex): check summary",
+     "sha256": "137c07ee79c103fb2b6af67a373a216b4435b3b7359105492a39a6d8999c1a5f",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+     "role": "uniform synthesis (Codex): the review request",
+     "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+     "role": "uniform synthesis (Codex): state",
+     "sha256": "1cd8b1cc3284c354c65177742b532fdb99a839a75c3c7b9e1dd92a5081416321",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+     "role": "uniform synthesis (Codex): resume notes",
+     "sha256": "e7f1a8d5cac68d7379bbdba26ba396100d9fffa9d2c289523698e3c2e3ad9d14",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+     "role": "uniform synthesis (Codex): synthesis manifest",
+     "sha256": "b73c250370f12dbcb95f68343fded75a6680859bf775ec3737980efa866c735f",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+     "role": "independent review (ChatGPT Pro): ACCEPT_AT_IMPORT_GRADE",
+     "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+     "role": "independent review (ChatGPT Pro): Part A: the coverage audit A1-A5",
+     "sha256": "c44f96d967917235743094f64bb3954a7a073cc4e468a30e1115056809d90c13",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+     "role": "independent review (ChatGPT Pro): source and custody audit",
+     "sha256": "c0d1b03b46a3159020acabff5dc645f974fe0e2368dbd26fb5a9e73299fdc382",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+     "role": "independent review (ChatGPT Pro): source hashes",
+     "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+     "role": "independent review (ChatGPT Pro): input integrity",
+     "sha256": "4306967b8bbd8113254c9cb6bd796f4db4fb20c7e608954644f2eb1bdee8ad5e",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+     "role": "independent review (ChatGPT Pro): the review request as received",
+     "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+     "role": "independent review (ChatGPT Pro): check summary",
+     "sha256": "bbc32f2afe62e963f7c8f5a17fa548d49349795db181b170d5fd1e422366b005",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+     "role": "independent review (ChatGPT Pro): notes",
+     "sha256": "5ebfc40eee9c04156656ade99d3b8ba04218f5cf5a7aba80d013fdaaead3e756",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+     "role": "independent review (ChatGPT Pro): state",
+     "sha256": "60c60b523ef3f331014bbb0498c250018211a003d43b7ca09aa0297bcffb4cae",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+     "role": "independent review (ChatGPT Pro): resume notes",
+     "sha256": "810706ce23b6440c17adbbe36361d0ca6c9f40f0aef1aae24670fd89617937ff",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+     "role": "independent review (ChatGPT Pro): review manifest",
+     "sha256": "1629154d5741c503d7c76ef5387684d9f23a0a020fb964b90b35cd2fba4cd2f7",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json",
+     "role": "independent review (ChatGPT Pro): text anchors of the source statements",
+     "sha256": "86d6743bb2dcaac03ec983ca139340f6af43a914064d9dc113691628d48337fc",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+     "role": "return check of the review (Codex): ACCEPT_REVIEW_AT_STATED_GRADE; live source hash match",
+     "sha256": "5d3b337b4d1c14a9324b25dbd2ced976a39935be36f7cfa1d2ad4473f7b06ebb",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+     "role": "return check of the review (Codex): fresh download of the CLW revision: headers and sha256",
+     "sha256": "036290a6beb39d024b4c3de1f80f58ba75c4b54f06b938d4cc6c43c2b9992400",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+     "role": "return check of the review (Codex): state",
+     "sha256": "15a2c92cca7adc4b90d73598163d3622b14c1b75d740477ff5a192119af0b639",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+     "role": "return check of the review (Codex): return-check manifest",
+     "sha256": "44b5540f4d77ddea092524cea20e6212c777e5c77b0724c24c87fc53b2c615d2",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256"
+    },
+    {
+     "path": "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+     "role": "section 9: the source-statement and Delta-component bridge check (Fable); section 9a: the pinned-source comparison",
+     "sha256": "e92688976c4a51f6777a5bde4bb74c61979d9c5a99803304be05111746ec5707",
+     "original_path": "/Users/bsm/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md"
+    },
+    {
+     "path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+     "role": "Claude check report: addendum 25 (source statements) and addendum 28 (source fetch, Part B deductions)",
+     "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+     "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+     "role": "addendum 25, as supplied with the task",
+     "sha256": "1e9f0d1aa2bd8258a3785e7bab62a304ebee61a68f40b18fe997bf5d2dcf3c19",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+     "role": "addendum 28, as supplied with the task",
+     "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+     "role": "the governing scope (claims, labels, IN and OUT)",
+     "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+     "role": "check of the scope: CONFIRMED_WITH_CORRECTIONS",
+     "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+     "role": "PARI re-derivation of a_19, a_59, a_487 and the local data",
+     "sha256": "0bbc4995fbe53dae985fd9c84892ee4f8e0d4f652b13894c5adac854c24e60f1",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+     "role": "its output: a_19 = 4, a_59 = -4, a_487 = -28",
+     "sha256": "72bb24852fdcd79262e0040f20ee60787e7772c9a8ada5ffa0d4294067785647",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log"
+    }
+   ],
+   "imports": [
+    "Castella-Liu-Wan, \"Kato's main conjecture for nonordinary modular forms\", author-hosted revision dated 2026-09-21 (https://web.math.ucsb.edu/~castella/CLW2.pdf, sha256 0686fa414b242e8e3b1cccd3fe906c8eefcfdb7b568563daa3089701d036fb98), Theorem A, with Lemma 2.10, Remark 2.20 and section 5.6 ((5.18), (5.21)-(5.22)) for the character and the integral normalization: (ram) holds via l = 2243 (v_2243(Delta) = 1, split multiplicative I_1); k = 2 < p; p-regular since a_p = 0 at supersingular p >= 5. The arXiv v1 (2608.29470v1) required squarefree N; the revision does not. At k = 2 the proved component omega^(k/2) = omega is the cyclotomic one for T_pE (Remark 2.20).",
+    "Castella-Sano, arXiv:2601.14504v1: Theorem A and Corollary A (with the CLW input at the nonordinary primes) and Theorem B (the ordinary primes); the determinant equivalence of Proposition 2.2.3, with the S-imprimitive Euler factors retained",
+    "the retained seed inputs: residual surjectivity at every odd p and p-adic surjectivity at p >= 5 (A.3); the Manin constant divides 2^9 (A.4); Tam = 16 (A.1)"
+   ],
+   "depends_on": [
+    "A.1",
+    "A.3",
+    "A.4"
+   ],
+   "normalization": "Kurihara numbers delta_n in Z/I_n as in Castella-Sano section 1.1 (and Kim sections 1.2.2 and 1.4): n runs over squarefree products of primes l not dividing N with l = 1 mod p and a_l = l + 1 mod p (so a_l = 2 mod p); I_n is the sum of the ideals I_l = (l - 1, a_l - l - 1)Z_p; the modular symbols are normalized by the positive Neron period Omega^+_E, the integral over E(R) of omega_E (2*omega_1 for this curve), and weighted by discrete logarithms; M(n) is the p-adic order of delta_n in Z/I_n, M_r = min{M(n) : nu(n) = r}, and M_infinity(delta) is the limit of M_r over r of the parity of the root number. Changing primitive roots multiplies delta_n by a p-unit. These auxiliary primes are not the G2 auxiliaries of B.16.",
+   "verification": {
+    "review": "MODEL_CROSS_FAMILY at the statement and deduction level: derived by Codex (OpenAI); independent review by ChatGPT Pro (OpenAI); source statements, the Delta-component bridge and the Part B deductions checked by Claude models (Anthropic); not a human review; not formalized",
+    "review_label": "Derived by Codex (OpenAI). Independent review by ChatGPT Pro (OpenAI): ACCEPT_AT_IMPORT_GRADE. The source statements were checked by Claude Opus 5.5 and Claude Fable 5.1 (Anthropic); the Δ-component bridge by Claude Fable 5.1; the Part B deductions by Claude Opus 5.5. The author-hosted CLW revision is byte-identical across three independent downloads (sha256 0686fa41…d036fb98); arXiv v1 is a different file. Not a human review; not formalized."
+   },
+   "qualifications": [
+    "Version caveat: the Castella-Liu-Wan revision used here is author-hosted and not on arXiv as of 2026-09-30; arXiv 2608.29470 lists only v1, the squarefree-level version (checked live on 2026-09-30). The revision is pinned by sha256 0686fa414b242e8e3b1cccd3fe906c8eefcfdb7b568563daa3089701d036fb98; a later version could change the hypotheses of Theorem A.",
+    "Ordinary coverage: the good ordinary primes are covered by Castella-Sano Theorem B as printed, whose hypotheses are p > 3, (sur) and p not dividing c_phi, and whose proof cites [Wan15, BCS25] for the ordinary main conjecture. 19, 59 and 487 are ordinary for E (a_19 = 4, a_59 = -4, a_487 = -28; PARI ellap, recorded with the evidence), and Theorem B has no hypothesis that excludes them. The Euler factors at 2243 and 5843 are nonunits at these primes (2242 = 2*19*59, 5844 = 12*487); both formulations retain these factors and neither cancels them, so they create no extra exception. The supersingular primes come from the CLW revision, because the supersingular case of Theorem B requires squarefree N.",
+    "Existence only: the witness length may depend on p and is not bounded here (B.21 identifies the minimal length with dim_{F_p} Sel_p(E/Q)); no two-prime witness and no uniform upper bound is obtained.",
+    "No rank-zero step of CLW section 5.6 ((5.19), (5.20), (5.23), (5.24)) is used, and no historical E11 or 288 scalar is identified with delta_n: no normalization comparison has been done.",
+    "The deep theorems are imported from preprints and not reproved; the retained seed inputs were not replayed by the reviews. The review label records model reviews at their stated scopes; repeated byte-identical downloads verify source identity, not independent proofs."
+   ],
+   "master_ref": "",
+   "post_master": "New since the master record (2026-09-30).",
+   "stop_kind": "",
+   "scope": "",
+   "role": "coverage: a unit witness exists at every good prime p >= 5, with no length bound",
+   "label": "thm:kurexist"
+  },
+  "B.21": {
+   "id": "B.21",
+   "title": "The minimal unit-witness length equals the Selmer dimension",
+   "statement": "For every good prime p >= 5 put r_p := min{nu(n) : delta_n is nonzero mod p}, the minimal length of a mod-p unit Kurihara witness (finite by B.20). Then r_p = dim_{F_p} Sel_p(E/Q); r_p is even and >= 2; and r_p = 2 if and only if Sha(E/Q)[p^infinity] = 0. The equivalence also excludes a hypothetical divisible part: no finiteness of Sha is assumed.",
+   "kind": "THEOREM",
+   "grades": [
+    "PROVED_WRITTEN",
+    "IMPORTED_PREPRINT"
+   ],
+   "origin": "written deduction from preprint theorems",
+   "section": "9",
+   "evidence": [
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+     "role": "uniform synthesis (Codex): the minimal unit length and the character-depth test",
+     "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+     "role": "independent review (ChatGPT Pro): Part B, sections B1-B7",
+     "sha256": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+     "role": "independent review (ChatGPT Pro): ACCEPT_AT_IMPORT_GRADE",
+     "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md"
+    },
+    {
+     "path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+     "role": "Claude check report: addendum 28 (Part B deductions checked)",
+     "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+     "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+     "role": "addendum 28, as supplied with the task",
+     "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+     "role": "the governing scope",
+     "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+     "role": "check of the scope: CONFIRMED_WITH_CORRECTIONS",
+     "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md"
+    }
+   ],
+   "imports": [
+    "C.-H. Kim, arXiv:2203.12159v6, Theorem 1.8: only its Sha-independent clauses (the Selmer corank and the higher Fitting ideals Fitt_i = p^(M_i - M_infinity) Z_p); the clauses that assume Sha finite are not used",
+    "parity: the root number is +1, so delta_n = 0 when nu(n) is odd (Castella-Sano section 1.1.3)",
+    "the Kummer sequences with E(Q)[p] = 0, the split dual Kummer sequence 0 -> Sha[p^infinity]^dual -> X_p -> Z_p^2 -> 0 and Nakayama's lemma",
+    "every import of B.20"
+   ],
+   "depends_on": [
+    "B.20",
+    "R.1",
+    "A.1"
+   ],
+   "normalization": "r_p is the first UNIT index. The first merely nonzero p-adic index is a different quantity and is not substituted for it.",
+   "verification": {
+    "review": "MODEL_CROSS_FAMILY at the statement and deduction level: derived by Codex (OpenAI); independent review by ChatGPT Pro (OpenAI); source statements, the Delta-component bridge and the Part B deductions checked by Claude models (Anthropic); not a human review; not formalized",
+    "review_label": "Derived by Codex (OpenAI). Independent review by ChatGPT Pro (OpenAI): ACCEPT_AT_IMPORT_GRADE. The source statements were checked by Claude Opus 5.5 and Claude Fable 5.1 (Anthropic); the Δ-component bridge by Claude Fable 5.1; the Part B deductions by Claude Opus 5.5. The author-hosted CLW revision is byte-identical across three independent downloads (sha256 0686fa41…d036fb98); arXiv v1 is a different file. Not a human review; not formalized."
+   },
+   "qualifications": [
+    "This is an identity, not an upper bound. The abstract dual module X = Z_p² ⊕ (Z/p)² needs four generators, with Fitt₂(X)=(p²), Fitt₃(X)=(p), and Fitt₄(X)=Z_p. It is compatible with M_∞=0 and first unit index four. This is a module countermodel to an inference from primitivity alone, not a claim about the seed at an uncomputed prime.",
+    "Not a bound: proving r_p < 4 for every p outside one finite set is the open uniform target recorded with O.1 (current known frontier).",
+    "The deep theorems are imported from preprints and not reproved; the retained seed inputs were not replayed by the reviews. The review label records model reviews at their stated scopes; repeated byte-identical downloads verify source identity, not independent proofs."
+   ],
+   "master_ref": "",
+   "post_master": "New since the master record (2026-09-30).",
+   "stop_kind": "",
+   "scope": "",
+   "role": "exact identity: the minimal unit-witness length is the Selmer dimension",
+   "label": "thm:rp"
+  },
+  "B.22": {
+   "id": "B.22",
+   "title": "The character-depth criterion (strict depth below four)",
+   "statement": "Let p >= 5 be a good prime, let K/Q be a real cyclic extension of degree p whose actual conductor m is prime to pN (m may be composite), and let chi be a faithful character of Gal(K/Q). If v_{zeta_p - 1}(chi(theta_K^MT)) < 4 for the full Bullach-Honnor-normalized Mazur-Tate element theta_K^MT of K at its actual conductor m (Definition 2.2, total real period Omega^+ = 2*omega_1), then Sha(E/Q)[p^infinity] = 0.",
+   "kind": "CONDITIONAL",
+   "grades": [
+    "PROVED_WRITTEN",
+    "IMPORTED_PREPRINT"
+   ],
+   "origin": "written deduction from a preprint theorem",
+   "section": "9",
+   "evidence": [
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+     "role": "uniform synthesis (Codex): the minimal unit length and the character-depth test",
+     "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+     "role": "independent review (ChatGPT Pro): Part B, sections B1-B7",
+     "sha256": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md"
+    },
+    {
+     "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+     "role": "independent review (ChatGPT Pro): ACCEPT_AT_IMPORT_GRADE",
+     "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+     "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md"
+    },
+    {
+     "path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+     "role": "Claude check report: addendum 28 (Part B deductions checked)",
+     "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+     "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+     "role": "addendum 28, as supplied with the task",
+     "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+     "role": "the governing scope",
+     "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+     "role": "check of the scope: CONFIRMED_WITH_CORRECTIONS",
+     "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+     "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md"
+    }
+   ],
+   "imports": [
+    "Bullach-Honnor, arXiv:2511.07203v1, Hypothesis 1.2 and Theorem 1.4(b): theta_K^{MT,#} lies in Fitt_0 over Z_p[Gal(K/Q)] of the Pontryagin dual of the classical p^infinity-Selmer group over K, with no finite-Sha hypothesis; Definition 2.2, Proposition 2.4 (norm relations) and Remark 2.3(c)",
+    "B.21",
+    "restriction: E(K)[p] = 0 because the image of G_K contains SL_2(F_p) (A.3), so the dual Selmer group over K, after taking Gal(K/Q)-coinvariants, surjects onto the dual Selmer group over Q"
+   ],
+   "depends_on": [
+    "B.21",
+    "A.3"
+   ],
+   "normalization": "theta_K^MT is the projection from Q(mu_m) to K of the sum over a in (Z/m)^* of ([a/m]^+ + [a/m]^-) sigma_a (Bullach-Honnor Definition 2.2), with Omega^+ the integral over E(R) of |omega_E|, which is 2*omega_1 here; the full sum is kept (its factor 2 is a p-unit but is not dropped); v_{zeta_p - 1}(zeta_p - 1) = 1.",
+   "verification": {
+    "review": "MODEL_CROSS_FAMILY at the statement and deduction level: derived by Codex (OpenAI); independent review by ChatGPT Pro (OpenAI); source statements, the Delta-component bridge and the Part B deductions checked by Claude models (Anthropic); not a human review; not formalized",
+    "review_label": "Derived by Codex (OpenAI). Independent review by ChatGPT Pro (OpenAI): ACCEPT_AT_IMPORT_GRADE. The source statements were checked by Claude Opus 5.5 and Claude Fable 5.1 (Anthropic); the Δ-component bridge by Claude Fable 5.1; the Part B deductions by Claude Opus 5.5. The author-hosted CLW revision is byte-identical across three independent downloads (sha256 0686fa41…d036fb98); arXiv v1 is a different file. Not a human review; not formalized."
+   },
+   "qualifications": [
+    "The inequality is strict. A bound <= 4 is insufficient: over R = Z_p[C_p] with t = gamma - 1, the module (R/(t))^2 + (R/(p,t))^2 has Fitting ideal (t)^2(p,t)^2, which contains t^4, while its coinvariants Z_p^2 + (Z/p)^2 need four generators.",
+    "Sufficient only: no converse from Sha(E/Q)[p^infinity] = 0 to the existence of such a character value is claimed, and no such value has been computed at any prime.",
+    "The element is taken at the actual conductor of K; an element at an artificially enlarged conductor must be related to it by the norm relations of Bullach-Honnor Proposition 2.4, with their Euler factors retained.",
+    "Nonvanishing of a complex L-value is not a depth bound; a character value is related to L(E, chi, 1) only with its Gauss sum and period normalization (Bullach-Honnor Remark 2.3(c)).",
+    "The deep theorems are imported from preprints and not reproved; the retained seed inputs were not replayed by the reviews. The review label records model reviews at their stated scopes; repeated byte-identical downloads verify source identity, not independent proofs."
+   ],
+   "master_ref": "",
+   "post_master": "New since the master record (2026-09-30).",
+   "stop_kind": "",
+   "scope": "",
+   "role": "sufficient witness at each good prime p >= 5",
+   "label": "thm:depth"
+  }
+ },
+ "text_edits": {
+  "paper/sections/09_reductions.tex": [
+   {
+    "old": "This is a statement at one prime $p$. It relates no two primes, does not show that the common value is nonzero, and does not derive the value $288$. At $p=5$ it only compares eligible pairs, and it says nothing at $19$, $59$ or $487$. A mismatched generator changes the ratio by a square factor, which can be $-1$; a change of period scales every ratio by one common constant.",
+    "new": "This is a statement at one prime $p$. It relates no two primes, does not show that the common value is nonzero, and does not derive the value $288$. At $p=5$ it only compares eligible pairs, and it says nothing at $19$, $59$ or $487$. A mismatched generator changes the ratio by a square factor, which can be $-1$; a change of period scales every ratio by one common constant.\n\n\\subsection{Kurihara witnesses at every good prime}\\label{subsec:kurihara}\nFix a good prime $p\\ge5$. Following Castella--Sano \\cite[\\S1.1]{castellasano} and C.-H.~Kim \\cite{kimch}, let $n$ run over the squarefree products of primes $\\ell\\nmid N$ with $\\ell\\equiv1\\pmod p$ and $a_\\ell\\equiv\\ell+1\\pmod p$, and let $\\nu(n)$ be the number of prime factors of $n$. The Kurihara number $\\delta_n$ is a sum of modular symbols normalized by $\\Omega^+_E=\\int_{E(\\mathbf R)}\\omega_E=2\\omega_1$ and weighted by discrete logarithms; it lies in a quotient $\\Z/I_n$ with $I_n\\subseteq p\\Z$ for $n\\ne1$. Write $M_\\infty(\\delta)$ for the limit of the minimal $p$-adic orders of the $\\delta_n$ \\cite[\\S1.1.3]{castellasano}. These auxiliary primes are not those of Research record~\\ref{thm:g2}.\n\n\\begin{researchrecord}[\\cid{B.20}; written application of preprint theorems; derived by Codex (OpenAI) and independently reviewed by ChatGPT Pro (OpenAI), with source and deduction checks by Claude models (Anthropic); not a human review; not formalized]\\label{thm:kurexist}\nFor every prime $p\\ge5$ of good reduction for $E$, including the supersingular primes and $19$, $59$ and $487$, one has $M_\\infty(\\delta)=0$. Hence some squarefree Kato conductor $n$, which may depend on $p$, gives a mod-$p$ unit Kurihara witness: $\\delta_n\\not\\equiv0\\pmod p$. The bad primes $2243$, $4547$ and $5843$ and the primes $p\\le3$ are not covered.\n\\end{researchrecord}\nThe supersingular primes use Theorem~A of Castella--Liu--Wan \\cite{clw} in its author-hosted revision dated 21 September 2026. Its hypothesis (ram), a prime $\\ell\\parallel N$ at which the residual representation is ramified, holds with $\\ell=2243$, where $E$ has split multiplicative reduction of type $\\mathrm I_1$. Moreover $k=2<p$, and $p$-regularity holds because $a_p=0$. At $k=2$ the component proved there is the cyclotomic one for $T_pE$ \\cite[Remark~2.20]{clw}. Version~1 of \\cite{clw} on arXiv required squarefree level; the revision does not. With Theorem~A and Corollary~A of Castella--Sano \\cite{castellasano}, this gives $M_\\infty(\\delta)=0$, since $\\mathrm{Tam}=16$ and the Manin constant, which divides $2^9$ (Theorem~\\ref{thm:manin}), are prime to $p$.\n\nThe ordinary primes are covered by Theorem~B of Castella--Sano as printed. Its hypotheses are $p>3$, (sur) and $p\\nmid c_\\phi$, and its proof cites the ordinary main conjecture ([Wan15, BCS25] in \\cite{castellasano}). The primes $19$, $59$ and $487$ are ordinary ($a_{19}=4$, $a_{59}=-4$, $a_{487}=-28$), and Theorem~B has no hypothesis that excludes them. The Euler factors at $2243$ and $5843$ are nonunits at these primes ($2242=2\\cdot19\\cdot59$, $5844=12\\cdot487$); both formulations retain these factors and neither cancels them, so they create no extra exception. The supersingular case of Theorem~B requires squarefree level, which is why the supersingular primes use the revision of \\cite{clw}.\n\nThe revision of \\cite{clw} is author-hosted and was not on arXiv on 30 September 2026: arXiv 2608.29470 then listed only version~1, the squarefree-level version. The revision used here is pinned by its SHA-256 hash, recorded in the claim index; a later version could change the hypotheses of Theorem~A. Research record~\\ref{thm:kurexist} bounds neither the length of the witness nor anything uniformly in $p$.\n\n\\begin{researchrecord}[\\cid{B.21}; written deduction from preprint theorems; derived by Codex (OpenAI) and independently reviewed by ChatGPT Pro (OpenAI), with source and deduction checks by Claude models (Anthropic); not a human review; not formalized]\\label{thm:rp}\nFor a good prime $p\\ge5$ let $r_p=\\min\\{\\nu(n):\\delta_n\\not\\equiv0\\pmod p\\}$ be the minimal length of a mod-$p$ unit Kurihara witness; it is finite by Research record~\\ref{thm:kurexist}. Then\n\\[\nr_p=\\dim_{\\F_p}\\Sel_p(E/\\Q),\n\\]\n$r_p$ is even and at least $2$, and $r_p=2$ if and only if $\\Sha(E/\\Q)[p^\\infty]=0$. This also excludes a hypothetical divisible part; no finiteness of $\\Sha$ is assumed.\n\\end{researchrecord}\nThe proof uses only the clauses of Theorem~1.8 of \\cite{kimch} that do not assume $\\Sha$ finite (the corank and the higher Fitting ideals), the parity forced by the root number $+1$, and Nakayama's lemma for the dual Kummer sequence $0\\to\\Sha[p^\\infty]^\\vee\\to X_p\\to\\Z_p^2\\to0$, which splits; here $X_p$ is the Pontryagin dual of $\\Sel_{p^\\infty}(E/\\Q)$. The index $r_p$ is the first index of a unit, not the first index of a nonzero $p$-adic value. This is an identity, not an upper bound. The abstract dual module $X=\\Z_p^2\\oplus(\\Z/p)^2$ needs four generators, with $\\mathrm{Fitt}_2(X)=(p^2)$, $\\mathrm{Fitt}_3(X)=(p)$ and $\\mathrm{Fitt}_4(X)=\\Z_p$. It is compatible with $M_\\infty=0$ and first unit index four. This is a module countermodel to an inference from primitivity alone, not a claim about the seed at an uncomputed prime.\n\n\\begin{researchrecord}[\\cid{B.22}; written deduction from a preprint theorem; conditional; derived by Codex (OpenAI) and independently reviewed by ChatGPT Pro (OpenAI), with source and deduction checks by Claude models (Anthropic); not a human review; not formalized]\\label{thm:depth}\nLet $p\\ge5$ be a good prime, let $K/\\Q$ be a real cyclic extension of degree $p$ whose actual conductor $m$ is prime to $pN$ ($m$ may be composite), and let $\\chi$ be a faithful character of $\\Gal(K/\\Q)$. Let $\\theta_K^{\\mathrm{MT}}$ be the full Mazur--Tate element of $K$ at its actual conductor $m$, normalized as in \\cite[Def.~2.2]{bh} with the total real period $\\Omega^+=2\\omega_1$. If\n\\[\nv_{\\zeta_p-1}\\bigl(\\chi(\\theta_K^{\\mathrm{MT}})\\bigr)<4,\n\\]\nthen $\\Sha(E/\\Q)[p^\\infty]=0$.\n\\end{researchrecord}\nThe inputs are Hypothesis~1.2 and Theorem~1.4(b) of \\cite{bh}, which place $\\theta_K^{\\mathrm{MT},\\#}$ in the zeroth Fitting ideal of the dual Selmer group over $K$ without assuming $\\Sha$ finite; Research record~\\ref{thm:rp}; and restriction to $\\Q$, which is injective because $E(K)[p]=0$ (the image of the Galois group of $K$ contains $\\mathrm{SL}_2(\\F_p)$). The inequality is strict. A bound $v\\le4$ is not enough: over $R=\\Z_p[C_p]$ with $t=\\gamma-1$, the module $(R/(t))^2\\oplus(R/(p,t))^2$ has $t^4$ in its Fitting ideal while its coinvariants need four generators. The element is taken at the actual conductor of $K$; an element at an enlarged conductor must be related to it by the norm relations of \\cite[Prop.~2.4]{bh}, with their Euler factors retained. Nonvanishing of a complex $L$-value is not a depth bound. The criterion is sufficient only: no converse from $\\Sha(E/\\Q)[p^\\infty]=0$ to the existence of such a character value is claimed, and no such value has been computed."
+   }
+  ],
+  "paper/sections/11_remaining.tex": [
+   {
+    "old": "Given FIN, it suffices to show $\\#\\Sha<2601$.",
+    "new": "Given FIN, it suffices to show $\\#\\Sha<25281$."
+   },
+   {
+    "old": "Skinner's theorem is kept as a second route (Remark~\\ref{rem:su}).\n\\end{itemize}",
+    "new": "Skinner's theorem is kept as a second route (Remark~\\ref{rem:su});\n\\item a mod-$p$ unit Kurihara witness exists at every good prime $p\\ge5$, and its minimal length equals $\\dim_{\\F_p}\\Sel_p(E/\\Q)$ (Research records~\\ref{thm:kurexist} and~\\ref{thm:rp}); these rest on preprint theorems, one of them an author-hosted revision of Castella--Liu--Wan \\cite{clw} that is not on arXiv.\n\\end{itemize}"
+   },
+   {
+    "old": "and the common certificate of Proposition~\\ref{prop:commonB} are other sufficient routes. None of these antecedents is proved.",
+    "new": "and the common certificate of Proposition~\\ref{prop:commonB} are other sufficient routes. None of these antecedents is proved.\n\n\\emph{The uniform step.} Research record~\\ref{thm:kurexist} gives a mod-$p$ unit Kurihara witness at every good $p\\ge5$, at a length that may depend on $p$, and Research record~\\ref{thm:rp} identifies the minimal length with $\\dim_{\\F_p}\\Sel_p(E/\\Q)$. The current known frontier for the uniform step is the following target. Find one finite set $S$ containing $\\{2,3,2243,4547,5843\\}$ and an independent argument that, for every $p$ outside $S$, either a two-prime mod-$p$ unit Kurihara witness exists or $\\dim_{\\F_p}\\Sel_p(E/\\Q)\\le3$. Under Research record~\\ref{thm:rp} these two conditions are equivalent to each other and to $\\Sha[p^\\infty]=0$. A faithful value of the full Bullach--Honnor-normalized element of a real cyclic degree-$p$ field at its actual conductor prime to $pN$, with depth strictly below four, is another sufficient condition (Research record~\\ref{thm:depth}). No converse from $\\Sha$ vanishing to existence of that character value is claimed. Fields, conductors and estimates may depend on $p$. No applicable theorem was located in the screened sources. Together with finiteness of the primary components at the primes of $S$, this target would give FIN."
+   },
+   {
+    "old": "Theorem~\\ref{thm:ordbridge} and Corollary~\\ref{cor:unified}, not evaluable\\\\",
+    "new": "Theorem~\\ref{thm:ordbridge} and Corollary~\\ref{cor:unified}, not evaluable; a two-prime unit Kurihara witness (Research record~\\ref{thm:rp}) and the character test of Research record~\\ref{thm:depth}, neither evaluated\\\\"
+   },
+   {
+    "old": "Theorem~\\ref{thm:a3}, not evaluable\\\\",
+    "new": "Theorem~\\ref{thm:a3}, not evaluable; a two-prime unit Kurihara witness (Research record~\\ref{thm:rp}) and the character test of Research record~\\ref{thm:depth}, neither evaluated\\\\"
+   },
+   {
+    "old": "This describes the current known frontier of the sources read; it is not a claim that no such theorem exists.",
+    "new": "This describes the current known frontier of the sources read; it is not a claim that no such theorem exists. Research record~\\ref{thm:kurexist}, from preprint theorems, gives a unit Kurihara witness at every good $p\\ge5$ at a length that may depend on $p$; it is not an input of the second kind."
+   },
+   {
+    "old": "\\item Certified auxiliary quadratic fields exist in rank two and in rank three.",
+    "new": "\\item Certified auxiliary quadratic fields exist in rank two and in rank three.\n\\item A mod-$p$ unit Kurihara witness exists at every good $p\\ge5$ (Research record~\\ref{thm:kurexist}, from preprint theorems), so the uniform step can be stated as one inequality, $r_p<4$ for every $p$ outside a finite set (Research record~\\ref{thm:rp})."
+   }
+  ],
+  "paper/refs.bib": [
+   {
+    "old": "  note = {Preprint, arXiv:2601.14504v1; Theorem B}, year = {2026}\n}",
+    "new": "  note = {Preprint, arXiv:2601.14504v1; Theorems A and B, Corollary A}, year = {2026}\n}\n@misc{clw,\n  author = {Castella, Francesc and Liu, Zheng and Wan, Xin},\n  title = {Kato's main conjecture for nonordinary modular forms},\n  note = {Author-hosted revision dated 21 September 2026, not on arXiv as of 30 September 2026; the earlier arXiv:2608.29470v1 requires squarefree level; Theorem A and Remark 2.20},\n  url = {https://web.math.ucsb.edu/~castella/CLW2.pdf},\n  year = {2026}\n}"
+   }
+  ],
+  "paper/release_id.tex": [
+   {
+    "old": "Local revision v0.2.5 (unreleased, 29 September 2026) of the private-review release above. Relative to v0.2.4 it adds",
+    "new": "Local revision v0.2.6 (unreleased, 30 September 2026) of the private-review release above. Relative to v0.2.5 it adds Research records~\\ref{thm:kurexist}, \\ref{thm:rp} and~\\ref{thm:depth} (a mod-$p$ unit Kurihara witness at every good prime $p\\ge5$, the minimal witness length, and a character-depth criterion) and states the current known frontier for the uniform step in \\S\\ref{sec:remaining}. Revision v0.2.5 (29 September 2026) added"
+   }
+  ],
+  "README.md": [
+   {
+    "old": "**Private review version 0.2.5 (local, unreleased; 2026-09-29), built on version 0.2.2 (2026-09-23).**",
+    "new": "**Private review version 0.2.6 (local, unreleased; 2026-09-30), built on version 0.2.2 (2026-09-23).**"
+   },
+   {
+    "old": "version 0.2.5 adds the primary components at 17 ≤ p ≤ 47, finiteness and a lower bound at p = 3 without the main conjecture, a bad-prime criterion and three research records (see `RECHECK_V0_2_3.md`, `RECHECK_V0_2_4.md` and `RECHECK_V0_2_5.md`).",
+    "new": "version 0.2.5 added the primary components at 17 ≤ p ≤ 47, finiteness and a lower bound at p = 3 without the main conjecture, a bad-prime criterion and three research records; version 0.2.6 adds three research records on Kurihara witnesses at every good prime (see `RECHECK_V0_2_3.md`, `RECHECK_V0_2_4.md`, `RECHECK_V0_2_5.md` and `RECHECK_V0_2_6.md`)."
+   },
+   {
+    "old": "| **Open** | FIN (Sha finite), ORDER9 (#Sha = 9), Q36 (q = 36) | — |\n",
+    "new": "| **Proved** | every good p ≥ 5 (the supersingular primes and 19, 59, 487 included; 2243, 4547, 5843 and p ≤ 3 not covered): a mod-p unit Kurihara witness exists, and its minimal length r_p equals dim Sel_p(E/Q), so r_p = 2 ⟺ Sha[p^∞] = 0 | written application of preprint theorems (Castella–Liu–Wan, author-hosted revision of 2026-09-21, Theorem A; Castella–Sano; C.-H. Kim), derived by Codex (OpenAI) and independently reviewed by ChatGPT Pro (OpenAI), with source and deduction checks by Claude models (Anthropic); not a human review; not formalized; **no bound on r_p** |\n| **Conditional** | good p ≥ 5, K/Q real cyclic of degree p with actual conductor prime to pN, χ faithful: depth v(χ(θ_K)) < 4 ⟹ Sha[p^∞] = 0 | written deduction from a preprint theorem (Bullach–Honnor) and the previous row, with the same provenance; **no value computed; no converse claimed** |\n| **Open** | FIN (Sha finite), ORDER9 (#Sha = 9), Q36 (q = 36) | — |\n\n**Current known frontier (the uniform step).** Find one finite set S containing {2,3,2243,4547,5843} and an independent argument that, for every p outside S, either a two-prime mod-p unit Kurihara witness exists or dim_{F_p} Sel_p(E/Q) ≤ 3. Under B.21 these two conditions are equivalent to each other and to Sha[p^∞]=0. A faithful value of the full BH-normalized element of a real cyclic degree-p field at its actual conductor prime to pN, with depth strictly below four, is another sufficient condition. No converse from Sha vanishing to existence of that character value is claimed. Fields, conductors and estimates may depend on p. No applicable theorem was located in the screened sources.\n"
+   },
+   {
+    "old": "**the claim-to-evidence index.** 83 claims,",
+    "new": "**the claim-to-evidence index.** 87 claims,"
+   },
+   {
+    "old": "| `evidence/src/` | 3,503 research records",
+    "new": "| `evidence/src/` | 3,597 research records"
+   }
+  ],
+  "tools/verify_patch_release.py": [
+   {
+    "old": "R = Path(__file__).resolve().parent.parent\nif (R / 'review/V025K2_APPLIED.json').exists():",
+    "new": "R = Path(__file__).resolve().parent.parent\nif (R / 'review/V026_APPLIED.json').exists():\n    # v0.2.6: reconstruct the v0.2.5 K2 tree (4344c6a) exactly and run ITS checker unchanged there (which in turn\n    # reconstructs the earlier trees and runs their checkers), then check the v0.2.6 delta. See tools/verify_v026_transition.py.\n    _r = subprocess.run([sys.executable, '-B', str(R / 'tools/verify_v026_transition.py')])\n    if _r.returncode != 0:\n        raise SystemExit('FAIL: v0.2.6 transition check')\n    print('PATCH_RECHECK_PASS: no new mathematical or large numerical replay claimed')\n    raise SystemExit(0)\nif (R / 'review/V025K2_APPLIED.json').exists():"
+   }
+  ]
+ },
+ "extra_evidence_append": "# v0.2.6: the Kurihara position (B.20-B.22); see review/V026_EVIDENCE_ADDITIONS.json\n/Users/bsm/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md\n/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md\n/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp\n/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log\n/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md\n/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md\n/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md\n/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json\n/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json\n",
+ "released_governing": [
+  "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+  "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json"
+ ],
+ "evidence": {
+  "declared": {
+   "path": "review/V026_EVIDENCE_ADDITIONS.json",
+   "sha256": "da06324bb398a27acc5def3bd3e62cba3998fff55b57c505cb50c25429dd901c"
+  },
+  "transition_log": {
+   "path": "review/V026_EVIDENCE_TRANSITION.json",
+   "sha256": "5e1afa2bcdaa240a33e33de3f4825dfac02686e0ce60c75001562e9fe95fe3ed"
+  },
+  "retained_source_changes": {
+   "path": "review/V025_RETAINED_SOURCE_CHANGES.json",
+   "sha256": "ee73b73df798dbe3eb980deac337ee960a175bebf1d67c24bf5faf8628ead4a4"
+  },
+  "tool": "tools/build_evidence_transition.py (unchanged since the v0.2.5 bank commit); baseline = the 4344c6a tables"
+ },
+ "governing_files": {
+  "released": [
+   {
+    "original_path": "/Users/bsm/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+    "release_path": "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+    "sha256": "e92688976c4a51f6777a5bde4bb74c61979d9c5a99803304be05111746ec5707"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+    "release_path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+    "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+    "release_path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+    "sha256": "0bbc4995fbe53dae985fd9c84892ee4f8e0d4f652b13894c5adac854c24e60f1"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+    "release_path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+    "sha256": "72bb24852fdcd79262e0040f20ee60787e7772c9a8ada5ffa0d4294067785647"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+    "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+    "sha256": "1e9f0d1aa2bd8258a3785e7bab62a304ebee61a68f40b18fe997bf5d2dcf3c19"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+    "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+    "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+    "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+    "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+    "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+    "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+    "sha256": "137c07ee79c103fb2b6af67a373a216b4435b3b7359105492a39a6d8999c1a5f"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+    "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+    "sha256": "664137fe827f5b246c9178785cb3479177f70d9cef70ec8ef5aaf3165041f148"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+    "sha256": "b73c250370f12dbcb95f68343fded75a6680859bf775ec3737980efa866c735f"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+    "sha256": "d755340b405c2a9f7512c8b68627d4ecafcb2311735602d94cf2bc4f7ad68bbe"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+    "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+    "sha256": "c90bef60c754c3c1a58240078bf5629d6fbe3ccc8e9a9793b5f0f87edf8023fb"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+    "sha256": "e7f1a8d5cac68d7379bbdba26ba396100d9fffa9d2c289523698e3c2e3ad9d14"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+    "sha256": "42f1f0a52766a0f672c493dfe4544c4fa75548acbd744649b2d07da3d14c3141"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+    "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+    "sha256": "d624e9a80216a81af06d93d628f19e53e2d46c36b0f9b59737a2b740ecaed931"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+    "sha256": "1cd8b1cc3284c354c65177742b532fdb99a839a75c3c7b9e1dd92a5081416321"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+    "sha256": "e4cc502ae1f91780e91485db2f082a2d5e996f03e3aadb0d48dcd8a444d6930e"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+    "sha256": "036290a6beb39d024b4c3de1f80f58ba75c4b54f06b938d4cc6c43c2b9992400"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+    "sha256": "44b5540f4d77ddea092524cea20e6212c777e5c77b0724c24c87fc53b2c615d2"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+    "sha256": "5d3b337b4d1c14a9324b25dbd2ced976a39935be36f7cfa1d2ad4473f7b06ebb"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+    "sha256": "15a2c92cca7adc4b90d73598163d3622b14c1b75d740477ff5a192119af0b639"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+    "sha256": "bbc32f2afe62e963f7c8f5a17fa548d49349795db181b170d5fd1e422366b005"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+    "sha256": "4306967b8bbd8113254c9cb6bd796f4db4fb20c7e608954644f2eb1bdee8ad5e"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+    "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+    "sha256": "1629154d5741c503d7c76ef5387684d9f23a0a020fb964b90b35cd2fba4cd2f7"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+    "sha256": "5ebfc40eee9c04156656ade99d3b8ba04218f5cf5a7aba80d013fdaaead3e756"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+    "sha256": "c44f96d967917235743094f64bb3954a7a073cc4e468a30e1115056809d90c13"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+    "sha256": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+    "sha256": "810706ce23b6440c17adbbe36361d0ca6c9f40f0aef1aae24670fd89617937ff"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+    "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+    "sha256": "c0d1b03b46a3159020acabff5dc645f974fe0e2368dbd26fb5a9e73299fdc382"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+    "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+    "sha256": "60c60b523ef3f331014bbb0498c250018211a003d43b7ca09aa0297bcffb4cae"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json",
+    "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json",
+    "sha256": "86d6743bb2dcaac03ec983ca139340f6af43a914064d9dc113691628d48337fc"
+   }
+  ],
+  "third_party_hash_only": [
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/BH_2511.07203v1.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/BH_2511.07203v1.pdf",
+    "sha256": "d3355b216eff780f070df45778d161d8636b4acc43f73b8c7186b1c037f52481",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/BH_2511.07203v1.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/BH_2511.07203v1.txt",
+    "sha256": "ae5afea7548dfa0f3d96e78e88c08dc52dd1f3020bcb4c87f2fa8c5ae293cce9",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/CLW2.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/CLW2.pdf",
+    "sha256": "0686fa414b242e8e3b1cccd3fe906c8eefcfdb7b568563daa3089701d036fb98",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/CLW2.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/CLW2.txt",
+    "sha256": "7db6b5c2211adb20da227bc587c855d32875f1b9383d3c13a89b7972a66c0bf7",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/CLW_arxiv_2608.29470v1.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/CLW_arxiv_2608.29470v1.pdf",
+    "sha256": "955f9d709beb23a21105bf33a2c695e4e9e60554c238488a1790a352726b6f3e",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/CLW_arxiv_2608.29470v1.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/CLW_arxiv_2608.29470v1.txt",
+    "sha256": "f6af09f2b3d7a8ba193a4fa7504ce83d75ccdbce44e5e2f3c935d3b3089fa0d4",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Castella_Sano_2601.14504v1.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Castella_Sano_2601.14504v1.pdf",
+    "sha256": "3cd76c20dfc777ccc4126e153b88bef7eb7574bdf5402c6d5123208e30c30eda",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Castella_Sano_2601.14504v1.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Castella_Sano_2601.14504v1.txt",
+    "sha256": "0cc82d8ce84c48e4161953d5cae1e8b262a853a4d3698dce6553ad00050211bf",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Castella_Sano_author.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Castella_Sano_author.pdf",
+    "sha256": "9478dc414299a3821fe4192ef138bb1da96a30b95f8b01beae54895340f903c9",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Castella_Sano_author.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Castella_Sano_author.txt",
+    "sha256": "9f86592d7f71ef1688b578c559b079dbe49629f5436711540c0e87ba49427e1c",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Kim_2203.12159v6.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Kim_2203.12159v6.pdf",
+    "sha256": "c1288640f2643cd163fd1464f45d9330f9177af962d688b08d41a3f7f652e093",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Kim_2203.12159v6.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Kim_2203.12159v6.txt",
+    "sha256": "358469b220d6bc95767de485ae330cea9e5adb5b82ce7917d20ef190e36a5c90",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Kriz_Nordentoft_2310.20678v3.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Kriz_Nordentoft_2310.20678v3.pdf",
+    "sha256": "327b7e0e0d4e24fe2f2a101de3528176b2e0345cc0e9a842b98374f718a93edf",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/",
+    "name": "sources/Kriz_Nordentoft_2310.20678v3.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Kriz_Nordentoft_2310.20678v3.txt",
+    "sha256": "42737fd37d1bc5730f7eebeed519340ba77d7503209ed94447744f37dc5f20c2",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/",
+    "name": "CLW2_fresh.pdf",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/CLW2_fresh.pdf",
+    "sha256": "0686fa414b242e8e3b1cccd3fe906c8eefcfdb7b568563daa3089701d036fb98",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/",
+    "name": "CLW2_fresh.txt",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/CLW2_fresh.txt",
+    "sha256": "7db6b5c2211adb20da227bc587c855d32875f1b9383d3c13a89b7972a66c0bf7",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/",
+    "name": "CLW2_fresh_page3.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/CLW2_fresh_page3.png",
+    "sha256": "19758ae37ec860767b3a7b6af1c59c40320c3d5d48470904c61f82aaf78c6f11",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/BH_2511.07203v1_p2.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/BH_2511.07203v1_p2.png",
+    "sha256": "ae53bf7cebc4a97ed89e42fcc1de5e446df6b9dc665acdbcbd6f82f4f15cfb40",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/BH_2511.07203v1_p3.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/BH_2511.07203v1_p3.png",
+    "sha256": "e24f0737d8fd82f4f73f2194afee60ea4175ccebb809a6916e80e7d4e6edbef8",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/BH_2511.07203v1_p8.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/BH_2511.07203v1_p8.png",
+    "sha256": "ce7862c3c460085e56b3a068f72662f070955835125d1ddfe42d392dbc551129",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/CLW2_p1.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/CLW2_p1.png",
+    "sha256": "42015a063dd1e8dbf3306ad45233def238d7b790a1478c75587651b014aedd81",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/CLW2_p16.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/CLW2_p16.png",
+    "sha256": "08874b9c7471c7f807d60685751aea9e5e739a611af0849ee439c1bce9615d33",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/CLW2_p3.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/CLW2_p3.png",
+    "sha256": "d46070df31a2c8dd2a95cc90e6e4d353950a196b91492e9bbdebd93a3a525226",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/CLW2_p41.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/CLW2_p41.png",
+    "sha256": "6ee4e53f0e248fc50e3b5dcda1bd15955d1dc2b334dcf279781297e4927c21bd",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/CLW2_p7.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/CLW2_p7.png",
+    "sha256": "83194c98b41bc8ccfebf6598fe037d7ddb8128b4371c4952120ff7b1d40b1cd8",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/Castella_Sano_2601.14504v1_p3.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/Castella_Sano_2601.14504v1_p3.png",
+    "sha256": "891ec52c8b96c0c464136b36bf8f3465ef36674a6ea4f86e6e11763a21e07cb9",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/Castella_Sano_2601.14504v1_p9.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/Castella_Sano_2601.14504v1_p9.png",
+    "sha256": "6409257dd4da94a0a52da6ec642fcd930a2c477e2453977957d6aa3cd63335fc",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/Kim_2203.12159v6_p6.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/Kim_2203.12159v6_p6.png",
+    "sha256": "e165d29afaf285c3a5f18a6c7800cace91499943af818f7276281ff57bf1ce0e",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   },
+   {
+    "folder": "BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/",
+    "name": "source_checks/Kim_2203.12159v6_p7.png",
+    "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/Kim_2203.12159v6_p7.png",
+    "sha256": "617b7e7099b2467b24e61df80ab24b45a06fad968e7984a309e358863077099f",
+    "note": "third-party material (a copy of a paper, its text extraction, or a rendered page of it); bound by path and sha256 only, not redistributed (the K2 precedent; the v0.2.6 scope, OUT)"
+   }
+  ],
+  "task": [
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/TASK.md",
+    "sha256": "b5e7c1abdb3864cd37c63e47da27333e7e8bbf6dd6f9970a5909b77c88d37d5e"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/MANIFEST.sha256",
+    "sha256": "8afe6919eacf1c1df84efa1b45875bcc59f31ac895cf3172f0a2ee79317aa8dd"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+    "sha256": "1e9f0d1aa2bd8258a3785e7bab62a304ebee61a68f40b18fe997bf5d2dcf3c19"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+    "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_REVIEW_CHECK_REPORT.md",
+    "sha256": "5d3b337b4d1c14a9324b25dbd2ced976a39935be36f7cfa1d2ad4473f7b06ebb"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_SYNTHESIS_DEPTH_TARGET.md",
+    "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_SYNTHESIS_NEW_INPUT_APPLICATION.md",
+    "sha256": "d755340b405c2a9f7512c8b68627d4ecafcb2311735602d94cf2bc4f7ad68bbe"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_SYNTHESIS_REPORT.md",
+    "sha256": "c90bef60c754c3c1a58240078bf5629d6fbe3ccc8e9a9793b5f0f87edf8023fb"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_SYNTHESIS_SOURCE_REGISTER.md",
+    "sha256": "d624e9a80216a81af06d93d628f19e53e2d46c36b0f9b59737a2b740ecaed931"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+    "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/PRO_REVIEW_PART_A_COVERAGE.md",
+    "sha256": "c44f96d967917235743094f64bb3954a7a073cc4e468a30e1115056809d90c13"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/PRO_REVIEW_PART_B_DEPTH.md",
+    "sha256": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/PRO_REVIEW_RETURN.md",
+    "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/PRO_REVIEW_SOURCE_AUDIT.md",
+    "sha256": "c0d1b03b46a3159020acabff5dc645f974fe0e2368dbd26fb5a9e73299fdc382"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+    "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f"
+   }
+  ]
+ },
+ "current_bindings": {
+  "README.md": "d843c68086696d42ff62d7071bfbe79bfc4ae83044bbb3ab992b5aba09668587",
+  "RECHECK_V0_2_6.md": "3d47392fb677553af2472b73ecbe454e40fd761db9012ac05749e5b918dc01f7",
+  "SOURCE_SNAPSHOT.json": "dcefb4f25209430ce61cf9d94a3f7e4a993f076abd8b0eb11349dc7405f33ded",
+  "claims/CLAIM_INDEX.md": "25b5f5e36ff56f3c52498cec47642f5bef89c2fd09ef87d7b9688b04e7bef2b6",
+  "claims/claims.json": "e91ced9847b7caf862da34689d5fdb5063f194039c2951956325c5ca0ac47e01",
+  "claims/spec/common.py": "efed2c22505042670c047f6017bb0fe8f3d645b4c2dded9341272856b4f9c2ef",
+  "claims/spec/part2_bridges.py": "b9b809b17487e3d2ea2511ee4b38eb3996b90f296b2c7dc7d87d7cdc7b35ee12",
+  "claims/spec/part4_open.py": "91d459c059317fa573eee04a1d61ac832016dde6fb36ef2e730d64e92f618223",
+  "evidence/PROVENANCE.tsv": "c91438c03b6c4cf484819cb7b647266663a9a341353410c6d987c6ebd0a80ae0",
+  "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md": "e92688976c4a51f6777a5bde4bb74c61979d9c5a99803304be05111746ec5707",
+  "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp": "0bbc4995fbe53dae985fd9c84892ee4f8e0d4f652b13894c5adac854c24e60f1",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log": "72bb24852fdcd79262e0040f20ee60787e7772c9a8ada5ffa0d4294067785647",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md": "1e9f0d1aa2bd8258a3785e7bab62a304ebee61a68f40b18fe997bf5d2dcf3c19",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json": "137c07ee79c103fb2b6af67a373a216b4435b3b7359105492a39a6d8999c1a5f",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json": "664137fe827f5b246c9178785cb3479177f70d9cef70ec8ef5aaf3165041f148",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256": "b73c250370f12dbcb95f68343fded75a6680859bf775ec3737980efa866c735f",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md": "d755340b405c2a9f7512c8b68627d4ecafcb2311735602d94cf2bc4f7ad68bbe",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md": "c90bef60c754c3c1a58240078bf5629d6fbe3ccc8e9a9793b5f0f87edf8023fb",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md": "e7f1a8d5cac68d7379bbdba26ba396100d9fffa9d2c289523698e3c2e3ad9d14",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json": "42f1f0a52766a0f672c493dfe4544c4fa75548acbd744649b2d07da3d14c3141",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md": "d624e9a80216a81af06d93d628f19e53e2d46c36b0f9b59737a2b740ecaed931",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json": "1cd8b1cc3284c354c65177742b532fdb99a839a75c3c7b9e1dd92a5081416321",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py": "e4cc502ae1f91780e91485db2f082a2d5e996f03e3aadb0d48dcd8a444d6930e",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json": "036290a6beb39d024b4c3de1f80f58ba75c4b54f06b938d4cc6c43c2b9992400",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256": "44b5540f4d77ddea092524cea20e6212c777e5c77b0724c24c87fc53b2c615d2",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md": "5d3b337b4d1c14a9324b25dbd2ced976a39935be36f7cfa1d2ad4473f7b06ebb",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json": "15a2c92cca7adc4b90d73598163d3622b14c1b75d740477ff5a192119af0b639",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json": "bbc32f2afe62e963f7c8f5a17fa548d49349795db181b170d5fd1e422366b005",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json": "4306967b8bbd8113254c9cb6bd796f4db4fb20c7e608954644f2eb1bdee8ad5e",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256": "1629154d5741c503d7c76ef5387684d9f23a0a020fb964b90b35cd2fba4cd2f7",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md": "5ebfc40eee9c04156656ade99d3b8ba04218f5cf5a7aba80d013fdaaead3e756",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md": "c44f96d967917235743094f64bb3954a7a073cc4e468a30e1115056809d90c13",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md": "810706ce23b6440c17adbbe36361d0ca6c9f40f0aef1aae24670fd89617937ff",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md": "c0d1b03b46a3159020acabff5dc645f974fe0e2368dbd26fb5a9e73299fdc382",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json": "60c60b523ef3f331014bbb0498c250018211a003d43b7ca09aa0297bcffb4cae",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json": "86d6743bb2dcaac03ec983ca139340f6af43a914064d9dc113691628d48337fc",
+  "paper/refs.bib": "1ce387f4f2e68138d897127fb42f100cac5d8674366e382c56b429a62c8d21b9",
+  "paper/release_id.tex": "89dbe3501df57937c9e351c75b984218825e7f5b6961d6dc968914eea77d425e",
+  "paper/sections/09_reductions.tex": "36232366e4cf7d7a9e81ae1f33f60c103a70a840a730d5db3b29366a20ab21fa",
+  "paper/sections/11_remaining.tex": "a0c4d2699e72d4b1615c14daa7eaa9932a00441e58c19128ac7a773afc9e240a",
+  "paper/seed_bsd.bbl": "d11a428b3350ad4f7be981bfbe7a1568eb0507820a52071c077a097811baf980",
+  "paper/seed_bsd.pdf": "51b21daa35ae15b08199d79130b2bb423d09048122b1fd0e1cfec797281afca4",
+  "review/SYNTHESIS_CHECK_BRIEF.md": "e5b1e5f93e533efff11c68b5bbee2f0855752228d82fd08a867382b3937d7377",
+  "review/V026_EVIDENCE_ADDITIONS.json": "da06324bb398a27acc5def3bd3e62cba3998fff55b57c505cb50c25429dd901c",
+  "review/V026_EVIDENCE_TRANSITION.json": "5e1afa2bcdaa240a33e33de3f4825dfac02686e0ce60c75001562e9fe95fe3ed",
+  "review/history/v0.2.5k2/MANIFEST.sha256": "a3702d844b072d99b45057fa7a3890e6a177915eeab4b50235ac986edcf25e12",
+  "review/history/v0.2.5k2/README.md": "8d44e5cf3f9aac4b04d81543b45c3dc504bd5c1620be1dd3b10cbe413b1bada3",
+  "review/history/v0.2.5k2/SOURCE_SNAPSHOT.json": "de94d6a4d7bdc5eb4bb3950c729a4d910b559ac3a3405ccb2f2b8d96b0e1a100",
+  "review/history/v0.2.5k2/claims/CLAIM_INDEX.md": "aa9033d0da90ee10a96aac1d94267cf51f5ff177bf7ffdb5afe63f3fd650580c",
+  "review/history/v0.2.5k2/claims/claims.json": "a2f6130719acf1ecb712b8a164cd2c8a315df792a010effbc4a508cd4079dba8",
+  "review/history/v0.2.5k2/claims/spec/common.py": "3ff9e8523462453afe75c531322aeb55d759ae076215f662c1a8c4df8227f4b6",
+  "review/history/v0.2.5k2/claims/spec/part2_bridges.py": "ffcbe9b8346f556dcc7bdb9e38b9472e1e13212edea0ed160c5e55fd9d2fa614",
+  "review/history/v0.2.5k2/claims/spec/part4_open.py": "76f13f5f3fddc670d20fa33a3d5f9ba7e6d6292135cca5684162122ed2cfdf96",
+  "review/history/v0.2.5k2/evidence/EXCLUDED.tsv": "4a799c7843507fe16a4b985929b34e85bb459d0c51c0d4e914044ae6f9a06ad5",
+  "review/history/v0.2.5k2/evidence/PROVENANCE.tsv": "a7f865b3a5919a91642965264e92056106870e5369e158a9881e8f426290cfe0",
+  "review/history/v0.2.5k2/evidence/REDACTIONS.tsv": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694",
+  "review/history/v0.2.5k2/paper/refs.bib": "c6f4a8fc65a554e1f85babd758120e35d5f96bb2eb1d73796e0a876c16f03f7b",
+  "review/history/v0.2.5k2/paper/release_id.tex": "189b345bed436f47df3005a368bdd35018bd0840837bc010af5973075c208b77",
+  "review/history/v0.2.5k2/paper/sections/09_reductions.tex": "c9f8b4bd08c8681d169fa37e288c530cfdc4fd7e2657e723aed7bbae6b7c9a7c",
+  "review/history/v0.2.5k2/paper/sections/11_remaining.tex": "a81ada88c1336c6d5fdce2b80aad05d0eed24eca4b5b7a7378cbf9eb310561b9",
+  "review/history/v0.2.5k2/paper/seed_bsd.bbl": "cb09c38f8eda4ffa3471c65f27d184f2a2b8c391d2f610ebe6c0960cbf59d01a",
+  "review/history/v0.2.5k2/paper/seed_bsd.pdf": "9ae05ea71f0c88a61e25e132ec70da9d38dce92cbdfdaadd8d7fc431e183d41c",
+  "review/history/v0.2.5k2/review/SYNTHESIS_CHECK_BRIEF.md": "d42309536fe6c3a85a8004aeb8a58fc77849d01c42016ef877b7cb2250707ff0",
+  "review/history/v0.2.5k2/tools/extra_evidence.txt": "226500f5995b49f7d07a479aba99884958259e8f0ec9a1bb73910a2a7e7cdf83",
+  "review/history/v0.2.5k2/tools/verify_patch_release.py": "553736173ebe536a3a593310d6fa620e0571e1b9f5b6f9ab7b5da6f23508ec40",
+  "tools/extra_evidence.txt": "4e2deeaa28a9af8c017fa906161f173bf48d274730dcd98e2a81c2d4a0d7e87c",
+  "tools/verify_patch_release.py": "d4d942b73d39bc6bb57a57aed1462e506de3bee267e3e53bebd38bade11eb4da",
+  "tools/verify_v026_transition.py": "81d7f8fb2ba45847518ffa5b5f8ae40086bdac14c917405a813b34b85c543825"
+ },
+ "prev_manifest": {
+  "path": "review/history/v0.2.5k2/MANIFEST.sha256",
+  "sha256": "a3702d844b072d99b45057fa7a3890e6a177915eeab4b50235ac986edcf25e12"
+ },
+ "prev_checker_sha256": "553736173ebe536a3a593310d6fa620e0571e1b9f5b6f9ab7b5da6f23508ec40",
+ "verifier": "tools/verify_v026_transition.py"
+}

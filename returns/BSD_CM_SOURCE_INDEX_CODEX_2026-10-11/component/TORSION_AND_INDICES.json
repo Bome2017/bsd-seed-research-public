@@ -1,0 +1,85 @@
+{
+  "status": "EXACT_SMALL_FIELD_AND_INDEX_CONTROLS_PASSED",
+  "F4_model": "y^2+xy+y=x^3+x^2, u^2+u+1=0",
+  "F4_affine_points": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "F4_order": 8,
+  "F5_affine_points": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "F5_order": 9,
+  "torsion_consequence": "E(Q(sqrt(-19)))_tors = 0, using prime-to-residue-character reduction injectivity at2and5",
+  "eisenstein_annihilators": [
+    9,
+    16
+  ],
+  "image_order_gcd": 1,
+  "geometric_component_orders": [
+    14,
+    5
+  ],
+  "cokernel_order_gcd": 1,
+  "classical_degree": 20576640,
+  "shimura_degree": 293952,
+  "source_multiplier": -2,
+  "classical_degree_mod11": 7
+}

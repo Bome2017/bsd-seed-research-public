@@ -1,0 +1,1 @@
+{alarm(110);gettime();C=read("field.gp");B=bnfinit(C[4],1);writebin("bnf.bin",B);write("class_init.gp",[B.cyc,B.no,B.reg]);UF=bnfunits(B);write("units_compact.gp",UF);print("BNF_CLASS=",B.cyc,";CLASS_NUMBER=",B.no,";UNIT_COUNT=",#UF[1]-1,";MS=",gettime());print("BNF_AND_UNITS_SAVED");quit;}

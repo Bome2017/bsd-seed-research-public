@@ -1,0 +1,69 @@
+{
+  "status": "FRESH_TEMP_REPLAY_AND_INDEPENDENT_CERTIFICATE_PASS",
+  "gp_executable": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp-2.17",
+  "cases": [
+    {
+      "case": "1913b1",
+      "artifacts_byte_identical": [
+        "norms.gp",
+        "norm_kernel.gp",
+        "norm_kernel.json",
+        "valuation_candidate.gpout"
+      ],
+      "independent_exhaustive_scalar_vectors": 27,
+      "kernel_vectors": 9,
+      "processes": [
+        {
+          "script": "run.gp",
+          "stdout": "SCALAR_DIM=3;NORMS_COMPUTED=3;MS=17\nNONCUBE_RANK=1;Q=67;ROOT=11\nEXACT_KERNEL_CUBE=1\nEXACT_KERNEL_CUBE=2\nKERNEL_COMPLETE=1;DIM=2;RESIDUE_EVALUATIONS=142;MS=12\n",
+          "stderr": "",
+          "exit_code": 0
+        },
+        {
+          "script": "check.gp",
+          "stdout": "SCALAR_SOURCE_DIM=3;NORM_IMAGE_RANK=1;COMPLETE_NORM_KERNEL=2\nINDEPENDENT_DETERMINANT_NORMS=3;SIMPLE_PLACE_CERTIFICATES=1;LITERAL_CUBE_ROOTS=2\nVALZERO_ON_KERNEL=1\nUNIT_CONTAINED=1\nRETAINED_JOINT_KERNEL_DIM=2\nNO_POINT_DIRECTIONS\nCOMPLETE_NORM_CERTIFICATE_PASS\n",
+          "stderr": "",
+          "exit_code": 0
+        },
+        {
+          "script": "valuation.gp",
+          "stdout": "SCALAR_VALUATION_ZERO_DIM=2;EXACT_NORM_KERNEL_DIM=2\nNORM_EQUALS_VALUATION_ZERO=1\nSCALAR_VALUATION_ROWS=[0, 0, 0; 0, 0, 0; 2, 0, 0; 1, 0, 0; 0, 0, 0]\nVALZERO_NORM_RESIDUES=Mat([0, 0])\nVALUATION_CANDIDATE_COMPLETE\n",
+          "stderr": "",
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "case": "389a1",
+      "artifacts_byte_identical": [
+        "norms.gp",
+        "norm_kernel.gp",
+        "norm_kernel.json",
+        "valuation_candidate.gpout"
+      ],
+      "independent_exhaustive_scalar_vectors": 81,
+      "kernel_vectors": 9,
+      "processes": [
+        {
+          "script": "run.gp",
+          "stdout": "SCALAR_DIM=4;NORMS_COMPUTED=4;MS=15\nNONCUBE_RANK=1;Q=19;ROOT=9\nNONCUBE_RANK=2;Q=73;ROOT=18\nEXACT_KERNEL_CUBE=1\nEXACT_KERNEL_CUBE=2\nKERNEL_COMPLETE=1;DIM=2;RESIDUE_EVALUATIONS=124;MS=9\n",
+          "stderr": "",
+          "exit_code": 0
+        },
+        {
+          "script": "check.gp",
+          "stdout": "SCALAR_SOURCE_DIM=4;NORM_IMAGE_RANK=2;COMPLETE_NORM_KERNEL=2\nINDEPENDENT_DETERMINANT_NORMS=4;SIMPLE_PLACE_CERTIFICATES=2;LITERAL_CUBE_ROOTS=2\nVALZERO_ON_KERNEL=1\nUNIT_CONTAINED=1\nRETAINED_JOINT_KERNEL_DIM=2\nPOINT_PLANE_EQUALS=1\nCOMPLETE_NORM_CERTIFICATE_PASS\n",
+          "stderr": "",
+          "exit_code": 0
+        },
+        {
+          "script": "valuation.gp",
+          "stdout": "SCALAR_VALUATION_ZERO_DIM=2;EXACT_NORM_KERNEL_DIM=2\nNORM_EQUALS_VALUATION_ZERO=1\nSCALAR_VALUATION_ROWS=[0, 0, 2, 0; 0, 0, 1, 0; 0, 0, 0, 0; 2, 0, 0, 0; 1, 0, 0, 0; 0, 0, 0, 0]\nVALZERO_NORM_RESIDUES=[0, 0; 0, 0]\nVALUATION_CANDIDATE_COMPLETE\n",
+          "stderr": "",
+          "exit_code": 0
+        }
+      ]
+    }
+  ],
+  "scope": "Exact norm kernels under retained complete sources. No new BNF or all-place membership replay."
+}

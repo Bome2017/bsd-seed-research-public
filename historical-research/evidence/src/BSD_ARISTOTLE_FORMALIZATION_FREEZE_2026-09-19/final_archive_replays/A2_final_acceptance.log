@@ -1,0 +1,75 @@
+== 1. frozen files (statements, definitions, probe, toolchain pin)
+PrimarySupport/Defs.lean: OK
+PrimarySupport/Spec.lean: OK
+PrimarySupport/Acceptance.lean: OK
+lakefile.toml: OK
+lean-toolchain: OK
+scripts/level.py: OK
+== 2. clean build of this package (mathlib itself is not rebuilt)
+✔ [8038/8040] Built PrimarySupport.Targets (9.2s)
+✔ [8039/8040] Built PrimarySupport (7.4s)
+Build completed successfully (8040 jobs).
+== 3. informational: sorry / admit / axiom tokens in non-frozen Lean files (step 4 is authoritative)
+PrimarySupport/Targets.lean:14:# A2 — targets (Aristotle: replace every `sorry`)
+PrimarySupport/Targets.lean:18:Final acceptance: no `sorry`/`admit`/new `axiom`; `#print axioms` of every accepted target shows only
+== 4. axioms of every target
+'PrimarySupport.primary_zero_of_torsionfree' depends on axioms: [propext, Quot.sound]
+'PrimarySupport.torsion_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.assembly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.assembly_WC_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.JOf_ideal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.JOf_ne_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.positive_depth_divides' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.content_dvd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.content_padic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.CM_each_local_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.CM_finite_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.CM_nonzero_everywhere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.CM_profinite_perfectness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.finite_iff_local_and_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.JOf_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.content_basic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.content_unimodular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.exists_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.content_mod_pk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.content_bounds_J' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.lemmaB_valuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.lemmaB_cokernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.card_eq_prod_primary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.order_nine_t_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.CM_order_441' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.alternating_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.CM_noncyclic_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimarySupport.CM_codex_torsion_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+== 5. level
+CORE     primary_zero_of_torsionfree      CLEAN
+CORE     torsion_decomposition            CLEAN
+CORE     assembly                         CLEAN
+CORE     assembly_WC_shape                CLEAN
+CORE     JOf_ideal                        CLEAN
+CORE     JOf_ne_zero_iff                  CLEAN
+CORE     positive_depth_divides           CLEAN
+CORE     content_dvd_iff                  CLEAN
+CORE     content_padic                    CLEAN
+CORE     CM_each_local_finite             CLEAN
+CORE     CM_finite_support                CLEAN
+CORE     CM_nonzero_everywhere            CLEAN
+CORE     CM_profinite_perfectness         CLEAN
+FULL     finite_iff_local_and_support     CLEAN
+FULL     JOf_generator                    CLEAN
+FULL     content_basic                    CLEAN
+FULL     content_unimodular               CLEAN
+FULL     exists_primitive                 CLEAN
+FULL     content_mod_pk                   CLEAN
+FULL     content_bounds_J                 CLEAN
+FULL     lemmaB_valuation                 CLEAN
+FULL     lemmaB_cokernel                  CLEAN
+FULL     card_eq_prod_primary             CLEAN
+FULL     order_nine_t_sq                  CLEAN
+FULL     CM_order_441                     CLEAN
+STRETCH  alternating_square               CLEAN
+STRETCH  CM_noncyclic_target              CLEAN
+STRETCH  CM_codex_torsion_example         CLEAN
+LEVEL: A2_FULL
+FIRST_NOT_CLEAN_TARGET: None
+STRETCH_CLEAN: ['alternating_square', 'CM_noncyclic_target', 'CM_codex_torsion_example']

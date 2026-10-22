@@ -1,0 +1,73 @@
+{
+  "field_exact_checks": {
+    "389a1": "INDEPENDENT_EXACT_FIELD_POINT_SCALAR_IDEALS_PASS",
+    "37a1": "INDEPENDENT_EXACT_FIELD_POINT_SCALAR_IDEALS_PASS"
+  },
+  "local_models": {
+    "389a1": {
+      "disc": 389,
+      "c4": 112,
+      "c6": -856,
+      "point_field_discriminant_factorization": {
+        "5": 23,
+        "389": 16
+      },
+      "bad_prime": 389,
+      "a5": -3,
+      "a_bad": 1
+    },
+    "37a1": {
+      "disc": 37,
+      "c4": 48,
+      "c6": -216,
+      "point_field_discriminant_factorization": {
+        "5": 23,
+        "37": 16
+      },
+      "bad_prime": 37,
+      "a5": -2,
+      "a_bad": -1
+    }
+  },
+  "saved_class_runs": {
+    "389a1": {
+      "provisional_class_group": [
+        3
+      ],
+      "grade": "GRH_DEPENDENT",
+      "certification_attempts": [
+        {
+          "script": "class_group.gp",
+          "certification": false,
+          "alarm_seen": false,
+          "exit_code": -15
+        },
+        {
+          "script": "class_quotient.gp",
+          "certification": false,
+          "alarm_seen": true,
+          "exit_code": 0
+        }
+      ],
+      "whole_source_bound_if_class5_absent": 3
+    },
+    "37a1": {
+      "provisional_class_group": [
+        2
+      ],
+      "grade": "GRH_DEPENDENT",
+      "certification_attempts": [
+        {
+          "script": "class_group.gp",
+          "certification": false,
+          "alarm_seen": true,
+          "exit_code": 0
+        }
+      ],
+      "whole_source_bound_if_class5_absent": 3
+    }
+  },
+  "elementary_SL2_generation_order": 120,
+  "divisor_character_status": "EXACT_PASS",
+  "status": "EXACT_ARITHMETIC_REPLAY_PASS_CLASS_CERTIFICATION_NOT_OBTAINED"
+}

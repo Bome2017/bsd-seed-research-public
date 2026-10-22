@@ -1,0 +1,24 @@
+{
+  "status": "ACTUAL_PRIMITIVE_DIVISOR_LAYER_INJECTIVE",
+  "curve": "11a1",
+  "p": 7,
+  "S": [
+    7,
+    11
+  ],
+  "coefficient_place_character_source_dimension": 0,
+  "bad_place_source_character_dimension": 1,
+  "bad_place_target_inverse_character_dimension": 1,
+  "primitive_bad_place_character_map_mod7": 1,
+  "t_D_chi": 0,
+  "remaining_sources": [
+    "ordinary unit kernel",
+    "ordinary class contribution"
+  ],
+  "hypotheses": [
+    "saved exact field/maximal order/scalar",
+    "standard Tate uniformization",
+    "primitive incidence formula"
+  ],
+  "GP_wall_seconds": 0.8959975859615952
+}

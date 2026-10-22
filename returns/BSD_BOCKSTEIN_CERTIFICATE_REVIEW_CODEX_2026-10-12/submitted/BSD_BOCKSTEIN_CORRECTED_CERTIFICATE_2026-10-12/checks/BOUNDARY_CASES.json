@@ -1,0 +1,289 @@
+[
+  {
+    "case_id": "old-fails-new-passes",
+    "kind": "abstract_control",
+    "p": 5,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 5,
+      "content_lower_bound": 3,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "bockstein_observation": {
+      "precision": 5,
+      "content_lower_bound": 2,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "local_log_observation": {
+      "precision": 5,
+      "content_lower_bound": 0,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "derivative_content_exact": 3,
+    "bockstein_content_lower_bound": 2,
+    "local_index_lower_bound": 0,
+    "corrected_length_upper_bound_conditional": 1,
+    "old_length_upper_bound_conditional": 3,
+    "even_length_upper_bound_conditional": 0,
+    "old_criterion_met": false,
+    "corrected_criterion_met": true,
+    "status": "CONDITIONAL_VANISHING_CRITERION_MET",
+    "note": "A seed conclusion additionally needs the actual transported Kato class, the all-height-one integral inequality, saturated point basis, primitive H^2_tf Bockstein normalization, and the retained arithmetic identifications. A source_notes field is not authentication."
+  },
+  {
+    "case_id": "bockstein-lower-bound-only",
+    "kind": "abstract_control",
+    "p": 7,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 5,
+      "content_lower_bound": 3,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "bockstein_observation": {
+      "precision": 2,
+      "content_lower_bound": 2,
+      "content_is_exact": false,
+      "nonzero_detected": false
+    },
+    "local_log_observation": {
+      "precision": 5,
+      "content_lower_bound": 0,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "derivative_content_exact": 3,
+    "bockstein_content_lower_bound": 2,
+    "local_index_lower_bound": 0,
+    "corrected_length_upper_bound_conditional": 1,
+    "old_length_upper_bound_conditional": 3,
+    "even_length_upper_bound_conditional": 0,
+    "old_criterion_met": false,
+    "corrected_criterion_met": true,
+    "status": "CONDITIONAL_VANISHING_CRITERION_MET",
+    "note": "A seed conclusion additionally needs the actual transported Kato class, the all-height-one integral inequality, saturated point basis, primitive H^2_tf Bockstein normalization, and the retained arithmetic identifications. A source_notes field is not authentication."
+  },
+  {
+    "case_id": "both-corrections-used",
+    "kind": "abstract_control",
+    "p": 13,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 7,
+      "content_lower_bound": 5,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "bockstein_observation": {
+      "precision": 7,
+      "content_lower_bound": 2,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "local_log_observation": {
+      "precision": 7,
+      "content_lower_bound": 2,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "derivative_content_exact": 5,
+    "bockstein_content_lower_bound": 2,
+    "local_index_lower_bound": 2,
+    "corrected_length_upper_bound_conditional": 1,
+    "old_length_upper_bound_conditional": 3,
+    "even_length_upper_bound_conditional": 0,
+    "old_criterion_met": false,
+    "corrected_criterion_met": true,
+    "status": "CONDITIONAL_VANISHING_CRITERION_MET",
+    "note": "A seed conclusion additionally needs the actual transported Kato class, the all-height-one integral inequality, saturated point basis, primitive H^2_tf Bockstein normalization, and the retained arithmetic identifications. A source_notes field is not authentication."
+  },
+  {
+    "case_id": "local-index-lower-bound-only",
+    "kind": "abstract_control",
+    "p": 13,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 5,
+      "content_lower_bound": 3,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "bockstein_observation": {
+      "precision": 5,
+      "content_lower_bound": 1,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "local_log_observation": {
+      "precision": 1,
+      "content_lower_bound": 1,
+      "content_is_exact": false,
+      "nonzero_detected": false
+    },
+    "derivative_content_exact": 3,
+    "bockstein_content_lower_bound": 1,
+    "local_index_lower_bound": 1,
+    "corrected_length_upper_bound_conditional": 1,
+    "old_length_upper_bound_conditional": 2,
+    "even_length_upper_bound_conditional": 0,
+    "old_criterion_met": false,
+    "corrected_criterion_met": true,
+    "status": "CONDITIONAL_VANISHING_CRITERION_MET",
+    "note": "A seed conclusion additionally needs the actual transported Kato class, the all-height-one integral inequality, saturated point basis, primitive H^2_tf Bockstein normalization, and the retained arithmetic identifications. A source_notes field is not authentication."
+  },
+  {
+    "case_id": "finite-pair-not-erased",
+    "kind": "abstract_control",
+    "p": 5,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 7,
+      "content_lower_bound": 5,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "bockstein_observation": {
+      "precision": 7,
+      "content_lower_bound": 3,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "local_log_observation": {
+      "precision": 7,
+      "content_lower_bound": 0,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "derivative_content_exact": 5,
+    "bockstein_content_lower_bound": 3,
+    "local_index_lower_bound": 0,
+    "corrected_length_upper_bound_conditional": 2,
+    "old_length_upper_bound_conditional": 5,
+    "even_length_upper_bound_conditional": 2,
+    "old_criterion_met": false,
+    "corrected_criterion_met": false,
+    "status": "CONDITIONAL_CONTENT_BOUND_ONLY",
+    "note": "A seed conclusion additionally needs the actual transported Kato class, the all-height-one integral inequality, saturated point basis, primitive H^2_tf Bockstein normalization, and the retained arithmetic identifications. A source_notes field is not authentication."
+  },
+  {
+    "case_id": "zero-is-insufficient-precision",
+    "kind": "abstract_control",
+    "p": 11,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 3,
+      "content_lower_bound": 3,
+      "content_is_exact": false,
+      "nonzero_detected": false
+    },
+    "bockstein_observation": {
+      "precision": 3,
+      "content_lower_bound": 0,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "local_log_observation": {
+      "precision": 3,
+      "content_lower_bound": 0,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "status": "INCONCLUSIVE_DERIVATIVE_PRECISION",
+    "note": "Zero residues do not prove that the actual derivative is zero."
+  },
+  {
+    "case_id": "inconsistent-normalization",
+    "kind": "abstract_control",
+    "p": 17,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 5,
+      "content_lower_bound": 1,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "bockstein_observation": {
+      "precision": 5,
+      "content_lower_bound": 3,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "local_log_observation": {
+      "precision": 5,
+      "content_lower_bound": 0,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "derivative_content_exact": 1,
+    "bockstein_content_lower_bound": 3,
+    "local_index_lower_bound": 0,
+    "corrected_length_upper_bound_conditional": -2,
+    "old_length_upper_bound_conditional": 1,
+    "status": "REJECT_INCONSISTENT_VALUATION_INPUTS",
+    "note": "These bounds cannot all describe the matched objects under the theorem's hypotheses."
+  },
+  {
+    "case_id": "excluded-prime",
+    "kind": "abstract_control",
+    "p": 59,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "status": "OUTSIDE_RETAINED_PRIME_DOMAIN"
+  },
+  {
+    "case_id": "missing-height-one-p-hypothesis",
+    "kind": "abstract_control",
+    "p": 5,
+    "source_authentication": "NOT_PERFORMED",
+    "actual_seed_primary_vanishing_certified": false,
+    "arithmetic_grade": "VALUATION_CHECK_ONLY",
+    "delta_observation": {
+      "precision": 4,
+      "content_lower_bound": 2,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "bockstein_observation": {
+      "precision": 4,
+      "content_lower_bound": 2,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "local_log_observation": {
+      "precision": 4,
+      "content_lower_bound": 0,
+      "content_is_exact": true,
+      "nonzero_detected": true
+    },
+    "derivative_content_exact": 2,
+    "bockstein_content_lower_bound": 2,
+    "local_index_lower_bound": 0,
+    "corrected_length_upper_bound_conditional": 0,
+    "old_length_upper_bound_conditional": 2,
+    "even_length_upper_bound_conditional": 0,
+    "old_criterion_met": false,
+    "corrected_criterion_met": true,
+    "status": "CONDITIONAL_VANISHING_CRITERION_MET",
+    "note": "A seed conclusion additionally needs the actual transported Kato class, the all-height-one integral inequality, saturated point basis, primitive H^2_tf Bockstein normalization, and the retained arithmetic identifications. A source_notes field is not authentication.",
+    "negative_control": "Full complex has tau=2; Kato inequality at (p) FAILS; no seed conclusion."
+  }
+]

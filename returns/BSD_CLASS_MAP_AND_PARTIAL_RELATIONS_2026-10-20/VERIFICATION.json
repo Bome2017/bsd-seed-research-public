@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-10-20T17:49:11.177884+00:00",
+  "status": "ARITHMETIC_REPLAYS_PASSED_UNDER_RETAINED_INPUTS",
+  "root_review_replay": "six GP scripts and Python checks passed; exit0, empty GP stderr, exact success markers",
+  "root_portable_producer_replay": "element, ideal and scalar data byte-identical; see PORTABLE_REPLAY.json",
+  "BNF_certification": "producer certification source and target returned1; separately read, not independently recertified",
+  "source_application": "Schaefer-Stoll Cor7.1,7.3,7.9, Prop7.8,7.10 and Section10.1 freshly checked at author URL",
+  "rank_input": "database rank-two lower bound retained; no fresh rank proof",
+  "formal_verification": false,
+  "human_review": false,
+  "original_seed_endpoint_change": false
+}

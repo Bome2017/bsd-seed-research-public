@@ -1,0 +1,44 @@
+{
+  "retained_lab_snapshot": "5d0517bd7affd9faeccd28ac2c0c961adabbff81",
+  "retained_files": [
+    {
+      "original": "/Users/bsm/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/PROOF.md",
+      "copy": "evidence/retained/PROOF.md",
+      "sha256": "e6bb5b14bdc5adecc688d6dcb6051b4062bdfb6b685b2b715f041b56da3ab32f"
+    },
+    {
+      "original": "/Users/bsm/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/checks/exact_control.py",
+      "copy": "evidence/retained/checks/exact_control.py",
+      "sha256": "bede13ccc1017c2d66e0fa48b9c0d9c0bde32ac92c175b2d6833de84ce89544e"
+    },
+    {
+      "original": "/Users/bsm/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/checks/candidate43737_exact.gp",
+      "copy": "evidence/retained/checks/candidate43737_exact.gp",
+      "sha256": "ccb61648200289953d64ce60b322a086300704c1cc917889a33a7119306ae210"
+    },
+    {
+      "original": "/Users/bsm/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/outputs/candidate43737_exact.out",
+      "copy": "evidence/retained/outputs/candidate43737_exact.out",
+      "sha256": "7bc9fd24168b7c61b914c8ad23a5f117b73151fe6b1a1acacbc9b3a24632df19"
+    },
+    {
+      "original": "/Users/bsm/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/outputs/EXACT_CONTROL.json",
+      "copy": "evidence/retained/outputs/EXACT_CONTROL.json",
+      "sha256": "0fc9243354d20a16b8dfe77de3ca607741e3f93b1655d46f713fef7acf951d12"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://msp.org/obs/2013/1-1/obs-v1-n1-p20-s.pdf",
+      "local_preserved_source": "/Users/bsm/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13_LOCAL_SOURCES/fisher5.pdf",
+      "sha256": "f08838ad5b89186ffed65b404cfe1f20b683f44c0f7659567cb73b2c4eea25ff",
+      "redistributed": false
+    },
+    {
+      "url": "https://www.mathe2.uni-bayreuth.de/stoll/papers/isogeny-descent.pdf",
+      "local_preserved_source": "/Users/bsm/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13_LOCAL_SOURCES/miller_stoll.pdf",
+      "sha256": "0a30ba89e24ad7d662517860fbc8edf695c8102d69ff8978f173f5665de0490c",
+      "redistributed": false
+    }
+  ]
+}

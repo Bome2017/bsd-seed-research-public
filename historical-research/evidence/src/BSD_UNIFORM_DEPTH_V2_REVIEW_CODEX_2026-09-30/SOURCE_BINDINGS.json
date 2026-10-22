@@ -1,0 +1,32 @@
+[
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+    "copy": "references/PREVIOUS_DEPTH_TARGET.md",
+    "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703"
+  },
+  {
+    "source": "/Users/bsm/BSD_THREE_BRIEFS_REVIEW_CODEX_2026-09-30/REPORT.md",
+    "copy": "references/PREVIOUS_THREE_BRIEFS_REVIEW.md",
+    "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/BH_2511.07203v1.pdf",
+    "sha256": "d3355b216eff780f070df45778d161d8636b4acc43f73b8c7186b1c037f52481",
+    "primary_url": "https://arxiv.org/html/2511.07203v1",
+    "printed_pages_checked": [
+      2,
+      8,
+      9
+    ],
+    "method": "local native text; page renders retained for BH 2/9 and KN 43; live HTML consulted"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/sources/Kriz_Nordentoft_2310.20678v3.pdf",
+    "sha256": "327b7e0e0d4e24fe2f2a101de3528176b2e0345cc0e9a842b98374f718a93edf",
+    "primary_url": "https://arxiv.org/html/2310.20678v3",
+    "printed_pages_checked": [
+      43
+    ],
+    "method": "local native text; page renders retained for BH 2/9 and KN 43; live HTML consulted"
+  }
+]

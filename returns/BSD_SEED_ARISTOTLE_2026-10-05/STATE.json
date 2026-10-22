@@ -1,0 +1,13 @@
+{
+  "status": "RESEARCH_HANDOFF_ASSEMBLED_WITH_EXPLICIT_COVERAGE_BOUNDARY",
+  "date": "2026-10-05",
+  "endpoint": "fixed seed: finite Sha of order 9 and q=36",
+  "mathematical_result": "none new; original grades retained",
+  "aristotle_launched": false,
+  "catalog_paths": 538072,
+  "embedded_objects": 283307,
+  "lab_base": "263240460c67a76237a434eeccf25399ec186ae5",
+  "validation": "18 package/retrieval controls passed; all 283307 embedded objects reconstructed and hashed; final manifest sealing",
+  "bulk_binary_bytes_external": 156808997323,
+  "concurrent_draft_files": 37
+}

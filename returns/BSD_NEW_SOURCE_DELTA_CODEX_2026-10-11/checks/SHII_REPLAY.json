@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "method": "standard-library exact integer arithmetic",
+  "rows": [
+    {
+      "ell": 3,
+      "kronecker_D_K": -1,
+      "v_delta": 2,
+      "c4_mod_ell": 1
+    },
+    {
+      "ell": 2243,
+      "kronecker_D_K": -1,
+      "v_delta": 1,
+      "c4_mod_ell": 2005
+    },
+    {
+      "ell": 4547,
+      "kronecker_D_K": 1,
+      "v_delta": 3,
+      "c4_mod_ell": 0
+    },
+    {
+      "ell": 5843,
+      "kronecker_D_K": -1,
+      "v_delta": 2,
+      "c4_mod_ell": 731
+    }
+  ],
+  "endpoints_changed": false,
+  "not_recertified": [
+    "conductor theorem",
+    "full residual image",
+    "Shii theorem",
+    "class-field and Tate-curve inputs"
+  ]
+}

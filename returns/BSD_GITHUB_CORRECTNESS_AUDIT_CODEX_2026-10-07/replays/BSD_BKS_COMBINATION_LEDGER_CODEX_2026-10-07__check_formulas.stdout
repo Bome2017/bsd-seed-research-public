@@ -1,0 +1,20 @@
+{
+  "status": "EXACT_FORMULA_CONTROLS_PASS",
+  "N": 6503188012738584,
+  "c_N": "17469664/13105849",
+  "conditional_scalar_cases": 11268,
+  "wrong_sign_or_factor_rejections": 33804,
+  "dvr_length_cases": 340,
+  "E_F5": 8,
+  "divided_augmentation_controls": {
+    "U": 1,
+    "pU_at_p_7": 7,
+    "U_squared": 0
+  },
+  "not_checked": [
+    "Kato class value",
+    "Sha vanishing",
+    "source theorem proofs",
+    "independent review of weak-order deduction"
+  ]
+}

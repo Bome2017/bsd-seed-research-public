@@ -1,0 +1,252 @@
+{
+  "status": "ACTUAL_PRIME_SUPPLY_COMPUTED_NO_CLASS_BOUND",
+  "relative_discriminant_norm": "707033045140895852346320",
+  "range_results": [
+    {
+      "source_variant": "published_2025_as_printed_absolute_degree",
+      "root_exponent": 460,
+      "largest_integer_norm_strictly_below_root": 1,
+      "actual_split_prime_pairs": 0,
+      "rational_primes": 0,
+      "pairs": [],
+      "faithful_scalar_support_dimensions": {
+        "chi2": 0,
+        "chi3": 0
+      },
+      "class_rank_computed": false
+    },
+    {
+      "source_variant": "author_preprint_relative_degree",
+      "root_exponent": 20,
+      "largest_integer_norm_strictly_below_root": 15,
+      "actual_split_prime_pairs": 2,
+      "rational_primes": 1,
+      "pairs": [
+        {
+          "q": 7,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 7
+        },
+        {
+          "q": 7,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 7
+        }
+      ],
+      "faithful_scalar_support_dimensions": {
+        "chi2": 1,
+        "chi3": 1
+      },
+      "class_rank_computed": false
+    },
+    {
+      "source_variant": "original_EV_absolute_class_range",
+      "root_exponent": 10,
+      "largest_integer_norm_strictly_below_root": 242,
+      "actual_split_prime_pairs": 26,
+      "rational_primes": 13,
+      "pairs": [
+        {
+          "q": 7,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 7
+        },
+        {
+          "q": 7,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 7
+        },
+        {
+          "q": 29,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 29
+        },
+        {
+          "q": 29,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 29
+        },
+        {
+          "q": 31,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 31
+        },
+        {
+          "q": 31,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 31
+        },
+        {
+          "q": 53,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 53
+        },
+        {
+          "q": 53,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 53
+        },
+        {
+          "q": 67,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 67
+        },
+        {
+          "q": 67,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 67
+        },
+        {
+          "q": 73,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 73
+        },
+        {
+          "q": 73,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 73
+        },
+        {
+          "q": 113,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 113
+        },
+        {
+          "q": 113,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 113
+        },
+        {
+          "q": 137,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 137
+        },
+        {
+          "q": 137,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 137
+        },
+        {
+          "q": 149,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 149
+        },
+        {
+          "q": 149,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 149
+        },
+        {
+          "q": 151,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 151
+        },
+        {
+          "q": 151,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 151
+        },
+        {
+          "q": 181,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 181
+        },
+        {
+          "q": 181,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 181
+        },
+        {
+          "q": 223,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 223
+        },
+        {
+          "q": 223,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 223
+        },
+        {
+          "q": 229,
+          "prime_index": 1,
+          "conjugate_index": 4,
+          "residue_degree": 1,
+          "norm": 229
+        },
+        {
+          "q": 229,
+          "prime_index": 2,
+          "conjugate_index": 3,
+          "residue_degree": 1,
+          "norm": 229
+        }
+      ],
+      "faithful_scalar_support_dimensions": {
+        "chi2": 13,
+        "chi3": 13
+      },
+      "class_rank_computed": false
+    }
+  ],
+  "retained_bounds": {
+    "complete_relative_5_primary_length_upper": 97,
+    "improved_bound_obtained": false
+  },
+  "endpoint_effect": {
+    "FIN": "OPEN unchanged",
+    "ORDER9": "OPEN unchanged",
+    "Q36": "OPEN unchanged"
+  }
+}

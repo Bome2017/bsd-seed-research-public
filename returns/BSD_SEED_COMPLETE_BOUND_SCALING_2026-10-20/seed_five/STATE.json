@@ -1,0 +1,37 @@
+{
+  "status": "ACTUAL_SEED_SOURCE_CONSTRUCTED_CLASS_GATE_RESOURCE_LIMITED",
+  "seed": [
+    0,
+    -22735,
+    0,
+    106272484,
+    0
+  ],
+  "coefficient_prime": 5,
+  "field_degree": 24,
+  "signature": [
+    4,
+    10
+  ],
+  "complete_faithful_unit_dimension": 3,
+  "complete_valuation_kernel_dimension": 0,
+  "unit_map_rank": null,
+  "ordinary_class_contribution": null,
+  "complete_source_bound": null,
+  "bnf_attempts": [
+    {
+      "stack_bytes": 512000000,
+      "seconds": 13.757291486021131,
+      "result": "stack_overflow_before_table"
+    },
+    {
+      "stack_bytes": 2000000000,
+      "seconds": 18.41360162384808,
+      "result": "stack_overflow_before_table"
+    }
+  ],
+  "known_sha5_result_used": false,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

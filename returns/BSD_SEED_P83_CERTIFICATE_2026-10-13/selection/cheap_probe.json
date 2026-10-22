@@ -1,0 +1,22 @@
+{
+  "p": 83,
+  "ell": 167,
+  "tmin4096": 57366635244,
+  "segments": 3420,
+  "T_aligned": 57378078719,
+  "all_coefficient_paths_present": true,
+  "missing": [],
+  "prefix_bytes": 9673187648,
+  "independent_counts": {
+    "53": 60,
+    "59": 64,
+    "83": 92,
+    "487": 516,
+    "167": 168,
+    "709": 696,
+    "743": 776
+  },
+  "counts_method": "direct standard-library Legendre enumeration",
+  "arbcore_sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+  "no_coefficient_files_hashed": true
+}

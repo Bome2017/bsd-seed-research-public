@@ -1,0 +1,35 @@
+{
+ "purpose": "Rows whose source was edited in place after v0.2.4 was released. The released copies are the canonical master record as integrated on 2026-09-21 and are kept byte for byte; the current source hashes are recorded here. The in-place edits are listed, with their final hashes, in /Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/CHANGES.md.",
+ "retained_source_changes": [
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/00_READ_FIRST.md",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/00_READ_FIRST.md",
+   "released_sha256": "0755d34e09edbad0952789a988b7c781fa1608d4001bd5bd79e0d4a300e87079",
+   "live_sha256": "8916ecc07a96ceaea91b63a6ade4f2401c2a8b39de949dc8b3008437a661e7da"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MANIFEST.sha256",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MANIFEST.sha256",
+   "released_sha256": "18ebd0e63d60e3c6300a7adf53784499a8bc83ff44c59934cf671c96b1cb3ad6",
+   "live_sha256": "12c84639948a7d97362b38e70259e212938775a9cee0d0d14bdae2c800ef6682"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+   "released_sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+   "live_sha256": "111b73becca09325141084a6dd89f2fd2e8294e24d7920522281cb6d8bb202e8"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/RESUME.md",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/RESUME.md",
+   "released_sha256": "b2f74e9f70203b4a0133aa93a1a45b4815da32a3bd8103b23cfaff6408949743",
+   "live_sha256": "6a3a5fce246acbbda8d6247ad08a49473adcb78239c09f7e3e85b70b6ce57a09"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_BINDINGS.json",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_BINDINGS.json",
+   "released_sha256": "b0fb8859be690281cfd4214bd77653b417833ec3a2ca3b53d4535227ad291566",
+   "live_sha256": "b9d60141c89eab7331c37ba0a0e713bde5c9d0c35fcac62d73761887ee9dfe69"
+  }
+ ]
+}

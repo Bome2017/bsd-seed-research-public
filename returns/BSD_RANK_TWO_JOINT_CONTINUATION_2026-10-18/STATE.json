@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETED_NO_RANK_TWO_JOINT_BOUND",
+  "completed_utc": "2026-10-18T20:13:43.421677+00:00",
+  "prior_commit": "b2c36cb3060dd5da6ef8d6825232af0ef5923500",
+  "controls": [
+    "655a1",
+    "11a1 quadratic twist by -47"
+  ],
+  "coefficient_prime": 7,
+  "rank_bounds": [
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "complete_valuation_allowances": [
+    0,
+    0
+  ],
+  "complete_faithful_unit_dimension_each": 4,
+  "complete_norm_local_rank_profiles": "not measured",
+  "admitted_nonzero_faithful_unit_directions": 0,
+  "complete_class_bound": null,
+  "new_rank_two_joint_bound": false,
+  "new_seed_prime_result": false,
+  "arithmetic_searches_running": false,
+  "first_harvest_exact_generators": 1424,
+  "first_harvest_all_central_fixed": true,
+  "mixed_search_logged_filter_trials": 92544,
+  "mixed_search_accepted_exports": 0,
+  "FIN": "open, unchanged",
+  "ORDER9": "open, unchanged",
+  "Q36": "open, unchanged",
+  "grade": "exact computations and written deductions under retained inputs; no whole-source bound",
+  "publication": "authorized lab work branch; receipt outside sealed packet"
+}

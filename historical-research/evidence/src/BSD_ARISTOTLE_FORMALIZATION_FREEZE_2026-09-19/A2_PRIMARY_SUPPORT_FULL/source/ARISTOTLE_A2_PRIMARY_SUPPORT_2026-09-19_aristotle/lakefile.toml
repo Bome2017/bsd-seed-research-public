@@ -1,0 +1,18 @@
+name = "RequestProject"
+defaultTargets = ["RequestProject"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.28.0"
+
+[[lean_lib]]
+name = "RequestProject"
+globs = ["RequestProject.+"]
+
+# Convenience target: build the A2_PRIMARY_SUPPORT package's library from this root project
+# (the package keeps its own frozen `pkg/A2_PRIMARY_SUPPORT/lakefile.toml`, which is untouched).
+[[lean_lib]]
+name = "PrimarySupport"
+srcDir = "pkg/A2_PRIMARY_SUPPORT"
+globs = ["PrimarySupport", "PrimarySupport.+"]

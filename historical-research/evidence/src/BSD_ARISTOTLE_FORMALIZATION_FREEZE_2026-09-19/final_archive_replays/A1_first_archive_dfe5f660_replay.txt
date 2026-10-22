@@ -1,0 +1,11 @@
+manifest: 56/56
+file set exact
+acceptance exit=0
+Build completed successfully (8037 jobs).
+LEVEL: A1_FULL
+FIRST_NOT_CLEAN_TARGET: None
+STRETCH_CLEAN: ['lemmaA_general', 'gr_finite_Z', 'gr_rational_trivial']
+sorry warnings: 0
+typeintegrity exit=0 OK-lines=20
+clean axiom lines: 20
+sorryAx lines: 0

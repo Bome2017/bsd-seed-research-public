@@ -1,0 +1,35 @@
+{
+ "stage": "OBSTRUCTION_STOPPED",
+ "launch": "NONE",
+ "spend": 0,
+ "coefficient_production": "NONE",
+ "collision": "D_primes/01_GATES.md §3 (trace-only: U_p fiber traces + Fermat quotient -> weighted depth-2 sum); p=5 six-symbol formula; no prior non-trace rewrite found; theta-branch distribution relations = Gross points (different object); tail-compression folder = different question",
+ "verdict": "W_Q Atkin-Lehner pairing (the only non-trace relation at denominator p^2) fixes the even W-coefficients only; c3 free (rank 2 > 1); all other routes raise cutoff/scale or need 1e15-1e16-dim symbol spaces; coefficient range unchanged (T_run 3.912e13, 110622.5 lch)",
+ "identities": {
+  "K_mod_p": "c3 = [T^3] sum_j Y_j (1+T)^j",
+  "pairing": "Y_(-L-j) = -Y_j, L = 1989, Y_127 = 0",
+  "theorem_F": "(1+T)^(L/2) theta odd in W = T(1+T)^(-1/2)",
+  "c0": "0",
+  "c2": "-995*c1 (mod p)",
+  "c4": "1247*c3 + 511*c1 (mod p)"
+ },
+ "workload_lch": {
+  "R0_R1_current": 110622.5,
+  "R6_aggregation_T4.622e13": 134570.1,
+  "R3_T5_T1.956e14_extrapolated": 735762.4
+ },
+ "byproduct": "c1 = 0 (mod 2243) theorem-forced (D1,D2,D7) and not forced by the pairing: free end-to-end check on any future output",
+ "D5": "NECESSARY at retained grade; attached to every implication",
+ "pending_user_decisions": [
+  "F4 fix v2.4 + tests + Codex re-check",
+  "D5 route (height computation or grade decision)",
+  "master reconciliation authorization"
+ ],
+ "files": [
+  "01_COLLISION_CHECK.md",
+  "02_DERIVATION.md",
+  "03_WORKLOAD.md",
+  "REPORT.md",
+  "checks/"
+ ]
+}

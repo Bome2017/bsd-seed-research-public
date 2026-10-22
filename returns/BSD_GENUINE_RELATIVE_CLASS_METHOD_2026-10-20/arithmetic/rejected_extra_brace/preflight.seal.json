@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp",
+    "-q",
+    "-f",
+    "-s",
+    "512M",
+    "preflight.gp"
+  ],
+  "script_sha256": "2f40ee1be0c42898fa5a99ed90e4166f5893e5a56f9c8eb2c3f8ebed5291e40a",
+  "wall_cap_seconds": 120.0,
+  "completion_marker_expected": "RELATIVE_PREFLIGHT_COMPLETE",
+  "log_mode": "direct file descriptors",
+  "timeout_scope": "new process group"
+}

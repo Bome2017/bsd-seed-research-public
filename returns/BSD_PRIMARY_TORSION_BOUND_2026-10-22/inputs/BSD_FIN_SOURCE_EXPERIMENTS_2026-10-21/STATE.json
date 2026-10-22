@@ -1,0 +1,22 @@
+{
+  "status": "NO_NEW_COMPLETE_SEED_BOUND",
+  "date": "2026-10-21",
+  "baseline": "77d4b331885138eb1f3f93d8063b06d6d7eb730b",
+  "rational_candidates": 20180,
+  "quadratic_candidates": 272,
+  "trace_passes": 0,
+  "independent_matrix_samples": 17,
+  "private_scalar_orbits": 20440,
+  "rational_anti_divisor_rank": 40880,
+  "ordinary_unit_rank_gain": 0,
+  "complete_class_bound_improvement": 0,
+  "analytic_estimate_obstruction": "B_p > 1000^((p^2-1)/4) > p^4; expression only, not true class order",
+  "FIN": "UNCHANGED_OPEN",
+  "ORDER9": "UNCHANGED_OPEN",
+  "Q36": "UNCHANGED_OPEN",
+  "p53_production": "NOT_LAUNCHED",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "sympy": "1.14.0",
+  "gmp": "6.3.0",
+  "review": "written same-assistant proof with independent implementations; no human/formal review"
+}

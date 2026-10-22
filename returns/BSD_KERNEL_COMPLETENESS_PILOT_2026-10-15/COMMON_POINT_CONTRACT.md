@@ -1,0 +1,7 @@
+# Sealed common-point experiment addendum
+
+Before evaluating stacked point quotients, test seed auxiliary primes 1213 and 1543. The prior tables show that each individual local point image has rank two, so each individual point-quotient detector on genuine classes is zero. The new test stacks both eight-row local source matrices, then quotients by the image of ONE global point plane. Hypothesis: incompatibility of the point repair coefficients may reveal at least one previously invisible known excess direction. A rank-two result would detect the entire supplied known excess plane; neither result proves source completeness.
+
+Controls: 389a1 known point plane must remain zero;1913b1 has no points so this changes nothing;28042a1 can improve over separate quotients but never loses a previous detection. Evaluate first2,3,4 blocks with point rank equal to the local genuine-class rank (individually blind blocks) and all saved pairs, labelling the latter retrospective comparison. Do not infer independence of samples. All arithmetic is from saved exact inputs; no new local or modular-symbol arithmetic.
+
+Mathematical criterion: with E_T stacked evaluation and W full point plane, new target is image(E_T)/E_T(W), whereas old target separately quotients each local image by its point image. The new target remembers compatibility of point repairs; its map to the old target is surjective on the detected image, and kernel of the new detector is contained in kernel of the old detector. Actual kernel control on all Selmer classes requires a complete containing source.

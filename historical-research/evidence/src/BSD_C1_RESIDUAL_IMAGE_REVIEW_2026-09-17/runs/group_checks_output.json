@@ -1,0 +1,51 @@
+{
+ "n_mod12_when_24_divides_n_squared": [
+  0
+ ],
+ "C1_implies_C60": true,
+ "C60_gives_11_mod_24_for_m_A_B": true,
+ "local_matrix_and_group_lemma": {
+  "3": {
+   "count_T_with_Tsq_minusI_det1": 6,
+   "T_is_nonscalar": true,
+   "num_F_with_conjugation_to_inverse": 8,
+   "common_invariant_lines": 0,
+   "order_generated_by_upper_and_lower_transvections": 24,
+   "SL2_order": 24
+  },
+  "5": {
+   "count_T_with_Tsq_minusI_det1": 30,
+   "T_is_nonscalar": true,
+   "num_F_with_conjugation_to_inverse": 16,
+   "common_invariant_lines": 0,
+   "order_generated_by_upper_and_lower_transvections": 120,
+   "SL2_order": 120
+  },
+  "7": {
+   "count_T_with_Tsq_minusI_det1": 42,
+   "T_is_nonscalar": true,
+   "num_F_with_conjugation_to_inverse": 48,
+   "common_invariant_lines": 0,
+   "order_generated_by_upper_and_lower_transvections": 336,
+   "SL2_order": 336
+  },
+  "11": {
+   "count_T_with_Tsq_minusI_det1": 110,
+   "T_is_nonscalar": true,
+   "num_F_with_conjugation_to_inverse": 120,
+   "common_invariant_lines": 0,
+   "order_generated_by_upper_and_lower_transvections": 1320,
+   "SL2_order": 1320
+  },
+  "13": {
+   "count_T_with_Tsq_minusI_det1": 182,
+   "T_is_nonscalar": true,
+   "num_F_with_conjugation_to_inverse": 144,
+   "common_invariant_lines": 0,
+   "order_generated_by_upper_and_lower_transvections": 2184,
+   "SL2_order": 2184
+  }
+ },
+ "all_no_common_line": true,
+ "all_generate_SL2": true
+}

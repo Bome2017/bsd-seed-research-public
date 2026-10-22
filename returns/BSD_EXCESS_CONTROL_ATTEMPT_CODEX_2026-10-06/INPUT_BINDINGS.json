@@ -1,0 +1,48 @@
+{
+  "lab_commit": "fafba256e7368d1bffcced529482ba38b216efe8",
+  "key_mathematical_inputs": [
+    {
+      "path": "work/returns/BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/EXCESS_NORMAL_FORM.md",
+      "sha256": "56700bc78ad0eb9e910153fc5fbfe928ff0a38dc12c73603dddd73a482790fb6"
+    },
+    {
+      "path": "work/returns/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/VARIATION_AND_TUNING.md",
+      "sha256": "56b4fc401af52a8029eb7f266ea699c8707dd57a99702e7797b343d4b5233ff5"
+    },
+    {
+      "path": "work/returns/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06/INTEGRATED_STATEMENT.md",
+      "sha256": "a205736afdbf448acdc0c62b6f1a5aedaf000f18ec74b2e3b01be01c070198e5"
+    },
+    {
+      "path": "work/returns/BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "sha256": "b415b01ba6710263e8d0d474dc04f3556812449f0891aa676c6d5471e2133eb0"
+    },
+    {
+      "path": "work/returns/BSD_DEFORMATION_FREEZE_CODEX_2026-10-06/REPORT.md",
+      "sha256": "769f4eb8e49f8acd6e32fa13b33a1a93283c96d210b2d6b168b2ffa03a182730"
+    }
+  ],
+  "complete_binding_records": [
+    "checks/COVERAGE.json",
+    "checks/REFERENCE_BINDINGS.json"
+  ],
+  "primary_source": {
+    "title": "Higher Fitting ideals and the structure of anticyclotomic Shafarevich-Tate groups",
+    "authors": [
+      "Enrico Da Ronche",
+      "Matteo Longo",
+      "Stefano Vigni"
+    ],
+    "version": "arXiv:2603.12357v1",
+    "url": "https://arxiv.org/pdf/2603.12357",
+    "locators": [
+      "printed page 2 hypotheses",
+      "Theorems A and B",
+      "Theorem 4.4",
+      "Theorem 5.3 and Corollary 5.4",
+      "Proposition 5.8",
+      "Theorems 5.9 and 5.10, Corollary 5.11"
+    ],
+    "proof_grade": "primary source inspected; seed application not established"
+  }
+}

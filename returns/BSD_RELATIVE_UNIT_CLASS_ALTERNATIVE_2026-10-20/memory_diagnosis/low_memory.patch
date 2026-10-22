@@ -1,0 +1,30 @@
+--- buch2.original.c
++++ buch2.lowmem.c
+@@ -11,6 +11,7 @@
+ Check the License for details. You should have received a copy of it, along
+ with the package; see the file 'COPYING'. If not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA. */
++#define Buchall_param bsd_lowmem_Buchall_param
+ #include "pari.h"
+ #include "paripriv.h"
+ 
+@@ -692,7 +693,12 @@
+       if (p == C2) break;
+       continue;
+     }
+-    prim[2] = p; LP = idealprimedec_limit_f(nf,prim, l);
++    prim[2] = p;
++    {
++      pari_sp avp = avma;
++      LP = idealprimedec_limit_f(nf,prim, l);
++      LP = gerepilecopy(avp, LP);
++    }
+     /* keep noninert ideals with Norm <= C2 */
+     if (m == lg(f)) setisclone(LP); /* flag it: all prime divisors in FB */
+     F->FB[++i]= p;
+@@ -4203,3 +4209,5 @@
+   free_GRHcheck(&GRHcheck);
+   return res;
+ }
++
++GEN bsd_lowmem_init(GEN nf) { return bsd_lowmem_Buchall_param(nf, 0.02, 0., 4, nf_FORCE, DEFAULTPREC); }

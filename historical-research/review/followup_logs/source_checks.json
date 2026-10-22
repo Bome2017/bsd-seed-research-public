@@ -1,0 +1,28 @@
+{
+  "edixhoven_1989": {
+    "url": "https://websites.math.leidenuniv.nl/edixhoven/publications/1989/phd-thesis.pdf",
+    "sha256": "518d24d6c866b712b1dbcbf6ede68497dcbaf547ca35653b67d08a192dc5a4e0",
+    "printed_pages": [
+      60,
+      61
+    ],
+    "pdf_pages": [
+      61,
+      62
+    ],
+    "reading_grade": "Theorem statement and hypothesis check; not a fresh proof of the thesis",
+    "redistributed": false
+  },
+  "CNS_local_text": {
+    "sha256": "e4f3e1041a88b378d3bb3e1a58ecd76bfe62d586a5a4d02b3525ab941bef246c",
+    "reading_scope": [
+      "5.9",
+      "6.10 proof Frobenius-kernel passage",
+      "6.12(c)",
+      "introduction Edixhoven restatement"
+    ]
+  },
+  "original_lattice_manifest": "3/3 listed files hash matched",
+  "historical_local_script_output": "byte-identical replay",
+  "review_version": "0.1.2"
+}

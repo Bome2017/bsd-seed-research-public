@@ -1,0 +1,42 @@
+{
+  "folder": "BSD_C2_WITNESS_2026-09-22",
+  "status": "REBUILT rev2",
+  "blocked_on": "Codex final replay report",
+  "eichler_mass": 542000000000000.0,
+  "c2_computable": false,
+  "equivalence_given_bridge": "c2(p) unit <=> Sha(E/K)[p^inf] finite and #Sha(E/K)[p^inf]*R_der(p) unit",
+  "non_circular_route": "analytic mod-p nonvanishing of the Gross-point sum only",
+  "literature": "BHKO 2408.13932 + BHTY 2508.19706: CM, fixed p; needed: non-CM, varying p, l=p",
+  "canonical_input": "ORDINARY_LANE_FREEZE.md sha256 5ee2cd0f683b5b490f84a7d4190757f788ebb3e5bfc7876b01aacc9b752700fc",
+  "built_before_codex_report": true,
+  "rebuild_if": "Codex reports a bridge dependency error",
+  "shipped_files": [
+    "00_READ_ME_FIRST.md",
+    "INPUTS.md",
+    "GATE.md",
+    "TASK.md",
+    "READ_FIRST/00_SUPERSESSION.md",
+    "READ_FIRST/ORDINARY_LANE_FREEZE.md",
+    "READ_FIRST/BRANCH_THETA.md"
+  ],
+  "verdicts": [
+    "UNIFORM_C2_UNIT_PROVED",
+    "COFINITE_C2_UNIT_ONLY",
+    "POSITIVE_DENSITY_C2_UNIT_ONLY",
+    "FIXED_P_C2_UNIT_ONLY",
+    "COMPRESSED_COMPUTATION_ROUTE",
+    "C2_NONUNIT_PROVED",
+    "FIRST_MISSING_THEOREM",
+    "BRIDGE_DEPENDENCY_ERROR"
+  ],
+  "rev1_sha256_superseded": "965e4ade0213272d54fb4f7a1e07f20b9581e2a3c335e67cec7af21f4a403ce7",
+  "rev2_fixes": [
+    "converse deleted (needs rho_p=4)",
+    "first layer = conductor p^2, bound to BLV 2.5/4.2",
+    "K1: forbid assuming target, not equivalence",
+    "C2_NONUNIT_PROVED added",
+    "supersession file",
+    "bridge = externally source-audited, not Lean",
+    "tar without macOS metadata"
+  ]
+}

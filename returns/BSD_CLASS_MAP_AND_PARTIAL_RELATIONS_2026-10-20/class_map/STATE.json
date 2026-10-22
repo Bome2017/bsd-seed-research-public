@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "result": "COMPLETE_FAITHFUL_S_NORM_SOURCE_UPPER_TWO_ON_1664N1_AT_THREE",
+  "ordinary_norm_kernel_dimension": 2,
+  "faithful_S_norm_kernel_upper": 2,
+  "valuation_allowance": 0,
+  "screen_counts": {
+    "screened": 59,
+    "rejected": 5
+  },
+  "point_occupancy_count": 14,
+  "point_occupancy_new_unoccupied": 0,
+  "seed_FIN": false,
+  "ORDER9": false,
+  "Q36": false,
+  "scope": "new finite coefficient-three control, not larger-prime scaling",
+  "source_application": "SOURCE_APPLICATION.md; conditional control Sel_3 dimension2 and Sha[3\u221e]=0 using retained rank-two input; no independent rank replay"
+}

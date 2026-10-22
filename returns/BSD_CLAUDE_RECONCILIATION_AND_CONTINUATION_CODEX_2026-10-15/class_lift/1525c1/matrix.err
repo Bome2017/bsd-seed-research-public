@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/review/check_718b1_matrices.py", line 68, in <module>
+    out['full_repaired_class_point_coordinates']=solve(POINTS,repair)
+  File "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/review/check_718b1_matrices.py", line 33, in solve
+    assert len(piv)==n
+AssertionError

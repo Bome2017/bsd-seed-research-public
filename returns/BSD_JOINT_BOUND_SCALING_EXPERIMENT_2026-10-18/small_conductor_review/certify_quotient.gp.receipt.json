@@ -1,0 +1,9 @@
+{
+  "script": "certify_quotient.gp",
+  "budget_seconds": 60,
+  "elapsed_seconds": 58.08223946602084,
+  "returncode": 0,
+  "timeout": false,
+  "required_marker": "CLASS_QUOTIENT_CERTIFIED;",
+  "success": false
+}

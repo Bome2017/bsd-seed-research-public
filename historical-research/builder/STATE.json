@@ -1,0 +1,24 @@
+{
+ "stage": "FROZEN v0.1-review; awaiting user decisions",
+ "started": "2026-09-23",
+ "launch": "NONE",
+ "spend": 0,
+ "github": "NOT CREATED (needs explicit permission)",
+ "master_modified": false,
+ "evidence_files": 3176,
+ "evidence_bytes": 67357417,
+ "redactions": 6,
+ "master_freshness": "RECONCILIATION_REQUIRED (not reconciled; master read-only)",
+ "new_since_master": [
+  "D5 certified nonzero 2026-09-23 (Reg_gamma = 2181 mod 2243)",
+  "A3 promoted (Lean core)",
+  "ordinary lane frozen",
+  "D=-7 certificate",
+  "2243 pilot/eval/compression"
+ ],
+ "claims": 76,
+ "verify": "9/9 PASS (with --lean)",
+ "tag": "v0.1-review",
+ "commit": "09320668c12ec4d171b601b7eea601d4356edd70",
+ "archive_sha256": "ff03e89af78f1342d08cc12406a5ac892c24a35f4c052175dc29399f06a7127d"
+}

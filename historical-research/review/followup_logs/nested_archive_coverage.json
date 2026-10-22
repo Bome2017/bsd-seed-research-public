@@ -1,0 +1,244 @@
+{
+  "outer_archive": "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/AWARE.tar.gz",
+  "outer_nonarchive_files_identical_in_extraction": 10,
+  "inner_members": [
+    {
+      "member": "._BSD_TWIST_SHA_SUPPORT_2026-09-22",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._GATE.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/GATE.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/GATE.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._MANIFEST.sha256",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/MANIFEST.sha256",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/MANIFEST.sha256"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._PRIMARY_SOURCES.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/PRIMARY_SOURCES.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/PRIMARY_SOURCES.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/PRIMARY_SOURCES.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/PRIMARY_SOURCES.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._STATE.json",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STATE.json",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/STATE.json"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._00_READ_ME_FIRST.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/00_READ_ME_FIRST.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/00_READ_ME_FIRST.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._STAGE_II_ONLY",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._TASK.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/TASK.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/TASK.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/._READ_FIRST",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/._BSD_QUOTIENT_PREDICTION.txt",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/BSD_QUOTIENT_PREDICTION.txt",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/BSD_QUOTIENT_PREDICTION.txt",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/BSD_QUOTIENT_PREDICTION.txt",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/BSD_QUOTIENT_PREDICTION.txt"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/._FREEZE.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/FREEZE.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/FREEZE.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/._PARI_LOCAL_DATA.txt",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/PARI_LOCAL_DATA.txt",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/local_reduction.txt",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/PARI_LOCAL_DATA.txt"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/._D7_CERTIFICATE.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/D7_CERTIFICATE.md",
+      "match": [
+        "evidence/src/BSD_TWIST_D7_CERTIFICATE_2026-09-22/RESULT.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/READ_FIRST/D7_CERTIFICATE.md",
+        "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/evidence/D7_CERTIFICATE_RESULT.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/D7_CERTIFICATE.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/READ_FIRST/D7_CERTIFICATE.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/._TWIST_INVARIANTS.txt",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/TWIST_INVARIANTS.txt",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/READ_FIRST/TWIST_INVARIANTS.txt"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/._PRIOR_AUDIT_runB.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runB.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runB.md",
+        "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/B/ORDINARY_BRIDGE_2026-09-22_aristotle/AUDIT_ORDINARY_BRIDGE.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runB.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runB.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/._RECONCILIATION.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+        "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/GRADING.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md"
+      ],
+      "mode": "redacted"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/._DO_NOT_OPEN_UNTIL_STAGE_I_IS_FROZEN.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/DO_NOT_OPEN_UNTIL_STAGE_I_IS_FROZEN.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/DO_NOT_OPEN_UNTIL_STAGE_I_IS_FROZEN.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/DO_NOT_OPEN_UNTIL_STAGE_I_IS_FROZEN.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/DO_NOT_OPEN_UNTIL_STAGE_I_IS_FROZEN.md"
+      ],
+      "mode": "identical"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/._PRIOR_AUDIT_runA.md",
+      "match": [],
+      "mode": "redacted",
+      "omission": "AppleDouble metadata only, not mathematical content"
+    },
+    {
+      "member": "BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runA.md",
+      "match": [
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runA.md",
+        "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/A/ORDINARY_BRIDGE_2026-09-22_aristotle/ORDINARY_BRIDGE_AUDIT.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runA.md",
+        "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/PRIOR_AUDIT_runA.md"
+      ],
+      "mode": "identical"
+    }
+  ],
+  "all_inner_members_retained": false,
+  "decision": "exclude redundant outer archive to remove nested private identifier",
+  "all_substantive_inner_members_retained": true,
+  "substantive_inner_count": 15,
+  "omitted_AppleDouble_entries": 18
+}

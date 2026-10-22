@@ -1,0 +1,217 @@
+{
+  "folder": "BSD_DEFINITE_FIELD_GATE_2026-09-22",
+  "date": "2026-09-22",
+  "stage": 8,
+  "trigger": "backward seam trace: definite-theta branch never instantiated K",
+  "Nminus_eligible": [
+    3,
+    2243,
+    5843
+  ],
+  "Nminus_excluded": {
+    "2": "v_2(N)=3, not Steinberg",
+    "4547": "v=2, additive"
+  },
+  "branches": {
+    "[3]": [
+      -79,
+      -319,
+      -1255
+    ],
+    "[2243]": [
+      -119,
+      -311,
+      -551
+    ],
+    "[5843]": [
+      -167,
+      -215,
+      -287
+    ],
+    "[3,2243,5843]": [
+      -7,
+      -103,
+      -271
+    ]
+  },
+  "control_D_minus_23_definite_admissible": false,
+  "root_number": {
+    "formula": "chi_D(N) = (-1)^{|N^-|}",
+    "w_ED": "+1 for EVERY admissible D",
+    "automatic": true,
+    "consequence": "root number does not narrow candidates"
+  },
+  "best_candidate": {
+    "D": -7,
+    "Nminus": [
+      3,
+      2243,
+      5843
+    ],
+    "headroom_x": 98,
+    "class_number": 1,
+    "caveat": "h=1 => Pic(O_K) trivial, conductor-1 Gross set is one point; unresolved",
+    "fallback": {
+      "D": -103,
+      "class_number": 5
+    }
+  },
+  "corpus_cap_abs_D": 500,
+  "gate": {
+    "1_definite_factorization": "SETTLED",
+    "2_root_number": "SETTLED_AUTOMATIC",
+    "3_rank_ED_zero": "SETTLED",
+    "4_theta_hypotheses": "NOT_AUDITED",
+    "5_selmer_corank_theorem": "NOT_AUDITED"
+  },
+  "stage2": {
+    "target": "certified L(E^D,1) != 0",
+    "weight": "exp (NOT E_1)",
+    "cheaper_than_D23_run": true,
+    "corpus_D_independent": true,
+    "cutoff": "MUST be chosen from the interval, not in advance",
+    "traversal": "table-free only; dense = 26 GiB at T=7e9 on 16 GiB host",
+    "launched": false
+  },
+  "nothing_certified": true,
+  "engine_launched": false,
+  "h_minus7_caveat": "RETIRED - no class-number hypothesis; O_n orders; interpolation from n>=max{1,s}",
+  "condition4": {
+    "verdict": "MET in shape",
+    "three_term_relation_matches_H1": true,
+    "normalization_conventions": "unaudited",
+    "Ram_verified_all_p_ge_5": true,
+    "v_Delta_at_multiplicative": {
+      "3": 2,
+      "2243": 1,
+      "5843": 2
+    }
+  },
+  "condition5": {
+    "verdict": "SUPERSEDED BY STAGE 3 - coverage reopened; blocker is the rank-2 leading term"
+  },
+  "dominant_gap": "inert-in-fixed-K, density 1/2 (supersingular, density 0, is now secondary)",
+  "recommendation": "RUN L(E^-7,1). Hold WITHDRAWN - it is the only source of d^- = 0.",
+  "surviving_route": "TASK.md Q2 direction 2: K varies with p; needs uniformity in D and rank-0 in families",
+  "stage2_withdrawn": {
+    "INERT_PRIME_COMPANION_UNSUPPLIED": "FALSE - BLV and BBL supply non-CM",
+    "FIXED_K_COVERAGE_STRUCTURALLY_INSUFFICIENT": "WITHDRAWN - true of Chan-Ho Kim's theorem only",
+    "error_mode": "kill-verdicts-must-not-outrun-the-theorem"
+  },
+  "BLV": {
+    "arxiv": "2306.17784",
+    "journal": "Math. Ann. 395 (2026)",
+    "p_split_or_inert": true,
+    "ordinary_or_supersingular": true,
+    "non_CM": "forced by rho-bar surjectivity",
+    "thmA": "(L_p^eps) subset (Char^eps), equality in non-exceptional case",
+    "exceptional": "supersingular AND p inert AND eps = +",
+    "p_nmid_hK_vacuous_for_D_minus7": true,
+    "rank2_leading_term_present": false,
+    "remark_1_4": "local zero in the exceptional case prevents treating the trivial character on the same ground"
+  },
+  "first_unproved_theorem": "BLV_RANK2_LEADING_TERM: I^2/I^3 nonzero => Sha(E/K)[p]=0 at rank E(K)=2",
+  "repairs": {
+    "a_p_pm1": {
+      "stage2_said": "expected finite",
+      "correct": "Lang-Trotter conj. infinite, density 0, unproved both ways",
+      "measured_none_below": 30000,
+      "case_dependent": "split p needs only a_p != 1"
+    },
+    "Ram": {
+      "stage2_gap": "only multiplicative places checked",
+      "repair": "j integral at 2 and 4547 => potentially good => inertia order | 24 => p>=5 ramified; covers all l|N"
+    }
+  },
+  "stage3_corrections": {
+    "remark_1_4": "WITHDRAWN as the reason - it concerns the EXCEPTIONAL local zero only; n=0 is accessible in the non-exceptional setting. Verdict BLV_RANK2_LEADING_TERM = NOT PRESENT stands on the other ground.",
+    "H0_at_Nplus": {
+      "hypothesis": "H^0(G_{Q_q},E[p]) = 0 for q | N^+",
+      "was": "omitted",
+      "settled": "E(Q_q)[p] = 0 for ALL p >= 5 at q = 2 and 4547",
+      "primes_excluded": 0,
+      "argument": "additive + j integral => formal group pro-q; E_0/E_1 = (F_q,+) a q-group; c_q <= 4 for every additive type"
+    }
+  },
+  "interface_A": {
+    "test": "F_p | L_p; ord_T L_p = m with unit leading coeff + ord_T F_p >= m => both units",
+    "logic": "checked, sound",
+    "A0_normalization": {
+      "L_p": "calL_p * calL_p^iota",
+      "iota": "T -> -T/(1+T), preserves I and ord",
+      "hard_constraint": "ord_T L_p = 2*ord_T calL_p, ALWAYS EVEN",
+      "reading1": "c_2 in I^2/I^3 of calL_p => m = 4",
+      "reading2": "ord_T L_p = 2 => witness in I/I^2 of theta",
+      "mutually_exclusive": true,
+      "unit_property_robust": "leading coeff of L_p = +-(leading coeff of calL_p)^2, so unit transfers either way"
+    },
+    "A1": "rank two forces ord_T F_p >= m - ASSUMED, NOT ESTABLISHED",
+    "A2": "unit leading coeff => Sha(E/K)[p^inf] = 0 - the open question"
+  },
+  "interface_B": "a_p = +-1 ordinary primes; moot unless A closes",
+  "A0": {
+    "verdict": "RESOLVED: THETA_ORDER_2_FULL_ORDER_4",
+    "checked_not_assumed": true,
+    "apparent_counterexample": "search returned ord_J theta = max{r+,r-} - 1",
+    "resolution": "that is the INDEFINITE case (arXiv 1910.08680, N^- even number of prime factors); ours is definite",
+    "independent_mechanism": "anticyclotomic character odd under tau => height matrix block-antidiagonal => rank 2*min, kernel |r+-r-| => ord >= (r+ + r-) + |r+-r-| = 2*max",
+    "our_lane": {
+      "r_plus": 2,
+      "r_minus": 0,
+      "max": 2,
+      "ord_I_calL_p": ">= 2",
+      "ord_I_L_p": ">= 4",
+      "extra_vanishing_over_complex_order": 2
+    },
+    "line_level_citation": "BRANCH_THETA.md sec1 theta_n^alpha = theta_{n+1} - alpha^-1 nu(theta_n) (Kim alpha-stabilization, square-root side); sec2 'invisible in exactly the quotient that detects the mod-p degree-two witness' with N in pLambda + I^3; sec3 target sum c_2(sigma) phi_E(x_{p^n}(sigma)) != 0 mod p",
+    "robustness": "m = 4 holds for (2,0) AND (2,2); the ORDER does not depend on certifying r- = 0"
+  },
+  "A1": "DISSOLVED at ordinary p (BLV equality, no exceptional case). Residue = MODULE IDENTIFICATION only.",
+  "A2": "REWRITTEN m=4: unit I^4/I^5 coefficient => Sha = 0? Leading term carries a DERIVED regulator, because r- = 0 makes the anticyclotomic height pairing identically zero and |r+-r-| = 2 > 1.",
+  "A3": "NEW: supersingular analogue. BD Cor 3 is good-ordinary only. No established augmentation order. Untouched.",
+  "not_verified": [
+    "BD Thms 2.7/2.18/2.23 and Rmk 2.21 at source",
+    "rank E^{-7}(Q) = 0",
+    "module identification"
+  ],
+  "BD05_definite_ordinary_order": {
+    "status": "PROVED",
+    "source": "Bertolini-Darmon Annals 2005, Thm 1 setup + Cor 3",
+    "setup": "N^- squarefree with ODD number of prime factors = definite = ours",
+    "statement": "ord_I L_p >= 2*max(r+,r-) at good ordinary p (delta^\u00b1 = 0)"
+  },
+  "stage5_corrections": {
+    "kernel": "EQUALITY unearned. dim ker = (r+ + r-) - 2 rank(A) >= |r+ - r-|; equality iff A maximal rank. Stage-5 check used a RANDOM A (generically full rank), hiding the gap. Lower bound survives a fortiori.",
+    "m4_robustness": "WITHDRAWN. m=4 iff r- <= 2. r- = 4 gives ord >= 8. Correct: independent of DISTINGUISHING r- = 0 from r- = 2, not of certifying r- = 0."
+  },
+  "reversal": "[c_2] != 0 => L_p in I^4\\I^5 => 2*max(2,r-) <= 4 => r- <= 2, free at ordinary p. Does not separate 0 from 2.",
+  "A2a": {
+    "status": "LIVE ROUTE (stage 6 'recurring wall' SUPERSEDED)",
+    "why_stage6_was_wrong": "toy model used Mordell-Weil ranks and dropped tau; BD derived heights run on the PRO-p Selmer group S, which contains T_p Sha, so sigma >= 2*max(s^+,s^-) constrains Div Sha",
+    "plus_side": "d^+ = 0 FREE from the inequality (rank E(Q) = 2 already fills s^+)",
+    "minus_side": "DISCHARGED: d^- = 0 by the certificate",
+    "certificate_role": "L(E^-7,1) != 0 => GZK at analytic rank 0 => r^- = 0 AND #Sha(E^-7/Q) < inf => d^- = 0",
+    "conditional_on": "[c_2] != 0 (gives sigma = 4 exactly, via BLV EQUALITY at ordinary p)",
+    "remaining": "[c_2] != 0 (sigma = 4) and module identification"
+  },
+  "A2b": "FORMAL, conditional on A2a: unit LHS + both factors v_p >= 0 + product v_p = 0 => v_p(#Sha) = 0",
+  "withdrawn": [
+    "HOLD_L_E_MINUS_7_RUN",
+    "MW_RANK_PARITY_FROM_SIGN",
+    "A2a = recurring Sha-finiteness wall"
+  ],
+  "D7_certificate": {
+    "status": "OBTAINED",
+    "interval": "[9.054319, 9.054421]",
+    "zero_excluded": true,
+    "margin": 179000.0,
+    "analytic_rank": 0,
+    "consequences": [
+      "rank E^-7(Q) = 0",
+      "Sha(E^-7/Q) finite"
+    ],
+    "artifact": "~/BSD_TWIST_D7_CERTIFICATE_2026-09-22/",
+    "claims_nothing_further": true
+  },
+  "rank_distribution": "(r+,r-) = (2,0) ESTABLISHED"
+}

@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "precision": 8,
+      "valuation_cancellation": true,
+      "raw_log_product_replayed": true,
+      "chi_log_product_replayed": true,
+      "raw_rank": 0,
+      "chi_rank": 0,
+      "local_nonpower_control_nonzero": true
+    },
+    {
+      "precision": 9,
+      "valuation_cancellation": true,
+      "raw_log_product_replayed": true,
+      "chi_log_product_replayed": true,
+      "raw_rank": 0,
+      "chi_rank": 0,
+      "local_nonpower_control_nonzero": true
+    }
+  ],
+  "input_columns": 99,
+  "unit_authentication": "sibling ideal relation certificate"
+}

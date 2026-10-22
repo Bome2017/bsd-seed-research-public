@@ -1,0 +1,80 @@
+{
+  "folder": "BSD_TWIST_D7_CERTIFICATE_2026-09-22",
+  "date": "2026-09-22",
+  "stage": 5,
+  "goal": "certify L(E^-7,1) != 0",
+  "scope": "rank 0 + Sha finite for the twist ONLY; no BSD claim",
+  "why": "stage 7 A2a minus side: only GZK from L != 0 gives d^- = 0",
+  "N": 6503188012738584,
+  "D": -7,
+  "c": 1.11306025e-08,
+  "tail_formula": "2*tail_ms(c,T); tail_ms = [2 sqrt T + ((log T+2)/k + 1/(k^2 T))/sqrt T] exp(-kT)",
+  "tail_identity_crosscheck": {
+    "against": "sealed D=-23 run",
+    "recorded": 0.335041797049,
+    "recomputed": 0.335041797048,
+    "match": true
+  },
+  "tail_table": {
+    "1e9": 3.75389,
+    "2e9": 5.8679e-05,
+    "3e9": 9.36205e-10,
+    "4e9": 1.48389e-14,
+    "5e9": 2.33169e-19,
+    "7e9": 5.63313e-29
+  },
+  "corpus_T": 55046045695,
+  "corpus_segments": 3281,
+  "cutoff_policy": "NEVER in advance; stop at first interval excluding 0",
+  "launched": true,
+  "certified": true,
+  "T": 2013265919,
+  "segments": 120,
+  "units": 600,
+  "workers": 12,
+  "peak_rss_gb": 0.83,
+  "wall_min": 4.5,
+  "partial_2S": "[9.05436995266740316598495882372 +/- 6.28e-30]",
+  "tail_bound": "[5.068075129247713082248669e-5 +/- 4.28e-30]",
+  "interval": "[9054319, 9054421] / 1000000",
+  "zero_excluded": true,
+  "positive": true,
+  "margin": 179000.0,
+  "conclusion": "L(E^-7,1) != 0; analytic rank 0; by GZK rank E^-7(Q) = 0 and Sha(E^-7/Q) finite",
+  "NOT_claimed": [
+    "BSD",
+    "any order formula",
+    "any Sha order",
+    "FIN",
+    "ORDER9",
+    "Q36"
+  ],
+  "validation": {
+    "exp_test": "1280 checked, 0 nonoverlap, max radius 3.56e-39",
+    "block_test": "448 terms, 0 failures, 7/7 blocks overlap",
+    "fresh_recombination": "byte-identical ball dumps",
+    "independent_replay": {
+      "T": 16777215,
+      "engine": "9.28074326789452806960721098863",
+      "independent": "9.28074326789452896946",
+      "abs_diff": 1.776e-15,
+      "method": "numpy spf sieve + multiplicativity + math.fsum"
+    },
+    "independent_tail": "matches engine to 22 significant digits",
+    "corpus_integrity": "0 ap segments modified during the run"
+  },
+  "gate_consequence": {
+    "r_minus": 0,
+    "d_minus": 0,
+    "rank_E_K": 2,
+    "rank_distribution": "(r+,r-) = (2,0)",
+    "flips": [
+      "DEFINITE_TWIST_RANK0: NOT CERTIFIED -> CERTIFIED",
+      "M4_FROM_RANK_DATA: r- <= 2 now holds (r- = 0)"
+    ],
+    "still_conditional_on": [
+      "[c_2] != 0",
+      "module identification (BLV Char_p vs BD X_inf)"
+    ]
+  }
+}

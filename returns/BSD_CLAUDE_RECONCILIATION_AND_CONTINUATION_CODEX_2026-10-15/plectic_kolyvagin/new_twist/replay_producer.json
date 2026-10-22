@@ -1,0 +1,21 @@
+{
+  "elapsed_seconds": 2.067,
+  "fresh_empty_directory": true,
+  "outputs": {
+    "exact_symbol.gp": {
+      "byte_identical": true,
+      "sha256": "fa78e6b4dea52c1903d9c3500e59c17ae5c71716979efb1ca4cef140bad3539f"
+    },
+    "rows_107.gp": {
+      "byte_identical": true,
+      "sha256": "18bf4cf37d1b2bf8345afc0367abdd5cd87cff472df14c8bf2ca3519a75633c5"
+    },
+    "rows_83.gp": {
+      "byte_identical": true,
+      "sha256": "74cd05d1bc2767299d5b003443cf48c4919fe1c37500695a1811864f27b90b24"
+    }
+  },
+  "same_engine": true,
+  "status": "EXACT_REPLAY_MATCH",
+  "stderr": "  *** msfromell: Warning: increasing stack size to 256000000.\n  *** msfromell: Warning: increasing stack size to 512000000.\n  *** msfromell: Warning: increasing stack size to 1000001536.\n"
+}

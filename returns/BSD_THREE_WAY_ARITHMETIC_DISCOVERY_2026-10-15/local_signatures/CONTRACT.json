@@ -1,0 +1,15 @@
+{
+  "question": "Can local cube signatures modulo the images of all rational point directions detect the already authenticated excess classes?",
+  "curves": [
+    "1913b1",
+    "28042a1",
+    "seed3",
+    "389a1"
+  ],
+  "coefficient_prime": 3,
+  "initial_bad_place_data": "Reuse actual source evaluation and local Kummer-image matrices.",
+  "fresh_scan": "First 24 eligible good rational primes q <=100000 with q=1 mod3 splitting completely in the degree8 point field; skip primes where any retained source factor is not a unit.",
+  "per_curve_seconds_cap": 90,
+  "quotient_definition": "At q, annihilator of the full known saturated rational point image, computed before multiplying into extra class columns.",
+  "scope": "Injectivity on the known class quotient is not an upper bound on unknown Selmer/Sha. 28042 and seed ambient completeness retain prior grades. A false candidate is not a Selmer class merely because a local signature is nonzero."
+}

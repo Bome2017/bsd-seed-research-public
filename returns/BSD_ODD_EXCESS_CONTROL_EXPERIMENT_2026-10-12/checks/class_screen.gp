@@ -1,0 +1,3 @@
+default(nbthreads,1);
+{ds=[273, 553, 617, 697, 817, 933, 1057, 1257, 1313, 1457, 1697, 1753, 1897, 1937, 2033, 2193, 2737, 2897, 3193, 3433, 3613, 3733, 3793, 3873, 3997, 4097, 4233, 4577, 4673, 4953, 5173, 5933, 5977, 6337, 7093, 7177, 7737, 7813, 7837, 7913, 8013, 8033, 8493, 9113, 9353, 9417, 9553, 9673, 9817, 9937, 10257, 10553, 10873, 11273, 11537, 11697, 11713, 11973, 12313, 12497, 12577, 12677];for(i=1,#ds,d=ds[i];bn=bnfinit(quadpoly(d,y));cyc=bn.cyc; print("CLASS ",[d,bn.no,cyc]); if(bn.no%5==0,pr=idealprimedec(bn,11)[1];co=bnfisprincipal(bn,pr,0);sm=matsnf(concat(matdiagonal(cyc),co));print("SCLASS ",[d,co,sm,bnfcertify(bn)])););print("DONE");}
+quit;

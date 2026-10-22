@@ -1,0 +1,47 @@
+[
+  {
+    "original": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/data.gp",
+    "local": "inputs/data.gp",
+    "sha256": "c1a8a2a2e0257b7ea88ebce172a49f826bc107e2411263395860d06f62d62ab2"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/nf.gp",
+    "local": "inputs/nf.gp",
+    "sha256": "1f3942b8438d0c358f7590c2751d15be83e4ac15b4a2eb00241997924953daf2"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/bnf.bin",
+    "local": "inputs/bnf.bin",
+    "sha256": "276b6636568b24d9f40a6055b248d226b9dced1a7ab16a46b2db19fb5e0d17cd"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/matrices.json",
+    "local": "inputs/matrices.json",
+    "sha256": "19eb9f4c3f720ae49c57f0c307e0095ce5bb50951423e8b191e4e411d94026b2"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/run.out",
+    "local": "inputs/run.out",
+    "sha256": "dcb210bef00c14a06af37abb568745cbb7f3e682d0834131e555fb259807b45a"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/analyze.out",
+    "local": "inputs/analyze.out",
+    "sha256": "4b38472a680bb4502afc1c1002b75788f320f760b64d3e93308173b9a17ceead"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/lib/classimg.gp",
+    "local": "inputs/lib/classimg.gp",
+    "sha256": "af807f8f3b15e09b8f1ec91e1c85cb0e2b36788c82445b25d1e12f8d4d733f34"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/lib/cubinv.gp",
+    "local": "inputs/lib/cubinv.gp",
+    "sha256": "4c6daec403143281dac6c4e2b3009a60d0c61aea28a0289d1a25738d26f1df59"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/lib/selmer.gp",
+    "local": "inputs/lib/selmer.gp",
+    "sha256": "adb81dedbb2e073d7ec4da8e0ef68deb157aa78594a97a6eb2a1b9322b4b6f0e"
+  }
+]

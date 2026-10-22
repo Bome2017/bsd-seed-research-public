@@ -1,0 +1,14 @@
+{
+  "status": "EXACT_THREE_CLASS_LOWER_BOUND",
+  "curve": "28042a1",
+  "coefficient_prime": 3,
+  "algebraic_rank": 1,
+  "actual_Selmer_lower_dimension": 3,
+  "actual_Sha3_lower_dimension": 2,
+  "BNF_certification": "timed out; unconfirmed",
+  "upper_dimension": "3 conditional on complete source",
+  "admitted_actual_unit_classes": 2,
+  "full_local_image_check": true,
+  "no_primary_order_claim": true,
+  "seed_endpoints_unchanged": true
+}

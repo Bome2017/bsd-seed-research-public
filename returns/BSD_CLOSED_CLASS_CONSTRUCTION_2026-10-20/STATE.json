@@ -1,0 +1,30 @@
+{
+  "status": "COARSE_COMPLETE_RELATIVE_CLASS_BOUND_DERIVED",
+  "initial_lab_commit": "8f33ceca7dc2b768706c197f24c89acf5f0ba3af",
+  "actual_curve": [
+    0,
+    -22735,
+    0,
+    106272484,
+    0
+  ],
+  "coefficient_prime": 5,
+  "complete_relative_class_order_bound": "262000000000000000000000000000000000000000000000000000000000000000000",
+  "complete_relative_5_primary_length_upper": 97,
+  "sum_of_two_faithful_class_dimensions_upper": 97,
+  "complete_single_faithful_source_upper_before_norm_local_cuts": 100,
+  "geometric_closed_rank_each_character": 0,
+  "geometric_unit_kernel_products": "84 copies of +1",
+  "small_bound_obtained": false,
+  "across_prime_small_bound": false,
+  "GRH_used_for_new_analytic_bound": false,
+  "grade": "written deduction under retained field inputs, separate desk review and exact arithmetic",
+  "endpoints": {
+    "FIN": "unchanged/open",
+    "ORDER9": "unchanged/open",
+    "Q36": "unchanged/open"
+  },
+  "publication": "custody recorded separately after byte-preserving lab upload",
+  "separate_review": "review/FINAL_REVIEW.md",
+  "active_jobs": 0
+}

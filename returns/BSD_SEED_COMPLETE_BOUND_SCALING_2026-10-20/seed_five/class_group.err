@@ -1,0 +1,7 @@
+  ***   at top-level: ...;F=read("field.gp")[4];B=bnfinit(F,1);writebin
+  ***                                             ^---------------------
+  *** bnfinit: the PARI stack overflows !
+  current stack size: 2000000000 (1907.349 Mbytes)
+  [hint] set 'parisizemax' to a nonzero value in your GPRC
+
+... skipping file 'class_group.gp'

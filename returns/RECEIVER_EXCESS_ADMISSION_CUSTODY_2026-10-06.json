@@ -1,0 +1,22 @@
+{
+ "return": "BSD_RECEIVER_EXCESS_ADMISSION_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-07T02:51:15Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "FIXED_LOCAL_CONDITION_CARRIER = SELMER_LOOP (Lemma 1, proved: rank >= 2 forces a nonzero fine-Selmer Kummer line at every large p). Not RECEIVER_UPPER_BOUND = CLOSED: an independent bound on the exact receiver, the OpenAI obstruction-span mechanism and a fixed object carrying E(Q) (the 1-motive) remain open. Plectic MISSING_CONSTRUCTION (not disproved).",
+ "files": [
+  {
+   "path": "BSD_RECEIVER_EXCESS_ADMISSION_CLAUDE_2026-10-06/ADMISSION.md",
+   "sha256": "ae3fd400d64a5c9db4b0e381d5c1919716f88be85f213bbf0ccc33b8190b0721",
+   "bytes": 8197
+  },
+  {
+   "path": "BSD_RECEIVER_EXCESS_ADMISSION_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "b96568bd7da959a43611f4414fc2702d5d2218d4e85185e4f9d0e063b68442b2",
+   "bytes": 79
+  }
+ ],
+ "scope": "admission screen; scope corrected per Pro 10-06; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

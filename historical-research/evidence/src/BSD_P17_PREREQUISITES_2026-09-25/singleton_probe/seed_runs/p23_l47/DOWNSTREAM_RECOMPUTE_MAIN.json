@@ -1,0 +1,27 @@
+{
+ "p": 23,
+ "l": 47,
+ "generator": 5,
+ "symbols": 46,
+ "all_integral": true,
+ "c0": "0",
+ "c1": "9430",
+ "c2": "103854",
+ "c1_mod_p": 0,
+ "c2_mod_p": 9,
+ "generator_orbit_c2_mod_p": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  8,
+  9,
+  12,
+  13,
+  16,
+  18
+ ],
+ "n_generators": 22,
+ "note": "downstream arithmetic on the certified table; orbit = covariance check, not symbol certification"
+}

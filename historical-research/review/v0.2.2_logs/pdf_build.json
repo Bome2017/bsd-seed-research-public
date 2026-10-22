@@ -1,0 +1,114 @@
+{
+  "attempts": [
+    {
+      "command": [
+        "/Library/TeX/texbin/latexmk",
+        "-norc",
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-synctex=1",
+        "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/seed_bsd.tex"
+      ],
+      "compiler": "texlive",
+      "exitCode": 0,
+      "log": "    removing `\\Sha' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `\\le' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\n[8]\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 59.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 59.\n\n\n[9]\n[10]) (./sections/05_scalar.tex) (./sections/06_twists.tex\n[11]) (./sections/07_good_primes.tex\n[12]\n[13]) (./sections/08_bad_primes.tex\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 6.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 6.\n\n\n[14]\nUnderfull \\hbox (badness 3386) in paragraph at lines 26--26\n[]|\\T1/lmr/m/n/10.95 (+20) Finiteness first: $[]  [][]\\OT1/lmr/m/n/10.95 (+20) \n(\\OML/lmm/m/it/10.95 E=\\OT1/lmr/bx/n/10.95 (+20) Q\\OT1/lmr/m/n/10.95 (+20) ) \\O\nMS/lmsy/m/n/10.95 ^^T\n\nUnderfull \\hbox (badness 6559) in paragraph at lines 28--28\n[]|\\T1/lmr/m/n/10.95 (+20) Jones's split leading-term for-mula [[],\n\nUnderfull \\hbox (badness 2707) in paragraph at lines 28--28\n\\T1/lmr/m/n/10.95 (+20) Thm. 3.1], for-ward di-rec-tion; it needs\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 28--29\n[]|\\T1/lmr/m/n/10.95 (+20) read at the source; $\\OML/lmm/m/it/10.95 `[] \\OT1/lm\nr/m/n/10.95 (+20) =\n\nUnderfull \\hbox (badness 1097) in paragraph at lines 28--29\n[][]\\OT1/lmr/m/n/10.95 (+20) (\\OML/lmm/m/it/10.95 q[]\\OT1/lmr/m/n/10.95 (+20) )\n\\OML/lmm/m/it/10.95 =\\OT1/lmr/m/n/10.95 (+20) ([][](\\OML/lmm/m/it/10.95 q[]\\OT1\n/lmr/m/n/10.95 (+20) ) [][](1 + \\OML/lmm/m/it/10.95 p\\OT1/lmr/m/n/10.95 (+20) )\n) \\OMS/lmsy/m/n/10.95 ^^Q\n\n[15]\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 77.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 77.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 83.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 83.\n\n\n[16]) (./sections/09_reductions.tex\nUnderfull \\hbox (badness 10000) in paragraph at lines 38--38\n[][]\\T1/lmr/m/it/10.95 (+20) For $\\OML/lmm/m/it/10.95 p \\OMS/lmsy/m/n/10.95 2\n\n[17]) (./sections/10_obstructions.tex\n[18]\n[19] (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-euf.cfg)\n[20]) (./sections/11_remaining.tex\nUnderfull \\hbox (badness 10000) in paragraph at lines 21--21\n[]|\\T1/lmr/m/n/10.95 (+20) good su-per-sin-gu-lar $\\OML/lmm/m/it/10.95 p$\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 21--21\n\\T1/lmr/m/n/10.95 (+20) ($\\OT1/lmr/m/n/10.95 (+20) 23\\OML/lmm/m/it/10.95 ; \\OT1\n/lmr/m/n/10.95 (+20) 29\\OML/lmm/m/it/10.95 ; \\OT1/lmr/m/n/10.95 (+20) 131\\OML/l\nmm/m/it/10.95 ; [] $\\T1/lmr/m/n/10.95 (+20) ; in-fin-itely\n\n[21]) (./sections/A_grades.tex\n[22]) (./sections/B_methods.tex\n[23]) (./sections/D_register.tex\n[24]) (./sections/F_lattice_proof.tex\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 35.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `\\le' on input line 35.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 35.\n\n\n[25]) (./sections/G_bridge_proof.tex\n[26]\n[27]\nUnderfull \\hbox (badness 10000) in paragraph at lines 85--85\n[]|\\T1/lmtt/m/n/10.95 iA, iB, $\\OML/lmm/m/it/10.95 ^^Y$\\T1/lmtt/m/n/10.95 A, $\\\nOML/lmm/m/it/10.95 ^^Y$\\T1/lmtt/m/n/10.95 B,\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 85--85\n\\T1/lmtt/m/n/10.95 u1, u0\\T1/lmr/m/n/10.95 (+20) , ex-act-ness\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 88--88\n[]|\\T1/lmtt/m/n/10.95 Module.Finite,\n\nUnderfull \\vbox (badness 2818) has occurred while \\output is active\n[28]) (./sections/H_verifier_proof.tex\n[29]) (./seed_bsd.bbl\npdfTeX warning (font expansion): font should be expanded before its first use\n\n[30]\nUnderfull \\vbox (badness 10000) has occurred while \\output is active\n[31])\n[32] (./seed_bsd.aux) )\n(see the transcript file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2025/\ntexmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/lm/lmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm\n/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.p\nfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/l\nocal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texliv\ne/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texm\nf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2025/texmf-dist/font\ns/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/lm/lmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.\npfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/lo\ncal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv\ne/2025/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2025/texm\nf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu\nblic/lm/lmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lms\ny9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></u\nsr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb\n></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10\n.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cyrillic/w\nncyr10.pfb>\nOutput written on seed_bsd.pdf (32 pages, 587386 bytes).\nSyncTeX written on seed_bsd.synctex.gz.\nTranscript written on seed_bsd.log.\nLatexmk: Getting log file 'seed_bsd.log'\nLatexmk: Examining 'seed_bsd.fls'\nLatexmk: Examining 'seed_bsd.log'\nLatexmk: Found input bbl file 'seed_bsd.bbl'\nLatexmk: Log file says output to 'seed_bsd.pdf'\nLatexmk: Found bibliography file(s):\n  ./refs.bib\nLatexmk: All targets (seed_bsd.pdf) are up-to-date\n\n",
+      "pdfExists": true,
+      "pdfPath": "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/seed_bsd.pdf"
+    }
+  ],
+  "command": [
+    "/Library/TeX/texbin/latexmk",
+    "-norc",
+    "-pdf",
+    "-interaction=nonstopmode",
+    "-halt-on-error",
+    "-synctex=1",
+    "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/seed_bsd.tex"
+  ],
+  "compiler": "texlive",
+  "exitCode": 0,
+  "log": "    removing `\\Sha' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `\\le' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\n[8]\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 59.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 59.\n\n\n[9]\n[10]) (./sections/05_scalar.tex) (./sections/06_twists.tex\n[11]) (./sections/07_good_primes.tex\n[12]\n[13]) (./sections/08_bad_primes.tex\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 1.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 6.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 6.\n\n\n[14]\nUnderfull \\hbox (badness 3386) in paragraph at lines 26--26\n[]|\\T1/lmr/m/n/10.95 (+20) Finiteness first: $[]  [][]\\OT1/lmr/m/n/10.95 (+20) \n(\\OML/lmm/m/it/10.95 E=\\OT1/lmr/bx/n/10.95 (+20) Q\\OT1/lmr/m/n/10.95 (+20) ) \\O\nMS/lmsy/m/n/10.95 ^^T\n\nUnderfull \\hbox (badness 6559) in paragraph at lines 28--28\n[]|\\T1/lmr/m/n/10.95 (+20) Jones's split leading-term for-mula [[],\n\nUnderfull \\hbox (badness 2707) in paragraph at lines 28--28\n\\T1/lmr/m/n/10.95 (+20) Thm. 3.1], for-ward di-rec-tion; it needs\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 28--29\n[]|\\T1/lmr/m/n/10.95 (+20) read at the source; $\\OML/lmm/m/it/10.95 `[] \\OT1/lm\nr/m/n/10.95 (+20) =\n\nUnderfull \\hbox (badness 1097) in paragraph at lines 28--29\n[][]\\OT1/lmr/m/n/10.95 (+20) (\\OML/lmm/m/it/10.95 q[]\\OT1/lmr/m/n/10.95 (+20) )\n\\OML/lmm/m/it/10.95 =\\OT1/lmr/m/n/10.95 (+20) ([][](\\OML/lmm/m/it/10.95 q[]\\OT1\n/lmr/m/n/10.95 (+20) ) [][](1 + \\OML/lmm/m/it/10.95 p\\OT1/lmr/m/n/10.95 (+20) )\n) \\OMS/lmsy/m/n/10.95 ^^Q\n\n[15]\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 77.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 77.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 83.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 83.\n\n\n[16]) (./sections/09_reductions.tex\nUnderfull \\hbox (badness 10000) in paragraph at lines 38--38\n[][]\\T1/lmr/m/it/10.95 (+20) For $\\OML/lmm/m/it/10.95 p \\OMS/lmsy/m/n/10.95 2\n\n[17]) (./sections/10_obstructions.tex\n[18]\n[19] (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-euf.cfg)\n[20]) (./sections/11_remaining.tex\nUnderfull \\hbox (badness 10000) in paragraph at lines 21--21\n[]|\\T1/lmr/m/n/10.95 (+20) good su-per-sin-gu-lar $\\OML/lmm/m/it/10.95 p$\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 21--21\n\\T1/lmr/m/n/10.95 (+20) ($\\OT1/lmr/m/n/10.95 (+20) 23\\OML/lmm/m/it/10.95 ; \\OT1\n/lmr/m/n/10.95 (+20) 29\\OML/lmm/m/it/10.95 ; \\OT1/lmr/m/n/10.95 (+20) 131\\OML/l\nmm/m/it/10.95 ; [] $\\T1/lmr/m/n/10.95 (+20) ; in-fin-itely\n\n[21]) (./sections/A_grades.tex\n[22]) (./sections/B_methods.tex\n[23]) (./sections/D_register.tex\n[24]) (./sections/F_lattice_proof.tex\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 35.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `\\le' on input line 35.\n\n\nPackage hyperref Warning: Token not allowed in a PDF string (Unicode):\n(hyperref)                removing `math shift' on input line 35.\n\n\n[25]) (./sections/G_bridge_proof.tex\n[26]\n[27]\nUnderfull \\hbox (badness 10000) in paragraph at lines 85--85\n[]|\\T1/lmtt/m/n/10.95 iA, iB, $\\OML/lmm/m/it/10.95 ^^Y$\\T1/lmtt/m/n/10.95 A, $\\\nOML/lmm/m/it/10.95 ^^Y$\\T1/lmtt/m/n/10.95 B,\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 85--85\n\\T1/lmtt/m/n/10.95 u1, u0\\T1/lmr/m/n/10.95 (+20) , ex-act-ness\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 88--88\n[]|\\T1/lmtt/m/n/10.95 Module.Finite,\n\nUnderfull \\vbox (badness 2818) has occurred while \\output is active\n[28]) (./sections/H_verifier_proof.tex\n[29]) (./seed_bsd.bbl\npdfTeX warning (font expansion): font should be expanded before its first use\n\n[30]\nUnderfull \\vbox (badness 10000) has occurred while \\output is active\n[31])\n[32] (./seed_bsd.aux) )\n(see the transcript file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2025/\ntexmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/lm/lmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm\n/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.p\nfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/l\nocal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texliv\ne/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texm\nf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2025/texmf-dist/font\ns/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/lm/lmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.\npfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/lo\ncal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv\ne/2025/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2025/texm\nf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu\nblic/lm/lmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lms\ny9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></u\nsr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb\n></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10\n.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cyrillic/w\nncyr10.pfb>\nOutput written on seed_bsd.pdf (32 pages, 587386 bytes).\nSyncTeX written on seed_bsd.synctex.gz.\nTranscript written on seed_bsd.log.\nLatexmk: Getting log file 'seed_bsd.log'\nLatexmk: Examining 'seed_bsd.fls'\nLatexmk: Examining 'seed_bsd.log'\nLatexmk: Found input bbl file 'seed_bsd.bbl'\nLatexmk: Log file says output to 'seed_bsd.pdf'\nLatexmk: Found bibliography file(s):\n  ./refs.bib\nLatexmk: All targets (seed_bsd.pdf) are up-to-date\n\n",
+  "pdfExists": true,
+  "pdfPath": "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/seed_bsd.pdf",
+  "rootFile": "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/seed_bsd.tex",
+  "tectonic": {
+    "checked": [
+      {
+        "path": "/Users/bsm/.codex/plugins/cache/openai-bundled/latex/0.2.7/bin/tectonic",
+        "source": "bundled"
+      }
+    ],
+    "path": "/Users/bsm/.codex/plugins/cache/openai-bundled/latex/0.2.7/bin/tectonic",
+    "reason": "Tectonic executable is available.",
+    "source": "bundled",
+    "status": "available",
+    "version": "Tectonic 0.17.0"
+  },
+  "tectonicSuitability": {
+    "reasons": [
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/seed_bsd.tex: bibliography tooling"
+    ],
+    "scannedFiles": [
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/seed_bsd.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/H_verifier_proof.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/G_bridge_proof.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/F_lattice_proof.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/D_register.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/B_methods.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/A_grades.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/11_remaining.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/10_obstructions.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/09_reductions.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/08_bad_primes.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/07_good_primes.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/06_twists.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/05_scalar.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/04_primary.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/03_rank.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/02_curve.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/sections/01_intro.tex",
+      "/Users/bsm/BSD_SEED_V022_RELEASE_2026-09-23/repo/paper/release_id.tex"
+    ],
+    "suitable": false
+  },
+  "texliveDetection": {
+    "activeBinDir": "/Library/TeX/texbin",
+    "commands": {
+      "biber": {
+        "path": "/Library/TeX/texbin/biber",
+        "version": "present"
+      },
+      "kpsewhich": {
+        "path": "/Library/TeX/texbin/kpsewhich",
+        "version": "kpathsea version 6.4.1"
+      },
+      "latexmk": {
+        "path": "/Library/TeX/texbin/latexmk",
+        "version": "Latexmk, John Collins, 27 Dec. 2024. Version 4.86a"
+      },
+      "lualatex": {
+        "path": "/Library/TeX/texbin/lualatex",
+        "version": "This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)"
+      },
+      "pdflatex": {
+        "path": "/Library/TeX/texbin/pdflatex",
+        "version": "pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)"
+      },
+      "xelatex": {
+        "path": "/Library/TeX/texbin/xelatex",
+        "version": "XeTeX 3.141592653-2.6-0.999997 (TeX Live 2025)"
+      }
+    },
+    "knownTexBinDirs": [
+      "/Library/TeX/texbin",
+      "/usr/local/texlive/2025/bin/universal-darwin"
+    ],
+    "missingRecommended": [],
+    "missingRequired": [],
+    "reason": "Required TeX tools are available.",
+    "searchPath": "/Library/TeX/texbin:/usr/local/texlive/2025/bin/universal-darwin:/Users/bsm/.codex/tmp/arg0/codex-arg04Q0CUK:/Users/bsm/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/bsm/.bun/bin:/usr/local/opt/openjdk@17/bin:/Users/bsm/.local/bin:/opt/miniconda3/bin:/opt/miniconda3/condabin:/Users/bsm/.elan/bin:/usr/local/bin:/usr/local/sbin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/bsm/.foundry/bin:/Users/bsm/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources",
+    "status": "existing-usable",
+    "texmfroot": "/usr/local/texlive/2025"
+  }
+}

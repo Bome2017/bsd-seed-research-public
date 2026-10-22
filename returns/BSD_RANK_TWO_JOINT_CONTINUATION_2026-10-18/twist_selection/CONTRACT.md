@@ -1,0 +1,3 @@
+# Rank-two source selection from the successful11a1 field
+
+Hypothesis: a small quadratic twist of11a1 with rank2 may preserve a substantially smaller p7 torsion-field discriminant than389a1 or655a1, making actualunit/classarithmetic feasible. This is source selection only, not a Sha/nonvanishing test. Enumerate squarefree d orderedbyabsolutevalue<=40, good7 twists, use fundamentaldiscriminantD; exactPARIellrank upper/lower mustboth2 beforeadmission. Per-rank2secondalarm, total60seconds. KnownShaorquotientvaluesare notinputs. Ifrank2found, report curve/rationalpoints/discriminant andstop selection; exactfieldconstruction gets its own registeredbudget.

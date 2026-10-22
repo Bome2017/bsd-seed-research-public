@@ -1,0 +1,24 @@
+{
+  "exact_json_match": true,
+  "checks": 2671,
+  "seed_local_checks": [
+    {
+      "p": 17,
+      "points": 24,
+      "a_p": -6,
+      "ordinary": true,
+      "unit_root_mod_p4": 6981,
+      "modulus": 83521,
+      "does_not_check_Hida_exceptional_domain": true
+    },
+    {
+      "p": 31,
+      "points": 40,
+      "a_p": -8,
+      "ordinary": true,
+      "unit_root_mod_p4": 57776,
+      "modulus": 923521,
+      "does_not_check_Hida_exceptional_domain": true
+    }
+  ]
+}

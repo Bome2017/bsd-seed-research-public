@@ -1,0 +1,31 @@
+{
+  "status": "BYTE_IDENTICAL_COPY_AND_ARCHIVE_VERIFIED",
+  "source_directory": "/Users/bsm/BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20",
+  "return_path": "work/returns/BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20",
+  "archive_path": "work/returns/archives/BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20.zip",
+  "archive_sha256": "1f43ad05e1a122f94ae7575fd8a0b70d61d19a6fedc0bc1c0f95a8b861f8b085",
+  "archive_bytes": 632720,
+  "packet_files": 110,
+  "verification": {
+    "status": "HASH_AND_REQUESTED_EXACT_REPLAYS_PASS",
+    "manifest_entries": {
+      ".": 109,
+      "arithmetic": 42,
+      "theory": 12,
+      "review": 37
+    },
+    "portable_field_inputs": 5,
+    "exact_python_checks": [
+      "theory/certify_analytic_bound.py",
+      "review/check_analytic_coarse.py",
+      "review/parent_coarse_recombination.py",
+      "review/check_line_norms.py"
+    ],
+    "proof_assistant_verification": false,
+    "new_FIN_ORDER9_Q36_result": false
+  },
+  "mathematical_grade": "written deduction under retained exact field inputs; separate desk review; no formal certificate",
+  "endpoints": "FIN ORDER9 Q36 unchanged",
+  "publication_authorization": "standing direct user instruction Each time upload to lab GitHub so I can show pro 6",
+  "starting_lab_commit": "8f33ceca7dc2b768706c197f24c89acf5f0ba3af"
+}

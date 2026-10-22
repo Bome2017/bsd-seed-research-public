@@ -1,0 +1,20 @@
+{
+  "status": "REVIEWED_SUPPLEMENT_NOT_SUBMITTED",
+  "return": "work/returns/BSD_SEED_JET_CONSTRUCTOR_REVIEW_CODEX_2026-10-06",
+  "manifest_entries": 197,
+  "copied_manifest_verified": true,
+  "archives": [
+    {
+      "path": "work/returns/archives/BSD_SEED_JET_CONSTRUCTOR_2026-10-06.zip",
+      "sha256": "7a016ea49c0e4c8f46e93aaad108363562aeaaf871176f7ea9c6421463fcb535",
+      "bytes": 36432
+    },
+    {
+      "path": "work/returns/archives/BSD_SEED_JET_CONSTRUCTOR_REVIEWED_2026-10-06.zip",
+      "sha256": "83dcf2a1e3bfa1a3ae128bc58b9b64a270f26e1dcac3694ceb82ec5e700a522d",
+      "bytes": 386174
+    }
+  ],
+  "mathematical_grade": "Local construction reviewed; source and BSD implications conditional on retained imports; no new seed value or bound.",
+  "jobs_launched": false
+}

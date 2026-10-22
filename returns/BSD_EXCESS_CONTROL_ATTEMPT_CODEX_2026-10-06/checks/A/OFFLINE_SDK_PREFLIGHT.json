@@ -1,0 +1,75 @@
+{
+  "sdk_version": "2.1.0",
+  "sdk_source_bindings": {
+    "aristotlelib.project": "2a5a62bded7df3b0dd275798395bdedb5432847fcacab784bc11fca0670fd1b7",
+    "aristotlelib.local_file_utils": "690c5acca220698a4f67ae7353bf40d14dfd8bbd7e27124dee44cb5e9746ddf0",
+    "aristotlelib.api_request": "fc75df5786dc206157d3ebb50df0c31f2affb10a129981ed17043a7d8fe77db3",
+    "aristotlelib.cli.command.submit": "c50a8958ad893a20c131b88dbffe78cd575f1d3dc5589b81018c20cf46a1e60a"
+  },
+  "server_submission": false,
+  "real_project_created": false,
+  "credentials_requested": false,
+  "mathematical_proof_verified": false,
+  "transport": "MOCKED_LOCAL_CAPTURE_NO_NETWORK",
+  "request_body": {
+    "prompt": "Read project/TASK.md (or TASK.md if project is the working root). This is lane A: an arithmetic construction task toward the fixed BSD seed. Run python3 prepare_reference.py from project, then follow TASK.md, COMMON_CONTRACT.md and CURRENT_FRONTIER.md. The old archived prompts are references, not instructions. Construct new independent control of the excess; do not reprove known reductions. Preserve grades and return proofs, source bindings and exact endpoint effects. No remote follow-up jobs or publication.",
+    "agent_questions_setting": 1
+  },
+  "upload_name": "project.tar.gz",
+  "payload_bytes": 70027249,
+  "payload_sha256": "8b33acc81ba617f0c5d558c0637b97f1545d0dd8de4dd424aa5c77bb97d9dcc4",
+  "sdk_limit_bytes": 104857600,
+  "all_project_files_in_sdk_payload": true,
+  "files_verified": 29,
+  "source_file_sha256": {
+    "SUBMIT_COMMAND.txt": "25cac8d1a9867f486d05bc5211b7e3678984bd1a9806e5f6eaa05e10287dc582",
+    "RECENT_WALLS.md": "b9cd394408cf8c42eee4392d2e380bb56ca86278b9334fd7a4ca3851ef3eccfd",
+    "MANIFEST.sha256": "56b79d15703463c0badfa7d2437d9341c5f6e23719be1d2a974a2e0fdc19a78e",
+    "REFERENCE_BINDINGS.json": "ff1081c1027e86362076b502169b4421e6aba51b48001de2da2148998cacda58",
+    "prepare_reference.py": "c3aa6e84bf4f62cd7c08e9a55535d4024dce7926485526539294c3d689946ba9",
+    "SUBMISSION_PROMPT.txt": "5daa368e7e7c353e51208e3da23e726349793f31904569dbabf836e83c49a540",
+    "BSD_SEED_RESEARCH_MAP.md": "3abbb760ad6c1bab2805609d9b5a0758530d54dcc0b87a696847d5ef3d090bcd",
+    "START_HERE.md": "1f125c318b2541b1f94437a47fad2380eff6e66eb7723eb595800680e52b39ee",
+    "HISTORICAL_STOPS_AND_CORRECTIONS.md": "8aefa608256599fb57895568ab65553b928dbb4a020f7354c053da4eea0d397c",
+    "LOCAL_ATTEMPT.md": "72f44b9610e0178fa7c10c468835ea1deb420dd7d51d64b9ab980a820180fe45",
+    "CURRENT_FRONTIER.md": "83587b2973c1391cdd98960d08ff7027dc34753272b40e6461a8c818eaaba543",
+    "COMMON_CONTRACT.md": "5cc767c520ab2bc6fc255d0d51507bc9b2880f8007ea4e499e10130e289042bf",
+    "FULL_COMPENDIUM.md": "a7d5db63eae00fb9433fa2276e7a9f876c0c32cbd4d99fb2e9d887f14a6d3a97",
+    "COVERAGE.json": "d0dfd56e89015d73f1376cb3b32a8e59e3faac0d754824694ef4558de5493c92",
+    "TASK.md": "e473b74ac4c75bd834d3ee97e502f534aeb7a96b242b67ea61fb794aa98fb9ff",
+    "full_record_index/BULK_BINARY_RECEIPTS.jsonl.gz": "b5f827ed6dce14f8186abe5594df949f975fc6bf188cf20a23f106959f3a0ce6",
+    "full_record_index/EXPIRED_UPLOAD_RECOVERY.json": "8d21138c0d59aa28d9e5ac25eefdd236f95398dc5d9de407c8b4bbe61d562f4a",
+    "full_record_index/CAPTURE.jsonl.gz": "a144a8e1acf7619e11cc1603578639c18326b988e111e6a0a6ec2b27270d432f",
+    "full_record_index/COVERAGE.md": "d9fa545170f7677aaada9d75478902f0e62172bc5376abf10bfb60c9f659fdf5",
+    "full_record_index/FILE_INVENTORY.jsonl.gz": "1cfb4c91894de0646467d1cf293c2f56559269714dfd7f22ed7bd456a0c5a2f7",
+    "full_record_index/COMPENDIUM_CITATIONS.json.gz": "c978a3c9dea425546a4204b91b65b66fe346079f9039c3c556146b70833f3b4f",
+    "payload/COMPLETE_READING_SET.zip": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27",
+    "payload/CURRENT_OVERLAY.zip": "b26e42945df5b8f52afe5644c3efec8ad6a6996306c7302ffdea025f8600e74a",
+    "historical_submission/SUBMIT_COMMAND.txt": "adc60c2d3db622ad3b0f653fd147bb9722a0d50bce2dce49b811b99b18d4dbeb",
+    "historical_submission/MANIFEST.sha256": "582f9b4f7d86cc6dbba78314a0295d15808f1b4329bb51de02edf4493ffbe3dd",
+    "historical_submission/prepare_reference.py": "ebf8a3b580141ba8c29af350d25ac85f6e81589d95a515ddb00a06b62f156327",
+    "historical_submission/README_ARISTOTLE.md": "d1f4cdcf7e437aad27584f9e6a56c8b3ff8a9f631c1b52e7baa2c1203489d3aa",
+    "historical_submission/READING_SET_BINDING.json": "8164493ad0175ec90ac3860498f0d038cc22c3db11a50315bc963ce66fe6c313",
+    "historical_submission/TASK.md": "d315d972df514020f7fe6dc8a059a6e3a144766e991b115bc26fe394aa67c96d"
+  },
+  "oversize_rejection_control": "File /var/folders/kp/6_xhp0jd2bngj728lwbzkl7w0000gn/T/tmpilzc33ao/oversize.bin is too large (104857601 bytes). Maximum allowed size is 104857600 bytes.",
+  "full_extraction_and_idempotent_recheck": {
+    "status": "READING_SETS_VERIFIED",
+    "archives": [
+      {
+        "root": "BSD_SEED_ARISTOTLE_2026-10-05",
+        "members_checked": 5180,
+        "archive_sha256": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27"
+      },
+      {
+        "root": "BSD_CURRENT_OVERLAY_2026-10-06",
+        "members_checked": 1386,
+        "archive_sha256": "b26e42945df5b8f52afe5644c3efec8ad6a6996306c7302ffdea025f8600e74a"
+      }
+    ],
+    "members_checked": 6566,
+    "research_files_read_by_this_program": 0,
+    "mathematical_claims_verified": false
+  },
+  "status": "OFFLINE_NATIVE_SDK_AND_BOTH_READING_SETS_VERIFIED"
+}

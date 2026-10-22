@@ -1,0 +1,197 @@
+{
+  "status": "THEOREM_AND_CUTOFF_GATE_PASS_NO_ARITHMETIC_RUN",
+  "p": 13,
+  "a_p": -4,
+  "point_count": 18,
+  "alpha_mod_13": 9,
+  "alpha_inverse_square_mod_13": 9,
+  "interpolation_factor_mod_13": 4,
+  "formal_group_multiplier": 36,
+  "lower_level_quadratic_sum": 286,
+  "nonzero_folded_symbols": 66,
+  "predeclared_folded_groups": {
+    "1": [
+      4,
+      18,
+      58,
+      76,
+      77,
+      81
+    ],
+    "2": [
+      11,
+      25,
+      28,
+      32,
+      35,
+      40,
+      43,
+      60,
+      68,
+      73,
+      75,
+      84
+    ],
+    "4": [
+      2,
+      7,
+      8,
+      9,
+      15,
+      17,
+      29,
+      36,
+      38,
+      44,
+      46,
+      53
+    ],
+    "5": [
+      5,
+      6,
+      12,
+      27,
+      31,
+      37,
+      54,
+      55,
+      59,
+      62,
+      74,
+      82
+    ],
+    "10": [
+      20,
+      33,
+      42,
+      47,
+      48,
+      49,
+      50,
+      56,
+      64,
+      67,
+      79,
+      83
+    ],
+    "11": [
+      3,
+      10,
+      21,
+      24,
+      41,
+      45,
+      51,
+      57,
+      61,
+      66,
+      69,
+      71
+    ]
+  },
+  "two_exact_weight_derivations_agree": true,
+  "cutoffs": [
+    {
+      "modulus": 169,
+      "command": [
+        "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+        "tmin",
+        "0",
+        "-22735",
+        "0",
+        "106272484",
+        "0",
+        "169",
+        "6503188012738584",
+        "1024"
+      ],
+      "arb_output": "KAPPA [4.610308727662549757450425e-10 +/- 4.68e-35]\nOMEGA_PLUS [0.02804490151943640444830940 +/- 1.81e-27]\nTAIL_TARGET [6.8402133594473461510e-6 +/- 2.31e-26]\nTMIN 55039988046\nTAIL_AT_TMIN [6.8402133567279600675e-6 +/- 1.49e-26]\nTAIL_AT_TMIN_MINUS_1 [6.8402133598607483419e-6 +/- 2.31e-26]  (not below target: 1)\n",
+      "tmin": 55039988046,
+      "rounded_cutoff": 55046045695,
+      "total_segments": 3281,
+      "reused_segments_available": 2333,
+      "new_segments_required": 948
+    },
+    {
+      "modulus": 13,
+      "command": [
+        "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+        "tmin",
+        "0",
+        "-22735",
+        "0",
+        "106272484",
+        "0",
+        "13",
+        "6503188012738584",
+        "1024"
+      ],
+      "arb_output": "KAPPA [5.993401345961314684685553e-9 +/- 1.09e-34]\nOMEGA_PLUS [0.02804490151943640444830940 +/- 1.81e-27]\nTAIL_TARGET [6.8402133594473461510e-6 +/- 2.31e-26]\nTMIN 4012598467\nTAIL_AT_TMIN [6.8402133533826448830e-6 +/- 2.68e-26]\nTAIL_AT_TMIN_MINUS_1 [6.8402133940737167772e-6 +/- 3.31e-26]  (not below target: 1)\n",
+      "tmin": 4012598467,
+      "rounded_cutoff": 4026531839,
+      "total_segments": 240,
+      "reused_segments_available": 240,
+      "new_segments_required": 0
+    }
+  ],
+  "engine_identities_checked": [
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore.c",
+      "sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+      "bytes": 34328
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/apwit.c",
+      "sha256": "e6cca7ffed1256b5cde682d48561805fc2111e97a0a4b08d438e593126af9d8b",
+      "bytes": 5447
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/fastap.c",
+      "sha256": "7d3f4d515aea25a10add93ef02b36b3e5da7ec409348a166e07d260df0b69526",
+      "bytes": 9652
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/verifier/wverify.c",
+      "sha256": "128e7960f8efc0756557f2ee5619c1e80f7e9e0f69b6007f70cac63707abb596",
+      "bytes": 11428
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/p3plan/run_p3.sh",
+      "sha256": "6b7b071c19d472b8358ac904cb72c15585a260f9891504797053ff43fc1a55aa",
+      "bytes": 3926
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/p3plan/p3_check.py",
+      "sha256": "1922291c13154d2abb484343108c122c71483f5bf68b18cb277a74e770d65566",
+      "bytes": 4406
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/build.sh",
+      "sha256": "0fbbdefb95e8635f7eaf197c3e1db800910ac132067c8793d9b7f5925fd6f0b3",
+      "bytes": 1292
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+      "sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+      "bytes": 50744
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/apwit",
+      "sha256": "c21429ccc103f1526fe0b8e94b67658704e2e5fd518e95f3fe58f33494daaa43",
+      "bytes": 27088
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/verifier/wverify",
+      "sha256": "9f4b136ae1163ca928043d4f33f56fa3718e00070ea9626a668f4242b29d1751",
+      "bytes": 18512
+    }
+  ],
+  "retained_C11_bindings_sha256": "c0253e01bfaadc804d71670e02eccc837b8c381331b01603255906de26fed83c",
+  "free_disk_bytes_at_gate": 103591190528,
+  "full_coefficient_corpus_rehashed_in_this_gate": false,
+  "new_coefficient_generation_started": false,
+  "modular_symbol_sum_started": false,
+  "runtime_benchmark_for_C13": null,
+  "memory_choice": "existing table-free engine; no T-sized coefficient table",
+  "conclusion": "Nonzero C13 would imply seed 13-primary vanishing with retained qualifications; zero is inconclusive. No uniform-tail claim."
+}

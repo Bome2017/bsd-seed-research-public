@@ -1,0 +1,259 @@
+{
+ "package": "ARISTOTLE_A1_WITNESS_CONTENT_2026-09-19",
+ "status": "COMPLETE",
+ "maintainer_instructions": "Aristotle: update this file as you work (status per target: SORRY | IN_PROGRESS | CLEAN | FAILED; level_reached; first_unformalized_statement; notes).",
+ "environment": {
+  "lean": "leanprover/lean4:v4.28.0",
+  "mathlib": "v4.28.0 (8f9d9cff6bd728b17a24e163c9402775d9e6a365)"
+ },
+ "targets": {
+  "lemmaA_comm": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "gr_killed_by_exponent": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "depth_spec": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "zero_infinitely_divisible": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "hInf_lt_top_iff": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "hInf_le_iff": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "JE_bounds": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "WC_abstract": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "CM_uniform_denominator": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "CM_nonzero_everywhere": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "WC_abstract_nonvacuous": {
+   "level": "CORE",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "gr_p_primary": {
+   "level": "FULL",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "bridge_517": {
+   "level": "FULL",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "cls2_zero_iff": {
+   "level": "FULL",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "WC_groupRing": {
+   "level": "FULL",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "padicInt_units": {
+   "level": "FULL",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "units_exponent": {
+   "level": "FULL",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "lemmaA_general": {
+   "level": "STRETCH",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "gr_finite_Z": {
+   "level": "STRETCH",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  "gr_rational_trivial": {
+   "level": "STRETCH",
+   "status": "CLEAN",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  }
+ },
+ "level_reached": "A1_FULL",
+ "first_unformalized_statement": null,
+ "frozen_files_verified": true,
+ "last_clean_build_utc": "2026-09-19T18:20:59Z",
+ "helper_files": [
+  "WitnessContent/GroupRing.lean  \u2014 augmentation-ideal representation, truncated binomial expansion, Lemma A (e\u00b7I^r \u2286 I^(r+1)), graded pieces killed by the exponent and by p^v_p(e), the cls2 bridge",
+  "WitnessContent/Depth.lean      \u2014 divisibility is downward closed, depth attained/maximal/bounded, h_p characterisations, J_E bounds",
+  "WitnessContent/Primary.lean    \u2014 Sha[p]=0 \u21d2 Sha[p^\u221e]=0, primary decomposition of a torsion element, finiteness from a finite cover by finite primary parts",
+  "WitnessContent/WC.lean         \u2014 T7 (WC_abstract) and T8 (WC_groupRing)",
+  "WitnessContent/Countermodels.lean \u2014 T9a, T9b, T12",
+  "WitnessContent/Instances.lean  \u2014 T10, T11",
+  "WitnessContent/Stretch.lean    \u2014 S1, S2, S3"
+ ],
+ "helper_lemmas": [
+  "one_add_pow_eq_linear_add",
+  "augHom_apply",
+  "mem_augIdeal_iff",
+  "of_sub_one_mem_augIdeal",
+  "augIdeal_repr",
+  "Ideal.smul_mem_of_mem",
+  "nsmul_augIdeal_le_sq",
+  "nsmul_augIdeal_pow",
+  "mem_gr_rel",
+  "gr_nsmul_exponent_eq_zero",
+  "gr_pow_factorization_smul_eq_zero",
+  "bridge_517_aux",
+  "cls2_eq_zero_iff",
+  "pdvd_zero",
+  "pdvd_zero_elt",
+  "pdvd_of_le",
+  "pdvd_zero_index",
+  "not_pdvd_of_exponent",
+  "depth_bddAbove",
+  "depth_spec_aux",
+  "le_depth",
+  "hInf_le_of_ne_zero",
+  "hInf_lt_top_iff_aux",
+  "iInf_le_nat_iff",
+  "hInf_le_iff_aux",
+  "JE_bounds_aux",
+  "mem_primaryPart_iff",
+  "primaryPart_eq_bot_of_ptorsion_trivial",
+  "exists_primary_decomposition",
+  "finite_of_covered_by_primary",
+  "cm_witness_eq",
+  "cm_kill",
+  "cm_ne_zero",
+  "cm_depth",
+  "cm_hInf",
+  "exists_prime_not_dvd",
+  "cm_JE",
+  "mem_augSubZ_iff",
+  "of_sub_one_mem_augSubZ",
+  "augSubZ_mul_le",
+  "augSubZ_one_add_pow",
+  "augSubZ_repr",
+  "nsmul_augSubZ_le_sq",
+  "gr_card_smul_eq_zero"
+ ],
+ "package_ambiguities": [],
+ "fin_claim": "NONE. This package proves only conditional implications. Formalizing WC proves only the implication from the stated witness-content antecedent; it does not establish that the antecedent is easier than FIN or that FIN has been reduced.",
+ "notes": [
+  "No frozen file was modified; scripts/FROZEN.sha256 verifies 6/6.",
+  "No new axiom, no sorry, no admit, no @[implemented_by]/@[extern]/unsafe anywhere.",
+  "The arithmetic antecedent (A != 0 and A in J_E) and every imported arithmetic theorem remain explicit hypotheses of T7 and T8; none of them is discharged.",
+  "The false shortcut 'nonzero witness at every p => finite prime support' is never used; it is explicitly refuted by CM_uniform_denominator and CM_nonzero_everywhere.",
+  "Conclusion (3) of WC is assembled from the \u2124-module primary decomposition of a torsion element (Mathlib's coprime torsion decomposition) restricted to the finite set S0-primes union the prime factors of A."
+ ]
+}

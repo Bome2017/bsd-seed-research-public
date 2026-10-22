@@ -1,0 +1,11 @@
+alarm(30);
+R=read("inputs/actual_representatives.gp");C=read("inputs/affine_norm_certificate.gp");
+fA=R[5];fB=C[1];G=C[4];W=C[5];
+if(subst(fA,w,W)!=0,error("source generator relation"));
+if(subst(lift(R[6][1]),w,W)+7578!=Mod(x,G),error("source x coordinate"));
+if(subst(lift(R[6][2]),w,W)!=Mod(C[2]*x+C[3],G),error("source y coordinate"));
+for(j=1,4,if(norm(subst(lift(R[8][j]),w,W))!=C[6][j],error("norm mismatch"));if(C[7][j]^3!=C[6][j],error("cube mismatch"))); 
+fNew=z^8-171126235872*z^4+12148527862126080*z^2-2440349050309948300032;
+if(2^8*subst(fB,z,z/2)!=fNew,error("companion scaling mismatch"));
+print("EXACT_FOUR_AFFINE_NORMS_AND_CUBE_ROOTS_PASS");
+print("COMPANION_FIELD_SCALING_PASS");quit;

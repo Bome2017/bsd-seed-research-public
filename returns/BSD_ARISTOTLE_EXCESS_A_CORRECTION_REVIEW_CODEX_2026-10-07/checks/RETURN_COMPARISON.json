@@ -1,0 +1,69 @@
+{
+  "manifest_verified": 15,
+  "files": [
+    {
+      "path": "CORRECTIONS_2026-10-07.md",
+      "status": "new"
+    },
+    {
+      "path": "TWIST_D23_TRACE.md",
+      "status": "new"
+    },
+    {
+      "path": "PROOF.md",
+      "status": "modified"
+    },
+    {
+      "path": "CONSTRUCTION.md",
+      "status": "modified"
+    },
+    {
+      "path": "RESULT.md",
+      "status": "modified"
+    },
+    {
+      "path": "ENDPOINT_EFFECT.md",
+      "status": "modified"
+    },
+    {
+      "path": "ASSUMPTIONS.json",
+      "status": "modified"
+    },
+    {
+      "path": "COLLISION_CHECK.md",
+      "status": "modified"
+    },
+    {
+      "path": "SOURCES.md",
+      "status": "modified"
+    },
+    {
+      "path": "RESUME.md",
+      "status": "modified"
+    },
+    {
+      "path": "STATE.json",
+      "status": "modified"
+    },
+    {
+      "path": "NOTES.md",
+      "status": "modified"
+    },
+    {
+      "path": "MANIFEST.sha256",
+      "status": "modified"
+    },
+    {
+      "path": "STARTUP_RECEIPT.json",
+      "status": "unchanged"
+    },
+    {
+      "path": "checks/d23_trace_check.py",
+      "status": "new"
+    },
+    {
+      "path": "checks/d23_trace_check.out.json",
+      "status": "new"
+    }
+  ]
+}

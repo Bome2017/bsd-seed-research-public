@@ -1,0 +1,43 @@
+\section{The repaired coefficient predicate and custody}\label{app:verifierproof}
+
+\subsection{Why a valid witness determines the coefficient}
+For a good prime $q\ge4096$, the binary record is $(q,a,x_0,k,(\ell_i,e_i)_{i=1}^k)$: an unsigned 64-bit prime, signed 32-bit proposed trace, two one-byte fields, and $k$ pairs of an unsigned 64-bit factor and a one-byte exponent. Each file begins with its interval endpoints and record count. The verifier generates the primes in that interval independently. Small and bad primes are counted directly, not supplied by these records.
+
+Put $A=-27c_4$, $B=-54c_6$, $d=x_0^3+Ax_0+B\ne0$ in $\F_q$. The short curve with coefficients $A,B$ is isomorphic to the seed over $\F_q$ for $q>3$. On its quadratic twist
+\[
+E_d:Y^2=X^3+Ad^2X+Bd^3
+\]
+the point $P=(dx_0,d^2)$ is rational. With $\chi=(d/q)$ and $h=q+1-\chi a$, acceptance checks $|a|\le2\sqrt q$, $[h]P=O$, and, for every factor, primality of $\ell_i$, $e_i\ge1$, $e_i\le v_{\ell_i}(h)$, and
+\[
+ [h/\ell_i^{v_{\ell_i}(h)-e_i+1}]P\ne O.
+\]
+If $n$ is the order of $P$, then $n\mid h$ and the last test forces $v_{\ell_i}(n)\ge e_i$. With \emph{distinct} $\ell_i$, the product $D=\prod_i\ell_i^{e_i}$ divides $n$, hence divides $\#E_d(\F_q)$. Set $s=\lfloor\sqrt{4q}\rfloor$. The checks $D>2s$ and exactly one multiple of $D$ in $[q+1-s,q+1+s]$, together with $D\mid h$, force $\#E_d(\F_q)=h$ by Hasse. Quadratic twisting then gives $a_q(E)=a$.
+
+The distinctness condition is indispensable: repeating a factor does not increase the proved divisibility of $n$. The retained adversarial example at $q=4099$ uses an order-six point and repeats the factors to manufacture $D=576$, accepting the false trace $68$; exhaustive counting gives $86$. The repaired code rejects that example and accepts the separately constructed genuine control.
+
+\subsection{Compositional repair, with its limits}
+The exact patch is \path{review/repairs/wverify_distinct.patch}. It makes only two changes to the arithmetic predicate: it rejects repeated factors and replaces the product update by the guarded test $D\le h/\ell_i$ before multiplying. On well-formed records in the retained range $q\le55046045695$, the following implication holds:
+\[
+\begin{gathered}
+\text{old group/primality checks pass}
+\quad+\quad\text{distinct factors and safe products}\\
+\Longrightarrow\quad\text{repaired predicate passes}.
+\end{gathered}
+\]
+Indeed, the prime-power tests and distinctness give $D\mid h$ over the integers, so every partial product is at most $h$ and passes the new guard. The existing group operations and other acceptance conditions are unchanged. This is a restricted preservation argument, not an equivalence claimed for malformed inputs or executions with undefined overflow.
+
+The supplemental scanner parses each full record, checks factor distinctness and each product in 128-bit arithmetic against the Hasse upper bound, checks strictly increasing primes within the declared interval, and rejects truncation, count errors and trailing bytes. Its bound keeps each intermediate product within the retained 64-bit range. It deliberately does not repeat primality or elliptic-curve operations.
+
+All $3757$ scanned files, comprising $2{,}693{,}070{,}671$ records including overlaps, match the retained witness hashes. For each file the follow-up review also joined the scan to the original acceptance receipt by segment, interval and witness count. The full receipt texts, their hashes and the join are in
+\path{review/followup_logs/corpus_acceptance_receipts.json}; the portable receipt check verifies that composition. The six source runs contain respectively $9,885,467,43,1405,948$ witness files. The overlapping prefixes are intentional: later runs reuse earlier verified coefficient segments. The C7, C11 and C13 binding files record that reuse separately.
+
+\emph{What is retained as trust:} the original execution receipts, their recorded association with the input bytes, the unchanged group/primality implementation, and the compiler/hardware. A hash is an identity check, not a proof that an execution happened. The new scan and receipt join close the specifically identified missing conditions at this declared trust grade; they do not constitute a fresh independent replay of billions of group calculations or a proof that the C program has no other defects. The repaired verifier is provided for future replay. The original $2243$ pilot still contains the legacy source and is not thereby approved for execution.
+
+\subsection{The C13 discrepancy, stated precisely}\label{subsec:c13custody}
+Three files in the external C13 execution folder differ from their pre-change bindings: \path{RESULT.json}, \path{STATE.json}, and \path{RESUME.md}. They are status/summary records, not the inputs consumed by the arithmetic recomputation. The original status value in \path{STATE.json} has not been recovered, so the historical claim that these files were preserved unedited is not accepted.
+
+The separate master completion record binds the denominator-$13$ and denominator-$169$ symbol tables and Arb outputs. All four match those bindings now. The bound input manifest, Stage C output, downstream script, downstream result and incident record also match. The completion binding itself matches the hash in the completion review. The exact old and current hashes of the three changed files and the nine intact calculation inputs are recorded in
+\path{review/followup_logs/c13_custody_reconciliation.json}.
+No old manifest or source file was overwritten to obtain these matches.
+
+The portable downstream replay reads the intact symbol tables and returns $C_{13}=2$ in the $\omega_1$ normalization and $1$ in the full-period normalization. Thus the changed status files are not arithmetic premises of that replay. This retains the $13$-primary theorem at its stated computer-assisted grade, including the symbol-lattice theorem and shared coefficient/Arb trust base. It does not certify the entire execution history as unchanged, and it does not independently reevaluate the original large numerical series.

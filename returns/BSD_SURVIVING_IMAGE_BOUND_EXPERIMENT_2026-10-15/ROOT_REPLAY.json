@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "manifest_entries_checked": 160,
+  "root_readonly": true,
+  "steps": [
+    {
+      "script": "independent_index/replay.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"ISOLATED_PRODUCER_AND_LITERAL_REPLAY_PASS\",\n  \"cases\": [\n    {\n      \"case\": \"independent_index\",\n      \"status\": \"BYTE_IDENTICAL\",\n      \"index_sha256\": \"9952da715190e52cb5916cb1bcd9a48333547fa71073e276d5a699db0535d4a5\",\n      \"certificate_sha256\": \"54ff07c1af9ee7a1334a59cb0d1588ae36c6a81ebba3a3c717d5f5e743afb831\"\n    },\n    {\n      \"case\": \"positive1913\",\n      \"status\": \"BYTE_IDENTICAL\",\n      \"index_sha256\": \"bf4837d2d08b02b10efef80630eec4c22ed62ec0725d113d2e1b122385a6acb1\",\n      \"certificate_sha256\": \"bdf57f9f851c223bdaf6a2a2c24e813b49531ae2945da4e2d7bc9e18277bda45\"\n    },\n    {\n      \"case\": \"seed3_divisors\",\n      \"status\": \"BYTE_IDENTICAL\",\n      \"index_sha256\": \"a43175bebbccaf12cd21104b8662067060a9bf7dab20325ced2c5de3528566b0\",\n      \"certificate_sha256\": \"c2b5fcd0a2a707035413e83a0ebd5d85f4ae9e5e5c3b1ce0a69fad5586ec06d5\"\n    }\n  ],\n  \"literal_checks\": \"PASS\",\n  \"source_files_modified\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "mirror_bound/replay.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"CLEAN_PAIRED_NORM_REPLAY_PASS\",\n  \"arithmetic_products_byte_identical\": [\n    \"paired_certificate.gp\",\n    \"paired.json\"\n  ],\n  \"steps\": [\n    {\n      \"script\": \"paired.gp\",\n      \"exit\": 0,\n      \"stderr\": \"\",\n      \"stdout\": \"RANKS=[2, 2];HOMOLOGY=[0, 1];MIRROR_IMAGE_VALUATION=2;IMAGE_H0=0;IMAGE_CLASS=0\\nPAIRED_NORM_CERTIFICATE_COMPLETE;MS=167\\n\"\n    },\n    {\n      \"script\": \"check_exact.gp\",\n      \"exit\": 0,\n      \"stderr\": \"\",\n      \"stdout\": \"NINE_LITERAL_SOURCE_MAP_IDENTITIES_PASS;EXACT_FIELD_MAPS_PASS;NORM_COMPLEX_PASS;A_IMAGE_EQUALS_POINT_PLANE\\n\"\n    }\n  ],\n  \"matrix_check\": {\n    \"status\": \"EXACT_PAIRED_MATRIX_CHECK_PASS\",\n    \"scalar_dimensions\": [\n      4,\n      5\n    ],\n    \"norm_ranks\": [\n      2,\n      2\n    ],\n    \"homology_dimensions\": [\n      0,\n      1\n    ],\n    \"mirror_image_valuation_rank\": 2,\n    \"mirror_image_H0_dimension\": 0,\n    \"mirror_homology_represented_by_ordinary_class\": true,\n    \"no_local_rows_used\": true\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "mirror_bound/positive1913/replay.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"LITERAL_POSITIVE_REVERSE_NORM_REPLAY_PASS\",\n  \"byte_identical_products\": [\n    \"reverse_certificate.gp\",\n    \"reverse.json\"\n  ],\n  \"steps\": [\n    {\n      \"script\": \"verify_reverse.gp\",\n      \"exit\": 0,\n      \"stderr\": \"\",\n      \"stdout\": \"GLOBAL_UNITS=4;ODD_UNIT_CLASSES=2;LITERAL_REVERSE_NORM_IDENTITIES=2;MS=86\\nGENUINE_EXCESS_IN_REVERSE_NORM_IMAGE_CERTIFIED_UNDER_RETAINED_MEMBERSHIP_AND_RANK\\n\"\n    },\n    {\n      \"script\": \"check_reverse.gp\",\n      \"exit\": 0,\n      \"stderr\": \"\",\n      \"stdout\": \"FOUR_INDEPENDENT_MULTIPLICATION_DETERMINANTS_AND_FOUR_UNIT_IDEALS_PASS\\n\"\n    }\n  ],\n  \"independent_matrix_check\": {\n    \"status\": \"INDEPENDENT_POSITIVE_UNIT_MATRIX_CHECK_PASS\",\n    \"unit_rank\": 4,\n    \"odd_unit_rank\": 2,\n    \"independent_admitted_unit_classes\": 2,\n    \"retained_rank_zero_and_torsion_prime_to3\": \"retained arithmetic inputs, not re-run\",\n    \"no_Sha_order_input\": true\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "source_screen/check_group_scope.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": [\n    {\n      \"p\": 3,\n      \"G_order\": 48,\n      \"projective_field_degree\": 4,\n      \"point_field_degree\": 8,\n      \"compatible_compositum_degree\": 16,\n      \"compositum_over_projective_order\": 4,\n      \"unipotent_stabilizer_order\": 3,\n      \"incident_compositum_degree\": 24,\n      \"full_minus_archimedean_rank\": 2,\n      \"incidence_determinant\": -3,\n      \"not_a_class_or_Selmer_computation\": true\n    },\n    {\n      \"p\": 5,\n      \"G_order\": 480,\n      \"projective_field_degree\": 6,\n      \"point_field_degree\": 24,\n      \"compatible_compositum_degree\": 96,\n      \"compositum_over_projective_order\": 16,\n      \"unipotent_stabilizer_order\": 5,\n      \"incident_compositum_degree\": 120,\n      \"full_minus_archimedean_rank\": 6,\n      \"incidence_determinant\": -125,\n      \"not_a_class_or_Selmer_computation\": true\n    },\n    {\n      \"p\": 7,\n      \"G_order\": 2016,\n      \"projective_field_degree\": 8,\n      \"point_field_degree\": 48,\n      \"compatible_compositum_degree\": 288,\n      \"compositum_over_projective_order\": 36,\n      \"unipotent_stabilizer_order\": 7,\n      \"incident_compositum_degree\": 336,\n      \"full_minus_archimedean_rank\": 12,\n      \"incidence_determinant\": 117649,\n      \"not_a_class_or_Selmer_computation\": true\n    }\n  ],\n  \"claim\": \"group geometry and real incidence determinant only\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "upper_bounds": {
+    "389a1": 2,
+    "mirror389": 3,
+    "1913b1": 2
+  },
+  "seed3_divisor_index": 1,
+  "seed_companion_class_bound": "not_supplied",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

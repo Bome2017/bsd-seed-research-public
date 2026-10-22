@@ -1,0 +1,23 @@
+PASS seed: valuations(c4,c6,Delta)=(1, 2, 3); j=1728 mod 4547
+PASS 2-isogenous partner: valuations(c4,c6,Delta)=(1, 2, 3); j=1728 mod 4547
+PASS y^2=x^3-x over F_4547 has 4548 points; trace zero
+PASS retained: d=3, gcd(d,N)=3, exact divisor
+PASS retained: d=9, gcd(d,N)=3, exact divisor
+PASS retained: d=27, gcd(d,N)=3, exact divisor
+PASS retained: d=81, gcd(d,N)=3, exact divisor
+PASS retained: d=5, gcd(d,N)=1, exact divisor
+PASS retained: d=25, gcd(d,N)=1, exact divisor
+PASS retained: d=7, gcd(d,N)=1, exact divisor
+PASS retained: d=49, gcd(d,N)=1, exact divisor
+PASS retained: d=11, gcd(d,N)=1, exact divisor
+PASS retained: d=121, gcd(d,N)=1, exact divisor
+PASS retained: d=13, gcd(d,N)=1, exact divisor
+PASS retained: d=169, gcd(d,N)=1, exact divisor
+PASS uncomputed bad-prime route: d=2243, gcd(d,N)=2243, exact divisor
+PASS uncomputed bad-prime route: d=5031049, gcd(d,N)=2243, exact divisor
+PASS uncomputed bad-prime route: d=5843, gcd(d,N)=5843, exact divisor
+PASS uncomputed bad-prime route: d=34140649, gcd(d,N)=5843, exact divisor
+PASS excluded denominator 4547 is correctly nonunitary
+CHECK_FAILED: intentional negative control
+
+EXIT_CODE=1

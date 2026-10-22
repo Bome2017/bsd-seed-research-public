@@ -1,0 +1,41 @@
+{
+  "baseline_commit": "89b0566ef61ba78d9d95853508f831ee3ee03440",
+  "files": [
+    {
+      "old_relative": "twist_source/field.gp",
+      "new_relative": "inputs/field.gp",
+      "bytes": 314993,
+      "sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22"
+    },
+    {
+      "old_relative": "twist_source/nf.gp",
+      "new_relative": "inputs/nf.gp",
+      "bytes": 2477699,
+      "sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e"
+    },
+    {
+      "old_relative": "twist_source/direct_units/basis_scalar_matrix.gp",
+      "new_relative": "inputs/basis_scalar_matrix.gp",
+      "bytes": 7237,
+      "sha256": "5e6919aa169afb19f8dd5a754fd11fbaca4f30f0c83c12e6ef2084329eb5b214"
+    },
+    {
+      "old_relative": "local_pipeline/TWIST_field_point.json",
+      "new_relative": "inputs/field_point.json",
+      "bytes": 116823,
+      "sha256": "6daac9cc5e48ab98b9d047cc7932ee082d1ffb536c0bf38c1a0e8bc61e213e0e"
+    },
+    {
+      "old_relative": "local_pipeline/TWIST_split_primes.json",
+      "new_relative": "inputs/split_primes.json",
+      "bytes": 934,
+      "sha256": "b1a679c3c092692023cdbd8067c8512e1885d2585b30b43f2c2fa1c61f9ff92f"
+    },
+    {
+      "old_relative": "local_pipeline/TWIST_LOCAL_BRANCH.json",
+      "new_relative": "inputs/local_branch.json",
+      "bytes": 31,
+      "sha256": "7335abaf7e6e2cd8e2093a831680ec21d2ac609bc151e0a901f87644c433789b"
+    }
+  ]
+}

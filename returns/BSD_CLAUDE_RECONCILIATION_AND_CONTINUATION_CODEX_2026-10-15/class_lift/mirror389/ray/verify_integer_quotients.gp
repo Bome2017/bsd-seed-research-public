@@ -1,0 +1,12 @@
+alarm(30);
+A=read("portable_matrices.gp");cyc=A[1];v=A[2];bv=A[3];KG=A[4];KS=A[5];allow=A[6];raw=A[7];fin=A[8];LC=A[9];RI=A[10];BR=A[11];AD=A[12];CY=matdiagonal(cyc);
+if(matsnf(mathnf(matconcat([CY,KG])))!=[3,1,1,1,1,1],error("residue kernel index"));
+if(Mod(LC*RI,3)!=Mod(matid(matsize(LC)[1]),3),error("log basis inverse"));
+if(KG*RI!=KS||KS*AD!=allow,error("actual map composition"));
+if(mathnf(matconcat([CY,3*KG]))!=raw||mathnf(matconcat([CY,3*KG,allow]))!=fin,error("relation lattice mismatch"));
+if(matsnf(raw)!=[9,3,3,3,3,3]||matsnf(fin)!=[3,3,3,3,1,1],error("Smith factors"));
+if(denominator(matsolve(raw,bv-BR[,1]))!=1,error("beta comparison"));
+order_in(H,z)={my(S=matsnf(H,1),w=S[1]*z,o=1);for(i=1,#z,o=lcm(o,S[3][i,i]/gcd(S[3][i,i],w[i])));o;};
+if(order_in(CY,v)!=1746||order_in(raw,v)!=9||order_in(fin,v)!=3,error("concrete lift order"));
+if(order_in(CY,388*v)!=9,error("3primary literal lift"));
+print("PORTABLE_INTEGER_QUOTIENT_CHECK_PASS");print("FULL_RAY_LIFT_ORDER=1746;AFTER_RESIDUE_CUBES=9;AFTER_LOCAL_ALLOWANCE=3;PRIMARY_LIFT_POWER=388");quit;

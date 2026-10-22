@@ -1,0 +1,54 @@
+{
+  "model": [
+    0,
+    0,
+    1,
+    -13,
+    18
+  ],
+  "coefficient_prime": 7,
+  "rows": [
+    {
+      "q": 2,
+      "point_count": 5,
+      "trace": -2,
+      "discriminant_mod7": 3,
+      "nonsquare": true
+    },
+    {
+      "q": 3,
+      "point_count": 7,
+      "trace": -3,
+      "discriminant_mod7": 4,
+      "nonsquare": false
+    },
+    {
+      "q": 11,
+      "point_count": 16,
+      "trace": -4,
+      "discriminant_mod7": 0,
+      "nonsquare": false
+    },
+    {
+      "q": 17,
+      "point_count": 20,
+      "trace": -2,
+      "discriminant_mod7": 6,
+      "nonsquare": true
+    },
+    {
+      "q": 19,
+      "point_count": 26,
+      "trace": -6,
+      "discriminant_mod7": 2,
+      "nonsquare": false
+    },
+    {
+      "q": 23,
+      "point_count": 30,
+      "trace": -6,
+      "discriminant_mod7": 0,
+      "nonsquare": false
+    }
+  ]
+}

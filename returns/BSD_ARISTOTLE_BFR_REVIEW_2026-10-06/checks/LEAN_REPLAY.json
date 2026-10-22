@@ -1,0 +1,26 @@
+{
+  "builds": [
+    {
+      "module": "RequestProject/Seed/Curve.lean",
+      "exit_code": 0,
+      "seconds": 41.935
+    },
+    {
+      "module": "RequestProject/Seed/AuxPoint.lean",
+      "exit_code": 0,
+      "seconds": 9.156
+    },
+    {
+      "module": "RequestProject/Seed/Local4547.lean",
+      "exit_code": 0,
+      "seconds": 10.312
+    },
+    {
+      "module": "RequestProject/Seed/BadPrimes.lean",
+      "exit_code": 0,
+      "seconds": 7.432
+    }
+  ],
+  "all_four_passed": true,
+  "source_modified": false
+}

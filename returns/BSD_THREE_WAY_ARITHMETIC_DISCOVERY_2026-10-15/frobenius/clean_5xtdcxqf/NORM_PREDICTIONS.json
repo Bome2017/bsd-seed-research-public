@@ -1,0 +1,1330 @@
+{
+  "status": "FROZEN_NORM_ONLY_PREDICTIONS",
+  "utc": "2026-10-15T19:17:36.641693+00:00",
+  "method": "Two polynomial norm evaluations; no source-element values or characters read",
+  "norm_sha256": "0165ead00d24d125ed8b017e20c3e49aa09d21c3f94e136c91087412f56b6419",
+  "root_input_sha256": "b9421f15315d2a3021b3ac5405baf03ff012c192cb798e61289bffe653a601e5",
+  "predictor_sha256": "d3cb9f7b0924e78f92390c9b2d408c12e9fb1cc68a8252521f94899aba65af3e",
+  "records": [
+    {
+      "q": 47659,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 34886,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            5
+          ],
+          "line_coordinate": 2467,
+          "value": 28357,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            2,
+            7
+          ],
+          "line_coordinate": 19202,
+          "value": 22932,
+          "cubic_power": 12772,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 47857,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 37381,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            4
+          ],
+          "line_coordinate": 36063,
+          "value": 12240,
+          "cubic_power": 37381,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            2,
+            5
+          ],
+          "line_coordinate": 34611,
+          "value": 615,
+          "cubic_power": 37381,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 48409,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 4703,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            4
+          ],
+          "line_coordinate": 25491,
+          "value": 18880,
+          "cubic_power": 43705,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            5,
+            3
+          ],
+          "line_coordinate": 6111,
+          "value": 7748,
+          "cubic_power": 4703,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 48649,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 13630,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            6
+          ],
+          "line_coordinate": 12122,
+          "value": 7377,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            5,
+            2
+          ],
+          "line_coordinate": 28647,
+          "value": 43102,
+          "cubic_power": 35018,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 49369,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 39301,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            5
+          ],
+          "line_coordinate": 15665,
+          "value": 49234,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            4
+          ],
+          "line_coordinate": 45443,
+          "value": 36835,
+          "cubic_power": 10067,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 49783,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 22475,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            4
+          ],
+          "line_coordinate": 13161,
+          "value": 21069,
+          "cubic_power": 27307,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            2
+          ],
+          "line_coordinate": 9707,
+          "value": 26021,
+          "cubic_power": 22475,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 49807,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 5200,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            5
+          ],
+          "line_coordinate": 34761,
+          "value": 32766,
+          "cubic_power": 44606,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            3
+          ],
+          "line_coordinate": 3990,
+          "value": 37288,
+          "cubic_power": 44606,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 50023,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 47502,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            7
+          ],
+          "line_coordinate": 37343,
+          "value": 24145,
+          "cubic_power": 47502,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            3
+          ],
+          "line_coordinate": 39569,
+          "value": 28471,
+          "cubic_power": 2520,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 50131,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 45220,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            7
+          ],
+          "line_coordinate": 49156,
+          "value": 6430,
+          "cubic_power": 45220,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            5,
+            2
+          ],
+          "line_coordinate": 5304,
+          "value": 35632,
+          "cubic_power": 45220,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 50839,
+      "chosen_independent_points": [
+        0,
+        2
+      ],
+      "omega": 5582,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            2,
+            3
+          ],
+          "line_coordinate": 31067,
+          "value": 15854,
+          "cubic_power": 5582,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            4,
+            7
+          ],
+          "line_coordinate": 49952,
+          "value": 29285,
+          "cubic_power": 5582,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 51199,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 41687,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            2
+          ],
+          "line_coordinate": 13359,
+          "value": 26164,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            6
+          ],
+          "line_coordinate": 25972,
+          "value": 31736,
+          "cubic_power": 41687,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 51361,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 15849,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            5
+          ],
+          "line_coordinate": 10913,
+          "value": 38057,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            2
+          ],
+          "line_coordinate": 24438,
+          "value": 12841,
+          "cubic_power": 15849,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 51439,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 21053,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            7
+          ],
+          "line_coordinate": 12943,
+          "value": 9343,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            3,
+            6
+          ],
+          "line_coordinate": 20186,
+          "value": 1500,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": true
+    },
+    {
+      "q": 51973,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 27528,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            3
+          ],
+          "line_coordinate": 19178,
+          "value": 31820,
+          "cubic_power": 27528,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            5,
+            4
+          ],
+          "line_coordinate": 20428,
+          "value": 34411,
+          "cubic_power": 24444,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 52201,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 39412,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            3
+          ],
+          "line_coordinate": 34095,
+          "value": 539,
+          "cubic_power": 12788,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            5
+          ],
+          "line_coordinate": 21732,
+          "value": 17721,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 52747,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 9827,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            6
+          ],
+          "line_coordinate": 27758,
+          "value": 47420,
+          "cubic_power": 42919,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            2,
+            5
+          ],
+          "line_coordinate": 44747,
+          "value": 14906,
+          "cubic_power": 9827,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 53161,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 44402,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            2
+          ],
+          "line_coordinate": 22983,
+          "value": 34953,
+          "cubic_power": 44402,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            3,
+            4
+          ],
+          "line_coordinate": 34108,
+          "value": 32428,
+          "cubic_power": 8758,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 54121,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 35875,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            4
+          ],
+          "line_coordinate": 44459,
+          "value": 42635,
+          "cubic_power": 18245,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            5,
+            6
+          ],
+          "line_coordinate": 16320,
+          "value": 20639,
+          "cubic_power": 35875,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 55333,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 4591,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            3
+          ],
+          "line_coordinate": 55207,
+          "value": 11305,
+          "cubic_power": 4591,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            5,
+            6
+          ],
+          "line_coordinate": 42875,
+          "value": 3709,
+          "cubic_power": 4591,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 55381,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 848,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            2
+          ],
+          "line_coordinate": 45686,
+          "value": 13240,
+          "cubic_power": 54532,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            4,
+            6
+          ],
+          "line_coordinate": 12764,
+          "value": 23194,
+          "cubic_power": 54532,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 55681,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 38627,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            5
+          ],
+          "line_coordinate": 8673,
+          "value": 9860,
+          "cubic_power": 38627,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            2,
+            6
+          ],
+          "line_coordinate": 33452,
+          "value": 29651,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 55807,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 47358,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            4
+          ],
+          "line_coordinate": 29230,
+          "value": 16145,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            6
+          ],
+          "line_coordinate": 52991,
+          "value": 29954,
+          "cubic_power": 8448,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 56053,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 53794,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            6
+          ],
+          "line_coordinate": 11962,
+          "value": 15489,
+          "cubic_power": 2258,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            3
+          ],
+          "line_coordinate": 54163,
+          "value": 41337,
+          "cubic_power": 2258,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 56701,
+      "chosen_independent_points": [
+        0,
+        2
+      ],
+      "omega": 36160,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            2,
+            6
+          ],
+          "line_coordinate": 11483,
+          "value": 11720,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            5
+          ],
+          "line_coordinate": 24813,
+          "value": 36917,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": true
+    },
+    {
+      "q": 56809,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 11981,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            6
+          ],
+          "line_coordinate": 26350,
+          "value": 3396,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            4,
+            2
+          ],
+          "line_coordinate": 7451,
+          "value": 38101,
+          "cubic_power": 44827,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 56857,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 54557,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            3
+          ],
+          "line_coordinate": 3131,
+          "value": 37944,
+          "cubic_power": 54557,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            5
+          ],
+          "line_coordinate": 35174,
+          "value": 18527,
+          "cubic_power": 54557,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 56911,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 3209,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            2
+          ],
+          "line_coordinate": 41039,
+          "value": 2081,
+          "cubic_power": 53701,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            4
+          ],
+          "line_coordinate": 11653,
+          "value": 12077,
+          "cubic_power": 53701,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 56983,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 40553,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            3
+          ],
+          "line_coordinate": 7879,
+          "value": 17199,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            2
+          ],
+          "line_coordinate": 17744,
+          "value": 16561,
+          "cubic_power": 40553,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 57241,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 49367,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            4
+          ],
+          "line_coordinate": 22556,
+          "value": 50914,
+          "cubic_power": 49367,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            2,
+            6
+          ],
+          "line_coordinate": 46048,
+          "value": 20302,
+          "cubic_power": 49367,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 57283,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 33617,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            4
+          ],
+          "line_coordinate": 35696,
+          "value": 19088,
+          "cubic_power": 33617,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            5
+          ],
+          "line_coordinate": 32448,
+          "value": 18922,
+          "cubic_power": 33617,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 58237,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 2542,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            5
+          ],
+          "line_coordinate": 57622,
+          "value": 56080,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            6
+          ],
+          "line_coordinate": 30890,
+          "value": 28747,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": true
+    },
+    {
+      "q": 58573,
+      "chosen_independent_points": [
+        0,
+        2
+      ],
+      "omega": 19973,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            2,
+            4
+          ],
+          "line_coordinate": 39416,
+          "value": 3797,
+          "cubic_power": 38599,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            6
+          ],
+          "line_coordinate": 16225,
+          "value": 56356,
+          "cubic_power": 38599,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 59419,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 18301,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            3
+          ],
+          "line_coordinate": 49730,
+          "value": 58563,
+          "cubic_power": 18301,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            4,
+            6
+          ],
+          "line_coordinate": 11392,
+          "value": 31322,
+          "cubic_power": 18301,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 60127,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 23240,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            6
+          ],
+          "line_coordinate": 30226,
+          "value": 20832,
+          "cubic_power": 36886,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            4,
+            3
+          ],
+          "line_coordinate": 51723,
+          "value": 10220,
+          "cubic_power": 23240,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 60259,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 45577,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            3
+          ],
+          "line_coordinate": 28135,
+          "value": 18356,
+          "cubic_power": 14681,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            2
+          ],
+          "line_coordinate": 23200,
+          "value": 7745,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 60919,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 60491,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            5
+          ],
+          "line_coordinate": 25304,
+          "value": 48202,
+          "cubic_power": 60491,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            4
+          ],
+          "line_coordinate": 22279,
+          "value": 56421,
+          "cubic_power": 60491,
+          "cubic_character": 1
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 60937,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 10335,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            6
+          ],
+          "line_coordinate": 29917,
+          "value": 59383,
+          "cubic_power": 50601,
+          "cubic_character": 2
+        },
+        {
+          "point_indices": [
+            0,
+            4,
+            5
+          ],
+          "line_coordinate": 40808,
+          "value": 15699,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 61837,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 28797,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            6
+          ],
+          "line_coordinate": 26601,
+          "value": 43656,
+          "cubic_power": 1,
+          "cubic_character": 0
+        },
+        {
+          "point_indices": [
+            0,
+            7,
+            2
+          ],
+          "line_coordinate": 25564,
+          "value": 10580,
+          "cubic_power": 33039,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 62701,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 662,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            7
+          ],
+          "line_coordinate": 33101,
+          "value": 56038,
+          "cubic_power": 662,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            5,
+            6
+          ],
+          "line_coordinate": 8659,
+          "value": 20850,
+          "cubic_power": 62038,
+          "cubic_character": 2
+        }
+      ],
+      "predicted_survives": false
+    },
+    {
+      "q": 63127,
+      "chosen_independent_points": [
+        0,
+        1
+      ],
+      "omega": 4043,
+      "two_norms": [
+        {
+          "point_indices": [
+            0,
+            1,
+            2
+          ],
+          "line_coordinate": 34711,
+          "value": 48575,
+          "cubic_power": 4043,
+          "cubic_character": 1
+        },
+        {
+          "point_indices": [
+            0,
+            6,
+            7
+          ],
+          "line_coordinate": 1,
+          "value": 49070,
+          "cubic_power": 1,
+          "cubic_character": 0
+        }
+      ],
+      "predicted_survives": false
+    }
+  ]
+}

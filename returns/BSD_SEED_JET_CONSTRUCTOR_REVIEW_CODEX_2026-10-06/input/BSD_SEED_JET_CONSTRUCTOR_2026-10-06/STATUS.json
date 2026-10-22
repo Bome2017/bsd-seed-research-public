@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-06",
+  "status": "EXPLICIT_LOCAL_COEFFICIENT_CONSTRUCTION_AND_TESTED_EXPERIMENT_DESIGN",
+  "written_universal_local_proof": true,
+  "independent_review_of_new_math": false,
+  "local_tests_passed": 2671,
+  "seed_global_symbol_computed": false,
+  "seed_W3_values_computed": false,
+  "seed_sparse_dual_certificate_produced": false,
+  "new_primary_certificate": false,
+  "uniform_bound_proved": false,
+  "FIN_changed": false,
+  "ORDER9_changed": false,
+  "Q36_changed": false,
+  "ordinary_only_target": true,
+  "supersingular_extension_claimed": false,
+  "affordable_complete_pipeline_demonstrated": false,
+  "Aristotle_job_submitted": false,
+  "GitHub_modified": false,
+  "Lean_build_performed": false,
+  "pilot_prime": 31,
+  "pilot_exceptional_domain_verified": false
+}

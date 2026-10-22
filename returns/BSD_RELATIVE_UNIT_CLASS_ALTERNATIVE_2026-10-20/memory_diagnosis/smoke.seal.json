@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp",
+    "-q",
+    "-f",
+    "-s",
+    "512M",
+    "smoke.gp"
+  ],
+  "script_sha256": "6b0c050651772cf0f3618ac991eb2b089b66fc0764444eb82663735452cc552f",
+  "wall_cap": 45.0,
+  "marker": "LOW_MEMORY_SMOKE_PASS"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_BOUNDED_SOURCE_FAILURE",
+  "result": "RESULT.json",
+  "admitted_units": 0,
+  "ordinary_unit_upper_bound": null,
+  "class_bound": null,
+  "anti_divisor_family_columns": 20,
+  "anti_divisor_family_complete": true,
+  "anti_divisor_family_rank_Q": 20,
+  "anti_divisor_family_rank_F7": 20,
+  "further_search_running": false
+}

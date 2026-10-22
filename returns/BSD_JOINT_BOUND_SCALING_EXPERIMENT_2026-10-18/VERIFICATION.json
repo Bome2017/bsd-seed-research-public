@@ -1,0 +1,52 @@
+{
+  "status": "PASS_WITH_EXPLICIT_CLASS_CERTIFICATION_FAILURE",
+  "date_utc": "2026-10-18T16:06:58.348367+00:00",
+  "submanifests": [
+    {
+      "manifest": "class_joint/MANIFEST.sha256",
+      "entries": 20,
+      "status": "PASS"
+    },
+    {
+      "manifest": "local_rank/MANIFEST.sha256",
+      "entries": 58,
+      "status": "PASS"
+    },
+    {
+      "manifest": "p7_new_source/MANIFEST.sha256",
+      "entries": 78,
+      "status": "PASS"
+    },
+    {
+      "manifest": "small_conductor_divisor/MANIFEST.sha256",
+      "entries": 20,
+      "status": "PASS"
+    },
+    {
+      "manifest": "small_conductor_review/MANIFEST.sha256",
+      "entries": 20,
+      "status": "PASS"
+    }
+  ],
+  "submanifest_entries": 196,
+  "root_replay": "independent multiplicative actual-unit evaluations, actual group law and scalar identities, affine norms and streamed elimination; repeated output matches previous SHA256",
+  "root_replay_sha256": "d1ee294f3a12b3d504e12a5d7b1ae4cb339aa297ba52d86296d470609f5a7851",
+  "root_replay_byte_identical": true,
+  "cached_local_replay": "PASS; both P8/P9, exact valuation cancellation, local calibration, unit dimension and nonzero minor",
+  "field_point_scalar_check": "PASS; required marker present and stderr empty",
+  "unit_authentication": {
+    "status": "PASS",
+    "divisor_rows": 116,
+    "distinct_factors": 144,
+    "unit_candidates": 26,
+    "integer_equations_checked": 3016,
+    "all_exact_divisors_zero": true,
+    "scope": "integer exponent arithmetic; actual factors and complete principal ideals authenticated separately by GP",
+    "matrix_sha256": "dd6c8bf8e3070eed340b4886174b66641bd7d970049c56a57e1c4d71fe372da4"
+  },
+  "class_certification_success": false,
+  "independent_class_upper_bound": null,
+  "new_seed_result": false,
+  "new_uniform_result": false,
+  "grade": "written deduction plus exact arithmetic; same-team separate review; not proof-assistant verification"
+}

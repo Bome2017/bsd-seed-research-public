@@ -1,0 +1,1 @@
+{alarm(47);gettime();default(debug,3);NF=read("nf.gp");B=bnfinit(NF,1,[0.01,0.1,4]);writebin("bnf_small.bin",B);write("class_small.gp",[B.cyc,B.no,B.reg]);print("BNF_SMALL_SAVED;CYC=",B.cyc,";MS=",gettime());FU=bnfunits(B);write("units_compact.gp",FU);print("UNITS_SMALL_SAVED;GENERATORS=",#FU[1],";MS=",gettime());quit;}

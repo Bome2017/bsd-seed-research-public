@@ -1,0 +1,63 @@
+{
+  "status": "ALL_CHECKS_PASS",
+  "checks": [
+    {
+      "name": "certified_field",
+      "command": [
+        "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp-2.17",
+        "-fq",
+        "-s",
+        "128M",
+        "checks/certified_field.gp"
+      ],
+      "exit_code": 0,
+      "stderr_empty": true,
+      "passed": true
+    },
+    {
+      "name": "independent_exact",
+      "command": [
+        "/opt/miniconda3/bin/python3",
+        "checks/independent_exact.py"
+      ],
+      "exit_code": 0,
+      "stderr_empty": true,
+      "passed": true
+    },
+    {
+      "name": "fisher_model",
+      "command": [
+        "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/python",
+        "implementation/fisher_model.py"
+      ],
+      "exit_code": 0,
+      "stderr_empty": true,
+      "passed": true
+    },
+    {
+      "name": "geometry",
+      "command": [
+        "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/python",
+        "implementation/geometry_check.py"
+      ],
+      "exit_code": 0,
+      "stderr_empty": true,
+      "passed": true
+    },
+    {
+      "name": "audit_exact",
+      "command": [
+        "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/python",
+        "audit/independent_exact.py"
+      ],
+      "exit_code": 0,
+      "stderr_empty": true,
+      "passed": true
+    }
+  ],
+  "executables": {
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp-2.17": "2fdc284cd33b29e091e80a39eeeee61d1ab55f5fd92868dff9f998d78b832423",
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/python3.13": "386ff117fefebd045d65e930137b3dd79f626bd13d908564ff90030e6fbe1373"
+  },
+  "scope": "Arithmetic and geometry replay, not a fresh rank descent, formal proof or seed bound."
+}

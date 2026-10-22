@@ -1,0 +1,4 @@
+57a1: sign(disc) = -1 (components of E(R) = 1) ; PARI ellbsd = Omega*prod c/tors^2 = 11.111009042745008644234854069752071896 ; L(E,1) = 0.E-58 ; L(E,1)/ellbsd = n/a (rank>0) ; ellpadicL(E,3,8) = O(3^8)
+681c1: sign(disc) = -1 (components of E(R) = 1) ; PARI ellbsd = Omega*prod c/tors^2 = 7.5416923370971290668194136622657101235 ; L(E,1) = 1.4973773781817088105310354937466769312 E-42 ; L(E,1)/ellbsd = n/a (rank>0) ; ellpadicL(E,3,8) = O(3^8)
+681b1: sign(disc) = 1 (components of E(R) = 2) ; PARI ellbsd = Omega*prod c/tors^2 = 0.20497946734742452410316974768442230615 ; L(E,1) = 1.8448152061268207169285277291598007554 ; L(E,1)/ellbsd = 9.0000000000000000000000000000000000000 ; ellpadicL(E,3,8) = 3^2 + O(3^8)
+33a1: sign(disc) = 1 (components of E(R) = 2) ; PARI ellbsd = Omega*prod c/tors^2 = 0.74733914774274361945565046577178519567 ; L(E,1) = 0.74733914774274361945565046577178519567 ; L(E,1)/ellbsd = 1.0000000000000000000000000000000000000 ; ellpadicL(E,3,8) = 1 + O(3^8)

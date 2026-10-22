@@ -1,0 +1,34 @@
+PASS ckpt_g001_w00.bin: SHA-256 trailer
+PASS ckpt_g001_w00.bin: PARAMS identical to first checkpoint
+PASS ckpt_g001_w01.bin: SHA-256 trailer
+PASS ckpt_g001_w01.bin: PARAMS identical to first checkpoint
+PASS ckpt_g001_w02.bin: SHA-256 trailer
+PASS ckpt_g001_w02.bin: PARAMS identical to first checkpoint
+checkpoints 3  records 4440  PARAMS "0 -22735 0 106272484 0 m=81 Q=2167729337579528 s=1 T=14847836159 SEGQ=16777216 UT=500000000"
+PASS coverage: every unit 0..4439 exactly once (4440 records, 4440 distinct)
+PASS fingerprint: sum_u fp(u) = c50fd86d63d4db43, sum_k S_k rho_k = c50fd86d63d4db43 (mod 2^64, own splitmix64)
+PASS count identity: smooth 4841666641 + pairs 10006169518 = 14847836159 vs T 14847836159
+error tally err = 13334011726 units of 2^-96 = 1.682989e-19   nterm = 6667005863   err/nterm = 2.0000
+CHUNK_DIGEST (reviewer, recomputed from checkpoints) 04a7d9527f294aef11be2347a14ee83dba1b3bf22bb3560a3c1494789623a998
+PASS m81_merge_direct.txt: engine CHUNK_DIGEST 04a7d9527f294aef... == reviewer recomputation
+PASS m81_merge_dft.txt: engine CHUNK_DIGEST 04a7d9527f294aef... == reviewer recomputation
+PASS certified SDUMP balls read: 81 of 81
+PASS class sums: 81 of 81 exact midpoints within E + rad_cert of the certified arbcore ball (max |diff| = 1.346e-25, E = 1.683e-19)
+PASS m81_merge_direct.txt: 81 of 81 printed class-sum balls overlap the certified printed balls (msl file)
+PASS m81_merge_direct.txt: 81 of 81 printed class-sum balls contain the reviewer's exact merged midpoint
+PASS m81_merge_dft.txt: 81 of 81 printed class-sum balls overlap the certified printed balls (msl file)
+PASS m81_merge_dft.txt: 81 of 81 printed class-sum balls contain the reviewer's exact merged midpoint
+PASS certified symbol set complete (54 residues)
+PASS m81_merge_direct.txt: 54 XB lines for 54 residues
+PASS m81_merge_direct.txt: 54 of 54 PLUS symbols identified (contains=1, unique=1) and EXACTLY equal to certified
+PASS m81_merge_direct.txt: 54 of 54 MINUS symbols identified (contains=1, unique=1) and EXACTLY equal to certified
+PASS m81_merge_direct.txt: 108 of 108 printed symbol balls contain the certified value
+PASS m81_merge_dft.txt: 54 XB lines for 54 residues
+PASS m81_merge_dft.txt: 54 of 54 PLUS symbols identified (contains=1, unique=1) and EXACTLY equal to certified
+PASS m81_merge_dft.txt: 54 of 54 MINUS symbols identified (contains=1, unique=1) and EXACTLY equal to certified
+PASS m81_merge_dft.txt: 108 of 108 printed symbol balls contain the certified value
+reviewer mpmath: Omega+ = 0.0280449015194364044483094  Omega- = 0.03055562649634342495611735  2*tail_MS(T) = 1.33305381602e-5
+PASS mpmath re-derivation: max |x_b^+ (truncated) - certified| = 7.49125e-11 <= budget (2 tail + 2E)/Omega+ = 0.000475328
+PASS mpmath re-derivation: max |x_b^- (truncated) - certified| = 9.36455e-11 <= budget (2 tail + 2E)/Omega- = 0.000436271
+identification margin (plus): 1/(2*1024) - budget/Omega+ = 1.29529e-5
+INDEP_MERGE_PASS failures=0

@@ -1,0 +1,57 @@
+[
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_controls/inputs/389a1_data.gp",
+    "local": "inputs/A_data.gp",
+    "sha256": "5e0bca36fcb33d1038150080cc13ffef0002a7b456a79453e601b4ce5570bd2a"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/nf.gp",
+    "local": "inputs/A_nf.gp",
+    "sha256": "c3b79049db0fe7e5afed845951291d2f1353c215c89b0ae04c10c95eccdb4117"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_controls/389a1/norms.gp",
+    "local": "inputs/A_norms.gp",
+    "sha256": "2352f3fe4897db7ac9dc850edffa6629e14f43a48af9a58329532cd8bf31abf3"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_controls/389a1/norm_kernel.gp",
+    "local": "inputs/A_norm_kernel.gp",
+    "sha256": "d731c16f85185d0893c6565ff9d025db20d1c040c61fe136ebd4dba49706310d"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/inputs/data.gp",
+    "local": "inputs/B_data.gp",
+    "sha256": "f7de104f3895edf5d2048c7748e2e396b7c2b1f51d96c7eeee5babc8bdeb54cf"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/inputs/nf.gp",
+    "local": "inputs/B_nf.gp",
+    "sha256": "eb8bc8dbb08bef08163318ef14ecd995ed0e4822840c8565e5038b3afc4b4106"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/norm_data.gp",
+    "local": "inputs/B_norms.gp",
+    "sha256": "430930c1b59dd863b5eba63a2c36258af41bb2e1ff1806a93967d03503bffabd"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/norm_map_certificate.gp",
+    "local": "inputs/B_norm_kernel.gp",
+    "sha256": "975414b6fd3ad1ea2b27e21a9dac34e6a2215e58930ab9df7e468197c60245b4"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/inputs/lib/selmer.gp",
+    "local": "inputs/lib/selmer.gp",
+    "sha256": "adb81dedbb2e073d7ec4da8e0ef68deb157aa78594a97a6eb2a1b9322b4b6f0e"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/inputs/lib/cubinv.gp",
+    "local": "inputs/lib/cubinv.gp",
+    "sha256": "4c6daec403143281dac6c4e2b3009a60d0c61aea28a0289d1a25738d26f1df59"
+  },
+  {
+    "original": "/Users/bsm/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/norm_mirror/inputs/lib/classimg.gp",
+    "local": "inputs/lib/classimg.gp",
+    "sha256": "af807f8f3b15e09b8f1ec91e1c85cb0e2b36788c82445b25d1e12f8d4d733f34"
+  }
+]

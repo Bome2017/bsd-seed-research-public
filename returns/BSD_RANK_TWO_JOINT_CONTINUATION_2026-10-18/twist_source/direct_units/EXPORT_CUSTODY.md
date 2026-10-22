@@ -1,0 +1,1 @@
+GP write appends. The unsealedcompact_units_eval.json acquiredtwo completeJSON records: firstthethreecentralfixed normunits, secondtheemptykernel on24mixedbasisfunctions. They arepreservedbyte-for-byte ascentral_fixed_units_eval.json andempty_orbit_kernel_eval.json; originalconcatenationiskeptascompact_export_append_receipt.txt. No consumerreceivedtheconcatenatedfile.

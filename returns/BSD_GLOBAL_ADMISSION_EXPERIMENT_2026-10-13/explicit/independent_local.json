@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "corrected_scan_rows": 11,
+  "first_hit": 331,
+  "actual_local_miller_value": 40,
+  "local_fifth_power_test": 150,
+  "point_fifth_power_tests": [
+    1,
+    1
+  ],
+  "independent_point_count": 325,
+  "class_boundary_dot": 1,
+  "valuation_image_size": 125,
+  "eligible_eigenline_size": 5,
+  "scope": "Finite-field/group/linear-algebra replay; certified number-field source remains Sage/PARI computation",
+  "input_sha256": "0066d26610fb4905ee1e3dfda595fb1c63e789f2ab209048e954a79d381e465d"
+}

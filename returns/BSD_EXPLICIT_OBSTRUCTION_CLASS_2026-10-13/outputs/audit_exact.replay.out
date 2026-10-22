@@ -1,0 +1,20 @@
+{
+  "norm_epsilon": "1",
+  "exact_descent_norm_polynomial_identity": true,
+  "both_points_on_A": true,
+  "point_image_fifth_power_relation": true,
+  "Fisher_Tate_generator_image": [
+    "5",
+    "-6",
+    "1"
+  ],
+  "normalized_f_generator_image": [
+    "5",
+    "5",
+    "1"
+  ],
+  "generator_change": "inversion",
+  "gamma_norm": "14641",
+  "alpha11_exact_expression": true,
+  "Fisher_parameter_equals_epsilon": true
+}

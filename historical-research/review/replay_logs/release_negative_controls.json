@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "spec drift",
+      "result": "REJECTED"
+    },
+    {
+      "test": "dependency self-cycle",
+      "result": "REJECTED"
+    },
+    {
+      "test": "no fresh D5 verifier output despite imported PASS",
+      "result": "REJECTED"
+    }
+  ]
+}

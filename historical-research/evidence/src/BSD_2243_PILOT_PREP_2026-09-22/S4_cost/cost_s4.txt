@@ -1,0 +1,49 @@
+fits: L traversal 0.099 s/sub-unit + 1.27 ns/pair; L kernel 47 ns/prime + 99.9 ns/term; L summation 113.7 ns/term
+
+== per-symbol exact identification (T_run, the design): T = 3.9120e+13  primes 1.2927e+12  L pairs 2.6565e+13  L terms 1.2586e+13  S blocks 9326908
+   L sub-units 2355153 (segments 2331727, extra sub-units 23426 in 2048 low segments; single-unit from segment 2048)
+   production                92816.0 lch  (83.903%)
+   verification              14469.3 lch  (13.080%)
+   traversal_L                  74.0 lch  ( 0.067%)
+   traversal_S                1774.2 lch  ( 1.604%)
+   kernel_L                    366.3 lch  ( 0.331%)
+   kernel_S                    543.5 lch  ( 0.491%)
+   summation_L                 397.6 lch  ( 0.359%)
+   summation_S                 123.9 lch  ( 0.112%)
+   checkpoint_writes            56.8 lch  ( 0.051%)
+   setup_per_process             0.8 lch  ( 0.001%)
+   merge_and_dft                 0.2 lch  ( 0.000%)
+   TOTAL                    110622.5 lch
+   storage: pre_produced_low_segments_GB 5.9, checkpoints_GB 77.3, stream_and_timing_logs_GB 0.7, final_class_sums_and_symbols_GB 0.2, transient_per_worker_MB 16.7
+
+== nonzero-only scalar screen, best case: T = 5.7406e+13  primes 1.8732e+12  L pairs 3.8993e+13  L terms 1.8462e+13  S blocks 13686657
+   L sub-units 3457488 (segments 3421665, extra sub-units 35823 in 4096 low segments; single-unit from segment 4096)
+   production               146902.9 lch  (84.627%)
+   verification              21781.0 lch  (12.548%)
+   traversal_L                 108.6 lch  ( 0.063%)
+   traversal_S                2619.8 lch  ( 1.509%)
+   kernel_L                    537.0 lch  ( 0.309%)
+   kernel_S                    789.1 lch  ( 0.455%)
+   summation_L                 583.2 lch  ( 0.336%)
+   summation_S                 176.2 lch  ( 0.102%)
+   checkpoint_writes            89.1 lch  ( 0.051%)
+   setup_per_process             0.8 lch  ( 0.000%)
+   merge_and_dft                 0.2 lch  ( 0.000%)
+   TOTAL                    173587.9 lch
+   storage: pre_produced_low_segments_GB 11.5, checkpoints_GB 77.3, stream_and_timing_logs_GB 1.0, final_class_sums_and_symbols_GB 0.2, transient_per_worker_MB 16.7
+
+== exact scalar identification: T = 6.7981e+13  primes 2.2061e+12  L pairs 4.6182e+13  L terms 2.1859e+13  S blocks 16207934
+   L sub-units 4093294 (segments 4051984, extra sub-units 41310 in 4096 low segments; single-unit from segment 4096)
+   production               179808.4 lch  (84.908%)
+   verification              26149.1 lch  (12.348%)
+   traversal_L                 128.6 lch  ( 0.061%)
+   traversal_S                3110.8 lch  ( 1.469%)
+   kernel_L                    635.7 lch  ( 0.300%)
+   kernel_S                    930.1 lch  ( 0.439%)
+   summation_L                 690.5 lch  ( 0.326%)
+   summation_S                 205.8 lch  ( 0.097%)
+   checkpoint_writes           108.7 lch  ( 0.051%)
+   setup_per_process             0.8 lch  ( 0.000%)
+   merge_and_dft                 0.2 lch  ( 0.000%)
+   TOTAL                    211768.6 lch
+   storage: pre_produced_low_segments_GB 11.5, checkpoints_GB 77.3, stream_and_timing_logs_GB 1.1, final_class_sums_and_symbols_GB 0.2, transient_per_worker_MB 16.7

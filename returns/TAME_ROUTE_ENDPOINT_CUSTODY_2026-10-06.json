@@ -1,0 +1,38 @@
+{
+ "return": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-07T00:29:08Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "ONE_GATE_LEFT_G1 (existence-form Law = FIN-tail and (K); exact Law needs a char-0 rank-two identity); comparison map NOT_ADMITTED",
+ "files": [
+  {
+   "path": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/ADMISSION.md",
+   "sha256": "332849a01822a85f9cf88c69ed3743fb09e7c50a159d79a822629542c4a56023",
+   "bytes": 3968
+  },
+  {
+   "path": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/HANDOFF.md",
+   "sha256": "c9cd7f4a6234f4602014ee77a6d668ff03526854e64795a8615472b6791c7db3",
+   "bytes": 1813
+  },
+  {
+   "path": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "a9d2ff758a0d119556e986910db01955d6521c87edd2b4cb176c37a084a201f8",
+   "bytes": 232
+  },
+  {
+   "path": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/STATUS.md",
+   "sha256": "4df8dc1fbde298a19fe35fe6c88c65b3bbcdaf6f39647b97d438c7fcdb0fa62d",
+   "bytes": 6318
+  }
+ ],
+ "inputs": {
+  "G2_PROOF_sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+  "TameLink_lean_sha256 (69562e6c (7))": "4d8c9e22f66d2644cbb55369eb3acbd679cb73752e8235eb5dc5f8288f270a2d",
+  "DetectorRule_lean_sha256 (69562e6c (4)-(7))": "1c354f58c79da0474c644b1fa19846340d50a44a7c9aae79caa59e5a2dbe5cb1",
+  "Tan_1995": "K.-S. Tan, Refined theorems of the Birch and Swinnerton-Dyer type, Ann. Inst. Fourier 45 (1995) 317-374 (cited, not copied)"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

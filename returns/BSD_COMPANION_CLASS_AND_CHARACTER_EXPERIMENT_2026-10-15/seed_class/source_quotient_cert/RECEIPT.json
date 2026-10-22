@@ -1,0 +1,18 @@
+{
+  "stage": "source_quotient_certification",
+  "status": "TIMEOUT",
+  "elapsed_seconds": 90.49679471715353,
+  "returncode": 0,
+  "internal_seconds": 90,
+  "outer_seconds": 100,
+  "stdout_sha256": "f77b1836c794b2072200d0df7e57f952db215564a39ba03472e000ac67928aca",
+  "stderr_sha256": "63114bd84ed1eebf7dbece6ecdc6dcbb51983daed09daa72dbe2610267d6b8dc",
+  "errors": [
+    "  *** bnfcertify: Warning: Zimmert's bound is large (226849291805255087108915200), certification will take a long time.",
+    "  ***   at top-level: read(\"certify.gp\")",
+    "  ***                 ^------------------",
+    "  ***   in function read: c=bnfcertify(B,1);print(\"CLASS_QUOTIENT_CERTIF",
+    "  ***                       ^--------------------------------------------",
+    "  *** bnfcertify: alarm interrupt after 1min, 29,134 ms."
+  ]
+}

@@ -1,0 +1,10 @@
+alarm(60);gettime();D=read("inputs/data.gp");C=read("inputs/affine_norm_certificate.gp");E=D[1];fA=D[3];T=D[5];G=D[6];nf=nfinit(fA);fB=C[1];NFB=nfinit(fB);GG=C[3];WW=C[4];UE=C[5];UR=C[6];K=C[7];AE=C[8];NV=C[9];RT=C[10];SA=-E.c4/48;XT=T[1]+E.b2/12;YT=T[2]+(E.a1*T[1]+E.a3)/2;
+for(j=1,#UE,if(idealhnf(nf,UE[j])!=matid(8)||UE[j]!=UR[j]^3*prod(i=1,#G,G[i]^lift(D[14][i,j])),error("literal units")));
+if(matrank(D[14]*K)!=2||#matker((D[9]+matid(#G))*D[14])!=2,error("antiunit rank"));
+BT=matrix(8,8,i,j,polcoef(lift(YT^(j-1)),i-1,w));wv=matsolve(BT,vector(8,i,polcoef(lift(Mod(w,fA)),i-1,w))~);TW=sum(i=1,8,wv[i]*(-YT)^(i-1));if(subst(fA,w,TW)!=0||subst(lift(YT),w,TW)!=-YT,error("tau"));
+AL=vector(2,j,AE[j]/subst(lift(AE[j]),w,TW));BE=vector(2,j,RT[j]/subst(lift(RT[j]),z,-Mod(z,fB)));
+Q=polgcd(x^4-2*XT*x^2+2*YT*x+SA,subst(fB,z,6*x));Q=Q/pollead(Q);if(poldegree(Q)!=3,error("transpose incidence degree"));
+VAL=vector(2);for(j=1,2,if(idealhnf(nf,AL[j])!=matid(8)||idealhnf(NFB,BE[j])!=matid(8),error("antiunit integral"));if(AL[j]*subst(lift(AL[j]),w,TW)!=1||BE[j]*subst(lift(BE[j]),z,-Mod(z,fB))!=1,error("strict antiunit"));if(norm(subst(lift(AL[j]),w,WW))!=BE[j]^3,error("forward odd cube"));VAL[j]=norm(Mod(subst(lift(BE[j]),z,6*x),Q));if(VAL[j]!=AL[j],error("reverse identity")));
+write("reverse_certificate.gp",[TW,AL,BE,Q,VAL,2*D[14]*K]);
+jm(A)=vector(matsize(A)[1],i,vector(matsize(A)[2],j,lift(A[i,j])));
+write("reverse.json",Str("{\"source_signature\":",nf.sign,",\"line_signature\":",NFB.sign,",\"source_odd_unit_rank\":2,\"independent_strict_antiunit_classes\":",jm(2*D[14]*K),",\"reverse_norm_preimages\":2,\"literal_reverse_identities\":true,\"companion_BNF_created\":false}"));print("GLOBAL_UNITS=4;ODD_UNIT_CLASSES=2;LITERAL_REVERSE_NORM_IDENTITIES=2;MS=",gettime());print("GENUINE_EXCESS_IN_REVERSE_NORM_IMAGE_CERTIFIED_UNDER_RETAINED_MEMBERSHIP_AND_RANK");quit;

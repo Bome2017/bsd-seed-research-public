@@ -1,0 +1,21 @@
+{
+  "status": "EXACT_SAVED_PRESENTATION_CHECK_PASS",
+  "source_class_certification": "NOT_CERTIFIED; conditional on cached class completeness (retained GRH grade)",
+  "S_quotient_order_in_computed_presentation": 1,
+  "ordinary_minus_3_length_in_computed_presentation": 2,
+  "chosen_S_prime_columns_one_based": [
+    4,
+    9
+  ],
+  "chosen_3_primary_determinant": -20,
+  "ordinary_minus_unit_rank": 2,
+  "minus_S_divisor_rank": 2,
+  "minus_S_unit_rank": 4,
+  "conditional_companion_minus_S_class_length_upper": 2,
+  "conditional_entire_global_norm_kernel_dimension_upper": 4,
+  "known_Selmer_or_Sha_used": false,
+  "input_hashes": {
+    "inspect.out": "3bc6e0ff2d6b795c0acc30ef11bc5083e4fb7a0507ca409c1b0d710820805d12",
+    "geometry.out": "c78a83b06348df3c7b37db29678b6d16f594229a71a9ddda09870e876521ddd1"
+  }
+}

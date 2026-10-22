@@ -1,0 +1,268 @@
+{
+  "FIN": "UNCHANGED",
+  "M": 39019128076431504,
+  "N": 6503188012738584,
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "augmentation_gcd": 1522492355844965281458798803702016,
+  "bad_modulus_controls": 24,
+  "c_values": [
+    39019128076431505,
+    78038256152863009,
+    117057384229294513
+  ],
+  "independent_seed_point_counts": 17,
+  "invalid_input_controls": 10,
+  "new_K_values": 0,
+  "new_primary_conclusions": 0,
+  "residual_coverage_controls": 1132,
+  "retained_not_replayed": [
+    "global residual surjectivity",
+    "Manin-constant input",
+    "symbol [1/5]^+=144",
+    "all Kato/BKS hypotheses"
+  ],
+  "rows": [
+    {
+      "a_p": -2,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 5,
+      "pair": [
+        2,
+        3
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 2
+    },
+    {
+      "a_p": -2,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 7,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 5
+    },
+    {
+      "a_p": -2,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 11,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 1
+    },
+    {
+      "a_p": -4,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 13,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 12
+    },
+    {
+      "a_p": -6,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 17,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 11
+    },
+    {
+      "a_p": 4,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": false,
+      "ordinary": true,
+      "ordinary_ratio_domain": false,
+      "p": 19,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 14
+    },
+    {
+      "a_p": 0,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": false,
+      "ordinary_ratio_domain": false,
+      "p": 23,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 6
+    },
+    {
+      "a_p": 0,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": false,
+      "ordinary_ratio_domain": false,
+      "p": 29,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 27
+    },
+    {
+      "a_p": -8,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 31,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 14
+    },
+    {
+      "a_p": 10,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 37,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 3
+    },
+    {
+      "a_p": 6,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 41,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 18
+    },
+    {
+      "a_p": -8,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 43,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 35
+    },
+    {
+      "a_p": 4,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 47,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 25
+    },
+    {
+      "a_p": -6,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 53,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 46
+    },
+    {
+      "a_p": -4,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": false,
+      "ordinary": true,
+      "ordinary_ratio_domain": false,
+      "p": 59,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 3
+    },
+    {
+      "a_p": -12,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": true,
+      "ordinary": true,
+      "ordinary_ratio_domain": true,
+      "p": 61,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 1
+    },
+    {
+      "a_p": -28,
+      "actual_coefficient_evaluated": false,
+      "in_cohomological_domain": false,
+      "ordinary": true,
+      "ordinary_ratio_domain": false,
+      "p": 487,
+      "pair": [
+        1,
+        2
+      ],
+      "sha_conclusion": null,
+      "smoothing_augmentation_mod_p": 16
+    }
+  ],
+  "status": "PASS_EXACT_SOURCE_CONTROLS_NOT_A_SHA_CERTIFICATE",
+  "unipotent_fixed_vector_inputs": 364,
+  "universal_form_gcd_controls": 100
+}

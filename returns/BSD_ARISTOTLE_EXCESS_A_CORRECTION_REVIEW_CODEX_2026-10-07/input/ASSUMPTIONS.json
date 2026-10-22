@@ -1,0 +1,37 @@
+{
+  "status": "NO_BOUND_MECHANISM_FOUND_FOR_TESTED_CANDIDATES",
+  "revision": "2026-10-07 corrected second pass; see CORRECTIONS_2026-10-07.md",
+  "retained_inputs": [
+    "Seed curve, saturated rank-two basis P1,P2 (retained grade)",
+    "Surjectivity of residual representation outside retained finite set (retained grade)",
+    "Heegner hypothesis for K=Q(sqrt(-23)) (kernel-checked in record)",
+    "Seed root number w(E)=+1 (imported; used for the twist root-number sign)",
+    "Even parity of Sha[p] dimension (retained grade; not used)"
+  ],
+  "record_inputs_with_traced_grade": [
+    {
+      "claim": "39.512236 <= L'(E^{-23},1) <= 40.182321, hence ord_{s=1} L(E^{-23},s)=1",
+      "record_grade": "PROVED_COMPUTER_ASSISTED (TWIST_D23_NONZERO_CERTIFIED, 2026-09-21; same-family/metadata review only)",
+      "traced_here": "metadata hash chain, tail bound (2), endpoint arithmetic, root-number sign and model identity rechecked exactly; finite sum 2S_T NOT replayable from supplied archive (twist.c, retained_arbcore.c, binary, 1,030 units and C11 coefficient files absent)",
+      "corroboration": "2026-10-06 floating-point value 39.84727806412 from an independent a_q engine (not interval-certified)",
+      "details": "TWIST_D23_TRACE.md",
+      "used_by": "A2 domain (s_minus=1 cofinitely via Gross-Zagier-Kolyvagin); not load-bearing for the A2 verdict"
+    }
+  ],
+  "imported_theorems_statement_level": [
+    "Kolyvagin structure theorem in the form of Zhang Lemma 8.4 (requires Hypothesis heart for (E,K,p)); not re-read",
+    "Nekovar control theorem for Selmer complexes with Greenberg conditions; not re-read",
+    "Gross-Zagier-Kolyvagin analytic-rank-one theorem",
+    "Kato divisibility and Perrin-Riou/Schneider leading-term formula (used only to state A3 inequality)"
+  ],
+  "withdrawn": [
+    "PROOF.md (first version) Prop. 1 statement 4 and part (b): Theta_1(0) tensor F_p unit <=> some kappa_l nonzero mod p. Unproved comparisons C1-C4 between DLV ideals, Howard's Lambda-adic system and Zhang's classical kappa_n",
+    "Statement that ord_{s=1} L(E^{-23},s)=1 was not computed in the record"
+  ],
+  "new_derivations": [],
+  "computations_run": [
+    "checks/d23_trace_check.py: read-only custody/hash checks and exact decimal arithmetic on recorded numbers; no L-series summation"
+  ],
+  "conjectures_used": [],
+  "forbidden_inputs_used": []
+}

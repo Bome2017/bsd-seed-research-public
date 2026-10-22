@@ -1,0 +1,53 @@
+{
+ "return": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-06T21:30:14Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "NO_SEED_OBJECT_IDENTIFIED",
+ "files": [
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/HANDOFF.md",
+   "sha256": "3a7e0b15435fa457c59254dee7a2f5257899cf8a69031176d6496bacbf285181",
+   "bytes": 1508
+  },
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "8ecb0baf7c78c474e2de385132eca42bb5b1f6b01399e72ab106c03f7b46e8fa",
+   "bytes": 592
+  },
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/RESULT.md",
+   "sha256": "00feab7c987ea130e8cd6cb0b812d2f3a2632674c581e9c2629d37fc8c67ea9d",
+   "bytes": 8349
+  },
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/checks/ell_check.out",
+   "sha256": "6a4e970d5f7ca38993e399c41d7eaead3306da0a325fb2747d83a088d37b57cb",
+   "bytes": 253
+  },
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/checks/ell_check.py",
+   "sha256": "2a0307b3028de028c8246cfab651d93575856322b0408c65d3efcab074f00b05",
+   "bytes": 1456
+  },
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/evidence/P5_DOWNSTREAM.txt",
+   "sha256": "3b100824795bdd9445bbf91fa03ad24d25f8271e6f7e358d1cf9cfc49506fdba",
+   "bytes": 2177
+  },
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/evidence/msl_m25.txt",
+   "sha256": "3acf685d435abae71b572abb0380e8b1efdc826668c7979687a5f83939560b6d",
+   "bytes": 5789
+  },
+  {
+   "path": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/evidence/msl_m5.txt",
+   "sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7",
+   "bytes": 1508
+  }
+ ],
+ "evidence_origin": "/Users/bsm/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/evidence/ (certified 09-19 seed msl outputs, byte-identical)",
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

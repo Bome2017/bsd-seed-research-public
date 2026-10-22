@@ -1,0 +1,69 @@
+{
+  "lean_version": "Lean (version 4.28.0, x86_64-apple-darwin24.6.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)",
+  "dependencies": [
+    {
+      "package": "mathlib",
+      "revision": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/mathlib/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "plausible",
+      "revision": "55c8532eb21ec9f6d565d51d96b8ca50bd1fbef3",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/plausible/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "LeanSearchClient",
+      "revision": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "importGraph",
+      "revision": "85b59af46828c029a9168f2f9c35119bd0721e6e",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/importGraph/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "proofwidgets",
+      "revision": "be3b2e63b1bbf496c478cef98b86972a37c1417d",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/proofwidgets/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "aesop",
+      "revision": "f642a64c76df8ba9cb53dba3b919425a0c2aeaf1",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/aesop/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "Qq",
+      "revision": "b8f98e9087e02c8553945a2c5abf07cec8e798c3",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/Qq/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "batteries",
+      "revision": "495c008c3e3f4fb4256ff5582ddb3abf3198026f",
+      "source_clean": true,
+      "cached_library": "/Users/bsm/k33-successor-base-v2-2026-08-27/.lake/packages/batteries/.lake/build/lib/lean",
+      "note": ""
+    },
+    {
+      "package": "Cli",
+      "revision": "4f10f47646cb7d5748d6f423f4a07f98f7bbcc9e",
+      "source_clean": true,
+      "cached_library": null,
+      "note": "Cli is a Lake dependency, not imported by the four Mathlib modules"
+    }
+  ],
+  "method": "Fresh compilation of submitted sources with pinned existing dependency libraries; does not rebuild Mathlib from source"
+}

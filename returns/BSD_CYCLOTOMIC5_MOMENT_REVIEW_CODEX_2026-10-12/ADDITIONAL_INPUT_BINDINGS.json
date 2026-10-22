@@ -1,0 +1,38 @@
+{
+  "baseline_commit": "0e8bb6859d1391e6d449b1ef02aff2cfd85310f1",
+  "files": [
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/claims/spec/part1_core.py",
+      "git_blob": "a02857bd67639d751d12535f8c78e889e4bafb4b",
+      "sha256": "f65207e43b469797e9fe712dc17bb3a6547954b58a9545245c10e897ed093c31",
+      "use": "A.1 torsion and A.3 all-odd-prime residual image, retained at written/imported grade",
+      "independently_recertified": false,
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/0e8bb6859d1391e6d449b1ef02aff2cfd85310f1/work/state-sync-2026-09-30/release/v0.2.6/claims/spec/part1_core.py"
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/REPORT.md",
+      "git_blob": "e31dae4ebdf33f9bc1e73a8682c936a6831bb26e",
+      "sha256": "fcfc7991fc4a9d91b61d43307827ca29f6dbe79cdbd8ebf3cbe32ee9020b6678",
+      "use": "Retained standard ordinary source and period normalization",
+      "independently_recertified": false,
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/0e8bb6859d1391e6d449b1ef02aff2cfd85310f1/work/returns/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/REPORT.md"
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md",
+      "git_blob": "008c22932c67d6df5fe4948bd55f1f2dcd930e56",
+      "sha256": "2dfa96d000efa7a4862674f5cdc7953341fcc5fb3ef0e4308281456eba441d77",
+      "use": "Retained historical symbol certificate; large core not rerun",
+      "independently_recertified": false,
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/0e8bb6859d1391e6d449b1ef02aff2cfd85310f1/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md"
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md",
+      "git_blob": "291e618f69600e05864c9d2542dc1de1688a37ba",
+      "sha256": "1645f4849571c2ac3f49b6d859347dff779ba8726008e150bc741e561a89a690",
+      "use": "Retained rank, torsion and mod5 image, not fresh end-to-end audit",
+      "independently_recertified": false,
+      "url": "https://github.com/Bome2017/bsd-seed-lab/blob/0e8bb6859d1391e6d449b1ef02aff2cfd85310f1/work/state-sync-2026-09-30/release/v0.2.6/evidence/src/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md"
+    }
+  ],
+  "scope": "The point-group strengthening imports A.3 for all ell>=5. The basic tower theorem needs only the mod5 image. No grades are upgraded."
+}

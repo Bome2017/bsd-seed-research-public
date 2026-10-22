@@ -1,0 +1,43 @@
+R1 acc2243v2 m=27 PASS (      52 substantive lines identical to the S2 merge)
+R1 acc2243v2 m=81 PASS (     146 substantive lines identical to the S2 merge)
+R1 acc2243v2_shim m=27 PASS (      52 substantive lines identical to the S2 merge)
+R1 acc2243v2_shim m=81 PASS (     146 substantive lines identical to the S2 merge)
+R2 PASS: 18 symbols, 36 ball pairs overlap, identical candidates/flags; max radius ratio dft/direct = 1.000; []
+Traceback (most recent call last):
+  File "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/tests/compare_dft.py", line 30, in <module>
+    (m1, r1), (m2, r2) = ball(x[i]), ball(y[i])
+                         ~~~~^^^^^^
+  File "/Users/bsm/BSD_2243_PILOT_PREP_2026-09-22/S5_pipeline/tests/compare_dft.py", line 11, in ball
+    return Fr(s), Fr(0)                                   # exact value printed without radius
+           ~~^^^
+  File "/opt/miniconda3/lib/python3.13/fractions.py", line 256, in __new__
+    raise ValueError('Invalid literal for Fraction: %r' %
+                     numerator)
+ValueError: Invalid literal for Fraction: '[+/- 4.37e-4]'
+R3 PASS fresh v2 run == S2 merge; digest e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681
+R4a shard B first attempt exit 9 (1 simulated crash)
+RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1445, shard 1/2, already done 0 in 0 checkpoints, generation 1, W 4
+NEG R4a-missing-shard PASS (refused: FATAL: units missing: run incomplete)
+R4a PASS pooled shards (with crash/restart) digest == R3 digest e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681; 10 checkpoints
+R4b first attempt exit 9
+RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 24, shard 0/1, already done 6 in 1 checkpoints, generation 2, W 2
+MERGE checkpoints 4 units 1445 selected 24 missing 0 terms 897652842  SELECTION L0/0-5,L7,L100-103,L287,S0-9,S500,S1151
+COUNT_SELECTION pairs 1972891384 recount 1972891384 match 1  smooth 26521595 (S-block smooth counts are covered only by the full-run identity)
+CHUNK_DIGEST 5ba823318537525a140ca92fafeff4cc7fc6b068c0a0512ef808e1551fa749ba
+R4b PASS selection digest identical after crash/restart
+NEG R4b-wrong-selection PASS (refused: FATAL: ACC_SELECT differs from the checkpoints' selection)
+NEG R4b-bad-token PASS (refused: FATAL: ACC_SELECT: a token selects no unit (segment without primes > sqrt T, sub-unit or block out of range))
+NEG R4b-duplicated-ckpt PASS (refused: FATAL: unit covered twice)
+NEG R4b-corrupted-ckpt PASS (refused: FATAL: ckpt self-hash mismatch (corrupted checkpoint))
+NEG R4b-missing-ckpt PASS (refused: FATAL: units missing: run incomplete)
+R4c stream run exit 3; leftover ap/sha256 files in stream dirs: 0
+R4c FAIL
+cat: r4c_str/stream_g*_w*/stream_log.txt: No such file or directory
+R4c PASS verifier ap_sha256 (stream log) == accumulator segment hashes
+NEG R4c-producer-fails PASS (refused: FATAL: stream command failed (produce/verify): fail closed)
+NEG R4c-witness-corrupted PASS (refused: FATAL: stream command failed (produce/verify): fail closed)
+R4c-witness-corrupted verifier said: 
+NEG R4c-tampered-stored-ap FAIL
+RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1
+RUN done seconds 0.47
+SMALL_DONE

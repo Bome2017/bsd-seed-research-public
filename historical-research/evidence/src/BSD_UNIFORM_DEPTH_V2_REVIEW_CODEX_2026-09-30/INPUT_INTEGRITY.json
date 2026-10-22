@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "ebb3d4c134c26149b4b18e0c6cc1c7a43c835cbeb4e54c0d6ab73353bd104caa",
+  "zip_crc": "PASS",
+  "manifest_entries": 14,
+  "manifest": "PASS",
+  "loose_matches": {
+    "RETURN.md": true,
+    "ATTEMPT_I_CHARACTER_DEPTH.md": true,
+    "ATTEMPT_II_TWO_PRIME_WITNESS.md": true,
+    "STATE.json": true
+  },
+  "manifest_paths": [
+    "ATTEMPT_A_GLOBAL_SCALAR.md",
+    "ATTEMPT_B_ARITHMETIC_LIFTS.md",
+    "ATTEMPT_C_STRUCTURAL_SCOPE.md",
+    "ATTEMPT_III_SELMER_BOUND.md",
+    "ATTEMPT_II_TWO_PRIME_WITNESS.md",
+    "ATTEMPT_I_CHARACTER_DEPTH.md",
+    "INPUT_BRIEF.md",
+    "NOTES.md",
+    "RESUME.md",
+    "RETURN.md",
+    "SELF_REPLAY.md",
+    "SOURCE_AUDIT.md",
+    "SOURCE_CUSTODY.json",
+    "STATE.json"
+  ]
+}

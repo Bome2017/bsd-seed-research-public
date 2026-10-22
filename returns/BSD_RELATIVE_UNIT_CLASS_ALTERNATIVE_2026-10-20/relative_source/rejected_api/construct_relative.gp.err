@@ -1,0 +1,6 @@
+  ***   at top-level: main();quit
+  ***                 ^-----------
+  ***   in function main: ..."));F6=charpoly(TH,y);F6=polsqrfree(F6)[1,1];F
+  ***                                                 ^---------------------
+  ***   not a function in function call
+... skipping file '/Users/bsm/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/relative_source/construct_relative.gp'

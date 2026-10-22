@@ -1,0 +1,310 @@
+[
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/A1_WITNESS_CONTENT_FULL/source/ARISTOTLE_A1_WITNESS_CONTENT_2026-09-19_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/A1_WITNESS_CONTENT_FULL/source/ARISTOTLE_A1_WITNESS_CONTENT_2026-09-19_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/A2_PRIMARY_SUPPORT_FULL/source/ARISTOTLE_A2_PRIMARY_SUPPORT_2026-09-19_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_ARISTOTLE_FORMALIZATION_FREEZE_2026-09-19/A2_PRIMARY_SUPPORT_FULL/source/ARISTOTLE_A2_PRIMARY_SUPPORT_2026-09-19_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/STATE.json",
+    "source_sha256": "c321bf9d15772e170791708b864dbecfe67db83f5c6b8e6a1ea356bcb4900109",
+    "bytes": 3279,
+    "public_path": "historical-research/evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/STATE.json",
+    "public_sha256": "ce7097ff93be40d5d86356c9f96cf68ceeeef1f731c101b23de47942e1364ce5",
+    "public_bytes": 3276,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "private correspondence JSON value"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/A/ORDINARY_BRIDGE_2026-09-22_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/A/ORDINARY_BRIDGE_2026-09-22_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/B/ORDINARY_BRIDGE_2026-09-22_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/B/ORDINARY_BRIDGE_2026-09-22_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/GRADING.md",
+    "source_sha256": "3d3ddf55396f08a1d1cc5675424d9d2f891f21eea3f768b3983174fa99d405a0",
+    "bytes": 7839,
+    "public_path": "historical-research/evidence/src/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/returned/GRADING.md",
+    "public_sha256": "535474a3ee9ece49b3cd1572ba65ebca044f66c601676d8e2aa8acb4de362e1c",
+    "public_bytes": 6993,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "private correspondence paragraph"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_C2_WITNESS_2026-09-22/returned/run1/C2_WITNESS_2026-09-22_rev2_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_C2_WITNESS_2026-09-22/returned/run1/C2_WITNESS_2026-09-22_rev2_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_C2_WITNESS_2026-09-22/returned/run2/output-final_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_C2_WITNESS_2026-09-22/returned/run2/output-final_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_DEFINITE_FIELD_GATE_2026-09-22/RESUME.md",
+    "source_sha256": "fa5a691e7d7cae26f2014d5a6fa338a06d59a6b575f6fc1b1dd9068eb67e0f84",
+    "bytes": 17641,
+    "public_path": "historical-research/evidence/src/BSD_DEFINITE_FIELD_GATE_2026-09-22/RESUME.md",
+    "public_sha256": "8fd74c02b84c3d6b1f3adf3949777595ba8a42f81b93bf4f7fb641807304d094",
+    "public_bytes": 16932,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "private correspondence paragraph"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_mwrank_v1_S-1.time",
+    "source_sha256": "25873d7740c9718506bd6ba6775759a76e7d741c9ea861b7f2035766b0a7fbc8",
+    "bytes": 1415,
+    "public_path": "historical-research/evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_mwrank_v1_S-1.time",
+    "public_sha256": "bc8cf5886cecdc466165f86581d5278b2f379afa0d26678b08577a62edef7c9b",
+    "public_bytes": 1409,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+    "source_sha256": "3d3ddf55396f08a1d1cc5675424d9d2f891f21eea3f768b3983174fa99d405a0",
+    "bytes": 7839,
+    "public_path": "historical-research/evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+    "public_sha256": "535474a3ee9ece49b3cd1572ba65ebca044f66c601676d8e2aa8acb4de362e1c",
+    "public_bytes": 6993,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "private correspondence paragraph"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/AWARE/TWIST_SHA_AWARE_2026-09-22_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/AWARE/TWIST_SHA_AWARE_2026-09-22_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "historical-research/evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+    "source_sha256": "3d3ddf55396f08a1d1cc5675424d9d2f891f21eea3f768b3983174fa99d405a0",
+    "bytes": 7839,
+    "public_path": "historical-research/evidence/src/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/pkg/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+    "public_sha256": "535474a3ee9ece49b3cd1572ba65ebca044f66c601676d8e2aa8acb4de362e1c",
+    "public_bytes": 6993,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "private correspondence paragraph"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+    "source_sha256": "3d3ddf55396f08a1d1cc5675424d9d2f891f21eea3f768b3983174fa99d405a0",
+    "bytes": 7839,
+    "public_path": "historical-research/evidence/src/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/STAGE_II_ONLY/RECONCILIATION.md",
+    "public_sha256": "535474a3ee9ece49b3cd1572ba65ebca044f66c601676d8e2aa8acb4de362e1c",
+    "public_bytes": 6993,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "private correspondence paragraph"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "review/NOTES_FOR_AUTHOR.md",
+    "source_sha256": "91a47c439f9ba08a0b6e8a1cf04d4e537c29a2c1742b9c18fbe6d9232f31a737",
+    "bytes": 2681,
+    "public_path": "historical-research/review/NOTES_FOR_AUTHOR.md",
+    "public_sha256": "b13200758c91ef4ee7e8d215c47b503a1ef6409266f2b19c9ad085ae1f754928",
+    "public_bytes": 2675,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-research",
+    "source_commit": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+    "source_path": "review/PRIVACY_REVIEW.md",
+    "source_sha256": "6b8c530617b75f35bec549156b8ffac6f664689e37c99e036163478cda5446d0",
+    "bytes": 7347,
+    "public_path": "historical-research/review/PRIVACY_REVIEW.md",
+    "public_sha256": "0f02af6a652ac9686a69c0b8eea9b9e0315a8bbaf68991ea1292e22615686ddc",
+    "public_bytes": 1330,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "private correspondence paragraph"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "source_commit": "ceadfa43c5543cf5efd75d0ed72cad5728d6e7cc",
+    "source_path": "work/returns/BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06/returned/BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/README.md",
+    "source_sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab",
+    "bytes": 248,
+    "public_path": "returns/BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06/returned/BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/README.md",
+    "public_sha256": "bb742f107b7cf1e2f8a5028ffd5aac03ddc603a724c0f239b4357de081f12e1f",
+    "public_bytes": 233,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "source_commit": "ceadfa43c5543cf5efd75d0ed72cad5728d6e7cc",
+    "source_path": "work/returns/BSD_CLAUDE_SCALING_RECONCILIATION_2026-10-18/inventory/CLAUDE_BRANCH_HEADS.json",
+    "source_sha256": "9647034f99fe764a8c0ab39ed652800836037d26812b452b0b1ce6b1ce3ede64",
+    "bytes": 3566,
+    "public_path": "returns/BSD_CLAUDE_SCALING_RECONCILIATION_2026-10-18/inventory/CLAUDE_BRANCH_HEADS.json",
+    "public_sha256": "67894d095467a1672e449494f2ad0bfefa710f7495aafbaa60fe80f5b224fb4f",
+    "public_bytes": 3546,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "source_commit": "ceadfa43c5543cf5efd75d0ed72cad5728d6e7cc",
+    "source_path": "work/returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/input/2318738a/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06_aristotle/README.md",
+    "source_sha256": "bbeee3a342cb87737375b36c5d03afcfef52949d27cc91e56db6a8a6e0d3cb93",
+    "bytes": 1460,
+    "public_path": "returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/input/2318738a/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06_aristotle/README.md",
+    "public_sha256": "c57d79bc5ac9151216f99aa4627a7b861362bac03ee8b6938b81e9d9259fb14d",
+    "public_bytes": 1445,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "source_commit": "ceadfa43c5543cf5efd75d0ed72cad5728d6e7cc",
+    "source_path": "work/returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/input/a6077c4a/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06 2_aristotle/README.md",
+    "source_sha256": "f2fa4595d14204604414a93e8c08c9a481f1865bb19e2e51385288f9cc9e43cd",
+    "bytes": 1680,
+    "public_path": "returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/input/a6077c4a/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06 2_aristotle/README.md",
+    "public_sha256": "8cb901d4c837488fbee84512fb799dbda164d92ec526656ba63aaed29440b9c0",
+    "public_bytes": 1665,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  },
+  {
+    "source_repository": "Bome2017/bsd-seed-lab",
+    "source_commit": "ceadfa43c5543cf5efd75d0ed72cad5728d6e7cc",
+    "source_path": "work/returns/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/REPOSITORY_COMMIT.json",
+    "source_sha256": "c6b1add8cd6aef35fe16ea5ed412efdda0ae188c86f92905fff393d48d5f1d8d",
+    "bytes": 1155186,
+    "public_path": "returns/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/REPOSITORY_COMMIT.json",
+    "public_sha256": "24c12638a4ea6b6452e84cbebe16b0a4ffe5907cbb8140ab7752a74fa6f8cf37",
+    "public_bytes": 1155186,
+    "transformation": "privacy_redaction",
+    "redaction_kinds": [
+      "email address"
+    ]
+  }
+]

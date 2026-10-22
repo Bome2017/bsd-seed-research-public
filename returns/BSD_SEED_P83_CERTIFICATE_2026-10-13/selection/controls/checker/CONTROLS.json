@@ -1,0 +1,163 @@
+{
+ "all_ok": true,
+ "cases": [
+  {
+   "case": "baseline_l29_copy",
+   "expect": "NONZERO",
+   "got": "NONZERO",
+   "exit": 0,
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "case": "baseline_l379_copy",
+   "expect": "INCONCLUSIVE_ZERO",
+   "got": "INCONCLUSIVE_ZERO",
+   "exit": 3,
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "case": "row_values_copied",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "symmetry [(l-b)/l]^+ = [b/l]^+ or [(l-b)/l]^- = -[b/l]^- fails"
+  },
+  {
+   "case": "duplicate_label_audit_attack",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "duplicate XB labels: [1]"
+  },
+  {
+   "case": "missing_row",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "label set differs from the units mod 29: missing [5], extra []"
+  },
+  {
+   "case": "out_of_range_label",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "label set differs from the units mod 29: missing [28], extra [30]"
+  },
+  {
+   "case": "false_count",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "COUNT fields inconsistent: smooth 0 pairs 0 sum 0 T 0 identity 1 (frozen T 65535)"
+  },
+  {
+   "case": "wrong_expected_sign",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "PARAMS mismatch: got \"msl 0 1 1 -2 0 29 389 1 65535 65536 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleto"
+  },
+  {
+   "case": "wrong_expected_Q",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "Q must equal N for an auxiliary prime not dividing N (M = 1)"
+  },
+  {
+   "case": "wrong_expected_T",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "PARAMS mismatch: got \"msl 0 1 1 -2 0 29 389 1 65535 65536 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleto"
+  },
+  {
+   "case": "stale_params_from_other_run",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "PARAMS mismatch: got \"msl 0 1 1 -2 0 379 389 1 65535 65536 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singlet"
+  },
+  {
+   "case": "tampered_symbol_manifest_not_updated",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "manifest msl_output_sha256 does not match the output file"
+  },
+  {
+   "case": "tampered_symbol_asymmetric",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "symmetry [(l-b)/l]^+ = [b/l]^+ or [(l-b)/l]^- = -[b/l]^- fails"
+  },
+  {
+   "case": "tampered_pair_breaks_c0",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "c0 = 2 != 0 (Hecke relation at l with [0]^+ = 0)"
+  },
+  {
+   "case": "two_lattice_candidates",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "b=3: not a unique point of (1/1024)Z"
+  },
+  {
+   "case": "bad_receipt_hash",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "AP_SEGROOT does not equal the root of the verifier receipts over segments 0..k-1"
+  },
+  {
+   "case": "wrong_engine_binary",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "manifest arbcore_sha256 does not match the engine binary"
+  },
+  {
+   "case": "wrong_pinned_root",
+   "expect": "INVALID",
+   "got": "INVALID",
+   "exit": 2,
+   "ok": true,
+   "reason": "receipt root differs from the pinned segment root"
+  },
+  {
+   "case": "launcher_refuses_unauthorized_seed",
+   "expect": "REFUSED",
+   "got": "REFUSED: a seed run needs SINGLETON_AUTHORIZED=yes",
+   "exit": 2,
+   "ok": true
+  },
+  {
+   "case": "launcher_refuses_existing_outdir",
+   "expect": "REFUSED",
+   "got": "REFUSED: /Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/sele",
+   "exit": 2,
+   "ok": true
+  }
+ ]
+}

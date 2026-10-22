@@ -1,0 +1,25 @@
+{
+  "status": "PREPARED_NOT_SUBMITTED",
+  "source_commit": "062b7f9c858e64cbf2037148c1d6c7fe635595ca",
+  "review_folder": "work/returns/BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07",
+  "review_manifest_entries_verified": 29,
+  "archives": [
+    {
+      "path": "work/returns/archives/BSD_ARISTOTLE_GLOBAL_SUPPORT_B_2026-10-07.zip",
+      "bytes": 70919226,
+      "sha256": "111c3fb8acb26bba930fd7252eba4a18d7d29224a4153ed8a1e588fb86302ef6"
+    },
+    {
+      "path": "work/returns/archives/BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07.zip",
+      "bytes": 53017,
+      "sha256": "06db4450943fd691e62fa3cdfe261d1712384a0794df42d785d499379efca160"
+    }
+  ],
+  "sdk_payload_bytes": 70894965,
+  "sdk_limit_bytes": 104857600,
+  "sdk_project_files_verified": 32,
+  "reference_entries_verified": 7728,
+  "mathematical_endpoint_change": false,
+  "remote_job_started_or_changed": false,
+  "research_release_changed": false
+}

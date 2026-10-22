@@ -1,0 +1,2228 @@
+{
+ "research_base": "706efb554c0d4b1500f01f68bc769cc471293eb9",
+ "base_version": "v0.2.5 bank (local)",
+ "history_root": "review/history/v0.2.5",
+ "scope": "Route-K follow-on commit on v0.2.5-bank: new claim S.3K (#Sha[3^inf] <= 9 without Skinner, Skinner-Urban or GRH; grade label: written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review); S.3: statement and grades unchanged, primary support route K, Skinner 2016 Thm A the second route (MS-13.4.1(ii), MS-B1 open); E1: every integral citation of Kato 12.5(4) replaced by Kato 13.4(3) via 13.14 (the printed 12.5(4) is for V); F2: S.17-47 cites Ota's print (Amer. J. Math. 140 (2018) 495-542); one internal marker removed from an evidence description. Evidence: 42 files appended; the same 5 retained source changes. The v0.2.5 record review/V025_BANK_APPLIED.json is unchanged. No tag, push or publication.",
+ "user_decision": "route K PRIMARY, Skinner the SECOND route (confirmed by the user, 2026-09-29)",
+ "e1_allowlist": [
+  "review/V025_BANK_APPLIED.json",
+  "review/V025K_ROUTEK_APPLIED.json",
+  "review/history/**",
+  "evidence/src/**",
+  "tools/verify_v025k_transition.py"
+ ],
+ "base_copies": {
+  "MANIFEST.sha256": {
+   "path": "review/history/v0.2.5/MANIFEST.sha256",
+   "sha256": "5eeab79c37edd2f37f2bd7864200aed4a296c0002db8e9ea2ef84ba857b1c5cc"
+  },
+  "README.md": {
+   "path": "review/history/v0.2.5/README.md",
+   "sha256": "1b9b26a205220de449e7bb7cfcb0250e73b42e816f59aff84cee2c18b036cdfc"
+  },
+  "RECHECK_V0_2_5.md": {
+   "path": "review/history/v0.2.5/RECHECK_V0_2_5.md",
+   "sha256": "f3ef4d6fcf5092a3368356bc686048968e205c028aba68e51b6a58b74e2dfb5c"
+  },
+  "claims/CLAIM_INDEX.md": {
+   "path": "review/history/v0.2.5/claims/CLAIM_INDEX.md",
+   "sha256": "34ea502ceabf5873b4d41eb51f95221e0c1640492b86b7d0569d1a587c500202"
+  },
+  "claims/CROSS_CONNECTIONS.md": {
+   "path": "review/history/v0.2.5/claims/CROSS_CONNECTIONS.md",
+   "sha256": "24ed921eecea79cff779acb9ed122e1c5bfa1011e1f06b32abb090de15a8709b"
+  },
+  "claims/claims.json": {
+   "path": "review/history/v0.2.5/claims/claims.json",
+   "sha256": "f6c47571ef8d814f728737920e57d2a1ce5ae0954301493c6f6c6b828cbbddc7"
+  },
+  "claims/spec/common.py": {
+   "path": "review/history/v0.2.5/claims/spec/common.py",
+   "sha256": "6eb50503069b9df0d45ea30ea466e58e9232bfa049e8bba3b76f80c01b1d7d67"
+  },
+  "claims/spec/part1_core.py": {
+   "path": "review/history/v0.2.5/claims/spec/part1_core.py",
+   "sha256": "3dab401c7fc84baa47eec3981548cb64ef2f64339db77db476f05f3da9bf140f"
+  },
+  "evidence/PROVENANCE.tsv": {
+   "path": "review/history/v0.2.5/evidence/PROVENANCE.tsv",
+   "sha256": "030e385158fb5b4330ded4177a591b8616e4e030dbacf5c18d25fca5657eaae9"
+  },
+  "paper/refs.bib": {
+   "path": "review/history/v0.2.5/paper/refs.bib",
+   "sha256": "8c3f518e5f2f7967fec200e5dbc71a81d06cb877cb19e1b9f035e37c54f20b0a"
+  },
+  "paper/release_id.tex": {
+   "path": "review/history/v0.2.5/paper/release_id.tex",
+   "sha256": "4e037fb588fedaf11ff29fd72aa312f6de11f8ae8fd96474edc781f674d97104"
+  },
+  "paper/sections/01_intro.tex": {
+   "path": "review/history/v0.2.5/paper/sections/01_intro.tex",
+   "sha256": "e9387815a3ec90c835475f035dab12fecbf3e6bcd790a0b71b3d03a6bff94232"
+  },
+  "paper/sections/04_primary.tex": {
+   "path": "review/history/v0.2.5/paper/sections/04_primary.tex",
+   "sha256": "f5199906aaaf596ccf4d3a67d93b920080c46f014d12d1bd886e347def7a4356"
+  },
+  "paper/sections/11_remaining.tex": {
+   "path": "review/history/v0.2.5/paper/sections/11_remaining.tex",
+   "sha256": "b9a2eece234859d838d3159ae0af526f213d402ad356b3610540297773309b03"
+  },
+  "paper/seed_bsd.bbl": {
+   "path": "review/history/v0.2.5/paper/seed_bsd.bbl",
+   "sha256": "c737955fea9977724a8ffee811dfd59d2885cceea0246c0cb0258651fc53817d"
+  },
+  "paper/seed_bsd.pdf": {
+   "path": "review/history/v0.2.5/paper/seed_bsd.pdf",
+   "sha256": "741b3bd62a21137a3a296f1e9db05792c44931f7c176a5534792e34e5852ff3b"
+  },
+  "review/SYNTHESIS_CHECK_BRIEF.md": {
+   "path": "review/history/v0.2.5/review/SYNTHESIS_CHECK_BRIEF.md",
+   "sha256": "c657ba3d92a0cb72e378fd3d22965f809d6b5f820bc681711d04096df3ffbc08"
+  },
+  "review/V025_EVIDENCE_TRANSITION.json": {
+   "path": "review/history/v0.2.5/review/V025_EVIDENCE_TRANSITION.json",
+   "sha256": "8ec6767ec00c0f38e713d4f208638a305678e996f01becb1d66da6d8960892f8"
+  },
+  "tools/extra_evidence.txt": {
+   "path": "review/history/v0.2.5/tools/extra_evidence.txt",
+   "sha256": "676c874c145a5a5697eee9f0e4ad58d14675d41029ee48c0d4f7328e253a18e3"
+  },
+  "tools/verify_patch_release.py": {
+   "path": "review/history/v0.2.5/tools/verify_patch_release.py",
+   "sha256": "48f9d390bf035d8e736ab78e61b50e44d80cd28ea60ca769281cf5d532f8987c"
+  }
+ },
+ "added_paths": [
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+  "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+  "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+  "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+  "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+  "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+  "review/V025K_EVIDENCE_ADDITIONS.json",
+  "review/V025K_ROUTEK_APPLIED.json",
+  "review/history/v0.2.5/MANIFEST.sha256",
+  "review/history/v0.2.5/README.md",
+  "review/history/v0.2.5/RECHECK_V0_2_5.md",
+  "review/history/v0.2.5/claims/CLAIM_INDEX.md",
+  "review/history/v0.2.5/claims/CROSS_CONNECTIONS.md",
+  "review/history/v0.2.5/claims/claims.json",
+  "review/history/v0.2.5/claims/spec/common.py",
+  "review/history/v0.2.5/claims/spec/part1_core.py",
+  "review/history/v0.2.5/evidence/EXCLUDED.tsv",
+  "review/history/v0.2.5/evidence/PROVENANCE.tsv",
+  "review/history/v0.2.5/evidence/REDACTIONS.tsv",
+  "review/history/v0.2.5/paper/refs.bib",
+  "review/history/v0.2.5/paper/release_id.tex",
+  "review/history/v0.2.5/paper/sections/01_intro.tex",
+  "review/history/v0.2.5/paper/sections/04_primary.tex",
+  "review/history/v0.2.5/paper/sections/11_remaining.tex",
+  "review/history/v0.2.5/paper/seed_bsd.bbl",
+  "review/history/v0.2.5/paper/seed_bsd.pdf",
+  "review/history/v0.2.5/review/SYNTHESIS_CHECK_BRIEF.md",
+  "review/history/v0.2.5/review/V025_EVIDENCE_TRANSITION.json",
+  "review/history/v0.2.5/tools/extra_evidence.txt",
+  "review/history/v0.2.5/tools/verify_patch_release.py",
+  "tools/verify_v025k_transition.py"
+ ],
+ "claim_order": [
+  "A.1",
+  "A.2",
+  "A.3",
+  "A.4",
+  "R.1",
+  "R.2",
+  "R.3",
+  "R.4",
+  "R.5",
+  "R.6",
+  "R.7",
+  "S.2",
+  "S.3",
+  "S.3L",
+  "S.3F",
+  "S.3K",
+  "S.5",
+  "S.7",
+  "S.11",
+  "S.13",
+  "S.17-47",
+  "S.P",
+  "S.FIN",
+  "S.U",
+  "S.K",
+  "Q.1",
+  "Q.2",
+  "Q.3",
+  "Q.4",
+  "K.1",
+  "K.2",
+  "B.1",
+  "B.2",
+  "B.3",
+  "B.4",
+  "B.5",
+  "B.6",
+  "B.7",
+  "B.8",
+  "B.18",
+  "B.9",
+  "B.10",
+  "B.11",
+  "B.12",
+  "B.13",
+  "B.14",
+  "B.15",
+  "B.16",
+  "B.17",
+  "B.19",
+  "X.1",
+  "X.2",
+  "X.3",
+  "X.4",
+  "X.5",
+  "X.6",
+  "X.7",
+  "X.8",
+  "X.9",
+  "X.10",
+  "X.11",
+  "X.12",
+  "X.13",
+  "X.14",
+  "X.15",
+  "X.16",
+  "X.17",
+  "O.1",
+  "O.2",
+  "O.3",
+  "O.4",
+  "H.1",
+  "H.2",
+  "H.3",
+  "H.4",
+  "H.5",
+  "W.1",
+  "W.2",
+  "W.3",
+  "W.4",
+  "W.5",
+  "W.6",
+  "W.7",
+  "W.8"
+ ],
+ "claim_delta": {
+  "S.3": {
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "role": "retained theorem and computation",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "numerical certificate",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt",
+      "role": "certified symbol table at 81",
+      "sha256": "2049b76315da25d0a5557a513aee5d21177fe39512c7a562a4b6b63ac410bfd9",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+      "role": "R1: finiteness-first chain; R2 integral comparison (section 3.6 rejected)",
+      "sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+      "role": "hostile model review of the repair",
+      "sha256": "73ec678408626d1ce437b3576ccf36077d82af45807045b1102f17daced664e2",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+      "role": "bounded Euler-normalization reconciliation",
+      "sha256": "7b494d3615e8349f149739a656f759f323914a9e076e876861bb8ba5c9ed8c36",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2: current qualification",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp",
+      "role": "Independent formal-series height derivation (canonical sigma residue to the precision needed)",
+      "sha256": "3e01dafd069f54fbbe4df63097b15ae700da51f15a811c605211d1f184899efe",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt",
+      "role": "Recorded result; determinant valuation 2, not a claim that all displayed high-order digits are certified",
+      "sha256": "0ade6a44890b310eeeba6bf84a0966de386f371c49968c6b9d1f910f527cf8f1",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp",
+      "role": "Saturation check at 3 and up to 100",
+      "sha256": "04618f23026fec6f2c231e20b7a374923689b3dae820493e3ae8ec733974a145",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+      "role": "formal check at p = 3: replay record (A5_FULL)",
+      "sha256": "e4288f949c7123e7635ce92781282e7cfcd11b0a7e2e27bdee75b768f6c2893d",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+      "role": "formal proofs (one run)",
+      "sha256": "4ef8506cd7e02ee6857735a81a99b08378b9ee8dff50169726448fd607925831",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+      "role": "frozen formal statements and sha-bound certified data",
+      "sha256": "cb374846b3e7aee1b1405757d41aa26c8797e6ece88f41d5185add25c11f379d",
+      "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+      "role": "axiom report of the replay",
+      "sha256": "5a3a3672b727b15a0cb542b5b49bb6867085422d5d21553d26edf0c40b6c1cee",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the two uses of SU Prop. 12.3.6; repaired use (U2); missing statement MS-13.4.1(ii)",
+      "sha256": "969579592ab4bcf04ca34564c6511051493e455627b8040816c8bba58e936fb9",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md",
+      "role": "MS-13.4.1(ii), exact form",
+      "sha256": "0f29ebd587081e5b7d3c33f385bc968043a5526de41fc3c374aa33c618436f90",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md",
+      "role": "the repair of the use at l.6122",
+      "sha256": "fcf4767d29adb1dc507cc0b8a1b7228a85ed08dd4f334a7e38133ec4c9e32938",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the Kato-direction gap MS-B1",
+      "sha256": "68cc12355c7d5253946e70fb40669e5064d6c67a1f616bef570863ad62529433",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md",
+      "role": "MS-B1 at source",
+      "sha256": "63284faf66dd759f0ecf0f6cd3ff73c4f8a402199b5a438365f27e3c3dbc1bb9",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "route MS-R24 and its obligations",
+      "sha256": "3e04443fb4f42068de45784cbfd15f3fdc49f92a8a79874c0b1e1d5293c55647",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md",
+      "role": "Kato 12.5 at source",
+      "sha256": "6be55553f315bb3b64fbcd1b18a736fea90d629a6253a93b089983c544195aee",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md",
+      "role": "route MS-R3 at source",
+      "sha256": "6562f1c2090e93485618388ef4c3f0c56b10ae96ccee1a530ac16549d1d28f07",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+      "role": "cross-model source checks: addenda 1, 2, 3 and 5",
+      "sha256": "f37c15e86de0c766a919e70577f5ff0cf060cf187e8a91d1f6e8a2c1cadf362a",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+      "role": "candidate wording, sections 1 and 1b",
+      "sha256": "eb03549224f5c397963595d7cd357da886a4e4acafb30857dc5aed5e17e0c3cf",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "role": "retained theorem and computation",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "numerical certificate",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt",
+      "role": "certified symbol table at 81",
+      "sha256": "2049b76315da25d0a5557a513aee5d21177fe39512c7a562a4b6b63ac410bfd9",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+      "role": "R1: finiteness-first chain; R2 integral comparison (section 3.6 rejected)",
+      "sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+      "role": "hostile model review of the repair",
+      "sha256": "73ec678408626d1ce437b3576ccf36077d82af45807045b1102f17daced664e2",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+      "role": "bounded Euler-normalization reconciliation",
+      "sha256": "7b494d3615e8349f149739a656f759f323914a9e076e876861bb8ba5c9ed8c36",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2: current qualification",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp",
+      "role": "Independent formal-series height derivation (canonical sigma residue to the precision needed)",
+      "sha256": "3e01dafd069f54fbbe4df63097b15ae700da51f15a811c605211d1f184899efe",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt",
+      "role": "Recorded result; determinant valuation 2, not a claim that all displayed high-order digits are certified",
+      "sha256": "0ade6a44890b310eeeba6bf84a0966de386f371c49968c6b9d1f910f527cf8f1",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp",
+      "role": "Saturation check at 3 and up to 100",
+      "sha256": "04618f23026fec6f2c231e20b7a374923689b3dae820493e3ae8ec733974a145",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+      "role": "formal check at p = 3: replay record (A5_FULL)",
+      "sha256": "e4288f949c7123e7635ce92781282e7cfcd11b0a7e2e27bdee75b768f6c2893d",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+      "role": "formal proofs (one run)",
+      "sha256": "4ef8506cd7e02ee6857735a81a99b08378b9ee8dff50169726448fd607925831",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+      "role": "frozen formal statements and sha-bound certified data",
+      "sha256": "cb374846b3e7aee1b1405757d41aa26c8797e6ece88f41d5185add25c11f379d",
+      "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+      "role": "axiom report of the replay",
+      "sha256": "5a3a3672b727b15a0cb542b5b49bb6867085422d5d21553d26edf0c40b6c1cee",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the two uses of SU Prop. 12.3.6; repaired use (U2); missing statement MS-13.4.1(ii)",
+      "sha256": "969579592ab4bcf04ca34564c6511051493e455627b8040816c8bba58e936fb9",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md",
+      "role": "MS-13.4.1(ii), exact form",
+      "sha256": "0f29ebd587081e5b7d3c33f385bc968043a5526de41fc3c374aa33c618436f90",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md",
+      "role": "the repair of the use at l.6122",
+      "sha256": "fcf4767d29adb1dc507cc0b8a1b7228a85ed08dd4f334a7e38133ec4c9e32938",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the Kato-direction gap MS-B1",
+      "sha256": "68cc12355c7d5253946e70fb40669e5064d6c67a1f616bef570863ad62529433",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md",
+      "role": "MS-B1 at source",
+      "sha256": "63284faf66dd759f0ecf0f6cd3ff73c4f8a402199b5a438365f27e3c3dbc1bb9",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "route MS-R24 and its obligations",
+      "sha256": "3e04443fb4f42068de45784cbfd15f3fdc49f92a8a79874c0b1e1d5293c55647",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md",
+      "role": "Kato 12.5 at source",
+      "sha256": "6be55553f315bb3b64fbcd1b18a736fea90d629a6253a93b089983c544195aee",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md",
+      "role": "route MS-R3 at source",
+      "sha256": "6562f1c2090e93485618388ef4c3f0c56b10ae96ccee1a530ac16549d1d28f07",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+      "role": "cross-model source checks: addenda 1, 2, 3 and 5",
+      "sha256": "f37c15e86de0c766a919e70577f5ff0cf060cf187e8a91d1f6e8a2c1cadf362a",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+      "role": "candidate wording, sections 1 and 1b",
+      "sha256": "eb03549224f5c397963595d7cd357da886a4e4acafb30857dc5aed5e17e0c3cf",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+      "role": "route K: the assembly",
+      "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+      "role": "route K errata; E1: the integral step is Kato 13.4(3) via 13.14",
+      "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+      "role": "cross-model check of v0.2.5: correction F1",
+      "sha256": "131f17e2c37c444af26ab0d3478fd731d09801f9e60934fe94abcef566dc8824",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md"
+     }
+    ]
+   },
+   "depends_on": {
+    "before": [
+     "R.1",
+     "A.3",
+     "A.4"
+    ],
+    "after": [
+     "R.1",
+     "A.3",
+     "A.4",
+     "S.3K"
+    ]
+   },
+   "verification": {
+    "before": {
+     "coefficients": "663,685,727 prime coefficients independently verified",
+     "symbols": "54 + 54 entries at 81 and 18 + 18 at 27; 72 per sign across both levels, identified in (1/1024)Z",
+     "release_replay": "tools/replay/coefficients_from_symbols.py recomputes this coefficient from the certified symbol table with an independent implementation of the depth-n formula (PASS, 2026-09-23) (exact integers a_{4,0} = 0, a_{4,1} = -54, a_{4,2} = 15480)",
+     "review": "MODEL_SAME_FAMILY (F1 hostile audit; separate R1/R2 hostile review)",
+     "qualification_review": "the Skinner-Urban interface findings and MS-B1 were produced by Claude Fable 5.1 and checked at the SU and Kato texts by Claude Opus 5.5: cross-model, same family, not cross-family audited",
+     "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: ShaThree.shaThreePrimary with fixedPrimeCriterion3, casselsTate_order9, certificate_3, certValuation_3, weights_3, foldedExact_3, pointCount_3, unitRoot_3, nonSplit_3, multiplicative_3 (A5_FULL, 23/23 targets; STRETCH casselsTate_square clean); one proof run, replayed from a fresh copy (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+    },
+    "after": {
+     "coefficients": "663,685,727 prime coefficients independently verified",
+     "symbols": "54 + 54 entries at 81 and 18 + 18 at 27; 72 per sign across both levels, identified in (1/1024)Z",
+     "release_replay": "tools/replay/coefficients_from_symbols.py recomputes this coefficient from the certified symbol table with an independent implementation of the depth-n formula (PASS, 2026-09-23) (exact integers a_{4,0} = 0, a_{4,1} = -54, a_{4,2} = 15480)",
+     "review": "MODEL_SAME_FAMILY (F1 hostile audit; separate R1/R2 hostile review)",
+     "primary_support": "route K (S.3K): written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review",
+     "second_route": "Skinner 2016 Theorem A as printed, with two open steps for this curve: MS-13.4.1(ii) and MS-B1",
+     "qualification_review": "the Skinner-Urban interface findings and MS-B1 were produced by Claude Fable 5.1 and checked at the SU and Kato texts by Claude Opus 5.5: cross-model, same family, not cross-family audited",
+     "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: ShaThree.shaThreePrimary with fixedPrimeCriterion3, casselsTate_order9, certificate_3, certValuation_3, weights_3, foldedExact_3, pointCount_3, unitRoot_3, nonSplit_3, multiplicative_3 (A5_FULL, 23/23 targets; STRETCH casselsTate_square clean); one proof run, replayed from a fresh copy (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+    }
+   },
+   "qualifications": {
+    "before": [
+     "The main-conjecture input is Skinner 2016 Theorem A, as printed. For this curve at p = 3 its printed proof passes through Skinner-Urban Theorem 3.6.1, which uses SU Proposition 12.3.6 at two places (author copy l.6122 and l.12827). The printed proof of Proposition 12.3.6 does not cover this case: at the forced inert prime 2243 the removed Euler factor 1 - 2243^-2 has v_3 = 1, Vatsal's Theorem 1.1 controls only the primitive factor, and (12.3.5.b) prints l^-1 where SU's own (3.4.5.b) gives q_v^-1. The use at l.6122 is repaired for this curve by a nonvanishing argument. The use at l.12827 needs SU Proposition 13.4.1(ii) for the seed data (MS-13.4.1(ii)), which is unproved and lies in the Selmer lower-bound direction. In the Kato (upper-bound) direction, SU Theorem 3.5.6 restates Kato's integral divisibility (Kato 17.4) in the canonical-period normalization, while Kato proves it for a good differential; the comparison needed at the congruent forms of weight k_m >= 8 > 3 (MS-B1) is in none of the sources read. Skinner's printed theorem is not refuted.",
+     "Finiteness of Sha[3^infinity] (S.3F) and the lower bound Sha[3] containing (Z/3)^2 (S.3L) are proved without this import, so MS-13.4.1(ii) is not needed for either. OPEN: an upper bound #Sha[3^infinity] <= 9 that does not use Skinner Theorem A. Candidate routes, none established: MS-B1 (Skinner's route); MS-R3 (Ochiai 2006 Theorem 3 with Corollary 7.5, given that the component of the ordinary Hida Hecke algebra through f is regular, H^ord_F = O[[X]], together with remark-grade specialization steps); MS-R24 (Kato 2004 12.5(4), which holds for T_3E, together with an integral Coleman map at nonsplit multiplicative 3 and further bookkeeping obligations); or GRH together with one Cassels-Tate pairing value <C1, C2>, which has not been computed (the global splitting step is the block). The exact order 9 therefore still rests on Skinner Theorem A as printed.",
+     "The original R2 repair failed at its section 3.6 (removed Euler factor 1 - q^-2 has v_3 = 1); R1 and the integral period comparison passed review.",
+     "The original SHA3_THEOREM.md wording invokes the equality clause of SW Theorem 6.1 at a multiplicative prime; the governing chain is the R1 finiteness-first argument with the independent height certificate, which does not use that clause.",
+     "LEAN_CHECKED covers the deduction, in the governing order of inference, from the listed imports (every field of ThreeInputs: Skinner Thm A with the integral identifications, control finiteness, the independent height certificate, Jones Thm 3.1 forward, SW Prop. 3.5, the Cassels-Tate pairing; entered as hypotheses) and the certified symbol tables (sha-bound data) to Sha[3^infinity] = (Z/3)^2, together with the certificate arithmetic at 3. It checks neither the imports (including the SU provenance limit) nor the numerical symbol certificates."
+    ],
+    "after": [
+     "Second route (the chain in the statement). Its main-conjecture input is Skinner 2016 Theorem A, as printed. For this curve at p = 3 its printed proof passes through Skinner-Urban Theorem 3.6.1, which uses SU Proposition 12.3.6 at two places (author copy l.6122 and l.12827). The printed proof of Proposition 12.3.6 does not cover this case: at the forced inert prime 2243 the removed Euler factor 1 - 2243^-2 has v_3 = 1, Vatsal's Theorem 1.1 controls only the primitive factor, and (12.3.5.b) prints l^-1 where SU's own (3.4.5.b) gives q_v^-1. The use at l.6122 is repaired for this curve by a nonvanishing argument. The use at l.12827 needs SU Proposition 13.4.1(ii) for the seed data (MS-13.4.1(ii)), which is unproved and lies in the Selmer lower-bound direction. In the Kato (upper-bound) direction, SU Theorem 3.5.6 restates Kato's integral divisibility (Kato 17.4) in the canonical-period normalization, while Kato proves it for a good differential; the comparison needed at the congruent forms of weight k_m >= 8 > 3 (MS-B1) is in none of the sources read. Skinner's printed theorem is not refuted.",
+     "Finiteness of Sha[3^infinity] (S.3F), the lower bound Sha[3] containing (Z/3)^2 (S.3L) and the upper bound #Sha[3^infinity] <= 9 (S.3K, route K) are proved without Skinner, Skinner-Urban or GRH, so route K is the primary support of this statement. Route K combines the integral Coleman map at nonsplit multiplicative 3 (the eta-twist of Kobayashi's Tate-curve map; the statement MS-R24) with Kato 13.4(3) via 13.14 (the integral inequality at every height-one prime; H^2_loc = 0 at nonsplit 3). Skinner 2016 Theorem A, as printed, is kept as the second route, with two open steps for this curve: MS-13.4.1(ii) and MS-B1. The other candidate routes, MS-R3 (Ochiai 2006 Theorem 3 with Corollary 7.5, under regularity of the Hida Hecke algebra component through f) and GRH together with one Cassels-Tate pairing value <C1, C2> (not computed), are not needed.",
+     "The original R2 repair failed at its section 3.6 (removed Euler factor 1 - q^-2 has v_3 = 1); R1 and the integral period comparison passed review.",
+     "The original SHA3_THEOREM.md wording invokes the equality clause of SW Theorem 6.1 at a multiplicative prime; the governing chain is the R1 finiteness-first argument with the independent height certificate, which does not use that clause.",
+     "LEAN_CHECKED covers the deduction, in the governing order of inference, from the listed imports (every field of ThreeInputs: Skinner Thm A with the integral identifications, control finiteness, the independent height certificate, Jones Thm 3.1 forward, SW Prop. 3.5, the Cassels-Tate pairing; entered as hypotheses) and the certified symbol tables (sha-bound data) to Sha[3^infinity] = (Z/3)^2, together with the certificate arithmetic at 3. It checks neither the imports (including the SU provenance limit) nor the numerical symbol certificates. It covers the second route only; route K (S.3K) is not formalized."
+    ]
+   },
+   "post_master": {
+    "before": "Changed since the master record: LEAN_CHECKED added after the 2026-09-25 formal check at p = 3 (one proof run, replayed). The Skinner-Urban qualification is stated exactly, and finiteness and the lower bound are proved separately (S.3F, S.3L; 2026-09-29).",
+    "after": "Changed since the master record: LEAN_CHECKED added after the 2026-09-25 formal check at p = 3 (one proof run, replayed). The Skinner-Urban qualification is stated exactly, and finiteness and the lower bound are proved separately (S.3F, S.3L; 2026-09-29). Route K (S.3K) becomes the primary support; Skinner Theorem A is kept as the second route (2026-09-29)."
+   }
+  },
+  "S.17-47": {
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RESULT_P17.md",
+      "role": "p = 17, l = 103: result record",
+      "sha256": "beba632481c98c0f7d9a44a1314c27e1aa29e7a687478ff36c9f4c2cf508e86b",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RESULT_P17.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json",
+      "role": "p = 17: frozen acceptance checker output (NONZERO)",
+      "sha256": "a1336d55dd0edffea4aed20dc5fce53e3861c0e982cb804c5b64d4e35ba0ec20",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RUN_MANIFEST.json",
+      "role": "p = 17: run manifest",
+      "sha256": "8a458b0e51a3ed72574b90610731cda3cc289cf837e28091badcbe5d1e174ed3",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt",
+      "role": "p = 17: certified symbol intervals at l = 103",
+      "sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/FREEZE_MANIFEST.json",
+      "role": "p = 17: frozen run package manifest",
+      "sha256": "0f8568d4c071e280d90274527cb17a09281764098f691faa10e77d8d925b9954",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/PREREGISTRATION.md",
+      "role": "p = 17: preregistration",
+      "sha256": "11d7a4ec4e10c4cafc690deb5f881ad73cf7647a52d3c768eaaebf51f1b08930",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RESULT_P19.md",
+      "role": "p = 19, l = 191: result record",
+      "sha256": "a7d1c0f065fd6c2df861207b279fd0683caba64691e0fba88de80214fb978963",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RESULT_P19.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json",
+      "role": "p = 19: frozen acceptance checker output (NONZERO)",
+      "sha256": "04bccabc158041044dfeb21654836ba1d2d92038de82bd5951e656ac55b54570",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RUN_MANIFEST.json",
+      "role": "p = 19: run manifest",
+      "sha256": "345e36e2322f33672ff9501b282c2cd29808bf8b6c749b96d9c914cd2c879928",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt",
+      "role": "p = 19: certified symbol intervals at l = 191",
+      "sha256": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+      "role": "p = 19: downstream recomputation",
+      "sha256": "1a835b6efb42d880df55471cd64cb92658cd4d1f500ae39627c66d177f4298ca",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/DOWNSTREAM_RECOMPUTE_MAIN.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/FREEZE_MANIFEST.json",
+      "role": "p = 19: frozen run package manifest",
+      "sha256": "9c6b3fa6aedadd1bdaf4b76a88bbd96cdd8ca8a3514bfe2c717377b1b738df0d",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/PREREGISTRATION.md",
+      "role": "p = 19: preregistration",
+      "sha256": "27b98e5cd2b7cb166fd8227cd0acdee536ec09b2e82ad44e0752f45094d8d948",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RESULT_P23.md",
+      "role": "p = 23, l = 47: result record",
+      "sha256": "049c49260b0a7732a30128990f6e93e072dd1c085e9213aa8801d84bb6956fec",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RESULT_P23.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json",
+      "role": "p = 23: frozen acceptance checker output (NONZERO)",
+      "sha256": "e476ce52298a156437f7bde63b13cf919d414c03e2a3eeb5cf6b19d4b2edf6ac",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RUN_MANIFEST.json",
+      "role": "p = 23: run manifest",
+      "sha256": "33a69df8d71c36cddc8fdf938e2c86b4433af10d395de4afd9b373abe3dfadeb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt",
+      "role": "p = 23: certified symbol intervals at l = 47",
+      "sha256": "97407c4f450facd5605d7f9df1f79dbc7c8175367156ddad87341dff986f62ec",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/DOWNSTREAM_RECOMPUTE_MAIN.json",
+      "role": "p = 23: downstream recomputation",
+      "sha256": "fc090b4db7cd7981704d5d7f8033f9065e4e6e2b2aaba99a6fc3a3cafc815c69",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/DOWNSTREAM_RECOMPUTE_MAIN.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/FREEZE_MANIFEST.json",
+      "role": "p = 23: frozen run package manifest",
+      "sha256": "3c11bef7324de0d90b6eebe22e91dd57e950f6428b08effeca632b7ad6c129f9",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/PREREGISTRATION.md",
+      "role": "p = 23: preregistration",
+      "sha256": "bb4140247cb9444d96c81fcf6f2fd73d5addd7e25902408bc74344affa340300",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RESULT_P29_L233.md",
+      "role": "p = 29, l = 233: result record",
+      "sha256": "34962063c8f42c7ebb6cce9761de7e0a84e80eed2b8b7a4012c8bc34129cf25f",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RESULT_P29_L233.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json",
+      "role": "p = 29: frozen acceptance checker output (NONZERO)",
+      "sha256": "952f1de554ddd70631d42e654e541fc9b455b982ea6c94ab5991d48cd7cc9a27",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RUN_MANIFEST.json",
+      "role": "p = 29: run manifest",
+      "sha256": "a7dc87bee3df9317e427d46eb84159a919c7d0959337b45454a295f653000487",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt",
+      "role": "p = 29: certified symbol intervals at l = 233",
+      "sha256": "f5d5c24f8027d2a45b60ecf0be0d90fa782e9623666b28d11ec53cb6780e7bcb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+      "role": "p = 29: downstream recomputation",
+      "sha256": "fee637add016a2996ab73522e682d818232525e0c2164cdab20fa16a5811995b",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/DOWNSTREAM_RECOMPUTE_MAIN.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/FREEZE_MANIFEST.json",
+      "role": "p = 29: frozen run package manifest",
+      "sha256": "bdfe5671c0e83dd47a68532779e4fd5c093365e42d8242cd9126e21eb0920270",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/PREREGISTRATION.md",
+      "role": "p = 29: preregistration",
+      "sha256": "f3560ae11ee13e08fe72c6d31829a42d8e122daba51ef6eb90f33c59e4c81e97",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RESULT_P31.md",
+      "role": "p = 31, l = 311: result record",
+      "sha256": "d74029c1312ea26bd34ce7fe71f0d88cb440403b635a4d4e75ef65c9ddac0172",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RESULT_P31.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json",
+      "role": "p = 31: frozen acceptance checker output (NONZERO)",
+      "sha256": "a9de6f52a6f861620fc480b03622333aa0b7df8c7868f53a03bc35246a1db8f6",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RUN_MANIFEST.json",
+      "role": "p = 31: run manifest",
+      "sha256": "6cd9cb7b19a608779f695f2a9041054677a76e63cba36a6ecde08b83e8de2ed0",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt",
+      "role": "p = 31: certified symbol intervals at l = 311",
+      "sha256": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/FREEZE_MANIFEST.json",
+      "role": "p = 31: frozen run package manifest",
+      "sha256": "422435ad0c241463fd69297fd12f18fb043b09a459ead596eb3d5d432be5b02a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/PREREGISTRATION.md",
+      "role": "p = 31: preregistration",
+      "sha256": "2044b0a4fd1a5bc9ee780e8eeadbc0ce307d71049bec5fc1b6046d797782753a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RESULT_P37.md",
+      "role": "p = 37, l = 149: result record",
+      "sha256": "5edf452beac711899f28ce217b511a0faac2f102365e609b51f132926c38a6d3",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RESULT_P37.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json",
+      "role": "p = 37: frozen acceptance checker output (NONZERO)",
+      "sha256": "6dfd6b2fb4a0175b2c53c95b8ac61a6bc7a14df39a5e7f666c0fd232d8ac021f",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RUN_MANIFEST.json",
+      "role": "p = 37: run manifest",
+      "sha256": "6d290ba854fdedf89345c8c3ddadce6dfb46f7c712075522a96299088c1e8676",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt",
+      "role": "p = 37: certified symbol intervals at l = 149",
+      "sha256": "07f2a5e8e5c5cd93300ca1126e1255629c053a7279ff1210859560ab96e6b015",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/FREEZE_MANIFEST.json",
+      "role": "p = 37: frozen run package manifest",
+      "sha256": "e227accca27d6b2419db6280ffc6bb21b2873ee292533219dea505af2a88e27c",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/PREREGISTRATION.md",
+      "role": "p = 37: preregistration",
+      "sha256": "b9d60bd0eeca0afac0f9bf796d5bcaf687fe5804081e33242853c1b5f090b90a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RESULT_P41.md",
+      "role": "p = 41, l = 83: result record",
+      "sha256": "6308a6c4f3a3742ece4ae5180f9e8c79e36a4cf5ccb78302060caba5444fcb65",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RESULT_P41.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json",
+      "role": "p = 41: frozen acceptance checker output (NONZERO)",
+      "sha256": "f96ed8a632443895561f3ebc2d7dbc2b3fff7f532c3ca1fab909620e7be4a825",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RUN_MANIFEST.json",
+      "role": "p = 41: run manifest",
+      "sha256": "c8a118ce27b04b9bdb525ea4dca613d6f10c81752729895c33d104aad24e6bf5",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt",
+      "role": "p = 41: certified symbol intervals at l = 83",
+      "sha256": "385557f41b6fab7f5fb09963d4334a6e3d045d8cdb7f66210a3ef81a5d2d90dd",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/FREEZE_MANIFEST.json",
+      "role": "p = 41: frozen run package manifest",
+      "sha256": "119067f926299cfb96263a46a179b8e4c663efe11fbdb1106a825115e677d8fe",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/PREREGISTRATION.md",
+      "role": "p = 41: preregistration",
+      "sha256": "fabc93272aab52a3cd75c7faa3b8a0f62c64c4004acf837a1307b92055a1d47b",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RESULT_P43.md",
+      "role": "p = 43, l = 173: result record",
+      "sha256": "f9b722143095faeeb8dc9e7cc1806dcf4c60118b94d4101dbcf8fcdc579ada55",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RESULT_P43.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json",
+      "role": "p = 43: frozen acceptance checker output (NONZERO)",
+      "sha256": "118c012cdafd9eae71d63a30b997d1744d5fac497f8e68ba726fa1f98719b3bb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RUN_MANIFEST.json",
+      "role": "p = 43: run manifest",
+      "sha256": "b7b1497774258ec3b9e10e97f8adc8a85de9de48db550da4b9e51c8e7aba2833",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt",
+      "role": "p = 43: certified symbol intervals at l = 173",
+      "sha256": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/FREEZE_MANIFEST.json",
+      "role": "p = 43: frozen run package manifest",
+      "sha256": "634286373873c4626eda0431ed706dac4bb22511c3f9663fb0d94bac4c251790",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/PREREGISTRATION.md",
+      "role": "p = 43: preregistration",
+      "sha256": "47a8353d984c395c8c3a7051947c5c589b2971761a8ab563d8d2903fdc024057",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RESULT_P47.md",
+      "role": "p = 47, l = 283: result record",
+      "sha256": "67ecfe42ab0d10d2311fc24aaf824ab1661fe975ab50cc88fe8d0a357aa63b34",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RESULT_P47.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json",
+      "role": "p = 47: frozen acceptance checker output (NONZERO)",
+      "sha256": "caefc2d8dfd92c5333120b04e6657c5777343d9a4ab2e9351bcbfcf1c022e3f4",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RUN_MANIFEST.json",
+      "role": "p = 47: run manifest",
+      "sha256": "7b740e64ca8c7b0131f9544e968c79ac46d7d89e47c6f079f2617c01562e82e1",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt",
+      "role": "p = 47: certified symbol intervals at l = 283",
+      "sha256": "5e9c034fd4be8c3147f72b3cdfb70c055a126f2c585fa84ce8b70aafb81297eb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/FREEZE_MANIFEST.json",
+      "role": "p = 47: frozen run package manifest",
+      "sha256": "82c91f10b8be27b8b83c11a481993899518f586569c61fdd30ae97470c4ac292",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/PREREGISTRATION.md",
+      "role": "p = 47: preregistration",
+      "sha256": "086b852ef38e74cbdd88789cdc19976c559f68e64abe4ed9280653f4dcbf9cb7",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC_v1_audited.md",
+      "role": "audited specification of the singleton coefficient",
+      "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC_v1_audited.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/singleton_check.py",
+      "role": "frozen acceptance checker",
+      "sha256": "cdbb8f3201ca26ec6add611a8ec983e971857836cd291a1db744a41623062bf6",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/singleton_check.py"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/pro6/SINGLETON_AUDIT_REPORT_PRO.md",
+      "role": "theorem/source review of the Ota application (SOUND_WITH_CORRECTIONS)",
+      "sha256": "44ce3116cc93bedf6e876b6ac12b0039b91d25498df0b713ba515474a6a22f2b",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/pro6/SINGLETON_AUDIT_REPORT_PRO.md"
+     },
+     {
+      "path": "evidence/src/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "outside numerical-output audit at 17, 19, 23, 29",
+      "sha256": "d5e8708aed09386a2e452530c47b121558ddc047b8424c4e0ece93d9eca868aa",
+      "original_path": "/Users/bsm/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+      "role": "audit manifest",
+      "sha256": "e06a58637996a7ae0020b713ba0063fb504822fe91cf82b025a41a93757bea64",
+      "original_path": "/Users/bsm/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_BATCH_C_AUDIT_CODEX_2026-09-27/REVIEW.md",
+      "role": "certificate audit at 31, 43, 47",
+      "sha256": "679cde1a6c4e9ee3f17750e6098b636ae14f9d870f645f7d184fd7467b8cb3e1",
+      "original_path": "/Users/bsm/BSD_BATCH_C_AUDIT_CODEX_2026-09-27/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_PRO_FOLLOWUP_LEAN_BATCH_C_AUDIT_CODEX_2026-09-27/AUDIT.md",
+      "role": "audit including 37 and 41",
+      "sha256": "12675da9fdc9c8d93dcb2895c26acbbabc0f9bd22f9e76a78e1f2512eca824d3",
+      "original_path": "/Users/bsm/BSD_PRO_FOLLOWUP_LEAN_BATCH_C_AUDIT_CODEX_2026-09-27/AUDIT.md"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/reviews/pro_kato_followup_2026-09-27/BSD_KATO_FOLLOWUP_REVIEW_2026-09-27/REVIEW.md",
+      "role": "review including 37 and 41",
+      "sha256": "0feb6538149b401d477e5b03d0db843b120b5906e9b195ce08ea8798932d566a",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/reviews/pro_kato_followup_2026-09-27/BSD_KATO_FOLLOWUP_REVIEW_2026-09-27/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/V025_CLAIM_UPDATE_DRAFT.md",
+      "role": "governing claim delta",
+      "sha256": "d3f710400bed2e805eb5443ac3e2053862ba2f2cc001f01f6dde668a43355aaf",
+      "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/V025_CLAIM_UPDATE_DRAFT.md"
+     },
+     {
+      "path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/SOURCE_LEDGER.json",
+      "role": "hash ledger of the reviewed sources",
+      "sha256": "3c0c1a5ef9fdea8f6b7bf4fa6c99b010713c4263c659687dcf6a853b81d86bc6",
+      "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/SOURCE_LEDGER.json"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+      "role": "replay of the 17-29 audit items, lane 2",
+      "sha256": "f37c15e86de0c766a919e70577f5ff0cf060cf187e8a91d1f6e8a2c1cadf362a",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RESULT_P17.md",
+      "role": "p = 17, l = 103: result record",
+      "sha256": "beba632481c98c0f7d9a44a1314c27e1aa29e7a687478ff36c9f4c2cf508e86b",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RESULT_P17.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json",
+      "role": "p = 17: frozen acceptance checker output (NONZERO)",
+      "sha256": "a1336d55dd0edffea4aed20dc5fce53e3861c0e982cb804c5b64d4e35ba0ec20",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RUN_MANIFEST.json",
+      "role": "p = 17: run manifest",
+      "sha256": "8a458b0e51a3ed72574b90610731cda3cc289cf837e28091badcbe5d1e174ed3",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt",
+      "role": "p = 17: certified symbol intervals at l = 103",
+      "sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/FREEZE_MANIFEST.json",
+      "role": "p = 17: frozen run package manifest",
+      "sha256": "0f8568d4c071e280d90274527cb17a09281764098f691faa10e77d8d925b9954",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/PREREGISTRATION.md",
+      "role": "p = 17: preregistration",
+      "sha256": "11d7a4ec4e10c4cafc690deb5f881ad73cf7647a52d3c768eaaebf51f1b08930",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RESULT_P19.md",
+      "role": "p = 19, l = 191: result record",
+      "sha256": "a7d1c0f065fd6c2df861207b279fd0683caba64691e0fba88de80214fb978963",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RESULT_P19.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json",
+      "role": "p = 19: frozen acceptance checker output (NONZERO)",
+      "sha256": "04bccabc158041044dfeb21654836ba1d2d92038de82bd5951e656ac55b54570",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RUN_MANIFEST.json",
+      "role": "p = 19: run manifest",
+      "sha256": "345e36e2322f33672ff9501b282c2cd29808bf8b6c749b96d9c914cd2c879928",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt",
+      "role": "p = 19: certified symbol intervals at l = 191",
+      "sha256": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+      "role": "p = 19: downstream recomputation",
+      "sha256": "1a835b6efb42d880df55471cd64cb92658cd4d1f500ae39627c66d177f4298ca",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/DOWNSTREAM_RECOMPUTE_MAIN.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/FREEZE_MANIFEST.json",
+      "role": "p = 19: frozen run package manifest",
+      "sha256": "9c6b3fa6aedadd1bdaf4b76a88bbd96cdd8ca8a3514bfe2c717377b1b738df0d",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/PREREGISTRATION.md",
+      "role": "p = 19: preregistration",
+      "sha256": "27b98e5cd2b7cb166fd8227cd0acdee536ec09b2e82ad44e0752f45094d8d948",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RESULT_P23.md",
+      "role": "p = 23, l = 47: result record",
+      "sha256": "049c49260b0a7732a30128990f6e93e072dd1c085e9213aa8801d84bb6956fec",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RESULT_P23.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json",
+      "role": "p = 23: frozen acceptance checker output (NONZERO)",
+      "sha256": "e476ce52298a156437f7bde63b13cf919d414c03e2a3eeb5cf6b19d4b2edf6ac",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RUN_MANIFEST.json",
+      "role": "p = 23: run manifest",
+      "sha256": "33a69df8d71c36cddc8fdf938e2c86b4433af10d395de4afd9b373abe3dfadeb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt",
+      "role": "p = 23: certified symbol intervals at l = 47",
+      "sha256": "97407c4f450facd5605d7f9df1f79dbc7c8175367156ddad87341dff986f62ec",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/DOWNSTREAM_RECOMPUTE_MAIN.json",
+      "role": "p = 23: downstream recomputation",
+      "sha256": "fc090b4db7cd7981704d5d7f8033f9065e4e6e2b2aaba99a6fc3a3cafc815c69",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/DOWNSTREAM_RECOMPUTE_MAIN.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/FREEZE_MANIFEST.json",
+      "role": "p = 23: frozen run package manifest",
+      "sha256": "3c11bef7324de0d90b6eebe22e91dd57e950f6428b08effeca632b7ad6c129f9",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/PREREGISTRATION.md",
+      "role": "p = 23: preregistration",
+      "sha256": "bb4140247cb9444d96c81fcf6f2fd73d5addd7e25902408bc74344affa340300",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RESULT_P29_L233.md",
+      "role": "p = 29, l = 233: result record",
+      "sha256": "34962063c8f42c7ebb6cce9761de7e0a84e80eed2b8b7a4012c8bc34129cf25f",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RESULT_P29_L233.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json",
+      "role": "p = 29: frozen acceptance checker output (NONZERO)",
+      "sha256": "952f1de554ddd70631d42e654e541fc9b455b982ea6c94ab5991d48cd7cc9a27",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RUN_MANIFEST.json",
+      "role": "p = 29: run manifest",
+      "sha256": "a7dc87bee3df9317e427d46eb84159a919c7d0959337b45454a295f653000487",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt",
+      "role": "p = 29: certified symbol intervals at l = 233",
+      "sha256": "f5d5c24f8027d2a45b60ecf0be0d90fa782e9623666b28d11ec53cb6780e7bcb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+      "role": "p = 29: downstream recomputation",
+      "sha256": "fee637add016a2996ab73522e682d818232525e0c2164cdab20fa16a5811995b",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/DOWNSTREAM_RECOMPUTE_MAIN.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/FREEZE_MANIFEST.json",
+      "role": "p = 29: frozen run package manifest",
+      "sha256": "bdfe5671c0e83dd47a68532779e4fd5c093365e42d8242cd9126e21eb0920270",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/PREREGISTRATION.md",
+      "role": "p = 29: preregistration",
+      "sha256": "f3560ae11ee13e08fe72c6d31829a42d8e122daba51ef6eb90f33c59e4c81e97",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RESULT_P31.md",
+      "role": "p = 31, l = 311: result record",
+      "sha256": "d74029c1312ea26bd34ce7fe71f0d88cb440403b635a4d4e75ef65c9ddac0172",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RESULT_P31.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json",
+      "role": "p = 31: frozen acceptance checker output (NONZERO)",
+      "sha256": "a9de6f52a6f861620fc480b03622333aa0b7df8c7868f53a03bc35246a1db8f6",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RUN_MANIFEST.json",
+      "role": "p = 31: run manifest",
+      "sha256": "6cd9cb7b19a608779f695f2a9041054677a76e63cba36a6ecde08b83e8de2ed0",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt",
+      "role": "p = 31: certified symbol intervals at l = 311",
+      "sha256": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/FREEZE_MANIFEST.json",
+      "role": "p = 31: frozen run package manifest",
+      "sha256": "422435ad0c241463fd69297fd12f18fb043b09a459ead596eb3d5d432be5b02a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/PREREGISTRATION.md",
+      "role": "p = 31: preregistration",
+      "sha256": "2044b0a4fd1a5bc9ee780e8eeadbc0ce307d71049bec5fc1b6046d797782753a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RESULT_P37.md",
+      "role": "p = 37, l = 149: result record",
+      "sha256": "5edf452beac711899f28ce217b511a0faac2f102365e609b51f132926c38a6d3",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RESULT_P37.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json",
+      "role": "p = 37: frozen acceptance checker output (NONZERO)",
+      "sha256": "6dfd6b2fb4a0175b2c53c95b8ac61a6bc7a14df39a5e7f666c0fd232d8ac021f",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RUN_MANIFEST.json",
+      "role": "p = 37: run manifest",
+      "sha256": "6d290ba854fdedf89345c8c3ddadce6dfb46f7c712075522a96299088c1e8676",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt",
+      "role": "p = 37: certified symbol intervals at l = 149",
+      "sha256": "07f2a5e8e5c5cd93300ca1126e1255629c053a7279ff1210859560ab96e6b015",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/FREEZE_MANIFEST.json",
+      "role": "p = 37: frozen run package manifest",
+      "sha256": "e227accca27d6b2419db6280ffc6bb21b2873ee292533219dea505af2a88e27c",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/PREREGISTRATION.md",
+      "role": "p = 37: preregistration",
+      "sha256": "b9d60bd0eeca0afac0f9bf796d5bcaf687fe5804081e33242853c1b5f090b90a",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RESULT_P41.md",
+      "role": "p = 41, l = 83: result record",
+      "sha256": "6308a6c4f3a3742ece4ae5180f9e8c79e36a4cf5ccb78302060caba5444fcb65",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RESULT_P41.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json",
+      "role": "p = 41: frozen acceptance checker output (NONZERO)",
+      "sha256": "f96ed8a632443895561f3ebc2d7dbc2b3fff7f532c3ca1fab909620e7be4a825",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RUN_MANIFEST.json",
+      "role": "p = 41: run manifest",
+      "sha256": "c8a118ce27b04b9bdb525ea4dca613d6f10c81752729895c33d104aad24e6bf5",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt",
+      "role": "p = 41: certified symbol intervals at l = 83",
+      "sha256": "385557f41b6fab7f5fb09963d4334a6e3d045d8cdb7f66210a3ef81a5d2d90dd",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/FREEZE_MANIFEST.json",
+      "role": "p = 41: frozen run package manifest",
+      "sha256": "119067f926299cfb96263a46a179b8e4c663efe11fbdb1106a825115e677d8fe",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/PREREGISTRATION.md",
+      "role": "p = 41: preregistration",
+      "sha256": "fabc93272aab52a3cd75c7faa3b8a0f62c64c4004acf837a1307b92055a1d47b",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RESULT_P43.md",
+      "role": "p = 43, l = 173: result record",
+      "sha256": "f9b722143095faeeb8dc9e7cc1806dcf4c60118b94d4101dbcf8fcdc579ada55",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RESULT_P43.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json",
+      "role": "p = 43: frozen acceptance checker output (NONZERO)",
+      "sha256": "118c012cdafd9eae71d63a30b997d1744d5fac497f8e68ba726fa1f98719b3bb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RUN_MANIFEST.json",
+      "role": "p = 43: run manifest",
+      "sha256": "b7b1497774258ec3b9e10e97f8adc8a85de9de48db550da4b9e51c8e7aba2833",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt",
+      "role": "p = 43: certified symbol intervals at l = 173",
+      "sha256": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/FREEZE_MANIFEST.json",
+      "role": "p = 43: frozen run package manifest",
+      "sha256": "634286373873c4626eda0431ed706dac4bb22511c3f9663fb0d94bac4c251790",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/PREREGISTRATION.md",
+      "role": "p = 43: preregistration",
+      "sha256": "47a8353d984c395c8c3a7051947c5c589b2971761a8ab563d8d2903fdc024057",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RESULT_P47.md",
+      "role": "p = 47, l = 283: result record",
+      "sha256": "67ecfe42ab0d10d2311fc24aaf824ab1661fe975ab50cc88fe8d0a357aa63b34",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RESULT_P47.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json",
+      "role": "p = 47: frozen acceptance checker output (NONZERO)",
+      "sha256": "caefc2d8dfd92c5333120b04e6657c5777343d9a4ab2e9351bcbfcf1c022e3f4",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RUN_MANIFEST.json",
+      "role": "p = 47: run manifest",
+      "sha256": "7b740e64ca8c7b0131f9544e968c79ac46d7d89e47c6f079f2617c01562e82e1",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RUN_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt",
+      "role": "p = 47: certified symbol intervals at l = 283",
+      "sha256": "5e9c034fd4be8c3147f72b3cdfb70c055a126f2c585fa84ce8b70aafb81297eb",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/FREEZE_MANIFEST.json",
+      "role": "p = 47: frozen run package manifest",
+      "sha256": "82c91f10b8be27b8b83c11a481993899518f586569c61fdd30ae97470c4ac292",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/FREEZE_MANIFEST.json"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/PREREGISTRATION.md",
+      "role": "p = 47: preregistration",
+      "sha256": "086b852ef38e74cbdd88789cdc19976c559f68e64abe4ed9280653f4dcbf9cb7",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/PREREGISTRATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC_v1_audited.md",
+      "role": "audited specification of the singleton coefficient",
+      "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC_v1_audited.md"
+     },
+     {
+      "path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/singleton_check.py",
+      "role": "frozen acceptance checker",
+      "sha256": "cdbb8f3201ca26ec6add611a8ec983e971857836cd291a1db744a41623062bf6",
+      "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/singleton_check.py"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/pro6/SINGLETON_AUDIT_REPORT_PRO.md",
+      "role": "theorem/source review of the Ota application (SOUND_WITH_CORRECTIONS)",
+      "sha256": "44ce3116cc93bedf6e876b6ac12b0039b91d25498df0b713ba515474a6a22f2b",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/pro6/SINGLETON_AUDIT_REPORT_PRO.md"
+     },
+     {
+      "path": "evidence/src/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "outside numerical-output audit at 17, 19, 23, 29",
+      "sha256": "d5e8708aed09386a2e452530c47b121558ddc047b8424c4e0ece93d9eca868aa",
+      "original_path": "/Users/bsm/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+      "role": "audit manifest",
+      "sha256": "e06a58637996a7ae0020b713ba0063fb504822fe91cf82b025a41a93757bea64",
+      "original_path": "/Users/bsm/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_BATCH_C_AUDIT_CODEX_2026-09-27/REVIEW.md",
+      "role": "certificate audit at 31, 43, 47",
+      "sha256": "679cde1a6c4e9ee3f17750e6098b636ae14f9d870f645f7d184fd7467b8cb3e1",
+      "original_path": "/Users/bsm/BSD_BATCH_C_AUDIT_CODEX_2026-09-27/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_PRO_FOLLOWUP_LEAN_BATCH_C_AUDIT_CODEX_2026-09-27/AUDIT.md",
+      "role": "audit including 37 and 41",
+      "sha256": "12675da9fdc9c8d93dcb2895c26acbbabc0f9bd22f9e76a78e1f2512eca824d3",
+      "original_path": "/Users/bsm/BSD_PRO_FOLLOWUP_LEAN_BATCH_C_AUDIT_CODEX_2026-09-27/AUDIT.md"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/reviews/pro_kato_followup_2026-09-27/BSD_KATO_FOLLOWUP_REVIEW_2026-09-27/REVIEW.md",
+      "role": "review including 37 and 41",
+      "sha256": "0feb6538149b401d477e5b03d0db843b120b5906e9b195ce08ea8798932d566a",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/reviews/pro_kato_followup_2026-09-27/BSD_KATO_FOLLOWUP_REVIEW_2026-09-27/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/V025_CLAIM_UPDATE_DRAFT.md",
+      "role": "governing claim delta",
+      "sha256": "d3f710400bed2e805eb5443ac3e2053862ba2f2cc001f01f6dde668a43355aaf",
+      "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/V025_CLAIM_UPDATE_DRAFT.md"
+     },
+     {
+      "path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/SOURCE_LEDGER.json",
+      "role": "hash ledger of the reviewed sources",
+      "sha256": "3c0c1a5ef9fdea8f6b7bf4fa6c99b010713c4263c659687dcf6a853b81d86bc6",
+      "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/SOURCE_LEDGER.json"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+      "role": "replay of the 17-29 audit items",
+      "sha256": "f37c15e86de0c766a919e70577f5ff0cf060cf187e8a91d1f6e8a2c1cadf362a",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+      "role": "cross-model check of v0.2.5: correction F2",
+      "sha256": "131f17e2c37c444af26ab0d3478fd731d09801f9e60934fe94abcef566dc8824",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md"
+     }
+    ]
+   },
+   "imports": {
+    "before": [
+     "Ota, arXiv:1509.00682v1, Theorems 1.5, 5.17 and 6.4 (read at the arXiv v1 text; no ordinary hypothesis, so the supersingular 23 and 29 are covered as audited)"
+    ],
+    "after": [
+     "Ota, arXiv:1509.00682v1, Theorems 1.5, 5.17 and 6.4 (read at the arXiv v1 text; no ordinary hypothesis, so the supersingular 23 and 29 are covered as audited); published as Amer. J. Math. 140 (2018) 495-542, numbering not re-checked against the print"
+    ]
+   },
+   "qualifications": {
+    "before": [
+     "17, 19, 23, 29: an independent same-family model audit (Claude Fable 5.1, Anthropic; MODEL_SAME_FAMILY) found PASS_AT_RETAINED_GRADE for all four, covering 1,140 exact interval identifications, frozen-checker replays, recomputed receipt roots and the prime-specific hypotheses. It is not a cross-family audit, and the large corpus files were not rehashed. At 17 and 23 the ball radii are about 99% of the lattice half-spacing: exact at the retained tail-bound grade, with little slack against an error in that bound. The Ota application had a separate theorem/source review.",
+     "37, 41: recorded Codex and ChatGPT Pro model checks of the exact symbol intervals (296 and 164) and independent tame-regulator calculations, at the replay limits of those reports; at 37 the complete local freeze (32/32 files) and a read-only replay of the frozen acceptance checker were also checked.",
+     "31, 43, 47: a Codex audit (BATCH_C_CERTIFICATES_PASS_AT_RETAINED_GRADE) of 1,528 exact interval identifications, frozen checker replays, prime-specific hypotheses and receipt roots. The large coefficient and witness files were not rehashed, and their whole arithmetic verification was not rerun.",
+     "No independent human review. These fixed-prime conclusions do not prove FIN; the retained theorem, preprint and software dependencies (rank, residual image, Manin constant and 1/1024 lattice, interval engine, coefficient corpus) travel with each statement. Ota's theorems are applied as stated in arXiv:1509.00682v1, the version read at source; the governing records do not compare it with a later published version.",
+     "Forecasts of C_2 mod p were not inputs of the acceptance program. The comparison at 19 was made after the result; the forecast at 29 was written during its run, before its result; those at 37, 41, 43, 47 and 31 were fixed before launch. Thus six pre-result forecasts matched.",
+     "Residue observation, not a theorem: the normalized residues are consistent with a putative common integer congruent to 288 modulo 17*19*23*29*31*37*41*43*47 = 20,475,850,236,047. This is an observation about normalized residues under a proposed common scalar, not a proof that such a scalar exists; the conjecture-grade form of that scalar is recorded in B.11.",
+     "The depth-three requirement at 17 (X.14, Remark on the prime 17 in the manuscript) belongs to the cyclotomic criterion B.1, not to this singleton route. The singleton coefficient C_2(p,l) is a different object from the anticyclotomic witness c_2(p) of X.17."
+    ],
+    "after": [
+     "17, 19, 23, 29: an independent same-family model audit (Claude Fable 5.1, Anthropic; MODEL_SAME_FAMILY) found PASS_AT_RETAINED_GRADE for all four, covering 1,140 exact interval identifications, frozen-checker replays, recomputed receipt roots and the prime-specific hypotheses. It is not a cross-family audit, and the large corpus files were not rehashed. At 17 and 23 the ball radii are about 99% of the lattice half-spacing: exact at the retained tail-bound grade, with little slack against an error in that bound. The Ota application had a separate theorem/source review.",
+     "37, 41: recorded Codex and ChatGPT Pro model checks of the exact symbol intervals (296 and 164) and independent tame-regulator calculations, at the replay limits of those reports; at 37 the complete local freeze (32/32 files) and a read-only replay of the frozen acceptance checker were also checked.",
+     "31, 43, 47: a Codex audit (BATCH_C_CERTIFICATES_PASS_AT_RETAINED_GRADE) of 1,528 exact interval identifications, frozen checker replays, prime-specific hypotheses and receipt roots. The large coefficient and witness files were not rehashed, and their whole arithmetic verification was not rerun.",
+     "No independent human review. These fixed-prime conclusions do not prove FIN; the retained theorem, preprint and software dependencies (rank, residual image, Manin constant and 1/1024 lattice, interval engine, coefficient corpus) travel with each statement. Ota's theorems are applied as stated in arXiv:1509.00682v1, the version read at source. The paper is published: K. Ota, 'Kato's Euler system and the Mazur-Tate refined conjecture of BSD type', Amer. J. Math. 140 (2018) 495-542; the theorem numbering used here (v1 Theorems 1.5, 5.17 and 6.4) was not re-checked against the print.",
+     "Forecasts of C_2 mod p were not inputs of the acceptance program. The comparison at 19 was made after the result; the forecast at 29 was written during its run, before its result; those at 37, 41, 43, 47 and 31 were fixed before launch. Thus six pre-result forecasts matched.",
+     "Residue observation, not a theorem: the normalized residues are consistent with a putative common integer congruent to 288 modulo 17*19*23*29*31*37*41*43*47 = 20,475,850,236,047. This is an observation about normalized residues under a proposed common scalar, not a proof that such a scalar exists; the conjecture-grade form of that scalar is recorded in B.11.",
+     "The depth-three requirement at 17 (X.14, Remark on the prime 17 in the manuscript) belongs to the cyclotomic criterion B.1, not to this singleton route. The singleton coefficient C_2(p,l) is a different object from the anticyclotomic witness c_2(p) of X.17."
+    ]
+   }
+  }
+ },
+ "new_claims": {
+  "S.3K": {
+   "id": "S.3K",
+   "title": "Route K: #Sha[3^infinity] <= 9 without the main conjecture",
+   "statement": "#Sha(E/Q)[3^infinity] <= 9; hence, with S.3L, Sha(E/Q)[3^infinity] is isomorphic to (Z/3)^2, with no Skinner, Skinner-Urban or GRH input. At the nonsplit multiplicative prime 3, T = T_3E is an extension of Z_3(eta) by T^0 = Z_3(1)(x)eta, with eta the unramified quadratic character (a_3 = -1). The eta-twist of Kobayashi's Coleman map for the Tate curve is an integral Coleman map H^1_Iw(Q_3,T)/H^1_Iw(Q_3,T^0) -> Lambda; it is an isomorphism and sends Kato's zeta element to the 3-adic L-function L_3 (alpha = -1, Neron differential). Kato's Poitou-Tate sequence (14.9.3, 17.10, the 17.13 template) with Kato 13.4(3) via 13.14 (the integral inequality at every height-one prime; H^2_loc = 0 at nonsplit 3) gives char(X) | L_3, where X is the dual of the classical 3^infinity-Selmer group over the cyclotomic Z_3-extension. Since rank E(Q) = 2 and v_3(a_2) = 2, f_E = T^2 g with v_3(g(0)) <= 2, and Jones 1989 Theorem 3.1 (forward), with v_3 = 0 for the gamma-normalized det<,>_gamma, gives #Sha[3^infinity] <= 9.",
+   "kind": "THEOREM",
+   "grades": [
+    "PROVED_WRITTEN",
+    "IMPORTED_PUBLISHED",
+    "PROVED_COMPUTER_ASSISTED"
+   ],
+   "origin": "written derivation applying published theorems to the retained certificates",
+   "section": "4",
+   "evidence": [
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+     "role": "route K: status, inputs and grades",
+     "sha256": "27ec91eb4dfdd8eaa3ea4f36f576e974e40fd6663098a8fa2677052e7d4ff927",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+     "role": "derivation manifest",
+     "sha256": "ea8d8e6c76c1160bef7e56acd8dccd083a0a4a751ffa36b4a0f08102cf63f783",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+     "role": "route K derivation, D1",
+     "sha256": "6d68565f64f7d0cbfe8384ef6f9f6e69282719f04de2e4936179979116c3d89d",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+     "role": "route K derivation, D2",
+     "sha256": "dc3ed32cb70be05075a9d00d751b9bcb71ccd4cfe9ee7dd8fdff6c130ca7acc6",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+     "role": "route K derivation, D3",
+     "sha256": "0c63d2912859c292e099718aea0603d200b5b578726dc0ed5361d97cea536efc",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+     "role": "route K derivation, D4",
+     "sha256": "19321c0ad7b85f9bab6df0ef66c3767721d60744639e9c259cd2f32e020ad97c",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+     "role": "route K derivation, D5",
+     "sha256": "6973a216957ac185878512832b243293760a1d32fe03f8d774a3402e9d20b3e2",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+     "role": "route K derivation, D6",
+     "sha256": "bf9a66004ab22169a86909ecb5297b5238cea9dd4417ea15b51339e5143e4034",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+     "role": "route K derivation, D7",
+     "sha256": "49bb38cdcb38c36c8fafa1f2d756dcbe55de900818a3cfaac359ac6f2f438641",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+     "role": "route K derivation, D8",
+     "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+     "role": "route K check",
+     "sha256": "53c763fd13fe9643917cdf229f16b1c38e62d66fe7ba0dbb1af57ae115913112",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+     "role": "route K check",
+     "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+     "role": "route K check",
+     "sha256": "b359337afac7312ffcb2c1a10d6b67b6eaba9d423e0c5a78ef2c6c14e2c2f95c",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+     "role": "route K check",
+     "sha256": "380b458fa4c79bc5f154b30192d8ec597dd438b1e72d2952ac0ff39aeefb3562",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+     "role": "route K check",
+     "sha256": "2958f1503301d477c535b94a6ae9e9b81d24834aa066a36f9cbf6c361e77ed7d",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+     "role": "route K check",
+     "sha256": "f65900202e496187606bec0f6ab14e21b27e1691ad2d55ebd0e9d6f59ce0ace0",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+     "role": "errata E1-E7 from the three readings",
+     "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+     "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+     "role": "cross-model reading (Fable 5.1), including section 7",
+     "sha256": "d45e78f337cae54fbbeaf0a1c50f5dbc15c23b4c57fe2cd99c69c1a00ea56716",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+     "role": "check manifest",
+     "sha256": "b8aeaa5137a8a7f617f1e4454705b23b5b3488c7c7c801d1397c56e0c914ebe6",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+     "role": "identical replay of the Coleman-family check",
+     "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+     "role": "rank-1 calibration of the regulator convention",
+     "sha256": "900e303cc1cfeb41a6d0d83d78f3af1cc3b5be841965d497a3d03f2cab4be655",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage"
+    },
+    {
+     "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+     "role": "its output, 23/23",
+     "sha256": "e2720412f9946bf63b11da7bec8621a04a19630bd735e499dd14fe57cb14e52d",
+     "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+     "role": "second reader A: PASS_WITH_CORRECTIONS",
+     "sha256": "6f1623688312e1fb80fd3358093bcae22fcdfdc03046da3cd104e6cba65aecd0",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+     "role": "reader A manifest",
+     "sha256": "7b8bfb8755f64b6ea2520309526c3e3546c0c2905cd7e2ed7b695846361bbe80",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+     "role": "reader A, T1",
+     "sha256": "e1bb0bc0d86b0647354b67fd19c02da6306eb45fcd739a8b2c52f5ba815cc1b1",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+     "role": "reader A, T2",
+     "sha256": "a2c8cba78889404e73a42972b4d2effcc3598e23d4885896503adab0ee512e22",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+     "role": "reader A, T3",
+     "sha256": "18ec6100f6171c56eea79052ca66b1c7250150f525a20b9af464bc0369815985",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+     "role": "reader A, T4",
+     "sha256": "4647bb95de9f8cecdbb680a7175a658fb2316d97c5ef9c2737918f0639b62394",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+     "role": "reader A, T5",
+     "sha256": "d21ef01ad296b110231430c982b5711de1ebe96bdb97c250fd301d8d9d32b676",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+     "role": "reader A: 3-adic regulator recomputation",
+     "sha256": "2e40179a60e1c5812d9a64e05491a7f9d39a3a80437448bf29b683c10cd55aa3",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+     "role": "its output: v_3(Reg_PARI) = 2",
+     "sha256": "f3b0a60dbd8c610b69d240c31a249209ee6cf2c71db2d1ecb346a696ebb63a9a",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+     "role": "second reader B: PASS_WITH_CORRECTIONS",
+     "sha256": "4a76f3b6c9a11dccc28bf69f969a8198b6633ffe70f9a55fc17e227e265615d0",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+     "role": "reader B manifest",
+     "sha256": "043872b05cb641d7f465b6be9529a286200a6bed04794aa4312e94222f7507c8",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+     "role": "reader B, T1",
+     "sha256": "c954bb364535b42959e61ecad1b599591cd7bb4e9448f7657969327df430f774",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+     "role": "reader B, T2",
+     "sha256": "15fa38061ee12a65e19d28cd75b3d65c48bc47b71e0d0928b31068bb5962f5fe",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+     "role": "reader B, T3",
+     "sha256": "47fa1412c89b109b563db4109a70dcbed38202161c5d09f30da3281490b41f2a",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+     "role": "reader B, T4",
+     "sha256": "dc79c010f510492d4a0cc9b784b24a73f38a8c1b66e5977de5e3d8cc13306dc5",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md"
+    },
+    {
+     "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+     "role": "reader B, T5",
+     "sha256": "16148547702c2fdd6a53926c3ef1835ce40744f2052278c76afd2ee4940f9e41",
+     "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+     "role": "rho_3 surjective onto GL_2(Z_3): Elkies criterion",
+     "sha256": "a6d84091b75241f990322bce1c5ebe4060b11dbd7294565e6ad867f4f476ac70",
+     "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md"
+    },
+    {
+     "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+     "role": "its computation",
+     "sha256": "3b702ccac0604542255956de2a947624783e4b16a2ab14ad00dba1c4a5781efe",
+     "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp"
+    },
+    {
+     "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+     "role": "Kobayashi 2006 at source",
+     "sha256": "945e29b06b3826ede7aa9ed15d22084d11bbf5092f47a5a9f91fc4a6ad79c1d0",
+     "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md"
+    },
+    {
+     "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+     "role": "the certified coefficient a_{4,2} = 15480",
+     "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+     "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+    }
+   ],
+   "imports": [
+    "Kato, Asterisque 295 (2004), read at source: 12.4, 12.5(1), Theorem 13.4(3) via 13.14 (the integral inequality at every height-one prime; H^2_loc = 0 at nonsplit 3), 14.9.3, 16.2-16.3, 17.10 and the 17.13 template; 12.5(4) is printed for V and is not the integral step",
+    "Kobayashi, Doc. Math. Extra Vol. Coates (2006) 567-575, copy read arXiv:math/0610164v1: the mechanics of the Coleman map for the Tate curve; the chi convention is taken from Kato 12.5(1) and Stein-Wuthrich section 3.2 directly, with no involution",
+    "Jones, Duke 59 (1989), Theorem 3.1, forward direction (read at source, author copy; numbering not re-checked against the print)",
+    "Stein-Wuthrich, Math. Comp. 2013, section 3.2 and Prop. 3.5",
+    "the height certificate: v_3 = 0 for the gamma-normalized det<,>_gamma, i.e. with Jones's (log_3 kappa(gamma))^{-r} factor (v_3(log_3 4) = 1); the gamma-free determinant would give only <= 81",
+    "S.3's certified a_{4,2} = 15480 (v_3(a_2) = 2)",
+    "S.3L: #Sha[3] >= 9 (exact computation)",
+    "rho_3 surjective onto GL_2(Z_3): the Elkies criterion (arXiv:math/0612734v1), computed; the completeness facts (RSZB) are SECONDARY"
+   ],
+   "depends_on": [
+    "R.1",
+    "A.1",
+    "A.4",
+    "S.3F",
+    "S.3L"
+   ],
+   "normalization": "omega_E (Neron) and alpha = a_3 = -1; Kato's L_{p-adic,alpha} is the Stein-Wuthrich series shifted by the cyclotomic character kappa (no involution); the regulator is det<,>_gamma",
+   "verification": {
+    "grade_label": "written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review",
+    "review": "MODEL_SAME_FAMILY: written by Claude Opus 5.5; read by Claude Fable 5.1 (cross-model; CONFIRMED_WITH_QUALIFICATIONS, with its section 7 after the second readers) and by two independent fresh Claude Opus 5.5 sessions (PASS_WITH_CORRECTIONS each; 19/19 and 17/17 items); all Anthropic models, not cross-family; no human review",
+    "errata": "E1-E7 of R25_ERRATA_2026-09-29.md applied: the integral step is Kato 13.4(3) via 13.14; the chi convention comes from Kato 12.5(1) and SW section 3.2; Kato's L_p is the SW series shifted by kappa; the certificate is read for det<,>_gamma; the Manin-constant step is not needed; none changes the bound",
+    "regulator": "v_3(Reg_PARI) = 2 on the minimal model with a 3-saturated basis at precisions 8, 11 and 14 (a second reader's recomputation; SECONDARY), so v_3(Reg_gamma) = 0; a 23/23 rank-1 calibration pins the convention",
+    "checks": "the Coleman-family check replays identically; bookkeeping calibration on 289 rank-0 and 23 rank-1 curves with 3 || N and a_3 = -1 (consistency only)"
+   },
+   "qualifications": [
+    "Grade: written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review.",
+    "Inputs carried as stated: rho_3 surjective (computed), the height certificate, the a_{4,2} certificate, Jones Theorem 3.1 (author copy), S.3L. Textbook inputs (Tate local duality and Euler characteristic, Nakayama-Rim) are SECONDARY.",
+    "Route K uses no Skinner 2016, Skinner-Urban, Hida family, GRH or Cassels-Tate pairing computation.",
+    "Not formalized in Lean."
+   ],
+   "master_ref": "",
+   "post_master": "New since the master record (2026-09-29).",
+   "stop_kind": "",
+   "scope": "",
+   "role": "upper half of S.3; the primary support of S.3",
+   "label": "thm:routek"
+  }
+ },
+ "text_edits": {
+  "paper/sections/04_primary.tex": [
+   {
+    "old": "\\begin{theorem}[\\cid{S.3}; computer-assisted, published theorems applied]\\label{thm:sha3}",
+    "new": "\\begin{theorem}[\\cid{S.3}; primary support: route K, Theorem~\\ref{thm:routek}; second route: computer-assisted, published theorems applied]\\label{thm:sha3}"
+   },
+   {
+    "old": "\\begin{proof}[Proof sketch]\nThe reduction at $3$ is nonsplit multiplicative ($\\alpha=-1$, type $\\mathrm{I}_2$, $c_3=2$).",
+    "new": "\\begin{proof}[Proof sketch of the second route]\nThe primary proof is Theorem~\\ref{thm:routek} together with Theorem~\\ref{thm:sha3lower}. The second route, sketched here, uses Skinner's theorem. The reduction at $3$ is nonsplit multiplicative ($\\alpha=-1$, type $\\mathrm{I}_2$, $c_3=2$)."
+   },
+   {
+    "old": "A standalone exact verifier recomputes each of these properties from the two cubics, the two points and a defining polynomial of $L$, in about $0.3$ seconds, and rejects four negative controls. The search that found the cubics used class-group data conditional on GRH; the verifier does not.\n\\end{proof}\n",
+    "new": "A standalone exact verifier recomputes each of these properties from the two cubics, the two points and a defining polynomial of $L$, in about $0.3$ seconds, and rejects four negative controls. The search that found the cubics used class-group data conditional on GRH; the verifier does not.\n\\end{proof}\n\n\\begin{theorem}[\\cid{S.3K}; written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review]\\label{thm:routek}\n$\\#\\Sha[3^\\infty]\\le9$. Hence, with Theorem~\\ref{thm:sha3lower}, $\\Sha[3^\\infty]\\simeq(\\Z/3)^2$, with no input from Skinner, Skinner--Urban or GRH.\n\\end{theorem}\n\\begin{proof}[Sketch (route K)]\nLet $T=T_3E$, let $\\Lambda=\\Z_3[[\\Gamma]]$ for the cyclotomic $\\Z_3$-extension of $\\Q$, and let $L_3$ be the $3$-adic $L$-function with $\\alpha=a_3=-1$ and the N\\'eron differential. The $3$-adic representation of $E$ is surjective onto $\\GL_2(\\Z_3)$ (Elkies's criterion \\cite{elkies3}, computed), so Kato's image hypothesis (12.5.2) holds at $3$.\n\n\\emph{The local construction.} At the nonsplit multiplicative prime $3$, $T$ is an extension of $\\Z_3(\\eta)$ by $T^0=\\Z_3(1)\\otimes\\eta$, where $\\eta$ is the unramified quadratic character. Twisting Kobayashi's Coleman map for the Tate curve \\cite{kobayashi06} by $\\eta$ gives an integral Coleman map\n\\[\n\\mathrm{Col}\\colon H^1_{\\mathrm{Iw}}(\\Q_3,T)/H^1_{\\mathrm{Iw}}(\\Q_3,T^0)\\longrightarrow\\Lambda .\n\\]\nIt is an isomorphism. Indeed $H^2_{\\mathrm{Iw}}(\\Q_3,T^0)=0$, because $\\eta$ stays nontrivial on the totally ramified cyclotomic tower; the formal group is free of rank one over each $\\Z_3[\\Gamma_n]$; and an explicit norm-compatible system has $\\log c_0=3/2$, which generates $3\\Z_3$. By Kato's explicit reciprocity law \\cite[12.5(1)]{kato}, compared character by character with the construction of \\cite[\\S3.2]{sw}, $\\mathrm{Col}$ sends Kato's zeta element to $L_3$; in particular $L_3\\in\\Lambda$.\n\n\\emph{The global step.} Kato's Poitou--Tate sequence \\cite[14.9.3 and 17.10]{kato}, arranged as in his \\S17.13, gives an exact sequence\n\\[\n0\\to H^1(T)/Z\\to\\Lambda/(L_3)\\to X\\to H^2(T)\\to0 ,\n\\]\nwhere $X$ is the Pontryagin dual of the Selmer group over the cyclotomic $\\Z_3$-extension. It is the classical Selmer group, because the local condition at $3$ is the image of $T^0$, and it is primitive at $5843$. Since $H^2_{\\mathrm{loc}}(T)=0$ at the nonsplit prime $3$, Kato's Theorem~13.4(3), applied through 13.14, gives the integral inequality $\\mathrm{length}\\,H^2(T)_{\\mathfrak p}\\le\\mathrm{length}\\,(H^1(T)/Z)_{\\mathfrak p}$ at every height-one prime $\\mathfrak p$ of $\\Lambda$, including $(3)$. Hence $f_E:=\\mathrm{char}_\\Lambda X$ divides $L_3$ in $\\Lambda$.\n\n\\emph{Assembly.} Since $\\rank E(\\Q)=2$, the control argument gives $\\ord_Tf_E\\ge2$. As $\\ord_3a_2=2$ (the certificate in the proof of Theorem~\\ref{thm:sha3}), $L_3=T^2h$ and $f_E=T^2g$ with $g\\mid h$, so $\\ord_3g(0)\\le2$ and $\\Sha[3^\\infty]$ is finite. Jones's leading-term theorem \\cite[Thm.~3.1]{jones}, in its forward direction, gives\n\\[\ng(0)=\\text{unit}\\cdot\\frac{\\#\\Sha[3^\\infty]\\cdot\\prod_\\ell c_\\ell\\cdot\\Reg_\\gamma}{\\#E(\\Q)[3^\\infty]^2}.\n\\]\nHere $\\Reg_\\gamma=\\det\\langle\\,,\\rangle_\\gamma$ is the $\\gamma$-normalized regulator, which carries Jones's factor $(\\log_3\\kappa(\\gamma))^{-r}$ with $\\ord_3\\log_34=1$. The height certificate gives $\\ord_3\\Reg_\\gamma=0$. For the $\\gamma$-free determinant, whose valuation is $2$, the chain would give only $\\#\\Sha[3^\\infty]\\le81$. The Tamagawa product $16$ and $E(\\Q)_{\\mathrm{tors}}=\\Z/2$ are prime to $3$, so $\\#\\Sha[3^\\infty]\\le9$.\n\\end{proof}\n"
+   },
+   {
+    "old": "\\item \\emph{Skinner's theorem is imported as printed, and one step of its printed proof is not established for this curve.}",
+    "new": "\\item \\emph{The second route is Skinner's theorem, imported as printed; two steps of its printed proof are not established for this curve.}"
+   },
+   {
+    "old": "\\item \\emph{What does not depend on it.} Finiteness of $\\Sha[3^\\infty]$ (Theorem~\\ref{thm:sha3fin}) and the lower bound $\\Sha[3]\\supseteq(\\Z/3)^2$ (Theorem~\\ref{thm:sha3lower}) are proved without \\cite{skinner}, so MS-13.4.1(ii) is needed for neither. An upper bound $\\#\\Sha[3^\\infty]\\le9$ that avoids \\cite[Thm.~A]{skinner} is open. The candidate routes, none established, are: MS-B1 (Skinner's route); Ochiai's divisibility \\cite[Thm.~3 and Cor.~7.5]{ochiai}, given that the component of the ordinary Hida Hecke algebra through $f$ is regular (MS-R3), together with steps stated there at remark grade; Kato's \\cite[12.5(4)]{kato}, which holds for $T_3E$, together with an integral Coleman map at the nonsplit multiplicative prime $3$ (MS-R24) and further bookkeeping; and GRH together with one Cassels--Tate pairing value $\\langle C_1,C_2\\rangle$, which has not been computed (a global splitting step is the block). The exact order $9$ therefore still rests on \\cite[Thm.~A]{skinner} as printed.",
+    "new": "\\item \\emph{The primary support does not depend on it.} Finiteness of $\\Sha[3^\\infty]$ (Theorem~\\ref{thm:sha3fin}), the lower bound $\\Sha[3]\\supseteq(\\Z/3)^2$ (Theorem~\\ref{thm:sha3lower}) and the upper bound $\\#\\Sha[3^\\infty]\\le9$ (Theorem~\\ref{thm:routek}) are proved without \\cite{skinner}. Route K is therefore the primary support of Theorem~\\ref{thm:sha3}, and \\cite[Thm.~A]{skinner}, as printed, is kept as a second route with its two open steps for this curve, MS-13.4.1(ii) and MS-B1. Route K combines the integral Coleman map at the nonsplit multiplicative prime $3$ (the $\\eta$-twist of Kobayashi's Tate-curve map; this is the statement MS-R24) with Kato's Theorem~13.4(3) via 13.14 (the integral inequality at every height-one prime; $H^2_{\\mathrm{loc}}=0$ at nonsplit $3$). Two other candidate routes are not needed: Ochiai's divisibility \\cite[Thm.~3 and Cor.~7.5]{ochiai} under the regularity statement MS-R3, and GRH together with one Cassels--Tate pairing value $\\langle C_1,C_2\\rangle$, which has not been computed."
+   },
+   {
+    "old": "\\emph{Formalized.} The deduction of Theorem~\\ref{thm:sha3} from its inputs is checked in Lean~4",
+    "new": "\\emph{Formalized.} The deduction of Theorem~\\ref{thm:sha3} by the second route, from its inputs, is checked in Lean~4"
+   },
+   {
+    "old": "\\emph{Not checked.} The formal check does not cover the imported theorems, including the provenance limit of Remark~\\ref{rem:su}, or the numerical certificates.",
+    "new": "\\emph{Not checked.} The formal check does not cover the imported theorems, including the provenance limit of Remark~\\ref{rem:su}, or the numerical certificates. Route K (Theorem~\\ref{thm:routek}) is not formalized."
+   }
+  ],
+  "paper/sections/01_intro.tex": [
+   {
+    "old": "They combine with Kato's divisibility at the good ordinary primes and with Skinner's multiplicative main-conjecture theorem at $3$.",
+    "new": "They combine with Kato's divisibility at the good ordinary primes. At $3$ they combine with Kato's Euler system and an integral Coleman map (route K), and, as a second route, with Skinner's multiplicative main-conjecture theorem."
+   },
+   {
+    "old": "The order $9$ at $3$ imports Skinner's Theorem~A as printed, and one step of its printed proof is not established for this curve (Remark~\\ref{rem:su}); the finiteness of $\\Sha[3^\\infty]$ and the lower bound $\\Sha[3]\\supseteq(\\Z/3)^2$ do not use it.",
+    "new": "At $3$ the order $9$ is proved without any main conjecture, by route K (Theorem~\\ref{thm:routek}, a written derivation read by three model readers but not by a human referee) together with explicit $3$-coverings. Skinner's Theorem~A, as printed, gives a second route, two steps of whose printed proof are not established for this curve (Remark~\\ref{rem:su})."
+   }
+  ],
+  "paper/sections/11_remaining.tex": [
+   {
+    "old": "the exact order $9$ still does (Remark~\\ref{rem:su}).",
+    "new": "nor, by route K (Theorem~\\ref{thm:routek}), does the upper bound $\\#\\Sha[3^\\infty]\\le9$, so the exact order $9$ is proved without it; Skinner's theorem is kept as a second route (Remark~\\ref{rem:su})."
+   },
+   {
+    "old": "\\item \\emph{One shared import (builder).} Skinner's multiplicative theorem supports three results at once: the only nonzero primary component (Theorem~\\ref{thm:sha3}) and both multiplicative bad-prime routes (Theorem~\\ref{thm:2243}, Criterion~\\ref{crit:5843}).",
+    "new": "\\item \\emph{One shared import (builder).} Skinner's multiplicative theorem supports both multiplicative bad-prime routes (Theorem~\\ref{thm:2243}, Criterion~\\ref{crit:5843}) and the second route to the only nonzero primary component (Theorem~\\ref{thm:sha3}), whose primary support is route K."
+   },
+   {
+    "old": "\\item The exact order of the nonzero primary component uses Skinner's printed theorem, one step of whose printed proof is not established for this curve (Remark~\\ref{rem:su}); its finiteness and its lower bound do not.",
+    "new": "\\item The exact order of the nonzero primary component rests on route K, a written derivation read by model readers but not by a human referee; Skinner's printed theorem gives a second route, with two steps not established for this curve (Remark~\\ref{rem:su})."
+   }
+  ],
+  "paper/release_id.tex": [
+   {
+    "old": "an exact statement of the provenance at $3$ (Remark~\\ref{rem:su});",
+    "new": "an exact statement of the provenance at $3$ (Remark~\\ref{rem:su}); route K, a proof of $\\#\\Sha[3^\\infty]\\le9$ without the main conjecture that becomes the primary support of Theorem~\\ref{thm:sha3} (Theorem~\\ref{thm:routek});"
+   }
+  ],
+  "paper/refs.bib": [
+   {
+    "old": "  note = {arXiv:1509.00682; Theorems 5.17 and 6.4}, year = {2015}",
+    "new": "  note = {arXiv:1509.00682v1 (the version read; Theorems 5.17 and 6.4); published in Amer. J. Math. 140 (2018), 495--542}, year = {2015}"
+   },
+   {
+    "old": "@phdthesis{edixhoventhesis,",
+    "new": "@article{kobayashi06,\n  author = {Kobayashi, Shin-ichi},\n  title = {An elementary proof of the {M}azur--{T}ate--{T}eitelbaum conjecture for elliptic curves},\n  journal = {Doc. Math.},\n  note = {Extra volume: John H. Coates' Sixtieth Birthday; copy read: arXiv:math/0610164v1},\n  year = {2006},\n  pages = {567--575}\n}\n\n@misc{elkies3,\n  author = {Elkies, Noam D.},\n  title = {Elliptic curves with 3-adic {G}alois representation surjective mod 3 but not mod 9},\n  note = {arXiv:math/0612734v1},\n  year = {2006}\n}\n\n@phdthesis{edixhoventhesis,"
+   }
+  ],
+  "README.md": [
+   {
+    "old": "| **Proved** | Sha[p^∞] = 0 for p = 2, 5, 7, 11, 13; Sha[3^∞] ≅ (Z/3)^2 | exact computation at p = 2; at p = 3, 5, 7, 11, 13 computer-assisted, with published theorems applied (Kato; Skinner, as printed: one step of its printed proof is not established for this curve), and the deductions Lean-checked |\n| **Proved** | Sha[3^∞] is finite and Sha[3] ⊇ (Z/3)^2, without the main conjecture | Kato's Theorem 18.4 applied to the certified coefficient; an exact 3-covering certificate |",
+    "new": "| **Proved** | Sha[p^∞] = 0 for p = 2, 5, 7, 11, 13; Sha[3^∞] ≅ (Z/3)^2 | exact computation at p = 2; at p = 5, 7, 11, 13 computer-assisted, with published theorems applied (Kato), and the deductions Lean-checked; at p = 3 see the next row, with Skinner's theorem, as printed, as a second route (two steps of its printed proof are not established for this curve; that deduction is Lean-checked) |\n| **Proved** | Sha[3^∞] ≅ (Z/3)^2 without any main conjecture (route K) | written derivation (Kato's Euler system with an integral Coleman map at 3, Jones's leading-term theorem, the height and coefficient certificates), read by three model readers, not cross-family, no human review; with an exact 3-covering certificate for Sha[3] ⊇ (Z/3)^2 |"
+   }
+  ],
+  "claims/CROSS_CONNECTIONS.md": [
+   {
+    "old": "| S.3 (3-primary, the only **nonzero** primary component), B.6 (2243 route), B.7 (5843 route) | **[builder]** The one component carrying all of Sha's known content, and both multiplicative bad-prime routes, rest on the same imported theorem.",
+    "new": "| the second route to S.3 (its primary support is route K, S.3K), B.6 (2243 route), B.7 (5843 route) | **[builder]** Both multiplicative bad-prime routes, and the second route to the one component carrying all of Sha's known content, rest on the same imported theorem."
+   },
+   {
+    "old": "* The one nonzero primary component depends on Skinner's theorem with an open internal-provenance interface.",
+    "new": "* The one nonzero primary component rests on route K (S.3K), a written derivation read by model readers but not by a human referee; Skinner's theorem, with two steps not established for this curve, is its second route."
+   }
+  ],
+  "RECHECK_V0_2_5.md": [
+   {
+    "old": "     read. An SU-free upper bound `#Sha[3^∞] ≤ 9` is OPEN; candidate routes MS-B1, MS-R3 (Ochiai), MS-R24 (Kato 12.5(4)\n     plus an integral Coleman map at nonsplit 3), or GRH plus one Cassels–Tate value (not computed). S.3's statement",
+    "new": "     read. An SU-free upper bound `#Sha[3^∞] ≤ 9` was OPEN at `c4e4b83`; candidate routes MS-B1, MS-R3 (Ochiai), MS-R24\n     (Kato 13.4(3) via 13.14 plus an integral Coleman map at nonsplit 3), or GRH plus one Cassels–Tate value (not\n     computed). The route-K addendum below proves it by the MS-R24 route. S.3's statement"
+   },
+   {
+    "old": "**Open.** FIN, ORDER9 and Q36 remain open.",
+    "new": "## Route-K addendum (follow-on commit on `v0.2.5-bank`)\n\n1. **S.3K (route K), Theorem `thm:routek`.** `#Sha[3^∞] ≤ 9`; with S.3L, `Sha[3^∞] ≅ (Z/3)²`. No Skinner, Skinner–Urban or\n   GRH input. Grade label: written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh\n   sessions: Opus 5.5); all Anthropic models, not cross-family; no human review.\n   - Local: at nonsplit 3, T is an extension of Z₃(η) by T⁰ = Z₃(1)⊗η. The η-twist of Kobayashi's Tate-curve Coleman map is\n     an isomorphism `H¹_Iw(Q₃,T)/H¹_Iw(Q₃,T⁰) → Λ` that sends Kato's zeta element to L₃ (α = −1, ω_E). The χ convention is\n     taken from Kato 12.5(1) and SW §3.2 (no involution).\n   - Global: Kato 14.9.3, 17.10 and the 17.13 template, with Kato 13.4(3) via 13.14 (the integral inequality at every\n     height-one prime; H²_loc = 0 at nonsplit 3), give char X | L₃ for the classical Selmer group.\n   - Assembly: ord_T ≥ 2 (rank 2) and v₃(a₂) = 2 give v₃(g(0)) ≤ 2. Jones Thm 3.1 (forward) then gives the bound, with\n     v₃ = 0 for the γ-normalized det⟨,⟩_γ (Jones's (log₃κ(γ))^{−r}; v₃(log₃4) = 1). The γ-free determinant has v₃ = 2 and\n     would give only ≤ 81.\n   - Inputs: ρ₃ surjective onto GL₂(Z₃) (Elkies criterion, computed; completeness SECONDARY); the height and a_{4,2}\n     certificates; S.3L. Errata E1–E7 of the three readings are applied; none changes the bound.\n2. **S.3.** Its statement and `grades` list are unchanged. Route K is its primary support, with the label above. Skinner\n   2016 Thm A, as printed, is the second route, with two open steps for this curve: MS-13.4.1(ii) and MS-B1.\n   LEAN_CHECKED covers the second route's deduction only.\n3. **E1 citation fix.** Every citation of 12.5(4) as the integral step now reads Kato 13.4(3) via 13.14; 12.5(4) is printed for V.\n   The fix covers the claims spec (hence CLAIM_INDEX, claims.json and the synthesis brief, all regenerated), §4 of the\n   paper and this file. The checker scans every file in the manifest. A line that cites that item must also say that it\n   is printed for V, except in this declared allowlist of historical records:\n   - `review/V025_BANK_APPLIED.json`;\n   - `review/V025K_ROUTEK_APPLIED.json` (it declares the correction);\n   - `review/history/**`;\n   - `evidence/src/**` (byte-identical research records; the errata are appended there);\n   - `tools/verify_v025k_transition.py` (it holds the pattern).\n4. **Ota.** S.17-47 now cites the print, Amer. J. Math. 140 (2018) 495–542, beside arXiv:1509.00682v1 (the text read). The\n   theorem numbering was not re-checked against the print. The IMPORTED_PREPRINT label is kept. One evidence description\n   lost an internal marker.\n\n**Evidence.** 42 files are appended byte-identical (`review/V025K_EVIDENCE_ADDITIONS.json`): the route-K derivation\n(D1–D8, checks), its errata, the cross-model reading and both second readers, the ρ₃ and Kobayashi source notes, and the\ncross-model check of this release. The 3,503 earlier rows, 36,076 exclusions and 6 redactions are preserved byte for\nbyte, and the same five retained source changes are declared. `review/V025_EVIDENCE_TRANSITION.json` now logs this step;\nits earlier bytes are preserved under `review/history/v0.2.5/`.\n\n**Bindings.** The record is `review/V025K_ROUTEK_APPLIED.json`; the v0.2.5 record `review/V025_BANK_APPLIED.json` is\nunchanged. `tools/verify_patch_release.py` now delegates to `tools/verify_v025k_transition.py`, which:\n- reconstructs the tree of `706efb5` exactly (set equality with its manifest) and runs that tree's checker unchanged;\n  that checker reconstructs v0.2.4 in turn;\n- checks this delta by exact rows and set equality;\n- fixes, in the checker itself, S.3K's label, S.3's statement and grades, the route-K evidence (all three readers'\n  returns, the errata and D1–D8), the Ota print citation and the whole-tree citation scan.\n\nIts `--negative-controls` include:\n- S.3K with its label removed;\n- an integral citation of 12.5(4) reintroduced (in the spec, and in the paper); 12.5(4) is printed for V;\n- a reader's return dropped (every hash rebound);\n- the earlier row, duplicate, historical-byte, undeclared-edit and undeclared-file corruptions.\n\nEach must fail at its named check; the results are in the return.\n\n**Not changed.** S.3's statement; O.1–O.4; `SOURCE_SNAPSHOT.json`, which still names `c4e4b83`, because a new stamp\nwould need a second commit.\n\n**Open.** FIN, ORDER9 and Q36 remain open."
+   }
+  ],
+  "tools/verify_patch_release.py": [
+   {
+    "old": "R = Path(__file__).resolve().parent.parent\nif (R / 'review/V025_BANK_APPLIED.json').exists():",
+    "new": "R = Path(__file__).resolve().parent.parent\nif (R / 'review/V025K_ROUTEK_APPLIED.json').exists():\n    # v0.2.5 route K: reconstruct the v0.2.5 bank tree (706efb5) exactly and run ITS checker unchanged there (which in turn\n    # reconstructs v0.2.4, v0.2.3 and runs their checkers), then check the route-K delta. See tools/verify_v025k_transition.py.\n    _r = subprocess.run([sys.executable, '-B', str(R / 'tools/verify_v025k_transition.py')])\n    if _r.returncode != 0:\n        raise SystemExit('FAIL: v0.2.5 route-K transition check')\n    print('PATCH_RECHECK_PASS: no new mathematical or large numerical replay claimed')\n    raise SystemExit(0)\nif (R / 'review/V025_BANK_APPLIED.json').exists():"
+   }
+  ]
+ },
+ "extra_evidence_append": "# v0.2.5 route K: governing records; see review/V025K_EVIDENCE_ADDITIONS.json\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage\n/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log\n/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md\n/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md\n/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md\n/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md\n/Users/bsm/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md\n/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md\n",
+ "evidence": {
+  "declared": {
+   "path": "review/V025K_EVIDENCE_ADDITIONS.json",
+   "sha256": "15398c004158ce8ecbef83e767ddf4580f58e06497c787bbe310e9f8923f3a6d"
+  },
+  "transition_log": {
+   "path": "review/V025_EVIDENCE_TRANSITION.json",
+   "sha256": "79a97608274cb9448dc31255f45ec4e9ddda1a2af31d49b89751c39fe65a9aa0"
+  },
+  "retained_source_changes": {
+   "path": "review/V025_RETAINED_SOURCE_CHANGES.json",
+   "sha256": "ee73b73df798dbe3eb980deac337ee960a175bebf1d67c24bf5faf8628ead4a4"
+  },
+  "tool": "tools/build_evidence_transition.py (unchanged since the v0.2.5 bank commit); baseline = the v0.2.5 tables"
+ },
+ "governing_files": {
+  "routek_S3K": [
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+    "sha256": "d45e78f337cae54fbbeaf0a1c50f5dbc15c23b4c57fe2cd99c69c1a00ea56716"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+    "sha256": "b8aeaa5137a8a7f617f1e4454705b23b5b3488c7c7c801d1397c56e0c914ebe6"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+    "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+    "sha256": "e2720412f9946bf63b11da7bec8621a04a19630bd735e499dd14fe57cb14e52d"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+    "sha256": "900e303cc1cfeb41a6d0d83d78f3af1cc3b5be841965d497a3d03f2cab4be655"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+    "sha256": "6d68565f64f7d0cbfe8384ef6f9f6e69282719f04de2e4936179979116c3d89d"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+    "sha256": "dc3ed32cb70be05075a9d00d751b9bcb71ccd4cfe9ee7dd8fdff6c130ca7acc6"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+    "sha256": "0c63d2912859c292e099718aea0603d200b5b578726dc0ed5361d97cea536efc"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+    "sha256": "19321c0ad7b85f9bab6df0ef66c3767721d60744639e9c259cd2f32e020ad97c"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+    "sha256": "6973a216957ac185878512832b243293760a1d32fe03f8d774a3402e9d20b3e2"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+    "sha256": "bf9a66004ab22169a86909ecb5297b5238cea9dd4417ea15b51339e5143e4034"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+    "sha256": "49bb38cdcb38c36c8fafa1f2d756dcbe55de900818a3cfaac359ac6f2f438641"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+    "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+    "sha256": "ea8d8e6c76c1160bef7e56acd8dccd083a0a4a751ffa36b4a0f08102cf63f783"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+    "sha256": "27ec91eb4dfdd8eaa3ea4f36f576e974e40fd6663098a8fa2677052e7d4ff927"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+    "sha256": "2958f1503301d477c535b94a6ae9e9b81d24834aa066a36f9cbf6c361e77ed7d"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+    "sha256": "53c763fd13fe9643917cdf229f16b1c38e62d66fe7ba0dbb1af57ae115913112"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+    "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+    "sha256": "380b458fa4c79bc5f154b30192d8ec597dd438b1e72d2952ac0ff39aeefb3562"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+    "sha256": "b359337afac7312ffcb2c1a10d6b67b6eaba9d423e0c5a78ef2c6c14e2c2f95c"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+    "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+    "sha256": "f65900202e496187606bec0f6ab14e21b27e1691ad2d55ebd0e9d6f59ce0ace0"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+    "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+    "sha256": "a6d84091b75241f990322bce1c5ebe4060b11dbd7294565e6ad867f4f476ac70"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+    "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+    "sha256": "945e29b06b3826ede7aa9ed15d22084d11bbf5092f47a5a9f91fc4a6ad79c1d0"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+    "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+    "sha256": "3b702ccac0604542255956de2a947624783e4b16a2ab14ad00dba1c4a5781efe"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+    "sha256": "7b8bfb8755f64b6ea2520309526c3e3546c0c2905cd7e2ed7b695846361bbe80"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+    "sha256": "6f1623688312e1fb80fd3358093bcae22fcdfdc03046da3cd104e6cba65aecd0"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+    "sha256": "e1bb0bc0d86b0647354b67fd19c02da6306eb45fcd739a8b2c52f5ba815cc1b1"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+    "sha256": "a2c8cba78889404e73a42972b4d2effcc3598e23d4885896503adab0ee512e22"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+    "sha256": "18ec6100f6171c56eea79052ca66b1c7250150f525a20b9af464bc0369815985"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+    "sha256": "4647bb95de9f8cecdbb680a7175a658fb2316d97c5ef9c2737918f0639b62394"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+    "sha256": "d21ef01ad296b110231430c982b5711de1ebe96bdb97c250fd301d8d9d32b676"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+    "sha256": "2e40179a60e1c5812d9a64e05491a7f9d39a3a80437448bf29b683c10cd55aa3"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+    "sha256": "f3b0a60dbd8c610b69d240c31a249209ee6cf2c71db2d1ecb346a696ebb63a9a"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+    "sha256": "043872b05cb641d7f465b6be9529a286200a6bed04794aa4312e94222f7507c8"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+    "sha256": "4a76f3b6c9a11dccc28bf69f969a8198b6633ffe70f9a55fc17e227e265615d0"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+    "sha256": "c954bb364535b42959e61ecad1b599591cd7bb4e9448f7657969327df430f774"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+    "sha256": "15fa38061ee12a65e19d28cd75b3d65c48bc47b71e0d0928b31068bb5962f5fe"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+    "sha256": "47fa1412c89b109b563db4109a70dcbed38202161c5d09f30da3281490b41f2a"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+    "sha256": "dc79c010f510492d4a0cc9b784b24a73f38a8c1b66e5977de5e3d8cc13306dc5"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+    "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+    "sha256": "16148547702c2fdd6a53926c3ef1835ce40744f2052278c76afd2ee4940f9e41"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+    "release_path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+    "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4"
+   }
+  ],
+  "fable_bank_check_F1_F2": [
+   {
+    "original_path": "/Users/bsm/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+    "release_path": "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+    "sha256": "131f17e2c37c444af26ab0d3478fd731d09801f9e60934fe94abcef566dc8824",
+    "note": "PASS with required fixes F1, F2"
+   }
+  ],
+  "task": [
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/TASK.md",
+    "sha256": "b97c9ff9b996d9b86aeec55d42df32ed3321a0ff535870c083c538e01cf747c8"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+    "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/V025_BANK_SCOPE.md",
+    "sha256": "98bf8f3c768c5c33d757f3fb45f9fee4e6c689e1bc3feca726af70f9ee2aa978"
+   }
+  ]
+ },
+ "current_bindings": {
+  "README.md": "ee490a468be40b2eca1a80098c909525644f25af4d28fb2feddcb1a3adca9fa6",
+  "RECHECK_V0_2_5.md": "6be1bbb19b72e48c485cdfc7955611da2d2181e881a8aab064125ff8d1f99df0",
+  "claims/CLAIM_INDEX.md": "4e2b0cfa5595fe3478b52547fbcd5cde7f95f01af3245a23c187b42fe24a6c69",
+  "claims/CROSS_CONNECTIONS.md": "ed35135d72b5bb7a11129e76234152043cdca6ed150a417893b320e18daced96",
+  "claims/claims.json": "89131b10a607af6c79c95467e204ffd1190b52585cd4acdba8d048fe4d0da969",
+  "claims/spec/common.py": "b35c45c14dfdc617b87e446e36e0cf601c55ec7dcc7392b3aaa5d48b6eea588a",
+  "claims/spec/part1_core.py": "4e5abab3ea0b0abe9590ad8575f9204d5e97f27e0bb6e0140769d0e8d0c33241",
+  "evidence/PROVENANCE.tsv": "f539a3ca41ceb5f3c317d192b6cfe27e31e1030e7974f99490b8f25cfddc15bf",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md": "d45e78f337cae54fbbeaf0a1c50f5dbc15c23b4c57fe2cd99c69c1a00ea56716",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256": "b8aeaa5137a8a7f617f1e4454705b23b5b3488c7c7c801d1397c56e0c914ebe6",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log": "e2720412f9946bf63b11da7bec8621a04a19630bd735e499dd14fe57cb14e52d",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage": "900e303cc1cfeb41a6d0d83d78f3af1cc3b5be841965d497a3d03f2cab4be655",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md": "6d68565f64f7d0cbfe8384ef6f9f6e69282719f04de2e4936179979116c3d89d",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md": "dc3ed32cb70be05075a9d00d751b9bcb71ccd4cfe9ee7dd8fdff6c130ca7acc6",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md": "0c63d2912859c292e099718aea0603d200b5b578726dc0ed5361d97cea536efc",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md": "19321c0ad7b85f9bab6df0ef66c3767721d60744639e9c259cd2f32e020ad97c",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md": "6973a216957ac185878512832b243293760a1d32fe03f8d774a3402e9d20b3e2",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md": "bf9a66004ab22169a86909ecb5297b5238cea9dd4417ea15b51339e5143e4034",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md": "49bb38cdcb38c36c8fafa1f2d756dcbe55de900818a3cfaac359ac6f2f438641",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256": "ea8d8e6c76c1160bef7e56acd8dccd083a0a4a751ffa36b4a0f08102cf63f783",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md": "27ec91eb4dfdd8eaa3ea4f36f576e974e40fd6663098a8fa2677052e7d4ff927",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt": "2958f1503301d477c535b94a6ae9e9b81d24834aa066a36f9cbf6c361e77ed7d",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp": "53c763fd13fe9643917cdf229f16b1c38e62d66fe7ba0dbb1af57ae115913112",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log": "380b458fa4c79bc5f154b30192d8ec597dd438b1e72d2952ac0ff39aeefb3562",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage": "b359337afac7312ffcb2c1a10d6b67b6eaba9d423e0c5a78ef2c6c14e2c2f95c",
+  "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log": "f65900202e496187606bec0f6ab14e21b27e1691ad2d55ebd0e9d6f59ce0ace0",
+  "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md": "a6d84091b75241f990322bce1c5ebe4060b11dbd7294565e6ad867f4f476ac70",
+  "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md": "945e29b06b3826ede7aa9ed15d22084d11bbf5092f47a5a9f91fc4a6ad79c1d0",
+  "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp": "3b702ccac0604542255956de2a947624783e4b16a2ab14ad00dba1c4a5781efe",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256": "7b8bfb8755f64b6ea2520309526c3e3546c0c2905cd7e2ed7b695846361bbe80",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md": "6f1623688312e1fb80fd3358093bcae22fcdfdc03046da3cd104e6cba65aecd0",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md": "e1bb0bc0d86b0647354b67fd19c02da6306eb45fcd739a8b2c52f5ba815cc1b1",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md": "a2c8cba78889404e73a42972b4d2effcc3598e23d4885896503adab0ee512e22",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md": "18ec6100f6171c56eea79052ca66b1c7250150f525a20b9af464bc0369815985",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md": "4647bb95de9f8cecdbb680a7175a658fb2316d97c5ef9c2737918f0639b62394",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md": "d21ef01ad296b110231430c982b5711de1ebe96bdb97c250fd301d8d9d32b676",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp": "2e40179a60e1c5812d9a64e05491a7f9d39a3a80437448bf29b683c10cd55aa3",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log": "f3b0a60dbd8c610b69d240c31a249209ee6cf2c71db2d1ecb346a696ebb63a9a",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256": "043872b05cb641d7f465b6be9529a286200a6bed04794aa4312e94222f7507c8",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md": "4a76f3b6c9a11dccc28bf69f969a8198b6633ffe70f9a55fc17e227e265615d0",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md": "c954bb364535b42959e61ecad1b599591cd7bb4e9448f7657969327df430f774",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md": "15fa38061ee12a65e19d28cd75b3d65c48bc47b71e0d0928b31068bb5962f5fe",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md": "47fa1412c89b109b563db4109a70dcbed38202161c5d09f30da3281490b41f2a",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md": "dc79c010f510492d4a0cc9b784b24a73f38a8c1b66e5977de5e3d8cc13306dc5",
+  "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md": "16148547702c2fdd6a53926c3ef1835ce40744f2052278c76afd2ee4940f9e41",
+  "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md": "131f17e2c37c444af26ab0d3478fd731d09801f9e60934fe94abcef566dc8824",
+  "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+  "paper/refs.bib": "c6f4a8fc65a554e1f85babd758120e35d5f96bb2eb1d73796e0a876c16f03f7b",
+  "paper/release_id.tex": "189b345bed436f47df3005a368bdd35018bd0840837bc010af5973075c208b77",
+  "paper/sections/01_intro.tex": "fc0281d0055726cc74dd7cea73dfc061b66839e61238ca59f08b3c3a7b0cddd7",
+  "paper/sections/04_primary.tex": "db931ce742d5bf06ca6ea734648c241e74d23b51ab778981314dbb350c12a81b",
+  "paper/sections/11_remaining.tex": "a81ada88c1336c6d5fdce2b80aad05d0eed24eca4b5b7a7378cbf9eb310561b9",
+  "paper/seed_bsd.bbl": "cb09c38f8eda4ffa3471c65f27d184f2a2b8c391d2f610ebe6c0960cbf59d01a",
+  "paper/seed_bsd.pdf": "19f1c5043e6d9aa912a4416b762aa5930796d366ca3f2512ba43b0f4646bc917",
+  "review/SYNTHESIS_CHECK_BRIEF.md": "65f9c6743ded74074fc05e1f9db3d192c3399b63e1664c669b76c7cbf43e422e",
+  "review/V025K_EVIDENCE_ADDITIONS.json": "15398c004158ce8ecbef83e767ddf4580f58e06497c787bbe310e9f8923f3a6d",
+  "review/V025_EVIDENCE_TRANSITION.json": "79a97608274cb9448dc31255f45ec4e9ddda1a2af31d49b89751c39fe65a9aa0",
+  "review/history/v0.2.5/MANIFEST.sha256": "5eeab79c37edd2f37f2bd7864200aed4a296c0002db8e9ea2ef84ba857b1c5cc",
+  "review/history/v0.2.5/README.md": "1b9b26a205220de449e7bb7cfcb0250e73b42e816f59aff84cee2c18b036cdfc",
+  "review/history/v0.2.5/RECHECK_V0_2_5.md": "f3ef4d6fcf5092a3368356bc686048968e205c028aba68e51b6a58b74e2dfb5c",
+  "review/history/v0.2.5/claims/CLAIM_INDEX.md": "34ea502ceabf5873b4d41eb51f95221e0c1640492b86b7d0569d1a587c500202",
+  "review/history/v0.2.5/claims/CROSS_CONNECTIONS.md": "24ed921eecea79cff779acb9ed122e1c5bfa1011e1f06b32abb090de15a8709b",
+  "review/history/v0.2.5/claims/claims.json": "f6c47571ef8d814f728737920e57d2a1ce5ae0954301493c6f6c6b828cbbddc7",
+  "review/history/v0.2.5/claims/spec/common.py": "6eb50503069b9df0d45ea30ea466e58e9232bfa049e8bba3b76f80c01b1d7d67",
+  "review/history/v0.2.5/claims/spec/part1_core.py": "3dab401c7fc84baa47eec3981548cb64ef2f64339db77db476f05f3da9bf140f",
+  "review/history/v0.2.5/evidence/EXCLUDED.tsv": "4a799c7843507fe16a4b985929b34e85bb459d0c51c0d4e914044ae6f9a06ad5",
+  "review/history/v0.2.5/evidence/PROVENANCE.tsv": "030e385158fb5b4330ded4177a591b8616e4e030dbacf5c18d25fca5657eaae9",
+  "review/history/v0.2.5/evidence/REDACTIONS.tsv": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694",
+  "review/history/v0.2.5/paper/refs.bib": "8c3f518e5f2f7967fec200e5dbc71a81d06cb877cb19e1b9f035e37c54f20b0a",
+  "review/history/v0.2.5/paper/release_id.tex": "4e037fb588fedaf11ff29fd72aa312f6de11f8ae8fd96474edc781f674d97104",
+  "review/history/v0.2.5/paper/sections/01_intro.tex": "e9387815a3ec90c835475f035dab12fecbf3e6bcd790a0b71b3d03a6bff94232",
+  "review/history/v0.2.5/paper/sections/04_primary.tex": "f5199906aaaf596ccf4d3a67d93b920080c46f014d12d1bd886e347def7a4356",
+  "review/history/v0.2.5/paper/sections/11_remaining.tex": "b9a2eece234859d838d3159ae0af526f213d402ad356b3610540297773309b03",
+  "review/history/v0.2.5/paper/seed_bsd.bbl": "c737955fea9977724a8ffee811dfd59d2885cceea0246c0cb0258651fc53817d",
+  "review/history/v0.2.5/paper/seed_bsd.pdf": "741b3bd62a21137a3a296f1e9db05792c44931f7c176a5534792e34e5852ff3b",
+  "review/history/v0.2.5/review/SYNTHESIS_CHECK_BRIEF.md": "c657ba3d92a0cb72e378fd3d22965f809d6b5f820bc681711d04096df3ffbc08",
+  "review/history/v0.2.5/review/V025_EVIDENCE_TRANSITION.json": "8ec6767ec00c0f38e713d4f208638a305678e996f01becb1d66da6d8960892f8",
+  "review/history/v0.2.5/tools/extra_evidence.txt": "676c874c145a5a5697eee9f0e4ad58d14675d41029ee48c0d4f7328e253a18e3",
+  "review/history/v0.2.5/tools/verify_patch_release.py": "48f9d390bf035d8e736ab78e61b50e44d80cd28ea60ca769281cf5d532f8987c",
+  "tools/extra_evidence.txt": "80a6c7b9cf69a31291f111541cd19b059f9138105e22012a43430e8042cf1a35",
+  "tools/verify_patch_release.py": "d7a61908165f915ca4d31704ff66eadb4e1c106e3f3a6643a4ea17c39f97a0dd",
+  "tools/verify_v025k_transition.py": "363b035c066d17dbfa1c41ecde9a81f08a394e5da2e8d6986e0f75e971e4a6c2"
+ },
+ "v025_manifest": {
+  "path": "review/history/v0.2.5/MANIFEST.sha256",
+  "sha256": "5eeab79c37edd2f37f2bd7864200aed4a296c0002db8e9ea2ef84ba857b1c5cc"
+ },
+ "v025_checker_sha256": "48f9d390bf035d8e736ab78e61b50e44d80cd28ea60ca769281cf5d532f8987c",
+ "verifier": "tools/verify_v025k_transition.py"
+}

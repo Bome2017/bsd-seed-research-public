@@ -1,0 +1,132 @@
+{
+  "status": "EXACT_FRACTION_LITERAL_REPLAY_PASS",
+  "curve": "1913b1",
+  "all_prime_blocks_verified": 24,
+  "primitive_coordinate_scope": "Every residue is directly evaluated from literal actual class polynomials; no source-coordinate matrix used to generate the values.",
+  "selected_detectors": [
+    {
+      "prime": 997,
+      "roots": [
+        109,
+        249,
+        408,
+        420,
+        577,
+        589,
+        748,
+        888
+      ],
+      "cubic_root": 304,
+      "actual_leading_units": [
+        [
+          687,
+          158
+        ],
+        [
+          165,
+          525
+        ],
+        [
+          393,
+          911
+        ],
+        [
+          484,
+          83
+        ],
+        [
+          350,
+          985
+        ],
+        [
+          746,
+          313
+        ],
+        [
+          570,
+          602
+        ],
+        [
+          539,
+          183
+        ]
+      ],
+      "actual_valuations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "detectors": [
+        {
+          "root_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "product_residues": [
+            687,
+            158
+          ],
+          "signature": [
+            0,
+            2
+          ]
+        },
+        {
+          "root_weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "product_residues": [
+            165,
+            525
+          ],
+          "signature": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

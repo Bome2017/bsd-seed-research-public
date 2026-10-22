@@ -1,0 +1,94 @@
+{
+  "status": "EXACT_FRACTION_LITERAL_REPLAY_PASS",
+  "curve": "mirror389_false",
+  "all_prime_blocks_verified": 24,
+  "primitive_coordinate_scope": "Every residue is directly evaluated from literal actual class polynomials; no source-coordinate matrix used to generate the values.",
+  "selected_detectors": [
+    {
+      "prime": 127,
+      "roots": [
+        24,
+        57,
+        71,
+        78,
+        79,
+        98,
+        108,
+        124
+      ],
+      "cubic_root": 107,
+      "actual_leading_units": [
+        [
+          113
+        ],
+        [
+          39
+        ],
+        [
+          108
+        ],
+        [
+          75
+        ],
+        [
+          43
+        ],
+        [
+          59
+        ],
+        [
+          95
+        ],
+        [
+          71
+        ]
+      ],
+      "actual_valuations": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "detectors": [
+        {
+          "root_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "product_residues": [
+            113
+          ],
+          "signature": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "source_folder": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18",
+  "lab_folder": "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18",
+  "archive": "work/returns/archives/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18.zip",
+  "archive_bytes": 67880351,
+  "archive_sha256": "825ddca87fa30bbdaf39b374cbecd89b60ef4073946197a6b47f18212c6770aa",
+  "root_manifest_entries": 362,
+  "root_manifest_sha256": "13a0d032b09cda00c4771e4dde0906797e7080d7892f8558bfd648a5dfd27795",
+  "byte_copy_verified": true,
+  "small_replay_byte_identical": true,
+  "nested_manifest_entries_verified": 267,
+  "mathematical_grade": "exact finite computations and written deductions under retained inputs; no rank-two joint unit or complete class bound",
+  "publication_is_not_proof": true,
+  "git_whitespace_check": {
+    "authored_non_evidence_files": "PASS",
+    "preserved_evidence_files_with_whitespace_warnings": [
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/harvest.gp.out",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/instrumentation.patch",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/mixed_harvest.gp.err",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/mixed_instrumentation.patch",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/smoke.err",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/INSTALLED_PARI_TECH_EXCERPT.txt",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/class_units_dense.gp.err",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/class_units_dense.gp.out",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/class_units_random.gp.err",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/class_units_random.gp.out",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/class_units_smallbase.gp.err",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/class_units_smallbase.gp.out",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/class_units_targeted.gp.err",
+      "work/returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/class_units_targeted.gp.out"
+    ],
+    "disposition": "Exact raw GP output, installed documentation excerpt and source patches retained byte-for-byte; not reformatted."
+  }
+}

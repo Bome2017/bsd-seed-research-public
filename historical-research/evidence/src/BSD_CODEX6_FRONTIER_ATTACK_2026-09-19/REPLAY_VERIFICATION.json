@@ -1,0 +1,76 @@
+{
+  "script_sha256": "6e53a287a4804e3bc09b3dae8749c64f7f2ce0e5a3cf8c94cce2c1c7711aefcd",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/verify_regulator.py",
+        "--precision",
+        "100",
+        "--terms",
+        "30"
+      ],
+      "wall_seconds": 0.11376062780618668,
+      "cpu_seconds": 0.10132999999999999,
+      "exit_code": 0,
+      "python": "3.13.2",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/verify_regulator.py",
+        "--precision",
+        "80",
+        "--terms",
+        "24"
+      ],
+      "wall_seconds": 0.08898802800104022,
+      "cpu_seconds": 0.08600800000000001,
+      "exit_code": 0,
+      "python": "3.13.2",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/bsm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/bsm/BSD_CODEX6_FRONTIER_ATTACK_2026-09-19/verify_regulator.py",
+        "--precision",
+        "100",
+        "--terms",
+        "30"
+      ],
+      "wall_seconds": 0.16774799185805023,
+      "cpu_seconds": 0.11620399999999997,
+      "exit_code": 0,
+      "python": "3.12.14",
+      "stderr": ""
+    }
+  ],
+  "recorded_outputs_reproduced": true,
+  "strong_enclosures_nested": {
+    "regulator": true,
+    "omega_agm_crosscheck": true,
+    "omega_times_regulator": true,
+    "q_interval": true
+  },
+  "python_3_12_and_3_13_arithmetic_identical": true,
+  "D174_exact_spacing_product": "49851/50000",
+  "D175_two_distinct_rationals_inside_interval": [
+    "36-1/175",
+    "36+1/175"
+  ],
+  "source_custody_recheck": [
+    {
+      "record": "HANDOFF_MANIFEST_CHECK.json",
+      "entries": 11,
+      "all_still_match": true
+    },
+    {
+      "record": "HANDOFF_REFERENCED_HASH_CHECK.json",
+      "entries": 35,
+      "all_still_match": true
+    }
+  ],
+  "scope": "Bounded independent arithmetic implementation; same Tate formula; retained Arb L second derivative not recomputed."
+}

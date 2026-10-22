@@ -1,0 +1,1 @@
+Complete. Main paired norm calculation and positive1913 adaptive test both replay. Read REPORT.md and positive1913/ADDENDUM.md. Actual opposite norms contain genuine excess: do not drop the boundary/image term from a proposed upper bound. No further work pending.

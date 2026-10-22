@@ -1,0 +1,18 @@
+{
+  "stage": "inspect",
+  "status": "FAILED",
+  "elapsed_seconds": 1.7372439259999999,
+  "returncode": 0,
+  "outer_seconds": 70,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "b5df2e08d20304c018d4174ed6cda3664de95309641e727108342ee1f4a918bd",
+  "errors": [
+    "  ***   at top-level: read(\"inspect.gp\")",
+    "  ***                 ^------------------",
+    "  ***   in function read: ...29/work/kb2a_bnf.bin\");B=subst(B,variable(B.po",
+    "  ***                                                 ^---------------------",
+    "  *** subst: the PARI stack overflows !",
+    "  current stack size: 1000001536 (953.676 Mbytes)",
+    "  [hint] you can increase 'parisizemax' using default()"
+  ]
+}

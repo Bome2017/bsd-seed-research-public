@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "token": "e1e17c91277c88e029dcbb4c29521e8f4731e79d2c045eb3",
+  "file": "reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt",
+  "file_sha256": "58da37079750e05df03b8225f2234c26e9f8ef6059a854ab9832269b597e19af",
+  "execution_method": "python3 prepare_reference.py",
+  "extractor_exit_code": 0,
+  "members_checked": 3,
+  "read_after_extraction": true,
+  "error": null
+}

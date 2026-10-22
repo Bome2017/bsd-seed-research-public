@@ -1,0 +1,79 @@
+[
+  {
+    "source": "/Users/bsm/BSD_TAME_LAW_EXACTNESS_TEST_2026-10-07/REPORT.md",
+    "copy": "context/EXACTNESS_REPORT.md",
+    "sha256": "e2a12cf15a7dc0d97f4b19c3f2764a5d80d624d94224ff76c0021004a3cc6596",
+    "mode": "byte_for_byte"
+  },
+  {
+    "source": "/Users/bsm/BSD_TAME_LAW_EXACTNESS_TEST_2026-10-07/outputs/evaluation.json",
+    "copy": "context/EXACTNESS_EVALUATION.json",
+    "sha256": "25b3cb173b71d31c0ef0ed4a36438747104910d2d044cfde16f2e1aaf94a7c72",
+    "mode": "byte_for_byte"
+  },
+  {
+    "source": "/Users/bsm/BSD_TAME_LAW_EXACTNESS_TEST_2026-10-07/MANIFEST.sha256",
+    "copy": "context/EXACTNESS_MANIFEST.sha256",
+    "sha256": "c1ab2094cd184570ea5c128828d83b98958edbdbce4afbbe52e05590b1537322",
+    "mode": "byte_for_byte"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/G2_PROOF.md",
+    "copy": "context/G2_PROOF.md",
+    "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+    "mode": "byte_for_byte"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/TAME_COMPARISON.md",
+    "copy": "context/TAME_COMPARISON.md",
+    "sha256": "c461e121dc0523e6523ab7616473a0c8b4cbb367cd5bc385e738566c701fd718",
+    "mode": "byte_for_byte"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/BSD_SEED_RESEARCH_MAP.md",
+    "source_sha256": "3abbb760ad6c1bab2805609d9b5a0758530d54dcc0b87a696847d5ef3d090bcd",
+    "copy": "context/ENDPOINT_EXCERPTS.md",
+    "sha256": "524f1110972f9b943a4426acd2f8d37ff2b56c157b2a121d92d007334b152721",
+    "mode": "labelled_excerpt",
+    "line_ranges": [
+      [
+        117,
+        172
+      ]
+    ]
+  },
+  {
+    "source": "/Users/bsm/BSD_BUILD_MAP/RUN_NOW_2026-09-29.md",
+    "source_sha256": "4fe3ff922f41b1aaada616ff147c922d9180811e2819a2772e3c57a4135b4300",
+    "copy": "context/RUN_NOW_EXCERPTS.md",
+    "sha256": "5ae5577ee87256509de3f1c02dccea6bdb393872a1c58333f5e85ce10c7a9f78",
+    "mode": "labelled_excerpt",
+    "line_ranges": [
+      [
+        1866,
+        1869
+      ],
+      [
+        1873,
+        1879
+      ]
+    ]
+  },
+  {
+    "source": "/Users/bsm/BSD_EXIT1_KATO_POINT_LINE_MAP_CLAUDE_2026-10-07/REPORT.md",
+    "source_sha256": "8c141d7593047e7b2a437442289337e8d602b6e6faf790acb9dda35373077ac9",
+    "copy": "context/EXIT1_PENDING_FORMULA.md",
+    "sha256": "44e7ed5f222c4297d68d09d35f52f0233138095279b22fa59871b062b2d4166e",
+    "mode": "labelled_excerpt",
+    "line_ranges": [
+      [
+        267,
+        314
+      ],
+      [
+        349,
+        377
+      ]
+    ]
+  }
+]

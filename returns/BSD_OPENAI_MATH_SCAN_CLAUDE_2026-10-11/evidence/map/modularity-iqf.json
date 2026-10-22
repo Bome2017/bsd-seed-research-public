@@ -1,0 +1,231 @@
+{
+  "paper": "Modularity of elliptic curves over imaginary quadratic fields (OpenAI, October 4, 2026; openai/math preprints/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026; grade IMPORTED_PREPRINT, unrefereed, AI-generated, no Lean entry found in lean/ for this manuscript; not listed in history.md; cites no other openai/math manuscript)",
+  "main_theorems": [
+    {
+      "label": "Theorem 1.1 (thm:main)",
+      "statement": "Let $K$ be an imaginary quadratic number field and $E/K$ an elliptic curve. There is an isobaric automorphic representation $\\pi_E$ of $\\GL_2(\\A_K)$ with trivial central character and weight zero such that, for every prime $l$ and every isomorphism $\\iota:\\overline\\Q_l\\xrightarrow{\\sim}\\C$, $r_\\iota(\\pi_E)\\simeq H^1_{\\et}(E_{\\overline K},\\overline\\Q_l)$. At every finite place $v\\nmid l$ one has $\\iota\\WD(H^1_{\\et}(E_{\\overline K},\\overline\\Q_l)|_{G_{K_v}})^{\\Fss}\\simeq\\rec_{K_v}(\\pi_{E,v}\\otimes|\\det|_v^{-1/2})$. The unitary parameter at the complex place is $z\\mapsto\\diag(z/|z|,\\overline z/|z|)$. In particular every local factor agrees, and $L(E/K,s)=L(\\pi_E,s-1/2)$. If $E$ has no complex multiplication, $\\pi_E$ is cuspidal. In the CM case it is given by automorphic induction of a Hecke character, or by an isobaric sum when the CM field is already $K$.",
+      "hypotheses": "K any imaginary quadratic field; E/K any elliptic curve (CM or non-CM). No further hypothesis. Conventions: Tate-normalized rec^T (Section 2, eq. tate-normalization), cyclotomic character of HT weight -1, geometric Frobenius. Proof for non-CM E runs through: Serre open image (choose p>100 with SL2(F_p) in image on E[p]); F = K(mu_{3p}); auxiliary genus-3p cyclic cover family; three Caraiani-Newton lifts over F; cyclic base-change descent F -> K; CM case via Shimura-Taniyama + automorphic induction.",
+      "location": "build/sections/introduction.tex:17-43 (Theorem 1.1); proof completed at build/sections/automorphy.tex:193-254 (Section 9.3-9.4)"
+    }
+  ],
+  "general_results": [
+    {
+      "label": "Lemma 3.1 (geo:family)",
+      "statement": "For each divisor $m>1$ of $n$, there is a smooth proper family of geometrically connected genus-$m$ curves $\\mathcal C_m\\to U$. It is the normalization of the smooth proper elliptic family $B\\to U$ in the function-field extension, written fiberwise as $Y^m=f_t(Z)$, $\\operatorname{div}(f_t)=(S_t)-(-S_t)-n(R_t)+n(-R_t)$, $f_t(O)=1$. The family has an involution $w:(Z,Y)\\mapsto(-Z,Y^{-1})$. Over a field containing $\\mu_m$, rotations $u_\\zeta$ are defined and satisfy $wu_\\zeta w=u_{\\zeta^{-1}}$. If $d\\mid m$, $Y\\mapsto Y^{m/d}$ gives the quotient $C_{m,t}\\to C_{d,t}$; for $d=1$ the quotient is $B_t$.",
+      "hypotheses": "k a number field, E/k: y^2=h(x) an elliptic curve, n>=3 odd, B_t: h(t)y^2=h(x) the quadratic twist, R_t=(t,1), S_t=[n]R_t, t in the open U where O, +-R_t, +-S_t are distinct.",
+      "location": "build/sections/geometry.tex:32-49",
+      "kind": "other",
+      "relevance": "none (geometric construction of an auxiliary cover family; no arithmetic of Selmer/Sha)"
+    },
+    {
+      "label": "Proposition 3.3 (geo:compact-type)",
+      "statement": "Suppose that $k$ contains $\\mu_m$. At $R=O$, the special fiber of the model in Lemma 3.2 is a rational curve joined at distinct points to $m$ copies of $E$, all defined over $k$. Rotations cyclically permute the elliptic components. The Jacobian family of $C_{m,R}$ therefore extends to an abelian scheme on a Zariski neighborhood of $O$ in the parameter curve, with fiber $E^m$ at $O$.",
+      "hypotheses": "Constant-E family (parameter R on E), k contains mu_m, characteristic zero (Remark 3.4: no claim about extension over rings of integers in residue characteristic dividing m).",
+      "location": "build/sections/geometry.tex:142-149",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 3.5 (geo:collision)",
+      "statement": "For $R_*=a/(2n)$, the special fiber in Lemma 3.2 consists of a connected unramified degree-$m$ cover $E'\\to E$ and a rational component, joined at $m$ distinct nodes. In analytic coordinates near each node, the family has equation $XU=-2nt$, where $t=R-R_*$ is an additive local parameter.",
+      "hypotheses": "Over C, oriented period basis a,b of E(C).",
+      "location": "build/sections/geometry.tex:203-209",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 4.2 (mon:integral-module)",
+      "statement": "The cycles $a_i,b_i$ form an integral symplectic basis of $H_1(C_{m,R_s},\\Z)$. Consequently, for every smooth fiber of the family, $H_1(C_m,\\Z)\\simeq\\Z[\\Gamma_m]^2$, $H^1(C_m,\\Z)\\simeq\\Z[\\Gamma_m]^2$. In particular, after comparison, $H^1_{\\mathrm{et}}(C_m,\\Z_\\ell)$ is free of rank two over $\\Z_\\ell[\\Gamma_m]$ for every prime $\\ell$, including $\\ell\\mid m$.",
+      "hypotheses": "Complex E, constant-E family, n>=3 odd, m>1 dividing n, Gamma_m = mu_m deck group.",
+      "location": "build/sections/monodromy.tex:60-71",
+      "kind": "other",
+      "relevance": "none (integral freeness used for congruences at primes dividing the covering degree)"
+    },
+    {
+      "label": "Theorem 4.5 (mon:transvections)",
+      "statement": "In one integral basis $a_i,b_i$ as above, the geometric monodromy of the constant-$E$ family contains operators $T_a,T_b$ satisfying $T_a(a_j)=a_j$, $T_a(b_j)=b_j+\\sigma_a(2a_j-a_{j-1}-a_{j+1})$, $T_b(b_j)=b_j$, $T_b(a_j)=a_j+\\sigma_b(2b_j-b_{j-1}-b_{j+1})$, where $\\sigma_a,\\sigma_b\\in\\{1,-1\\}$ are independent of $j$. Equivalently, their two off-diagonal entries, in the basis of the free $\\Z[\\Gamma_m]$-module, are $\\sigma_a(2-u-u^{-1})$ and $\\sigma_b(2-u-u^{-1})$. The geometric monodromy of the family over $U$ contains these actions as well, under the pullback identification.",
+      "hypotheses": "As Prop 4.2; Picard-Lefschetz (SGA7 II Exp XV) at the m nodes of Lemma 3.5, each of smoothing order one.",
+      "location": "build/sections/monodromy.tex:148-165",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 5.1 (sys:properties)",
+      "statement": "For every $t\\in U(K)$ and every rotation character $\\theta$, the representations $V_{\\theta,\\ell}$ have the following properties. (1) They are semisimple of dimension two, with determinant $\\eps_\\ell^{-1}$. (2) At every place of $F$ above $\\ell$, they are potentially semistable with labelled Hodge--Tate weights $\\{0,1\\}$. (3) There is a finite set of places $S$ of $F$, independent of $\\ell$, such that $V_{\\theta,\\ell}$ is unramified at every $v\\notin S$ of residue characteristic different from $\\ell$. At such a place its Frobenius characteristic polynomial is the image under $j_\\ell$ of a polynomial in $M[T]$ independent of $\\ell$.",
+      "hypotheses": "K imaginary quadratic, E/K non-CM, p>100 with SL2(F_p) in image of G_K on E[p] (Serre), n=3p, F=K(mu_n), C_n=C_n(t) for t in U(K); V_{theta,l} the theta-eigenspace of H^1_et(C_n) (eq. sys:definition). Uses Faltings semisimplicity, Tsuji's semistable comparison, Lefschetz trace formula.",
+      "location": "build/sections/systems.tex:60-74",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 5.2 (sys:elliptic)",
+      "statement": "If $\\theta$ has order $m>1$ dividing $n$, the system $V_\\theta$ is realized by the corresponding character space in $H^1(C_m)$. For the trivial character, $V_{1,\\ell}\\simeq H^1_{\\et}(B_{t,\\overline F},\\overline\\Q_\\ell)$. Let $D_t=C_3(t)/\\langle w\\rangle$ and $A_t=\\Jac(D_t)$. Then $D_t$ has genus one, $A_t$ is an elliptic curve over $F$, and for either nontrivial order-three character $\\eta$ there are $G_F$-equivariant isomorphisms $V_{\\eta,\\ell}\\simeq H^1_{\\et}(A_{t,\\overline F},\\overline\\Q_\\ell)$ for every $\\ell$.",
+      "hypotheses": "As Prop 5.1.",
+      "location": "build/sections/systems.tex:145-162",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 5.3 (sys:integral-evaluation)",
+      "statement": "Fix $t\\in U(K)$ and a prime $\\ell$. Let $L/\\Q_\\ell$ be a finite extension containing $j_\\ell(M)$, with ring of integers $\\mathcal O$, maximal ideal $\\mathfrak m$, and residue field $k$. For a rotation character $\\theta$, the module $\\mathcal T_\\theta=H^1_{\\et}(C_{n,\\overline F},\\Z_\\ell)\\otimes_{\\Z_\\ell[\\mu_n],\\,j_\\ell\\theta}\\mathcal O$ is a free rank-two $G_F$-stable lattice realizing $V_{\\theta,\\ell}$ after extension to $\\overline\\Q_\\ell$. If $j_\\ell\\theta$ and $j_\\ell\\theta'$ have the same reduction as characters $\\mu_n\\to k^\\times$, then $\\mathcal T_\\theta/\\mathfrak m\\mathcal T_\\theta\\simeq\\mathcal T_{\\theta'}/\\mathfrak m\\mathcal T_{\\theta'}$ as $k[G_F]$-modules.",
+      "hypotheses": "As Prop 5.1; relies on Prop 4.2 freeness; explicitly valid also when l divides n.",
+      "location": "build/sections/systems.tex:200-219",
+      "kind": "other",
+      "relevance": "none (congruence mechanism between auxiliary Galois representations; it is a 'prime switching' tool, not an Euler system or Selmer statement)"
+    },
+    {
+      "label": "Corollary 5.4 (sys:congruences)",
+      "statement": "For every $t\\in U(K)$ there are isomorphisms $\\overline V_{\\eta,p}\\simeq\\overline V_{\\chi,p}$, $\\overline V_{\\chi,3}\\simeq\\overline V_{\\psi,3}$, $\\overline V_{\\psi,p}\\simeq\\overline V_{1,p}$. These hold with the elliptic-curve realizations of Proposition 5.2 at the two ends.",
+      "hypotheses": "chi primitive of order 3p, chi = psi*eta with ord(psi)=p, ord(eta)=3; bars denote semisimplified reductions.",
+      "location": "build/sections/systems.tex:257-267",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Theorem 6.2 (aut:lift) [Caraiani--Newton, specialized form; IMPORTED restatement]",
+      "statement": "Let $L$ be a CM number field and $l$ an odd prime other than $5$. Let $r:G_L\\to\\GL_2(\\overline\\Q_l)$ be continuous, unramified outside finitely many places, with determinant $\\eps_l^{-1}$. Suppose that $r$ is potentially semistable with labeled Hodge--Tate weights $0,1$ at every $v\\mid l$, that $\\overline r$ is decomposed generic, and that $\\overline r|_{G_{L(\\zeta_l)}}$ is absolutely irreducible. Suppose there are a cuspidal weight-zero regular algebraic representation $\\pi$ of $\\PGL_2(\\A_L)$ and an isomorphism $\\iota$ for which $\\overline{r_\\iota(\\pi)}\\simeq\\overline r$. At each $v\\mid l$, assume one of: (i) Both local Galois representations are potentially crystalline; one is potentially ordinary of weight zero iff the other is; and $\\rec_{L_v}(\\pi_v)$ has zero monodromy. (ii) Neither local Galois representation is potentially crystalline, and $\\pi$ is $\\iota$-ordinary of weight zero at $v$. Then $r\\simeq r_\\iota(\\Pi)$ for a cuspidal weight-zero regular algebraic representation $\\Pi$ of $\\PGL_2(\\A_L)$.",
+      "hypotheses": "As stated; manuscript says 'This is a sufficient-hypothesis specialization of [CN, Theorem 5.2]. Its inverse-cyclotomic determinant hypothesis permits l=3, including residual image SL2(F3); see [CN, Remark 5.2.2]. No additional residual adequacy assumption is being made.' (numbering of arXiv:2301.10509v3).",
+      "location": "build/sections/automorphy-inputs.tex:35-63",
+      "kind": "other",
+      "relevance": "none for BSD obligations; it is a modularity lifting theorem imported as a black box"
+    },
+    {
+      "label": "Theorem 6.3 (aut:seed) [Elliptic starting point; IMPORTED from CN Thm 6.1 + Lemma 6.1.3]",
+      "statement": "Let $L$ be a CM number field not containing $\\zeta_5$, and let $A/L$ be a non-CM elliptic curve. If its mod-$5$ representation is decomposed generic and is absolutely irreducible on $G_{L(\\zeta_5)}$, then $H^1(A)$ is realized by a cuspidal weight-zero regular algebraic representation of $\\PGL_2(\\A_L)$.",
+      "hypotheses": "As stated; 'after dualizing the Tate-module convention there when necessary'.",
+      "location": "build/sections/automorphy-inputs.tex:65-75",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Theorem 6.4 (aut:elliptic-compat) [Compatibility for modular elliptic curves; IMPORTED from CN Lemma 6.1.3]",
+      "statement": "Let $D/L$ be a non-CM elliptic curve over a CM number field. Suppose that a regular algebraic cuspidal representation $\\pi$ realizes $H^1(D)$ at one coefficient prime. Then $\\pi$ has weight zero and trivial central character, realizes $H^1(D)$ at every coefficient prime and every coefficient isomorphism, and satisfies $\\iota\\WD(H^1(D,\\overline\\Q_l)|_{G_{L_v}})^{\\Fss}\\simeq\\rec^T_{L_v}(\\pi_v)$ ($v\\nmid l$). If $D$ has potentially multiplicative reduction at $v\\mid l$, then $\\pi$ is $\\iota$-ordinary of weight zero there.",
+      "hypotheses": "D/L non-CM elliptic curve, L a CM field, some pi realizing H^1(D) at one prime.",
+      "location": "build/sections/automorphy-inputs.tex:80-93",
+      "kind": "local_factor",
+      "relevance": "none for the seed: for E/Q base-changed to K this local-global compatibility is classical (Carayol, Saito, cyclic base change); nothing about Tamagawa numbers or periods"
+    },
+    {
+      "label": "Lemma 7.1 (loc:torsion) [Local constancy of finite torsion]",
+      "statement": "Let $L$ be a local field, let $X$ be a smooth $L$-variety, and let $\\mathcal A\\to X$ be an abelian scheme. For $x_0\\in X(L)$ and an integer $N\\geq 1$, there is an analytic neighborhood $\\mathcal N$ of $x_0$ in $X(L)$ such that $\\mathcal A_x[N](\\overline L)\\simeq\\mathcal A_{x_0}[N](\\overline L)$ ($x\\in\\mathcal N$) as $G_L$-modules.",
+      "hypotheses": "L a finite extension of Q_l (characteristic zero), X smooth, A/X abelian scheme.",
+      "location": "build/sections/local.tex:17-28",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 7.2 (loc:frobenius) [Finitely many semistable Frobenius polynomials]",
+      "statement": "Fix a local field $L$ with residue field of cardinality $Q$, an integer $g\\geq1$, and a prime $d$ different from the residue characteristic. For a semistable abelian variety $A/L$ of dimension $g$, let $P_A(T)=\\det(T-\\operatorname{Frob}_L\\mid V_d(A))$. Then $P_A(T)$ belongs to $\\Z[T]$, is independent of the lift and of $d$, and ranges over a finite set depending only on $g$ and $Q$. Moreover, $P_A$ determines the toric rank of $A$; if that rank is zero, it also determines the Newton polygon of its good reduction.",
+      "hypotheses": "A/L semistable, d not the residue characteristic.",
+      "location": "build/sections/local.tex:53-66",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Proposition 7.3 (loc:constancy) [Local constancy of the semistable type]",
+      "statement": "Let $L_0$ be a local field, let $X$ be a smooth $L_0$-variety, and let $\\mathcal A\\to X$ be an abelian scheme of relative dimension $g$. For $x_0\\in X(L_0)$, there exist a finite extension $L/L_0$ and an analytic neighborhood $\\mathcal N\\subset X(L_0)$ of $x_0$ with the following properties. For every $x\\in\\mathcal N$, the abelian variety $\\mathcal A_x$ is semistable over $L$ and has the same toric rank as $\\mathcal A_{x_0}$ over $L$. If $\\mathcal A_{x_0}$ has good reduction over $L$, then $\\mathcal A_x$ has the same Newton polygon over $L$. In particular, if $\\mathcal A_{x_0}\\simeq E_0^g$ for an elliptic curve $E_0/L_0$, every sufficiently nearby fiber has, after the same finite extension, the same one of the following three properties as $E_0^g$: (1) good ordinary reduction; (2) good reduction with all Newton slopes equal to $1/2$; (3) semistable reduction of toric rank $g$.",
+      "hypotheses": "As stated (characteristic-zero local base).",
+      "location": "build/sections/local.tex:98-117",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 7.4 (loc:toric-monodromy)",
+      "statement": "Let $L/\\Q_\\ell$ be finite and let $A/L$ be an abelian variety of dimension $g$. Suppose that $A$ acquires semistable reduction of toric rank $g$ after a finite extension. For every prime $d$, the monodromy operator on the Weil--Deligne representation of $H^1_{\\mathrm{et}}(A_{\\overline L},\\Q_d)$ has rank $g$. For $d=\\ell$, the Weil--Deligne representation is the one attached to the potentially semistable representation by $\\ell$-adic Hodge theory.",
+      "hypotheses": "A potentially totally toric; proof for d=l uses Coleman-Iovita semistable comparison and Bloch-Kato Example 3.9 (H^1_f(L,Q_l(1)) = kernel of valuation).",
+      "location": "build/sections/local.tex:170-178",
+      "kind": "local_factor",
+      "relevance": "none (for an elliptic curve with multiplicative reduction this is the classical Tate-curve statement; no arithmetic consequence for Sha)"
+    },
+    {
+      "label": "Proposition 7.5 (loc:opens) and Corollary 7.6 (loc:characters)",
+      "statement": "7.5: For every place $v_0\\mid 3p$ of $K$, there is a nonempty open subset $\\Omega_{v_0}\\subset U(K_{v_0})$ with the following property. Suppose that $t\\in U(K)$ belongs to $\\Omega_{v_0}$ for all $v_0\\mid3p$, and set $J_t=\\Jac(C_{n,t})$. At each place $v\\mid3p$ of $F$, $J_t$ has the same one of the following potential reduction types as $E^n$: (1) good ordinary reduction; (2) good reduction with all Newton slopes $1/2$; (3) semistable reduction of toric rank $n$. 7.6: Choose $t$ satisfying 7.5. Let $v\\mid3p$ be a place of $F$, of residue characteristic $\\ell$. Then, simultaneously for every rotation character $\\theta$: (1) If $E$ has potentially good ordinary reduction at $v$, then $V_{\\theta,\\ell}|_{G_{F_v}}$ is potentially crystalline and potentially ordinary of weight $0$. (2) If $E$ has potentially good supersingular reduction at $v$, then $V_{\\theta,\\ell}|_{G_{F_v}}$ is potentially crystalline and is not potentially ordinary of weight $0$. (3) If $E$ has potentially multiplicative reduction at $v$, then the monodromy of $V_{\\theta,d}|_{G_{F_v}}$ has rank one for every coefficient prime $d$, including $d=\\ell$. In particular, $V_{\\theta,\\ell}|_{G_{F_v}}$ is not potentially crystalline.",
+      "hypotheses": "As Prop 5.1 plus t in the local opens.",
+      "location": "build/sections/local.tex:261-275 and 321-338",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 8.1 (res:geometric)",
+      "statement": "For each pair in $(m,\\ell)=(3,p),(3,5),(p,3)$, the geometric monodromy of $H^1(C_m,\\overline\\F_\\ell)$ on every nontrivial rotation-character space is absolutely irreducible. Its image contains opposite nonidentity root unipotents on that space. Moreover, one element of the geometric monodromy acts regular semisimply on all these nontrivial character spaces simultaneously. These statements also hold for the conjugate family over $K$.",
+      "hypotheses": "p>100, n=3p; uses T_a, T_b of Theorem 4.5 with c_lambda = 2-lambda-lambda^{-1}.",
+      "location": "build/sections/residual.tex:22-30",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 8.2 (res:trivial-character)",
+      "statement": "For every $t\\in U(K)$, the representation $\\overline V_{1,p}$ is absolutely irreducible on $G_{F(\\zeta_p)}$ and is decomposed generic over $F$.",
+      "hypotheses": "E/K non-CM, p>100 with rho_{E,p}(G_K) containing SL2(F_p), F=K(mu_{3p}); proof shows rho_{E,p}(G_F)=SL2(F_p) (eq. res:SL2-image) and a counting argument on the joint image on E[p] x E^c[p].",
+      "location": "build/sections/residual.tex:90-93",
+      "kind": "other",
+      "relevance": "none (residual-image bookkeeping; the seed records SL2(F_p) image only at p in {2243, 5843}, and this lemma needs p>100 and non-CM, which hold, but its output is only modularity-lifting input)"
+    },
+    {
+      "label": "Lemma 8.3 (res:finite-specialization) and Proposition 8.4 (res:specialization)",
+      "statement": "8.3: Let $W$ be a nonempty open subset of $\\A^d_\\Q$, let $D/\\Q$ be a finite Galois extension, and let $H$ be a finite quotient of $\\pi_1(W)$ through which the constant-field map factors as $\\pi_1(W)\\twoheadrightarrow H\\twoheadrightarrow\\Gal(D/\\Q)$. Prescribe nonempty open subsets of $W(\\Q_r)$ for finitely many rational primes $r$. There is a point $x\\in W(\\Q)$ in all the prescribed opens for which the specialization map $s_x:G_\\Q\\to H$ is surjective. For this point, $s_x(G_D)=\\ker(H\\to\\Gal(D/\\Q))$. 8.4: Let $S_K$ be a finite set of finite places of $K$ containing all places above $3p$. For each $v_0\\in S_K$, prescribe a nonempty open subset $\\Omega_{v_0}\\subset U(K_{v_0})$. There exists a single $t\\in U(K)$ lying in every $\\Omega_{v_0}$ such that over $F=K(\\mu_{3p})$: (1) for each $(m,\\ell)$ in (res:pairs) and each character $\\theta$ of order $m$, $\\overline V_{\\theta,\\ell}$ is absolutely irreducible on $G_{F(\\zeta_\\ell)}$ and is decomposed generic; (2) $\\overline V_{1,p}$ has these same two properties at $p$; (3) the elliptic curve $A_t=\\Jac(C_3(t)/\\langle w\\rangle)$ is non-CM.",
+      "hypotheses": "Hilbert irreducibility with weak approximation (Serre, Topics in Galois Theory, Prop 3.3.1 and Thm 3.5.3); Chebotarev; restriction of scalars W = Res_{K/Q} U.",
+      "location": "build/sections/residual.tex:169-183 and 200-219",
+      "kind": "other",
+      "relevance": "none (existence-only, non-effective choice of the auxiliary parameter t)"
+    },
+    {
+      "label": "Lemma 9.1 (aut:transport), Lemma 9.2 (aut:automorphic-local), Proposition 9.3 (aut:over-F)",
+      "statement": "9.1: Suppose a weight-zero regular algebraic cuspidal representation $\\pi$ of $\\GL_2(\\A_F)$ realizes one member of the compatible system $V_\\theta$. Then it realizes every member. 9.2: Suppose that $\\pi$ of $\\PGL_2(\\A_F)$ realizes $V_\\theta$. Let $l\\in\\{3,p\\}$ and $v\\mid l$. (i) If $J_t$ has potentially good reduction at $v$, then $\\rec_{F_v}(\\pi_v)$ has zero monodromy. (ii) If $J_t$ acquires semistable reduction of toric rank $n$ at $v$, then $\\pi_v$ is a quadratic or trivial twist of the Steinberg representation, and $\\pi$ is $\\iota_l$-ordinary of weight zero at $v$. 9.3: The elliptic curve $B/F$ is modular. More precisely, $H^1(B)$ is realized by a cuspidal weight-zero regular algebraic representation of $\\PGL_2(\\A_F)$.",
+      "hypotheses": "t from Prop 8.4 with the opens of Prop 7.5; uses Varma Theorem 1 at a coefficient prime a != l; CN Lemma 6.1.3(4) / Geraghty Lemma 5.6 for ordinarity of (possibly ramified) quadratic twists of Steinberg.",
+      "location": "build/sections/automorphy.tex:14-19, 38-50, 94-98",
+      "kind": "other",
+      "relevance": "none"
+    },
+    {
+      "label": "Lemma 9.4 (aut:descent)",
+      "statement": "Let $L'/L$ be a cyclic extension of prime degree between CM fields. Let $r:G_L\\to\\GL_2(\\overline\\Q_l)$ be a continuous representation whose restriction to $G_{L'}$ is absolutely irreducible. Suppose that this restriction is realized by a cuspidal weight-zero regular algebraic representation $\\Pi$ of $\\GL_2(\\A_{L'})$. Then $r$ is realized by a cuspidal weight-zero regular algebraic representation of $\\GL_2(\\A_L)$.",
+      "hypotheses": "Cyclic prime-degree L'/L of CM fields; absolute irreducibility of r|_{G_{L'}}; uses Langlands/Arthur-Clozel cyclic base change and strong multiplicity one.",
+      "location": "build/sections/automorphy.tex:153-160",
+      "kind": "other",
+      "relevance": "none (standard descent; the reverse direction, base change from Q to K, is what already gives modularity of the seed over K = Q(sqrt(-7)))"
+    }
+  ],
+  "external_inputs": [
+    {"name": "Caraiani-Newton, On the modularity of elliptic curves over imaginary quadratic fields, arXiv:2301.10509v3 (27 March 2025) [CN]: Theorem 5.2, Remark 5.2.2, Definition 2.1.27, Theorem 6.1, Lemma 6.1.3 (incl. (4)), Corollaries 6.1.2 and 7.1.2", "how_used": "The entire automorphy engine: Theorem 6.2 (lifting, used three times at l=p, 3, p), Theorem 6.3 (mod-5 residual modularity for the auxiliary curve A/F), Theorem 6.4 (local-global compatibility and ordinarity for modular elliptic curves), definition of decomposed generic, ordinarity of quadratic twists of Steinberg. Manuscript states 'Caraiani--Newton's lifting theorem and residual-image criterion for modularity of elliptic curves remain essential inputs.' Cited as an unpublished preprint with version-pinned numbering.", "black_box": true},
+    {"name": "Harris-Lan-Taylor-Thorne (2016) and Scholze (2015)", "how_used": "Existence of Galois representations r_iota(pi) for regular algebraic cuspidal representations over CM fields and good-place compatibility (automorphy-inputs.tex:95-99; conventions.tex:19-20).", "black_box": true},
+    {"name": "Varma, Local-global compatibility ... when l != p (2024), Theorem 1", "how_used": "Equality of semisimplified Weil representations at v not dividing l, used in Lemma 9.2 to read off monodromy/Steinberg type of pi_v at a different coefficient prime.", "black_box": true},
+    {"name": "Geraghty, Modularity lifting theorems for ordinary Galois representations (2019), Lemma 5.6 (via proof of CN Lemma 6.1.3(4))", "how_used": "Ordinarity of (quadratic, possibly ramified) twists of Steinberg (automorphy.tex:82-89).", "black_box": true},
+    {"name": "Serre, Proprietes galoisiennes ... (1972), S4.4 Theoreme 3 (open image)", "how_used": "Choice of p>100 with SL2(F_p) in the image of G_K on E[p] for non-CM E/K (systems.tex:10-12).", "black_box": true},
+    {"name": "Serre, Topics in Galois Theory (2008), Prop 3.3.1 and Thm 3.5.3 (Hilbert irreducibility with weak approximation)", "how_used": "Lemma 8.3 specialization with prescribed local opens.", "black_box": true},
+    {"name": "Faltings (1983), S5 Satz 3 (semisimplicity of H^1 of abelian varieties)", "how_used": "Prop 5.1(1), Lemma 9.1.", "black_box": true},
+    {"name": "Bosch-Luetkebohmert-Raynaud, Neron Models, S9.4 Thm 1 and S9.2 Prop 10", "how_used": "Relative Picard scheme of compact-type nodal family is an abelian scheme (Prop 3.3).", "black_box": true},
+    {"name": "SGA7 I Expose IX (Grothendieck semistable filtration, monodromy pairing, semistability criterion) and SGA7 II Expose XV (Picard-Lefschetz)", "how_used": "Lemma 7.2, Prop 7.3, Lemma 7.4, Theorem 4.5.", "black_box": true},
+    {"name": "Coleman-Iovita (1999); Tsuji (1999); Bloch-Kato (1990) Example 3.9", "how_used": "Semistable/crystalline comparison for abelian varieties and curves; H^1_f(L,Q_l(1)) = kernel of valuation (Lemma 7.4, Prop 5.1, final local-factor paragraph).", "black_box": true},
+    {"name": "Langlands, Base Change for GL(2) (1980); Arthur-Clozel (1989)", "how_used": "Cyclic base change / descent in Lemma 9.4 and automorphic induction in the CM case.", "black_box": true},
+    {"name": "Shimura-Taniyama (1961), main theorem of complex multiplication", "how_used": "CM case of Theorem 1.1 (automorphy.tex:218-239).", "black_box": true},
+    {"name": "Wiles, Taylor-Wiles, BCDT; ACC (Thm 1.0.1); BCGP (Thm 1.1.4); AKT; Calegari-Geraghty; HST; Taylor 1994; Berger-Harcos; TTV; Ellenberg; Mestre; Darmon 1999/2000; Darmon-Mestre; Taylor 2002", "how_used": "Historical context only (introduction.tex:48-181); not used in proofs. Note BCDT (modularity over Q) is exactly what makes the seed curve modular, independently of this manuscript.", "black_box": false}
+  ],
+  "internal_dependencies": [],
+  "self_declared_gaps": [
+    "automorphy-inputs.tex:8-9: 'All the results quoted from [CN] use the numbering of its third arXiv version.' CN is cited as 'Preprint, arXiv:2301.10509v3, 27 March 2025' (references.bib:102-106): the whole proof rests on an unpublished preprint's version-pinned theorem numbers.",
+    "automorphy-inputs.tex:59-63: Theorem 6.2 is 'a sufficient-hypothesis specialization of [CN, Theorem 5.2]'; the manuscript asserts, citing CN Remark 5.2.2, that l=3 with residual image SL2(F3) is allowed and that 'No additional residual adequacy assumption is being made.' This is a paraphrase the manuscript does not prove.",
+    "automorphy-inputs.tex:73-75: Theorem 6.3 is CN Thm 6.1 + Lemma 6.1.3 'after dualizing the Tate-module convention there when necessary'.",
+    "automorphy.tex:82-89: ordinarity of a ramified quadratic twist of Steinberg is taken from 'the local calculation in the proof of [CN, Lemma 6.1.3(4)], which invokes the proof of [Geraghty, Lemma 5.6]' - a dependence on the interior of another paper's proof, with the manuscript's own justification being one sentence ('a finite-order twist multiplies the relevant normalized Hecke eigenvalues by units').",
+    "geometry.tex:187-195 (Remark 3.4): 'No assertion about extending the Kummer cover over a ring of integers, particularly in residue characteristic dividing m, is needed here. The arithmetic reduction types of nearby Jacobians will be established separately.'",
+    "geometry.tex:30 and systems.tex:29-31: U is shrunk 'whenever necessary' / 'whenever a smooth proper model of one of the finitely many families is required' - the final parameter t is non-effective (Hilbert irreducibility + Chebotarev), so the proof gives no algorithm.",
+    "local.tex:219 'After the standard identifications' and local.tex:194-196 'its realization on de Rham cohomology is described in [ColemanIovita]' - identifications in the d=l monodromy argument are asserted.",
+    "automorphy.tex:218-239: the CM case is handled in a paragraph ('One way to see this is...') with no numbered statement."
+  ],
+  "applicability": {
+    "seed_E": "NOT USABLE. The only hypothesis of Theorem 1.1 is that E be an elliptic curve over an imaginary quadratic field; E/K with K = Q(sqrt(-7)) satisfies it trivially, but the conclusion (modularity of E/K with local-global compatibility at every place) is already a theorem of the published literature for the seed: E/Q is modular (Wiles, Taylor-Wiles, BCDT - cited in this manuscript only as history), its base change to K is automorphic by Langlands cyclic base change (the manuscript's own Lemma 9.4 mechanism in reverse), and local-global compatibility for E/Q is classical (Carayol, Saito). The manuscript contains no statement about L-values, derivatives, Selmer groups, Sha, p-adic L-functions, heights, periods, Tamagawa numbers, Euler systems, main conjectures, or any rank-dependent quantity. It therefore serves none of FIN, ORDER9, Q36. No rank/Selmer-corank hypothesis appears (K-RANK2 moot). The rank-2 Gross-Zagier-type archimedean comparison needed for Q36 is not addressed. Kill test K-A not triggered (nothing assumed about Sha). Grade: IMPORTED_PREPRINT at best, and in any case redundant for the seed.",
+    "twist_Em7": "NOT USABLE. E^{-7}/Q is modular over Q (BCDT); over K = Q(sqrt(-7)) it is isomorphic to E. Nothing in the manuscript bears on #Sha(E^{-7}/Q), L(E^{-7},1), or Sel_{p^infty}(E^{-7}/Q).",
+    "by_prime": "p=2: not treated (manuscript uses only odd coefficient primes 3, 5, p>100); nothing on Sha[2^infty] (already 0). p=3: appears only as a coefficient prime for a lifting step and as a residue characteristic for local types (Cor 7.6(3) would apply at v|3 since E is nonsplit multiplicative at 3); output is modularity only; Sha[3^infty] already known. p=2243, 5843 (multiplicative): Cor 7.6(3)/Lemma 7.4 give rank-one monodromy for auxiliary systems - classical for E itself; no bearing on Sha[p^infty] or on lemma TH / the plectic route at 5843 (Fornea-Gehrmann already presuppose a Bianchi form, which base change supplies). p=4547 (additive, potentially good supersingular): would fall under Cor 7.6(2) as a local type; no arithmetic conclusion. Good ordinary / good supersingular primes: no statement about Selmer groups, Kurihara witnesses, Mazur-Tate elements, or Brandt enumeration; no cost reduction. Verdict at every prime: none of Sha[p^infty] at a named p, #Sha(E^{-7}), lemma TH, or cost reduction is served."
+  },
+  "red_flags": [
+    "Top-line claim exceeds the published literature: Theorem 1.1 asserts unconditional modularity of every elliptic curve over every imaginary quadratic field, whereas the strongest cited published/preprint results (ACC potential modularity; CN modularity under residual-image hypotheses, for 100% by height, and for K with rank X_0(15)(K)=0) are conditional. The new ingredient (geometric prime switch via genus-3p cyclic covers) is unrefereed and AI-generated; the abstract's 'with matching local parameters at every place' is consistent with Theorem 1.1 but the whole result must be treated as unverified.",
+    "Possible use of CN outside its hypotheses: Theorem 6.2 (automorphy-inputs.tex:35-63) is a self-described 'specialized form' of CN Theorem 5.2 allowing any odd l != 5, including l=3 with residual image SL2(F3) and 'No additional residual adequacy assumption'. Theorem 6.3 applies CN Theorem 6.1 over L = F = K(mu_{3p}), a CM field of degree 2*phi(3p), not an imaginary quadratic field. Neither restatement can be checked here against arXiv:2301.10509v3; if CN's hypotheses (adequacy at small l, field/ramification conditions, placement of decomposed genericity) differ, two of the three lifts and the starting point fail.",
+    "Key step asserted from inside another paper's proof: Lemma 9.2(ii) (automorphy.tex:82-89) claims iota-ordinarity of weight zero for a *ramified* quadratic twist of Steinberg by appeal to 'the local calculation in the proof of [CN, Lemma 6.1.3(4)], which invokes the proof of [Geraghty, Lemma 5.6]'. This is needed at every potentially multiplicative place above the coefficient prime (the alternative (ii) of Theorem 6.2); the manuscript's own argument is one sentence.",
+    "Theorem 4.5 (monodromy.tex:191-204): the claim that T_a and T_b are expressed in a *single* integral basis is justified by a prose parallel-transport argument ('Trivialize it over a small, simply connected parameter disk containing O ... the sheet trivialization extends over O itself'). All residual irreducibility (Lemma 8.1) and hence all three lifts depend on this; the argument is plausible but not rigorous.",
+    "Lemma 8.1 proof (residual.tex:50-70) computes trace(T_a T_b^k) = 2 + sigma tau k c_lambda^2; checked: correct, and the m=3 values 20/-16 mod 5 and the m=p, l=3 order argument (p | 3^d - 1 <= 80 contradiction with p > 100) are correct. No flag here; recorded as verified arithmetic.",
+    "Lemma 8.2 counting (residual.tex:115-129): p^2 trace-2 matrices in SL2(F_p) and the bound 4p/(p^2-1) < 1 for p>100 are correct. No flag.",
+    "Lemma 5.3 (systems.tex:200-243): the congruence at l dividing n (l=3 or l=p) relies on H^1_et(C_n, Z_l) being free of rank 2 over Z_l[mu_n] *compatibly with Galois*; the manuscript derives freeness only topologically (Prop 4.2) and then notes Galois commutes with the deck group. This is correct as stated but is the load-bearing novelty; it should be independently checked before any use.",
+    "Dependencies: cites no openai/math manuscript; not affected by the 2026-10-07 withdrawals (history.md lists only Hodge-theory/Weil-class papers); no Lean formalization found in lean/ for this manuscript; CN is a version-pinned unpublished preprint (arXiv v3, 27 March 2025)."
+  ],
+  "notes": "Complete read of all nine sections (introduction, conventions, geometry, monodromy, systems, automorphy-inputs, local, residual, automorphy) plus references.bib, README.md, CONTENTS.md entry 030, history.md and a Lean-directory grep. Printed numbering (PDF text): Thm 1.1; Lemma 3.1, 3.2, Prop 3.3, Rem 3.4, Lemma 3.5; Lemma 4.1, Prop 4.2, Rem 4.3, Lemma 4.4, Thm 4.5; Prop 5.1, 5.2, Lemma 5.3, Cor 5.4; Def 6.1, Thm 6.2, 6.3, 6.4; Lemma 7.1, 7.2, Prop 7.3, Lemma 7.4, Prop 7.5, Cor 7.6; Lemma 8.1, 8.2, 8.3, Prop 8.4; Lemma 9.1, 9.2, Prop 9.3, Lemma 9.4. Bottom line for the BSD seed: this manuscript is a modularity-lifting paper with no Iwasawa, Euler-system, p-adic L-function, Heegner/theta, parity, twist, level-raising, 2/3-adic Selmer, additive-prime Selmer, or algorithmic content; for the seed curve E/Q (and E^{-7}) base-changed to K = Q(sqrt(-7)), its conclusion is already classical, so it offers no reduction in cost for any lab obligation. No primary-source lookup of CN was performed (lab policy: consult sources only for a specific needed identity; none is needed because the result is unusable for the seed regardless of its correctness)."
+}

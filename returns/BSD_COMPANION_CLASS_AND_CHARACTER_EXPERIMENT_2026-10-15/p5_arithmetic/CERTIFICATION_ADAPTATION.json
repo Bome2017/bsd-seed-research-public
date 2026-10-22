@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-15T21:51:32.669613+00:00",
+  "initial_attempt": "full bnfcertify stopped deliberately after very large Zimmert bound warning",
+  "reason": "only proof true class group is quotient of computed C3 is needed for5-primary upper bound",
+  "next": "bnfcertify(B,1)",
+  "cap_remaining_attempt_seconds": 55,
+  "no_claim_full_units_certified": true
+}

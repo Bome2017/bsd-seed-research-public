@@ -1,0 +1,251 @@
+{
+  "scope": "finite algebraic controls of the written deduction; not seed computations",
+  "cases": [
+    {
+      "seed_excess": 0,
+      "twist_excess": 0,
+      "nu": 1
+    },
+    {
+      "seed_excess": 0,
+      "twist_excess": 2,
+      "nu": 2
+    },
+    {
+      "seed_excess": 0,
+      "twist_excess": 4,
+      "nu": 4
+    },
+    {
+      "seed_excess": 0,
+      "twist_excess": 6,
+      "nu": 6
+    },
+    {
+      "seed_excess": 0,
+      "twist_excess": 8,
+      "nu": 8
+    },
+    {
+      "seed_excess": 0,
+      "twist_excess": 10,
+      "nu": 10
+    },
+    {
+      "seed_excess": 0,
+      "twist_excess": 12,
+      "nu": 12
+    },
+    {
+      "seed_excess": 2,
+      "twist_excess": 0,
+      "nu": 3
+    },
+    {
+      "seed_excess": 2,
+      "twist_excess": 2,
+      "nu": 3
+    },
+    {
+      "seed_excess": 2,
+      "twist_excess": 4,
+      "nu": 4
+    },
+    {
+      "seed_excess": 2,
+      "twist_excess": 6,
+      "nu": 6
+    },
+    {
+      "seed_excess": 2,
+      "twist_excess": 8,
+      "nu": 8
+    },
+    {
+      "seed_excess": 2,
+      "twist_excess": 10,
+      "nu": 10
+    },
+    {
+      "seed_excess": 2,
+      "twist_excess": 12,
+      "nu": 12
+    },
+    {
+      "seed_excess": 4,
+      "twist_excess": 0,
+      "nu": 5
+    },
+    {
+      "seed_excess": 4,
+      "twist_excess": 2,
+      "nu": 5
+    },
+    {
+      "seed_excess": 4,
+      "twist_excess": 4,
+      "nu": 5
+    },
+    {
+      "seed_excess": 4,
+      "twist_excess": 6,
+      "nu": 6
+    },
+    {
+      "seed_excess": 4,
+      "twist_excess": 8,
+      "nu": 8
+    },
+    {
+      "seed_excess": 4,
+      "twist_excess": 10,
+      "nu": 10
+    },
+    {
+      "seed_excess": 4,
+      "twist_excess": 12,
+      "nu": 12
+    },
+    {
+      "seed_excess": 6,
+      "twist_excess": 0,
+      "nu": 7
+    },
+    {
+      "seed_excess": 6,
+      "twist_excess": 2,
+      "nu": 7
+    },
+    {
+      "seed_excess": 6,
+      "twist_excess": 4,
+      "nu": 7
+    },
+    {
+      "seed_excess": 6,
+      "twist_excess": 6,
+      "nu": 7
+    },
+    {
+      "seed_excess": 6,
+      "twist_excess": 8,
+      "nu": 8
+    },
+    {
+      "seed_excess": 6,
+      "twist_excess": 10,
+      "nu": 10
+    },
+    {
+      "seed_excess": 6,
+      "twist_excess": 12,
+      "nu": 12
+    },
+    {
+      "seed_excess": 8,
+      "twist_excess": 0,
+      "nu": 9
+    },
+    {
+      "seed_excess": 8,
+      "twist_excess": 2,
+      "nu": 9
+    },
+    {
+      "seed_excess": 8,
+      "twist_excess": 4,
+      "nu": 9
+    },
+    {
+      "seed_excess": 8,
+      "twist_excess": 6,
+      "nu": 9
+    },
+    {
+      "seed_excess": 8,
+      "twist_excess": 8,
+      "nu": 9
+    },
+    {
+      "seed_excess": 8,
+      "twist_excess": 10,
+      "nu": 10
+    },
+    {
+      "seed_excess": 8,
+      "twist_excess": 12,
+      "nu": 12
+    },
+    {
+      "seed_excess": 10,
+      "twist_excess": 0,
+      "nu": 11
+    },
+    {
+      "seed_excess": 10,
+      "twist_excess": 2,
+      "nu": 11
+    },
+    {
+      "seed_excess": 10,
+      "twist_excess": 4,
+      "nu": 11
+    },
+    {
+      "seed_excess": 10,
+      "twist_excess": 6,
+      "nu": 11
+    },
+    {
+      "seed_excess": 10,
+      "twist_excess": 8,
+      "nu": 11
+    },
+    {
+      "seed_excess": 10,
+      "twist_excess": 10,
+      "nu": 11
+    },
+    {
+      "seed_excess": 10,
+      "twist_excess": 12,
+      "nu": 12
+    },
+    {
+      "seed_excess": 12,
+      "twist_excess": 0,
+      "nu": 13
+    },
+    {
+      "seed_excess": 12,
+      "twist_excess": 2,
+      "nu": 13
+    },
+    {
+      "seed_excess": 12,
+      "twist_excess": 4,
+      "nu": 13
+    },
+    {
+      "seed_excess": 12,
+      "twist_excess": 6,
+      "nu": 13
+    },
+    {
+      "seed_excess": 12,
+      "twist_excess": 8,
+      "nu": 13
+    },
+    {
+      "seed_excess": 12,
+      "twist_excess": 10,
+      "nu": 13
+    },
+    {
+      "seed_excess": 12,
+      "twist_excess": 12,
+      "nu": 13
+    }
+  ],
+  "all_pass": true
+}

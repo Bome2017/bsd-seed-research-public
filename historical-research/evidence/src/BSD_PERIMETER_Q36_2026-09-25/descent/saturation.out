@@ -1,0 +1,15 @@
+P1 = [-3031:327384:1]	  is generator number 1
+P2 = [-2394:281520:1]	  is generator number 2
+saturating basis (reg=17.79651747)...Saturation index bound (for points of good reduction)  = 2
+Tamagawa index primes are [ 2 ]
+Saturation primes are now[ 2 ]
+Checking saturation at [ 2 ]
+Checking 2-saturation 
+Points were proved 2-saturated (max q used = 31)
+done
+saturation index: 1
+saturated points equal input: True
+regulator of input basis (Sage normalization): 17.7965174724903
+torsion order: 2
+$S saturation.sage  2.56s user 0.79s system 78% cpu 4.267 total
+sage exit=0

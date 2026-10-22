@@ -1,0 +1,14 @@
+{
+  "sealed_utc": "2026-10-15T17:53:26.567867+00:00",
+  "files": {
+    "RUN_INPUT.json": "cd5fd4190b2cdd02cdec098b9ee7b820a500a59c2fef5d90baf43d03212f9c7b",
+    "PREDICTIONS_SEALED.md": "b316befdb2440d63f0fbc8c0fefd1e0b202f5751034e59474e162821f8aa3d47",
+    "gross_side_v2.py": "706a0d13f149058497a6947217a18d18c8c803b08700e9ff6b5c10c73467871a",
+    "brandt_fast.py": "7a2b735562a53b762fd29ef85b76b7da543e190f487b66518b0074dd061d95f9"
+  },
+  "producer_origin": "/Users/bsm/BSD_MOCK_PLECTIC_CONSTANT_2026-10-14/proxy",
+  "source_hashes": {
+    "gross_side_v2.py": "eb152f75fd1ae3a088c7aee2d2f7817dd3fc3d34f6a092fbf30ca12836932194",
+    "brandt_fast.py": "7a2b735562a53b762fd29ef85b76b7da543e190f487b66518b0074dd061d95f9"
+  }
+}

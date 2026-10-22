@@ -1,0 +1,46 @@
+{
+  "repository": "Bome2017/bsd-seed-lab",
+  "baseline_commit": "257af6888c80fda3b90d481cf2d94f9950701811",
+  "date": "2026-10-13",
+  "source_files": [
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/REPORT.md",
+      "git_blob": "d4559903978a06ca3a13bc5f510e5ce304f01b89",
+      "read_via_connector": true,
+      "whole_file_bytes_copied": false
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/theory/DESCENT_FUNCTION_AND_NONTRIVIALITY.md",
+      "git_blob": "644a4418f43e9f5d964504322afb9d229522ad00",
+      "read_via_connector": true,
+      "whole_file_bytes_copied": false
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/AUDIT.md",
+      "git_blob": "fb032f2e93ba80665eeb8563a07f4b366e7e706e",
+      "read_via_connector": true,
+      "whole_file_bytes_copied": false
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/implementation/FISHER_MODEL.json",
+      "git_blob": "958b527a1fd016feb06571d4ae10755d2e408546",
+      "read_via_connector": true,
+      "whole_file_bytes_copied": false
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/implementation/CONSTRUCTION.md",
+      "git_blob": "eb1fdd490f1c6f408b03f40f7ba993702252a46e",
+      "read_via_connector": true,
+      "whole_file_bytes_copied": false
+    }
+  ],
+  "new_script": "independently written; arithmetic data transcribed from cited source files",
+  "source_archive_downloaded": false,
+  "remote_report_and_named_files_readback": "SUCCEEDED",
+  "new_numerator_values": 0,
+  "new_seed_primary_results": 0,
+  "review_grade": "single-assistant written derivation; no separate reviewer or proof-assistant certification",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

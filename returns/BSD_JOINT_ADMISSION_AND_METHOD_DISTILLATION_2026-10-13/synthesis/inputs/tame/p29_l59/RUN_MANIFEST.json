@@ -1,0 +1,22 @@
+{
+ "curve": "0 -22735 0 106272484 0",
+ "N": 6503188012738584,
+ "p": 29,
+ "l": 59,
+ "Q": 6503188012738584,
+ "sign": 1,
+ "T": 18807259135,
+ "SEGQ": 16777216,
+ "LATDEN": 1024,
+ "apdir": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/ap",
+ "receipts_glob": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/logs/ver_*.log",
+ "pinned_segroot": "286772f23f6cc5c76c931d5857a4411dce002d643c7123ca8da14efddcb28592",
+ "threads": 8,
+ "arbcore_path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore",
+ "arbcore_sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+ "msl_output_sha256": "ecd44fd658599f99e8069c413e575fbd7990f910925dae7bca4c259fffd4283e",
+ "params": "msl 0 -22735 0 106272484 0 59 6503188012738584 1 18807259135 16777216 /Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/ap /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l59/units 1024",
+ "start_utc": "2026-09-26T15:30:09Z",
+ "end_utc": "2026-09-26T15:46:55Z",
+ "stage_W_run": false
+}

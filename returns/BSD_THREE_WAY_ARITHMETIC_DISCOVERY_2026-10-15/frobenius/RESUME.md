@@ -1,0 +1,1 @@
+Completed fixed Kummer-extension explanation,40 sealed norm-only predictions, exact genuine-class controls and portable replay. Read RESULT.md/PROOF.md. Do not rerun more primes as a seed upper-bound search: points and actual excess have literal cube norms, so this detector cannot distinguish them. No files should change after manifest sealing.

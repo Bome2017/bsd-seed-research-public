@@ -1,0 +1,17 @@
+{
+  "source_sha256": "27d2b2dfe6a836465f1c54bec1bd892c5bc223eca2f73bcbbaf3352cafe29851",
+  "patched_source_sha256": "c13649d4926d1807bbd2cb81938fc006a3c700de2f76544414f7ca24fec1c343",
+  "command": [
+    "clang",
+    "-O2",
+    "-dynamiclib",
+    "build/modsym_chunk.c",
+    "-I/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/include/pari",
+    "-L/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib",
+    "-lpari",
+    "-Wl,-rpath,/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib",
+    "-o",
+    "build/modsym_chunk.dylib"
+  ],
+  "exit": 0
+}

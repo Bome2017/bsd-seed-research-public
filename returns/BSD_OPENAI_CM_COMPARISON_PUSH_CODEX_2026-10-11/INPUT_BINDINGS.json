@@ -1,0 +1,108 @@
+{
+  "openai_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "entries": [
+    {
+      "original": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/construction/CONSTRUCTION.md",
+      "copy": "context/BD_CONSTRUCTION.md",
+      "bytes": 16692,
+      "sha256": "af11a1abaf7086e871610afa756556485d92988c8c05cfca17f2c459b40461af"
+    },
+    {
+      "original": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/notes/stage2_derivation.md",
+      "copy": "context/BD_STAGE2.md",
+      "bytes": 12528,
+      "sha256": "face7a24eb7979755eca7f59c42122b9a80192d9f72024c0b8f060b20176d563"
+    },
+    {
+      "original": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md",
+      "copy": "context/BD_REVIEW.md",
+      "bytes": 11884,
+      "sha256": "8b6aa4d15427a357f6f220a39899b78a129a9df4c134a997850cc46f108d2791"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/REPORT.md",
+      "copy": "context/PREVIOUS_SCREEN.md",
+      "bytes": 10745,
+      "sha256": "62bcfc303678dea018239413d7f84f24f60a18854dc83e94bf323a57417c75e3"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/OPENAI_LICENSE",
+      "copy": "sources/OPENAI_LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/coefficients.tex",
+      "copy": "sources/openai_coefficients.tex",
+      "bytes": 50884,
+      "sha256": "6e2266b43cdada2d63df5c0d5bba8b42e6dd24ea6cc9b230e3d52e9dbc5f213d"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/direct/exact_03-models.tex",
+      "copy": "sources/exact_03-models.tex",
+      "bytes": 33118,
+      "sha256": "08f3462b451bb1e9a9cf7af747cec20ed7651a87acd0cf993ff24fef495b33f0"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/direct/exact_04-vertical.tex",
+      "copy": "sources/exact_04-vertical.tex",
+      "bytes": 32060,
+      "sha256": "6f5ac8b5cc7c5f07965e0b9ee13fee30dd1519aa695c2c93c80376cd32c5ee99"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/direct/exact_06-pair.tex",
+      "copy": "sources/exact_06-pair.tex",
+      "bytes": 52151,
+      "sha256": "01f66e65380fd09162093cbde21919296e556334ef9343efa44b10d7f72d9640"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/direct/exact_08-extraction.tex",
+      "copy": "sources/exact_08-extraction.tex",
+      "bytes": 50502,
+      "sha256": "2422ace8de4df34f2a2f719648cb60caba6efc636df3eee3abfc5c2cbd00c774"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/direct/exact_09-unit.tex",
+      "copy": "sources/exact_09-unit.tex",
+      "bytes": 21528,
+      "sha256": "2760d6abc860b68cad8f108b85f4386f3797dde92ad4196ba879f85b53039d86"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/sources/direct/exact_10-center.tex",
+      "copy": "sources/exact_10-center.tex",
+      "bytes": 11104,
+      "sha256": "24f97fd44cd319fdee401f12683ba35997e4899f84a7b154518e01fd82eb5eaf"
+    },
+    {
+      "original": "/Users/bsm/BSD_YUN_ZHANG_MECHANISM_READING_2026-10-07/sources/BD2005.txt",
+      "copy": null,
+      "sha256": "7ece2d9174a761a561f98cab9f46767e7f5cc7fb93817f6fe9182b740bca7129",
+      "url": "https://www.math.mcgill.ca/darmon/pub/Articles/Research/27.Main-conjecture/pub27.pdf",
+      "scope": "Preserved preprint text; theorem numbering checked against published source by agents"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11_SOURCE_CACHE/Ihara1979_II.pdf",
+      "copy": null,
+      "bytes": 2973436,
+      "sha256": "054f7b4e31e508f9e42459bacf40fe171e6fcdceaf1e809ca3262cb8bed88a80",
+      "url": "https://repository.dl.itc.u-tokyo.ac.jp/record/39681/files/jfs250304.pdf",
+      "scope": "Limited primary-source reading as specified in notes; complete paper not bundled"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11_SOURCE_CACHE/Ihara1998.pdf",
+      "copy": null,
+      "bytes": 987341,
+      "sha256": "d4f477da3d1f1fbc86f101cd7f6b00149e0376d5ca8068b1ed60e4f409ae3786",
+      "url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1026-13.pdf",
+      "scope": "Limited primary-source reading as specified in notes; complete paper not bundled"
+    },
+    {
+      "original": "/Users/bsm/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11_SOURCE_CACHE/ManningShotton2020.pdf",
+      "copy": null,
+      "bytes": 650514,
+      "sha256": "95892d371e25da2b9eab867cb6c4dd35dd127f38807f2a9e31767396882b1a34",
+      "url": "https://d-nb.info/1221421131/34",
+      "scope": "Limited primary-source reading as specified in notes; complete paper not bundled"
+    }
+  ]
+}

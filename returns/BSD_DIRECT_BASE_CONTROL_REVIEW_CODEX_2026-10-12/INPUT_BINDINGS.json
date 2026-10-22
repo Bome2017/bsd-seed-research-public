@@ -1,0 +1,58 @@
+{
+  "author_commit": "3f49551ab14268be879eb7f31820aa604350d7e3",
+  "baseline": "ad45789840b7a59e3d090b791bbfe66904924834",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "sha256": "83336b87906547ddfe73d61a712dfe70665c16ff355267fd6f17e577f89e7773",
+      "matches_commit": true
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "70b203a17cfa5b9426611c493f836ea5cfe77b45f5b6d47066a00955081a6e7d",
+      "matches_commit": true
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "f61b864c5c2f1aeecb27b7f3f046560edf43aa9943d20f1c06fc83a52924a690",
+      "matches_commit": true
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "7b3f6a9f953daedc8cafecb574e9c27fa642e454c0d125961ea3311f5ada0246",
+      "matches_commit": true
+    },
+    {
+      "path": "checks/RESULTS.json",
+      "sha256": "cf553fed375cf1f0effd1da96980ac836e3bb5f46364260fa83962d4d6f94a7a",
+      "matches_commit": true
+    },
+    {
+      "path": "checks/verify.py",
+      "sha256": "b36324bff9bb90d35d7ac4be3e8ac3b95f32824d48fd3fae63b82bb5d3a88d5a",
+      "matches_commit": true
+    }
+  ],
+  "manifest_entries_verified": 5,
+  "historical_bindings_verified": [
+    {
+      "path": "work/returns/BSD_QUINTIC_RELATIVE_REVIEW_CODEX_2026-10-12/REPORT.md",
+      "blob": "3a21ae11110b0931a25c0354379022e4c6c9d8c3"
+    },
+    {
+      "path": "work/returns/BSD_QUINTIC_RELATIVE_REVIEW_CODEX_2026-10-12/ARITHMETIC_CONTINUATION.md",
+      "blob": "fab1f5ab88efd6e21677684498827ed8be2f26f0"
+    },
+    {
+      "path": "work/returns/BSD_QUINTIC_RELATIVE_REVIEW_CODEX_2026-10-12/RANK_ZERO_SOURCE_CHECK.md",
+      "blob": "4e85d030383c3f24d33a08758119c476a68ccab6"
+    },
+    {
+      "path": "CURRENT_STATE.md",
+      "blob": "68b85567dcd57db3d7325c76a60c14de9f3ef165"
+    }
+  ],
+  "replay": "byte_identical",
+  "abstract_module_cases": 351,
+  "new_seed_arithmetic_values": 0
+}

@@ -1,0 +1,13 @@
+{
+  "script": "construct.gp",
+  "sha256": "a3f03dda27e845a3f7dc953f2bdf76b940b5fd749c0f959cb2564ed482545af1",
+  "marker": "ACTUAL_SEED_P5_FIELD_AND_SCALAR_PASS",
+  "wall_cap_seconds": 120.0,
+  "started_unix": 1792518974.143917,
+  "elapsed_seconds": 0.4835588859859854,
+  "exit_code": 0,
+  "timed_out": false,
+  "accepted": true,
+  "stdout_sha256": "b9fd79e72f0acd972b2af2c207c402968d971317ac996c89db79ce62ebbeabfc",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

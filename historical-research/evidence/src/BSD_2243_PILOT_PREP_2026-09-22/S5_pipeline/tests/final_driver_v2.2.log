@@ -1,0 +1,70 @@
+FINAL start 2026-09-23 00:54:48; build:
+6fcd27099b87842444892768dce0b3e6e058d4edea99af0eb5e38411ee62abfa  acc2243v2.c
+0bd121ab8e5a28d2b7e2e50db84fc9fc278aa0f6d3656644d350a3ab53c37493  acc2243v2
+c26d2cefe2ab62aa675dc4c73ca7107d2a4b0a59074d98de9b33b925bdc31154  acc2243v2_shim
+b1378f169118351bfd8a1ea22124fa735ae9a5b6282d02f86127f9c3e1b6e606  stream_seg.sh
+850f29faadcc8e579bb6add204fc68a629263555abdc92328bdb00f175f40708  compat/CommonCrypto/CommonDigest.h
+0bd121ab8e5a28d2b7e2e50db84fc9fc278aa0f6d3656644d350a3ab53c37493  ../acc2243v2
+c26d2cefe2ab62aa675dc4c73ca7107d2a4b0a59074d98de9b33b925bdc31154  ../acc2243v2_shim
+b1378f169118351bfd8a1ea22124fa735ae9a5b6282d02f86127f9c3e1b6e606  ../stream_seg.sh
+R1 acc2243v2 m=27 PASS (      52 substantive lines identical to the S2 merge)
+R1 acc2243v2 m=81 PASS (     146 substantive lines identical to the S2 merge)
+R1 acc2243v2_shim m=27 PASS (      52 substantive lines identical to the S2 merge)
+R1 acc2243v2_shim m=81 PASS (     146 substantive lines identical to the S2 merge)
+R2 PASS: 18 symbols, 36 ball pairs overlap, identical candidates/flags; max radius ratio dft/direct = 1.000; []
+R2 PASS: 54 symbols, 108 ball pairs overlap, identical candidates/flags; max radius ratio dft/direct = 1.000; ['A_EXACT', 'A_MOD_P', 'EXCL', 'WEIGHTS']
+R3 PASS fresh v2 run == S2 merge; digest e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681
+R4a shard B first attempt exit 9 (1 simulated crash)
+RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1445, shard 1/2, already done 0 in 0 checkpoints, generation 1, W 4
+NEG R4a-missing-shard PASS (refused: FATAL: units missing: run incomplete)
+R4a PASS pooled shards (with crash/restart) digest == R3 digest e24f3f4d4e705b42e6002bf8059430aa73ae3315bc437d2665bd99d151330681; 10 checkpoints
+R4b first attempt exit 9
+RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 24, shard 0/1, already done 6 in 1 checkpoints, generation 2, W 2
+MERGE checkpoints 4 units 1445 selected 24 missing 0 terms 897652842  SELECTION L0/0-5,L7,L100-103,L287,S0-9,S500,S1151
+COUNT_SELECTION pairs 1972891384 recount 1972891384 match 1  smooth 26521595 (S-block smooth counts are covered only by the full-run identity)
+CHUNK_DIGEST 5ba823318537525a140ca92fafeff4cc7fc6b068c0a0512ef808e1551fa749ba
+R4b PASS selection digest identical after crash/restart
+NEG R4b-wrong-selection PASS (refused: FATAL: ACC_SELECT differs from the checkpoints' selection)
+NEG R4b-bad-token PASS (refused: FATAL: ACC_SELECT: a token selects no unit (segment without primes > sqrt T, sub-unit or block out of range))
+NEG R4b-duplicated-ckpt PASS (refused: FATAL: unit covered twice)
+NEG R4b-corrupted-ckpt PASS (refused: FATAL: ckpt self-hash mismatch (corrupted checkpoint))
+NEG R4b-missing-ckpt PASS (refused: FATAL: units missing: run incomplete)
+R4c stream run exit 0; leftover ap/sha256 files in stream dirs: 0
+R4c PASS streamed a_q path digest == certified a_q path digest 3a50588eae29290f7e190f8d129a1be9364389231ffe7610f470ac42df5a41d1, SEGHASH identical (8 segments)
+R4c PASS verifier ap_sha256 (stream log) == accumulator segment hashes (8 streamed segments)
+NEG R4c-producer-fails PASS (refused: FATAL: stream command failed (produce/verify): fail closed)
+NEG R4c-witness-corrupted PASS (refused: FATAL: stream command failed (produce/verify): fail closed)
+R4c-witness-corrupted verifier said: FATAL: q=855638071: factor not prime
+NEG R4c-tampered-stored-ap PASS (refused: FATAL: a_q file consumed differs from the file the verifier hashed: fail closed)
+SMALL_DONE
+R4d gen1 exit 9
+R4d gen2 exit 9: RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 246, shard 0/1, already done 39 in 5 checkpoints, generation 2, W 3
+R4d gen3 exit 0: RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 246, shard 0/1, already done 128 in 7 checkpoints, generation 3, W 5
+R4d PASS restart from partial checkpoints (gen2 resumed 39 units from 5 ckpts; gen3 resumed 128 units from 7 ckpts; 12 ckpt files, 3 generations) digest == reference c32d37f9fc019e064c4e5e24e50453ae063e80dc0e18c2905805003d77e656d5
+ap files: 35
+ 1:13  up 21 days,  1:59, 1 user, load averages: 3.99 5.16 5.56
+A run exit 0 : RUN units 11935541 (L-subunits 2608633 + S-blocks 9326908), selected 47, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 8, streaming a_q RUN done seconds 217.14  maxRSS 2121228288
+MERGE checkpoints 8 units 11935541 selected 47 missing 0 terms 269476858  SELECTION L0/0-1,L59/0-0,L5960,L596046,L2331695-2331725,L2331680-2331684,S2384,S238418,S9326906
+FINGERPRINT sum_units b8295b362538a269 array b8295b362538a269 match 1
+COUNT_SELECTION pairs 564564767 recount 564564767 match 1  smooth 5402678 (S-block smooth counts are covered only by the full-run identity)
+AP_SEGROOT_SHA256 03946640badf725306b36a6bbf674f27577b27c91b861e7363a6bcf60306cf07 segments 40
+CHUNK_DIGEST 3ca80f2e7852cdf82f54f7df9726c9fbd69fe60929197091a8976cf3f75cd6f4
+ROUNDING_ERR_TOTAL [6.802552260e-21 +/- 4.16e-31]
+B first attempt exit 9
+R5-B FAIL
+R5-C PASS two pooled shards digest == A (8 checkpoints)
+R5-D PASS stored-path digest == streamed-path digest
+R5-H PASS verifier-vs-accumulator hashes: 5 streamed segments (expect 5), mismatches 0
+PARTIAL_SELECTION: the symbols below come from a unit subset -- plumbing/timing output only, NOT symbol values
+SYMBOL_RADIUS_BUDGET plus: tail 2tail/Omega+ 0.000487803 + rounding 2E/Omega+ 4.85119e-19 (+ transform rounding, printed per symbol) vs threshold 1/(2 LATDEN) 0.000488281
+DFT length 5031049 seconds 175.16
+SYMBOLS_FILE A/symbols.bin records 5028806 sha256 b03d4b4e971711ab2e18234f54613409016d3488baefccdd03bdff05dbbf63fd (record: i64 b, i64 plus cand, i64 minus cand, u8 flags c+|u+<<1|c-<<2|u-<<3)
+SYMBOL_PASS seconds 9.43 path dft
+XB_PLUS_DETERMINED 5024494 of 5028806 (lattice 1/1024 Z)   minus determined 4612366   max plus radius 4.881024e-04 (unique iff < 4.882812e-04)
+PARTIAL_TIMING_ONLY: the a_{n,r} / UNIT_TEST / NONZERO_ONLY lines below are computed from a unit subset and mean NOTHING
+WEIGHTS p 2243 n 2 r 3 alpha 1  all_symbols_identified 0
+M maxRSS 2700288000 real 194.97
+R5-M PASS full-size DFT symbol radius at T_run: max 4.881024e-04 vs threshold 4.882812e-04 (tail 0.000487803, rounding 4.85119e-19); (determined-by-chance 5024494 of 5028806: values meaningless for a partial selection; the radius budget is the full run's)
+R5_DONE
+FINAL end 2026-09-23 01:28:52
+FINAL_DONE

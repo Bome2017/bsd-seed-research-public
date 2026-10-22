@@ -1,0 +1,1 @@
+Completed. Read REPORT.md, SOURCE_VERSIONS.md, SCALING_TEST.md and RESULT.json. Run python3 verify_and_replay.py and python3 scaling_check.py. The author-relative LOW window has2 splitpairs, notzero; do not resurrect theliteralpublished-degree emptywindow as a methodexclusion. No classbound improved. No publication by this worker.

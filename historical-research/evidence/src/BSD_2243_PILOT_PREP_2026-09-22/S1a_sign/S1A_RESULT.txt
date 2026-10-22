@@ -1,0 +1,50 @@
+PASS 65a1 M=5 aM=-1 w=-1 m=5 s_pred=-1: 8 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 65a1 m=5 wrong sign +1: 8/8 symbols excluded
+PASS 65a1 M=5 aM=-1 w=-1 m=25 s_pred=-1: 40 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 65a1 m=25 wrong sign +1: 40/40 symbols excluded
+PASS 65a1 M=5 aM=-1 w=-1 m=125 s_pred=-1: 200 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 65a1 m=125 wrong sign +1: 200/200 symbols excluded
+PASS 85a1 M=5 aM=-1 w=+1 m=5 s_pred=+1: 8 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 85a1 m=5 wrong sign -1: 8/8 symbols excluded
+PASS 85a1 M=5 aM=-1 w=+1 m=25 s_pred=+1: 40 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 85a1 m=25 wrong sign -1: 40/40 symbols excluded
+PASS 85a1 M=5 aM=-1 w=+1 m=125 s_pred=+1: 200 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 85a1 m=125 wrong sign -1: 200/200 symbols excluded
+PASS 130a1 M=5 aM=+1 w=-1 m=5 s_pred=+1: 8 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 130a1 m=5 wrong sign -1: 8/8 symbols excluded
+PASS 130a1 M=5 aM=+1 w=-1 m=25 s_pred=+1: 40 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 130a1 m=25 wrong sign -1: 40/40 symbols excluded
+PASS 130a1 M=5 aM=+1 w=-1 m=125 s_pred=+1: 200 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 130a1 m=125 wrong sign -1: 200/200 symbols excluded
+PASS 15a1 M=5 aM=+1 w=+1 m=5 s_pred=-1: 8 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 15a1 m=5 wrong sign +1: 8/8 symbols excluded
+PASS 15a1 M=5 aM=+1 w=+1 m=25 s_pred=-1: 40 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 15a1 m=25 wrong sign +1: 40/40 symbols excluded
+PASS 15a1 M=5 aM=+1 w=+1 m=125 s_pred=-1: 200 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 15a1 m=125 wrong sign +1: 200/200 symbols excluded
+PASS 189a1 M=7 aM=-1 w=-1 m=7 s_pred=-1: 12 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 189a1 m=7 wrong sign +1: 10/12 symbols excluded
+PASS 189a1 M=7 aM=-1 w=-1 m=49 s_pred=-1: 84 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 189a1 m=49 wrong sign +1: 80/84 symbols excluded
+PASS 189a1 M=7 aM=-1 w=-1 m=343 s_pred=-1: 588 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 189a1 m=343 wrong sign +1: 580/588 symbols excluded
+PASS 21a1 M=7 aM=-1 w=+1 m=7 s_pred=+1: 12 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 21a1 m=7 wrong sign -1: 12/12 symbols excluded
+PASS 21a1 M=7 aM=-1 w=+1 m=49 s_pred=+1: 84 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 21a1 m=49 wrong sign -1: 82/84 symbols excluded
+PASS 21a1 M=7 aM=-1 w=+1 m=343 s_pred=+1: 588 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 21a1 m=343 wrong sign -1: 582/588 symbols excluded
+PASS 189b1 M=7 aM=+1 w=-1 m=7 s_pred=+1: 12 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 189b1 m=7 wrong sign -1: 12/12 symbols excluded
+PASS 189b1 M=7 aM=+1 w=-1 m=49 s_pred=+1: 84 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 189b1 m=49 wrong sign -1: 82/84 symbols excluded
+PASS 189b1 M=7 aM=+1 w=-1 m=343 s_pred=+1: 588 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 189b1 m=343 wrong sign -1: 586/588 symbols excluded
+PASS 105a1 M=7 aM=+1 w=+1 m=7 s_pred=-1: 12 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 105a1 m=7 wrong sign +1: 12/12 symbols excluded
+PASS 105a1 M=7 aM=+1 w=+1 m=49 s_pred=-1: 84 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 105a1 m=49 wrong sign +1: 84/84 symbols excluded
+PASS 105a1 M=7 aM=+1 w=+1 m=343 s_pred=-1: 588 exact symbols contained; count identity; a_q root == verifier
+CTRL-REJECTS 105a1 m=343 wrong sign +1: 588/588 symbols excluded
+SYMBOLS_COMPARED 3728  CONTROLS_REJECTING 24/24
+S1A_PASS checks=24 fails=0

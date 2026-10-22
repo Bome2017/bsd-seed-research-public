@@ -1,0 +1,30 @@
+{
+  "id": "p13_completion_2026-09-21",
+  "integrated_at_utc": "2026-09-22T00:04:09.688463+00:00",
+  "result": "SHA13_ZERO_PROVED_COMPUTER_ASSISTED",
+  "archive": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/provenance/before_p13_completion_20260921T234400Z.tar.gz",
+  "archive_sha256": "ba663516d29dedfb3b193a03477ad18599e86f4464b06f52938b948d500f5b73",
+  "new_records_reviewed": [
+    "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/P13_PRIMARY_THEOREM.md",
+    "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/INCIDENT_2026-09-21.md",
+    "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/POST_ABORT_INTEGRITY.json",
+    "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/PREFLIGHT.json",
+    "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+    "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/RESUME.md",
+    "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/STATE.json"
+  ],
+  "closed_premise": "Certified unit quadratic coefficient C13=2 modulo13, proving seed 13-primary vanishing",
+  "superseded_claims": [
+    "C13 uncomputed",
+    "Returned 7/8 residues and unresolved normalization",
+    "Current next-order threshold 1521",
+    "External pending completion fields"
+  ],
+  "scope": "Fixed-prime computer-assisted theorem; retained source/software and incident qualifications; no FIN, ORDER9, Q36, I3, twist-primary or uniform-tail result",
+  "master_sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+  "theorem_sha256": "2097b553ece4b63a1212b6836b9f7823f5423acc34bb7fd33f53c7f708c578ae",
+  "exact_checks_passed": 179,
+  "completion_status": "COMPLETION_REVIEW_PASS_WITH_DECLARED_TRUST_BASE",
+  "original_inputs_unchanged_at_integration": true,
+  "reconciliation_scope": "Six new external records read with explicit stale-claim supersession; no old bound source changed"
+}

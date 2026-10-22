@@ -1,0 +1,26 @@
+[
+  {
+    "manifest": "input/2318738a/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06_aristotle/MANIFEST.sha256",
+    "entries": 48,
+    "matched": 47,
+    "mismatches": [
+      {
+        "path": "README.md",
+        "expected": "5a71f307b1005d3a1be134bf5a3c8b814c2f4cedd7460667e0b61533232951d1",
+        "actual": "bbeee3a342cb87737375b36c5d03afcfef52949d27cc91e56db6a8a6e0d3cb93"
+      }
+    ]
+  },
+  {
+    "manifest": "input/a6077c4a/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06 2_aristotle/MANIFEST.sha256",
+    "entries": 48,
+    "matched": 47,
+    "mismatches": [
+      {
+        "path": "README.md",
+        "expected": "683cf3fabf9c3818ef0a80459a6084a7905178880cdc5f4215a1ee0962c3dddd",
+        "actual": "f2fa4595d14204604414a93e8c08c9a481f1865bb19e2e51385288f9cc9e43cd"
+      }
+    ]
+  }
+]

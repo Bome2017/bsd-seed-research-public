@@ -1,0 +1,91 @@
+\section[The bad primes 2243, 5843 and 4547]{The bad primes $2243$, $5843$ and $4547$}\label{sec:badprimes}
+
+The good-ordinary version of Kato used here, in \cite[Thm.~7.3]{sw}, is not the input for these bad primes. At the multiplicative primes we instead use \cite[Thm.~A]{skinner}, as at $p=3$; no blanket exclusion of all other versions of Kato is asserted.
+
+\subsection{The split multiplicative prime $2243$}
+Let $p=2243$. Here $\alpha=a_p=+1$ and the reduction type is $\mathrm{I}_1$. The $p$-adic $L$-function has an exceptional zero, so $\ord_TL_p\ge r+1=3$. For $b\in(\Z/p^2)^\times$ put
+\[
+\ell(b)\equiv-\frac{b^{p-1}-1}{p}\pmod p,
+\]
+and define the integer
+\[
+K=1024\sum_{b\bmod\pm1}\operatorname{bal}_p\!\Bigl(2\binom{\ell(b)}{3}\Bigr)\Bigl[\frac b{p^2}\Bigr]^+ ,
+\]
+where $\operatorname{bal}_p$ is the balanced residue modulo $p$. We use the $\omega_1$-normalized version of the Stein--Wuthrich construction; the full-period series is half this series, a unit factor at $p$.
+
+\begin{theorem}[\cid{B.6}; conditional]\label{thm:2243}
+If $K\not\equiv0\pmod{2243}$, then $\Sha[2243^\infty]=0$, given the mathematical inputs D1--D7 below. If $K\equiv0\pmod{2243}$, nothing follows.
+\end{theorem}
+
+\begin{longtable}{@{}p{0.07\textwidth}p{0.47\textwidth}p{0.38\textwidth}@{}}
+\toprule
+input & content & status\\ \midrule
+D1 & Hypotheses of \cite[Thm.~A]{skinner} at $2243$: ordinary, residually irreducible, ramified at a prime $q\,\|\,N$ ($q=3$ or $5843$) & verified; theorem imported as published\\
+D2 & $\mathrm{char}(X_{\mathrm{Gr}})=T\cdot\mathrm{char}(X_{\mathrm{cl}})$ in the split case & \textbf{discharged} at source level: \cite[\S3.2]{skinner} together with a written matching of Selmer local conditions (strict condition $=$ Kummer image via the Tate curve at $p$; trivial at $\ell\ne p$ over $\Q_\infty$)\\
+D3 & Comparison of canonical and N\'eron periods at $p\mid N$ & as published; the internal provenance limit of Remark~\ref{rem:su} recurs\\
+D4 & Finiteness first: $\mathrm{corank}\,\Sel_{p^\infty}(E/\Q)\le\ord_Tf_E$ & elementary control argument\\
+D5 & Nondegeneracy of the split height & \textbf{certified} by an independent computation (Theorem~\ref{thm:d5})\\
+D6 & Jones's split leading-term formula \cite[Thm.~3.1]{jones}, forward direction; it needs $\log_p q_E\ne0$ & read at the source; $\ell_\gamma=\log_p(q_E)/(\ord_p(q_E)\log_p(1+p))\equiv1799\pmod{2243}$, a unit, computed twice independently\\
+D7 & \cite[Prop.~3.5]{sw} and the symbol lattice (Theorem~\ref{thm:manin}) & read; lattice derivation in Appendix~\ref{app:latticeproof}\\ \bottomrule
+\end{longtable}
+\emph{Certificate production (formerly D8).} Evaluator reliability is needed to certify a computed $K$, not to define $K$ or prove the implication above. The retained pipeline still needs its restart-isolation defect F4 corrected and the repaired coefficient verifier installed before production.
+
+\begin{theorem}[\cid{B.6}, input D5; computer-assisted, published height formula imported]\label{thm:d5}
+Let $H$ be the matrix of the corrected split-multiplicative height pairing \cite[\S4.2]{sw} (Werner's correction \cite{werner}) on the basis $P_1,P_2$ of the minimal model. Then
+\[
+H=2243\begin{pmatrix}2127&1294\\1294&764\end{pmatrix}+O(2243^2),\qquad\det H=2181\cdot2243^2+O(2243^3).
+\]
+In particular $H$ is nondegenerate, and with $\kappa(\gamma)=1+2243$ the normalized regulator satisfies $\Reg_\gamma\equiv2181\pmod{2243}$, a unit.
+\end{theorem}
+The certificate works as follows.
+\begin{itemize}[leftmargin=*]
+\item \emph{Arithmetic.} It uses Python's standard-library integers and fractions only; no PARI or Sage height function is called.
+\item \emph{Truncation.} The Bernardi series and the canonical correction are accounted for to the required precision: every omitted term of $\log(\sigma(t)/t)$ lies in $p^2\Zp$.
+\item \emph{The Tate parameter.} $q_E$ is computed modulo $p^3$ from $\Delta/c_4^3$.
+\item \emph{Global denominators.} The integer $e(Q)$ with $x(Q)=a/e(Q)^2$ in lowest terms, including its part prime to $p$, is obtained through division polynomials, with an explicit check that no bad prime cancels.
+\item \emph{Verification.} A separate division-free verifier and a Jacobian-coordinate multiplication agree. The parallelogram identity, scaling, and a unimodular change of basis are checked.
+\end{itemize}
+The PARI residue was consulted only after the computation, and it agrees. The published height formula is imported for this computation; its use in D6 additionally retains the published leading-term comparison and the stated normalization checks.
+
+\begin{remark}[Why D5 mattered]
+This proof uses only the forward leading-term implication of \cite[Thm.~3.1]{jones}, with finiteness and nondegeneracy supplied independently. It does not require a decision about every converse attributed in the later literature. Finiteness comes from D4, nondegeneracy from Theorem~\ref{thm:d5}, and then Jones's forward theorem applies. This is exactly the shape of the proof at $p=3$.
+\end{remark}
+
+\begin{proposition}[\cid{X.15}; written proof and exact computation]\label{prop:compress}
+Write $b=\omega(a)(1+p)^j$, so that $j=\ell(b)$. Let $Y_j=\sum_a1024[b/p^2]^+$ be the column sums of the depth-two symbol matrix, and put $\theta(T)=\sum_jY_j(1+T)^j$. Then:
+\begin{enumerate}[label=(\roman*)]
+\item $K\equiv c_3:=[T^3]\theta\pmod p$.
+\item The $U_p$ trace relations fix only the row sums, hence only $c_0=0$.
+\item The Atkin--Lehner involution $W_Q$ ($Q=N/p$) gives $[u_b/p^2]^+=-[b/p^2]^+$ with $u_b=(Qb)^{-1}$. It maps column $j$ to column $-1989-j$, where $1989\equiv\ell(Q)\pmod p$.
+\item $(1+T)^{1989/2}\theta$ is odd in the uniformizer $W=T(1+T)^{-1/2}$. Consequently $c_0=0$, $c_2=-995c_1$ and $c_4=1247c_3+511c_1$, while $c_3$ is not determined by $c_0,c_1,c_2$: the rank of these coefficient functionals over $\F_{2243}$ is $2$, not $1$.
+\end{enumerate}
+\end{proposition}
+Consequently no Manin, Hecke or Atkin--Lehner relation among those examined expresses $K$ through cheaper data. We examined:
+\begin{itemize}[leftmargin=*]
+\item the $U_p$ trace relations and the Atkin--Lehner involutions $W_Q$, $W_p$, $W_N$;
+\item $\Gamma_0(N)$-loops;
+\item the operators $T_\ell$ and $U_\ell$;
+\item Hida-family relations and Galois conjugation;
+\item aggregation of the certificate sum;
+\item Kolyvagin-type auxiliary denominators.
+\end{itemize}
+Each of the alternatives raises the analytic scale (by factors of $16$ up to about $5\cdot10^{11}$) or needs a modular-symbol space of dimension $10^{15}$--$10^{16}$. This is an obstruction for the relations examined, not a lower bound for every algorithm.
+
+The cost of computing $K$ directly is set by the analytic conductor of the order-$p$ twists. The Fourier cutoff is $3.912\cdot10^{13}$, about $1.1\cdot10^5$ core-hours. The operational cost models remain in the repository; they are not mathematical hypotheses. A future computation carries a free consistency check: $c_1\equiv0\pmod{2243}$ is forced by the order of vanishing but not by the pairing, so a failure detects an error. No probability of detecting arbitrary incorrect output is asserted.
+
+\subsection{The nonsplit multiplicative prime $5843$}
+\begin{criterion}[\cid{B.7}; conditional]\label{crit:5843}
+At $5843$ (type $\mathrm{I}_2$, $a_p=-1$), one depth-two coefficient modulo $p$ is a sufficient certificate, through Skinner's theorem and Jones's nonsplit formula as at $p=3$.
+\end{criterion}
+The Fourier cutoff is $1.687\cdot10^{14}$, and the estimated cost is about $6.3\cdot10^5$ core-hours. It has not been computed.
+
+\subsection{The additive prime $4547$}
+\begin{remark}[\cid{B.8}; retained project boundary]\label{prop:4547}
+At $4547$ (type $\mathrm{III}$, potentially supersingular, $U_p$-eigenvalue $0$), the retained records supply no cyclotomic chain of a $p$-adic $L$-function, a main conjecture and a control theorem in the required form. The retained records contain a two-prime Kurihara witness, whose existence at an additive prime is conjectural; its smallest Kolyvagin pair is about $8.1\cdot10^{15}$, and its direct implementation cost is prohibitive within the project budget. The quadratic singleton criterion (Criterion~\ref{crit:bh} below) is a further sufficient criterion at $4547$: additive reduction does not block its unramified auxiliary extension. No witness has been evaluated at $4547$. This is neither an impossibility theorem for that prime nor an exclusion of new algorithms.
+\end{remark}
+
+\subsection{A quadratic singleton criterion at the bad primes}
+\begin{criterion}[\cid{B.18}; conditional; a preprint theorem applied]\label{crit:bh}
+Let $p\in\{2243,4547,5843\}$ and let $\ell$ be a prime with $\ell\equiv1\pmod p$, $v_p(\ell-1)=1$ and $\ell\nmid pN$. Define $C_k(p,\ell)$ as in \S\ref{subsec:singletons}, over the full label set. If $C_0\equiv C_1\equiv0$ and $C_2\not\equiv0\pmod p$, then $\Sha[p^\infty]=0$.
+\end{criterion}
+This is a written corollary of Theorem~1.4(b) of Bullach--Honnor \cite{bh}, with the rank, residual-image and symbol-lattice inputs retained. Their theorem bounds a Fitting ideal of the dual $p$-primary Selmer group over the degree-$p$ subfield of $\Q(\mu_\ell)$. A nonzero quadratic coefficient then allows at most two generators, and Nakayama's lemma kills the dual of $\Sha[p^\infty]$; no finiteness is assumed. The normalizations differ by an exact factor: Bullach--Honnor divide by the total real period $2\omega_1$, so $\theta_{\mathrm{BH}}=\theta_{\mathrm{pipeline}}/2$, and no further Manin or exceptional-zero factor enters. Ota's hypotheses are not claimed at these primes; this is a separate theorem profile. No coefficient has been evaluated at any of the three primes, and a zero value would prove nothing. The cost models are in \S\ref{sec:obstructions}.

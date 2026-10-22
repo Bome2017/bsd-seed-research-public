@@ -1,0 +1,7 @@
+{main()=
+alarm(55);gettime();C=read("/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/seed_five/field.gp");E=C[1];FA=C[4];T=C[6];SG=C[7];XP=T[1];YP=T[2];T2=ellmul(E,T,2);TH=XP+T2[1];PR=XP*T2[1];TA=subst(lift(SG),w,SG);
+if(subst(lift(TH),w,SG)!=TH||subst(lift(XP),w,TA)!=XP,error("fixed scalar binding"));F6=charpoly(TH,y);F6=F6/gcd(F6,deriv(F6));F12=charpoly(XP,y);F12=F12/gcd(F12,deriv(F12));if(poldegree(F6)!=6||poldegree(F12)!=12||!polisirreducible(F6)||!polisirreducible(F12),error("subfield degrees"));
+BB=matrix(24,6,i,j,polcoef(lift(TH^(j-1)),i-1,w));vv=vector(24,i,polcoef(lift(PR),i-1,w))~;cc=matsolve(BB,vv);if(BB*cc!=vv,error("product binding"));P6=Mod(sum(i=1,6,cc[i]*y^(i-1)),F6);G12=x^2-y*x+P6;
+if(subst(subst(lift(G12),y,TH),x,XP)!=0,error("quadratic plus relation"));G24=x^2-(y^3+E.a2*y^2+E.a4*y+E.a6);if(subst(subst(G24,y,XP),x,YP)!=0,error("quadratic point relation"));
+N6=nfinit(F6);N12=nfinit(F12);write("fields.gp",[FA,T,SG,F6,TH,F12,XP,G12,G24]);write("nf6.gp",N6);write("nf12.gp",N12);write("FIELDS.json",Str("{\"degree6_signature\":",N6.sign,",\"degree6_discriminant\":\"",N6.disc,"\",\"degree12_signature\":",N12.sign,",\"degree12_discriminant\":\"",N12.disc,"\",\"full_signature\":[4,10],\"relative_unit_rank_A_over_Aplus\":",(4+10-1)-(N12.sign[1]+N12.sign[2]-1),",\"total_runtime_ms\":",gettime(),"}"));print("DEGREE6_SIGNATURE=",N6.sign,";DISC=",factor(N6.disc));print("DEGREE12_SIGNATURE=",N12.sign,";DISC=",factor(N12.disc));print("EXACT_RELATIVE_FIELDS_CONSTRUCTED;MS=",gettime());}
+main();quit;

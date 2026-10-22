@@ -1,0 +1,32 @@
+{
+  "norm_epsilon": 1,
+  "fundamental_unit_scan": {
+    "b_range": [
+      1,
+      224
+    ],
+    "solutions": [
+      [
+        46846,
+        224
+      ]
+    ],
+    "norm_minus_one_excluded_mod_3": true
+  },
+  "points_on_A": 2,
+  "point_fifth_power_relation": true,
+  "generic_descent_norm_identity": true,
+  "fisher_theta_equals_epsilon": true,
+  "split11_class_norm": 1,
+  "affine_cover_map_identity": true,
+  "pfaffians_and_syzygy": true,
+  "independently_verified_Hensel_witness_primes": [
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "scope": "Exact arithmetic and symbolic identities; local Selmer membership and global nontriviality are in written proof."
+}

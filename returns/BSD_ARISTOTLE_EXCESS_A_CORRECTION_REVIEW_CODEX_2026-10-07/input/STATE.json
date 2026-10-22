@@ -1,0 +1,16 @@
+{
+  "lane": "A",
+  "date": "2026-10-07",
+  "revision": "corrected second pass",
+  "status": "NO_BOUND_MECHANISM_FOUND_FOR_TESTED_CANDIDATES",
+  "candidates": {
+    "A1_anticyclotomic_higher_fitting": "control map written (H2 kept); generator comparison open (C1-C4); NOT reduced to A2; not developed",
+    "A2_kolyvagin_one_prime_class": "first failed arrow: uniform kappa_l nonvanishing mod p; collision HEEGNER_NU.md and W3 HEEGNER_NU_NOTE.md",
+    "A3_kato_padic_leading_term": "first failed arrow: uniform unit R_p/p^2 and bound on L_p^*; ordinary only; collision d-infinity/HGZ2"
+  },
+  "withdrawn": ["Fitting-to-Heegner equivalence (first-version PROOF.md Prop. 1 statement 4)", "'-23 twist never computed'"],
+  "twist_d23": "record-certified computer-assisted (2026-09-21); core sum not replayable from supplied archive; see TWIST_D23_TRACE.md",
+  "endpoint": {"FIN": "unchanged", "ORDER9": "unchanged", "Q36": "unchanged"},
+  "lean": "none produced",
+  "remote_jobs": 0
+}

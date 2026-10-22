@@ -1,0 +1,66 @@
+{
+  "status": "EQUAL_RESIDUE_KERNELS",
+  "cases": [
+    {
+      "p": 3,
+      "scalar_function_dimension": 4,
+      "norm_rank": 2,
+      "additivity_rank": 2,
+      "stacked_rank": 2,
+      "kernels_equal": true,
+      "kernel_dimension": 2,
+      "point_linear_forms_survive": true
+    },
+    {
+      "p": 5,
+      "scalar_function_dimension": 6,
+      "norm_rank": 4,
+      "additivity_rank": 4,
+      "stacked_rank": 4,
+      "kernels_equal": true,
+      "kernel_dimension": 2,
+      "point_linear_forms_survive": true
+    },
+    {
+      "p": 7,
+      "scalar_function_dimension": 8,
+      "norm_rank": 6,
+      "additivity_rank": 6,
+      "stacked_rank": 6,
+      "kernels_equal": true,
+      "kernel_dimension": 2,
+      "point_linear_forms_survive": true
+    },
+    {
+      "p": 11,
+      "scalar_function_dimension": 12,
+      "norm_rank": 10,
+      "additivity_rank": 10,
+      "stacked_rank": 10,
+      "kernels_equal": true,
+      "kernel_dimension": 2,
+      "point_linear_forms_survive": true
+    },
+    {
+      "p": 13,
+      "scalar_function_dimension": 14,
+      "norm_rank": 12,
+      "additivity_rank": 12,
+      "stacked_rank": 12,
+      "kernels_equal": true,
+      "kernel_dimension": 2,
+      "point_linear_forms_survive": true
+    },
+    {
+      "p": 17,
+      "scalar_function_dimension": 18,
+      "norm_rank": 16,
+      "additivity_rank": 16,
+      "stacked_rank": 16,
+      "kernels_equal": true,
+      "kernel_dimension": 2,
+      "point_linear_forms_survive": true
+    }
+  ],
+  "scope": "finite geometric residue maps; no arithmetic unit or class bound"
+}

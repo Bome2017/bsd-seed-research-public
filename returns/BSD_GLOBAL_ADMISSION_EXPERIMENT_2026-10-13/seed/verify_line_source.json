@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "norm_exact_match": true,
+  "norm_q_valuation": 5,
+  "unsupported_prime": 7,
+  "unsupported_norm_valuation": 1,
+  "unique_unsupported_point": [
+    0,
+    6
+  ],
+  "orbit_h_residues": [
+    0,
+    3,
+    5,
+    1
+  ],
+  "method": "stdlib 27x27 integer Bareiss resultant, polynomial recurrences, residue enumeration"
+}

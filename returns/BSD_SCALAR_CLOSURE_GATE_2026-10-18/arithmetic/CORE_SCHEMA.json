@@ -1,0 +1,91 @@
+{
+  "file": "GATE_CORE.json",
+  "indexing": "Top-level JSON indices below are zero-based; all mathematical prime permutations use1-based indices.",
+  "fields": [
+    {
+      "index": 0,
+      "name": "closed_prime_HNFs",
+      "shape": [
+        331,
+        48,
+        48
+      ]
+    },
+    {
+      "index": 1,
+      "name": "sigma_prime_permutation",
+      "shape": [
+        331
+      ]
+    },
+    {
+      "index": 2,
+      "name": "alpha_divisors",
+      "shape": [
+        331,
+        20
+      ]
+    },
+    {
+      "index": 3,
+      "name": "beta_divisors",
+      "shape": [
+        331,
+        20
+      ]
+    },
+    {
+      "index": 4,
+      "name": "all_scalar_beta_divisors",
+      "shape": [
+        331,
+        120
+      ],
+      "column_order": "6*i+j, i=0..19, j=0..5"
+    },
+    {
+      "index": 5,
+      "name": "character_eigenvalues",
+      "value": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "index": 6,
+      "name": "character_projector_weights",
+      "shape": [
+        3,
+        6
+      ]
+    },
+    {
+      "index": 7,
+      "name": "projected_divisor_matrices",
+      "shape": [
+        3,
+        331,
+        20
+      ]
+    },
+    {
+      "index": 8,
+      "name": "nullspace_bases",
+      "shape": [
+        3,
+        20,
+        0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "ranks",
+      "value": [
+        20,
+        20,
+        20
+      ]
+    }
+  ]
+}

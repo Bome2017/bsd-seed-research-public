@@ -1,0 +1,6 @@
+Preparation only; this command has not been run against the server.
+From the outer folder containing project/:
+
+aristotle submit "$(cat project/SUBMISSION_PROMPT.txt)" --project-dir ./project --wait
+
+Use submit, not a request to formalize a nonexistent completed BSD proof.

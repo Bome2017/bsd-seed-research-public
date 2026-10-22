@@ -1,0 +1,114 @@
+1c1
+< # H41 mod-4 successor proof object (2026-09-16) — REVISION 2 (rev 1 = repairs to referee_1 defects; rev 2 = author-side amendments, sec 11.R1,
+---
+> # H41 mod-4 successor proof object (2026-09-16) — REVISION 3 (citation/editorial repairs from both rev-2 delta reviews: referee_1 N1-N9, referee_2 N1-N7) over REVISION 2 (rev 1 = repairs to referee_1 defects; rev 2 = author-side amendments, sec 11.R1,
+38,39c38,39
+<     [Edi06 2.5]; Edixhoven arXiv:math/0312019v1 p. 7 (read by referee_2): C_inf contains inf, C_0 contains 0, W_d swaps the components iff
+<     2 | d, Tate-curve completion at inf; cusp placement and w_N in sec 11.R4): the coarse DR model X of X_0(N) over Z_(2),
+---
+>     [Edi06 2.5]; Edixhoven arXiv:math/0312019v1 (read by referee_2): p. 7 C_inf contains inf and C_0 contains 0; p. 9 W_d swaps the
+>     components iff 2 | d; p. 4 Tate-curve completion at inf; cusp placement and w_N in sec 11.R4): the coarse DR model X of X_0(N) over Z_(2),
+46,47c46,47
+< I10 [T] Baker–Rabinoff arXiv:1308.3864: Thm 2.3 (character lattice M' of the toric part of J^0_k = M = H_1(Gamma, Z), pairing = monodromy
+<     pairing), Thm 1.3 / Thm 2.9 (Sigma(J^an) = Jac(Gamma) as p.p. tropical abelian varieties), Cor 5.6 (tau': J^an -> Jac(Gamma) via trop of the
+---
+> I10 [T] Baker–Rabinoff arXiv:1308.3864: (4.5.2) (M = H_1(X^an, Z) = H_1(Gamma, Z)), Thm 2.9 + Rem 6.3 (length pairing = analytic = Grothendieck's
+>     pairing; Thm 2.3, the discretely valued regular-model statement, is NOT used by the proof), Thm 1.3 / Thm 2.9 (Sigma(J^an) = Jac(Gamma) as p.p. tropical abelian varieties), Cor 5.6 (tau': J^an -> Jac(Gamma) via trop of the
+127c127,128
+< a in R^x; xi = the character T. Work over C_2 := completion of an algebraic closure (sec 11.R5). By BR (4.5.2), Thm 2.9 and Rem 6.3 [Col00],
+---
+> a in R^x; xi = the character T. Work over C_2 := completion of an algebraic closure (sec 11.R5). By BR (4.5.2), Thm 2.9 and Rem 6.3 [Col00] (the pairing comparison of Rem 6.3 is made over the
+> discretely valued Frac R, Lambda = Z, and transported to C_2 by BR L460, L491),
+129,130c130,131
+< group of the Neron special-fibre torus over R) is BR's M: BR sec 4.1 (A_0 has special fibre the Neron identity component; T and T_k share the
+< character lattice); Coleman 2000 secs 1, 4 use the same identification. The integral residue-character identity is also a published statement:
+---
+> group of the Neron special-fibre torus over R) is BR's M: BR sec 4.1 (T and T_k share the character lattice); that the special fibre of the formal subgroup A_0 is the Neron identity component is
+> stated by Coleman 2000 p. 322 (read by referee_2; BR sec 4.1 recalls A_0 without naming Neron models). The integral residue-character identity is also a published statement:
+184c185
+<  G2 sec 6 integral tropical character identification: BR Thm 2.3 / Cor 5.6 / Prop 6.1 as quoted; the Raynaud functoriality for pi; no factor e_x.
+---
+>  G2 sec 6 integral tropical character identification: BR (4.5.2) / Thm 2.9 / Rem 6.3 / Cor 5.6 / Prop 6.1 as quoted; the Raynaud functoriality for pi; no factor e_x.
+199c200,201
+< R1 (defects 1, 14) LEMMA R [rev 2: proof rewritten on local BR citations; the Bosch–Lutkebohmert dependency is removed].
+---
+> R1 (defects 1, 14) LEMMA R [rev 2: proof rewritten on local BR citations; everything except the identification of A_0 with the completed Neron identity component is from BR; that identification is derived
+> below from BR's uniqueness clause plus Coleman 2000 p. 322 / Bosch–Lutkebohmert (neither local)].
+203c205,210
+< character lattice as the Neron special-fibre torus); T_0 = affinoid torus; 0 -> T_0 -> A_0 -> B^an -> 0 and A_0 is an analytic domain in E_A^an.
+---
+> character lattice); T_0 = affinoid torus; 0 -> T_0 -> A_0 -> B^an -> 0 and A_0 is an analytic domain in E_A^an.
+> NERON IDENTIFICATION (referee_1 delta N1): over Frac R (discretely valued) the Raynaud generic fibre of the formal completion of the Neron
+> identity component A^0 along its special fibre is a compact formal analytic subgroup of A^an whose special fibre is the semi-abelian A^0_k;
+> by BR's uniqueness clause (L421-423) it IS A_0, and the formation is compatible with extension of the ground field (BR L460). Hence A_0's torus
+> has the character lattice of the Neron special-fibre torus. The input 'generic fibre of the formal completion of A^0 is a compact formal
+> analytic subgroup' is Coleman 2000 p. 322 (read by referee_2) / Bosch–Lutkebohmert (not local).
+207c214
+< (1) Lift: E_J^an is the universal cover and p_{E_0} a local isomorphism, so pi o p_J lifts uniquely with pi~(0) = 1; applying uniqueness to
+---
+> (1) Lift: E_J^an is the universal cover and p_{E_0}: G_m^an -> E_0^an a topological covering (BR L425-428: the universal cover), so pi o p_J lifts uniquely with pi~(0) = 1; applying uniqueness to
+212,213c219,220
+<     pi~|J_0 (J_0 connected; uniqueness of lifts); the special fibre of J_0 is the Neron identity component J^0_k (BR sec 4.1;
+<     Coleman 2000 sec 1), so the reduction of pi~|T_0 is the toric part of the Neron map, the character pi^* xi of T_{J,k}; and the algebraic
+---
+>     pi~|J_0 (J_0 connected; uniqueness of lifts); the special fibre of J_0 is the Neron identity component J^0_k (Coleman
+>     2000 p. 322, read by referee_2), so the reduction of pi~|T_0 is the toric part of the Neron map, the character pi^* xi of T_{J,k}; and the algebraic
+223c230
+< for Lambda = Z. So Conrad–Stein's pairing on X_J is the length pairing, in the same coordinates in which Cor 5.6 / Prop 6.1 compute trop(AJ).
+---
+> for Lambda = Z (over Frac R; transported to C_2 by BR L460, L491). So Conrad–Stein's pairing on X_J is the length pairing, in the same coordinates in which Cor 5.6 / Prop 6.1 compute trop(AJ).
+227c234
+< All statements in R3 are on the elliptic-curve locus (cusps: I8, R4). Fine chart. Cesnavicius 1604.02165 (2.6.1): Gamma_1(n) = Gamma_0(2) cap Gamma_1(n/2) for ord_2 n = 1, and sec 2.6 (L377-378): for Gamma = Gamma_1(n),
+---
+> All statements in R3 are on the elliptic-curve locus (cusps: I8, R4). Fine chart. Cesnavicius 1604.02165 (2.6.1): Gamma_1(n) = Gamma_0(2) cap Gamma_1(n/2) for ord_2 n = 1, and sec 2.6 (L372-375): for Gamma = Gamma_1(n),
+232c239,240
+< -xv/g gives f = xy - 2. On this model the elliptic points are (E, C_2, P_3, P_l).
+---
+> -xv/g gives f = xy - 2 (k = R/2; the induced surjection R[[x,y]]/(xy - 2) -> A of 2-dimensional
+> domains is an isomorphism; full proof: GRAPH_LEMMA Lemma 3.1). On this model the elliptic points are (E, C_2, P_3, P_l).
+240c248,249
+< is (O^_{Y,y})^{G_y} (finite group, algebraically closed residue field).
+---
+> is (O^_{Y,y})^{G_y} (finite group, algebraically closed residue field). Justification (restored from rev 1; GRAPH_LEMMA Lemma 3.2 is the
+> N = 2p analogue): on the elliptic locus Y -> X is finite and G-invariant, and Y/G -> X is finite and birational onto the normal X, hence an isomorphism.
+247c256,257
+< Eigenparameter (effective order-3 stabilizer sigma): sigma preserves the two branches (a swap has order 2); its tangent action is faithful (an
+---
+> Eigenparameter (order-3 stabilizer sigma, acting EFFECTIVELY on O^_{Y,y}: G acts faithfully on the connected generic fibre of Y, and an
+> automorphism of an integral scheme that is trivial on a complete local ring is trivial; GRAPH_LEMMA Lemma 3.4 is the N = 2p analogue): sigma preserves the two branches (a swap has order 2); its tangent action is faithful (an
+251c261,263
+< stabilizer gives UV = 2. Counts: h_3 = #{e_x = 3} = 2 if l = 1 mod 3 and 0 otherwise, h_1 = (l-1)/3 resp. (l+1)/3, so Sum 1/e_x = h_1 + h_3/3 = (l+1)/3.
+---
+> stabilizer gives UV = 2. Counts: each of the four order-3 subgroups of A_4 fixes one line of E[3] and 2 (l = 1 mod 3) or 0 (l = 2 mod 3) lines of E[l], i.e. 2 or 0
+> pairs; a pair with stabilizer of order 3 is fixed by exactly one of them and lies in an orbit of size 12/3 = 4; so h_3 = #{e_x = 3} = 8/4 = 2 if
+> l = 1 mod 3 and 0 otherwise, h_1 = (l-1)/3 resp. (l+1)/3, so Sum 1/e_x = h_1 + h_3/3 = (l+1)/3.
+260c272,273
+<  q-expansion principle at inf for Gamma_0(n): [Edi06 Prop 2.5] as used in 1703.02951v3 Lemma 5.4 (S_2(Gamma_0(n), Z_p) = H^0(U^inf, Omega^1)), and
+---
+>  Completed stalk at inf-bar: Omega(cusps)^ = R[[q]] dq/q (delta has a simple pole at inf, so the operative fact is this stalk, not the S_2
+>  statement): Edixhoven arXiv:math/0312019v1 p. 6 completion argument with dq replaced by dq/q (read by referee_1). Also: [Edi06 Prop 2.5] as used in 1703.02951v3 Lemma 5.4 (S_2(Gamma_0(n), Z_p) = H^0(U^inf, Omega^1)), and
+278c291,292
+<  v_2: 4m - 8, 2m - 4, m - 2, m - 2. Minimality at 2 from c_4 odd (referee_1 check C, symbolic in r for both signs). Hence n_E, n_B, n_F, n_G as in I2.
+---
+>  v_2: 4m - 8, 2m - 4, m - 2, m - 2. Minimality at 2 from c_4 odd, explicitly (c_4 = b_2^2 - 24 b_4): E: r^2 - 4r + 1; B: 16r^2 - 4r + 1; F: 16r^2 + 56r + 1; G: 256r^2 - 64r + 1,
+>  all odd for r = +-2^m (and the models are integral for m >= 3). Formerly supported only by (referee_1 check C, symbolic in r for both signs). Hence n_E, n_B, n_F, n_G as in I2.
+280,281c294,295
+<  4.1.4/4.4.4 (only as cited in 1604.02165); Deligne–Rapoport V.1.16, VI.6.9; Edixhoven 2006 Prop 2.5 (as cited in 1703.02951v3); CNS sec 1
+<  (as retained in ADDENDUM_015); Bosch–Lutkebohmert 1991; Coleman 2000; Atkin–Lehner 1970 / Li 1975; Aut(E_ss/Fbar_2) = SL_2(F_3) (Mazur
+---
+>  4.1.4/4.4.4 (only as cited in 1604.02165); Deligne–Rapoport V.1.16, VI.6.9; Edixhoven 2006 = arXiv:math/0312019v1 (Prop 2.5; pp. 4, 7, 9: READ BY REFEREE_2, not re-read by the author); CNS sec 1
+>  (as retained in ADDENDUM_015); Coleman 2000 pp. 320-322 (READ BY REFEREE_2, not re-read by the author); Bosch–Lutkebohmert 1991 (alternative source for A_0 = completed Neron identity component, not local); Atkin–Lehner 1970 / Li 1975; Aut(E_ss/Fbar_2) = SL_2(F_3) (Mazur
+288,289c302,303
+< R11 (Manin, wording) 1703.02951v3 Thm 1.2 gives v_p(c_pi) = 0 for each prime p with p^2 !| N; c_pi = +-1 follows by applying it at every prime of the
+<  squarefree conductor N (2p or 6l; the exponent 3 in D = 27*19 is a discriminant exponent, not a conductor exponent).
+---
+> R11 (Manin, wording) 1703.02951v3 Thm 1.2 gives v_p(c_pi) = 0 for each prime p with p^2 !| N; c_pi = +-1 follows by applying it at EVERY prime p (p^2 !| N holds for all p) or by quoting
+>  its own 'In particular' sentence for semistable E; the conductor N is squarefree (2p or 6l; the exponent 3 in D = 27*19 is a discriminant exponent, not a conductor exponent).
+298a313,319
+> R13 (rev 3 custody) Delta reviews of rev 2 (sha c5d806defa3bc55d...): referee_1 ACCEPT WITH REMARKS, 0 BLOCKING (G3, G4, G7 -> PASS; its defects
+>  13 resolved, 1 and 8 partial; new N1-N9); referee_2 ACCEPT WITH REMARKS, 0 BLOCKING (G3 -> PASS; its D1-D14: 13 resolved, D12 partial; referee_1
+>  defect 4 resolved; new N1-N7). Rev 3 changes only citations, locators, wording and two restored/added standard arguments: the Neron identification
+>  of A_0 (BR uniqueness clause + Coleman p. 322 / BL91), the local Y/G quotient and stabilizer effectiveness (restored from rev 1), the h_3 orbit count,
+>  explicit c_4 values, the Frac R -> C_2 transport of the pairing comparison, the Omega(cusps) completed stalk at inf. No sec 0 statement changes.
+>  Remaining unverified primary imports are listed in R9; the Atkin–Lehner sign (referee_2 D12) stays flagged. SEALING REQUIRES: rev 2 -> rev 3 delta
+>  checks by both referees and operator instruction.

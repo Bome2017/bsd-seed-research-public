@@ -1,0 +1,49 @@
+{
+ "purpose": "Rows whose source was edited in place after it was released. The released copies are kept byte for byte and are never refreshed; the current source hashes are recorded here. The first five rows are those of review/V025_RETAINED_SOURCE_CHANGES.json (unchanged there); the last two are new in V026-D.",
+ "retained_source_changes": [
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/00_READ_FIRST.md",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/00_READ_FIRST.md",
+   "released_sha256": "0755d34e09edbad0952789a988b7c781fa1608d4001bd5bd79e0d4a300e87079",
+   "live_sha256": "8916ecc07a96ceaea91b63a6ade4f2401c2a8b39de949dc8b3008437a661e7da"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MANIFEST.sha256",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MANIFEST.sha256",
+   "released_sha256": "18ebd0e63d60e3c6300a7adf53784499a8bc83ff44c59934cf671c96b1cb3ad6",
+   "live_sha256": "12c84639948a7d97362b38e70259e212938775a9cee0d0d14bdae2c800ef6682"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+   "released_sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+   "live_sha256": "111b73becca09325141084a6dd89f2fd2e8294e24d7920522281cb6d8bb202e8"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/RESUME.md",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/RESUME.md",
+   "released_sha256": "b2f74e9f70203b4a0133aa93a1a45b4815da32a3bd8103b23cfaff6408949743",
+   "live_sha256": "6a3a5fce246acbbda8d6247ad08a49473adcb78239c09f7e3e85b70b6ce57a09"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_BINDINGS.json",
+   "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_BINDINGS.json",
+   "released_sha256": "b0fb8859be690281cfd4214bd77653b417833ec3a2ca3b53d4535227ad291566",
+   "live_sha256": "b9d60141c89eab7331c37ba0a0e713bde5c9d0c35fcac62d73761887ee9dfe69"
+  },
+  {
+   "release_path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+   "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+   "released_sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+   "live_sha256": "03147a3aae5f92e714ccae97207850cc7b8d8023b719f24a295f27ff8eb19170",
+   "note": "Claude check report, a live file: addenda 31-33 were appended after the v0.2.6 transition. The released copy is its first 63,801 bytes (addenda 1-30); addenda 32 and 33 are bound as the separate task files."
+  },
+  {
+   "release_path": "evidence/src/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+   "original_path": "/Users/bsm/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+   "released_sha256": "eb03549224f5c397963595d7cd357da886a4e4acafb30857dc5aed5e17e0c3cf",
+   "live_sha256": "1cd3daf7d7e1a4db75a11d030397b6cd531e0678230a62502be49eac6be2f82b",
+   "note": "Candidate-edits map, a live file: section 6 gained the note that the Castella-Liu-Wan watch item is RESOLVED (Claude pre-check, addendum 33). The released copy is the v0.2.5 record."
+  }
+ ]
+}

@@ -1,0 +1,2661 @@
+{
+  "links_checked": 531,
+  "missing": [],
+  "entries": [
+    {
+      "file": "README.md",
+      "target": "CURRENT_STATE.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "LATEST_RETURN.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "work/state-sync-2026-10-04/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "work/state-sync-2026-10-04/CURRENT.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "work/state-sync-2026-10-04/INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "work/state-sync-2026-09-30/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "work/state-sync-2026-10-04/historical-root/",
+      "exists": true
+    },
+    {
+      "file": "work/README.md",
+      "target": "../CURRENT_STATE.md",
+      "exists": true
+    },
+    {
+      "file": "work/README.md",
+      "target": "../LATEST_RETURN.md",
+      "exists": true
+    },
+    {
+      "file": "work/README.md",
+      "target": "returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/README.md",
+      "target": "state-sync-2026-10-04/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/README.md",
+      "target": "state-sync-2026-10-04/CURRENT.md",
+      "exists": true
+    },
+    {
+      "file": "work/README.md",
+      "target": "state-sync-2026-10-04/INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "work/README.md",
+      "target": "state-sync-2026-09-30/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "CURRENT_STATE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/CORRECTIONS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/SOURCE_TESTS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/SUBMITTED_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/FINITE_ERROR_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COMPARISON_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COFINITE_NORMALIZATION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/SEED_CALIBRATION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07/LEDGER.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/INTEGRAL_MATCHING.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/ALGEBRA_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/COMBINATION_LEDGER.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/TAME_COMPARISON.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07/CORRECTIONS_FIRST.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_GLOBAL_SUPPORT_B_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07/CORRECTION_DETAILS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/50139472-2e04-4136-ae67-3ceff118f4ab-aristotle (1).tar.gz",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/50139472-2e04-4136-ae67-3ceff118f4ab-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/START_HERE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_EXCESS_CONTROL_A_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_GLOBAL_SUPPORT_B_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_DEFORMATION_FREEZE_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_DEFORMATION_FREEZE_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/EXCESS_NORMAL_FORM.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/CONDUCTOR_NORMALIZATION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/VARIATION_AND_TUNING.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/SECOND_ORDER_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/CHARACTER_REALIZATION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/SECOND_ORDER_W_LIFT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_STAGE_A_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2_REV2.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/STAGE_A_DERIVATION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/NEXT_ARITHMETIC_STEP.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/CURRENT_STATE_OBSTRUCTION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/SUBMIT_COMMAND.txt",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_1MOTIVE_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/DELTA_TASK_1MOTIVE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/SUBMIT_COMMAND.txt",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_1MOTIVE_SUBMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RECEIVER_EXCESS_ADMISSION_CLAUDE_2026-10-06/ADMISSION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/RECEIVER_EXCESS_ADMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_W3_P17_P19_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_W3_P17_P19_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_W3_P17_P19_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/DELTA_TASK_DERIVED_GROSS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_DERIVED_GROSS_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_DERIVED_GROSS_SUBMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/RESULT_RANK2_ANCHOR.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_RANK2_ANCHOR_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/OPENAI_RELEASE_AUDIT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_RANK2_ANCHOR_SUBMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/OPENAI_RELEASE_SCREEN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/EXTERNAL_OPENAI_RESULT002_TRANSPLANT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_FRONTIER_2026-10-06/2_CLOSED_LANES/CLOSED_LANES.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_FRONTIER_2026-10-06/CURRENT_FRONTIER.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/SEED_FRONTIER_PACKET_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_FRONTIER_2026-10-06/CURRENT_FRONTIER.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_FRONTIER_2026-10-06/TASK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_SEED_FRONTIER_2026-10-06.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/SEED_FRONTIER_PACKET_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/STATUS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/ADMISSION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/TAME_ROUTE_ENDPOINT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/checks/LEAN_RECOMPILE.txt",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_RETURNS_CHECK_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/RESULT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/K288_CUSTODY_AUDIT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/RESULT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/W3_ONE_SIDED_SCREEN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/RESULT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/SEED_ADMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_DIRECTION_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_DIRECTION_REVIEW_CODEX_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_DIRECTION_REVIEW_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/DIRECTION_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06/INTEGRATED_STATEMENT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06/input/PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/RECEIVER_GLOBAL_EXACTNESS_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/CORRECTED_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/CORRECTIONS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/561ea6c5-7426-4788-851a-22e0510be16e-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_UPPER_CONTROL_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_JET_INTERIM_STEERING_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_JET_INTERIM_STEERING_2026-10-06/STEERING_PROMPT.txt",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_JET_CONSTRUCTOR_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_SEED_JET_CONSTRUCTOR_REVIEWED_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_SEED_JET_CONSTRUCTOR_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/JET_CONSTRUCTOR_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RESEARCH_CONTINUATION_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RESEARCH_CONTINUATION_2026-10-06/submission/BSD_ARISTOTLE_CONTINUATION_2026-10-06/TASK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_RESEARCH_CONTINUATION_2026-10-06/submission/BSD_ARISTOTLE_CONTINUATION_2026-10-06/CONSTRUCTION_WORK.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_CONTINUATION_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_CONTINUATION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/CORRECTIONS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/13920c22-e3bc-4dfb-a137-cf15033983a9-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_BFR_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06/FULL_RESEARCH_START_PROMPT.txt",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/cbdfd2db-eb88-4404-a500-9f50de981321-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_NESTED_RETURN_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_NESTED_GATE_2026-10-05/START_HERE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_NESTED_GATE_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_NESTED_GATE_2026-10-05/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_NESTED_GATE_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_NESTED_GATE_2026-10-05/TASK_PRIORITY_ADDENDUM.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_ARISTOTLE_SUBMISSION_2026-10-05/START_HERE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_ARISTOTLE_SUBMISSION_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/BSD_SEED_RESEARCH_MAP.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/BSD_SEED_RESEARCH_MAP.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_SEED_ARISTOTLE_2026-10-05_STARTER.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_SEED_ARISTOTLE_2026-10-05/coverage/COVERAGE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/ARISTOTLE_FULL_RECORD_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/W3_DISCOVERY_ADMISSION_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_GLOBAL_BIEXTENSION_SCALAR_ATTACK_2026-10-05_INPUT.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/GLOBAL_BIEXTENSION_UPLOAD_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/ARITHMETIC_EXTRACTION.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_W3_FOUR_VALUE_PUSH_2026-10-04_INPUT.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/W3_FOUR_VALUE_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04/SOURCES.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/MAGMA_COUNTEREXAMPLE_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_SOURCE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/VARIABLE_WEIGHT_INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/TEN_POINT_CERTIFICATE.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/ARITHMETIC_LOW_JETS.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_W3_COHOMOLOGICAL_JET_PUSH_2026-10-04_INPUT.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/W3_COHOMOLOGICAL_JET_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/state-sync-2026-10-04/README.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/archives/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "LATEST_RETURN.md",
+      "target": "work/returns/HEEGNER_JET_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "../state-sync-2026-10-04/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "../../LATEST_RETURN.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "../../AGENTS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/CORRECTIONS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "GITHUB_CORRECTNESS_AUDIT_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BD_INTEGRAL_REVIEW_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/SOURCE_TESTS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "KATO_EXCESS_CONTENT_SOURCE_TEST_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/SUBMITTED_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "KATO_CONTENT_REVIEW_LEDGER_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "KATO_CONTENT_BOUND_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COMPARISON_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COFINITE_NORMALIZATION.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "RUBIN_COORDINATE_FOLLOW_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07/LEDGER.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "RESIDUAL_KATO_REVIEW_LEDGER_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/INTEGRAL_MATCHING.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "RESIDUAL_KATO_CRITERION_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "KATO_DERIVATIVE_MW_PLACEMENT_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BKS_FOUNDATION_AUDIT_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/COMBINATION_LEDGER.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BKS_COMBINATION_LEDGER_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_GLOBAL_SUPPORT_B_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07/CORRECTIONS_FIRST.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "GLOBAL_SUPPORT_B_REVISION_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07/CORRECTION_DETAILS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/50139472-2e04-4136-ae67-3ceff118f4ab-aristotle (1).tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_EXCESS_A_CORRECTION_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/50139472-2e04-4136-ae67-3ceff118f4ab-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_EXCESS_A_REVIEW_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_EXCESS_CONTROL_A_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_GLOBAL_SUPPORT_B_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/START_HERE.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "EXCESS_CONTROL_ATTEMPT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_DEFORMATION_FREEZE_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_DEFORMATION_FREEZE_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "DEFORMATION_FREEZE_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/EXCESS_NORMAL_FORM.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/CONDUCTOR_NORMALIZATION.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ORDER3_EXCESS_AUDIT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/VARIATION_AND_TUNING.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "SECOND_ORDER_VARIATION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/SECOND_ORDER_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/CHARACTER_REALIZATION.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "SECOND_ORDER_W_LIFT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/STAGE_A_DERIVATION.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/NEXT_ARITHMETIC_STEP.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "CURRENT_STATE_OBSTRUCTION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_DIRECTION_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_DIRECTION_REVIEW_CODEX_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_DIRECTION_REVIEW_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "DIRECTION_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06/INTEGRATED_STATEMENT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "RECEIVER_GLOBAL_EXACTNESS_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/CORRECTED_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/561ea6c5-7426-4788-851a-22e0510be16e-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_UPPER_CONTROL_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_JET_INTERIM_STEERING_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_JET_INTERIM_STEERING_2026-10-06/STEERING_PROMPT.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_JET_CONSTRUCTOR_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_SEED_JET_CONSTRUCTOR_REVIEWED_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_SEED_JET_CONSTRUCTOR_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "JET_CONSTRUCTOR_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RESEARCH_CONTINUATION_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RESEARCH_CONTINUATION_2026-10-06/submission/BSD_ARISTOTLE_CONTINUATION_2026-10-06/TASK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_CONTINUATION_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_CONTINUATION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/CORRECTIONS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/13920c22-e3bc-4dfb-a137-cf15033983a9-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_BFR_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06/FULL_RESEARCH_START_PROMPT.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_NESTED_RETURN_REVIEW_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05/START_HERE.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_NESTED_GATE_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05/TASK_PRIORITY_ADDENDUM.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_NESTED_GATE_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_SUBMISSION_2026-10-05/START_HERE.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_SUBMISSION_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_SUBMISSION_2026-10-05/checks/OFFLINE_SDK_PREFLIGHT.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_ARISTOTLE_2026-10-05/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_ARISTOTLE_2026-10-05/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_ARISTOTLE_2026-10-05/BSD_SEED_RESEARCH_MAP.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_ARISTOTLE_2026-10-05/coverage/COVERAGE.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_SEED_ARISTOTLE_2026-10-05_STARTER.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_FULL_RECORD_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "CYCLE_KURIHARA_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "WEIGHT3_LOCAL_INDEX_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "W3_GLOBAL_PERIOD_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "W3_COHOMOLOGICAL_JET_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "MAGMA_COUNTEREXAMPLE_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "W3_FOUR_VALUE_UPLOAD_CUSTODY_2026-10-04.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "GLOBAL_BIEXTENSION_UPLOAD_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "W3_DISCOVERY_ADMISSION_CUSTODY_2026-10-05.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/RESULT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "SEED_ADMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/RESULT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "W3_ONE_SIDED_SCREEN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/RESULT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "K288_CUSTODY_AUDIT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/checks/LEAN_RECOMPILE.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_RETURNS_CHECK_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/STATUS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/ADMISSION.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/HANDOFF.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "TAME_ROUTE_ENDPOINT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_FRONTIER_2026-10-06/CURRENT_FRONTIER.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SEED_FRONTIER_2026-10-06/TASK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_SEED_FRONTIER_2026-10-06.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "SEED_FRONTIER_PACKET_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "OPENAI_RELEASE_SCREEN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_RANK2_ANCHOR_PROJECT_2026-10-06.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/SUBMIT_COMMAND.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_RANK2_ANCHOR_SUBMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/RESULT_RANK2_ANCHOR.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/260d2438-ccc3-4c96-86be-37bf942b89f0-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_RANK2_ANCHOR_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "OPENAI_RELEASE_AUDIT_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/DELTA_TASK_DERIVED_GROSS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026-10-06.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/SUBMIT_COMMAND.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_DERIVED_GROSS_SUBMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/cb9ad0a0-a443-4ea5-91f2-0fbe5ac66cf0-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/0cd74d26-3413-42c7-b473-faa147bdc48b-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_DERIVED_GROSS_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_W3_P17_P19_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_W3_P17_P19_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/9a3a411e-9b4c-4cc2-a3b0-2021519e607c-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_W3_P17_P19_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_RECEIVER_EXCESS_ADMISSION_CLAUDE_2026-10-06/ADMISSION.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "RECEIVER_EXCESS_ADMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_1MOTIVE_PROJECT_2026-10-06.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/SUBMIT_COMMAND.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_1MOTIVE_SUBMISSION_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/HEEGNER_TAIL_COMPARISON.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/CYCLOTOMIC_EXTRACTION.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06.zip",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-2.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/9a3a411e-9b4c-4cc2-a3b0-2021519e607c-aristotle-source-only.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "HEEGNER_JET_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/2318738a-17a5-4380-8152-96849f45a3ea-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_1MOTIVE_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/a6077c4a-8876-4c56-afef-5687d98141a1-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_1MOTIVE_RETURN_CUSTODY_2026-10-06.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_OPENAI_RANK2_PROJECT_2026-10-06.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/SUBMIT_COMMAND.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_OPENAI_RANK2_SUBMISSION_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_STAGE_A_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "STAGE_A_REVIEW_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2_REV2.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/BSD_ARISTOTLE_OPENAI_RANK2_REV2_PROJECT_2026-10-07.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/SUBMIT_COMMAND.txt",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/README.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/CLAUDE_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "archives/ed24e1f2-00e9-49d9-b79d-7054609c8a8d-aristotle.tar.gz",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "ARISTOTLE_OPENAI_RANK2_RETURN_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/README.md",
+      "target": "SECOND_ORDER_REVIEW_CUSTODY_2026-10-07.json",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/SOURCE_TESTS.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/CORRECTIONS.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "LATEST_RETURN.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/README.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/state-sync-2026-10-04/README.md",
+      "exists": true
+    },
+    {
+      "file": "CURRENT_STATE.md",
+      "target": "work/returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "target": "CORRECTIONS.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "target": "MATHEMATICAL_CHECK.md",
+      "exists": true
+    },
+    {
+      "file": "work/returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "target": "SOURCES.md",
+      "exists": true
+    }
+  ]
+}

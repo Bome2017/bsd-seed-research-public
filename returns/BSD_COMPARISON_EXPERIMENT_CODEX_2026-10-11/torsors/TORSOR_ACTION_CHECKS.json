@@ -1,0 +1,192 @@
+{
+  "source_fiber_irreducible": true,
+  "target_fiber_irreducible": true,
+  "torsor_x_map_minpoly_degree": 25,
+  "prime": 3061,
+  "extension_degree": 5,
+  "translation_scalar_relative_to_map_167_0_0": 1,
+  "all_25_translations_match": true,
+  "points_checked": [
+    {
+      "i": 0,
+      "j": 0,
+      "scalar_candidates": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "scalar_candidates": [
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "scalar_candidates": [
+        1
+      ]
+    }
+  ],
+  "source_residual_irreducibility": "psi5 irreducible degree12 rules out rational stable line",
+  "source_scalar_endomorphisms": "irreducible residual module plus inertia transvection at7 (vDelta=2) forces End_G(V)=F5",
+  "global_affinity_argument": "written in RESULT.md; finitefield calculation only determines scalar of already-proved affine map"
+}

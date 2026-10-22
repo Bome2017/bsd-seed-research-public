@@ -1,0 +1,3 @@
+default(nbthreads,1); default(realprecision,80);
+{E0=ellinit([0,-1,1,-10,-20]); ds=[43737];for(ii=1,#ds,d=ds[ii]; E=ellminimalmodel(elltwist(E0,d)); P=ellsaturation(E,ellrank(E,1)[4],7); A=ellisomat(E,5); print("BASE ",[d,E[1..5],P,elltors(E),ellglobalred(E)[3],E.omega]);for(j=2,3,Fs=ellinit(A[1][j][1]); F=ellminimalmodel(Fs,&vv); imgs=vector(#P,k,ellchangepoint(ellisogenyapply(A[1][j][2],P[k]),vv)); Q=ellsaturation(F,imgs,7); ix=round(sqrt(matdet(ellheightmatrix(F,imgs))/matdet(ellheightmatrix(F,Q)))); po=real(F.omega[1]/E.omega[1]); cratio=po*ellglobalred(F)[3]/ellglobalred(E)[3]; print("ISO ",[d,j,F[1..5],elltors(F),ellglobalred(F)[3],po,cratio,ix,valuation(ix,5),Q,imgs]); ); ); print("DONE");}
+quit;

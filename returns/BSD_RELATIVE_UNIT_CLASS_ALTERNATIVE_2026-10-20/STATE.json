@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED_BOUNDED_EXPERIMENTS_NO_COMPLETE_SEED_BOUND",
+  "completed_utc": "2026-10-20T18:43:04.725777+00:00",
+  "base_commit": "62cf86b31d24be543a4e5677231c130c712e353d",
+  "seed_coefficient": 5,
+  "seed_field_degree": 24,
+  "observed_memory_stage_passed": true,
+  "default_dense_cache_entries_bytes": 10223928008,
+  "changed_search_peaks_bytes": [
+    732577792,
+    734720000,
+    933396480
+  ],
+  "complete_seed_unit_class_bound": false,
+  "bound_across_primes_proved": false,
+  "actual_seed_bnf_returned": false,
+  "unit_norm_rank_measured": false,
+  "class_contribution_bounded": false,
+  "proper_scalar_subfield_transfer": "does not see faithful component; scoped proof",
+  "FIN": "open; unchanged",
+  "ORDER9": "open; unchanged",
+  "Q36": "open; unchanged"
+}

@@ -1,0 +1,723 @@
+[
+  {
+    "id": "B.20",
+    "title": "A mod-p unit Kurihara witness at every good prime p >= 5",
+    "statement": "For every prime p >= 5 of good reduction for E, including the supersingular primes and 19, 59 and 487, M_infinity(delta) = 0. Hence some squarefree Kato conductor n, which may depend on p, gives a mod-p unit Kurihara witness: delta_n is nonzero mod p. The bad primes 2243, 4547 and 5843 and the primes p <= 3 are not covered.",
+    "kind": "THEOREM",
+    "grades": [
+      "PROVED_WRITTEN",
+      "IMPORTED_PREPRINT"
+    ],
+    "origin": "written application of preprint theorems",
+    "section": "9",
+    "evidence": [
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+        "role": "uniform synthesis (Codex): verdicts and scope",
+        "sha256": "c90bef60c754c3c1a58240078bf5629d6fbe3ccc8e9a9793b5f0f87edf8023fb",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+        "role": "uniform synthesis (Codex): the application of CLW and Castella-Sano to the seed",
+        "sha256": "d755340b405c2a9f7512c8b68627d4ecafcb2311735602d94cf2bc4f7ad68bbe",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+        "role": "uniform synthesis (Codex): sources and anchors",
+        "sha256": "d624e9a80216a81af06d93d628f19e53e2d46c36b0f9b59737a2b740ecaed931",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+        "role": "uniform synthesis (Codex): source URLs and hashes (the pinned CLW revision)",
+        "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+        "role": "uniform synthesis (Codex): hashes of the local records read",
+        "sha256": "664137fe827f5b246c9178785cb3479177f70d9cef70ec8ef5aaf3165041f148",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+        "role": "uniform synthesis (Codex): v_2243(Delta) = 1 and c4 mod 2243",
+        "sha256": "42f1f0a52766a0f672c493dfe4544c4fa75548acbd744649b2d07da3d14c3141",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+        "role": "uniform synthesis (Codex): the local arithmetic check",
+        "sha256": "e4cc502ae1f91780e91485db2f082a2d5e996f03e3aadb0d48dcd8a444d6930e",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+        "role": "uniform synthesis (Codex): check summary",
+        "sha256": "137c07ee79c103fb2b6af67a373a216b4435b3b7359105492a39a6d8999c1a5f",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+        "role": "uniform synthesis (Codex): the review request",
+        "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+        "role": "uniform synthesis (Codex): state",
+        "sha256": "1cd8b1cc3284c354c65177742b532fdb99a839a75c3c7b9e1dd92a5081416321",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+        "role": "uniform synthesis (Codex): resume notes",
+        "sha256": "e7f1a8d5cac68d7379bbdba26ba396100d9fffa9d2c289523698e3c2e3ad9d14",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+        "role": "uniform synthesis (Codex): synthesis manifest",
+        "sha256": "b73c250370f12dbcb95f68343fded75a6680859bf775ec3737980efa866c735f",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+        "role": "independent review (ChatGPT Pro): ACCEPT_AT_IMPORT_GRADE",
+        "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+        "role": "independent review (ChatGPT Pro): Part A: the coverage audit A1-A5",
+        "sha256": "c44f96d967917235743094f64bb3954a7a073cc4e468a30e1115056809d90c13",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+        "role": "independent review (ChatGPT Pro): source and custody audit",
+        "sha256": "c0d1b03b46a3159020acabff5dc645f974fe0e2368dbd26fb5a9e73299fdc382",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+        "role": "independent review (ChatGPT Pro): source hashes",
+        "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+        "role": "independent review (ChatGPT Pro): input integrity",
+        "sha256": "4306967b8bbd8113254c9cb6bd796f4db4fb20c7e608954644f2eb1bdee8ad5e",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+        "role": "independent review (ChatGPT Pro): the review request as received",
+        "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+        "role": "independent review (ChatGPT Pro): check summary",
+        "sha256": "bbc32f2afe62e963f7c8f5a17fa548d49349795db181b170d5fd1e422366b005",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+        "role": "independent review (ChatGPT Pro): notes",
+        "sha256": "5ebfc40eee9c04156656ade99d3b8ba04218f5cf5a7aba80d013fdaaead3e756",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+        "role": "independent review (ChatGPT Pro): state",
+        "sha256": "60c60b523ef3f331014bbb0498c250018211a003d43b7ca09aa0297bcffb4cae",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+        "role": "independent review (ChatGPT Pro): resume notes",
+        "sha256": "810706ce23b6440c17adbbe36361d0ca6c9f40f0aef1aae24670fd89617937ff",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+        "role": "independent review (ChatGPT Pro): review manifest",
+        "sha256": "1629154d5741c503d7c76ef5387684d9f23a0a020fb964b90b35cd2fba4cd2f7",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json",
+        "role": "independent review (ChatGPT Pro): text anchors of the source statements",
+        "sha256": "86d6743bb2dcaac03ec983ca139340f6af43a914064d9dc113691628d48337fc",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+        "role": "return check of the review (Codex): ACCEPT_REVIEW_AT_STATED_GRADE; live source hash match",
+        "sha256": "5d3b337b4d1c14a9324b25dbd2ced976a39935be36f7cfa1d2ad4473f7b06ebb",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+        "role": "return check of the review (Codex): fresh download of the CLW revision: headers and sha256",
+        "sha256": "036290a6beb39d024b4c3de1f80f58ba75c4b54f06b938d4cc6c43c2b9992400",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+        "role": "return check of the review (Codex): state",
+        "sha256": "15a2c92cca7adc4b90d73598163d3622b14c1b75d740477ff5a192119af0b639",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+        "role": "return check of the review (Codex): return-check manifest",
+        "sha256": "44b5540f4d77ddea092524cea20e6212c777e5c77b0724c24c87fc53b2c615d2",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256"
+      },
+      {
+        "path": "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+        "role": "section 9: the source-statement and Delta-component bridge check (Fable); section 9a: the pinned-source comparison",
+        "sha256": "e92688976c4a51f6777a5bde4bb74c61979d9c5a99803304be05111746ec5707",
+        "original_path": "/Users/bsm/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md"
+      },
+      {
+        "path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+        "role": "Claude check report: addendum 25 (source statements) and addendum 28 (source fetch, Part B deductions)",
+        "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+        "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+        "role": "addendum 25, as supplied with the task",
+        "sha256": "1e9f0d1aa2bd8258a3785e7bab62a304ebee61a68f40b18fe997bf5d2dcf3c19",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+        "role": "addendum 28, as supplied with the task",
+        "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+        "role": "the governing scope (claims, labels, IN and OUT)",
+        "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+        "role": "check of the scope: CONFIRMED_WITH_CORRECTIONS",
+        "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+        "role": "PARI re-derivation of a_19, a_59, a_487 and the local data",
+        "sha256": "0bbc4995fbe53dae985fd9c84892ee4f8e0d4f652b13894c5adac854c24e60f1",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+        "role": "its output: a_19 = 4, a_59 = -4, a_487 = -28",
+        "sha256": "72bb24852fdcd79262e0040f20ee60787e7772c9a8ada5ffa0d4294067785647",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log"
+      }
+    ],
+    "imports": [
+      "Castella-Liu-Wan, \"Kato's main conjecture for nonordinary modular forms\", author-hosted revision dated 2026-09-21 (https://web.math.ucsb.edu/~castella/CLW2.pdf, sha256 0686fa414b242e8e3b1cccd3fe906c8eefcfdb7b568563daa3089701d036fb98), Theorem A, with Lemma 2.10, Remark 2.20 and section 5.6 ((5.18), (5.21)-(5.22)) for the character and the integral normalization: (ram) holds via l = 2243 (v_2243(Delta) = 1, split multiplicative I_1); k = 2 < p; p-regular since a_p = 0 at supersingular p >= 5. The arXiv v1 (2608.29470v1) required squarefree N; the revision does not. At k = 2 the proved component omega^(k/2) = omega is the cyclotomic one for T_pE (Remark 2.20).",
+      "Castella-Sano, arXiv:2601.14504v1: Theorem A and Corollary A (with the CLW input at the nonordinary primes) and Theorem B (the ordinary primes); the determinant equivalence of Proposition 2.2.3, with the S-imprimitive Euler factors retained",
+      "the retained seed inputs: residual surjectivity at every odd p and p-adic surjectivity at p >= 5 (A.3); the Manin constant divides 2^9 (A.4); Tam = 16 (A.1)"
+    ],
+    "depends_on": [
+      "A.1",
+      "A.3",
+      "A.4"
+    ],
+    "normalization": "Kurihara numbers delta_n in Z/I_n as in Castella-Sano section 1.1 (and Kim sections 1.2.2 and 1.4): n runs over squarefree products of primes l not dividing N with l = 1 mod p and a_l = l + 1 mod p (so a_l = 2 mod p); I_n is the sum of the ideals I_l = (l - 1, a_l - l - 1)Z_p; the modular symbols are normalized by the positive Neron period Omega^+_E, the integral over E(R) of omega_E (2*omega_1 for this curve), and weighted by discrete logarithms; M(n) is the p-adic order of delta_n in Z/I_n, M_r = min{M(n) : nu(n) = r}, and M_infinity(delta) is the limit of M_r over r of the parity of the root number. Changing primitive roots multiplies delta_n by a p-unit. These auxiliary primes are not the G2 auxiliaries of B.16.",
+    "verification": {
+      "review": "MODEL_CROSS_FAMILY at the statement and deduction level: derived by Codex (OpenAI); independent review by ChatGPT Pro (OpenAI); source statements, the Delta-component bridge and the Part B deductions checked by Claude models (Anthropic); not a human review; not formalized",
+      "review_label": "Derived by Codex (OpenAI). Independent review by ChatGPT Pro (OpenAI): ACCEPT_AT_IMPORT_GRADE. The source statements were checked by Claude Opus 5.5 and Claude Fable 5.1 (Anthropic); the \u0394-component bridge by Claude Fable 5.1; the Part B deductions by Claude Opus 5.5. The author-hosted CLW revision is byte-identical across three independent downloads (sha256 0686fa41\u2026d036fb98); arXiv v1 is a different file. Not a human review; not formalized."
+    },
+    "qualifications": [
+      "Version caveat: the Castella-Liu-Wan revision used here is author-hosted and not on arXiv as of 2026-09-30; arXiv 2608.29470 lists only v1, the squarefree-level version (checked live on 2026-09-30). The revision is pinned by sha256 0686fa414b242e8e3b1cccd3fe906c8eefcfdb7b568563daa3089701d036fb98; a later version could change the hypotheses of Theorem A.",
+      "Ordinary coverage: the good ordinary primes are covered by Castella-Sano Theorem B as printed, whose hypotheses are p > 3, (sur) and p not dividing c_phi, and whose proof cites [Wan15, BCS25] for the ordinary main conjecture. 19, 59 and 487 are ordinary for E (a_19 = 4, a_59 = -4, a_487 = -28; PARI ellap, recorded with the evidence), and Theorem B has no hypothesis that excludes them. The Euler factors at 2243 and 5843 are nonunits at these primes (2242 = 2*19*59, 5844 = 12*487); both formulations retain these factors and neither cancels them, so they create no extra exception. The supersingular primes come from the CLW revision, because the supersingular case of Theorem B requires squarefree N.",
+      "Existence only: the witness length may depend on p and is not bounded here (B.21 identifies the minimal length with dim_{F_p} Sel_p(E/Q)); no two-prime witness and no uniform upper bound is obtained.",
+      "No rank-zero step of CLW section 5.6 ((5.19), (5.20), (5.23), (5.24)) is used, and no historical E11 or 288 scalar is identified with delta_n: no normalization comparison has been done.",
+      "The deep theorems are imported from preprints and not reproved; the retained seed inputs were not replayed by the reviews. The review label records model reviews at their stated scopes; repeated byte-identical downloads verify source identity, not independent proofs."
+    ],
+    "master_ref": "",
+    "post_master": "New since the master record (2026-09-30).",
+    "stop_kind": "",
+    "scope": "",
+    "role": "coverage: a unit witness exists at every good prime p >= 5, with no length bound",
+    "label": "thm:kurexist"
+  },
+  {
+    "id": "B.21",
+    "title": "The minimal unit-witness length equals the Selmer dimension",
+    "statement": "For every good prime p >= 5 put r_p := min{nu(n) : delta_n is nonzero mod p}, the minimal length of a mod-p unit Kurihara witness (finite by B.20). Then r_p = dim_{F_p} Sel_p(E/Q); r_p is even and >= 2; and r_p = 2 if and only if Sha(E/Q)[p^infinity] = 0. The equivalence also excludes a hypothetical divisible part: no finiteness of Sha is assumed.",
+    "kind": "THEOREM",
+    "grades": [
+      "PROVED_WRITTEN",
+      "IMPORTED_PREPRINT"
+    ],
+    "origin": "written deduction from preprint theorems",
+    "section": "9",
+    "evidence": [
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+        "role": "uniform synthesis (Codex): the minimal unit length and the character-depth test",
+        "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+        "role": "independent review (ChatGPT Pro): Part B, sections B1-B7",
+        "sha256": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+        "role": "independent review (ChatGPT Pro): ACCEPT_AT_IMPORT_GRADE",
+        "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md"
+      },
+      {
+        "path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+        "role": "Claude check report: addendum 28 (Part B deductions checked)",
+        "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+        "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+        "role": "addendum 28, as supplied with the task",
+        "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+        "role": "the governing scope",
+        "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+        "role": "check of the scope: CONFIRMED_WITH_CORRECTIONS",
+        "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md"
+      }
+    ],
+    "imports": [
+      "C.-H. Kim, arXiv:2203.12159v6, Theorem 1.8: only its Sha-independent clauses (the Selmer corank and the higher Fitting ideals Fitt_i = p^(M_i - M_infinity) Z_p); the clauses that assume Sha finite are not used",
+      "parity: the root number is +1, so delta_n = 0 when nu(n) is odd (Castella-Sano section 1.1.3)",
+      "the Kummer sequences with E(Q)[p] = 0, the split dual Kummer sequence 0 -> Sha[p^infinity]^dual -> X_p -> Z_p^2 -> 0 and Nakayama's lemma",
+      "every import of B.20"
+    ],
+    "depends_on": [
+      "B.20",
+      "R.1",
+      "A.1"
+    ],
+    "normalization": "r_p is the first UNIT index. The first merely nonzero p-adic index is a different quantity and is not substituted for it.",
+    "verification": {
+      "review": "MODEL_CROSS_FAMILY at the statement and deduction level: derived by Codex (OpenAI); independent review by ChatGPT Pro (OpenAI); source statements, the Delta-component bridge and the Part B deductions checked by Claude models (Anthropic); not a human review; not formalized",
+      "review_label": "Derived by Codex (OpenAI). Independent review by ChatGPT Pro (OpenAI): ACCEPT_AT_IMPORT_GRADE. The source statements were checked by Claude Opus 5.5 and Claude Fable 5.1 (Anthropic); the \u0394-component bridge by Claude Fable 5.1; the Part B deductions by Claude Opus 5.5. The author-hosted CLW revision is byte-identical across three independent downloads (sha256 0686fa41\u2026d036fb98); arXiv v1 is a different file. Not a human review; not formalized."
+    },
+    "qualifications": [
+      "This is an identity, not an upper bound. The abstract dual module X = Z_p\u00b2 \u2295 (Z/p)\u00b2 needs four generators, with Fitt\u2082(X)=(p\u00b2), Fitt\u2083(X)=(p), and Fitt\u2084(X)=Z_p. It is compatible with M_\u221e=0 and first unit index four. This is a module countermodel to an inference from primitivity alone, not a claim about the seed at an uncomputed prime.",
+      "Not a bound: proving r_p < 4 for every p outside one finite set is the open uniform target recorded with O.1 (current known frontier).",
+      "The deep theorems are imported from preprints and not reproved; the retained seed inputs were not replayed by the reviews. The review label records model reviews at their stated scopes; repeated byte-identical downloads verify source identity, not independent proofs."
+    ],
+    "master_ref": "",
+    "post_master": "New since the master record (2026-09-30).",
+    "stop_kind": "",
+    "scope": "",
+    "role": "exact identity: the minimal unit-witness length is the Selmer dimension",
+    "label": "thm:rp"
+  },
+  {
+    "id": "B.22",
+    "title": "The character-depth criterion (strict depth below four)",
+    "statement": "Let p >= 5 be a good prime, let K/Q be a real cyclic extension of degree p whose actual conductor m is prime to pN (m may be composite), and let chi be a faithful character of Gal(K/Q). If v_{zeta_p - 1}(chi(theta_K^MT)) < 4 for the full Bullach-Honnor-normalized Mazur-Tate element theta_K^MT of K at its actual conductor m (Definition 2.2, total real period Omega^+ = 2*omega_1), then Sha(E/Q)[p^infinity] = 0.",
+    "kind": "CONDITIONAL",
+    "grades": [
+      "PROVED_WRITTEN",
+      "IMPORTED_PREPRINT"
+    ],
+    "origin": "written deduction from a preprint theorem",
+    "section": "9",
+    "evidence": [
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+        "role": "uniform synthesis (Codex): the minimal unit length and the character-depth test",
+        "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+        "role": "independent review (ChatGPT Pro): Part B, sections B1-B7",
+        "sha256": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+        "role": "independent review (ChatGPT Pro): ACCEPT_AT_IMPORT_GRADE",
+        "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+        "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md"
+      },
+      {
+        "path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+        "role": "Claude check report: addendum 28 (Part B deductions checked)",
+        "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+        "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+        "role": "addendum 28, as supplied with the task",
+        "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+        "role": "the governing scope",
+        "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+        "role": "check of the scope: CONFIRMED_WITH_CORRECTIONS",
+        "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+        "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md"
+      }
+    ],
+    "imports": [
+      "Bullach-Honnor, arXiv:2511.07203v1, Hypothesis 1.2 and Theorem 1.4(b): theta_K^{MT,#} lies in Fitt_0 over Z_p[Gal(K/Q)] of the Pontryagin dual of the classical p^infinity-Selmer group over K, with no finite-Sha hypothesis; Definition 2.2, Proposition 2.4 (norm relations) and Remark 2.3(c)",
+      "B.21",
+      "restriction: E(K)[p] = 0 because the image of G_K contains SL_2(F_p) (A.3), so the dual Selmer group over K, after taking Gal(K/Q)-coinvariants, surjects onto the dual Selmer group over Q"
+    ],
+    "depends_on": [
+      "B.21",
+      "A.3"
+    ],
+    "normalization": "theta_K^MT is the projection from Q(mu_m) to K of the sum over a in (Z/m)^* of ([a/m]^+ + [a/m]^-) sigma_a (Bullach-Honnor Definition 2.2), with Omega^+ the integral over E(R) of |omega_E|, which is 2*omega_1 here; the full sum is kept (its factor 2 is a p-unit but is not dropped); v_{zeta_p - 1}(zeta_p - 1) = 1.",
+    "verification": {
+      "review": "MODEL_CROSS_FAMILY at the statement and deduction level: derived by Codex (OpenAI); independent review by ChatGPT Pro (OpenAI); source statements, the Delta-component bridge and the Part B deductions checked by Claude models (Anthropic); not a human review; not formalized",
+      "review_label": "Derived by Codex (OpenAI). Independent review by ChatGPT Pro (OpenAI): ACCEPT_AT_IMPORT_GRADE. The source statements were checked by Claude Opus 5.5 and Claude Fable 5.1 (Anthropic); the \u0394-component bridge by Claude Fable 5.1; the Part B deductions by Claude Opus 5.5. The author-hosted CLW revision is byte-identical across three independent downloads (sha256 0686fa41\u2026d036fb98); arXiv v1 is a different file. Not a human review; not formalized."
+    },
+    "qualifications": [
+      "The inequality is strict. A bound <= 4 is insufficient: over R = Z_p[C_p] with t = gamma - 1, the module (R/(t))^2 + (R/(p,t))^2 has Fitting ideal (t)^2(p,t)^2, which contains t^4, while its coinvariants Z_p^2 + (Z/p)^2 need four generators.",
+      "Sufficient only: no converse from Sha(E/Q)[p^infinity] = 0 to the existence of such a character value is claimed here. The converse holds by B.23 (derived 2026-09-30). It has not been evaluated at any p \u2265 53.",
+      "The element is taken at the actual conductor of K; an element at an artificially enlarged conductor must be related to it by the norm relations of Bullach-Honnor Proposition 2.4, with their Euler factors retained.",
+      "Nonvanishing of a complex L-value is not a depth bound; a character value is related to L(E, chi, 1) only with its Gauss sum and period normalization (Bullach-Honnor Remark 2.3(c)).",
+      "The deep theorems are imported from preprints and not reproved; the retained seed inputs were not replayed by the reviews. The review label records model reviews at their stated scopes; repeated byte-identical downloads verify source identity, not independent proofs."
+    ],
+    "master_ref": "",
+    "post_master": "New since the master record (2026-09-30).",
+    "stop_kind": "",
+    "scope": "",
+    "role": "sufficient witness at each good prime p >= 5",
+    "label": "thm:depth"
+  },
+  {
+    "id": "B.23",
+    "title": "Minimum character depth, minimum unit-witness length and Selmer dimension agree up to p - 1",
+    "statement": "For every good prime p >= 5 let d_p := dim_{F_p} Sel_p(E/Q); let r_p be the minimum number of distinct Kato primes supporting a mod-p unit Kurihara quantity (B.21); and let h_p be the minimum lambda-valuation (lambda = zeta_p - 1) of chi(theta_K), where theta_K is the full Bullach-Honnor-normalized Mazur-Tate element of a real cyclic degree-p field K at its actual conductor prime to pN and chi is a faithful character (h_p = +infinity is allowed). Then min(h_p, p - 1) = min(r_p, p - 1) = min(d_p, p - 1). Consequently, for this rank-two E and every good p >= 5: h_p < 4 <=> h_p = 2 <=> r_p = 2 <=> d_p <= 3 <=> Sha(E/Q)[p^infinity] = 0.",
+    "kind": "THEOREM",
+    "grades": [
+      "PROVED_WRITTEN",
+      "IMPORTED_PREPRINT"
+    ],
+    "origin": "written deduction from a preprint theorem and B.20-B.22",
+    "section": "9",
+    "evidence": [
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/RETURN.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): RETURN.md",
+        "sha256": "0ac1a3a1e3802eca7979484be8dba0568ea52587a2604dc8e104ad17a371f6cf",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/RETURN.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/STATE.json",
+        "role": "uniform-depth v2 return (ChatGPT Pro): STATE.json",
+        "sha256": "a8e56243849690b6ffbfaf49610d80ab9352dc14e760e42a849a82b6a175f660",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/STATE.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_I_CHARACTER_DEPTH.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): ATTEMPT_I_CHARACTER_DEPTH.md",
+        "sha256": "e089c20bc49bb34022790eea972f321d5231443f736cd615462797f670964d9e",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_I_CHARACTER_DEPTH.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_II_TWO_PRIME_WITNESS.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): ATTEMPT_II_TWO_PRIME_WITNESS.md",
+        "sha256": "32d78ea3358fdd742b8dc0b819c678427cfea66ccd0978ca7ac7f7f1d4bc8df6",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_II_TWO_PRIME_WITNESS.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_III_SELMER_BOUND.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): ATTEMPT_III_SELMER_BOUND.md",
+        "sha256": "3f9b21d127be39dc3fc647c88aa3340a66a64e9f60ca9d65854d11b7ff19c35c",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_III_SELMER_BOUND.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_A_GLOBAL_SCALAR.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): ATTEMPT_A_GLOBAL_SCALAR.md",
+        "sha256": "d2490031507a02f0bd9e596c265b4d3acceb255c78c9d2930d9e74e2c4b86e17",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_A_GLOBAL_SCALAR.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_B_ARITHMETIC_LIFTS.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): ATTEMPT_B_ARITHMETIC_LIFTS.md",
+        "sha256": "b3b7bc58aa3ac0e8259b7a8427d3430282d11cd0172a33f7269b7998ada940f4",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_B_ARITHMETIC_LIFTS.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_C_STRUCTURAL_SCOPE.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): ATTEMPT_C_STRUCTURAL_SCOPE.md",
+        "sha256": "b4fc507cc667b42f99064aa7dcb378ec9e715345265990b9ba5c8458c62d35c3",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_C_STRUCTURAL_SCOPE.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/SELF_REPLAY.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): SELF_REPLAY.md",
+        "sha256": "cd00f9282b472b8eaa057e8e1de4054b6f86ea9f3189fb70ead148e566b55f35",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/SELF_REPLAY.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/SOURCE_AUDIT.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): SOURCE_AUDIT.md",
+        "sha256": "51a5967292bdb50b798d30925f8b9d5d4b36a4896c98ed4a256ecd8662f971fc",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/SOURCE_AUDIT.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/SOURCE_CUSTODY.json",
+        "role": "uniform-depth v2 return (ChatGPT Pro): SOURCE_CUSTODY.json",
+        "sha256": "996d0a87e931c11deab1620edd4b34d62b8cae273bbd8082075919f5e8a7e8f2",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/SOURCE_CUSTODY.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/INPUT_BRIEF.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): INPUT_BRIEF.md",
+        "sha256": "5786a977dd509417bb3d731d6c1fdadbb894eabb8e1221ee34f40a5ca3a82dc5",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/INPUT_BRIEF.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/NOTES.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): NOTES.md",
+        "sha256": "7462cefd43ba7ad5cf5c6a1b710e4e2f13e03b426a9d68e3a4732b1d4c6f6f7c",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/NOTES.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/RESUME.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): RESUME.md",
+        "sha256": "ed2de1d4faaf671da28e2c10b5e04d4bb25ee522aafbc4312a5de79cf24a9b60",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/RESUME.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/MANIFEST.sha256",
+        "role": "uniform-depth v2 return (ChatGPT Pro): MANIFEST.sha256",
+        "sha256": "d6ed759d520c69a4e0e54c35956fd41d1cd7d34035232923ceefd7d60c64fd45",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/MANIFEST.sha256"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/REPORT.md",
+        "role": "independent check (Codex): REPORT.md",
+        "sha256": "9d0f2e794c3e19fe6c4d20751548df5ee12ee564b4075b6783276b371f39623f",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/RECORD_ADDENDUM.md",
+        "role": "independent check (Codex): RECORD_ADDENDUM.md",
+        "sha256": "63b00ebb3884238ea2467f0ce49b4a8d455e47dcbb75035c811ee7b802767843",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/RECORD_ADDENDUM.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/NEXT_DECISION.md",
+        "role": "independent check (Codex): NEXT_DECISION.md",
+        "sha256": "99aee724fe3f3d65f776e76107d56d713c39163adabd2cc88474f99732dba9a5",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/NEXT_DECISION.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+        "role": "independent check (Codex): SOURCE_BINDINGS.json",
+        "sha256": "b4e7d86f8c1c4b8346254ee8fff750c7e74d752ba85f685dda213cff51bc1ea5",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/SOURCE_BINDINGS.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/INPUT_INTEGRITY.json",
+        "role": "independent check (Codex): INPUT_INTEGRITY.json",
+        "sha256": "be79eff5c34237d93f5e0333df12db81032a40d3bf0e4a11a0f9ac9329c75c35",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/INPUT_INTEGRITY.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/STATE.json",
+        "role": "independent check (Codex): STATE.json",
+        "sha256": "46a5bcaa1a4892ad86bcd154145981fc48e3730c3b23497817ff233777b8276b",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/STATE.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/RESUME.md",
+        "role": "independent check (Codex): RESUME.md",
+        "sha256": "bb75ba4aa505629aa9ef84f0e2a4b172e7802f022b8fcf28e4b1f4ca6425b783",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/RESUME.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/MANIFEST.sha256",
+        "role": "independent check (Codex): MANIFEST.sha256",
+        "sha256": "8279852dd887d02d37ee4376408a9a0319f94dbac38b2da2a7b6c479b6cb9c4b",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/MANIFEST.sha256"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/references/PREVIOUS_DEPTH_TARGET.md",
+        "role": "independent check (Codex): references/PREVIOUS_DEPTH_TARGET.md",
+        "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/references/PREVIOUS_DEPTH_TARGET.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/references/PREVIOUS_THREE_BRIEFS_REVIEW.md",
+        "role": "independent check (Codex): references/PREVIOUS_THREE_BRIEFS_REVIEW.md",
+        "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/references/PREVIOUS_THREE_BRIEFS_REVIEW.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_32.md",
+        "role": "cross-family check of D1-D5 (Claude): CONFIRMED",
+        "sha256": "29b792ba6df4ba8c0de900cdbbcd716efbaaf81614260272d76c13da350ce3ee",
+        "original_path": "/Users/bsm/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_32.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_33.md",
+        "role": "pre-check of the v0.2.6 bank (Claude): the correction of \"no such value computed\"",
+        "sha256": "9322292b6313bdd8e9363bf6101a0621707099f4e84c058b70024f6e0a3b5afe",
+        "original_path": "/Users/bsm/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_33.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/SCOPE_V026D.md",
+        "role": "the governing scope (claims, label, text changes, IN and OUT)",
+        "sha256": "e5b2e92746fc916c383d90bffe9a86d430346faa7ad20d313b73eef8d495df07",
+        "original_path": "/Users/bsm/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/SCOPE_V026D.md"
+      }
+    ],
+    "imports": [
+      "Bullach-Honnor, arXiv:2511.07203v1: Hypothesis 1.2, Theorem 1.4(b), Definition 2.2 (the full element and the total real period) and Proposition 2.4 (the conductor norm relation with factor a_q - u - u^{-1}, which is -(u - 1)^2/u in F_p[G] at a Kato prime)",
+      "B.20 and B.21: a mod-p unit Kurihara witness exists, and r_p = d_p",
+      "residual surjectivity (A.3): the image of G_L contains SL_2(F_p) for every abelian L, so E(L)[p] = 0",
+      "Fitting base change; minimal presentations over the local ring F_p[G], giving Fitt_0 in J^mu; the capped-valuation argument (multiples of p have v_lambda >= p - 1)"
+    ],
+    "depends_on": [
+      "B.20",
+      "B.21",
+      "B.22",
+      "B.24",
+      "A.3"
+    ],
+    "normalization": "theta_K and delta as in B.22 and B.20: the full Bullach-Honnor element and the Castella-Sano symbol, both with the total real period Omega^+ = 2*omega_1 (one half of the production symbol for this seed); v_lambda(lambda) = 1; h_p ranges over all real cyclic degree-p fields at their actual conductors prime to pN and all their faithful characters.",
+    "verification": {
+      "review": "MODEL_CROSS_FAMILY at the deduction level: derived by ChatGPT Pro (OpenAI); independent check by Codex (OpenAI); cross-family check of D1-D5 by Claude Opus 5.5 (Anthropic); no literature-novelty claim; not a human review; not formalized",
+      "review_label": "Derived by ChatGPT Pro (OpenAI). Independent check by Codex (OpenAI): ACCEPT_AT_RETAINED_AND_IMPORTED_THEOREM_GRADE. Cross-family check of D1\u2013D5 by Claude Opus 5.5 (Anthropic). No literature-novelty claim. Not a human review; not formalized.",
+      "derivations": "D1: theta_L mod p lies in J^{d_p} for real abelian p-extensions L of conductor prime to pN. D2: at a minimum unit Kato witness of length d_p, the degree-d_p initial form is delta_n times the product of the inertia variables. D3: min(h_p, p - 1) = min(r_p, p - 1) = min(d_p, p - 1). D5: the existence conditions (i), (ii) and (iii) of the uniform brief v2 are equivalent under the retained inputs. (The return, STATE.json.)"
+    },
+    "qualifications": [
+      "This is an equivalence between existence statements. It does not say that a preselected field, or every field, attains depth two.",
+      "It supplies no witness, no new vanishing prime and no upper bound.",
+      "The strict inequality < 4 and the cap p \u2212 1 are part of the statement.",
+      "The cap is needed: from degree p - 1 on, coefficients divisible by p can have the same or a smaller valuation, so no uncapped equality of h_p with r_p is claimed.",
+      "B.22 is the direction h_p < 4 => Sha(E/Q)[p^infinity] = 0 and is unchanged; the converse is supplied here, through B.24 at the same actual conductor.",
+      "The imported theorems are preprints and are not reproved; B.20, B.21 and the retained seed inputs are used at their grades. The review label records model reviews at their stated scopes."
+    ],
+    "master_ref": "",
+    "post_master": "New since the master record (2026-09-30).",
+    "stop_kind": "",
+    "scope": "",
+    "role": "exact comparison of three existence conditions; no witness",
+    "label": "thm:cmp"
+  },
+  {
+    "id": "B.24",
+    "title": "The two-prime bridge: a two-prime unit witness gives exact character depth two",
+    "statement": "Let p >= 5 be a good prime, let q_1 != q_2 be Kato primes for p (as in B.20), and suppose delta_{q_1 q_2} is a mod-p unit. Let L be the C_p^2 compositum of the degree-p subfields of Q(mu_{q_1}) and Q(mu_{q_2}), and J = (T_1, T_2) the augmentation ideal of F_p[Gal(L/Q)]. In the total-real-period normalization, theta_L = delta_{q_1 q_2} * T_1 T_2 (mod p, J^3). Every cyclic degree-p quotient of L that is nontrivial on both inertia groups (the diagonal quotient is one) has actual conductor q_1 q_2, and each of its faithful characters has exact depth 2.",
+    "kind": "CONDITIONAL",
+    "grades": [
+      "PROVED_WRITTEN",
+      "IMPORTED_PREPRINT"
+    ],
+    "origin": "written deduction from a preprint theorem",
+    "section": "9",
+    "evidence": [
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_II_TWO_PRIME_WITNESS.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): Proposition II.1, the two-prime bridge",
+        "sha256": "32d78ea3358fdd742b8dc0b819c678427cfea66ccd0978ca7ac7f7f1d4bc8df6",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_II_TWO_PRIME_WITNESS.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_I_CHARACTER_DEPTH.md",
+        "role": "uniform-depth v2 return (ChatGPT Pro): Lemma I.1 and Proposition I.4",
+        "sha256": "e089c20bc49bb34022790eea972f321d5231443f736cd615462797f670964d9e",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_I_CHARACTER_DEPTH.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/STATE.json",
+        "role": "derivation D4",
+        "sha256": "a8e56243849690b6ffbfaf49610d80ab9352dc14e760e42a849a82b6a175f660",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/STATE.json"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/RETURN.md",
+        "role": "status REDUCED",
+        "sha256": "0ac1a3a1e3802eca7979484be8dba0568ea52587a2604dc8e104ad17a371f6cf",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/RETURN.md"
+      },
+      {
+        "path": "evidence/src/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/REPORT.md",
+        "role": "independent check (Codex): checks 4 and 6, normalization",
+        "sha256": "9d0f2e794c3e19fe6c4d20751548df5ee12ee564b4075b6783276b371f39623f",
+        "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/REPORT.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_32.md",
+        "role": "cross-family check (Claude): D4",
+        "sha256": "29b792ba6df4ba8c0de900cdbbcd716efbaaf81614260272d76c13da350ce3ee",
+        "original_path": "/Users/bsm/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_32.md"
+      },
+      {
+        "path": "evidence/src/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/SCOPE_V026D.md",
+        "role": "the governing scope, item 2",
+        "sha256": "e5b2e92746fc916c383d90bffe9a86d430346faa7ad20d313b73eef8d495df07",
+        "original_path": "/Users/bsm/BSD_SEED_V026D_COMPARISON_TASK_2026-09-30/inputs/SCOPE_V026D.md"
+      }
+    ],
+    "imports": [
+      "Bullach-Honnor, arXiv:2511.07203v1: Theorem 1.4(b), Definition 2.2 and Proposition 2.4",
+      "the rank-two lower bound d_p >= 2 (R.1) and E(L)[p] = 0 (A.3); the chosen pair need not be minimal"
+    ],
+    "depends_on": [
+      "B.21",
+      "R.1",
+      "A.3"
+    ],
+    "normalization": "delta uses Castella-Sano's symbol Re(2*pi*i * integral of f)/Omega_E^+, where Omega_E^+ = 2*omega_1. That is one half of the production symbol for this seed.",
+    "verification": {
+      "review": "MODEL_CROSS_FAMILY at the deduction level: derived by ChatGPT Pro (OpenAI); independent check by Codex (OpenAI); cross-family check of D1-D5 by Claude Opus 5.5 (Anthropic); no literature-novelty claim; not a human review; not formalized",
+      "review_label": "Derived by ChatGPT Pro (OpenAI). Independent check by Codex (OpenAI): ACCEPT_AT_RETAINED_AND_IMPORTED_THEOREM_GRADE. Cross-family check of D1\u2013D5 by Claude Opus 5.5 (Anthropic). No literature-novelty claim. Not a human review; not formalized.",
+      "derivations": "D4: any two-prime Kato unit witness gives exact character depth 2 at its same actual conductor; every full-support cyclic quotient works. (The return, STATE.json.)"
+    },
+    "qualifications": [
+      "The antecedent is a sufficient witness, not an established fact. This is derivation D4 of the return. No two-prime unit witness is supplied or claimed here.",
+      "A delta computed in the production normalization of the release certificates is twice the delta used here; the factor 2 is a p-unit for p >= 5 but must be recorded.",
+      "The imported theorems are preprints and are not reproved; B.20, B.21 and the retained seed inputs are used at their grades. The review label records model reviews at their stated scopes."
+    ],
+    "master_ref": "",
+    "post_master": "New since the master record (2026-09-30).",
+    "stop_kind": "",
+    "scope": "",
+    "role": "sufficient witness: the explicit construction behind the converse of B.22",
+    "label": "thm:bridge"
+  }
+]

@@ -1,0 +1,4 @@
+# For the user to run when ready. This command launches an Aristotle job.
+# Supply ARISTOTLE_API_KEY through your existing environment, never in this file.
+# Run from the directory containing README_ARISTOTLE.md.
+uvx --from aristotlelib==2.1.0 aristotle submit "Read TASK.md. Run python3 prepare_reference.py, then follow the extracted ARISTOTLE_PROMPT.md. Attempt new arithmetic toward the fixed BSD seed, using the full compendium and correction map. Do not assume the missing bound or return only formalized abstract implications." --project-dir . --wait

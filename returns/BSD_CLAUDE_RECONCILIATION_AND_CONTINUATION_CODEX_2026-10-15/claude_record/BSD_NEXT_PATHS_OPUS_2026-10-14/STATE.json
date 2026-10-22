@@ -1,0 +1,28 @@
+{
+  "folder": "BSD_NEXT_PATHS_OPUS_2026-10-14",
+  "date": "2026-10-14",
+  "author": "Claude Opus 5.5 (single session; independent of the Fable panel's agents)",
+  "verdict": "AUDIT_DONE; NO_ENDPOINT_CHANGE; PANEL_NEXT_ATTACK_IS_CLOSED_LANE",
+  "verified": [
+    "Kim 2609.15328 Thm 1.4 needs no semistability",
+    "valuation law domain = all good ordinary p>=5",
+    "R+- mixing algebra",
+    "tame law at (83,167): R=42, w=39=288 mod 83",
+    "p53: R(53,107)=0; R(53,743)=26, law predicts c2=20 mod 53 (= sealed)"
+  ],
+  "corrected": [
+    "panel section 5 next attack duplicates BSD_EXIT2_ETA_EVEN_ORDER_DESK_2026-10-07 (ETA_AT_POSITIVE_EVEN_ORDER_IS_Q)",
+    "L7 F-side 25 is forced by the proved isogeny identities; independent content is q_A == 1"
+  ],
+  "next_paths": [
+    "1 seed full-level law test (sealed in BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14, ~18 CPU-h)",
+    "2 p53/l743 after Codex review + go 53b (263 CPU-h)",
+    "3 close interrupted Codex class-lift run",
+    "4 not now: bad primes, control panels, Exit-2 congruence lane, more digits of q"
+  ],
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "running_jobs": [],
+  "path1_result": "RUN 2026-10-14: SEALED_PREDICTIONS_7_OF_7_PASS (BSD_SEED_FULL_LEVEL_LAW_TEST_2026-10-14)"
+}

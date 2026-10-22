@@ -1,0 +1,22 @@
+{
+  "input_archive": {
+    "supplied_path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/34BAFFD9-5D1C-49ED-A235-DC69BC379BA0/1-BSD_FINITE_SOURCE_PALETTE_2026-10-12.zip",
+    "sha256": "95ac7fd0d69fc15335654b86dd814b7e9ca598ea55085082349f59a729231076",
+    "bytes": 19306,
+    "zip_test": null
+  },
+  "author_branch": "research/finite-source-palette-2026-10-12",
+  "author_commit": "5110be8805f202ebc9a4a112ec0854fd764a620c",
+  "review_baseline_commit": "581f7a26a1d110bcd6131739f94569e4810a719e",
+  "reviewed_files": [
+    "submitted/BSD_FINITE_SOURCE_PALETTE_2026-10-12/PROOF.md",
+    "submitted/BSD_FINITE_SOURCE_PALETTE_2026-10-12/REPORT.md",
+    "submitted/BSD_FINITE_SOURCE_PALETTE_2026-10-12/SOURCES.md",
+    "submitted/BSD_FINITE_SOURCE_PALETTE_2026-10-12/REVIEW_NOTES.md"
+  ],
+  "period_receipt_bindings": "PERIOD_BINDINGS.json",
+  "local_source_cache_excluded": [
+    "tmp/"
+  ],
+  "review_scope": "Literal image lattice, exact period/source binding, smoothing coverage, full ordinary interpolation and composition with retained certificate. No complete re-audit of the antecedent Kato or seed chain."
+}

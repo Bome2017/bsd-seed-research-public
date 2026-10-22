@@ -1,0 +1,27 @@
+{
+  "input_manifest_entries": 7,
+  "source_git_blobs_verified": [
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/REPORT.md",
+      "git_blob": "d4559903978a06ca3a13bc5f510e5ce304f01b89"
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/theory/DESCENT_FUNCTION_AND_NONTRIVIALITY.md",
+      "git_blob": "644a4418f43e9f5d964504322afb9d229522ad00"
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/AUDIT.md",
+      "git_blob": "fb032f2e93ba80665eeb8563a07f4b366e7e706e"
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/implementation/FISHER_MODEL.json",
+      "git_blob": "958b527a1fd016feb06571d4ae10755d2e408546"
+    },
+    {
+      "path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/implementation/CONSTRUCTION.md",
+      "git_blob": "eb1fdd490f1c6f408b03f40f7ba993702252a46e"
+    }
+  ],
+  "replay_output_semantically_identical": true,
+  "replay_output_byte_identical": true
+}

@@ -1,0 +1,3 @@
+  ***   at top-level: alarm(57);gettime();C=read("raw_point_data.gp"
+  ***                                       ^------------------------
+  *** read: error opening input file: `raw_point_data.gp'.

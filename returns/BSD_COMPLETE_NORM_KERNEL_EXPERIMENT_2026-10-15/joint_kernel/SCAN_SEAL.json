@@ -1,0 +1,6 @@
+{
+  "contract_sha256": "06e838570b12ad2eb515e43a1530f4280ddbacdab8d1016067ad7d4497792a5c",
+  "script_sha256": "8207f5be9c81d615e8c673121bec24dd5d5e88d025f76b573e9f94c3f81aba68",
+  "superseded_unexecuted_script_sha256": "cf2e8cd68ffd629aea6a787f90b6032e3dbcc2598f5491eb08c6436f31bbf8f6",
+  "repair_before_execution": "Set explicit1GB maximum stack; stdin runner accepts default command"
+}

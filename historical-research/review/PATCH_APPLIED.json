@@ -1,0 +1,32 @@
+{
+  "base_commit": "e8af0b76db3cec7c2610355babc4da25c8396be1",
+  "release_tag": "v0.2.1-private-review",
+  "patch_sha256": "495b8353bfc9bdb98695312a48e42069bf6ec5d0ef38f7dca8884440ee9ad8fc",
+  "mathematical_source_edits": {
+    "paper/sections/F_lattice_proof.tex": {
+      "before": "f68708597503923ebb380142272dc581e23347df4d406b94e9561959206eccf2",
+      "after": "eab78bd1672902101facd2e6eb2fa22f19c1b63ebb41028971f9c375e112eeca"
+    },
+    "paper/sections/03_rank.tex": {
+      "before": "3eaf61c394680da56285af5c7c346d2a996055a59b205a92adab567c96f889a1",
+      "after": "b99b0ed8f5f084c1b4b2904ef3f6c328a56c99e10fbf7a0d6aaf2640e52d8f4f"
+    },
+    "paper/refs.bib": {
+      "before": "36c66558bf7ebb96fdbc695913ba25dea14b16d8329acaeba6a10d0745bb666d",
+      "after": "c8dc232a5b63ebb398c7da40e935e9dd9820144f4a0a053b0d060838ce3f4b2a"
+    }
+  },
+  "unchanged": {
+    "claims/claims.json": "5db652a5cb96c50710cbef88829bd153265fe998eecc66cb6667f593e39dc5f0",
+    "claims/CLAIM_INDEX.md": "7e6b1b84c9990e12ec4e40871efe02549535b0cb18aa64d36e517ee34bdd2fbe",
+    "evidence/PROVENANCE.tsv": "2407756aca058b15c1dae0942e2064fd88aa30d45d760cf58d4b4529ee9a49f1",
+    "tools/verify_release.py": "f35f0c31916eb2036831d6ac11964c7e01712a85bd305558620336ebf6f93b07",
+    "review/REVIEW_BINDINGS.json": "f1cf5a37299c58ada46b5c7806493304e920ddf0c06aced392b792d410283de4"
+  },
+  "review_binding_transition": {
+    "original": "review/history/v0.2.0/SECOND_REVIEW_BINDINGS.json",
+    "original_sha256": "5c47a66330d3a8a4bc6979124cdb222ddb3fec5591856bb1d7901fbc293cd93d",
+    "change": "Redirect only the old SHARING.md entry to a byte-identical historical copy; current navigation receives a new binding."
+  },
+  "status": "THREE_VERIFIED_CORRECTIONS_APPLIED; no claim-grade promotion"
+}

@@ -1,0 +1,60 @@
+{
+  "author_commit": "8365c394f1017280a6463d7f25afac2e321c0c25",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "sha256": "927f769eda401620ebfb815502214d49dc9d6c0f16140d42af8fbf847633e310",
+      "author_bytes_match": true
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "266972c567f08acd3c2843db8b83edf7db37e22813875111e364a3eb5839ded7",
+      "author_bytes_match": true
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "cdb7b20bce16096798313835a32754c0cfa01fdf68b7ba3a80edde07658c3270",
+      "author_bytes_match": true
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "482cc95fa18a6350efaeed1a4b86329a8282c344b73529c7df6a033528f0524b",
+      "author_bytes_match": true
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "15a28d18ea0e36614ec6b4aacc0d350d57f79dc8181aa8b65bd8a5df5375e9a0",
+      "author_bytes_match": true
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "sha256": "53bb7448d8402d28821064cb190f428416cf7980d7d4fb4910f010b51ec663fa",
+      "author_bytes_match": true
+    },
+    {
+      "path": "checks/RESULTS.json",
+      "sha256": "5f28674f0348bdbf4c3478a1bd7dea0766ab6507074413a02c09723cb829fb76",
+      "author_bytes_match": true
+    },
+    {
+      "path": "checks/verify.py",
+      "sha256": "b837747aae5e9477ed7e61a91c1c5e291ab44562c7d669810fd56efa05dfd76b",
+      "author_bytes_match": true
+    },
+    {
+      "path": "inputs/SYMBOLS_m25.txt",
+      "sha256": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e",
+      "author_bytes_match": true
+    }
+  ],
+  "manifest_entries_verified": 8,
+  "source_blob_bindings_verified": 5,
+  "checker_exit": 0,
+  "replay_byte_identical": true,
+  "source_bytes_are_not_math_certification": true,
+  "archive": {
+    "supplied_path": "/tmp/codex-remote-attachments/01a0babf-f722-7ec3-91ee-247d46b59e8b/A2F8C952-11D6-45EB-AD0E-3A393B97E6DF/1-BSD_QUINTIC_RELATIVE_LEADING_TERM_2026-10-12.zip",
+    "sha256": "855425f9d2ab43e08d65aa9cdd960fd587e0bf3b97f9c9181644bf99636b2392",
+    "integrity": "PASS"
+  }
+}

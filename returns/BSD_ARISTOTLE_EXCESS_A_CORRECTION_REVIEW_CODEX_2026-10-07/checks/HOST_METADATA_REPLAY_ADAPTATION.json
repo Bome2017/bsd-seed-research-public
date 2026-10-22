@@ -1,0 +1,10 @@
+{
+  "original_script": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/review_completion.py",
+  "original_script_sha256": "edc51513ccbb80a67c87a94d6d5e7b876fb0de97003e63ecb2016b60bc67c281",
+  "sole_change": {
+    "from": "(R/\"COMPLETION_REVIEW.json\").write_text",
+    "to": "(OUT/\"HOST_METADATA_REPLAY.json\").write_text"
+  },
+  "historical_certificate_files_modified": false,
+  "scope": "Hash, identity, count and historical-log replay; not a fresh full numerical sum"
+}

@@ -1,0 +1,16 @@
+{
+  "stage": "construct",
+  "status": "FAILED",
+  "elapsed_seconds": 120.082579542,
+  "returncode": 0,
+  "outer_seconds": 130,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "a4278f8d64c24d6bc02b352f6c78884f47d50e16735264dd63ff258f4e51fc40",
+  "errors": [
+    "  ***   at top-level: read(\"construct.gp\")",
+    "  ***                 ^--------------------",
+    "  ***   in function read: R=read(\"reduction.gp\");B=bnfinit(R[5],0);write",
+    "  ***                                              ^---------------------",
+    "  *** bnfinit: alarm interrupt after 1min, 59,730 ms."
+  ]
+}

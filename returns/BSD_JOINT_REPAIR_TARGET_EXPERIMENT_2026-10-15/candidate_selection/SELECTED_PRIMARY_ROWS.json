@@ -1,0 +1,90 @@
+{
+  "commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f",
+  "files": [
+    {
+      "path": "allbsd/allbsd.00000-09999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbsd/allbsd.00000-09999",
+      "downloaded_bytes": 6307455,
+      "downloaded_sha256": "b078b5226d276fbc64289833abfd8430e3f5969c657bc32f94db546e8f96e8fd",
+      "selected_rows": [
+        {
+          "line_number": 10695,
+          "raw": "1913 b 1 [1,1,0,-34,-135] 0 2 2 0.952073197177526 4.28432938729887 1.00000000000000 9",
+          "label": "1913b1"
+        },
+        {
+          "line_number": 10696,
+          "raw": "1913 b 2 [1,1,0,-39,-112] 0 2 1 1.90414639435505 4.28432938729887 1.00000000000000 9",
+          "label": "1913b2"
+        },
+        {
+          "line_number": 14049,
+          "raw": "2429 b 1 [1,1,0,-115,-528] 0 2 2 0.727907276168882 3.27558274275997 1.00000000000000 9",
+          "label": "2429b1"
+        }
+      ]
+    },
+    {
+      "path": "allbsd/allbsd.20000-29999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbsd/allbsd.20000-29999",
+      "downloaded_bytes": 6799449,
+      "downloaded_sha256": "c95d5d1e9eab0f969903e7c66b5dc1102a8fe0b1c82f9c36921c7b21a6cfde5c",
+      "selected_rows": [
+        {
+          "line_number": 53618,
+          "raw": "28042 a 1 [1,-1,0,-1367381,615777525] 1 2 4 0.479930591184125 3.93476977468990 0.910958062818048 9.00000000000000",
+          "label": "28042a1"
+        },
+        {
+          "line_number": 53619,
+          "raw": "28042 a 2 [1,-1,0,-21878101,39393344757] 1 2 2 0.479930591184125 3.93476977468990 1.82191612563610 9.00000000000000",
+          "label": "28042a2"
+        }
+      ]
+    },
+    {
+      "path": "allbsd/allbsd.30000-39999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbsd/allbsd.30000-39999",
+      "downloaded_bytes": 6786195,
+      "downloaded_sha256": "deee6a4e6d1a4975d097c6f4b5647463287647c780c40ee72c7dfc816a3a1e58",
+      "selected_rows": [
+        {
+          "line_number": 39603,
+          "raw": "35882 a 1 [1,-1,0,-156926,-24991340] 1 2 8 0.119555512006779 3.66895746308418 1.70490650535448 9.00000000000000",
+          "label": "35882a1"
+        }
+      ]
+    },
+    {
+      "path": "allgens/allgens.20000-29999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allgens/allgens.20000-29999",
+      "downloaded_bytes": 3571204,
+      "downloaded_sha256": "925107385e14e0b425688fa864afa799c8b4dba195a622f2920b8cfeb2d64ca2",
+      "selected_rows": [
+        {
+          "line_number": 53618,
+          "raw": "28042 a 1 [1,-1,0,-1367381,615777525] 1 [2] [653:675:1] [-1350:675:1]",
+          "label": "28042a1"
+        },
+        {
+          "line_number": 53619,
+          "raw": "28042 a 2 [1,-1,0,-21878101,39393344757] 1 [2] [2701:-1373:1] [21606:-10803:8]",
+          "label": "28042a2"
+        }
+      ]
+    },
+    {
+      "path": "allgens/allgens.30000-39999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allgens/allgens.30000-39999",
+      "downloaded_bytes": 3611256,
+      "downloaded_sha256": "eef6d75665112a88244fb1ae7e06019f8e4a8e59bfa47db466aa9e12a9630ca0",
+      "selected_rows": [
+        {
+          "line_number": 39603,
+          "raw": "35882 a 1 [1,-1,0,-156926,-24991340] 1 [2] [693:13750:1] [460:-230:1]",
+          "label": "35882a1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "disegni_zhang": {
+    "regex": "2410.08401|Disegni.*Zhang",
+    "searched": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md"
+    ],
+    "exit": 0,
+    "matches": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:54608:- **Fresh lane H08: abstract/title-level exclusions and already-recorded ids** (UNKNOWN, 2026-09-29): Excluded at abstract level: 2605.09251 Wei-Zhai (quadratic-twist Taylor coefficients); 2603.14234 Deng-Li (rank one, Z_2); 2609.23847 Beckwith-Ho\u00e0ng (rank-0 CM twists); 2412.20078 Yan-Zhu (rank <= 1; J. Algebra to appear); 2409.01350 BSTW (rank <= 1); 2603.20886 Burungale-Skinner-Wan (opened: log_omega(x) != 0 in char 0; Ann. Math. Qu\u00e9. to appear); 2605.01646 Y. Liu (first-derivative special divisors); 2609.34589 Kataoka (derived Hecke algebras); 2601.21519 Banwait-Caro-Chidambaram (visibility); title-only UNCHECKED: 2609.26786, 2402.17656, 2412.00688, 2602.02492, 2408.04375, 2410.08401, 2503.09955, 2412.02303, 2511.08793, 2605.26917, 2403.01498, 2503.09034, 2605.29783, 2603.12357. Record already holds: 2609.15328, 2609.13088, 2609.08431, 2511.07203, 2505.09121, 2505.09125, 2603.23978, 2504.20759, 2412.16629, 2412.17703, 2609.13063, 2608.29337, 2608.26791, 2603.15795, 1910.07404, 2103.11535 (BKS II = IMRN 2025), 2203.12159/12161. Evidence: `~/BSD_UNIFORM_STEP_FRESH_RETURN_OPUS_2026-09-29/hits/H08_ABSTRACT_LEVEL_EXCLUSIONS.md`. [unit E17-145]"
+    ]
+  },
+  "height_difference": {
+    "regex": "2609.35626",
+    "searched": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md"
+    ],
+    "exit": 0,
+    "matches": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:40937:Opus lane 6: 2024\u201326 sweep (33 monthly listings, 11,019 listing entries per pages' totals; 7 papers at theorem level); no new route. Theorem-level hits verified by Fable at arXiv: 2510.10277 Van Order (first-derivative formula; Cor 1.3 ord=1 hypothesis fails for seed since ord L(E/K,s) \u2265 2), 2603.28327 Fornea (plectic Heegner classes), 2608.29470 Castella\u2013Liu\u2013Wan (Thm A \"N is squarefree\" \u2014 fails for seed; WATCH), 2509.13894 Bullach\u2013Burns (\"L(E/K,s) does not vanish at s=1\"), 2609.35626 Adachi\u2013Katagiri\u2013Shii, 2607.07531 Bieker, 2608.07173 Feng\u2013Yun\u2013Zhang (function fields). Castella\u2013Sano 2601.14504 already in record. Wording correction: H08's nine abstract-level items are TRIAGE, UNCHECKED at theorem level (never exclude from an abstract). Part (b) correctly not run. A cross-model re-sweep owed (spot-check can't rule out false negatives).",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:41112:A2 (Fable) CONFIRMED by Claude: regcheck.gp rerun identical; ord_p Reg_\u03b3 = 0 at good ordinary p in 5\u201347 except ord_17 = 1 (numeric, precision 12, not a certificate). Burungale\u2013Disegni 1803.09268 l.60: nondegeneracy \"is not known in any cases of rank higher than 1\" (verbatim). Adachi\u2013Katagiri\u2013Shii 2609.35626 Cor 1.3 hypotheses (Hyp 1\u20134, (i) \u03b1 \u2260 \u03b2, (ii) nonzero localization) hold at EVERY good p (ordinary included); conclusion only \"N_\u03b1 or N_\u03b2 is non-trivial\" \u2014 not the unit-root pairing and not det \u2260 0. Withdrawal sweep: A2's 10 source ids none withdrawn.",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:42941:Adachi-Katagiri-Shii arXiv 2609.35626 (v1, 2026-09-28; PREPRINT), Cor 1.3 (= Cor 3.18): assuming alpha != beta and nonzero localization at p, either <,>_{N_alpha} or <,>_{N_beta} is non-trivial; h_{N_alpha}(P) - h_{N_beta}(P) = c\u00b7log_E(P)^2, c != 0. Hypotheses (Hyp 4 <=> no p-ordinary CM) hold for the seed at EVERY good p, so for each non-torsion P, h_{N_alpha}(P) != h_{N_beta}(P). Corrects LANE6 H06 (\"one fixed nonordinary p\"): only Cor 1.5 is non-ordinary. Still not O3/F4 (non-triviality, not det != 0; does not say which splitting at ordinary p).",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:42960:- /Users/bsm/BSD_UNIFORM_A2_PADIC_HEIGHT_RETURN_FABLE_2026-09-29/sources/S09_AdachiKatagiriShii_2609.35626.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:43518:- /Users/bsm/BSD_UNIFORM_STEP_FRESH_RETURN_OPUS_2026-09-29/hits/H06_ADACHI_KATAGIRI_SHII_2609.35626.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:663:**Statement.** A2 (Fable) CONFIRMED by Claude: regcheck.gp rerun identical; ord_p Reg_\u03b3 = 0 at good ordinary p in 5\u201347 except ord_17 = 1 (numeric, precision 12, not a certificate). Burungale\u2013Disegni 1803.09268 l.60: nondegeneracy \"is not known in any cases of rank higher than 1\" (verbatim). Adachi\u2013Katagiri\u2013Shii 2609.35626 Cor 1.3 hypotheses (Hyp 1\u20134, (i) \u03b1 \u2260 \u03b2, (ii) nonzero localization) hold at EVERY good p (ordinary included); conclusion only \"N_\u03b1 or N_\u03b2 is non-trivial\" \u2014 not the unit-root pairing and not det \u2260 0. Withdrawal sweep: A2's 10 source ids none withdrawn.",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:23503:**Statement.** Opus lane 6: 2024\u201326 sweep (33 monthly listings, 11,019 listing entries per pages' totals; 7 papers at theorem level); no new route. Theorem-level hits verified by Fable at arXiv: 2510.10277 Van Order (first-derivative formula; Cor 1.3 ord=1 hypothesis fails for seed since ord L(E/K,s) \u2265 2), 2603.28327 Fornea (plectic Heegner classes), 2608.29470 Castella\u2013Liu\u2013Wan (Thm A \"N is squarefree\" \u2014 fails for seed; WATCH), 2509.13894 Bullach\u2013Burns (\"L(E/K,s) does not vanish at s=1\"), 2609.35626 Adachi\u2013Katagiri\u2013Shii, 2607.07531 Bieker, 2608.07173 Feng\u2013Yun\u2013Zhang (function fields). Castella\u2013Sano 2601.14504 already in record. Wording correction: H08's nine abstract-level items are TRIAGE, UNCHECKED at theorem level (never exclude from an abstract). Part (b) correctly not run. A cross-model re-sweep owed (spot-check can't rule out false negatives).",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:30976:**Statement.** Adachi-Katagiri-Shii arXiv 2609.35626 (v1, 2026-09-28; PREPRINT), Cor 1.3 (= Cor 3.18): assuming alpha != beta and nonzero localization at p, either <,>_{N_alpha} or <,>_{N_beta} is non-trivial; h_{N_alpha}(P) - h_{N_beta}(P) = c\u00b7log_E(P)^2, c != 0. Hypotheses (Hyp 4 <=> no p-ordinary CM) hold for the seed at EVERY good p, so for each non-torsion P, h_{N_alpha}(P) != h_{N_beta}(P). Corrects LANE6 H06 (\"one fixed nonordinary p\"): only Cor 1.5 is non-ordinary. Still not O3/F4 (non-triviality, not det != 0; does not say which splitting at ordinary p).",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:53193:**Evidence:** `~/BSD_UNIFORM_STEP_FRESH_RETURN_OPUS_2026-09-29/hits/H06_ADACHI_KATAGIRI_SHII_2609.35626.md`, `~/BSD_UNIFORM_STEP_FRESH_RETURN_OPUS_2026-09-29/RETURN.md:22` [unit E17-143]"
+    ]
+  },
+  "tame_periods": {
+    "regex": "2606.02254|Llerena",
+    "searched": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md"
+    ],
+    "exit": 0,
+    "matches": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:29804:Bounded sweep (20 searches + 19 fetches = 39 calls): A1 Bullach-Honnor arXiv:2511.07203 (Thm 1.4 theta^{MT,#}_K \u2208 Fitt^0; Hyp 1.2 p>3, image \u2287 SL_2(Z_p); per-p; rank remark is Thm 1.7); A2 C.-H. Kim arXiv:2609.15328 (semistable only; seed not semistable); Banwait arXiv:2609.08431 (rank-two CM only; Lean 4 formalisation of first equivalence \u2014 closest analogue to A4/A5); Destrempes-Malinin arXiv:1703.02215 refuted in project claim X.3 (OBSTRUCTION / DEFECTIVE_SOURCE: in Q(i), 4+i lies above 17 with trace 8); new second-tier: Angurel 2504.20759, 2605.26917, Lei-Zhao 2609.13088, Forr\u00e1s-Lei 2609.13063, Lei-Pollack-Pratap 2412.16629, Mastella-Matar-Zerman 2608.29337, C.-H. Kim 2505.09125, Llerena-C\u00f3rdova 2412.17703 (Mazur-Tate normalisation caution before defining LINE's m_p). Top items already in FIN_FRONTIER.md with same verdict. Verdict bounded, not an impossibility statement.",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:21611:**Statement.** Bounded sweep (20 searches + 19 fetches = 39 calls): A1 Bullach-Honnor arXiv:2511.07203 (Thm 1.4 theta^{MT,#}_K \u2208 Fitt^0; Hyp 1.2 p>3, image \u2287 SL_2(Z_p); per-p; rank remark is Thm 1.7); A2 C.-H. Kim arXiv:2609.15328 (semistable only; seed not semistable); Banwait arXiv:2609.08431 (rank-two CM only; Lean 4 formalisation of first equivalence \u2014 closest analogue to A4/A5); Destrempes-Malinin arXiv:1703.02215 refuted in project claim X.3 (OBSTRUCTION / DEFECTIVE_SOURCE: in Q(i), 4+i lies above 17 with trace 8); new second-tier: Angurel 2504.20759, 2605.26917, Lei-Zhao 2609.13088, Forr\u00e1s-Lei 2609.13063, Lei-Pollack-Pratap 2412.16629, Mastella-Matar-Zerman 2608.29337, C.-H. Kim 2505.09125, Llerena-C\u00f3rdova 2412.17703 (Mazur-Tate normalisation caution before defining LINE's m_p). Top items already in FIN_FRONTIER.md with same verdict. Verdict bounded, not an impossibility statement.",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:57333:- **Literature sweep 09-24: NO_NEW_INPUT_FOUND** (SUPPORTED, 2026-09-24): literature_sweep/: NO_NEW_INPUT_FOUND. Top items (Bullach-Honnor, Banwait, Kim 2609.15328) already in FIN_FRONTIER with the same verdict; Destrempes-Malinin refuted in X.3. New but second-tier: Llerena-Cordova 2412.17703 (Mazur-Tate normalisation caution). Scope: bounded sweep. [memory note; verify against the record \u2026 [unit M2-030]"
+    ]
+  },
+  "new_video": {
+    "regex": "E12a-160",
+    "searched": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md"
+    ],
+    "exit": 0,
+    "matches": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:32637:## E12a-160 \u2014 Clay BSD workshop, Oxford (21-25 Sep 2026): no new usable theorem",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:25585:- **Clay BSD workshop, Oxford (21-25 Sep 2026): no new usable theorem** (CLOSED_NEGATIVE, 2026-09-29, SEED): Checked 2026-09-25: event page and abstracts PDF (13 talks); no slides/videos posted; re-check 09-29 (Fable coordinator): still only schedule, abstracts, timetable PDFs. No new usable theorem for FIN, ORDER9 or Q36 on the seed. Talks: Burungale (Sylvester; \u2026 See \u00a714. [unit E12a-160]",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:52927:**Evidence:** `~/BSD_BUILD_MAP/WATCHLIST.md:10-28`, `~/BSD_BUILD_MAP/WATCHLIST.md:52-55` [unit E12a-160]"
+    ]
+  },
+  "theta_watch": {
+    "regex": "E12a-161",
+    "searched": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md"
+    ],
+    "exit": 0,
+    "matches": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:32654:## E12a-161 \u2014 Watch: Burungale-Sangiovanni Vincentelli theta classes; Ohta generalization",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:52937:**Evidence:** `~/BSD_BUILD_MAP/WATCHLIST.md:30-41`, `~/BSD_BUILD_MAP/WATCHLIST.md:56-59` [unit E12a-161]",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:56450:- **Watch: Burungale-Sangiovanni Vincentelli theta classes; Ohta generalization** (OPEN, 2026-09-29, SEED): Burungale-Sangiovanni Vincentelli, \"theta classes on modular curves and Euler systems\": new Euler systems for modular forms over an imaginary quadratic field with no local condition at p and a \"rank 0 p-adic Gross-Zagier formula\". Not on arXiv; \u2026 See \u00a714. [unit E12a-161]"
+    ]
+  },
+  "wang_diagonal": {
+    "regex": "2607.25237",
+    "searched": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md"
+    ],
+    "exit": 0,
+    "matches": [
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/HISTORICAL_STOPS_AND_CORRECTIONS.md:43639:LTXZZ arXiv 1912.11942v3 Thm 1.1.1: A, A' over F+ != Q, L(n, Sym^{n-1}A_F \u00d7 Sym^n A'_F) != 0 \u21d2 that Bloch-Kato Selmer group vanishes for all but finitely many l; Thm 1.1.9: nonzero diagonal-cycle class \u21d2 Selmer dimension 1. Li-Liu 2006.06139v5 Thm 1.5: L'(1/2,pi) != 0 \u21d2 pi-localized Chow group nonzero. Yun-Zhang Thm 1.2 function fields. Z. Wang 2607.25237 abstract: number-field analogue a \"conjectural picture\". Fable: FAIL (rank <= 1 only; function fields). Codex CONFIRMED_WITH_CORRECTIONS: LTXZZ is already uniform in the coefficient prime (rational Selmer vanishing for almost all primes for a specified higher-rank tensor motive) but is not about E's integral primary torsion; Li-Liu is a first-derivative Chow nonvanishing result, not a universal rank <= 1 statement; withdraw a blanket rank-at-most-one characterization.",
+      "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/FULL_COMPENDIUM_2026-10-01.md:24665:**Statement.** LTXZZ arXiv 1912.11942v3 Thm 1.1.1: A, A' over F+ != Q, L(n, Sym^{n-1}A_F \u00d7 Sym^n A'_F) != 0 \u21d2 that Bloch-Kato Selmer group vanishes for all but finitely many l; Thm 1.1.9: nonzero diagonal-cycle class \u21d2 Selmer dimension 1. Li-Liu 2006.06139v5 Thm 1.5: L'(1/2,pi) != 0 \u21d2 pi-localized Chow group nonzero. Yun-Zhang Thm 1.2 function fields. Z. Wang 2607.25237 abstract: number-field analogue a \"conjectural picture\". Fable: FAIL (rank <= 1 only; function fields). Codex CONFIRMED_WITH_CORRECTIONS: LTXZZ is already uniform in the coefficient prime (rational Selmer vanishing for almost all primes for a specified higher-rank tensor motive) but is not about E's integral primary torsion; Li-Liu is a first-derivative Chow nonvanishing result, not a universal rank <= 1 statement; withdraw a blanket rank-at-most-one characterization."
+    ]
+  }
+}

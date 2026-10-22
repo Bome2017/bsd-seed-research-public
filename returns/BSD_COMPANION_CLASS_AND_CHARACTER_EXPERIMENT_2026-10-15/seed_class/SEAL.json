@@ -1,0 +1,7 @@
+{
+  "contract_sha256": "a3de4fff13012a436e122869a36b50cf6b3f376f0dcd34eb8413e506478cd8fd",
+  "before_class_arithmetic": true,
+  "bnfinit_seconds": 120,
+  "bnfcertify_seconds": 180,
+  "pari_stack_limit": 1000000000
+}

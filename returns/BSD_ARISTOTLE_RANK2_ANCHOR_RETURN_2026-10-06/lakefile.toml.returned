@@ -1,0 +1,19 @@
+name = "RequestProject"
+defaultTargets = ["Rank2Anchor"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.28.0"
+
+# The original library entry below was rejected by Lake ("expected glob": the hyphen in
+# `2026-10-06` is not a valid module-name component). The packet's Lean files are kept
+# unchanged as read-only reference sources; they were recompiled separately (see
+# `BSD_SEED_FRONTIER_2026-10-06/3_LIVE_QUESTION/lean/LEAN_RECOMPILE.txt`).
+# [[lean_lib]]
+# name = "BSD_SEED_FRONTIER_2026-10-06"
+# globs = ["BSD_SEED_FRONTIER_2026-10-06.+"]
+
+[[lean_lib]]
+name = "Rank2Anchor"
+globs = ["Rank2Anchor.+"]

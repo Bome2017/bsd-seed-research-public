@@ -1,0 +1,17 @@
+MERGE checkpoints 1 units 5 selected 5 missing 0 terms 7533358
+FINGERPRINT sum_units 371fa80667f516e5 array 371fa80667f516e5 match 1
+COUNT smooth 5644629 pairs 11132586 sum 16777215 T 16777215 identity 1
+AP_SEGROOT_SHA256 a77abb0c95739dd47bb537816a845eec2a2ea371d234587ffcbec9eaac1cd3ad segments 1
+CHUNK_DIGEST ec5b0af1b14bb6bbe021d2ca48a64676c594c0b71563e0b15d6154524d43a583
+ROUNDING_ERR_TOTAL [1.901686916e-22 +/- 4.06e-32]
+TAIL_MS_UPPER_TIMES2 6477058.866
+OMEGA_PLUS [0.0280449015194364044483094018079 +/- 3.04e-32]
+OMEGA_MINUS [0.0305556264963434249561173450733 +/- 1.88e-32]
+SYMBOL_RADIUS_BUDGET plus: tail 2tail/Omega+ 2.30953e+8 + rounding 2E/Omega+ 1.35617e-20 (+ transform rounding, printed per symbol) vs threshold 1/(2 LATDEN) 0.000488281
+DFT length 2243 seconds 0.06
+SYMBOLS_FILE /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/adv/m2243_s-1/symbols.bin records 2242 sha256 e34adb1b67d1f7716463505cd92dacf95a4359df1295e90613b50cf70c55dd27 (record: i64 b, i64 plus cand, i64 minus cand, u8 flags c+|u+<<1|c-<<2|u-<<3)
+SYMBOL_PASS seconds 0.01 path dft
+XB_PLUS_DETERMINED 0 of 2242 (lattice 1/1024 Z)   minus determined 0   max plus radius 2.309532e+08 (unique iff < 4.882812e-04)
+real 0.07
+user 0.06
+sys 0.00

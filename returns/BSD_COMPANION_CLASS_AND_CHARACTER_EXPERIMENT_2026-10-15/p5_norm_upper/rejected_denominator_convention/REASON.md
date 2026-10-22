@@ -1,0 +1,1 @@
+PARI denominator(polynomial) returns polynomial 1; denominator(polynomial,1) gives coefficient LCM. This caused non-JSON rational entries and made the prime filter compare polynomial remainders. No arithmetic conclusion accepted; corrected within same search bound.

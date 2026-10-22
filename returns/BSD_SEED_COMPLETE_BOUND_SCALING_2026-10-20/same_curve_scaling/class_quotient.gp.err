@@ -1,0 +1,4 @@
+  ***   at top-level: ...me();B=read("bnf.bin");Q=bnfcertify(B,1);if(Q!
+  ***                                             ^---------------------
+  *** bnfcertify: alarm interrupt after 1min, 49,821 ms.
+... skipping file '/Users/bsm/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/same_curve_scaling/class_quotient.gp'

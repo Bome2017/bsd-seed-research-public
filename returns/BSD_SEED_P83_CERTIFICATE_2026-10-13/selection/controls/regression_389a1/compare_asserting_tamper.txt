@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/sage", line 3, in <module>
+    from sage.cli.__main__ import main
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/python3.13/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/python3.13/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/python3.13/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/kp/6_xhp0jd2bngj728lwbzkl7w0000gn/T/sage_n0xik8vy/compare_assertingutzrydb7.sage.py", line 23, in <module>
+    assert all(plus[b] == exact[b] for b in units), f"l={l}: pipeline symbols != exact eclib symbols"
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: l=29: pipeline symbols != exact eclib symbols
+tamper exit 1

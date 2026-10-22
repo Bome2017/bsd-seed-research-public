@@ -1,0 +1,152 @@
+{
+  "checked_at_utc": "2026-09-20T01:34:50.778387+00:00",
+  "download_manifest_checks": [
+    {
+      "file": "Jones1989_extra_zeros.ps",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Jones1990_heights.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Skinner2014_arxiv.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "SkinnerUrban_MC.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Skinner2016_published.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "ChidaHsieh_1204.2427v3.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Vatsal2003.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "PollackWeston_math0610694.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Agashe_0810.5176.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "ARS_moddeg3.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Helm_math0401265.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Wang_2006.11640.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "CH_erratum.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Ribet1990_invent100.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Ribet_hk.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Agashe_0810.5176v1.pdf",
+      "matches_download_manifest": true
+    },
+    {
+      "file": "Wiles1995.pdf",
+      "matches_download_manifest": true
+    }
+  ],
+  "all_match": true,
+  "sources_retrieved_live": false,
+  "source_basis": "Locally bound primary sources plus the retained Stein-Wuthrich source; one exact-proposition Euler-factor web check, no literature sweep.",
+  "visual_checks": [
+    "Wiles pp. 479,480,482",
+    "Ribet 1990 pp. 439-447",
+    "Jones 1989 author copy logical pp. 11,18",
+    "Jones 1990 p. 49",
+    "Chida-Hsieh p. 29",
+    "Skinner-Urban p. 194",
+    "Skinner-Urban pp. 201-202, Euler-factor display and Proposition 12.3.6 proof"
+  ],
+  "text_checks": [
+    "Jones 1989 author copy sections 1-3, logical pp. 1-8,11-12,17-18",
+    "Jones 1990 pp. 31-33,49",
+    "Ribet component groups sections 3-4, pp. 5-7",
+    "Chida-Hsieh pp. 1-3,5-6,9-13,19-20,22,25-26,28-29,33",
+    "Skinner-Urban sections 3.3.3,8.1.3,11.7,12.2.1-12.2.2,12.3.5 and Proposition 12.3.6",
+    "Stein-Wuthrich sections 4.1-4.2 and Theorem 6.1, author-copy pp. 14-16,20",
+    "Pollack-Weston sections 6.2 and 6.3, used as a mechanism comparison only",
+    "Skinner-Urban pp. 15,36-37,199-202: Euler norm, mandatory Sigma and specialization unit coefficient"
+  ],
+  "narrow_web_check": {
+    "queries": [
+      "Skinner Urban \"12.3.6\" Euler factors",
+      "Skinner Urban Iwasawa main conjectures GL2 errata 12.3.5 inert"
+    ],
+    "primary_source_identified": "https://www.math.columbia.edu/~urban/eurp/MC.pdf",
+    "new_source_downloaded": false,
+    "reconciliation_adopted": false,
+    "exhaustive_erratum_search": false
+  },
+  "generated_source_pages": [
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/CH29-29.png",
+      "sha256": "41d92f8f3f39c19ab941225700a696119bcf52005d858dabc1db07728bc57ec2"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet442_444-13.png",
+      "sha256": "1ad7e6ba3368608908e57ff2bd73882803e15beb1a7c351e2bc69cc622997740"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet442_444-14.png",
+      "sha256": "72ad95d2a65119210ddd55532ac9267b945c59f8037ee0358ea5a1c31522f500"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet442_444-15.png",
+      "sha256": "db6561516b4a37c266c290970244b15a73fb7b286f167da699153f647c52a5fd"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet445_447-16.png",
+      "sha256": "7409a478c51884f9295b5f50ea7b6c7acabf39ff6588c35829fde2075ff6ddfc"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet445_447-17.png",
+      "sha256": "c2a9ece423f1142e682e9ff974cf4c8bd4fd26ea895c95b775e250710a7ae6b1"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Ribet445_447-18.png",
+      "sha256": "8f651a3585e001129c096cdfb3de7e222b046f5cbba14cf33585a178fc70f057"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/SU194-194.png",
+      "sha256": "3920d22dea1020dae6d9b215a262cf7a398b71c40ce62b4f75f5a1d2ea0bb4ba"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/SU201_202-201.png",
+      "sha256": "0b141e42384d2e89b42720ba45a78ea5097856db25e70f5febbc4734d4557331"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/SU201_202-202.png",
+      "sha256": "486d65aeb47cdaa4741241bd3862d244bd13339513ec1d56b18bc51b00ea0d3a"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/source_pages/Wiles482-041.png",
+      "sha256": "1e3ba56a6a5ab417d5e0d435431b005ae876deff4762379b864333e17d61227f"
+    }
+  ],
+  "final_integrity_file": "FINAL_INTEGRITY.json"
+}

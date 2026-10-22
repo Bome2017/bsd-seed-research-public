@@ -1,0 +1,217 @@
+I think this is a real improvement in the architecture, but it changes what the next theorem should be.
+
+Three things can now be banked separately:
+
+\[
+\boxed{\texttt{SECOND\_ORDER\_COMMON\_CORRECTION\_CRITERION}}
+\]
+
+conditional on the full-Selmer Stage-A span;
+
+\[
+\boxed{\texttt{FIXED\_TAME\_EQUAL\_CHARACTERISTIC\_FORMAL\_STAGE\_REFUTED}}
+\]
+
+which is a genuine structural stop; and
+
+\[
+\boxed{\texttt{MIXED\_CHARACTERISTIC\_CHARACTER\_CONSTRUCTED}}
+\]
+
+for
+\[
+T_\lambda=T_pE\otimes_{\mathbf Z_p}\mathbf Z_p[\zeta_p](\chi_\lambda).
+\]
+
+The root-of-unity repair checks algebraically: with \(\pi=\zeta_p-1\),
+\[
+p=u\pi^{p-1},
+\]
+so for \(p\ge5\), reduction mod \(\pi^3\) is characteristic \(p\), and after the displayed coordinate change its character really gives
+\[
+1+t\lambda+\frac{t^2}{2}\lambda^2
+\]
+through second order. So this is not another fictitious formal family.
+
+There is one scope point I would keep explicit: Aristotle's independent Stage-A result was formulated on its strict Selmer space and retained a caveat about a possible non-strict direction. The Codex second-order theorem uses the stronger full-\(S\) spanning statement from `bb6ed896`. So I would call the second-order theorem **conditional on that stronger Stage-A version**, rather than saying the entire chain has already been independently reproduced.
+
+The most useful fact from the new proof is that the second-order problem has collapsed to exactly one scalar:
+
+\[
+\alpha_\lambda
+=
+h_\lambda^{(2)}(w_1,w_2).
+\]
+
+Once
+\[
+\ker b_\lambda=W,
+\]
+all the other second-order rows can be killed by changing the first lifts. Therefore
+
+\[
+\boxed{
+P_1,P_2\text{ lift through order }3
+\iff
+\alpha_\lambda=0.
+}
+\]
+
+That is much sharper than where we were one turn ago.
+
+But I would **not** make the next run simply “pick a \(\lambda\) and compute \(\alpha_\lambda\).” There is a potentially stronger structural question first.
+
+Stage A gives an enormous space \(D\) of tame directions and a linear map
+
+\[
+b:D\longrightarrow\operatorname{Sym}^2(S^\vee).
+\]
+
+We need some \(\lambda\) in the affine fiber
+
+\[
+\mathcal F_B
+=
+\{\lambda\in D:b_\lambda=B\},
+\]
+
+where \(B\) is nondegenerate on \(S/W\) and has radical exactly \(W\).
+
+The next bounded theorem should ask:
+
+\[
+\boxed{
+\text{How does }\alpha_\lambda
+\text{ vary as }\lambda
+\text{ moves inside }\mathcal F_B?
+}
+\]
+
+In particular, for
+\[
+\mu\in\ker b,
+\]
+derive an actual formula for
+
+\[
+\alpha_{\lambda+\mu}-\alpha_\lambda.
+\]
+
+We already know the scaling relation
+\[
+\alpha_{a\lambda}=a^2\alpha_\lambda,
+\]
+which strongly suggests second-order/quadratic behavior, but the required addition law has **not** been proved in the return.
+
+There are then two radically different outcomes.
+
+If kernel directions can change \(\alpha\), we may be able to choose
+
+\[
+\mu\in\ker b
+\]
+
+so that
+
+\[
+b_{\lambda+\mu}=b_\lambda
+\]
+
+while
+
+\[
+\alpha_{\lambda+\mu}=0.
+\]
+
+That would produce a useful direction with the correct first-order kernel **without computing \(\Sha[p]\)**.
+
+If instead
+
+\[
+\alpha_{\lambda+\mu}=\alpha_\lambda
+\qquad(\mu\in\ker b),
+\]
+
+then \(\alpha\) factors through the first-order obstruction form \(b_\lambda\). That would expose a new canonical second-order invariant of the first-order quotient construction. Then we would need to identify that invariant and determine whether it is automatically zero or is the actual obstruction.
+
+That is a much better next test than brute-force \(\alpha\)-generation.
+
+After that, the old status
+
+\[
+\texttt{FORMAL\_W\_LIFT}
+\]
+
+should be retired. It was tied to the impossible
+\[
+\mathbf F_p[[t]]
+\]
+scalar character.
+
+The correct replacement is something like
+
+\[
+\boxed{\texttt{MIXED\_CHAR\_W\_LIFT}}
+\]
+
+meaning:
+
+> for some useful \(\lambda\) with \(\ker b_\lambda=W\), the two special-fiber Kummer classes lift compatibly to the Selmer complex of
+> \[
+> T_pE\otimes\mathbf Z_p[\zeta_p](\chi_\lambda)
+> \]
+> through every \(\pi^n\).
+
+That would give actual rank-two classes over the fraction field
+\[
+\mathbf Q_p(\zeta_p),
+\]
+rather than a nonexistent generic fiber of a fixed equal-characteristic tame character.
+
+The obstruction tower also changes qualitatively at depth \(p-1\), because
+\[
+p\sim\pi^{p-1}.
+\]
+Up to that depth the calculation resembles the characteristic-\(p\) truncated story. Beyond it, the genuine \(p\)-adic Tate representation and integral local Kummer conditions enter. So even \(\alpha_\lambda=0\) is only the first nontrivial checkpoint.
+
+I would therefore update the chain to
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{EXCESS\_OBSTRUCTION\_PROVED}\\
+\downarrow\\
+\texttt{SECOND\_ORDER\_VARIATION\_LAW}\\
+\downarrow\\
+\texttt{MIXED\_CHAR\_ORDER3\_W\_LIFT}\\
+\downarrow\\
+\texttt{MIXED\_CHAR\_W\_LIFT}\\
+\downarrow\\
+\texttt{RANK2\_DETERMINANT\_SWITCH}\\
+\downarrow\\
+\texttt{GLOBAL\_SUPPORT\_INVARIANT}.
+\end{array}}
+\]
+
+And Stage B from Aristotle should remain recorded exactly as scoped:
+
+- **single-prime** rank-two determinant switch: fails its unit-volume mechanism;
+- **two-prime simultaneous** switch: linear algebra does not rule it out;
+- existing OpenAI printed determinant lemmas: still generic-rank-one only.
+
+So I would not declare the rank-two determinant idea dead. We simply do not yet have the arithmetic family required to state the right determinant comparison.
+
+The most promising immediate question is now very narrow:
+
+\[
+\boxed{
+\mu\in\ker b
+\quad\Longrightarrow\quad
+\text{what is }
+\alpha_{\lambda+\mu}-\alpha_\lambda?
+}
+\]
+
+If the huge kernel of the first-order obstruction map lets us tune that one alternating scalar to zero while leaving \(\ker b_\lambda=W\) unchanged, then this second-order gate may actually be passable. If it cannot, we get the exact new obstruction rather than another vague failure.
+
+FIN, ORDER9 and Q36 still have not moved. But the mechanism has become materially more precise: we have gone from “maybe preserve two points” to a single explicit second-order invariant and a valid mixed-characteristic representation in which to test it.

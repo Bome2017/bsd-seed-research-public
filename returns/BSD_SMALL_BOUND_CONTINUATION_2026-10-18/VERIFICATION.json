@@ -1,0 +1,19 @@
+{
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "candidate_support_arithmetic_rechecked": 5637,
+  "nested_manifest_entries": {
+    "class_control/MANIFEST.sha256": 20,
+    "p7_arithmetic/MANIFEST.sha256": 31,
+    "p7_direct_units/MANIFEST.sha256": 50,
+    "rank_mechanism/MANIFEST.sha256": 9,
+    "shifted_control37/MANIFEST.sha256": 12
+  },
+  "partial_reduced_ideal_rows": 253,
+  "planned_reduced_ideal_rows": 432,
+  "retained_unit_candidates_in_partial_walk": 0,
+  "scope": "No BNF replay, no new class completeness, no independent proof certification",
+  "separate_saved_resultant_replay": 5637,
+  "status": "SAVED_DATA_AND_CUSTODY_PASS"
+}

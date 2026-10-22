@@ -1,0 +1,13 @@
+{
+  "status": "SMALL_NESTED_CONTENT_RECOVERY_CONFIRMED_EXECUTION_REPORTED",
+  "date": "2026-10-06",
+  "original_manifest_entries_verified": 24,
+  "original_manifest_unchanged": true,
+  "returned_extracted_entries_match": 4,
+  "native_service_logs_supplied": false,
+  "remote_execution_independently_verified": false,
+  "full_corpus_capacity_tested": false,
+  "aristotle_job_launched_this_turn": false,
+  "next_full_job_prompt_prepared": true,
+  "mathematical_endpoints_changed": false
+}

@@ -1,0 +1,77 @@
+{
+  "lab_baseline": "f3b3ce88883969e37b48d4db34d5d843a4947283",
+  "entries": [
+    {
+      "source": "/Users/bsm/Downloads/BSD_RESIDUAL_KATO_DERIVATIVE_CRITERION_2026-10-07.md",
+      "copy": "context/SUBMITTED_CRITERION.md",
+      "bytes": 11943,
+      "sha256": "e20f30f9cbef05f06fa2ed21beb96914e4600e4719c3c43933c41d7bc79d5ba3",
+      "grade": "submitted conditional argument"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/WEAK_ORDER_PROOF.md",
+      "copy": "context/WEAK_ORDER_PROOF.md",
+      "bytes": 7613,
+      "sha256": "ea12f4542c04b7dd73f93b04757b4091e1b228291d7d500d49c96c7f8dc9400c",
+      "grade": "retained written proof"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/FOUNDATION_CHECK.md",
+      "copy": "context/FOUNDATION_CHECK.md",
+      "bytes": 10104,
+      "sha256": "6b14bf74d1d835ddacc05a95df8b34fa540edca85b41c46cce540c0bf59e40df",
+      "grade": "retained author source audit"
+    },
+    {
+      "source": "/Users/bsm/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/PROOF.md",
+      "copy": "context/PLACEMENT_PROOF.md",
+      "bytes": 6753,
+      "sha256": "1dd845cab7dd3fa743351c60a3e9f3dc8ccbbdddcdb81c55bcaef5a7767d6e4e",
+      "grade": "retained written proof"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/context/G2_PROOF.md",
+      "copy": "context/G2_PROOF.md",
+      "bytes": 19924,
+      "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+      "grade": "retained global image and local inputs"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/NORMALIZATION_ADDENDUM.md",
+      "copy": "context/NORMALIZATION_ADDENDUM.md",
+      "bytes": 3592,
+      "sha256": "a621f9de99d17d2e02e02a3181c8220ba12fdd39295fbcfa3404cc13401f3ed1",
+      "grade": "retained non-anomalous input"
+    },
+    {
+      "source": "/Users/bsm/Downloads/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+      "copy": "context/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+      "bytes": 156606,
+      "sha256": "9eebf67f611e5d42c8be1ba2d6c4aa6f9368609ebd85d1f15076f9abae07a462",
+      "grade": "preceding sealed return with nested source returns"
+    }
+  ],
+  "external_sources": [
+    {
+      "source": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/sources/Kato2004_AST295.pdf",
+      "bytes": 18010813,
+      "sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d",
+      "copy": null,
+      "grade": "published source; not redistributed"
+    },
+    {
+      "source": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/sources/Kato2004_AST295.txt",
+      "bytes": 483480,
+      "sha256": "23f8f255d0822ac203599be37d5eb6e6e5ea6db456e422f6a4b7cc483ac2caa8",
+      "copy": null,
+      "grade": "published source; not redistributed"
+    },
+    {
+      "source": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/sources/BKS2024_published.pdf",
+      "bytes": 377843,
+      "sha256": "bc930bdfc4a979b80e03f953068842fcc30b12edb6edc2530290763724596386",
+      "copy": null,
+      "grade": "published source; not redistributed"
+    }
+  ]
+}

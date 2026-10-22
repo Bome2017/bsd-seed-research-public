@@ -1,0 +1,22 @@
+[
+  {
+    "manifest": "MANIFEST.sha256",
+    "count": 21,
+    "failures": []
+  },
+  {
+    "manifest": "project/MANIFEST.sha256",
+    "count": 15,
+    "failures": []
+  },
+  {
+    "manifest": "research_return/MANIFEST.sha256",
+    "count": 21,
+    "failures": [
+      {
+        "path": "research_return/HANDOFF.md",
+        "match": false
+      }
+    ]
+  }
+]

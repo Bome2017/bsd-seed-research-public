@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED",
+  "grade": "WRITTEN_REVIEW_AND_EXACT_BOUNDED_COMPUTATION_WITH_RETAINED_INPUTS",
+  "result": "LOCAL_DETECTOR_SUPPORTED; SEED_LOCAL_TARGET_WITH_ZERO_GLOBAL_IMAGE_COMPUTED",
+  "seed_probe": {
+    "p": 5,
+    "q": 1783,
+    "cardinality": 1730,
+    "admitted_rows": 47
+  },
+  "endpoint_effect": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED",
+    "new_seed_prime_coverage": false
+  },
+  "input_sha256": "6b7dd0ef38624e5bf33bf14581c39c4e5d2bc708ff7dea9df8ec56938e2a244a",
+  "remote_publication": "Recorded separately in lab custody after sealing"
+}

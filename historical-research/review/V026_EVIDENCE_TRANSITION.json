@@ -1,0 +1,3095 @@
+{
+ "tool": {
+  "path": "tools/build_evidence_transition.py",
+  "sha256": "c2fa98ad7004f16538c6e858c5b9970b9be08d967a40326677141e7658777f7f"
+ },
+ "builder_unmodified": {
+  "path": "tools/build_evidence.py",
+  "sha256": "428d30f0a222025da95eed11b2499035b2c402666288460c2800791870123ae4"
+ },
+ "baseline_tables": {
+  "PROVENANCE.tsv": {
+   "path": "review/history/v0.2.5k2/evidence/PROVENANCE.tsv",
+   "sha256": "a7f865b3a5919a91642965264e92056106870e5369e158a9881e8f426290cfe0"
+  },
+  "EXCLUDED.tsv": {
+   "path": "review/history/v0.2.5k2/evidence/EXCLUDED.tsv",
+   "sha256": "4a799c7843507fe16a4b985929b34e85bb459d0c51c0d4e914044ae6f9a06ad5"
+  },
+  "REDACTIONS.tsv": {
+   "path": "review/history/v0.2.5k2/evidence/REDACTIONS.tsv",
+   "sha256": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694"
+  }
+ },
+ "generic_dry_run_tables_sha256": {
+  "PROVENANCE.tsv": "52ee900f59ee746b70f6d4f97a2857da4afeff2d73f63ff657a3f46e7e250f09",
+  "EXCLUDED.tsv": "1c3e5e999e7fdde97f9de90ea3d5a0dcd6db4368309d4f005516081a35bf2836",
+  "REDACTIONS.tsv": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694"
+ },
+ "declared": {
+  "path": "review/V026_EVIDENCE_ADDITIONS.json",
+  "sha256": "da06324bb398a27acc5def3bd3e62cba3998fff55b57c505cb50c25429dd901c"
+ },
+ "result_tables": {
+  "PROVENANCE.tsv": "c91438c03b6c4cf484819cb7b647266663a9a341353410c6d987c6ebd0a80ae0",
+  "EXCLUDED.tsv": "4a799c7843507fe16a4b985929b34e85bb459d0c51c0d4e914044ae6f9a06ad5",
+  "REDACTIONS.tsv": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694"
+ },
+ "retained_source_changes_declared": {
+  "path": "review/V025_RETAINED_SOURCE_CHANGES.json",
+  "sha256": "ee73b73df798dbe3eb980deac337ee960a175bebf1d67c24bf5faf8628ead4a4"
+ },
+ "retained_source_changes": [
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/00_READ_FIRST.md",
+   "released_sha256": "0755d34e09edbad0952789a988b7c781fa1608d4001bd5bd79e0d4a300e87079",
+   "live_sha256": "8916ecc07a96ceaea91b63a6ade4f2401c2a8b39de949dc8b3008437a661e7da"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MANIFEST.sha256",
+   "released_sha256": "18ebd0e63d60e3c6300a7adf53784499a8bc83ff44c59934cf671c96b1cb3ad6",
+   "live_sha256": "12c84639948a7d97362b38e70259e212938775a9cee0d0d14bdae2c800ef6682"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+   "released_sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+   "live_sha256": "111b73becca09325141084a6dd89f2fd2e8294e24d7920522281cb6d8bb202e8"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/RESUME.md",
+   "released_sha256": "b2f74e9f70203b4a0133aa93a1a45b4815da32a3bd8103b23cfaff6408949743",
+   "live_sha256": "6a3a5fce246acbbda8d6247ad08a49473adcb78239c09f7e3e85b70b6ce57a09"
+  },
+  {
+   "release_path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_BINDINGS.json",
+   "released_sha256": "b0fb8859be690281cfd4214bd77653b417833ec3a2ca3b53d4535227ad291566",
+   "live_sha256": "b9d60141c89eab7331c37ba0a0e713bde5c9d0c35fcac62d73761887ee9dfe69"
+  }
+ ],
+ "counts": {
+  "PROVENANCE.tsv": {
+   "baseline_rows": 3559,
+   "preserved_verbatim": 3559,
+   "appended": 38
+  },
+  "EXCLUDED.tsv": {
+   "baseline_rows": 36076,
+   "preserved_verbatim": 36076,
+   "appended": 0
+  },
+  "REDACTIONS.tsv": {
+   "baseline_rows": 6,
+   "preserved_verbatim": 6,
+   "appended": 0
+  }
+ },
+ "appended": [
+  "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+  "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+  "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+  "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+  "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json"
+ ],
+ "retained_metadata_differences_count": {
+  "PROVENANCE.tsv": 125,
+  "EXCLUDED.tsv": 7,
+  "REDACTIONS.tsv": 0
+ },
+ "retained_metadata_differences": {
+  "PROVENANCE.tsv": [
+   {
+    "key": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESULT.json",
+    "fields": {
+     "master_bound_sha256": {
+      "retained": "a7803c1b5b22f8d4793925cae45d56b6e9b1520d5e6f710d0198712c35b59155",
+      "generic_builder": "4bb78c75aa1f9ff1b07b4c758af7a5a7fa3681c151a7fb239165765934784317"
+     },
+     "binding_check": {
+      "retained": "CHANGED_SINCE_MASTER_BINDING",
+      "generic_builder": "match"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/RESUME.md",
+    "fields": {
+     "master_bound_sha256": {
+      "retained": "7d04b7381c3cc06fc3f9d75e9ffbc6cfcfe7bb64cdc0f8a4c4e387408fd4e45e",
+      "generic_builder": "02d0a77aff5f3014c8f6ffed4c747ec0c3be73afa45027ac1ce7d68f676fe9a9"
+     },
+     "binding_check": {
+      "retained": "CHANGED_SINCE_MASTER_BINDING",
+      "generic_builder": "match"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_P13_RUN_2026-09-21/STATE.json",
+    "fields": {
+     "master_bound_sha256": {
+      "retained": "b5548dd1204fc1ea96da7956ec21766e0a428db0b0ebc95325f3de2c71f39dc7",
+      "generic_builder": "0e79378b7f14931479d947eb970ad0cb2093b69d926a17f96c03ef28a8cc3703"
+     },
+     "binding_check": {
+      "retained": "CHANGED_SINCE_MASTER_BINDING",
+      "generic_builder": "match"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_calib.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_calib_output.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_factor2.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_factor2_output.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_nonsplit_bsd_check.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_nonsplit_bsd_check_output.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation_output.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/rerun_p3_reg_robust.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/rerun_p3_reg_robust_output.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_F1_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Independent 3-adic height and convention checks",
+      "generic_builder": ""
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/00_LANE_B.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "5e4890607bd0d7287f3fdb5fa3a3a85e62f3cd4ea3dad661845fe05f58a0bc9b",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "5e4890607bd0d7287f3fdb5fa3a3a85e62f3cd4ea3dad661845fe05f58a0bc9b"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/01_minimal_model.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "14e4bec1651e34359bf92c50049afc009f9e616a9a116acb8b4508efb68f118d",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "14e4bec1651e34359bf92c50049afc009f9e616a9a116acb8b4508efb68f118d"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/02_torsion.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "a0b4eee184d53f8108602ac85b8fb1192b589fb1442741d0d495c2ce82b1e607",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "a0b4eee184d53f8108602ac85b8fb1192b589fb1442741d0d495c2ce82b1e607"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/03_tamagawa.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "3dd4b648a86f180ecbdfabc42656e7f0158c1ac2f6d3504456553a876e57f516",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "3dd4b648a86f180ecbdfabc42656e7f0158c1ac2f6d3504456553a876e57f516"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/04_mordell_weil_saturation.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "da3a9cc91c246892439aa3d85689beae6223b34d05ecc1a46dfae9ae049f0997",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "da3a9cc91c246892439aa3d85689beae6223b34d05ecc1a46dfae9ae049f0997"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/05_sha2.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "93a4ee49de476edfe87ce8d888bea2677d71c7b05f760330801b6a66faa597b4",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "93a4ee49de476edfe87ce8d888bea2677d71c7b05f760330801b6a66faa597b4"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "7b3e32bcd2f536b0e1b581b3d81babf62488b081df566b24fb6083e69f0eb93f",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "7b3e32bcd2f536b0e1b581b3d81babf62488b081df566b24fb6083e69f0eb93f"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/07_bsd_constant_isogenous.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "19a7d3a57d315a33a9428377bdf9cb7b6489a527160593251b5e012d1fb8a04c",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "19a7d3a57d315a33a9428377bdf9cb7b6489a527160593251b5e012d1fb8a04c"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/RESUME.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "922a12f550ea95e2015d98f7ea23726f342c15b3bf899c47db211709717b0609",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "922a12f550ea95e2015d98f7ea23726f342c15b3bf899c47db211709717b0609"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/STATE.json",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "NOT_IN_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "cf6f9addca5a2ee7fb1cd408a8de9bc6ef79e34cdcfab8dd8f01aca148b48dfc"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/cpu_log.tsv",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "fcb814a229917525ce9459c24fcfa95ca70f6ce1796ab4f8d9d480c38b4e880a",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "fcb814a229917525ce9459c24fcfa95ca70f6ce1796ab4f8d9d480c38b4e880a"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s01_03_local.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "ac6569c9f48faca459b1519a5e96dbb5adcad291947ec72ae2e1f0c02744c673",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "ac6569c9f48faca459b1519a5e96dbb5adcad291947ec72ae2e1f0c02744c673"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s01_03_local.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "05ae5d113c625cd0bd650d129aa57ff41a1ac1312456f242597d099c907a892b",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "05ae5d113c625cd0bd650d129aa57ff41a1ac1312456f242597d099c907a892b"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s01_03_sage.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "2e8824e39cd2762c0ce66ca99cf5284f3430254c7c00ced59043ec13077879c9",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "2e8824e39cd2762c0ce66ca99cf5284f3430254c7c00ced59043ec13077879c9"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s01_03_sage.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "4addd6a13b437947faece170ed4d8bc742129c78e5835cc2aea22a954008540f",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "4addd6a13b437947faece170ed4d8bc742129c78e5835cc2aea22a954008540f"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s02_torsion_cert.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "1f585cf2e98161914e0cc857bf1b09b26260c64a204c7366d1732473748b4a38",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "1f585cf2e98161914e0cc857bf1b09b26260c64a204c7366d1732473748b4a38"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s02_torsion_cert.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "b10b8d99646ea09fde2157b9e5c0657fbf91aff5a0fada3cfe68ca138b3e01e0",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "b10b8d99646ea09fde2157b9e5c0657fbf91aff5a0fada3cfe68ca138b3e01e0"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_mwrank_v1_S-1.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "c154760961bff1130fe7f4a59bbf83a0f032e5cf8af95eaeadc2f8d8586e14b7",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "c154760961bff1130fe7f4a59bbf83a0f032e5cf8af95eaeadc2f8d8586e14b7"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_mwrank_v1_S-1.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "25873d7740c9718506bd6ba6775759a76e7d741c9ea861b7f2035766b0a7fbc8",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "25873d7740c9718506bd6ba6775759a76e7d741c9ea861b7f2035766b0a7fbc8"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_sage.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "e711dcc56edf80804fb1069a2932a8815122019c2471a8478252b3cfdf785e9d",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "e711dcc56edf80804fb1069a2932a8815122019c2471a8478252b3cfdf785e9d"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04a_sage.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "05d9b4501abe22d1f501436ad3ebcf765f002b7ab1c96229fb30f96b8dfc6e1a",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "05d9b4501abe22d1f501436ad3ebcf765f002b7ab1c96229fb30f96b8dfc6e1a"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_box_audit.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "0e203dfc83f30b1349ba3f54825ae082a08e58841171518c9a05b9418b2c0cef",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "0e203dfc83f30b1349ba3f54825ae082a08e58841171518c9a05b9418b2c0cef"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_box_audit.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "2a9b8ef4630210cdc17cc7d427550a71a5e11a187585b02eed96989795d4ed16",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "2a9b8ef4630210cdc17cc7d427550a71a5e11a187585b02eed96989795d4ed16"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_combo_heights.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "c5dc579cd6ee64386ce489a5bd6d8ab0927ff01f2fb204da9fe76ff91413a4eb",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "c5dc579cd6ee64386ce489a5bd6d8ab0927ff01f2fb204da9fe76ff91413a4eb"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_combo_heights.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "9343768316dea21b3a1af8fc43b395ded2a5ff39ee8f9642c35add3a0612e237",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "9343768316dea21b3a1af8fc43b395ded2a5ff39ee8f9642c35add3a0612e237"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_enum_crosscheck.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "137a93c329d555899a62ebf9f2dff1656b9a2b55389ae4947296a62eb67e0551",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "137a93c329d555899a62ebf9f2dff1656b9a2b55389ae4947296a62eb67e0551"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_enum_crosscheck.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "0c5495f8204f59fb7137d523d807f41bf1380fb6c3710a39948072ed4b07cd07",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "0c5495f8204f59fb7137d523d807f41bf1380fb6c3710a39948072ed4b07cd07"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_enum_validate.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "0f6ab732e62a290482dd7d9c9b3fe56fdb9c7c004d70c0562e24d03e444ee531",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "0f6ab732e62a290482dd7d9c9b3fe56fdb9c7c004d70c0562e24d03e444ee531"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_enum_validate.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "94aca54279fb9848ecd6ff9fd02b759892f402a1ac85e9e1f2941c6db77da0f3",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "94aca54279fb9848ecd6ff9fd02b759892f402a1ac85e9e1f2941c6db77da0f3"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_lam42_crude_nohup.log",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "5baf2241e1d5b247abd65a5745017c8a7f82e02093aae1ef5a8d672852294fc1",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "5baf2241e1d5b247abd65a5745017c8a7f82e02093aae1ef5a8d672852294fc1"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "99b213b295e2fb009915957bb3b77fe537b1cf8b5d655ca1b83c27693a7bd2b1",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "99b213b295e2fb009915957bb3b77fe537b1cf8b5d655ca1b83c27693a7bd2b1"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "f05bb6155e9237caa7cc93b006882c332272857541e80c425652b9779110d08c",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "f05bb6155e9237caa7cc93b006882c332272857541e80c425652b9779110d08c"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari_lam42.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "42417bced04cc4ff8dfb10646514c91623a4ce850a02aff120e423c22ea82c3c",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "42417bced04cc4ff8dfb10646514c91623a4ce850a02aff120e423c22ea82c3c"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari_lam42.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "d3b5510d59e2a207a4fd4fea0ada69c3a337916a986cb300d1c12585cce7a778",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "d3b5510d59e2a207a4fd4fea0ada69c3a337916a986cb300d1c12585cce7a778"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari_lam42_crude.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "63530065986aba8d04428c106e18c243823f96a68917fe8e3c4af889afdbb8e9",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "63530065986aba8d04428c106e18c243823f96a68917fe8e3c4af889afdbb8e9"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari_lam42_crude.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "78428f240968e8bdf7ec2d399541356127ad35a7d7f58d569bc8327f495aa69a",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "78428f240968e8bdf7ec2d399541356127ad35a7d7f58d569bc8327f495aa69a"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari_simpleform.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "734df6422e368b670547968e4500ff90a4b5e12cbb3524410ec339421d627bcb",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "734df6422e368b670547968e4500ff90a4b5e12cbb3524410ec339421d627bcb"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s04b_pari_simpleform.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "8e7c338e06d2061fdaa502c69a275df11540ce69b5423ed2449b879b18d50989",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "8e7c338e06d2061fdaa502c69a275df11540ce69b5423ed2449b879b18d50989"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s05_sel2.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "eb985559dc4046613dcc1cad22f9f099fb0dfb4722b214f3359ac5aac8c89e42",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "eb985559dc4046613dcc1cad22f9f099fb0dfb4722b214f3359ac5aac8c89e42"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s05_sel2.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "ee308689ccb8574537cde5bbc37ab15691c4dc5a25908e3339bcd0b6282a9759",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "ee308689ccb8574537cde5bbc37ab15691c4dc5a25908e3339bcd0b6282a9759"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_calib.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "6b53ac87acb50dda3b7e22699e9a570e9e92fbf8d261a9013cb3547aebd3ff16",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "6b53ac87acb50dda3b7e22699e9a570e9e92fbf8d261a9013cb3547aebd3ff16"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_calib.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "890260c7757f074af876917b73a810799ea5433208168307059e5f50773ceea1",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "890260c7757f074af876917b73a810799ea5433208168307059e5f50773ceea1"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_seed.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "300c1b2ffedf19c8bacaa052ca4a5c96fb2cf88effd826363aebee6eed7a566f",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "300c1b2ffedf19c8bacaa052ca4a5c96fb2cf88effd826363aebee6eed7a566f"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_seed.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "dadf1cc6fa85a2f0b0d54d94bc3909cabaffd254d7290be08b8df2d21cded744",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "dadf1cc6fa85a2f0b0d54d94bc3909cabaffd254d7290be08b8df2d21cded744"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_seed_balls.sobj",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "8f0c4ca5b5f15e82e33f8894a1647929be4e8379be29d7fc5d779ff078ceebf3",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "8f0c4ca5b5f15e82e33f8894a1647929be4e8379be29d7fc5d779ff078ceebf3"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07_balls.sobj",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "e4401377fe643685fc16fb7c596228a6011820daa61576971987466c85d7bfe0",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "e4401377fe643685fc16fb7c596228a6011820daa61576971987466c85d7bfe0"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07_balls_rerun.sobj",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "e4401377fe643685fc16fb7c596228a6011820daa61576971987466c85d7bfe0",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "e4401377fe643685fc16fb7c596228a6011820daa61576971987466c85d7bfe0"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07_bsd_const.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "cd0ba942258c50ac21ae68546ddaccd09672c65164001f2f571a9988ca840a83",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "cd0ba942258c50ac21ae68546ddaccd09672c65164001f2f571a9988ca840a83"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07_bsd_const.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "87355aa498eb6f45f5bcb3fe050a0914faae32db2389376d94b6653aa75b9444",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "87355aa498eb6f45f5bcb3fe050a0914faae32db2389376d94b6653aa75b9444"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07_bsd_const_rerun.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "cd0ba942258c50ac21ae68546ddaccd09672c65164001f2f571a9988ca840a83",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "cd0ba942258c50ac21ae68546ddaccd09672c65164001f2f571a9988ca840a83"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07_bsd_const_rerun.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "88140941ca4c768bbf2d4ef9d78f83c741a79104d212ce744ae7358a01c2f91c",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "88140941ca4c768bbf2d4ef9d78f83c741a79104d212ce744ae7358a01c2f91c"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07a_Eprime.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "61392c5c0415b5d3c1677ee6a2a8b973636d053c4de37f3a9dc099bdfb7b4430",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "61392c5c0415b5d3c1677ee6a2a8b973636d053c4de37f3a9dc099bdfb7b4430"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07a_Eprime.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "a725ce7e8443986c620a3c6301ccc4150f83591340f3fe44b0232eb040d23e18",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "a725ce7e8443986c620a3c6301ccc4150f83591340f3fe44b0232eb040d23e18"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07b_Eprime_enum.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "11cef89f5b13b6e94e3c2168d40efdeb713694cab461c02ddb06e29a6b2e22f6",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "11cef89f5b13b6e94e3c2168d40efdeb713694cab461c02ddb06e29a6b2e22f6"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07b_Eprime_enum.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "d0ae1403a84379f85899366b00dcd62fe0786783762c7576c5e9a64a4700e437",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "d0ae1403a84379f85899366b00dcd62fe0786783762c7576c5e9a64a4700e437"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07b_nohup.log",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07b_validation_diag.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "1ca932b69fca17668e0e4c82b12b334a019bdfbc73a5c435a0ef2a7d49057660",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "1ca932b69fca17668e0e4c82b12b334a019bdfbc73a5c435a0ef2a7d49057660"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07b_validation_diag.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "131cada9d6f01a9e203887bde8d82d91e99a0e8a136b006bd308eb63008f2c5f",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "131cada9d6f01a9e203887bde8d82d91e99a0e8a136b006bd308eb63008f2c5f"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07c_scaling.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "72ee9d98b6a72ad2917201e42bc028e989b3b4bf47a4afb796672f2387436726",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "72ee9d98b6a72ad2917201e42bc028e989b3b4bf47a4afb796672f2387436726"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s07c_scaling.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "d58533430b96fcc2b60eff08049cf37a7dc06cae91b3e33de3abdb1d96de166b",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "d58533430b96fcc2b60eff08049cf37a7dc06cae91b3e33de3abdb1d96de166b"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/README.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "2434dfe4c3c797aae107c98c29a40ec422ff8403235ae14933aab806ea893a0e",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "2434dfe4c3c797aae107c98c29a40ec422ff8403235ae14933aab806ea893a0e"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_combo_heights.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "c5dc579cd6ee64386ce489a5bd6d8ab0927ff01f2fb204da9fe76ff91413a4eb",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "c5dc579cd6ee64386ce489a5bd6d8ab0927ff01f2fb204da9fe76ff91413a4eb"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_combo_heights.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "a4308e31ade4633a94d9cd962c98f2166cebeab917c5434e4223f481c6d3e288",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "a4308e31ade4633a94d9cd962c98f2166cebeab917c5434e4223f481c6d3e288"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_enum_crosscheck.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "137a93c329d555899a62ebf9f2dff1656b9a2b55389ae4947296a62eb67e0551",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "137a93c329d555899a62ebf9f2dff1656b9a2b55389ae4947296a62eb67e0551"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_enum_crosscheck.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "2a13b6fec7ec615fb2a2cce06135878c15bfa0e4f9b747b28b4cefc46726c835",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "2a13b6fec7ec615fb2a2cce06135878c15bfa0e4f9b747b28b4cefc46726c835"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_enum_validate.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "ca54139366d13d46b7d0bd1c3c2c2ea8a0fa088f92885a68b7ce126ef168bb61",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "ca54139366d13d46b7d0bd1c3c2c2ea8a0fa088f92885a68b7ce126ef168bb61"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_enum_validate.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "9615237e3653b9b245f0dd29694646a6c6f15ec9b834955b223bb74dd94a28e0",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "9615237e3653b9b245f0dd29694646a6c6f15ec9b834955b223bb74dd94a28e0"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_pari.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "1b3b1dbbf2c6990c7fb04c4cf5d1aa43112380f639bc545126f9b5ac23452b90",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "1b3b1dbbf2c6990c7fb04c4cf5d1aa43112380f639bc545126f9b5ac23452b90"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_pari.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "34c4cd7550ec7ca2670f3180f40dcc8b0ae3ebc26be56dda6f7a0b13bfd58de5",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "34c4cd7550ec7ca2670f3180f40dcc8b0ae3ebc26be56dda6f7a0b13bfd58de5"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_pari_lam42.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "064296b900016e1fbd24e34f1fdbc9240d52b15fae182908649073e3b0e6f508",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "064296b900016e1fbd24e34f1fdbc9240d52b15fae182908649073e3b0e6f508"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_pari_lam42.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "6b39095b42523d380e0a7123c939ef42148cb9258b4c6ba0ca8d4a3ade6edcbe",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "6b39095b42523d380e0a7123c939ef42148cb9258b4c6ba0ca8d4a3ade6edcbe"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_pari_simpleform.out",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "55164822c77e92e4a3b9927252feb98039f503a3109621747a226276e0bfad55",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "55164822c77e92e4a3b9927252feb98039f503a3109621747a226276e0bfad55"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/superseded_truncbox/s04b_pari_simpleform.time",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "28035f54ece063e1b68dd5aff6ec2c668494069d6c5321fc616c48671d91ee6d",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "28035f54ece063e1b68dd5aff6ec2c668494069d6c5321fc616c48671d91ee6d"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/run.sh",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "847face2631d2a6faa66a2b25e563a6610257dbb19ce25bc12de12cd249617bf",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "847face2631d2a6faa66a2b25e563a6610257dbb19ce25bc12de12cd249617bf"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/checkpoint.py",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "a327a39cca0ecc089cd314dc13bad019744942ab4967a475f88cbf4ebfcc747f",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "a327a39cca0ecc089cd314dc13bad019744942ab4967a475f88cbf4ebfcc747f"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/rig_lib.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "38bb5f5aa7248c74f67748033aa5d16c8dc62f1a130a39b2d40ed06ec6e9fec4",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "38bb5f5aa7248c74f67748033aa5d16c8dc62f1a130a39b2d40ed06ec6e9fec4"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s01_03_local.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "e627b8e6ab4d4cc48a37058613aa299105a48e72ba59de97b4e2572433cd6af3",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "e627b8e6ab4d4cc48a37058613aa299105a48e72ba59de97b4e2572433cd6af3"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s01_03_sage.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "42cd44652541b4fe819efb48e831bd39bbfef39393af132c9d693efafd530c25",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "42cd44652541b4fe819efb48e831bd39bbfef39393af132c9d693efafd530c25"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s02_torsion_cert.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "72b391a9f387a1979259eba66497e6cba75da8686202efffa416ecedcaee351f",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "72b391a9f387a1979259eba66497e6cba75da8686202efffa416ecedcaee351f"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04_mwrank_input.txt",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "987c4bcfcba4ddede165c8448a631ceec3b276f1f937caf0ed3a84d408512988",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "987c4bcfcba4ddede165c8448a631ceec3b276f1f937caf0ed3a84d408512988"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04a_sage.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "468af66a51ca1b8e1ada32462a4057f4b12b81395d6c69ca9d97eb8c8bb75e88",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "468af66a51ca1b8e1ada32462a4057f4b12b81395d6c69ca9d97eb8c8bb75e88"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_box_audit.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "d141cfa918bd98e6a33eb338bf9baf5b7a2c5fef3405d1ef25533698233b582d",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "d141cfa918bd98e6a33eb338bf9baf5b7a2c5fef3405d1ef25533698233b582d"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_combo_heights.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "dd4d07eef7859520b6ca98cfd267cc4bab03ad7da4b76aac477adeb4c588b1c8",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "dd4d07eef7859520b6ca98cfd267cc4bab03ad7da4b76aac477adeb4c588b1c8"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_enum_crosscheck.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "bbbc45899fece961637eeef2d964ea2d32cab13536cb5c5b270aeb19454f3a36",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "bbbc45899fece961637eeef2d964ea2d32cab13536cb5c5b270aeb19454f3a36"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_enum_lib.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "ad53c6585de8ec05f287435fdd42dc1f466bce1a8c7fcb2503084116ab2e3582",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "ad53c6585de8ec05f287435fdd42dc1f466bce1a8c7fcb2503084116ab2e3582"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_enum_validate.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "9d3c66d468466e887b6aa355ca6cc0d726ce42e726e6227f0e158d150bd001f0",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "9d3c66d468466e887b6aa355ca6cc0d726ce42e726e6227f0e158d150bd001f0"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_pari.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "4b6e17f5bf5fc69d336a5c3f616f9d1d075ddb9387ec1944cd3b5357ae257c7d",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "4b6e17f5bf5fc69d336a5c3f616f9d1d075ddb9387ec1944cd3b5357ae257c7d"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_pari_lam42.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "3d296973fba8e58480e1b0cf66922f87dc57454b0d1619802e857019752d78f8",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "3d296973fba8e58480e1b0cf66922f87dc57454b0d1619802e857019752d78f8"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_pari_lam42_crude.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "b1a6bb8ca236fa36b8d330ce6f1e0809f02cfdc4981fe3201a42d8ededc2e4d0",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "b1a6bb8ca236fa36b8d330ce6f1e0809f02cfdc4981fe3201a42d8ededc2e4d0"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s04b_pari_simpleform.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "f222f680c043ec1cc67b7ab4d7e81a57c6e87f02c22cb6568f0aceb8a161fc3f",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "f222f680c043ec1cc67b7ab4d7e81a57c6e87f02c22cb6568f0aceb8a161fc3f"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s05_sel2.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "ef4f128a90ab2b4f867cbce586d70da4bc361216a47dde3dfd6fca7d502be6b0",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "ef4f128a90ab2b4f867cbce586d70da4bc361216a47dde3dfd6fca7d502be6b0"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s06_calib.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "8ff70dd9afbc0291f314a19fbc8dd2bd7edd6503915aac05c0cec9b772d62965",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "8ff70dd9afbc0291f314a19fbc8dd2bd7edd6503915aac05c0cec9b772d62965"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s06_seed.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "b3dc4476867f27811b34f7f9c938839b6e92a44fb81ec0b384fc0fee3bfef3ed",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "b3dc4476867f27811b34f7f9c938839b6e92a44fb81ec0b384fc0fee3bfef3ed"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s07_bsd_const.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "79a7e57a3b25969599d630a1c9318904b8bd3a72de856140059c1804bc240c5a",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "79a7e57a3b25969599d630a1c9318904b8bd3a72de856140059c1804bc240c5a"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s07_bsd_const_rerun.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "8d8a79da0d9c2bb183024c27642b8f0b718d58e690565a130122be26d36b2b22",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "8d8a79da0d9c2bb183024c27642b8f0b718d58e690565a130122be26d36b2b22"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s07a_Eprime.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "f6b75ee864c2695ca6b4143765ff21b2dd67694e35867eeed08527a0ada4a8ab",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "f6b75ee864c2695ca6b4143765ff21b2dd67694e35867eeed08527a0ada4a8ab"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s07b_Eprime_enum.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "9570b66bd7244480eefa27df39c1682142217a86cdccd8d3e83b029bb10c36c6",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "9570b66bd7244480eefa27df39c1682142217a86cdccd8d3e83b029bb10c36c6"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s07b_validation_diag.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "c536bcb6ef574847c3c19f2d98131bfce3d2faf9ed3b7c289dd301f08adeab31",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "c536bcb6ef574847c3c19f2d98131bfce3d2faf9ed3b7c289dd301f08adeab31"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s07c_scaling.sage",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "70a3075e1ffa55561e7e3688206cd32e59d16cadbbe8f9bbd2043ade682e9c0e",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "70a3075e1ffa55561e7e3688206cd32e59d16cadbbe8f9bbd2043ade682e9c0e"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/superseded_truncbox/s04b_enum_lib.gp",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "8fd49a9eabae1d6818c5524290b7df86348e9d72aaa57415d2f101ad8bd595fa",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "8fd49a9eabae1d6818c5524290b7df86348e9d72aaa57415d2f101ad8bd595fa"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/00_REPORT.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "5d7e98b091198b1f305742ef0cea3208ede48003f858c6035f621e9a30ee7d6e",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "5d7e98b091198b1f305742ef0cea3208ede48003f858c6035f621e9a30ee7d6e"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/MANIFEST.sha256",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "binding_check": {
+      "retained": "NOT_IN_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "04f51213352eb1de857849f9a8208357061407045fbb359ee0cd880e80d54505"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_B.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "cb1d3cbd246a1885b3e982c7437da2c129cd4d9c9a391ab4d673b7c5fb7161c5",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "cb1d3cbd246a1885b3e982c7437da2c129cd4d9c9a391ab4d673b7c5fb7161c5"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/audits/AUDIT_B_R2.md",
+    "fields": {
+     "category": {
+      "retained": "review_restored",
+      "generic_builder": "extra"
+     },
+     "master_bound_sha256": {
+      "retained": "05ad30468c016cdf802465af31297d4fed4900801dd1516b9210d0b29ca63694",
+      "generic_builder": ""
+     },
+     "binding_check": {
+      "retained": "MATCHES_RETAINED_LANE3_MANIFEST",
+      "generic_builder": ""
+     },
+     "master_role": {
+      "retained": "Full Mordell-Weil saturation proof and supporting invariant records",
+      "generic_builder": ""
+     },
+     "original_sha256": {
+      "retained": "",
+      "generic_builder": "05ad30468c016cdf802465af31297d4fed4900801dd1516b9210d0b29ca63694"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_LATTICE_IMPORT_CHECK_2026-09-23/MANIFEST.sha256",
+    "fields": {
+     "category": {
+      "retained": "post-master source audit",
+      "generic_builder": "extra"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_LATTICE_IMPORT_CHECK_2026-09-23/REPORT.md",
+    "fields": {
+     "category": {
+      "retained": "post-master source audit",
+      "generic_builder": "extra"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_LATTICE_IMPORT_CHECK_2026-09-23/RESUME.md",
+    "fields": {
+     "category": {
+      "retained": "post-master source audit",
+      "generic_builder": "extra"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_LATTICE_IMPORT_CHECK_2026-09-23/STATE.json",
+    "fields": {
+     "category": {
+      "retained": "post-master source audit",
+      "generic_builder": "extra"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_LATTICE_IMPORT_CHECK_2026-09-23/checks/local_4547_and_cusps.py",
+    "fields": {
+     "category": {
+      "retained": "post-master source audit",
+      "generic_builder": "extra"
+     }
+    }
+   },
+   {
+    "key": "evidence/src/BSD_SEED_LATTICE_IMPORT_CHECK_2026-09-23/checks/local_4547_and_cusps.txt",
+    "fields": {
+     "category": {
+      "retained": "post-master source audit",
+      "generic_builder": "extra"
+     }
+    }
+   }
+  ],
+  "EXCLUDED.tsv": [
+   {
+    "key": "/Users/bsm/BSD_TWIST_SHA_SUPPORT_2026-09-22/TWIST_SHA_AWARE_2026-09-22.tar.gz",
+    "fields": {
+     "reason": {
+      "retained": "archive embeds private correspondence metadata (its unpacked contents are included, redacted)",
+      "generic_builder": "archive embeds private correspondence metadata, including nested archives (retain needed unpacked records with redaction)"
+     }
+    }
+   },
+   {
+    "key": "/Users/bsm/BSD_TWIST_SHA_SUPPORT_2026-09-22/TWIST_SHA_SUPPORT_2026-09-22.tar.gz",
+    "fields": {
+     "reason": {
+      "retained": "archive embeds private correspondence metadata (its unpacked contents are included, redacted)",
+      "generic_builder": "archive embeds private correspondence metadata, including nested archives (retain needed unpacked records with redaction)"
+     }
+    }
+   },
+   {
+    "key": "/Users/bsm/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/AWARE/TWIST_SHA_AWARE_2026-09-22_aristotle/TWIST_SHA_AWARE_2026-09-22.tar.gz",
+    "fields": {
+     "reason": {
+      "retained": "archive embeds private correspondence metadata (its unpacked contents are included, redacted)",
+      "generic_builder": "archive embeds private correspondence metadata, including nested archives (retain needed unpacked records with redaction)"
+     }
+    }
+   },
+   {
+    "key": "/Users/bsm/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND.tar.gz",
+    "fields": {
+     "reason": {
+      "retained": "archive embeds private correspondence metadata (its unpacked contents are included, redacted)",
+      "generic_builder": "archive embeds private correspondence metadata, including nested archives (retain needed unpacked records with redaction)"
+     }
+    }
+   },
+   {
+    "key": "/Users/bsm/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/BLIND/TWIST_SHA_BLIND_2026-09-22_aristotle/TWIST_SHA_BLIND_2026-09-22.tar.gz",
+    "fields": {
+     "reason": {
+      "retained": "archive embeds private correspondence metadata (its unpacked contents are included, redacted)",
+      "generic_builder": "archive embeds private correspondence metadata, including nested archives (retain needed unpacked records with redaction)"
+     }
+    }
+   },
+   {
+    "key": "/Users/bsm/BSD_TWIST_SHA_SUPPORT_BLIND_2026-09-22/TWIST_SHA_BLIND_2026-09-22.tar.gz",
+    "fields": {
+     "reason": {
+      "retained": "archive embeds private correspondence metadata (its unpacked contents are included, redacted)",
+      "generic_builder": "archive embeds private correspondence metadata, including nested archives (retain needed unpacked records with redaction)"
+     }
+    }
+   },
+   {
+    "key": "/Users/bsm/BSD_TWIST_SHA_SUPPORT_2026-09-22/returned/AWARE.tar.gz",
+    "fields": {
+     "reason": {
+      "retained": "nested archive contains private thread identifier; 10 outer files and 15 substantive inner records retained separately, 18 AppleDouble entries omitted",
+      "generic_builder": "archive embeds private correspondence metadata, including nested archives (retain needed unpacked records with redaction)"
+     },
+     "category": {
+      "retained": "private metadata duplicate archive",
+      "generic_builder": "post_master"
+     }
+    }
+   }
+  ],
+  "REDACTIONS.tsv": []
+ },
+ "note": "Each difference is a baseline (reviewed) value retained where the current generic builder would write another; content hashes and dispositions were proved equal before retention."
+}

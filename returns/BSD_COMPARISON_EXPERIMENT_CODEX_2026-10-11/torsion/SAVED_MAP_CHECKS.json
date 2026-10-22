@@ -1,0 +1,85 @@
+{
+  "irreducible_source_psi5": true,
+  "maps": [
+    {
+      "map": "map_113_0_0.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    },
+    {
+      "map": "map_113_0_1.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    },
+    {
+      "map": "map_113_1_0.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    },
+    {
+      "map": "map_113_1_1.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    },
+    {
+      "map": "map_167_0_0.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    },
+    {
+      "map": "map_167_0_1.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    },
+    {
+      "map": "map_167_1_0.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    },
+    {
+      "map": "map_167_1_1.json",
+      "checks": {
+        "source_model": true,
+        "target_division_polynomial": true,
+        "curve_identity": true,
+        "Y_factor_nonzero": true,
+        "x_map_primitive": true
+      }
+    }
+  ]
+}

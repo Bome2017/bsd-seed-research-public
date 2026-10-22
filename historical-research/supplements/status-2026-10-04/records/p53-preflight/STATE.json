@@ -1,0 +1,41 @@
+{
+ "lane": "53B_PREFLIGHT",
+ "status": "PREFLIGHT_PASS_FROZEN_NOT_LAUNCHED_STOPPED",
+ "mode": "PREFLIGHT_ONLY_NO_PRODUCTION",
+ "completed": [
+  "A: tmin 743/709 + admissibility + prefix custody (6445/6445 OK, roots reproduced)",
+  "B: stage + launcher adapter written",
+  "KA-S1..S3 on pre-fix launcher: PASS (S3 exposed F1)",
+  "launcher final sha 213d309e (race-tolerant, fail-closed exceptions, signals, nohup-safe, non-destructive verify-only, resume refusals)",
+  "Suite attempt 3 on launcher 6a805ac5: 27/27 test ids PASS (C1 first FAIL = harness relocation artifact, superseded by C1 rerun PASS 20/20 controls)"
+ ],
+ "running": [],
+ "pending": [
+  "Codex review of FROZEN_RUN_PACKAGE_p53_l743 (a766881)",
+  "user \"go 53b\" (target + caps)"
+ ],
+ "artifacts": [
+  "PREFLIGHT_RETURN.md",
+  "FROZEN_RUN_PACKAGE_p53_l743 (a766881)",
+  "preflight/C_suite/SUITE_RESULTS.json",
+  "preflight/F_model/MODEL.json",
+  "MANIFEST.sha256"
+ ],
+ "current_verdict": "PREFLIGHT_PASS: 27/27 tests on launcher 6a805ac5; projection 263 (254-301) CPU-h, 2.6 d (59-77 h), 1.7 GB; package a766881 frozen, not launched",
+ "unverified_claims": [
+  "production projection is a model, not a guarantee",
+  "adapter has no independent review yet"
+ ],
+ "next_actions": [
+  "wait for Codex package review",
+  "only on the user's \"go 53b\": run LAUNCH_COMMAND.txt"
+ ],
+ "last_checkpoint": "2026-10-02 final",
+ "findings": [
+  "F1: launcher crashed on a rename race (orchestrator supersede) -> children orphaned; FIXED",
+  "F2: after a fail-closed stop, orchestrator-group stragglers (apwit/wverify) kept running; FIXED in launcher (SIGKILL groups after nonzero exit)",
+  "F3: sealed prefix targets 0..3280 owner-writable; integrity = inline hash + pinned root",
+  "F4: brief T 262,568,508,022 is tmin@4096; aligned run T = 262,580,207,615 (k=15651)",
+  "harness: T3 driver race (killed between check json and publish) -> spool_exists condition"
+ ]
+}

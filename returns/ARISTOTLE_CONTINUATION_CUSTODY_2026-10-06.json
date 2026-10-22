@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-06",
+  "status": "PREPARED_NOT_SUBMITTED",
+  "return_manifest_entries_verified": 40,
+  "archive": {
+    "path": "work/returns/archives/BSD_ARISTOTLE_CONTINUATION_2026-10-06.zip",
+    "sha256": "d5ed1d1bd60059ac529b8d3101a9b3ba94f8b6cef59e44955da350c895205dfb",
+    "bytes": 66234537
+  },
+  "aristotle_submitted": false,
+  "new_mathematical_result": false,
+  "research_promotion": false
+}

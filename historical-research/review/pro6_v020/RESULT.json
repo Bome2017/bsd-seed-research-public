@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-09-23T19:46:31.389113+00:00",
+  "confirmed_corrections": [
+    "Separate ARS 2006 Manin-support reference from ARS 2012 modular-degree reference",
+    "CNS Theorem 5.15 label",
+    "Outward-round radius to 0.00570901; original outer interval unchanged"
+  ],
+  "snapshot_replay": "PASS",
+  "small_arithmetic_replay": "PASS; inspected supplied program rerun, not a new implementation",
+  "native_compiled_C_regression": "PASS; four expected accept/reject cases",
+  "new_endpoint_or_prime_settled": false,
+  "original_review_bundles_and_extracts_unchanged": true,
+  "frozen_release_unchanged": true,
+  "release_commit": "e8af0b76db3cec7c2610355babc4da25c8396be1",
+  "patch_scope": "Three isolated copies only; not built into a new PDF or release",
+  "report": "RECONCILIATION.md",
+  "patch": "VERIFIED_THREE_CORRECTIONS.patch"
+}

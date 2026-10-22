@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "submitted_prefix_radii_checked": 13,
+  "fixed_radius": "41/100",
+  "split_pairs": 2,
+  "separation_ratio_upper_ceiling_1e9": 988760899,
+  "analytic_product_upper": "4200000000000000000000000000000000000000000000000000000000000000000000000",
+  "torsion_order_upper_integer": "342199112254412245471282911641581284817221147154540004409185937945009605891",
+  "five_torsion_rank_upper": 106,
+  "weaker_than_retained_97": true,
+  "independent_implementation": "direct sinh/cosh rational Taylor bounds, coarser C and pi, fixed radius; no import of producer code"
+}

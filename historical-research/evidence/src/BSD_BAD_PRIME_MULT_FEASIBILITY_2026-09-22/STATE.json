@@ -1,0 +1,55 @@
+{
+  "status": "DONE: PRECISE_UNMET_PREREQUISITE",
+  "launch": "NONE (single-segment throughput measurements only)",
+  "tmin_per_symbol": {
+    "2243": 39119884424954,
+    "5843": 168703974800528,
+    "m81_sanity": 14832175873
+  },
+  "tmin_functional": {
+    "2243": 69894025714890,
+    "5843": 314608319666054
+  },
+  "producer_baseline_ms_per_prime": {
+    "3.912e13": 1.0613,
+    "1.687e14": 1.5338
+  },
+  "producer_variant_MAXM16384_ms_per_prime": {
+    "3.912e13": 0.3212,
+    "1.687e14": 0.4461
+  },
+  "variant_ap_sha256_matches_baseline_at_3.912e13": true,
+  "verifier_us_per_prime": {
+    "3.912e13": 43.9,
+    "1.687e14": 54.4
+  },
+  "regulators": {
+    "2243": "v_p(Reg_p)=2 (unit Reg_gamma)",
+    "5843": "v_p(Reg_p)=2 (unit Reg_gamma)"
+  },
+  "L_invariant_2243": "v_p = 1 (unit after /log kappa(gamma))",
+  "sealed_inputs_modified": false,
+  "stream_core_modified": false,
+  "variant_ap_sha256_matches_baseline": {
+    "3.912e13": "a3258307...",
+    "1.687e14": "4e91237c..."
+  },
+  "cost_cpu_h_per_symbol_route": {
+    "2243": {
+      "as_is": 325000.0,
+      "fixed_producer": 117000.0
+    },
+    "5843": {
+      "as_is": 1900000.0,
+      "fixed_producer": 635000.0
+    }
+  },
+  "unmet": [
+    "U1 compute ~1.2e5/6.3e5 CPU-h",
+    "U2 streaming pipeline",
+    "U3 msl redesign (trust base)",
+    "U4 sign rule at M>=5",
+    "U5 split height + SW split clause (2243)",
+    "U6 main-conjecture stance (Skinner as published / Kobayashi 2006 for 2243)"
+  ]
+}

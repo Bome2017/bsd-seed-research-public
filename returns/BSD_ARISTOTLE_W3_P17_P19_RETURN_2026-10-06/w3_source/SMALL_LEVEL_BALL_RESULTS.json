@@ -1,0 +1,85 @@
+{
+ "scope": "calibration on small prime levels; order 0 scalar; balls of Manin/Hecke rows",
+ "runs": [
+  {
+   "M": 389,
+   "p": 31,
+   "Q": [
+    2,
+    3,
+    5
+   ],
+   "a_q_mod_p": {
+    "2": 29,
+    "3": 29,
+    "5": 28
+   },
+   "target": "{inf,1/31}",
+   "nu": "{inf,2/31}",
+   "P1_size": 390,
+   "history": [
+    {
+     "radius": 0,
+     "symbols_with_rows": 4,
+     "touched_columns": 94,
+     "unresolved_boundary_columns": 90,
+     "certificate": false,
+     "residual_columns": 2
+    },
+    {
+     "radius": 1,
+     "symbols_with_rows": 94,
+     "touched_columns": 389,
+     "unresolved_boundary_columns": 295,
+     "certificate": true,
+     "v_over_nu_mod_p": 30
+    }
+   ],
+   "seconds": 0.1
+  },
+  {
+   "M": 3023,
+   "p": 31,
+   "Q": [
+    2,
+    3,
+    5
+   ],
+   "a_q_mod_p": {
+    "2": 30,
+    "3": 0,
+    "5": 2
+   },
+   "target": "{inf,1/31}",
+   "nu": "{inf,2/31}",
+   "P1_size": 3024,
+   "history": [
+    {
+     "radius": 0,
+     "symbols_with_rows": 4,
+     "touched_columns": 100,
+     "unresolved_boundary_columns": 96,
+     "certificate": false,
+     "residual_columns": 2
+    },
+    {
+     "radius": 1,
+     "symbols_with_rows": 100,
+     "touched_columns": 1574,
+     "unresolved_boundary_columns": 1474,
+     "certificate": false,
+     "residual_columns": 2
+    },
+    {
+     "radius": 2,
+     "symbols_with_rows": 1574,
+     "touched_columns": 3024,
+     "unresolved_boundary_columns": 1450,
+     "certificate": true,
+     "v_over_nu_mod_p": 30
+    }
+   ],
+   "seconds": 81.7
+  }
+ ]
+}

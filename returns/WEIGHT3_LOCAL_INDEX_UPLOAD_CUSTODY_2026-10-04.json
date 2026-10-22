@@ -1,0 +1,17 @@
+{
+  "status": "SEALED",
+  "return": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04",
+  "manifest_entries": 27,
+  "archive": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04.zip",
+  "archive_sha256": "109d72a9cd249cbcb86dc4bb92fba3cd528bad411b6d37445e69c3fc4e76f785",
+  "archive_bytes": 57044,
+  "checked_context_bindings": 7,
+  "checked_primary_source_bindings": 4,
+  "relative_links": 6,
+  "replay_byte_identical": true,
+  "source_input_sha256": "2c35e663e7ad04df32325b23cf83530a0dadfc48e1a96ccded916f3c2d655c6e",
+  "copied_manifest_pass": true,
+  "old_root_hashes_preserved": true,
+  "publication_grade": "experimental written derivation; no independent acceptance or endpoint promotion",
+  "standing_user_authorization": "Each time upload to lab GitHub so I can show pro 6"
+}

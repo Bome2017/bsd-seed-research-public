@@ -1,0 +1,47 @@
+{
+ "task": "Compute C13 = [T^2] L_13(E,T) mod 13 by the certified modular-symbol method used at 7 and 11.",
+ "status": "SUPERSEDED \u2014 see SUPERSEDED_BY_NORMALIZATION.md. Corrected C13 = 2 (omega1) / 1 (full real period).",
+ "gate": "~/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/bridge_repair_assessment_2026-09-21/P13_EVALUATION_GATE.md",
+ "implication": "C13 nonzero => Sha(E/Q)[13^inf] = 0 (retained qualifications). Then under FIN the next possible order becomes 2601, replacing 1521. C13 zero => inconclusive, STOP, no automatic next prime or deeper level.",
+ "cutoffs_verified_independently": {
+  "m=169": {
+   "TMIN": 55039988046,
+   "T": 55046045695,
+   "segments": 3281
+  },
+  "m=13": {
+   "TMIN": 4012598467,
+   "T": 4026531839,
+   "segments": 240
+  }
+ },
+ "reuse": {
+  "segments_rehashed": 2333,
+  "coefficient_bytes_gib": 6.25,
+  "failures": 0,
+  "rehash_seconds": 18.9,
+  "new_segments_needed": 948
+ },
+ "disk": {
+  "free_gib_at_launch": 96.5,
+  "storage_anchor_gib": 19.2,
+  "floor_gib": 25
+ },
+ "params": {
+  "TARGETS": "169:1:1 13:1:1",
+  "LATDEN": 1024,
+  "SEGQ": 16777216,
+  "J": 12,
+  "W": 12,
+  "KEEP_WIT": 1
+ },
+ "checkpoints": [
+  "ckpt1: cutoffs reproduced with arbcore tmin",
+  "ckpt2: 2333 reused segments rehashed clean and symlinked",
+  "ckpt3: INCIDENT - write-through-symlink aborted, corpus verified intact, markers created, relaunched safely",
+  "ckpt4: run complete 16:09:32; C13 nonzero; RESULT.json written"
+ ],
+ "incident_2026_09_21": "First launch symlinked reused segments WITHOUT creating run/seg/<s>.done markers. run_p3.sh gates only on those markers, so stage W treated all 3281 as new and wverify wrote THROUGH the symlinks into sealed p3/p7/p11 inputs (mtimes confirm ap_000000.bin and ver_0.log rewritten 13:31:37). Aborted after ~2 min. FULL corpus re-verified: 2333/2333 clean, 0 damaged (POST_ABORT_INTEGRITY.json). Harmless only because the producer is deterministic; a pkill -9 mid-write or any nondeterminism would have damaged sealed certificate inputs. FIX: create all 2333 done markers BEFORE launch so the worker exits without invoking apwit/wverify. See INCIDENT_2026-09-21.md.",
+ "result": "C13 != 0 mod 13 under both weight normalizations. Stage C: P3_CHECK_PASS failures=0. Normalization discrepancy UNRESOLVED and flagged.",
+ "superseded_by": "~/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p13/NORMALIZATION.md and audits/P13_PRIMARY_THEOREM.md"
+}

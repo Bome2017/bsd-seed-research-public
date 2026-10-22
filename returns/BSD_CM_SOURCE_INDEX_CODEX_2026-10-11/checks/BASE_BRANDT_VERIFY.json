@@ -1,0 +1,22 @@
+{
+  "status": "EXACT_SAVED_MATRIX_CHECK_PASS",
+  "class_number": 176,
+  "residual_dimensions": [
+    {
+      "q": 2,
+      "dimension": 11
+    },
+    {
+      "q": 13,
+      "dimension": 4
+    },
+    {
+      "q": 17,
+      "dimension": 1
+    }
+  ],
+  "primitive_eigenvector_norm": 144,
+  "doubled_vertex_norm": 288,
+  "component_degree_ratio_mod5": 2,
+  "limits": "Verifies saved matrices and linear algebra; does not independently reconstruct Brandt correspondences."
+}

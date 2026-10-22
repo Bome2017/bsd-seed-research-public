@@ -1,0 +1,25 @@
+{
+  "status": "NO_BOUND_MECHANISM_FOUND_FOR_TESTED_CANDIDATES",
+  "retained_inputs": [
+    "Seed curve, saturated rank-two basis P1,P2 (retained grade)",
+    "Surjectivity of residual representation outside retained finite set (retained grade)",
+    "Heegner hypothesis for K=Q(sqrt(-23)) (kernel-checked in record)",
+    "Even parity of Sha[p] dimension (retained grade; not used by Prop. 1)"
+  ],
+  "imported_theorems_statement_level": [
+    "Kolyvagin structure theorem in the form of Zhang Lemma 8.4 (requires Hypothesis heart for (E,K,p)); not re-read",
+    "Nekovar control theorem for Selmer complexes with Greenberg conditions; not re-read",
+    "Howard: Lambda-adic Heegner Kolyvagin system specializing to classical one; not re-read",
+    "Kato divisibility and Perrin-Riou/Schneider leading-term formula (used only to state A3 inequality)"
+  ],
+  "open_dependencies_of_new_derivation": [
+    "ord_{s=1} L(E^K,s)=1 for the -23 twist (gives s_minus=1 cofinitely via GZK); not computed",
+    "Hypothesis heart for each p in D; retained, not re-derived"
+  ],
+  "new_derivations": [
+    "PROOF.md Prop. 1: equivalence of dim X_p<=1, X_p=0, nu_p=1 and unit augmentation image of Theta_1 on D (written, unreviewed)"
+  ],
+  "computations_run": [],
+  "conjectures_used": [],
+  "forbidden_inputs_used": []
+}

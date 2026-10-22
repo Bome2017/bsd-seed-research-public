@@ -1,0 +1,25 @@
+{
+  "status": "complete_experiment_reviewed_no_seed_bound",
+  "date": "2026-10-15",
+  "endpoints": {
+    "FIN": "open",
+    "ORDER9": "open",
+    "Q36": "open"
+  },
+  "inputs": "BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15 and earlier frozen source experiments",
+  "originals_mutated": false,
+  "active_jobs": [],
+  "checkpoint_utc": "2026-10-15T19:02:07.203912+00:00",
+  "fresh_blocks": 180,
+  "independent_replay": "PASS:1440 torsion points;16992 cubic symbols;5760 rows",
+  "controls": {
+    "1913b1": "source-certified and independent admission audit supported",
+    "28042a1": "actual lower-bound audit supported; complete source uncertified"
+  },
+  "main_findings": [
+    "equal ranks at19219 and18757 with different actual mixed class obstruction",
+    "six fresh single-block failures share one false class survivor; later19483 row eliminates it",
+    "1913b1 exact Sel3=F3^2 under source imports",
+    "28042a1 actual lower classes give dim Sha[3]>=2; source upper uncertified"
+  ]
+}

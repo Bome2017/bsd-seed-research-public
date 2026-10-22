@@ -1,0 +1,366 @@
+{
+  "result": "EXACT_COVERAGE_CHECK_PASS",
+  "range": "all primes 5 <= p <= 160",
+  "D": -23,
+  "coefficient_source": {
+    "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/ap/ap_000000.bin",
+    "sha256": "42d69809b7e3895c63c4d392afb2d470540e2dda16f560de54c9f08171e49ff8",
+    "bytes": 4311484
+  },
+  "independent_method": "enumerate square multiplicities and count points over each finite field",
+  "all_checked_good_prime_traces_match_retained_corpus": true,
+  "checked_good_prime_count": 35,
+  "served_primes": [
+    13,
+    31,
+    41,
+    47,
+    71,
+    73,
+    101,
+    127,
+    139,
+    151
+  ],
+  "rows": [
+    {
+      "p": 5,
+      "a_p": -2,
+      "card_E_Fp": 8,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 7,
+      "a_p": -2,
+      "card_E_Fp": 10,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 11,
+      "a_p": -2,
+      "card_E_Fp": 14,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 13,
+      "a_p": -4,
+      "card_E_Fp": 18,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 17,
+      "a_p": -6,
+      "card_E_Fp": 24,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 19,
+      "a_p": 4,
+      "card_E_Fp": 16,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "excluded by regime P",
+        "inert in K"
+      ]
+    },
+    {
+      "p": 23,
+      "a_p": 0,
+      "card_E_Fp": 24,
+      "chi_minus23": 0,
+      "served": false,
+      "exclusion_reasons": [
+        "supersingular",
+        "ramified in K"
+      ]
+    },
+    {
+      "p": 29,
+      "a_p": 0,
+      "card_E_Fp": 30,
+      "chi_minus23": 1,
+      "served": false,
+      "exclusion_reasons": [
+        "supersingular"
+      ]
+    },
+    {
+      "p": 31,
+      "a_p": -8,
+      "card_E_Fp": 40,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 37,
+      "a_p": 10,
+      "card_E_Fp": 28,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 41,
+      "a_p": 6,
+      "card_E_Fp": 36,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 43,
+      "a_p": -8,
+      "card_E_Fp": 52,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 47,
+      "a_p": 4,
+      "card_E_Fp": 44,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 53,
+      "a_p": -6,
+      "card_E_Fp": 60,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 59,
+      "a_p": -4,
+      "card_E_Fp": 64,
+      "chi_minus23": 1,
+      "served": false,
+      "exclusion_reasons": [
+        "excluded by regime P"
+      ]
+    },
+    {
+      "p": 61,
+      "a_p": -12,
+      "card_E_Fp": 74,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 67,
+      "a_p": 8,
+      "card_E_Fp": 60,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 71,
+      "a_p": -2,
+      "card_E_Fp": 74,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 73,
+      "a_p": -6,
+      "card_E_Fp": 80,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 79,
+      "a_p": 16,
+      "card_E_Fp": 64,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 83,
+      "a_p": -8,
+      "card_E_Fp": 92,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 89,
+      "a_p": -14,
+      "card_E_Fp": 104,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 97,
+      "a_p": 2,
+      "card_E_Fp": 96,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 101,
+      "a_p": -6,
+      "card_E_Fp": 108,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 103,
+      "a_p": -2,
+      "card_E_Fp": 106,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 107,
+      "a_p": -18,
+      "card_E_Fp": 126,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 109,
+      "a_p": -2,
+      "card_E_Fp": 112,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 113,
+      "a_p": -6,
+      "card_E_Fp": 120,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 127,
+      "a_p": 22,
+      "card_E_Fp": 106,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 131,
+      "a_p": 0,
+      "card_E_Fp": 132,
+      "chi_minus23": 1,
+      "served": false,
+      "exclusion_reasons": [
+        "supersingular"
+      ]
+    },
+    {
+      "p": 137,
+      "a_p": -2,
+      "card_E_Fp": 140,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 139,
+      "a_p": 4,
+      "card_E_Fp": 136,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 149,
+      "a_p": -10,
+      "card_E_Fp": 160,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    },
+    {
+      "p": 151,
+      "a_p": -8,
+      "card_E_Fp": 160,
+      "chi_minus23": 1,
+      "served": true,
+      "exclusion_reasons": []
+    },
+    {
+      "p": 157,
+      "a_p": 14,
+      "card_E_Fp": 144,
+      "chi_minus23": -1,
+      "served": false,
+      "exclusion_reasons": [
+        "inert in K"
+      ]
+    }
+  ],
+  "interval_arithmetic": {
+    "lower_exact": "9878059128817468393/250000000000000000",
+    "upper_exact": "10045580027341968607/250000000000000000",
+    "outward_final_interval_confirmed": true,
+    "comparison": "finite-ball lower endpoint exceeds the tail; no value is claimed equal to the midpoint"
+  },
+  "scope": "Bounded local applicability check only; imports retained source composition and certified twist rank. No Stark ideal evaluation, Sha vanishing, FIN, ORDER9 or Q36."
+}

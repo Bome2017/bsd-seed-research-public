@@ -1,0 +1,87 @@
+{
+  "status": "SEED_TWO_SIGNATURE_ROWS_RECOMPUTED",
+  "rows": [
+    {
+      "prime": 811,
+      "root_weights": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_row": [
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1
+      ],
+      "point_values": [
+        0,
+        0
+      ],
+      "known_values": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "prime": 2767,
+      "root_weights": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_row": [
+        1,
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        1
+      ],
+      "point_values": [
+        0,
+        0
+      ],
+      "known_values": [
+        0,
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "excess_minor_mod3": 2,
+  "scope": "Independent finite matrix arithmetic from saved residue matrices; not a regeneration of field evaluations or proof of full Selmer completeness."
+}

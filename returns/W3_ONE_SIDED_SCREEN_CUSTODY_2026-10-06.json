@@ -1,0 +1,48 @@
+{
+ "return": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-06T22:00:56Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "BRIDGE_IN_HAND__GLOBAL_CONTROL_OPEN (ordinary primes only)",
+ "files": [
+  {
+   "path": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/HANDOFF.md",
+   "sha256": "1fa3d1803dc2c17f0353ee161c8c0dc0dfd2d8948cc39edded57338a6a24a250",
+   "bytes": 1492
+  },
+  {
+   "path": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "fe65da51bffe7b7d1768c4e3d8173ef11c65a0877158d2b13b056c4fef1f4c06",
+   "bytes": 458
+  },
+  {
+   "path": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/RESULT.md",
+   "sha256": "6480c4632382857de2c9f7817abb94df8b52c8f7b70a88dfe49a3eb5cb97668c",
+   "bytes": 13128
+  },
+  {
+   "path": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/checks/ARISTOTLE_RECOMPILE.txt",
+   "sha256": "bacfd2b17aa666f6d43317f2532be0fd0e848af3b7c85d53e46e980ccd87ee3d",
+   "bytes": 1215
+  },
+  {
+   "path": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/input/aristotle_69562e6c/FRONTIER.md",
+   "sha256": "d836777556ae7fc6e8a71db22616e0eea37d3b39011004d3dfc4072155df89be",
+   "bytes": 4457
+  },
+  {
+   "path": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/input/aristotle_69562e6c/Frontier.lean",
+   "sha256": "650bab87daefdb3ecd43234142155f3911fe1283ccd9df5387512535634c5da3",
+   "bytes": 5321
+  }
+ ],
+ "inputs": {
+  "aristotle_69562e6c_tarball_sha256": "38c8a499e7bf01825fd6b5bf29b42a4a2bff9c953f905b2e90226774eab84fa8",
+  "aristotle_eb3e82a5_tarball_sha256": "e93e7c604a4d58c5dfb21aabda9d274406e4bb32023db9ede0b604ec77461556"
+ },
+ "corrects": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06 (ell_2 \"dead at p=17\" withdrawn; see RESULT.md §6)",
+ "review": "independent adversarial review PASS_WITH_CORRECTIONS, all 7 corrections applied (RESULT.md §8)",
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

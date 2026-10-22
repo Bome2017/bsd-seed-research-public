@@ -1,0 +1,120 @@
+{
+ "purpose": "Declared evidence additions for the v0.2.4 perimeter transition: the exact descent certificate and the A5 (p = 3) formal check. Any other evidence change is rejected by tools/build_evidence_transition.py.",
+ "base": "8ed37c54ae3630338ce32d441901d964e331820d",
+ "additions": [
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/CERTIFICATE.md",
+   "sha256": "0e6cb82e815dbe7822996ea2b857f4e91b0978fc1832db5be1a86f2a61178eb2",
+   "bytes": 3818,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.gp",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.gp",
+   "sha256": "5831d9a30d70173f292cfe742614b7d8b5a2317f4af5fdd8f7dc2eb1743e3e0f",
+   "bytes": 911,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/pari_descent.out",
+   "sha256": "b962f15a5007d3bdbfdeb6457c1f9f777592c96e4be84a15f5ab0c2d03c89dfd",
+   "bytes": 375,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_2isogeny_only.log",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_2isogeny_only.log",
+   "sha256": "6757e12f35eec0c596e7d4772d7bd96df141f4bdedc028827d40c64be62933c7",
+   "bytes": 3289,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_E_default.log",
+   "sha256": "4cdd862eeff8a3fb2043cf5d08f45e10a1357bfcb3060fc4488907b886fcb7d3",
+   "bytes": 3327,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_Eprime_2isogeny_only.log",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/mwrank_Eprime_2isogeny_only.log",
+   "sha256": "6d6b9ce61d9c70cf0d3f536d28646f3affa2f15505cc919b401f9d6090f56bce",
+   "bytes": 3325,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.sage",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.sage",
+   "sha256": "27648eae6c473949fc97cc52a2aca6964f819281f148b722d71b0f096a0a54b9",
+   "bytes": 495,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.out",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/saturation.out",
+   "sha256": "e41e3114eba2b2207834abb6a4057a05331284161aabef8a005ff8fa36a26d8e",
+   "bytes": 569,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/verify_descent.sh",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/verify_descent.sh",
+   "sha256": "bfe6427ebdac71af7ca566241e5deeddef5eee6ec5f5a1c6220694c3f50c2c79",
+   "bytes": 1391,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/descent/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/descent/MANIFEST.sha256",
+   "sha256": "35b24936becaf5f63d02c94771bec6bccc55d9933f236dba2564a8e5eb2d923b",
+   "bytes": 771,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+   "release_path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+   "sha256": "cb374846b3e7aee1b1405757d41aa26c8797e6ece88f41d5185add25c11f379d",
+   "bytes": 34364,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/PACKET_INDEX.md",
+   "release_path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/PACKET_INDEX.md",
+   "sha256": "84f1377673fb673b407f4e4ec5bfa5118be4da0186249edf9f45956cf5348334",
+   "bytes": 3495,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/ERRATUM_v2_2026-09-25.md",
+   "release_path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/ERRATUM_v2_2026-09-25.md",
+   "sha256": "c440e7e6cb0839d572cdfb6824349a269689277db2528d5d1cf96bd83c6f6f31",
+   "bytes": 1346,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+   "sha256": "4ef8506cd7e02ee6857735a81a99b08378b9ee8dff50169726448fd607925831",
+   "bytes": 43559,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+   "sha256": "e4288f949c7123e7635ce92781282e7cfcd11b0a7e2e27bdee75b768f6c2893d",
+   "bytes": 2687,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+   "release_path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+   "sha256": "5a3a3672b727b15a0cb542b5b49bb6867085422d5d21553d26edf0c40b6c1cee",
+   "bytes": 1895,
+   "disposition": "admitted_unmasked"
+  }
+ ],
+ "declared_exclusions": [],
+ "declared_redactions": []
+}

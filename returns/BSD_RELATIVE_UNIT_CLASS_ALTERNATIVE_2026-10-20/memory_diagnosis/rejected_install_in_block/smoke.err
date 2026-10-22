@@ -1,0 +1,22 @@
+  ***   at top-level: ...t(F);B0=bnfinit(NF,1);B1=bsd_lowmem_init(NF);i
+  ***                                             ^---------------------
+  ***   attempt to change built-in bsd_lowmem_init.
+... skipping file 'smoke.gp'
+        0.56 real         0.04 user         0.03 sys
+            21815296  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                5713  page reclaims
+                 901  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  13  voluntary context switches
+                 581  involuntary context switches
+           406718715  instructions retired
+           297793646  cycles elapsed
+            18382848  peak memory footprint

@@ -1,0 +1,1 @@
+{alarm(5);NF=read("../inputs/nf.gp");if(NF.sign!=[6,21],error("saved signature"));nr=polsturm(NF.pol);if(nr!=6,error("real root count"));print("SAVED_SIGNATURE_AND_REAL_STURM_PASS=[6,21];REAL_ROOTS=",nr);quit;}

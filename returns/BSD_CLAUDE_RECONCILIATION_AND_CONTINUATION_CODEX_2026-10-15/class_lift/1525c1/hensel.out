@@ -1,0 +1,30 @@
+{
+  "status": "INDEPENDENT_RATIONAL_HENSEL_CHECK_PASS",
+  "curves": [
+    {
+      "curve": "1525c1",
+      "samples": 2,
+      "minimum_hensel_cube_margin": 89,
+      "certificates": [
+        {
+          "prime": 3,
+          "hensel_precision": 45,
+          "exact_cube_margins": [
+            89,
+            130,
+            127
+          ]
+        },
+        {
+          "prime": 3,
+          "hensel_precision": 45,
+          "exact_cube_margins": [
+            89,
+            127,
+            130
+          ]
+        }
+      ]
+    }
+  ]
+}

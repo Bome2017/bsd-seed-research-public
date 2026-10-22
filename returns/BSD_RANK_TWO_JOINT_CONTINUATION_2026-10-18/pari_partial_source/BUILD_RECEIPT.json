@@ -1,0 +1,22 @@
+{
+  "exit_code": 0,
+  "timeout": false,
+  "command": [
+    "/usr/bin/clang",
+    "-arch",
+    "x86_64",
+    "-O1",
+    "-fPIC",
+    "-dynamiclib",
+    "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/pari_partial_source/buch2.partial.c",
+    "-I/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/include/pari",
+    "-L/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib",
+    "-lpari",
+    "-Wl,-rpath,/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib",
+    "-o",
+    "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18_PARI_BUILD/libbsdpartial.dylib"
+  ],
+  "wall_seconds": 1.786532711,
+  "source_sha256": "ed652f3b8414f55c0683f201a20073f87393990a33e0977a00bea27c2cbc862e",
+  "library_sha256": "5059658702c6bd520f69223b25b8ac47f3a4eadd5f15f1d7b044afef11f3da89"
+}

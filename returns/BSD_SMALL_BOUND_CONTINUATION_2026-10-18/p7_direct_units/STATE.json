@@ -1,0 +1,106 @@
+{
+  "status": "FINITE_SOURCE_SEARCH_COMPLETED_NO_NONTRIVIAL_CHARACTER_UNIT_OBTAINED",
+  "curve": "389a1",
+  "coefficient_prime": 7,
+  "norm_candidates": 2000,
+  "norm_one_candidates": 0,
+  "principal_ideal_candidates": 2000,
+  "scalar_powers_tested": [
+    1,
+    2,
+    3
+  ],
+  "nontrivial_unit_quotients": 0,
+  "supported_candidate": {
+    "source": "integral basis vector2",
+    "norm": "-7^15",
+    "prime7_scalar_permutation": [
+      1,
+      3,
+      2
+    ],
+    "sigma2_quotient": 1
+  },
+  "actual_norm_rank": null,
+  "unit_kernel_improved_upper": null,
+  "class_bound": null,
+  "total_arithmetic_wall_seconds": 80.8538112770766,
+  "receipts": [
+    {
+      "path": "REPAIR_REPLAY.gp.receipt.json",
+      "script": "REPAIR_REPLAY.gp",
+      "budget_seconds": 20.0,
+      "elapsed_seconds": 1.9934542500413954,
+      "peak_rss_bytes": 57823232,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "path": "authenticate_export.gp.receipt.json",
+      "script": "authenticate_export.gp",
+      "budget_seconds": 30.0,
+      "elapsed_seconds": 0.34107747906818986,
+      "peak_rss_bytes": 58200064,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "path": "divisors.gp.receipt.json",
+      "script": "divisors.gp",
+      "budget_seconds": 30.0,
+      "elapsed_seconds": 0.9913693009875715,
+      "peak_rss_bytes": 56020992,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "path": "ideal_units.gp.receipt.json",
+      "script": "ideal_units.gp",
+      "budget_seconds": 60.0,
+      "elapsed_seconds": 41.42223763791844,
+      "peak_rss_bytes": 56905728,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "path": "rejected_repeated_matrix_entry/ideal_units.gp.receipt.json",
+      "script": "ideal_units.gp",
+      "budget_seconds": 60.0,
+      "elapsed_seconds": 28.896119793877006,
+      "peak_rss_bytes": 52994048,
+      "exit_code": -15,
+      "stop": null
+    },
+    {
+      "path": "rejected_reserved_variable/authenticate_export.gp.receipt.json",
+      "script": "authenticate_export.gp",
+      "budget_seconds": 30.0,
+      "elapsed_seconds": 0.11361631215550005,
+      "peak_rss_bytes": 2166784,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "path": "replay.gp.receipt.json",
+      "script": "replay.gp",
+      "budget_seconds": 22.0,
+      "elapsed_seconds": 3.4205539759714156,
+      "peak_rss_bytes": 55787520,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "path": "scan.gp.receipt.json",
+      "script": "scan.gp",
+      "budget_seconds": 60.0,
+      "elapsed_seconds": 3.6753825270570815,
+      "peak_rss_bytes": 56823808,
+      "exit_code": 0,
+      "stop": null
+    }
+  ],
+  "unrun_scripts": [
+    "export_ideal_units.gp"
+  ],
+  "endpoint_effect": "FIN ORDER9 Q36 unchanged"
+}

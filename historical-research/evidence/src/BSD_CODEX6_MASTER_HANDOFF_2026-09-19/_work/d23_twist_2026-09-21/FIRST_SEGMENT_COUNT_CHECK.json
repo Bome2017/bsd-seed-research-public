@@ -1,0 +1,8 @@
+{
+  "R": 58788,
+  "segment": 0,
+  "independent_pairs": 1433093153,
+  "independent_nonzero_weighted_terms": 642830217,
+  "seconds": 1.4869851469993591,
+  "small_coefficient_method": "Independent smallest-prime-factor recurrence; Euler-square character; Python Eratosthenes slice sieve"
+}

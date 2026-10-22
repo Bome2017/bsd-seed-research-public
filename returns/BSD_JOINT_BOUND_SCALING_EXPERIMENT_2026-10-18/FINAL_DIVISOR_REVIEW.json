@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "actual_prime_records": [
+    {
+      "prime": 7,
+      "degree_sum": 48,
+      "chi3_dim": 0,
+      "chi5_dim": 0
+    },
+    {
+      "prime": 11,
+      "degree_sum": 48,
+      "chi3_dim": 1,
+      "chi5_dim": 1
+    }
+  ],
+  "abstract_point_ef": [
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "abstract_covector_ef": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      3
+    ]
+  ],
+  "primitive_map_on_six_point_orbits_to_six_covector_singletons": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "permutation_isomorphism": true,
+  "monodromy5_mod7_unit": true,
+  "faithful_divisor_kernel_dimension": 0,
+  "scope": "actual source records plus independently rebuilt Tate orbit and normalized incidence calculation; retained field and Tate uniformization inputs"
+}

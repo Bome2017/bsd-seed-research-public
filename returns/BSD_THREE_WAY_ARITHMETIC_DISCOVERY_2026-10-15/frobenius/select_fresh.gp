@@ -1,0 +1,11 @@
+alarm(90);gettime();DD=read("/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/data.gp");C=read("affine_norm_certificate.gp");E=DD[1];FA=DD[3];T=DD[5];G=DD[6];b=C[6];fB=C[2];
+q=47653;got=0;skips=List();
+{while(got<40,q=nextprime(q+1);if(q>2000000,error("sealed sample not found"));if(q%3!=1,next);if(E.disc%q==0,next);rs=polrootsmod(FA,q);if(#rs!=8,next);ok=1;
+ iferr(for(i=1,8,for(j=1,#G,if(subst(lift(G[j]),w,rs[i])==0,ok=0)));if(subst(lift(b),z,Mod(0,q))==0,ok=ok),er,ok=0);
+ if(!ok,listput(skips,q);next);
+ pts=vector(8,i,lift([subst(lift(T[1]),w,rs[i]),subst(lift(T[2]),w,rs[i])]));
+ iferr(zrs=polrootsmod(fB,q);if(#zrs!=8,error("line field mismatch"));for(i=1,8,if(subst(lift(b),z,zrs[i])==0,error("zero norm"))),er,ok=0);
+ if(!ok,listput(skips,q);next);
+ got++;write("fresh_roots.jsonl",Str("{\"q\":",q,",\"roots\":",lift(rs~),",\"points\":",pts,"}"));
+)};
+print("FRESH_SELECTED=",got,";LAST=",q,";SKIPPED_SPLIT_PRIMES=",Vec(skips),";MS=",gettime());quit;

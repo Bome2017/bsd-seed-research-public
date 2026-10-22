@@ -1,0 +1,14 @@
+{
+  "status": "SOURCE_CERTIFICATES_REPLAYED_EXISTING_SEED_EVALUATOR_CONNECTED_UNIFORM_BOUND_OPEN",
+  "date": "2026-10-06",
+  "endpoints": {
+    "FIN": "unchanged",
+    "ORDER9": "unchanged",
+    "Q36": "unchanged"
+  },
+  "new_primary_result": false,
+  "uniform_bound": false,
+  "lean_replayed": false,
+  "new_production_run": false,
+  "remote_jobs_launched": 0
+}

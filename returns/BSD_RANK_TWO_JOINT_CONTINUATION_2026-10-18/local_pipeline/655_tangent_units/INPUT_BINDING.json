@@ -1,0 +1,22 @@
+{
+  "config": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/local_pipeline/tangent_config.json",
+  "config_sha256": "59de5ea593c6c7c3fdd287c8342ec83dfedcd53462b84fb85314fb8716e2eccf",
+  "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/compact_units_eval.json",
+  "source_sha256": "9992bfe088145df1e8cbdcdbb62318c40fc6283ed1fae000d9ed39353159815e",
+  "nf": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/nf.gp",
+  "nf_sha256": "d15ff1e34154d54b09fe443cac84d3ed0fe0fce8fa76c2083bd6885765c14449",
+  "unit_authentication": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/TRANSPORT_PROOF.md",
+  "unit_authentication_sha256": "501dd4962a6a58cc0b7801d9770d4afa0f1c94e6826ddfb8b95c84bb7c0fd330",
+  "compact_sha256": "9992bfe088145df1e8cbdcdbb62318c40fc6283ed1fae000d9ed39353159815e",
+  "curve": [
+    0,
+    0,
+    1,
+    -13,
+    18
+  ],
+  "p": 7,
+  "point_count": 11,
+  "trace": -3,
+  "source_unit_columns": 24
+}

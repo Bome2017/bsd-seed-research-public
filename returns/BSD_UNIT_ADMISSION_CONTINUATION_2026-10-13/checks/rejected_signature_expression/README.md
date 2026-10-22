@@ -1,0 +1,1 @@
+REJECTED: GP sqrt(x) is not a polynomial substitution. Use explicit even coefficients to construct the quartic. Unit arithmetic itself completed, but the overall PASS was rejected due nonempty error output.

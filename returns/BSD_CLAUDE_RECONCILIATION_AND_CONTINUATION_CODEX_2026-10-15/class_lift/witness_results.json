@@ -1,0 +1,37 @@
+[
+  {
+    "curve": "1141a1",
+    "rc": 0,
+    "pass": true,
+    "unexpected_stderr": [],
+    "seconds": 0.132
+  },
+  {
+    "curve": "1246c1_retry600",
+    "rc": 0,
+    "pass": true,
+    "unexpected_stderr": [],
+    "seconds": 0.129
+  },
+  {
+    "curve": "1480a1",
+    "rc": 0,
+    "pass": true,
+    "unexpected_stderr": [],
+    "seconds": 0.127
+  },
+  {
+    "curve": "1525c1",
+    "rc": 0,
+    "pass": true,
+    "unexpected_stderr": [],
+    "seconds": 0.124
+  },
+  {
+    "curve": "1613a1_grh",
+    "rc": 0,
+    "pass": true,
+    "unexpected_stderr": [],
+    "seconds": 0.122
+  }
+]

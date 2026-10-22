@@ -1,0 +1,71 @@
+{
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "controls": [
+    {
+      "A_L2_valuation": 1,
+      "A_corrected": {
+        "leading_unit": 1,
+        "valuation": 0
+      },
+      "A_numerator_independently_computed": true,
+      "F_L2_valuation": 2,
+      "F_corrected": {
+        "leading_unit": 1,
+        "valuation": 2
+      },
+      "conditional_primary_groups": {
+        "A": "0",
+        "F": "(Z/5)^2"
+      },
+      "d": 43737,
+      "regulator_valuation": 0
+    },
+    {
+      "A_L2_valuation": 3,
+      "A_corrected": {
+        "leading_unit": 1,
+        "valuation": 0
+      },
+      "A_numerator_independently_computed": false,
+      "F_L2_valuation": 4,
+      "F_corrected": {
+        "leading_unit": 1,
+        "valuation": 2
+      },
+      "conditional_primary_groups": {
+        "A": "0",
+        "F": "(Z/5)^2"
+      },
+      "d": 329233,
+      "regulator_valuation": 2
+    }
+  ],
+  "grade": "exact arithmetic on retained data, theorem application conditional on written audits",
+  "length2_with_residual_dimension_at_least2": [
+    [
+      1,
+      1
+    ]
+  ],
+  "new_seed_primes": 0,
+  "precision_negative_controls_rejected": [
+    [
+      0,
+      4
+    ],
+    [
+      625,
+      4
+    ]
+  ],
+  "seed17": {
+    "L2_computed": false,
+    "L2_valuation_derived_from_old_Sha_certificate": 1,
+    "Ota_residue": 7,
+    "U_regulator_valuation": 1,
+    "native_regulator_valuation": 3,
+    "regulator_leading_unit": 13
+  }
+}

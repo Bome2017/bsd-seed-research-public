@@ -1,0 +1,40 @@
+{
+  "status": "PORTABLE_EXACT_REPLAY_PASS",
+  "workdir": "clean_5xtdcxqf",
+  "input_files": 14,
+  "gp_jobs": [
+    {
+      "script": "construct_norm.gp",
+      "exit": 0,
+      "stdout_sha256": "83a742b164f245275b7f4bde183cb6028ed550c242cb7670adce2725f1a1019c"
+    },
+    {
+      "script": "bind_source.gp",
+      "exit": 0,
+      "stdout_sha256": "6fbc6ddbcbe38a8d70d4d33be8656f5fb6c981da8cfb2ee3a06eb23eda8c0743"
+    },
+    {
+      "script": "check_genuine_controls.gp",
+      "exit": 0,
+      "stdout_sha256": "391c8bdf59746f62ba77d04b0eea1f3480f6e86521c290bd8a49ef27c6bf4cb6"
+    },
+    {
+      "script": "select_fresh.gp",
+      "exit": 0,
+      "stdout_sha256": "468d5bae9f4a6cf530c6e8b91f5184cbef40ee284654e38362bf4e36cc3d34c5"
+    },
+    {
+      "script": "splitting_polynomial.gp",
+      "exit": 0,
+      "stdout_sha256": "4f7c45e53b1bb3d4619fe39a7fcabb3f4b337f145c7b567baa46636d2755740e"
+    },
+    {
+      "script": "check_polynomial.gp",
+      "exit": 0,
+      "stdout_sha256": "514f4693fea995a70a5ffcf8ff19d32a37803d4996e6762c766f7d72abfa11d3"
+    }
+  ],
+  "fresh_predictions": 40,
+  "old_calibration_cases": 72,
+  "local_source_coverage": "All computation inputs copied into inputs; historical source grades remain retained."
+}

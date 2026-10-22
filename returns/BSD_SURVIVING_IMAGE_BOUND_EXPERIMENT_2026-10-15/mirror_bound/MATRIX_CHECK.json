@@ -1,0 +1,19 @@
+{
+  "status": "EXACT_PAIRED_MATRIX_CHECK_PASS",
+  "scalar_dimensions": [
+    4,
+    5
+  ],
+  "norm_ranks": [
+    2,
+    2
+  ],
+  "homology_dimensions": [
+    0,
+    1
+  ],
+  "mirror_image_valuation_rank": 2,
+  "mirror_image_H0_dimension": 0,
+  "mirror_homology_represented_by_ordinary_class": true,
+  "no_local_rows_used": true
+}

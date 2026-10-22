@@ -1,0 +1,18 @@
+'Seed.NoLift.one_add_pow_of_pow_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.e12_mul_e12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.pow_four_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.exists_mul_of_red_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.natCast_p_sq_eq_zero' depends on axioms: [propext, Quot.sound]
+'Seed.NoLift.natCast_p_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.pow_eq_of_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.pow_ne_one_of_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.transvection_pow_p' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.NoLift.no_section_SL2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.Exceptional.primeFactors_2242' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.Exceptional.primeFactors_5844' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.Exceptional.exceptional_local_primes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.Exceptional.torus_weight_nontrivial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Seed.EtaCheck.eta_19' does not depend on any axioms
+'Seed.EtaCheck.eta_59' does not depend on any axioms
+'Seed.EtaCheck.eta_487' does not depend on any axioms
+'Seed.EtaCheck.order_kills' does not depend on any axioms

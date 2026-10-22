@@ -1,0 +1,21 @@
+{
+  "status": "COPY_AND_ARCHIVE_VERIFIED",
+  "source_directory": "/Users/bsm/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+  "lab_return": "work/returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+  "lab_baseline": "54637ae16c1856d065b8dada5aeab7c7ac33ced6",
+  "manifest_entries": 19,
+  "source_bindings": 8,
+  "prior_manifests_verified": [
+    22,
+    14
+  ],
+  "archive": "work/returns/archives/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07.zip",
+  "archive_bytes": 156606,
+  "archive_sha256": "9eebf67f611e5d42c8be1ba2d6c4aa6f9368609ebd85d1f15076f9abae07a462",
+  "mathematical_grade": "written deduction under retained inputs; no independent certification",
+  "endpoint_effect": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/runtime/src/arbcore.c": {
+    "resolved_path": "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/runtime/src/arbcore.c",
+    "sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+    "bytes": 34328
+  },
+  "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/runtime/src/arbcore": {
+    "resolved_path": "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/runtime/src/arbcore",
+    "sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+    "bytes": 50744
+  },
+  "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/checker/singleton_check.py": {
+    "resolved_path": "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/FROZEN_RUN_PACKAGE_p83_l167/checker/singleton_check.py",
+    "sha256": "cdbb8f3201ca26ec6add611a8ec983e971857836cd291a1db744a41623062bf6",
+    "bytes": 11256
+  },
+  "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/DESIGN.md": {
+    "resolved_path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/DESIGN.md",
+    "sha256": "dfc35acb78179609800dc519e0440fbd8480eb28f2ced484bc6b0f9c401ff829",
+    "bytes": 9766
+  },
+  "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/libflint.21.0.dylib": {
+    "resolved_path": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/libflint.21.0.dylib",
+    "sha256": "75096794bb13714f06e028c67eb04fee2baa0bb3f2f538ef74c78711779bc811",
+    "bytes": 12851000
+  },
+  "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/libmpfr.6.dylib": {
+    "resolved_path": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/libmpfr.6.dylib",
+    "sha256": "f3c7a1c445b82d9f5ad2bde90e10ab8689dbdd319452544d7caefba1ad686dda",
+    "bytes": 476224
+  },
+  "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/libgmp.10.dylib": {
+    "resolved_path": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/libgmp.10.dylib",
+    "sha256": "9156ae6a79534005ce7875a8014326a5189ad73971b1e84360a96d6b3169fdfa",
+    "bytes": 646432
+  }
+}

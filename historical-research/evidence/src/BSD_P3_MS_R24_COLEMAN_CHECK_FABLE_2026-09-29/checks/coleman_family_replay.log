@@ -1,0 +1,17 @@
+alpha = -1:  L_0 = 3/2
+  n=1  Tr L_n - L_{n-1} == 0 : 1
+  n=2  Tr L_n - L_{n-1} == 0 : 1
+  n=3  Tr L_n - L_{n-1} == 0 : 1
+  n=1  sum L_n^sigma chi(sigma) == alpha^-(n+1) tau(chi) : 1   tau != 0: 1
+  n=2  sum L_n^sigma chi(sigma) == alpha^-(n+1) tau(chi) : 1   tau != 0: 1
+alpha = 1:  L_0 = 0
+  n=1  Tr L_n - L_{n-1} == 0 : 1
+  n=2  Tr L_n - L_{n-1} == 0 : 1
+  n=3  Tr L_n - L_{n-1} == 0 : 1
+  n=1  sum L_n^sigma chi(sigma) == alpha^-(n+1) tau(chi) : 1   tau != 0: 1
+  n=2  sum L_n^sigma chi(sigma) == alpha^-(n+1) tau(chi) : 1   tau != 0: 1
+B1 nonsplit  exp(i*h):  min v_3 of cos/sin coeffs to X^40 = 0 / 0
+B2 split     exp(h_1):  min v_3 = 0   (Kobayashi family; expect >= 0)
+B3 control   exp(h)  (b = 1, no twist): min v_3 = -8   (expect < 0)
+B4 control   exp(i*h_1) (twist on split family): min v_3 = -8 / -8  (expect < 0)
+B5 h(zeta_3 - 1) check: h0 + S_1 = -3/2  -> log y_0 = b*3/2

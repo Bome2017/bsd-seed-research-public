@@ -1,0 +1,70 @@
+=== S1_fail  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/fail.sh, apdir apdir_s)  exit=3
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    FATAL: stream command failed (produce/verify): fail closed
+    user 0.10
+    files: ./run.lock 
+=== S2_tampered  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/tampered.sh, apdir apdir_s)  exit=3
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    FATAL: a_q file consumed differs from the file the verifier hashed: fail closed
+    user 0.55
+    files: ./run.lock ./stream_g001_w00/ap_000100.bin ./stream_g001_w00/ap_000100.sha256 
+=== S3_nohash  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/nohash.sh, apdir apdir_s)  exit=3
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    FATAL: streamed segment without the verifier's .sha256 companion
+    user 0.66
+    files: ./run.lock ./stream_g001_w00/ap_000100.bin 
+=== S4_partial  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/partial.sh, apdir apdir_s)  exit=3
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    FATAL: short ap file
+    user 0.37
+    files: ./run.lock ./stream_g001_w00/ap_000100.bin ./stream_g001_w00/ap_000100.sha256 
+=== S5_wrongparams  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/wrongparams.sh, apdir apdir_s)  exit=0
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    RUN done seconds 0.82
+    user 0.60
+    files: ./ckpt_g001_w00.bin ./run.lock 
+    record: U 105 fp 45cb24bd39c2765d nterm 789995 cnt 1580018 hash d748ed5a706f377157fa382d093eeca7fa5d53e2aaa3db66f9d6664e23264aa7
+=== S6_copy_ok  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/copy_ok.sh, apdir apdir_s)  exit=0
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    RUN done seconds 0.71
+    user 0.58
+    files: ./ckpt_g001_w00.bin ./run.lock 
+    record: U 105 fp 4fe8008391393d35 nterm 789995 cnt 1580018 hash da9aee44da0e5189e0cbda8a7be199f16b8174118c52ae28f3e454dca34121cc
+=== S7_multi_absent  (select L1, UT 100000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/copy_ok.sh, apdir apdir_s)  exit=3
+    RUN units 1471 (L-subunits 319 + S-blocks 1152), selected 3, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    FATAL: segment with several sub-units is absent from apdir: pre-produce it (streaming serves single-unit segments only)
+    user 0.08
+    files: ./run.lock 
+=== S8_notexec  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/README_not_executable, apdir apdir_s)  exit=3
+    FATAL: ACC_STREAM_CMD must be an executable path (spawned with argv {cmd, segment, dir})
+    user 0.00
+    files: 
+=== S9_pre_badsha  (select L101, UT 500000000, stream cmd: none, apdir apdir_pre)  exit=3
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1
+    FATAL: a_q file consumed differs from the file the verifier hashed: fail closed
+    user 0.48
+    files: ./run.lock 
+=== S10_pre_goodsha  (select L101, UT 500000000, stream cmd: none, apdir apdir_pre_ok)  exit=0
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1
+    RUN done seconds 0.30
+    user 0.41
+    files: ./ckpt_g001_w00.bin ./run.lock 
+    record: U 106 fp 1767316e6cad2cc7 nterm 789550 cnt 1579126 hash 79167b24217dbfa87ddea51c67ca7545c2327f91604d9046de955f291d651c81
+=== S11_absent_nostream  (select L100, UT 500000000, stream cmd: none, apdir apdir_s)  exit=3
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1
+    FATAL: missing ap file
+    user 0.28
+    files: ./run.lock 
+=== S12_select_nothing  (select S99999, UT 500000000, stream cmd: none, apdir apdir_pre_ok)  exit=3
+    FATAL: ACC_SELECT: a token selects no unit (segment without primes > sqrt T, sub-unit or block out of range)
+    user 0.08
+    files: ./run.lock 
+=== S13_real_stream_seg  (select L100, UT 500000000, stream cmd: /Users/bsm/BSD_2243_EVALUATOR_REVIEW_2026-09-23/independent_review/tools/stream/real.sh, apdir apdir_s)  exit=0
+    RUN units 1445 (L-subunits 293 + S-blocks 1152), selected 1, shard 0/1, already done 0 in 0 checkpoints, generation 1, W 1, streaming a_q
+    RUN done seconds 49.23
+    user 48.08
+    files: ./ckpt_g001_w00.bin ./run.lock ./stream_g001_w00/prod.log ./stream_g001_w00/prod.time ./stream_g001_w00/stream_log.txt ./stream_g001_w00/ver.log ./stream_g001_w00/ver.time 
+    record: U 105 fp 4fe8008391393d35 nterm 789995 cnt 1580018 hash da9aee44da0e5189e0cbda8a7be199f16b8174118c52ae28f3e454dca34121cc
+=== full-run records for comparison (u 105 = segment 100, u 106 = segment 101)
+    U 106 fp 1767316e6cad2cc7 nterm 789550 cnt 1579126 hash 79167b24217dbfa87ddea51c67ca7545c2327f91604d9046de955f291d651c81
+    U 105 fp 4fe8008391393d35 nterm 789995 cnt 1580018 hash da9aee44da0e5189e0cbda8a7be199f16b8174118c52ae28f3e454dca34121cc

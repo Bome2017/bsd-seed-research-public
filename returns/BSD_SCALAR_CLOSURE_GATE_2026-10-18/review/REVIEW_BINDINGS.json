@@ -1,0 +1,9 @@
+{
+  "root_proof_sha256": "0deeb151375fb42367ee0420e0fb148de7f2960876dba5d419bbad5c08ea3d72",
+  "root_report_sha256": "260685a997ee3e192570dd91394f8ee4c8f68d5b264eda202f1098578b392b73",
+  "gate_core_sha256": "6bf85ca57886668786dfd141d227cba7a0955eab4b7bca9f4db8af9278fda9c2",
+  "input_binding_sha256": "fc6b79279c43e067ddea57faa88e613f0e94db09a16dae34b9780c93658108c7",
+  "replay_byte_identical": true,
+  "no_new_factorization": true,
+  "no_search": true
+}

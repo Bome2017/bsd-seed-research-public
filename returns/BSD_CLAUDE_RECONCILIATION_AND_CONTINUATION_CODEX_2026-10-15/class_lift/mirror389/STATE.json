@@ -1,0 +1,37 @@
+{
+  "status": "ACTUAL_JOINT_CLASS_REJECTION_COMPUTED",
+  "curve": [
+    0,
+    0,
+    1,
+    -21,
+    -27
+  ],
+  "source": "saved certified mirror389 BNF",
+  "rank_crosscheck": 0,
+  "coefficient_prime": 3,
+  "good_at_3": false,
+  "joint_class_defect_rank": 1,
+  "global_class_defect_rank": 0,
+  "local_class_defect_rank": 0,
+  "global_repair": [
+    0,
+    1,
+    2,
+    2
+  ],
+  "local_repair": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "compatibility_difference": [
+    1,
+    2,
+    0,
+    0
+  ],
+  "endpoint_effect": "none",
+  "source_guard_repaired": true
+}

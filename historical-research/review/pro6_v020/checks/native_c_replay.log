@@ -1,0 +1,7 @@
+PASS: true a_4099=86; false a_4099=68 satisfies every old witness test with duplicate factors.
+PASS: independent genuine control witness found.
+PASS: wverify.c malicious: exit 0
+PASS: wverify.c genuine: exit 0
+PASS: wverify_distinct.c malicious: exit 3
+PASS: wverify_distinct.c genuine: exit 0
+ALL PASS

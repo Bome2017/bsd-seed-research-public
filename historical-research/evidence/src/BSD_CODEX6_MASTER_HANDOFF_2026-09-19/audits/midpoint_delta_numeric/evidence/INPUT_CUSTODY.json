@@ -1,0 +1,117 @@
+{
+  "operation": "midpoint_delta_interval",
+  "recorded_at_utc": "2026-09-20T05:26:59.570356+00:00",
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/MIDPOINT_DELTA_INTERVAL.md",
+      "sha256": "f07220b1925ff3faaaec735948ec15fc69207027825f0bf7fd5a39aa2b380e69"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/delta.c",
+      "sha256": "3e7b2b765d04704bfca3d2cb5f2c893d00dff9346437491ed5f02f40e3dfe938"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/run_bounded.py",
+      "sha256": "7def18a62c35c5055932453f9f37b8e0af30404605d20b88bf91250cdbe5d69d"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/extract_certificate.py",
+      "sha256": "5e56f931bdb48b7c2674a61a40d9f7d1dea99c52b79cd5d5242ac30b02d742dd"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/replay.sh",
+      "sha256": "ae4a2c2db6f24294a11a1720a699f768ce58ddfb236f169b5490dbb2996f7618"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/delta",
+      "sha256": "1fda66a1b98333f2d9a783189370d28acffe4cf8d7bf3effeb89ec98b8e04c75"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/moments.bin",
+      "sha256": "24ba062ad50277d4c4093131cdf008c5fa7aac68123dca2840595c8fe330a013"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/prep.log",
+      "sha256": "1b4fef0d55273632c8ada38821c527b02e1c579380514cd523426ab81a085310"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/interval128.log",
+      "sha256": "00d190c8b11c9189bbeae4c5d7f602caa1cb5f38b911633276dec7f4d1b7de47"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/bounds128.log",
+      "sha256": "76d4949a72cc354ea14743b66b48252947d385864fb86fabad534a5f9985d5f8"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/final_replay128.log",
+      "sha256": "8547543a7e79495d20427f3c62ad75114b34e96c2389c2d328d9e76d3c0d6689"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/CERTIFICATE.json",
+      "sha256": "27dbfce33b32e0c69e18691dcaec98e234dc982d4ffcb2b94ad792192383da39"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/execution_budget.json",
+      "sha256": "021b3d70fe10d26f691dc5b85d8aa27c89dab2e65558182d34b5da71f61e858f"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/src/arbcore.c",
+      "sha256": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/verifier/wverify.c",
+      "sha256": "128e7960f8efc0756557f2ee5619c1e80f7e9e0f69b6007f70cac63707abb596"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/ANALYTIC_RANK_CERTIFICATE.md",
+      "sha256": "ef0d90f1e17d68c89459aad2dcbe3822f8fb52c58f6fecd118fa5b3cbebdc614"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/logs/an.log",
+      "sha256": "2312616c67f9bc78806b0231718576fd1b1cfc276126651ecce58704813c66ea"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/logs/ap_files.sha256",
+      "sha256": "304375bd7a6def5a46cf738c4f9f2dbf7620178bee6df78b668a25bf54ee38c8"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000000.bin",
+      "sha256": "42d69809b7e3895c63c4d392afb2d470540e2dda16f560de54c9f08171e49ff8"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000001.bin",
+      "sha256": "5023c6cca82779e627304ccdc60825d6ef4b94df47adcb73cb56d2ec635c22a3"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000002.bin",
+      "sha256": "461b96e37f44e85e698aa00ed26c76d9150132a6faf0476e4dbb552b59df3943"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000003.bin",
+      "sha256": "cfa6cdfe9f1d770e58effe5b0d065e1b9ea0225e0ffa28c4003d4d75f934bfb9"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000004.bin",
+      "sha256": "023fb345309fa367acad4324fdf1f9c39b1546829f6e97d01e9af2e714e879e7"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000005.bin",
+      "sha256": "424e31ee4a8e73cb48eaba9fa4add5e866f7875080e22bdf087eb6b524a9f289"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000006.bin",
+      "sha256": "b6853b6f51eb0626e8995fdef2a3a3f66fdabc571d7d0fe3552351f0ffc4d904"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000007.bin",
+      "sha256": "49a55dbf253ac407bb4c2d4d026d7d98e82b4bbfe35f100c14d850747a1075aa"
+    },
+    {
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/runs/seed150M/ap/ap_000008.bin",
+      "sha256": "4bda85a7e1fc64b0db1560d434b6aab9fa0174583eed55458ff06592ce2bdadd"
+    }
+  ],
+  "ap_segment_root": "916155fe549e9323e8cdc63ecdbc8c190b6cfe9c9c2e6f7554c6a6214d4617f6",
+  "an_root": "8c0b71ccac2dd538d043ea34f4d4bbbf41459c72f7444371f43f7c58ded8cc94",
+  "coefficient_witness_reverification_this_operation": false
+}

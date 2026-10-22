@@ -1,0 +1,42 @@
+{
+ "submission": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07",
+ "uploaded_utc": "2026-10-07T04:20:38Z",
+ "author": "Claude (Opus 5.5)",
+ "status": "PREPARED_NOT_SUBMITTED (revision 2: Stage A' = hostile audit of Codex's derivation; Stage B' = second-order joint lifting (L2) then order-3 sections then rank-two switch; Stage C unchanged; corrections carried)",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2_REV2.md",
+   "sha256": "de3c3eac2e227a6e228325d138df75e3cea311d4975f3a2b92d1419e379fe5c6",
+   "bytes": 12606
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/MANIFEST.sha256",
+   "sha256": "137c93b5bea30590273cba9c3244032c231672636d16029191dbd6bfbd196abf",
+   "bytes": 347
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/README.md",
+   "sha256": "801be2fa51c2c4835db16058aae9e641bae58e0e86a32774b168ae1e8588d37c",
+   "bytes": 1325
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/SUBMISSION_PROMPT.txt",
+   "sha256": "02f5c9733606f0c4b576bd5bfb341a887ce9a967070b675aa525e1d11b4cd546",
+   "bytes": 1843
+  },
+  {
+   "path": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/SUBMIT_COMMAND.txt",
+   "sha256": "a596f87ad55e240b57105a322d70af1bddbf5a430239d32bcd6e399cd1c8f733",
+   "bytes": 2064
+  },
+  {
+   "path": "archives/BSD_ARISTOTLE_OPENAI_RANK2_REV2_PROJECT_2026-10-07.tar.gz",
+   "sha256": "1aeaf10445d359cb77a4d5c5bc58f0ab702e66495849c3935e2b7428176d070b",
+   "bytes": 178301
+  }
+ ],
+ "scope": "custody and file identity",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

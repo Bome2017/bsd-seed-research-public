@@ -1,0 +1,27 @@
+E^-7 :  y^2 = x^3 + 159145 x^2 + 5207351716 x
+conductor of the twist = 49 N = 318656212624190616
+disc of x^2+159145x+5207351716 = 4497724161 ; perfect square? False
+  (= 49 * 91790289, and the seed's own 91790289 is not a square, so the twist has ONLY the 2-torsion (0,0))
+
+    q   #E^-7(F_q)  running gcd
+   11           14           14
+   13           10            2
+   17           12            2
+   19           24            2
+   23           24            2
+   29           30            2
+   31           24            2
+   37           28            2
+   41           48            2
+   43           52            2
+   47           52            2
+   53           60            2
+
+#E^-7(Q)_tors divides 2  => {2: 1}
+
+CONSEQUENCE for run A's extra factor  A_2 <= v_p(#Sha(E^-7/Q) * #E^-7(Q)_tors):
+  by Mazur the torsion order is in {1..10,12,16}, so its only possible prime divisors are 2,3,5.
+  BLV needs p >= 5, so the torsion factor can only ever affect p = 5.
+  Here the torsion is 2, whose prime divisors are [2].
+  => for every p >= 5 the torsion contributes NOTHING; run A's factor and run B's bound
+     have the SAME support, namely {p : p | #Sha(E^-7/Q)}.

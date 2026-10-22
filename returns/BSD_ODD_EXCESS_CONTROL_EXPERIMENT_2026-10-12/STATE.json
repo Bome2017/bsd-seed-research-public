@@ -1,0 +1,20 @@
+{
+  "status": "POSITIVE_ODD_EXCESS_CONTROL_CONSTRUCTED; NONUNIT_CORRECTED_RATIO_OBSERVED",
+  "curve": [
+    0,
+    0,
+    1,
+    -14959712463303,
+    -22270654620235278500
+  ],
+  "p": 5,
+  "twist_discriminant": 43737,
+  "rank": 2,
+  "sha_5_dimension_lower_bound": 2,
+  "L2_valuation": 2,
+  "height_U_determinant_valuation": 0,
+  "corrected_quotient_mod_125": 25,
+  "seed_endpoints": "unchanged",
+  "grade": "written deduction with exact computations; not independently reviewed",
+  "no_running_jobs": true
+}

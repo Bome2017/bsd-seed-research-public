@@ -1,0 +1,15 @@
+{
+  "return": "BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07",
+  "base_commit": "f74e44203478aa09556b65692a02347e0c7cf4c4",
+  "manifest_entries_verified": 25,
+  "archive_bytes": 52092,
+  "archive_sha256": "cf384b908d3ad58a7c9c1a574f4baffb4c6db291988ebe9ec3f468ff60157900",
+  "checked_prior_returns": 10,
+  "prior_manifest_entries": 168,
+  "source_bindings": 116,
+  "replayed_programs": 8,
+  "grade": "bounded same-assistant review; not full mathematical certification",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

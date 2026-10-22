@@ -1,0 +1,104 @@
+{
+ "per-symbol exact identification (T_run, the design)": {
+  "T": 39119887532031,
+  "counts": {
+   "T": 39119887532031,
+   "RT": 6254589,
+   "pairs_L": 26565282221232.875,
+   "terms_L": 12586225736365.602,
+   "primes_gt_RT": 1292700858215.1956,
+   "primes_total": 1292701287392.2144,
+   "smooth_S": 12554605310798.125,
+   "nz_density_RT": 0.4490243883331103
+  },
+  "components_lch": {
+   "production": 92816.03188112506,
+   "verification": 14469.286961922064,
+   "traversal_L": 73.99587276986885,
+   "traversal_S": 1774.1907339069742,
+   "kernel_L": 366.31893952876345,
+   "kernel_S": 543.4557256984597,
+   "summation_L": 397.5904316637359,
+   "summation_S": 123.87830640070173,
+   "checkpoint_writes": 56.756571077881354,
+   "setup_per_process": 0.7733333333333333,
+   "merge_and_dft": 0.20137500000000003
+  },
+  "total_lch": 110622.48013242683,
+  "storage": {
+   "pre_produced_low_segments_GB": 5.920754798587484,
+   "checkpoints_GB": 77.27691264,
+   "stream_and_timing_logs_GB": 0.65288356,
+   "final_class_sums_and_symbols_GB": 0.206216934,
+   "transient_per_worker_MB": 16.74
+  }
+ },
+ "nonzero-only scalar screen, best case": {
+  "T": 57406000000000,
+  "counts": {
+   "T": 57406000000000,
+   "RT": 7576674,
+   "pairs_L": 38993195420741.41,
+   "terms_L": 18461949003998.156,
+   "primes_gt_RT": 1873189170798.639,
+   "primes_total": 1873189683914.5142,
+   "smooth_S": 18412804579258.594,
+   "nz_density_RT": 0.4490247303764158
+  },
+  "components_lch": {
+   "production": 146902.9124972146,
+   "verification": 21780.967305348222,
+   "traversal_L": 108.62769885116396,
+   "traversal_S": 2619.7685100564677,
+   "kernel_L": 537.0281703601538,
+   "kernel_S": 789.094382629767,
+   "summation_L": 583.2005898833569,
+   "summation_S": 176.2216086000117,
+   "checkpoint_writes": 89.06221465831113,
+   "setup_per_process": 0.7733333333333333,
+   "merge_and_dft": 0.20137500000000003
+  },
+  "total_lch": 173587.8576859354,
+  "storage": {
+   "pre_produced_low_segments_GB": 11.497535262943996,
+   "checkpoints_GB": 77.27691264,
+   "stream_and_timing_logs_GB": 0.9580662,
+   "final_class_sums_and_symbols_GB": 0.206216934,
+   "transient_per_worker_MB": 16.74
+  }
+ },
+ "exact scalar identification": {
+  "T": 67981000000000,
+  "counts": {
+   "T": 67981000000000,
+   "RT": 8245059,
+   "pairs_L": 46181569849325.875,
+   "terms_L": 21859027953722.453,
+   "primes_gt_RT": 2206071086078.737,
+   "primes_total": 2206071641267.8213,
+   "smooth_S": 21799430150674.125,
+   "nz_density_RT": 0.4490248038249332
+  },
+  "components_lch": {
+   "production": 179808.43522176475,
+   "verification": 26149.06107773716,
+   "traversal_L": 128.60977655633445,
+   "traversal_S": 3110.8085008882967,
+   "kernel_L": 635.6886832590502,
+   "kernel_S": 930.0803784278658,
+   "summation_L": 690.5120360871405,
+   "summation_S": 205.77964090387965,
+   "checkpoint_writes": 108.65160732868722,
+   "setup_per_process": 0.7733333333333333,
+   "merge_and_dft": 0.20137500000000003
+  },
+  "total_lch": 211768.6016312865,
+  "storage": {
+   "pre_produced_low_segments_GB": 11.497535262943996,
+   "checkpoints_GB": 77.27691264,
+   "stream_and_timing_logs_GB": 1.13455552,
+   "final_class_sums_and_symbols_GB": 0.206216934,
+   "transient_per_worker_MB": 16.74
+  }
+ }
+}

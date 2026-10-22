@@ -1,0 +1,13 @@
+{
+  "built_at_utc": "2026-09-21T19:22:09.583695+00:00",
+  "sha256": {
+    "twist.c": "4eef4e086e69c7cda910e1b8e856e07c937c4f8e0a9c759fc8766760d0d3a623",
+    "retained_arbcore.c": "56a43aac38161d48848df4ed5c2f931f1dc7d5db745600bd140e4be3cac67fd7",
+    "twist": "109a7728f74696c9a15762064b6551420127c99cc8d6a05e26717b83a5fee1c1",
+    "build.sh": "42a8d1bbd0405bdb670783144439951841ef25b330958adc74c850c5f5d4b516",
+    "DESIGN.md": "7c4555f1fc525fadfe5c59cb3f238b8e8beca6d6b9e5b9d4582d2d2788716827",
+    "kernel_test.log": "eaf0712db081d247743ecdcf0647c47001dd41250a302c639065921a1f0a2a07",
+    "block_test.log": "88ab97a249e05d3b8265392bef3b699c98be4e7ad3fa2cb62716829beb48a179"
+  },
+  "compiler_command": "build.sh; retained FLINT/Arb runtime"
+}

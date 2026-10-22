@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "prior_manifests": [
+    {
+      "folder": "/Users/bsm/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/return",
+      "manifest_sha256": "9924e06d98909d40875cb79feec87668100e36cd0a8766a7d7d55184cf1a83af",
+      "entries_verified": 21,
+      "status": "PASS"
+    },
+    {
+      "folder": "/Users/bsm/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/return",
+      "manifest_sha256": "7e0eda6f27a3668b0146c8e63955541d5d68ca0f7909dbe9db1bc35e9b74be5a",
+      "entries_verified": 130,
+      "status": "PASS"
+    }
+  ],
+  "copied_bindings_verified": 6,
+  "note": "custody only, not proof validation"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY",
+  "secondary_status": "SECOND_ORDER_VARIATION_AND_ARITHMETIC_TUNING_DERIVED",
+  "review_grade": "written proof; independent review required",
+  "depends_on": [
+    "retained seed full residual image and independent point classes",
+    "full classical-Selmer Stage-A span, provisionally retained",
+    "previous finite-module second-order criterion"
+  ],
+  "new_claims": [
+    "actual quadratic addition law",
+    "zero radical for polarized second obstruction on ker b",
+    "prescribed first-order fiber has a character with alpha zero",
+    "both point classes lift modulo pi^3 with eta zero"
+  ],
+  "exact_algebra_assertions": 16265,
+  "seed_character_computed": false,
+  "conductor_bound": false,
+  "all_order_lift": false,
+  "generic_rank_two": false,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "concurrent_review": "c4f53313e92f9cae9392132a51e2780626539699",
+  "remote_jobs_launched": false,
+  "publication_target": "authorized lab work branch only"
+}

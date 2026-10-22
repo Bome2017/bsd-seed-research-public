@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06",
+  "review_manifest_entries": 75,
+  "manifest_all_match": true,
+  "archives": [
+    {
+      "path": "work/returns/archives/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06.zip",
+      "bytes": 156776,
+      "sha256": "d87d00734fa41fd7bb657dd2e92db78c5f8b9415272c0bb3b829d7a0f8d6ea18"
+    },
+    {
+      "path": "work/returns/archives/eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-2.tar.gz",
+      "bytes": 66283098,
+      "sha256": "bbeec716a716bd19c25643f9e9312014cd014733c1393c1bf500ad27df0907e3"
+    },
+    {
+      "path": "work/returns/archives/9a3a411e-9b4c-4cc2-a3b0-2021519e607c-aristotle-source-only.tar.gz",
+      "bytes": 376775,
+      "sha256": "7a6058e7d9efda39a5f8c1123d846cbf955e3a8eba1506fff33deb21013c3054"
+    }
+  ],
+  "mathematical_status": "SOURCE_CERTIFICATES_REPLAYED_EXISTING_SEED_EVALUATOR_CONNECTED_UNIFORM_BOUND_OPEN",
+  "note": "Custody is separate from theorem validation; no Lean replay or new primary computation."
+}

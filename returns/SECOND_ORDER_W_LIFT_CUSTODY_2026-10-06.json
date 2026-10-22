@@ -1,0 +1,17 @@
+{
+  "status": "SEALED_AND_COPIED",
+  "return": "BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06",
+  "manifest_entries": 21,
+  "zip_bytes": 65452,
+  "zip_sha256": "0b09c13c8a85043bb6192d9f67133a388554b0b45e7cb05c1039b6d69e398258",
+  "archive_integrity": "PASS",
+  "copied_manifest": "PASS",
+  "proof_grade": "Written derivations; independent review required",
+  "seed_alpha_evaluated": false,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "prior_stage_a_commit": "bb6ed896fd17db4279b07ad735694137dbb19fa6",
+  "concurrent_lab_base": "e7abad93",
+  "new_remote_job": false
+}

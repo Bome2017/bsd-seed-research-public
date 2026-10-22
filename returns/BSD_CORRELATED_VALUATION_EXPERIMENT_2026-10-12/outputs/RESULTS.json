@@ -1,0 +1,64 @@
+{
+  "status": "MATCHED_EXTRA_DIVISIBILITY_ON_CONTROLS",
+  "columns": [
+    "curve",
+    "p",
+    "v_L2",
+    "v_det_H_U",
+    "excess",
+    "corrected_ratio_precision",
+    "method"
+  ],
+  "rows": [
+    [
+      "655a1",
+      7,
+      1,
+      1,
+      0,
+      4,
+      "two extraction paths"
+    ],
+    [
+      "433a1",
+      13,
+      1,
+      1,
+      0,
+      5,
+      "overconvergent two precisions"
+    ],
+    [
+      "655a1",
+      31,
+      1,
+      1,
+      0,
+      1,
+      "exact finite table"
+    ],
+    [
+      "433a1",
+      7,
+      0,
+      0,
+      0,
+      5,
+      "overconvergent"
+    ],
+    [
+      "655a1",
+      11,
+      0,
+      0,
+      0,
+      5,
+      "overconvergent"
+    ]
+  ],
+  "height_scan_rows": 109,
+  "height_scan_exceptional_rows": 4,
+  "selected_exceptional_rows": 3,
+  "seed17_numerator": "not_computed",
+  "seed_endpoints": "unchanged"
+}

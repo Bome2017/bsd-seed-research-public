@@ -1,0 +1,806 @@
+{
+ "purpose": "Declared evidence additions for the v0.2.5 bank transition: the governing records of the banked items (singleton certificates 17-47 and their reviews; G2; the corrected Kato factorization; the bad-prime BH criterion and its cost screen; the p = 3 qualification, lower bound and finiteness records; Theorem W; the tame-constant records; the two uniform-step screens). Any other evidence change is rejected by tools/build_evidence_transition.py.",
+ "base": "001a49fc3f3853b453fd9ac299fc3f4119d94f68",
+ "additions": [
+  {
+   "original_path": "/Users/bsm/BSD_BAD_PRIME_COST_SCREEN_AUDIT_CODEX_2026-09-27/REVIEW.md",
+   "release_path": "evidence/src/BSD_BAD_PRIME_COST_SCREEN_AUDIT_CODEX_2026-09-27/REVIEW.md",
+   "sha256": "1135f13ba9c470baa6468c55816409961244c49ff007b5e135701bdf832881b8",
+   "bytes": 13888,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/REVIEW.md",
+   "release_path": "evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/REVIEW.md",
+   "sha256": "3b225eb283e6f6624a251f8ba7444bece9610272000e7b2c2f142fb6508d5b76",
+   "bytes": 6803,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+   "release_path": "evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/CRITERION.md",
+   "sha256": "98c1881a2bc0df4d3a7ad8d8cbded344509892d29b15b48eadb2939776ffb8f1",
+   "bytes": 3579,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+   "release_path": "evidence/src/BSD_BAD_PRIME_SINGLETON_RETURN_CHECK_CODEX_2026-09-27/input/BSD_BAD_PRIME_SINGLETON_AUDIT_2026-09-27/REPORT.md",
+   "sha256": "0665610c68a9a1114caba47649bbb4b724ed79b0f61dd00575cef3ef993499d9",
+   "bytes": 23820,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BATCH_C_AUDIT_CODEX_2026-09-27/REVIEW.md",
+   "release_path": "evidence/src/BSD_BATCH_C_AUDIT_CODEX_2026-09-27/REVIEW.md",
+   "sha256": "679cde1a6c4e9ee3f17750e6098b636ae14f9d870f645f7d184fd7467b8cb3e1",
+   "bytes": 11151,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+   "release_path": "evidence/src/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+   "sha256": "eb03549224f5c397963595d7cd357da886a4e4acafb30857dc5aed5e17e0c3cf",
+   "bytes": 5766,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BUILD_MAP/V025_CANDIDATE_THEOREM_W_2026-09-29.md",
+   "release_path": "evidence/src/BSD_BUILD_MAP/V025_CANDIDATE_THEOREM_W_2026-09-29.md",
+   "sha256": "656b23421ac0c707a862866fc869f92f8250ba671b923c2b0c35634d627ee87f",
+   "bytes": 2364,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BUILD_MAP/pro6/G1G2_REVIEW_2026-09-26/BSD_GLOBAL_G1G2_REVIEW_2026-09-26/G2_PROOF.md",
+   "release_path": "evidence/src/BSD_BUILD_MAP/pro6/G1G2_REVIEW_2026-09-26/BSD_GLOBAL_G1G2_REVIEW_2026-09-26/G2_PROOF.md",
+   "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+   "bytes": 19924,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BUILD_MAP/pro6/SINGLETON_AUDIT_REPORT_PRO.md",
+   "release_path": "evidence/src/BSD_BUILD_MAP/pro6/SINGLETON_AUDIT_REPORT_PRO.md",
+   "sha256": "44ce3116cc93bedf6e876b6ac12b0039b91d25498df0b713ba515474a6a22f2b",
+   "bytes": 3903,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_BUILD_MAP/reviews/pro_kato_followup_2026-09-27/BSD_KATO_FOLLOWUP_REVIEW_2026-09-27/REVIEW.md",
+   "release_path": "evidence/src/BSD_BUILD_MAP/reviews/pro_kato_followup_2026-09-27/BSD_KATO_FOLLOWUP_REVIEW_2026-09-27/REVIEW.md",
+   "sha256": "0feb6538149b401d477e5b03d0db843b120b5906e9b195ce08ea8798932d566a",
+   "bytes": 15278,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "e06a58637996a7ae0020b713ba0063fb504822fe91cf82b025a41a93757bea64",
+   "bytes": 6112,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_CERT_17_29_AUDIT_RETURN_FABLE_2026-09-29/RETURN.md",
+   "sha256": "d5e8708aed09386a2e452530c47b121558ddc047b8424c4e0ece93d9eca868aa",
+   "bytes": 9677,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_G2_INDEPENDENT_AUDIT_CODEX_2026-09-26/REPORT.md",
+   "release_path": "evidence/src/BSD_G2_INDEPENDENT_AUDIT_CODEX_2026-09-26/REPORT.md",
+   "sha256": "730797b16cc9b1ee18f70cc113e54c49eaf7928979a9e5fec19964b1c3b8bfe6",
+   "bytes": 17133,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_K288_UNIFORMITY_AUDIT_CODEX_2026-09-27/AUDIT.md",
+   "release_path": "evidence/src/BSD_K288_UNIFORMITY_AUDIT_CODEX_2026-09-27/AUDIT.md",
+   "sha256": "d1090708ad629a0d4c58f15a114091bc03bf980b5925321761fe1b03c4a7281a",
+   "bytes": 13780,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_LINE_TA_COMPATIBILITY_REVIEW_2026-09-24/INPUT_TA_TB_RESOLUTION.md",
+   "release_path": "evidence/src/BSD_LINE_TA_COMPATIBILITY_REVIEW_2026-09-24/INPUT_TA_TB_RESOLUTION.md",
+   "sha256": "df3ab36991a2bf4412ca9533e7e31e0f8f5210ed04432458d575a231c161f165",
+   "bytes": 5765,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/FREEZE_MANIFEST.json",
+   "sha256": "0f8568d4c071e280d90274527cb17a09281764098f691faa10e77d8d925b9954",
+   "bytes": 3249,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_l103/PREREGISTRATION.md",
+   "sha256": "11d7a4ec4e10c4cafc690deb5f881ad73cf7647a52d3c768eaaebf51f1b08930",
+   "bytes": 1779,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/FREEZE_MANIFEST.json",
+   "sha256": "9c6b3fa6aedadd1bdaf4b76a88bbd96cdd8ca8a3514bfe2c717377b1b738df0d",
+   "bytes": 3715,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p19_l191_v2/PREREGISTRATION.md",
+   "sha256": "27b98e5cd2b7cb166fd8227cd0acdee536ec09b2e82ad44e0752f45094d8d948",
+   "bytes": 3942,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/FREEZE_MANIFEST.json",
+   "sha256": "3c11bef7324de0d90b6eebe22e91dd57e950f6428b08effeca632b7ad6c129f9",
+   "bytes": 2337,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p23_l47/PREREGISTRATION.md",
+   "sha256": "bb4140247cb9444d96c81fcf6f2fd73d5addd7e25902408bc74344affa340300",
+   "bytes": 1906,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/FREEZE_MANIFEST.json",
+   "sha256": "bdfe5671c0e83dd47a68532779e4fd5c093365e42d8242cd9126e21eb0920270",
+   "bytes": 3716,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p29_l233_v2/PREREGISTRATION.md",
+   "sha256": "f3560ae11ee13e08fe72c6d31829a42d8e122daba51ef6eb90f33c59e4c81e97",
+   "bytes": 3927,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/FREEZE_MANIFEST.json",
+   "sha256": "422435ad0c241463fd69297fd12f18fb043b09a459ead596eb3d5d432be5b02a",
+   "bytes": 5340,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p31_l311/PREREGISTRATION.md",
+   "sha256": "2044b0a4fd1a5bc9ee780e8eeadbc0ce307d71049bec5fc1b6046d797782753a",
+   "bytes": 3712,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/FREEZE_MANIFEST.json",
+   "sha256": "e227accca27d6b2419db6280ffc6bb21b2873ee292533219dea505af2a88e27c",
+   "bytes": 4534,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p37_l149/PREREGISTRATION.md",
+   "sha256": "b9d60bd0eeca0afac0f9bf796d5bcaf687fe5804081e33242853c1b5f090b90a",
+   "bytes": 3525,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/FREEZE_MANIFEST.json",
+   "sha256": "119067f926299cfb96263a46a179b8e4c663efe11fbdb1106a825115e677d8fe",
+   "bytes": 4528,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p41_l83/PREREGISTRATION.md",
+   "sha256": "fabc93272aab52a3cd75c7faa3b8a0f62c64c4004acf837a1307b92055a1d47b",
+   "bytes": 3506,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/FREEZE_MANIFEST.json",
+   "sha256": "634286373873c4626eda0431ed706dac4bb22511c3f9663fb0d94bac4c251790",
+   "bytes": 5335,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p43_l173/PREREGISTRATION.md",
+   "sha256": "47a8353d984c395c8c3a7051947c5c589b2971761a8ab563d8d2903fdc024057",
+   "bytes": 3716,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/FREEZE_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/FREEZE_MANIFEST.json",
+   "sha256": "82c91f10b8be27b8b83c11a481993899518f586569c61fdd30ae97470c4ac292",
+   "bytes": 5350,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/PREREGISTRATION.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/FROZEN_RUN_PACKAGE_p47_l283/PREREGISTRATION.md",
+   "sha256": "086b852ef38e74cbdd88789cdc19976c559f68e64abe4ed9280653f4dcbf9cb7",
+   "bytes": 3719,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC_v1_audited.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/SINGLETON_SPEC_v1_audited.md",
+   "sha256": "63acdb8c0e48d79967c09f6f36ceee7633cc894a175a6e89297c7be48364348f",
+   "bytes": 5504,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/singleton_check.py",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/checker/singleton_check.py",
+   "sha256": "cdbb8f3201ca26ec6add611a8ec983e971857836cd291a1db744a41623062bf6",
+   "bytes": 11256,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RESULT_P17.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RESULT_P17.md",
+   "sha256": "beba632481c98c0f7d9a44a1314c27e1aa29e7a687478ff36c9f4c2cf508e86b",
+   "bytes": 3046,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RUN_MANIFEST.json",
+   "sha256": "8a458b0e51a3ed72574b90610731cda3cc289cf837e28091badcbe5d1e174ed3",
+   "bytes": 984,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json",
+   "sha256": "a1336d55dd0edffea4aed20dc5fce53e3861c0e982cb804c5b64d4e35ba0ec20",
+   "bytes": 750,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt",
+   "sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+   "bytes": 25205,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+   "sha256": "1a835b6efb42d880df55471cd64cb92658cd4d1f500ae39627c66d177f4298ca",
+   "bytes": 371,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RESULT_P19.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RESULT_P19.md",
+   "sha256": "a7d1c0f065fd6c2df861207b279fd0683caba64691e0fba88de80214fb978963",
+   "bytes": 3091,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RUN_MANIFEST.json",
+   "sha256": "345e36e2322f33672ff9501b282c2cd29808bf8b6c749b96d9c914cd2c879928",
+   "bytes": 1105,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json",
+   "sha256": "04bccabc158041044dfeb21654836ba1d2d92038de82bd5951e656ac55b54570",
+   "bytes": 798,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt",
+   "sha256": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9",
+   "bytes": 46802,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/DOWNSTREAM_RECOMPUTE_MAIN.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/DOWNSTREAM_RECOMPUTE_MAIN.json",
+   "sha256": "fc090b4db7cd7981704d5d7f8033f9065e4e6e2b2aaba99a6fc3a3cafc815c69",
+   "bytes": 378,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RESULT_P23.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RESULT_P23.md",
+   "sha256": "049c49260b0a7732a30128990f6e93e072dd1c085e9213aa8801d84bb6956fec",
+   "bytes": 2101,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RUN_MANIFEST.json",
+   "sha256": "33a69df8d71c36cddc8fdf938e2c86b4433af10d395de4afd9b373abe3dfadeb",
+   "bytes": 985,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json",
+   "sha256": "e476ce52298a156437f7bde63b13cf919d414c03e2a3eeb5cf6b19d4b2edf6ac",
+   "bytes": 750,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt",
+   "sha256": "97407c4f450facd5605d7f9df1f79dbc7c8175367156ddad87341dff986f62ec",
+   "bytes": 11666,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/DOWNSTREAM_RECOMPUTE_MAIN.json",
+   "sha256": "fee637add016a2996ab73522e682d818232525e0c2164cdab20fa16a5811995b",
+   "bytes": 400,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RESULT_P29_L233.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RESULT_P29_L233.md",
+   "sha256": "34962063c8f42c7ebb6cce9761de7e0a84e80eed2b8b7a4012c8bc34129cf25f",
+   "bytes": 2522,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RUN_MANIFEST.json",
+   "sha256": "a7dc87bee3df9317e427d46eb84159a919c7d0959337b45454a295f653000487",
+   "bytes": 1105,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json",
+   "sha256": "952f1de554ddd70631d42e654e541fc9b455b982ea6c94ab5991d48cd7cc9a27",
+   "bytes": 796,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt",
+   "sha256": "f5d5c24f8027d2a45b60ecf0be0d90fa782e9623666b28d11ec53cb6780e7bcb",
+   "bytes": 57077,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RESULT_P31.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RESULT_P31.md",
+   "sha256": "d74029c1312ea26bd34ce7fe71f0d88cb440403b635a4d4e75ef65c9ddac0172",
+   "bytes": 1297,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RUN_MANIFEST.json",
+   "sha256": "6cd9cb7b19a608779f695f2a9041054677a76e63cba36a6ecde08b83e8de2ed0",
+   "bytes": 1104,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json",
+   "sha256": "a9de6f52a6f861620fc480b03622333aa0b7df8c7868f53a03bc35246a1db8f6",
+   "bytes": 796,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt",
+   "sha256": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431",
+   "bytes": 76302,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RESULT_P37.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RESULT_P37.md",
+   "sha256": "5edf452beac711899f28ce217b511a0faac2f102365e609b51f132926c38a6d3",
+   "bytes": 2472,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RUN_MANIFEST.json",
+   "sha256": "6d290ba854fdedf89345c8c3ddadce6dfb46f7c712075522a96299088c1e8676",
+   "bytes": 1102,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json",
+   "sha256": "6dfd6b2fb4a0175b2c53c95b8ac61a6bc7a14df39a5e7f666c0fd232d8ac021f",
+   "bytes": 794,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt",
+   "sha256": "07f2a5e8e5c5cd93300ca1126e1255629c053a7279ff1210859560ab96e6b015",
+   "bytes": 36566,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RESULT_P41.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RESULT_P41.md",
+   "sha256": "6308a6c4f3a3742ece4ae5180f9e8c79e36a4cf5ccb78302060caba5444fcb65",
+   "bytes": 2236,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RUN_MANIFEST.json",
+   "sha256": "c8a118ce27b04b9bdb525ea4dca613d6f10c81752729895c33d104aad24e6bf5",
+   "bytes": 1099,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json",
+   "sha256": "f96ed8a632443895561f3ebc2d7dbc2b3fff7f532c3ca1fab909620e7be4a825",
+   "bytes": 790,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt",
+   "sha256": "385557f41b6fab7f5fb09963d4334a6e3d045d8cdb7f66210a3ef81a5d2d90dd",
+   "bytes": 20365,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RESULT_P43.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RESULT_P43.md",
+   "sha256": "f9b722143095faeeb8dc9e7cc1806dcf4c60118b94d4101dbcf8fcdc579ada55",
+   "bytes": 1592,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RUN_MANIFEST.json",
+   "sha256": "b7b1497774258ec3b9e10e97f8adc8a85de9de48db550da4b9e51c8e7aba2833",
+   "bytes": 1102,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json",
+   "sha256": "118c012cdafd9eae71d63a30b997d1744d5fac497f8e68ba726fa1f98719b3bb",
+   "bytes": 797,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt",
+   "sha256": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8",
+   "bytes": 42413,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RESULT_P47.md",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RESULT_P47.md",
+   "sha256": "67ecfe42ab0d10d2311fc24aaf824ab1661fe975ab50cc88fe8d0a357aa63b34",
+   "bytes": 1199,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RUN_MANIFEST.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RUN_MANIFEST.json",
+   "sha256": "7b740e64ca8c7b0131f9544e968c79ac46d7d89e47c6f079f2617c01562e82e1",
+   "bytes": 1102,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json",
+   "sha256": "caefc2d8dfd92c5333120b04e6657c5777343d9a4ab2e9351bcbfcf1c022e3f4",
+   "bytes": 795,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt",
+   "release_path": "evidence/src/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt",
+   "sha256": "5e9c034fd4be8c3147f72b3cdfb70c055a126f2c585fa84ce8b70aafb81297eb",
+   "bytes": 69237,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "sha256": "5b04e2f3af0b82775f468e0201072feaf12c26f48ef6865af8b3679738969787",
+   "bytes": 7824,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/METHOD.md",
+   "release_path": "evidence/src/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/METHOD.md",
+   "sha256": "35a160d370d90f03d4428fced74ec5052bb9146946fae78351058b71c412347e",
+   "bytes": 2958,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/RETURN.md",
+   "sha256": "377d2fd88f1c4aed60639b88040ac454fa8750263c124b46f29be5b54e740549",
+   "bytes": 8090,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/logs/verify_certificate.log",
+   "release_path": "evidence/src/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/logs/verify_certificate.log",
+   "sha256": "2117fb76f9bf03848081a5c99a17afe49574df134db5d0ba90050797e6182f7c",
+   "bytes": 10079,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/verify_certificate.gp",
+   "release_path": "evidence/src/BSD_P3_LOWER_HALF_3DESCENT_RETURN_OPUS_2026-09-29/verify_certificate.gp",
+   "sha256": "4d8cbd23a781e82e8051c19c751ce3220693a17b5e45bf0407ebf9bb7d927774",
+   "bytes": 15003,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "b578848cbfc8a13c05092038e77fb7ae38c0bc46617778cc238a13dd517d977b",
+   "bytes": 616,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md",
+   "release_path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md",
+   "sha256": "0f29ebd587081e5b7d3c33f385bc968043a5526de41fc3c374aa33c618436f90",
+   "bytes": 3762,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md",
+   "sha256": "969579592ab4bcf04ca34564c6511051493e455627b8040816c8bba58e936fb9",
+   "bytes": 7570,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md",
+   "release_path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md",
+   "sha256": "fcf4767d29adb1dc507cc0b8a1b7228a85ed08dd4f334a7e38133ec4c9e32938",
+   "bytes": 4275,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "0c2e9d09c93082e034d7b4962ef6c9c3921abe4babd8fc8fb2cca310803266a7",
+   "bytes": 755,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md",
+   "sha256": "68cc12355c7d5253946e70fb40669e5064d6c67a1f616bef570863ad62529433",
+   "bytes": 6141,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md",
+   "sha256": "63284faf66dd759f0ecf0f6cd3ff73c4f8a402199b5a438365f27e3c3dbc1bb9",
+   "bytes": 6147,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "a30fcf2b37f42db4bd50c076805d6538dfe4d4f87ed063a5dce5a6196966379e",
+   "bytes": 4572,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md",
+   "sha256": "3e04443fb4f42068de45784cbfd15f3fdc49f92a8a79874c0b1e1d5293c55647",
+   "bytes": 12314,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md",
+   "sha256": "6be55553f315bb3b64fbcd1b18a736fea90d629a6253a93b089983c544195aee",
+   "bytes": 2438,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "sha256": "9d80b19dc7d068bc911f9cbffb9df7dc006a9b4c90b475175b01d8bd476e5411",
+   "bytes": 1402,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/RETURN.md",
+   "sha256": "97a6710e1406e82ccd3764fb30baf0f564c9bfe7d8050bfa34886fa10bf974be",
+   "bytes": 7663,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Kato2004.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Kato2004.md",
+   "sha256": "cf0af2554c3472cf412d5df48ac259d29e27b47edeeff87029963b38f6616210",
+   "bytes": 2963,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md",
+   "sha256": "6562f1c2090e93485618388ef4c3f0c56b10ae96ccee1a530ac16549d1d28f07",
+   "bytes": 4122,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_PRO_FOLLOWUP_LEAN_BATCH_C_AUDIT_CODEX_2026-09-27/AUDIT.md",
+   "release_path": "evidence/src/BSD_PRO_FOLLOWUP_LEAN_BATCH_C_AUDIT_CODEX_2026-09-27/AUDIT.md",
+   "sha256": "12675da9fdc9c8d93dcb2895c26acbbabc0f9bd22f9e76a78e1f2512eca824d3",
+   "bytes": 14975,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/P13_BINDING_RECONCILIATION.json",
+   "release_path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/P13_BINDING_RECONCILIATION.json",
+   "sha256": "6e569199152827b3b2b2129b16517691806a2a54739026ef42d4fb6f7cfb54f7",
+   "bytes": 1945,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/REPORT.md",
+   "release_path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/REPORT.md",
+   "sha256": "615357e1ea5e0851b985c15c4b979b909c8b07f8c630d14df9d82b5e903a3046",
+   "bytes": 10635,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/SOURCE_LEDGER.json",
+   "release_path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/SOURCE_LEDGER.json",
+   "sha256": "3c0c1a5ef9fdea8f6b7bf4fa6c99b010713c4263c659687dcf6a853b81d86bc6",
+   "bytes": 6122,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/V025_CLAIM_UPDATE_DRAFT.md",
+   "release_path": "evidence/src/BSD_RECORD_RECONCILIATION_CODEX_2026-09-29/V025_CLAIM_UPDATE_DRAFT.md",
+   "sha256": "d3f710400bed2e805eb5443ac3e2053862ba2f2cc001f01f6dde668a43355aaf",
+   "bytes": 6315,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+   "release_path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+   "sha256": "f37c15e86de0c766a919e70577f5ff0cf060cf187e8a91d1f6e8a2c1cadf362a",
+   "bytes": 25322,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/FABLE_RETURN_CHECKS.md",
+   "release_path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/FABLE_RETURN_CHECKS.md",
+   "sha256": "79b5d97374747b2ebee448d4201ac209d342553903862aed53ba70e6b559905f",
+   "bytes": 18164,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SHA_FACTOR_CALIBRATION_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_SHA_FACTOR_CALIBRATION_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "7deaa8b4b7b97353629587a21559506077a26c165f935631486af0e1bcda2be6",
+   "bytes": 3419,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SHA_FACTOR_CALIBRATION_RETURN_FABLE_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_SHA_FACTOR_CALIBRATION_RETURN_FABLE_2026-09-29/RETURN.md",
+   "sha256": "2a747a5ef96769f34daf419901d079e3f377851374ebc8d619dd7fbb573d7cc3",
+   "bytes": 4516,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_TAME_CONSTANT_NORM_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_TAME_CONSTANT_NORM_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "sha256": "faa688f213119dab344eb0df8989b1ccd050b790cd69579194e50e40119f5c77",
+   "bytes": 1355,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_TAME_CONSTANT_NORM_RETURN_OPUS_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_TAME_CONSTANT_NORM_RETURN_OPUS_2026-09-29/RETURN.md",
+   "sha256": "fb08613fe16ae3770ed7ca4625ebe38bbf99bae62ccddb0ad383f3438dce5677",
+   "bytes": 10678,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORMITY_ATTEMPTS_CHECK_CODEX_2026-09-29/A_REPAIR.md",
+   "release_path": "evidence/src/BSD_UNIFORMITY_ATTEMPTS_CHECK_CODEX_2026-09-29/A_REPAIR.md",
+   "sha256": "26ceeff20cb7d6d0f8cf465835ccc487818fb99a844306a95ec45d018a200f01",
+   "bytes": 9405,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORMITY_ATTEMPTS_CHECK_CODEX_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_UNIFORMITY_ATTEMPTS_CHECK_CODEX_2026-09-29/MANIFEST.sha256",
+   "sha256": "0affa90d75c406d7449cb22973c5dee82d196da453d62c0e94a00da0674ef212",
+   "bytes": 2093,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORMITY_ATTEMPTS_CHECK_CODEX_2026-09-29/REPORT.md",
+   "release_path": "evidence/src/BSD_UNIFORMITY_ATTEMPTS_CHECK_CODEX_2026-09-29/REPORT.md",
+   "sha256": "a2713a9f489bce17b5b343ff09d055d666633671126868cb55b8d170257126f2",
+   "bytes": 9202,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_A1_MODP_NONVANISH_RETURN_OPUS_2026-09-29/K_A1_TABLE.md",
+   "release_path": "evidence/src/BSD_UNIFORM_A1_MODP_NONVANISH_RETURN_OPUS_2026-09-29/K_A1_TABLE.md",
+   "sha256": "9639311547995022fb13ad14845ff875b3f6425c1553396cc0d875e779f3202b",
+   "bytes": 3748,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_A1_MODP_NONVANISH_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_UNIFORM_A1_MODP_NONVANISH_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "sha256": "4469f718a60ed27a12eaccba4571cf5af63aae8ebbfe8d93e08eb24652967556",
+   "bytes": 2458,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_A1_MODP_NONVANISH_RETURN_OPUS_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_UNIFORM_A1_MODP_NONVANISH_RETURN_OPUS_2026-09-29/RETURN.md",
+   "sha256": "f0bbc41cddc278ef42d2bc3249eb28b2afc1d197c359726add9809dc38f5fb50",
+   "bytes": 5193,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_A2_PADIC_HEIGHT_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_UNIFORM_A2_PADIC_HEIGHT_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "e09b037acf3b81e5962981c1220acc89e8f730b3779510fcd5abcc01092c99ff",
+   "bytes": 1673,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_A2_PADIC_HEIGHT_RETURN_FABLE_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_UNIFORM_A2_PADIC_HEIGHT_RETURN_FABLE_2026-09-29/RETURN.md",
+   "sha256": "04029f953855692457a39bef2a7deb5d73f0fcaee140d390ac46e76e840d2da7",
+   "bytes": 8171,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_W_ELL_INDEPENDENCE_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_W_ELL_INDEPENDENCE_RETURN_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "e3024cf5fb2cddcd6bb281068dc1684f128695ddd2ca0ae20de52d7668b9fd02",
+   "bytes": 1262,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_W_ELL_INDEPENDENCE_RETURN_FABLE_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_W_ELL_INDEPENDENCE_RETURN_FABLE_2026-09-29/RETURN.md",
+   "sha256": "286884ff23d811d6061eec214dab848c4e951402b40b549c5e57fc22064a1598",
+   "bytes": 3604,
+   "disposition": "admitted_unmasked"
+  }
+ ],
+ "declared_exclusions": [],
+ "declared_redactions": []
+}

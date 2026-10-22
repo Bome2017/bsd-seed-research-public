@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-07",
+  "status": "CORRECTIONS_ACCEPTED_WITH_QUALIFICATIONS; D23_HOST_CUSTODY_AND_RECOMBINATION_PASS",
+  "review": "work/returns/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07",
+  "review_manifest_entries": 1125,
+  "corrected_return_manifest_entries": 15,
+  "original_project_files_matching": 29,
+  "recovered_historical_manifest_entries": 1070,
+  "atomic_units_verified": 1030,
+  "coefficient_and_verifier_pairs_rehashed": 206,
+  "fresh_combination_matches_original": true,
+  "full_finite_sum_recomputed": false,
+  "archives": [
+    {
+      "path": "work/returns/archives/50139472-2e04-4136-ae67-3ceff118f4ab-aristotle (1).tar.gz",
+      "bytes": 70069804,
+      "sha256": "d012793c0081d10f780281dfebaf743cd36e1d7ff155b15d26b493f3c478fc76"
+    },
+    {
+      "path": "work/returns/archives/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07.zip",
+      "bytes": 1068049,
+      "sha256": "4b24740ce70829fb838a2d894272b3c7726118fadfd729ab33f34d8fbc12bf1b"
+    }
+  ],
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "publication_is_not_new_theorem_acceptance": true
+}

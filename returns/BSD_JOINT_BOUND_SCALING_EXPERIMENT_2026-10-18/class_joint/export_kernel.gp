@@ -1,0 +1,1 @@
+Z=read("../p7_new_source/DIVISOR_RELATIONS.gp");D=Z[2];K=Z[3];write("saved_divisor_kernel.json",[vector(matsize(D)[1],i,Vec(D[i,])),vector(matsize(K)[1],i,Vec(K[i,]))]);print("SAVED_MATRIX_EXPORT_PASS");quit;

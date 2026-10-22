@@ -1,0 +1,16 @@
+{
+  "status": "NO_NEW_COMPLETE_CLASS_BOUND",
+  "field": "actual seed five-torsion point field",
+  "complete": true,
+  "new_deduction": "Exact faithful relative class remainder invisible to proper scalar subfield transfer",
+  "seed_class_bound": null,
+  "finite_controls": 80,
+  "new_heavy_computation": false,
+  "endpoints_changed": [],
+  "scaling_deduction": {
+    "anti_unit_rank": "(p^2-1)/4",
+    "single_odd_character_unit_rank": "(p+1)/2",
+    "complete_bound_two_threshold": "r_U-k_C >= (p-3)/2",
+    "new_upper_estimate": false
+  }
+}

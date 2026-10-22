@@ -1,0 +1,26 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 301.351565877,
+  "user_seconds": 2316.475341,
+  "system_seconds": 21.202531,
+  "max_rss_bytes": 717389824,
+  "command": [
+    "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23/acc2243v2_codex",
+    "run",
+    "0",
+    "-22735",
+    "0",
+    "106272484",
+    "0",
+    "27",
+    "2167729337579528",
+    "1",
+    "4831838207",
+    "16777216",
+    "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/ap",
+    "8",
+    "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23/m27",
+    "500000000",
+    "40"
+  ]
+}

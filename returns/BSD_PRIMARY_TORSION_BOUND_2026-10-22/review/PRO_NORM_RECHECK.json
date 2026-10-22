@@ -1,0 +1,10 @@
+{
+  "status": "PASS_ALL_NORMS_AND_PRIVATE_ELIGIBILITY",
+  "counts": {
+    "rational": 20180,
+    "quadratic": 260
+  },
+  "rows": 20440,
+  "method": "homogenized integer Horner and symbolic resultants, independent of supplied norm producer",
+  "scope": "Reconstructs all saved norm inputs and exclusions of small/discriminant primes. Cross-row private support is a separate exact direct-product check. Retains the field identification."
+}

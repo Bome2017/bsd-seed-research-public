@@ -1,0 +1,24 @@
+default(nbthreads,1);
+read("checks/row_input.gp");
+{E=ellinit(ainvs);
+print("INPUT ",[label,p,nn,ainvs,pts]);
+print("VERSION ",version());
+print("START_MS");
+[ms,phi]=msfromell(E,1);
+print("SYMBOL_ZERO ",mseval(ms,phi,[oo,0]));
+mp=mspadicinit(ms,p,nn);
+mu=mspadicmoments(mp,phi);
+l0=mspadicL(mu,0,0);
+l1=mspadicL(mu,0,1);
+l2=mspadicL(mu,0,2)/2;
+rr=ellpadicregulator(E,p,nn+3,pts);
+lg=log(1+p+O(p^(nn+5)));
+al=padicappr(x^2-ellap(E,p)*x+p,ellap(E,p)+O(p^(nn+5)))[1];
+ef=(1-al^(-1))^2;
+ratio=l2/rr/ef*elltors(E)[1]^2/ellglobalred(E)[3];
+print("VALUES ",[l0,l1,l2,rr,l2/lg^2,rr/lg^2,ef,ratio]);
+print("VALUATIONS ",[valuation(l2,p),valuation(rr,p),valuation(l2/rr,p)]);
+print("PRECISIONS ",[padicprec(l2,p),padicprec(rr,p),padicprec(ratio,p)]);
+if(type(l2)!="t_PADIC" || type(rr)!="t_PADIC",error("non-p-adic output rejected"));
+print("DONE");}
+quit;

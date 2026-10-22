@@ -1,0 +1,11 @@
+{
+  "root_replay": "byte_identical",
+  "independent_common_point_replay": "byte_identical",
+  "full_source_exhaustive_vectors": 19683,
+  "full_source_survivors": 9,
+  "pair_comparisons": 1104,
+  "seed_common_point_pair_survivors_in_known_span": 27,
+  "seed_common_point_triple_survivors_in_known_span": 9,
+  "source_certifications": "retained, not rerun",
+  "endpoint_change": false
+}

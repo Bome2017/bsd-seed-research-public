@@ -1,0 +1,30 @@
+{
+  "status": "EXACT_LOCAL_COORDINATES_PASS",
+  "arithmetic": "Python integer and Fraction arithmetic; no floating point",
+  "script_sha256": "21df0f141821c64214a16bbd7017744177b6b76f44f1bb3fa004396879e6197f",
+  "good_reduction_at11": true,
+  "reduction_order": 14,
+  "coordinate_definition": "14^(-1) * t([14]Q)/11 mod11, t=-x/y",
+  "points": {
+    "P1": {
+      "x14_valuation": -2,
+      "y14_valuation": -3,
+      "t14_mod121": 33,
+      "local_coordinate_mod11": 1
+    },
+    "P2": {
+      "x14_valuation": -2,
+      "y14_valuation": -3,
+      "t14_mod121": 66,
+      "local_coordinate_mod11": 2
+    }
+  },
+  "kernel_coefficients_mod11": [
+    2,
+    10
+  ],
+  "t_of_14_kernel_point_valuation": 2,
+  "t_of_14_kernel_point_mod121": 0,
+  "scope": "Finite exact arithmetic supporting the written localization corollary; imported global theorem not checked here",
+  "independent_implementation": false
+}

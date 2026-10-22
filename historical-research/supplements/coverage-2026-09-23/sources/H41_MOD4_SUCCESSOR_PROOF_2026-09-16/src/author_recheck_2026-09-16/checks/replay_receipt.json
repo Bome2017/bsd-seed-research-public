@@ -1,0 +1,19 @@
+{
+  "input_PROOF_sha256": "0cf7a5f9e598d8d8f722fc2a238d03e7cd24dacdafd6c57631c6c01f7c955043",
+  "input_script_sha256": "1ad06d489ce0f0eabd1d1c7e97606e7ed0c97e908fef004980e273960f6ce3b3",
+  "input_output_sha256": "6b642b8246677f86b7b74b0c0cbf87375b071678d4e7422e4a6ef04e85c86d5b",
+  "original_script_exit": 0,
+  "arithmetic_lines_match_supplied_output": true,
+  "database_optimality_replayed": false,
+  "database_reason": "ecdata directory not supplied in mounted inputs",
+  "coefficient_tests": 4000,
+  "graph_primes": [
+    11,
+    19,
+    43
+  ],
+  "retained_curve_prime_pairs": 112,
+  "patch_output_agrees_except_explicit_database_status": true,
+  "independence": "Replay of supplied implementation, not a new independent mathematical implementation",
+  "manifests": "The claimed successor nine-entry manifest is not attached; no full manifest replay is asserted."
+}

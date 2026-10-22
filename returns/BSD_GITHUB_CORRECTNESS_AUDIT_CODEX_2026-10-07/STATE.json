@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETED_SCOPED_AUDIT",
+  "base_commit": "f74e44203478aa09556b65692a02347e0c7cf4c4",
+  "scope_returns": [
+    "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+    "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+    "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+    "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+    "BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07",
+    "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+    "BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07",
+    "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+    "BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07",
+    "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07"
+  ],
+  "scope": "Ten latest mathematical/review returns after global-support B revision; full public navigation; remote branch census. Earlier archive mathematics is not re-certified.",
+  "grade": "same-assistant desk review and custody/replay verification",
+  "manifest_entries_verified": 168,
+  "source_binding_checks": 116,
+  "replayed_programs": 8,
+  "new_arithmetic_result": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

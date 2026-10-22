@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "Exact algebra and character controls only; no seed alpha_lambda or Selmer group calculated",
+  "counts": {
+    "exponential_character": 2535,
+    "J_symmetry": 750,
+    "t_skew_adjoint": 750,
+    "Galois_pairing_similitude": 750,
+    "common_correction_codimension_one": 25,
+    "same_eta_iff_alpha_zero": 2500,
+    "eta_zero_with_radical_W": 2500,
+    "cyclotomic_jet_matches": 59,
+    "shifted_cyclotomic_Eisenstein": 5,
+    "exhaustive_shared_correction": 5,
+    "tame_formal_failure": 30,
+    "formal_countercontrol_symmetry": 3,
+    "formal_countercontrol_nonlift": 3
+  },
+  "total_assertions": 9915,
+  "random_seed": 20261006
+}

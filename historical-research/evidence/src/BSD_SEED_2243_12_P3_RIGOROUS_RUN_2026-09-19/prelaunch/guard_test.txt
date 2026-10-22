@@ -1,0 +1,7 @@
+GUARD TEST 23:05:18 (no P3_AUTHORIZED):
+REFUSED: run_p3.sh on the seed needs P3_AUTHORIZED=yes (operator decision; see P3_RUN_PLAN.md)
+exit code 2
+no output directory created
+GUARD TEST with P3_AUTHORIZED=no:
+REFUSED: run_p3.sh on the seed needs P3_AUTHORIZED=yes (operator decision; see P3_RUN_PLAN.md)
+exit code 2

@@ -1,0 +1,37 @@
+files scanned: 16
+  ./RequestProject/Main.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Acceptance.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/CodexExample.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Content.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Countermodels.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Defs.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Depth.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Descent.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/LemmaB.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Order.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Pairing.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Primary.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Spec.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Symplectic.lean
+  ./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Targets.lean
+== forbidden / escape tokens (code AND comments)
+./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Targets.lean:14:# A2 — targets (Aristotle: replace every `sorry`)
+./pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Targets.lean:18:Final acceptance: no `sorry`/`admit`/new `axiom`; `#print axioms` of every accepted target shows only
+== set_option in library sources
+(none)
+== instance / attribute declarations
+(none)
+== new def/abbrev/structure/class/inductive in helper files
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/CodexExample.lean:13:abbrev CIdx : Type := {p : ℕ | p.Prime ∧ p ≠ 2 ∧ p ≠ 5}
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/CodexExample.lean:16:abbrev CG : Type := Π₀ p : CIdx, ZMod (p : ℕ) × ZMod (p : ℕ)
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/CodexExample.lean:88:def cgPrimaryEquiv (q : CIdx) :
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Countermodels.lean:17:abbrev DSum : Type := Π₀ p : Nat.Primes, ZMod (p : ℕ)
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Depth.lean:93:noncomputable def depthProd {P : Set ℕ} {h : ℕ → ℕ∞} (hfin : (posSupport P h).Finite) : ℤ :=
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/LemmaB.lean:92:def cm3v : ℕ → ℕ := fun p => if p = 2 ∨ p = 5 then 0 else 2
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Order.lean:203:abbrev G441 : Type := (ZMod 3 × ZMod 3) × (ZMod 7 × ZMod 7)
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Pairing.lean:13:def crossZ2 (x y : Fin 3 → ZMod 2) : Fin 3 → ZMod 2 :=
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Pairing.lean:27:def crossHom : (Fin 3 → ZMod 2) →+ (Fin 3 → ZMod 2) →+ (Fin 3 → ZMod 2) :=
+pkg/A2_PRIMARY_SUPPORT/PrimarySupport/Primary.lean:108:def sumMap (T : Finset ℕ) (g : ∀ p : {p // p ∈ T}, primaryPart G p) : G :=
+== any RequestProject import from the library?
+(no)

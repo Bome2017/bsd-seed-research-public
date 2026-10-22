@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "method": "two independent clean temporary directories per control",
+  "results": [
+    {
+      "label": "mirror389",
+      "run": 0,
+      "seconds": 7.661,
+      "certificate_sha256": "8dd23022c118ca0075956893eb973f15d391e5cbf36608d405b5ea68cda7d9fc",
+      "arithmetic_accepted": true
+    },
+    {
+      "label": "mirror389",
+      "run": 1,
+      "seconds": 7.325,
+      "certificate_sha256": "8dd23022c118ca0075956893eb973f15d391e5cbf36608d405b5ea68cda7d9fc",
+      "arithmetic_accepted": true
+    },
+    {
+      "label": "1664n1",
+      "run": 0,
+      "seconds": 3.068,
+      "certificate_sha256": "90b679543fcb1d740595d6455529746b1e0ac4a00efd34fb71c7d13bb72689a0",
+      "arithmetic_accepted": true
+    },
+    {
+      "label": "1664n1",
+      "run": 1,
+      "seconds": 3.012,
+      "certificate_sha256": "90b679543fcb1d740595d6455529746b1e0ac4a00efd34fb71c7d13bb72689a0",
+      "arithmetic_accepted": true
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+PASS 37a1 m=25 ms a_n Merkle root == wverify an (d22f5af2c2fcc3de)
+PASS 37a1 m=25 ms+msl a_q segment root == verifier SEG lines (4f2a7f8473c368c6)
+PASS 37a1 m=25 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 37a1 m=25 ms and msl class sums S_k overlap for all 25 classes
+PASS 37a1 m=25 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 37a1 m=25 (s=-1) 40 exact symbols [b/25]^+- each contained in the ms AND msl balls
+PASS 37a1 m=5 ms a_n Merkle root == wverify an (d22f5af2c2fcc3de)
+PASS 37a1 m=5 ms+msl a_q segment root == verifier SEG lines (4f2a7f8473c368c6)
+PASS 37a1 m=5 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 37a1 m=5 ms and msl class sums S_k overlap for all 5 classes
+PASS 37a1 m=5 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 37a1 m=5 (s=-1) 8 exact symbols [b/5]^+- each contained in the ms AND msl balls
+PASS 37a1 m=7 ms a_n Merkle root == wverify an (d22f5af2c2fcc3de)
+PASS 37a1 m=7 ms+msl a_q segment root == verifier SEG lines (4f2a7f8473c368c6)
+PASS 37a1 m=7 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 37a1 m=7 ms and msl class sums S_k overlap for all 7 classes
+PASS 37a1 m=7 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 37a1 m=7 (s=-1) 12 exact symbols [b/7]^+- each contained in the ms AND msl balls
+PASS 37a1 m=27 ms a_n Merkle root == wverify an (d22f5af2c2fcc3de)
+PASS 37a1 m=27 ms+msl a_q segment root == verifier SEG lines (4f2a7f8473c368c6)
+PASS 37a1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 37a1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 37a1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 37a1 m=27 (s=-1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 389a1 m=25 ms a_n Merkle root == wverify an (bc0c5efa4d554038)
+PASS 389a1 m=25 ms+msl a_q segment root == verifier SEG lines (c23eb3f6aad4bde0)
+PASS 389a1 m=25 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 389a1 m=25 ms and msl class sums S_k overlap for all 25 classes
+PASS 389a1 m=25 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 389a1 m=25 (s=+1) 40 exact symbols [b/25]^+- each contained in the ms AND msl balls
+PASS 389a1 m=5 ms a_n Merkle root == wverify an (bc0c5efa4d554038)
+PASS 389a1 m=5 ms+msl a_q segment root == verifier SEG lines (c23eb3f6aad4bde0)
+PASS 389a1 m=5 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 389a1 m=5 ms and msl class sums S_k overlap for all 5 classes
+PASS 389a1 m=5 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 389a1 m=5 (s=+1) 8 exact symbols [b/5]^+- each contained in the ms AND msl balls
+PASS 389a1 m=7 ms a_n Merkle root == wverify an (bc0c5efa4d554038)
+PASS 389a1 m=7 ms+msl a_q segment root == verifier SEG lines (c23eb3f6aad4bde0)
+PASS 389a1 m=7 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 389a1 m=7 ms and msl class sums S_k overlap for all 7 classes
+PASS 389a1 m=7 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 389a1 m=7 (s=+1) 12 exact symbols [b/7]^+- each contained in the ms AND msl balls
+PASS 389a1 m=27 ms a_n Merkle root == wverify an (bc0c5efa4d554038)
+PASS 389a1 m=27 ms+msl a_q segment root == verifier SEG lines (c23eb3f6aad4bde0)
+PASS 389a1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 389a1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 389a1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 389a1 m=27 (s=+1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 446d1 m=25 ms a_n Merkle root == wverify an (05d58c8c976f9167)
+PASS 446d1 m=25 ms+msl a_q segment root == verifier SEG lines (66c9b4e3982ac108)
+PASS 446d1 m=25 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 446d1 m=25 ms and msl class sums S_k overlap for all 25 classes
+PASS 446d1 m=25 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 446d1 m=25 (s=+1) 40 exact symbols [b/25]^+- each contained in the ms AND msl balls
+PASS 446d1 m=5 ms a_n Merkle root == wverify an (05d58c8c976f9167)
+PASS 446d1 m=5 ms+msl a_q segment root == verifier SEG lines (66c9b4e3982ac108)
+PASS 446d1 m=5 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 446d1 m=5 ms and msl class sums S_k overlap for all 5 classes
+PASS 446d1 m=5 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 446d1 m=5 (s=+1) 8 exact symbols [b/5]^+- each contained in the ms AND msl balls
+PASS 446d1 m=7 ms a_n Merkle root == wverify an (05d58c8c976f9167)
+PASS 446d1 m=7 ms+msl a_q segment root == verifier SEG lines (66c9b4e3982ac108)
+PASS 446d1 m=7 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 446d1 m=7 ms and msl class sums S_k overlap for all 7 classes
+PASS 446d1 m=7 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 446d1 m=7 (s=+1) 12 exact symbols [b/7]^+- each contained in the ms AND msl balls
+PASS 446d1 m=27 ms a_n Merkle root == wverify an (05d58c8c976f9167)
+PASS 446d1 m=27 ms+msl a_q segment root == verifier SEG lines (66c9b4e3982ac108)
+PASS 446d1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 446d1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 446d1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 446d1 m=27 (s=+1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 234446a1 m=25 ms a_n Merkle root == wverify an (e8fafa2606fb960e)
+PASS 234446a1 m=25 ms+msl a_q segment root == verifier SEG lines (7223ffee55e7d075)
+PASS 234446a1 m=25 msl count identity: COUNT smooth 80319 pairs 147745 sum 228064 T 228064 identity 1
+PASS 234446a1 m=25 ms and msl class sums S_k overlap for all 25 classes
+PASS 234446a1 m=25 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 234446a1 m=25 (s=+1) 20 exact symbols [b/25]^+- each contained in the ms AND msl balls
+PASS 234446a1 m=5 ms a_n Merkle root == wverify an (e8fafa2606fb960e)
+PASS 234446a1 m=5 ms+msl a_q segment root == verifier SEG lines (7223ffee55e7d075)
+PASS 234446a1 m=5 msl count identity: COUNT smooth 80319 pairs 147745 sum 228064 T 228064 identity 1
+PASS 234446a1 m=5 ms and msl class sums S_k overlap for all 5 classes
+PASS 234446a1 m=5 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 234446a1 m=5 (s=+1) 4 exact symbols [b/5]^+- each contained in the ms AND msl balls
+PASS 234446a1 m=7 ms a_n Merkle root == wverify an (e8fafa2606fb960e)
+PASS 234446a1 m=7 ms+msl a_q segment root == verifier SEG lines (7223ffee55e7d075)
+PASS 234446a1 m=7 msl count identity: COUNT smooth 80319 pairs 147745 sum 228064 T 228064 identity 1
+PASS 234446a1 m=7 ms and msl class sums S_k overlap for all 7 classes
+PASS 234446a1 m=7 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 234446a1 m=7 (s=+1) 7 exact symbols [b/7]^+- each contained in the ms AND msl balls
+PASS 234446a1 m=27 ms a_n Merkle root == wverify an (e8fafa2606fb960e)
+PASS 234446a1 m=27 ms+msl a_q segment root == verifier SEG lines (7223ffee55e7d075)
+PASS 234446a1 m=27 msl count identity: COUNT smooth 80319 pairs 147745 sum 228064 T 228064 identity 1
+PASS 234446a1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 234446a1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 234446a1 m=27 (s=+1) 18 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 15a1 m=9 ms a_n Merkle root == wverify an (add6fbce6e4ee455)
+PASS 15a1 m=9 ms+msl a_q segment root == verifier SEG lines (c2f2bc9c1e8e9c21)
+PASS 15a1 m=9 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 15a1 m=9 ms and msl class sums S_k overlap for all 9 classes
+PASS 15a1 m=9 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 15a1 m=9 (s=+1) 12 exact symbols [b/9]^+- each contained in the ms AND msl balls
+PASS 15a1 m=27 ms a_n Merkle root == wverify an (add6fbce6e4ee455)
+PASS 15a1 m=27 ms+msl a_q segment root == verifier SEG lines (c2f2bc9c1e8e9c21)
+PASS 15a1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 15a1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 15a1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 15a1 m=27 (s=+1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 15a1 m=81 ms a_n Merkle root == wverify an (add6fbce6e4ee455)
+PASS 15a1 m=81 ms+msl a_q segment root == verifier SEG lines (c2f2bc9c1e8e9c21)
+PASS 15a1 m=81 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 15a1 m=81 ms and msl class sums S_k overlap for all 81 classes
+PASS 15a1 m=81 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 15a1 m=81 (s=+1) 108 exact symbols [b/81]^+- each contained in the ms AND msl balls
+PASS 24a1 m=9 ms a_n Merkle root == wverify an (ff4ba4a5b0bb24f3)
+PASS 24a1 m=9 ms+msl a_q segment root == verifier SEG lines (d2188f33bfda8fc3)
+PASS 24a1 m=9 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 24a1 m=9 ms and msl class sums S_k overlap for all 9 classes
+PASS 24a1 m=9 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 24a1 m=9 (s=+1) 12 exact symbols [b/9]^+- each contained in the ms AND msl balls
+PASS 24a1 m=27 ms a_n Merkle root == wverify an (ff4ba4a5b0bb24f3)
+PASS 24a1 m=27 ms+msl a_q segment root == verifier SEG lines (d2188f33bfda8fc3)
+PASS 24a1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 24a1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 24a1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 24a1 m=27 (s=+1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 24a1 m=81 ms a_n Merkle root == wverify an (ff4ba4a5b0bb24f3)
+PASS 24a1 m=81 ms+msl a_q segment root == verifier SEG lines (d2188f33bfda8fc3)
+PASS 24a1 m=81 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 24a1 m=81 ms and msl class sums S_k overlap for all 81 classes
+PASS 24a1 m=81 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 24a1 m=81 (s=+1) 108 exact symbols [b/81]^+- each contained in the ms AND msl balls
+PASS 57b1 m=9 ms a_n Merkle root == wverify an (5d4b57e781a6684b)
+PASS 57b1 m=9 ms+msl a_q segment root == verifier SEG lines (065ba16844f4fa8c)
+PASS 57b1 m=9 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 57b1 m=9 ms and msl class sums S_k overlap for all 9 classes
+PASS 57b1 m=9 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 57b1 m=9 (s=-1) 12 exact symbols [b/9]^+- each contained in the ms AND msl balls
+PASS 57b1 m=27 ms a_n Merkle root == wverify an (5d4b57e781a6684b)
+PASS 57b1 m=27 ms+msl a_q segment root == verifier SEG lines (065ba16844f4fa8c)
+PASS 57b1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 57b1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 57b1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 57b1 m=27 (s=-1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 57b1 m=81 ms a_n Merkle root == wverify an (5d4b57e781a6684b)
+PASS 57b1 m=81 ms+msl a_q segment root == verifier SEG lines (065ba16844f4fa8c)
+PASS 57b1 m=81 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 57b1 m=81 ms and msl class sums S_k overlap for all 81 classes
+PASS 57b1 m=81 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 57b1 m=81 (s=-1) 108 exact symbols [b/81]^+- each contained in the ms AND msl balls
+PASS 141a1 m=9 ms a_n Merkle root == wverify an (6704987b3a9c744b)
+PASS 141a1 m=9 ms+msl a_q segment root == verifier SEG lines (dcc52962b3b44642)
+PASS 141a1 m=9 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 141a1 m=9 ms and msl class sums S_k overlap for all 9 classes
+PASS 141a1 m=9 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 141a1 m=9 (s=+1) 12 exact symbols [b/9]^+- each contained in the ms AND msl balls
+PASS 141a1 m=27 ms a_n Merkle root == wverify an (6704987b3a9c744b)
+PASS 141a1 m=27 ms+msl a_q segment root == verifier SEG lines (dcc52962b3b44642)
+PASS 141a1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 141a1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 141a1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 141a1 m=27 (s=+1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 141a1 m=81 ms a_n Merkle root == wverify an (6704987b3a9c744b)
+PASS 141a1 m=81 ms+msl a_q segment root == verifier SEG lines (dcc52962b3b44642)
+PASS 141a1 m=81 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 141a1 m=81 ms and msl class sums S_k overlap for all 81 classes
+PASS 141a1 m=81 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 141a1 m=81 (s=+1) 108 exact symbols [b/81]^+- each contained in the ms AND msl balls
+PASS 141d1 m=9 ms a_n Merkle root == wverify an (01e5d48236fa0972)
+PASS 141d1 m=9 ms+msl a_q segment root == verifier SEG lines (2cc206cb106de1e1)
+PASS 141d1 m=9 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 141d1 m=9 ms and msl class sums S_k overlap for all 9 classes
+PASS 141d1 m=9 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 141d1 m=9 (s=-1) 12 exact symbols [b/9]^+- each contained in the ms AND msl balls
+PASS 141d1 m=27 ms a_n Merkle root == wverify an (01e5d48236fa0972)
+PASS 141d1 m=27 ms+msl a_q segment root == verifier SEG lines (2cc206cb106de1e1)
+PASS 141d1 m=27 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 141d1 m=27 ms and msl class sums S_k overlap for all 27 classes
+PASS 141d1 m=27 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 141d1 m=27 (s=-1) 36 exact symbols [b/27]^+- each contained in the ms AND msl balls
+PASS 141d1 m=81 ms a_n Merkle root == wverify an (01e5d48236fa0972)
+PASS 141d1 m=81 ms+msl a_q segment root == verifier SEG lines (2cc206cb106de1e1)
+PASS 141d1 m=81 msl count identity: COUNT smooth 7452 pairs 12548 sum 20000 T 20000 identity 1
+PASS 141d1 m=81 ms and msl class sums S_k overlap for all 81 classes
+PASS 141d1 m=81 Omega+ / Omega- balls contain PARI omega1 / |Im omega2|
+PASS 141d1 m=81 (s=-1) 108 exact symbols [b/81]^+- each contained in the ms AND msl balls
+PASS 389a1 l2 a_n Merkle root == wverify an
+PASS 389a1 (rank 2) L2HALF ball 0.759316500288426788 +- 3.43e-19 contains PARI 0.759316500288426788; zero excluded
+PASS 446d1 l2 a_n Merkle root == wverify an
+PASS 446d1 (rank 2) L2HALF ball 0.940282604689620660 +- 1.72e-19 contains PARI 0.940282604689620660; zero excluded
+PASS 234446a1 l2 a_n Merkle root == wverify an
+PASS 234446a1 (rank 4) L2HALF ball contains 0 (negative control); PARI value -1.711e-60
+SYMBOLS_COMPARED 1117
+VALIDATION_PASS checks=192 fails=0

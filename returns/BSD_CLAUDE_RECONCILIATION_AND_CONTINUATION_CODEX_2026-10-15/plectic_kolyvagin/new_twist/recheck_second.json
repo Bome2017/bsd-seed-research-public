@@ -1,0 +1,91 @@
+{
+  "curve": "6465c1",
+  "frobenius": [
+    {
+      "a": -2,
+      "characteristic_discriminant_mod5": 1,
+      "point_count": 5,
+      "prime": 2
+    },
+    {
+      "a": -2,
+      "characteristic_discriminant_mod5": 1,
+      "point_count": 10,
+      "prime": 7
+    },
+    {
+      "a": -6,
+      "characteristic_discriminant_mod5": 2,
+      "point_count": 18,
+      "prime": 11
+    },
+    {
+      "a": -6,
+      "characteristic_discriminant_mod5": 4,
+      "point_count": 20,
+      "prime": 13
+    },
+    {
+      "a": -3,
+      "characteristic_discriminant_mod5": 3,
+      "point_count": 23,
+      "prime": 19
+    }
+  ],
+  "hashes": {
+    "exact_symbol.gp": "fa78e6b4dea52c1903d9c3500e59c17ae5c71716979efb1ca4cef140bad3539f",
+    "exact_twists.err": "321b44f443c0f45d9fd205ce227cf2409e0dab513aca8d0a14916e409ec0823e",
+    "exact_twists.gp": "6bed3cdf5428f485db2836b15f7a54b45f1ad6cfa125ad56b617182aff22e63c",
+    "exact_twists.out": "7e4140500ec42228c4bfa997e191e5ad61c620323f3ab095a1092ab8330e7020",
+    "rows_107.gp": "18bf4cf37d1b2bf8345afc0367abdd5cd87cff472df14c8bf2ca3519a75633c5",
+    "rows_83.gp": "74cd05d1bc2767299d5b003443cf48c4919fe1c37500695a1811864f27b90b24",
+    "verify_symbol.err": "e10eaad16bdedc9f55c3e6d7424bbd47faf6e280db1ea4a0421911bc81417e36",
+    "verify_symbol.gp": "b336e5ff2c4aaa9a02f2c494a975c2510327f8d358c79c0e3936db0cc4f9a19a",
+    "verify_symbol.out": "d1793b90e7308ef72dc5da1feb1103881f46d402fcf8bd9a9972ac665e93b3ea"
+  },
+  "model": [
+    0,
+    1,
+    1,
+    -36,
+    20
+  ],
+  "scope": "exact saved-row arithmetic plus independent point counts",
+  "status": "NOT_ADMITTED_NONUNIT_TWIST_FACTORS",
+  "twists": [
+    {
+      "D": -83,
+      "character_at_2_3_5_431": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "historical_twice_imaginary_period_factor": 10,
+      "is_5_adic_unit": false,
+      "odd_symmetry": true,
+      "pure_imaginary_eigencycle_factor": 20,
+      "row_denominator": 1,
+      "rows": 82,
+      "v5_of_historical_factor": 1,
+      "valuation_at_5": 1
+    },
+    {
+      "D": -107,
+      "character_at_2_3_5_431": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "historical_twice_imaginary_period_factor": 10,
+      "is_5_adic_unit": false,
+      "odd_symmetry": true,
+      "pure_imaginary_eigencycle_factor": 20,
+      "row_denominator": 1,
+      "rows": 106,
+      "v5_of_historical_factor": 1,
+      "valuation_at_5": 1
+    }
+  ]
+}

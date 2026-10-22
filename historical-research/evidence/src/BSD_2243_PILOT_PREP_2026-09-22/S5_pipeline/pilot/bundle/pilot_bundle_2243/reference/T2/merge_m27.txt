@@ -1,0 +1,54 @@
+MERGE checkpoints 12 units 1445 missing 0 terms 2169602069
+FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+COUNT smooth 1580993508 pairs 3250844699 sum 4831838207 T 4831838207 identity 1
+AP_SEGROOT_SHA256 ca234d65fa40332695f5f08675ade782c9a8439bee068b69ac9b64a470002084 segments 288
+ROUNDING_ERR_TOTAL [5.476845607e-20 +/- 2.14e-30]
+TAIL_MS_UPPER_TIMES2 1.358052210e-5
+S 0 [0.0022830001632961707 +/- 7.13e-20]
+S 1 [0.550586265228378657 +/- 4.11e-19]
+S 2 [-0.7605684811511285178 +/- 5.83e-20]
+S 3 [-0.4194432437307944978 +/- 7.12e-20]
+S 4 [-0.0989731711434574041 +/- 8.49e-20]
+S 5 [0.1086636766497245899 +/- 7.86e-20]
+S 6 [0.541262160565128555 +/- 1.09e-19]
+S 7 [0.0894898392267975637 +/- 8.02e-20]
+S 8 [0.1602685719269731813 +/- 6.81e-20]
+S 9 [0.1434133936267987345 +/- 9.25e-20]
+S 10 [0.3339235426117446667 +/- 8.87e-20]
+S 11 [-0.8151674561591206435 +/- 8.10e-20]
+S 12 [-0.0316619702354966786 +/- 7.11e-20]
+S 13 [0.095621962284259110 +/- 3.04e-19]
+S 14 [-0.0662681446198085850 +/- 8.45e-20]
+S 15 [0.029299659439448821 +/- 2.13e-19]
+S 16 [0.0794613578736482311 +/- 8.40e-20]
+S 17 [0.1308213533777264657 +/- 7.44e-20]
+S 18 [-0.1388473932999130216 +/- 7.80e-20]
+S 19 [0.1440056282624575143 +/- 6.23e-20]
+S 20 [-0.300953740233748806 +/- 2.10e-19]
+S 21 [-0.020422620521714719 +/- 1.09e-19]
+S 22 [0.368107616706957630 +/- 4.08e-19]
+S 23 [-0.2296768878651320974 +/- 6.52e-20]
+S 24 [-0.1432129601560229151 +/- 9.04e-20]
+S 25 [-0.1574522015398985305 +/- 6.92e-20]
+S 26 [0.4148706319090705455 +/- 7.93e-20]
+OMEGA_PLUS [0.0280449015194364044483094018079 +/- 3.04e-32]
+OMEGA_MINUS [0.0305556264963434249561173450733 +/- 1.88e-32]
+XB 1 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+XB 2 plus [-60.000 +/- 4.85e-4] cand -61440/1024 contains 1 unique 1 minus [-16.000 +/- 4.45e-4] cand -16384/1024 contains 1 unique 1
+XB 4 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [19.000 +/- 4.45e-4] cand 19456/1024 contains 1 unique 1
+XB 5 plus [37.000 +/- 4.85e-4] cand 37888/1024 contains 1 unique 1 minus [-21.000 +/- 4.45e-4] cand -21504/1024 contains 1 unique 1
+XB 7 plus [-33.000 +/- 4.85e-4] cand -33792/1024 contains 1 unique 1 minus [20.000 +/- 4.45e-4] cand 20480/1024 contains 1 unique 1
+XB 8 plus [-44.000 +/- 4.85e-4] cand -45056/1024 contains 1 unique 1 minus [-4.000 +/- 4.45e-4] cand -4096/1024 contains 1 unique 1
+XB 10 plus [37.000 +/- 4.85e-4] cand 37888/1024 contains 1 unique 1 minus [21.000 +/- 4.45e-4] cand 21504/1024 contains 1 unique 1
+XB 11 plus [-33.000 +/- 4.85e-4] cand -33792/1024 contains 1 unique 1 minus [-20.000 +/- 4.45e-4] cand -20480/1024 contains 1 unique 1
+XB 13 plus [-44.000 +/- 4.85e-4] cand -45056/1024 contains 1 unique 1 minus [4.000 +/- 4.45e-4] cand 4096/1024 contains 1 unique 1
+XB 14 plus [-44.000 +/- 4.85e-4] cand -45056/1024 contains 1 unique 1 minus [-4.000 +/- 4.45e-4] cand -4096/1024 contains 1 unique 1
+XB 16 plus [-33.000 +/- 4.85e-4] cand -33792/1024 contains 1 unique 1 minus [20.000 +/- 4.45e-4] cand 20480/1024 contains 1 unique 1
+XB 17 plus [37.000 +/- 4.85e-4] cand 37888/1024 contains 1 unique 1 minus [-21.000 +/- 4.45e-4] cand -21504/1024 contains 1 unique 1
+XB 19 plus [-44.000 +/- 4.85e-4] cand -45056/1024 contains 1 unique 1 minus [4.000 +/- 4.45e-4] cand 4096/1024 contains 1 unique 1
+XB 20 plus [-33.000 +/- 4.85e-4] cand -33792/1024 contains 1 unique 1 minus [-20.000 +/- 4.45e-4] cand -20480/1024 contains 1 unique 1
+XB 22 plus [37.000 +/- 4.85e-4] cand 37888/1024 contains 1 unique 1 minus [21.000 +/- 4.45e-4] cand 21504/1024 contains 1 unique 1
+XB 23 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [-19.000 +/- 4.45e-4] cand -19456/1024 contains 1 unique 1
+XB 25 plus [-60.000 +/- 4.85e-4] cand -61440/1024 contains 1 unique 1 minus [16.000 +/- 4.45e-4] cand 16384/1024 contains 1 unique 1
+XB 26 plus [70.000 +/- 4.85e-4] cand 71680/1024 contains 1 unique 1 minus [-19.000 +/- 4.45e-4] cand -19456/1024 contains 1 unique 1
+XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)

@@ -1,0 +1,3 @@
+default(nbthreads,1);
+{E0=ellinit([0,-1,1,-10,-20]);n=0;found=0;tested=0;for(d=2,100000,if(n>=20 || found,break);if(d%4!=1 || !issquarefree(d) || kronecker(d,5)!=-1 || kronecker(d,11)!=1,next);tested++;bn=bnfinit(quadpoly(d,y));if(bn.no%5,next);pr=idealprimedec(bn,11)[1];co=bnfisprincipal(bn,pr,0);sm=matsnf(concat(matdiagonal(bn.cyc),co));if(!sum(i=1,#sm,sm[i]%5==0),next);n++;E=ellminimalmodel(elltwist(E0,d));r=ellrank(E,2);print("FIELD_CANDIDATE ",[d,bn.no,bn.cyc,co,sm,r,ellglobalred(E)[1],E[1..5]]);if(r[1]==2 && r[2]==2 && #r[4]==2,print("CLASS_CERTIFY ",[d,bnfcertify(bn)]);found=1););print("DONE ",[tested,n,found,d]);}
+quit;

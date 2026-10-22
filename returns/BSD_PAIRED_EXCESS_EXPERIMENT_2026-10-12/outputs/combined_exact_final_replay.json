@@ -1,0 +1,167 @@
+{
+  "status": "PASS_EXACT_ARITHMETIC_UNDER_RETAINED_RANK_TWO_UPPER_BOUND",
+  "d": 329233,
+  "models": {
+    "A": [
+      0,
+      -1,
+      1,
+      -1120075138986,
+      -826418095533154920
+    ],
+    "F": [
+      0,
+      -1,
+      1,
+      -847680091476076,
+      -9499397825675855099600
+    ]
+  },
+  "isogeny_polynomial_identity": true,
+  "differential_pullback": 1,
+  "point_matrix": [
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      -2
+    ]
+  ],
+  "point_matrix_determinant": 5,
+  "point_images_exact": true,
+  "source_saturation": {
+    "rows": [
+      {
+        "q": 7,
+        "cardinality": 10,
+        "generator": [
+          5,
+          2
+        ],
+        "point_images": [
+          4,
+          1
+        ]
+      },
+      {
+        "q": 109,
+        "cardinality": 120,
+        "generator": [
+          98,
+          26
+        ],
+        "point_images": [
+          1,
+          2
+        ]
+      }
+    ],
+    "determinant_mod_5": 2
+  },
+  "target_saturation": {
+    "rows": [
+      {
+        "q": 7,
+        "cardinality": 10,
+        "generator": [
+          3,
+          3
+        ],
+        "point_images": [
+          3,
+          4
+        ]
+      },
+      {
+        "q": 109,
+        "cardinality": 120,
+        "generator": [
+          48,
+          75
+        ],
+        "point_images": [
+          1,
+          0
+        ]
+      }
+    ],
+    "determinant_mod_5": 1
+  },
+  "small_counts": {
+    "5": 7,
+    "7": 10,
+    "13": 18,
+    "19": 20
+  },
+  "rational_torsion_order": 1,
+  "real_kernel": [
+    {
+      "x": "1536421",
+      "Y2_over_D_square_root": "3621563/2"
+    },
+    {
+      "x": "5157984",
+      "Y2_over_D_square_root": "39837193/2"
+    }
+  ],
+  "period_F_over_A": "1/5",
+  "local_A": {
+    "11": {
+      "type": "split I_5",
+      "c": 5
+    },
+    "329233": {
+      "type": "I_0*",
+      "c": 4,
+      "cubic": [
+        246905,
+        329223,
+        329232,
+        1
+      ],
+      "roots": [
+        176580,
+        226198,
+        255689
+      ],
+      "separable": true
+    },
+    "product": 20
+  },
+  "local_F": {
+    "11": {
+      "type": "split I_1",
+      "c": 1
+    },
+    "329233": {
+      "type": "I_0*",
+      "c": 4,
+      "cubic": [
+        312578,
+        321413,
+        329232,
+        1
+      ],
+      "roots": [
+        119477,
+        255736,
+        283254
+      ],
+      "separable": true
+    },
+    "product": 4
+  },
+  "Cassels_Selmer_phi_over_dual": "1/25",
+  "Sha_F_dual_kernel_dimension_minus_Sha_A_phi_kernel_dimension": 2,
+  "Sha_F_5_dimension_lower_bound": 2,
+  "retained_input": "rank(A)<=2 from saved PARI two-descent; no descent replay",
+  "not_proved": [
+    "Sha upper bound",
+    "Sha finiteness",
+    "exact Sha order",
+    "full residual image",
+    "seed consequence"
+  ]
+}

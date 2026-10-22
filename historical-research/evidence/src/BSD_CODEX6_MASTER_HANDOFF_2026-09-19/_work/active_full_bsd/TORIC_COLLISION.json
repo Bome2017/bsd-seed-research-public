@@ -1,0 +1,121 @@
+{
+  "scope": "All markdown files in the existing bounded discovery inventory, excluding files above1.5MB; no chat/Library coverage claim",
+  "paths_count": 789,
+  "hits": [
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/B_kato_kurihara_bks_mazurtate.md",
+      "line": 149,
+      "text": "### KP25 \u2014 C.-H. Kim (appendix with R. Pollack), \"The refined Tamagawa number conjectures for GL_2\""
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/E_uniformity_mechanisms.md",
+      "line": 56,
+      "text": "| 43 | WebSearch: Diamond\u2013Flach\u2013Guo Tamagawa number conjecture adjoint motives | Ann. Sci. ENS 37 (2004) 663\u2013727; NEW long version arXiv:2512.02348v2 (11 Dec 2025, 109 pp.) | fetched |"
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_work/agents/E_uniformity_mechanisms.md",
+      "line": 262,
+      "text": "### E-13 Diamond\u2013Flach\u2013Guo: Tamagawa number conjecture for adjoint motives \u2014 THE genuine p-uniform Bloch\u2013Kato theorem that applies to the seed's newform, but for ad^0 (task item 7)"
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_SECOND_DERIVATIVE_RATIONALITY_HUNT.md",
+      "line": 266,
+      "text": "| D10 | Flach, \"The equivariant Tamagawa number conjecture: a survey\" (Contemp. Math. 358, 2004) Conj. 2, \u00a75.4 PT | Rationality is **Conjecture 2** (Deligne critical case / Beilinson general case); proved ETNC cases for elliptic curves: CM with rank 0 (Colwell), CM non-central j \u2265 2 (Kings) | number fields | \u2014 | \u2014 | none | survey | OPEN-STATUS witness: \"progress \u2026 in the case ord_{s=1}L(E,s) \u2264 1 (but none for higher vanishing order)\" |"
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_SECOND_DERIVATIVE_RATIONALITY_HUNT.md",
+      "line": 289,
+      "text": "vanishing\", \"Beilinson\u2013Bloch\", \"height pairing(s)\", \"Bloch\u2013Kato\" (45), \"Tamagawa number conjecture\", Zywina, \"Mahler"
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_SECOND_DERIVATIVE_RATIONALITY_HUNT.md",
+      "line": 320,
+      "text": "| S5 | Bloch\u2013Kato / Tamagawa number conjecture for a rank-2 motive over Q | Flach's survey: progress only for ord \u2264 1 \"(but none for higher vanishing order)\"; nothing newer found in the sweep (Sano 2510.01601, Diamond\u2013Flach\u2013Guo 2512.02348 concern other motives / adjoint) | none found |"
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/agents/D_refined_bsd.md",
+      "line": 69,
+      "text": "  - Abstract (txt l.11-17): \"Under certain technical hypotheses, we obtain a reinterpretation of the equivariant Tamagawa number conjecture ('eTNC') ... as an explicit family of p-adic congruences involving values of derivatives of the Hasse-Weil L-functions of twists of A, normalised by completely explicit twisted regulators.\""
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/agents/D_refined_bsd.md",
+      "line": 80,
+      "text": "- The one unconditional-looking theorem, Thm 1.1 (txt l.61-72): p odd, K imaginary quadratic, F = Hilbert p-classfield, G = Gal(F/Q) generalised dihedral; A/Q elliptic curve \"for which the Tate-Shafarevich group Sha(A_F) is finite. Assume in addition ... (iii) the Hasse-Weil L-function L(A/K,s) has a simple zero at s = 1; (iv) the trace to A(K) of the Heegner point is not divisible by p. Then the p-component of the equivariant Tamagawa number con"
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/agents/D_refined_bsd.md",
+      "line": 165,
+      "text": "### D18. M. Flach, \"The Equivariant Tamagawa Number Conjecture: A survey\" (Contemp. Math. 358, 2004)"
+    },
+    {
+      "file": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/agents/E_sweep_special.md",
+      "line": 48,
+      "text": "| q15 | abs:\"Tamagawa number conjecture\" | 12 | follow: 2510.10816 (Braunling \"all regulators are rational\" \u2014 check title claim), 2510.01601 (Sano), 2512.02348 (Diamond\u2013Flach\u2013Guo adjoint) |"
+    },
+    {
+      "file": "/Users/bsm/H41_KAPPA_PARITY_2026-09-14/KAPPA_PARITY_PROOF.md",
+      "line": 54,
+      "text": "**Input 6 (the index $\\kappa$).** Let $\\mathcal J,\\mathcal E$ be the N\u00e9ron models over $R$ of $J_R$ and $E_{0,R}$, $\\mathcal J^0,\\mathcal E^0$ their identity components, and $T_J\\subset\\mathcal J^0_{\\bar{\\mathbf F}_2}$, $T_E=\\mathcal E^0_{\\bar{\\mathbf F}_2}$ the maximal tori. ($X$ is semistable, so $\\mathcal J^0_{\\bar{\\mathbf F}_2}$ is semiabelian; $E_0$ has conductor $2p$, so its reduction at $2$ is multiplicative and $\\mathcal E^0_{\\bar{\\mathbf"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_REV2_STAGING_2026-09-16/PROOF.md",
+      "line": 200,
+      "text": "Setting: K a complete algebraically closed extension of Frac R, v(2) = 1 kept. For A = J and A = E_0 (split semi-abelian reduction), BR sec 4.1:"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_REV3_STAGING_2026-09-16/PROOF.md",
+      "line": 202,
+      "text": "Setting: K a complete algebraically closed extension of Frac R, v(2) = 1 kept. For A = J and A = E_0 (split semi-abelian reduction), BR sec 4.1:"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_REV3_STAGING_2026-09-16/PROOF.md",
+      "line": 207,
+      "text": "identity component A^0 along its special fibre is a compact formal analytic subgroup of A^an whose special fibre is the semi-abelian A^0_k;"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_REV3_STAGING_2026-09-16/PROOF_rev2_copy.md",
+      "line": 200,
+      "text": "Setting: K a complete algebraically closed extension of Frac R, v(2) = 1 kept. For A = J and A = E_0 (split semi-abelian reduction), BR sec 4.1:"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/PROOF.md",
+      "line": 202,
+      "text": "Setting: K a complete algebraically closed extension of Frac R, v(2) = 1 kept. For A = J and A = E_0 (split semi-abelian reduction), BR sec 4.1:"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/PROOF.md",
+      "line": 207,
+      "text": "identity component A^0 along its special fibre is a compact formal analytic subgroup of A^an whose special fibre is the semi-abelian A^0_k;"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/referee_1/DELTA_REV2.md",
+      "line": 128,
+      "text": "  - **Needed:** either an explicit derivation or a verifiable source (Coleman 2000 \u00a71 or Bosch\u2013L\u00fctkebohmert; neither is local). The derivation would show that over Frac R the Raynaud generic fibre of the formal completion of the N\u00e9ron identity component \ud835\udca5\u2070 is a compact formal analytic subgroup with semi-abelian special fibre \ud835\udca5\u2070_k, hence equals A_0 by BR's uniqueness clause (src:L422\u2013425), with formation compatible with ground-field extension (src"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/referee_1/DELTA_REV3.md",
+      "line": 41,
+      "text": "   - Argument: over the discretely valued Frac R, the Raynaud generic fibre of the formal completion of the N\u00e9ron identity component \ud835\udc9c\u2070 is a compact formal analytic subgroup of A^an, with special fibre the semi-abelian \ud835\udc9c\u2070_k (split over F\u0304_2). BR \u00a74.1's uniqueness clause holds for any complete K (BR L419) and is quoted at src L422\u2013424. So this generic fibre equals A_0, and the equality transfers to C_2 by BR L460. Hence the torus of A_0 has the N\u00e9"
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/referee_2/DELTA_REV3.md",
+      "line": 69,
+      "text": "1. **Where BR \u00a74.1 applies.** BR \u00a74.1 holds over any complete non-Archimedean field (BR line 419), so it applies over Frac R = W(F\u0304_2)[1/2]. J_0(N) and E_0 have split semi-abelian reduction there, because the residue field is algebraically closed."
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/referee_2/DELTA_REV3.md",
+      "line": 70,
+      "text": "2. **The input.** Take the formal completion of the N\u00e9ron identity component A\u2070 along its special fibre. Its generic fibre is a compact formal K-analytic subgroup of A^an, with semi-abelian special fibre A\u2070_k."
+    },
+    {
+      "file": "/Users/bsm/H41_MOD4_SUCCESSOR_PROOF_2026-09-16/referee_2/VERDICT.md",
+      "line": 332,
+      "text": "They are standard: BR \u00a74.1 lifts the torus of A_0, whose special fibre is the N\u00e9ron identity component for semiabelian reduction; see also BL/BLR. Coleman \u00a71 and \u00a74 use the same identification."
+    },
+    {
+      "file": "/Users/bsm/H9R16C_LANE1_W_w_DICTIONARY_2026-09-15/02_PRIMARY_SOURCE_LEDGER.md",
+      "line": 95,
+      "text": "| Hida, \u039b-adic Barsotti\u2013Tate groups [H14 \u00a74] | w-twisted Cartier duality | not needed for C1 |"
+    }
+  ]
+}

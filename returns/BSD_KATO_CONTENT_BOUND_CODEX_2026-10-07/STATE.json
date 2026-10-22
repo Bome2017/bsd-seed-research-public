@@ -1,0 +1,18 @@
+{
+  "status": "KATO_DERIVATIVE_CONTENT_BOUND_DERIVED_CONDITIONALLY",
+  "grade": "written deduction under retained inputs; independent review required",
+  "baseline": "eddb24fe53e7450d7b9ff553ff3fd6ed038857ef",
+  "result": "For nonzero actual derivative on the retained domain: length Sha[p∞]+local_point_index <= derivative_content",
+  "vanishing_criterion": "derivative_content <= local_point_index+1",
+  "uniform_content_estimate": "NOT_PROVED",
+  "new_kato_value": "NONE",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "local_controls": {
+    "presentation_cases": 288,
+    "predecessor_replays": 3,
+    "input_bindings": 11
+  },
+  "remote_job": "NONE"
+}

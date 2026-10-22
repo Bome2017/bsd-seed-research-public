@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "grade": "exact checks on software-generated modular symbols; not an independent modular-symbol implementation",
+  "rows": [
+    {
+      "curve": "655a1",
+      "p": 7,
+      "n": 4,
+      "rows": 2058,
+      "sums": [
+        "0",
+        "0",
+        "306411"
+      ],
+      "coefficient_residue": 126,
+      "modulus": 343,
+      "normalized_coefficient_valuation": 1,
+      "mismatched_generator_residue": 203,
+      "input_sha256": "d99a7dd55de303506f9c9a10d4d3a97dd6946616aecc6877fd1b6b18315df5c7"
+    },
+    {
+      "curve": "655a1",
+      "p": 31,
+      "n": 3,
+      "rows": 28830,
+      "sums": [
+        "0",
+        "-26908",
+        "-18445775"
+      ],
+      "coefficient_residue": 403,
+      "modulus": 961,
+      "normalized_coefficient_valuation": 1,
+      "mismatched_generator_residue": 341,
+      "input_sha256": "1c934a16a581b768d983adda5391d8eca5c5967d33e0695984f61a4e1bd2fd4d"
+    }
+  ]
+}

@@ -1,0 +1,1521 @@
+{
+ "research_base": "9828eae9bb8f97c78f80b1a970b717679e453e70",
+ "base_version": "v0.2.5 route K (local)",
+ "history_root": "review/history/v0.2.5k",
+ "scope": "K2 follow-on commit on v0.2.5-bank, from the cross-family source reading of route K (Codex, OpenAI): (1) the regulator sentence: v_3(#Sha[3^inf]) <= 2 - v_3(Reg_gamma) = 4 - v_3(Reg_3); the actual gamma-free valuation 2 gives <= 9, only a gamma-free valuation 0 would give <= 81 (paper section 4, S.3K imports, RECHECK); (2) outward: the final length inequality of 12.5(4) is printed for V; its integral containment Z(f,T) in H^1(T) is retained (and used); (3) the S.3K label (user-approved): written derivation; three Anthropic model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5) and one cross-family source reading (Codex, OpenAI) of D5/D6/D8 with the errata E1–E7, passing at the retained arithmetic-input and imported-theorem grades; not a full certificate replay; no human review; used in S.3K, S.3 primary support and the paper; (4) the Col(z) = L_3 sentence carries the kappa-shift (Tate twist) dictionary (E3). Statements and grades unchanged; nothing is upgraded to human-reviewed, recomputed or formalized. Evidence: Codex's 13 own files and its manifest appended (14); its 12 source_checks files bound by hash only; the same 5 retained source changes. The v0.2.5 and route-K records are unchanged. No tag, push or publication.",
+ "user_decisions": [
+  "S.3K label update approved (item 3 of the K2 task, 2026-09-30)",
+  "Codex's third-party source_checks files: hash-bind only, not copied (2026-09-30)"
+ ],
+ "e1_rule": "every outward line citing 12.5(4) contains \"final length inequality of 12.5(4)\"",
+ "e1_allowlist": [
+  "review/V025_BANK_APPLIED.json",
+  "review/V025K_ROUTEK_APPLIED.json",
+  "review/V025K2_APPLIED.json",
+  "review/history/**",
+  "evidence/src/**",
+  "tools/verify_v025k_transition.py",
+  "tools/verify_v025k2_transition.py"
+ ],
+ "base_copies": {
+  "MANIFEST.sha256": {
+   "path": "review/history/v0.2.5k/MANIFEST.sha256",
+   "sha256": "e2354103eed53cbfdfd7b3be7db4f00fac9cae69756be18173f50a8c7d3b6fc7"
+  },
+  "README.md": {
+   "path": "review/history/v0.2.5k/README.md",
+   "sha256": "ee490a468be40b2eca1a80098c909525644f25af4d28fb2feddcb1a3adca9fa6"
+  },
+  "RECHECK_V0_2_5.md": {
+   "path": "review/history/v0.2.5k/RECHECK_V0_2_5.md",
+   "sha256": "6be1bbb19b72e48c485cdfc7955611da2d2181e881a8aab064125ff8d1f99df0"
+  },
+  "SOURCE_SNAPSHOT.json": {
+   "path": "review/history/v0.2.5k/SOURCE_SNAPSHOT.json",
+   "sha256": "aceeb19edec1007b787da5c2f8a71f8d74cd72560b13241bf83a9f8a29af81c2"
+  },
+  "claims/CLAIM_INDEX.md": {
+   "path": "review/history/v0.2.5k/claims/CLAIM_INDEX.md",
+   "sha256": "4e2b0cfa5595fe3478b52547fbcd5cde7f95f01af3245a23c187b42fe24a6c69"
+  },
+  "claims/claims.json": {
+   "path": "review/history/v0.2.5k/claims/claims.json",
+   "sha256": "89131b10a607af6c79c95467e204ffd1190b52585cd4acdba8d048fe4d0da969"
+  },
+  "claims/spec/common.py": {
+   "path": "review/history/v0.2.5k/claims/spec/common.py",
+   "sha256": "b35c45c14dfdc617b87e446e36e0cf601c55ec7dcc7392b3aaa5d48b6eea588a"
+  },
+  "claims/spec/part1_core.py": {
+   "path": "review/history/v0.2.5k/claims/spec/part1_core.py",
+   "sha256": "4e5abab3ea0b0abe9590ad8575f9204d5e97f27e0bb6e0140769d0e8d0c33241"
+  },
+  "evidence/PROVENANCE.tsv": {
+   "path": "review/history/v0.2.5k/evidence/PROVENANCE.tsv",
+   "sha256": "f539a3ca41ceb5f3c317d192b6cfe27e31e1030e7974f99490b8f25cfddc15bf"
+  },
+  "paper/sections/01_intro.tex": {
+   "path": "review/history/v0.2.5k/paper/sections/01_intro.tex",
+   "sha256": "fc0281d0055726cc74dd7cea73dfc061b66839e61238ca59f08b3c3a7b0cddd7"
+  },
+  "paper/sections/04_primary.tex": {
+   "path": "review/history/v0.2.5k/paper/sections/04_primary.tex",
+   "sha256": "db931ce742d5bf06ca6ea734648c241e74d23b51ab778981314dbb350c12a81b"
+  },
+  "paper/seed_bsd.pdf": {
+   "path": "review/history/v0.2.5k/paper/seed_bsd.pdf",
+   "sha256": "19f1c5043e6d9aa912a4416b762aa5930796d366ca3f2512ba43b0f4646bc917"
+  },
+  "review/SYNTHESIS_CHECK_BRIEF.md": {
+   "path": "review/history/v0.2.5k/review/SYNTHESIS_CHECK_BRIEF.md",
+   "sha256": "65f9c6743ded74074fc05e1f9db3d192c3399b63e1664c669b76c7cbf43e422e"
+  },
+  "tools/extra_evidence.txt": {
+   "path": "review/history/v0.2.5k/tools/extra_evidence.txt",
+   "sha256": "80a6c7b9cf69a31291f111541cd19b059f9138105e22012a43430e8042cf1a35"
+  },
+  "tools/verify_patch_release.py": {
+   "path": "review/history/v0.2.5k/tools/verify_patch_release.py",
+   "sha256": "d7a61908165f915ca4d31704ff66eadb4e1c106e3f3a6643a4ea17c39f97a0dd"
+  }
+ },
+ "added_paths": [
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log",
+  "review/V025K2_APPLIED.json",
+  "review/V025K2_EVIDENCE_ADDITIONS.json",
+  "review/V025K2_EVIDENCE_TRANSITION.json",
+  "review/history/v0.2.5k/MANIFEST.sha256",
+  "review/history/v0.2.5k/README.md",
+  "review/history/v0.2.5k/RECHECK_V0_2_5.md",
+  "review/history/v0.2.5k/SOURCE_SNAPSHOT.json",
+  "review/history/v0.2.5k/claims/CLAIM_INDEX.md",
+  "review/history/v0.2.5k/claims/claims.json",
+  "review/history/v0.2.5k/claims/spec/common.py",
+  "review/history/v0.2.5k/claims/spec/part1_core.py",
+  "review/history/v0.2.5k/evidence/EXCLUDED.tsv",
+  "review/history/v0.2.5k/evidence/PROVENANCE.tsv",
+  "review/history/v0.2.5k/evidence/REDACTIONS.tsv",
+  "review/history/v0.2.5k/paper/sections/01_intro.tex",
+  "review/history/v0.2.5k/paper/sections/04_primary.tex",
+  "review/history/v0.2.5k/paper/seed_bsd.pdf",
+  "review/history/v0.2.5k/review/SYNTHESIS_CHECK_BRIEF.md",
+  "review/history/v0.2.5k/tools/extra_evidence.txt",
+  "review/history/v0.2.5k/tools/verify_patch_release.py",
+  "tools/verify_v025k2_transition.py"
+ ],
+ "claim_order": [
+  "A.1",
+  "A.2",
+  "A.3",
+  "A.4",
+  "R.1",
+  "R.2",
+  "R.3",
+  "R.4",
+  "R.5",
+  "R.6",
+  "R.7",
+  "S.2",
+  "S.3",
+  "S.3L",
+  "S.3F",
+  "S.3K",
+  "S.5",
+  "S.7",
+  "S.11",
+  "S.13",
+  "S.17-47",
+  "S.P",
+  "S.FIN",
+  "S.U",
+  "S.K",
+  "Q.1",
+  "Q.2",
+  "Q.3",
+  "Q.4",
+  "K.1",
+  "K.2",
+  "B.1",
+  "B.2",
+  "B.3",
+  "B.4",
+  "B.5",
+  "B.6",
+  "B.7",
+  "B.8",
+  "B.18",
+  "B.9",
+  "B.10",
+  "B.11",
+  "B.12",
+  "B.13",
+  "B.14",
+  "B.15",
+  "B.16",
+  "B.17",
+  "B.19",
+  "X.1",
+  "X.2",
+  "X.3",
+  "X.4",
+  "X.5",
+  "X.6",
+  "X.7",
+  "X.8",
+  "X.9",
+  "X.10",
+  "X.11",
+  "X.12",
+  "X.13",
+  "X.14",
+  "X.15",
+  "X.16",
+  "X.17",
+  "O.1",
+  "O.2",
+  "O.3",
+  "O.4",
+  "H.1",
+  "H.2",
+  "H.3",
+  "H.4",
+  "H.5",
+  "W.1",
+  "W.2",
+  "W.3",
+  "W.4",
+  "W.5",
+  "W.6",
+  "W.7",
+  "W.8"
+ ],
+ "claim_delta": {
+  "S.3": {
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "role": "retained theorem and computation",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "numerical certificate",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt",
+      "role": "certified symbol table at 81",
+      "sha256": "2049b76315da25d0a5557a513aee5d21177fe39512c7a562a4b6b63ac410bfd9",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+      "role": "R1: finiteness-first chain; R2 integral comparison (section 3.6 rejected)",
+      "sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+      "role": "hostile model review of the repair",
+      "sha256": "73ec678408626d1ce437b3576ccf36077d82af45807045b1102f17daced664e2",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+      "role": "bounded Euler-normalization reconciliation",
+      "sha256": "7b494d3615e8349f149739a656f759f323914a9e076e876861bb8ba5c9ed8c36",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2: current qualification",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp",
+      "role": "Independent formal-series height derivation (canonical sigma residue to the precision needed)",
+      "sha256": "3e01dafd069f54fbbe4df63097b15ae700da51f15a811c605211d1f184899efe",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt",
+      "role": "Recorded result; determinant valuation 2, not a claim that all displayed high-order digits are certified",
+      "sha256": "0ade6a44890b310eeeba6bf84a0966de386f371c49968c6b9d1f910f527cf8f1",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp",
+      "role": "Saturation check at 3 and up to 100",
+      "sha256": "04618f23026fec6f2c231e20b7a374923689b3dae820493e3ae8ec733974a145",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+      "role": "formal check at p = 3: replay record (A5_FULL)",
+      "sha256": "e4288f949c7123e7635ce92781282e7cfcd11b0a7e2e27bdee75b768f6c2893d",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+      "role": "formal proofs (one run)",
+      "sha256": "4ef8506cd7e02ee6857735a81a99b08378b9ee8dff50169726448fd607925831",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+      "role": "frozen formal statements and sha-bound certified data",
+      "sha256": "cb374846b3e7aee1b1405757d41aa26c8797e6ece88f41d5185add25c11f379d",
+      "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+      "role": "axiom report of the replay",
+      "sha256": "5a3a3672b727b15a0cb542b5b49bb6867085422d5d21553d26edf0c40b6c1cee",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the two uses of SU Prop. 12.3.6; repaired use (U2); missing statement MS-13.4.1(ii)",
+      "sha256": "969579592ab4bcf04ca34564c6511051493e455627b8040816c8bba58e936fb9",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md",
+      "role": "MS-13.4.1(ii), exact form",
+      "sha256": "0f29ebd587081e5b7d3c33f385bc968043a5526de41fc3c374aa33c618436f90",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md",
+      "role": "the repair of the use at l.6122",
+      "sha256": "fcf4767d29adb1dc507cc0b8a1b7228a85ed08dd4f334a7e38133ec4c9e32938",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the Kato-direction gap MS-B1",
+      "sha256": "68cc12355c7d5253946e70fb40669e5064d6c67a1f616bef570863ad62529433",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md",
+      "role": "MS-B1 at source",
+      "sha256": "63284faf66dd759f0ecf0f6cd3ff73c4f8a402199b5a438365f27e3c3dbc1bb9",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "route MS-R24 and its obligations",
+      "sha256": "3e04443fb4f42068de45784cbfd15f3fdc49f92a8a79874c0b1e1d5293c55647",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md",
+      "role": "Kato 12.5 at source",
+      "sha256": "6be55553f315bb3b64fbcd1b18a736fea90d629a6253a93b089983c544195aee",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md",
+      "role": "route MS-R3 at source",
+      "sha256": "6562f1c2090e93485618388ef4c3f0c56b10ae96ccee1a530ac16549d1d28f07",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+      "role": "cross-model source checks: addenda 1, 2, 3 and 5",
+      "sha256": "f37c15e86de0c766a919e70577f5ff0cf060cf187e8a91d1f6e8a2c1cadf362a",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+      "role": "candidate wording, sections 1 and 1b",
+      "sha256": "eb03549224f5c397963595d7cd357da886a4e4acafb30857dc5aed5e17e0c3cf",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+      "role": "route K: the assembly",
+      "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+      "role": "route K errata; E1: the integral step is Kato 13.4(3) via 13.14",
+      "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+      "role": "cross-model check of v0.2.5: correction F1",
+      "sha256": "131f17e2c37c444af26ab0d3478fd731d09801f9e60934fe94abcef566dc8824",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "role": "retained theorem and computation",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "numerical certificate",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt",
+      "role": "certified symbol table at 81",
+      "sha256": "2049b76315da25d0a5557a513aee5d21177fe39512c7a562a4b6b63ac410bfd9",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run/SYMBOLS_m81.txt"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md",
+      "role": "R1: finiteness-first chain; R2 integral comparison (section 3.6 rejected)",
+      "sha256": "ad3bfd2cf9b5871b6f578dc2e7811f995f416143fd9dfde5ab0a20ff866391fb",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_2026-09-19/R1_R2_THEOREM.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md",
+      "role": "hostile model review of the repair",
+      "sha256": "73ec678408626d1ce437b3576ccf36077d82af45807045b1102f17daced664e2",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/p3_r1_r2_review_2026-09-19/REVIEW.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md",
+      "role": "bounded Euler-normalization reconciliation",
+      "sha256": "7b494d3615e8349f149739a656f759f323914a9e076e876861bb8ba5c9ed8c36",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/euler_normalization_2026-09-19/EULER_RECONCILIATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "role": "section 2: current qualification",
+      "sha256": "7b64f4eda63d3dbd9592abf7cbabf9085ad4abedafaa917ad8dd6dd0e3526edf",
+      "original_path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp",
+      "role": "Independent formal-series height derivation (canonical sigma residue to the precision needed)",
+      "sha256": "3e01dafd069f54fbbe4df63097b15ae700da51f15a811c605211d1f184899efe",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height.gp"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt",
+      "role": "Recorded result; determinant valuation 2, not a claim that all displayed high-order digits are certified",
+      "sha256": "0ade6a44890b310eeeba6bf84a0966de386f371c49968c6b9d1f910f527cf8f1",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_indep_height_output.txt"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp",
+      "role": "Saturation check at 3 and up to 100",
+      "sha256": "04618f23026fec6f2c231e20b7a374923689b3dae820493e3ae8ec733974a145",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_work/f1_saturation.gp"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md",
+      "role": "formal check at p = 3: replay record (A5_FULL)",
+      "sha256": "e4288f949c7123e7635ce92781282e7cfcd11b0a7e2e27bdee75b768f6c2893d",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/A5_REPLAY_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz",
+      "role": "formal proofs (one run)",
+      "sha256": "4ef8506cd7e02ee6857735a81a99b08378b9ee8dff50169726448fd607925831",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/ARISTOTLE_A5_SHA3_proved_2026-09-25.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz",
+      "role": "frozen formal statements and sha-bound certified data",
+      "sha256": "cb374846b3e7aee1b1405757d41aa26c8797e6ece88f41d5185add25c11f379d",
+      "original_path": "/Users/bsm/BSD_FINITE_PART_HARDENING_2026-09-24/A5_p3/package/ARISTOTLE_A5_SHA3_v2_2026-09-24.tar.gz"
+     },
+     {
+      "path": "evidence/src/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log",
+      "role": "axiom report of the replay",
+      "sha256": "5a3a3672b727b15a0cb542b5b49bb6867085422d5d21553d26edf0c40b6c1cee",
+      "original_path": "/Users/bsm/BSD_PERIMETER_Q36_2026-09-25/a5_replay/axioms_fresh.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the two uses of SU Prop. 12.3.6; repaired use (U2); missing statement MS-13.4.1(ii)",
+      "sha256": "969579592ab4bcf04ca34564c6511051493e455627b8040816c8bba58e936fb9",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md",
+      "role": "MS-13.4.1(ii), exact form",
+      "sha256": "0f29ebd587081e5b7d3c33f385bc968043a5526de41fc3c374aa33c618436f90",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/MISSING_STATEMENT.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md",
+      "role": "the repair of the use at l.6122",
+      "sha256": "fcf4767d29adb1dc507cc0b8a1b7228a85ed08dd4f334a7e38133ec4c9e32938",
+      "original_path": "/Users/bsm/BSD_P3_SEAMS_RETURN_FABLE_2026-09-29/U2_REPAIR.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "the Kato-direction gap MS-B1",
+      "sha256": "68cc12355c7d5253946e70fb40669e5064d6c67a1f616bef570863ad62529433",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md",
+      "role": "MS-B1 at source",
+      "sha256": "63284faf66dd759f0ecf0f6cd3ff73c4f8a402199b5a438365f27e3c3dbc1bb9",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/WORKING_K_B1a.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md",
+      "role": "route MS-R24 and its obligations",
+      "sha256": "3e04443fb4f42068de45784cbfd15f3fdc49f92a8a79874c0b1e1d5293c55647",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md",
+      "role": "Kato 12.5 at source",
+      "sha256": "6be55553f315bb3b64fbcd1b18a736fea90d629a6253a93b089983c544195aee",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kato2004_12.5.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md",
+      "role": "route MS-R3 at source",
+      "sha256": "6562f1c2090e93485618388ef4c3f0c56b10ae96ccee1a530ac16549d1d28f07",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_REPAIR_SCREEN_RETURN_OPUS_2026-09-29/SRC_Ochiai2006.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md",
+      "role": "cross-model source checks: addenda 1, 2, 3 and 5",
+      "sha256": "f37c15e86de0c766a919e70577f5ff0cf060cf187e8a91d1f6e8a2c1cadf362a",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_TASK_2026-09-29/inputs/CLAUDE_CHECK_REPORT.md"
+     },
+     {
+      "path": "evidence/src/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md",
+      "role": "candidate wording, sections 1 and 1b",
+      "sha256": "eb03549224f5c397963595d7cd357da886a4e4acafb30857dc5aed5e17e0c3cf",
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/V025_CANDIDATE_EDITS_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+      "role": "route K: the assembly",
+      "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+      "role": "route K errata; E1: the integral step is Kato 13.4(3) via 13.14",
+      "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+      "role": "cross-model check of v0.2.5: correction F1",
+      "sha256": "131f17e2c37c444af26ab0d3478fd731d09801f9e60934fe94abcef566dc8824",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md",
+      "role": "cross-family source reading of route K",
+      "sha256": "1039e866422ece43b750e9c4b58ad72f02604c83e6eba91ba0e8291d85d1fd20",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md"
+     }
+    ]
+   },
+   "verification": {
+    "before": {
+     "coefficients": "663,685,727 prime coefficients independently verified",
+     "symbols": "54 + 54 entries at 81 and 18 + 18 at 27; 72 per sign across both levels, identified in (1/1024)Z",
+     "release_replay": "tools/replay/coefficients_from_symbols.py recomputes this coefficient from the certified symbol table with an independent implementation of the depth-n formula (PASS, 2026-09-23) (exact integers a_{4,0} = 0, a_{4,1} = -54, a_{4,2} = 15480)",
+     "review": "MODEL_SAME_FAMILY (F1 hostile audit; separate R1/R2 hostile review)",
+     "primary_support": "route K (S.3K): written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review",
+     "second_route": "Skinner 2016 Theorem A as printed, with two open steps for this curve: MS-13.4.1(ii) and MS-B1",
+     "qualification_review": "the Skinner-Urban interface findings and MS-B1 were produced by Claude Fable 5.1 and checked at the SU and Kato texts by Claude Opus 5.5: cross-model, same family, not cross-family audited",
+     "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: ShaThree.shaThreePrimary with fixedPrimeCriterion3, casselsTate_order9, certificate_3, certValuation_3, weights_3, foldedExact_3, pointCount_3, unitRoot_3, nonSplit_3, multiplicative_3 (A5_FULL, 23/23 targets; STRETCH casselsTate_square clean); one proof run, replayed from a fresh copy (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+    },
+    "after": {
+     "coefficients": "663,685,727 prime coefficients independently verified",
+     "symbols": "54 + 54 entries at 81 and 18 + 18 at 27; 72 per sign across both levels, identified in (1/1024)Z",
+     "release_replay": "tools/replay/coefficients_from_symbols.py recomputes this coefficient from the certified symbol table with an independent implementation of the depth-n formula (PASS, 2026-09-23) (exact integers a_{4,0} = 0, a_{4,1} = -54, a_{4,2} = 15480)",
+     "review": "MODEL_SAME_FAMILY (F1 hostile audit; separate R1/R2 hostile review)",
+     "primary_support": "route K (S.3K): written derivation; three Anthropic model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5) and one cross-family source reading (Codex, OpenAI) of D5/D6/D8 with the errata E1–E7, passing at the retained arithmetic-input and imported-theorem grades; not a full certificate replay; no human review",
+     "second_route": "Skinner 2016 Theorem A as printed, with two open steps for this curve: MS-13.4.1(ii) and MS-B1",
+     "qualification_review": "the Skinner-Urban interface findings and MS-B1 were produced by Claude Fable 5.1 and checked at the SU and Kato texts by Claude Opus 5.5: cross-model, same family, not cross-family audited",
+     "formal_check": "Lean 4 v4.28.0, Mathlib v4.28.0: ShaThree.shaThreePrimary with fixedPrimeCriterion3, casselsTate_order9, certificate_3, certValuation_3, weights_3, foldedExact_3, pointCount_3, unitRoot_3, nonSplit_3, multiplicative_3 (A5_FULL, 23/23 targets; STRETCH casselsTate_square clean); one proof run, replayed from a fresh copy (frozen hashes, target types, red-flag scan, independent compile); axioms propext, Classical.choice, Quot.sound"
+    }
+   }
+  },
+  "S.3K": {
+   "evidence": {
+    "before": [
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+      "role": "route K: status, inputs and grades",
+      "sha256": "27ec91eb4dfdd8eaa3ea4f36f576e974e40fd6663098a8fa2677052e7d4ff927",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+      "role": "derivation manifest",
+      "sha256": "ea8d8e6c76c1160bef7e56acd8dccd083a0a4a751ffa36b4a0f08102cf63f783",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+      "role": "route K derivation, D1",
+      "sha256": "6d68565f64f7d0cbfe8384ef6f9f6e69282719f04de2e4936179979116c3d89d",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+      "role": "route K derivation, D2",
+      "sha256": "dc3ed32cb70be05075a9d00d751b9bcb71ccd4cfe9ee7dd8fdff6c130ca7acc6",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+      "role": "route K derivation, D3",
+      "sha256": "0c63d2912859c292e099718aea0603d200b5b578726dc0ed5361d97cea536efc",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+      "role": "route K derivation, D4",
+      "sha256": "19321c0ad7b85f9bab6df0ef66c3767721d60744639e9c259cd2f32e020ad97c",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+      "role": "route K derivation, D5",
+      "sha256": "6973a216957ac185878512832b243293760a1d32fe03f8d774a3402e9d20b3e2",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+      "role": "route K derivation, D6",
+      "sha256": "bf9a66004ab22169a86909ecb5297b5238cea9dd4417ea15b51339e5143e4034",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+      "role": "route K derivation, D7",
+      "sha256": "49bb38cdcb38c36c8fafa1f2d756dcbe55de900818a3cfaac359ac6f2f438641",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+      "role": "route K derivation, D8",
+      "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+      "role": "route K check",
+      "sha256": "53c763fd13fe9643917cdf229f16b1c38e62d66fe7ba0dbb1af57ae115913112",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+      "role": "route K check",
+      "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+      "role": "route K check",
+      "sha256": "b359337afac7312ffcb2c1a10d6b67b6eaba9d423e0c5a78ef2c6c14e2c2f95c",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+      "role": "route K check",
+      "sha256": "380b458fa4c79bc5f154b30192d8ec597dd438b1e72d2952ac0ff39aeefb3562",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+      "role": "route K check",
+      "sha256": "2958f1503301d477c535b94a6ae9e9b81d24834aa066a36f9cbf6c361e77ed7d",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+      "role": "route K check",
+      "sha256": "f65900202e496187606bec0f6ab14e21b27e1691ad2d55ebd0e9d6f59ce0ace0",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+      "role": "errata E1-E7 from the three readings",
+      "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+      "role": "cross-model reading (Fable 5.1), including section 7",
+      "sha256": "d45e78f337cae54fbbeaf0a1c50f5dbc15c23b4c57fe2cd99c69c1a00ea56716",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+      "role": "check manifest",
+      "sha256": "b8aeaa5137a8a7f617f1e4454705b23b5b3488c7c7c801d1397c56e0c914ebe6",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+      "role": "identical replay of the Coleman-family check",
+      "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+      "role": "rank-1 calibration of the regulator convention",
+      "sha256": "900e303cc1cfeb41a6d0d83d78f3af1cc3b5be841965d497a3d03f2cab4be655",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+      "role": "its output, 23/23",
+      "sha256": "e2720412f9946bf63b11da7bec8621a04a19630bd735e499dd14fe57cb14e52d",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+      "role": "second reader A: PASS_WITH_CORRECTIONS",
+      "sha256": "6f1623688312e1fb80fd3358093bcae22fcdfdc03046da3cd104e6cba65aecd0",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+      "role": "reader A manifest",
+      "sha256": "7b8bfb8755f64b6ea2520309526c3e3546c0c2905cd7e2ed7b695846361bbe80",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+      "role": "reader A, T1",
+      "sha256": "e1bb0bc0d86b0647354b67fd19c02da6306eb45fcd739a8b2c52f5ba815cc1b1",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+      "role": "reader A, T2",
+      "sha256": "a2c8cba78889404e73a42972b4d2effcc3598e23d4885896503adab0ee512e22",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+      "role": "reader A, T3",
+      "sha256": "18ec6100f6171c56eea79052ca66b1c7250150f525a20b9af464bc0369815985",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+      "role": "reader A, T4",
+      "sha256": "4647bb95de9f8cecdbb680a7175a658fb2316d97c5ef9c2737918f0639b62394",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+      "role": "reader A, T5",
+      "sha256": "d21ef01ad296b110231430c982b5711de1ebe96bdb97c250fd301d8d9d32b676",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+      "role": "reader A: 3-adic regulator recomputation",
+      "sha256": "2e40179a60e1c5812d9a64e05491a7f9d39a3a80437448bf29b683c10cd55aa3",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+      "role": "its output: v_3(Reg_PARI) = 2",
+      "sha256": "f3b0a60dbd8c610b69d240c31a249209ee6cf2c71db2d1ecb346a696ebb63a9a",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+      "role": "second reader B: PASS_WITH_CORRECTIONS",
+      "sha256": "4a76f3b6c9a11dccc28bf69f969a8198b6633ffe70f9a55fc17e227e265615d0",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+      "role": "reader B manifest",
+      "sha256": "043872b05cb641d7f465b6be9529a286200a6bed04794aa4312e94222f7507c8",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+      "role": "reader B, T1",
+      "sha256": "c954bb364535b42959e61ecad1b599591cd7bb4e9448f7657969327df430f774",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+      "role": "reader B, T2",
+      "sha256": "15fa38061ee12a65e19d28cd75b3d65c48bc47b71e0d0928b31068bb5962f5fe",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+      "role": "reader B, T3",
+      "sha256": "47fa1412c89b109b563db4109a70dcbed38202161c5d09f30da3281490b41f2a",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+      "role": "reader B, T4",
+      "sha256": "dc79c010f510492d4a0cc9b784b24a73f38a8c1b66e5977de5e3d8cc13306dc5",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+      "role": "reader B, T5",
+      "sha256": "16148547702c2fdd6a53926c3ef1835ce40744f2052278c76afd2ee4940f9e41",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+      "role": "rho_3 surjective onto GL_2(Z_3): Elkies criterion",
+      "sha256": "a6d84091b75241f990322bce1c5ebe4060b11dbd7294565e6ad867f4f476ac70",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+      "role": "its computation",
+      "sha256": "3b702ccac0604542255956de2a947624783e4b16a2ab14ad00dba1c4a5781efe",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+      "role": "Kobayashi 2006 at source",
+      "sha256": "945e29b06b3826ede7aa9ed15d22084d11bbf5092f47a5a9f91fc4a6ad79c1d0",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "the certified coefficient a_{4,2} = 15480",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     }
+    ],
+    "after": [
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+      "role": "route K: status, inputs and grades",
+      "sha256": "27ec91eb4dfdd8eaa3ea4f36f576e974e40fd6663098a8fa2677052e7d4ff927",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+      "role": "derivation manifest",
+      "sha256": "ea8d8e6c76c1160bef7e56acd8dccd083a0a4a751ffa36b4a0f08102cf63f783",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+      "role": "route K derivation, D1",
+      "sha256": "6d68565f64f7d0cbfe8384ef6f9f6e69282719f04de2e4936179979116c3d89d",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+      "role": "route K derivation, D2",
+      "sha256": "dc3ed32cb70be05075a9d00d751b9bcb71ccd4cfe9ee7dd8fdff6c130ca7acc6",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+      "role": "route K derivation, D3",
+      "sha256": "0c63d2912859c292e099718aea0603d200b5b578726dc0ed5361d97cea536efc",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+      "role": "route K derivation, D4",
+      "sha256": "19321c0ad7b85f9bab6df0ef66c3767721d60744639e9c259cd2f32e020ad97c",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+      "role": "route K derivation, D5",
+      "sha256": "6973a216957ac185878512832b243293760a1d32fe03f8d774a3402e9d20b3e2",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+      "role": "route K derivation, D6",
+      "sha256": "bf9a66004ab22169a86909ecb5297b5238cea9dd4417ea15b51339e5143e4034",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+      "role": "route K derivation, D7",
+      "sha256": "49bb38cdcb38c36c8fafa1f2d756dcbe55de900818a3cfaac359ac6f2f438641",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+      "role": "route K derivation, D8",
+      "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+      "role": "route K check",
+      "sha256": "53c763fd13fe9643917cdf229f16b1c38e62d66fe7ba0dbb1af57ae115913112",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+      "role": "route K check",
+      "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+      "role": "route K check",
+      "sha256": "b359337afac7312ffcb2c1a10d6b67b6eaba9d423e0c5a78ef2c6c14e2c2f95c",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+      "role": "route K check",
+      "sha256": "380b458fa4c79bc5f154b30192d8ec597dd438b1e72d2952ac0ff39aeefb3562",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+      "role": "route K check",
+      "sha256": "2958f1503301d477c535b94a6ae9e9b81d24834aa066a36f9cbf6c361e77ed7d",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+      "role": "route K check",
+      "sha256": "f65900202e496187606bec0f6ab14e21b27e1691ad2d55ebd0e9d6f59ce0ace0",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+      "role": "errata E1-E7 from the three readings",
+      "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+      "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+      "role": "cross-model reading (Fable 5.1), including section 7",
+      "sha256": "d45e78f337cae54fbbeaf0a1c50f5dbc15c23b4c57fe2cd99c69c1a00ea56716",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+      "role": "check manifest",
+      "sha256": "b8aeaa5137a8a7f617f1e4454705b23b5b3488c7c7c801d1397c56e0c914ebe6",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+      "role": "identical replay of the Coleman-family check",
+      "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+      "role": "rank-1 calibration of the regulator convention",
+      "sha256": "900e303cc1cfeb41a6d0d83d78f3af1cc3b5be841965d497a3d03f2cab4be655",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage"
+     },
+     {
+      "path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+      "role": "its output, 23/23",
+      "sha256": "e2720412f9946bf63b11da7bec8621a04a19630bd735e499dd14fe57cb14e52d",
+      "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+      "role": "second reader A: PASS_WITH_CORRECTIONS",
+      "sha256": "6f1623688312e1fb80fd3358093bcae22fcdfdc03046da3cd104e6cba65aecd0",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+      "role": "reader A manifest",
+      "sha256": "7b8bfb8755f64b6ea2520309526c3e3546c0c2905cd7e2ed7b695846361bbe80",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+      "role": "reader A, T1",
+      "sha256": "e1bb0bc0d86b0647354b67fd19c02da6306eb45fcd739a8b2c52f5ba815cc1b1",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+      "role": "reader A, T2",
+      "sha256": "a2c8cba78889404e73a42972b4d2effcc3598e23d4885896503adab0ee512e22",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+      "role": "reader A, T3",
+      "sha256": "18ec6100f6171c56eea79052ca66b1c7250150f525a20b9af464bc0369815985",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+      "role": "reader A, T4",
+      "sha256": "4647bb95de9f8cecdbb680a7175a658fb2316d97c5ef9c2737918f0639b62394",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+      "role": "reader A, T5",
+      "sha256": "d21ef01ad296b110231430c982b5711de1ebe96bdb97c250fd301d8d9d32b676",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+      "role": "reader A: 3-adic regulator recomputation",
+      "sha256": "2e40179a60e1c5812d9a64e05491a7f9d39a3a80437448bf29b683c10cd55aa3",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+      "role": "its output: v_3(Reg_PARI) = 2",
+      "sha256": "f3b0a60dbd8c610b69d240c31a249209ee6cf2c71db2d1ecb346a696ebb63a9a",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+      "role": "second reader B: PASS_WITH_CORRECTIONS",
+      "sha256": "4a76f3b6c9a11dccc28bf69f969a8198b6633ffe70f9a55fc17e227e265615d0",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+      "role": "reader B manifest",
+      "sha256": "043872b05cb641d7f465b6be9529a286200a6bed04794aa4312e94222f7507c8",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+      "role": "reader B, T1",
+      "sha256": "c954bb364535b42959e61ecad1b599591cd7bb4e9448f7657969327df430f774",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+      "role": "reader B, T2",
+      "sha256": "15fa38061ee12a65e19d28cd75b3d65c48bc47b71e0d0928b31068bb5962f5fe",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+      "role": "reader B, T3",
+      "sha256": "47fa1412c89b109b563db4109a70dcbed38202161c5d09f30da3281490b41f2a",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+      "role": "reader B, T4",
+      "sha256": "dc79c010f510492d4a0cc9b784b24a73f38a8c1b66e5977de5e3d8cc13306dc5",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md"
+     },
+     {
+      "path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+      "role": "reader B, T5",
+      "sha256": "16148547702c2fdd6a53926c3ef1835ce40744f2052278c76afd2ee4940f9e41",
+      "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+      "role": "rho_3 surjective onto GL_2(Z_3): Elkies criterion",
+      "sha256": "a6d84091b75241f990322bce1c5ebe4060b11dbd7294565e6ad867f4f476ac70",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+      "role": "its computation",
+      "sha256": "3b702ccac0604542255956de2a947624783e4b16a2ab14ad00dba1c4a5781efe",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp"
+     },
+     {
+      "path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+      "role": "Kobayashi 2006 at source",
+      "sha256": "945e29b06b3826ede7aa9ed15d22084d11bbf5092f47a5a9f91fc4a6ad79c1d0",
+      "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md",
+      "role": "cross-family source reading of route K: RETURN.md",
+      "sha256": "e85d0f38aa005546dbb2809e01b375b7f96e7fc6648a69e04fd0458d9bf40db6",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256",
+      "role": "cross-family source reading of route K: MANIFEST.sha256",
+      "sha256": "34852504cdb2a68956059d6dcbadf39f077d2f75175ece498cc8c9fc9a78d4bf",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md",
+      "role": "cross-family source reading of route K: ITEM1_ROUTE_K.md",
+      "sha256": "1039e866422ece43b750e9c4b58ad72f02604c83e6eba91ba0e8291d85d1fd20",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md",
+      "role": "cross-family source reading of route K: ITEM1_PRECOMPARISON.md",
+      "sha256": "25dc4bded96cdcafff799625a3bf18e58179f8d4ba96fd9ef2d5817e1c799b33",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md",
+      "role": "cross-family source reading of route K: K_ASTRA_1.md",
+      "sha256": "9eb28a90af1d7b707d508c8c78e65f7351f20d88840a8987d58922f1d8d9943a",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md",
+      "role": "cross-family source reading of route K: ITEM3_RELEASE_WORDING.md",
+      "sha256": "92773910982b8cada926b4afcdc9f112999d2b7fcb93a95d8818c10467c9530c",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md",
+      "role": "cross-family source reading of route K: RECORD_REPAIRS.md",
+      "sha256": "768045414999a686fc355bcab9d89e498d706244a19b97197d97c2bfc0dd7d80",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md",
+      "role": "cross-family source reading of route K: INTEGRITY_AND_SCOPE.md",
+      "sha256": "aedec0f6f2d697a9a36f1563b7601dba4ce051957ae873c7804f5a4bb49ffc7d",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md",
+      "role": "cross-family source reading of route K: ITEM2_UNIFORM_STEP.md",
+      "sha256": "f0da25aad28d1e6beabf35d7581071e651227040f9948c956c3e5add62fd0552",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md",
+      "role": "cross-family source reading of route K: ITEM4_CATCHUP_AND_CONTRADICTIONS.md",
+      "sha256": "d32df52d2625b5ad465f7a58a24c61df9241e2d58346270160c99e82e64506f7",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md",
+      "role": "cross-family source reading of route K: RESUME.md",
+      "sha256": "eebe907a0e34a0d3623e46fea44667093a72b7d04a1e272bf7aa3bc3cfa5145c",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv",
+      "role": "cross-family source reading of route K: SOURCE_BINDINGS.tsv",
+      "sha256": "d14de9533ad005405f0953ff44801160b6eeaf967356d3e2923223f2239b01b4",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp",
+      "role": "cross-family source reading of route K: checks/normalization.gp",
+      "sha256": "42685c8829b93c26a5263a9aa7bc0d85d87a68ae2fa1d18a9a991af7d67e5ef3",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp"
+     },
+     {
+      "path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log",
+      "role": "cross-family source reading of route K: checks/normalization.log",
+      "sha256": "c87f31d6bef6dc8e073c14a09713affd901fb1a2c7f2177e1f84de72ec9fb84b",
+      "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log"
+     },
+     {
+      "path": "evidence/src/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "role": "the certified coefficient a_{4,2} = 15480",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md"
+     }
+    ]
+   },
+   "imports": {
+    "before": [
+     "Kato, Asterisque 295 (2004), read at source: 12.4, 12.5(1), Theorem 13.4(3) via 13.14 (the integral inequality at every height-one prime; H^2_loc = 0 at nonsplit 3), 14.9.3, 16.2-16.3, 17.10 and the 17.13 template; 12.5(4) is printed for V and is not the integral step",
+     "Kobayashi, Doc. Math. Extra Vol. Coates (2006) 567-575, copy read arXiv:math/0610164v1: the mechanics of the Coleman map for the Tate curve; the chi convention is taken from Kato 12.5(1) and Stein-Wuthrich section 3.2 directly, with no involution",
+     "Jones, Duke 59 (1989), Theorem 3.1, forward direction (read at source, author copy; numbering not re-checked against the print)",
+     "Stein-Wuthrich, Math. Comp. 2013, section 3.2 and Prop. 3.5",
+     "the height certificate: v_3 = 0 for the gamma-normalized det<,>_gamma, i.e. with Jones's (log_3 kappa(gamma))^{-r} factor (v_3(log_3 4) = 1); the gamma-free determinant would give only <= 81",
+     "S.3's certified a_{4,2} = 15480 (v_3(a_2) = 2)",
+     "S.3L: #Sha[3] >= 9 (exact computation)",
+     "rho_3 surjective onto GL_2(Z_3): the Elkies criterion (arXiv:math/0612734v1), computed; the completeness facts (RSZB) are SECONDARY"
+    ],
+    "after": [
+     "Kato, Asterisque 295 (2004), read at source: 12.4, 12.5(1), Theorem 13.4(3) via 13.14 (the integral inequality at every height-one prime; H^2_loc = 0 at nonsplit 3), 14.9.3, 16.2-16.3, 17.10 and the 17.13 template; the final length inequality of 12.5(4) is printed for V; its integral containment Z(f,T) in H^1(T) is retained (and used)",
+     "Kobayashi, Doc. Math. Extra Vol. Coates (2006) 567-575, copy read arXiv:math/0610164v1: the mechanics of the Coleman map for the Tate curve; the chi convention is taken from Kato 12.5(1) and Stein-Wuthrich section 3.2 directly, with no involution",
+     "Jones, Duke 59 (1989), Theorem 3.1, forward direction (read at source, author copy; numbering not re-checked against the print)",
+     "Stein-Wuthrich, Math. Comp. 2013, section 3.2 and Prop. 3.5",
+     "the height certificate: v_3 = 0 for the gamma-normalized det<,>_gamma, i.e. with Jones's (log_3 kappa(gamma))^{-r} factor (v_3(log_3 4) = 1); in general v_3(#Sha[3^infinity]) <= 2 - v_3(Reg_gamma) = 4 - v_3(Reg_3), with Reg_3 the gamma-free determinant, whose actual valuation 2 gives <= 9; only a gamma-free valuation of 0 would give <= 81",
+     "S.3's certified a_{4,2} = 15480 (v_3(a_2) = 2)",
+     "S.3L: #Sha[3] >= 9 (exact computation)",
+     "rho_3 surjective onto GL_2(Z_3): the Elkies criterion (arXiv:math/0612734v1), computed; the completeness facts (RSZB) are SECONDARY"
+    ]
+   },
+   "verification": {
+    "before": {
+     "grade_label": "written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review",
+     "review": "MODEL_SAME_FAMILY: written by Claude Opus 5.5; read by Claude Fable 5.1 (cross-model; CONFIRMED_WITH_QUALIFICATIONS, with its section 7 after the second readers) and by two independent fresh Claude Opus 5.5 sessions (PASS_WITH_CORRECTIONS each; 19/19 and 17/17 items); all Anthropic models, not cross-family; no human review",
+     "errata": "E1-E7 of R25_ERRATA_2026-09-29.md applied: the integral step is Kato 13.4(3) via 13.14; the chi convention comes from Kato 12.5(1) and SW section 3.2; Kato's L_p is the SW series shifted by kappa; the certificate is read for det<,>_gamma; the Manin-constant step is not needed; none changes the bound",
+     "regulator": "v_3(Reg_PARI) = 2 on the minimal model with a 3-saturated basis at precisions 8, 11 and 14 (a second reader's recomputation; SECONDARY), so v_3(Reg_gamma) = 0; a 23/23 rank-1 calibration pins the convention",
+     "checks": "the Coleman-family check replays identically; bookkeeping calibration on 289 rank-0 and 23 rank-1 curves with 3 || N and a_3 = -1 (consistency only)"
+    },
+    "after": {
+     "grade_label": "written derivation; three Anthropic model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5) and one cross-family source reading (Codex, OpenAI) of D5/D6/D8 with the errata E1–E7, passing at the retained arithmetic-input and imported-theorem grades; not a full certificate replay; no human review",
+     "review": "MODEL_CROSS_FAMILY: written by Claude Opus 5.5; read by Claude Fable 5.1 (cross-model; CONFIRMED_WITH_QUALIFICATIONS, with its section 7 after the second readers), by two independent fresh Claude Opus 5.5 sessions (PASS_WITH_CORRECTIONS each; 19/19 and 17/17 items), and in one cross-family source reading by Codex (OpenAI) of D5, D6 and D8 with E1-E7 (ITEM_1 PASS_AT_RETAINED_INPUT_GRADE; K_ASTRA_1 PASSED); not a full certificate replay; no human review",
+     "errata": "E1-E7 of R25_ERRATA_2026-09-29.md applied: the integral step is Kato 13.4(3) via 13.14; the chi convention comes from Kato 12.5(1) and SW section 3.2; Kato's L_p is the SW series shifted by kappa; the certificate is read for det<,>_gamma; the Manin-constant step is not needed; none changes the bound",
+     "regulator": "v_3(Reg_PARI) = 2 on the minimal model with a 3-saturated basis at precisions 8, 11 and 14 (a second reader's recomputation; SECONDARY), so v_3(Reg_gamma) = 0; a 23/23 rank-1 calibration pins the convention; the cross-family reading's fresh PARI check reproduces v_3(Reg_3) = 2 and v_3(Reg_gamma) = 0",
+     "checks": "the Coleman-family check replays identically; bookkeeping calibration on 289 rank-0 and 23 rank-1 curves with 3 || N and a_3 = -1 (consistency only)"
+    }
+   },
+   "qualifications": {
+    "before": [
+     "Grade: written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review.",
+     "Inputs carried as stated: rho_3 surjective (computed), the height certificate, the a_{4,2} certificate, Jones Theorem 3.1 (author copy), S.3L. Textbook inputs (Tate local duality and Euler characteristic, Nakayama-Rim) are SECONDARY.",
+     "Route K uses no Skinner 2016, Skinner-Urban, Hida family, GRH or Cassels-Tate pairing computation.",
+     "Not formalized in Lean."
+    ],
+    "after": [
+     "Grade: written derivation; three Anthropic model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5) and one cross-family source reading (Codex, OpenAI) of D5/D6/D8 with the errata E1–E7, passing at the retained arithmetic-input and imported-theorem grades; not a full certificate replay; no human review.",
+     "Inputs carried as stated: rho_3 surjective (computed), the height certificate, the a_{4,2} certificate, Jones Theorem 3.1 (author copy), S.3L. Textbook inputs (Tate local duality and Euler characteristic, Nakayama-Rim) are SECONDARY.",
+     "Route K uses no Skinner 2016, Skinner-Urban, Hida family, GRH or Cassels-Tate pairing computation.",
+     "Not formalized in Lean."
+    ]
+   },
+   "post_master": {
+    "before": "New since the master record (2026-09-29).",
+    "after": "New since the master record (2026-09-29; the cross-family source reading was added on 2026-09-30)."
+   }
+  }
+ },
+ "text_edits": {
+  "paper/sections/04_primary.tex": [
+   {
+    "old": "\\begin{theorem}[\\cid{S.3K}; written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no human review]\\label{thm:routek}",
+    "new": "\\begin{theorem}[\\cid{S.3K}; written derivation; three Anthropic model readers (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5) and one cross-family source reading (Codex, OpenAI) of D5/D6/D8 with the errata E1--E7, passing at the retained arithmetic-input and imported-theorem grades; not a full certificate replay; no human review]\\label{thm:routek}"
+   },
+   {
+    "old": "$\\mathrm{Col}$ sends Kato's zeta element to $L_3$; in particular $L_3\\in\\Lambda$.",
+    "new": "$\\mathrm{Col}$ sends Kato's zeta element to $L_3$, the Stein--Wuthrich series for a fixed period and lattice generator. Kato's own $L_{p\\text{-adic},\\alpha}$ is this series shifted by the cyclotomic character $\\kappa$ (a Tate twist: it is evaluated at $\\kappa\\chi$ where $L_3$ is evaluated at $\\chi$), not related to it by an involution, and the comparison with the series of the certificate holds up to a specified $3$-adic unit. In particular $L_3\\in\\Lambda$."
+   },
+   {
+    "old": "For the $\\gamma$-free determinant, whose valuation is $2$, the chain would give only $\\#\\Sha[3^\\infty]\\le81$.",
+    "new": "In general $\\ord_3\\#\\Sha[3^\\infty]\\le2-\\ord_3\\Reg_\\gamma=4-\\ord_3\\Reg_3$, where $\\Reg_3$ is the $\\gamma$-free determinant. The $\\gamma$-free determinant has valuation $2$; division by $(\\log_3\\kappa(\\gamma))^2$ gives normalized valuation $0$. If only valuation $0$ for the $\\gamma$-free determinant had been established, the resulting bound would be $81$ rather than $9$."
+   }
+  ],
+  "paper/sections/01_intro.tex": [
+   {
+    "old": "a written derivation read by three model readers but not by a human referee)",
+    "new": "a written derivation read by three Anthropic model readers and in one cross-family source reading, but not by a human referee)"
+   }
+  ],
+  "README.md": [
+   {
+    "old": "read by three model readers, not cross-family, no human review;",
+    "new": "read by three Anthropic model readers and in one cross-family source reading (Codex, OpenAI) at the retained input grades; not a full certificate replay; no human review;"
+   }
+  ],
+  "RECHECK_V0_2_5.md": [
+   {
+    "old": "   GRH input. Grade label: written derivation; three model readers (one cross-model: Fable 5.1; two independent fresh\n   sessions: Opus 5.5); all Anthropic models, not cross-family; no human review.",
+    "new": "   GRH input. Grade label at that commit (updated in the K2 addendum below): written derivation; three model readers\n   (one cross-model: Fable 5.1; two independent fresh sessions: Opus 5.5); all Anthropic models, not cross-family; no\n   human review."
+   },
+   {
+    "old": "     v₃ = 0 for the γ-normalized det⟨,⟩_γ (Jones's (log₃κ(γ))^{−r}; v₃(log₃4) = 1). The γ-free determinant has v₃ = 2 and\n     would give only ≤ 81.",
+    "new": "     v₃ = 0 for the γ-normalized det⟨,⟩_γ (Jones's (log₃κ(γ))^{−r}; v₃(log₃4) = 1). In general\n     v₃(#Sha[3^∞]) ≤ 2 − v₃(Reg_γ) = 4 − v₃(Reg₃). The γ-free determinant Reg₃ has v₃ = 2, which gives ≤ 9; only a\n     γ-free valuation of 0 would give ≤ 81."
+   },
+   {
+    "old": "3. **E1 citation fix.** Every citation of 12.5(4) as the integral step now reads Kato 13.4(3) via 13.14; 12.5(4) is printed for V.",
+    "new": "3. **E1 citation fix.** Every citation of 12.5(4) as the integral step now reads Kato 13.4(3) via 13.14; the final length inequality of 12.5(4) is printed for V, and its integral containment Z(f,T) ⊂ H¹(T) is retained (and used)."
+   },
+   {
+    "old": "- an integral citation of 12.5(4) reintroduced (in the spec, and in the paper); 12.5(4) is printed for V;",
+    "new": "- an integral citation of 12.5(4) reintroduced (in the spec, and in the paper); the final length inequality of 12.5(4) is printed for V;"
+   },
+   {
+    "old": "**Open.** FIN, ORDER9 and Q36 remain open.",
+    "new": "## K2 addendum (cross-family reading of route K; content and stamp commits on `v0.2.5-bank`)\n\nA cross-family source reading of route K (Codex, OpenAI) read D5, D6 and D8 with the errata E1–E7. Its verdicts:\nITEM_1 PASS_AT_RETAINED_INPUT_GRADE (all four questions); K_ASTRA_1 PASSED (no hidden factor 3 or regulator factor 9);\nITEM_3 CONFIRMED_WITH_CORRECTIONS. A fresh PARI check reproduces v₃(Reg₃) = 2 and v₃(Reg_γ) = 0. The bound\n#Sha[3^∞] ≤ 9 is unchanged. Carried into the release:\n1. **The regulator sentence.** In general v₃(#Sha[3^∞]) ≤ 2 − v₃(Reg_γ) = 4 − v₃(Reg₃), where Reg₃ is the γ-free\n   determinant. Its actual valuation 2 gives ≤ 9, and only a γ-free valuation of 0 would give ≤ 81. The earlier\n   sentence, which assigned ≤ 81 to the actual valuation 2, is replaced in §4 of the paper, in S.3K's imports and in the\n   route-K addendum above.\n2. **12.5(4).** Everywhere outward: the final length inequality of 12.5(4) is printed for V; its integral containment Z(f,T) ⊂ H¹(T) is retained (and used).\n3. **The S.3K label (user-approved update):** \"written derivation; three Anthropic model readers (one cross-model:\n   Fable 5.1; two independent fresh sessions: Opus 5.5) and one cross-family source reading (Codex, OpenAI) of D5/D6/D8\n   with the errata E1–E7, passing at the retained arithmetic-input and imported-theorem grades; not a full certificate\n   replay; no human review\". It is used in S.3K, in S.3's primary support and in the paper. Nothing is upgraded to\n   human-reviewed, recomputed or formalized.\n4. **Col(z) = L₃.** The paper now states the dictionary (E3): L₃ is the Stein–Wuthrich series for a fixed period and\n   lattice generator. Kato's own L_{p-adic,α} is that series shifted by the cyclotomic character κ (a Tate twist), not\n   related to it by an involution, and the comparison with the certificate's series holds up to a specified 3-adic unit.\n\n**Evidence.**\n- Codex's return: its 13 own files and its MANIFEST are appended byte-identical through\n  `tools/build_evidence_transition.py` (`review/V025K2_EVIDENCE_ADDITIONS.json`; log\n  `review/V025K2_EVIDENCE_TRANSITION.json`).\n- Its 12 `source_checks/` files are bound by path and sha256 only (`review/V025K2_APPLIED.json` → governing_files),\n  following the release's rule of citing and hashing, not redistributing, third-party publications: one text\n  extraction of Jones 1989, and rendered pages of Jones's and Kato's printed text.\n- All earlier rows, exclusions and redactions are preserved, with the same five retained source changes.\n\n**Bindings.**\n- The record for this step is `review/V025K2_APPLIED.json`. The v0.2.5 and route-K records are unchanged.\n- `tools/verify_patch_release.py` now delegates to `tools/verify_v025k2_transition.py`. It reconstructs the `9828eae`\n  tree exactly and runs that tree's checker unchanged (route K, then v0.2.5, and so on back). It then checks this delta\n  exactly and fixes, in the checker itself:\n  - the new label;\n  - the regulator relation;\n  - the wording on the final length inequality of 12.5(4);\n  - the κ-shift dictionary;\n  - the required Codex evidence.\n\nIts `--negative-controls` include:\n- the old ≤ 81 sentence restored (in the paper, and in the spec);\n- the label without its cross-family clause;\n- a dropped Codex evidence file;\n- the shorter 12.5(4) wording restored in place of \"the final length inequality of 12.5(4) is printed for V\";\n- the standard corruptions.\n\n**Stamp.** A second commit sets `SOURCE_SNAPSHOT.json` to the K2 content commit and rebinds the manifest and the record.\n\n**Open.** FIN, ORDER9 and Q36 remain open."
+   }
+  ],
+  "tools/verify_patch_release.py": [
+   {
+    "old": "R = Path(__file__).resolve().parent.parent\nif (R / 'review/V025K_ROUTEK_APPLIED.json').exists():",
+    "new": "R = Path(__file__).resolve().parent.parent\nif (R / 'review/V025K2_APPLIED.json').exists():\n    # v0.2.5 K2: reconstruct the route-K tree (9828eae) exactly and run ITS checker unchanged there (which in turn\n    # reconstructs the earlier trees and runs their checkers), then check the K2 delta. See tools/verify_v025k2_transition.py.\n    _r = subprocess.run([sys.executable, '-B', str(R / 'tools/verify_v025k2_transition.py')])\n    if _r.returncode != 0:\n        raise SystemExit('FAIL: v0.2.5 K2 transition check')\n    print('PATCH_RECHECK_PASS: no new mathematical or large numerical replay claimed')\n    raise SystemExit(0)\nif (R / 'review/V025K_ROUTEK_APPLIED.json').exists():"
+   }
+  ]
+ },
+ "extra_evidence_append": "# v0.2.5 K2: the cross-family source reading of route K; see review/V025K2_EVIDENCE_ADDITIONS.json\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp\n/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log\n",
+ "evidence": {
+  "declared": {
+   "path": "review/V025K2_EVIDENCE_ADDITIONS.json",
+   "sha256": "1c756b8d0bef23731423205d9d3a55b34797a6a4cc37c561e10fbe8e2d760d3b"
+  },
+  "transition_log": {
+   "path": "review/V025K2_EVIDENCE_TRANSITION.json",
+   "sha256": "3cf2fb38cd18aa2ccd26c7f645612bc5d66baf22d2714c8d5d089c32d978f853"
+  },
+  "retained_source_changes": {
+   "path": "review/V025_RETAINED_SOURCE_CHANGES.json",
+   "sha256": "ee73b73df798dbe3eb980deac337ee960a175bebf1d67c24bf5faf8628ead4a4"
+  },
+  "tool": "tools/build_evidence_transition.py (unchanged since the v0.2.5 bank commit); baseline = the route-K tables"
+ },
+ "governing_files": {
+  "codex_admitted": [
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md",
+    "sha256": "aedec0f6f2d697a9a36f1563b7601dba4ce051957ae873c7804f5a4bb49ffc7d"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md",
+    "sha256": "25dc4bded96cdcafff799625a3bf18e58179f8d4ba96fd9ef2d5817e1c799b33"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md",
+    "sha256": "1039e866422ece43b750e9c4b58ad72f02604c83e6eba91ba0e8291d85d1fd20"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md",
+    "sha256": "f0da25aad28d1e6beabf35d7581071e651227040f9948c956c3e5add62fd0552"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md",
+    "sha256": "92773910982b8cada926b4afcdc9f112999d2b7fcb93a95d8818c10467c9530c"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md",
+    "sha256": "d32df52d2625b5ad465f7a58a24c61df9241e2d58346270160c99e82e64506f7"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md",
+    "sha256": "9eb28a90af1d7b707d508c8c78e65f7351f20d88840a8987d58922f1d8d9943a"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256",
+    "sha256": "34852504cdb2a68956059d6dcbadf39f077d2f75175ece498cc8c9fc9a78d4bf"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md",
+    "sha256": "768045414999a686fc355bcab9d89e498d706244a19b97197d97c2bfc0dd7d80"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md",
+    "sha256": "eebe907a0e34a0d3623e46fea44667093a72b7d04a1e272bf7aa3bc3cfa5145c"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md",
+    "sha256": "e85d0f38aa005546dbb2809e01b375b7f96e7fc6648a69e04fd0458d9bf40db6"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv",
+    "sha256": "d14de9533ad005405f0953ff44801160b6eeaf967356d3e2923223f2239b01b4"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp",
+    "sha256": "42685c8829b93c26a5263a9aa7bc0d85d87a68ae2fa1d18a9a991af7d67e5ef3"
+   },
+   {
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log",
+    "release_path": "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log",
+    "sha256": "c87f31d6bef6dc8e073c14a09713affd901fb1a2c7f2177e1f84de72ec9fb84b"
+   }
+  ],
+  "codex_third_party_hash_only": [
+   {
+    "name": "source_checks/jones_extraction.txt",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_extraction.txt",
+    "sha256": "8489209ae907c5a7118c01857e40caf1678004b7d759f041d45f47d98a632340",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_1.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_1.png",
+    "sha256": "826136e7bbbc4fc075c1cbb533bf4bab51231dd152a34803b0eb6ae523a883bd",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_17.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_17.png",
+    "sha256": "63c0740c7d6709483de40806ee5921c5b41862002b725e40d76e80be99777b0c",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_18.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_18.png",
+    "sha256": "24f07e0c97332c4bb3cbfbfd186a85537a9c750eacea79eff9122b9a40c95f3f",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_2.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_2.png",
+    "sha256": "c1091e3ed7a6b3d5c9afdc6cc156acaa7bec75c28aca123cad29600493a4dfcb",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_3.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_3.png",
+    "sha256": "9d1d637db93eec3da3f7e1db1f2e0062270a6260be7267c2344ea353fc2a416f",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_4.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_4.png",
+    "sha256": "759d6bcabb48c460dcb53dc2c4eee6da7051c2a19a5d738b39bc875457781a1e",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_5.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_5.png",
+    "sha256": "4c59277de8608f53f97961d64feac2e023d66c86c042c1bade0bfd7698aa0652",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/jones_printed_6.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/jones_printed_6.png",
+    "sha256": "b62154b50f348a7aab8f17f279f34df2c1386e98e5626d49be286202f797fef8",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/kato_printed_221.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/kato_printed_221.png",
+    "sha256": "7290611296c6e788933776add8b12531bb3dd94b094f5f3db953ce3b265aa359",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/kato_printed_226.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/kato_printed_226.png",
+    "sha256": "e2c98ec9479f95f8b77aeeceeec503b58796c13df1675959f9bbe0c02cb84bf4",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   },
+   {
+    "name": "source_checks/kato_printed_277.png",
+    "original_path": "/Users/bsm/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/source_checks/kato_printed_277.png",
+    "sha256": "a9ee5b183a11780cf4da084fded6792f3561ddb9d5de3afcf8462faf61e5db5b",
+    "note": "third-party publication material (a text extraction of Jones 1989, or a rendered page of Jones or Kato); bound by path and sha256 only, not redistributed (user decision, 2026-09-30)"
+   }
+  ],
+  "task": [
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_K2_TASK_2026-09-30/TASK.md",
+    "sha256": "3fd0f397d039e65ff9578b9faafeec2a846e97c759a2e17757b8cf065bdb7d50"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_K2_TASK_2026-09-30/MANIFEST.sha256",
+    "sha256": "65c94018f9e0d202edd93bd69f45811ca5f612f0f7b61e7f4c1cfa8cad851b8b"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_K2_TASK_2026-09-30/inputs/CODEX_ITEM1_ROUTE_K.md",
+    "sha256": "1039e866422ece43b750e9c4b58ad72f02604c83e6eba91ba0e8291d85d1fd20"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_K2_TASK_2026-09-30/inputs/CODEX_ITEM3_RELEASE_WORDING.md",
+    "sha256": "92773910982b8cada926b4afcdc9f112999d2b7fcb93a95d8818c10467c9530c"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_K2_TASK_2026-09-30/inputs/CODEX_RECORD_REPAIRS.md",
+    "sha256": "768045414999a686fc355bcab9d89e498d706244a19b97197d97c2bfc0dd7d80"
+   },
+   {
+    "path": "/Users/bsm/BSD_SEED_V025_BANK_K2_TASK_2026-09-30/inputs/CODEX_RETURN.md",
+    "sha256": "e85d0f38aa005546dbb2809e01b375b7f96e7fc6648a69e04fd0458d9bf40db6"
+   }
+  ]
+ },
+ "current_bindings": {
+  "README.md": "8d44e5cf3f9aac4b04d81543b45c3dc504bd5c1620be1dd3b10cbe413b1bada3",
+  "RECHECK_V0_2_5.md": "75e2b63fd076b2f312737e2a0a2475c836d15462a0c5e7eb858900b630cd71ca",
+  "SOURCE_SNAPSHOT.json": "de94d6a4d7bdc5eb4bb3950c729a4d910b559ac3a3405ccb2f2b8d96b0e1a100",
+  "claims/CLAIM_INDEX.md": "aa9033d0da90ee10a96aac1d94267cf51f5ff177bf7ffdb5afe63f3fd650580c",
+  "claims/claims.json": "a2f6130719acf1ecb712b8a164cd2c8a315df792a010effbc4a508cd4079dba8",
+  "claims/spec/common.py": "3ff9e8523462453afe75c531322aeb55d759ae076215f662c1a8c4df8227f4b6",
+  "claims/spec/part1_core.py": "f65207e43b469797e9fe712dc17bb3a6547954b58a9545245c10e897ed093c31",
+  "evidence/PROVENANCE.tsv": "a7f865b3a5919a91642965264e92056106870e5369e158a9881e8f426290cfe0",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/INTEGRITY_AND_SCOPE.md": "aedec0f6f2d697a9a36f1563b7601dba4ce051957ae873c7804f5a4bb49ffc7d",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_PRECOMPARISON.md": "25dc4bded96cdcafff799625a3bf18e58179f8d4ba96fd9ef2d5817e1c799b33",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM1_ROUTE_K.md": "1039e866422ece43b750e9c4b58ad72f02604c83e6eba91ba0e8291d85d1fd20",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM2_UNIFORM_STEP.md": "f0da25aad28d1e6beabf35d7581071e651227040f9948c956c3e5add62fd0552",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM3_RELEASE_WORDING.md": "92773910982b8cada926b4afcdc9f112999d2b7fcb93a95d8818c10467c9530c",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/ITEM4_CATCHUP_AND_CONTRADICTIONS.md": "d32df52d2625b5ad465f7a58a24c61df9241e2d58346270160c99e82e64506f7",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/K_ASTRA_1.md": "9eb28a90af1d7b707d508c8c78e65f7351f20d88840a8987d58922f1d8d9943a",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/MANIFEST.sha256": "34852504cdb2a68956059d6dcbadf39f077d2f75175ece498cc8c9fc9a78d4bf",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RECORD_REPAIRS.md": "768045414999a686fc355bcab9d89e498d706244a19b97197d97c2bfc0dd7d80",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RESUME.md": "eebe907a0e34a0d3623e46fea44667093a72b7d04a1e272bf7aa3bc3cfa5145c",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/RETURN.md": "e85d0f38aa005546dbb2809e01b375b7f96e7fc6648a69e04fd0458d9bf40db6",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/SOURCE_BINDINGS.tsv": "d14de9533ad005405f0953ff44801160b6eeaf967356d3e2923223f2239b01b4",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.gp": "42685c8829b93c26a5263a9aa7bc0d85d87a68ae2fa1d18a9a991af7d67e5ef3",
+  "evidence/src/BSD_ASTRA_CATCHUP_RETURN_2026-09-30/checks/normalization.log": "c87f31d6bef6dc8e073c14a09713affd901fb1a2c7f2177e1f84de72ec9fb84b",
+  "paper/sections/01_intro.tex": "623949f53f3ef1a3194c280fa25c9c9e6db542be049c3800200374662914e249",
+  "paper/sections/04_primary.tex": "3a2646ea83f18d03058ebc6f81697cf3c0e02ed0f0f43f3f4a3d9405baa1ba9a",
+  "paper/seed_bsd.pdf": "9ae05ea71f0c88a61e25e132ec70da9d38dce92cbdfdaadd8d7fc431e183d41c",
+  "review/SYNTHESIS_CHECK_BRIEF.md": "d42309536fe6c3a85a8004aeb8a58fc77849d01c42016ef877b7cb2250707ff0",
+  "review/V025K2_EVIDENCE_ADDITIONS.json": "1c756b8d0bef23731423205d9d3a55b34797a6a4cc37c561e10fbe8e2d760d3b",
+  "review/V025K2_EVIDENCE_TRANSITION.json": "3cf2fb38cd18aa2ccd26c7f645612bc5d66baf22d2714c8d5d089c32d978f853",
+  "review/history/v0.2.5k/MANIFEST.sha256": "e2354103eed53cbfdfd7b3be7db4f00fac9cae69756be18173f50a8c7d3b6fc7",
+  "review/history/v0.2.5k/README.md": "ee490a468be40b2eca1a80098c909525644f25af4d28fb2feddcb1a3adca9fa6",
+  "review/history/v0.2.5k/RECHECK_V0_2_5.md": "6be1bbb19b72e48c485cdfc7955611da2d2181e881a8aab064125ff8d1f99df0",
+  "review/history/v0.2.5k/SOURCE_SNAPSHOT.json": "aceeb19edec1007b787da5c2f8a71f8d74cd72560b13241bf83a9f8a29af81c2",
+  "review/history/v0.2.5k/claims/CLAIM_INDEX.md": "4e2b0cfa5595fe3478b52547fbcd5cde7f95f01af3245a23c187b42fe24a6c69",
+  "review/history/v0.2.5k/claims/claims.json": "89131b10a607af6c79c95467e204ffd1190b52585cd4acdba8d048fe4d0da969",
+  "review/history/v0.2.5k/claims/spec/common.py": "b35c45c14dfdc617b87e446e36e0cf601c55ec7dcc7392b3aaa5d48b6eea588a",
+  "review/history/v0.2.5k/claims/spec/part1_core.py": "4e5abab3ea0b0abe9590ad8575f9204d5e97f27e0bb6e0140769d0e8d0c33241",
+  "review/history/v0.2.5k/evidence/EXCLUDED.tsv": "4a799c7843507fe16a4b985929b34e85bb459d0c51c0d4e914044ae6f9a06ad5",
+  "review/history/v0.2.5k/evidence/PROVENANCE.tsv": "f539a3ca41ceb5f3c317d192b6cfe27e31e1030e7974f99490b8f25cfddc15bf",
+  "review/history/v0.2.5k/evidence/REDACTIONS.tsv": "4ec83e3f907f48ea3fee1e6012af7b74ae0436c3d678ca144d2d840f56a51694",
+  "review/history/v0.2.5k/paper/sections/01_intro.tex": "fc0281d0055726cc74dd7cea73dfc061b66839e61238ca59f08b3c3a7b0cddd7",
+  "review/history/v0.2.5k/paper/sections/04_primary.tex": "db931ce742d5bf06ca6ea734648c241e74d23b51ab778981314dbb350c12a81b",
+  "review/history/v0.2.5k/paper/seed_bsd.pdf": "19f1c5043e6d9aa912a4416b762aa5930796d366ca3f2512ba43b0f4646bc917",
+  "review/history/v0.2.5k/review/SYNTHESIS_CHECK_BRIEF.md": "65f9c6743ded74074fc05e1f9db3d192c3399b63e1664c669b76c7cbf43e422e",
+  "review/history/v0.2.5k/tools/extra_evidence.txt": "80a6c7b9cf69a31291f111541cd19b059f9138105e22012a43430e8042cf1a35",
+  "review/history/v0.2.5k/tools/verify_patch_release.py": "d7a61908165f915ca4d31704ff66eadb4e1c106e3f3a6643a4ea17c39f97a0dd",
+  "tools/extra_evidence.txt": "226500f5995b49f7d07a479aba99884958259e8f0ec9a1bb73910a2a7e7cdf83",
+  "tools/verify_patch_release.py": "553736173ebe536a3a593310d6fa620e0571e1b9f5b6f9ab7b5da6f23508ec40",
+  "tools/verify_v025k2_transition.py": "95782dce9db48478541bf9c85e9b5f5befd34af2f867e35cb1fd7fde5b31779a"
+ },
+ "prev_manifest": {
+  "path": "review/history/v0.2.5k/MANIFEST.sha256",
+  "sha256": "e2354103eed53cbfdfd7b3be7db4f00fac9cae69756be18173f50a8c7d3b6fc7"
+ },
+ "prev_checker_sha256": "d7a61908165f915ca4d31704ff66eadb4e1c106e3f3a6643a4ea17c39f97a0dd",
+ "verifier": "tools/verify_v025k2_transition.py"
+}

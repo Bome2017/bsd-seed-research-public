@@ -1,0 +1,11 @@
+# Sealed experiment: extra regulator divisibility on rank-two controls
+Question: does a positive normalized ordinary height-determinant valuation coincide with the same increase in the independently computed quadratic modular-symbol coefficient, or is there additional numerator content?
+This is a control experiment for the seed target v_p(L2)-v_p(det H)<=1, not a seed computation or a proof of BSD.
+
+Fixed panel: 389a1, 433a1, 655a1, 664a1, 1615a1, with explicit equations and retained point pairs from the October 7 experiment. These have retained analytic Sha prediction 1. That prediction is not used to compute either side.
+Stage 1: compute ordinary regulator valuations at good, non-anomalous primes 5<=p<=101, precision 7. Baseline is valuation 2 in the analytic s coordinate. Record every admitted row, including zeros unresolved at precision.
+Stage 2: sort rows with valuation>2 by p then conductor; choose the first three. If a selected numerator is too costly, save timeout and move to the next row, at most five attempts. Also choose one smallest admitted prime with regulator valuation 2 on each represented curve. At most six successful numerator evaluations in this first experiment.
+Compute numerator independently via PARI modular symbols/mspadicmoments/mspadicL second derivative, initial moment precision 5 (increase if necessary), not by a BSD formula or ratio. Compare valuations after dividing by 2! and log(1+p)^2; use the same coordinate for heights. Explicitly retain Euler factors and Tamagawa/torsion corrections for any unit-level comparison.
+Predicted pattern to try to break: corrected excess is zero on all these controls, including exceptional-regulator rows. Predefine outcomes MATCHED_EXTRA_DIVISIBILITY, EXTRA_NUMERATOR_CONTENT, NEGATIVE_DIFFERENCE_REQUIRES_NORMALIZATION_AUDIT, or INSUFFICIENT_PRECISION. No finite sample establishes uniformity.
+Checks: repeat selected rows with higher precision; independently recover one coefficient from exact denominator-p^n modular symbols if feasible; verify source conventions against the installed primary manual. Do not compute a seed Sha or claim new prime coverage.
+Resources: one process at a time, each call bounded, no agents or paid jobs. Save results as each row completes.

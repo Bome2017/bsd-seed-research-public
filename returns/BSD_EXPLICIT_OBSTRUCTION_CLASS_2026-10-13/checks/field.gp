@@ -1,0 +1,1 @@
+{bn=bnfinit(x^2-x-10934); print("FIELD ",[bn.pol,bn.no,bn.cyc,bn.gen,bn.fu,bn.tu]);print("CERT ",bnfcertify(bn));pr=idealprimedec(bn,11);print("P11 ",pr);for(i=1,#pr,print("PCLASS ",bnfisprincipal(bn,pr[i])));gg=bn.gen[1];print("GEN_POWER ",bnfisprincipal(bn,idealpow(bn,gg,20)));print("DONE");}

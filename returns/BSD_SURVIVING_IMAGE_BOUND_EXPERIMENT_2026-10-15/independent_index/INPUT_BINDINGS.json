@@ -1,0 +1,32 @@
+[
+  {
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/data.gp",
+    "copy": "inputs/A_data.gp",
+    "sha256": "5e0bca36fcb33d1038150080cc13ffef0002a7b456a79453e601b4ce5570bd2a"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/bnf.bin",
+    "copy": "inputs/A_bnf.bin",
+    "sha256": "d9cf79e6aa05fbdd04a13f802c9497eec6b777010b1a5f79f2e193d666045552"
+  },
+  {
+    "source": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/run.out",
+    "copy": "inputs/A_certification.out",
+    "sha256": "37d5fb2eeb7ac142f0c7ba2f005a0c5c6bbd290274aa81bbd46557d84137fcbd"
+  },
+  {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/bnf.bin",
+    "copy": "inputs/B_bnf.bin",
+    "sha256": "948bda03fd1bd63beea60a1eee1ae6a7f708770f6531352de0b448a28da97022"
+  },
+  {
+    "source": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_EXPERIMENT_2026-10-13/search/mirror389/scan.out",
+    "copy": "inputs/B_certification.out",
+    "sha256": "3ef3c0b82bbcbd6a95893e1dbd517f56937b49c15874aff60997adecf3e35966"
+  },
+  {
+    "source": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/reviewer/INCIDENCE_NORM_REVIEW.md",
+    "copy": "inputs/ordinary_index_proof.md",
+    "sha256": "e34b123a72819cd5f3568eb513d4d418b66817ba4207b7ec3adeb130a2922fe3"
+  }
+]

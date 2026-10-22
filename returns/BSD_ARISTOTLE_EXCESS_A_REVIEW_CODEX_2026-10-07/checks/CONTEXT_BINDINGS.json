@@ -1,0 +1,51 @@
+[
+  {
+    "output": "context/D23_RESULT.md",
+    "archive": "COMPLETE_READING_SET.zip",
+    "member": "BSD_SEED_ARISTOTLE_2026-10-05/working_set/repo/evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/RESULT.md",
+    "sha256": "66354605f2d7fbb8211c47b1bc0651a30e4d58b6b8cf6e37446dc2cb730419a8",
+    "matches_current_original": true
+  },
+  {
+    "output": "context/D23_PROOF.md",
+    "archive": "COMPLETE_READING_SET.zip",
+    "member": "BSD_SEED_ARISTOTLE_2026-10-05/working_set/repo/evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/PROOF.md",
+    "sha256": "e45c4f9a2709c4ee38a48e4c44f4a6b5f7a22db77d5f80f7892e1890a43fcc49",
+    "matches_current_original": true
+  },
+  {
+    "output": "context/D23_EXACT_TWIST_INPUTS.json",
+    "archive": "COMPLETE_READING_SET.zip",
+    "member": "BSD_SEED_ARISTOTLE_2026-10-05/working_set/repo/evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/EXACT_TWIST_INPUTS.json",
+    "sha256": "9399f314b971de4b48aa51b7dc236aea1fff7fbffca0e9ddc1854fede3cacb73",
+    "matches_current_original": true
+  },
+  {
+    "output": "context/D23_COMPLETION_REVIEW.json",
+    "archive": "COMPLETE_READING_SET.zip",
+    "member": "BSD_SEED_ARISTOTLE_2026-10-05/working_set/repo/evidence/src/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/COMPLETION_REVIEW.json",
+    "sha256": "50f2a997857dfec5f4698a762b78b41b1945210e2de2c21d67df5a355c972dea",
+    "matches_current_original": true
+  },
+  {
+    "output": "context/D23_HISTORICAL_COVERAGE_REVIEW.md",
+    "archive": "COMPLETE_READING_SET.zip",
+    "member": "BSD_SEED_ARISTOTLE_2026-10-05/working_set/repo/evidence/src/BSD_TWIST_D23_CERTIFICATE_2026-09-21/CERTIFICATE_CONFIRMED_AND_COVERAGE.md",
+    "sha256": "91a5e411c5476cd9d88094b971bb08944e46071f6c15618814b63f7e6621fe21"
+  },
+  {
+    "output": "context/SUBMITTED_TASK.md",
+    "source": "/Users/bsm/BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/build_release/BSD_ARISTOTLE_EXCESS_CONTROL_A_2026-10-06/project/TASK.md",
+    "sha256": "e473b74ac4c75bd834d3ee97e502f534aeb7a96b242b67ea61fb794aa98fb9ff"
+  },
+  {
+    "output": "context/SUBMITTED_LOCAL_ATTEMPT.md",
+    "source": "/Users/bsm/BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/build_release/BSD_ARISTOTLE_EXCESS_CONTROL_A_2026-10-06/project/LOCAL_ATTEMPT.md",
+    "sha256": "72f44b9610e0178fa7c10c468835ea1deb420dd7d51d64b9ab980a820180fe45"
+  },
+  {
+    "output": "context/SUBMITTED_COMMON_CONTRACT.md",
+    "source": "/Users/bsm/BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/build_release/BSD_ARISTOTLE_EXCESS_CONTROL_A_2026-10-06/project/COMMON_CONTRACT.md",
+    "sha256": "5cc767c520ab2bc6fc255d0d51507bc9b2880f8007ea4e499e10130e289042bf"
+  }
+]

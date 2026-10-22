@@ -1,0 +1,13 @@
+# Sources and custody
+
+The OpenAI source is pinned at `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`. The selected source files are copied unchanged from the preceding bound screen. Their Apache 2.0 license is preserved as `sources/OPENAI_LICENSE`. Copying a manuscript is not proof certification.
+
+- [OpenAI pointwise two-converse, coefficient construction](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/build/sections/coefficients.tex): actual Kummer function, CM reduction and weighted theta recipe; no rank-two theorem imported.
+- [OpenAI exact BSD, section 9](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/09-unit.tex): analytic/determinant unit comparison. The separate central evaluation in section 10 is retained as a necessary arithmetic interface, not silently replaced by a rank-two statement.
+- [Bertolini–Darmon, published 2005 paper](https://www.math.mcgill.ca/darmon/pub/Articles/Research/27.Main-conjecture/pub27.pdf): finite geometry and multiplicity one, §§5 and 9. The bound local text is the preserved preprint, whose page numbers differ. This return does not apply the paper's ordinary Iwasawa main theorem to supersingular primes.
+- [Cornut, Mazur's conjecture on higher Heegner points](https://webusers.imj-prg.fr/~christophe.cornut/papers/mcinv_published.pdf): printed p.4 and Theorem B. This contains genuine cofinite coefficient-prime nondivisibility of a CM-point span, under its Heegner and parametrization assumptions. Those points live in a tower; the theorem does not assert nonvanishing of their central trace or of a prescribed degree-two derived class. Its introductory all-split Heegner hypothesis is not the seed BD `K=-7` setup with inert discriminant primes.
+- [Manning–Shotton, Ihara's lemma](https://link.springer.com/article/10.1007/s00208-020-02048-8): large-image localized injectivity, investigated in the fixed-cover continuation. The precise transport and outstanding qualifications are recorded separately; no abstract-only application is accepted.
+
+`INPUT_BINDINGS.json` binds 12 copied files, the preserved BD source and three additionally consulted primary PDFs. The notes state their actual reading scope. Fresh small point counts and algebra controls do not recertify residual-image, saturated-basis, Kato, or full Euler-system inputs.
+
+The new notes are same-session written deductions, with an adversarial agent check where specified. They are not human-independent review, formal verification, or a novelty assessment.

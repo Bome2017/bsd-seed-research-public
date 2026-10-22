@@ -1,0 +1,6 @@
+  *** read: Warning: increasing stack size to 1000000000.
+  *** subst: Warning: increasing stack size to 2000000000.
+  ***   at top-level: if(sum(i=1,#ZZ,abs(ZZ[i]))!=0,error("compact g
+  ***                                ^-------------------------------
+  *** abs: incorrect type in gabs (t_STR).
+... skipping file 'probe.gp'

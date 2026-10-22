@@ -1,0 +1,9 @@
+446d1: on curve [1, 1] ; conductor 446 ; a_5 = -4
+PARI ellpadicregulator(446d1, 5) = 2*5 + 2*5^2 + 5^4 + 4*5^5 + 2*5^7 + O(5^8)
+SW printed (4.2)                 = 2*5 + 2*5^2 + 5^4 + 4*5^5 + 2*5^7 + 4*5^8 + 2*5^9 + O(5^10)
+difference = O(5^8)
+ellsaturation at primes <= 3 returns: [[10610, 654768], [-3031, -327384]] ; unchanged = 0
+ord_3 log_3(4) = 1 ; ord_3 log_3(1+3u) for u=1,2,4,5,7,8: [1, 1, 1, 1, 1, 1]
+e_{n-1,j} for n=4 (depth 4): j=1..6 -> [3, 3, 2, 2, 2, 2] ; for n=5: [4, 4, 3, 3, 3, 3] ; for n=3: [2, 2, 1, 1, 1, 1]
+#E~_ns(F_3) = p - a_p = 4 ; eps_3 = 1 - 1/a_3 = 2
+global root number = 1 ; local root numbers at bad primes: [1, 1, -1, 1, 1]

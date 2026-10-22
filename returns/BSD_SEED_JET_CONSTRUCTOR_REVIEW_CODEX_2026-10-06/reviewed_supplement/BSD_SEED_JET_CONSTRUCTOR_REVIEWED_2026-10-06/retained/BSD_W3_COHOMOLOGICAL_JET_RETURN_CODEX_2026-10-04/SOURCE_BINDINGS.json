@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Ochiai2003",
+    "url": "https://www.math.titech.ac.jp/top/~ochiai/coleman.pdf",
+    "local_pdf": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_SOURCE_CACHE_CODEX_2026-10-04/Ochiai.pdf",
+    "pdf_sha256": "519c1f9a5a35aa8b7bc516f4e2fe69382b125c6e40601a2d476812b3e3669b14",
+    "local_text": "/Users/bsm/BSD_WEIGHT3_LOCAL_INDEX_SOURCE_CACHE_CODEX_2026-10-04/Ochiai.txt",
+    "text_sha256": "025e39c25ceb67f725c125cfaa68af58e9d312def7fe35d841512012feae4f84",
+    "locators": "Proposition 5.1; Theorem 3.13; MW"
+  },
+  {
+    "name": "KLZ",
+    "url": "https://arxiv.org/pdf/1503.02888",
+    "local_pdf": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/KLZ.pdf",
+    "pdf_sha256": "2530d973f05ff5a4e2338618dde66d3183c1feeb98abc94a05c8cd23183c504d",
+    "local_text": "/Users/bsm/BSD_W3_GLOBAL_PERIOD_SOURCE_CACHE_CODEX_2026-10-04/KLZ.txt",
+    "text_sha256": "de3fcb8c0a69a92838352331dfadd65915e6a99bedab7fc580532e6822fd61f4",
+    "locators": "Proposition 11.2.1"
+  },
+  {
+    "name": "Ochiai2006",
+    "url": "https://doi.org/10.1112/S0010437X06002223",
+    "local_pdf": "/Users/bsm/BSD_W3_COHOMOLOGICAL_JET_SOURCE_CACHE_CODEX_2026-10-04/Ochiai2006.pdf",
+    "pdf_sha256": "14c0179a7748250a67cd41655bf2e217fd0a770bad3f55642004931d7ed70235",
+    "local_text": "/Users/bsm/BSD_W3_COHOMOLOGICAL_JET_SOURCE_CACHE_CODEX_2026-10-04/Ochiai2006.txt",
+    "text_sha256": "2c661d1e600f0b423159441849f5a4f23f26c1a34b85a54ede1158d77d797e2a",
+    "locators": "Theorem 6.11; Corollary 6.17; Theorem 2"
+  },
+  {
+    "name": "Ochiai2019",
+    "url": "https://arxiv.org/pdf/1802.06427v3",
+    "local_pdf": "/Users/bsm/BSD_W3_COHOMOLOGICAL_JET_SOURCE_CACHE_CODEX_2026-10-04/Ochiai2018.pdf",
+    "pdf_sha256": "1f40e73b6b26247979764a247ffbe98cb663b06b6e231cd1e2ed6d594fe2b7e3",
+    "local_text": "/Users/bsm/BSD_W3_COHOMOLOGICAL_JET_SOURCE_CACHE_CODEX_2026-10-04/Ochiai2018.txt",
+    "text_sha256": "6baf68574b91ecaac3313b0397df700f7d2e9c492145dd2bd1a6e0f7ae333ed2",
+    "locators": "Definition 4.4; Theorems 4.5, 4.12 and proof"
+  },
+  {
+    "name": "Kato2004",
+    "url": "https://www.numdam.org/article/AST_2004__295__117_0.pdf",
+    "local_pdf": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/sources/Kato2004_fresh.pdf",
+    "pdf_sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d",
+    "local_text": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/sources/Kato2004_fresh.txt",
+    "text_sha256": "23f8f255d0822ac203599be37d5eb6e6e5ea6db456e422f6a4b7cc483ac2caa8",
+    "locators": "13.4(3); 14.2; 14.13-14.16"
+  },
+  {
+    "name": "Nakamura2020",
+    "url": "https://arxiv.org/pdf/2006.13647v2",
+    "local_pdf": "/Users/bsm/BSD_W3_COHOMOLOGICAL_JET_SOURCE_CACHE_CODEX_2026-10-04/Nakamura.pdf",
+    "pdf_sha256": "0d8fa462594a20ef96d755d31a13ba23081f1454bfe9809a5fda54fd30311ba7",
+    "local_text": "/Users/bsm/BSD_W3_COHOMOLOGICAL_JET_SOURCE_CACHE_CODEX_2026-10-04/Nakamura.txt",
+    "text_sha256": "be6a8e5b67e8c988f1ed20bebcd48a7632ea091352bd0ea3eceb5aa76358e87f",
+    "locators": "Proposition 3.15; (42); Theorem 3.16; Proposition 3.17"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "status": "EXACT_ARITHMETIC_CONTROLS_PASS",
+  "p": 4547,
+  "p_is_prime": true,
+  "P2_on_exact_curve": true,
+  "translated_coefficients": [
+    4547,
+    -59129188,
+    -161680134380
+  ],
+  "translated_coefficients_divided_by_p": [
+    1,
+    -13004,
+    -35557540
+  ],
+  "c4": 3169004368,
+  "discriminant": 16586638656786071143743744,
+  "v_p_c4": 1,
+  "v_p_discriminant": 3,
+  "P2_translated_reduction": [
+    637,
+    4153
+  ],
+  "smoothness_derivative_2y_mod_p": 3759,
+  "X_over_y_mod_p": 3726,
+  "away_bad_quotient_orders_retained": {
+    "2": 4,
+    "3": 8,
+    "2243": 2242,
+    "5843": 11688
+  },
+  "away_bad_quotients_prime_to_p": true,
+  "addition_control": {
+    "precision_modulus": 427464267193681,
+    "operations_with_unit_denominators": 16,
+    "point_p_minus_1_times_P2": [
+      111842672927238,
+      109546897022428
+    ],
+    "v_p_x_difference": 1,
+    "v_p_y_sum": 1,
+    "x_difference_over_p_mod_p": 1274
+  },
+  "linear_controls_not_seed_arithmetic": [
+    {
+      "p": 5,
+      "annihilator_of_nonzero_f_generator_equals_f": true,
+      "one_local_constraint_still_leaves_the_f_line": true,
+      "zero_test_vector_does_not_control_the_complement": true,
+      "two_relaxed_places_can_cancel_without_full_localization_rank": true
+    },
+    {
+      "p": 7,
+      "annihilator_of_nonzero_f_generator_equals_f": true,
+      "one_local_constraint_still_leaves_the_f_line": true,
+      "zero_test_vector_does_not_control_the_complement": true,
+      "two_relaxed_places_can_cancel_without_full_localization_rank": true
+    },
+    {
+      "p": 11,
+      "annihilator_of_nonzero_f_generator_equals_f": true,
+      "one_local_constraint_still_leaves_the_f_line": true,
+      "zero_test_vector_does_not_control_the_complement": true,
+      "two_relaxed_places_can_cancel_without_full_localization_rank": true
+    }
+  ],
+  "not_verified_by_script": [
+    "component number 2",
+    "Pannekoek theorem or local Tate duality",
+    "global reciprocity or finite-group cohomology",
+    "receiver identification or any upper bound",
+    "new upper-control Lean modules"
+  ]
+}

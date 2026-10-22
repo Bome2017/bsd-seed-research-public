@@ -1,0 +1,72 @@
+{
+  "grade": "BOUNDED_ALGEBRA_CHECKS_ONLY",
+  "augmentation_group_ring_checks": [
+    {
+      "p": 7,
+      "group_orders": [
+        7
+      ],
+      "rank_I2": 5,
+      "rank_I3": 4,
+      "dim_gr2": 1,
+      "expected": 1
+    },
+    {
+      "p": 7,
+      "group_orders": [
+        7,
+        7
+      ],
+      "rank_I2": 46,
+      "rank_I3": 43,
+      "dim_gr2": 3,
+      "expected": 3
+    },
+    {
+      "p": 7,
+      "group_orders": [
+        49
+      ],
+      "rank_I2": 47,
+      "rank_I3": 46,
+      "dim_gr2": 1,
+      "expected": 1
+    },
+    {
+      "p": 3,
+      "group_orders": [
+        3,
+        3,
+        3
+      ],
+      "rank_I2": 23,
+      "rank_I3": 17,
+      "dim_gr2": 6,
+      "expected": 6
+    },
+    {
+      "p": 7,
+      "group_orders": [
+        2,
+        7
+      ],
+      "rank_I2": 12,
+      "rank_I3": 11,
+      "dim_gr2": 1,
+      "expected": 1
+    }
+  ],
+  "nonzero_product_depth_cases": 3107,
+  "chain_ring_ideal_cases": 252,
+  "rational_reconstruction_margin": "49851/50000",
+  "common_B_interval": [
+    "3599427/400000",
+    "3600573/400000"
+  ],
+  "integer_candidates": [
+    9
+  ],
+  "elliptic_curve_or_new_prime_computations": false,
+  "proves_UC_or_FIN": false,
+  "limitation": "Checks finite examples and scalar identities; general proofs and arithmetic imports are in the reports."
+}

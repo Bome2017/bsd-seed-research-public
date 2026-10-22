@@ -1,0 +1,129 @@
+{
+  "status": "COPIED_AND_VERIFIED",
+  "verified_at_utc": "2026-10-04T23:41:44.886124+00:00",
+  "source_folder": "/Users/bsm/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04",
+  "source_archive": "/Users/bsm/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04.zip",
+  "destination_repo": "Bome2017/bsd-seed-lab",
+  "manifest_entries": 27,
+  "archive_sha256": "19cff6449cf5cd6ee7bf1e162a090618bf40bac520ef563b8a16e75faa707de8",
+  "mathematical_status": "NO_TWO_PRIME_COMPARISON_FROM_TESTED_CONSTRUCTIONS",
+  "scope": "Byte-for-byte publication of the completed return; no new mathematical review or endpoint promotion.",
+  "files": [
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/CLOSED_CYCLE_AUDIT.md",
+      "sha256": "cd013cdf7e491a61579b6a1f847d3120b1e9afecd16ccc87f81c4f2e4cbddd1a"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/HANDOFF.md",
+      "sha256": "e2f8fa06fa30c73ddb6a0202625a0015005fc5458984f1e1b5b4542e289e9590"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/INPUT_BINDINGS.json",
+      "sha256": "da22975790b8aecf7e1a14672200408308d6a77710df39f3c08a514cf644584c"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/MANIFEST.sha256",
+      "sha256": "6679a7f32eb979242bf44ccc23ecc16711c3647c293a638db52b02575fb0e826"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/MIXED_COMPARISON_ATTEMPT.md",
+      "sha256": "b85fa330057051b43e62d851b2173e6467a4a294f5ab53d1c6b34191f056b430"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/NOTES.md",
+      "sha256": "54cc9e343e8b23c0921e2230e5be58603f7f803916309da50a5fb3963e7c1f35"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/REPORT.md",
+      "sha256": "f92941c93e7a67ed7bf31931879dce5e11c78a71f1730a0a05fdea1cb3d91d01"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/RESUME.md",
+      "sha256": "3b565c7fb6f043a4be518acb47e191afa5fc780cd8116cec23592e737e992709"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/SCOPE_AND_COLLISIONS.md",
+      "sha256": "c9da639b4240d52d283a9378df0b1ec49f98f1b471d16bda82a3ee642985678b"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/SOURCED_TARGET.md",
+      "sha256": "78b6592880e771b977c451e3a3c51f2e664ad8e0f822047aa1f7048da35b47d2"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/SOURCES.md",
+      "sha256": "92e3affdd64fe1d2ade99464e915ba51038367b6efaf5dbe7c60dcccb3608929"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/STATE.json",
+      "sha256": "78eccf9d60604810ce0eb818443ad24a0b6d26229652e0f9e910b2d10fd2f580"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/checks/FINAL_VALIDATION.json",
+      "sha256": "08df38dfb3e8ef3ee3b0a04dd53fe5d23a0894074a0cb95233b776ca4fb2f7f6"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/checks/INPUT_INTEGRITY.json",
+      "sha256": "e867db1c929fa25c26c4b2b695878f5553c46f5ba2181c893a885081178533e7"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/checks/RESULTS.json",
+      "sha256": "4aca683d994c23d17733fbb3607176b346ad68196aa0ac275deeb7f86af84f5d"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/checks/check.py",
+      "sha256": "5bdfd18f54805de88504005961fbbe275d40ad4598506cecf22c8d4be85001f2"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/E08_historical_task.md",
+      "sha256": "9ca9c33b7e1a1d5b319bed4a2244219f17f9007c48c0fa3c38900722e817c00a"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/RELEASE_CLAIMS_B20_B24.json",
+      "sha256": "2366d363e74aefcff52ecc096a4a7243320128a1698401a2813918e3c0cbbe60"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/closed_lift_PROOF.md",
+      "sha256": "3ca277ec2e886b712a04ebdaa3cf1ac3747386456833d2b61b67c9dda5d8f5a9"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/combination_review.md",
+      "sha256": "4ae63a658bbc24e2cb70c7e72d5215db5e9194cfe956b96b25e3832cea212324"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/homology_source.md",
+      "sha256": "e828a45a6264a2ac4103858109f1c00415b71daa623dcc8e22f07fa6e7a60999"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/integral_comparison.md",
+      "sha256": "2a7ee31414e8abbee075f8fd062f23de7c0f6ba14447ed143f197a02c8c3d98a"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/retained_character_depth.md",
+      "sha256": "e089c20bc49bb34022790eea972f321d5231443f736cd615462797f670964d9e"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/retained_two_prime_bridge.md",
+      "sha256": "32d78ea3358fdd742b8dc0b819c678427cfea66ccd0978ca7ac7f7f1d4bc8df6"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/scalar_extension_AUDIT.md",
+      "sha256": "3691e825537ddebd6a925060d25685d605625910ce6f9bb0df5d502f9c3d59bb"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/scalar_extension_REPORT.md",
+      "sha256": "c3c4c0b12406cbe6848f58985d79dd9ada26090be8d3b30fe9cd17c35dc0f0b3"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/scalar_normalization.md",
+      "sha256": "7eaf4c88e3a108644f535114b6ef8631fc0d50ad826551afadc2d32c20889540"
+    },
+    {
+      "path": "work/returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/context/two_prime_support.md",
+      "sha256": "75f43f3512490b05c5e4c0c297918431a2277c50aaf3c9115d0531b1b41730e2"
+    },
+    {
+      "path": "work/returns/archives/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04.zip",
+      "sha256": "19cff6449cf5cd6ee7bf1e162a090618bf40bac520ef563b8a16e75faa707de8"
+    }
+  ]
+}

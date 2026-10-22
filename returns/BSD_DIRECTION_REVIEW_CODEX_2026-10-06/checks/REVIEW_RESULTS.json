@@ -1,0 +1,772 @@
+{
+  "manifest_checks": [
+    {
+      "manifest": "input/heegner/MANIFEST.sha256",
+      "root": "input/heegner",
+      "count": 26,
+      "matched": 26,
+      "failures": []
+    },
+    {
+      "manifest": "input/heegner/historical_task/MANIFEST.sha256",
+      "count": 0,
+      "matched": 0,
+      "failures": [],
+      "role": "historical_receipt_not_revalidated"
+    },
+    {
+      "manifest": "input/heegner/research_return/MANIFEST.sha256",
+      "root": "input/heegner",
+      "count": 22,
+      "matched": 22,
+      "failures": []
+    },
+    {
+      "manifest": "input/coinvariant/MANIFEST.sha256",
+      "root": "input/coinvariant",
+      "count": 63,
+      "matched": 62,
+      "failures": [
+        {
+          "path": "STATE.json",
+          "status": "mismatch",
+          "expected": "a00a5521ffa7ad11d4a762a9844267ea95805b8c7cccb5426355e5de14c53dd4",
+          "actual": "84e5beee84bd86f14de00e6eeb9de2e1fcdbb5085a49b8682f122bd83f5a838e"
+        }
+      ]
+    },
+    {
+      "manifest": "input/coinvariant/input/MANIFEST.sha256",
+      "count": 0,
+      "matched": 0,
+      "failures": [],
+      "role": "historical_receipt_not_revalidated"
+    },
+    {
+      "manifest": "input/coinvariant/input/research_return/MANIFEST.sha256",
+      "count": 0,
+      "matched": 0,
+      "failures": [],
+      "role": "historical_receipt_not_revalidated"
+    }
+  ],
+  "auxiliaries_recounted": [
+    {
+      "ell": 281,
+      "prime": true,
+      "inert": true,
+      "points": 282,
+      "a_ell": 0,
+      "factors": [
+        2,
+        3,
+        47
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 563,
+      "prime": true,
+      "inert": true,
+      "points": 564,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        3,
+        47
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 661,
+      "prime": true,
+      "inert": true,
+      "points": 662,
+      "a_ell": 0,
+      "factors": [
+        2,
+        331
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 839,
+      "prime": true,
+      "inert": true,
+      "points": 840,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        3,
+        5,
+        7
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 1471,
+      "prime": true,
+      "inert": true,
+      "points": 1472,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        23
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 3391,
+      "prime": true,
+      "inert": true,
+      "points": 3392,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        53
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 4229,
+      "prime": true,
+      "inert": true,
+      "points": 4230,
+      "a_ell": 0,
+      "factors": [
+        2,
+        3,
+        3,
+        5,
+        47
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 4703,
+      "prime": true,
+      "inert": true,
+      "points": 4704,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        7,
+        7
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 5297,
+      "prime": true,
+      "inert": true,
+      "points": 5298,
+      "a_ell": 0,
+      "factors": [
+        2,
+        3,
+        883
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 5879,
+      "prime": true,
+      "inert": true,
+      "points": 5880,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        3,
+        5,
+        7,
+        7
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 8543,
+      "prime": true,
+      "inert": true,
+      "points": 8544,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        89
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 17359,
+      "prime": true,
+      "inert": true,
+      "points": 17360,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        7,
+        31
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 22039,
+      "prime": true,
+      "inert": true,
+      "points": 22040,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        19,
+        29
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 22861,
+      "prime": true,
+      "inert": true,
+      "points": 22862,
+      "a_ell": 0,
+      "factors": [
+        2,
+        7,
+        23,
+        71
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 30689,
+      "prime": true,
+      "inert": true,
+      "points": 30690,
+      "a_ell": 0,
+      "factors": [
+        2,
+        3,
+        3,
+        5,
+        11,
+        31
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 31277,
+      "prime": true,
+      "inert": true,
+      "points": 31278,
+      "a_ell": 0,
+      "factors": [
+        2,
+        3,
+        13,
+        401
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 33199,
+      "prime": true,
+      "inert": true,
+      "points": 33200,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        5,
+        83
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 40591,
+      "prime": true,
+      "inert": true,
+      "points": 40592,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        43,
+        59
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 41131,
+      "prime": true,
+      "inert": true,
+      "points": 41132,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        7,
+        13,
+        113
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 49559,
+      "prime": true,
+      "inert": true,
+      "points": 49560,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        3,
+        5,
+        7,
+        59
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 52631,
+      "prime": true,
+      "inert": true,
+      "points": 52632,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        17,
+        43
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 58757,
+      "prime": true,
+      "inert": true,
+      "points": 58758,
+      "a_ell": 0,
+      "factors": [
+        2,
+        3,
+        7,
+        1399
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 60923,
+      "prime": true,
+      "inert": true,
+      "points": 60924,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        3,
+        5077
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 62827,
+      "prime": true,
+      "inert": true,
+      "points": 62828,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        113,
+        139
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 64283,
+      "prime": true,
+      "inert": true,
+      "points": 64284,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        3,
+        11,
+        487
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 70663,
+      "prime": true,
+      "inert": true,
+      "points": 70664,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        11,
+        11,
+        73
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 77267,
+      "prime": true,
+      "inert": true,
+      "points": 77268,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        3,
+        47,
+        137
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 82591,
+      "prime": true,
+      "inert": true,
+      "points": 82592,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        29,
+        89
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 86131,
+      "prime": true,
+      "inert": true,
+      "points": 86132,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        61,
+        353
+      ],
+      "factorization_matches": true
+    },
+    {
+      "ell": 95471,
+      "prime": true,
+      "inert": true,
+      "points": 95472,
+      "a_ell": 0,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        13,
+        17
+      ],
+      "factorization_matches": true
+    }
+  ],
+  "auxiliary_count": 30,
+  "group_ring_identities": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "prime_power_countercontrol": {
+    "m": 50,
+    "failed_prime": 5,
+    "squarefree_failure_index": 5,
+    "old_quotient": 10,
+    "wrongly_retains_failed_prime": true,
+    "correct_radical_quotient": 2
+  },
+  "dimension_controls": [
+    {
+      "sha_dimension": 0,
+      "local_image_dimension": 0,
+      "h": 2
+    },
+    {
+      "sha_dimension": 0,
+      "local_image_dimension": 1,
+      "h": 1
+    },
+    {
+      "sha_dimension": 2,
+      "local_image_dimension": 0,
+      "h": 4
+    },
+    {
+      "sha_dimension": 2,
+      "local_image_dimension": 1,
+      "h": 3
+    },
+    {
+      "sha_dimension": 4,
+      "local_image_dimension": 0,
+      "h": 6
+    },
+    {
+      "sha_dimension": 4,
+      "local_image_dimension": 1,
+      "h": 5
+    },
+    {
+      "sha_dimension": 6,
+      "local_image_dimension": 0,
+      "h": 8
+    },
+    {
+      "sha_dimension": 6,
+      "local_image_dimension": 1,
+      "h": 7
+    },
+    {
+      "sha_dimension": 8,
+      "local_image_dimension": 0,
+      "h": 10
+    },
+    {
+      "sha_dimension": 8,
+      "local_image_dimension": 1,
+      "h": 9
+    },
+    {
+      "sha_dimension": 10,
+      "local_image_dimension": 0,
+      "h": 12
+    },
+    {
+      "sha_dimension": 10,
+      "local_image_dimension": 1,
+      "h": 11
+    },
+    {
+      "sha_dimension": 12,
+      "local_image_dimension": 0,
+      "h": 14
+    },
+    {
+      "sha_dimension": 12,
+      "local_image_dimension": 1,
+      "h": 13
+    },
+    {
+      "sha_dimension": 14,
+      "local_image_dimension": 0,
+      "h": 16
+    },
+    {
+      "sha_dimension": 14,
+      "local_image_dimension": 1,
+      "h": 15
+    },
+    {
+      "sha_dimension": 16,
+      "local_image_dimension": 0,
+      "h": 18
+    },
+    {
+      "sha_dimension": 16,
+      "local_image_dimension": 1,
+      "h": 17
+    },
+    {
+      "sha_dimension": 18,
+      "local_image_dimension": 0,
+      "h": 20
+    },
+    {
+      "sha_dimension": 18,
+      "local_image_dimension": 1,
+      "h": 19
+    },
+    {
+      "sha_dimension": 20,
+      "local_image_dimension": 0,
+      "h": 22
+    },
+    {
+      "sha_dimension": 20,
+      "local_image_dimension": 1,
+      "h": 21
+    }
+  ],
+  "ordinary_spot_checks": [
+    {
+      "p": 31,
+      "a_p": -8
+    },
+    {
+      "p": 47,
+      "a_p": 4
+    },
+    {
+      "p": 53,
+      "a_p": -6
+    },
+    {
+      "p": 331,
+      "a_p": -4
+    }
+  ],
+  "scope": "Manifest identity and finite arithmetic only. No derived Heegner point, Kato value, class group, or Sha computation.",
+  "unmanifested_coinvariant_continuation": [
+    {
+      "path": "COINVARIANT_DESCENT.md",
+      "sha256": "47c5cdc10618235440ec8a1fc2b99d9b6320ed9130efaa360d9e9193a44a6dd2"
+    },
+    {
+      "path": "Coinvariant/Descent.lean",
+      "sha256": "7e91b03116b1359500cfdf0fc7024c597581dca494e6dbb7ff05e0ec8ee558fa"
+    }
+  ]
+}

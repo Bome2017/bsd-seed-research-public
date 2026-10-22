@@ -1,0 +1,21 @@
+{
+  "local_sources": [
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/reviewer/INCIDENCE_NORM_REVIEW.md",
+      "sha256": "e34b123a72819cd5f3568eb513d4d418b66817ba4207b7ec3adeb130a2922fe3"
+    },
+    {
+      "path": "/Users/bsm/BSD_SURVIVING_IMAGE_BOUND_EXPERIMENT_2026-10-15/independent_index/PROOF.md",
+      "sha256": "521243d205f10a5270bd5180128b3e0acc58d5502a584a046a94678de8889c38"
+    },
+    {
+      "path": "/Users/bsm/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/CONTRACT.md",
+      "sha256": "bf437170db767e449df9b72db6a572325342c24056462db415f1be691842d94a"
+    }
+  ],
+  "fresh_primary_source": {
+    "url": "https://arxiv.org/pdf/1703.10602",
+    "version": "v3 22Dec2018",
+    "read_scope": "Theorems6.6,6.8 and Remark6.9; no global hypothesis verification for GL2Fp"
+  }
+}

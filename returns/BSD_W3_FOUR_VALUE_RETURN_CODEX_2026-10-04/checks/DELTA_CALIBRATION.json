@@ -1,0 +1,49 @@
+{
+  "additional_hecke_checks": [
+    {
+      "eigenvalue": 252,
+      "ell": 3
+    },
+    {
+      "eigenvalue": 4830,
+      "ell": 5
+    }
+  ],
+  "alpha_mod_p4": 7536,
+  "curve": "NOT THE SEED: classical cuspform Delta, level 1 weight 12",
+  "exponents": [
+    2,
+    3,
+    4
+  ],
+  "level_p4_riemann_values": [
+    2673,
+    13761,
+    7546
+  ],
+  "one_layer_values": [
+    2673,
+    13761,
+    7546
+  ],
+  "p": 11,
+  "period_polynomial": [
+    36,
+    0,
+    -691,
+    0,
+    2073,
+    0,
+    -2073,
+    0,
+    691,
+    0,
+    -36
+  ],
+  "primitive_polynomial": true,
+  "riemann_terms": 13310,
+  "scope": "Exact modular-symbol calibration of moment formula, not seed normalization or uniform nonvanishing",
+  "seed_values_computed": false,
+  "status": "PASS",
+  "tau_p": 534612
+}

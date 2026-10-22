@@ -1,0 +1,64 @@
+{
+ "purpose": "Declared evidence additions for the v0.2.3 A4 formal-check transition. Any other evidence change is rejected by tools/build_evidence_transition.py.",
+ "base": "2a726213a27a12f10fece5bc70137e65e30911ba",
+ "additions": [
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/ARISTOTLE_A4_FINITE_PART_2026-09-24.tar.gz",
+   "sha256": "3f809e8478059d5a89f8e69a3354d4dadf4ca815ad47640d19557abbf0c7fbd3",
+   "bytes": 37336,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/PACKET_INDEX.md",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/PACKET_INDEX.md",
+   "sha256": "6df247e1e5c11782f506880643a69a408682f6c550b16a2e058bbb9d7a59e8e3",
+   "bytes": 1719,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/REPLAY_REPORT.md",
+   "sha256": "8691cb8986bee859e7ac76b1f20024122c2f7a7fa44e5d0dba690422bed8cc8d",
+   "bytes": 3065,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/MANIFEST.sha256",
+   "sha256": "1d8841f4a3f843ea8ad830adf95cdd0464c81adf334681454e9ccb62067aeb7d",
+   "bytes": 501,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R1_14bef1c1_axioms.log",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R1_14bef1c1_axioms.log",
+   "sha256": "b27c2f90848cc64ca34ec4121a4e4c48f832d151d43ae4a6bceaedde0a0e78af",
+   "bytes": 3419,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R2_b2b41135_axioms.log",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/R2_b2b41135_axioms.log",
+   "sha256": "b27c2f90848cc64ca34ec4121a4e4c48f832d151d43ae4a6bceaedde0a0e78af",
+   "bytes": 3419,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/14bef1c1-77d3-4afa-962e-31d92ca66935-aristotle.tar.gz",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/14bef1c1-77d3-4afa-962e-31d92ca66935-aristotle.tar.gz",
+   "sha256": "1eaa2f8e8021fe4568b4adef209b202822ecbeb55a9fef649a3d8cb965f5be12",
+   "bytes": 42869,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/b2b41135-4ba2-4bdc-b687-db0a4e6ecaea-aristotle.tar.gz",
+   "release_path": "evidence/src/BSD_ARISTOTLE_FIN_VERIFICATION_2026-09-24/returns/b2b41135-4ba2-4bdc-b687-db0a4e6ecaea-aristotle.tar.gz",
+   "sha256": "cece61f459ed9f69096440f8f119b7a2f809316d4a09b170ca79b28a533a5173",
+   "bytes": 43214,
+   "disposition": "admitted_unmasked"
+  }
+ ],
+ "declared_exclusions": [],
+ "declared_redactions": []
+}

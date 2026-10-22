@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/sage", line 3, in <module>
+    from sage.cli.__main__ import main
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/python3.13/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/python3.13/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/lib/python3.13/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/kp/6_xhp0jd2bngj728lwbzkl7w0000gn/T/sage_vfexb1tm/s07c_scalingkl1db9xl.sage.py", line 14, in <module>
+    e=sorted([r for r,_ in (x**_sage_const_3 -_sage_const_5 *A*x**_sage_const_2 +_sage_const_4 *A*B*x).roots(RR)]); print("2-division roots E:",e)
+                            ^
+NameError: name 'x' is not defined
+        5.73 real         3.54 user         1.19 sys
+           225193984  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              311189  page reclaims
+                  95  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                5193  voluntary context switches
+                3940  involuntary context switches
+            21465953  instructions retired
+            31809216  cycles elapsed
+              413696  peak memory footprint

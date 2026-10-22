@@ -1,0 +1,60 @@
+{
+  "status": "EXACT_ALGEBRA_VERIFIED",
+  "point_representatives": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "incidence_matrix": [
+    [
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      -1,
+      0,
+      -1
+    ]
+  ],
+  "integer_smith": [
+    1,
+    1,
+    3,
+    3
+  ],
+  "mod3_rank": 2,
+  "kernel_is_additive_linear_functions": true,
+  "group_elements_checked": 48,
+  "image_order": 9,
+  "invariant_projective_lines": [],
+  "row_span_invariant_projective_lines": [],
+  "scope": "Finite algebra only. Actual Kummer specialization, noncube witness and Chebotarev hypotheses require the written arithmetic argument."
+}

@@ -1,0 +1,135 @@
+{
+ "stage": "DONE (preparation). Awaiting user: authorization for the capped pilot; Codex check routing; D2/D5 before any full run",
+ "launch": "NONE",
+ "cloud_spend": 0,
+ "sealed_inputs_modified": false,
+ "stream_core_modified": false,
+ "S1": "DONE (S1_RESULTS.md): S1a PASS 24/24 (3728 symbols, 24/24 controls); S1b calibration 9/9; certificate frozen; D2,D5 open pre-full-run",
+ "S2": {
+  "prototype": "S2_prototype/acc2243.c (+ acc2243_prof.c profiling copy)",
+  "T1": "PASS 16/16 checks, 3648 eclib symbols contained (M=5,7; split/nonsplit; w=+-1; m=M^2,M^3)",
+  "T3": "PASS: W=1, W=8, crash@23+restart W=3 -> bit-identical S_k/XB/fingerprint 32e1386d9f6475ce/rounding tally; identical also across the unit-planning fix (cross-version)",
+  "fixes": [
+   "zsh no word-split -> argc guards + bash arrays",
+   "segment-aligned T required for retained ap files (fail-closed reader)",
+   "sub-unit estimate per dyadic piece + early break (1242->67 units, W=8 4.8x)"
+  ],
+  "T2": "PASS 7/7: all 36+108 symbols identical to certified; a_{4,2}=15480 exact; unit test correctly FAILS at p=3"
+ },
+ "S3": {
+  "status": "DONE",
+  "logs": "S3_bench/logs",
+  "producer_us_per_prime": {
+   "1e9": 40.14,
+   "1e11": 88.1,
+   "1e13": 233.07,
+   "3.912e13": 320.55,
+   "1.687e14": 445.28
+  },
+  "verifier_us_per_prime": {
+   "1e9": 16.71,
+   "1e11": 28.43,
+   "1e13": 38.51,
+   "3.912e13": 43.9,
+   "1.687e14": 54.28
+  },
+  "L_ns": {
+   "traversal_per_subunit_s": 0.099,
+   "per_pair": 1.27,
+   "kernel_per_prime": 47,
+   "kernel_per_term": 99.9,
+   "sum_per_term": 113.7
+  },
+  "S_block_s": {
+   "p0": [
+    0.553,
+    0.656,
+    0.696
+   ],
+   "p2": [
+    0.886,
+    0.939,
+    0.944
+   ]
+  },
+  "ckpt_write_s_80MB": 0.308,
+  "dft_m5031049_s": 184.95,
+  "loaded_host": {
+   "producer_per_core_10proc": 0.914,
+   "producer_per_core_20proc_SMT": 1.331,
+   "verifier_10": 0.888,
+   "verifier_20_SMT": 1.52
+  }
+ },
+ "S4": {
+  "status": "model DONE (S4_cost/cost_model_s4.py, cost_s4.txt)",
+  "total_local_core_hours": {
+   "per_symbol_T_run_3.912e13": 110622.5,
+   "nonzero_only_5.7406e13": 173587.9,
+   "exact_scalar_6.7981e13": 211768.6
+  },
+  "shares_per_symbol": {
+   "production": 0.839,
+   "verification": 0.131,
+   "rest": 0.03
+  },
+  "term_counts": "S4_cost/term_counts.py reproduces measured unit term counts to 0.02%",
+  "allin_per_symbol_usd": {
+   "low": 1368,
+   "central": 2162,
+   "high_spot": 3947,
+   "on_demand": 5762,
+   "worst": 8059
+  },
+  "doc": "S4_cost/S4_COST_RECONCILIATION.md (sections 1-6)"
+ },
+ "S5": {
+  "status": "DONE: v2.3 final validation 24 PASS / 0 FAIL (tests/final_driver.log, 01:36-02:17)",
+  "build": "v2.3: FINAL_BUILD_HASHES.txt (acc2243v2.c 295a14c2..., binary 794702de..., shim eeb6e1bd...); v2.0/2.1/2.2 superseded (probe/*.c, FINAL_BUILD_HASHES_v2.*_superseded.txt)",
+  "additions": [
+   "selection",
+   "streaming produce->verify->consume with verifier-hash check",
+   "shards/tags/flock",
+   "timing log",
+   "DFT symbols",
+   "chunk digest",
+   "plan mode",
+   "portable SHA-256 shim"
+  ],
+  "defect_found_and_fixed": "orphaned stream children of a killed run could share a worker dir with the restart -> per-generation stream dirs + consumed-bytes hash must equal verifier hash",
+  "earlier_results_on_pre-final_build": "R1 PASS x4, R2 PASS x2, R3 PASS (digest e24f3f4d...), R4a PASS, R4b PASS + 5 negative controls; R4c void (script edited mid-run)",
+  "defect_2": "DFT radius inflation: acb_dft at prime length 2243 (Bluestein/Rader) inflates input radii 1.7e3x, at m=2243^2 7.0e6x (probe/probe_full.txt); v2 merge gave each class the global tally E as radius -> full run would identify NO symbol (radius ~0.55 vs 4.9e-4). Fixed in v2.1 (merge only): exact midpoints into the transform, +2E per symbol (l1). m=81 smoke: identical flags/S lines/A_EXACT; budget tail 4.753e-4 + rounding 1.2e-17 vs 4.883e-4",
+  "v2.0_partial_validation": "R1 x4, R2 x2, R3 (e24f3f4d...), R4a, R4b + 5 negative controls PASS before the v2.1 change (run path unchanged in v2.1)",
+  "defect_3": "threaded libc system() ran serially on macOS (R5 v2.1 stream walls 199/391/589 s) -> v2.2 posix_spawn+waitpid; smoke: 4 x 43 s segments in 47 s wall",
+  "v2.1_partial_validation": "tests/final_driver_v2.1_partial.log: R1 x4, R2 x2, R3, R4a, R4b(+5 NEG), R4c (+3 NEG incl. tampered-ap hash check), R4d all PASS; R5 stopped (serial streaming found)",
+  "defect_4": "arb_div on low-relative-accuracy symbol balls adds ~|x| 2^-28 (probe/div_diag.c); v2.2 R5-M max radius 4.8810e-4 vs tail 4.8780e-4 -> v2.3 div_period (exact mid / Omega + rad/|Omega|_lower); m=81 max radius now 4.753284e-4 = budget",
+  "defect_5": "flock fd inherited by spawned stream children: orphans of a crashed run held run.lock (v2.2 R5-B FAIL, fail closed) -> v2.3 O_CLOEXEC lock, FD_CLOEXEC timing logs",
+  "v2.2_validation": "tests/final_driver_v2.2.log: all small tests PASS; R5 A/C/D/H/M PASS (M: DFT 175 s, symbol pass 9.4 s, maxRSS 2.7 GB); R5-B FAIL (lock inheritance)",
+  "R5": {
+   "A_digest": "3ca80f2e...",
+   "B_C_D_H": "PASS",
+   "M": "DFT 175.6 s, symbol pass 10.7 s, maxRSS 2.69 GB, max plus radius 4.878033e-4 = tail budget (< 4.882812e-4)",
+   "complete_path_top_chunk_wall_s": 207.0,
+   "top_chunk_producer_user_s": 181.1,
+   "top_chunk_verifier_user_s": 24.2,
+   "top_chunk_accumulate_s": 0.25
+  }
+ },
+ "pilot": {
+  "status": "prepared, NOT launched",
+  "proposal": "S5_pipeline/pilot/PILOT_PROPOSAL.md",
+  "scripts": [
+   "make_bundle.sh",
+   "bootstrap.sh",
+   "pilot_run.sh",
+   "launch_aws.sh (dry-run default, $100 ledger cap)",
+   "fetch_results.sh",
+   "parse_cloud_rates.py"
+  ],
+  "instance": "c7a.16xlarge spot (MaxPrice=on-demand 3.2845), shutdown -h +300 terminate",
+  "codex_request": "S5_pipeline/CODEX_CHECK_REQUEST.md",
+  "bundle": "S5_pipeline/pilot/bundle/pilot_bundle_2243.tar.gz sha256 cb24d5f71d92caa2247c1e19ce1aed845da5d9ee3fab850fb828f40996abacd4 (5.8 MB)",
+  "linux_build": "NOT yet exercised (no container runtime running locally); first run = pilot P0"
+ },
+ "probe": "S5_pipeline/probe/PROBE_RESULT.txt: DFT input-radius inflation 2.3x (81), 1.7e3x (2243), 7.0e6x (2243^2); exact-input transform rounding <= 7.2e-25 at 2243^2"
+}

@@ -1,0 +1,2 @@
+# Retained A-cache inspection after both B computations timed out
+Read the retained A BNF only, under its existing GRH-dependent grade. No BNF recomputation or certification. Bound extraction to GP60s, outer70s, PARI stack1,000,000,000. Recover ordinary class presentation, scalar action, S-prime classes, and resulting S quotient. These are conditional upper inputs unless literal relations plus an independent generating bound can authenticate them. Do not call the result a certified B class computation; do not import known Selmer/normkernel dimensions.

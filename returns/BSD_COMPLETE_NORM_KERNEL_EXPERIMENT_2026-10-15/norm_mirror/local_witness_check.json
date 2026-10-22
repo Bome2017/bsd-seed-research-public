@@ -1,0 +1,194 @@
+{
+  "status": "EXACT_RATIONAL_HENSEL_CHECK_PASS",
+  "ainvariants": [
+    0,
+    0,
+    1,
+    -21,
+    -27
+  ],
+  "samples": 20,
+  "minimum_margin": 37,
+  "checks": [
+    {
+      "prime": 3,
+      "certified_precision": 46,
+      "margins": [
+        44,
+        44,
+        257
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 45,
+      "margins": [
+        43,
+        43,
+        251
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 45,
+      "margins": [
+        43,
+        37,
+        260
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 45,
+      "margins": [
+        37,
+        43,
+        260
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 46,
+      "margins": [
+        44,
+        41,
+        266
+      ]
+    },
+    {
+      "prime": 3,
+      "certified_precision": 45,
+      "margins": [
+        40,
+        43,
+        260
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 36,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 36,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 42,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 45,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    },
+    {
+      "prime": 389,
+      "certified_precision": 45,
+      "margins": [
+        44,
+        44,
+        134
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "positive_controls": [
+    {
+      "p": 5,
+      "all_matrix_lifts_checked": 625
+    },
+    {
+      "p": 7,
+      "all_matrix_lifts_checked": 2401
+    }
+  ],
+  "p3_scope_countercontrol": "an SL2(Z/9) lift of the residual transvection has order three",
+  "scope": "finite group formula controls, not a seed image certificate or a proof of the all-prime lifting lemma"
+}

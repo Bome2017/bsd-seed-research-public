@@ -1,0 +1,7 @@
+segments compared: 467; primes 360542141
+PASS verifier SEG records (lo, hi, primes, witnesses, ap_sha256) identical to the p = 3 run for all 467 segments
+PASS verified a_q files byte-identical to the p = 3 run (re-hashed from disk) for all 467 segments
+PASS witness-file SHA-256 identical to the p = 3 run for all 467 segments (producer determinism)
+a_q root over segments 0..466: this run fcd024375b54642344d03502caf0c53882190973ab2683239011f813ca2848d4; p = 3 run fcd024375b54642344d03502caf0c53882190973ab2683239011f813ca2848d4; EQUAL
+CROSS_RUN_PASS
+exit 0

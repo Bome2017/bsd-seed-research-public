@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "script": "principal_probe.py",
+      "exit": 0,
+      "elapsed_seconds": 2.8404312171041965,
+      "child_cpu_seconds": 2.8311550000000003,
+      "stderr_empty": true
+    },
+    {
+      "script": "leak_repair.py",
+      "exit": 0,
+      "elapsed_seconds": 2.812513286015019,
+      "child_cpu_seconds": 2.79599,
+      "stderr_empty": true
+    },
+    {
+      "script": "line_source_probe.py",
+      "exit": 0,
+      "elapsed_seconds": 2.85266970586963,
+      "child_cpu_seconds": 2.845310999999999,
+      "stderr_empty": true
+    },
+    {
+      "script": "verify_line_source.py",
+      "exit": 0,
+      "elapsed_seconds": 0.05000997404567897,
+      "child_cpu_seconds": 0.04748299999999972,
+      "stderr_empty": true
+    }
+  ],
+  "saved_json_reproduced_byte_for_byte": true,
+  "outputs": {
+    "principal_probe.json": "96574626a2cb15d8f1fd5c6196f833a5ef3e8997e01865e09187b1274104e555",
+    "leak_repair.json": "1ab6171427a2e7869ce3658adb0472b575a6ec5e5a78fd6bc6c1f793e564fdd2",
+    "line_source_probe.json": "ea8c96a385a07cab866af24e1e6b7a3a403f207552b78f1b84d8a809b089c92a",
+    "verify_principal.json": "740b2f2cf34c6b06c989cd35182e928f101ba814f6127327711b92670d42f19b",
+    "verify_line_source.json": "1cd24dafa495bb50f4a07b294af7153c2d814f707856caff5034bd521b7a85fb"
+  },
+  "sage_python": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/python",
+  "verifier_python": "/opt/miniconda3/bin/python3"
+}

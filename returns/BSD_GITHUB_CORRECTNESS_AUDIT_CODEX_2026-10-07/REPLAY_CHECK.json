@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "script": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/checks/point_detector.py",
+      "exit_code": 0,
+      "script_sha256": "026eb5edb71dbca08652e4a1e015560ba3beef4294bd6b8328d9136c6291aea8",
+      "stdout_sha256": "ee847e671c68314662e16c56b03036a025fc2d45c6ae03a60b436c9dbcaf48ed",
+      "matches_saved_outputs": [
+        "checks/point_detector.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07__point_detector.stdout"
+    },
+    {
+      "script": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/checks/check_formulas.py",
+      "exit_code": 0,
+      "script_sha256": "49f580fdd8b1b83363fcb21cf88ed473c03cb9cc169a24bda9aa384a7477bbf1",
+      "stdout_sha256": "05069a218f694900eab08556a2187ec5112deba5c86d353cc1eaf0f873a4f812",
+      "matches_saved_outputs": [
+        "checks/RESULTS.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07__check_formulas.stdout"
+    },
+    {
+      "script": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/checks/check_content_bound.py",
+      "exit_code": 0,
+      "script_sha256": "1b52afec0a0caf56f2e15b8489752d5b78c11588e8bfb5a9cf037d8165021f4b",
+      "stdout_sha256": "5962e83452961189efd703f40a187e0fa51ab3ed80737d21ebd1f853c354dac4",
+      "matches_saved_outputs": [
+        "checks/CONTENT_CONTROLS.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07__check_content_bound.stdout"
+    },
+    {
+      "script": "BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/checks/check_minors.py",
+      "exit_code": 0,
+      "script_sha256": "17f730124dcddc9442dd3cc6371637c867c76a95f45ad872effc8c7ba3490b00",
+      "stdout_sha256": "d32e1b8ef66795278049cce325c1624ba17adf9013df0bdc66577c6e4a2fee63",
+      "matches_saved_outputs": [
+        "checks/result.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07__check_minors.stdout"
+    },
+    {
+      "script": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/checks/group_controls.py",
+      "exit_code": 0,
+      "script_sha256": "b32b2c68722f320bf468ce8ff678b85ee91c9ffe5e1a6ae3001af3dc08fe5dda",
+      "stdout_sha256": "ccaa4c34f42744af55537bf645617c98f97c484708e3c9f07e8733573d79ad54",
+      "matches_saved_outputs": [
+        "checks/GROUP_CONTROLS.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07__group_controls.stdout"
+    },
+    {
+      "script": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/checks/seed_local_data.py",
+      "exit_code": 0,
+      "script_sha256": "30dda3f4013baa0d5ff686a9ca9b8cfe07c7c64ea0d0fc2868e86d5154ae6856",
+      "stdout_sha256": "d0da64c223137d6fce5b122b0525b89acabcc0319481d21d1d0bffb1ccac25be",
+      "matches_saved_outputs": [
+        "checks/SEED_LOCAL_DATA.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07__seed_local_data.stdout"
+    },
+    {
+      "script": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/checks/check_normalization.py",
+      "exit_code": 0,
+      "script_sha256": "6e1c53bc6bd5449453b11e6e8cf8d8a3e9117e7df5e38b62085f1c20541d89ca",
+      "stdout_sha256": "6e408ab4236115d7fc098b6dce08410bd39b41705bc914f4efd2c773775fdab7",
+      "matches_saved_outputs": [
+        "checks/NORMALIZATION_CONTROLS.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07__check_normalization.stdout"
+    },
+    {
+      "script": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/checks/check_seed_cofactors.py",
+      "exit_code": 0,
+      "script_sha256": "2134a4112940f730ad616c5793dc92378137d9fdc5be432615317d275fe80f5a",
+      "stdout_sha256": "4709127f2273db4211714389bb6c8d90a9534873ebe514360341306d1f32625b",
+      "matches_saved_outputs": [
+        "checks/SEED_COFACTORS.json"
+      ],
+      "stderr": "",
+      "output": "replays/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07__check_seed_cofactors.stdout"
+    }
+  ],
+  "scope": "Eight supplied bounded controls; not independent engines or new arithmetic certificates"
+}

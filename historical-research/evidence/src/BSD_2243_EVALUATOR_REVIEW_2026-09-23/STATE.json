@@ -1,0 +1,37 @@
+{
+ "stage": "review DONE (Codex FAIL restart isolation; fresh reviewer PASS_WITH_CORRECTIONS); compression attempt started in ~/BSD_2243_COMPRESSION_ATTEMPT_2026-09-23",
+ "reviewer_agent": "launched 2026-09-23 (background, fresh context, <=8 threads, <=3.5 CPU-h)",
+ "D2": "DISCHARGED at source level (Skinner 2016 \u00a73.2 + Selmer matching; dependencies/D2_D5_RECONCILIATION.md); needs independent read",
+ "D5": "NECESSARY at retained grade: SW 6.1 multiplicative iff unsupported by Jones 1989 (forward only; alpha conditional); cheapest discharge = independent height computation",
+ "launch": "NONE",
+ "spend": 0,
+ "master_check": "verify_master.py RECONCILIATION_REQUIRED (P13 run files changed; new BSD_2243 folders incl. Codex check; root set changed) - not reconciled (not authorized here)",
+ "codex_parallel_review": "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23 (user-authorized, running in Codex)",
+ "s4_erratum": "appended section 7 to S4_COST_RECONCILIATION.md (fleet checkpoint volume; persistence assumption)",
+ "codex_review": {
+  "folder": "/Users/bsm/BSD_2243_ACC_CODEX_CHECK_2026-09-23",
+  "verdict": "FAIL for crash/restart isolation (GEN reuse before first checkpoint -> shared stream dir; reproduced); arithmetic replay PASS (m27 digest e24f3f4d, 36 symbols; m81 merge of existing ckpts 108 symbols, A_EXACT 15851520); 5 negative controls PASS",
+  "D2": "agrees (Skinner exact sequence + Tate/Kummer identification)",
+  "D5": "grade choice: SW 6.1 as published -> redundant; Jones-forward-only -> needed (did not read Jones)",
+  "notes": [
+   "verbatim claim too strong (gen_block, invmod, run_L recurrence differ; math preserved)",
+   "S1c period label: plus period omega_1; BSD total real period 2 omega_1 (unit at 2243)",
+   "pre-produced a_q corpus is a trust boundary (hash companion optional; load_table unauthenticated)"
+  ]
+ },
+ "report": "REPORT.md",
+ "fix_proposal": "FIX_PROPOSAL_GENERATION_RESERVATION.md (not applied)",
+ "fresh_reviewer": {
+  "verdict": "PASS_WITH_CORRECTIONS",
+  "major": "F4 (same as Codex)",
+  "minor": [
+   "F1",
+   "F2",
+   "F5",
+   "F6",
+   "F7",
+   "F8"
+  ],
+  "m81_fresh_full_run": "digest 04a7d952 == author, 108 exact symbols"
+ }
+}

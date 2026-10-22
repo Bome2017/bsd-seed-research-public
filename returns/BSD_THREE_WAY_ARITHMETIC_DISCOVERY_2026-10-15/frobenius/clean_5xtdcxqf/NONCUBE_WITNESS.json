@@ -1,0 +1,70 @@
+{
+  "q": 18757,
+  "complete_point_field_splitting_roots": [
+    12428,
+    12677,
+    12827,
+    13417,
+    13474,
+    14553,
+    15790,
+    17380
+  ],
+  "source_characters": [
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2
+  ],
+  "norm_only_record": {
+    "q": 18757,
+    "chosen_independent_points": [
+      0,
+      1
+    ],
+    "omega": 14673,
+    "two_norms": [
+      {
+        "point_indices": [
+          0,
+          1,
+          2
+        ],
+        "line_coordinate": 8881,
+        "value": 4376,
+        "cubic_power": 14673,
+        "cubic_character": 1
+      },
+      {
+        "point_indices": [
+          0,
+          4,
+          6
+        ],
+        "line_coordinate": 5878,
+        "value": 461,
+        "cubic_power": 1,
+        "cubic_character": 0
+      }
+    ],
+    "predicted_survives": false
+  },
+  "nonzero_cubic_residue_norms": [
+    {
+      "point_indices": [
+        0,
+        1,
+        2
+      ],
+      "line_coordinate": 8881,
+      "value": 4376,
+      "cubic_power": 14673,
+      "cubic_character": 1
+    }
+  ],
+  "scope": "At a completely split good prime this proves the displayed affine norm is not a cube in Q(E[3]), not merely in its degree-eight subfield."
+}

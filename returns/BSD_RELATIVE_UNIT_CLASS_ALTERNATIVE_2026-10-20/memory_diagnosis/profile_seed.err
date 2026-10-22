@@ -1,0 +1,58 @@
+PREC = 5440
+Time nfinit & nfrootsof1: 168
+Algebraic bnf: R1 = 4, R2 = 10
+D = 1152661454679541683034131675931321657479768838290720479679584028346298411007954780993505142409246458448331718397546159329526548708322422169608309181904276057305444930135938134737947134820812800000000000000000000000
+LIMC2 = 419775
+Time computing Bach constant: 3078
+Time computing inverse of hR: 1
+LIMC = 4813, LIMC2 = 419775
+BSD_FB_PROFILE p=7919 seen=1000 accepted=280 stack=34675080 retained=22689248 logical=23097088 discarded=0
+BSD_FB_PROFILE p=17389 seen=2000 accepted=512 stack=54414512 retained=42428680 logical=43198392 discarded=0
+BSD_FB_PROFILE p=27449 seen=3000 accepted=731 stack=71619296 retained=59633464 logical=60718680 discarded=0
+BSD_FB_PROFILE p=37813 seen=4000 accepted=976 stack=90437256 retained=78451424 logical=79881600 discarded=0
+BSD_FB_PROFILE p=48611 seen=5000 accepted=1211 stack=110407112 retained=98421280 logical=100217552 discarded=0
+BSD_FB_PROFILE p=59359 seen=6000 accepted=1445 stack=129532184 retained=117546352 logical=119693216 discarded=0
+BSD_FB_PROFILE p=70657 seen=7000 accepted=1677 stack=148503640 retained=136517808 logical=139012448 discarded=0
+BSD_FB_PROFILE p=81799 seen=8000 accepted=1914 stack=167859112 retained=155873280 logical=158722752 discarded=0
+BSD_FB_PROFILE p=93179 seen=9000 accepted=2135 stack=185217680 retained=173231848 logical=176399528 discarded=0
+BSD_FB_PROFILE p=104729 seen=10000 accepted=2390 stack=205187720 retained=193201888 logical=196735648 discarded=0
+BSD_FB_PROFILE p=116447 seen=11000 accepted=2616 stack=222546304 retained=210560472 logical=214412456 discarded=0
+BSD_FB_PROFILE p=128189 seen=12000 accepted=2848 stack=240365760 retained=228379928 logical=232558568 discarded=0
+BSD_FB_PROFILE p=139901 seen=13000 accepted=3081 stack=258262000 retained=246276168 logical=250782888 discarded=0
+BSD_FB_PROFILE p=151703 seen=14000 accepted=3345 stack=280075312 retained=268089480 logical=272996072 discarded=0
+BSD_FB_PROFILE p=163841 seen=15000 accepted=3571 stack=298585920 retained=286600088 logical=291846008 discarded=0
+BSD_FB_PROFILE p=176081 seen=16000 accepted=3802 stack=316712568 retained=304726736 logical=310304944 discarded=0
+BSD_FB_PROFILE p=187963 seen=17000 accepted=4053 stack=336375376 retained=324389544 logical=330328200 discarded=0
+BSD_FB_PROFILE p=200183 seen=18000 accepted=4305 stack=358034992 retained=346049160 logical=352384872 discarded=0
+BSD_FB_PROFILE p=212369 seen=19000 accepted=4553 stack=378619376 retained=366633544 logical=373346600 discarded=0
+BSD_FB_PROFILE p=224737 seen=20000 accepted=4818 stack=400125496 retained=388139664 logical=395246960 discarded=0
+BSD_FB_PROFILE p=237203 seen=21000 accepted=5064 stack=419788264 retained=407802432 logical=415270176 discarded=0
+BSD_FB_PROFILE p=249439 seen=22000 accepted=5296 stack=438375696 retained=426389864 logical=434198360 discarded=0
+BSD_FB_PROFILE p=262139 seen=23000 accepted=5528 stack=456963152 retained=444977320 logical=453126552 discarded=0
+BSD_FB_PROFILE p=274529 seen=24000 accepted=5769 stack=476241856 retained=464256024 logical=472758680 discarded=0
+BSD_FB_PROFILE p=287117 seen=25000 accepted=6024 stack=498131896 retained=486146064 logical=495050000 discarded=0
+  ***   at top-level: ...02,0,4];EXACT_FLAG=1");B=bsd_lowmem_init(NF);w
+  ***                                             ^---------------------
+  *** bsd_lowmem_init: the PARI stack overflows !
+  current stack size: 512000000 (488.281 Mbytes)
+  [hint] set 'parisizemax' to a nonzero value in your GPRC
+
+... skipping file 'profile_seed.gp'
+       13.97 real        13.26 user         0.19 sys
+           531111936  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              130113  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+                1109  involuntary context switches
+        149460878441  instructions retired
+         62680004609  cycles elapsed
+           527654912  peak memory footprint

@@ -1,0 +1,57 @@
+{
+ "task": "P5_RIGOROUS_UPGRADE (seed 2243,12): replace master-certificate node N7 (CERT-NUM, LP5 double stream) by the rigorous Arb pipeline",
+ "started": "2026-09-19",
+ "phase": "DONE__P5_RIGOROUS_SHA5_ZERO_CONFIRMED",
+ "authorization": "operator message 2026-09-19: p=5 upgrade authorized; J=W=16 (auto 14/12), <=12 GB RAM; no p=7; nothing merged; old certificate untouched",
+ "targets": "m=25 (primary; all 20 [b/25]^+-) and m=5 (for the exact depth-2 measure term and the T_5 Hecke check); M=1, Q=N, s=w=+1; LATDEN=1024",
+ "run_out": "~/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run",
+ "done": [
+  "prelaunch gate 7/7 PASS (prelaunch/PRELAUNCH_GATE.md): core manifest 1718/1718; rebuild identical; 11/11 validation artifacts reproduced; no stale procs; T_min(25,1024)=7825119335 -> T=7834959871 (467 segs); T_min(5)=1511545536 -> T=1526726655; lattice (1/1024)Z authorized (c_E | 512)",
+  "STAGE W DONE 07:01:24 (32.6 min): 467/467 segments; 360542141 primes (360541575 witnesses + 566 exhaustive); 0 FATAL; aq root fcd024375b54642344d03502caf0c53882190973ab2683239011f813ca2848d4; root(0..90) 35a4745f...",
+  "STAGE A done 07:08:29: m=25 20/20+20/20, m=5 4/4+4/4 identified in (1/1024)Z (all integers); P3_CHECK 7/7 incl. 8 T_5 identities",
+  "INTEGRITY 19/19; CROSS_RUN_P3 467/467 byte-identical (root fcd02437 equal); DOWNSTREAM_P5 21/21: route A 152 = 2 mod 5, route B a_{2,2} = 2 mod 5, a_{2,0}=0, a_{2,1}=0 mod 5; route C LP5 20/20 + 152",
+  "PARI primepi(7834959871) = 360542141; replays: stage W sample 32/32, msl m=25 (W=12) and m=5 (W=16) byte-identical",
+  "optional R2 reading: ~/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/addenda/P3_R2_PERIOD_PROVENANCE_AUDIT.md (R2 OPEN, sharpened to p = 3 | N)",
+  "reports written; P5_MANIFEST.sha256 last"
+ ],
+ "next": [
+  "(operator) review / merge decision; no p=7 launched"
+ ],
+ "anomalies": [],
+ "merged": false,
+ "launched": "2026-09-19T06:28:48-0700 (J=W=16 via monitor.sh)",
+ "coefficient_roots": {
+  "aq_root_467": "fcd024375b54642344d03502caf0c53882190973ab2683239011f813ca2848d4",
+  "aq_root_91": "35a4745fbce663ec63475f573ca82376c8557ab51557a968d5c0d1b6c78157af"
+ },
+ "result": {
+  "symbols_b25_plus": [
+   -54,
+   16,
+   90,
+   -52,
+   -76,
+   16,
+   76,
+   -52,
+   -54,
+   90,
+   90,
+   -54,
+   -52,
+   76,
+   16,
+   -76,
+   -52,
+   90,
+   16,
+   -54
+  ],
+  "six_symbol": 152,
+  "a22_mod5_omega1": 2,
+  "a22_mod5_neron": 1,
+  "ord5_a2": 0,
+  "lp5_agreement": true
+ },
+ "return": "P5_RIGOROUS_SHA5_ZERO_CONFIRMED"
+}

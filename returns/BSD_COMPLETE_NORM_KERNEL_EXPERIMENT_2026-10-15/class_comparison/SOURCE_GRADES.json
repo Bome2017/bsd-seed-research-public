@@ -1,0 +1,20 @@
+{
+  "seed3": {
+    "full_source_completeness": "retained GRH cache; not recertified",
+    "literal_class_coordinate_map": "retained class-boundary realization; no new class-group certification",
+    "known_four_class_membership": "retained exact covering/cohomology and local/global admission inputs",
+    "known_four_class_independence": "retained exact residue certificate",
+    "class_supported_excess_dimension_one": "also follows independently of class-group completeness from prior exact antiunit exhaustion and literal two-unit witnesses",
+    "coefficient_domain": "coefficient 3, bad for the seed; not a counterexample to a good p>=5-only statement"
+  },
+  "28042a1": {
+    "full_source_completeness": "BNF certification timed out; no complete-source upper claim",
+    "literal_class_coordinate_map": "retained provisional class-boundary realization",
+    "known_three_class_membership": "exact scalar and affine norm cube certificates plus authenticated full local images",
+    "point_rank_saturation": "retained algebraic rank-one bound and nonzero Kummer point class",
+    "known_class_supported_quotient_zero": "independent of completeness because the supplied span is one rational point plus two literal units",
+    "coefficient_domain": "good coefficient 3, rank-one control"
+  },
+  "current_check": "exact standard-library F3 calculations with exhaustive small-space enumeration; antecedent arithmetic not rerun",
+  "endpoint_effect": "none; FIN, ORDER9, Q36 unchanged"
+}

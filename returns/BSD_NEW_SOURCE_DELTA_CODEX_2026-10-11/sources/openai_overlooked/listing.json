@@ -1,0 +1,50 @@
+[
+  {
+    "name": "README.md",
+    "path": "preprints/The-p-adic-section-conjecture-October-6-2026/README.md",
+    "sha": "55e40ba31f6cd3d1862486ca62ee2db4ddef7f51",
+    "size": 671,
+    "url": "https://api.github.com/repos/openai/math/contents/preprints/The-p-adic-section-conjecture-October-6-2026/README.md?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "html_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/README.md",
+    "git_url": "https://api.github.com/repos/openai/math/git/blobs/55e40ba31f6cd3d1862486ca62ee2db4ddef7f51",
+    "download_url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openai/math/contents/preprints/The-p-adic-section-conjecture-October-6-2026/README.md?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git": "https://api.github.com/repos/openai/math/git/blobs/55e40ba31f6cd3d1862486ca62ee2db4ddef7f51",
+      "html": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/README.md"
+    }
+  },
+  {
+    "name": "build",
+    "path": "preprints/The-p-adic-section-conjecture-October-6-2026/build",
+    "sha": "246a29c2fe0f5133bebb7ac46e91f8d711b5a984",
+    "size": 0,
+    "url": "https://api.github.com/repos/openai/math/contents/preprints/The-p-adic-section-conjecture-October-6-2026/build?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "html_url": "https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/build",
+    "git_url": "https://api.github.com/repos/openai/math/git/trees/246a29c2fe0f5133bebb7ac46e91f8d711b5a984",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/openai/math/contents/preprints/The-p-adic-section-conjecture-October-6-2026/build?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git": "https://api.github.com/repos/openai/math/git/trees/246a29c2fe0f5133bebb7ac46e91f8d711b5a984",
+      "html": "https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/build"
+    }
+  },
+  {
+    "name": "main.pdf",
+    "path": "preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf",
+    "sha": "5d83521ccc50a2c7f990474b14841a982f1bcefc",
+    "size": 491950,
+    "url": "https://api.github.com/repos/openai/math/contents/preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "html_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf",
+    "git_url": "https://api.github.com/repos/openai/math/git/blobs/5d83521ccc50a2c7f990474b14841a982f1bcefc",
+    "download_url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openai/math/contents/preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git": "https://api.github.com/repos/openai/math/git/blobs/5d83521ccc50a2c7f990474b14841a982f1bcefc",
+      "html": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf"
+    }
+  }
+]

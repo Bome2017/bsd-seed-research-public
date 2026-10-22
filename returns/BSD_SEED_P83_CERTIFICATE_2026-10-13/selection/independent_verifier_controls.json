@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "alternate_c2": 16,
+      "c2": 15,
+      "name": "historical43_calibration",
+      "outcome": "PASS"
+    },
+    {
+      "name": "printed_candidates_and_flags_ignored",
+      "outcome": "PASS"
+    },
+    {
+      "name": "duplicate_label",
+      "outcome": "REJECTED",
+      "reason": "duplicate symbol label 1"
+    },
+    {
+      "name": "missing_label",
+      "outcome": "REJECTED",
+      "reason": "incomplete label set: missing [1]"
+    },
+    {
+      "name": "out_of_range_label",
+      "outcome": "REJECTED",
+      "reason": "out-of-range symbol label 173"
+    },
+    {
+      "name": "malformed_symbol_line",
+      "outcome": "REJECTED",
+      "reason": "malformed XB symbol line 353"
+    },
+    {
+      "name": "multiple_lattice_candidates",
+      "outcome": "REJECTED",
+      "reason": "label 1: lattice interval contains 3 candidates"
+    },
+    {
+      "name": "no_lattice_candidate",
+      "outcome": "REJECTED",
+      "reason": "label 1: lattice interval contains 0 candidates"
+    },
+    {
+      "name": "negative_radius",
+      "outcome": "REJECTED",
+      "reason": "negative radius"
+    },
+    {
+      "name": "nonfinite_number",
+      "outcome": "REJECTED",
+      "reason": "not a finite decimal: nan"
+    },
+    {
+      "name": "symmetry_broken",
+      "outcome": "REJECTED",
+      "reason": "plus symmetry failed at 1"
+    },
+    {
+      "name": "nonzero_c0",
+      "outcome": "REJECTED",
+      "reason": "c0 is not exactly zero"
+    },
+    {
+      "name": "nonzero_c1_after_exact_c0",
+      "outcome": "REJECTED",
+      "reason": "c1 is not zero modulo p"
+    },
+    {
+      "name": "nonprimitive_generator",
+      "outcome": "REJECTED",
+      "reason": "generator out of range"
+    },
+    {
+      "name": "nonintegral_lattice",
+      "outcome": "REJECTED",
+      "reason": "lattice denominator not a positive p-unit"
+    },
+    {
+      "name": "nonprimitive_generator_power",
+      "outcome": "REJECTED",
+      "reason": "generator power is not coprime to ell-1"
+    },
+    {
+      "name": "synthetic83_zero_is_inconclusive",
+      "outcome": "PASS"
+    },
+    {
+      "name": "exact_decimal_syntax",
+      "outcome": "PASS"
+    }
+  ],
+  "count": 18,
+  "scope": "output arithmetic/parser controls; synthetic cases are not seed values",
+  "status": "PASS"
+}

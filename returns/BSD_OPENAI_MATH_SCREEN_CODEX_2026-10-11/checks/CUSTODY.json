@@ -1,0 +1,998 @@
+{
+  "source_binding_entries_verified": 198,
+  "distinct_bound_files": 198,
+  "all_matched": true,
+  "meaning": "Byte identity only, not proof verification",
+  "entries": [
+    {
+      "path": "sources/direct/exact_01-introduction.tex",
+      "sha256": "240f2869aa196e1f3582c527589055f079b316801f39658dd9918a3e5812fbc3",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_02-classical.tex",
+      "sha256": "20dfc559f07e007f4ac2b4ce3299d68af1dc4e5aed5281d1f3eb27efeb4f0642",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_03-models.tex",
+      "sha256": "08f3462b451bb1e9a9cf7af747cec20ed7651a87acd0cf993ff24fef495b33f0",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_04-vertical.tex",
+      "sha256": "6f5ac8b5cc7c5f07965e0b9ee13fee30dd1519aa695c2c93c80376cd32c5ee99",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_05-single.tex",
+      "sha256": "754ca04b7615dff018d330b01f443146d0ea79e4f34bffdf37668df50080ccec",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_06-pair.tex",
+      "sha256": "01f66e65380fd09162093cbde21919296e556334ef9343efa44b10d7f72d9640",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_07-theta.tex",
+      "sha256": "f3096727af742d78710a87c4fc4a0a569a3bf2b72c533099b06972c95e164808",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_08-extraction.tex",
+      "sha256": "2422ace8de4df34f2a2f719648cb60caba6efc636df3eee3abfc5c2cbd00c774",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_09-unit.tex",
+      "sha256": "2760d6abc860b68cad8f108b85f4386f3797dde92ad4196ba879f85b53039d86",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_10-center.tex",
+      "sha256": "24f97fd44cd319fdee401f12683ba35997e4899f84a7b154518e01fd82eb5eaf",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_01-introduction.tex",
+      "sha256": "fbfaa412632733c43df4a68b7b39351169b24af93d1625849ac2416446bc547a",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_02-reduction.tex",
+      "sha256": "ad6c4f6c6e352fc79f26f57abbbd1d89e2bcbf6d19e943d3219ccf983dd549aa",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_03-tame-deformation.tex",
+      "sha256": "7475a8c8e139f7fda0d266c970d09d6edf5aefc66faf05cd80bd5f1b2a8bda72",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_04-theta-construction.tex",
+      "sha256": "40ce4e583f4dd5a2fe8870a28e65a85d66d4e87def09b1ed0f6986ededd104d3",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_05-constant-terms.tex",
+      "sha256": "98ecfcd5aee406ab121f229435fae44082b879ba0668b5e5e5d6fdafcbe68e82",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_06-nonconstant-coefficient.tex",
+      "sha256": "fa1e5db616e51c6457e219e80699e682ccb6de818a45c148445c0005c2851566",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_07-cusp-lifting.tex",
+      "sha256": "e55157789a0c5db27ed1e8acb9bf2c489ba6f32d1360061464fb19b4b9c3867a",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_08-galois-parameters.tex",
+      "sha256": "a9034a33b0ef6dcc775acbbaeba225dadfac2c4b145067ef7286c05e37f0f3ca",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_09-extension-extraction.tex",
+      "sha256": "54e34680a9c2a93c144277740b751f66c7a2167f3b6d0092c68a580207310c0a",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_10-nonstandard-transfer.tex",
+      "sha256": "359a0756df578ee46eb186e97f2dafd137f5cff805fce27a86402c0b36aead59",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_10-sylvester-cube-sums.tex",
+      "sha256": "9c65e11cd55f025b58802981cd95ada974eaf69758199cb4d305ab5dc15b95f3",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_01-introduction.tex",
+      "sha256": "3590595034abfd7831bd0f73ba4e27af240464d62ccd3840e62ba1598e072824",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_02-classical.tex",
+      "sha256": "b6b65cba0b5bf065bc8f3928024c61f617cdad765019ac3d8578c9df0428c079",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_03-foundations.tex",
+      "sha256": "11b7e5a43e56f5bfe088bfd89e2bdc3476d0d71f425dc09dd450b3232ba7ba9c",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_04-siegel.tex",
+      "sha256": "66e5717423d4a59d28759a4aa74e4f89ef0c08a3e6a6a62405e1d1f9c6dca227",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_05-positive-determinant.tex",
+      "sha256": "4a1ff4e2efad92f872e1799c42a2e141f8a5ea2f347cfef9334e73c081b972bb",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_06-tame.tex",
+      "sha256": "9dff01f390aa503e3323336333e346116fc1ad188d666c0407bef882caa94f2b",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_07-positive-completion.tex",
+      "sha256": "fa1b5eb36f6d3fbf25eefc8a6396d45cd3e4a29541d820ca270adb16dd614181",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_08-split-measures.tex",
+      "sha256": "bf7eb0083f236bf2f285b24275f7978544d9c7c1e633a24acb291f7ad8a815e2",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_09-split-local.tex",
+      "sha256": "3d1f9618d6a62f5b987be8637ed0cddb9c4a737140e02303dff84d6aa008abc5",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_10-reducible.tex",
+      "sha256": "16b9662cbe4a20e2373095e1493456efefe286db0a0edda281a38c03aba9cd15",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_11-cm.tex",
+      "sha256": "4554de33170d079502d4f6540f7dcba1a3c1410da7397f702074444e76fd2900",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_12-alternation-imaginary.tex",
+      "sha256": "e8dc1a614113506940299fa4493441e33e6f1a5f9fc277cdf29a85864909c60c",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_13-real.tex",
+      "sha256": "e4a593943049745cca4bfea251338ff9eacfecbfdc8117c1d0910605edcc47aa",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_14-cyclic.tex",
+      "sha256": "f831eb019703977e68f648a489c62e3756f42838d192a94fdfe86cab4ec0164d",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_15-conclusion.tex",
+      "sha256": "631069aa85636d31670c4e56c96b2d6a738b9662e3b2ec2b9dc32af701246996",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_README.md",
+      "sha256": "d1526672c647f8fc5b5699473e8fb3fc36796530036d5e595d02e7e55e57c9e8",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_main.tex",
+      "sha256": "4f8387ae11c945acefbb08379de63abbe600675f7ba9452f83ac4fddb8d6a82b",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/exact_references.tex",
+      "sha256": "de2b3cab002137ba76efb31c585c0056a828c6d1748b4acfaf4eff93cd341453",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_README.md",
+      "sha256": "0a6fdc8a40429fe2c744f14c6de143deb6584b4e9590da01f3fbb9bc0706b45c",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_main.tex",
+      "sha256": "f3041cc232d7b2b019189b89d94ad67fbe46bb9b2ec2bebbf08eac80bb379002",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_preamble.tex",
+      "sha256": "78f718ea7fa55c30afebf2fab8f3ac1fd7a3a94319079849884c8c81e8fe65ff",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/converse_references.bib",
+      "sha256": "ee24f758465760e78244818284102fa68b9dcbd383e0bc291ee28ee7c36ddc50",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_README.md",
+      "sha256": "9d12792b5b95fa773ba51b6292634d1057bdeaae6f1a37cd46aa9badf058d2e6",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_paper.tex",
+      "sha256": "e82ad1bf13a0bae9fe1a38515df96b2eed2b6a60a9ec067de1bd104185c862bc",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/direct/two_references.tex",
+      "sha256": "e5716217253ebdf9f248e4e720c3930b1a1d5f1f1b8961a5cab8bba9aaff14d1",
+      "kind": "direct source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/paper.tex",
+      "sha256": "da7dcb44272b099baffd466acc3d2f087ab9261fa8ec36358b23b2b6e0b139ab",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/references.bib",
+      "sha256": "0dedfae0c094749efcd8c992bd4fe2c3bc5220726107e192bb08d69f58bd13e6",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/coefficients.tex",
+      "sha256": "6e2266b43cdada2d63df5c0d5bba8b42e6dd24ea6cc9b230e3d52e9dbc5f213d",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/cyclotomic.tex",
+      "sha256": "29d8764bf7ed79913a4def3d56e49b125bb96d334a5a4514b5390f34d6294605",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/graphs.tex",
+      "sha256": "2a030319f3fd3f7c357dfb6af3fe6b05bc4ca486daa30d246bad220556b2924f",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/introduction.tex",
+      "sha256": "bc255e29252fc8c6de35ad4c65334ac2aa5d9328f6979850a1d28f62dbd237f3",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/nonvanishing.tex",
+      "sha256": "b5c0209d2202cc798c3fc7896432c0c534f51284447df7bd6b84f59243c69963",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/pointwise.tex",
+      "sha256": "66717dc63cf7821281f988386a24a99f65113cfa1fa97419f8ebd752a78056d3",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/preliminaries.tex",
+      "sha256": "67e7e7da23c8d3b5a82f202a15dd490b52eac40b7afa6d4055e70f3fcd67842e",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/proof-roadmap-figure.tex",
+      "sha256": "b17e03f1df094de73e8967715ee56ee7629f9ae7256c3e6bf2aff421d4a394cd",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/ring-determinants.tex",
+      "sha256": "b0edb60ba616f8043f6a12f0c2206ffc236c10e9ccb5423fede9d60158a59995",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/sections/ring-limits.tex",
+      "sha256": "d32b0cf0e44088026430a4494d62a1dfd85e005d85eba22bf5ac16d799f194c6",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026.build_listing.json",
+      "sha256": "a17458992c9071898537a32d400c75d06e73b2096fd4387b8de684f5c659d900",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026.listing.json",
+      "sha256": "34c74f049c041489203f95fb7232b9a7a619df156c0c3dfa40bdb4b97ca0bd88",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026.sections_listing.json",
+      "sha256": "5394686b55870c847a31c3e45e4dbf9d55c57ba9be5d34a548fee88019b35aa5",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/main.tex",
+      "sha256": "0270832894b8562f8a0b5c2596a73023be0ffd1a35572a989e938cbdeb4eccc1",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/references.bib",
+      "sha256": "a661b0ed4091f7de914bc432920c18887cdbe74fd6147b145d44c6e9323e09b7",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/00-introduction.tex",
+      "sha256": "adf4b79dafca784ddc4f114e94a69def81aae36d1dfba0aa98cf9d4f21f1ca7e",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/01-arithmetic-transfer.tex",
+      "sha256": "55d0c4870170b66bd0626778a877e6785c3dfab1eed1ecc81506812757570d6e",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/01-nonvanishing.tex",
+      "sha256": "a1374e31d56f63644eb38b6b894e3865dc8afa52523eb1ddfbd9a69df039d4f5",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/01-preliminaries.tex",
+      "sha256": "16c96c34b1377f077199f8c11645a5eb7c9bd9eb99799e85bc7f7d0e822b400c",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/02-binary-algebra.tex",
+      "sha256": "66beeb4650ce72fd37dc8eb8609942fe4aa9e3e900c8c1c80b302d094ea947d0",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/03-heegner.tex",
+      "sha256": "ee0736a8efb4cb0cacb4bd62f68b0bfb4c453b58223b67a18932ca730ca2a131",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/04-cyclotomic.tex",
+      "sha256": "aead3d9d7d7aa66ee50d93504350a49a65603641d1357441b870da9886698f98",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/05-coefficients.tex",
+      "sha256": "c2d2e0ef37252b0064b864d61aeaf9391a817e6f3c15f1a4e1d109f209329713",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/06-traces.tex",
+      "sha256": "40d5a0ed9e1873c86a07680021120deb429e19e46c8e24409b269c31489d541f",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/07-prime-graphs.tex",
+      "sha256": "bde9bbf3077dd41a5b42320ee263cb4d9543448ffe880113082072703998ebe9",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/08-rational-converse.tex",
+      "sha256": "5bd20404b66a1f02e16f7afccc3b63a7cfc26076c126a56b77898414ac6b449c",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/09-local-matrices.tex",
+      "sha256": "32f6d6d98e97198390f4f9ee6eb79106f862b6a08b39b11b14bdcedec49025e2",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/10-irreducible-converse.tex",
+      "sha256": "e8a605899248dee08903b281c1a59d0deb7783fa41bc223f1e5d63b01dac5eec",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/sections/11-conclusions.tex",
+      "sha256": "0ba4282a656a44697fc8b123e8520956831f6ba8ccb93e584d5af2cd48918540",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026.build_listing.json",
+      "sha256": "48461eb6dc712d40d51170ae4ea4595e1ead7d31aeb5e2d74ee05810ffc8d01a",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026.listing.json",
+      "sha256": "84fa5a33f4940b86cae819e59561bfbab28a560451ed0c532ddc36f417b65b98",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026.sections_listing.json",
+      "sha256": "0a73aad44ef158294599e3246543b50bb70628a0cd7c4cf0cda431e04493bcd7",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/main.tex",
+      "sha256": "f83990ba1398baaae966cb315f74b8d5c60033dc8e7f05d9913266d975a236bf",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/references.tex",
+      "sha256": "5ba4ebcca0bea8df3e49cfa948ac2dbd6014518a5ff3d6106abd095ea8a5802c",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/sections/00_intro.tex",
+      "sha256": "bc09e04fb74514edda6e7462877e00d227589687473e174ca6513f266c704926",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/sections/01_preliminaries.tex",
+      "sha256": "8376504f90d889bd27b1256af0f18b26858e59e45bfcda9c95e3130318e73306",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/sections/02_transport.tex",
+      "sha256": "921c8ba59dc893db75be13b7b6603e18c62ce93146a7b6be7961a5efa4b3f37e",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/sections/03_filtration.tex",
+      "sha256": "7971d8c4d3b842bd63984f7dddfbf0f2e5281fe195ac77abe78265f2dbb3b4d2",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/sections/04_weil.tex",
+      "sha256": "b379169948526fa813226ac29b9a7b66592b248d0cea67677373e4f5d40b1383",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/sections/05_reduction.tex",
+      "sha256": "8b5125b255aa2be3b50ab598d825ef0d3894ad8844de5ac88d3cecc7949e66f9",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026.build_listing.json",
+      "sha256": "d19f5fdd11b84995e3edc736ee736549125de87e762241b6bf595aff772028cf",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026.listing.json",
+      "sha256": "9e0f725ccc49aeb741be7de385113f6e1461bdb97c41aafe172439deab0a6bf4",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026.sections_listing.json",
+      "sha256": "dfa2440aa59b43eec86b18fc9171d616d2c95e8169d24c6dfa382e83ecdb8fb3",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/main.tex",
+      "sha256": "c51b5d3a4a933157a722c1060418656a42587f07a9ad1e5177c95ea769bb642f",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/references.bib",
+      "sha256": "edfe95df67e3ca77c87b9f23489f9e9c6533e096fae3b8c31e148b9b46e206f3",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/automorphy-inputs.tex",
+      "sha256": "a595a414c000b5d6002b02c4eb68bb372b3258e2e9d0b13b105a5051972d0aec",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/automorphy.tex",
+      "sha256": "9746bcd36ebb72cd4ecae616a3ecf1cc49d26ea69f9d5f414a33573716ab4117",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/conventions.tex",
+      "sha256": "21d9cef1f5921bf61cbc71867926943589d888e55f6b3a572b59298abc868d82",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/geometry.tex",
+      "sha256": "9b125a69b213d440510da6e10331351f4f269ffebf4e8c45f18228c530c145d7",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/introduction.tex",
+      "sha256": "506276f0733853241308594e0f8d4de3109cd562398fe3b78037c3d311aaf1ab",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/local.tex",
+      "sha256": "bdea439554943ef9e61f11039622e91882bcac2da809c65de4e44491a2e9343c",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/monodromy.tex",
+      "sha256": "c12d994352a28456cf34401603b8f02ed1da51d275fd8462862977bebc0f8dbe",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/residual.tex",
+      "sha256": "0a631455df7ab0fe69d07625cbc36efc0d1be3da760ac5bc73e60bc6f742cc65",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026/sections/systems.tex",
+      "sha256": "2fa4d198be592f4c479995eb2a5636006a2494e5cba175bee5e2a01c8a10c050",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026.build_listing.json",
+      "sha256": "8dd1fabaab45bcad5458cde238ddd8d039dc8c294c12a6bd7129e57825a7131c",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026.listing.json",
+      "sha256": "a13408d3a5e43acb55a56aabdf1c19c746c01198c60e3e31049071904dea21ae",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026.sections_listing.json",
+      "sha256": "c8522514739e7118a0d5a5558003db15f7ce63aed19200f4663d8fabb19946df",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/main.tex",
+      "sha256": "d93f44c4cd3ed4e238e3887eea5ff0356f076825efe07bb347df044684b903d4",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/references.bib",
+      "sha256": "457361960ab4ea918a168aa6f13cb186b87b6c9dee57c83acd7cc32d53f5d7e8",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/sections/algebraic.tex",
+      "sha256": "609860b62f5f13294f89136cdbe0bef1476ca42269b712451c5e47d052e1d6c6",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/sections/analytic.tex",
+      "sha256": "8bf10c103a43f56496e210d7d03a8afebe6881ed9b65144bba2a2a60accdd6f0",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/sections/introduction.tex",
+      "sha256": "cf1aec3212f453073f590cb217e06a777ac5752f6f21a6dc1c97b9867c892922",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/sections/model.tex",
+      "sha256": "f8f5eb4ea22e067515a7f09eafaad5a8e8f565629627d3fe6287a01204c686bf",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/sections/setup.tex",
+      "sha256": "2548e91d038c025a565aae983a4bb374e033a458dbca3525a712d6ef962c8bde",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/sections/tail.tex",
+      "sha256": "404e13d0c21e534471398330459add0ce4e65dc18482c9c4140e5e934d4fc635",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/sections/weights.tex",
+      "sha256": "60aa09f100e3e7c911b65693d828cdb90585c403a883246c89b5fc9af00193b7",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026.build_listing.json",
+      "sha256": "964cf5758d4f70e324eecbb6d6544b0f4e94c55124c0b25dbb421280da795a14",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026.listing.json",
+      "sha256": "69665d44c6d9bdf8ffcdec0251cdba378fc79271a3062c7c94f90d7072c4b2d1",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026.sections_listing.json",
+      "sha256": "8fca529f88a1c3895fb28ce29f66410d08795f586ac3e8a8f686d7049e47c4e6",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/main.tex",
+      "sha256": "a88f5a094c6af2a01f7da055616fec7c8a030b48c87730bdf4226ce08a127118",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/preamble.tex",
+      "sha256": "2fe5857f99a9e0fe5108889e48c4724f6bf10dad53bf934439b17f2a7488e3ce",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/references.bib",
+      "sha256": "307a03618fd2eb12c577557d61cce5a64c96f3590afd318698e5cd68c9e4b926",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/01-introduction.tex",
+      "sha256": "cfaf3d085e9138e9818754cf3493a55be497e57a2c0432242f4dae5089f4720a",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/02-tensors.tex",
+      "sha256": "e7b6dee31ff3296e6fe1cbfda70441de47b5c6042c0a7216ac52b8b68eaa7e2f",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/03-surface.tex",
+      "sha256": "0faa31073f2eec34a82a2ce7554dcc903c8136bb4bffc43d73a85bffee672d5b",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/04-theta.tex",
+      "sha256": "c3c42f2820a8f42b7e1b4dda2e4c984336fde72b09f7683afb3bed9e64237027",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/05a-moduli.tex",
+      "sha256": "3e25d6ae9fddf3ed47a695aad97714400c12e358beef24e703027b9a801ba346",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/05b-frobenius.tex",
+      "sha256": "fa981f76a7ebc75b4395e4266b0619b08b74273cba346f3217ea5b736172b428",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/05b-satake-frobenius.tex",
+      "sha256": "36aaa88e48f9c556daa5b474b37caa51607dd6f7453a5d9607ea07b7267f84f3",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/05c-cm-types.tex",
+      "sha256": "7cd65bc8883c6bf513c89e841ae85812be096354516c1b90f58e81b52cb5bd79",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/06-assembly.tex",
+      "sha256": "c9d120f17ba3b1da5b8f92700eb9bca3ca3502e9ec6a6e81558d8a44f2310a2f",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/sections/07-consequences.tex",
+      "sha256": "cdc4357637b83d7a50552f30197bc20e43159aa046764aaa29040ac138e591c2",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026.build_listing.json",
+      "sha256": "40bae29ff64d2cddcbe0c581d55f1b7f5fb609e5d42db5d8f16bb39c6203ea17",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026.listing.json",
+      "sha256": "36df6a0130a83c3ed383a5585875d7a96e4641177b99e24924700338623fd7ff",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/adjacent/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026.sections_listing.json",
+      "sha256": "b93a2d91e84d0e0ac71ca928a9c7e897b4398ba2744b3b87f2af9ee57f274fe9",
+      "kind": "adjacent source"
+    },
+    {
+      "path": "sources/formal/LEAN_README.md",
+      "sha256": "292ff9d539f494158dfbf68d989ba85a82782a4343b2fe43088f8fa62525bf1b",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/formalization.yaml",
+      "sha256": "5a8a164259591208886cd018416e61552665265ec9e20cff636f9d51117c2278",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/COMPARATOR_README.md",
+      "sha256": "2ed835b3c59709be6feffe0dec54fc9783fb26aa22d35517475a82ef5199c555",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/lake-manifest.json",
+      "sha256": "cf6105a25d9dca2f166b241d9191bd12c7e13305890dc9c4d0952351cccc0794",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/lean-toolchain",
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/lakefile.lean",
+      "sha256": "4cca977ebece444b6c999d99755c1ad3c93119bafc127ea761f7f703c7279e74",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves_TREE.json",
+      "sha256": "cff44065d56cd8e0f9473a01ba9acf3c69b62b836f8396db379dce210f422635",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves_README.md",
+      "sha256": "4e47c4c95a8681e1c14efc67ae4f2296962637b12b3fdf9167a977ff21fa4efd",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/tate-curves-theta_TREE.json",
+      "sha256": "beb22046d3d721badf6744c4db1bf0daa9caca6a3d25ca9660f189bc8b9f0e95",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/tate-curves-theta_README.md",
+      "sha256": "39e8c92291813bdd22229dcd844bea457b20471b7e9921acf50fa42b8463d8ce",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves__EllipticCurves__FormalGroup__LogMulByN.lean",
+      "sha256": "9f0b5ceb79f2da7a14b65178bd567e4eeef58e30d31d333e7a92083062652992",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves__EllipticCurves__Reduction__KernelFormalGroupIso.lean",
+      "sha256": "e590b7c9dc08eb8fa3a7cd32ec052a32b692b290a761e9144fe178eac3f3d509",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves__EllipticCurves__TateModule__DeterminantGeneral.lean",
+      "sha256": "e66145f9c5a350fbc30e4f6ae23eea738692a810f7f3add87a9eaeba78ec9b80",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves__EllipticCurves__Reduction__Torsion.lean",
+      "sha256": "2f7f0552abbdf6ebd6113dc447f436ecce46a51216e692868ca4ce997f249e3f",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves__EllipticCurves__Reduction__NeronOggShafarevich.lean",
+      "sha256": "c2c3de108630608e95a5cc47b9a0d0d312351f6d0bfe34c5b0e8c9c11f2a7520",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/tate-curves-theta__TateCurvesTheta__TateCurve__TateUniformization.lean",
+      "sha256": "53372c6a3b68884cd412bc834d292bb815b2b7d6f89e598250cd59fa6e4c53d5",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/tate-curves-theta__TateCurvesTheta__Theta__Divisor.lean",
+      "sha256": "b69a7647b9b4c2951c9d3621687d2531f0e5a9c8cb59ba076826400a08f01d8a",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/exact_old_01-introduction.tex",
+      "sha256": "ee516024f86176f28ed90c4b411144741063726669aa792a92ff1640160142c9",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/exact_old_references.tex",
+      "sha256": "2cc22666ad80916c3c701e7aae01b4fe017cded240d2b03759145eedf52212fe",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/exact_new_01-introduction.tex",
+      "sha256": "240f2869aa196e1f3582c527589055f079b316801f39658dd9918a3e5812fbc3",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/exact_new_references.tex",
+      "sha256": "de2b3cab002137ba76efb31c585c0056a828c6d1748b4acfaf4eff93cd341453",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/ALGEBRAICGEOMETRY_TREE.json",
+      "sha256": "cb4812e78cf0c43075d22553384c5018644a18420b67604edf8ac4b80f4aff10",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/ALGEBRA_TREE.json",
+      "sha256": "07820f48a0455fe5bd41fb857f3ba7a5531c34e227773ad979bf84bac1f543e9",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/COMPARATOR_TREE.json",
+      "sha256": "214d075d179da58770556b7adfe2e31dfc137c884269c37d356963afaeeb1a9e",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/DOCS_TREE.json",
+      "sha256": "d85e5723620fa9bd2357e75975ccb7df5a7e5e00aaf75bf29073177d985eeb32",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/GROUPTHEORY_TREE.json",
+      "sha256": "b7aad0d7aebd8673f45b4e1f3cf38e64ec8192c5386c215116148fb8e60fc279",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/LEAN_TOP_TREE.json",
+      "sha256": "94a586d0ec310f482ae1f0f917d09c69f32a4c62b440fcbb6063cfd1c86c85d7",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/LINEARALGEBRA_TREE.json",
+      "sha256": "7d6749030b4b46506f274d48b1cc3ece3c92bd80ba5d011f305e1f44c2aa355c",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/NUMBER_THEORY_TREE.json",
+      "sha256": "32f9cd070cfa7c04e40848c301548f0f9035c4aebd76f49f48ec1a82fc910684",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/OAI_TOP_TREE.json",
+      "sha256": "584e1513957e4cf66e5d547b208b7af46712e24a5448dcb78c5dcad8224ffaec",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/REPRESENTATIONTHEORY_TREE.json",
+      "sha256": "bd3d83e085301bb4ec45d0611930aadf0885c155b49eda57b57ac6091bdee73c",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/RINGTHEORY_TREE.json",
+      "sha256": "25d3108236bf22fb07c6cb6b00eae07f9e934caa19077a9879970921b210b29e",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/formal/elliptic-curves_LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "kind": "formal source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/README.md",
+      "sha256": "d395f54883fb66fa170b7dbbe5630769e1b81be5a54dd9799355a7e67d7c413f",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/figures/two-transports.tex",
+      "sha256": "22bdd06bc7b8f157c5570124a114fc72261763597375cab059d6b358d7db48a8",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/main.tex",
+      "sha256": "f83990ba1398baaae966cb315f74b8d5c60033dc8e7f05d9913266d975a236bf",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/references.tex",
+      "sha256": "5ba4ebcca0bea8df3e49cfa948ac2dbd6014518a5ff3d6106abd095ea8a5802c",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/00_intro.tex",
+      "sha256": "bc09e04fb74514edda6e7462877e00d227589687473e174ca6513f266c704926",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/01_preliminaries.tex",
+      "sha256": "8376504f90d889bd27b1256af0f18b26858e59e45bfcda9c95e3130318e73306",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/02_transport.tex",
+      "sha256": "921c8ba59dc893db75be13b7b6603e18c62ce93146a7b6be7961a5efa4b3f37e",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/03_filtration.tex",
+      "sha256": "7971d8c4d3b842bd63984f7dddfbf0f2e5281fe195ac77abe78265f2dbb3b4d2",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/04_weil.tex",
+      "sha256": "b379169948526fa813226ac29b9a7b66592b248d0cea67677373e4f5d40b1383",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/05_reduction.tex",
+      "sha256": "8b5125b255aa2be3b50ab598d825ef0d3894ad8844de5ac88d3cecc7949e66f9",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/README.md",
+      "sha256": "142a2f0c5f48bbcc772c0dbd1f95b68876f9dc09ed5d580a2741d83551c8de5d",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/main.tex",
+      "sha256": "a88f5a094c6af2a01f7da055616fec7c8a030b48c87730bdf4226ce08a127118",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/preamble.tex",
+      "sha256": "2fe5857f99a9e0fe5108889e48c4724f6bf10dad53bf934439b17f2a7488e3ce",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/references.bib",
+      "sha256": "307a03618fd2eb12c577557d61cce5a64c96f3590afd318698e5cd68c9e4b926",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/01-introduction.tex",
+      "sha256": "cfaf3d085e9138e9818754cf3493a55be497e57a2c0432242f4dae5089f4720a",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/02-tensors.tex",
+      "sha256": "e7b6dee31ff3296e6fe1cbfda70441de47b5c6042c0a7216ac52b8b68eaa7e2f",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/03-surface.tex",
+      "sha256": "0faa31073f2eec34a82a2ce7554dcc903c8136bb4bffc43d73a85bffee672d5b",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/04-theta.tex",
+      "sha256": "c3c42f2820a8f42b7e1b4dda2e4c984336fde72b09f7683afb3bed9e64237027",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05a-moduli.tex",
+      "sha256": "3e25d6ae9fddf3ed47a695aad97714400c12e358beef24e703027b9a801ba346",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-frobenius.tex",
+      "sha256": "fa981f76a7ebc75b4395e4266b0619b08b74273cba346f3217ea5b736172b428",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-satake-frobenius.tex",
+      "sha256": "36aaa88e48f9c556daa5b474b37caa51607dd6f7453a5d9607ea07b7267f84f3",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05c-cm-types.tex",
+      "sha256": "7cd65bc8883c6bf513c89e841ae85812be096354516c1b90f58e81b52cb5bd79",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/06-assembly.tex",
+      "sha256": "c9d120f17ba3b1da5b8f92700eb9bca3ca3502e9ec6a6e81558d8a44f2310a2f",
+      "kind": "cycle source"
+    },
+    {
+      "path": "sources/global_cycles/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/07-consequences.tex",
+      "sha256": "cdc4357637b83d7a50552f30197bc20e43159aa046764aaa29040ac138e591c2",
+      "kind": "cycle source"
+    },
+    {
+      "path": "context/CURRENT_STATE.md",
+      "sha256": "39f1ba089ead7dfce04d354c3fd8575944a5d21ccac4ebc393e96c4c3249705d",
+      "kind": "historical input"
+    },
+    {
+      "path": "context/work/returns/BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+      "sha256": "eeb4b685106117bd4f9db8d4f3281bd3bd936a5ad87f340e3bb732c4924bacea",
+      "kind": "historical input"
+    },
+    {
+      "path": "context/work/returns/BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+      "sha256": "0834fb2e341b6d392a29ba111649e06b5ee6c813d0798423e8fbc65ecacd3ffc",
+      "kind": "historical input"
+    },
+    {
+      "path": "context/work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md",
+      "sha256": "f8d083f5a9109d89fac7cef9f7dfba3ade760ea4cb61b580c8a27bdf90c9034d",
+      "kind": "historical input"
+    },
+    {
+      "path": "context/work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/RESULT_RANK2_ANCHOR.md",
+      "sha256": "45a2ea2f9f26a83e628c7a7734ceb69eba29ea8cfd616feaad0f3dc92a7aace8",
+      "kind": "historical input"
+    },
+    {
+      "path": "context/work/returns/BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/CLAUDE_CHECK.md",
+      "sha256": "2701bebfe2c3bae43946c82f53f5749347d5cbb1e539d96a3e0a38809ab8bf37",
+      "kind": "historical input"
+    },
+    {
+      "path": "context/work/returns/BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2_REV2.md",
+      "sha256": "de3c3eac2e227a6e228325d138df75e3cea311d4975f3a2b92d1419e379fe5c6",
+      "kind": "historical input"
+    },
+    {
+      "path": "sources/OPENAI_LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "kind": "license"
+    }
+  ]
+}

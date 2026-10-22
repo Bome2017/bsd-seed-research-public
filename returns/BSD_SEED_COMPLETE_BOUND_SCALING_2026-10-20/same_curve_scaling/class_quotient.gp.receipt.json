@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T17:58:41.013329+00:00",
+  "script": "class_quotient.gp",
+  "sha256": "a48b73602b99f9c660509ba06c5323f41c8bf5acfb2510a0e827a0d01c34f7ff",
+  "cap_seconds": 120,
+  "elapsed": 110.03474581683986,
+  "timeout": false,
+  "returncode": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "420646cf0bad3d0e6619f6cbe3c52b9b51132ee18c13623f03e5f16e0c1f9f17",
+  "accepted": false
+}

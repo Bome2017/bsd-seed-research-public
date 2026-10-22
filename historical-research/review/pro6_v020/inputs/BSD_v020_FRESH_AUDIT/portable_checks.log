@@ -1,0 +1,20 @@
+PASS  evidence hashes (3365 files)
+PASS  claim evidence bound to provenance (207 items, 76 claims)
+PASS  generated consistency: build_index.py  -- 76 claims OK; kinds {'FACT': 2, 'THEOREM': 24, 'EQUIVALENCE': 3, 'CONDITIONAL': 12, 'OPEN': 5, 'OBSTRUCTION': 17, 'HISTORICAL': 5, 'WITHDRAWN': 8}; evidence items 207
+PASS  generated consistency: build_brief.py  -- brief written: 76 propositions
+PASS  manuscript claim IDs resolve (not a semantic proof check)  -- []
+PASS  review replay bindings
+PASS  replay curve_invariants.py  -- 0.9 s
+PASS  replay coefficients_from_symbols.py  -- 0.7 s
+PASS  replay coefficient_verifier_regression.py  -- 0.7 s
+PASS  replay lattice_local_checks.py  -- 0.8 s
+PASS  replay archive_privacy_regression.py  -- 0.6 s
+PASS  replay receipt_join.py  -- 0.7 s
+PASS  lattice-local failure control is rejected
+PASS  paper-review exact arithmetic consistency replay  -- 0.8 s; no large numerical certificate replay
+PASS  replay 2243-adic height certificate (certify_d5.py)  -- det/p^2 = 2181 mod 2243, valuation 2; 0.6 s
+PASS  replay 2243-adic height verifier (verify_d5.py)  -- verdict ALL_CHECKS_PASS; 0.6 s
+PASS  replay F_2243 relation rank (compression obstruction)  -- 1.4 s
+PASS  replay W_Q pairing on certified m = 27, 81 tables
+
+18/18 checks passed

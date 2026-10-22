@@ -1,0 +1,24 @@
+{
+  "grade": "written deductions and bounded exact computations under retained inputs; same-team review",
+  "seed": "y^2=x^3-22735*x^2+106272484*x",
+  "retained": [
+    "full residual GL2 image on the stated source domain",
+    "Schaefer-Stoll scalar-compatible point-field descent and actual incidence-norm source containment",
+    "equivariant Dirichlet rank (p+1)/2 for the faithful ordinary-unit component",
+    "seed conductor and local Kodaira data; exact local checks provided for 2 and 4547",
+    "ordinary and supersingular local torsion representation descriptions",
+    "Tate multiplicative uniformization, Artin/Swan conductor formula, Weil pairing and type-III inertia theorem",
+    "previous seed-three source representatives and their original retained certificate grades"
+  ],
+  "not_assumed": [
+    "FIN, ORDER9 or Q36",
+    "class-group completeness from provisional BNF data",
+    "fundamental-unit completeness of the BNF candidate list",
+    "known seed-primary vanishing as a substitute for actual unit or class bounds",
+    "cross-prime smallness extrapolated from a control",
+    "ordinary-only restriction in the uniform valuation deduction"
+  ],
+  "newly_repaired": "At2, I1* is potentially good with v2(j)=4; use conductor3 and wild inertia, not a negative-unipotent potentially-multiplicative argument.",
+  "complete_seed_bound_obtained": false,
+  "uniform_valuation_term_proved_under_retained_inputs": true
+}

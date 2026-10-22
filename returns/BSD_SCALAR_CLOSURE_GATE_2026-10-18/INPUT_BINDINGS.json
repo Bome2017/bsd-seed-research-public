@@ -1,0 +1,41 @@
+{
+  "baseline_commit": "79fe49d73acf7f134c3d4344481095b2f1a8184f",
+  "files": [
+    {
+      "baseline_relative": "inputs/nf.gp",
+      "new_relative": "inputs/nf.gp",
+      "bytes": 2477699,
+      "sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e"
+    },
+    {
+      "baseline_relative": "inputs/field.gp",
+      "new_relative": "inputs/field.gp",
+      "bytes": 314993,
+      "sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22"
+    },
+    {
+      "baseline_relative": "inputs/basis_scalar_matrix.gp",
+      "new_relative": "inputs/basis_scalar_matrix.gp",
+      "bytes": 7237,
+      "sha256": "5e6919aa169afb19f8dd5a754fd11fbaca4f30f0c83c12e6ef2084329eb5b214"
+    },
+    {
+      "baseline_relative": "source/adaptation_checks.gp",
+      "new_relative": "inputs/adaptation_checks.gp",
+      "bytes": 170008,
+      "sha256": "98a7bb29799f4670770d43ae7764754fa4cc32de370281b718c0c867ab39633a"
+    },
+    {
+      "baseline_relative": "source/anti_factor_records.gp",
+      "new_relative": "inputs/anti_factor_records.gp",
+      "bytes": 1484755,
+      "sha256": "11c26e95bcd52a37f7fff132e17d8b194c34dfc7506174c9b0906c8cabccf21d"
+    },
+    {
+      "baseline_relative": "source/ANTI_DIVISOR_DATA.gp",
+      "new_relative": "inputs/ANTI_DIVISOR_DATA.gp",
+      "bytes": 921668,
+      "sha256": "b5ceb3f9571535b1487ec25a76cfc92cfe47201baccbc929036b316586a2ced4"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "archive_path": "/Users/bsm/Downloads/13920c22-e3bc-4dfb-a137-cf15033983a9-aristotle.tar.gz",
+  "archive_sha256": "654c743693b33df14ac4e80db51cf27910d8981f93a3156c6c18bbaadb4e4bca",
+  "files": [
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/lake-manifest.json",
+      "bytes": 3109,
+      "sha256": "116c6ef00aa899fb38c08c5e4c92c0e434d0e7f9d574fcb5d4d42cc90ffb07cb"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/lakefile.toml",
+      "bytes": 234,
+      "sha256": "b1481968ce2912f2b85288fc18aa05fb22750e4083f9e03f49f59a8814ba268a"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/lean-toolchain",
+      "bytes": 25,
+      "sha256": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/RequestProject/Main.lean",
+      "bytes": 563,
+      "sha256": "929b0bddef0b781f3fb42c7a99f252dc0bda7331f698104f7075e12ff637c52d"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/RequestProject/Seed/Curve.lean",
+      "bytes": 4377,
+      "sha256": "9a7d2d6d5b8302ece345f146a4cef4b3713f1fd232aafc665a7a68c3f3eaec9a"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/RequestProject/Seed/AuxPoint.lean",
+      "bytes": 7912,
+      "sha256": "6b6ffd08d4f3e77187288b915bca4e0828e8c0f681fe8e3a8889198afab63b5c"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/RequestProject/Seed/Local4547.lean",
+      "bytes": 4995,
+      "sha256": "3149d80894779fcb03820cb9e17c1a7a451109c47efbf52f90d6234e700d9917"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/RequestProject/Seed/BadPrimes.lean",
+      "bytes": 1967,
+      "sha256": "6a94bd3d672ec360fe78bdc4c7abf4afca57313485be2d14f2f701f347e4f586"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/STARTUP_RECEIPT.json",
+      "bytes": 5406,
+      "sha256": "bbb11aab14ed3978ddea2e40698e117661991c92b037195c92f603bcf233e123"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/MANIFEST.sha256",
+      "bytes": 2114,
+      "sha256": "219ae7e4df96868c9af1bf00dfc74c3146b5a3eee22401816d882b6e212c4187"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/START_HERE.md",
+      "bytes": 3047,
+      "sha256": "9a8a45f4f475ee33cb8c91931cfcf0c2ca1bb83fc2677dc9efdbc78d0a347fc5"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/BSD_SEED_RESEARCH_MAP.md",
+      "bytes": 100024,
+      "sha256": "3abbb760ad6c1bab2805609d9b5a0758530d54dcc0b87a696847d5ef3d090bcd"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/FULL_COMPENDIUM.md",
+      "bytes": 9215156,
+      "sha256": "a7d5db63eae00fb9433fa2276e7a9f876c0c32cbd4d99fb2e9d887f14a6d3a97"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/HISTORICAL_STOPS_AND_CORRECTIONS.md",
+      "bytes": 4400051,
+      "sha256": "8aefa608256599fb57895568ab65553b928dbb4a020f7354c053da4eea0d397c"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/MANIFEST.sha256",
+      "bytes": 1445,
+      "sha256": "582f9b4f7d86cc6dbba78314a0295d15808f1b4329bb51de02edf4493ffbe3dd"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/READING_SET_BINDING.json",
+      "bytes": 291,
+      "sha256": "8164493ad0175ec90ac3860498f0d038cc22c3db11a50315bc963ce66fe6c313"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/README_ARISTOTLE.md",
+      "bytes": 2549,
+      "sha256": "d1f4cdcf7e437aad27584f9e6a56c8b3ff8a9f631c1b52e7baa2c1203489d3aa"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/SUBMIT_COMMAND.txt",
+      "bytes": 558,
+      "sha256": "adc60c2d3db622ad3b0f653fd147bb9722a0d50bce2dce49b811b99b18d4dbeb"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/TASK.md",
+      "bytes": 2603,
+      "sha256": "d315d972df514020f7fe6dc8a059a6e3a144766e991b115bc26fe394aa67c96d"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/prepare_reference.py",
+      "bytes": 1550,
+      "sha256": "ebf8a3b580141ba8c29af350d25ac85f6e81589d95a515ddb00a06b62f156327"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/full_record_index/BULK_BINARY_RECEIPTS.jsonl.gz",
+      "bytes": 670525,
+      "sha256": "b5f827ed6dce14f8186abe5594df949f975fc6bf188cf20a23f106959f3a0ce6"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/full_record_index/CAPTURE.jsonl.gz",
+      "bytes": 24829701,
+      "sha256": "a144a8e1acf7619e11cc1603578639c18326b988e111e6a0a6ec2b27270d432f"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/full_record_index/COMPENDIUM_CITATIONS.json.gz",
+      "bytes": 238213,
+      "sha256": "c978a3c9dea425546a4204b91b65b66fe346079f9039c3c556146b70833f3b4f"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/full_record_index/COVERAGE.md",
+      "bytes": 5965,
+      "sha256": "d9fa545170f7677aaada9d75478902f0e62172bc5376abf10bfb60c9f659fdf5"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/full_record_index/EXPIRED_UPLOAD_RECOVERY.json",
+      "bytes": 107611,
+      "sha256": "8d21138c0d59aa28d9e5ac25eefdd236f95398dc5d9de407c8b4bbe61d562f4a"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/full_record_index/FILE_INVENTORY.jsonl.gz",
+      "bytes": 7490125,
+      "sha256": "1cfb4c91894de0646467d1cf293c2f56559269714dfd7f22ed7bd456a0c5a2f7"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/project/payload/COMPLETE_READING_SET.zip",
+      "bytes": 32962911,
+      "sha256": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/RESULT.md",
+      "bytes": 5955,
+      "sha256": "d9029a4958713a7556e6de63d8638ef597dbcfe1b6ae93f19b79124364493c2d"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/PROOF.md",
+      "bytes": 11039,
+      "sha256": "2c810686f56bbd2dbe076afb7dddf60c7a24a4e963c2fc3831feb65f13a9bc8c"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/ASSUMPTIONS.json",
+      "bytes": 5637,
+      "sha256": "16a74566086c481bd787f402b5743732df9fe6e3b7170ccaadefa9f42eaa7128"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/COLLISION_CHECK.md",
+      "bytes": 6805,
+      "sha256": "1fd9454208f504a99fd794df8b3048f52c8f3399329eaec65c0b6102fae9967c"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/SEED_SPECIALIZATION.md",
+      "bytes": 2412,
+      "sha256": "ce9d07586c70588778426cc0ca8401780011f535e3e90778c3ed839b8c7ed730"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/HANDOFF.md",
+      "bytes": 1849,
+      "sha256": "8cef2f412cd32fe7208bafc91d71e0b116e5e346821deed5867b606cb748635f"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/MANIFEST.sha256",
+      "bytes": 2410,
+      "sha256": "74de3e3273ed9cc81b17584491adfb8118dc5a9120118bc25d4cccdb55ca3230"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/checks/local_kummer_4547.py",
+      "bytes": 2462,
+      "sha256": "290090ef126a09f5ff1df067bd63fdc7faf189e9ee2addcb5bc752e4fa508a2c"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/checks/local_kummer_4547.out.json",
+      "bytes": 604,
+      "sha256": "e4807afc3f894461e71fc3b3969c161b137e84c5c9193ea0a5140f7972b825d6"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/checks/bad_prime_local_types.py",
+      "bytes": 1123,
+      "sha256": "436cb2d719563d8f3de0010a46d205d764b8124307660a26527e288879aaf611"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/checks/bad_prime_local_types.out.json",
+      "bytes": 602,
+      "sha256": "c432a7b29b6ec780593dcf5a79413eb86c83632e012ea4fde9c7df2ffe899cd2"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/checks/genus2_quotients.py",
+      "bytes": 1081,
+      "sha256": "a1520e58da6dbd3e3576b3e2ec4f35f775e7f2f838cb2c96ccdb6bd419dbaceb"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/checks/genus2_quotients.out.json",
+      "bytes": 220,
+      "sha256": "3347dada2d6c170cba1e1a9225425665a01f274a0d2d50ea87cbe9375f772949"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/checks/README.md",
+      "bytes": 1392,
+      "sha256": "a15193e9095b56d849f3152d9cc334ac8c92cc05a71aebbb458857f7c42ab10a"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/lean/AXIOM_AUDIT.txt",
+      "bytes": 1901,
+      "sha256": "9d598226a48a2c1effd7074a8f6d08db8338c6eabe970b29b1eb5199c60ffe85"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/lean/BUILD_TRANSCRIPT.txt",
+      "bytes": 84,
+      "sha256": "cbc790e9e64ab542abeab5f9d2cbfec96146e594cb0af03e21b18e2ebc9d66c8"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/research_return/lean/README.md",
+      "bytes": 2144,
+      "sha256": "ce4f27c26b888587cf44a5bf61c43600220118f48ac1860345ce59f769c3cb17"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/RequestProject/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/checks/OFFLINE_SDK_PREFLIGHT.json",
+      "bytes": 3166,
+      "sha256": "79cd2b71f5f6ca39eea3d7f2f512301fabea87b81ff8754aabcfd92de09204a5"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/checks/PYPI_RECEIPT.json",
+      "bytes": 336,
+      "sha256": "12bca954c09afcd011d184c452f34a6944410959fb577940f12474d4614b0dc4"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/checks/SDK_SOURCE_BINDINGS.json",
+      "bytes": 403,
+      "sha256": "041047d177221454586afe96817bff8f104b74bbea363c6ad1aaed2ff104e58e"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/checks/offline_check.py",
+      "bytes": 5213,
+      "sha256": "c8a804c2416387570f689649cd352ec180712ccb85cabd5f1e634cafbbea641c"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/ARISTOTLE_SUMMARY.md",
+      "bytes": 4245,
+      "sha256": "4839a6628eb0b2193a41487e53baa14c66fe0a50664d6e578a79154147eec550"
+    },
+    {
+      "path": "BSD_ARISTOTLE_SUBMISSION_2026-10-05_aristotle/README.md",
+      "bytes": 248,
+      "sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab"
+    }
+  ]
+}

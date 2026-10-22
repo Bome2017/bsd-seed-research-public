@@ -1,0 +1,13 @@
+{
+  "five_power_98": "315544362088404722164691426113114491869282574043609201908111572265625",
+  "five_primary_length_upper": 97,
+  "method": "Independent coarse rational constants, exponential series and integer powers; no floating-point or original interval routine",
+  "relative_class_order_bound_independent_integer": "280000000000000000000000000000000000000000000000000000000000000000000",
+  "relative_regulator_ratio_lower": {
+    "denominator": "6144000000",
+    "numerator": "93409809310117"
+  },
+  "scope": "Numerical certification conditional on the written analytic and unit-index argument; no GRH or elliptic Sha input",
+  "status": "INDEPENDENT_EXACT_COARSE_FIVE_LENGTH_BOUND_PASS",
+  "sum_faithful_five_ranks_upper": 97
+}

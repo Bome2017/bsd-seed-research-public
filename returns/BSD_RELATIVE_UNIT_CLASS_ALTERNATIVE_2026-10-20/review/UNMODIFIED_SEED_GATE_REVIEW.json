@@ -1,0 +1,18 @@
+{
+  "receipt": "unmodified_small_base.receipt.json",
+  "checks": {
+    "script_sha256": true,
+    "stdout_sha256": true,
+    "stderr_sha256": true,
+    "no_dylib_loaded": true,
+    "full_factor_base_completed": true,
+    "alarm_present": true,
+    "no_success_marker": true,
+    "no_bnf_file": true,
+    "no_class_file": true
+  },
+  "max_resident_set_bytes": 732577792,
+  "elapsed_seconds": 117.09722656593658,
+  "result": "REJECTED_TIMEOUT_WITH_FACTOR_BASE_COMPLETED_NO_BNF",
+  "caveat": "GP exit0 is not success; no class group or unit system was returned."
+}

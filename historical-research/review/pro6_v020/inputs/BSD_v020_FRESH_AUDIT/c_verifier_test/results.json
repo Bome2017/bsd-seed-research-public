@@ -1,0 +1,124 @@
+{
+  "platform": "Linux/GCC/OpenSSL SHA API shim; unchanged arithmetic; UBSan enabled",
+  "true_a4099": 86,
+  "malicious_a4099": 68,
+  "genuine_witness": [
+    0,
+    [
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        23,
+        1
+      ]
+    ]
+  ],
+  "cases": [
+    {
+      "version": "legacy",
+      "case": "false_duplicate",
+      "exit_code": 0,
+      "last_coefficient": 68,
+      "stdout": "SEG 0 lo 0 hi 4100 primes 565 witnesses 1 ap_sha256 008df16377f383991b19f971b5955a449b347d16fd5ddf1537fe7a9ade878e61",
+      "stderr": ""
+    },
+    {
+      "version": "legacy",
+      "case": "genuine",
+      "exit_code": 0,
+      "last_coefficient": 86,
+      "stdout": "SEG 0 lo 0 hi 4100 primes 565 witnesses 1 ap_sha256 596aba0eb9debc276225c4af44f29223de5e9b453da934ea52e90171b08c138e",
+      "stderr": ""
+    },
+    {
+      "version": "legacy",
+      "case": "truncated",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=4099: truncated factor list"
+    },
+    {
+      "version": "legacy",
+      "case": "trailing",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=0: witness count mismatch / trailing data"
+    },
+    {
+      "version": "legacy",
+      "case": "wrong_count",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=0: witness count mismatch / trailing data"
+    },
+    {
+      "version": "legacy",
+      "case": "wrong_q",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=4099: record q differs from the verifier's own next prime (segment misalignment)"
+    },
+    {
+      "version": "repaired",
+      "case": "false_duplicate",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=4099: duplicate prime factor"
+    },
+    {
+      "version": "repaired",
+      "case": "genuine",
+      "exit_code": 0,
+      "last_coefficient": 86,
+      "stdout": "SEG 0 lo 0 hi 4100 primes 565 witnesses 1 ap_sha256 596aba0eb9debc276225c4af44f29223de5e9b453da934ea52e90171b08c138e",
+      "stderr": ""
+    },
+    {
+      "version": "repaired",
+      "case": "truncated",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=4099: truncated factor list"
+    },
+    {
+      "version": "repaired",
+      "case": "trailing",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=0: witness count mismatch / trailing data"
+    },
+    {
+      "version": "repaired",
+      "case": "wrong_count",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=0: witness count mismatch / trailing data"
+    },
+    {
+      "version": "repaired",
+      "case": "wrong_q",
+      "exit_code": 3,
+      "last_coefficient": null,
+      "stdout": "",
+      "stderr": "FATAL: q=4099: record q differs from the verifier's own next prime (segment misalignment)"
+    }
+  ]
+}

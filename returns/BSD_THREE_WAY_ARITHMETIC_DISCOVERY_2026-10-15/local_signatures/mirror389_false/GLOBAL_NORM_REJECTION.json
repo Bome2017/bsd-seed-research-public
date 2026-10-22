@@ -1,0 +1,42 @@
+{
+  "prime": 151,
+  "cubic_root": 32,
+  "sum_triple_zero_based": [
+    0,
+    2,
+    5
+  ],
+  "affine_line_root_indices_zero_based": [
+    0,
+    2,
+    7
+  ],
+  "roots": [
+    5,
+    25,
+    147
+  ],
+  "torsion_points": [
+    [
+      24,
+      138
+    ],
+    [
+      60,
+      47
+    ],
+    [
+      53,
+      136
+    ]
+  ],
+  "class_residues": [
+    93,
+    68,
+    125
+  ],
+  "product_residue": 15,
+  "product_power_50": 32,
+  "cubic_character": 1,
+  "meaning": "Actual affine-line norm has a noncube residue, so cannot be a global cube. The candidate is not Selmer although its local point-quotient signature is nonzero."
+}

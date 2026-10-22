@@ -1,0 +1,33 @@
+{
+  "curve": [
+    0,
+    0,
+    1,
+    -13,
+    18
+  ],
+  "p": 7,
+  "point_count": 11,
+  "source_columns": 24,
+  "ordinary_chi_unit_dimension_under_retained_full_image": 4,
+  "rank_checks": [
+    {
+      "precision": 8,
+      "local_chi_rank": 0,
+      "global_rank": 0,
+      "joint_rank": 0
+    },
+    {
+      "precision": 9,
+      "local_chi_rank": 0,
+      "global_rank": 0,
+      "joint_rank": 0
+    }
+  ],
+  "ordinary_unit_kernel_upper": 4,
+  "class_term": "retained; no class completeness inferred",
+  "divisor_term": "retained unless separately bounded",
+  "unit_admission": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/TRANSPORT_PROOF.md",
+  "source_or_Selmer_equality_not_claimed": true,
+  "seconds": 4.143635225482285
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T18:21:19.377216+00:00",
+  "script": "construct_relative.gp",
+  "sha256": "bc6824515600299883b03ee6f7a8d3292495dc65456f481f196d7d7fb93d061d",
+  "cap_seconds": 60,
+  "elapsed": 0.10518536902964115,
+  "timeout": false,
+  "returncode": 0,
+  "stdout_sha256": "7941eef5fd277cf2088f6b2df233fd7a78e88a215ecaf61691a580d28454fdd1",
+  "stderr_sha256": "3c6864eabb1d1ee718f142fbfd8f9cb4795b79d73b178a11ff977ba6de1ee917",
+  "accepted": false
+}

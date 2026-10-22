@@ -1,0 +1,1 @@
+{alarm(10);F=read("/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/nf.gp");print("OLD_FIELD_DISCRIMINANT=",F.disc);print("FACTOR=",factor(F.disc));print("UNRAMIFIED47=",valuation(F.disc,47)==0);print("COMPLETE");quit;}

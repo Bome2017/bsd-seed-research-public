@@ -1,0 +1,58 @@
+# Frozen-file comparison: returned (pristine re-extraction) vs ORIGINAL package tarball (sha256 eba016585d080c5bf8578b3c4454d63a256712a6770ba50f3a0f671667a04763)
+WitnessContent/Defs.lean           14b61ab04f9b6353738c4fdf8674f80d1a16ef77cde390b4113497b210b5ca3b  BYTE-IDENTICAL
+WitnessContent/Spec.lean           7ff05537d9f6852bf4cdd0e19fbb52800c44035dd6fbc2f4241f2c19217e8f40  BYTE-IDENTICAL
+WitnessContent/Acceptance.lean     88ef61bd3a0915fdf239b02311121adab03b264bbeaaa0019102addd4a2fee70  BYTE-IDENTICAL
+lakefile.toml                      126c1c772c7b2a4a602818c96645a5d4dc4e58f5f0639ef300a671163d375d95  BYTE-IDENTICAL
+lean-toolchain                     db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028  BYTE-IDENTICAL
+scripts/level.py                   e031a002523be22f6b167ecbd459c5dccf50f3b5f4f3939fe5e65ba35a9ef178  BYTE-IDENTICAL
+
+# FROZEN.sha256 check inside the returned tree
+WitnessContent/Defs.lean: OK
+WitnessContent/Spec.lean: OK
+WitnessContent/Acceptance.lean: OK
+lakefile.toml: OK
+lean-toolchain: OK
+scripts/level.py: OK
+
+# Full file-by-file comparison, returned vs original
+UNCHANGED  00_READ_ME_FIRST.md
+UNCHANGED  ACCEPTANCE_TESTS.md
+UNCHANGED  ASSUMPTIONS.md
+UNCHANGED  DEFINITIONS.md
+UNCHANGED  DEPENDENCY_DAG.md
+UNCHANGED  KNOWN_TRAPS.md
+UNCHANGED  MANIFEST.sha256
+UNCHANGED  MATHEMATICAL_SPEC.md
+UNCHANGED  PREPACKAGE_AUDIT.md
+CHANGED    RESUME.md
+UNCHANGED  SOURCE_EXCERPTS.md
+CHANGED    STATE.json
+UNCHANGED  TASK.md
+UNCHANGED  THEOREM_TARGETS.md
+UNCHANGED  WitnessContent.lean
+UNCHANGED  WitnessContent/Acceptance.lean
+UNCHANGED  WitnessContent/Defs.lean
+UNCHANGED  WitnessContent/Spec.lean
+CHANGED    WitnessContent/Targets.lean
+UNCHANGED  lake-manifest.json
+UNCHANGED  lakefile.toml
+UNCHANGED  lean-toolchain
+UNCHANGED  scripts/FROZEN.sha256
+UNCHANGED  scripts/acceptance.sh
+UNCHANGED  scripts/level.py
+NEW        WitnessContent/Countermodels.lean
+NEW        WitnessContent/Depth.lean
+NEW        WitnessContent/GroupRing.lean
+NEW        WitnessContent/Instances.lean
+NEW        WitnessContent/Primary.lean
+NEW        WitnessContent/Stretch.lean
+NEW        WitnessContent/WC.lean
+NEW        axioms.log
+NEW        build.log
+
+# Original pre-run MANIFEST.sha256 checked against the returned tree (expected stale)
+RESUME.md: FAILED
+STATE.json: FAILED
+WitnessContent/Targets.lean: FAILED
+shasum: WARNING: 3 computed checksums did NOT match
+OK lines: 21/24

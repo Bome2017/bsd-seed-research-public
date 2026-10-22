@@ -1,0 +1,18 @@
+[
+  {
+    "raw_name": "harvest.gp.err",
+    "raw_sha256": "ddee9dfc0cb621fc9c4d1fd3ee03246bdcbb88e9cc464c14fd250c689b275152",
+    "raw_bytes": 108325176,
+    "gzip_name": "harvest.gp.err.gz",
+    "gzip_sha256": "94c3039877c0f1bb51975b2ed34d7a40c9a9d10b0c2638b5c078f0ed448a8033",
+    "gzip_bytes": 29006563
+  },
+  {
+    "raw_name": "captured_generators.gp",
+    "raw_sha256": "2c8aa74d5cb05524a0757a257c07f9bcedee84c9a25b00a775a0693638256a91",
+    "raw_bytes": 108275143,
+    "gzip_name": "captured_generators.gp.gz",
+    "gzip_sha256": "08fd70e1ba14153b6543b719d75f185e30b7473e06f7acad9e79efcddaa54733",
+    "gzip_bytes": 28948668
+  }
+]

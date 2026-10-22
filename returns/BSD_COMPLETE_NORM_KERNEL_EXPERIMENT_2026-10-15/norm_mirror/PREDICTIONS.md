@@ -1,0 +1,5 @@
+# Full class-supported mirror norm extension
+
+Adaptive follow-up after the 433 global norm-cube valuation direction was found. Complete scalar source dimension five inside certified eleven-source ambient space. The old selected local-repair class had a noncube norm, but that does not classify the whole source. Compute all five actual norms; test the existing one-dimensional necessary-global kernel for literal B cube roots. Certify the remaining image rank by independent B-prime cube characters. If no full rank appears, test the Cardano hidden Kummer class before extending finite scans. Never treat finite zero rows as a positive cube certificate.
+
+Expected, not assumed: the one class-supported globally repaired direction has literal norm cube; the local repaired direction is rejected; global norm kernel dimension one and local intersection zero. If extra norm-cube directions appear, retain them and test locals. No Sha order, rank or prior Selmer outcome enters arithmetic norm construction. This is a rank-zero bad-at-three control, not the seed or a rank-two good-ordinary analogue.

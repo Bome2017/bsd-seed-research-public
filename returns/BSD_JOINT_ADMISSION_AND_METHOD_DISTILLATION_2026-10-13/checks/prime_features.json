@@ -1,0 +1,245 @@
+{
+  "scope": "Exact elementary features, not a classifier; unresolved is not nonzero Sha. Status to be checked against coverage ledger.",
+  "rows": [
+    {
+      "p": 5,
+      "ap": -2,
+      "order": 8,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 7,
+      "ap": -2,
+      "order": 10,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 1,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 11,
+      "ap": -2,
+      "order": 14,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 13,
+      "ap": -4,
+      "order": 18,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 1,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 17,
+      "ap": -6,
+      "order": 24,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 19,
+      "ap": 4,
+      "order": 16,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 1,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 23,
+      "ap": 0,
+      "order": 24,
+      "ordinary": false,
+      "mod4": 3,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 29,
+      "ap": 0,
+      "order": 30,
+      "ordinary": false,
+      "mod4": 1,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 31,
+      "ap": -8,
+      "order": 40,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 1,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 37,
+      "ap": 10,
+      "order": 28,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 1,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 41,
+      "ap": 6,
+      "order": 36,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 43,
+      "ap": -8,
+      "order": 52,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 1,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 47,
+      "ap": 4,
+      "order": 44,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 53,
+      "ap": -6,
+      "order": 60,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 2,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 59,
+      "ap": -4,
+      "order": 64,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 2,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 61,
+      "ap": -12,
+      "order": 74,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 1,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 67,
+      "ap": 8,
+      "order": 60,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 1,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 71,
+      "ap": -2,
+      "order": 74,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 2,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 73,
+      "ap": -6,
+      "order": 80,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 1,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 79,
+      "ap": 16,
+      "order": 64,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 1,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 83,
+      "ap": -8,
+      "order": 92,
+      "ordinary": true,
+      "mod4": 3,
+      "mod3": 2,
+      "status": "retained_vanishing",
+      "nonanomalous": true
+    },
+    {
+      "p": 89,
+      "ap": -14,
+      "order": 104,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 2,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 97,
+      "ap": 2,
+      "order": 96,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 1,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    },
+    {
+      "p": 101,
+      "ap": -6,
+      "order": 108,
+      "ordinary": true,
+      "mod4": 1,
+      "mod3": 2,
+      "status": "unresolved_in_located_record",
+      "nonanomalous": true
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "coefficient_degree_controls": [
+    [
+      5,
+      5,
+      1
+    ],
+    [
+      5,
+      7,
+      0
+    ],
+    [
+      5,
+      11,
+      0
+    ],
+    [
+      5,
+      19,
+      0
+    ],
+    [
+      7,
+      5,
+      0
+    ],
+    [
+      7,
+      7,
+      1
+    ],
+    [
+      7,
+      11,
+      0
+    ],
+    [
+      7,
+      19,
+      0
+    ],
+    [
+      11,
+      5,
+      0
+    ],
+    [
+      11,
+      7,
+      0
+    ],
+    [
+      11,
+      11,
+      1
+    ],
+    [
+      11,
+      19,
+      0
+    ]
+  ],
+  "finiteness_only_controls": [
+    {
+      "even_excess_corank": 2,
+      "finite_norm_kernel_order": 625,
+      "p": 5,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 4,
+      "finite_norm_kernel_order": 15625,
+      "p": 5,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 6,
+      "finite_norm_kernel_order": 390625,
+      "p": 5,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 8,
+      "finite_norm_kernel_order": 9765625,
+      "p": 5,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 2,
+      "finite_norm_kernel_order": 2401,
+      "p": 7,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 4,
+      "finite_norm_kernel_order": 117649,
+      "p": 7,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 6,
+      "finite_norm_kernel_order": 5764801,
+      "p": 7,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 8,
+      "finite_norm_kernel_order": 282475249,
+      "p": 7,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 2,
+      "finite_norm_kernel_order": 14641,
+      "p": 11,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 4,
+      "finite_norm_kernel_order": 1771561,
+      "p": 11,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 6,
+      "finite_norm_kernel_order": 214358881,
+      "p": 11,
+      "upper_bound_2_holds": false
+    },
+    {
+      "even_excess_corank": 8,
+      "finite_norm_kernel_order": 25937424601,
+      "p": 11,
+      "upper_bound_2_holds": false
+    }
+  ],
+  "minimal_length_cases": 3,
+  "module_cases": 351,
+  "new_seed_upper_bounds": 0,
+  "new_seed_values": 0,
+  "status": "PASS_ABSTRACT_ALGEBRA_ONLY"
+}

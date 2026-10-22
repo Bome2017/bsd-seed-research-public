@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "0e8bb6859d1391e6d449b1ef02aff2cfd85310f1",
+  "source_commit": "c728f2d2c993f480d99de297906e8482838419f9",
+  "source_branch": "research/cyclotomic5-moment-2026-10-12",
+  "source_method": "Exact ten-file Git tree export; no unseen producer ZIP claimed verified",
+  "source_manifest_entries": 9,
+  "review_manifest_entries": 21,
+  "copy_manifest_verified": true,
+  "retained_input_git_bindings_verified": 5,
+  "additional_input_bindings": 4,
+  "replay_byte_identical": true,
+  "archives": [
+    {
+      "path": "work/returns/archives/BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12.zip",
+      "sha256": "a0b267fc1f7e5e7d074ffff6136ffc48d3e1bf17a454390af7d6af27d28c6fcb",
+      "bytes": 46490
+    },
+    {
+      "path": "work/returns/archives/BSD_CYCLOTOMIC5_AND_MOMENT_2026-10-12_GIT_EXPORT.zip",
+      "sha256": "e6171d4fb6dc35a13328e1163df11ff0f2f59c007e355fc914a652bab30f55e5",
+      "bytes": 21837
+    }
+  ],
+  "mathematical_grade": "Written derivation and separate same-team source reviews under retained inputs; no formal or human certification",
+  "new_field_result": "rank 2 and zero 5-primary Sha at every cyclotomic degree-5^n layer; no new points with stronger retained image input",
+  "base_field_endpoints": "FIN ORDER9 Q36 unchanged",
+  "author_branch_merged": false
+}

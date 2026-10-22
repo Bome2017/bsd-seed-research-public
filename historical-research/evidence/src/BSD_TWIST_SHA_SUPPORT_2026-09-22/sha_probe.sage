@@ -1,0 +1,11 @@
+import sys
+print("=== SAGE VERSION ==="); print(version())
+E = EllipticCurve([0,159145,0,5207351716,0])
+Em = E.minimal_model()
+print("=== CURVE ==="); print("given   :", E.ainvs()); print("minimal :", Em.ainvs())
+print("conductor:", Em.conductor()); print("torsion :", Em.torsion_order())
+print("tamagawa product:", Em.tamagawa_product())
+print("=== DOCSTRING: Sha.an ==="); print(Em.sha().an.__doc__)
+print("=== DOCSTRING: Sha.bound_kato ==="); print(Em.sha().bound_kato.__doc__)
+print("=== DOCSTRING: Sha.p_primary_bound ==="); print(Em.sha().p_primary_bound.__doc__)
+sys.stdout.flush()

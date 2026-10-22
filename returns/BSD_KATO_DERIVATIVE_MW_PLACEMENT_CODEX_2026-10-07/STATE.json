@@ -1,0 +1,19 @@
+{
+  "status": "MW_PLACEMENT_DERIVED_FROM_RETAINED_WEAK_ORDER_INPUTS",
+  "date": "2026-10-07",
+  "parent_commit": "54637ae16c1856d065b8dada5aeab7c7ac33ced6",
+  "candidate": "integral Mordell-Weil placement of actual smoothed first cyclotomic derivative",
+  "independent_review": false,
+  "endpoint_effect": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  },
+  "work_complete": true,
+  "proof_grade": "same-worker written deduction; independent review pending",
+  "new_result": "actual smoothed first derivative is in the integral Mordell-Weil Kummer lattice on retained good-prime domain",
+  "nonvanishing": false,
+  "source_coordinates_computed": false,
+  "ordinary_only": false,
+  "remote_job_started": false
+}

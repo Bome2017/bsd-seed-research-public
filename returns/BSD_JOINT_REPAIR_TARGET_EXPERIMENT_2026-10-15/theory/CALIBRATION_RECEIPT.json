@@ -1,0 +1,73 @@
+{
+  "datasets": 13,
+  "per_block_profiles": 452,
+  "scope": "Retrospective exact source-matrix calibration; no new arithmetic rows generated here",
+  "source_files": [
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1070a1/matrices.json",
+      "sha256": "638eee5b8c319c0fc0691d384dd94f4ac42b81096815511da2a250eccf4e35e7"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/433a1/matrices.json",
+      "sha256": "19eb9f4c3f720ae49c57f0c307e0095ce5bb50951423e8b191e4e411d94026b2"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1246c1_retry600/matrices.json",
+      "sha256": "3ac578b5e6ff728fa899d3353b9f3d3407d991f111dbf48ea8297b8d255ade1e"
+    },
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/MATRICES.json",
+      "sha256": "12206be936beda8e27dfa1c98f7146bd289e82f2ba2810a343823deb10e6ebc8"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/718b1/matrices.json",
+      "sha256": "7e39c9d0eafa79ad624a644a7ba29a052892f66e31330793eb3c919c8b70b957"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/655a1/matrices.json",
+      "sha256": "dfe35657b392de8dffd368d24f11305c5c9391f799a54d4046ac5626b764dd26"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/997c1/matrices.json",
+      "sha256": "7a015a8dfdd9fd57bb0b52e0ddb351305d962079e4788c4a5838ca87cc38e7d9"
+    },
+    {
+      "path": "/Users/bsm/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/controls/389a1/matrices.json",
+      "sha256": "35617b8c04952c3c610f397d94fdfc8a975d9eaf7ed3f0a39af676298d92e570"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/class_lift/mirror389/matrices.json",
+      "sha256": "a5c45a386a0ff05260e3c189a4a76008ad98d5627d79f5445a3e423503ba99c2"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1480a1/matrices.json",
+      "sha256": "da63d61cffe103a5a8ff16ed74a54c51e377dcc91dd86d8df0527e1c8aa3ee01"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1525c1/matrices.json",
+      "sha256": "60c1d70e5dcf7d2a8e495cea301bccaaf295b2ba2aa75f25b7f58b318131bd98"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1141a1/matrices.json",
+      "sha256": "7fbd92034156e89c95c73a2795c53488106f61849a5a4e35ee1836cce985ff3a"
+    },
+    {
+      "path": "/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/arithmetic/1613a1_grh/matrices.json",
+      "sha256": "ad72c85ff504c859b8016a7f92cbef39bd5b14f2c95d2a7130b86f1d9fab5fb1"
+    }
+  ],
+  "seed_source_records": [
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/PROOF.md",
+      "sha256": "9be777e80c23b898bd42b0d5b12b6c4d34828597f17b01cce3c2cef4d081f2fd"
+    },
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/PRODUCER_READOUT.md",
+      "sha256": "742c2550ca59c4b237498b04b71630833b32e80a293a06b826ba876fe008eef5"
+    },
+    {
+      "path": "/Users/bsm/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/data/INTERSECTION_DIMENSIONS.json",
+      "sha256": "70f8ee612d4f7244fb0b73b76dfa4065a25047076ca098310a21b5a307a8bfa3"
+    }
+  ]
+}

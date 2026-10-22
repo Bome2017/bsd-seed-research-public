@@ -1,0 +1,57 @@
+{
+  "determinant_exact": -214,
+  "determinant_mod7": 3,
+  "independent_EF7_point_count": 10,
+  "files": [
+    {
+      "path": "LOCAL_CONDITION_REVIEW.md",
+      "sha256": "48c14f0bccdd0ae253fd7b89ec3c96e3d05b459bc837ae0e10bdce0fddaefd88"
+    },
+    {
+      "path": "local_rank/PROOF.md",
+      "sha256": "4c7ad9ebf9683ddae6b1e92a4524e8149b58d5f93e25d525737c9bb186d14b61"
+    },
+    {
+      "path": "local_rank/REPORT.md",
+      "sha256": "ceb70182fde08b1dd930256f8895a57e7f910f1c12b75de9561f39e20744a0d8"
+    },
+    {
+      "path": "INDEPENDENT_11A1_JOINT.json",
+      "sha256": "d1ee294f3a12b3d504e12a5d7b1ae4cb339aa297ba52d86296d470609f5a7851"
+    },
+    {
+      "path": "check_11a1_joint.py",
+      "sha256": "9e8b8a9c147787b2f850cd53fbb70085cfd3229fd810f408f65faac83d0fb30a"
+    },
+    {
+      "path": "small_conductor_review/REPORT.md",
+      "sha256": "ef4003a1fbc432f6116872c396f644d3957fdb2c4403459d602960ddba418321"
+    },
+    {
+      "path": "small_conductor_review/EVALUATOR_BINDING.json",
+      "sha256": "7ca097c0205adffdff08438c62d43c4287d745f6c8cab7075ffe43b7a2343b86"
+    },
+    {
+      "path": "small_conductor_divisor/PROOF.md",
+      "sha256": "f39965d89a8aabdf5f94b90b02e64b8a72d0708e548f04f44a9b651cd7b99de3"
+    },
+    {
+      "path": "small_conductor_divisor/ACTUAL_DIVISORS.json",
+      "sha256": "20aa03b6d0d0c301db32a42a5983f48f2021da9bcb98f37da1709a57ae4ac9ef"
+    },
+    {
+      "path": "FINAL_DIVISOR_REVIEW.json",
+      "sha256": "413093708085cc7e8a98f7bc42a06efa7feca205332f97a21ae6c78146fc833a"
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "e72b4bade44dc2900dccdcf36e28cd90db28dd71b26bbf0db8dc23dab14170b8"
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "2f653a010e8c15899c0cd33bbdeb46d0b068d86504807877002ce1eb814bb6af"
+    }
+  ],
+  "final_divisor_review": "PASS_t_D_chi_zero",
+  "final_class_conclusion": "actual norm-and-local kernel injects into ordinary Cl(A)[7]^chi; class upper bound remains uncertified"
+}

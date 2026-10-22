@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/local_pipeline/run_pipeline.py",
+      "destination": "run_pipeline.py",
+      "sha256": "327a371577496b031c7cd935e9ec101c32994d113309e63cf7a28537e67b500b",
+      "matches_sealed_manifest": true
+    },
+    {
+      "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/local_pipeline/formal_branch.template.gp",
+      "destination": "formal_branch.template.gp",
+      "sha256": "1d2ee71a650a346b7419e9de3df143aed76f5c443df5dca1bab7d333a13da460",
+      "matches_sealed_manifest": true
+    },
+    {
+      "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/local_pipeline/evaluate_split.py",
+      "destination": "evaluate_split.py",
+      "sha256": "cca725338a4a58a7656195261e41e98f0b6c2428020d00093f3a81c420a01cff",
+      "matches_sealed_manifest": true
+    },
+    {
+      "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/local_pipeline/replay_products.py",
+      "destination": "replay_products.py",
+      "sha256": "06d3c25817e936ff726340f2fa3422cc4179fefb584af00d81572b74967ff84d",
+      "matches_sealed_manifest": true
+    },
+    {
+      "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/field.gp",
+      "sha256": "da3c3693650008b43774f351fb0b0f5a150b828b82781dea7115d2437bc87c22",
+      "use": "actual unchanged twist field"
+    },
+    {
+      "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/twist_source/nf.gp",
+      "sha256": "0cec5baed3b50703321d1a16da42996f09d116e0f3d19e080d053cbf1510be2e",
+      "use": "actual unchanged twist field"
+    }
+  ],
+  "setup_seconds": 0.00991162401624024,
+  "modified_producer_code": false
+}

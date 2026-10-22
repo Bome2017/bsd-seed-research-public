@@ -1,0 +1,45 @@
+{
+ "return": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06",
+ "uploaded_utc": "2026-10-07T01:16:37Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "SUBMITTED_BY_USER (per user, 2026-10-06); delta task on the canonical frontier packet; returns RANK2_IDENTITY / RANK2_REDUCTION / PRECISE_OBSTRUCTION",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md",
+   "sha256": "f8d083f5a9109d89fac7cef9f7dfba3ade760ea4cb61b580c8a27bdf90c9034d",
+   "bytes": 3891
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/MANIFEST.sha256",
+   "sha256": "44c7d115a7c669f6f5699e0e66630cf1cc76617f402441a0a510ee23922bc8ad",
+   "bytes": 342
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/README.md",
+   "sha256": "4aae15ef0829ac5637b2c0bccad6abb3d263d49b5db3c13f1c1c24aa4629f177",
+   "bytes": 972
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/SUBMISSION_PROMPT.txt",
+   "sha256": "b83f9a07186e192029c2962e380986ca983408c71913a066a4d9e772c7c1c2f0",
+   "bytes": 769
+  },
+  {
+   "path": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/SUBMIT_COMMAND.txt",
+   "sha256": "e86699ed3a31b08b843cb3f9de1c7ae253b985c294d2479e84e8b6703872663a",
+   "bytes": 985
+  },
+  {
+   "path": "archives/BSD_ARISTOTLE_RANK2_ANCHOR_PROJECT_2026-10-06.tar.gz",
+   "sha256": "987bb3d723eb722e1a70a83356ca884a6b739dc28ca47ea6648f5f8241316b2c",
+   "bytes": 130709
+  }
+ ],
+ "inputs": {
+  "canonical_packet": "BSD_SEED_FRONTIER_2026-10-06 (revision 2, lab 6b32e5a)"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

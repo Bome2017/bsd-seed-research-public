@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "task": "uniform-depth-v2",
+  "date": "2026-09-30",
+  "overall_status": "REDUCED",
+  "complete_endpoint_proved": false,
+  "controlling_brief": "INPUT_BRIEF.md",
+  "controlling_brief_sha256": "5786a977dd509417bb3d731d6c1fdadbb894eabb8e1221ee34f40a5ca3a82dc5",
+  "phase": "complete",
+  "proof_grade": "DERIVED from imported BH theorem and retained B.20/B.21; same-worker self-replay only",
+  "attempt_order": [
+    "i",
+    "ii",
+    "iii",
+    "a",
+    "b",
+    "c"
+  ],
+  "checks_order": [
+    "K-S",
+    "K-P",
+    "K-F",
+    "K-C",
+    "K-num"
+  ],
+  "new_intermediate_results": [
+    {
+      "id": "D1",
+      "statement": "theta_L mod p lies in the augmentation ideal to d_p for real abelian p-extensions at conductors prime to pN"
+    },
+    {
+      "id": "D2",
+      "statement": "At a minimum unit Kato witness of length d_p, the degree-d_p initial form is delta_n times the product of the inertia variables"
+    },
+    {
+      "id": "D3",
+      "statement": "min(h_p,p-1)=min(r_p,p-1)=min(dim_Fp Sel_p(E/Q),p-1)"
+    },
+    {
+      "id": "D4",
+      "statement": "Any two-prime Kato unit witness gives exact character depth 2 at its same actual conductor; every full-support cyclic quotient works"
+    },
+    {
+      "id": "D5",
+      "statement": "The existence conditions (i), (ii), (iii) of v2 are equivalent under the retained inputs"
+    }
+  ],
+  "comparison_domain": {
+    "all_good_primes_at_least": 5,
+    "excluded_primes": [
+      2,
+      3,
+      2243,
+      4547,
+      5843
+    ]
+  },
+  "comparison_domain_is_vanishing_coverage": false,
+  "new_primary_vanishing_primes": [],
+  "new_infinite_vanishing_subset_proved": false,
+  "cofinite_vanishing_exception_set": null,
+  "common_rational_scalar_constructed": false,
+  "arithmetic_lift_compatibility_proved": false,
+  "universal_obstruction_proved": false,
+  "rejected_endpoint_candidates": [
+    {
+      "id": "I-A",
+      "first_failure": "K-S",
+      "reason": "unspecified witness length does not bound depth below four"
+    },
+    {
+      "id": "I-B",
+      "first_failure": "K-P",
+      "reason": "no uniform actual-conductor construction satisfying the nonzero norm budget"
+    },
+    {
+      "id": "II-A",
+      "first_failure": "K-S",
+      "reason": "filtered projection and integral/unit operations preserve fourth augmentation powers"
+    },
+    {
+      "id": "II-B",
+      "first_failure": "K-S",
+      "reason": "separation of the rational basis does not exclude excess Selmer directions"
+    },
+    {
+      "id": "II-C",
+      "first_failure": "K-S",
+      "reason": "primitive higher-index data do not force the second Fitting ideal to be a unit"
+    },
+    {
+      "id": "III-A",
+      "first_failure": "K-P",
+      "reason": "common finite integral Selmer presentation and comparisons not constructed"
+    },
+    {
+      "id": "III-B",
+      "first_failure": "K-S",
+      "reason": "pairing, parity and settled-prime data permit the paired excess state"
+    },
+    {
+      "id": "III-C",
+      "first_failure": "K-S",
+      "reason": "independent twist idempotents do not control the seed component"
+    },
+    {
+      "id": "A-1",
+      "first_failure": "K-S",
+      "reason": "known 3-primary factor has no proved cross-prime specialization arrow"
+    },
+    {
+      "id": "A-2",
+      "first_failure": "K-P",
+      "reason": "common determinant section and singleton comparisons not constructed"
+    },
+    {
+      "id": "A-3",
+      "first_failure": "K-P",
+      "reason": "common quadratic-moment presentation with all-prime comparison not constructed"
+    },
+    {
+      "id": "B-1",
+      "first_failure": "K-S",
+      "reason": "completed compatibility permits infinitely many zero components"
+    },
+    {
+      "id": "B-2",
+      "first_failure": "K-P",
+      "reason": "arithmetic inverse system, bounded lifts and nonzero comparison not established"
+    },
+    {
+      "id": "C-1",
+      "first_failure": "K-F",
+      "reason": "conditional cardinality and residue law cannot be used unconditionally"
+    },
+    {
+      "id": "C-2",
+      "first_failure": "K-S",
+      "reason": "free-part determinant data do not exclude the torsion factor"
+    }
+  ],
+  "numerical_checks": {
+    "arithmetic_replayed": false,
+    "singleton_residue_law_claimed": false,
+    "normalization_checked": "full BH element and total positive real period; production symbol is twice this symbol on seed"
+  },
+  "execution": {
+    "mathematical_processes_started": 0,
+    "requested_gp_available_in_container": false,
+    "arithmetic_substitute_used": false,
+    "subagents": 0,
+    "paid_compute": false,
+    "pushes": false,
+    "web_scope": "quoted BH and KN theorem verification only",
+    "input_manifest_entries_verified": 26
+  },
+  "canonical_seals": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  },
+  "next_missing_input": "Independent cofinite bound d_p<=3, or an independently constructed equivalent witness; no automatic continuation"
+}

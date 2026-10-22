@@ -1,0 +1,7 @@
+  *** bnfinit: Warning: increasing stack size to 128000000.
+  *** bnfinit: Warning: increasing stack size to 256000000.
+  *** bnfinit: Warning: increasing stack size to 512000000.
+  *** bnfinit: Warning: increasing stack size to 1000001536.
+  ***   at top-level: ...;F=read("field.gp")[4];B=bnfinit(F,1);writebin
+  ***                                             ^---------------------
+  *** bnfinit: alarm interrupt after 56,946 ms.

@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_SCALAR_GENERATED_FAMILY_EXCLUDED",
+  "time_utc": "2026-10-19T01:03:18.678585+00:00",
+  "baseline_commit": "79fe49d73acf7f134c3d4344481095b2f1a8184f",
+  "projected_rank": 20,
+  "new_bound": null,
+  "FIN": "open",
+  "ORDER9": "open",
+  "Q36": "open",
+  "checkpoint_utc": "2026-10-19T01:10:00.078506+00:00",
+  "closed_prime_support": 331,
+  "translated_divisor_columns": 120,
+  "full_rank_Q": 60,
+  "full_rank_F7": 60,
+  "projected_nullity": 0,
+  "arithmetic_searches_running": 0,
+  "matched_character": 3,
+  "all_ordinary_unit_products_in_tested_family": "1",
+  "field_seventh_root_saturation": "proved for tested subgroup from mod7rank and real embedding",
+  "new_norm_local_unit_rank": null,
+  "new_class_bound": null,
+  "publication": "Prepared for standing-authorized lab upload; custody separate"
+}

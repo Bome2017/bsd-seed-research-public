@@ -1,0 +1,132 @@
+{
+  "status": "EXACT_ALGEBRA_CONTROLS_PASS",
+  "scope": "No Galois, Chebotarev, reciprocity, Selmer or seed computation certified",
+  "symmetric_span_cases": [
+    {
+      "p": 5,
+      "ambient": 2,
+      "symmetric_span_rank": 3,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 5,
+      "ambient": 3,
+      "symmetric_span_rank": 6,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 5,
+      "ambient": 4,
+      "symmetric_span_rank": 10,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 5,
+      "ambient": 6,
+      "symmetric_span_rank": 21,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 7,
+      "ambient": 2,
+      "symmetric_span_rank": 3,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 7,
+      "ambient": 3,
+      "symmetric_span_rank": 6,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 7,
+      "ambient": 4,
+      "symmetric_span_rank": 10,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 7,
+      "ambient": 6,
+      "symmetric_span_rank": 21,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 11,
+      "ambient": 2,
+      "symmetric_span_rank": 3,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 11,
+      "ambient": 3,
+      "symmetric_span_rank": 6,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 11,
+      "ambient": 4,
+      "symmetric_span_rank": 10,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 11,
+      "ambient": 6,
+      "symmetric_span_rank": 21,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 17,
+      "ambient": 2,
+      "symmetric_span_rank": 3,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 17,
+      "ambient": 3,
+      "symmetric_span_rank": 6,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 17,
+      "ambient": 4,
+      "symmetric_span_rank": 10,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 17,
+      "ambient": 6,
+      "symmetric_span_rank": 21,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 19,
+      "ambient": 2,
+      "symmetric_span_rank": 3,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 19,
+      "ambient": 3,
+      "symmetric_span_rank": 6,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 19,
+      "ambient": 4,
+      "symmetric_span_rank": 10,
+      "constrained_joint_kernel_dim": 2
+    },
+    {
+      "p": 19,
+      "ambient": 6,
+      "symmetric_span_rank": 21,
+      "constrained_joint_kernel_dim": 2
+    }
+  ],
+  "order_three_character_checks": 845,
+  "higher_order_control": {
+    "first_order_kernel_dim": 2,
+    "determinant": "t^6",
+    "generic_kernel_dim": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "review": "REVIEW_OF_RANK_FORMULA.md",
+  "scope": "Desk review of formulas and producer outputs, no complete GP replay",
+  "arithmetic_inputs": {
+    "arithmetic/gcd_refinement.gp": "98880f0a93eb734865034269bad9dd13f1ce979f1bf1772197a4e5e187e94ba4",
+    "arithmetic/gcd_refinement.out": "e35b8c260b580fea9e1c37be14f9147c4a02977c4b59a8a8355d8780e4c2a8a0",
+    "arithmetic/support_rank.gp": "275c3c234a601ebc60629d4dbf87fa7cd4bf313ee922655cfe12d9a799b2768f",
+    "arithmetic/support_rank.out": "bd03e4251b6d6d9d65a66657b6da74221df65cc1364a00eecc9f291e4dd3ac42",
+    "arithmetic/support_result.gp": "d50b471a28900d98962ed60269a41dd997d973feb3ac839739b2059e53256576",
+    "arithmetic/integer_kernel.gp": "9b8c67088de418b81ae3181751f2bd9666dc4052aa59e2a9e3f2488b5868cefa",
+    "arithmetic/integer_kernel.out": "24a8b15122b52d1aa9bcddec06535b9dce76442eed20e5f9b88698fdd5595579",
+    "arithmetic/unit_kernel_check.gp": "0c680a965f71f691bf7ce26a172da6dde0d838efbac956820d92120e88f0e1cc",
+    "arithmetic/unit_kernel_check.out": "3374fccd3faa006b03e140e92dbea24a4e9ef3de5c15870f58359e23197202f1",
+    "arithmetic/unit_kernel_result.gp": "0afb743e9e547fe4fba40a9511a62fe9fce80931a1e7305c4b0a9661477de373"
+  }
+}

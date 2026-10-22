@@ -1,0 +1,7 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: ...risprincipal(RAY,J,0);RB=bnrisprincipal(RAY,be
+  ***                                             ^---------------------
+  *** bnrisprincipal: inconsistent moduli in algtobasis: t19^8 - 4*t19^7 - 17*t19^6 + 12*t19^5 + 270*t19^4 + 33*t19^3 - 1101*t19^2 - 1218*t19 + 3945 != w^8 - 4*w^7 - 17*w^6 + 12*w^5 + 270*w^4 + 33*w^3 - 1101*w^2 - 1218*w + 3945
+  ***   at top-level: ....cyc[i]/gcd(RAY.cyc[i],RC[i])));print("RAY_LIF
+  ***                                             ^---------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).

@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp",
+    "-q",
+    "-f",
+    "-s",
+    "512M",
+    "diagnosis.gp"
+  ],
+  "script_sha256": "f79a256a58d231856639dab53e6347ca22ca26f86ac76816b1ded3f962378905",
+  "wall_cap": 60.0,
+  "marker": "DIAGNOSIS_BNF_COMPLETE",
+  "accepted": false,
+  "completion_marker": false,
+  "explicit_gp_error": true,
+  "error": "PARI stack overflow in FBgen while enumerating primes, last printed prime296269",
+  "maximum_resident_set_bytes": 533929984,
+  "gp_real_seconds": 13.67,
+  "peak_memory_footprint_bytes": 529977344,
+  "process_exit_code": null,
+  "receipt_recovery": "GP and time finished and output files were saved. A malformed postprocessing regex spun after process completion; the Python wrapper was stopped. This receipt is recovered from unchanged captured files, without rerunning GP. Exitcode was not written before wrapper stop.",
+  "stdout_sha256": "1d80cfdedb5a2b8a0e08bd7e2deb291264fcb8827ffef3eb681c7ef2d9aeca2e",
+  "stderr_sha256": "0dda41d2d7578fd89027f5da2293a07c087bb8120b7ec85a38fcab7b37cc73f4"
+}

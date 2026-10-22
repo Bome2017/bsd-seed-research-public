@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "primary_replay": [
+    {
+      "file": "split_prime_count.out",
+      "sha256": "538622f938c02aecc628a3d9929fecb08656306624bba6458998e078e8423456",
+      "byte_identical": true
+    },
+    {
+      "file": "split_prime_data.gp",
+      "sha256": "a76f6c71c5b11c9d7735017852f6645d13238f90c02d4638ae8a3dfc2a4b6777",
+      "byte_identical": true
+    },
+    {
+      "file": "RANGE_DATA.json",
+      "sha256": "12d5bd3a8fdd066855dbf9ed1f32a5bc48c9e5061c94be57cb34173488e9b9ca",
+      "byte_identical": true
+    },
+    {
+      "file": "INDEPENDENT_RELATIVE_DATA.json",
+      "sha256": "dd201c6a0b22739f65eeb8003f1844975a57c2cc7d86513e469ccbc517b9ebe3",
+      "byte_identical": true
+    }
+  ],
+  "independent_quadratic_residue_field_count_agrees": true,
+  "independent_rational_point_count_agrees": true,
+  "integer_threshold_checks": true,
+  "scope": "actual split-prime supply only; no class rank, no small bound"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-06",
+  "status": "BFR_CONFIRMED_UNDER_RETAINED_INPUTS_WITH_CORRECTIONS",
+  "review_kind": "independent model review plus fresh arithmetic Lean replay",
+  "formal_BFR": false,
+  "new_uniform_bound": false,
+  "new_primary_vanishing": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "submitted_lean_modules_replayed": 4,
+  "axiom_targets_checked": 27,
+  "new_aristotle_job": false,
+  "research_repository_promotion": false,
+  "lab_publication": "SEALED_FOR_AUTHORIZED_UPLOAD"
+}

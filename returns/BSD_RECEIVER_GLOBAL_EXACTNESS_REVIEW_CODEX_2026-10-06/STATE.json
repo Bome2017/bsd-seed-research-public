@@ -1,0 +1,12 @@
+{
+  "status": "GLOBAL_EXACTNESS_ADDENDUM_CONFIRMED_UNDER_RETAINED_INPUTS",
+  "scope": "B_p isomorphic to Sha[p] for every p>=5",
+  "new_uniform_bound": false,
+  "new_primary_vanishing": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "new_step_formalized": false,
+  "previous_review_omission": "4547 global relaxation already killed by reciprocity against P2",
+  "remote_jobs_changed": false
+}

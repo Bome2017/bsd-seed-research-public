@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-20T18:29:48.025774+00:00",
+  "sysctl": {
+    "hw.memsize": "17179869184",
+    "hw.physicalcpu": "10",
+    "hw.logicalcpu": "20",
+    "hw.machine": "x86_64"
+  },
+  "process_sample": [
+    "82931       00:52    596 /usr/bin/time -l /Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp -q -f -s 2G unmodified_small_base.gp",
+    "82932       00:52 714232 /Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp -q -f -s 2G unmodified_small_base.gp"
+  ]
+}

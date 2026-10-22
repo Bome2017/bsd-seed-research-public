@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED_CONDITIONAL_COMPANION_UPPER2_SOURCE_UPPER4",
+  "completed_at": "2026-10-17",
+  "grade": "written deduction under retained index theorem; source class completeness GRH-dependent",
+  "original_companion_BNF": "TIMEOUT120s_no_BNF",
+  "reduced_companion_BNF": "TIMEOUT120s_no_BNF",
+  "source_cache_inspection": "PASS; computed S-class quotient trivial",
+  "source_quotient_certification": "TIMEOUT90s_no_certificate",
+  "companion_minus_S_class_length_upper": 2,
+  "entire_global_norm_kernel_dimension_upper": 4,
+  "upper_bounds_conditional": true,
+  "known_Selmer_or_Sha_used_in_bound": false,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

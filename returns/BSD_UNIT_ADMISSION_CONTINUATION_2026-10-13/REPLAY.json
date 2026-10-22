@@ -1,0 +1,37 @@
+{
+  "manifest_verified": 99,
+  "mathematical_status": "written deductions under retained inputs; no BSD endpoint",
+  "replays": [
+    {
+      "label": "new_units",
+      "status": "PASS",
+      "saved_stdout_identical": true,
+      "seconds": 8.689,
+      "stdout": "INDEPENDENT_UNIT_1_PASS; FACTORS=1843;PRIME_IDEALS=1847\nINDEPENDENT_UNIT_2_PASS; FACTORS=1845;PRIME_IDEALS=1868\nINDEPENDENT_UNIT_3_PASS; FACTORS=1845;PRIME_IDEALS=1865\nRELATIVE_UNIT_RANK=2\nNEW_UNITS_PORTABLE_PASS\n"
+    },
+    {
+      "label": "exact_maps",
+      "status": "PASS",
+      "saved_stdout_identical": true,
+      "seconds": 0.079,
+      "stdout": "LITERAL_CUBE_IDENTITIES=19\nINDEPENDENT_RESIDUE_ROWS=119;SOURCE_RANK=15;UNIT_BASIS_RANK=4\nAFFINE_NORM_MULTIPLICATION_MATRIX_REPLAY=4\nEXACT_MAP_REPLAY_PASS\n"
+    },
+    {
+      "label": "previous_unit",
+      "status": "PASS",
+      "saved_stdout_identical": true,
+      "seconds": 9.326,
+      "stdout": "FRESH_NF_BASIS_MATCH=1\nFRESH_POINT_AND_CUBIC_IMAGES_MATCH=1\nGLOBAL_UNIT_CHECK=1; FACTORS=1845; PRIME_IDEALS=1872\nNEGATIVE_OMIT_CUBE_CORRECTION=REJECTED\nNEGATIVE_EXPONENT_TAMPER=REJECTED; NONZERO_ADDED_VALUATION=-3\nNORM_ONE_FACTOR_IDENTITY=1; TAU_T=-T\nUNIT_AND_POINTS_RESIDUE_RANK=4\nPORTABLE_UNIT_CERTIFICATE_PASS\n"
+    },
+    {
+      "label": "check_admission_matrices.py",
+      "status": "PASS",
+      "saved_result_identical": true
+    },
+    {
+      "label": "check_representation_screen.py",
+      "status": "PASS",
+      "saved_result_identical": true
+    }
+  ]
+}

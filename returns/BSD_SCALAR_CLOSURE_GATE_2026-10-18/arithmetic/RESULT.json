@@ -1,0 +1,51 @@
+{
+  "status": "SCALAR_CLOSURE_FULL_CHARACTER_RANK_STOP",
+  "coefficient_prime": 7,
+  "curve": "rank-two -47 twist of 11a1",
+  "seed_curve": false,
+  "original_ratios": 20,
+  "closed_prime_support": 331,
+  "scalar_translates": 120,
+  "integral_translate_rank": 60,
+  "mod7_translate_rank": 60,
+  "characters": [
+    {
+      "eigenvalue": 3,
+      "order": 6,
+      "rank": 20,
+      "nullity": 0
+    },
+    {
+      "eigenvalue": 5,
+      "order": 6,
+      "rank": 20,
+      "nullity": 0
+    },
+    {
+      "eigenvalue": 6,
+      "order": 2,
+      "rank": 20,
+      "nullity": 0
+    }
+  ],
+  "desired_character": 3,
+  "desired_rank": 20,
+  "desired_nullity": 0,
+  "field_basis_scalar_binding_checked": true,
+  "universal_point_scalar3_checked": true,
+  "scalar_order6_checked": true,
+  "closed_support_checked": true,
+  "tau_inverse_checked": true,
+  "projector_eigenvalue_checked": true,
+  "odd_character_sum_checked": true,
+  "new_factorizations": 0,
+  "new_searches": 0,
+  "new_BNF_runs": 0,
+  "wall_seconds": 3.417198455,
+  "peak_rss_bytes": 126795776,
+  "resource_warning": "GP grew its stack to128MB within the1GB limit; completion marker present",
+  "conclusion": "This scalar-generated family has no nonzero faithful virtual-unit class. No whole-source bound is supplied.",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

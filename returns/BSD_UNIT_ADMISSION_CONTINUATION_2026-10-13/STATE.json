@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "result": "UNIT_COMPONENT_EXHAUSTED_AT_3; INTEGRAL_NORM_INDEX_DERIVED; NO_UNIFORM_BOUND",
+  "unit_dimension": 2,
+  "unit_excess_dimension": 1,
+  "four_class_filtration": [
+    0,
+    1,
+    1
+  ],
+  "filtration_requires_class_group_completeness": false,
+  "forward_norm_smith_at_3": [
+    3,
+    3
+  ],
+  "reverse_norm_smith_at_3": [
+    1,
+    1
+  ],
+  "local_kernel_corrected": 4,
+  "local_kernel_old_omission": 7,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "new_primary_coverage": [],
+  "running_jobs": []
+}

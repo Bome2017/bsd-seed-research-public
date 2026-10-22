@@ -1,0 +1,212 @@
+[
+  {
+    "path": "/Users/bsm/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md",
+    "expected": "1645f4849571c2ac3f49b6d859347dff779ba8726008e150bc741e561a89a690",
+    "actual": "1645f4849571c2ac3f49b6d859347dff779ba8726008e150bc741e561a89a690",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/ANALYTIC_RANK_CERTIFICATE.md",
+    "expected": "ef0d90f1e17d68c89459aad2dcbe3822f8fb52c58f6fecd118fa5b3cbebdc614",
+    "actual": "ef0d90f1e17d68c89459aad2dcbe3822f8fb52c58f6fecd118fa5b3cbebdc614",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/00_REPORT.md",
+    "expected": "cb6f57810f3a9b298c2400525b1b7ed1c2660503f8aabfc4e5f61eee7c04875c",
+    "actual": "cb6f57810f3a9b298c2400525b1b7ed1c2660503f8aabfc4e5f61eee7c04875c",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+    "expected": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+    "actual": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+    "expected": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+    "actual": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_FINAL_REPORT.md",
+    "expected": "4433478aa1b9e1286a9921917a6f9b7c5e349c3d3d6a46db0db40f88b8fbe6a2",
+    "actual": "4433478aa1b9e1286a9921917a6f9b7c5e349c3d3d6a46db0db40f88b8fbe6a2",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/addenda/P3_R2_PERIOD_PROVENANCE_AUDIT.md",
+    "expected": "2b984abaa1a20fa91a8ad6795b1f3da3fd647832924aaba6049627ff3274892d",
+    "actual": "2b984abaa1a20fa91a8ad6795b1f3da3fd647832924aaba6049627ff3274892d",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/FULL_BSD_SEED_DAG.md",
+    "expected": "3e1c96b05eda41a0eb9652c4d92e09a67c1b604e4fb4c7a03d7fce0770985d20",
+    "actual": "3e1c96b05eda41a0eb9652c4d92e09a67c1b604e4fb4c7a03d7fce0770985d20",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+    "expected": "099c84a350f33afa9d2ad668c7de650e45958ee19db2d3410f86bb03c2bbd3a8",
+    "actual": "099c84a350f33afa9d2ad668c7de650e45958ee19db2d3410f86bb03c2bbd3a8",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+    "expected": "96e16935e1b19883aa068f9451017e6316f7ac164ec26547fccf801e81e4cd49",
+    "actual": "96e16935e1b19883aa068f9451017e6316f7ac164ec26547fccf801e81e4cd49",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_LARGE_P_SHA_HUNT.md",
+    "expected": "f04a1b3f0cb229ea967ab52d60bd95df98d019a0958dee7baf642237d2d479df",
+    "actual": "f04a1b3f0cb229ea967ab52d60bd95df98d019a0958dee7baf642237d2d479df",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_SECOND_DERIVATIVE_RATIONALITY_HUNT.md",
+    "expected": "1894fc91ff1605972ff434649c38c32a9abdf2fbf5d270885c085dec012204c7",
+    "actual": "1894fc91ff1605972ff434649c38c32a9abdf2fbf5d270885c085dec012204c7",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_RANK2_GLOBAL_OBJECT_2026-09-18/RANK2_GLOBAL_OBJECT_COMPOSITION.md",
+    "expected": "6b347683743eee1ba21649c379b076b4e3c7bcd85d212fdafd69e13ebf138bcf",
+    "actual": "6b347683743eee1ba21649c379b076b4e3c7bcd85d212fdafd69e13ebf138bcf",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_LINE_HOSTILE_AUDIT_2026-09-19/LINE_HOSTILE_AUDIT.md",
+    "expected": "4e7208397257f75fc955dcb0da04d73b184bccf08cb50d1f94cac3332733c178",
+    "actual": "4e7208397257f75fc955dcb0da04d73b184bccf08cb50d1f94cac3332733c178",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/00_LANE1_SYNTHESIS.md",
+    "expected": "fab04792bd667a0805fc6554cf1e420dea6947a05f15e1cada89dd1da99bbfb5",
+    "actual": "fab04792bd667a0805fc6554cf1e420dea6947a05f15e1cada89dd1da99bbfb5",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/LANE2_REPORT.md",
+    "expected": "277eba753f7b541a6390420b1cd31837647bcee9bce3f657962140e3944369e4",
+    "actual": "277eba753f7b541a6390420b1cd31837647bcee9bce3f657962140e3944369e4",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/00_REPORT.md",
+    "expected": "5d7e98b091198b1f305742ef0cea3208ede48003f858c6035f621e9a30ee7d6e",
+    "actual": "5d7e98b091198b1f305742ef0cea3208ede48003f858c6035f621e9a30ee7d6e",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/00_REPORT.md",
+    "expected": "6a29866d31fe08f7dd5c686066c9eb97397657be0a40d52c03c9798d322415ee",
+    "actual": "6a29866d31fe08f7dd5c686066c9eb97397657be0a40d52c03c9798d322415ee",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/H9R19_WEIGHTED_RECIPROCITY_2026-09-15/08_PROGRAM_STATUS_FREEZE.md",
+    "expected": "7062cfd0c5fe2f212e29f7d3aa244b088f262e38bb5a189f996cd66cc4850685",
+    "actual": "7062cfd0c5fe2f212e29f7d3aa244b088f262e38bb5a189f996cd66cc4850685",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_R2_LEADING_TERM_BRIDGE_2026-09-19/R2_LEADING_TERM_BRIDGE_DESIGN.md",
+    "expected": "6e0ff500095737c687c304fe934bda32c36ff1e511e8810293a93a61b74f9d04",
+    "actual": "6e0ff500095737c687c304fe934bda32c36ff1e511e8810293a93a61b74f9d04",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_R2_LEADING_TERM_BRIDGE_2026-09-19/LEMMA_U_AND_P5_UNIT_AUDIT.md",
+    "expected": "cc95623276f3f4e90640c6eebab5c714c323855addd3154073e9326cf46f9e13",
+    "actual": "cc95623276f3f4e90640c6eebab5c714c323855addd3154073e9326cf46f9e13",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_RIGOROUS_REPORT.md",
+    "expected": "eb583f83f9b4c78331f34d7240ee90df3fee634edacfd07183f3a182ac5b9c77",
+    "actual": "eb583f83f9b4c78331f34d7240ee90df3fee634edacfd07183f3a182ac5b9c77",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md",
+    "expected": "2dfa96d000efa7a4862674f5cdc7953341fcc5fb3ef0e4308281456eba441d77",
+    "actual": "2dfa96d000efa7a4862674f5cdc7953341fcc5fb3ef0e4308281456eba441d77",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/SHA5_RIGOROUS_THEOREM.md",
+    "expected": "adfa6a96cd23041938d91c92629c4572b3c967a3d02b639d8aef0d73106a27d0",
+    "actual": "adfa6a96cd23041938d91c92629c4572b3c967a3d02b639d8aef0d73106a27d0",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_REPLAY.md",
+    "expected": "4a00292c74b8b0d795e3c59cf3ec6c1d76d598b162aa027ecec6457392c3318b",
+    "actual": "4a00292c74b8b0d795e3c59cf3ec6c1d76d598b162aa027ecec6457392c3318b",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_RESOURCE_LOG.md",
+    "expected": "630fa14ddec1d47807f31b736d7c5cba8ecafbdcf57de1d1045dd35bb70a1c58",
+    "actual": "630fa14ddec1d47807f31b736d7c5cba8ecafbdcf57de1d1045dd35bb70a1c58",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_MANIFEST.sha256",
+    "expected": "d010edc983503ecbdd9b3e87738839797ff1771f26a60c96ceddfdcd974fcd44",
+    "actual": "d010edc983503ecbdd9b3e87738839797ff1771f26a60c96ceddfdcd974fcd44",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/STATE.json",
+    "expected": "c2bb05a2c83bbb8d5f51ad2da92303eed44aec959e0450f3b814758037f1708b",
+    "actual": "c2bb05a2c83bbb8d5f51ad2da92303eed44aec959e0450f3b814758037f1708b",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/P3_CHECK.txt",
+    "expected": "cbef3def433279e904244245617ec7067109c477e03a17276325d2bfd10ab458",
+    "actual": "cbef3def433279e904244245617ec7067109c477e03a17276325d2bfd10ab458",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/downstream/P5_DOWNSTREAM.txt",
+    "expected": "3b100824795bdd9445bbf91fa03ad24d25f8271e6f7e358d1cf9cfc49506fdba",
+    "actual": "3b100824795bdd9445bbf91fa03ad24d25f8271e6f7e358d1cf9cfc49506fdba",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/downstream/INTEGRITY.txt",
+    "expected": "8f14edece2db3f46763880361102b4f2fe8acc019bdeb695e10f69b675a13a9c",
+    "actual": "8f14edece2db3f46763880361102b4f2fe8acc019bdeb695e10f69b675a13a9c",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/downstream/CROSS_RUN_P3.txt",
+    "expected": "de48225ff58e80a0260204a14b87586c6e6e02d6a65eb446f5c426dca6e360f8",
+    "actual": "de48225ff58e80a0260204a14b87586c6e6e02d6a65eb446f5c426dca6e360f8",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/logs/stageW_summary.txt",
+    "expected": "863110b74eef7c792045117e0524f1ffff7d93cf0ed74a54e2930a2d865d9e3f",
+    "actual": "863110b74eef7c792045117e0524f1ffff7d93cf0ed74a54e2930a2d865d9e3f",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/CRITERION_SS_HOSTILE_GATE.md",
+    "expected": "7c58bb165fe75ac92390ded335e1d616f4cc455ea9b9c06a47150ed33765fe59",
+    "actual": "7c58bb165fe75ac92390ded335e1d616f4cc455ea9b9c06a47150ed33765fe59",
+    "match": true
+  },
+  {
+    "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/AUDIT_MANIFEST.sha256",
+    "expected": "805e255ac54126c179e82675b566b3fe79c2021a841a000b716de21ec4284a80",
+    "actual": "805e255ac54126c179e82675b566b3fe79c2021a841a000b716de21ec4284a80",
+    "match": true
+  }
+]

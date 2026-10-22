@@ -1,0 +1,19 @@
+{
+  "status": "CHECKPOINT_WRITTEN_PROOF",
+  "operation": "A3 signed minimal-lambda bridge and first-layer normalization",
+  "endpoint": "supersingular contribution to FIN and order control",
+  "ordinary_witness": "OPEN",
+  "supersingular_bridge": "WRITTEN_PROOF_USING_IMPORTED_BLV_THEOREMS; independent_review_pending",
+  "supersingular_witness": "M2 = sum j^2 psi_bar(gamma^j P1); conductor p^2; NONVANISHING_OPEN_AT_EVERY_PRIME",
+  "first_unproved_arrow": "independent arithmetic proof that the signed quadratic moment is nonzero at the required supersingular primes",
+  "mathematical_statement": "ord_T(F_minus mod p)=2 implies Sha(E/Q)[p^infinity]=0; M0=M1=0 and b2_bar=M2/2",
+  "global_endpoints": {"FIN":"OPEN","ORDER9":"OPEN","Q36":"OPEN"},
+  "sealed_inputs_modified": false,
+  "subagents": false,
+  "new_primary_component_settled": false,
+  "source": "BLV arXiv:2306.17784v2",
+  "next": "Independent check of the written bridge, especially exact character lengths and equivariant residual Poitou-Tate presentation, before promotion to the freeze. Arithmetic witness work must use this exact normalization; generic trace relations already failed to determine its moment.",
+  "proof_file": "SIGNED_MINIMAL_LAMBDA_BRIDGE.md",
+  "formal_verification": "NONE",
+  "package_sent": false
+}

@@ -1,0 +1,1 @@
+Completed; no jobs running. Read PROOF.md and STATE.json. Primitive divisor layer t_D,chi=0, while unit/class contributions stay separate. Exact replay commands are run_bounded.py replay_exact.gp20 and python check_local_divisors.py (the actual command separates gp and20). Do not omit monodromy5 or normalized ramification factors.

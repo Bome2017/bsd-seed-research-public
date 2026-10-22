@@ -1,0 +1,27 @@
+{
+  "input_files": {
+    "input/BSD_ODD_EXCESS_RECHECK_2026-10-12/RECHECK.md": {
+      "sha256": "29a3a7692b40c0d35d0382afdc41b9ecbf384b4f3903f4621d3458937ba05aac",
+      "bytes": 11494
+    },
+    "inputs/candidate43737_replay.out": {
+      "sha256": "64b9c94141e1238d5e87a7e41ce92b4b4fff1a0c7b886c6b24b06dcab8ffd837",
+      "bytes": 564
+    },
+    "/Users/bsm/BSD_ODD_EXCESS_CONTROL_SOURCES_2026-10-12/pari_modsym.c": {
+      "sha256": "27d2b2dfe6a836465f1c54bec1bd892c5bc223eca2f73bcbbaf3352cafe29851",
+      "bytes": 148385
+    }
+  },
+  "baseline_lab_commit": "f97843a1b4768606787a9760ea4bad727a3dc4a1",
+  "framework_references": [
+    "https://www.mathe2.uni-bayreuth.de/stoll/papers/isogeny-descent.pdf",
+    "https://johncremona.github.io/book/fulltext/chapter3.pdf",
+    "https://arxiv.org/pdf/math/0209362",
+    "https://arxiv.org/pdf/2112.03873",
+    "https://pari.math.u-bordeaux.fr/dochtml/html/Modular_symbols.html",
+    "https://pari.math.u-bordeaux.fr/dochtml/html/Elliptic_curves.html"
+  ],
+  "scope": "Attached review replayed; separate exact checker for new isogeny/local/point data; rank upper bound uses PARI; numerator shares PARI source with earlier producer; no formal verification or human review",
+  "published_pari_source_sha256": "27d2b2dfe6a836465f1c54bec1bd892c5bc223eca2f73bcbbaf3352cafe29851"
+}

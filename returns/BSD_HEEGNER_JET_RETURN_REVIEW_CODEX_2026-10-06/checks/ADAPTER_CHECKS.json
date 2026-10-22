@@ -1,0 +1,123 @@
+{
+  "old_seed_p5": {
+    "p": 5,
+    "a_p": -2,
+    "unit_root_mod_p": 3,
+    "degrees": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "coefficients_mod_p": [
+      0,
+      0,
+      2,
+      0
+    ],
+    "ell_2_mod_p": 2,
+    "full_measure_coefficients_mod_p": [
+      0,
+      0,
+      2,
+      0
+    ],
+    "normalization": "unchanged arbcore real-period convention",
+    "scope": "cyclotomic weight-two residues only; no Hida weight derivatives or BSD promotion"
+  },
+  "supplied_formula_same": true,
+  "retained_old_ell_2": 2,
+  "negative_controls": {
+    "bad_flag": true,
+    "missing_residue": true
+  },
+  "cancellation_controls": [
+    {
+      "p": 5,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 7,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 11,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 13,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 17,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 19,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 23,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 29,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 31,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 37,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 41,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 43,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    },
+    {
+      "p": 47,
+      "each_fibre_bijective": true,
+      "binomial_sums_zero": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "evidence/msl_m5.txt",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/msl_m5.txt",
+      "sha256": "be3b9ad17cf75ca9ccd0d3c065f3c96bab344989cf494135e11440563fa761f7"
+    },
+    {
+      "path": "evidence/msl_m25.txt",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/msl_m25.txt",
+      "sha256": "3acf685d435abae71b572abb0380e8b1efdc826668c7979687a5f83939560b6d"
+    },
+    {
+      "path": "evidence/P5_DOWNSTREAM.txt",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/downstream/P5_DOWNSTREAM.txt",
+      "sha256": "3b100824795bdd9445bbf91fa03ad24d25f8271e6f7e358d1cf9cfc49506fdba"
+    },
+    {
+      "path": "evidence/P5_CERTIFICATE.md",
+      "original_path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md",
+      "sha256": "2dfa96d000efa7a4862674f5cdc7953341fcc5fb3ef0e4308281456eba441d77"
+    }
+  ]
+}

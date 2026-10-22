@@ -1,0 +1,69 @@
+{
+  "predecessor_manifests": [
+    {
+      "folder": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+      "entries": 33,
+      "result": "PASS",
+      "manifest_sha256": "bad509ae23d1dd9fbf99cfb988193aeb2470267ee36fb3f16dbe0734538b4834"
+    },
+    {
+      "folder": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+      "entries": 22,
+      "result": "PASS",
+      "manifest_sha256": "f01aa1144538ab1ef7cb903e1b27560f8ffda12fbe8ce34f3c7ab636d19faeda"
+    },
+    {
+      "folder": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "entries": 14,
+      "result": "PASS",
+      "manifest_sha256": "ce238c80861404d4d16f0976ff04473c059e820710c58a6e8e75152c4b3b461c"
+    },
+    {
+      "folder": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "entries": 19,
+      "result": "PASS",
+      "manifest_sha256": "c775e57ea56d3090e553d4608ebf2b4627d240dadba83aa2db7bb5cc1bf7530d"
+    },
+    {
+      "folder": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "entries": 22,
+      "result": "PASS",
+      "manifest_sha256": "c383fc022506c67db16f102b0470cfa34ceafffe780f6e5abd9ab43bee4f9f17"
+    }
+  ],
+  "predecessor_replays": [
+    {
+      "script": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/checks/check_seed_cofactors.py",
+      "args": [],
+      "output": "checks/SEED_COFACTORS.json",
+      "sha256": "4709127f2273db4211714389bb6c8d90a9534873ebe514360341306d1f32625b",
+      "byte_identical": true
+    },
+    {
+      "script": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/checks/check_normalization.py",
+      "args": [],
+      "output": "checks/NORMALIZATION_CONTROLS.json",
+      "sha256": "6e408ab4236115d7fc098b6dce08410bd39b41705bc914f4efd2c773775fdab7",
+      "byte_identical": true
+    },
+    {
+      "script": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_cyclotomic_adapter.py",
+      "args": [
+        "--p",
+        "5",
+        "--ap",
+        "-2",
+        "--high",
+        "/Users/bsm/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_m25.txt",
+        "--low",
+        "/Users/bsm/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/evidence/msl_m5.txt"
+      ],
+      "output": "checks/OLD_P5_SYMBOL_REPLAY.json",
+      "sha256": "6ca4a3731de76b30471c8a090767ee4839c8b4e7ce641aad94b597585b40020b",
+      "byte_identical": true
+    }
+  ],
+  "new_controls_reproduced_byte_for_byte": true,
+  "binding_count": 11,
+  "mathematical_certification": false
+}

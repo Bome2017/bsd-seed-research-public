@@ -1,0 +1,82 @@
+{
+  "operation": "endpoint_vertex_completion_test",
+  "recorded_at_utc": "2026-09-20T05:42:24.854579+00:00",
+  "files": [
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/ENDPOINT_VERTEX_COMPLETION_TEST.md",
+      "sha256": "a6f29921bf15eae45ff77321f8b4ccd6461288319877af3805291f5571a3a88f"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/delta",
+      "sha256": "994d9322d741350d2fd127c5a368e9401a21fb0321260e1d44ff5c8b1ab3869a"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/delta.c",
+      "sha256": "3934389c6416eee5ebd3b2fbe9c6b4d24177319373cbe667a9cb3ec811cacc89"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/extract_certificate.py",
+      "sha256": "177f7da15a7a4acdeff33f40dd44d2c11ab89120cf0508edfec9fc5ca4fb0272"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/replay.sh",
+      "sha256": "f9153de32beb05de826c744074fbb4f7e0de97e1709a55cff59a5fa1e21064ee"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/src/run_bounded.py",
+      "sha256": "7def18a62c35c5055932453f9f37b8e0af30404605d20b88bf91250cdbe5d69d"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/CERTIFICATE.json",
+      "sha256": "1093cd37077e84d47de5832d2971d714f5d59f51612d46e85cc597017523b491"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/EXACT_CHECKS.json",
+      "sha256": "961de65c96db1f63a20dda7423c96d2ef2055894bcf3445bfcdbded28066d23c"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/before_archive.txt",
+      "sha256": "4c40af2c50d0282386b05a74ce7a4eb60adf2bde0ecd48222763772b13e6163c"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/endpoint128.log",
+      "sha256": "ba64f6cf2f6a22ec76fef003cdcae9540e5b89c4e7300fea58246a3155a80e7c"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/execution_budget.json",
+      "sha256": "e1dc87940441fd95654fa141693de445dc1f7476752b7a2a5ed67bce36bcb026"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/endpoint_delta_numeric/evidence/retained_inputs.txt",
+      "sha256": "75e5552535b8d249a3fe1e4db3cf52573b9cd5d663ed79414f1e13c06ad54ff8"
+    }
+  ],
+  "shared_retained_inputs": [
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/src/delta.c",
+      "sha256": "3e7b2b765d04704bfca3d2cb5f2c893d00dff9346437491ed5f02f40e3dfe938"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/moments.bin",
+      "sha256": "24ba062ad50277d4c4093131cdf008c5fa7aac68123dca2840595c8fe330a013"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/midpoint_delta_numeric/evidence/prep.log",
+      "sha256": "1b4fef0d55273632c8ada38821c527b02e1c579380514cd523426ab81a085310"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/AUTOMORPHIC_SECOND_JET_EXPERIMENT.md",
+      "sha256": "01eef639b59d8a6003a1aecf0ae5b8c02019dabde2a632162ddb9d05534efef2"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/AUTOMORPHIC_MIDDLE_ORBIT_CLASSIFICATION.md",
+      "sha256": "b94a731b7a923c5c13cbf7b69981e65d08aaec44423cc886e977003f0f3768fe"
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/audits/MIDPOINT_DELTA_INTERVAL.md",
+      "sha256": "f07220b1925ff3faaaec735948ec15fc69207027825f0bf7fd5a39aa2b380e69"
+    }
+  ],
+  "old_coefficient_witnesses_reverified": false,
+  "new_numeric_run_uses_cached_integral": false
+}

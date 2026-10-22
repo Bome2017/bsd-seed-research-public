@@ -1,0 +1,23 @@
+Em = EllipticCurve([0,159145,0,5207351716,0]).minimal_model()
+j = Em.j_invariant()
+print("j =", j, "   (twists share j with the seed)")
+N = Em.conductor(); print("N_{-7} =", factor(N))
+print("odd primes with q^2 | N  (ARS Cor 3.7 candidate support of c):",
+      [q for q,e in factor(N) if q>2 and e>=2])
+print()
+for q in [7,4547]:
+    ld = Em.local_data(q)
+    print("=== q = %d ===" % q)
+    print("  Kodaira:", ld.kodaira_symbol(), "  additive:", ld.has_additive_reduction())
+    print("  q = %d mod 4" % (q%4), "   q = %d mod 3" % (q%3))
+    vj = j.valuation(q); print("  v_q(j) =", vj, "-> potentially", "GOOD" if vj>=0 else "MULTIPLICATIVE")
+    if vj >= 0:
+        jb = GF(q)(j)
+        Eb = EllipticCurve_from_j(jb)
+        ss = Eb.is_supersingular()
+        print("  j mod q =", jb)
+        print("  curve with that j over F_q :  a_q =", Eb.trace_of_frobenius(), "  SUPERSINGULAR:", ss)
+        print("  => potentially", "SUPERSINGULAR" if ss else "ORDINARY", "at q =", q)
+    print()
+print("supersingular j-invariants in F_7 :", [jj for jj in GF(7) if EllipticCurve_from_j(jj).is_supersingular()])
+print("number of ss j-invariants in F_4547:", len([1 for jj in GF(4547) if EllipticCurve_from_j(jj).is_supersingular()]))

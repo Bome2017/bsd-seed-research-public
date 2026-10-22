@@ -1,0 +1,232 @@
+{
+  "manifests": {
+    "continuation": {
+      "total": 530,
+      "matches": 530,
+      "failures": []
+    },
+    "atcopy_vs_original": {
+      "total": 257,
+      "matches": 257,
+      "failures": []
+    },
+    "atcopy_vs_copy": {
+      "total": 257,
+      "matches": 255,
+      "failures": [
+        {
+          "path": "./RESUME.md",
+          "match": false,
+          "expected": "819c09b6daef44e651ff035f84c03e3626b7140be5da4d97296a8a5ecbd64bc9",
+          "actual": "ece56d6c9004b9d7742eb421a6f0875e58c43415a7af17133ab45e860f3f5e04"
+        },
+        {
+          "path": "./STATE.json",
+          "match": false,
+          "expected": "49df2daf168341361cea2fbe4fb17de3acd1633bc160f31a4c2b87a3b4a22557",
+          "actual": "3b7beca52e5f73730a0c88979d1b10028f74ae2eab6d723df319037155b5421b"
+        }
+      ]
+    }
+  },
+  "scan": {
+    "count": 24,
+    "next24_confirmed": true,
+    "statuses": {
+      "PASS": 3,
+      "PROVISIONAL_CLASS3_ZERO": 19,
+      "TIMEOUT": 2
+    },
+    "selected_new_count": 5,
+    "table_total": 8
+  },
+  "replays": [
+    {
+      "curve": "1141a1",
+      "kind": "identities",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.141
+    },
+    {
+      "curve": "1141a1",
+      "kind": "matrix",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 1.033
+    },
+    {
+      "curve": "1141a1",
+      "kind": "hensel",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.115
+    },
+    {
+      "curve": "1141a1",
+      "kind": "transvection",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.087
+    },
+    {
+      "curve": "1246c1_retry600",
+      "kind": "identities",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.138
+    },
+    {
+      "curve": "1246c1_retry600",
+      "kind": "matrix",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.832
+    },
+    {
+      "curve": "1246c1_retry600",
+      "kind": "hensel",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.107
+    },
+    {
+      "curve": "1246c1_retry600",
+      "kind": "transvection",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.083
+    },
+    {
+      "curve": "1480a1",
+      "kind": "identities",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.136
+    },
+    {
+      "curve": "1480a1",
+      "kind": "matrix",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.99
+    },
+    {
+      "curve": "1480a1",
+      "kind": "hensel",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.108
+    },
+    {
+      "curve": "1480a1",
+      "kind": "transvection",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.085
+    },
+    {
+      "curve": "1525c1",
+      "kind": "identities",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.13
+    },
+    {
+      "curve": "1525c1",
+      "kind": "matrix",
+      "rc": 1,
+      "stderr_clean_except_stack_warnings": false,
+      "unexpected_stderr": [
+        "Traceback (most recent call last):",
+        "  File \"/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/review/check_718b1_matrices.py\", line 68, in <module>",
+        "    out['full_repaired_class_point_coordinates']=solve(POINTS,repair)",
+        "  File \"/Users/bsm/BSD_CLASS_LIFT_COUPLING_CONTINUATION_CLAUDE_2026-10-14/review/check_718b1_matrices.py\", line 33, in solve",
+        "    assert len(piv)==n",
+        "AssertionError"
+      ],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.928
+    },
+    {
+      "curve": "1525c1",
+      "kind": "hensel",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.114
+    },
+    {
+      "curve": "1525c1",
+      "kind": "transvection",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.089
+    },
+    {
+      "curve": "1613a1_grh",
+      "kind": "identities",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.139
+    },
+    {
+      "curve": "1613a1_grh",
+      "kind": "matrix",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.939
+    },
+    {
+      "curve": "1613a1_grh",
+      "kind": "hensel",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.108
+    },
+    {
+      "curve": "1613a1_grh",
+      "kind": "transvection",
+      "rc": 0,
+      "stderr_clean_except_stack_warnings": true,
+      "unexpected_stderr": [],
+      "byte_identical_saved_stdout": true,
+      "seconds": 0.085
+    }
+  ]
+}

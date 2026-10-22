@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-13",
+  "baseline_commit": "257af6888c80fda3b90d481cf2d94f9950701811",
+  "review_folder": "work/returns/BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13",
+  "copied_manifest_entries": 35,
+  "copied_manifest_verified": true,
+  "input_remote_commit": "0048c241f4737ddc5b6d4044a04599d3910a96da",
+  "archives": [
+    {
+      "path": "work/returns/archives/BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13.zip",
+      "sha256": "0c35fe2d121c27c0c681a5fd92d2f331cca0262f7265b45210f72160fa667d58",
+      "bytes": 67752
+    },
+    {
+      "path": "work/returns/archives/BSD_LOCAL_OBSTRUCTION_DETECTOR_2026-10-13.zip",
+      "sha256": "6b7dd0ef38624e5bf33bf14581c39c4e5d2bc708ff7dea9df8ec56938e2a244a",
+      "bytes": 20163
+    }
+  ],
+  "replay": "PASS; supplied checker byte-identical; independent local and seed arithmetic pass",
+  "grade": "Written same-team review and exact bounded computation, retaining specified global inputs",
+  "endpoint_effect": "FIN, ORDER9, Q36 and seed coefficient-prime coverage unchanged"
+}

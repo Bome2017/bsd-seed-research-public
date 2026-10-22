@@ -1,0 +1,22 @@
+{
+  "return": "BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06",
+  "date_utc": "2026-10-07T05:09:18.767688+00:00",
+  "author": "Codex",
+  "grade": "written conditional derivation; independent review required",
+  "status": "MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY",
+  "prior_input_commit": "bcb6e11ff21c88b42d29cfd4801f952acac5abea",
+  "concurrent_review_commit": "c4f53313e92f9cae9392132a51e2780626539699",
+  "manifest_entries_verified": 19,
+  "manifest_sha256": "06c6bb7c559ad3568d6645dc1b8db5f4d4fceedc05ee89deaf9f231a75c028c0",
+  "archive_path": "archives/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06.zip",
+  "archive_sha256": "3594595aad34bec870c25fc54811f5bbac41997a93fd16a949c3f3154d464835",
+  "archive_bytes": 49110,
+  "copied_byte_for_byte": true,
+  "algebra_controls": 16265,
+  "not_seed_computation": true,
+  "all_order_lift": false,
+  "FIN_changed": false,
+  "ORDER9_changed": false,
+  "Q36_changed": false,
+  "scope": "standing user-authorized lab publication; no research promotion or job submission"
+}

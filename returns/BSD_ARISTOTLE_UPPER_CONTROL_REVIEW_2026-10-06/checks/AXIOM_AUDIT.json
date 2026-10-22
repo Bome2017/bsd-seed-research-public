@@ -1,0 +1,24 @@
+{
+  "exit_code": 0,
+  "declarations": [
+    "Seed.NoLift.one_add_pow_of_pow_four",
+    "Seed.NoLift.e12_mul_e12",
+    "Seed.NoLift.pow_four_eq_zero",
+    "Seed.NoLift.exists_mul_of_red_eq_zero",
+    "Seed.NoLift.natCast_p_sq_eq_zero",
+    "Seed.NoLift.natCast_p_ne_zero",
+    "Seed.NoLift.pow_eq_of_lift",
+    "Seed.NoLift.pow_ne_one_of_lift",
+    "Seed.NoLift.transvection_pow_p",
+    "Seed.NoLift.no_section_SL2",
+    "Seed.Exceptional.primeFactors_2242",
+    "Seed.Exceptional.primeFactors_5844",
+    "Seed.Exceptional.exceptional_local_primes",
+    "Seed.Exceptional.torus_weight_nontrivial",
+    "Seed.EtaCheck.eta_19",
+    "Seed.EtaCheck.eta_59",
+    "Seed.EtaCheck.eta_487",
+    "Seed.EtaCheck.order_kills"
+  ],
+  "method": "#print axioms after fresh compilation; dependencies reused at pinned revisions"
+}

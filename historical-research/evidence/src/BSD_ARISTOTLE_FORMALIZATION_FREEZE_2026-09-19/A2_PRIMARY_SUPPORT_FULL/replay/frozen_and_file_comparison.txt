@@ -1,0 +1,63 @@
+# Frozen-file comparison: returned (pristine re-extraction) vs ORIGINAL A2 package tarball (sha256 36005a0c92b8c847aea601ca87e33b6284a967ff1d8e295a112ed783b6b79bef)
+PrimarySupport/Defs.lean           d5853edd3c09da27afea8d22b04d0b42c088e5982cded91e9879e04d3fcb0699  BYTE-IDENTICAL
+PrimarySupport/Spec.lean           80d452c2adf830d8d87ce4f4c49a4d686bb4ba5dbc2bf5cbb541c002aa96c2d4  BYTE-IDENTICAL
+PrimarySupport/Acceptance.lean     d586dfd7664c3f75f070dda0e2a16093fc3ad0b7c6e143d3e329fbe5ed4c2624  BYTE-IDENTICAL
+lakefile.toml                      7624412eb37e5f6768819f2dc4740efa9cf724c214d91681475827b2c1416bc0  BYTE-IDENTICAL
+lean-toolchain                     db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028  BYTE-IDENTICAL
+scripts/level.py                   97eae442086888051ca8c017eaeedc533616b80970303e51a50cbb43ca6ca95e  BYTE-IDENTICAL
+
+# FROZEN.sha256 check inside the returned tree
+PrimarySupport/Defs.lean: OK
+PrimarySupport/Spec.lean: OK
+PrimarySupport/Acceptance.lean: OK
+lakefile.toml: OK
+lean-toolchain: OK
+scripts/level.py: OK
+
+# Full file-by-file comparison, returned vs original
+UNCHANGED  00_READ_ME_FIRST.md
+UNCHANGED  ACCEPTANCE_TESTS.md
+UNCHANGED  ASSUMPTIONS.md
+UNCHANGED  DEFINITIONS.md
+UNCHANGED  DEPENDENCY_DAG.md
+UNCHANGED  KNOWN_TRAPS.md
+UNCHANGED  MANIFEST.sha256
+UNCHANGED  MATHEMATICAL_SPEC.md
+UNCHANGED  PREPACKAGE_AUDIT.md
+UNCHANGED  PrimarySupport.lean
+UNCHANGED  PrimarySupport/Acceptance.lean
+UNCHANGED  PrimarySupport/Defs.lean
+UNCHANGED  PrimarySupport/Spec.lean
+CHANGED    PrimarySupport/Targets.lean
+CHANGED    RESUME.md
+UNCHANGED  SOURCE_EXCERPTS.md
+CHANGED    STATE.json
+UNCHANGED  TASK.md
+UNCHANGED  THEOREM_TARGETS.md
+UNCHANGED  lake-manifest.json
+UNCHANGED  lakefile.toml
+UNCHANGED  lean-toolchain
+UNCHANGED  scripts/FROZEN.sha256
+UNCHANGED  scripts/acceptance.sh
+UNCHANGED  scripts/level.py
+NEW        PrimarySupport/CodexExample.lean
+NEW        PrimarySupport/Content.lean
+NEW        PrimarySupport/Countermodels.lean
+NEW        PrimarySupport/Depth.lean
+NEW        PrimarySupport/Descent.lean
+NEW        PrimarySupport/LemmaB.lean
+NEW        PrimarySupport/Order.lean
+NEW        PrimarySupport/Pairing.lean
+NEW        PrimarySupport/Primary.lean
+NEW        PrimarySupport/Symplectic.lean
+NEW        axioms.log
+NEW        build.log
+
+# Original pre-run MANIFEST.sha256 against the returned tree (expected stale)
+PrimarySupport/Targets.lean: FAILED
+RESUME.md: FAILED
+STATE.json: FAILED
+shasum: WARNING: 3 computed checksums did NOT match
+OK lines: 21/24
+
+# returned axioms.log vs fresh probe: IDENTICAL-CONTENT (28 lines)

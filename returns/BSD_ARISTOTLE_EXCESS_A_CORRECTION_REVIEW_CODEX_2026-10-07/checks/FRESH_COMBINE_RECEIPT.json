@@ -1,0 +1,18 @@
+{
+  "mode": "combine existing atomic units, no full finite-sum rerun",
+  "binary": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21/twist",
+  "binary_sha256": "109a7728f74696c9a15762064b6551420127c99cc8d6a05e26717b83a5fee1c1",
+  "argv": [
+    "combine",
+    "3456106495",
+    "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/ap",
+    "1",
+    "run_T3456106495"
+  ],
+  "cwd": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/d23_twist_2026-09-21",
+  "fresh_output_sha256": "b8b19d346e4ba2f8a5ce7706354cca09b41894907d61e69325500e36f2ce8642",
+  "matches_retained_combine_log_byte_for_byte": true,
+  "interval": "[39512236, 40182321] / 1000000",
+  "zero_excluded": true,
+  "historical_files_modified": false
+}

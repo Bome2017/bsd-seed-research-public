@@ -1,0 +1,108 @@
+**The cofactor calculation checks, and the fixed-source argument removes a normalization ambiguity on a cofinite domain. Neither establishes the remaining valuation estimate.** I read the committed proofs and independently recomputed the local logarithms and cofactor arithmetic. I did not rerun the height engines or compute \(K_{17}\).
+
+BSD_RUBIN_FOLLOW_REVIEW_2026-10-07.zip[Review and reproducible checks](sandbox:/mnt/data/BSD_RUBIN_FOLLOW_REVIEW_2026-10-07.zip) · REVIEW\.md[Written review](sandbox:/mnt/data/BSD_RUBIN_FOLLOW_REVIEW_2026-10-07/REVIEW.md)
+
+## 1. The \(17\)-calculation gives the stated cancellation
+
+Using exact rational arithmetic on \(P_1,P_2\), I reproduced
+\[
+\frac1{17}
+\begin{pmatrix}\log_\omega(P_1)\\ \log_\omega(P_2)\end{pmatrix}
+\equiv
+\begin{pmatrix}2\\13\end{pmatrix}
+\pmod{17}.
+\]
+
+With the retained height matrix
+\[
+H_\gamma\equiv
+\begin{pmatrix}13&5\\5&15\end{pmatrix}\pmod{17},
+\]
+this gives
+\[
+\frac{\operatorname{adj}(H_\gamma)\log(P)}{17}
+\equiv
+\begin{pmatrix}16\\6\end{pmatrix}\pmod{17}.
+\]
+I also recomputed the determinant from the saved higher-precision height digits, obtaining
+\[
+v_{17}(\det H_\gamma)=1,\qquad
+\frac{\det H_\gamma}{17}\equiv13\pmod{17}.
+\]
+That last check reuses the recorded heights; it is not an independent height computation.  
+
+BKS’s Rubin prefactor is
+\[
+\epsilon_\rho=(1-\rho^{-1})^{-1}(1-\sigma^{-1}),
+\qquad \sigma=17/\rho.
+\]
+At this ordinary prime its valuation is \(-1\). Consequently, **with the height and source conventions matched**, the coordinate formula indeed gives
+\[
+\boxed{\min\{v_{17}(A_{17}),v_{17}(B_{17})\}
+=v_{17}(K_{17})-1.}
+\]
+The prefactor is the one in BKS’s generalized Rubin formula; its application without an initial finiteness assumption uses the project’s separate case-split argument. [arXiv](https://arxiv.org/html/1910.07404v2) 
+
+Thus \(K_{17}\equiv0\pmod{17}\) is **forced by integrality**, not evidence that the derivative is nonprimitive. The unresolved test is
+\[
+\boxed{K_{17}/17\not\equiv0\pmod{17}.}
+\]
+
+This explicitly corrects my earlier treatment of the \(17\)-adic regulator as an automatic reason to reject the route.
+
+## 2. The same calculation gives an exact conditional residue formula
+
+There is a small further deduction from the displayed data. Under **exactly those conventions**, the ordinary root satisfies
+\[
+\rho\equiv a_{17}=-6\equiv11\pmod{17},
+\]
+and therefore
+\[
+17\epsilon_\rho
+=\frac{\rho(17-\rho)}{\rho-1}
+\equiv10\pmod{17}.
+\]
+
+Combining this with the determinant unit \(13\) and cofactor vector gives
+\[
+\boxed{
+\begin{pmatrix}A_{17}\\B_{17}\end{pmatrix}
+\equiv
+\left(\frac{K_{17}}{17}\bmod17\right)
+\begin{pmatrix}11\\2\end{pmatrix}
+\pmod{17}.
+}
+\]
+
+I included this calculation in the review. **It does not evaluate the missing digit.** It specifies exactly what that digit would imply. If the height identification is established only up to a common unit, retain the projective direction
+\[
+[11:2]=[16:6]
+\]
+and the valuation criterion, rather than the absolute multiplier.
+
+## 3. The fixed-source normalization argument has the right scope
+
+Fixing one rational geometric map makes its two integral Betti lattices commensurable. Their comparison can therefore introduce nonunit factors at only finitely many primes. A fixed nonzero Betti input and fixed smoothing parameters likewise contribute only fixed finite supports. BKS’s construction explicitly uses these image lattices, Betti inputs and periods. [arXiv](https://arxiv.org/html/1910.07404v2) [arXiv](https://arxiv.org/html/1910.07404v2)
+
+That supports the return’s cofinite normalization conclusion:
+\[
+v_p(K_p)=v_p([U^2]L_{\mathrm{std},p})
+\]
+on the stated matched ordinary domain. It does **not** bound the intrinsic valuation on either side. The integer clearing normalization discrepancies is not a Sha annihilator. 
+
+There is also a specific-prime qualification: **an unspecified finite exceptional set cannot certify that \(17\) lies outside it.** The report correctly leaves the exact source-lattice and numerical-height matching at \(17\) explicit. The proposed fixed smoothing itself causes no problem there—I checked that \(c,d\equiv11,4\pmod{17}\), making its augmentation a unit—but that does not settle the other normalization factors.  
+
+## What is now missing
+
+For nonsingular matched heights, write
+\[
+r_p=v_p(\det H_p),\qquad
+c_p=\min_i v_p\!\left((\operatorname{adj}(H_p)\log(P))_i\right).
+\]
+On the ordinary domain, integrality already supplies
+\[
+v_p(K_p)\ge r_p-c_p+1.
+\]
+**Primitivity requires equality.** The missing input is an arithmetic upper estimate excluding an additional factor of \(p\), not another proof of integrality or a demand that the regulator be a unit. Singular heights and supersingular primes still require their separately stated versions; the ordinary formula cannot replace them. 
+
+So this return does two identifiable things: it bounds **normalization exceptions** by a fixed finite support, and it verifies on the actual seed why **correlated divisibility**, rather than coefficient unitness, is the correct test. It does not yet show that the test succeeds at \(17\) or cofinitely. **FIN, ORDER9 and Q36 remain unchanged.**

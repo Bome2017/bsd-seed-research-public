@@ -1,0 +1,6 @@
+minimal model [0, -1, 0, -66020924, -65074271436] ; a_3 = -1 ; PARI Kodaira code at 3 = 6 (6 = I_2)
+ord_3 [h11, h12, h22] = [1, 1, 1] ; ord_3 Reg_3 = 2 ; ord_3(det of entries) = 2 ; ord_3(R - det) = 18
+8P in E_1(Q_3): v_3(x(8P1)) = -2, v_3(x(8P2)) = -4
+ord_3 [log P1, log P2] = [1, 2] ; ord_3 of update terms l1^2 h22, l1 l2 h12, l2^2 h11 = [3, 4, 5]
+ROBUST: any c in Z_3 changes det by ord >= 3 vs ord det = 2
+ord_3 log_3(4) = 1 => ord_3 Reg_gamma = 0

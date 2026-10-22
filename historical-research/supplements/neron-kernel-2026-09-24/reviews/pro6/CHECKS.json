@@ -1,0 +1,142 @@
+{
+  "gauss_sums": {
+    "exact_cases": 262,
+    "dyadic_cases": 96,
+    "odd_prime_cases": 166,
+    "negative_controls_rejected": 2,
+    "method": "integer polynomials modulo prime-power cyclotomic polynomials",
+    "finite_check_scope": "Eichler local sums only; division-place import retained"
+  },
+  "cusp_inequalities": [
+    {
+      "prime": 2,
+      "level_exponent": 3,
+      "cusp_exponent": 0,
+      "theta_bound": "-3",
+      "multiplier_exponent": 1,
+      "CNS_threshold": "-3",
+      "margin": "1"
+    },
+    {
+      "prime": 2,
+      "level_exponent": 3,
+      "cusp_exponent": 1,
+      "theta_bound": "-2",
+      "multiplier_exponent": 1,
+      "CNS_threshold": "-1",
+      "margin": "0"
+    },
+    {
+      "prime": 2,
+      "level_exponent": 3,
+      "cusp_exponent": 2,
+      "theta_bound": "-1",
+      "multiplier_exponent": 1,
+      "CNS_threshold": "0",
+      "margin": "0"
+    },
+    {
+      "prime": 2,
+      "level_exponent": 3,
+      "cusp_exponent": 3,
+      "theta_bound": "0",
+      "multiplier_exponent": 1,
+      "CNS_threshold": "0",
+      "margin": "1"
+    },
+    {
+      "prime": 3,
+      "level_exponent": 1,
+      "cusp_exponent": 0,
+      "theta_bound": "-1",
+      "multiplier_exponent": 0,
+      "CNS_threshold": "-1",
+      "margin": "0"
+    },
+    {
+      "prime": 3,
+      "level_exponent": 1,
+      "cusp_exponent": 1,
+      "theta_bound": "0",
+      "multiplier_exponent": 0,
+      "CNS_threshold": "0",
+      "margin": "0"
+    },
+    {
+      "prime": 2243,
+      "level_exponent": 1,
+      "cusp_exponent": 0,
+      "theta_bound": "-1",
+      "multiplier_exponent": 0,
+      "CNS_threshold": "-1",
+      "margin": "0"
+    },
+    {
+      "prime": 2243,
+      "level_exponent": 1,
+      "cusp_exponent": 1,
+      "theta_bound": "0",
+      "multiplier_exponent": 0,
+      "CNS_threshold": "0",
+      "margin": "0"
+    },
+    {
+      "prime": 4547,
+      "level_exponent": 2,
+      "cusp_exponent": 0,
+      "theta_bound": "-2",
+      "multiplier_exponent": 1,
+      "CNS_threshold": "-2",
+      "margin": "1"
+    },
+    {
+      "prime": 4547,
+      "level_exponent": 2,
+      "cusp_exponent": 1,
+      "theta_bound": "-1",
+      "multiplier_exponent": 1,
+      "CNS_threshold": "-4545/4546",
+      "margin": "4545/4546"
+    },
+    {
+      "prime": 4547,
+      "level_exponent": 2,
+      "cusp_exponent": 2,
+      "theta_bound": "0",
+      "multiplier_exponent": 1,
+      "CNS_threshold": "0",
+      "margin": "1"
+    },
+    {
+      "prime": 5843,
+      "level_exponent": 1,
+      "cusp_exponent": 0,
+      "theta_bound": "-1",
+      "multiplier_exponent": 0,
+      "CNS_threshold": "-1",
+      "margin": "0"
+    },
+    {
+      "prime": 5843,
+      "level_exponent": 1,
+      "cusp_exponent": 1,
+      "theta_bound": "0",
+      "multiplier_exponent": 0,
+      "CNS_threshold": "0",
+      "margin": "0"
+    }
+  ],
+  "arithmetic": {
+    "seed_N": 6503188012738584,
+    "B_theta": 4656128,
+    "B_join": 595984384,
+    "exact_radius_theta": "1/9312256",
+    "exact_radius_join": "1/1191968768",
+    "rounded_8_39e_minus10_is_too_large": true,
+    "interval_controls": 5,
+    "degree_zero_relift_primes": 9,
+    "actual_seed_witness_evaluated": false
+  },
+  "no_new_seed_value": true,
+  "cpu_seconds": 0.00901440100000006
+}

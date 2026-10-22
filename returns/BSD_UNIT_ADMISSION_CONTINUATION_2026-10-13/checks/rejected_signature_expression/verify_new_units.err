@@ -1,0 +1,7 @@
+  ***   at top-level: fPlus=subst(R[5],w,sqrt(x))
+  ***                                    ^--------
+  *** sqrt: domain error in sqrtn: valuation != Mod(0, 2)
+... skipping file 'verify_new_units.gp'
+  ***   at top-level: ...finit(fPlus).sign!=[2,1],error("fixed field si
+  ***                                             ^---------------------
+  ***   user error: fixed field signature

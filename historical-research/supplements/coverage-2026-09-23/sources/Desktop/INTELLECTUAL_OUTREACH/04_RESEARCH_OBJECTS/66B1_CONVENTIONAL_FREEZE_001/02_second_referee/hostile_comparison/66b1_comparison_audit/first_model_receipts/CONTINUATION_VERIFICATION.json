@@ -1,0 +1,29 @@
+{
+  "stage_I_sha256_unchanged": "0f9468a2747c98794e3c7ff3991439cd8f2355095fd2b370b6c641daaca19050",
+  "retained_prime_coverage_checked": 9589,
+  "retained_family_count_checked": 600,
+  "family_below4000": 38,
+  "what_was_not_repeated": "The full 100000-bound point count was retained, not rerun. All stored rows, exact sieve coverage, characters, valuations, traces, model agreement, and criterion consistency were rechecked. Only p=5,19 were newly point-counted by literal pair enumeration.",
+  "new_literal_controls": {
+    "5": {
+      "minimal_count": 4,
+      "descent_count": 4,
+      "chi2": -1,
+      "chi33": -1
+    },
+    "19": {
+      "minimal_count": 16,
+      "descent_count": 16,
+      "chi2": -1,
+      "chi33": -1
+    }
+  },
+  "new_minimal_twist_identity": "verified symbolically",
+  "new_minimal_twist_invariants": {
+    "c4": "97*q**2",
+    "c6": "-17*q**3",
+    "Delta": "528*q**6"
+  },
+  "supplied_prior_rerun_matches_supplied_output": true,
+  "exceptions": []
+}

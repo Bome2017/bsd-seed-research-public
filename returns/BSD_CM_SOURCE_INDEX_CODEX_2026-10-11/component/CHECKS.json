@@ -1,0 +1,82 @@
+{
+  "status": "ELLIPTIC_ISOGENY_AND_LOCAL_CONTROLS_PASSED",
+  "backend": "PARI/GP exact arithmetic",
+  "model": [
+    1,
+    1,
+    1,
+    1878418,
+    -485198548
+  ],
+  "coefficient_prime": 5,
+  "raised_prime": 167,
+  "rational_isogeny_class_size": 1,
+  "component_order": 5,
+  "kodaira": "I5",
+  "split_multiplicative": true,
+  "conditional_deduction": "COMPONENT_FACTOR_K_IS_A_MOD5_UNIT_UNDER_C3",
+  "uncomputed": [
+    "k residue",
+    "CM source index n",
+    "source CM point or divisor image"
+  ],
+  "C3_at_5": "retained theorem; model-specific base freeness must be checked separately",
+  "endpoint_effect": "none",
+  "files": {
+    "SATURATION_API.txt": "d6d26eb3b7edaa57d614f7c6649eda9131d1726e4651eaf19e5ea5442c49197c",
+    "basis_check.out": "716eb763818ebae0b4e7b2ab688a380b1589cfcd351e1d13b009004babbd11c2",
+    "BASIS_AND_DEGREE_REVIEW.md": "c24b94ffee921cf58e934c6c279bd64bb23ad4359094cf6a9eb28c098d29ff3b",
+    "basis_check.py": "7e4720c110a95e1fdc944aff45afa7cd21370a7c5816fe296bc5abbfbe46bc03",
+    "basis_check.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "torsion_and_indices.py": "fca5b7fb2b0730ab7451b3a755716de97ae959d97bdbb1b78c0bd4cb969fc392",
+    "BASE_FREENESS.md": "89f8f87d0ef4593a7c6b6aae894b8452c6884acc2a2909b016b23d5488c2c10a",
+    "TORSION_AND_INDICES.json": "48a690131414dbeadc1fc71491aa29c9b046e5b7cda5819833793db767192683",
+    "component_check.gp": "66e6b1f0843b4c22db1f96c38051cbcdcca898d43d41ab42e0d7f6e735718d59",
+    "component_check.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "COMPONENT_UNIT.md": "136c1efeac87d125bdc5a014e1c503d4bb64a08dfd68a6b8c8108ac8721c4f8b",
+    "torsion_and_indices.out": "48a690131414dbeadc1fc71491aa29c9b046e5b7cda5819833793db767192683",
+    "INPUT_BINDINGS.json": "a45c33d19b2c41cc57146e7d5884f2f804c5310a143d907797ac55a8beec57d7",
+    "component_check.out": "ad45eef53023169e63179e9282e9ac6cfd3c57d31010adb4ee49f61cf7ee12d6"
+  },
+  "full_saturation_result": [
+    true,
+    1,
+    []
+  ],
+  "rank_E_K": 1,
+  "rank_source": "retained exact ellrank E1 and twist -19 bounds",
+  "E_K_torsion_order": 1,
+  "coefficient_lattice": "Z*Y",
+  "geometric_component_order_at3": 14,
+  "classical_degree_retained": 20576640,
+  "shimura_degree_derived": 293952,
+  "component_cokernels_derived": {
+    "3": 1,
+    "167": 1
+  },
+  "Manin_constant_derived": 1,
+  "graph_norm_review": {
+    "status": "SUPPORTED_UNDER_RETAINED_C3_AND_GRAPH_IDENTIFICATIONS",
+    "independently_recomputed": "saved primitive-vector sums and normalization residues",
+    "k_squared_mod5": 1,
+    "sign": "not computed"
+  },
+  "component_file_hashes": {
+    "BASE_FREENESS.md": "89f8f87d0ef4593a7c6b6aae894b8452c6884acc2a2909b016b23d5488c2c10a",
+    "BASIS_AND_DEGREE_REVIEW.md": "c24b94ffee921cf58e934c6c279bd64bb23ad4359094cf6a9eb28c098d29ff3b",
+    "COMPONENT_UNIT.md": "136c1efeac87d125bdc5a014e1c503d4bb64a08dfd68a6b8c8108ac8721c4f8b",
+    "GRAPH_NORM_ARITHMETIC.json": "8affb9e9db8d3f5a40f9d920cadeea69b9faf2c9d08b2af800c256a32423bc63",
+    "GRAPH_NORM_AUDIT.md": "07e125ca9f7458e195f8bb9ce4d576756ea1cad6dd11841347508bf376f13e6e",
+    "INPUT_BINDINGS.json": "a45c33d19b2c41cc57146e7d5884f2f804c5310a143d907797ac55a8beec57d7",
+    "SATURATION_API.txt": "d6d26eb3b7edaa57d614f7c6649eda9131d1726e4651eaf19e5ea5442c49197c",
+    "TORSION_AND_INDICES.json": "48a690131414dbeadc1fc71491aa29c9b046e5b7cda5819833793db767192683",
+    "basis_check.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "basis_check.out": "716eb763818ebae0b4e7b2ab688a380b1589cfcd351e1d13b009004babbd11c2",
+    "basis_check.py": "7e4720c110a95e1fdc944aff45afa7cd21370a7c5816fe296bc5abbfbe46bc03",
+    "component_check.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "component_check.gp": "66e6b1f0843b4c22db1f96c38051cbcdcca898d43d41ab42e0d7f6e735718d59",
+    "component_check.out": "ad45eef53023169e63179e9282e9ac6cfd3c57d31010adb4ee49f61cf7ee12d6",
+    "torsion_and_indices.out": "48a690131414dbeadc1fc71491aa29c9b046e5b7cda5819833793db767192683",
+    "torsion_and_indices.py": "fca5b7fb2b0730ab7451b3a755716de97ae959d97bdbb1b78c0bd4cb969fc392"
+  }
+}

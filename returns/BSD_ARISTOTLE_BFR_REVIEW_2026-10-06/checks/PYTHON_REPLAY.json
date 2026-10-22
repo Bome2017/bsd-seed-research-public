@@ -1,0 +1,32 @@
+[
+  {
+    "script": "research_return/checks/local_kummer_4547.py",
+    "exit_code": 0,
+    "stored_output": true,
+    "json_matches": true,
+    "stdout_sha256": "e4807afc3f894461e71fc3b3969c161b137e84c5c9193ea0a5140f7972b825d6",
+    "stderr": "",
+    "byte_matches": true,
+    "stored_sha256": "e4807afc3f894461e71fc3b3969c161b137e84c5c9193ea0a5140f7972b825d6"
+  },
+  {
+    "script": "research_return/checks/bad_prime_local_types.py",
+    "exit_code": 0,
+    "stored_output": true,
+    "json_matches": true,
+    "stdout_sha256": "c432a7b29b6ec780593dcf5a79413eb86c83632e012ea4fde9c7df2ffe899cd2",
+    "stderr": "",
+    "byte_matches": true,
+    "stored_sha256": "c432a7b29b6ec780593dcf5a79413eb86c83632e012ea4fde9c7df2ffe899cd2"
+  },
+  {
+    "script": "research_return/checks/genus2_quotients.py",
+    "exit_code": 0,
+    "stored_output": true,
+    "json_matches": true,
+    "stdout_sha256": "3347dada2d6c170cba1e1a9225425665a01f274a0d2d50ea87cbe9375f772949",
+    "stderr": "",
+    "byte_matches": true,
+    "stored_sha256": "3347dada2d6c170cba1e1a9225425665a01f274a0d2d50ea87cbe9375f772949"
+  }
+]

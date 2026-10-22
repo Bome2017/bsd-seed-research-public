@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T18:00:06.820832+00:00",
+  "script": "export_profile.gp",
+  "sha256": "02853565af189b47679e15d6c384f212b0cfa745a893873cf74a00118d8adf30",
+  "cap_seconds": 10,
+  "elapsed": 0.02776064584031701,
+  "timeout": false,
+  "returncode": 0,
+  "stdout_sha256": "db569fb90e67087db539301c198940ef17e12592f1b9c8a8689d4b9ff2afec1d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "accepted": true
+}

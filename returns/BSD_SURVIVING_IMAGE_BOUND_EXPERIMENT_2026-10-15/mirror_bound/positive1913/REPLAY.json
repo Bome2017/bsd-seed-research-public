@@ -1,0 +1,29 @@
+{
+  "status": "LITERAL_POSITIVE_REVERSE_NORM_REPLAY_PASS",
+  "byte_identical_products": [
+    "reverse_certificate.gp",
+    "reverse.json"
+  ],
+  "steps": [
+    {
+      "script": "verify_reverse.gp",
+      "exit": 0,
+      "stderr": "",
+      "stdout": "GLOBAL_UNITS=4;ODD_UNIT_CLASSES=2;LITERAL_REVERSE_NORM_IDENTITIES=2;MS=87\nGENUINE_EXCESS_IN_REVERSE_NORM_IMAGE_CERTIFIED_UNDER_RETAINED_MEMBERSHIP_AND_RANK\n"
+    },
+    {
+      "script": "check_reverse.gp",
+      "exit": 0,
+      "stderr": "",
+      "stdout": "FOUR_INDEPENDENT_MULTIPLICATION_DETERMINANTS_AND_FOUR_UNIT_IDEALS_PASS\n"
+    }
+  ],
+  "independent_matrix_check": {
+    "status": "INDEPENDENT_POSITIVE_UNIT_MATRIX_CHECK_PASS",
+    "unit_rank": 4,
+    "odd_unit_rank": 2,
+    "independent_admitted_unit_classes": 2,
+    "retained_rank_zero_and_torsion_prime_to3": "retained arithmetic inputs, not re-run",
+    "no_Sha_order_input": true
+  }
+}

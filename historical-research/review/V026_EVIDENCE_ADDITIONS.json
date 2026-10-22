@@ -1,0 +1,274 @@
+{
+ "purpose": "Declared evidence additions for the v0.2.6 commit: the records governing B.20-B.22 (the Codex uniform synthesis, the independent ChatGPT Pro review and its Codex return check, the Fable source/bridge check, the Claude check report and task-supplied addenda, the governing scope and its check, and the local PARI re-derivation). Third-party page renders, paper copies and text extractions are bound by hash in review/V026_APPLIED.json, not copied. Any other evidence change is rejected by tools/build_evidence_transition.py.",
+ "base": "4344c6a85e6940d6477807ef5d8dda761134bc2e",
+ "additions": [
+  {
+   "original_path": "/Users/bsm/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+   "release_path": "evidence/src/BSD_BUILD_MAP/UNIFORM_STEP_REDUCTION_SHEET_2026-09-29.md",
+   "sha256": "e92688976c4a51f6777a5bde4bb74c61979d9c5a99803304be05111746ec5707",
+   "bytes": 19040,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+   "release_path": "evidence/src/BSD_RUN_NOW_RETURNS_CHECK_CLAUDE_2026-09-29/REPORT.md",
+   "sha256": "ca86c869c1db2f4a6356bc5dcee3dc78c6a7020724dbfd1fc5a03718958f2586",
+   "bytes": 63801,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+   "release_path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.gp",
+   "sha256": "0bbc4995fbe53dae985fd9c84892ee4f8e0d4f652b13894c5adac854c24e60f1",
+   "bytes": 1003,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+   "release_path": "evidence/src/BSD_SEED_V026_BANK_RETURN_OPUS_2026-09-30/checks/seed_local_facts.log",
+   "sha256": "72bb24852fdcd79262e0040f20ee60787e7772c9a8ada5ffa0d4294067785647",
+   "bytes": 624,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+   "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_25.md",
+   "sha256": "1e9f0d1aa2bd8258a3785e7bab62a304ebee61a68f40b18fe997bf5d2dcf3c19",
+   "bytes": 2707,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+   "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CLAUDE_ADDENDUM_28.md",
+   "sha256": "fd4fa203811f09239f62ef6d0d5517a1661d2c712f9023baf9e813fef917edc3",
+   "bytes": 2278,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+   "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/CODEX_THREE_BRIEFS_REVIEW_REPORT.md",
+   "sha256": "3d346cb7c46801c63a7b337acf5d81e3af1dcef0a9fd0ce3a96dccf96b67d693",
+   "bytes": 9268,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+   "release_path": "evidence/src/BSD_SEED_V026_BANK_TASK_2026-09-30/inputs/V026_SCOPE.md",
+   "sha256": "721e3fbf0bfeecce8d265baa6848d75319435167c41f2a4102b29cd7bf549e6f",
+   "bytes": 9016,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/CHECKS.json",
+   "sha256": "137c07ee79c103fb2b6af67a373a216b4435b3b7359105492a39a6d8999c1a5f",
+   "bytes": 166,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/DEPTH_TARGET.md",
+   "sha256": "3a811a861fa18a2e5d4c3bd16b97138a2f50e1eca38c78d6784bbd71783a2703",
+   "bytes": 7022,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/LOCAL_BINDINGS.json",
+   "sha256": "664137fe827f5b246c9178785cb3479177f70d9cef70ec8ef5aaf3165041f148",
+   "bytes": 3855,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/MANIFEST.sha256",
+   "sha256": "b73c250370f12dbcb95f68343fded75a6680859bf775ec3737980efa866c735f",
+   "bytes": 2359,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEW_INPUT_APPLICATION.md",
+   "sha256": "d755340b405c2a9f7512c8b68627d4ecafcb2311735602d94cf2bc4f7ad68bbe",
+   "bytes": 6654,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/NEXT_TASK.md",
+   "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+   "bytes": 3355,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/REPORT.md",
+   "sha256": "c90bef60c754c3c1a58240078bf5629d6fbe3ccc8e9a9793b5f0f87edf8023fb",
+   "bytes": 8096,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/RESUME.md",
+   "sha256": "e7f1a8d5cac68d7379bbdba26ba396100d9fffa9d2c289523698e3c2e3ad9d14",
+   "bytes": 650,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SEED_LOCAL_CHECK.json",
+   "sha256": "42f1f0a52766a0f672c493dfe4544c4fa75548acbd744649b2d07da3d14c3141",
+   "bytes": 168,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_BINDINGS.json",
+   "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+   "bytes": 1475,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/SOURCE_REGISTER.md",
+   "sha256": "d624e9a80216a81af06d93d628f19e53e2d46c36b0f9b59737a2b740ecaed931",
+   "bytes": 4908,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/STATE.json",
+   "sha256": "1cd8b1cc3284c354c65177742b532fdb99a839a75c3c7b9e1dd92a5081416321",
+   "bytes": 450,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_CODEX_2026-09-30/check_arithmetic.py",
+   "sha256": "e4cc502ae1f91780e91485db2f082a2d5e996f03e3aadb0d48dcd8a444d6930e",
+   "bytes": 1596,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/FRESH_SOURCE.json",
+   "sha256": "036290a6beb39d024b4c3de1f80f58ba75c4b54f06b938d4cc6c43c2b9992400",
+   "bytes": 635,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/MANIFEST.sha256",
+   "sha256": "44b5540f4d77ddea092524cea20e6212c777e5c77b0724c24c87fc53b2c615d2",
+   "bytes": 4208,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/REPORT.md",
+   "sha256": "5d3b337b4d1c14a9324b25dbd2ced976a39935be36f7cfa1d2ad4473f7b06ebb",
+   "bytes": 4210,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/STATE.json",
+   "sha256": "15a2c92cca7adc4b90d73598163d3622b14c1b75d740477ff5a192119af0b639",
+   "bytes": 371,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/CHECKS.json",
+   "sha256": "bbc32f2afe62e963f7c8f5a17fa548d49349795db181b170d5fd1e422366b005",
+   "bytes": 840,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_INTEGRITY.json",
+   "sha256": "4306967b8bbd8113254c9cb6bd796f4db4fb20c7e608954644f2eb1bdee8ad5e",
+   "bytes": 5936,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/INPUT_NEXT_TASK.md",
+   "sha256": "5cc9e306177cb158fdde64b43b78bfb5a52b18f833f42a5230371c0d5a6dae07",
+   "bytes": 3355,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/MANIFEST.sha256",
+   "sha256": "1629154d5741c503d7c76ef5387684d9f23a0a020fb964b90b35cd2fba4cd2f7",
+   "bytes": 2190,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/NOTES.md",
+   "sha256": "5ebfc40eee9c04156656ade99d3b8ba04218f5cf5a7aba80d013fdaaead3e756",
+   "bytes": 2386,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_A_COVERAGE.md",
+   "sha256": "c44f96d967917235743094f64bb3954a7a073cc4e468a30e1115056809d90c13",
+   "bytes": 11751,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/PART_B_DEPTH.md",
+   "sha256": "b4afa7d6088fcdb9f0afd6f1898e87c73ef37bb0d82943891dea06ef39743e1e",
+   "bytes": 11489,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RESUME.md",
+   "sha256": "810706ce23b6440c17adbbe36361d0ca6c9f40f0aef1aae24670fd89617937ff",
+   "bytes": 1125,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/RETURN.md",
+   "sha256": "0314368239f5d405ba3e3176c15a4acc9c3ec92a1531909dc59ceb4ef352511f",
+   "bytes": 2235,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_AUDIT.md",
+   "sha256": "c0d1b03b46a3159020acabff5dc645f974fe0e2368dbd26fb5a9e73299fdc382",
+   "bytes": 5279,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/SOURCE_BINDINGS.json",
+   "sha256": "34c53185124a5c0b0e26d5896819de07cc1c522a98f8b80be70eab220d266de5",
+   "bytes": 1475,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/STATE.json",
+   "sha256": "60c60b523ef3f331014bbb0498c250018211a003d43b7ca09aa0297bcffb4cae",
+   "bytes": 1870,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json",
+   "release_path": "evidence/src/BSD_UNIFORM_SYNTHESIS_REVIEW_CHECK_CODEX_2026-09-30/input/BSD_UNIFORM_SYNTHESIS_INDEPENDENT_REVIEW_2026-09-30/source_checks/anchors.json",
+   "sha256": "86d6743bb2dcaac03ec983ca139340f6af43a914064d9dc113691628d48337fc",
+   "bytes": 2828,
+   "disposition": "admitted_unmasked"
+  }
+ ],
+ "declared_exclusions": [],
+ "declared_redactions": []
+}

@@ -1,0 +1,6 @@
+gettime()
+print("11a1  N=11      ", ellmoddegree(ellinit([0,-1,1,-10,-20])), "  ms ", gettime())
+print("37a1  N=37      ", ellmoddegree(ellinit([0,0,1,-1,0])), "  ms ", gettime())
+print("5077a N=5077    ", ellmoddegree(ellinit([0,0,1,-7,6])), "  ms ", gettime())
+print("big1  N=234446  ", ellmoddegree(ellinit([1,-1,0,-79,289])), "  ms ", gettime())
+quit()

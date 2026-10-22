@@ -1,0 +1,47 @@
+{
+ "return": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-07T00:29:08Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "TEN_LEAN_MODULES_RECOMPILED_NO_CURVE_RESULT; target 2 = G2 (already proved); (K) not a target",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/CHECK.md",
+   "sha256": "2498f38b2e4c0e700a12ff585c8227d870f657c5b8edb43a081e2ced9a514c2a",
+   "bytes": 11590
+  },
+  {
+   "path": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/HANDOFF.md",
+   "sha256": "91505aa3fda729b5d961b3f199aec8c7fb901ff71f1a0c53731047ab10278f54",
+   "bytes": 2178
+  },
+  {
+   "path": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "8ececcfcaeee4ce99b1bd5f88d009fa7bc18489544593315ace4a915f713b159",
+   "bytes": 244
+  },
+  {
+   "path": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/checks/LEAN_RECOMPILE.txt",
+   "sha256": "88f517c856dfed8f57aca5c2da4ea399be67e06c2395fbbf6f50f765b6db95a8",
+   "bytes": 9878
+  }
+ ],
+ "inputs": {
+  "aristotle_tarballs_sha256": {
+   "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (2).tar.gz": "fa195b9b988313e67d878137904092e2b33b978cd04ae7c9e091731dfb1ee807",
+   "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (3).tar.gz": "38c8a499e7bf01825fd6b5bf29b42a4a2bff9c953f905b2e90226774eab84fa8",
+   "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (4).tar.gz": "5050729eb446a8d300553e0a6f58f4c0c3888e0436523b44cf97ff3df86e37da",
+   "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (5).tar.gz": "ed46f042ac21ece4925036d1be046d2f85dd162584f3297baac6108eb491e5e1",
+   "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (6).tar.gz": "4fbf3521eaa75fffff8c180cebd0388aaf4d4d96eefdb69e658b1a35b78b7c51",
+   "69562e6c-25a1-4902-8e40-92e0e822cc03-aristotle (7).tar.gz": "ab4d9c1edb63011a09d0916eb91e53078445c6f7359137e755b73d3c9303a19d",
+   "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-3.tar.gz": "8b445a37caa0804b18d8a326ee2865493bce0ad05c2b527c324200d68b6fe900",
+   "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-4.tar.gz": "e93e7c604a4d58c5dfb21aabda9d274406e4bb32023db9ede0b604ec77461556",
+   "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-5.tar.gz": "03dd56ece6acb879a1a788d08aecb28f4d6a0c89a68d8ed73b5e486d3efa77bf",
+   "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-6.tar.gz": "307d9a2482f594bc52831539e515fa7bac0a64caed0794a3809a8210c0d646ad",
+   "eb3e82a5-1f94-4719-93e9-f10ecbfccb63-aristotle-7.tar.gz": "474218aa6a00a223460fda033e9db14d1e7164a94e94b149da30932e0467f08b"
+  }
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "label": "prep",
+    "command": [
+      "src/delta",
+      "prep",
+      "evidence/moments.bin"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 14.639096011174843,
+    "cpu_seconds": 13.231952999999999,
+    "peak_rss_bytes": 689893376
+  },
+  {
+    "label": "interval128",
+    "command": [
+      "src/delta",
+      "eval",
+      "evidence/moments.bin",
+      "128",
+      "1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 31.37080133287236,
+    "cpu_seconds": 31.310726000000003,
+    "peak_rss_bytes": 33210368
+  },
+  {
+    "label": "interval256",
+    "command": [
+      "src/delta",
+      "eval",
+      "evidence/moments.bin",
+      "256",
+      "1"
+    ],
+    "exit_code": -15,
+    "wall_seconds": 381.7711244481616,
+    "cpu_seconds": 380.846089,
+    "peak_rss_bytes": 51351552
+  },
+  {
+    "label": "bounds128",
+    "command": [
+      "src/delta",
+      "eval",
+      "evidence/moments.bin",
+      "128",
+      "1",
+      "1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 38.874550708103925,
+    "cpu_seconds": 38.176063,
+    "peak_rss_bytes": 33234944
+  },
+  {
+    "label": "final_replay128",
+    "command": [
+      "src/delta",
+      "eval",
+      "evidence/moments.bin",
+      "128",
+      "1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 50.49095363006927,
+    "cpu_seconds": 50.410838999999996,
+    "peak_rss_bytes": 33222656
+  }
+]

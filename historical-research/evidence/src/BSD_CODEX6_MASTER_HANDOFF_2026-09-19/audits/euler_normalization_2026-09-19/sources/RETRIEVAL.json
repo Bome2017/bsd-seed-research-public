@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://oar.princeton.edu/bitstream/88435/pr1px18/1/MC.pdf",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "path": "audits/euler_normalization_2026-09-19/sources/SU_publisher_page.html",
+    "url": "https://link.springer.com/article/10.1007/s00222-013-0448-1",
+    "final_url": "https://link.springer.com/article/10.1007/s00222-013-0448-1",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "classification": "ACCESS_CHALLENGE_HTML_NOT_MATHEMATICAL_SOURCE"
+  }
+]

@@ -1,0 +1,775 @@
+[
+  {
+    "status": "EXACT_FRACTION_LITERAL_REPLAY_PASS",
+    "curve": "1913b1",
+    "all_prime_blocks_verified": 24,
+    "primitive_coordinate_scope": "Every residue is directly evaluated from literal actual class polynomials; no source-coordinate matrix used to generate the values.",
+    "selected_detectors": [
+      {
+        "prime": 997,
+        "roots": [
+          109,
+          249,
+          408,
+          420,
+          577,
+          589,
+          748,
+          888
+        ],
+        "cubic_root": 304,
+        "actual_leading_units": [
+          [
+            687,
+            158
+          ],
+          [
+            165,
+            525
+          ],
+          [
+            393,
+            911
+          ],
+          [
+            484,
+            83
+          ],
+          [
+            350,
+            985
+          ],
+          [
+            746,
+            313
+          ],
+          [
+            570,
+            602
+          ],
+          [
+            539,
+            183
+          ]
+        ],
+        "actual_valuations": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "detectors": [
+          {
+            "root_weights": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "product_residues": [
+              687,
+              158
+            ],
+            "signature": [
+              0,
+              2
+            ]
+          },
+          {
+            "root_weights": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "product_residues": [
+              165,
+              525
+            ],
+            "signature": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "status": "EXACT_FRACTION_LITERAL_REPLAY_PASS",
+    "curve": "28042a1",
+    "all_prime_blocks_verified": 24,
+    "primitive_coordinate_scope": "Every residue is directly evaluated from literal actual class polynomials; no source-coordinate matrix used to generate the values.",
+    "selected_detectors": [
+      {
+        "prime": 487,
+        "roots": [
+          31,
+          91,
+          113,
+          144,
+          344,
+          375,
+          397,
+          457
+        ],
+        "cubic_root": 232,
+        "actual_leading_units": [
+          [
+            97,
+            393,
+            362
+          ],
+          [
+            286,
+            212,
+            227
+          ],
+          [
+            45,
+            64,
+            334
+          ],
+          [
+            342,
+            169,
+            108
+          ],
+          [
+            200,
+            268,
+            239
+          ],
+          [
+            10,
+            312,
+            261
+          ],
+          [
+            256,
+            85,
+            118
+          ],
+          [
+            445,
+            430,
+            187
+          ]
+        ],
+        "actual_valuations": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "detectors": [
+          {
+            "root_weights": [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "product_residues": [
+              299,
+              230,
+              54
+            ],
+            "signature": [
+              0,
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "prime": 691,
+        "roots": [
+          89,
+          205,
+          238,
+          295,
+          397,
+          454,
+          487,
+          603
+        ],
+        "cubic_root": 437,
+        "actual_leading_units": [
+          [
+            7,
+            33,
+            658
+          ],
+          [
+            230,
+            120,
+            685
+          ],
+          [
+            632,
+            574,
+            274
+          ],
+          [
+            8,
+            24,
+            234
+          ],
+          [
+            613,
+            144,
+            440
+          ],
+          [
+            680,
+            502,
+            633
+          ],
+          [
+            391,
+            167,
+            115
+          ],
+          [
+            614,
+            356,
+            335
+          ]
+        ],
+        "actual_valuations": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "detectors": [
+          {
+            "root_weights": [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "product_residues": [
+              214,
+              81,
+              376
+            ],
+            "signature": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "status": "EXACT_FRACTION_LITERAL_REPLAY_PASS",
+    "curve": "seed3",
+    "all_prime_blocks_verified": 24,
+    "primitive_coordinate_scope": "Every residue is directly evaluated from literal actual class polynomials; no source-coordinate matrix used to generate the values.",
+    "selected_detectors": [
+      {
+        "prime": 811,
+        "roots": [
+          58,
+          138,
+          201,
+          334,
+          477,
+          610,
+          673,
+          753
+        ],
+        "cubic_root": 680,
+        "actual_leading_units": [
+          [
+            743,
+            655,
+            194,
+            514
+          ],
+          [
+            778,
+            12,
+            393,
+            641
+          ],
+          [
+            262,
+            726,
+            54,
+            167
+          ],
+          [
+            255,
+            342,
+            211,
+            239
+          ],
+          [
+            36,
+            675,
+            710,
+            463
+          ],
+          [
+            29,
+            291,
+            363,
+            721
+          ],
+          [
+            324,
+            194,
+            585,
+            781
+          ],
+          [
+            359,
+            362,
+            649,
+            621
+          ]
+        ],
+        "actual_valuations": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "detectors": [
+          {
+            "root_weights": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "product_residues": [
+              622,
+              561,
+              8,
+              208
+            ],
+            "signature": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "prime": 2767,
+        "roots": [
+          402,
+          892,
+          1126,
+          1284,
+          1483,
+          1641,
+          1875,
+          2365
+        ],
+        "cubic_root": 328,
+        "actual_leading_units": [
+          [
+            1674,
+            1339,
+            1205,
+            1721
+          ],
+          [
+            1004,
+            1210,
+            2424,
+            2135
+          ],
+          [
+            1755,
+            2321,
+            2454,
+            415
+          ],
+          [
+            1057,
+            589,
+            1158,
+            1784
+          ],
+          [
+            699,
+            750,
+            2365,
+            1820
+          ],
+          [
+            1,
+            1785,
+            1533,
+            340
+          ],
+          [
+            752,
+            129,
+            1099,
+            870
+          ],
+          [
+            82,
+            916,
+            631,
+            2577
+          ]
+        ],
+        "actual_valuations": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "detectors": [
+          {
+            "root_weights": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "product_residues": [
+              1127,
+              1495,
+              1735,
+              2526
+            ],
+            "signature": [
+              0,
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "status": "EXACT_FRACTION_LITERAL_REPLAY_PASS",
+    "curve": "389a1",
+    "all_prime_blocks_verified": 24,
+    "primitive_coordinate_scope": "Every residue is directly evaluated from literal actual class polynomials; no source-coordinate matrix used to generate the values.",
+    "selected_detectors": []
+  },
+  {
+    "status": "EXACT_FRACTION_LITERAL_REPLAY_PASS",
+    "curve": "mirror389_false",
+    "all_prime_blocks_verified": 24,
+    "primitive_coordinate_scope": "Every residue is directly evaluated from literal actual class polynomials; no source-coordinate matrix used to generate the values.",
+    "selected_detectors": [
+      {
+        "prime": 127,
+        "roots": [
+          24,
+          57,
+          71,
+          78,
+          79,
+          98,
+          108,
+          124
+        ],
+        "cubic_root": 107,
+        "actual_leading_units": [
+          [
+            113
+          ],
+          [
+            39
+          ],
+          [
+            108
+          ],
+          [
+            75
+          ],
+          [
+            43
+          ],
+          [
+            59
+          ],
+          [
+            95
+          ],
+          [
+            71
+          ]
+        ],
+        "actual_valuations": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "detectors": [
+          {
+            "root_weights": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "product_residues": [
+              113
+            ],
+            "signature": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

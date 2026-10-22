@@ -1,0 +1,12 @@
+alarm(180);
+E=ellinit([0,1,1,-36,20]);
+[M,xm]=read("exact_symbol.gp");
+G=mseval(M,xm);
+print("ISSYMBOL ",msissymbol(M,xm));
+print("LEVEL ",msgetlevel(M)," WEIGHT ",msgetweight(M)," SIGN ",msgetsign(M));
+print("GENERATOR_DENOMINATOR ",denominator(G)," GCD ",content(G));
+print("MINUS_EIGEN ",msstar(M)*xm == -xm);
+forprime(q=2,11,print("HECKE ",q," ",mshecke(M,q,Mat(xm)) == Mat(ellap(E,q))));
+for(j=1,2,my(D=[-83,-107][j],q=-D,R=read(Str("rows_",q,".gp")),S);if(#R!=q-1,error("bad row count"));for(a=1,q-1,if(R[a] != [a,kronecker(D,a),mseval(M,xm,[oo,a/q])],error("row mismatch")));S=sum(a=1,q-1,R[a][2]*R[a][3]);print("EXACT ",D," ",S," HISTORICAL ",S/2," V5 ",valuation(S,5)," SPLITTING ",vector(4,i,kronecker(D,[2,3,5,431][i]))," CLASSNO ",qfbclassno(D)));
+print("COMPLETE");
+quit;

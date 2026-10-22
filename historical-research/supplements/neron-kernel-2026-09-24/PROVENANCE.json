@@ -1,0 +1,311 @@
+{
+  "research_base": "2a726213a27a12f10fece5bc70137e65e30911ba",
+  "lab_source_commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+  "imported_files": [
+    {
+      "path": "sources/cloud/00_STATUS.md",
+      "sha256": "349d9a4e717f3eec90c1d1807bdc641497174be9dd41f4c0071f0394b5a7d46b",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/neron_normalization_review/output/00_STATUS.md",
+        "git_blob": "412ee1f4911f7b3bd6ad43d1c0ebeaa0f8387006"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/cloud/01_NORMALIZATION_REVIEW.md",
+      "sha256": "48cf5790d4b0853c9a758e49a1a20f5f8d91e8541e7c892f9b5815f9cf5518f6",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/neron_normalization_review/output/01_NORMALIZATION_REVIEW.md",
+        "git_blob": "0abb2920f465742d381744c6b333902800d6a11b"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/cloud/02_DENOMINATOR_LATTICE.md",
+      "sha256": "243d6ba520a4d944443feb0b2f98657a70d2fe62def9425ef597409dc1e77a9e",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/neron_normalization_review/output/02_DENOMINATOR_LATTICE.md",
+        "git_blob": "aee36b4d4c8e1c8a679d1a6de8815dfd8d498c2f"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/cloud/gauss_level_p2_check_output.json",
+      "sha256": "e1505783d782b3fc7de5404d811e09c663d2ea73d705900b20b85f10d7c5aa1c",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/neron_normalization_review/output/gauss_level_p2_check_output.json",
+        "git_blob": "f2646763fb8ec0520ba935c8056605b4b8dc0c99"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/cloud/period_area_check_output.json",
+      "sha256": "5413f55095fe7c342b487d5522cf1d24aa0e932c8de7cfffa27ca0e75e9e111d",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/neron_normalization_review/output/period_area_check_output.json",
+        "git_blob": "5bb0f88d2a955ddaceb76f4c6b687e42acf8cd13"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/cloud/scripts/gauss_level_p2_check.py",
+      "sha256": "69861ee35005fbc28409afde9ca85ddb1f9ab5b34cc7eb8cf766b12054c22dc6",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/neron_normalization_review/output/scripts/gauss_level_p2_check.py",
+        "git_blob": "21bd6dfc63272eaf781def5e3a862e45504aeade"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/cloud/scripts/period_area_check.py",
+      "sha256": "6818d42d4179f3e84d70efb199675260b2e20c5874684038ce9657ce1d28d4c1",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/neron_normalization_review/output/scripts/period_area_check.py",
+        "git_blob": "03dbf963d272a643f843bc1f02bc531bfa68f741"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/lab-context/01_THETA_KERNEL.md",
+      "sha256": "a44631ed93ae12d6cc6c7920e84dfc7aa486c8a3d94d2cd1fe42e1497ea9e4d0",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/01_THETA_KERNEL.md",
+        "git_blob": "6ee60569690f60ad6d376c2a723dae6238e68396"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/lab-context/03_NELSON_CONTINUATION.md",
+      "sha256": "11976518ac650f270d948405c812b53ee68a21c42c109d8a7221abe464121dd4",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/03_NELSON_CONTINUATION.md",
+        "git_blob": "e815e4631810f6d10aebee5cd5b7dcae1ebd68ff"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "sources/lab-context/AUDIT_RESPONSE.md",
+      "sha256": "8d8be7d6889209c1f8ea06601055493638334dde4889b1b130e0ba5ea6a831c6",
+      "origin": {
+        "repository": "Bome2017/bsd-seed-lab",
+        "commit": "b358f7507759dad4a1e016c519d6f486ffca37e1",
+        "path": "work/AUDIT_RESPONSE.md",
+        "git_blob": "367a3cc50e6d0d9ee16228b56fd7386274a3be54"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/AUDIT.md",
+      "sha256": "ae9ccabd16cd42fb979993bd1bec3fb181921469d6d46be0dd9f1fafc99edd57",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "AUDIT.md"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/CHECKS.json",
+      "sha256": "0761250637a37d8fc5207295e978fbd305023231e1e123338da634b9ecd71738",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "CHECKS.json"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/CHECKS.stdout.txt",
+      "sha256": "48b5d6cf4b07eb54791169616c27bc6f923aa91056bb0c5b5eb498b3b878ed83",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "CHECKS.stdout.txt"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/PERIOD_CHECK.json",
+      "sha256": "dc1a1331653ec6b66b225b6a6a0208600ac1805f8b4a8fda655eae63ef282c64",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "PERIOD_CHECK.json"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/README.md",
+      "sha256": "c1435811a651b2d9fb8113c5cf77092d05548798cf5f6b3c1a590aac1a1541c7",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "README.md"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/SHA256SUMS",
+      "sha256": "a860b414856c4e95c05eec8669760bd36aed0ffe67ada339bed2d8da3a490706",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "SHA256SUMS"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/SOURCE_BINDINGS.json",
+      "sha256": "ec33e18b2257159f484fea988dfdd1ee93fd72592ebe690e45c55edb3075ba5e",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "SOURCE_BINDINGS.json"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/SOURCE_CHECKS.md",
+      "sha256": "bf16b570cdba9e0ba4c20ac99dec822eecf0f2c39767e5e3ba810ed824fa0c4f",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "SOURCE_CHECKS.md"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/independent_checks.py",
+      "sha256": "f9712ff1b93989b3fd6026217ee2f73892f634c8343134882b0991cb31fe80e8",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "independent_checks.py"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/period_check.py",
+      "sha256": "c6065c08f541371b41addf2eeeefc2080b3b96691fee633f6bc23b667b3d63e3",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "period_check.py"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/pro6/reference/normalize_from_balls.py",
+      "sha256": "84bf4c3e60c6fa380a0b943f1eaec84c8d3a677c1361577f120fc24924ca3ffc",
+      "origin": {
+        "archive": "BSD_NERON_DENOMINATOR_INDEPENDENT_CHECK_2026-09-24.zip",
+        "archive_sha256": "77df55b11e7ea51cc06e284e720f6068aeda4551661428ec3b1215e52494db6e",
+        "member": "reference/normalize_from_balls.py"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/local-claude/AUDIT.md",
+      "sha256": "ec6b6387d5c0824f29a5a80c2356d142b5897c97acf3d4139c2d486e14de5194",
+      "origin": {
+        "local_record": "BSD_NERON_B358_DECISIVE_STEP_AUDIT_2026-09-24/AUDIT.md"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/local-claude/scripts/gs_check.py",
+      "sha256": "c8b7c4a171405743a16639dbeb2b46ff85febbd14bd5d13fdb4baa9645584a21",
+      "origin": {
+        "local_record": "BSD_NERON_B358_DECISIVE_STEP_AUDIT_2026-09-24/scripts/gs_check.py"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/local-claude/scripts/gs_check_e2.py",
+      "sha256": "489e82af977e4d71be8eb76b42222643be124ee8cc5108e74ec6f8d61d475d44",
+      "origin": {
+        "local_record": "BSD_NERON_B358_DECISIVE_STEP_AUDIT_2026-09-24/scripts/gs_check_e2.py"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/local-claude/out/gs_check_output.txt",
+      "sha256": "457a9fe21a9fc1f57d7a17384a472eb1eae850a917cb9427eb89e87214bc4c07",
+      "origin": {
+        "local_record": "BSD_NERON_B358_DECISIVE_STEP_AUDIT_2026-09-24/out/gs_check_output.txt"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/local-claude/out/gs_check_e2_output.txt",
+      "sha256": "9119411da3c37b9620e753e87a85f57f691602032336311684f9733c57285a1d",
+      "origin": {
+        "local_record": "BSD_NERON_B358_DECISIVE_STEP_AUDIT_2026-09-24/out/gs_check_e2_output.txt"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/codex/AUDIT.md",
+      "sha256": "e5690eeec2a589ea110f338b8ff36bed379040aedbec7612b66a8201c23e4ab7",
+      "origin": {
+        "local_record": "BSD_NERON_RESULT_CROSSCHECK_2026-09-24/AUDIT.md"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/codex/REPLAY_EXACT.json",
+      "sha256": "1d915681a564864c32f373e0b2adb9fab01761ac544130cdbd3b59a5dbec3167",
+      "origin": {
+        "local_record": "BSD_NERON_RESULT_CROSSCHECK_2026-09-24/REPLAY_EXACT.json"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/codex/ACCEPTANCE_CROSSCHECK.json",
+      "sha256": "9b5afacb1329af0298d8f75300624b49315cdd748580899b3daa4284027db228",
+      "origin": {
+        "local_record": "BSD_NERON_RESULT_CROSSCHECK_2026-09-24/ACCEPTANCE_CROSSCHECK.json"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/codex/PRIMARY_SOURCE_BINDINGS.json",
+      "sha256": "24e46275865057a2fe113da6f4ad353f43fff05bf3668c5639d61f08766f0a0c",
+      "origin": {
+        "local_record": "BSD_NERON_RESULT_CROSSCHECK_2026-09-24/PRIMARY_SOURCE_BINDINGS.json"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    },
+    {
+      "path": "reviews/codex/acceptance_crosscheck.py",
+      "sha256": "16651b5f68856f2b409643d74f6c6d9f455ee6eff3ca6c950f397736e35e27e3",
+      "origin": {
+        "local_record": "BSD_NERON_RESULT_CROSSCHECK_2026-09-24/acceptance_crosscheck.py"
+      },
+      "treatment": "byte-identical source evidence; historical instructions are not operative"
+    }
+  ],
+  "exclusions": [
+    "Third-party publications and extracted texts: cited with source hashes instead.",
+    "Cloud task prompts, environment state and operational checkpoints: not needed to state or verify the result."
+  ],
+  "scope": "Only NK.1-NK.3 in CLAIMS.json are advanced by this supplement. Context files contain other historical claims that are not promoted."
+}

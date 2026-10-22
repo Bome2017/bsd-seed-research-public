@@ -1,0 +1,157 @@
+=== TRANSPORT  N_g=5, p=3, r=1: native level M=15, prime=1000003
+  dim MS(15) = 17
+  (vi-a) W^2 = 1                                                     PASS
+  (T1a) <2>^-1 A_r = A_r <2>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <4>^-1 A_r = A_r <4>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <7>^-1 A_r = A_r <7>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <8>^-1 A_r = A_r <8>   [rho(<d>)=<d>^-1]                     PASS
+  (T1b)=(T3) U_p A_r = A_r U'_p   [C4 leftover: 2 U'_p on carrier]   PASS
+  (T0) W T_2 W = <2>^-1 T_2  (so W T_l W = T'_l, i.e. rho(T'_l) = T_l) PASS
+  (T1c') T'_2 U'_p = U'_p T'_2  (commutativity of the primed algebra) PASS
+  (T1c) T_2 A_r = A_r T'_2   [rho(T'_l) = T_l]                       PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'T'2, t3=U'<2>]             PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'<4>, t3=<2>T'2]            PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=<4>T'2, t3=U'U']             PASS
+=== TRANSPORT  N_g=7, p=2, r=1: native level M=14, prime=1000003
+  dim MS(14) = 13
+  (vi-a) W^2 = 1                                                     PASS
+  (T1a) <3>^-1 A_r = A_r <3>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <5>^-1 A_r = A_r <5>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <9>^-1 A_r = A_r <9>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <11>^-1 A_r = A_r <11>   [rho(<d>)=<d>^-1]                   PASS
+  (T1b)=(T3) U_p A_r = A_r U'_p   [C4 leftover: 2 U'_p on carrier]   PASS
+  (T0) W T_3 W = <3>^-1 T_3  (so W T_l W = T'_l, i.e. rho(T'_l) = T_l) PASS
+  (T1c') T'_3 U'_p = U'_p T'_3  (commutativity of the primed algebra) PASS
+  (T1c) T_3 A_r = A_r T'_3   [rho(T'_l) = T_l]                       PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'T'3, t3=U'<3>]             PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'<5>, t3=<3>T'3]            PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=<5>T'3, t3=U'U']             PASS
+=== TRANSPORT  N_g=3, p=5, r=1: native level M=15, prime=1000003
+  dim MS(15) = 17
+  (vi-a) W^2 = 1                                                     PASS
+  (T1a) <2>^-1 A_r = A_r <2>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <4>^-1 A_r = A_r <4>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <7>^-1 A_r = A_r <7>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <8>^-1 A_r = A_r <8>   [rho(<d>)=<d>^-1]                     PASS
+  (T1b)=(T3) U_p A_r = A_r U'_p   [C4 leftover: 2 U'_p on carrier]   PASS
+  (T0) W T_2 W = <2>^-1 T_2  (so W T_l W = T'_l, i.e. rho(T'_l) = T_l) PASS
+  (T1c') T'_2 U'_p = U'_p T'_2  (commutativity of the primed algebra) PASS
+  (T1c) T_2 A_r = A_r T'_2   [rho(T'_l) = T_l]                       PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'T'2, t3=U'<2>]             PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'<4>, t3=<2>T'2]            PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=<4>T'2, t3=U'U']             PASS
+=== TAME  N_g=5, t=2, N=10, p=3, s=1: 30 -> 15, prime=1000003
+  dim MS(30) = 49, dim MS(15) = 17
+  (T4a) pr^t_{1,*} W_big = W_small pr^t_{2,*}   [L5-T5 / A5]         PASS
+  (T4b) pr^t_{2,*} W_big = W_small pr^t_{1,*}   [L5-T5 / A5]         PASS
+  (T4c) pr^t_{1,*} U'_p = U'_p pr^t_{1,*}                            PASS
+  (T4d) pr^t_{2,*} U'_p = U'_p pr^t_{2,*}                            PASS
+  (T4e) pr^t_{1,*} <7> = <7> pr^t_{1,*}                              PASS
+  (T4f) pr^t_{2,*} <7> = <7> pr^t_{2,*}                              PASS
+  (T4e) pr^t_{1,*} <11> = <11> pr^t_{1,*}                            PASS
+  (T4f) pr^t_{2,*} <11> = <11> pr^t_{2,*}                            PASS
+=== TAME  N_g=3, t=2, N=6, p=5, s=1: 30 -> 15, prime=1000003
+  dim MS(30) = 49, dim MS(15) = 17
+  (T4a) pr^t_{1,*} W_big = W_small pr^t_{2,*}   [L5-T5 / A5]         PASS
+  (T4b) pr^t_{2,*} W_big = W_small pr^t_{1,*}   [L5-T5 / A5]         PASS
+  (T4c) pr^t_{1,*} U'_p = U'_p pr^t_{1,*}                            PASS
+  (T4d) pr^t_{2,*} U'_p = U'_p pr^t_{2,*}                            PASS
+  (T4e) pr^t_{1,*} <7> = <7> pr^t_{1,*}                              PASS
+  (T4f) pr^t_{2,*} <7> = <7> pr^t_{2,*}                              PASS
+  (T4e) pr^t_{1,*} <11> = <11> pr^t_{1,*}                            PASS
+  (T4f) pr^t_{2,*} <11> = <11> pr^t_{2,*}                            PASS
+=== TAME/p COMMUTATION  30 -> 10 -> 5  vs  30 -> 15 -> 5, prime=1000003
+  (T4g) pr^t_1_* o varpi_(1,*) = varpi_(1,*) o pr^t_1_*              PASS
+  (T4g) pr^t_2_* o varpi_(1,*) = varpi_(1,*) o pr^t_2_*              PASS
+=== ORIENTATION  N_g=5, p=3, r=1, M=15, prime=1000003
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^1 W  equals  A_r = W (U'_p)^1   [A_r SELF-ADJOINT] PASS
+=== ORIENTATION  N_g=5, p=3, r=2, M=45, prime=1000003
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^2 W  equals  A_r = W (U'_p)^2   [A_r SELF-ADJOINT] PASS
+=== ORIENTATION  N_g=7, p=2, r=1, M=14, prime=1000003
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^1 W  equals  A_r = W (U'_p)^1   [A_r SELF-ADJOINT] PASS
+=== ORIENTATION  N_g=3, p=5, r=1, M=15, prime=1000003
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^1 W  equals  A_r = W (U'_p)^1   [A_r SELF-ADJOINT] PASS
+=== TRANSPORT  N_g=5, p=3, r=1: native level M=15, prime=999983
+  dim MS(15) = 17
+  (vi-a) W^2 = 1                                                     PASS
+  (T1a) <2>^-1 A_r = A_r <2>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <4>^-1 A_r = A_r <4>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <7>^-1 A_r = A_r <7>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <8>^-1 A_r = A_r <8>   [rho(<d>)=<d>^-1]                     PASS
+  (T1b)=(T3) U_p A_r = A_r U'_p   [C4 leftover: 2 U'_p on carrier]   PASS
+  (T0) W T_2 W = <2>^-1 T_2  (so W T_l W = T'_l, i.e. rho(T'_l) = T_l) PASS
+  (T1c') T'_2 U'_p = U'_p T'_2  (commutativity of the primed algebra) PASS
+  (T1c) T_2 A_r = A_r T'_2   [rho(T'_l) = T_l]                       PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'T'2, t3=U'<2>]             PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'<4>, t3=<2>T'2]            PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=<4>T'2, t3=U'U']             PASS
+=== TRANSPORT  N_g=7, p=2, r=1: native level M=14, prime=999983
+  dim MS(14) = 13
+  (vi-a) W^2 = 1                                                     PASS
+  (T1a) <3>^-1 A_r = A_r <3>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <5>^-1 A_r = A_r <5>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <9>^-1 A_r = A_r <9>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <11>^-1 A_r = A_r <11>   [rho(<d>)=<d>^-1]                   PASS
+  (T1b)=(T3) U_p A_r = A_r U'_p   [C4 leftover: 2 U'_p on carrier]   PASS
+  (T0) W T_3 W = <3>^-1 T_3  (so W T_l W = T'_l, i.e. rho(T'_l) = T_l) PASS
+  (T1c') T'_3 U'_p = U'_p T'_3  (commutativity of the primed algebra) PASS
+  (T1c) T_3 A_r = A_r T'_3   [rho(T'_l) = T_l]                       PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'T'3, t3=U'<3>]             PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'<5>, t3=<3>T'3]            PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=<5>T'3, t3=U'U']             PASS
+=== TRANSPORT  N_g=3, p=5, r=1: native level M=15, prime=999983
+  dim MS(15) = 17
+  (vi-a) W^2 = 1                                                     PASS
+  (T1a) <2>^-1 A_r = A_r <2>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <4>^-1 A_r = A_r <4>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <7>^-1 A_r = A_r <7>   [rho(<d>)=<d>^-1]                     PASS
+  (T1a) <8>^-1 A_r = A_r <8>   [rho(<d>)=<d>^-1]                     PASS
+  (T1b)=(T3) U_p A_r = A_r U'_p   [C4 leftover: 2 U'_p on carrier]   PASS
+  (T0) W T_2 W = <2>^-1 T_2  (so W T_l W = T'_l, i.e. rho(T'_l) = T_l) PASS
+  (T1c') T'_2 U'_p = U'_p T'_2  (commutativity of the primed algebra) PASS
+  (T1c) T_2 A_r = A_r T'_2   [rho(T'_l) = T_l]                       PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'T'2, t3=U'<2>]             PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=U'<4>, t3=<2>T'2]            PASS
+  (T2) rho(t2) A_r t3 = A_r t2 t3   [t2=<4>T'2, t3=U'U']             PASS
+=== TAME  N_g=5, t=2, N=10, p=3, s=1: 30 -> 15, prime=999983
+  dim MS(30) = 49, dim MS(15) = 17
+  (T4a) pr^t_{1,*} W_big = W_small pr^t_{2,*}   [L5-T5 / A5]         PASS
+  (T4b) pr^t_{2,*} W_big = W_small pr^t_{1,*}   [L5-T5 / A5]         PASS
+  (T4c) pr^t_{1,*} U'_p = U'_p pr^t_{1,*}                            PASS
+  (T4d) pr^t_{2,*} U'_p = U'_p pr^t_{2,*}                            PASS
+  (T4e) pr^t_{1,*} <7> = <7> pr^t_{1,*}                              PASS
+  (T4f) pr^t_{2,*} <7> = <7> pr^t_{2,*}                              PASS
+  (T4e) pr^t_{1,*} <11> = <11> pr^t_{1,*}                            PASS
+  (T4f) pr^t_{2,*} <11> = <11> pr^t_{2,*}                            PASS
+=== TAME  N_g=3, t=2, N=6, p=5, s=1: 30 -> 15, prime=999983
+  dim MS(30) = 49, dim MS(15) = 17
+  (T4a) pr^t_{1,*} W_big = W_small pr^t_{2,*}   [L5-T5 / A5]         PASS
+  (T4b) pr^t_{2,*} W_big = W_small pr^t_{1,*}   [L5-T5 / A5]         PASS
+  (T4c) pr^t_{1,*} U'_p = U'_p pr^t_{1,*}                            PASS
+  (T4d) pr^t_{2,*} U'_p = U'_p pr^t_{2,*}                            PASS
+  (T4e) pr^t_{1,*} <7> = <7> pr^t_{1,*}                              PASS
+  (T4f) pr^t_{2,*} <7> = <7> pr^t_{2,*}                              PASS
+  (T4e) pr^t_{1,*} <11> = <11> pr^t_{1,*}                            PASS
+  (T4f) pr^t_{2,*} <11> = <11> pr^t_{2,*}                            PASS
+=== TAME/p COMMUTATION  30 -> 10 -> 5  vs  30 -> 15 -> 5, prime=999983
+  (T4g) pr^t_1_* o varpi_(1,*) = varpi_(1,*) o pr^t_1_*              PASS
+  (T4g) pr^t_2_* o varpi_(1,*) = varpi_(1,*) o pr^t_2_*              PASS
+=== ORIENTATION  N_g=5, p=3, r=1, M=15, prime=999983
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^1 W  equals  A_r = W (U'_p)^1   [A_r SELF-ADJOINT] PASS
+=== ORIENTATION  N_g=5, p=3, r=2, M=45, prime=999983
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^2 W  equals  A_r = W (U'_p)^2   [A_r SELF-ADJOINT] PASS
+=== ORIENTATION  N_g=7, p=2, r=1, M=14, prime=999983
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^1 W  equals  A_r = W (U'_p)^1   [A_r SELF-ADJOINT] PASS
+=== ORIENTATION  N_g=3, p=5, r=1, M=15, prime=999983
+  (T5) W U'_p = U_p W  (AL intertwining)                             PASS
+  (T5') A_r^t = (U_p)^1 W  equals  A_r = W (U'_p)^1   [A_r SELF-ADJOINT] PASS
+
+124 checks, 0 failures
+ALL PASS

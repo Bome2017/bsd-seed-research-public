@@ -1,0 +1,9 @@
+Sage real period (Delta>0: 2*omega1): 4.98042512171011 ; pipeline Omega+ = omega1 = 2.4902125608550550753
+l=29: g=2; 28 symbols identified; pipeline/exact ratio set = {1}; zero pattern agrees: True
+   pipeline c0,c1,c2 = [0, 0, 8]  -> mod 7: [0, 0, 1]
+   exact    c0,c1,c2 = [0, 0, 8]  -> mod 7: [0, 0, 1]
+   symmetry [l-a]=[a]: True;  c0 == 0 exactly: True
+l=379: g=2; 378 symbols identified; pipeline/exact ratio set = {1}; zero pattern agrees: True
+   pipeline c0,c1,c2 = [0, 0, 0]  -> mod 7: [0, 0, 0]
+   exact    c0,c1,c2 = [0, 0, 0]  -> mod 7: [0, 0, 0]
+   symmetry [l-a]=[a]: True;  c0 == 0 exactly: True

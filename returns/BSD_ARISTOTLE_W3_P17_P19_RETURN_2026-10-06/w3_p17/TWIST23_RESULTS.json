@@ -1,0 +1,15 @@
+{
+ "twist": "E^(-23)",
+ "conductor": 3440186458738710936,
+ "root_number": -1,
+ "L_prime_at_1": 39.84727806412273,
+ "check_chi_matches_kronecker_minus23": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "L_prime_split_t_1.2": 39.84727806412956,
+ "functional_equation_discrepancy": 6.828315690654563e-12
+}

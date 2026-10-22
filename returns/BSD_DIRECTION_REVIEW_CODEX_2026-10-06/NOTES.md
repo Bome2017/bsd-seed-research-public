@@ -1,0 +1,3 @@
+# Review checkpoints
+
+Read both new proofs and Pro assessment; inspected the jet elimination excerpt. Checked Zhang Lemma 8.4, notation, Hypothesis heart, derived-point/sign definitions; checked Kim Theorem 1.1 supersingular restriction. Matched ordinary seed hypotheses using retained local data. Independently recounted 30 listed auxiliary primes; no point or Sha computation. Corrected the squarefree failure-index quotient and preserved scope of the height test. Custody: Heegner 26/26 and 22/22; coinvariant inherited root 62/63, with current additions freshly rebound. No Lean replay or remote job action.

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "coefficient_field": "exact rational numbers",
+  "free_symbols": [
+    "L",
+    "a",
+    "c",
+    "d",
+    "e"
+  ],
+  "checked": [
+    "functional equation to total degree three",
+    "zeta inverse",
+    "Y changes sign",
+    "four coefficient formulas",
+    "H invariance"
+  ],
+  "scope": "algebra following the arithmetic functional equation, not a proof of source matching or nonvanishing"
+}

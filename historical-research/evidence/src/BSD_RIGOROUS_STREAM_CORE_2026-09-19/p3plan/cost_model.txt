@@ -1,0 +1,7 @@
+producer model: c(q) = 12.3 + 0.1525 q^(1/4) us;  verifier: c(q) = 13.9 + 1.553 (log2 q - 26.2) us
+m= 81: TMIN = 14,832,175,873  aligned T = 14,847,836,159 (= 885 x 2^24 - 1)  msl CPU-h = 1.16
+m= 27: TMIN =  4,830,360,876  aligned T =  4,831,838,207 (= 288 x 2^24 - 1)  msl CPU-h = 0.38
+m= 49: TMIN = 15,556,089,288  aligned T = 15,569,256,447 (= 928 x 2^24 - 1)  msl CPU-h = 1.21
+m=  7: TMIN =  2,131,827,698  aligned T =  2,147,483,647 (= 128 x 2^24 - 1)  msl CPU-h = 0.17
+p=3 only (m=81 + m=27 cross-check): TMAX = 14,847,836,159, pi(TMAX) ~ 6.637e+08; producer 9.8 CPU-h, verifier 4.3 CPU-h, msl 1.53 CPU-h; TOTAL 15.6 CPU-h; wall @12 workers (idle host) ~ 1.30 h; ap files 2.65 GB; witness files 18.3 GB if kept
+p=3 and p=7 (m=81,27,49,7): TMAX = 15,569,256,447, pi(TMAX) ~ 6.945e+08; producer 10.3 CPU-h, verifier 4.5 CPU-h, msl 2.92 CPU-h; TOTAL 17.8 CPU-h; wall @12 workers (idle host) ~ 1.48 h; ap files 2.78 GB; witness files 19.2 GB if kept

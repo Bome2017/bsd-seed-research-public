@@ -1,0 +1,101 @@
+{
+  "checked_utc": "2026-09-10T19:36:59.515123+00:00",
+  "custody": {
+    "CONTINUATION_MANIFEST.json": {
+      "entries": 25,
+      "mismatches": []
+    },
+    "MANIFEST.json": {
+      "entries": 21,
+      "mismatches": []
+    },
+    "PRE_COMPARISON_RECONSTRUCTION.md": {
+      "sha256": "0f9468a2747c98794e3c7ff3991439cd8f2355095fd2b370b6c641daaca19050",
+      "matches_attachment": true
+    },
+    "STAGE_II_LOCAL_DESCENT.md": {
+      "sha256": "03643caea88d63644ad563286e5732f72acd85ed876a3bb4d1c8a7b5fff3d73d",
+      "matches_attachment": true
+    },
+    "freeze_receipt": {
+      "frozen_utc": "2026-09-10T16:59:12.719650+00:00",
+      "file": "PRE_COMPARISON_RECONSTRUCTION.md",
+      "sha256": "0f9468a2747c98794e3c7ff3991439cd8f2355095fd2b370b6c641daaca19050",
+      "withheld_code_read": false,
+      "withheld_results_read": false,
+      "capsule_read": false,
+      "qualification": "withheld README only inadvertently displayed initially; known asserted count 38 below 4000"
+    },
+    "opening_receipt": [
+      {
+        "file": "PK66/03_arithmetic_receipts/counts_66b1.py",
+        "first_read_utc": "2026-09-10T16:59:30.666740+00:00"
+      },
+      {
+        "file": "PK66/03_arithmetic_receipts/counts_66b1_output.txt",
+        "first_read_utc": "2026-09-10T16:59:30.667160+00:00"
+      },
+      {
+        "file": "PK66/04_62a1_reference_only/mechanism_capsule.md",
+        "first_read_utc": "2026-09-10T16:59:30.667627+00:00"
+      }
+    ],
+    "referee_frozen_record": {
+      "sha256": "2a627f6574cf20f2a9f63f42dc8b19c4173985d902fa0762df7c562b105a27a4",
+      "unchanged": true
+    }
+  },
+  "fresh_counts": {
+    "algorithm": "Direct Horner/cubic polynomial evaluation and literal square-residue multiplicity; not the supplied finite differences",
+    "exclusive_bound": 100000,
+    "good_primes": 9589,
+    "family_primes": 600,
+    "family_below_4000": 38,
+    "count_mismatches": [],
+    "criterion_counterexamples": [],
+    "metadata_errors": [],
+    "small_counts": {
+      "5": "4",
+      "7": "12",
+      "19": "16"
+    }
+  },
+  "symbolic": {
+    "base_model_identity": true,
+    "continuation_model_identity": true,
+    "two_minimal_models_integrally_equivalent": true,
+    "halving_factorization_mod_s_squared_plus_2": true,
+    "expanded_halving_quartic": "x**4 + 32*x**3 + 416*x**2 + 2048*x + 4096",
+    "exceptional_values": {
+      "0": 4096,
+      "8": 67584,
+      "-8": 2048
+    },
+    "discriminant_product": "33792"
+  },
+  "integral_residue_checks": {
+    "phi_d3_mod16": {
+      "5": {
+        "even": [
+          3,
+          11
+        ],
+        "odd": [
+          12
+        ]
+      },
+      "13": {
+        "even": [
+          3,
+          11
+        ],
+        "odd": [
+          12
+        ]
+      }
+    },
+    "dual_dminus1_mod3_q2": [
+      2
+    ]
+  }
+}

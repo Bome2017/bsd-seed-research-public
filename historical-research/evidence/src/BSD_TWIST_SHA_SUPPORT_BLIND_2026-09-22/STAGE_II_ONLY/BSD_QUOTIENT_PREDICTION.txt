@@ -1,0 +1,24 @@
+PARI, minimal model [0,1,0,-3235025292,22326945153120]:
+  prod_v c_v = 32    torsion = 2    omega[1] = 0.0115489412661572227489176
+  Kodaira: p=2 I_1*(c=2), 3 I_2(c=2), 7 I_0*(c=2), 2243 I_1(c=1), 4547 III(c=2), 5843 I_2(c=2)
+  Delta_min > 0 => E(R) has 2 real components
+
+BSD at rank 0:  #Sha = L * #tors^2 / (Omega * prod c_v)
+  Omega = omega[1]          : [97.9994485137, 98.000552511]  -> nearest integer 98  (not a square)
+  Omega = 2*omega[1] (2 comps): [48.9997242568, 49.0002762555]  -> nearest integer 49  (PERFECT SQUARE)
+
+SELF-CHECK: for an elliptic curve #Sha is a PERFECT SQUARE when finite (Cassels pairing alternating).
+  omega[1] alone gives 98 = 2*7^2, NOT a square -> wrong normalisation.
+  2*omega[1] gives 49 = 7^2, a square -> this is the correct real period for BSD here.
+
+PREDICTED (BSD, NOT PROVED):  #Sha(E^-7/Q) in [48.999724256827, 49.000276255479]
+  => #Sha(E^-7/Q) = 49 = 7^2 exactly, if BSD holds for this twist.
+  => predicted prime support of #Sha(E^-7/Q) = {7}
+
+STRUCTURAL CONSEQUENCE, if that prediction is right:
+  BLV Hypothesis 1.1 requires p ∤ disc(K), and disc(K) = disc(Q(sqrt -7)) = -7.
+  So p = 7 is ALREADY EXCLUDED from the admissible ordinary lane, independently.
+  The exceptional set {p : p | #Sha(E^-7/Q)} would then be EMPTY within the admissible range.
+
+THIS IS A PREDICTION. GATE K1 forbids promoting it. It is not a proof that Sha(E^-7/Q)[p^inf] = 0
+for any p, and the p-part of BSD for this twist has NOT been established here.

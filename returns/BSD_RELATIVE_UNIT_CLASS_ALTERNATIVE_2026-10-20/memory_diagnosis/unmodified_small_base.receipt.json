@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp",
+    "-q",
+    "-f",
+    "-s",
+    "2G",
+    "unmodified_small_base.gp"
+  ],
+  "script_sha256": "d2f56f928bf9e519fafc59d9d70be2ef4f07372499d36aa1e5c8ab7e6bc18baa",
+  "wall_cap": 120.0,
+  "marker": "UNMODIFIED_SMALL_BASE_COMPLETE",
+  "elapsed_seconds": 117.09722656593658,
+  "exit_code": 0,
+  "timed_out": false,
+  "maximum_resident_set_bytes": 732577792,
+  "completion_marker": false,
+  "explicit_gp_error": true,
+  "stdout_sha256": "e7c3fad8a5fc0cf7b9ebe413d1dbef9d4c76837081fc48b0ba6c4ef3acee190a",
+  "stderr_sha256": "e1fa53c6ad70dc8b51e2424e01a9bbb7e5adc2abd6c54d6757ad3d0560803242",
+  "accepted": false
+}

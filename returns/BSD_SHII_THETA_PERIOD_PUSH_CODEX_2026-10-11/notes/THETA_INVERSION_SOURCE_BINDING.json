@@ -1,0 +1,13 @@
+{
+  "url": "https://www.math.ntu.edu.tw/~mlhsieh/research/central.pdf",
+  "sha256": "3af153cb38fef2a8df56bb286332f1ac530a373f18d6bcf3f727fe5e986d5414",
+  "bytes": 706192,
+  "source_date": "2016-01-05",
+  "read_scope": [
+    "equations 2.1 and 2.7",
+    "Lemma 3.7",
+    "Theorem 4.8 finite-level proof",
+    "ordinary hypothesis before Corollary 4.5"
+  ],
+  "new_deduction": "Apply finite Gross-point inversion to the raw spherical good-p vector; no ordinary inverse-limit theorem imported."
+}

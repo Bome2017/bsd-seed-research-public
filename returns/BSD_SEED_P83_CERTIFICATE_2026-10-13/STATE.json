@@ -1,0 +1,16 @@
+{
+  "status": "NEW_SEED_83_PRIMARY_VANISHING_SUPPORTED",
+  "selected_prime": 83,
+  "auxiliary_prime": 167,
+  "progress_file": "PROGRESS.json",
+  "production_path": "/Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/production/p83_l167",
+  "returncode": 0,
+  "stop_reason": null,
+  "last_checkpoint_utc": "2026-10-13T22:07:27.009541+00:00",
+  "c2": -1049574,
+  "c2_mod_p": 44,
+  "checks": "PASS",
+  "proof_grade": "Computer-assisted under retained inputs; same-team review",
+  "publication": "PENDING",
+  "no_followup_prime": true
+}

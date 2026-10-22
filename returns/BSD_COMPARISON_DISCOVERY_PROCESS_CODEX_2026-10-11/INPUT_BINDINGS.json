@@ -1,0 +1,60 @@
+{
+  "baseline_commit": "0d107bb0fa3356a7d20b007528251b7898b60f18",
+  "custody_is_not_proof": true,
+  "inputs": [
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11/REPORT.md",
+      "sha256": "cf37eb6d31c3b675473a69e7d0bf209323ed9f81259a3140f23ec4b593e54a1f",
+      "bytes": 8768,
+      "reading_scope": "Full report; retained written results and object distinctions"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11/notes/CM_MAP_ATTEMPT.md",
+      "sha256": "51fe8fcb9b296d2626ec23db7a24db0060f4886e861349b86caaa76cdae61c1c",
+      "bytes": 14050,
+      "reading_scope": "CM map, correction and mixed-place comparison sections"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+      "sha256": "8efc5c3d46c24e5fa9eb940ea528da49870e63490ba7721b90e0f7b4216e9cf3",
+      "bytes": 3748,
+      "reading_scope": "Full target; existing content bound retained, not recertified"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/COMPARISON_REVIEW.md",
+      "sha256": "888c6e35d10c28bde93011eb026f8f277d3d9a02e63a54ac1f9c6386d1b75166",
+      "bytes": 5987,
+      "reading_scope": "Full matched coordinate comparison; antecedents retained"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_OPENAI_MATH_SCAN_CLAUDE_2026-10-11/CODEX_LEADS_CROSSCHECK.md",
+      "sha256": "2bdbd0b74a7f9c3ffec034045b563768053ea55cbedbd0464c1696e148a4920d",
+      "bytes": 21758,
+      "reading_scope": "Full report; incorporated as source-screen report, not independent acceptance of every assertion"
+    },
+    {
+      "path": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/REPORT.md",
+      "sha256": "9d1174c90ab2d0b5dd767621dbb660b01e2231c6887fb8390da2cdc358694824",
+      "bytes": 20221,
+      "reading_scope": "Historical pilot sections including lines177-201"
+    },
+    {
+      "path": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/construction/CONSTRUCTION.md",
+      "sha256": "af11a1abaf7086e871610afa756556485d92988c8c05cfca17f2c459b40461af",
+      "bytes": 16692,
+      "reading_scope": "Retained C3-C8 framework and pilot eligibility; later C3 repair governs"
+    },
+    {
+      "path": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/notes/stage2_derivation.md",
+      "sha256": "face7a24eb7979755eca7f59c42122b9a80192d9f72024c0b8f060b20176d563",
+      "bytes": 12528,
+      "reading_scope": "Mixed-place and pilot sections; not all antecedents recertified"
+    },
+    {
+      "path": "/Users/bsm/BSD_EXACT_BD_CONSTANT_2026-10-07/checks/rank2_partner_output_N5000.txt",
+      "sha256": "c5604e5fd45fc3a699b3e42765b625b94966e2ae8630584feab9c18765295f0f",
+      "bytes": 4952,
+      "reading_scope": "Candidate rows59 and75 plus final scan scope; historical output, not replayed"
+    }
+  ]
+}

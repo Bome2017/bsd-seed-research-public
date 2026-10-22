@@ -1,0 +1,252 @@
+{
+  "candidate_tests": 5637,
+  "curve_prime_tables": 9,
+  "tables": [
+    {
+      "file": "direct_37a1_11.json",
+      "curve": "37a1",
+      "p": 11,
+      "tested": 625,
+      "S": [
+        2,
+        11,
+        37
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            0,
+            0,
+            30
+          ]
+        ]
+      ],
+      "sha256": "0fe85cf1c97a6e9d52ba2ce4616a203d812e7151bfe5534db93ef081ad42e2fe"
+    },
+    {
+      "file": "direct_37a1_5.json",
+      "curve": "37a1",
+      "p": 5,
+      "tested": 625,
+      "S": [
+        2,
+        5,
+        37
+      ],
+      "survivors": [
+        [
+          -2,
+          1,
+          [
+            28,
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            0,
+            0,
+            6
+          ]
+        ],
+        [
+          2,
+          -1,
+          [
+            28,
+            0,
+            0
+          ]
+        ]
+      ],
+      "sha256": "0879b8aebfaba37a8b3cd22e7ab1e37afe81171a96972a2bf469073535e008da"
+    },
+    {
+      "file": "direct_37a1_7.json",
+      "curve": "37a1",
+      "p": 7,
+      "tested": 625,
+      "S": [
+        2,
+        7,
+        37
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      ],
+      "sha256": "5e783732439183d8a28da61981c72febbbbda2b9ae5ef3931c111b8130feb4a0"
+    },
+    {
+      "file": "direct_389a1_11.json",
+      "curve": "389a1",
+      "p": 11,
+      "tested": 625,
+      "S": [
+        2,
+        11,
+        389
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            0,
+            0,
+            30
+          ]
+        ]
+      ],
+      "sha256": "eea472b40fad1933ca66d93ca7397ca88bec4ad08740b3072541a08d0e6a14f2"
+    },
+    {
+      "file": "direct_389a1_5.json",
+      "curve": "389a1",
+      "p": 5,
+      "tested": 625,
+      "S": [
+        2,
+        5,
+        389
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            0,
+            0,
+            6
+          ]
+        ]
+      ],
+      "sha256": "0d39114e15657449285be112bcec22b298e0a626fdf25c5e1524b0b1d8e39c53"
+    },
+    {
+      "file": "direct_389a1_7.json",
+      "curve": "389a1",
+      "p": 7,
+      "tested": 625,
+      "S": [
+        2,
+        7,
+        389
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      ],
+      "sha256": "77e7c8eeae2bf115f67a7f02f29a99478f7d3f900153c91a9493c9209cd7817c"
+    },
+    {
+      "file": "direct_seed_11.json",
+      "curve": "seed",
+      "p": 11,
+      "tested": 629,
+      "S": [
+        2,
+        3,
+        11,
+        2243,
+        4547,
+        5843
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            240,
+            60,
+            0,
+            30,
+            90,
+            60
+          ]
+        ]
+      ],
+      "sha256": "15903b10ac8fbb98dc3bce3f3689f8227ee9d90bd17644a58ef68a1ebbe2b13f"
+    },
+    {
+      "file": "direct_seed_5.json",
+      "curve": "seed",
+      "p": 5,
+      "tested": 629,
+      "S": [
+        2,
+        3,
+        5,
+        2243,
+        4547,
+        5843
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            48,
+            12,
+            0,
+            6,
+            18,
+            12
+          ]
+        ]
+      ],
+      "sha256": "9da334d98d6cc75168c4288de0808f610bf230e9e96f3d3f5d0839bfff369a84"
+    },
+    {
+      "file": "direct_seed_7.json",
+      "curve": "seed",
+      "p": 7,
+      "tested": 629,
+      "S": [
+        2,
+        3,
+        7,
+        2243,
+        4547,
+        5843
+      ],
+      "survivors": [
+        [
+          0,
+          0,
+          [
+            96,
+            24,
+            0,
+            12,
+            36,
+            24
+          ]
+        ]
+      ],
+      "sha256": "6459d86dfad3d0602bd9347dfd01d599df1f5a20d0bb7e4b36cd4b786d040dd0"
+    }
+  ],
+  "seed_nonzero_shift_Sunit_survivors": 0,
+  "scope": "raw line functions only; failed raw support does not exclude projected/combined sources",
+  "not_a_seed_bound": true
+}

@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "script_sha256": true,
+    "stdout_sha256": true,
+    "stderr_sha256": true,
+    "no_install": true,
+    "alarm": true,
+    "no_bnf": true,
+    "no_class_output": true,
+    "no_success_marker": true,
+    "full_bound_retained": true,
+    "KC_count_matches": true,
+    "first_random_pass_uncompleted": true
+  },
+  "status": "NO_BNF_OUTPUT_FROM_BOUNDED_BALANCED_RUN",
+  "elapsed_seconds": 177.13058004900813,
+  "max_rss_bytes": 933396480,
+  "last_accepted_relation_column_printed": 24,
+  "interpretation": "The first rnd_rel pass did not finish before the alarm. This does not prove that random relation production cannot succeed with more time or a different arithmetic search."
+}

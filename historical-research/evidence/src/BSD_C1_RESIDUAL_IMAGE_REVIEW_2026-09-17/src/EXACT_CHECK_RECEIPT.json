@@ -1,0 +1,104 @@
+{
+  "C1_contained_in_C60_congruences": true,
+  "C60_polynomial_pattern_divisibility": true,
+  "NOT_EXECUTED": [
+    "number-field construction",
+    "class-group calculation",
+    "Selmer computation",
+    "Sha computation",
+    "actual arithmetic Galois-image computation",
+    "subgroup-lattice replay of the already-reviewed central theorem"
+  ],
+  "NOT_PROVED_BY_SCRIPT": [
+    "uniform all-odd-prime theorem",
+    "Tao-Ziegler infinitude application",
+    "Tate-curve transvection theorem",
+    "Mazur prime-isogeny theorem"
+  ],
+  "cpu_seconds": 0.006983,
+  "examples": [
+    {
+      "A": 61091,
+      "B": 93491,
+      "C1_member": false,
+      "C60_member": true,
+      "F5_point_count": 8,
+      "a5": -2,
+      "m": 3491,
+      "n": 60,
+      "odd_conductor_part": 3654225778448609283,
+      "trial_division_max_divisors": [
+        59,
+        247,
+        305
+      ],
+      "trial_division_primes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "A": 2825411,
+      "B": 4413011,
+      "C1_member": true,
+      "C60_member": true,
+      "F5_point_count": 8,
+      "a5": -2,
+      "m": 3011,
+      "n": 420,
+      "odd_conductor_part": 318222060510286953256323,
+      "trial_division_max_divisors": [
+        54,
+        1680,
+        2100
+      ],
+      "trial_division_primes": [
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "input_review_sha256": "ede658084e5c40e77e6c1c8e27a76cb9f44eab8aa6754bd4acf7e013f99df8ae",
+  "local_matrix_model": {
+    "F_conjugates_T_to_inverse": true,
+    "F_determinants_tested": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "T_squared": "-I",
+    "common_F5_invariant_line": false,
+    "determinant_T": 1,
+    "scope": "Model matrix consistency, NOT a computation of actual arithmetic inertia."
+  },
+  "lower_bound_A": 2315,
+  "mathematical_status": "See PROOF.md; independent proof review required, no canonical seal.",
+  "n_mod_24_from_n_squared_zero": [
+    0,
+    12
+  ],
+  "old_over_new_odd_conductor_ratio": {
+    "decimal": 87083.305685996,
+    "denominator": 1218075259482869761,
+    "numerator": 106074020170095651085441
+  },
+  "polynomial_identities": {
+    "c4_identity": true,
+    "discriminant_identity": true,
+    "good_model_scaling_identity": true,
+    "two_point_identities": true
+  },
+  "script_sha256": "d73d0f79007db971ebf949470362f0535d6bc6171de1b9390b143fc619484a21",
+  "status": "PASS_EXACT_SUPPORTING_CHECKS",
+  "upper_lower_SL2_orders": {
+    "11": 1320,
+    "13": 2184,
+    "17": 4896,
+    "3": 24,
+    "5": 120,
+    "7": 336
+  }
+}

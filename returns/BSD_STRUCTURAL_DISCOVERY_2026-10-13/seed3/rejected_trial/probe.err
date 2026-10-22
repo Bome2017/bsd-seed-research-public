@@ -1,0 +1,9 @@
+  *** read: Warning: increasing stack size to 1000000000.
+  *** subst: Warning: increasing stack size to 2000000000.
+  ***   at top-level: ...",ix,"; block=",if(#ix,V[ix,],[;]),"; rank=",i
+  ***                                             ^---------------------
+  ***   incorrect type in gtos [integer expected] (t_VEC).
+... skipping file 'probe.gp'
+  ***   at top-level: VG=matrix(#SP,#G,i,j,nfeltval(nf,G[j],SP[i]))
+  ***                                      ^------------------------
+  *** nfeltval: incorrect type in nf_to_scalar_or_basis (t_VEC).

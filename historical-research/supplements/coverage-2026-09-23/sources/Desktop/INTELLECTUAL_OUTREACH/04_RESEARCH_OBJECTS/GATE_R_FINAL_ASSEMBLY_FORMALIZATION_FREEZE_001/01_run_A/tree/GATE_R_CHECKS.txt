@@ -1,0 +1,255 @@
+# GATE R — build and axiom checks
+
+## lake build
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (8062 jobs).
+
+## lake build RequestProject.Main RequestProject.GateR.Assembly
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (8061 jobs).
+
+## frozen-source digest check (MANIFEST.sha256, all files except GateR/Assembly.lean)
+RequestProject/Descent/Delta.lean: OK
+RequestProject/Descent/Ported.lean: OK
+RequestProject/Main.lean: OK
+RequestProject/P01/Instances.lean: OK
+RequestProject/P01/PortedRunB.lean: OK
+RequestProject/P01/TwoTorsion.lean: OK
+RequestProject/P03a/PointMaps.lean: OK
+RequestProject/P03b/Additivity.lean: OK
+RequestProject/P03c/Kernels.lean: OK
+RequestProject/P03d/Composites.lean: OK
+RequestProject/P03e/Bridge.lean: OK
+RequestProject/P04a/Cokernels.lean: OK
+RequestProject/P04b/Reconnect.lean: OK
+RequestProject/P04c/TwoDescent.lean: OK
+RequestProject/R0/Torsion.lean: OK
+RequestProject/R1/Bezout.lean: OK
+RequestProject/R1/Bounds.lean: OK
+RequestProject/R1/Duplication.lean: OK
+RequestProject/R1/Height.lean: OK
+RequestProject/Run013/Basic.lean: OK
+RequestProject/Run013/Selmer.lean: OK
+RequestProject/SDyadic/Arith.lean: OK
+RequestProject/SDyadic/CovAlg.lean: OK
+RequestProject/SDyadic/DualSide.lean: OK
+RequestProject/SDyadic/Family.lean: OK
+RequestProject/SDyadic/Instances.lean: OK
+RequestProject/SDyadic/LocalCommon.lean: OK
+RequestProject/SDyadic/LocalEll.lean: OK
+RequestProject/SDyadic/LocalQ.lean: OK
+RequestProject/SDyadic/LocalTwo.lean: OK
+RequestProject/SDyadic/PadicTools.lean: OK
+RequestProject/SDyadic/PhiSide.lean: OK
+RequestProject/SDyadic/Saturation.lean: OK
+RequestProject/SDyadic/Structure.lean: OK
+RequestProject/SDyadic/Witness.lean: OK
+
+## types and axiom footprints (pp.explicit, pp.universes, pp.fullNames)
+GateR.height_sublevels : ∀ (ε : Int) (m q n : Nat),
+  @Set.Finite.{0}
+    (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+    (@setOf.{0}
+      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+      fun P => @LE.le.{0} Nat instLENat (@R1.height ε m q P) n)
+'GateR.height_sublevels' depends on axioms: [propext, Classical.choice, Quot.sound]
+GateR.halving_representatives : ∀ (ε : Int) (m q : Nat) [inst : Fact (Nat.Prime q)] (hP : @SDyadic.Params ε m q inst),
+  SDyadic.H41 ε m →
+    ∀ (P : @WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q))),
+      ∃ Q e,
+        And (@LE.le.{0} Nat instLENat e (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+          (@Eq.{1}
+            (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+              (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+            P
+            (@HAdd.hAdd.{0, 0, 0}
+              (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+              (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+              (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+              (@instHAdd.{0}
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@WeierstrassCurve.Affine.Point.instAdd.{0} Rat Rat.instField
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))
+              (@HAdd.hAdd.{0, 0, 0}
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@instHAdd.{0}
+                  (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                    (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                  (@WeierstrassCurve.Affine.Point.instAdd.{0} Rat Rat.instField
+                    (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))
+                Q Q)
+              (@HSMul.hSMul.{0, 0, 0} Nat
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@instHSMul.{0, 0} Nat
+                  (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                    (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                  (@AddMonoid.toNatSMul.{0}
+                    (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                      (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                    (@SubNegMonoid.toAddMonoid.{0}
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@AddGroup.toSubNegMonoid.{0}
+                        (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                          (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                        (@AddCommGroup.toAddGroup.{0}
+                          (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                            (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                          (@WeierstrassCurve.Affine.Point.instAddCommGroup.{0} Rat Rat.instField
+                            (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))))))
+                e (@P01.Tpt ε m q inst hP))))
+'GateR.halving_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+GateR.bounded_halving : ∀ (ε : Int) (m q : Nat) [inst : Fact (Nat.Prime q)] (hP : @SDyadic.Params ε m q inst),
+  SDyadic.H41 ε m →
+    ∃ C,
+      And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) C)
+        (∀
+          (P :
+            @WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+              (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q))),
+          ∃ Q e,
+            And (@LE.le.{0} Nat instLENat e (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+              (And
+                (@Eq.{1}
+                  (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                    (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                  P
+                  (@HAdd.hAdd.{0, 0, 0}
+                    (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                      (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                    (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                      (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                    (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                      (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                    (@instHAdd.{0}
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@WeierstrassCurve.Affine.Point.instAdd.{0} Rat Rat.instField
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))
+                    (@HAdd.hAdd.{0, 0, 0}
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@instHAdd.{0}
+                        (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                          (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                        (@WeierstrassCurve.Affine.Point.instAdd.{0} Rat Rat.instField
+                          (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))
+                      Q Q)
+                    (@HSMul.hSMul.{0, 0, 0} Nat
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@instHSMul.{0, 0} Nat
+                        (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                          (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                        (@AddMonoid.toNatSMul.{0}
+                          (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                            (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                          (@SubNegMonoid.toAddMonoid.{0}
+                            (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                              (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                            (@AddGroup.toSubNegMonoid.{0}
+                              (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                                (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                              (@AddCommGroup.toAddGroup.{0}
+                                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                                (@WeierstrassCurve.Affine.Point.instAddCommGroup.{0} Rat Rat.instField
+                                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))))))
+                      e (@P01.Tpt ε m q inst hP))))
+                (@LE.le.{0} Nat instLENat
+                  (@GateR.translateMax.{0}
+                    (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                      (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                    (@WeierstrassCurve.Affine.Point.instAddCommGroup.{0} Rat Rat.instField
+                      (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat)
+                    (@P01.Tpt ε m q inst hP) (@R1.height ε m q) Q)
+                  (@Max.max.{0} Nat Nat.instMax
+                    (@GateR.translateMax.{0}
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@WeierstrassCurve.Affine.Point.instAddCommGroup.{0} Rat Rat.instField
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat)
+                      (@P01.Tpt ε m q inst hP) (@R1.height ε m q) P)
+                    C))))
+'GateR.bounded_halving' depends on axioms: [propext, Classical.choice, Quot.sound]
+GateR.every_point_torsion : ∀ (ε : Int) (m q : Nat) [inst : Fact (Nat.Prime q)],
+  @SDyadic.Params ε m q inst →
+    SDyadic.H41 ε m →
+      ∀
+        (P :
+          @WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q))),
+        ∃ n,
+          And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)
+            (@Eq.{1}
+              (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+              (@HSMul.hSMul.{0, 0, 0} Nat
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (@instHSMul.{0, 0} Nat
+                  (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                    (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                  (@AddMonoid.toNatSMul.{0}
+                    (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                      (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                    (@SubNegMonoid.toAddMonoid.{0}
+                      (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                        (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                      (@AddGroup.toSubNegMonoid.{0}
+                        (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                          (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                        (@AddCommGroup.toAddGroup.{0}
+                          (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                            (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                          (@WeierstrassCurve.Affine.Point.instAddCommGroup.{0} Rat Rat.instField
+                            (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))))))
+                n P)
+              (@OfNat.ofNat.{0}
+                (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                  (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                (nat_lit 0)
+                (@Zero.toOfNat0.{0}
+                  (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+                    (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+                  (@WeierstrassCurve.Affine.Point.instZero.{0} Rat Rat.commRing
+                    (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q))))))
+'GateR.every_point_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+GateR.h41_rank_zero : ∀ (ε : Int) (m q : Nat) [inst : Fact (Nat.Prime q)],
+  @SDyadic.Params ε m q inst →
+    SDyadic.H41 ε m →
+      @Eq.{2} Cardinal.{0}
+        (@Module.rank.{0, 0} Int
+          (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+          Int.instSemiring
+          (@AddCommGroup.toAddCommMonoid.{0}
+            (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+              (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+            (@WeierstrassCurve.Affine.Point.instAddCommGroup.{0} Rat Rat.instField
+              (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat))
+          (@AddCommGroup.toIntModule.{0}
+            (@WeierstrassCurve.Affine.Point.{0} Rat Rat.commRing
+              (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)))
+            (@WeierstrassCurve.Affine.Point.instAddCommGroup.{0} Rat Rat.instField
+              (@WeierstrassCurve.toAffine.{0} Rat (P01.Ecurve ε m q)) instDecidableEqRat)))
+        (@OfNat.ofNat.{1} Cardinal.{0} (nat_lit 0) (@Zero.toOfNat0.{1} Cardinal.{0} Cardinal.instZero.{0}))
+'GateR.h41_rank_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

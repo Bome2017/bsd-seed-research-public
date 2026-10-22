@@ -1,0 +1,201 @@
+{
+  "archive_sha256": "65a3de1eb1df2cdb93cdce0603c53ff7e00e5b6987bd08a6fdeeaf92a75e95d5",
+  "safe_regular_files_only": true,
+  "files": [
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/lake-manifest.json",
+      "bytes": 3109,
+      "sha256": "116c6ef00aa899fb38c08c5e4c92c0e434d0e7f9d574fcb5d4d42cc90ffb07cb"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/lakefile.toml",
+      "bytes": 234,
+      "sha256": "b1481968ce2912f2b85288fc18aa05fb22750e4083f9e03f49f59a8814ba268a"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/lean-toolchain",
+      "bytes": 25,
+      "sha256": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/RequestProject/Main.lean",
+      "bytes": 563,
+      "sha256": "929b0bddef0b781f3fb42c7a99f252dc0bda7331f698104f7075e12ff637c52d"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/MANIFEST.sha256",
+      "bytes": 2151,
+      "sha256": "17aae8573b100bcd76b80314729f21de8aa30b1b9fa9777d41dc5db396d20885"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/NOTES.md",
+      "bytes": 818,
+      "sha256": "355aa5f77b16e752fd7c711e58efe38b994b01643afb1e8ab6c43a405b39e127"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/ORACLE.json",
+      "bytes": 676,
+      "sha256": "9fd6fff0c94a60aa84741b9012eebd46b009b8096ac92393f929f0649c39ede7"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/REPORT.md",
+      "bytes": 5149,
+      "sha256": "965a9ea15927e20114e1ace491d70abfb814e687040ef83778055ec70d52859e"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/RESUME.md",
+      "bytes": 699,
+      "sha256": "e04c66466c0ac537bd107ddda278b2922764aa7bedadb475f7a357563caad933"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/REVISED_RESEARCH_PROMPT.txt",
+      "bytes": 1269,
+      "sha256": "9b5c77a1baac052860698c01a5a9f98b52e28d0cb49066740faf59a8d16a87e9"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/START_HERE.md",
+      "bytes": 2709,
+      "sha256": "cb8e838b0f55a94bb690471de6fa78899f3091e38817edc7023953bce5f57451"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/STATE.json",
+      "bytes": 507,
+      "sha256": "4b74d8f3ff6241ad925912d3248da64d163e11a3ad3eb68f378f79d11b8da631"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/SUBMIT_LATER.txt",
+      "bytes": 917,
+      "sha256": "220a258f84f404cc3eb47f9a08ac20850bad93d73459f79b9161be52de067aea"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/TASK_PRIORITY_ADDENDUM.md",
+      "bytes": 2865,
+      "sha256": "d4b454cb02abf76df3325cae2d8dae096bb7f2eebbad9491137d25fa4216fab4"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/verify_return.py",
+      "bytes": 3828,
+      "sha256": "c23fabc67d8254a98a5e4542864f0ccd9495e258bc54cc50b6ceba2b5fcfb907"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/RequestProject/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/build/build_smoke.py",
+      "bytes": 3561,
+      "sha256": "c13c101ec4129b9e46c3b1c06319e81a369538a30906a481456cf013b6d996a9"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/EXTRACTOR_BINDING.json",
+      "bytes": 419,
+      "sha256": "9056ab6f876542899c8e13a49345e80784dd98a3e79541b2887d1b0c2ac5137a"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/LARGE_ARCHIVES_UNCHANGED.json",
+      "bytes": 775,
+      "sha256": "f85a379bf666045a6a49947405420109713cfc43c6c137882d0be3cb450c49be"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/LOCAL_RESULTS.json",
+      "bytes": 1202,
+      "sha256": "04d9c7851155537532842ba877ae81d78f2aa854c4327c20ef5f757296bcf8b5"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/PYPI_RECEIPT.json",
+      "bytes": 336,
+      "sha256": "12bca954c09afcd011d184c452f34a6944410959fb577940f12474d4614b0dc4"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/SDK_SOURCE_BINDINGS.json",
+      "bytes": 403,
+      "sha256": "041047d177221454586afe96817bff8f104b74bbea363c6ad1aaed2ff104e58e"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/local_checks.py",
+      "bytes": 6149,
+      "sha256": "9f7903e6467bdd87d050f96a3f6627e337799600bceab9686401ae6645e2d264"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/offline_check.py",
+      "bytes": 5201,
+      "sha256": "c1123ca0da6cceadf50fd5fc80a3fe4b97b7b5c2a7f3978e06945176ec28f569"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/sdk/OFFLINE_SDK_PREFLIGHT.json",
+      "bytes": 1887,
+      "sha256": "1d9de909cd7d37d1a7cb4613ea261de05fb932f00fbc06c800e3d353f4697864"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/checks/sdk/SDK_GENERATED_INPUT.tar.gz",
+      "bytes": 3739,
+      "sha256": "b34cc230861ac6de3ae79ba5a240b81502bff248b130bf98eabc040234b47af1"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/EXTRACTOR_STDOUT.json",
+      "bytes": 148,
+      "sha256": "78913665d844233c7c7b51063384c7e24ae635306b44f8a324b797440164268a"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/RUNTIME_RESULT.json",
+      "bytes": 414,
+      "sha256": "2da7f999b794b8fa992a40f219395e1f799e89d25d4706f13a472a5455360d94"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/RUNTIME_TRANSCRIPT.txt",
+      "bytes": 2595,
+      "sha256": "aa1f71608148061cd527d03b34c43db905303060998c0f6d3fee209e3de5322c"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/READING_SET_BINDING.json",
+      "bytes": 326,
+      "sha256": "f7078c131622347f907a55d6b514470771a1f7fb3514165b57de84fce672c285"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/TASK.md",
+      "bytes": 3227,
+      "sha256": "c94d8c2bfe62983be7830a3d74a4eef52ff470db1c94a8e23656edecccb9051a"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/prepare_reference.py",
+      "bytes": 1550,
+      "sha256": "ebf8a3b580141ba8c29af350d25ac85f6e81589d95a515ddb00a06b62f156327"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/reading_set/BSD_NESTED_RUNTIME_SMOKE/STARTER_MANIFEST.sha256",
+      "bytes": 269,
+      "sha256": "95780fc972a0d3577130e7e5bd3e522888617a6a28388578010393affddabde1"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/reading_set/BSD_NESTED_RUNTIME_SMOKE/START_HERE.md",
+      "bytes": 137,
+      "sha256": "11c631bb636439d4251ba9f0f34ca6d0a349f06f2f811e229ba39e87026ecdb1"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/reading_set/BSD_NESTED_RUNTIME_SMOKE/controls/three_lines.txt",
+      "bytes": 17,
+      "sha256": "4fdbc441ea7b546100e086ac1e4fc5ae6749b7314311c99db05be450eca12996"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt",
+      "bytes": 187,
+      "sha256": "58da37079750e05df03b8225f2234c26e9f8ef6059a854ab9832269b597e19af"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/project/payload/COMPLETE_READING_SET.zip",
+      "bytes": 1197,
+      "sha256": "b3758b68ccc9064df9713b0a6ae5e6e6cc29d94470e7603ca31c26555a8de22c"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/ARISTOTLE_SUMMARY.md",
+      "bytes": 1494,
+      "sha256": "0d55c54313aad0cea3ed4af325f398da81ecacf28fd00ed9cc3eb4b76bce68f2"
+    },
+    {
+      "name": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05_aristotle/README.md",
+      "bytes": 248,
+      "sha256": "39ec8cd0459306d9f50cf0c0da2aaf858aeaba5affa9ae26c3dbaee9f872f0ab"
+    }
+  ]
+}

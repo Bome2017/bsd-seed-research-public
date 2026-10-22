@@ -1,0 +1,22 @@
+[
+  {
+    "name": "singleton_check.py",
+    "sha256": "cdbb8f3201ca26ec6add611a8ec983e971857836cd291a1db744a41623062bf6",
+    "frozen_p17_match": true
+  },
+  {
+    "name": "run_singleton.sh",
+    "sha256": "1ae4f5f65e24697a18d2fa53e6ae630fc325c8cf967e7fbdc93d1867af95eca0",
+    "frozen_p17_match": true
+  },
+  {
+    "name": "test_singleton_check.py",
+    "sha256": "9e6f35df49e071239cb30c06e785c5e2a6bbf5dada45e8944b72b5210941b946",
+    "frozen_p17_match": true
+  },
+  {
+    "name": "CONTROLS.json",
+    "sha256": "0eb13c03aa95035348b3b700a882d501dc562763f318c83ea63999408fac5cff",
+    "frozen_p17_match": true
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "cardano_even_class": "m**2*(3*a + m**4)",
+  "cardano_terms": [
+    "(3*a + m**4)**2/(27*m**2)",
+    "-8*m**2*(3*a + m**4)/27"
+  ],
+  "module_checks": [
+    {
+      "kernel_dimension": 2,
+      "norm_rank": 2,
+      "p": 3,
+      "scalar_line_checks": 8,
+      "source_dimension": 4
+    },
+    {
+      "kernel_dimension": 2,
+      "norm_rank": 4,
+      "p": 5,
+      "scalar_line_checks": 24,
+      "source_dimension": 6
+    },
+    {
+      "kernel_dimension": 2,
+      "norm_rank": 6,
+      "p": 7,
+      "scalar_line_checks": 48,
+      "source_dimension": 8
+    },
+    {
+      "kernel_dimension": 2,
+      "norm_rank": 10,
+      "p": 11,
+      "scalar_line_checks": 120,
+      "source_dimension": 12
+    },
+    {
+      "kernel_dimension": 2,
+      "norm_rank": 12,
+      "p": 13,
+      "scalar_line_checks": 168,
+      "source_dimension": 14
+    }
+  ],
+  "scope": "finite geometric modules and formal Cardano identities only; no number-field or seed computation",
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}

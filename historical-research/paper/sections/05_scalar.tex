@@ -1,0 +1,42 @@
+\section{The scalar endgame}\label{sec:scalar}
+
+Put $\varepsilon=573/100000$. By Theorem~\ref{thm:qint}, $|q-36|<\varepsilon$.
+
+\begin{proposition}[\cid{Q.1}; elementary]\label{prop:ratl}
+If $q=a/b$ in lowest terms with $1\le b\le174$, then $q=36$. The bound is sharp for this interval: $36+1/175\in(35.99427,36.00573)$.
+\end{proposition}
+\begin{proof}
+If $q\neq36$ then $|q-36|\ge1/b\ge1/174>\varepsilon$.
+\end{proof}
+
+\begin{proposition}[\cid{Q.2}; elementary]\label{prop:alg}
+Let $f(X)=a\prod_j(X-q_j)\in\Z[X]$ be the primitive irreducible polynomial of $q=q_1$. If $\varepsilon\,|a|\prod_{j>1}|36-q_j|<1$, then $q=36$.
+
+In particular, $q=36$ as soon as $q$ is a totally positive algebraic integer of degree at most two, with trace at most $246$ in the quadratic case. The trace bound is sharp: the smaller root of $X^2-247X+7595$ lies in the interval.
+\end{proposition}
+\begin{proof}
+If $q\ne36$ then $f(36)$ is a nonzero integer, so $1\le|f(36)|=|a|\prod_j|36-q_j|<\varepsilon|a|\prod_{j>1}|36-q_j|<1$, a contradiction.
+\end{proof}
+
+Neither arithmeticity hypothesis is known for $q$. Within the certified interval, each of them is \emph{equivalent} to $q=36$. A proof method would have to justify calling it easier.
+
+\begin{proposition}[\cid{Q.3}; elementary; conditional]\label{prop:commonB}
+Suppose an independently constructed rational $B>0$ satisfies both of the following:
+\begin{itemize}[leftmargin=*]
+\item $q=4B$;
+\item for every prime $p$, $\Sha[p^\infty]$ is finite and $v_p(\#\Sha[p^\infty])\le v_p(B)$.
+\end{itemize}
+Then $B=9$, $\#\Sha=9$, and full BSD holds for $E$.
+\end{proposition}
+\begin{proof}
+All valuations of $B$ are nonnegative, so $B$ is an integer, and the interval forces $B=9$. The bounds kill every component except the $3$-primary one, and $\#\Sha[3^\infty]=9$ by Theorem~\ref{thm:sha3}.
+\end{proof}
+Defining $B=q/4$ assumes the missing arithmeticity, and defining $B=\#\Sha$ assumes FIN and the comparison. The mere existence of such a $B$ is a reformulation of the endpoint.
+
+\begin{proposition}[\cid{Q.4}; standard]\label{prop:m1}
+Let $\alpha_f=2\pi i f(z)\,dz$ and $\ell(z)=\log(-i\sqrt N z)$, and let $\gamma$ be the ray from $i\infty$ to $i/\sqrt N$. Then
+\[
+\int_\gamma\alpha_f\,\ell^2=\frac{L''(E,1)}{2}.
+\]
+\end{proposition}
+This identity, M1, holds before any finiteness statement. Several proposed arithmetic realizations of the left side are excluded in \S\ref{sec:obstructions} (Obstructions~\ref{obs:mellin}--\ref{obs:curv}). None of the exclusions disproves an arithmetic comparison obtained by some other construction.

@@ -1,0 +1,87 @@
+{
+  "status": "COMPLETE_BOUNDED_AUDIT_AND_THEOREM_ATTACK",
+  "updated_utc": "2026-09-19T16:28:30.444452+00:00",
+  "classification": "BSD_FRONTIER_UNKNOWN",
+  "fixed_curve": [
+    0,
+    -22735,
+    0,
+    106272484,
+    0
+  ],
+  "seed": {
+    "m": 2243,
+    "n": 12
+  },
+  "immutable_top_level": {
+    "RANK": "CLOSED_RETAINED",
+    "FIN": "OPEN",
+    "FORMULA": "OPEN"
+  },
+  "new_results": [
+    "WC implication proved from explicit Ota inputs; antecedent J_E != 0 UNKNOWN.",
+    "WC needs no cross-prime unit coherence; LINE implies WC with retained core-pair inputs.",
+    "Explicit countermodels to uniform denominators and profinite perfectness shortcuts.",
+    "Rank-two contraction/inverse proved; no arithmetic H9 comparison constructed.",
+    "Regulator/period interval certificate closes numerical D<=174 premise.",
+    "One-sided common certificate implication proved; neither arithmetic nor real interface constructed."
+  ],
+  "selected_fin_route": {
+    "excluded_primes": [
+      2,
+      3,
+      5,
+      2243,
+      4547,
+      5843
+    ],
+    "excluded_primary_known": [
+      2,
+      3,
+      5
+    ],
+    "excluded_primary_open": [
+      2243,
+      4547,
+      5843
+    ],
+    "J_E_nonzero": "UNKNOWN"
+  },
+  "formula": {
+    "q_interval": [
+      "35.99427",
+      "36.00573"
+    ],
+    "denominator_cutoff": 174,
+    "rationality": "UNPROVED",
+    "denominator_bound": "UNPROVED",
+    "order_nine_after_fin": "UNPROVED"
+  },
+  "provenance": {
+    "p3": "PROVED_COMPUTER_ASSISTED relative to Skinner as printed; R1/R2 carried",
+    "p5": "SEALED successor retained; not recomputed",
+    "numerical_trust": "Python/Fraction/libmpdec plus stated height/AGM theorems and retained basis/Arb L double derivative; not Lean"
+  },
+  "verification": {
+    "handoff_manifest_matches": 11,
+    "referenced_hash_matches": 35,
+    "source_snapshot_entries": 75,
+    "two_truncations_replayed": true,
+    "python_3_12_and_3_13_agree": true,
+    "nested_intervals": true
+  },
+  "not_run": [
+    "p7",
+    "p23",
+    "p29",
+    "new p5 computation",
+    "bad-prime search",
+    "Aristotle/Harmonic",
+    "Lean build",
+    "full coefficient-stream replay",
+    "broad literature survey"
+  ],
+  "writes": "Only this output directory; checked source bytes unchanged.",
+  "next_research": "Construct an actual integral descent/comparison whose content bounds Ota witnesses before FIN; no claim that an executable proof route exists.",
+  "resume_file": "RESUME.md"
+}

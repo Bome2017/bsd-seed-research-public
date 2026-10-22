@@ -1,0 +1,505 @@
+[
+  {
+    "case": "1913b1",
+    "grade": "CERTIFIED_COMPLETE_RETAINED",
+    "groups": [
+      {
+        "category": "admitted_nonpoint",
+        "vectors": [
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": true,
+            "in_displayed_global_unit_space": true,
+            "computed_ordinary_class_coordinates": []
+          },
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": true,
+            "in_displayed_global_unit_space": true,
+            "computed_ordinary_class_coordinates": []
+          }
+        ]
+      },
+      {
+        "category": "globally_admitted_but_locally_rejected",
+        "vectors": []
+      },
+      {
+        "category": "scalar_compatible_but_not_globally_admitted",
+        "vectors": [
+          {
+            "source_exponents": [
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          }
+        ]
+      }
+    ],
+    "scope": "Exact global categories certified only where exact_global present. Without that map, source classes outside joint necessary kernel are not assigned a specific failed global gate."
+  },
+  {
+    "case": "389a1",
+    "grade": "CERTIFIED_COMPLETE_RETAINED",
+    "groups": [
+      {
+        "category": "admitted_nonpoint",
+        "vectors": []
+      },
+      {
+        "category": "globally_admitted_but_locally_rejected",
+        "vectors": []
+      },
+      {
+        "category": "scalar_compatible_but_not_globally_admitted",
+        "vectors": [
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          },
+          {
+            "source_exponents": [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            "valuation_mod3": [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          }
+        ]
+      }
+    ],
+    "scope": "Exact global categories certified only where exact_global present. Without that map, source classes outside joint necessary kernel are not assigned a specific failed global gate."
+  },
+  {
+    "case": "433a1",
+    "grade": "CERTIFIED_COMPLETE_RETAINED",
+    "groups": [
+      {
+        "category": "admitted_nonpoint",
+        "vectors": []
+      },
+      {
+        "category": "globally_admitted_but_locally_rejected",
+        "vectors": [
+          {
+            "source_exponents": [
+              1,
+              2,
+              0,
+              2,
+              1,
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "valuation_mod3": [
+              1,
+              2,
+              0,
+              2,
+              1,
+              2,
+              0,
+              0,
+              1
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          }
+        ]
+      },
+      {
+        "category": "scalar_compatible_but_not_globally_admitted",
+        "vectors": [
+          {
+            "source_exponents": [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          },
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          },
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              1,
+              2,
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              1,
+              2,
+              2,
+              0,
+              0,
+              1
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          }
+        ]
+      }
+    ],
+    "scope": "Exact global categories certified only where exact_global present. Without that map, source classes outside joint necessary kernel are not assigned a specific failed global gate."
+  },
+  {
+    "case": "seed3",
+    "grade": "CONDITIONAL_OR_INCOMPLETE_DISPLAYED_SOURCE_ONLY",
+    "groups": [
+      {
+        "category": "admitted_nonpoint",
+        "vectors": [
+          {
+            "source_exponents": [
+              2,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": true,
+            "in_displayed_global_unit_space": false,
+            "computed_ordinary_class_coordinates": [
+              2,
+              0
+            ]
+          },
+          {
+            "source_exponents": [
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": true,
+            "in_displayed_global_unit_space": false,
+            "computed_ordinary_class_coordinates": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "category": "outside_joint_admission_containing_kernel",
+        "vectors": []
+      }
+    ],
+    "scope": "Exact global categories certified only where exact_global present. Without that map, source classes outside joint necessary kernel are not assigned a specific failed global gate."
+  },
+  {
+    "case": "28042a1",
+    "grade": "CONDITIONAL_OR_INCOMPLETE_DISPLAYED_SOURCE_ONLY",
+    "groups": [
+      {
+        "category": "admitted_nonpoint",
+        "vectors": [
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": true,
+            "in_displayed_global_unit_space": true,
+            "computed_ordinary_class_coordinates": [
+              0
+            ]
+          },
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_zero": true,
+            "in_displayed_global_unit_space": true,
+            "computed_ordinary_class_coordinates": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "category": "outside_joint_admission_containing_kernel",
+        "vectors": [
+          {
+            "source_exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "valuation_mod3": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            "valuation_zero": false,
+            "in_displayed_global_unit_space": false
+          }
+        ]
+      }
+    ],
+    "scope": "Exact global categories certified only where exact_global present. Without that map, source classes outside joint necessary kernel are not assigned a specific failed global gate."
+  }
+]

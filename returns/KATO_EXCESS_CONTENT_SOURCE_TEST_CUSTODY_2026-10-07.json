@@ -1,0 +1,14 @@
+{
+  "return": "BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07",
+  "lab_baseline": "6847ff04e983a6179ccaad636a9b8227561a144a",
+  "grade": "author-level source check; no new seed arithmetic bound",
+  "manifest_entries_verified": 9,
+  "prior_proof_manifest_entries_verified": 24,
+  "archive_integrity": "PASS",
+  "copy_identity": "PASS",
+  "archive_bytes": 9728,
+  "archive_sha256": "56a62af2c0cd0e29cc810c5233a49e59dc4eb479df19c3efa23bf42bef1c988d",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

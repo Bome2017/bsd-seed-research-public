@@ -1,0 +1,18 @@
+Sage L_ratio algorithm (lseries_ell.py), run on our CERTIFIED L-value:
+  t = 2, d = 2, real_components = 2  =>  C = 8*d*t = 32
+  omega_1 = 0.0115489412661572227489176030673
+  eps = omega/C = 0.0003609044146
+  our certified half-width = 5.1e-5
+  PRECISION SUFFICIENT?  YES   (need half-width < eps)
+
+  L*C/omega over the certified interval: [25087.85881949567, 25088.14144280501]
+  rounds to: 25088 and 25088  ->  SAME n, rounding is RIGOROUS
+  n = 25088
+
+  L_ratio = (n/C)/real_components = 392
+  => Omega_BSD = omega_1 * real_components = 2*omega_1   (Sage's own convention, from the source)
+  #Sha_an = L_ratio * t^2 / prod c_v = 49
+  is an integer? True    is a perfect square? True
+
+  ORD_p of the analytic quotient:
+    49 = {7: 2} remaining 1

@@ -1,0 +1,20 @@
+load averages: 3.47 4.23 4.62
+== M1_mod4_to_mod8
+exit=1
+    raise RuntimeError(f"newform/Eisenstein mod-4 check failed at {N}")
+RuntimeError: newform/Eisenstein mod-4 check failed at 66
+load averages: 3.47 4.23 4.62
+== M2_component_group
+exit=1
+    raise RuntimeError(f"component group check failed at ell={l}")
+RuntimeError: component group check failed at ell=11
+load averages: 3.51 4.23 4.62
+== M3_manin_flag
+exit=1
+    raise RuntimeError(f"unexpected optimality/Manin data at {N}: {mine}")
+RuntimeError: unexpected optimality/Manin data at 66: ['66', 'b', '1', '[1,1,1,-2,-1]', '1', '1']
+load averages: 3.47 4.21 4.61
+== M4_slope_residue
+exit=1
+    raise RuntimeError(f"slope residue check failed at ell={l}")
+RuntimeError: slope residue check failed at ell=11

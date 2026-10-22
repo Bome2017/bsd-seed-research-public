@@ -1,0 +1,8 @@
+{
+  "phase": "complete",
+  "extraction": {"reference": "READING_SET_VERIFIED, 5180 members", "latest_review": "LATEST_REVIEW_VERIFIED, 64 members"},
+  "reading": {"read_in_full": ["TASK.md", "WHAT_WE_LEARNED.md", "CONSTRUCTION_WORK.md", "accepted REPORT/CORRECTIONS/MATHEMATICAL_RECONSTRUCTION/HANDOFF", "original_return RESULT/HANDOFF/ASSUMPTIONS", "guide/01", "guide/04", "guide/05"], "read_partially": ["guide/03 (W01-W07 full, all headings)", "FULL_COMPENDIUM.md (targeted search only)"], "not_read": ["HISTORICAL_STOPS_AND_CORRECTIONS.md beyond search", "most of reading_set/sources"]},
+  "status_label": "PARTIAL_CONSTRUCTION / TESTED_CANDIDATE (height route refuted); FIN, ORDER9, Q36 unchanged",
+  "lean": {"modules": ["RequestProject.Continuation.CrossPrimeKolyvagin", "RequestProject.Continuation.HeightObstruction", "RequestProject.Continuation.SeedFinite", "RequestProject.Continuation.SeedPointCounts"], "sorry": 0, "native_decide": 0, "axioms": ["propext", "Classical.choice", "Quot.sound"]},
+  "no_jobs_submitted": true
+}

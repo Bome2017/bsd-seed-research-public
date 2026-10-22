@@ -1,0 +1,10 @@
+{
+ "prepare_reference_status": "READING_SETS_VERIFIED",
+ "members_hash_checked": 6566,
+ "archives": {
+  "reading_set": "15269b5900517b51e21debeccec5c40514ffc8620ef4bf9f079bc61b853ecd27",
+  "current_overlay": "b26e42945df5b8f52afe5644c3efec8ad6a6996306c7302ffdea025f8600e74a"
+ },
+ "files_actually_read": "see SOURCES.md (5 governing docs in full, 4 record files in part, grep-level searches)",
+ "note": "hash verification is not reading; extracted trees are excluded from git"
+}

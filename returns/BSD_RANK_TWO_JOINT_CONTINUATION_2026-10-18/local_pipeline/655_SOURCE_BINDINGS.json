@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/field.gp",
+    "sha256": "018eee0130e35f93ac673ba31c2b36bab22a4bf18315de67d15d714dfb8fde09",
+    "bytes": 121920
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/nf.gp",
+    "sha256": "d15ff1e34154d54b09fe443cac84d3ed0fe0fce8fa76c2083bd6885765c14449",
+    "bytes": 1363142
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/compact_units_eval.json",
+    "sha256": "9992bfe088145df1e8cbdcdbb62318c40fc6283ed1fae000d9ed39353159815e",
+    "bytes": 250927
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/TRANSPORT_PROOF.md",
+    "sha256": "501dd4962a6a58cc0b7801d9770d4afa0f1c94e6826ddfb8b95c84bb7c0fd330",
+    "bytes": 640
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/factor_lines_rational.gp",
+    "sha256": "93a3f4be4426fcfc06a1bf1cb550dcd95749b31cc0f51c9b729379dfd2660485",
+    "bytes": 1398
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/factor_lines_rational.gp.out",
+    "sha256": "6f4b43577e3611f6fc7b9360e6ecef49fe71692a72f862379a7d6841498231b7",
+    "bytes": 2118
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/relations_transport.gp",
+    "sha256": "bd0ec3cc65c0887546549907cb33302ee9cbeb64cc8b02d6a927d31192fb60a9",
+    "bytes": 1081
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/relations_transport.gp.out",
+    "sha256": "4e82346c918f6e3829b60d6d7c67ebe33f6ef08ab4141436add017b21f4589ae",
+    "bytes": 104
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/exact_products.gp",
+    "sha256": "14bc20aac4d2e880f8e7063dffd5b1ec57d2e1941b72715122cf39bbb61bcef8",
+    "bytes": 516
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/exact_products.gp.out",
+    "sha256": "e62d69a091c253f625b15d384c89bb00120ef2f2ec6e1d176ac841e0081d64d4",
+    "bytes": 935
+  },
+  {
+    "path": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/exact_unit_products.gp",
+    "sha256": "f34191fe9ad0454a0c234151df755f395be9014722961cd76e1be5c11046438c",
+    "bytes": 28659
+  }
+]

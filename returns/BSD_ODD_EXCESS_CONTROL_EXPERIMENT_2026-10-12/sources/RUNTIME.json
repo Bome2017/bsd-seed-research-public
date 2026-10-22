@@ -1,0 +1,10 @@
+{
+  "gp_path": "/Users/bsm/run040-order7-cayley-coordinate-slice-genus-census-2026-09-03/tools/sage-env/bin/gp",
+  "gp_sha256": "2fdc284cd33b29e091e80a39eeeee61d1ab55f5fd92868dff9f998d78b832423",
+  "gp_version": "2.17.3",
+  "python_version": "3.13.2",
+  "max_accepted_gp_stack_bytes": 4000000000,
+  "primary_rank_input": "outputs/candidate43737_exact.out",
+  "independent_point_algebra": "checks/exact_control.py",
+  "seed_result": false
+}

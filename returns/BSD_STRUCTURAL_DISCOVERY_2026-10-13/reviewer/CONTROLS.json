@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "subspaces_F3_4": 212,
+  "nested_flags": 2193,
+  "representative_changes_checked": 177633,
+  "dimension_patterns": {
+    "(2, 0, 0)": 15,
+    "(1, 0, 1)": 156,
+    "(1, 1, 0)": 316,
+    "(0, 0, 2)": 159,
+    "(0, 1, 1)": 988,
+    "(0, 2, 0)": 559
+  },
+  "cyclic_coordinate_negative_control": "rejected",
+  "elapsed_seconds": 12.660711580887437,
+  "scope": "Abstract exact controls, not seed class-group arithmetic."
+}

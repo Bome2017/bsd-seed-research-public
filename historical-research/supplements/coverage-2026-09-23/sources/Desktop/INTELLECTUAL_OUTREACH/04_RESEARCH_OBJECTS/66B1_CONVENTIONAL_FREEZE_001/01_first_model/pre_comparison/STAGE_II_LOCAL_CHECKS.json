@@ -1,0 +1,30 @@
+{
+  "recorded_utc": "2026-09-10T17:10:34.120488+00:00",
+  "stage_I_unchanged": true,
+  "phi_3_cover_rhs_mod16_by_q_and_zparity": {
+    "5": {
+      "0": [
+        3,
+        11
+      ],
+      "1": [
+        12
+      ]
+    },
+    "13": {
+      "0": [
+        3,
+        11
+      ],
+      "1": [
+        12
+      ]
+    }
+  },
+  "dual_minus1_rhs_mod3": [
+    2
+  ],
+  "base_model_at_2_translated_by_1_1": "w^2+z*w+4*w=z^3+4*z^2+2*z-4",
+  "stage_II_descent_sha256": "03643caea88d63644ad563286e5732f72acd85ed876a3bb4d1c8a7b5fff3d73d",
+  "warning": "These finite residue checks corroborate the symbolic local proof; they are not a substitute for its nonintegral and projective-chart cases."
+}

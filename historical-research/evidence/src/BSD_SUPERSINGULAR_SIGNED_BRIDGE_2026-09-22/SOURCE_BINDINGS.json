@@ -1,0 +1,58 @@
+{
+  "source_url": "https://arxiv.org/html/2306.17784v2",
+  "primary_edition": "2026-02-05",
+  "read_only_inputs": [
+    {
+      "path": "/Users/bsm/run013-bsd-scout-2026-08-22/_evidence/txt/2306.17784.txt",
+      "sha256": "b0e9c254aac829bacd89361056575af9b115b2d3bba65daac20812a5cc2e2f84",
+      "bytes": 206910,
+      "claim_scope": "BLV v2: sections 4.3, 5.1-5.6, Theorems 7.1 and 7.3; narrow primary-source reading this turn",
+      "modified": false
+    },
+    {
+      "path": "/Users/bsm/BSD_C2_WITNESS_2026-09-22/CATCHUP_GRADING_2026-09-22.md",
+      "sha256": "871a22874cbc7283dcd887748d39c98818fc2d5bd8e5f0eda996343ac16e23c6",
+      "bytes": 9395,
+      "claim_scope": "Names A3 next; does not authorize importing its secondary formula transcription errors",
+      "modified": false
+    },
+    {
+      "path": "/Users/bsm/BSD_C2_WITNESS_2026-09-22/INPUTS.md",
+      "sha256": "330a87a746868967ecdeed5b9bd59f30f2de3d6a7ff8dc71b97b707cfa16703c",
+      "bytes": 6084,
+      "claim_scope": "Section 1 seed, field and retained rank/residual-image inputs only; old ordinary converse wording not used",
+      "modified": false
+    },
+    {
+      "path": "/Users/bsm/BSD_C2_WITNESS_2026-09-22/READ_FIRST/00_SUPERSESSION.md",
+      "sha256": "b3790092cd2cd081b09a7c54a962201bbaae3ac798f884e4f7b8b44e6153bdeb",
+      "bytes": 1808,
+      "claim_scope": "Additive supersession and frozen ordinary audit boundary",
+      "modified": false
+    },
+    {
+      "path": "/Users/bsm/BSD_ARISTOTLE_ORDINARY_BRIDGE_2026-09-22/INPUTS.md",
+      "sha256": "8e1bd6d84d4d83ee242cf98ec3f551aa940eb764e6111dafdb7f990f4af8c68c",
+      "bytes": 6983,
+      "claim_scope": "Section 6 retained ramification and H0 checks only; its stale anomaly and residual-image coverage sentences not used",
+      "modified": false
+    },
+    {
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+      "sha256": "31317c0100baae0407404ebd1d3c1880e6fb40db4acead8958a82bb5e7ad26aa",
+      "bytes": 10171,
+      "claim_scope": "Retained rank-two and full odd image at the recorded computational proof grade",
+      "modified": false
+    },
+    {
+      "path": "/Users/bsm/BSD_TWIST_D7_CERTIFICATE_2026-09-22/RESULT.md",
+      "sha256": "a07bd08fa32609a60fcc6c6660b0fd353ce840f9f7184f5b17abdf1df9487c74",
+      "bytes": 5041,
+      "claim_scope": "Retained rank-zero twist context; not needed by the final plus-quotient argument",
+      "modified": false
+    }
+  ],
+  "upstream_replayed_this_turn": false,
+  "proof_grade": "written deduction with imported theorems and retained seed inputs; independent review pending; no Lean replay",
+  "new_prime_settled": false
+}

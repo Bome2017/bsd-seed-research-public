@@ -1,0 +1,71 @@
+{
+ "return": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06",
+ "uploaded_utc": "2026-10-07T03:45:10Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "NO_CANONICAL_GENERATOR (run a6077c4a, package revision 2; independently replicates run 2318738a, which returned ETNC_CIRCULAR under revision 1 and regrades to the same). New PROVED Theorem 1: Sel(Q,M_E)(n) = Sha(E/Q)[n] for odd n (identification, not a bound).",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/CLAUDE_CHECK.md",
+   "sha256": "0ae148118ad05621eed66167cf28b2fa00482b3a53786cf1b487c6d7678fac47",
+   "bytes": 6485
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/MANIFEST.sha256",
+   "sha256": "7f0ab9be6223a3132a775fa97ebf132cf766aaace74452fe1289f0e0774d277a",
+   "bytes": 838
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/README.md",
+   "sha256": "493a55b9340081f15018bc93533ff0cc0916e156ce49d67c8029aeced74ab611",
+   "bytes": 2549
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/run_2318738a_rev1/ARISTOTLE_SUMMARY.md",
+   "sha256": "f96798749558a488405915d6d59c5dcabed07234e4b0e03cb955535f74514551",
+   "bytes": 4219
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/run_2318738a_rev1/ONE_MOTIVE_RESULT.md",
+   "sha256": "6b2c751ac32ac96414d28bf9a89d8486d0784678583f3b74e5a8b1a43119d802",
+   "bytes": 20799
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/run_2318738a_rev1/RequestProject/OneMotive/Skeleton.lean",
+   "sha256": "df3f8f0b6ba367088e5c54c3d73797d9ffcd2684fe6155907a6210779ce17a3e",
+   "bytes": 13755
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/run_a6077c4a_rev2/ARISTOTLE_SUMMARY.md",
+   "sha256": "c68623e0811dc7ed61781c6ebeec19a1cea3edebb8bcf803d982d413038a2c19",
+   "bytes": 4750
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/run_a6077c4a_rev2/RequestProject/OneMotive/RESULT.md",
+   "sha256": "0591b4b04c66eda77a9a07fd39a04641b62b8ad03e0059dff39937965549591f",
+   "bytes": 17945
+  },
+  {
+   "path": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/run_a6077c4a_rev2/RequestProject/OneMotive/Skeleton.lean",
+   "sha256": "e53b47f8859d1d1990ff88b960898dc225226842a911997c3021b41f794657c8",
+   "bytes": 7341
+  },
+  {
+   "path": "archives/2318738a-17a5-4380-8152-96849f45a3ea-aristotle.tar.gz",
+   "sha256": "3f8b5d958afaef09627ba6eead429b08978c9f9806afaf51ff807a3ff3b9bef3",
+   "bytes": 155102
+  },
+  {
+   "path": "archives/a6077c4a-8876-4c56-afef-5687d98141a1-aristotle.tar.gz",
+   "sha256": "1374be99a607c0e414fd6b3074b095991c971ac603045a169d6d7528f2b4936b",
+   "bytes": 153223
+  }
+ ],
+ "inputs": {
+  "runs": "2318738a (revision 1, lab d07feae) and a6077c4a (revision 2, lab ab754d7)",
+  "excluded": "Aristotle README banners (archives kept unchanged)"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

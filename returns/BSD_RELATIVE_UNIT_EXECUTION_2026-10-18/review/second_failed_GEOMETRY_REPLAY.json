@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 0.13029693718999624,
+  "required_marker": false,
+  "scope": "Actual candidate-selection metric only; no LLL or candidate search performed.",
+  "repair": "Initial reviewer omitted producer realprecision setting; corrected to180 before constructing192-bit rounded metric. Initial failure preserved."
+}

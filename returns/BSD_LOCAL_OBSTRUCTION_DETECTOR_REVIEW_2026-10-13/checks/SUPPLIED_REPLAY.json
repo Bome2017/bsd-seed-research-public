@@ -1,0 +1,139 @@
+{
+  "FIN": "UNCHANGED",
+  "Fisher_model": {
+    "all_five_Pfaffians_match": true,
+    "all_five_syzygies": true,
+    "all_place_solubility": "retained Miller-Stoll application, not these two witnesses",
+    "fresh_local_Hensel_receipts": [
+      {
+        "Jacobian_minor_mod_p": 1,
+        "complementary_matrix_entry_mod_p": 4,
+        "equations_zero_based": [
+          0,
+          1,
+          2
+        ],
+        "p": 5,
+        "point": [
+          1,
+          0,
+          1,
+          2,
+          3
+        ],
+        "variables_zero_based": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "Jacobian_minor_mod_p": 7,
+        "complementary_matrix_entry_mod_p": 6,
+        "equations_zero_based": [
+          0,
+          1,
+          2
+        ],
+        "p": 11,
+        "point": [
+          1,
+          0,
+          6,
+          0,
+          6
+        ],
+        "variables_zero_based": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "geometric_singularity_Groebner_computation_replayed": false
+  },
+  "Hensel_root_mod_11_5": 143430,
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "all_exponent_relation_cases": 125,
+  "class_number_or_fundamental_unit_used_in_lower_bound": false,
+  "descent_polynomial_norm_identity": true,
+  "determinant_mod_5": 4,
+  "exact_fP2_fP1_relation": true,
+  "fifth_power_precision_countercontrol": "PASS",
+  "independent_obstruction_matrix_columns": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "local_place": "(11, x_K-1); sqrt(d)=1 mod 11",
+  "local_signatures": [
+    {
+      "class": "epsilon",
+      "signature_mod_5": [
+        0,
+        4
+      ],
+      "unit_residue_mod_11": 6,
+      "v_11": 0
+    },
+    {
+      "class": "alpha11",
+      "signature_mod_5": [
+        4,
+        0
+      ],
+      "unit_residue_mod_11": 1,
+      "v_11": 4
+    },
+    {
+      "class": "f(P1)",
+      "signature_mod_5": [
+        0,
+        0
+      ],
+      "unit_residue_mod_11": 1,
+      "v_11": 0
+    },
+    {
+      "class": "f(P2)",
+      "signature_mod_5": [
+        0,
+        0
+      ],
+      "unit_residue_mod_11": 1,
+      "v_11": 0
+    }
+  ],
+  "new_seed_prime_results": 0,
+  "residue_generator": 2,
+  "retained_not_recomputed": [
+    "rank upper bound two and 5-saturation of P1,P2",
+    "isogeny/Tamagawa/differential inputs for Miller-Stoll 11",
+    "all-place Selmer membership from that theorem",
+    "class/unit dimension count if claiming the detector is an isomorphism",
+    "global five-chart Groebner smoothness calculation"
+  ],
+  "seed_comparison": {
+    "auxiliary_place": 11,
+    "local_full_17_Kummer_group": "zero",
+    "new_seed_conclusion": null,
+    "number_of_points_mod_11": 14,
+    "p": 17
+  },
+  "splitting_field": {
+    "Chebyshev_identity": true,
+    "degree": 5,
+    "irreducible_mod_11": true,
+    "polynomial": "t^5-5*t^3+5*t-46846",
+    "projective_point_coordinates_computed": false,
+    "root_formula": "z=(t+224*sqrt(d)/(t^4-3*t^2+1))/2, z^5=epsilon"
+  },
+  "status": "PASS_EXACT_LOCAL_DETECTOR_UNDER_RETAINED_GLOBAL_INPUTS",
+  "uniformizer": 11
+}

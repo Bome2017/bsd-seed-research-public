@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED_EXACT_NECESSARY_INTEGRALITY_SCREEN",
+  "input_sha256": "653f7c6e21cdbb27fa784c551a9d9df15e2f5544d7db7aaedc5101293d7612a6",
+  "rational_candidates": 20180,
+  "rational_integral_trace_passes": 0,
+  "quadratic_candidates": 272,
+  "quadratic_integral_trace_passes": 0,
+  "elapsed_seconds": 0.8712484939999285,
+  "scope": "Finite families only. Passing trace integrality would NOT certify an ordinary unit; a failure rigorously rejects it.",
+  "new_unit_rank": 0,
+  "new_class_bound": null,
+  "FIN": "UNCHANGED_OPEN"
+}

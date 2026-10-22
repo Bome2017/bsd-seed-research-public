@@ -1,0 +1,58 @@
+{
+  "curve": [
+    0,
+    1,
+    1,
+    -36,
+    20
+  ],
+  "coefficient_prime": 5,
+  "auxiliary_prime": 2,
+  "cycle_E_F2": [
+    null,
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "points": [
+    {
+      "point": [
+        "-6",
+        "7"
+      ],
+      "12P": [
+        "795646148575472087453147055317139/210392765218290808189024279225",
+        "-22445937390327571640325611748794003161793951916812/96504197243514392573198112015259387226462125"
+      ],
+      "t_over_5_mod5": 1,
+      "dlog_mod2": 4
+    },
+    {
+      "point": [
+        "9",
+        "22"
+      ],
+      "12P": [
+        "35446568296258303386/5663217939475239025",
+        "-126756957353075579185497024184/13477052264091889901264336375"
+      ],
+      "t_over_5_mod5": 4,
+      "dlog_mod2": 3
+    }
+  ],
+  "determinant_mod5": 3,
+  "scope": "exact rational group law and formal parameter; log(12P)=t mod25 for the integral formal logarithm. Uses no padic-log engine, rank oracle or Sha input. Common multiplier12 is a5-unit."
+}

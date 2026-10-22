@@ -1,0 +1,22 @@
+{
+  "task": "Recover older Run013/Run014 and Desktop BSD coverage; reconcile exact results into existing master",
+  "phase": "COMPLETED",
+  "updated_at_utc": "2026-09-21T14:09:28.812587+00:00",
+  "originals_read_only": true,
+  "proof_replay": false,
+  "complete": true,
+  "findings": [
+    "Current verifier passes but does not discover Desktop research objects",
+    "Desktop INTELLECTUAL_OUTREACH/04_RESEARCH_OBJECTS contains H1-free and Gate-R completion freezes plus post-saturation Selmer bridges",
+    "Registry is a historical index, not mathematical authority"
+  ],
+  "report": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/historical_coverage_2026-09-21/COVERAGE_RECONCILIATION.md",
+  "source_review": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/historical_coverage_2026-09-21/SOURCE_REVIEW.json",
+  "roots": 111,
+  "discovered_records": 15412,
+  "inspected_source_records": 34,
+  "verification": "PASS_WITH_STATED_COVERAGE_LIMITS",
+  "coverage_complete": false,
+  "new_mathematical_result": false,
+  "successor_started": false
+}

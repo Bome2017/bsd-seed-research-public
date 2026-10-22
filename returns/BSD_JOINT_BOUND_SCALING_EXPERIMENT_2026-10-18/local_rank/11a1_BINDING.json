@@ -1,0 +1,18 @@
+{
+  "source": "/Users/bsm/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/small_conductor7/eval_data.json",
+  "sha256": "0cec49938de4ab03605a8ce172e3148e3b624d9eca58a6dea39f6150aefbe301",
+  "snapshot": "compact_units_11a1.json",
+  "snapshot_sha256": "f02debe05a6019a9ea5ab2112f8d77141b8a63de4a902d79e5a68e03ce7a2e1e",
+  "curve": [
+    0,
+    -1,
+    1,
+    -10,
+    -20
+  ],
+  "base_factors": 144,
+  "units": 26,
+  "point_count_mod7": 10,
+  "a7": -2,
+  "no_Sha_used": true
+}

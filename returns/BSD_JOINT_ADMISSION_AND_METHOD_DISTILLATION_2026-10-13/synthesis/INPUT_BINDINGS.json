@@ -1,0 +1,284 @@
+[
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/msl.txt",
+    "copy": "inputs/tame/l103/msl.txt",
+    "bytes": 25205,
+    "sha256": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/RUN_MANIFEST.json",
+    "copy": "inputs/tame/l103/RUN_MANIFEST.json",
+    "bytes": 984,
+    "sha256": "8a458b0e51a3ed72574b90610731cda3cc289cf837e28091badcbe5d1e174ed3"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/l103/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/l103/SINGLETON_REPORT.json",
+    "bytes": 750,
+    "sha256": "a1336d55dd0edffea4aed20dc5fce53e3861c0e982cb804c5b64d4e35ba0ec20"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/msl.txt",
+    "copy": "inputs/tame/p19_l191_v2/msl.txt",
+    "bytes": 46802,
+    "sha256": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p19_l191_v2/RUN_MANIFEST.json",
+    "bytes": 1105,
+    "sha256": "345e36e2322f33672ff9501b282c2cd29808bf8b6c749b96d9c914cd2c879928"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p19_l191_v2/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p19_l191_v2/SINGLETON_REPORT.json",
+    "bytes": 798,
+    "sha256": "04bccabc158041044dfeb21654836ba1d2d92038de82bd5951e656ac55b54570"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/msl.txt",
+    "copy": "inputs/tame/p23_l47/msl.txt",
+    "bytes": 11666,
+    "sha256": "97407c4f450facd5605d7f9df1f79dbc7c8175367156ddad87341dff986f62ec"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p23_l47/RUN_MANIFEST.json",
+    "bytes": 985,
+    "sha256": "33a69df8d71c36cddc8fdf938e2c86b4433af10d395de4afd9b373abe3dfadeb"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p23_l47/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p23_l47/SINGLETON_REPORT.json",
+    "bytes": 750,
+    "sha256": "e476ce52298a156437f7bde63b13cf919d414c03e2a3eeb5cf6b19d4b2edf6ac"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l59/msl.txt",
+    "copy": "inputs/tame/p29_l59/msl.txt",
+    "bytes": 14489,
+    "sha256": "ecd44fd658599f99e8069c413e575fbd7990f910925dae7bca4c259fffd4283e"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l59/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p29_l59/RUN_MANIFEST.json",
+    "bytes": 985,
+    "sha256": "180522f8aeb08f239a5cc453acddfde51370709bf41bbac9761815eff8d6b866"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l59/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p29_l59/SINGLETON_REPORT.json",
+    "bytes": 731,
+    "sha256": "38ac20039e8be24cad54869210ef7463e040c1e21d457c5028cd8a7ecc3c9da1"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/msl.txt",
+    "copy": "inputs/tame/p29_l233_v2/msl.txt",
+    "bytes": 57077,
+    "sha256": "f5d5c24f8027d2a45b60ecf0be0d90fa782e9623666b28d11ec53cb6780e7bcb"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p29_l233_v2/RUN_MANIFEST.json",
+    "bytes": 1105,
+    "sha256": "a7dc87bee3df9317e427d46eb84159a919c7d0959337b45454a295f653000487"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p29_l233_v2/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p29_l233_v2/SINGLETON_REPORT.json",
+    "bytes": 796,
+    "sha256": "952f1de554ddd70631d42e654e541fc9b455b982ea6c94ab5991d48cd7cc9a27"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/msl.txt",
+    "copy": "inputs/tame/p31_l311/msl.txt",
+    "bytes": 76302,
+    "sha256": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p31_l311/RUN_MANIFEST.json",
+    "bytes": 1104,
+    "sha256": "6cd9cb7b19a608779f695f2a9041054677a76e63cba36a6ecde08b83e8de2ed0"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p31_l311/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p31_l311/SINGLETON_REPORT.json",
+    "bytes": 796,
+    "sha256": "a9de6f52a6f861620fc480b03622333aa0b7df8c7868f53a03bc35246a1db8f6"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/msl.txt",
+    "copy": "inputs/tame/p37_l149/msl.txt",
+    "bytes": 36566,
+    "sha256": "07f2a5e8e5c5cd93300ca1126e1255629c053a7279ff1210859560ab96e6b015"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p37_l149/RUN_MANIFEST.json",
+    "bytes": 1102,
+    "sha256": "6d290ba854fdedf89345c8c3ddadce6dfb46f7c712075522a96299088c1e8676"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p37_l149/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p37_l149/SINGLETON_REPORT.json",
+    "bytes": 794,
+    "sha256": "6dfd6b2fb4a0175b2c53c95b8ac61a6bc7a14df39a5e7f666c0fd232d8ac021f"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/msl.txt",
+    "copy": "inputs/tame/p41_l83/msl.txt",
+    "bytes": 20365,
+    "sha256": "385557f41b6fab7f5fb09963d4334a6e3d045d8cdb7f66210a3ef81a5d2d90dd"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p41_l83/RUN_MANIFEST.json",
+    "bytes": 1099,
+    "sha256": "c8a118ce27b04b9bdb525ea4dca613d6f10c81752729895c33d104aad24e6bf5"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p41_l83/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p41_l83/SINGLETON_REPORT.json",
+    "bytes": 790,
+    "sha256": "f96ed8a632443895561f3ebc2d7dbc2b3fff7f532c3ca1fab909620e7be4a825"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/msl.txt",
+    "copy": "inputs/tame/p43_l173/msl.txt",
+    "bytes": 42413,
+    "sha256": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p43_l173/RUN_MANIFEST.json",
+    "bytes": 1102,
+    "sha256": "b7b1497774258ec3b9e10e97f8adc8a85de9de48db550da4b9e51c8e7aba2833"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p43_l173/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p43_l173/SINGLETON_REPORT.json",
+    "bytes": 797,
+    "sha256": "118c012cdafd9eae71d63a30b997d1744d5fac497f8e68ba726fa1f98719b3bb"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/msl.txt",
+    "copy": "inputs/tame/p47_l283/msl.txt",
+    "bytes": 69237,
+    "sha256": "5e9c034fd4be8c3147f72b3cdfb70c055a126f2c585fa84ce8b70aafb81297eb"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p47_l283/RUN_MANIFEST.json",
+    "bytes": 1102,
+    "sha256": "7b740e64ca8c7b0131f9544e968c79ac46d7d89e47c6f079f2617c01562e82e1"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/seed_runs/p47_l283/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p47_l283/SINGLETON_REPORT.json",
+    "bytes": 795,
+    "sha256": "caefc2d8dfd92c5333120b04e6657c5777343d9a4ab2e9351bcbfcf1c022e3f4"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_P83_CERTIFICATE_2026-10-13/production/p83_l167/msl.txt",
+    "copy": "inputs/tame/p83_l167/msl.txt",
+    "bytes": 40813,
+    "sha256": "b77ac22a524526d09080ad08c8a47e5a77a8ac2bc5687feb8fefcdbc97329342"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_P83_CERTIFICATE_2026-10-13/production/p83_l167/RUN_MANIFEST.json",
+    "copy": "inputs/tame/p83_l167/RUN_MANIFEST.json",
+    "bytes": 1131,
+    "sha256": "20ea1af313738770a56ce80f1552e4c31270f1ba8e66f91cebfed92ef05081ab"
+  },
+  {
+    "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_P83_CERTIFICATE_2026-10-13/production/p83_l167/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/p83_l167/SINGLETON_REPORT.json",
+    "bytes": 786,
+    "sha256": "267a62bf198fd4434ee0e227b9837acfd44fbef5b091a60e3a4d445733b3e6a7"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/launcher_runs/l29/msl.txt",
+    "copy": "inputs/tame/l29/msl.txt",
+    "bytes": 7491,
+    "sha256": "89a12f8eee953b399c36da1ea0397eae9d0404d1bcac2a6e862e7b73a479364b"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/launcher_runs/l29/RUN_MANIFEST.json",
+    "copy": "inputs/tame/l29/RUN_MANIFEST.json",
+    "bytes": 943,
+    "sha256": "dcfa8d763b5fed5d9478c61609e4fde849bdcd47666c282d164c3ca080ff22ed"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/launcher_runs/l29/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/l29/SINGLETON_REPORT.json",
+    "bytes": 741,
+    "sha256": "08a6e93d626770a6f3f4d5c189fc8f30c477915cc6823370526e7f240fd1ca3c"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/launcher_runs/l379/msl.txt",
+    "copy": "inputs/tame/l379/msl.txt",
+    "bytes": 97357,
+    "sha256": "785fdc4b648542c8d59560d983d2b8cba44d254316d02ded24af4843def407e5"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/launcher_runs/l379/RUN_MANIFEST.json",
+    "copy": "inputs/tame/l379/RUN_MANIFEST.json",
+    "bytes": 946,
+    "sha256": "681c359e2f0708f9d52c0ad990b09a5c2c81586e9d58bb94aee328ff338786c3"
+  },
+  {
+    "source": "/Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/launcher_runs/l379/SINGLETON_REPORT.json",
+    "copy": "inputs/tame/l379/SINGLETON_REPORT.json",
+    "bytes": 731,
+    "sha256": "137cf59642b7375af803c731bf19fa3e93003dc6cec384e62f46a77398ccb973"
+  },
+  {
+    "source": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m25.txt",
+    "copy": "inputs/ordinary/p5_top.txt",
+    "bytes": 293,
+    "sha256": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e"
+  },
+  {
+    "source": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m5.txt",
+    "copy": "inputs/ordinary/p5_lower.txt",
+    "bytes": 135,
+    "sha256": "fb7b98d89b1885bacbb1d9d306c6c17fcefeafbb094baf1fcb5258756e6edf9c"
+  },
+  {
+    "source": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/SYMBOLS_m49.txt",
+    "copy": "inputs/ordinary/p7_top.txt",
+    "bytes": 520,
+    "sha256": "ab892f517414a8bc8ab96eb05845ef185de4ede6604b71c135c67005668cd778"
+  },
+  {
+    "source": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p7/run/SYMBOLS_m7.txt",
+    "copy": "inputs/ordinary/p7_lower.txt",
+    "bytes": 157,
+    "sha256": "aa9451247e7a3e49a63d7b79f0f50c4fb3dbe6bd22de9635cca2819cb5516a6c"
+  },
+  {
+    "source": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/SYMBOLS_m121.txt",
+    "copy": "inputs/ordinary/p11_top.txt",
+    "bytes": 1305,
+    "sha256": "97403b1840b46c67d7a72ec5f5824bb52a1541b6278f78caee9b5dce447ca95c"
+  },
+  {
+    "source": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/_work/active_full_bsd/p11/run/SYMBOLS_m11.txt",
+    "copy": "inputs/ordinary/p11_lower.txt",
+    "bytes": 188,
+    "sha256": "6426cb1eea0fb81a1be8d0158fd14bd6439dbdf847a8bf3d4d22e6a0f8cf8b23"
+  },
+  {
+    "source": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/SYMBOLS_m169.txt",
+    "copy": "inputs/ordinary/p13_top.txt",
+    "bytes": 1770,
+    "sha256": "f6d25a550cd91efc3975b334b2b78c833f5ea6264b7a4e8b27a6f2a7011a052c"
+  },
+  {
+    "source": "/Users/bsm/BSD_SEED_P13_RUN_2026-09-21/run/SYMBOLS_m13.txt",
+    "copy": "inputs/ordinary/p13_lower.txt",
+    "bytes": 215,
+    "sha256": "1b7758c66ac5df0f7a1e48aa29b67837d6d8c8410325d6ca68558c94c8e67691"
+  }
+]

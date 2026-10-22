@@ -1,0 +1,78 @@
+MERGE checkpoints 2 units 1445 selected 50 missing 0 terms 55679322  SELECTION L50-69,S200-229
+FINGERPRINT sum_units 44199c0d20310fec array 44199c0d20310fec match 1
+COUNT_SELECTION pairs 70944208 recount 70944208 match 1  smooth 44999621 (S-block smooth counts are covered only by the full-run identity)
+SEGHASH 50 03d2364ae654c70592b474df093518530e986bbe0ef2992e7524dcccc3082df8
+SEGHASH 51 4a3771bfdb4051d0e1f6e8146f6baf06b25f5b898a0c50f9aceb7442b153953a
+SEGHASH 52 1902d0be26bb4a3660f97a7b3272f9c53ae4c3e5954f503e35f9da4cf6aad049
+SEGHASH 53 61104ee08620cafec3d81ef423161496ce33fd750e9e703987dc9fb1c0923275
+SEGHASH 54 9dfd775704118ce4d843684fc602d7f61adc52e4265bbe36f0c8063a50fc6bd8
+SEGHASH 55 b03c24652eb0c305c33920a5c4c28d6f078a22faf4afdd241222a058d5c1fe3a
+SEGHASH 56 60a6c82e810a8b291003c356920becdc049361262b7807a61621c2ae1c44e251
+SEGHASH 57 e26704953f48b4bf1a477019ce4408875ce2be6b2de86a090b754121d6bf6b4d
+SEGHASH 58 6df66b0066f469ec161f0c252a38f992f9d53606ceb8a1475d23b052bfc93cfd
+SEGHASH 59 d7afdf0ee892827105e4cf67bf365f8a7f99a6669a7fea98adbc434af0e82bb5
+SEGHASH 60 6151809ace5b1f3dc749e2cebeb6a43c9b6113375ab8aed67e8efebae2048902
+SEGHASH 61 7b9b8c1ead83c790c6ef34b50be0a861f1938f856cc15d1bb24940cd5a09b5fb
+SEGHASH 62 ce88e691400a57033d78b7233117cf76e738967a5c290990c483c96e805b5098
+SEGHASH 63 f3ab9908260e4246500076c0c4dc084b8df2defbdbe753d45c7a7131b2f01b68
+SEGHASH 64 e44c2fca2944a0dc974650ec1561c338cb26960e0269350ef4d803398f69cbcc
+SEGHASH 65 a67e6db90c4639e8f5f81eb8b68368e29ba5a8a1214c3a6c5ba7aacebe8e17d7
+SEGHASH 66 7bdc78cdbab96b9fd24553ba5bce009a82117e7d4be3af36f9557390636226b6
+SEGHASH 67 7ac436536e25ef65f2ffa3beeb0cbf5f63a8261192d3ab4c946ed02119e8e26d
+SEGHASH 68 1ddedabac80405acbc0f1bb3e936d7ea15d4b0db769abe91b60ee6c8a87b024f
+SEGHASH 69 cc0c746a891a6f1330bc3dba2f162eb237eff02c22d93c68c8112dfb3a733ab5
+AP_SEGROOT_SHA256 b1e5595d9bd91087a5d344172340e692e8ace6949b9ecffca66386e6239d5f7e segments 20
+CHUNK_DIGEST b63083a28cc1ecfc414f58e16dad206c82cd41545ac93647eb27fb2c009a8a74
+ROUNDING_ERR_TOTAL [1.405543691e-21 +/- 3.61e-31]
+TAIL_MS_UPPER_TIMES2 1.358052210e-5
+S 0 [4.91427786602419e-6 +/- 3.61e-21]
+S 1 [-0.00067751700287743818 +/- 4.71e-21]
+S 2 [0.00036537082336630546 +/- 4.23e-21]
+S 3 [7.63615468408251e-6 +/- 3.29e-21]
+S 4 [0.00021708921391352443 +/- 4.96e-21]
+S 5 [-0.00030366008942945432 +/- 3.39e-21]
+S 6 [-0.00016296888130688832 +/- 5.52e-21]
+S 7 [0.00043257103362512323 +/- 2.77e-21]
+S 8 [-5.109197419674678e-5 +/- 3.12e-21]
+S 9 [-0.00018512879760095824 +/- 3.07e-21]
+S 10 [0.00021572906144920435 +/- 6.38e-21]
+S 11 [3.746091474775660e-5 +/- 5.57e-21]
+S 12 [1.957614813653742e-5 +/- 4.18e-21]
+S 13 [-0.00013505286557531080 +/- 3.83e-21]
+S 14 [6.031657958708792e-5 +/- 4.92e-21]
+S 15 [-8.169906705278631e-5 +/- 2.10e-21]
+S 16 [-0.00013670242991389553 +/- 1.43e-21]
+S 17 [-0.00041060675894922087 +/- 1.96e-21]
+S 18 [-0.00019710110206142184 +/- 6.40e-21]
+S 19 [0.00033658001295293007 +/- 6.02e-21]
+S 20 [-5.210592962192554e-5 +/- 6.33e-21]
+S 21 [-0.00011329372459814800 +/- 1.94e-21]
+S 22 [4.177796213801550e-5 +/- 5.22e-21]
+S 23 [0.00015640581260578405 +/- 5.02e-21]
+S 24 [8.61937137094964e-6 +/- 5.04e-21]
+S 25 [-2.278224085711532e-5 +/- 4.82e-21]
+S 26 [-0.00015407396430631628 +/- 2.60e-21]
+PARTIAL_SELECTION: the symbols below come from a unit subset -- plumbing/timing output only, NOT symbol values
+OMEGA_PLUS [0.0280449015194364044483094018079 +/- 3.04e-32]
+OMEGA_MINUS [0.0305556264963434249561173450733 +/- 1.88e-32]
+SYMBOL_RADIUS_BUDGET plus: tail 2tail/Omega+ 0.000484242 + rounding 2E/Omega+ 1.00235e-19 (+ transform rounding, printed per symbol) vs threshold 1/(2 LATDEN) 0.000488281
+XB 1 plus [-0.008 +/- 7.97e-4] cand -9/1024 contains 1 unique 1 minus [0.014 +/- 8.06e-4] cand 14/1024 contains 1 unique 1
+XB 2 plus [-0.055 +/- 5.54e-4] cand -56/1024 contains 1 unique 1 minus [-0.052 +/- 5.06e-4] cand -53/1024 contains 1 unique 1
+XB 4 plus [-0.008 +/- 7.97e-4] cand -9/1024 contains 1 unique 1 minus [0.014 +/- 8.06e-4] cand 14/1024 contains 1 unique 1
+XB 5 plus [-0.045 +/- 6.00e-4] cand -46/1024 contains 1 unique 1 minus [0.027 +/- 8.81e-4] cand 27/1024 contains 1 unique 1
+XB 7 plus [0.071 +/- 9.70e-4] cand 73/1024 contains 1 unique 1 minus [-0.017 +/- 6.48e-4] cand -17/1024 contains 1 unique 1
+XB 8 plus [0.072 +/- 8.70e-4] cand 74/1024 contains 1 unique 1 minus [-0.007 +/- 6.38e-4] cand -7/1024 contains 1 unique 1
+XB 10 plus [-0.045 +/- 6.00e-4] cand -46/1024 contains 1 unique 1 minus [-0.027 +/- 8.81e-4] cand -27/1024 contains 1 unique 1
+XB 11 plus [0.071 +/- 9.70e-4] cand 73/1024 contains 1 unique 1 minus [0.017 +/- 6.48e-4] cand 17/1024 contains 1 unique 1
+XB 13 plus [0.072 +/- 8.70e-4] cand 74/1024 contains 1 unique 1 minus [0.007 +/- 6.38e-4] cand 7/1024 contains 1 unique 1
+XB 14 plus [0.072 +/- 8.70e-4] cand 74/1024 contains 1 unique 1 minus [-0.007 +/- 6.38e-4] cand -7/1024 contains 1 unique 1
+XB 16 plus [0.071 +/- 9.70e-4] cand 73/1024 contains 1 unique 1 minus [-0.017 +/- 6.48e-4] cand -17/1024 contains 1 unique 1
+XB 17 plus [-0.045 +/- 6.00e-4] cand -46/1024 contains 1 unique 1 minus [0.027 +/- 8.81e-4] cand 27/1024 contains 1 unique 1
+XB 19 plus [0.072 +/- 8.70e-4] cand 74/1024 contains 1 unique 1 minus [0.007 +/- 6.38e-4] cand 7/1024 contains 1 unique 1
+XB 20 plus [0.071 +/- 9.70e-4] cand 73/1024 contains 1 unique 1 minus [0.017 +/- 6.48e-4] cand 17/1024 contains 1 unique 1
+XB 22 plus [-0.045 +/- 6.00e-4] cand -46/1024 contains 1 unique 1 minus [-0.027 +/- 8.81e-4] cand -27/1024 contains 1 unique 1
+XB 23 plus [-0.008 +/- 7.97e-4] cand -9/1024 contains 1 unique 1 minus [-0.014 +/- 8.06e-4] cand -14/1024 contains 1 unique 1
+XB 25 plus [-0.055 +/- 5.54e-4] cand -56/1024 contains 1 unique 1 minus [0.052 +/- 5.06e-4] cand 53/1024 contains 1 unique 1
+XB 26 plus [-0.008 +/- 7.97e-4] cand -9/1024 contains 1 unique 1 minus [-0.014 +/- 8.06e-4] cand -14/1024 contains 1 unique 1
+SYMBOL_PASS seconds 0.00 path direct
+XB_PLUS_DETERMINED 18 of 18 (lattice 1/1024 Z)   minus determined 18   max plus radius 4.842421e-04 (unique iff < 4.882812e-04)

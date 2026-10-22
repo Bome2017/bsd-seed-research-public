@@ -1,0 +1,1141 @@
+{
+  "status": "FAITHFUL_RELATIVE_CLASS_REMAINDER_NOT_BOUNDED_BY_PROPER_SCALAR_SUBFIELDS",
+  "cases": 80,
+  "prime_power_levels": 5,
+  "ranks_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "proper_subfield_norms_zero_in_characteristic_zero": true,
+  "arbitrary_rank_statement": "proved algebraically; finite cases are implementation controls",
+  "arithmetic_realization_claimed": false,
+  "seed_class_bound_obtained": false,
+  "rows": [
+    {
+      "exponent": 1,
+      "rank": 1,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 1,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 1,
+      "rank": 2,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 2,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 1,
+      "rank": 3,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 3,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 1,
+      "rank": 4,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 4,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 1,
+      "rank": 5,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 5,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 1,
+      "rank": 6,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 6,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 1,
+      "rank": 7,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 7,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 1,
+      "rank": 8,
+      "scalar_eigenvalue": 2,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 8,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 1,
+      "rank": 1,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 1,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 1,
+      "rank": 2,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 2,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 1,
+      "rank": 3,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 3,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 1,
+      "rank": 4,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 4,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 1,
+      "rank": 5,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 5,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 1,
+      "rank": 6,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 6,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 1,
+      "rank": 7,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 7,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 1,
+      "rank": 8,
+      "scalar_eigenvalue": 3,
+      "modulus": 5,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 8,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 2,
+      "rank": 1,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 2,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 2,
+      "rank": 2,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 4,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 2,
+      "rank": 3,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 6,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 2,
+      "rank": 4,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 8,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 2,
+      "rank": 5,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 10,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 2,
+      "rank": 6,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 12,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 2,
+      "rank": 7,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 14,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 2,
+      "rank": 8,
+      "scalar_eigenvalue": 7,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 16,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 2,
+      "rank": 1,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 2,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 2,
+      "rank": 2,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 4,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 2,
+      "rank": 3,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 6,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 2,
+      "rank": 4,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 8,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 2,
+      "rank": 5,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 10,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 2,
+      "rank": 6,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 12,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 2,
+      "rank": 7,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 14,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 2,
+      "rank": 8,
+      "scalar_eigenvalue": 18,
+      "modulus": 25,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 16,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 3,
+      "rank": 1,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 3,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 3,
+      "rank": 2,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 6,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 3,
+      "rank": 3,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 9,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 3,
+      "rank": 4,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 12,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 3,
+      "rank": 5,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 15,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 3,
+      "rank": 6,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 18,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 3,
+      "rank": 7,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 21,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 3,
+      "rank": 8,
+      "scalar_eigenvalue": 57,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 24,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 3,
+      "rank": 1,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 3,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 3,
+      "rank": 2,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 6,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 3,
+      "rank": 3,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 9,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 3,
+      "rank": 4,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 12,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 3,
+      "rank": 5,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 15,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 3,
+      "rank": 6,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 18,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 3,
+      "rank": 7,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 21,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 3,
+      "rank": 8,
+      "scalar_eigenvalue": 68,
+      "modulus": 125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 24,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 4,
+      "rank": 1,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 4,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 4,
+      "rank": 2,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 8,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 4,
+      "rank": 3,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 12,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 4,
+      "rank": 4,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 16,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 4,
+      "rank": 5,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 20,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 4,
+      "rank": 6,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 24,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 4,
+      "rank": 7,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 28,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 4,
+      "rank": 8,
+      "scalar_eigenvalue": 182,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 32,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 4,
+      "rank": 1,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 4,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 4,
+      "rank": 2,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 8,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 4,
+      "rank": 3,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 12,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 4,
+      "rank": 4,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 16,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 4,
+      "rank": 5,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 20,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 4,
+      "rank": 6,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 24,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 4,
+      "rank": 7,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 28,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 4,
+      "rank": 8,
+      "scalar_eigenvalue": 443,
+      "modulus": 625,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 32,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 5,
+      "rank": 1,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 5,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 5,
+      "rank": 2,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 10,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 5,
+      "rank": 3,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 15,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 5,
+      "rank": 4,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 20,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 5,
+      "rank": 5,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 25,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 5,
+      "rank": 6,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 30,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 5,
+      "rank": 7,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 35,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 5,
+      "rank": 8,
+      "scalar_eigenvalue": 2057,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 40,
+      "relative_five_rank": 8
+    },
+    {
+      "exponent": 5,
+      "rank": 1,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 5,
+      "relative_five_rank": 1
+    },
+    {
+      "exponent": 5,
+      "rank": 2,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 10,
+      "relative_five_rank": 2
+    },
+    {
+      "exponent": 5,
+      "rank": 3,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 15,
+      "relative_five_rank": 3
+    },
+    {
+      "exponent": 5,
+      "rank": 4,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 20,
+      "relative_five_rank": 4
+    },
+    {
+      "exponent": 5,
+      "rank": 5,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 25,
+      "relative_five_rank": 5
+    },
+    {
+      "exponent": 5,
+      "rank": 6,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 30,
+      "relative_five_rank": 6
+    },
+    {
+      "exponent": 5,
+      "rank": 7,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 35,
+      "relative_five_rank": 7
+    },
+    {
+      "exponent": 5,
+      "rank": 8,
+      "scalar_eigenvalue": 1068,
+      "modulus": 3125,
+      "fixed_by_C4_dimension": 0,
+      "fixed_by_C2_dimension": 0,
+      "proper_subfield_norms": [
+        0,
+        0
+      ],
+      "relative_five_length": 40,
+      "relative_five_rank": 8
+    }
+  ]
+}

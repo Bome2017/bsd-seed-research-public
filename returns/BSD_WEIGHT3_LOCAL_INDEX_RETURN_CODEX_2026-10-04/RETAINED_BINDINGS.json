@@ -1,0 +1,37 @@
+[
+  {
+    "original": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/VERIFIED_DERIVATION.md",
+    "copy": "context/KATO_INDEX_DERIVATION.md",
+    "sha256": "f09c02926f617d2101fa2173c5e04ab9b65fffad2537da3bb9db7d6f4cf46523"
+  },
+  {
+    "original": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/REPORT.md",
+    "copy": "context/KATO_INDEX_REPORT.md",
+    "sha256": "86fe2c885829f194684f9db50fa510a040b3a960b1c2e5dd3fc1e864e946b973"
+  },
+  {
+    "original": "/Users/bsm/BSD_WEIGHT3_GLOBAL_CONTROL_CHECK_CODEX_2026-10-01/VERIFIED_DERIVATION.md",
+    "copy": "context/GLOBAL_CONTROL_DERIVATION.md",
+    "sha256": "816b1b8336a0f02fedd1ea7cdf82a0631e48fb01cd7390ecd6f4980ab61a2d08"
+  },
+  {
+    "original": "/Users/bsm/BSD_WEIGHT3_GLOBAL_CONTROL_CHECK_CODEX_2026-10-01/sources/retained/VERIFIED_CALCULATIONS.md",
+    "copy": "context/LOCAL_PREDECESSOR.md",
+    "sha256": "1f38d8985d4f544762a105d3efbca9c59ef94c4f8a85f3bfb21c0b8bb93fd822"
+  },
+  {
+    "original": "/Users/bsm/BSD_WEIGHT3_PAIRING_DECISION_CHECK_CODEX_2026-10-01/REPORT.md",
+    "copy": "context/PAIRING_REVIEW.md",
+    "sha256": "e0017c87d11a5a82086f0ea13f00676020a4a72f0dfe5134306098e92e7f13f6"
+  },
+  {
+    "original": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/inputs/inputs/UPPER_BOUND_ATTEMPTS.md",
+    "copy": "context/EARLIER_UPPER_BOUND_ATTEMPTS.md",
+    "sha256": "32a7b14c25fbd9f97129f04c7d2c39b2a6958d4565e21b555498247b703252d2"
+  },
+  {
+    "original": "/Users/bsm/BSD_WEIGHT3_KATO_INDEX_CHECK_CODEX_2026-10-01/inputs/inputs/prior_WEIGHT_THREE_ATTEMPT.md",
+    "copy": "context/EARLIER_WEIGHT3_ATTEMPT.md",
+    "sha256": "58c896a91ad40d5cd381ba284d4796f134873584caf8ed815675d10617499ec1"
+  }
+]

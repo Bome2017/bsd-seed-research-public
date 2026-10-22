@@ -1,0 +1,12 @@
+E=ellinit([1,1,1,1878418,-485198548]);
+print("MODEL=",[E.a1,E.a2,E.a3,E.a4,E.a6]);
+print("LOCAL3=",elllocalred(E,3));
+print("DISCRIMINANT_VAL3=",valuation(E.disc,3));
+print("A5_A13=",[ellap(E,5),ellap(E,13)]);
+print("LOCAL167=",elllocalred(E,167));
+print("BAD_COEFFICIENTS=",vector(4,i,ellap(E,[3,7,11,167][i])));
+print("A167=",ellap(E,167));
+print("DISCRIMINANT_VAL167=",valuation(E.disc,167));
+print("ISOGENY_CLASS=",ellisomat(E,0,1));
+print("DONE");
+quit;

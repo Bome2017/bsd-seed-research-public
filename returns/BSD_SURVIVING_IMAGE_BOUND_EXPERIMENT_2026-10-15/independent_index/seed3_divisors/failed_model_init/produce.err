@@ -1,0 +1,6 @@
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  ***   at top-level: read("produce.gp")
+  ***                 ^------------------
+  ***   in function read: SA=-E.c4/48;SB=-E.c6/864;XT=T[1]+E.b2/12;YT=T[
+  ***                           ^----------------------------------------
+  *** _.c4: incorrect type in c4 (t_VEC).

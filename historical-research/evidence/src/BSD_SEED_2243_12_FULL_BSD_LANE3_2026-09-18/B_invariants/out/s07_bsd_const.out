@@ -1,0 +1,46 @@
+=== E ===  prod c_p = 16  #tors = 2
+C := Omega*Reg*prod c_p/#tors^2 = 3.9928126392393669180685520022091539473553366203072  (radius 9.660e-66)
+PARI ellbsd(E)*Reg (non-rigorous cross-check): [3.9928126392393669180685520022091539473553366203072019938205874948 +/- 3.11e-65]
+
+=== E' = E/<T> (Velu model) === (0, -22735, 0, -425089936, 9664419694960)
+iso Velu -> standard [0,10A,0,9mA,0]: Elliptic-curve morphism:
+  From: Elliptic Curve defined by y^2 = x^3 - 22735*x^2 - 425089936*x + 9664419694960 over Rational Field
+  To:   Elliptic Curve defined by y^2 = x^3 + 45470*x^2 + 91790289*x over Rational Field
+  Via:  (u,r,s,t) = (1, 22735, 0, 0)
+minimal model E'_min = (0, -1, 0, -597383344, 5572681004764)   via Elliptic-curve morphism:
+  From: Elliptic Curve defined by y^2 = x^3 + 45470*x^2 + 91790289*x over Rational Field
+  To:   Elliptic Curve defined by y^2 = x^3 - x^2 - 597383344*x + 5572681004764 over Rational Field
+  Via:  (u,r,s,t) = (1, -15157, 0, 0)   global minimal of standard form: True
+Delta' = 229220930730474357815337984 = 2^10 * 3^4 * 2243^2 * 4547^3 * 5843  sign: 1  real comps: 2
+conductor' = 2^3 * 3 * 2243 * 4547^2 * 5843  same as E: True
+  p=2 kodaira=III* c_p=2 (pari: III*, 2) split=False nonsplit=False
+  p=3 kodaira=I4 c_p=2 (pari: I4, 2) split=False nonsplit=True
+  p=2243 kodaira=I2 c_p=2 (pari: I2, 2) split=True nonsplit=False
+  p=4547 kodaira=III c_p=2 (pari: III, 2) split=False nonsplit=False
+  p=5843 kodaira=I1 c_p=1 (pari: I1, 1) split=False nonsplit=True
+prod c_p(E') = 16
+E'(Q)_tors: (2,)  lutz_nagell: (2,)
+gcd #E'(F_p), good p in [5,80]: 2
+psi(P1) = (5184 : -1355400 : 1)  psi(P2) = (3822025/1296 : -38806079435/46656 : 1)  psi(T) = (0 : 1 : 0)
+R' = (-2243 : -107664 : 1) on curve: True
+alpha'(T') = 10198921  alpha'(R') = -2243  alpha'(T'+R') = -4547  alpha'(psi P1) = 1  alpha'(psi P2) = 1
+homomorphism check alpha'(T')*alpha'(R') == alpha'(T'+R') mod squares: True
+images of T', R' independent in Q*/Q*^2 (none of alpha(T'), alpha(R'), alpha(T'+R') is 1): True
+2R' = psi(a P1 + b P2 + e T) + d T' with (a,b,e,d) in [(-2, -1, 0, 0), (-2, -1, 1, 0)]
+Gram(R', psiP1, psiP2) on E'_min (200 bits):
+ [ 4.2641810048688391837015703530681317393362905145508174519945 -4.3555172210631356545818974501530256448202068598199084250502 0.18267243238859294176065419416978781096783269053818194611138]
+[-4.3555172210631356545818974501530256448202068598199084250502  8.6222999665087593775202004151696599426870127907198446905260 -8.5335654908912474458766059300332685957336118617998725309516]
+[0.18267243238859294176065419416978781096783269053818194611138 -8.5335654908912474458766059300332685957336118617998725309516  16.701786117005309008231903471726961569531558342523381169680] 
+ det = -7.5174024556562591822300293769663900826330246198151698967861e-58
+chosen basis of E'(Q)/tors: ((-2243 : -107664 : 1), (5184 : -1355400 : 1)) (since 2R' = psi(-2 P1 + -1 P2 + ...) and the coefficient of the omitted point is odd)
+Omega' (rigorous, E'_min, Delta'>0 => 2*omega_1') = 0.056089803038872808896618803615860768342270095733270  (radius 0.000e+00)
+Reg' (rigorous) = 17.796517472490340299174941219436038416304972463778  (radius 5.043e-65)
+  hhat'(R') = 4.264181004868839183701570353068131739336  (radius 1.943e-66)  hhat'(basis2) = 8.622299966508759377520200415169659942687  (radius 1.943e-66)  pairing = -4.355517221063135654581897450153025644820  (radius 2.915e-66)
+check hhat'(psi P1) = 2 hhat(P1): 8.622299966508759377520200415169659942687  (radius 1.943e-66)  vs  8.622299966508759377520200415169659942687  (radius 3.382e-66)
+eclib E'.gens(proof=True) = [(12914 : -107664 : 1), (20341 : -1355400 : 1)]  certain: True  regulator: 17.796517472490340299174941219436038416304972463778188532266
+eclib saturation of chosen basis: ([(12914 : -107664 : 1), (20341 : -1355400 : 1)], 1, 17.7965174724903)
+Sage/eclib saturation of [psiP1, psiP2] (index should be 2): (2, 17.7965174724903)
+
+C' := Omega'*Reg'*prod c_p'/#tors'^2 = 3.9928126392393669180685520022091539473553366203072  (radius 1.132e-65)   (#tors' = 2 )
+C'/C = 1.0000000000000000000000000000000000000000000000000  (radius 5.253e-66)
+Omega'*prod c'/(Omega*prod c) = 1.000000000000000000000000000000000000000  (radius 0.000e+00)    Reg'/Reg = 1.000000000000000000000000000000000000000  (radius 5.253e-66)

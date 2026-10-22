@@ -1,0 +1,27 @@
+{
+  "status": "GLOBAL_CONTROL_KUMMER_IDENTITIES_AUDITED_AND_REPLAYED",
+  "completed": [
+    "Kummer functoriality on actual degree-corrected Shimura divisors",
+    "exact separation of CM source index and component-map index",
+    "Tate singular localization formula and finite-field toric realization",
+    "global reciprocity diagnostic preventing false same-point bridge",
+    "executed both nodal toric mu5 models with50 group-law and8 Frobenius controls",
+    "recorded actual zero singular localization of returned global rational points",
+    "independent desk proof of affine Galois-set rigidity for25-point fibers",
+    "direct exact replay of both global Kummer torsor maps",
+    "all25 distinct translations verified at3061 andheld-out4261 forbothpartners",
+    "K=-19 control CM direction determined at167, coefficient remains unknown"
+  ],
+  "not_completed": [
+    "Shimura parametrization pi",
+    "its CM trace image and component map",
+    "source-matched comparison value",
+    "new upper bound"
+  ],
+  "no_Sha_vanishing_assumed": true,
+  "controls": "TORIC_MU5.json",
+  "global_identities": [
+    "kappa(Y113)=f113_*kappa(-P1)",
+    "kappa(Y167)=f167_*kappa(2P1+P2)"
+  ]
+}

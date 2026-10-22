@@ -1,0 +1,34 @@
+{
+  "copied_bindings_verified": 7,
+  "external_sources_hashed": 3,
+  "preceding_manifests": [
+    {
+      "return_name": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+      "manifest_entries": 22,
+      "status": "PASS"
+    },
+    {
+      "return_name": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+      "manifest_entries": 14,
+      "status": "PASS"
+    },
+    {
+      "return_name": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+      "manifest_entries": 19,
+      "status": "PASS"
+    }
+  ],
+  "controls": [
+    {
+      "script": "seed_local_data.py",
+      "output": "SEED_LOCAL_DATA.json",
+      "status": "BYTE_IDENTICAL_PASS"
+    },
+    {
+      "script": "group_controls.py",
+      "output": "GROUP_CONTROLS.json",
+      "status": "BYTE_IDENTICAL_PASS"
+    }
+  ],
+  "scope": "Custody and formula replay only; not proof certification."
+}

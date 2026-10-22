@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "q": 1831,
+  "candidate_zero_based": 8,
+  "candidate_one_based": 9,
+  "point_basis_original_coordinates": [
+    [
+      4,
+      1822
+    ],
+    [
+      1201,
+      1741
+    ]
+  ],
+  "coset_indices": [
+    0,
+    22,
+    13,
+    15,
+    9
+  ],
+  "coset_points": [
+    [
+      4,
+      1822
+    ],
+    [
+      1819,
+      888
+    ],
+    [
+      1809,
+      1740
+    ],
+    [
+      1548,
+      725
+    ],
+    [
+      1487,
+      1739
+    ]
+  ],
+  "projector_coefficients": [
+    4,
+    2,
+    1,
+    3
+  ],
+  "projected_values_on_coset": [
+    250,
+    88,
+    215,
+    1268,
+    223
+  ],
+  "norm_product_mod_q": 693,
+  "fifth_power_residue": 123,
+  "conclusion": "incidence norm of this projected candidate is not a fifth power, conditional only on its authenticated global unit identity and field source",
+  "input_sha256": "81e66afd44c4c5b7b08e01faeec53c0f1c4973f3a4e12582709b2dade674ef97",
+  "not_inputs": [
+    "NORM_UPPER.json",
+    "known Sha",
+    "computed class group",
+    "fundamental-unit completeness"
+  ]
+}

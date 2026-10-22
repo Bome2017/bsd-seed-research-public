@@ -1,0 +1,302 @@
+{
+ "purpose": "Declared evidence additions for the route-K follow-on commit: the route-K derivation (D1-D8, checks), its errata, the cross-model reading and both second readers, the rho_3 and Kobayashi source notes, and the cross-model check of the v0.2.5 bank. Any other evidence change is rejected by tools/build_evidence_transition.py.",
+ "base": "706efb554c0d4b1500f01f68bc769cc471293eb9",
+ "additions": [
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/CHECK.md",
+   "sha256": "d45e78f337cae54fbbeaf0a1c50f5dbc15c23b4c57fe2cd99c69c1a00ea56716",
+   "bytes": 10372,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/MANIFEST.sha256",
+   "sha256": "b8aeaa5137a8a7f617f1e4454705b23b5b3488c7c7c801d1397c56e0c914ebe6",
+   "bytes": 804,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/coleman_family_replay.log",
+   "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+   "bytes": 886,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.log",
+   "sha256": "e2720412f9946bf63b11da7bec8621a04a19630bd735e499dd14fe57cb14e52d",
+   "bytes": 2283,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_CHECK_FABLE_2026-09-29/checks/rank1_check.sage",
+   "sha256": "900e303cc1cfeb41a6d0d83d78f3af1cc3b5be841965d497a3d03f2cab4be655",
+   "bytes": 1727,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D1_CONSTRUCTION.md",
+   "sha256": "6d68565f64f7d0cbfe8384ef6f9f6e69282719f04de2e4936179979116c3d89d",
+   "bytes": 3665,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D2_INTEGRALITY.md",
+   "sha256": "dc3ed32cb70be05075a9d00d751b9bcb71ccd4cfe9ee7dd8fdff6c130ca7acc6",
+   "bytes": 3131,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D3_KILL_TESTS_A_B.md",
+   "sha256": "0c63d2912859c292e099718aea0603d200b5b578726dc0ed5361d97cea536efc",
+   "bytes": 3886,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D4_KILL_TEST_C.md",
+   "sha256": "19321c0ad7b85f9bab6df0ef66c3767721d60744639e9c259cd2f32e020ad97c",
+   "bytes": 2972,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D5_MS_R24.md",
+   "sha256": "6973a216957ac185878512832b243293760a1d32fe03f8d774a3402e9d20b3e2",
+   "bytes": 4652,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D6_O2_POITOU_TATE.md",
+   "sha256": "bf9a66004ab22169a86909ecb5297b5238cea9dd4417ea15b51339e5143e4034",
+   "bytes": 4217,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D7_O4_NORMALISATION.md",
+   "sha256": "49bb38cdcb38c36c8fafa1f2d756dcbe55de900818a3cfaac359ac6f2f438641",
+   "bytes": 3683,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/D8_ASSEMBLY.md",
+   "sha256": "68d24fb3c70da8e45661f05ef1e07cdfb7aef5ddf9316f1bb2edf40dcc75f4f9",
+   "bytes": 2834,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "sha256": "ea8d8e6c76c1160bef7e56acd8dccd083a0a4a751ffa36b4a0f08102cf63f783",
+   "bytes": 2029,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/RETURN.md",
+   "sha256": "27ec91eb4dfdd8eaa3ea4f36f576e974e40fd6663098a8fa2677052e7d4ff927",
+   "bytes": 5284,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/cands.txt",
+   "sha256": "2958f1503301d477c535b94a6ae9e9b81d24834aa066a36f9cbf6c361e77ed7d",
+   "bytes": 70415,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.gp",
+   "sha256": "53c763fd13fe9643917cdf229f16b1c38e62d66fe7ba0dbb1af57ae115913112",
+   "bytes": 3234,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/coleman_family.log",
+   "sha256": "cc6f8dacd09778c17fed895fcc90e07fa80b006eea88388260f82dc0f81d8c01",
+   "bytes": 886,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.log",
+   "sha256": "380b458fa4c79bc5f154b30192d8ec597dd438b1e72d2952ac0ff39aeefb3562",
+   "bytes": 53640,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/kr25c.sage",
+   "sha256": "b359337afac7312ffcb2c1a10d6b67b6eaba9d423e0c5a78ef2c6c14e2c2f95c",
+   "bytes": 3622,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+   "release_path": "evidence/src/BSD_P3_MS_R24_COLEMAN_RETURN_OPUS_2026-09-29/checks/seed_sign_check.log",
+   "sha256": "f65900202e496187606bec0f6ab14e21b27e1691ad2d55ebd0e9d6f59ce0ace0",
+   "bytes": 115,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Elkies_rho3.md",
+   "sha256": "a6d84091b75241f990322bce1c5ebe4060b11dbd7294565e6ad867f4f476ac70",
+   "bytes": 2812,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+   "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/SRC_Kobayashi2006.md",
+   "sha256": "945e29b06b3826ede7aa9ed15d22084d11bbf5092f47a5a9f91fc4a6ad79c1d0",
+   "bytes": 2967,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+   "release_path": "evidence/src/BSD_P3_UPPER_INTEGRAL_SCREEN_RETURN_FABLE_2026-09-29/checks_elkies_rho3.gp",
+   "sha256": "3b702ccac0604542255956de2a947624783e4b16a2ab14ad00dba1c4a5781efe",
+   "bytes": 733,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/MANIFEST.sha256",
+   "sha256": "7b8bfb8755f64b6ea2520309526c3e3546c0c2905cd7e2ed7b695846361bbe80",
+   "bytes": 1601,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/RETURN.md",
+   "sha256": "6f1623688312e1fb80fd3358093bcae22fcdfdc03046da3cd104e6cba65aecd0",
+   "bytes": 4316,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T1_D5_STEP2_3_INTERPOLATION.md",
+   "sha256": "e1bb0bc0d86b0647354b67fd19c02da6306eb45fcd739a8b2c52f5ba815cc1b1",
+   "bytes": 5258,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T2_D5_STEP1_COLEMAN_ISO.md",
+   "sha256": "a2c8cba78889404e73a42972b4d2effcc3598e23d4885896503adab0ee512e22",
+   "bytes": 4732,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T3_D6_O2.md",
+   "sha256": "18ec6100f6171c56eea79052ca66b1c7250150f525a20b9af464bc0369815985",
+   "bytes": 6275,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+   "sha256": "4647bb95de9f8cecdbb680a7175a658fb2316d97c5ef9c2737918f0639b62394",
+   "bytes": 5587,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/T5_D1_D2_BY_HAND.md",
+   "sha256": "d21ef01ad296b110231430c982b5711de1ebe96bdb97c250fd301d8d9d32b676",
+   "bytes": 3163,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.gp",
+   "sha256": "2e40179a60e1c5812d9a64e05491a7f9d39a3a80437448bf29b683c10cd55aa3",
+   "bytes": 491,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_2026-09-29/checks/reg.log",
+   "sha256": "f3b0a60dbd8c610b69d240c31a249209ee6cf2c71db2d1ecb346a696ebb63a9a",
+   "bytes": 760,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/MANIFEST.sha256",
+   "sha256": "043872b05cb641d7f465b6be9529a286200a6bed04794aa4312e94222f7507c8",
+   "bytes": 1410,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/RETURN.md",
+   "sha256": "4a76f3b6c9a11dccc28bf69f969a8198b6633ffe70f9a55fc17e227e265615d0",
+   "bytes": 4974,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T1_D5_STEPS2-3_INTERPOLATION.md",
+   "sha256": "c954bb364535b42959e61ecad1b599591cd7bb4e9448f7657969327df430f774",
+   "bytes": 5018,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T2_D5_STEP1_COL_ISO.md",
+   "sha256": "15fa38061ee12a65e19d28cd75b3d65c48bc47b71e0d0928b31068bb5962f5fe",
+   "bytes": 4660,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T3_D6_O2.md",
+   "sha256": "47fa1412c89b109b563db4109a70dcbed38202161c5d09f30da3281490b41f2a",
+   "bytes": 6318,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T4_D8_ASSEMBLY_JONES.md",
+   "sha256": "dc79c010f510492d4a0cc9b784b24a73f38a8c1b66e5977de5e3d8cc13306dc5",
+   "bytes": 5146,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+   "release_path": "evidence/src/BSD_R25_SECOND_READER_RETURN_OPUS_B_2026-09-29/T5_D1_D2_BY_HAND.md",
+   "sha256": "16148547702c2fdd6a53926c3ef1835ce40744f2052278c76afd2ee4940f9e41",
+   "bytes": 3629,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+   "release_path": "evidence/src/BSD_SEED_V025_BANK_CHECK_FABLE_2026-09-29/CHECK.md",
+   "sha256": "131f17e2c37c444af26ab0d3478fd731d09801f9e60934fe94abcef566dc8824",
+   "bytes": 4837,
+   "disposition": "admitted_unmasked"
+  },
+  {
+   "original_path": "/Users/bsm/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+   "release_path": "evidence/src/BSD_SEED_V025_BANK_ROUTEK_TASK_2026-09-29/inputs/R25_ERRATA_2026-09-29.md",
+   "sha256": "75c5246135514a485936642444d481fbbbfda7c0286c65dfb73d263e65759ec4",
+   "bytes": 3763,
+   "disposition": "admitted_unmasked"
+  }
+ ],
+ "declared_exclusions": [],
+ "declared_redactions": []
+}

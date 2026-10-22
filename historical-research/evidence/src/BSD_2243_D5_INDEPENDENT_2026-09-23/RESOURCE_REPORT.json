@@ -1,0 +1,13 @@
+{
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.7-x86_64-i386-64bit",
+  "certificate_wall_seconds": 0.0010790089999999988,
+  "verification_wall_seconds": 0.09271801100000002,
+  "measured_peak_RSS_bytes": 11083776,
+  "CPU_limit_seconds_per_process": 120,
+  "RSS_limit_status": "macOS rejected RLIMIT_AS and RLIMIT_DATA; fixed finite input sizes, actual RSS checked <1 GiB",
+  "paid_compute": false,
+  "subagents": 0,
+  "coefficient_corpus_reads": 0,
+  "no_large_integer_points": "mP rational coordinates never constructed for m=4484; only modular division polynomials"
+}

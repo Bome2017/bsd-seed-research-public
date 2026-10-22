@@ -1,0 +1,25 @@
+{
+  "status": "ISOLATED_PRODUCER_AND_LITERAL_REPLAY_PASS",
+  "cases": [
+    {
+      "case": "independent_index",
+      "status": "BYTE_IDENTICAL",
+      "index_sha256": "9952da715190e52cb5916cb1bcd9a48333547fa71073e276d5a699db0535d4a5",
+      "certificate_sha256": "54ff07c1af9ee7a1334a59cb0d1588ae36c6a81ebba3a3c717d5f5e743afb831"
+    },
+    {
+      "case": "positive1913",
+      "status": "BYTE_IDENTICAL",
+      "index_sha256": "bf4837d2d08b02b10efef80630eec4c22ed62ec0725d113d2e1b122385a6acb1",
+      "certificate_sha256": "bdf57f9f851c223bdaf6a2a2c24e813b49531ae2945da4e2d7bc9e18277bda45"
+    },
+    {
+      "case": "seed3_divisors",
+      "status": "BYTE_IDENTICAL",
+      "index_sha256": "a43175bebbccaf12cd21104b8662067060a9bf7dab20325ced2c5de3528566b0",
+      "certificate_sha256": "c2b5fcd0a2a707035413e83a0ebd5d85f4ae9e5e5c3b1ce0a69fad5586ec06d5"
+    }
+  ],
+  "literal_checks": "PASS",
+  "source_files_modified": false
+}

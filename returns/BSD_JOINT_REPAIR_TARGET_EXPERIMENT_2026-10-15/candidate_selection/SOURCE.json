@@ -1,0 +1,307 @@
+{
+  "repository": "JohnCremona/ecdata",
+  "commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f",
+  "scope": "allbigsha blocks 0-499999; predicted Sha used only for selection",
+  "files": [
+    {
+      "file": "allbigsha.00000-09999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.00000-09999",
+      "bytes": 104070,
+      "sha256": "f86b955d5f332ea91377b2c8b2a9a73b399c5ecf711476a830705ac3e74af2f5"
+    },
+    {
+      "file": "allbigsha.10000-19999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.10000-19999",
+      "bytes": 149203,
+      "sha256": "3a57dac994e6f748675f1b01c8ee4c748d258592e543f71f43a3fc8fb22b46df"
+    },
+    {
+      "file": "allbigsha.20000-29999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.20000-29999",
+      "bytes": 161660,
+      "sha256": "be55fba194d579fa362518c6687e0b7e2bfbcb6e693df3c5206c08bfed52453d"
+    },
+    {
+      "file": "allbigsha.30000-39999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.30000-39999",
+      "bytes": 179756,
+      "sha256": "8f20001fc3aa4b5ed4d195d3d096e46006df58fd353ffe0bd663043472e57ac2"
+    },
+    {
+      "file": "allbigsha.40000-49999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.40000-49999",
+      "bytes": 180796,
+      "sha256": "e33050380a6c2c3527ae657db86af30f702d77fa31e42968f8873f4cd8b9f581"
+    },
+    {
+      "file": "allbigsha.50000-59999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.50000-59999",
+      "bytes": 191975,
+      "sha256": "7cd40f2d2aee68bdac4e58c1282ba43249fe7852a394ab5165a2fba0ee0b8de5"
+    },
+    {
+      "file": "allbigsha.60000-69999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.60000-69999",
+      "bytes": 199475,
+      "sha256": "4e1c2f911d9b9b5cd55c811275c83f0c53c836d7a84b16066be0e9f0214df3a5"
+    },
+    {
+      "file": "allbigsha.70000-79999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.70000-79999",
+      "bytes": 195249,
+      "sha256": "1512702c77560992ec75851cba93a208b040f675f34ee2009368d2163f378ea7"
+    },
+    {
+      "file": "allbigsha.80000-89999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.80000-89999",
+      "bytes": 198741,
+      "sha256": "7add2e56f73195dab62e4eb0f5413bd4e5af12b88a3092258496e68b9b9af90a"
+    },
+    {
+      "file": "allbigsha.90000-99999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.90000-99999",
+      "bytes": 206126,
+      "sha256": "11a151536fd73c0c0e9a231adcd1205972869272214b0dadd509f3add49720bb"
+    },
+    {
+      "file": "allbigsha.100000-109999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.100000-109999",
+      "bytes": 210293,
+      "sha256": "0bede2862fda869dee75d56fa072d29e92324b108014c8eb96bd19d59ae97d35"
+    },
+    {
+      "file": "allbigsha.110000-119999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.110000-119999",
+      "bytes": 208914,
+      "sha256": "820fa71ddba19127eef19fc4a556bb2826b836b0c9d890377e7e249e03643a38"
+    },
+    {
+      "file": "allbigsha.120000-129999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.120000-129999",
+      "bytes": 212714,
+      "sha256": "cf31465662b29c55b8c58a349939d7ab9b96d72d326d7589227539fedb1924af"
+    },
+    {
+      "file": "allbigsha.130000-139999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.130000-139999",
+      "bytes": 216073,
+      "sha256": "c8b6e68dad7dc0a96fdfe03d53abb207b37fb81daafe8b7bf01b2f42b765677f"
+    },
+    {
+      "file": "allbigsha.140000-149999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.140000-149999",
+      "bytes": 221070,
+      "sha256": "8a2680beab6fe3ec690333df96f601593e0caca74ca6077d0caee26f4a8acb37"
+    },
+    {
+      "file": "allbigsha.150000-159999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.150000-159999",
+      "bytes": 212470,
+      "sha256": "d01ac01f5d180a0553f6ac05a742c51752fb3fde5d37ab410ffe4f810d7378ab"
+    },
+    {
+      "file": "allbigsha.160000-169999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.160000-169999",
+      "bytes": 213788,
+      "sha256": "9f6cdace7f1d4be227be13a948d51a5f0b674072c6ce452ea0b01a84919b3b84"
+    },
+    {
+      "file": "allbigsha.170000-179999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.170000-179999",
+      "bytes": 210379,
+      "sha256": "196c32df20dd9ffa94675afe577360f3996fe371518776dbd37d664b2d0b05d6"
+    },
+    {
+      "file": "allbigsha.180000-189999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.180000-189999",
+      "bytes": 221476,
+      "sha256": "dbf69b555c18b17d3804e09d61bdcc69dd941af3346cb269064fd21f51e462ae"
+    },
+    {
+      "file": "allbigsha.190000-199999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.190000-199999",
+      "bytes": 219901,
+      "sha256": "17afd035dd242300d99e9ede4f2b4cf40b2b77c75fca991bbc9f6db9be536542"
+    },
+    {
+      "file": "allbigsha.200000-209999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.200000-209999",
+      "bytes": 229681,
+      "sha256": "3d3f0b52461df114301b7a1c6bd7fa17eb110b92073b6abd4f762050fa7d5f4c"
+    },
+    {
+      "file": "allbigsha.210000-219999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.210000-219999",
+      "bytes": 219850,
+      "sha256": "5adc85a2726c808aef5206b66a921074beb34adf80d21d19df4c35a0f03c4726"
+    },
+    {
+      "file": "allbigsha.220000-229999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.220000-229999",
+      "bytes": 223093,
+      "sha256": "b48f929aeaa7bfbb55e129d53049215d843acf989ecede8161433c0c0f593e54"
+    },
+    {
+      "file": "allbigsha.230000-239999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.230000-239999",
+      "bytes": 216852,
+      "sha256": "d2f8b5aab80e659a015e53dc23cbb6fbf0fb36f5516079fde541a8a132c99eca"
+    },
+    {
+      "file": "allbigsha.240000-249999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.240000-249999",
+      "bytes": 228158,
+      "sha256": "1c77bd2ef7d37fe4bab4139987607821faa7d0576f7afa8c581e66251c13a5b3"
+    },
+    {
+      "file": "allbigsha.250000-259999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.250000-259999",
+      "bytes": 222779,
+      "sha256": "1cddcfe47857791ce0fe45ee9bafd7be7dd98ef4d7d728ce6a3939132449bebe"
+    },
+    {
+      "file": "allbigsha.260000-269999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.260000-269999",
+      "bytes": 231657,
+      "sha256": "fc3de938be38025e2f946be9b5e60fe9781df6d4f1f5ea1e37edc67d6eda527f"
+    },
+    {
+      "file": "allbigsha.270000-279999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.270000-279999",
+      "bytes": 231975,
+      "sha256": "4cec80802614523938852e7d3402ddcebf244106700004801391811dd1acd8ed"
+    },
+    {
+      "file": "allbigsha.280000-289999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.280000-289999",
+      "bytes": 228627,
+      "sha256": "9d79c157584d92549910f504e2d1b55bc69f8ca9b2ba61a49e0e02373ddb736c"
+    },
+    {
+      "file": "allbigsha.290000-299999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.290000-299999",
+      "bytes": 234558,
+      "sha256": "062d5003a6581507ea659bffc624ad5bc513594ab2f0074838d1ba71b177da43"
+    },
+    {
+      "file": "allbigsha.300000-309999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.300000-309999",
+      "bytes": 224370,
+      "sha256": "9f6686d6f3ab667a6182fcd9f8e87ea28ce007e966730b0f9a0a49d81a5cf32a"
+    },
+    {
+      "file": "allbigsha.310000-319999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.310000-319999",
+      "bytes": 234707,
+      "sha256": "933212783a489f35ba357e436b039805c5d9dd90538906fb8382e5cdca01eb68"
+    },
+    {
+      "file": "allbigsha.320000-329999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.320000-329999",
+      "bytes": 228018,
+      "sha256": "8adde2d5d365949c34fdac64a6dce830db4191cba0a2607632bbc04ddc3af524"
+    },
+    {
+      "file": "allbigsha.330000-339999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.330000-339999",
+      "bytes": 223169,
+      "sha256": "cb55bb2e5da50dbb819a9e5a7b8f219b30ee8d0e68c7db8981a253411b919b21"
+    },
+    {
+      "file": "allbigsha.340000-349999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.340000-349999",
+      "bytes": 238377,
+      "sha256": "369a0221d733d207882bcb63ac3245854967f93be5f5712e44e12f5c7df3873d"
+    },
+    {
+      "file": "allbigsha.350000-359999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.350000-359999",
+      "bytes": 232051,
+      "sha256": "3ad398d7b6e50c74d3e2b88febe866237d2e484464c43868c96acef1a92f9f23"
+    },
+    {
+      "file": "allbigsha.360000-369999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.360000-369999",
+      "bytes": 228215,
+      "sha256": "7fe24fe9c0ea18ece794109f9c49f081cb98f527062733d30e29da61d94e52bb"
+    },
+    {
+      "file": "allbigsha.370000-379999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.370000-379999",
+      "bytes": 229619,
+      "sha256": "50c9745a5b0631b8714199991a02cdd0feb86ca26efcc2adb7d57396c5bd881e"
+    },
+    {
+      "file": "allbigsha.380000-389999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.380000-389999",
+      "bytes": 236694,
+      "sha256": "901613729d7312fc98350cf1310e53733bc29556614f5596938c371036cf627b"
+    },
+    {
+      "file": "allbigsha.390000-399999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.390000-399999",
+      "bytes": 228844,
+      "sha256": "205adb797166827cfbaf69358c9568915d5310b702a766a687d48b467fe31422"
+    },
+    {
+      "file": "allbigsha.400000-409999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.400000-409999",
+      "bytes": 219670,
+      "sha256": "91ac33e430cda3094839cc19387486f70628b4ddca3ecdf0822b4972318e1f6b"
+    },
+    {
+      "file": "allbigsha.410000-419999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.410000-419999",
+      "bytes": 233838,
+      "sha256": "50de86aa205be82e4b92841c9dd898eade54a7850b1656ad165eb64125a23a1a"
+    },
+    {
+      "file": "allbigsha.420000-429999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.420000-429999",
+      "bytes": 228032,
+      "sha256": "3bae117df1caed1612a26b6fd795603ec54c404aff26f8012d27f5c3abf89e3f"
+    },
+    {
+      "file": "allbigsha.430000-439999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.430000-439999",
+      "bytes": 234533,
+      "sha256": "8ea907bdd21fdb92ee368988ee90063e1ed6cd6f781c00aa5494a71bb81cb03c"
+    },
+    {
+      "file": "allbigsha.440000-449999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.440000-449999",
+      "bytes": 226598,
+      "sha256": "f557669338f8b40bc879d5d0ae8fe63c8f32c26fafda1cf7063ee9ed495f67fa"
+    },
+    {
+      "file": "allbigsha.450000-459999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.450000-459999",
+      "bytes": 229326,
+      "sha256": "5f0014616aee13d0d828023d291dc6c3cc21be772dc9d7c7658d638bc07cb050"
+    },
+    {
+      "file": "allbigsha.460000-469999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.460000-469999",
+      "bytes": 235530,
+      "sha256": "eaa13f38247fb850bf1139c514a7cb8e5f47752aa1a488712768d1dfd2e19611"
+    },
+    {
+      "file": "allbigsha.470000-479999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.470000-479999",
+      "bytes": 230070,
+      "sha256": "764209d0da977c5d1598a9113eb46822e0534b8468b559a48a573848c4eb77f2"
+    },
+    {
+      "file": "allbigsha.480000-489999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.480000-489999",
+      "bytes": 241279,
+      "sha256": "eb416bdb545dcf22de82af29e586707436b17a10c202ae2fe088afbd3c03bdac"
+    },
+    {
+      "file": "allbigsha.490000-499999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allbigsha/allbigsha.490000-499999",
+      "bytes": 241647,
+      "sha256": "d5e53a5be5b81e8eb47f6c52956e531543b45902cbba6acdc0a90906920698ac"
+    }
+  ]
+}

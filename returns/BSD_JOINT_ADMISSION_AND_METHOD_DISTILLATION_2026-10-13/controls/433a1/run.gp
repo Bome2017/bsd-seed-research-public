@@ -1,0 +1,30 @@
+default(parisizemax,1000000000);
+alarm(90);default(realprecision,64);setrand(20261013);gettime();
+read("../lib/cubinv.gp");read("../lib/classimg.gp");read("../lib/selmer.gp");
+E=ellinit([1,0,0,0,1]);Pts=[[0,1],[1,1]];
+print("MODEL=",vector(5,i,E[i]),"; DELTA=",E.disc,"; CONDUCTOR=",ellglobalred(E)[1]);
+print("POINTS_ON_CURVE=",vector(#Pts,i,ellisoncurve(E,Pts[i])));print("HEIGHT_DETERMINANT=",matdet(ellheightmatrix(E,Pts)));
+print("RANK=",ellrank(E));
+FD=field3(E);fL=FD[1];ps=FD[2];print("FIELD=",fL,";S=",ps);
+B=bnfinit(fL,1);print("BNF_CREATED_MS=",gettime(),";SIGN=",B.nf.sign,";CLASS=",B.cyc);
+CERT=bnfcertify(B);if(CERT!=1,error("bnf not certified"));print("BNF_CERTIFIED=",CERT,";MS=",gettime());writebin("bnf.bin",B);
+nf=B.nf;write("nf.gp",nf);T=torsT(E,nf);print("TORSION_POINT=",T);SL=[];for(i=1,#ps,SL=concat(SL,idealprimedec(nf,ps[i])));
+G=lsgens2(B,SL,"");G=vector(#G,j,redcube(nf,G[j]));ng=#G;print("SOURCE_DIM=",ng);
+V=Mod(matrix(#SL,ng,i,j,nfeltval(nf,G[j],SL[i])),3);H0=matker(V);tau=tauL(nf,E,T);GT=vector(ng,j,tauapply(nf,tau,G[j]));PC=vector(#Pts,j,ftan(E,T,Pts[j]));
+AP=auxprimes(fL,100,ps);PH=phimat(nf,concat(concat(G,GT),PC),AP);NR=matsize(PH)[1];PG=matrix(NR,ng,i,j,PH[i,j]);PT=matrix(NR,ng,i,j,PH[i,j+ng]);PP=matrix(NR,#Pts,i,j,PH[i,j+2*ng]);
+if(matrank(PG)!=ng,error("Source auxiliary evaluation not injective"));TAU=matsolve(PG,PT);AC=matsolve(PG,PP);if(PG*TAU!=PT||PG*AC!=PP,error("coordinates inconsistent"));if(TAU^2!=matid(ng),error("tau inconsistent"));print("POINT_CLASS_RANK=",matrank(AC),";AUXROWS=",NR);
+TR=vector(ng,j,0);AR=vector(#Pts,j,0);
+{for(j=1,ng,my(rr=nfroots(nf,X^3-GT[j]/prod(i=1,ng,G[i]^lift(TAU[i,j]))));if(#rr<1,error("tau quotient not cube"));TR[j]=rr[1]);for(j=1,#Pts,my(rr=nfroots(nf,X^3-PC[j]/prod(i=1,ng,G[i]^lift(AC[i,j]))));if(#rr<1,error("point quotient not cube"));AR[j]=rr[1]);}
+print("EXACT_TAU_AND_POINT_IDENTITIES=",ng+#Pts);Norm=TAU+matid(ng);LR=linrows(E,nf,T,G,6,ps);print("FINITE_ADDITIVITY_ROWS=",matsize(LR)[1]);
+UG=bnfunits(B)[1];UG=vector(#UG-1,j,UG[j]);UPH=phimat(nf,concat(G,UG),AP);PGU=matrix(matsize(UPH)[1],ng,i,j,UPH[i,j]);PU=matrix(matsize(UPH)[1],#UG,i,j,UPH[i,j+ng]);UB=matsolve(PGU,PU);if(PGU*UB!=PU,error("unit coordinates inconsistent"));
+if(matrank(UB)!=sum(i=1,2,nf.sign[i])-1,error("unit rank mismatch"));if(V*UB!=0*(V*UB),error("unit valuations nonzero"));
+Rows=[;];LI=List();
+{for(i=1,#ps,my(l=ps[i],Dl=[locdata(nf,pr)|pr<-idealprimedec(nf,l)],Bl=lockummer(E,nf,T,l,Dl,35),Ml=matconcat(vector(ng,j,Mod(concat(vector(#Dl,q,locvec(nf,G[j],Dl[q]))),3)~)),Rr=if(Bl[2]==0,Ml,matker(Bl[1]~)~*Ml));listput(LI,[l,Dl,Bl,Ml,Rr]);Rows=if(#Rows,matconcat([Rows;Rr]),Rr);print("LOCAL=",l,";IMAGE_DIM=",Bl[2],";ROW_RANK=",matrank(Rr),";MS=",gettime());)}
+SCREEN=matconcat([Norm;LR;Rows]);if(SCREEN*AC!=0*(SCREEN*AC),error("points rejected"));
+print("PROFILE=[source,valuationzero,units,normfull,addfull,localfull,jointfull,jointunits,jointvaluationzero]");print("PROFILE=",[ng,#H0,#UB,#matker(Norm),#matker(LR),#matker(Rows),#matker(SCREEN),#matker(SCREEN*UB),#matker(SCREEN*H0)]);
+print("UNIT_AFTER=[norm,additivity,local,joint]",[#matker(Norm*UB),#matker(LR*UB),#matker(Rows*UB),#matker(SCREEN*UB)]);
+print("ADMITTED_UNIT_POINT_INTERSECTION=",matrank(AC)+#matker(SCREEN*UB)-matrank(matconcat([AC,UB*matker(SCREEN*UB)])));
+print("ADMITTED_CLASS_LIFT_DIM=",#matker(SCREEN*H0)-#matker(SCREEN*UB));
+print("CLASS_OBSTRUCTION_RANK=",matrank(SCREEN*H0)-matrank(SCREEN*UB));
+write("data.gp",[E,Pts,fL,ps,T,G,V,H0,TAU,AC,TR,AR,LR,UB,Rows,Vec(LI),SCREEN,AP,PG,PT,PP,UG]);
+print("CONTROL_COMPLETE");quit;

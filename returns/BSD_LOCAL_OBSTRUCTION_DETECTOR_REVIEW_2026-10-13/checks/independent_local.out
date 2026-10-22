@@ -1,0 +1,40 @@
+{
+  "independent_engine": "Sage, not submitted Python checker",
+  "mod11_irreducible": true,
+  "Chebyshev_polynomial_identity": true,
+  "exact_fifth_root_in_compositum": true,
+  "local_rows": {
+    "epsilon": {
+      "valuation": 0,
+      "residue": 6,
+      "signature": [
+        0,
+        4
+      ]
+    },
+    "alpha11": {
+      "valuation": 4,
+      "residue": 1,
+      "signature": [
+        4,
+        0
+      ]
+    },
+    "fP1": {
+      "valuation": 0,
+      "residue": 1,
+      "signature": [
+        0,
+        0
+      ]
+    },
+    "fP2": {
+      "valuation": 0,
+      "residue": 1,
+      "signature": [
+        0,
+        0
+      ]
+    }
+  }
+}

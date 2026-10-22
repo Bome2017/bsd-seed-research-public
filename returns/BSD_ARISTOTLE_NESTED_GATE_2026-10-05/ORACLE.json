@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "token_key": "ARISTOTLE_NESTED_READ_TEST",
+  "token_sha256": "44787e321e77dc56e1cc97b852c5d47cacb8249acf35a7d9745ccb9848968ae4",
+  "token_encoding": "UTF-8; exact value, without newline or surrounding spaces",
+  "file": "reading_set/BSD_NESTED_RUNTIME_SMOKE/dossiers/deep/runtime_probe.txt",
+  "file_sha256": "58da37079750e05df03b8225f2234c26e9f8ef6059a854ab9832269b597e19af",
+  "archive_sha256": "b3758b68ccc9064df9713b0a6ae5e6e6cc29d94470e7603ca31c26555a8de22c",
+  "manifest_entries": 3,
+  "project_upload_only": true,
+  "execution_attestation": "None. Returned files and self-reported transcripts cannot independently attest a remote process."
+}

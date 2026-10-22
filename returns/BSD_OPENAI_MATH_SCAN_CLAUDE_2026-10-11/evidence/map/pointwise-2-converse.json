@@ -1,0 +1,234 @@
+{
+  "paper": "A pointwise 2-converse for elliptic curves with rational two-torsion (OpenAI, October 7, 2026; previous version September 24, 2026). Sources: /tmp/claude-0/-home-user-bsd-seed-lab/ab9d3026-f88f-51d1-8e47-f94a5d2c0e6f/scratchpad/openai_math_clone/repo/preprints/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/build/ (paper.tex + sections/{introduction,preliminaries,cyclotomic,ring-limits,ring-determinants,nonvanishing,coefficients,graphs,pointwise}.tex, references.bib). Grade: IMPORTED_PREPRINT (unrefereed, AI-generated). No Lean formalization: the title does not occur in lean/formalization.yaml. Version note (README.md): 'This version updates a citation to a revised manuscript in this collection' (the Goldfeld companion). Not withdrawn per history.md.",
+  "main_theorems": [
+    {
+      "label": "Theorem 1.1 (thm:main, 'The rational-two-torsion 2-converse')",
+      "statement": "Verbatim (TeX transliterated): 'Let E/Q be an elliptic curve with E(Q)[2] != 0 and s_2(E) in {0,1}. Then ord_{s=1} L(E,s) = rank_Z E(Q) = s_2(E), Sha(E/Q) is finite.' Here s_2(E) = corank_{Z_2} Sel_{2^infty}(E/Q) with the usual local Kummer conditions (introduction.tex lines 16-19). Intro adds: 'The statement includes one rational two-torsion line and full rational two-torsion, CM and non-CM curves, every rational isogeny configuration, and every reduction type at 2 and at the bad primes. ... It does not assert the full Birch--Swinnerton-Dyer leading-coefficient formula, nor does a bound rank E(Q)<=1 alone imply its Selmer hypothesis.' (lines 32-37).",
+      "hypotheses": "(1) E/Q elliptic curve (modular by BCDT); (2) E(Q)[2] != 0, i.e. E[2] is an extension of two trivial F_2-modules; (3) s_2(E) := corank_{Z_2} Sel_{2^infty}(E/Q) in {0,1}. No hypothesis on reduction at 2 or at bad primes, on CM, or on residual image. Conclusion is only rank equality and finiteness of Sha; NOT the BSD formula and NOT any bound on #Sha.",
+      "location": "sections/introduction.tex lines 22-30 (statement); proof sections/pointwise.tex lines 1029-1049 (Proof of Theorem thm:main), via Prop 9.7 (pw:even-base, s_2=0 => a(E)=0, pointwise.tex 306-326) and Prop 9.14 (pw:odd-base, s_2=1 => a(E)=1, pointwise.tex 872-1027)."
+    },
+    {
+      "label": "Proposition 9.7 (pw:even-base, 'Even original base') - corank-zero half of the main theorem",
+      "statement": "Verbatim: 'If s_2(E)=0, then a(E)=0.' (a(E)=ord_{s=1}L(E,s)). Section hypothesis: 'Fix E/Q with nonzero rational two-torsion' (pointwise.tex line 3).",
+      "hypotheses": "E(Q)[2] != 0; s_2(E)=0. Proof uses only the even (central-value) coefficient system, finite prime networks (Thm 8.3) and cyclotomic transfer (Thm 3.2); 'The original corank-zero base can now be treated without any odd coefficient system or companion field' (pointwise.tex 303-304).",
+      "location": "sections/pointwise.tex lines 306-326"
+    },
+    {
+      "label": "Proposition 9.14 (pw:odd-base, 'Odd original base') - corank-one half of the main theorem",
+      "statement": "Verbatim: 'If s_2(E)=1, then a(E)=1.'",
+      "hypotheses": "E(Q)[2] != 0; s_2(E)=1. Proof: parity gives odd sign; choose a fixed negative discriminant k with L(E^{(k)},1) != 0, K=Q(sqrt k) split at 2N (Heegner hypothesis), nonexceptional; s_2(E/K)=1 by the quadratic corank identity; build binary families of twists h_x (all primes split in K) with E^{(h_x)} of analytic order 1 and E^{(h_x k)} of analytic order 0 with uniformly bounded normalized Heegner index; apply Thm 4.2 (fixed-K ring-class missing-vertex transfer).",
+      "location": "sections/pointwise.tex lines 872-1027"
+    }
+  ],
+  "general_results": [
+    {
+      "label": "Lemma 2.1 (pr:ranks, 'The three ranks') + Lemma 2.2 (pr:invariance, 'Parity and change of curve')",
+      "statement": "Lemma 2.1: exact sequence 0 -> A(Q) (x) Q_2/Z_2 -> Sel_{2^infty}(A/Q) -> Sha(A/Q)[2^infty] -> 0, hence 's_2(A)=r(A)+corank_{Z_2} Sha(A/Q)[2^infty]. If a(A) in {0,1}, then r(A)=a(A) and the whole group Sha(A/Q) is finite. In that case s_2(A)=a(A).' Lemma 2.2 verbatim: 'For every elliptic curve A/Q, (-1)^{s_2(A)} = epsilon(A). A rational isogeny preserves a, r, and s_2. If K=Q(sqrt k) is quadratic, then s_2(A/K)=s_2(A/Q)+s_2(A^{(k)}/Q).'",
+      "hypotheses": "Any elliptic curve A/Q; no rank restriction. Imports: Gross-Zagier-Kolyvagin (forward direction), Monsky 1996 (2-parity), Dokchitser-Dokchitser 2010 Thms 1.4, 4.19.",
+      "location": "sections/preliminaries.tex lines 13-78 (restated as Lemma 9.2 pw:isogeny-corank, pointwise.tex 109-127)",
+      "kind": "parity",
+      "relevance": "none new. For the seed: s_2(E)=2+0=2 (Sha[2^infty]=0), s_2(E^{-7})=0, s_2(E/K)=2 for K=Q(sqrt-7), consistent with w(E)=+1 and (r+,r-)=(2,0). All of this is already published (Monsky; DD2010)."
+    },
+    {
+      "label": "Theorem 3.1 (cy:lower-bound, 'Cyclotomic lower bound')",
+      "statement": "Verbatim: 'There is a constant C_E such that, for every allowed h with L(E^{(h)},1) != 0, v_2(L(h)) >= 2w(h)+s(h)-C_E. The constant is independent of the number and sizes of the primes dividing h.' Here L(h)=sqrt|h| L(E^{(h)},1)/Omega_E^{sgn h}, t_q=dim_{F_2}E[2]^{Fr_q}, 2w(h)=sum_{q|h} t_q, s(h)=length_{Z_2} Sha(E^{(h)}/Q)[2^infty] (cyclotomic.tex 14-28).",
+      "hypotheses": "E/Q fixed with E[2] an extension of two trivial F_2-modules (E(Q)[2] != 0); h a product of distinct signed primes q*=(-1/q)q with q not dividing 2N, with fixed sign and fixed local squareclasses at 2N; L(E^{(h)},1) != 0 (so s(h) finite by GZK). C_E is NOT effective (built from Kato's fixed-form lattice index c_E, unsmoothing, local twisting classes at 2N, Poitou-Tate real terms).",
+      "location": "sections/cyclotomic.tex lines 35-43 (statement), proof lines 752-761; machinery: Kato classes at p=2 (cyclotomic.tex 313-421), rational divisibility via Kato Thm 12.5(3) (423-595), Prop 3.7 central determinant formula (629-748)",
+      "kind": "padic_L",
+      "relevance": "#Sha(E^{-7}) only in principle: h=-7 is an allowed discriminant (7 not dividing N, (-1/7)7=-7), so it would give v_2(L_*(-7)) >= t_7 + length Sha(E^{-7}/Q)[2^infty] - C_E, i.e. an upper bound on the 2-part of Sha(E^{-7}) by v_2 of the normalized L-value plus an unknown constant. Since C_E is ineffective, it yields nothing computable. No content at odd p. Does not address FIN/ORDER9/Q36."
+    },
+    {
+      "label": "Theorem 3.2 (cy:missing-vertex, 'Transfer to the missing vertex')",
+      "statement": "Verbatim: 'Let h_0 be an allowed discriminant with s_2(E^{(h_0)})=0. Suppose that for arbitrarily large b there are a finite set Q of distinct primes q not dividing 2Nh_0 and linear forms lambda_q: F_2^b -> F_2 giving h_x = h_0 prod_{q in Q}(q*)^{lambda_q(x)}, x in F_2^b, all in the fixed local and sign classes. Suppose that a number B, independent of the family, satisfies L(E^{(h_x)},1) != 0, D(h_x) <= B (x != 0). Then L(E^{(h_0)},1) != 0 and D(h_0) <= B+C_E.' with D(h)=v_2(L(h))-2w(h)-s(h).",
+      "hypotheses": "E(Q)[2] != 0; base twist h_0 with 2^infty-Selmer corank ZERO; existence of binary families with uniform bound B. Proof: uniform integrality 2^{C_int} u in Lambda[G] (cy:uniform-integrality), Prop 3.7, and Lemma 3.4 (binary congruences / Chevalley-Warning).",
+      "location": "sections/cyclotomic.tex lines 45-61 (statement), proof 763-788",
+      "kind": "padic_L",
+      "relevance": "none: requires a corank-0 base. For E (s_2=2) inapplicable (K-RANK2). For E^{-7} as base the conclusion L(E^{-7},1) != 0 is already PROVED_COMPUTER_ASSISTED."
+    },
+    {
+      "label": "Proposition 3.7 (cy:central, 'Central determinant formula')",
+      "statement": "Verbatim: 'There is a constant C_loc, depending only on the fixed curve and local classes, with the following property. If s_2(E^{(h_x)})=0, then u_x(0)=0 when L(E^{(h_x)},1)=0. Otherwise |v_2(u_x(0)) - D(h_x)| <= C_loc. The rational positive complex at t=0 has cohomology only in degree one, of dimension two, so these are specializations of the same determinant.' The proof contains an integral Poitou-Tate length identity (cy:pt-length): length H^2(G_{Q,S},T_h) = s(h_x) - i + sum_{q in S} length H^0(Q_q,A_h) + O_E(1), with integral Kummer conditions at every place and 'No unramified condition replaces the Kummer condition at a bad prime.'",
+      "hypotheses": "E(Q)[2] != 0; s_2(E^{(h_x)})=0; Kato zeta class of the fixed form; Nekovar Thm 6.3.4 / Sec 6.9.1 / 5.7.1.6 for Poitou-Tate with real Tate-cochain convention.",
+      "location": "sections/cyclotomic.tex lines 629-748",
+      "kind": "control",
+      "relevance": "none (corank-0 only; 2-adic only). Note for the record: it is a 2-adic 'Kato divisibility + control' computation that explicitly handles additive reduction at 2 via a small formal subgroup; no analogue is offered at odd p."
+    },
+    {
+      "label": "Lemma 4.5 (rl:kummer, 'Integral Kummer local condition')",
+      "statement": "Verbatim: 'Let F be a finite extension of a nonarchimedean local field of characteristic zero, and let B/F be any elliptic curve. Put M_F = B(F)^_2 = lim B(F)/2^n B(F). There is a perfect local condition U_F = M_F[-1] -> RGamma(F,T_2B). For every n>=1, derived reduction has H^0(U_F (x)^L Z/2^n) = B(F)[2^n], H^1(U_F (x)^L Z/2^n) = B(F)/2^n B(F). ... The condition is its own exact orthogonal complement under local Tate duality. These assertions hold at F|2, for all reduction types, and without a condition on B[2].'",
+      "hypotheses": "Any elliptic curve over any p-adic field; uses Milne ADT I Thm 3.2/Cor 3.4 and Nekovar Prop 5.2.4.",
+      "location": "sections/ring-limits.tex lines 285-346",
+      "kind": "local_factor",
+      "relevance": "none (standard Selmer-complex bookkeeping; 2-adic use only)."
+    },
+    {
+      "label": "Proposition 4.6 (rl:characters, 'Finite-precision ring-class characters')",
+      "statement": "Verbatim: 'Fix finitely many split primes of K above odd rational primes, outside 2N, and orient one prime in each conjugate pair. There are distinct split rational primes r_i avoiding all the fixed data and characters xi_i: Gal(H_{r_i}/K) -> Z/2^{n_i}Z, n_i -> infinity, such that xi_i is surjective on the inertia quotient at r_i, is zero at the primes above 2N, and has odd value at each prescribed oriented prime. We can require r_i -> 1 in Z_2 and v_2(2+a_{r_i}(E)), v_2(2-a_{r_i}(E)), v_2 det(1 +- Fr_{r_i} | T) <= c_E. The constant c_E is independent of the list and of K.'",
+      "hypotheses": "E/Q any (non-CM: Serre open image; CM: Serre 1968 Cartan image); K imaginary quadratic, not an extra-unit field, not the CM field. 2-adic only.",
+      "location": "sections/ring-limits.tex lines 407-533",
+      "kind": "other",
+      "relevance": "none."
+    },
+    {
+      "label": "Lemma 5.2 (rd:derivative, 'Descent and the switch at 2') with Lemma 5.1 (rd:local-model)",
+      "statement": "Verbatim: 'There is one integer L != 0, depending on the fixed curve, parametrization and fixed local types, such that the classes obtained from the Heegner derivatives of L times the point satisfy, for every finite switched set I, P_I in H^1(C_I), f(P_{I cup {l}})=0, s(P_{I cup {l}}) = J f(P_I). The same L works for every number of active and derivative primes.' Proof uses Kolyvagin derivative operators D_l = sum i sigma_l^i at inert primes l with Fr_l -> complex conjugation, integral descent killed by a fixed scalar 2^e (Bogomolov homothety), and states 'No good-ordinary or semistability condition was used.' and 'The displayed local formulas agree with the calculation underlying [Howard, Prop 1.7.4]; Howard's odd-prime global hypotheses are not being asserted at 2.'",
+      "hypotheses": "E/Q; K=Q(sqrt k) imaginary quadratic satisfying the split Heegner hypothesis at 2N (every prime of 2N splits in K), not an extra-unit field, not the CM field; h a product of signed good odd primes split in K; derivative primes inert in K; p=2 only.",
+      "location": "sections/ring-determinants.tex lines 64-162 (local model), 182-409 (derivative/descent)",
+      "kind": "euler_system",
+      "relevance": "none for the seed. It is a 2-adic Kolyvagin-system construction for reducible E[2]; the seed's Sha[2^infty]=0 is known. The seed's K=Q(sqrt-7) violates the Heegner hypothesis required here (3, 2243, 5843 are inert in K), so none of the ring-class machinery of Sections 4-5 accepts the lab's K."
+    },
+    {
+      "label": "Corollary 4.1 (rd:ring-lower, 'Ring-class lower bound')",
+      "statement": "Verbatim: 'Every simple-zero ring instance in the stated data satisfies 2j_h >= 4w(h)+s(h)+s(hk)-C(E,A), omega(k) <= A.' Here j_h is the 2-adic index valuation of the primitive weighted Heegner sum P_h = sum_{sigma in Gal(H_{|h|}/K)} chi_h(sigma) sigma(y_{|h|}) in the free rank-one lattice E^{(h)}(K)^_2/torsion; s(h), s(hk) the Sha[2^infty] lengths of the two rational twists. Uniform form restated as Prop 9.1(2) (pointwise.tex 51-59).",
+      "hypotheses": "E(Q)[2] != 0; K=Q(sqrt k) imaginary, split at 2N (Heegner), not extra-unit, not CM field, omega(k) <= A; h product of distinct signed good odd primes split in K, (h,k)=1; L(E^{(h)},s)L(E^{(hk)},s) has a SIMPLE zero at s=1 (so by Gross-Zagier/Kolyvagin both twists have finite Sha). C(E,A) ineffective (ultraproduct argument, Prop 5.7).",
+      "location": "sections/ring-limits.tex lines 42-50 (statement); proof ring-determinants.tex 1193-1203 via Prop 5.5 (rd:away-two, 617-707), Prop 5.7 (rd:outer-bound, 745-881), Prop 5.10 (rd:central-formula, 980-1191)",
+      "kind": "heegner_theta",
+      "relevance": "none: needs an analytic-rank (1,0) pair of twists over a Heegner field; constant ineffective; 2-adic only."
+    },
+    {
+      "label": "Theorem 4.2 (rd:missing-vertex, 'The fixed-K missing-vertex implication')",
+      "statement": "Verbatim: 'Fix the ring data E,K, with corank_{Z_2} Sel_{2^infty}(E/K)=1. Suppose binary families h_x = prod_{q in Q}(q*)^{lambda_q(x)} exist for arbitrarily large b, and for every nonzero x the product L(E^{(h_x)},s)L(E^{(h_x k)},s) has a simple zero and 2j_{h_x}-4w(h_x)-s(h_x)-s(h_x k) <= B with B independent of the family. Then ord_{s=1}(L(E,s)L(E^{(k)},s))=1. This implication does not assume Mordell--Weil rank one or finite Shafarevich--Tate group at the base.'",
+      "hypotheses": "E(Q)[2] != 0; K split at 2N, nonexceptional; corank Sel_{2^infty}(E/K) = 1; all primes in Q good, odd, split in K; uniform bound B. Proof needs Prop 5.14 (bounded clearing factor), Lemma 5.17 (binary transfer), Cai-Shu-Tian explicit Gross-Zagier at conductor one.",
+      "location": "sections/ring-limits.tex lines 64-89 (statement); proof ring-determinants.tex 1701-1758",
+      "kind": "heegner_theta",
+      "relevance": "none; K-RANK2: for the seed corank Sel_{2^infty}(E/K)=2 for every K (rank E(K) >= 2). Heegner hypothesis also fails for K=Q(sqrt-7)."
+    },
+    {
+      "label": "Lemma 5.9 (rd:active-local, 'A ramified good odd place')",
+      "statement": "Verbatim: 'Let F_v/Q_p be unramified, p != 2, and let T' = T_2(E) (x) chi, where E has good reduction and chi is ramified quadratic. Then H^0(F_v,T')=0, H^1(F_v,T') = E^chi(F_v)^_2, length_{Z_2} H^2(F_v,T') = dim_{F_2} E[2]^{Fr_v}. The quotient of the full local complex by the integral Kummer condition therefore contributes precisely this last length in degree two.'",
+      "hypotheses": "Any E with good reduction at odd p; chi ramified quadratic; 2-adic coefficients.",
+      "location": "sections/ring-determinants.tex lines 935-978",
+      "kind": "local_factor",
+      "relevance": "none (2-adic local Tamagawa-type term at good twisted primes; the seed's open questions are at odd p and at bad primes)."
+    },
+    {
+      "label": "Proposition 5.10 (rd:central-formula, 'The central determinant formula') incl. eq. rd:sha-comparison",
+      "statement": "Verbatim: 'Suppose the product L(E^{(h)},s)L(E^{(hk)},s) has a simple zero at s=1. ... v(u_h(0)) = 2j_h - length_{Z_2} Sha(E^{(h)}/K)[2^infty] - 2 sum_{p|h} t_p + O_E(1) = 2j_h - s(h) - s(hk) - 4w(h) + O_{E,A}(1), omega(k) <= A.' Within the proof: 'length Sha(E^{(h)}/K)[2^infty] = s(h)+s(hk)+sum_{p|k} t_p + O_E(1)' derived from the Cassels-Tate isogeny identity (rd:isogeny-identity) for Res_{K/Q}E^{(h)} vs E^{(h)} x E^{(hk)}, 'This identity requires finite Shafarevich--Tate groups, as already established at these noncentral twists, but does not assume the BSD conjecture.'",
+      "hypotheses": "Simple zero of the product (analytic ranks 1 and 0); Heegner hypothesis; extra-unit and CM fields excluded; 2-adic.",
+      "location": "sections/ring-determinants.tex lines 980-1191",
+      "kind": "heegner_theta",
+      "relevance": "none for the seed (rank 2 over K). The Sha-comparison formula is a standard Cassels-Tate/isogeny-invariance consequence (Milne ADT I 7.3; DD2010 Sec 4.1) and is already available from the literature."
+    },
+    {
+      "label": "Proposition 6.1 (nv:local-witness, 'Local witnesses')",
+      "statement": "Verbatim: 'Fix an elliptic curve A/Q and a nonempty filter of fundamental discriminants prime to 2N_A, with specified real sign and unit squareclasses at finitely many primes. If the root number in the filter is +1, it contains d of arbitrarily large absolute value with L(A^{(d)},1) != 0. If the root number is -1, it contains such d with L'(A^{(d)},1) != 0. Any additional finite set of primes may be excluded.'",
+      "hypotheses": "ANY elliptic curve A/Q (modular); no rank or torsion hypothesis. Proof: self-contained first-moment asymptotics in a fixed progression mod H (8N_A | H) with Poisson summation (Lemma 6.3), quadratic large sieve (Heath-Brown 1995), Waldspurger nonnegativity, Gelbart-Jacquet symmetric square; derivative case adapts Iwaniec 1990.",
+      "location": "sections/nonvanishing.tex lines 9-17 (statement), proof 378-420 with Lemma 6.3 (57-376)",
+      "kind": "twists",
+      "relevance": "marginal/cost reduction: NO. It is an existence theorem (no explicit d). For the seed the lab already has d=-7 with L(E^{-7},1) != 0. It could only serve to assert existence of alternative Heegner fields K (e.g. with prescribed splitting at 5843 for the plectic/FG route), but published theorems (Murty-Murty 1991, Bump-Friedberg-Hoffstein 1990, Ono-Skinner 1998, Waldspurger) already give this at a better grade."
+    },
+    {
+      "label": "Proposition 6.2 (nv:rough, 'Bounded-factor completion')",
+      "statement": "Verbatim: 'There is an absolute integer A_0 with the following property. In the positive-root-number case of Proposition nv:local-witness, one can require omega(d) <= A_0 and require every prime divisor of d to exceed any fixed bound. The size threshold for the resulting d may depend on the curve, the filter, and the excluded primes; A_0 does not.'",
+      "hypotheses": "Any A/Q; root number +1 in the filter. Proof: lower linear sieve (Friedlander-Iwaniec Thm 11.13) on the nonnegative sequence of central values (Waldspurger), after Hoffstein-Luo 1997.",
+      "location": "sections/nonvanishing.tex lines 19-26, proof 378-420",
+      "kind": "twists",
+      "relevance": "none (A_0 not made explicit; the lab does not need bounded-factor twists)."
+    },
+    {
+      "label": "Proposition 7.1 (co:even, 'Even coefficient system')",
+      "statement": "Verbatim (abridged to the key clauses): 'Fix an even-sign filter and a nonvanishing index D_0 in it. There is a holomorphic cuspidal form g = sum a(n)q^n of weight 3/2, orthogonal to unary theta series, of level supported on a fixed enlargement of S, and characters eta, psi of 2-power order such that psi/eta = chi_{-sigma} and a(p^2 n) = (eta(p)a_p(E) - psi(p)(-n/p))a(n) - p eta(p)^2 a(n/p^2) (p not in S). ... For two nonzero squarefree coefficients, 2v(a(D)/a(D_0)) = v(L_*(sigma D)/L_*(sigma D_0)). Moreover a(D) != 0 exactly when L(E^{(sigma D)},1) != 0. Consequently any previously established bound v(L_*(sigma D)) >= 2w(D)+s(sigma D)-C gives v(a(D)) >= w(D)+(1/2)s(sigma D)-C_g.'",
+      "hypotheses": "E with E(Q)[2] != 0 (section standing hypothesis); filter with fixed sign and unit squareclasses at S (S contains 2N); D/D_0 a unit square at every support prime. Imports Shimura 1973 (Hecke formula), Waldspurger 1981 Cor 2 pp.483-484 and Sec I.2 Prop 2 (with (H2) 'removed' by the paper's own argument), Ramsey 2006 (algebraic forms).",
+      "location": "sections/coefficients.tex lines 31-136",
+      "kind": "algorithmic",
+      "relevance": "#Sha(E^{-7})[2^infty] only in principle: exact 2-adic valuation of ratios L_*(E^{(d)},1)/L_*(E^{(d_0)},1) is encoded in weight-3/2 coefficients. Not usable for the seed: computing a weight-3/2 form of level ~4N with N = 6.5e15 is far beyond the lab's budget, and the 2-part of Sha(E^{-7}) is not an open obligation (ORDER9 concerns p >= 5)."
+    },
+    {
+      "label": "Lemma 7.3 (co:theta-bridge, 'Explicit weighted theta construction') with Lemma 7.2 (co:kummer)",
+      "statement": "Verbatim: 'For l as in Lemma co:kummer, the reduced modular parametrization followed by lambda_M admits an integral weighted ternary theta lift. After extraction of the coefficients at multiples of |h_*| it gives a classical holomorphic weight-3/2 form g_M = sum a_M(n)q^n, of level supported on S cup {l}, with (co:recurrence) modulo 2^M. ... For squarefree admissible D, a_M(D) = c_0 2^{omega(N)} zeta_M(D) lambda_M(red_l(L P_D)) (mod 2^M), where zeta_M(D) is a 2-power root of unity and c_0, L are fixed integers independent of D,M,l. The extra index restriction at l is (D/l)=1.' Construction: B the definite quaternion algebra ramified at l and infinity, R an Eichler order of level N, supersingular set X = B^x \\ B-hat^x / R-hat^x, Brandt eigenvalues a_p(E); Schwartz weights at 2, at p^e||N, at p|h_*, at l given explicitly.",
+      "hypotheses": "E(Q)[2] != 0; fixed negative h_* with L(E^{(h_*)},1) != 0; good prime l with rho_T(Fr_l) = complex conjugation mod 2^M, (h_*/l)=-1, (D_w/l)=1 (Chebotarev); any level N including arbitrary 2-power (Jetchev-Kane Secs 1.1-1.2, 2.4-2.6; Cornut-Jetchev).",
+      "location": "sections/coefficients.tex lines 187-252 (Lemma 7.2), 256-532 (Lemma 7.3)",
+      "kind": "algorithmic",
+      "relevance": "cost reduction: NO. This is a Brandt-matrix / supersingular-set construction at level N*l (class set size ~ N*l/12 * prod(1+1/p)), strictly larger than the seed-scale definite-quaternion enumeration (~5e14 classes) the lab already classifies as UNAFFORDABLE. The weights require 2^M-division points of Heegner points, not computable here."
+    },
+    {
+      "label": "Proposition 7.4 (co:odd, 'Odd coefficient detection')",
+      "statement": "Verbatim: 'The forms in Lemma co:theta-bridge, after a fixed adjustment of precision, satisfy v(a_M(D)) >= min{M, j(P_D)-C}, v(a_M(D)) < M => j(P_D) <= v(a_M(D))+C. A visible coefficient detects a(E^{(D)})=1, and a fixed positive witness has bounded coefficient valuation as M -> infinity. All constants are independent of M,l,D.' Here P_D is the genus-character Heegner sum over K_D=Q(sqrt(D h_*)) and j(P_D) its index in the free line of E^{(D)}(Q).",
+      "hypotheses": "As Lemma 7.3; Gross-Zagier for genus characters; L(E^{(h_*)},1) != 0.",
+      "location": "sections/coefficients.tex lines 534-562",
+      "kind": "heegner_theta",
+      "relevance": "none (rank-one twist detection only)."
+    },
+    {
+      "label": "Proposition 7.9 (co:symbol-interface) + Theorem 8.3 (gr:address, 'Address lemma') + Lemmas 8.1, 8.4-8.6",
+      "statement": "Thm 8.3 (abridged verbatim): 'Suppose the binary symbols under consideration depend only on the arithmetic graph data and satisfy the contraction, whole-rational-prime omission, and primary-isolation rules of Proposition co:symbol-interface ... Fix b>=1 and either of the following terminal arrangements. (1) One symbol, a nonempty set of always active terminals, and a nonzero polynomial in their independent pair bits. (2) One or two symbols on terminals with nonzero linear activations ... Starting from any fixed realization of the terminal and stationary vertices, one can adjoin finitely many fresh primary auxiliary vertices, activated by nonzero linear forms, and choose only incidences involving these new vertices so that every symbol equals 1 at every x != 0.' Prop 7.9 gives the coefficient-level contraction rule: changing one oriented ramification bit at p in U changes the symbol by A((U \\ {p}) cup {q'}), Fr_{q'} ~ g phi_p, 'unless p,q are both simple, in which case the change is zero.'",
+      "hypotheses": "Purely combinatorial over F_2 (all-minors matrix-tree theorem, Chevalley-Warning) plus realization of residue-symbol prescriptions by Chebotarev/ray-class prime ideal theorem; Prop 7.9 is 'conditional on its coefficient lower bounds' (discharged by Prop 9.10 for the odd source).",
+      "location": "sections/coefficients.tex lines 898-1028; sections/graphs.tex lines 74-162 (Lemma 8.1), 199-231 (Thm 8.3), 242-529 (Lemmas 8.4-8.6), proof 533-635",
+      "kind": "other",
+      "relevance": "none (combinatorics of quadratic-residue graphs à la Smith/Heath-Brown 2-Selmer methods, used only to engineer twist families)."
+    },
+    {
+      "label": "Lemma 9.9 (pw:height-comparison, 'Height comparison')",
+      "statement": "Verbatim: 'With the fixed modular parametrization and the fixed genus partner h_*, the explicit Gross--Zagier formula gives, whenever the relevant factors have analytic orders one and zero, 2j_h(k)-2j(P_h) = v(L_*(hk))+O(1). For k with bounded prime count as in Lemma pw:rough-companion, the error is uniform in h,k; for a fixed k it is uniform in h.'",
+      "hypotheses": "Analytic orders (1,0) for E^{(h)}, E^{(hk)}; K=Q(sqrt k) split at 2N; extra-unit fields excluded; imports Cai-Shu-Tian 2014 Thm 1.1 (explicit Gross-Zagier with (N,D)=1, mu(N,D)=0).",
+      "location": "sections/pointwise.tex lines 427-471",
+      "kind": "heegner_theta",
+      "relevance": "none for the seed (rank-1 Gross-Zagier only; no rank-2 formula, so nothing for Q36)."
+    },
+    {
+      "label": "Proposition 9.10 (pw:odd-lower, 'Uniform lower bound for the odd detector') with Lemma 9.8 (pw:rough-companion) and Prop 9.6 (pw:partitionable-even)",
+      "statement": "Prop 9.10 verbatim: 'Every analytically rank-one h in the prepared positive filter of Lemma pw:rough-companion satisfies 2j(P_h) >= 2w(h)+s(h)-C. In particular j(P_h) >= w(h)-C uniformly in h and its prime count.' Prop 9.6 verbatim: 'For every partitionable parameter h on its filter with s_2(E^{(h)})=0, L_*(h) != 0, v(L_*(h))-2w(h)-s(h) <= C.'",
+      "hypotheses": "E(Q)[2] != 0; h of analytic order one in the prepared filter; companion k'(h) with omega(k') <= A from Prop 6.2; Cor 4.1; Lemma 9.9; isogeny-invariance of the BSD quotient at rank-0 twists with known finite Sha.",
+      "location": "sections/pointwise.tex lines 279-301 (Prop 9.6), 355-425 (Lemma 9.8), 473-497 (Prop 9.10)",
+      "kind": "heegner_theta",
+      "relevance": "none."
+    }
+  ],
+  "external_inputs": [
+    {"name": "Kato 2004 (Asterisque 295): Secs 5.1, 8.1, 8.9-8.12 (zeta classes, trace, norm relations), Thm 6.6 and (4.2.4) (smoothing factors), Thm 9.7 (reciprocity/dual exponential), Thm 12.5(1),(3) (rational height-one divisibility), Remark 12.8, (12.8.2), Thm 13.4(v), Sec 13.13, Thm 13.5(2), Secs 13.6, 13.9, Lemma 13.10(2)", "how_used": "Cyclotomic side at p=2: fixed-form integral zeta classes, unsmoothing, central reciprocity formula (cy:reciprocity), and the rational divisibility Char(H^2) | index of zeta class over Lambda[1/2] (cy:divisibility). The manuscript asserts 'These assertions hold at the coefficient prime 2' and 'This is not an additional residual-image hypothesis in Theorem 12.5(3)'; '12.5(4) is not used'.", "black_box": true},
+    {"name": "Burungale-Tian 2026 (Annals 203(1)), Thm 2.6 and Remark 2.7 (arXiv 2506.03465v1)", "how_used": "Supplies the rational Kato divisibility at every prime including 2 in the CM case (cyclotomic.tex 436-437). Also cited in intro as the rank-zero CM p-converse.", "black_box": true},
+    {"name": "Ferrero-Washington 1979 (mu=0 for abelian fields)", "how_used": "Bounds 2-ranks of class groups along the real cyclotomic Z_2-tower in Lemma 3.6 (residual concentration).", "black_box": true},
+    {"name": "Nekovar, Selmer complexes (Asterisque 310): Thm 6.3.4, Secs 5.7, 6.9.1, 5.7.1.6, Prop 5.2.4", "how_used": "Global/local duality for Selmer complexes with real-place modification, Poitou-Tate length formula, local derived duality; used in Lemmas 3.5, 4.5, 5.1, Prop 3.7, eq. rl:global-duality. The paper stresses only the orthogonality hypotheses are used, 'the theorem is not being used to assert the existence of a varying-prime limit'.", "black_box": true},
+    {"name": "Gross-Zagier 1986; Cai-Shu-Tian 2014 Thm 1.1 (explicit Gross-Zagier/Waldspurger)", "how_used": "Heegner point nontorsion iff simple zero (ring-limits.tex 32-35; Prop 7.4; proof of Thm 4.2); explicit height ratio in Lemma 9.9; conductor-one formula at the base in proof of Thm 4.2.", "black_box": true},
+    {"name": "Kolyvagin 1990; Howard 2004 (Compositio; cited as Howard2012) Prop 1.7.4, Lemmas 1.5.3, 1.6.4", "how_used": "Derivative operators and the finite/singular switch pattern (Lemma 5.2, Prop 5.5). The manuscript claims its own integral descent at 2 and says Howard's odd-prime hypotheses 'are not being asserted at 2'; the forward GZK theorem is used throughout (Lemma 2.1, Prop 5.10, final proof).", "black_box": true},
+    {"name": "Monsky 1996; Dokchitser-Dokchitser 2010 Thms 1.4, 4.19 and Sec 4.1", "how_used": "2-parity (-1)^{s_2}=root number (Lemma 2.2); isogeny invariance of BSD quotient (Prop 5.10).", "black_box": true},
+    {"name": "Cassels 1965 Thm 1.1; Milne ADT I Thm 7.3 (7.3.1), I Thm 3.2, Cor 3.4", "how_used": "Cassels-Tate isogeny identity for Res_{K/Q}E^{(h)} vs E^{(h)} x E^{(hk)} (eq. rd:isogeny-identity); local Tate duality for Kummer images.", "black_box": true},
+    {"name": "Serre 1972 (open image), Serre 1968 Ch IV Sec 2.2 (CM Cartan), Bogomolov 1981 Sec 2 Thm 3 (homotheties), Faltings 1983 Sec 1 (a),(b)", "how_used": "Large-image inputs: uniform trace bounds (Prop 4.6), exact common kernel (Lemma 4.10), torsion bound over ring-class fields (Lemma 5.2), irreducibility of V_2 A (Lemma 7.2).", "black_box": true},
+    {"name": "Waldspurger 1981 Cor 2 pp.483-484, Sec I.2 Prop 2; Shimura 1973; Ramsey 2006 Secs 3-4; Weil 1964 (I no.13, II nos.25,28, III Thm 6)", "how_used": "Weight-3/2 coefficient/central-value comparison (Prop 7.1), Hecke recurrence, algebraic forms, Weil representation transformation law for the ternary theta lift (Lemma 7.3). The paper itself 'removes (H2)' of Waldspurger for same-local-squareclass comparisons.", "black_box": true},
+    {"name": "Gross 1987 (definite quaternion/Brandt framework); Jetchev-Kane 2011 Secs 1.1-1.2, 2, 2.4-2.6; Cornut-Jetchev 2013 Secs 3.2, 4.6, 4.9-4.10, Cor 4.1", "how_used": "Supersingular set X = B^x\\B-hat^x/R-hat^x for arbitrary level N (incl. 2-power), reduction of CM points, class-group action commuting with reduction (Lemma 7.3). Used 'only for their geometry'.", "black_box": true},
+    {"name": "Deligne 1969; Carayol 1986 Thm (A)", "how_used": "Galois representations of weight-two eigensystems and local-global compatibility at a level prime (Lemma 7.7 traces, Lemma 7.8 inertia identity).", "black_box": true},
+    {"name": "Manin 1972; Drinfeld 1973 (Manin-Drinfeld)", "how_used": "Cusp differences torsion => fixed integer kills cuspidal ambiguity of the parametrization.", "black_box": true},
+    {"name": "Heath-Brown 1995 Thm 1, Cor 1 (quadratic large sieve); Gelbart-Jacquet 1978 Thm 9.3, Rmk 9.9; Iwaniec 1990; Hoffstein-Luo 1997 Sec 2; Radziwill-Soundararajan 2015 Prop 2; Friedlander-Iwaniec 2010 Thm 11.13", "how_used": "Analytic nonvanishing of twists and derivatives with prescribed local conditions and bounded factor count (Props 6.1, 6.2, Lemma 6.3). Proof is self-contained modulo these tools.", "black_box": true},
+    {"name": "Chevalley 1935 / Warning 1935; Heath-Brown 2011 (Chevalley-Warning note) Sec 1 eq (1); Chaiken 1982 Sec 1 (all-minors matrix tree)", "how_used": "Binary congruence lemma (Lemma 3.4, Lemma 5.16); forest coefficient formulas (Lemma 8.5).", "black_box": false},
+    {"name": "BCDT 2001 (modularity)", "how_used": "Analytic continuation/functional equation of all L(E^{(h)},s).", "black_box": true},
+    {"name": "Context-only citations (not used in proofs): Skinner 2020 (only its Sec 1 forward statement), Zhang 2014, CGLS 2022 Thm E, Keller-Yin 2024 Thm B, Smith 2025, Kim 2023, Burungale-Skinner 2024 appendix Thms A.1, A.3, Rmk A.5, BCST 2022, Kriz 2022 Thms 1.1, 10.17(2), BSD 1965, Tate 1966", "how_used": "Introduction survey of known p-converses; no logical dependence.", "black_box": false}
+  ],
+  "internal_dependencies": [
+    {"oai_paper": "Goldfeld's analytic density conjecture and the 2-converse for elliptic curves (OAI, October 7, 2026; previous version September 23, 2026) - bib key OpenAIGoldfeldTwoConverse2026", "what_used": "Cited only in the introduction as 'The broader companion [Theorem 1.1] proves the 2-converse without the rational-two-torsion hypothesis. Here we give a separate full treatment of the rational-two-torsion case ... the broader converse is not an input to the proof.' No theorem of that manuscript is used. Per history.md neither manuscript is withdrawn; the Oct 7 revisions of both are citation/version updates only (history.md: '13 additional manuscripts to cite the revised editions of companion papers'). Note CONTENTS.md also lists 'The Selmer converse for elliptic curves at every prime' (all p, coranks 0,1), not cited here.", "location": "sections/introduction.tex lines 39-43; README.md version note"}
+  ],
+  "self_declared_gaps": [
+    "Intro (introduction.tex 35-37): 'It does not assert the full Birch--Swinnerton-Dyer leading-coefficient formula, nor does a bound rank E(Q)<=1 alone imply its Selmer hypothesis.'",
+    "All constants (C_E, C_int, C_loc, C(E,A), c_E, A_0, L, c_0, C_g, delta, C_k ...) are existence constants; none is made explicit or effective. Required cube dimension b, auxiliary prime sizes and precisions 'may depend on the base' / 'on the fixed precision being tested' (Thm 3.2; ledger in preliminaries.tex 127-150).",
+    "Standing exclusions in the ring-class part: 'We omit the two fields with extra units and, when E has complex multiplication, its CM field' (ring-limits.tex 15-16); companion fields must satisfy the split Heegner hypothesis at 2N.",
+    "Lemma 3.5 proof: 'This is a fixed-S argument; it does not assert uniform bounds on the number of generators as S varies.' Uniformity is instead obtained after localization at (2) (Lemma 4.8) and via the ultraproduct argument (Prop 5.7).",
+    "cyclotomic.tex 437-438 on Kato 12.5(3)/Burungale-Tian: 'Neither statement asserts uniform integrality in a quadratic group ring' - the uniform integrality 2^{C_int} u in Lambda[G] is the manuscript's own claim (eq. cy:uniform-integrality).",
+    "Lemma 4.4 proof: 'An arbitrary later subsequence or a different ultrafilter is not allowed in this assertion ... it does not create an arithmetic map from a formal description of its expected properties.'",
+    "Theorem 4.14: 'These assertions do not assert an Euler-system reciprocity law or an integral derivative class that has not first been constructed at finite level.'",
+    "Lemma 5.2 proof: 'Howard's odd-prime global hypotheses are not being asserted at 2.' (the 2-adic Kolyvagin descent is the manuscript's own).",
+    "Prop 5.7: 'The hypotheses refer to a single simultaneous construction. In particular, separate abstract models realizing its individual cohomology groups do not establish this proposition's arithmetic applicability.' Remark 5.18: 'The determinant argument can be reused only with the simultaneous arithmetic construction verified in Proposition rd:assembly and Theorem rl:limit-evaluation-package. Neither the published duality theorem nor the classical Heegner formulas alone supplies that interface.'",
+    "Prop 5.14 proof: 'No uniform bound on the finite Selmer quotient as K varies is asserted or needed for the missing-vertex argument.'",
+    "coefficients.tex 8-10 and 582-583: the odd detector's normalization 'remains conditional until Proposition pw:odd-lower'; 'The remaining coefficient calculus is conditional on these lower bounds; it does not establish them.' Prop 7.9 is stated 'Under the arithmetic lower bounds in Lemma co:minimum'.",
+    "graphs.tex 637-646: 'The theorem is finite for each b; it does not assert a single infinite array of primes ... The arithmetic valuation constant attached to a unit symbol must still be supplied by the coefficient construction independently of b; no determinant or forest count in this section proves that uniformity.'",
+    "Prop 7.1 proof: Waldspurger's hypothesis (H2) is 'removed' by the manuscript's own argument ('the final paragraph of the comparison proof removes (H2) for these local squareclasses'); 'No exceptional local representation at 2 is excluded by the same-local-class comparison' is asserted, not proved in detail.",
+    "nonvanishing.tex 29-31: 'We retain an arbitrary fixed progression and track an absolute factor-count bound without optimizing it.'",
+    "Definition 8.2: partitionability 'includes a specified contraction certificate; it makes no assertion about a Selmer group.'"
+  ],
+  "applicability": {
+    "seed_E": "NOT APPLICABLE (kill test K-RANK2). Theorem 1.1 requires s_2(E)=corank_{Z_2}Sel_{2^infty}(E/Q) in {0,1}; for the seed rank E(Q)=2 and Sha(E/Q)[2^infty]=0 give s_2(E)=2 exactly. The torsion hypothesis E(Q)[2] != 0 IS satisfied (T=(0,0), E(Q)_tors=Z/2) and the manuscript imposes no reduction condition at 2 (I1* additive is allowed), but that is irrelevant since the Selmer hypothesis fails. No intermediate result gives information at any odd prime: the entire paper is 2-adic (Lambda=Z_2[[t]], T=T_2E). Sha(E/Q)[2^infty]=0 is already known in the lab. Q36 is explicitly outside the paper's scope ('does not assert the full BSD leading-coefficient formula'); no rank-2 Gross-Zagier or archimedean comparison appears. FIN and ORDER9 (Sha[p^infty] for p>=5) are untouched. Net contribution to the seed obligations: none.",
+    "twist_Em7": "Hypotheses of Theorem 1.1 hold for E^{-7}: E^{-7}[2] is isomorphic to E[2] as a Galois module (quadratic twist is trivial on 2-torsion), so E^{-7}(Q)[2] != 0; and s_2(E^{-7})=0 since rank 0 and Sha finite. But the conclusion (ord_{s=1}L(E^{-7},s)=0, rank 0, Sha(E^{-7}/Q) finite) is exactly what the lab already has from L(E^{-7},1) != 0 (PROVED_COMPUTER_ASSISTED) plus Gross-Zagier-Kolyvagin, and the paper's direction (Selmer corank => analytic rank) is the one the lab does not need. The paper gives NO bound on #Sha(E^{-7}): Theorem 3.1 would give v_2(L_*(-7)) >= t_7 + length Sha(E^{-7})[2^infty] - C_E with an ineffective C_E; Prop 7.1 relates v_2 of L-value ratios to weight-3/2 coefficients at level ~4N (infeasible at N=6.5e15); neither touches odd p. The lab's existing cost for #Sha(E^{-7}) is not reduced.",
+    "by_prime": "p=2: the only prime the manuscript treats. Hypotheses allow the seed's additive I1* reduction at 2 and the rational 2-torsion, but every theorem needs 2-adic Selmer corank 0 or 1 (fails for E) or a Heegner field split at 2N (fails for K=Q(sqrt-7), where 3, 2243, 5843 are inert). Sha(E)[2^infty]=0 is already known; nothing new. p=3 (nonsplit multiplicative): no content; the paper has no 3-adic machinery and 3 | N is merely a fixed-support prime. p=2243 (split multiplicative), p=4547 (additive type III, potentially supersingular), p=5843 (nonsplit multiplicative): no content; bad primes only enter through 'fixed local twisting classes at 2N' with bounded constants. Good ordinary p>=5 and good supersingular p (23, 29, 131, ...): no content; no p-adic L-function, IMC, control theorem or Euler-system bound at any odd p. Lemma TH (plectic route at 5843): not addressed; the paper's theta elements are weight-3/2 ternary theta lifts at p=2, not level-raised anticyclotomic theta elements, and its Heegner construction requires split rather than inert bad primes."
+  },
+  "red_flags": [
+    "Crux uniformity rests on a novel ultraproduct argument. The claim that all 2-adic constants are independent of the number of twisting primes and of the cube dimension (Thm 3.1, Cor 4.1, Prop 5.7 'Uniform residual valuation from outer rank reduction', Prop 5.14) is proved by contradiction inside an ultraproduct DVR O_infty = (prod_U O_j)/a of completed Iwasawa algebras with 'all-sequence evaluation' of cochain classes on products of Galois groups (Lemmas 4.4, 4.9-4.13, Prop 4.11). This replaces the residual-irreducibility input that standard Kolyvagin-system arguments need (unavailable at p=2 with rational 2-torsion). The manuscript itself repeatedly warns the argument is valid only for 'the same original stages and ultrafilter' and 'a single simultaneous construction' (Prop 5.7, Remark 5.18). This is unrefereed, nonstandard, and the single point of failure for the whole paper.",
+    "Prop 5.7 proof: outer cycles 'can be represented by vectors w_i for which v(D_i w_i) -> +infinity, without exact inner lifts', and rank-two evaluations of such approximate cycles are 'realized by inner derivative primes' by finite Chebotarev; then Lemma 5.3 'preserves each inner determinant valuation exactly' although 'its multiple of v_i has large valuation'. Whether the switch lemma (stated for genuine cycles with f(A)=v_0 != 0) applies to these approximate objects is asserted in prose, not verified.",
+    "Use of Kato at p=2 (cyclotomic.tex 329-330, 391-392, 429-435): the manuscript asserts Kato's trace/norm relations (Secs 8.9-8.12), Thm 9.7 and Thm 12.5(3) hold at the coefficient prime 2 without extra hypotheses, and that the only large-image input is Serre's open image. This must be checked against Kato's text; several Euler-system divisibility statements in the literature are formulated for odd p. Not verified here.",
+    "Prop 7.1 (Waldspurger comparison): the manuscript 'removes' Waldspurger's hypothesis (H2) and asserts 'No exceptional local representation at 2 is excluded by the same-local-class comparison' for arbitrary conductor at 2; the local theory of the Shimura correspondence at 2 is notoriously delicate and the justification is one paragraph.",
+    "Lemma 7.7 / Prop 7.9: the odd-source forms g_M are Hecke eigenforms only modulo 2^M (weights are 'any integer lifts' of values mod 2^M, 'need satisfy no characteristic-zero eigenrelation'), yet trace/determinant operators t(u), d(u) are defined via characteristic-zero eigensystems and Chebotarev continuity; the stabilization of minima and truth tables over M uses nonprincipal ultrafilters (Lemma 7.5, pointwise.tex 509-549). The passage between mod-2^M approximate eigenforms and characteristic-zero eigensystem identities is a subtle step treated briskly.",
+    "Prop 5.15 ('Assembly of the arithmetic diagrams') and Thm 4.14 are the load-bearing verifications that the actual Heegner/Selmer constructions satisfy the simultaneous-diagram hypotheses of Props 5.5, 5.7, 5.10, 5.14; their proofs are summaries ('Combine Lemmas ...', 'These are the three hypotheses of ...') rather than checks.",
+    "Internal: Theorem 4.2 and Cor 4.1 are STATED in Section 4 (ring-limits.tex) but numbered/proved in Section 5; the roadmap figure and Prop 9.1 restate hypotheses slightly differently (e.g. 'k is a square at 2Nh' vs 'K split at 2N'); not contradictory but easy to misread.",
+    "Minor: bib key Howard2012 refers to Howard, Compositio 2004 (year mismatch is cosmetic). Citation Burungale-Tian, Annals 203(1) 2026 pp.1-13 could not be verified here.",
+    "No dependence on withdrawn manuscripts (history.md withdrawals concern Weil classes / Kuga-Satake / Hodge conjecture papers). The only OAI citation (Goldfeld 2-converse companion) is explicitly not an input. No Lean formalization exists for any statement of this paper (grade stays IMPORTED_PREPRINT).",
+    "Abstract vs theorem: consistent (both say corank 0 or 1, rational two-torsion, arbitrary reduction at 2). No overclaim detected in the abstract; the intro correctly disclaims the BSD formula."
+  ],
+  "notes": "Summary verdict for the lab: nothing in this manuscript proves or reduces the cost of any seed obligation (FIN, ORDER9, Q36, Sha[p^infty] at 3, 2243, 4547, 5843 or at good p, #Sha(E^{-7}), lemma TH). It is a pure p=2 result in the Selmer-corank-to-analytic-rank direction, applicable only to curves with s_2 in {0,1}; the seed has s_2(E)=2, and for E^{-7} its conclusion is already known. The published-literature imports it uses that are relevant to the lab's own chains (Cassels-Tate isogeny identity, Cai-Shu-Tian explicit Gross-Zagier, Monsky/DD parity, quadratic-twist nonvanishing) are better imported directly from their sources. Theorem numbering above was computed from the LaTeX counter and cross-checked against the PDF text (e.g. Theorem 3.1/3.2, Cor 4.1, Thm 4.2, Prop 5.10, Prop 7.1, Lemma 7.3, Thm 8.3, Prop 9.7, Prop 9.14). File written: /tmp/claude-0/-home-user-bsd-seed-lab/ab9d3026-f88f-51d1-8e47-f94a5d2c0e6f/scratchpad/scan/map/pointwise-2-converse.json"
+}

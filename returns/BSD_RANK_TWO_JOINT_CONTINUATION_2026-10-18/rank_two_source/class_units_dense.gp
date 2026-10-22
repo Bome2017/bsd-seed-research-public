@@ -1,0 +1,1 @@
+{alarm(57);gettime();default(debug,3);NF=read("nf.gp");B=bnfinit(NF,1,[0,0,20]);writebin("bnf_dense.bin",B);write("class_dense.gp",[B.cyc,B.no,B.reg]);print("BNF_DENSE_SAVED;CYC=",B.cyc,";MS=",gettime());FU=bnfunits(B);write("units_compact.gp",FU);print("UNITS_DENSE_SAVED;GENERATORS=",#FU[1],";MS=",gettime());quit;}

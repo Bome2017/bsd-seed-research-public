@@ -1,0 +1,218 @@
+{
+  "tame": [
+    {
+      "curve": "seed",
+      "p": 17,
+      "ell": 103,
+      "run": "l103",
+      "paths": {
+        "msl.txt": "inputs/tame/l103/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/l103/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/l103/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 19,
+      "ell": 191,
+      "run": "p19_l191_v2",
+      "paths": {
+        "msl.txt": "inputs/tame/p19_l191_v2/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p19_l191_v2/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p19_l191_v2/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 23,
+      "ell": 47,
+      "run": "p23_l47",
+      "paths": {
+        "msl.txt": "inputs/tame/p23_l47/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p23_l47/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p23_l47/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 29,
+      "ell": 59,
+      "run": "p29_l59",
+      "paths": {
+        "msl.txt": "inputs/tame/p29_l59/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p29_l59/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p29_l59/SINGLETON_REPORT.json"
+      },
+      "role": "inconclusive_zero"
+    },
+    {
+      "curve": "seed",
+      "p": 29,
+      "ell": 233,
+      "run": "p29_l233_v2",
+      "paths": {
+        "msl.txt": "inputs/tame/p29_l233_v2/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p29_l233_v2/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p29_l233_v2/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 31,
+      "ell": 311,
+      "run": "p31_l311",
+      "paths": {
+        "msl.txt": "inputs/tame/p31_l311/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p31_l311/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p31_l311/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 37,
+      "ell": 149,
+      "run": "p37_l149",
+      "paths": {
+        "msl.txt": "inputs/tame/p37_l149/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p37_l149/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p37_l149/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 41,
+      "ell": 83,
+      "run": "p41_l83",
+      "paths": {
+        "msl.txt": "inputs/tame/p41_l83/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p41_l83/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p41_l83/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 43,
+      "ell": 173,
+      "run": "p43_l173",
+      "paths": {
+        "msl.txt": "inputs/tame/p43_l173/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p43_l173/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p43_l173/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 47,
+      "ell": 283,
+      "run": "p47_l283",
+      "paths": {
+        "msl.txt": "inputs/tame/p47_l283/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p47_l283/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p47_l283/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 83,
+      "ell": 167,
+      "run": "p83_l167",
+      "paths": {
+        "msl.txt": "inputs/tame/p83_l167/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p83_l167/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p83_l167/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 5,
+      "ell": 191,
+      "run": "p19_l191_v2",
+      "paths": {
+        "msl.txt": "inputs/tame/p19_l191_v2/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p19_l191_v2/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p19_l191_v2/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 5,
+      "ell": 311,
+      "run": "p31_l311",
+      "paths": {
+        "msl.txt": "inputs/tame/p31_l311/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/p31_l311/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/p31_l311/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "seed",
+      "p": 3,
+      "ell": 103,
+      "run": "l103",
+      "paths": {
+        "msl.txt": "inputs/tame/l103/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/l103/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/l103/SINGLETON_REPORT.json"
+      },
+      "role": "positive_excess_control"
+    },
+    {
+      "curve": "389a1",
+      "p": 7,
+      "ell": 29,
+      "run": "l29",
+      "paths": {
+        "msl.txt": "inputs/tame/l29/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/l29/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/l29/SINGLETON_REPORT.json"
+      },
+      "role": "nonzero_certificate_or_crosscheck"
+    },
+    {
+      "curve": "389a1",
+      "p": 7,
+      "ell": 379,
+      "run": "l379",
+      "paths": {
+        "msl.txt": "inputs/tame/l379/msl.txt",
+        "RUN_MANIFEST.json": "inputs/tame/l379/RUN_MANIFEST.json",
+        "SINGLETON_REPORT.json": "inputs/tame/l379/SINGLETON_REPORT.json"
+      },
+      "role": "inconclusive_zero"
+    }
+  ],
+  "ordinary": [
+    {
+      "p": 5,
+      "top": "inputs/ordinary/p5_top.txt",
+      "lower": "inputs/ordinary/p5_lower.txt"
+    },
+    {
+      "p": 7,
+      "top": "inputs/ordinary/p7_top.txt",
+      "lower": "inputs/ordinary/p7_lower.txt"
+    },
+    {
+      "p": 11,
+      "top": "inputs/ordinary/p11_top.txt",
+      "lower": "inputs/ordinary/p11_lower.txt"
+    },
+    {
+      "p": 13,
+      "top": "inputs/ordinary/p13_top.txt",
+      "lower": "inputs/ordinary/p13_lower.txt"
+    }
+  ]
+}

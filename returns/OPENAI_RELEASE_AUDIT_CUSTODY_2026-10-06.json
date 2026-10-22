@@ -1,0 +1,25 @@
+{
+ "return": "BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-07T01:34:53Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "CONSOLIDATED: OpenAI supplies transport machinery (gearbox) but no rank-two global anchor; no arithmetic manuscript is Lean-formalized; nothing imported as a theorem",
+ "files": [
+  {
+   "path": "BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "6b107b9e060631b38c7c5e6e6f1a769eabac939453503c99a2781943fb85f1ed",
+   "bytes": 90
+  },
+  {
+   "path": "BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+   "sha256": "eeb4b685106117bd4f9db8d4f3281bd3bd936a5ad87f340e3bb732c4924bacea",
+   "bytes": 5323
+  }
+ ],
+ "inputs": {
+  "openai_math_repo": "https://github.com/openai/math (Apache-2.0); cited, not copied"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

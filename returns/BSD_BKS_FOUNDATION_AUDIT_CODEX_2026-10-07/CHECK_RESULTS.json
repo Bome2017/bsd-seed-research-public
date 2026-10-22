@@ -1,0 +1,10 @@
+{
+  "status": "EXACT_SOURCE_CONVENTION_CONTROLS_PASS",
+  "smoothing_euler_cases": 20,
+  "shifted_prime_cases": 10,
+  "wrong_untwisted_augmentation_rejected": 10,
+  "e_2243": "2242/2243",
+  "v19_e_2243": 1,
+  "v59_e_2243": 1,
+  "scope": "formal coefficient identities, not Galois-cohomology or seed Kato evaluations"
+}

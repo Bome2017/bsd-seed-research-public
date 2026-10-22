@@ -1,0 +1,70 @@
+{
+  "entries": 16,
+  "status": "PASS",
+  "results": [
+    {
+      "path": ".gitignore",
+      "ok": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "ok": true
+    },
+    {
+      "path": "LOCAL_SETUP.md",
+      "ok": true
+    },
+    {
+      "path": "PACKET_README.md",
+      "ok": true
+    },
+    {
+      "path": "PILOT_IF_FORMULA.md",
+      "ok": true
+    },
+    {
+      "path": "PROVISIONING.json",
+      "ok": true
+    },
+    {
+      "path": "README.md",
+      "ok": true
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "ok": true
+    },
+    {
+      "path": "TASK.md",
+      "ok": true
+    },
+    {
+      "path": "reference/07_good_primes.tex",
+      "ok": true
+    },
+    {
+      "path": "reference/A3_MINIMAL_INPUT_CHECK.md",
+      "ok": true
+    },
+    {
+      "path": "reference/G_bridge_proof.tex",
+      "ok": true
+    },
+    {
+      "path": "reference/HB_REVIEW_REV2.md",
+      "ok": true
+    },
+    {
+      "path": "reference/LABELS.md",
+      "ok": true
+    },
+    {
+      "path": "reference/PAIR_WITNESS_LEMMAS.md",
+      "ok": true
+    },
+    {
+      "path": "reference/refs.bib",
+      "ok": true
+    }
+  ]
+}

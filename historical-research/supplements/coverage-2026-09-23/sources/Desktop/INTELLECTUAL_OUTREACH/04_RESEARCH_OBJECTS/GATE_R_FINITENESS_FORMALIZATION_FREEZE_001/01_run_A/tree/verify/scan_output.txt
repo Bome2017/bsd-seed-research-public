@@ -1,0 +1,24 @@
+=== forbidden-construct scan ===
+project root      : /workspace/request-project
+lean files scanned: 39 (+1 injected positive control)
+injected control  : /tmp/scan_control_skgqyakt/POSITIVE_CONTROL.lean
+
+RequestProject/GateR/Assembly.lean
+    raw (comments included): {'sorry': 1}
+    code (comments stripped): {}
+RequestProject/GateRFinite/Finiteness.lean
+    raw (comments included): {'sorry': 1}
+    code (comments stripped): {}
+RequestProject/P01/Instances.lean
+    raw (comments included): {'native_decide': 1}
+    code (comments stripped): {}
+../../tmp/scan_control_skgqyakt/POSITIVE_CONTROL.lean
+    raw (comments included): {'sorry': 1, 'admit': 1, 'axiom': 1, 'native_decide': 1, 'ofReduceBool': 1, 'trustCompiler': 1, 'implemented_by': 1, 'unsafe': 1, 'extern': 1}
+    code (comments stripped): {'sorry': 1, 'admit': 1, 'axiom': 1, 'native_decide': 1, 'ofReduceBool': 1, 'trustCompiler': 1, 'implemented_by': 1, 'unsafe': 1, 'extern': 1}
+
+--- positive control check ---
+control code hits: {'sorry': 1, 'admit': 1, 'axiom': 1, 'native_decide': 1, 'ofReduceBool': 1, 'trustCompiler': 1, 'implemented_by': 1, 'unsafe': 1, 'extern': 1}
+PASS: the scanner detects a genuine `axiom`/`sorry`/`admit`/`native_decide`/`unsafe`/`implemented_by`/`extern` file.
+
+--- project verdict ---
+no forbidden construct in code position in any project .lean file

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/SEARCH_CONTRACT.md",
+    "sha256": "2c3d040a7b73658b6fe3a3c50520c4faeeea895a436e64949619caf656ccd708",
+    "bytes": 1887
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/search.gp",
+    "sha256": "f57165d6eb155333e967e4c51740dec0aabc11ca7950e99bdf28185067b05e8c",
+    "bytes": 2698
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/search.gp.out",
+    "sha256": "bd65bac456fd0307d63c32f18e49475408c13bdcd56bef4ba6901284bb5bf155",
+    "bytes": 165091
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/search.gp.err",
+    "sha256": "f01148aee66e2b54870e4e339d308a693475ad12ee409d1a79ee6fe60119a639",
+    "bytes": 197
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/search.gp.receipt.json",
+    "sha256": "e41ab613f25a2982198f840e532d3c892b8e44c76d3cf627aba64f94ddeb25a8",
+    "bytes": 156
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/ADAPTATION_CONTRACT.md",
+    "sha256": "372591b9cebb4658c51873a7b7c49b88bd35d9dae3c4575cef7ef06ff551b258",
+    "bytes": 1028
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/adapt.gp",
+    "sha256": "f83e3ac8fae88c74de935a1183c2abcb0fa4c9ca2b93fc77f67fffde09eb2bef",
+    "bytes": 1987
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/adapt.gp.out",
+    "sha256": "97c9cb8c5ee1be5c27cd960c5ab4a2d9efe15617b7b4fd12fcae2a14b63115f0",
+    "bytes": 653
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/adapt.gp.err",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/adapt.gp.receipt.json",
+    "sha256": "95fe124f4a72d968757ff3502f5d9076868d17531ba25935cc489c9ed2ee9284",
+    "bytes": 151
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/adaptation_checks.gp",
+    "sha256": "98a7bb29799f4670770d43ae7764754fa4cc32de370281b718c0c867ab39633a",
+    "bytes": 170008
+  },
+  {
+    "path": "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/source/DIAGNOSTIC_TOP20.json",
+    "sha256": "ed1b1241055d33d532e74dfca1cc9251babf7579ace7e1ef6b5b6f408539549d",
+    "bytes": 1512
+  }
+]

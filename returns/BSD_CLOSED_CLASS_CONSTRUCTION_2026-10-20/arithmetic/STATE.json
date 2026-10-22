@@ -1,0 +1,31 @@
+{
+  "status": "NO_CLOSED_BOUND_FROM_TESTED_GEOMETRIC_FAMILY",
+  "active_jobs": [],
+  "source": "actual seed elliptic line and tangent functions at nonzero5torsion",
+  "old_rows_used": 0,
+  "distinct_functions": 31,
+  "scalar_elements": 124,
+  "coprime_atoms": 134,
+  "faithful_columns": 28,
+  "inside_columns": 6,
+  "outside_columns": 22,
+  "relation_ranks": [
+    20,
+    20
+  ],
+  "outside_ranks": [
+    20,
+    20
+  ],
+  "net_closed_ranks": [
+    0,
+    0
+  ],
+  "outside_fifth_ambiguities": [],
+  "integer_kernel_dimension": 84,
+  "actual_unit_products_all_one": true,
+  "new_complete_class_bound": null,
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged"
+}

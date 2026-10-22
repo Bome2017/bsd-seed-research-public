@@ -1,0 +1,47 @@
+{
+  "lab_commit": "ac9d9243171e091990a1d7f510d5cc7cce7896a8",
+  "inputs": [
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/CURRENT_STATE.md",
+      "lab_path": "CURRENT_STATE.md",
+      "copied_path": "context/CURRENT_STATE.md",
+      "sha256": "39f1ba089ead7dfce04d354c3fd8575944a5d21ccac4ebc393e96c4c3249705d"
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+      "lab_path": "work/returns/BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+      "copied_path": "context/work/returns/BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+      "sha256": "eeb4b685106117bd4f9db8d4f3281bd3bd936a5ad87f340e3bb732c4924bacea"
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+      "lab_path": "work/returns/BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+      "copied_path": "context/work/returns/BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+      "sha256": "0834fb2e341b6d392a29ba111649e06b5ee6c813d0798423e8fbc65ecacd3ffc"
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md",
+      "lab_path": "work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md",
+      "copied_path": "context/work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md",
+      "sha256": "f8d083f5a9109d89fac7cef9f7dfba3ade760ea4cb61b580c8a27bdf90c9034d"
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/RESULT_RANK2_ANCHOR.md",
+      "lab_path": "work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/RESULT_RANK2_ANCHOR.md",
+      "copied_path": "context/work/returns/BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/RESULT_RANK2_ANCHOR.md",
+      "sha256": "45a2ea2f9f26a83e628c7a7734ceb69eba29ea8cfd616feaad0f3dc92a7aace8"
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/CLAUDE_CHECK.md",
+      "lab_path": "work/returns/BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/CLAUDE_CHECK.md",
+      "copied_path": "context/work/returns/BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/CLAUDE_CHECK.md",
+      "sha256": "2701bebfe2c3bae43946c82f53f5749347d5cbb1e539d96a3e0a38809ab8bf37"
+    },
+    {
+      "source": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2_REV2.md",
+      "lab_path": "work/returns/BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2_REV2.md",
+      "copied_path": "context/work/returns/BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/DELTA_TASK_OPENAI_RANK2_REV2.md",
+      "sha256": "de3c3eac2e227a6e228325d138df75e3cea311d4975f3a2b92d1419e379fe5c6"
+    }
+  ]
+}

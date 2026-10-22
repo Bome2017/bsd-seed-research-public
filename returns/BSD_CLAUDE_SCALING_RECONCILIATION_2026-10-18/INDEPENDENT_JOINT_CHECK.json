@@ -1,0 +1,176 @@
+{
+  "status": "INDEPENDENT_SAVED_MATRIX_CHECK_PASS",
+  "cases": [
+    {
+      "label": "1070a1",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 1,
+        "whole": 3
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "1141a1",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "1246c1_retry600",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "1480a1",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 1,
+        "whole": 3
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "1525c1",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "1613a1_grh",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "718b1",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "997c1",
+      "global_necessary": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "joint": {
+        "unit": 1,
+        "class": 1,
+        "valuation": 0,
+        "whole": 2
+      },
+      "point_rank": 2,
+      "excess_upper": 0
+    },
+    {
+      "label": "mirror389",
+      "global_necessary": {
+        "unit": 0,
+        "class": 1,
+        "valuation": 2,
+        "whole": 3
+      },
+      "joint": {
+        "unit": 0,
+        "class": 0,
+        "valuation": 0,
+        "whole": 0
+      },
+      "point_rank": 0,
+      "excess_upper": 0
+    },
+    {
+      "label": "seed3",
+      "global_necessary": {
+        "unit": 2,
+        "class": 2,
+        "valuation": 0,
+        "whole": 4
+      },
+      "joint": {
+        "unit": 2,
+        "class": 2,
+        "valuation": 0,
+        "whole": 4
+      },
+      "point_rank": 2,
+      "excess_upper": 2
+    }
+  ],
+  "scope": "Independent elimination of saved matrices; no fresh field, unit or class certification"
+}

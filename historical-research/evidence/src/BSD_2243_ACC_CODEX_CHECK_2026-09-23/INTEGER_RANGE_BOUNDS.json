@@ -1,0 +1,10 @@
+{
+  "T_2243": 39119887532031,
+  "m_2243": 5031049,
+  "max_terms_per_residue_class": 7775693,
+  "fixed_point_bound_bits_using_3_per_term": 121,
+  "error_tally_bound_bits": 105,
+  "m27_max_partial_sum_bound_bits": 126,
+  "i128_significant_bits": 127,
+  "u128_bits": 128
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PREPARED_NOT_SUBMITTED",
+  "package": {
+    "path": "/Users/bsm/Downloads/BSD_ARISTOTLE_GLOBAL_SUPPORT_B_2026-10-07.zip",
+    "bytes": 70919226,
+    "sha256": "111c3fb8acb26bba930fd7252eba4a18d7d29224a4153ed8a1e588fb86302ef6",
+    "zip_entries_verified": 32
+  },
+  "source_commit": "062b7f9c858e64cbf2037148c1d6c7fe635595ca",
+  "original_B_preserved": true,
+  "remote_job_status_inspected": false,
+  "job_submitted": false,
+  "endpoint_change": false
+}

@@ -1,0 +1,11 @@
+--- original/selmer.gp
++++ local/selmer.gp
+@@ -128,7 +128,7 @@
+   my(Sn = matsnf(H, 1), U = Sn[1], D = Sn[3]);   \\ U*H*V = D
+   for (i = 1, #D, my(d = D[i,i]); if (d % 3 == 0,
+       my(ev = (U^-1)[, i] * (d/3), c = idealfactorback(nf, gen, ev), c3 = idealpow(nf, c, 3), lc = bnfisprincipal(bnf, c3, 0), e, a, beta);
+-      e = matsolvemod(lp, cyc~, lc); if (e == 0, error("lsgens2: c^3 not in <S>"));
++      e = matsolvemod(lp, cyc~, lc); if (type(e) == "t_INT" && e == 0, error("lsgens2: c^3 not in <S>"));
+       a = c3; for (j = 1, #SL, a = idealmul(nf, a, idealpow(nf, SL[j], -e[j])));
+       beta = bnfisprincipal(bnf, a, 5);
+       if(beta[1] != 0*beta[1], error("lsgens2: alleged class lift ideal not principal"));

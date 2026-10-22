@@ -1,0 +1,276 @@
+{
+  "precision_4_vs_7": "PASS",
+  "division_free_checks": [
+    {
+      "point": "P1",
+      "indices": [
+        2241,
+        2242,
+        2243,
+        4484
+      ],
+      "match": true
+    },
+    {
+      "point": "P2",
+      "indices": [
+        2241,
+        2242,
+        2243,
+        4484
+      ],
+      "match": true
+    },
+    {
+      "point": "P1_plus_P2",
+      "indices": [
+        2241,
+        2242,
+        2243,
+        4484
+      ],
+      "match": true
+    }
+  ],
+  "Jacobian_checks": [
+    {
+      "point": "P1",
+      "t_mod_p4": 18877227413665,
+      "checked_projective_steps": 14,
+      "match": true
+    },
+    {
+      "point": "P2",
+      "t_mod_p4": 4573326761617,
+      "checked_projective_steps": 14,
+      "match": true
+    },
+    {
+      "point": "P1_plus_P2",
+      "t_mod_p4": 10428076260604,
+      "checked_projective_steps": 14,
+      "match": true
+    }
+  ],
+  "small_exact_global_denominator_checks": [
+    {
+      "point": "P1",
+      "multiple": 1,
+      "exact_match": true,
+      "denominator_bits": 6
+    },
+    {
+      "point": "P1",
+      "multiple": 2,
+      "exact_match": true,
+      "denominator_bits": 42
+    },
+    {
+      "point": "P1",
+      "multiple": 3,
+      "exact_match": true,
+      "denominator_bits": 105
+    },
+    {
+      "point": "P1",
+      "multiple": 5,
+      "exact_match": true,
+      "denominator_bits": 303
+    },
+    {
+      "point": "P1",
+      "multiple": 7,
+      "exact_match": true,
+      "denominator_bits": 601
+    },
+    {
+      "point": "P1",
+      "multiple": 19,
+      "exact_match": true,
+      "denominator_bits": 4483
+    },
+    {
+      "point": "P2",
+      "multiple": 1,
+      "exact_match": true,
+      "denominator_bits": 18
+    },
+    {
+      "point": "P2",
+      "multiple": 2,
+      "exact_match": true,
+      "denominator_bits": 90
+    },
+    {
+      "point": "P2",
+      "multiple": 3,
+      "exact_match": true,
+      "denominator_bits": 207
+    },
+    {
+      "point": "P2",
+      "multiple": 5,
+      "exact_match": true,
+      "denominator_bits": 596
+    },
+    {
+      "point": "P2",
+      "multiple": 7,
+      "exact_match": true,
+      "denominator_bits": 1174
+    },
+    {
+      "point": "P2",
+      "multiple": 19,
+      "exact_match": true,
+      "denominator_bits": 8692
+    },
+    {
+      "point": "P1_plus_P2",
+      "multiple": 1,
+      "exact_match": true,
+      "denominator_bits": 5
+    },
+    {
+      "point": "P1_plus_P2",
+      "multiple": 2,
+      "exact_match": true,
+      "denominator_bits": 41
+    },
+    {
+      "point": "P1_plus_P2",
+      "multiple": 3,
+      "exact_match": true,
+      "denominator_bits": 100
+    },
+    {
+      "point": "P1_plus_P2",
+      "multiple": 5,
+      "exact_match": true,
+      "denominator_bits": 291
+    },
+    {
+      "point": "P1_plus_P2",
+      "multiple": 7,
+      "exact_match": true,
+      "denominator_bits": 577
+    },
+    {
+      "point": "P1_plus_P2",
+      "multiple": 19,
+      "exact_match": true,
+      "denominator_bits": 4294
+    }
+  ],
+  "actual_bad_prime_no_cancellation_checks": [
+    {
+      "point": "P1",
+      "ell": 2,
+      "reason": "formal: monic homogenized phi_n is a unit"
+    },
+    {
+      "point": "P1",
+      "ell": 3,
+      "reason": "formal: monic homogenized phi_n is a unit"
+    },
+    {
+      "point": "P1",
+      "ell": 2243,
+      "psi_n_mod_ell": 0,
+      "phi_n_mod_ell": 1,
+      "no_common_zero": true
+    },
+    {
+      "point": "P1",
+      "ell": 4547,
+      "psi_n_mod_ell": 2919,
+      "phi_n_mod_ell": 699,
+      "no_common_zero": true
+    },
+    {
+      "point": "P1",
+      "ell": 5843,
+      "psi_n_mod_ell": 2148,
+      "phi_n_mod_ell": 1669,
+      "no_common_zero": true
+    },
+    {
+      "point": "P2",
+      "ell": 2,
+      "reason": "formal: monic homogenized phi_n is a unit"
+    },
+    {
+      "point": "P2",
+      "ell": 3,
+      "reason": "formal: monic homogenized phi_n is a unit"
+    },
+    {
+      "point": "P2",
+      "ell": 2243,
+      "psi_n_mod_ell": 0,
+      "phi_n_mod_ell": 1,
+      "no_common_zero": true
+    },
+    {
+      "point": "P2",
+      "ell": 4547,
+      "psi_n_mod_ell": 2919,
+      "phi_n_mod_ell": 699,
+      "no_common_zero": true
+    },
+    {
+      "point": "P2",
+      "ell": 5843,
+      "psi_n_mod_ell": 1134,
+      "phi_n_mod_ell": 1032,
+      "no_common_zero": true
+    },
+    {
+      "point": "P1_plus_P2",
+      "ell": 2,
+      "reason": "formal: monic homogenized phi_n is a unit"
+    },
+    {
+      "point": "P1_plus_P2",
+      "ell": 3,
+      "reason": "formal: monic homogenized phi_n is a unit"
+    },
+    {
+      "point": "P1_plus_P2",
+      "ell": 2243,
+      "psi_n_mod_ell": 0,
+      "phi_n_mod_ell": 1,
+      "no_common_zero": true
+    },
+    {
+      "point": "P1_plus_P2",
+      "ell": 4547,
+      "psi_n_mod_ell": 4275,
+      "phi_n_mod_ell": 1246,
+      "no_common_zero": true
+    },
+    {
+      "point": "P1_plus_P2",
+      "ell": 5843,
+      "psi_n_mod_ell": 4842,
+      "phi_n_mod_ell": 4575,
+      "no_common_zero": true
+    }
+  ],
+  "quadratic_checks": {
+    "parallelogram": "PASS",
+    "scaling_by_2": "PASS",
+    "unimodular_basis_change": "PASS",
+    "h_P1_minus_P2_over_p": 303,
+    "h_2P1_over_p": 1779,
+    "new_basis_determinant": 2181
+  },
+  "determinant_integer_arithmetic": {
+    "integer": -49408,
+    "residue": 2181,
+    "nonzero": true
+  },
+  "verdict": "ALL_CHECKS_PASS",
+  "wall_seconds": 0.09271801100000002,
+  "peak_RSS_bytes": 11083776
+}

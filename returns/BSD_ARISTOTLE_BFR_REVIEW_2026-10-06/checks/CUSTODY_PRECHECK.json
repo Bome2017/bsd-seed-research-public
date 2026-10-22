@@ -1,0 +1,17 @@
+{
+  "original_entries_match": 21,
+  "original_missing": [],
+  "original_different": [],
+  "returned_manifests": {
+    "project/MANIFEST.sha256": {
+      "entries": 15,
+      "failed": []
+    },
+    "research_return/MANIFEST.sha256": {
+      "entries": 21,
+      "failed": []
+    }
+  },
+  "reading_set_manifest_entries_verified": 5180,
+  "startup_reading_path_hashes_verified": 4
+}

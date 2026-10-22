@@ -1,0 +1,16 @@
+S1 c4 = 16A(13m+100n^2): 1   Delta = 2^8*3^2*m*A^3*B^2: 1
+S2 c4 mod m = 25600 n^4: 1   c4 mod B = 32400 n^4: 0
+S3 13m+100n^2 = -108 n^2 mod A: 0  (so v_A(c4)=1 when A does not divide 108 n^2)
+S4 substitution x=u^2X, y=u^3Y with A=u^4 gives Y^2 = X^3-5u^2X^2+4BX: 1
+S5 new model discriminant = Delta/u^12: 0
+S6 special fibre u->0 is Y^2=X^3+4BX, nonsingular iff q does not divide 2B: 1
+S7 special fibre disc = -2^6*(4B)^3 = -4096*m^3 - 307200*n^2*m^2 - 7680000*n^4*m - 64000000*n^6  j = 1728: 1
+S8 (X,Y)->(-X,iY) is an automorphism of Y^2=X^3+4BX with square [-1]: 1  (i^2=-1 gives (X,-Y))
+M1 (m,n)=(3011,420)  m,A,B prime: 111  m mod 24=11 A mod 24=11 B mod 24=11  m mod 120=11  n mod 60=0  12|n: 1
+   reduction: [[2, -5, 2], [3, 6, 2], [3011, 5, 1], [2825411, 3, 2], [4413011, 6, 2]]   (prime, Kodaira, c_p); Tamagawa product=16
+   a5=-2  #E(F5)=8  reduction mod 5 is y^2=x^3+4x: 1  odd conductor part 3*m*A^2*B=318222060510286953256323
+M2 (m,n)=(3491,60)  m,A,B prime: 111  m mod 24=11 A mod 24=11 B mod 24=11  m mod 120=11  n mod 60=0  12|n: 1
+   reduction: [[2, -5, 2], [3, 6, 2], [3491, 5, 1], [61091, 3, 2], [93491, 6, 2]]   (prime, Kodaira, c_p); Tamagawa product=16
+   a5=-2  #E(F5)=8  reduction mod 5 is y^2=x^3+4x: 1  odd conductor part 3*m*A^2*B=3654225778448609283
+R1 ratio of odd conductor parts = 87083.305685996004686730254136098237846
+R2 A >= 11+16*144 = 2315 > 163: 1

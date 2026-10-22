@@ -1,0 +1,12 @@
+{
+  "pdf_sha256": "e2f530b38153abb1c28c6caf0983829e034214ead37b58e3af58862b0215a805",
+  "changed_pages": [
+    28,
+    30
+  ],
+  "serious_log_findings": [],
+  "text_checks": "Both requested corrections present in the rebuilt PDF.",
+  "pages": 32,
+  "visual_check": "Pages 28 and 30 rendered and inspected; definitions and corrected bibliography visible, no clipping or overlap.",
+  "warnings": "Existing hyperref PDF-string and underfull-box warnings retained; no undefined references/citations, overfull boxes or missing glyphs."
+}

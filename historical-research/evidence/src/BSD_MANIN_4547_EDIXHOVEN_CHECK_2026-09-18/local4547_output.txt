@@ -1,0 +1,6 @@
+isogeny class size = 2 ; isogeny degree matrix = [1, 2; 2, 1]
+curve 1: [a1,a2,a3,a4,a6]_min = [0, -1, 0, -66020924, -65074271436] ; conductor exponent f_p = 2 ; Kodaira = III ; v_p(Delta_min) = 3 ; v_p(j) = 0 (>= 0: potentially good) ; j mod p = 1728 ; conductor = 6503188012738584
+curve 2: [a1,a2,a3,a4,a6]_min = [0, -1, 0, -597383344, 5572681004764] ; conductor exponent f_p = 2 ; Kodaira = III ; v_p(Delta_min) = 3 ; v_p(j) = 0 (>= 0: potentially good) ; j mod p = 1728 ; conductor = 6503188012738584
+p mod 4 = 3 ; a_p(y^2 = x^3 + x) = 0 ; a_p(y^2 = x^3 - x) = 0  (a_p = 0 <=> supersingular for p >= 5)
+ellcard over F_p of the two j=1728 forms: [4548, 4548] (p + 1 = 4548)
+a_{p^2} check: #E(F_{p^2}) for y^2 = x^3 + x = 20684304 vs (p+1)^2 = 20684304

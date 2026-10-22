@@ -1,0 +1,1 @@
+{alarm(5);A=read("ANTI_DIVISOR_DATA.gp");D=A[2];K=A[3];m=matsize(D)[2];nc=matsize(K)[2];if(D*K!=matrix(matsize(D)[1],nc),error("kernel replay"));if(nc!=0,error("nonempty kernel requires source export"));write("ANTI_DIVISOR_RESULT.json",[m,matsize(D)[1],matrank(D),matrank(Mod(D,7)),nc]);print("ANTI_DIVISOR_CHECK_COMPLETE=",[m,matsize(D)[1],matrank(D),matrank(Mod(D,7)),nc]);quit;}

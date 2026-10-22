@@ -1,0 +1,79 @@
+{
+  "manifest_entries": [
+    {
+      "path": "PROOF.md",
+      "sha256": "6ec089619efc2d3ad0fcf30090191416b9590142dbc97fc484033e1ec4554eba",
+      "verified": true
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "5eb60d962a96deced7eb7cdfe2d601901f7b48a3732f9bbc721dadf44baec261",
+      "verified": true
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "f2ae765a772649791b057d919ab14f343f884aa2acbbe99230e5fc9c518c04b4",
+      "verified": true
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "1a895f82702cf5f93bf601ac22b50a26d5cd88ba725e6670652830c90331ef31",
+      "verified": true
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "sha256": "a2c8e27cddc298c7d81af53406f0a0f8d8b0282c9fc71b3c5f27b699f9a8e5b7",
+      "verified": true
+    },
+    {
+      "path": "checks/RESULTS.json",
+      "sha256": "e17a857eaa671230dfefe1ece83d7adac13eaff9ee6beb525f020bc19d97fcf2",
+      "verified": true
+    },
+    {
+      "path": "checks/verify.py",
+      "sha256": "d7d94bcc22553edd3ba4912c198019a2d52929790d6fec65e6a15415e79cf3c4",
+      "verified": true
+    },
+    {
+      "path": "inputs/SYMBOLS_m25.txt",
+      "sha256": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e",
+      "verified": true
+    },
+    {
+      "path": "inputs/SYMBOLS_m5.txt",
+      "sha256": "fb7b98d89b1885bacbb1d9d306c6c17fcefeafbb094baf1fcb5258756e6edf9c",
+      "verified": true
+    }
+  ],
+  "retained_bindings": [
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/REPORT.md",
+      "blob": "e31dae4ebdf33f9bc1e73a8682c936a6831bb26e",
+      "verified": true
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md",
+      "blob": "008c22932c67d6df5fe4948bd55f1f2dcd930e56",
+      "verified": true
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md",
+      "blob": "291e618f69600e05864c9d2542dc1de1688a37ba",
+      "verified": true
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m25.txt",
+      "blob": "b0d766f63e90ac9d17b2ca15ee2e387cd6b34ff6",
+      "verified": true
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m5.txt",
+      "blob": "a9961d9d45bc22605a331c994a3dee4119c1c12b",
+      "verified": true
+    }
+  ],
+  "replay_exit_code": 0,
+  "replay_byte_identical": true,
+  "python_version": "3.13.2 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 12:54:57) [Clang 14.0.6 ]"
+}

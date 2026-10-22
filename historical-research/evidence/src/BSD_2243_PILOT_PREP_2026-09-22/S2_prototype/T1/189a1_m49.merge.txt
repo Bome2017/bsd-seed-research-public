@@ -1,0 +1,100 @@
+MERGE checkpoints 2 units 91 missing 0 terms 18121
+FINGERPRINT sum_units f5dfbacaf31bca2c array f5dfbacaf31bca2c match 1
+COUNT smooth 10759 pairs 18797 sum 29556 T 29556 identity 1
+AP_SEGROOT_SHA256 6f287d685fa7dd1fb9999da5acf9e76691f5b3d92ec17a8a96bc93de34539e40 segments 4
+ROUNDING_ERR_TOTAL [4.574383508e-25 +/- 3.24e-35]
+TAIL_MS_UPPER_TIMES2 1.201998700e-314
+S 0 [0.004343573355887166538879 +/- 5.58e-25]
+S 1 [1.021037072894815080656942 +/- 6.56e-25]
+S 2 [-0.956441238764449673543105 +/- 6.50e-25]
+S 3 [-0.013598567905857688058861 +/- 7.44e-25]
+S 4 [0.484356568280586063973078 +/- 7.48e-25]
+S 5 [-0.175380090917381023753489 +/- 5.68e-25]
+S 6 [0.017829377123367133498495 +/- 8.83e-25]
+S 7 [-0.121249017828462341615124 +/- 7.40e-25]
+S 8 [-0.008953992080986974110699 +/- 9.00e-25]
+S 9 [0.034476138106260069064793 +/- 6.87e-25]
+S 10 [0.095849875647513079741360 +/- 7.63e-25]
+S 11 [-0.282434342589423775165794 +/- 9.20e-25]
+S 12 [0.010040050282045291362769 +/- 6.41e-25]
+S 13 [-0.153617886388321084895671 +/- 9.28e-25]
+S 14 [0.104109546048341712425419 +/- 8.76e-25]
+S 15 [-0.024542854188999870782985 +/- 7.70e-25]
+S 16 [-0.163134622429433371489402 +/- 6.00e-25]
+S 17 [0.119319533441640213259967 +/- 9.06e-25]
+S 18 [-0.026790375597501578213736 +/- 6.63e-25]
+S 19 [-0.245463812544158259331440 +/- 7.16e-25]
+S 20 [-0.045581393046135985000743 +/- 8.34e-25]
+S 21 [-0.006628302501176677423834 +/- 9.08e-25]
+S 22 [0.181537824655068155249765 +/- 7.19e-25]
+S 23 [-0.145368905664672198563908 +/- 9.45e-25]
+S 24 [0.010382593783977557579237 +/- 5.98e-25]
+S 25 [-0.071533644598838952426305 +/- 9.18e-25]
+S 26 [0.087303074022406584151507 +/- 7.14e-25]
+S 27 [-0.029070531406844302932475 +/- 7.62e-25]
+S 28 [-0.027875913648463758137859 +/- 7.07e-25]
+S 29 [-0.071264613800499558916018 +/- 5.44e-25]
+S 30 [-0.001807129952243094233027 +/- 5.11e-25]
+S 31 [0.096354129835551170983274 +/- 8.78e-25]
+S 32 [0.112189703147567152706854 +/- 5.40e-25]
+S 33 [-0.004490802711206359060529 +/- 8.25e-25]
+S 34 [-0.089402575513456798707460 +/- 5.42e-25]
+S 35 [0.014049322716652764827697 +/- 8.95e-25]
+S 36 [7.5851179957683288414e-5 +/- 4.63e-25]
+S 37 [-0.063087948138549925888543 +/- 6.94e-25]
+S 38 [0.165092364231766722833758 +/- 7.43e-25]
+S 39 [-0.004661595834779878614263 +/- 8.59e-25]
+S 40 [0.001465430625841954155575 +/- 7.65e-25]
+S 41 [0.009751013500048357815061 +/- 6.51e-25]
+S 42 [0.002845778366010967612668 +/- 7.61e-25]
+S 43 [0.074090062028153144368244 +/- 6.90e-25]
+S 44 [-0.056221003588700645561410 +/- 7.92e-25]
+S 45 [-0.017306302428235777039741 +/- 5.67e-25]
+S 46 [0.090691922571563221511160 +/- 8.06e-25]
+S 47 [0.059793956551632001691085 +/- 6.55e-25]
+S 48 [0.009133500163442885469818 +/- 7.40e-25]
+OMEGA_PLUS [2.02754777664089620347455027372 +/- 2.12e-30]
+OMEGA_MINUS [1.96147658878947858482045269532 +/- 1.73e-30]
+XB 1 plus [1.0000000000000000000 +/- 9.1e-24] cand 1024/1024 contains 1 unique 1 minus [+/- 9.11e-24] cand 0/1024 contains 1 unique 1
+XB 2 plus [+/- 9.02e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.23e-24] cand 0/1024 contains 1 unique 1
+XB 3 plus [1.0000000000000000000 +/- 9.4e-24] cand 1024/1024 contains 1 unique 1 minus [+/- 9.10e-24] cand 0/1024 contains 1 unique 1
+XB 4 plus [+/- 9.01e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.24e-24] cand 0/1024 contains 1 unique 1
+XB 5 plus [+/- 9.01e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.24e-24] cand 0/1024 contains 1 unique 1
+XB 6 plus [+/- 8.83e-24] cand 0/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.3e-24] cand -1024/1024 contains 1 unique 1
+XB 8 plus [1.0000000000000000000 +/- 9.1e-24] cand 1024/1024 contains 1 unique 1 minus [+/- 9.08e-24] cand 0/1024 contains 1 unique 1
+XB 9 plus [1.0000000000000000000 +/- 9.3e-24] cand 1024/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.4e-24] cand -1024/1024 contains 1 unique 1
+XB 10 plus [+/- 9.02e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.23e-24] cand 0/1024 contains 1 unique 1
+XB 11 plus [1.0000000000000000000 +/- 9.6e-24] cand 1024/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.9e-24] cand -1024/1024 contains 1 unique 1
+XB 12 plus [1.0000000000000000000 +/- 9.3e-24] cand 1024/1024 contains 1 unique 1 minus [2.0000000000000000000 +/- 1.2e-23] cand 2048/1024 contains 1 unique 1
+XB 13 plus [+/- 8.83e-24] cand 0/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.3e-24] cand 1024/1024 contains 1 unique 1
+XB 15 plus [+/- 3.09e-38] cand 0/1024 contains 1 unique 1 minus [+/- 3.18e-38] cand 0/1024 contains 1 unique 1
+XB 16 plus [-1.0000000000000000000 +/- 9.6e-24] cand -1024/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.9e-24] cand 1024/1024 contains 1 unique 1
+XB 17 plus [1.0000000000000000000 +/- 9.2e-24] cand 1024/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.5e-24] cand 1024/1024 contains 1 unique 1
+XB 18 plus [-1.0000000000000000000 +/- 9.3e-24] cand -1024/1024 contains 1 unique 1 minus [2.0000000000000000000 +/- 1.2e-23] cand 2048/1024 contains 1 unique 1
+XB 19 plus [-1.0000000000000000000 +/- 9.2e-24] cand -1024/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.5e-24] cand -1024/1024 contains 1 unique 1
+XB 20 plus [-1.0000000000000000000 +/- 9.1e-24] cand -1024/1024 contains 1 unique 1 minus [+/- 9.11e-24] cand 0/1024 contains 1 unique 1
+XB 22 plus [-1.0000000000000000000 +/- 9.1e-24] cand -1024/1024 contains 1 unique 1 minus [+/- 9.08e-24] cand 0/1024 contains 1 unique 1
+XB 23 plus [-1.0000000000000000000 +/- 9.4e-24] cand -1024/1024 contains 1 unique 1 minus [+/- 9.10e-24] cand 0/1024 contains 1 unique 1
+XB 24 plus [-1.0000000000000000000 +/- 9.3e-24] cand -1024/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.4e-24] cand -1024/1024 contains 1 unique 1
+XB 25 plus [-1.0000000000000000000 +/- 9.3e-24] cand -1024/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.4e-24] cand 1024/1024 contains 1 unique 1
+XB 26 plus [-1.0000000000000000000 +/- 9.4e-24] cand -1024/1024 contains 1 unique 1 minus [+/- 9.10e-24] cand 0/1024 contains 1 unique 1
+XB 27 plus [-1.0000000000000000000 +/- 9.1e-24] cand -1024/1024 contains 1 unique 1 minus [+/- 9.08e-24] cand 0/1024 contains 1 unique 1
+XB 29 plus [-1.0000000000000000000 +/- 9.1e-24] cand -1024/1024 contains 1 unique 1 minus [+/- 9.11e-24] cand 0/1024 contains 1 unique 1
+XB 30 plus [-1.0000000000000000000 +/- 9.2e-24] cand -1024/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.5e-24] cand 1024/1024 contains 1 unique 1
+XB 31 plus [-1.0000000000000000000 +/- 9.3e-24] cand -1024/1024 contains 1 unique 1 minus [-2.0000000000000000000 +/- 1.2e-23] cand -2048/1024 contains 1 unique 1
+XB 32 plus [1.0000000000000000000 +/- 9.2e-24] cand 1024/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.5e-24] cand -1024/1024 contains 1 unique 1
+XB 33 plus [-1.0000000000000000000 +/- 9.6e-24] cand -1024/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.9e-24] cand -1024/1024 contains 1 unique 1
+XB 34 plus [+/- 3.09e-38] cand 0/1024 contains 1 unique 1 minus [+/- 3.18e-38] cand 0/1024 contains 1 unique 1
+XB 36 plus [+/- 8.83e-24] cand 0/1024 contains 1 unique 1 minus [-1.0000000000000000000 +/- 9.3e-24] cand -1024/1024 contains 1 unique 1
+XB 37 plus [1.0000000000000000000 +/- 9.3e-24] cand 1024/1024 contains 1 unique 1 minus [-2.0000000000000000000 +/- 1.2e-23] cand -2048/1024 contains 1 unique 1
+XB 38 plus [1.0000000000000000000 +/- 9.6e-24] cand 1024/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.9e-24] cand 1024/1024 contains 1 unique 1
+XB 39 plus [+/- 9.02e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.23e-24] cand 0/1024 contains 1 unique 1
+XB 40 plus [1.0000000000000000000 +/- 9.3e-24] cand 1024/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.4e-24] cand 1024/1024 contains 1 unique 1
+XB 41 plus [1.0000000000000000000 +/- 9.1e-24] cand 1024/1024 contains 1 unique 1 minus [+/- 9.08e-24] cand 0/1024 contains 1 unique 1
+XB 43 plus [+/- 8.83e-24] cand 0/1024 contains 1 unique 1 minus [1.0000000000000000000 +/- 9.3e-24] cand 1024/1024 contains 1 unique 1
+XB 44 plus [+/- 9.01e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.24e-24] cand 0/1024 contains 1 unique 1
+XB 45 plus [+/- 9.01e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.24e-24] cand 0/1024 contains 1 unique 1
+XB 46 plus [1.0000000000000000000 +/- 9.4e-24] cand 1024/1024 contains 1 unique 1 minus [+/- 9.10e-24] cand 0/1024 contains 1 unique 1
+XB 47 plus [+/- 9.02e-24] cand 0/1024 contains 1 unique 1 minus [+/- 9.23e-24] cand 0/1024 contains 1 unique 1
+XB 48 plus [1.0000000000000000000 +/- 9.1e-24] cand 1024/1024 contains 1 unique 1 minus [+/- 9.11e-24] cand 0/1024 contains 1 unique 1
+XB_PLUS_DETERMINED 42 of 42 (lattice 1/1024 Z)

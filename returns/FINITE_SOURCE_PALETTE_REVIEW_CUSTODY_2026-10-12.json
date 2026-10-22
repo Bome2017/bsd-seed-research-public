@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-12",
+  "baseline_commit": "581f7a26a1d110bcd6131739f94569e4810a719e",
+  "submitted_commit": "5110be8805f202ebc9a4a112ec0854fd764a620c",
+  "submitted_branch": "research/finite-source-palette-2026-10-12",
+  "review_folder": "work/returns/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12",
+  "review_manifest_entries": 25,
+  "submitted_manifest_entries": 7,
+  "submitted_published_files_matched": 8,
+  "review_zip_sha256": "7c47f8e7390a48b2eb2b658e1f8793a5dec7dd5b18675dd6725a480d00d24003",
+  "original_zip_sha256": "95ac7fd0d69fc15335654b86dd814b7e9ca598ea55085082349f59a729231076",
+  "copy_manifest_verified": true,
+  "archive_integrity_verified": true,
+  "retained_period_bindings": 9,
+  "historical_period_receipt_manifest_matches": 3,
+  "endpoint_effect": "FIN ORDER9 Q36 unchanged",
+  "scope": "Custody only. Source comparison supported under retained inputs; written same-team review, no new seed coefficient or bound.",
+  "author_branch_merged": false
+}

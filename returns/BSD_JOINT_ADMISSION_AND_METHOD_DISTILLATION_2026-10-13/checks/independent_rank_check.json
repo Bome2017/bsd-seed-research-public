@@ -1,0 +1,45 @@
+{
+  "status": "INDEPENDENT_F3_RANK_CHECK_PASS",
+  "scope": "Arithmetic matrices retained; elimination independent of producer; not a formal theorem check.",
+  "rows": [
+    {
+      "curve": "389a1",
+      "source": 10,
+      "scalar_kernel": 4,
+      "scalar_additivity_kernel": 2,
+      "local_kernel": 2,
+      "joint_kernel": 2,
+      "admitted_units": 2,
+      "point_unit_intersection": 2,
+      "admitted_class_lifts": 0,
+      "extra_allowed_valuation_directions_removed_locally": 0,
+      "input_sha256": "35617b8c04952c3c610f397d94fdfc8a975d9eaf7ed3f0a39af676298d92e570"
+    },
+    {
+      "curve": "433a1",
+      "source": 13,
+      "scalar_kernel": 6,
+      "scalar_additivity_kernel": 3,
+      "local_kernel": 2,
+      "joint_kernel": 2,
+      "admitted_units": 2,
+      "point_unit_intersection": 2,
+      "admitted_class_lifts": 0,
+      "extra_allowed_valuation_directions_removed_locally": 1,
+      "input_sha256": "19eb9f4c3f720ae49c57f0c307e0095ce5bb50951423e8b191e4e411d94026b2"
+    },
+    {
+      "curve": "655a1",
+      "source": 11,
+      "scalar_kernel": 4,
+      "scalar_additivity_kernel": 2,
+      "local_kernel": 2,
+      "joint_kernel": 2,
+      "admitted_units": 2,
+      "point_unit_intersection": 2,
+      "admitted_class_lifts": 0,
+      "extra_allowed_valuation_directions_removed_locally": 0,
+      "input_sha256": "dfe35657b392de8dffd368d24f11305c5c9391f799a54d4046ac5626b764dd26"
+    }
+  ]
+}

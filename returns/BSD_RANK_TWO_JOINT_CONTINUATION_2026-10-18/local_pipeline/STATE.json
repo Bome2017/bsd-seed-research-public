@@ -1,0 +1,32 @@
+{
+  "status": "sealed after final bounded source attempt",
+  "coefficient_prime": 7,
+  "tested_curve": [
+    0,
+    0,
+    1,
+    -13,
+    18
+  ],
+  "source_units": 24,
+  "global_rank": 0,
+  "formal_local_rank": 0,
+  "joint_rank": 0,
+  "new_unit_bound": false,
+  "next": "only genuinely new authenticated faithful units or another independently justified source construction",
+  "report": "REPORT.md",
+  "twist_curve": [
+    0,
+    -1,
+    1,
+    -22826,
+    2411880
+  ],
+  "twist_point_count_mod7": 10,
+  "twist_unit_source_received": "three central-fixed units; mixed relation kernel empty",
+  "new_joint_rank_bound": false,
+  "rank_two_full_profile": "unmeasured",
+  "local_model_and_branch_checks": "completed",
+  "new_class_bound": false,
+  "final_source_boundary": "mixed source filter: 92544 logged trials, no admitted smooth export; not unique candidate count"
+}

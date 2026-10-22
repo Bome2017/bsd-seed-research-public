@@ -1,0 +1,39 @@
+{
+  "retained_seed_inputs": [
+    "rank exactly two",
+    "saturated basis P1,P2",
+    "rational torsion order two",
+    "irreducible E[p] for the stated good p>=5 domain"
+  ],
+  "retained_written_proof_inputs": [
+    "actual integral smoothed z_infinity=U*y_infinity in simultaneously transported lattice",
+    "injection M/U into full integral S-cohomology",
+    "nonzero divided augmentation implies rational H1 dimension two",
+    "H1 is finite torsion-free over Z_p"
+  ],
+  "standard_imports": [
+    "finite Kummer exact sequence and compatibility with integral coefficient reduction",
+    "long exact cohomology sequence for 0 -> T --p--> T -> E[p] -> 0"
+  ],
+  "new_deductions": [
+    "rational placement by zero/nonzero case split",
+    "p-saturation of full Kummer image",
+    "integral Mordell-Weil placement of this derivative"
+  ],
+  "not_assumed": [
+    "Sha finiteness",
+    "derivative nonvanishing",
+    "ordinarity",
+    "p-unit comparison with an independently normalized Kato generator",
+    "analytic Bockstein or tame comparison"
+  ],
+  "not_proved": [
+    "nonzero coefficient",
+    "primitive coefficient",
+    "fixed rational scalar",
+    "Sha bound",
+    "FIN",
+    "ORDER9",
+    "Q36"
+  ]
+}

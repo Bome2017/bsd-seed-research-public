@@ -1,0 +1,15 @@
+{
+  "label": "655_tangent_units",
+  "p": 7,
+  "curve": [
+    0,
+    0,
+    1,
+    -13,
+    18
+  ],
+  "nf": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/nf.gp",
+  "source": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/compact_units_eval.json",
+  "source_format": "orbit_relations",
+  "unit_authentication": "/Users/bsm/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/rank_two_source/tangent_source/TRANSPORT_PROOF.md"
+}

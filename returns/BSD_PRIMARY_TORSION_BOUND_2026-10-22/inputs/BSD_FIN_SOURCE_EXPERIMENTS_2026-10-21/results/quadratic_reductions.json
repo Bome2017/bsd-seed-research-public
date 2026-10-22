@@ -1,0 +1,218 @@
+[
+  {
+    "a": 1,
+    "b": -2,
+    "c": 1,
+    "rational_cayley_factors": [
+      {
+        "a": 1,
+        "b": 1,
+        "exponent": -1
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 1,
+    "b": 4,
+    "c": 4,
+    "rational_cayley_factors": [
+      {
+        "a": 1,
+        "b": 2,
+        "exponent": 1
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 2,
+    "b": -1,
+    "c": 1,
+    "rational_cayley_factors": [
+      {
+        "a": 2,
+        "b": 1,
+        "exponent": -1
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 1,
+    "b": 1,
+    "c": 2,
+    "rational_cayley_factors": [
+      {
+        "a": 1,
+        "b": 1,
+        "exponent": 1
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 4,
+    "b": 1,
+    "c": 4,
+    "rational_cayley_factors": [
+      {
+        "a": 2,
+        "b": 1,
+        "exponent": 1
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 8,
+    "b": -1,
+    "c": 2,
+    "rational_cayley_factors": [
+      {
+        "a": 4,
+        "b": 1,
+        "exponent": -1
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 32,
+    "b": -1,
+    "c": 4,
+    "rational_cayley_factors": [
+      {
+        "a": 8,
+        "b": 1,
+        "exponent": -1
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 16,
+    "b": 1,
+    "c": 8,
+    "rational_cayley_factors": [
+      {
+        "a": 4,
+        "b": 1,
+        "exponent": 1
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 64,
+    "b": 1,
+    "c": 16,
+    "rational_cayley_factors": [
+      {
+        "a": 8,
+        "b": 1,
+        "exponent": 1
+      },
+      {
+        "a": 8,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 128,
+    "b": -1,
+    "c": 8,
+    "rational_cayley_factors": [
+      {
+        "a": 16,
+        "b": 1,
+        "exponent": -1
+      },
+      {
+        "a": 8,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 512,
+    "b": -1,
+    "c": 16,
+    "rational_cayley_factors": [
+      {
+        "a": 32,
+        "b": 1,
+        "exponent": -1
+      },
+      {
+        "a": 16,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  },
+  {
+    "a": 256,
+    "b": 1,
+    "c": 32,
+    "rational_cayley_factors": [
+      {
+        "a": 16,
+        "b": 1,
+        "exponent": 1
+      },
+      {
+        "a": 16,
+        "b": 1,
+        "exponent": 1
+      }
+    ],
+    "polynomial_identity_checked": true
+  }
+]

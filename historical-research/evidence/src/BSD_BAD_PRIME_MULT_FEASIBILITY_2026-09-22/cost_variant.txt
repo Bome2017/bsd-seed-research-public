@@ -1,0 +1,5 @@
+producer fit: c(q) = 0.0380 + 1.132e-04 q^(1/4) ms
+p=2243 T=3.9120e+13 primes~1.293e+12  producer 9.443e+04 CPU-h  verifier 1.473e+04  msl>= 7.891e+03  TOTAL 1.170e+05 CPU-h  wall@16 workers x1.35 HT = 1.13 years
+p=5843 T=1.6870e+14 primes~5.318e+12  producer 5.352e+05 CPU-h  verifier 6.543e+04  msl>= 3.403e+04  TOTAL 6.346e+05 CPU-h  wall@16 workers x1.35 HT = 6.11 years
+p=2243 T=6.9894e+13 primes~2.266e+12  producer 1.877e+05 CPU-h  verifier 2.664e+04  msl>= 1.410e+04  TOTAL 2.284e+05 CPU-h  wall@16 workers x1.35 HT = 2.20 years
+p=5843 T=3.1461e+14 primes~9.725e+12  producer 1.127e+06 CPU-h  verifier 1.234e+05  msl>= 6.346e+04  TOTAL 1.314e+06 CPU-h  wall@16 workers x1.35 HT = 12.65 years

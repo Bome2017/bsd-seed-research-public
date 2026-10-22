@@ -1,0 +1,18 @@
+ell= 283 a=  -4 eps=+1  d=ell+1-eps*a=  288  SNF=[1, 288]  C1=True  C2=True
+ell= 283 a=  -4 eps=-1  d=ell+1-eps*a=  280  SNF=[1, 280]  C1=True  C2=True
+ell=  47 a=   4 eps=+1  d=ell+1-eps*a=   44  SNF=[1, 44]  C1=True  C2=True
+ell=  47 a=   4 eps=-1  d=ell+1-eps*a=   52  SNF=[1, 52]  C1=True  C2=True
+ell= 223 a= -16 eps=+1  d=ell+1-eps*a=  240  SNF=[1, 240]  C1=True  C2=True
+ell= 223 a= -16 eps=-1  d=ell+1-eps*a=  208  SNF=[1, 208]  C1=True  C2=True
+ell=  13 a=  -4 eps=+1  d=ell+1-eps*a=   18  SNF=[1, 18]  C1=True  C2=True
+ell=  13 a=  -4 eps=-1  d=ell+1-eps*a=   10  SNF=[1, 10]  C1=True  C2=True
+ell=  73 a=  -6 eps=+1  d=ell+1-eps*a=   80  SNF=[1, 80]  C1=True  C2=True
+ell=  73 a=  -6 eps=-1  d=ell+1-eps*a=   68  SNF=[1, 68]  C1=True  C2=True
+ell=  59 a=  -4 eps=+1  d=ell+1-eps*a=   64  SNF=[1, 64]  C1=True  C2=True
+ell=  59 a=  -4 eps=-1  d=ell+1-eps*a=   56  SNF=[1, 56]  C1=True  C2=True
+ell= 173 a= -22 eps=+1  d=ell+1-eps*a=  196  SNF=[1, 196]  C1=True  C2=True
+ell= 173 a= -22 eps=-1  d=ell+1-eps*a=  152  SNF=[1, 152]  C1=True  C2=True
+ell= 229 a= -10 eps=+1  d=ell+1-eps*a=  240  SNF=[1, 240]  C1=True  C2=True
+ell= 229 a= -10 eps=-1  d=ell+1-eps*a=  220  SNF=[1, 220]  C1=True  C2=True
+ALL OK
+seed definite Shimura set: mass ~ 5.417e+14 (class number >= mass)

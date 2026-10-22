@@ -1,0 +1,22 @@
+{
+  "status": "completed_written_derivations_no_seed_bound",
+  "baseline_lab": "9793ff7bddd1214afe5d3567beeb27f1d59a0fc8",
+  "completed": [
+    "unraised supersingular source and integral signed quotient",
+    "two source layers and two residual quadratic digits",
+    "local logarithmic trace repair and regulator factor dictionary",
+    "direct seed Fitting implication and scoped countercontrol"
+  ],
+  "not_obtained": [
+    "actual seed source values",
+    "global integral theta-family replacement",
+    "non-CM seed Kato comparison",
+    "cofinite nonvanishing or content bound"
+  ],
+  "grade": "written derivations under named retained inputs; same-team review and synthetic checks",
+  "endpoints": {
+    "FIN": "open",
+    "ORDER9": "open",
+    "Q36": "open"
+  }
+}

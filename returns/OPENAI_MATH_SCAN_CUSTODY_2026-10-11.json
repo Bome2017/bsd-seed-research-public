@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_folder": "/tmp/claude-0/-home-user-bsd-seed-lab/ab9d3026-f88f-51d1-8e47-f94a5d2c0e6f/scratchpad/return/BSD_OPENAI_MATH_SCAN_CLAUDE_2026-10-11",
+  "return_folder": "work/returns/BSD_OPENAI_MATH_SCAN_CLAUDE_2026-10-11",
+  "archive": "work/returns/archives/BSD_OPENAI_MATH_SCAN_CLAUDE_2026-10-11.zip",
+  "archive_sha256": "e76eb0a43213ec7b0c8a89c30cd002681d324e2db758fd61114e33c8eed12d13",
+  "archive_bytes": 462305,
+  "manifest_entries_verified": 62,
+  "archive_files_verified": 63,
+  "baseline_commit": "4a251748526f0d72308031c6dea02e160516828e",
+  "checkpoint_commit": "422fb6c95c606c81745df3b63c72dc25c8e8345f",
+  "openai_math_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "workflow_runs": ["wf_2de755ac-b60", "wf_c0f87fd8-6d1"],
+  "scope": "byte custody and the small pure-Python replays listed in SOURCES.md; model readings of unrefereed manuscripts; not theorem certification",
+  "endpoints_unchanged": ["FIN", "ORDER9", "Q36"]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "W3_NEW_REDUCTION",
+  "started_at_utc": "2026-10-05T01:19:50.455686+00:00",
+  "FIN_changed": false,
+  "ORDER9_changed": false,
+  "Q36_changed": false,
+  "phase": "COMPLETE_WRITTEN_RETURN",
+  "normalization_gate": "OPEN_ETA_VALUATION",
+  "collision_gate": "NOT_REACHED_IN_MATCHED_LATTICE",
+  "fixed_ancestor": "NOT_CONSTRUCTED",
+  "scope": "COFINITE_INTEGRAL_CONTROL_AND_EVALUATION_ONLY",
+  "finished_at_utc": "2026-10-05T02:00:01.669253+00:00",
+  "grade": "written derivation under retained inputs and imported theorems; independent review pending",
+  "cofinite_upper_bound": false,
+  "new_primary_vanishing": false,
+  "independent_review": false,
+  "novelty_assessed": false,
+  "source_unit_argument": "REPAIRED_ON_COFINITE_DOMAIN_IN_ITS_OWN_REALIZATION",
+  "cofinite_hida_control": "WRITTEN_DERIVATION",
+  "integral_critical_functional": "CONSTRUCTED",
+  "production_computations": false,
+  "subagents_launched": false
+}

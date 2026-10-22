@@ -1,0 +1,21 @@
+{
+  "sigma": "scalar3_on_actual_universal_point",
+  "matched_character": 3,
+  "reciprocal_character": 5,
+  "projector_weights": [
+    6,
+    2,
+    3,
+    1,
+    5,
+    4
+  ],
+  "action": "active field automorphism and active pushforward of prime-ideal divisor columns",
+  "inspected_evaluators": {
+    "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/evaluation/evaluate_split.py": "cca725338a4a58a7656195261e41e98f0b6c2428020d00093f3a81c420a01cff",
+    "/Users/bsm/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/evaluation/formal_branch.template.gp": "1d2ee71a650a346b7419e9de3df143aed76f5c443df5dca1bab7d333a13da460"
+  },
+  "exact_generator_check": "GENERATOR_REPLAY.json",
+  "exact_prime_action_check": "PRIME_ACTION_REPLAY.json",
+  "matrix_replay": "INDEPENDENT_GATE_REPLAY.json"
+}

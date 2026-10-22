@@ -1,0 +1,7 @@
+x=1/1000  |PARI - Arb mid| = 1.731e-29  Arb radius = 1.740e-29  inside=True
+x=1/10    |PARI - Arb mid| = 3.704e-30  Arb radius = 3.710e-30  inside=True
+x=1       |PARI - Arb mid| = 4.528e-29  Arb radius = 1.280e-28  inside=True
+x=7/2     |PARI - Arb mid| = 1.413e-33  Arb radius = 1.420e-33  inside=True
+x=10      |PARI - Arb mid| = 3.264e-37  Arb radius = 3.270e-37  inside=True
+x=35/3    |PARI - Arb mid| = 2.822e-38  Arb radius = 2.830e-38  inside=True
+ALL_PARI_VALUES_INSIDE_ARB_BALLS True

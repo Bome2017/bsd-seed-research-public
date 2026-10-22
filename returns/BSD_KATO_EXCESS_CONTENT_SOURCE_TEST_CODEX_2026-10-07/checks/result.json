@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "ring": "Z[P,U]",
+  "checks": [
+    "D eta = 0",
+    "signed maximal minors = U eta",
+    "upper-block minors = P^2, P U, U^2"
+  ],
+  "scope": "abstract identities only; no seed value or independent proof certification"
+}

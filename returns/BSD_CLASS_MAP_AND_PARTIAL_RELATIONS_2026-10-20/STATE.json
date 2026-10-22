@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETED",
+  "date": "2026-10-20",
+  "base_commit": "a53ed608514f741d2f5f6aa057283b58639dfeb7",
+  "lanes": {
+    "class_map": {
+      "status": "COMPLETE_CONTROL_SOURCE_UPPER_BOUND_2",
+      "control": "1664n1",
+      "coefficient_prime": 3,
+      "ordinary_unit_dimension": 4,
+      "unit_norm_rank": 3,
+      "faithful_class_dimension": 1,
+      "class_map_rank": 0,
+      "connecting_map_rank": 0,
+      "faithful_S_valuation_allowance": 0,
+      "complete_faithful_S_source_upper_bound": 2,
+      "Sha_consequence": "Control Sha[3^infinity]=0 under retained descent and rank-two inputs",
+      "new_original_seed_bound": false
+    },
+    "partial_relations": {
+      "status": "SELECTED_SCALAR_FAMILY_EXCLUDED",
+      "saved_norms": 14326,
+      "reconstructed_elements": 80,
+      "outside_previous_twenty": 76,
+      "private_prime_pivots": 80,
+      "scalar_divisor_rank": 240,
+      "faithful_projected_rank": 80,
+      "accepted_nontrivial_units": 0
+    }
+  },
+  "review": "separate same-team exact arithmetic replay passed; retained source/rank inputs not freshly recertified",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "publication": "lab copy and remote custody recorded separately"
+}

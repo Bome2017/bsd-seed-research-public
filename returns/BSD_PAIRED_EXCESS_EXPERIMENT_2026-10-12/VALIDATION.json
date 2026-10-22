@@ -1,0 +1,32 @@
+{
+  "accepted_outputs": [
+    "partner_A",
+    "paired_heights",
+    "geometry_screen",
+    "geometry_screen_second",
+    "chunk_control",
+    "combined329233_chunked",
+    "combined329233_n8",
+    "normalization329233",
+    "combined_exact_source"
+  ],
+  "all_done_empty_stderr": true,
+  "new_direct_L2": [
+    1875,
+    5
+  ],
+  "new_regulator_valuation": 2,
+  "new_Q": [
+    25,
+    3
+  ],
+  "pro_recheck_semantically_equal": true,
+  "source_patch_checks": [
+    13,
+    29,
+    -7,
+    43737
+  ],
+  "rank_upper_bound": "retained PARI exact2-descent",
+  "seed_result": false
+}

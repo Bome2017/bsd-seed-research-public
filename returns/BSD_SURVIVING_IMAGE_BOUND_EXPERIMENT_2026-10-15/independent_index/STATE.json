@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "independent_upper_bounds": {
+    "389a1": 2,
+    "mirror389": 3,
+    "1913b1": 2
+  },
+  "seed3_primitive_divisor_index": 1,
+  "seed3_bound": "2 + companion minus S-class3 length; companion term uncomputed",
+  "no_new_bnf": true,
+  "no_new_seed_endpoint": true,
+  "literal_replay": "PASS",
+  "isolated_producer_replay": "BYTE_IDENTICAL"
+}

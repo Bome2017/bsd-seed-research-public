@@ -1,0 +1,14 @@
+{
+  "private_identifier_occurrences_in_current_tree": [],
+  "archive_files_inspected": 30,
+  "scope": "Only the known redacted identifiers, not a complete secrets or privacy audit. Researcher names and correspondence paraphrases remain documented. Original git history still contains the old redaction program.",
+  "git_remote_output": "",
+  "github_read_status": "OK",
+  "matching_repositories": [
+    {
+      "name": "aristotle-research-program",
+      "url": "https://github.com/Bome2017/aristotle-research-program",
+      "visibility": "PRIVATE"
+    }
+  ]
+}

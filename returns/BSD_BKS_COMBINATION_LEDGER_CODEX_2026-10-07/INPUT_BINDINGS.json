@@ -1,0 +1,86 @@
+{
+  "lab_baseline": "56a799e002c80d6928b90f081c99b56935d202b5",
+  "entries": [
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/context/THEOREM_W_REPAIRED.md",
+      "copy": "context/THEOREM_W_REPAIRED.md",
+      "bytes": 9405,
+      "sha256": "26ceeff20cb7d6d0f8cf465835ccc487818fb99a844306a95ec45d018a200f01",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/context/G2_PROOF.md",
+      "copy": "context/G2_PROOF.md",
+      "bytes": 19924,
+      "sha256": "b643667e481ceb5d9bff55d22b02b2f44c3ee08fa65a525d40310f42d6060c60",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_SEED_ARISTOTLE_2026-10-05/sources/governing/K288.md",
+      "copy": "context/K288_CORRECTIONS.md",
+      "bytes": 13780,
+      "sha256": "d1090708ad629a0d4c58f15a114091bc03bf980b5925321761fe1b03c4a7281a",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/ADMISSION.md",
+      "copy": "context/TAME_ADMISSION.md",
+      "bytes": 3968,
+      "sha256": "332849a01822a85f9cf88c69ed3743fb09e7c50a159d79a822629542c4a56023",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07/MATHEMATICAL_REVIEW.md",
+      "copy": "context/A_FIRST_MATHEMATICAL_REVIEW.md",
+      "bytes": 9328,
+      "sha256": "c2142e4d600fbc504357853c6fcc51bbb74eb685d3b56e53f1934d3126a695cb",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07/CORRECTION_DETAILS.md",
+      "copy": "context/A_CORRECTION_DETAILS.md",
+      "bytes": 6393,
+      "sha256": "17fc4e1a771d85d341e8fa1c90b49040ff953b99e52d9cfc4ec9f99e479aab01",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_GITHUB_UPDATE_CODEX_2026-10-04/lab/work/returns/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07/REPORT.md",
+      "copy": "context/A_RECOVERY_REPORT.md",
+      "bytes": 5035,
+      "sha256": "beeb3c68e0ffd70b2a75d53357e011782771e214cd2934c1bca1fa34d2378784",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/NORMALIZATION_ADDENDUM.md",
+      "copy": "context/NORMALIZATION_ADDENDUM.md",
+      "bytes": 3592,
+      "sha256": "a621f9de99d17d2e02e02a3181c8220ba12fdd39295fbcfa3404cc13401f3ed1",
+      "grade": "retained_project_source"
+    },
+    {
+      "path": "/Users/bsm/BSD_BKS_INDEX_PREFLIGHT_CHECK_CODEX_2026-10-01/sources/BKS2024_published.pdf",
+      "copy": null,
+      "bytes": 377843,
+      "sha256": "bc930bdfc4a979b80e03f953068842fcc30b12edb6edc2530290763724596386",
+      "url": "https://www.jstage.jst.go.jp/article/jmath/76/3/76_855/_pdf/-char/en",
+      "grade": "published_or_author_source; not_redistributed"
+    },
+    {
+      "path": "/Users/bsm/BSD_LINE_TA_TB_RESOLUTION_2026-09-24/sources/bks2_2103.11535v1.pdf",
+      "copy": null,
+      "bytes": 338607,
+      "sha256": "df7789f02fbc916a79222e6389be549bff765ca3bf1b1a10db0d564b6af88112",
+      "url": "https://arxiv.org/pdf/2103.11535v1",
+      "grade": "published_or_author_source; not_redistributed"
+    },
+    {
+      "path": "/Users/bsm/BSD_P3_UPPER_HALF_RETURN_FABLE_2026-09-29/sources/Kato2004_AST295.pdf",
+      "copy": null,
+      "bytes": 18010813,
+      "sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d",
+      "url": "https://www.numdam.org/article/AST_2004__295__117_0.pdf",
+      "grade": "published_or_author_source; not_redistributed"
+    }
+  ],
+  "web_only_source": "https://discovery.ucl.ac.uk/10067153/1/1710.04956v2.pdf"
+}

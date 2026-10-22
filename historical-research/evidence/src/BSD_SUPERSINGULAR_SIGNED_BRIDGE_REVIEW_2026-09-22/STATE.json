@@ -1,0 +1,14 @@
+{
+  "status": "REVIEW_COMPLETE",
+  "object": "/Users/bsm/BSD_SUPERSINGULAR_SIGNED_BRIDGE_2026-09-22",
+  "object_manifest_verified": true,
+  "source_sha256": "b0e9c254aac829bacd89361056575af9b115b2d3bba65daac20812a5cc2e2f84",
+  "verdict": "PASS_NO_GAP_FOUND",
+  "grade": "written proof; every BLV citation source-checked; sections 2-4 re-derived; not Lean-verified; same model family",
+  "statement": "good supersingular p>=5, p not dividing 7N: M2(p) != 0 ==> Sha(E/Q)[p^inf] = 0; M0 = M1 = 0; b2bar = M2/2",
+  "corrections_accepted": ["cbar2 = c_{p-3}/2 (my CATCHUP_GRADING transcription; erratum filed separately)", "BD finite group is Sha/Div Sha (slip in REV2_RETURN_INDEPENDENT_CHECK.md, not mine)"],
+  "consequences_not_promoted": ["unified witness M2(p) at every good p>=5, p not dividing 7N", "second route to frozen ordinary bridge (bypasses BD 2.18/2.23/Lemma 3.1, Cassels-Tate, D=-7 certificate)", "D=-7 certificate not load-bearing for A3"],
+  "recommended_next": "Lean replay of the algebraic core (sections 2-4) before sealing; freeze addendum on user go-ahead",
+  "sealed_inputs_modified": false,
+  "freeze_edited": false
+}

@@ -1,0 +1,36 @@
+{
+  "proof_files": [
+    {
+      "source_commit": "c194a996a627e5bdff5c237e43f9f4c2300b7ecf",
+      "repository_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/REPORT.md",
+      "sha256": "58aa3da37e1a9a796d582945e54a01ba1a5dbeefaf2b6a1736689027079d63f2"
+    },
+    {
+      "source_commit": "c194a996a627e5bdff5c237e43f9f4c2300b7ecf",
+      "repository_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/CONTENT_BOUND_PROOF.md",
+      "sha256": "10327d5f65e6fa98411eb5cf9859184bdf4e2c3ba63907c746fa00d0d33a6636"
+    },
+    {
+      "source_commit": "c194a996a627e5bdff5c237e43f9f4c2300b7ecf",
+      "repository_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/VALUATION_TARGET.md",
+      "sha256": "8efc5c3d46c24e5fa9eb940ea528da49870e63490ba7721b90e0f7b4216e9cf3"
+    },
+    {
+      "source_commit": "c194a996a627e5bdff5c237e43f9f4c2300b7ecf",
+      "repository_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/SOURCES.md",
+      "sha256": "1bcf96eb9def20cfb14b4d0261ed849e9e01ee4b50fef7a2f498407686557260"
+    },
+    {
+      "source_commit": "c194a996a627e5bdff5c237e43f9f4c2300b7ecf",
+      "repository_path": "work/returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/MANIFEST.sha256",
+      "sha256": "2bf409fc4790632562dc4d983d6739fe10e9c2db231d21637c8f325b36ee3cfd"
+    }
+  ],
+  "supplied_review": {
+    "origin": "user message in current chat, 2026-10-07",
+    "stored_transcription": "SUBMITTED_REVIEW.md",
+    "formatting": "mathematical displays normalized; first-person claims remain attributed to supplied reviewer",
+    "separate_review_attachment_received": false,
+    "sha256": "d7eba09a99d06eac7ac7d90ee050542cd747e0ed7d448bbd5825c64d3f673098"
+  }
+}

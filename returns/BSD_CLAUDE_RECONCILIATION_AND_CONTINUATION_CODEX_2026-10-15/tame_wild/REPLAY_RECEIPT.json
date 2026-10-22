@@ -1,0 +1,9 @@
+{
+  "runs": 2,
+  "byte_identical_output": true,
+  "sha256": {
+    "CHECKS.json": "3badfaceafcb459ebfc128f3195492d2a4dab72f66edb56a2c1ab7f3a9c2c8f2",
+    "INPUT_BINDINGS.json": "13595842feda164d0c682941e18c14f690f4b2095de5a589e3fbcfb394aa2f50"
+  },
+  "stderr_empty": true
+}

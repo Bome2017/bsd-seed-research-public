@@ -1,0 +1,19 @@
+{
+  "stage": "construct",
+  "status": "FAILED",
+  "elapsed_seconds": 120.09472396387719,
+  "returncode": 0,
+  "outer_seconds": 130,
+  "stdout_sha256": "36dd2491b4a64fafc7f3d650cd63bcee8ab4498fd5eeb60042f5b750356d0831",
+  "stderr_sha256": "2d360cdb01e72314ba9c50c19b748edd4897bcb854b1a8c2930c025470419256",
+  "errors": [
+    "  *** bnfinit: Warning: increasing stack size to 128000000.",
+    "  *** bnfinit: Warning: increasing stack size to 256000000.",
+    "  *** bnfinit: Warning: increasing stack size to 512000000.",
+    "  ***   at top-level: read(\"construct.gp\")",
+    "  ***                 ^--------------------",
+    "  ***   in function read: B=bnfinit(NF,1);writebin(\"bnf.bin\",B);write(\"p",
+    "  ***                       ^--------------------------------------------",
+    "  *** bnfinit: alarm interrupt after 1min, 59,578 ms."
+  ]
+}

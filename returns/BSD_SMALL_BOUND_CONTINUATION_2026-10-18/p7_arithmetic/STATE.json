@@ -1,0 +1,59 @@
+{
+  "status": "ACTUAL_FIELD_COMPLETED_NO_P7_UNIT_OR_CLASS_BOUND_COMPUTED",
+  "curve": "389a1",
+  "prime": 7,
+  "field_degree": 48,
+  "signature": [
+    6,
+    21
+  ],
+  "discriminant": "-7^47*389^36",
+  "actual_point_order": 7,
+  "scalar_generator": 3,
+  "scalar_order": 6,
+  "ordinary_character_unit_dimension_under_retained_full_image_formula": 4,
+  "actual_norm_rank": null,
+  "unit_kernel_upper_improved": null,
+  "class_bound": null,
+  "bnf_status": "INTERNAL_ALARM_NO_DATA_SAVED",
+  "total_process_wall_seconds": 143.47755550406873,
+  "unrun_scripts": [
+    "export.gp",
+    "split_primes.gp"
+  ],
+  "endpoint_effect": "FIN ORDER9 Q36 unchanged",
+  "receipts": [
+    {
+      "script": "raw_field.gp",
+      "budget_seconds": 120.0,
+      "elapsed_seconds": 0.995781899895519,
+      "peak_rss_bytes": 12390400,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "script": "reduced_field.gp",
+      "budget_seconds": 120.0,
+      "elapsed_seconds": 23.884679629001766,
+      "peak_rss_bytes": 73142272,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "script": "class_units.gp",
+      "budget_seconds": 120.0,
+      "elapsed_seconds": 117.06253124610521,
+      "peak_rss_bytes": 432558080,
+      "exit_code": 0,
+      "stop": null
+    },
+    {
+      "script": "check_exact.gp",
+      "budget_seconds": 60.0,
+      "elapsed_seconds": 1.5345627290662378,
+      "peak_rss_bytes": 47710208,
+      "exit_code": 0,
+      "stop": null
+    }
+  ]
+}

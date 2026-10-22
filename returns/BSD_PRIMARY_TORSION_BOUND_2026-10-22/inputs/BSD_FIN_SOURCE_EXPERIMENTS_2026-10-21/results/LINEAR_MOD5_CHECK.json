@@ -1,0 +1,9 @@
+{
+  "status": "PASS_LINEAR_MOD5_PRIVATE_SUPPORT",
+  "linear_family_count": 20180,
+  "linear_private_parts_that_are_fifth_powers": [],
+  "quadratic_family_count": 260,
+  "quadratic_private_parts_that_are_fifth_powers": [],
+  "linear_consequence": "On the retained field/scalar inputs, the whole scalar-closed rational Cayley family has injective divisor map modulo 5, hence supplies no nonzero ordinary virtual-unit class.",
+  "quadratic_qualification": "Non-fifth-power rational norm alone does NOT certify both character projection ranks for a quadratic factor; no analogous mod-5 conclusion is asserted for these 260."
+}

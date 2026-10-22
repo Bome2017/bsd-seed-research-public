@@ -1,0 +1,18 @@
+{
+  "status": "CM_HODGE_INDEX_SQUARE_9_DERIVED_CONDITIONALLY",
+  "normalized_Hodge_index_square": 9,
+  "raw_integral_correction_multiplier": -2,
+  "raw_index_square": 36,
+  "CM_index_sign": "not determined",
+  "component_factor": "separate sibling proof",
+  "external_inputs": [
+    "Cremona classical modular degree20576640",
+    "Y saturated rational generator",
+    "K-rank1/twist-rank0",
+    "optimal Shimura quotient singleton isogeny class"
+  ],
+  "new_computation": "Arb L-series, period and canonical-height enclosures; actual infinite tails bounded",
+  "seed_endpoints": "unchanged",
+  "report": "RESULT.md",
+  "replay": "certified_GZ_ingredients.py"
+}

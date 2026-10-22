@@ -1,0 +1,15 @@
+{
+  "return": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+  "lab_baseline": "5f183c24999cadac414451ed3601db7e666b0bea",
+  "manifest_entries_verified": 33,
+  "input_bindings_verified": 17,
+  "exact_check_replays": 3,
+  "archive_sha256": "376b040dd57cb43118f7abcb6d5b4e86b9a0710f994b8b83633f973f52b90570",
+  "archive_bytes": 424705,
+  "archive_integrity": "PASS",
+  "copy_identity": "PASS",
+  "mathematical_grade": "written review under retained inputs; new cofinite normalization derivation awaiting independent review; no new bound",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

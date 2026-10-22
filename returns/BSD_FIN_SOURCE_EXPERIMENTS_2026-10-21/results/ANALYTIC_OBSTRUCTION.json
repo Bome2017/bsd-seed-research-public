@@ -1,0 +1,79 @@
+{
+  "status": "PASS_EXACT_CONSTANT_AND_THRESHOLD_CHECKS",
+  "expression_obstruction": "B_p > 1000^((p^2-1)/4) > p^4",
+  "e_upper": "4697191/1728000",
+  "eleven_over_four_power8": "214358881/65536",
+  "rows": [
+    {
+      "p": 5,
+      "d_relative_unit_rank": 6,
+      "lower_bound_on_log_floor_of_bound_expression": 25,
+      "faithful_unit_dimension": 3,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 7,
+      "d_relative_unit_rank": 12,
+      "lower_bound_on_log_floor_of_bound_expression": 42,
+      "faithful_unit_dimension": 4,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 11,
+      "d_relative_unit_rank": 30,
+      "lower_bound_on_log_floor_of_bound_expression": 86,
+      "faithful_unit_dimension": 6,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 13,
+      "d_relative_unit_rank": 42,
+      "lower_bound_on_log_floor_of_bound_expression": 113,
+      "faithful_unit_dimension": 7,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 17,
+      "d_relative_unit_rank": 72,
+      "lower_bound_on_log_floor_of_bound_expression": 175,
+      "faithful_unit_dimension": 9,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 23,
+      "d_relative_unit_rank": 132,
+      "lower_bound_on_log_floor_of_bound_expression": 290,
+      "faithful_unit_dimension": 12,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 31,
+      "d_relative_unit_rank": 240,
+      "lower_bound_on_log_floor_of_bound_expression": 482,
+      "faithful_unit_dimension": 16,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 53,
+      "d_relative_unit_rank": 702,
+      "lower_bound_on_log_floor_of_bound_expression": 1221,
+      "faithful_unit_dimension": 27,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 83,
+      "d_relative_unit_rank": 1722,
+      "lower_bound_on_log_floor_of_bound_expression": 2691,
+      "faithful_unit_dimension": 42,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    },
+    {
+      "p": 101,
+      "d_relative_unit_rank": 2550,
+      "lower_bound_on_log_floor_of_bound_expression": 3816,
+      "faithful_unit_dimension": 51,
+      "NOTE": "Not a lower bound on the actual class length. It limits the strength of this particular estimate."
+    }
+  ],
+  "scope": "The October 20 expression (G), using its own shortest-vector regulator bound. Additional class-map constraints or stronger analytic input are not excluded."
+}

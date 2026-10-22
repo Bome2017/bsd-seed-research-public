@@ -1,0 +1,13 @@
+PASS verifier segments
+PASS a_q verified
+PASS a_q segment root
+PASS wverify an root
+PASS arbcore a_n root
+PASS witness file root (producer determinism; not needed for soundness)
+PASS L2HALF_DUMP (exact ball)
+PASS L2HALF_INTERVAL
+PASS ZERO_EXCLUDED
+REPLAY_PASS
+real 167.19
+user 509.38
+sys 3.60

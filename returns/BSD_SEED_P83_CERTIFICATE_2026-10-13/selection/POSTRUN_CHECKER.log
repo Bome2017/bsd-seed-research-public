@@ -1,0 +1,19 @@
+{
+ "verdict": "NONZERO",
+ "p": 83,
+ "l": 167,
+ "reasons": [],
+ "E_Fl_order": 168,
+ "params": "msl 0 -22735 0 106272484 0 167 6503188012738584 1 57378078719 16777216 /Users/bsm/BSD_P17_PREREQUISITES_2026-09-25/singleton_probe/corpus_ext_6445/view/ap /Users/bsm/BSD_UNRESOLVED_SEED_PUSH_2026-10-13/production/p83_l167/units 1024",
+ "msl_sha256": "b77ac22a524526d09080ad08c8a47e5a77a8ac2bc5687feb8fefcdbc97329342",
+ "arbcore_sha256": "47d07f2e856e82d2fece7834085aa99d30fa65d32137f0fde843022050fd89db",
+ "receipt_root": "53de8838b356300dbb7aed6cfc57cab3498c82bd585954fd244095e338f997da",
+ "symbols": 166,
+ "generator": 5,
+ "c0": "0",
+ "c1": "-23240",
+ "c2": "-1049574",
+ "c1_mod_p": 0,
+ "c2_mod_p": 44,
+ "meaning": "Ota Thm 1.5/6.4: Sha(E/Q)[p] = 0, hence Sha[p^inf] = 0 (audited grade)"
+}

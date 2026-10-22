@@ -1,0 +1,67 @@
+\section{The numerical Manin bound and the symbol lattice}\label{app:latticeproof}
+
+This appendix supplies the composition omitted from the earlier manuscript. It transcribes the governing, corrected proof in
+\path{evidence/src/BSD_MANIN_2_PRIMARY_GATE_2243_12_2026-09-18/00_REPORT.md},
+\S\S1--3 and 6. It is a written proof using the geometric inputs identified below, not a formal verification of integral modular-curve geometry. The later source audit and its corrections are in \path{review/SECOND_REVIEW.md}. In particular the integer eight is derived here, not attributed verbatim to Pasten or CNS.
+
+\subsection{The chosen parametrization}
+Let $\pi:J_0(N)\twoheadrightarrow E_0$ be the optimal quotient for $f$, and let $\phi_0=\pi\circ\iota_\infty$, with $\iota_\infty(x)=[x-\infty]$. Use minimal N\'eron differentials and choose signs so that
+$\phi_0^*\omega_0=c_0\omega_f$, where $\omega_f=2\pi i f(z)\,dz$.
+The retained isogeny-class computation identifies two curves, $E$ and its rational $2$-isogenous partner. Thus the map used for $E$ is $\phi_E=\phi_0$ if $E=E_0$, and otherwise $\phi_E=\psi\circ\phi_0$, where $\psi:E_0\to E$ is that $2$-isogeny. This definition does not allow subsequent composition with an arbitrary multiplication map.
+For $\psi^*\omega_E=c_\psi\omega_0$, integrality and the dual isogeny give $c_\psi\mid2$, hence $c_E\mid2c_0$; see \cite[proof of Cor.~7.3]{cns}.
+
+The odd-prime support theorem \cite[Cor.~3.7]{arsmanin} restricts the odd divisors of $c_0$ to primes whose squares divide $N$, here only $4547$. Both displayed isogeny-class members have type III at $4547$, with $(v(c_4),v(c_6),v(\Delta))=(1,2,3)$ and $j\equiv1728$. Since $4547\equiv3\pmod4$, this is potentially supersingular reduction. Theorem~4.6.3 of \cite{edixhoventhesis} excludes $4547$ from $c_0$: its hypotheses $p>7$, the stated additive-type exclusions, and absence of a rational $p$-isogeny all hold (the last follows also from Theorem~\ref{thm:image}). Therefore $c_0$ is a power of two. The direct thesis check concerns that theorem's statement, not a new proof of the thesis.
+
+\subsection{Reduction to an integral differential lattice}
+Put $R=\Z_{(2)}$, $X=X_0(N)_R$, and
+\[
+ S=S_2(\Gamma_0(N),R),\qquad H=H^0(X,\omega_{X/R}),\qquad
+ e'=\min\{e:2^e S\subseteq H\}.
+\]
+Here $S$ denotes the forms with integral expansion at $\infty$. Because $3\mid N$ and $3\equiv3\pmod4$, \cite[Thm.~6.12(c), Prop.~6.2]{cns} identify $H$ with the N\'eron differential lattice of $J_0(N)$. Their Theorem~5.15 puts $\omega_f$ in $H$. Its first coefficient is one, so
+$H\cap\Q\omega_f=S\cap\Q\omega_f=R\omega_f$.
+
+Let $P_f$ be the Petersson projection onto $\Q\omega_f$, and choose a generator $\eta$ of $P_f(H)$ with $\omega_f=2^\kappa\eta$, after absorbing an $R$-unit. The prime-to-$N$ Hecke operators are self-adjoint, and strong multiplicity one makes their common $f$-eigenspace one-dimensional. Dualizing $\pi t=\chi_f(t)\pi$ therefore shows that $(\pi^\vee)^*$ factors through $P_f$. Writing $(\pi^\vee)^*\eta=u\omega_0$ with $u\in R$, the identity $\pi\pi^\vee=[\deg\phi_0]$ gives
+\[
+ v_2(\deg\phi_0)\ge v_2(c_0)+\kappa.
+\]
+The modular-exponent divisibility \cite[Thm.~3.6(a)]{ars} gives the opposite bound
+\[
+ v_2(\deg\phi_0)\le v_2\bigl(P_f(S)/R\omega_f\bigr)\le e'+\kappa.
+\]
+The last inequality follows by projecting $2^{e'}S\subseteq H$. Cancellation yields $v_2(c_0)\le e'$. This is the integral-lattice part of Pasten's method \cite[\S10]{pasten}; it does not invoke an unspecified numerical constant from that paper.
+
+\subsection{The explicit estimate $e'\le8$}
+Use the regular rigidified modular model $X_m$ for $\Gamma_0(N)\cap\Gamma_1(5)$ and its forgetful map $\alpha:X_m\to X$. Put $X'=X_{\Gamma_0(N/8)\cap\Gamma_1(5)}$, and let $\mu$ and $c'$ be its index in $\mathrm{PSL}_2(\Z)$ and cusp count. The imported geometric facts are:
+\begin{enumerate}[label=(\roman*)]
+\item $X'$ has good reduction at two and $2g'-2=\mu/6-c'$. Its geometric supersingular locus has $s=\mu/12$ points.
+\item The special fibre of $X_m$ has four geometrically integral components $C_i$, indexed by $(3,0),(2,1),(1,2),(0,3)$, each of multiplicity one. Their arithmetic genera are at least $g'$.
+\item Each pair meets over every supersingular point, so $C_iC_j\ge s$ for $i\ne j$. The full fibre $F=\sum_i C_i$ satisfies $FC_i=0$.
+\item The generic fibre has index $12\mu$ and $4c'$ cusps, whence $\omega_{X_m/R}F=2\mu-4c'$. The map $\alpha$ is \emph{generically} \`etale on each special-fibre component.
+\end{enumerate}
+Regularity, component multiplicities and generic \`etaleness are taken from the Katz--Mazur inputs as used in \cite[\S5.9, Lemmas~5.8, 5.10]{cns}; the supersingular subgroup is $\ker F^3$ in their proof of 6.10. The genus and mass formulas and adjunction are standard imports. The original Katz--Mazur and adjunction proofs were not independently replayed in this release. This precisely identifies the geometric portion requiring expert review.
+
+For $s_0\in S$, write the divisor of $\alpha^*s_0$ as
+$D_{\rm hor}-\sum_i k_i C_i$, where $D_{\rm hor}$ is effective and horizontal. Integral expansion at $\infty$ gives $k_\infty\le0$; other $k_i$ may also be negative. If $K=\max_i k_i>0$, choose $j$ attaining it. Since $FC_j=0$,
+\[
+ \omega C_j=D_{\rm hor}C_j+\sum_{i\ne j}(K-k_i)C_iC_j
+ \ge K C_\infty C_j\ge K\mu/12.
+\]
+This formula includes any positive vertical zero at $C_\infty$ and does not silently set it to zero. Adjunction gives, for every other component,
+\[
+ \omega C_i=2p_a(C_i)-2-C_i^2
+ \ge\mu/6-c'+3\mu/12.
+\]
+Subtracting the other three contributions from $\omega F$ yields
+\[
+ K\mu/12\le 2\mu-4c'-3(\mu/6-c'+\mu/4)
+ =3\mu/4-c',\qquad K\le9-12c'/\mu<9.
+\]
+Thus $K\le8$; if $K\le0$ there is nothing to prove. Multiplying by $2^8$ removes every vertical pole upstairs. Generic \`etaleness transfers the codimension-one regularity downstairs, and normality together with the reflexive dualizing sheaf extends across codimension two. Hence $2^8S\subseteq H$ and $v_2(c_0)\le8$.
+
+\subsection{From the bound to the exact lattice}
+It follows that $c_0\mid2^8$, $c_E\mid2^9$. A cusp $r=a/d$ with $\gcd(d,N)$ an exact divisor of $N$ is rational over $\Q$. Manin--Drinfeld makes $\phi_E(r)-\phi_E(\infty)$ rational torsion, of exponent dividing two. Consequently $2c_E\lambda(r)$ belongs to the N\'eron period lattice of $E$. Because $\Delta>0$, that lattice is rectangular, with least positive periods $\Omega^+$ and $i\Omega^-$. Taking the two coordinates proves
+\[
+ [r]^\pm\in(2c_E)^{-1}\Z\subseteq2^{-10}\Z.
+\]
+This applies separately to denominators $27,81,5,25,7,49,11,121,13,169$ and the smaller retained levels; it is not a claim about all cusps. There is \emph{no nine-power spare margin}: the worst-case denominator here is exactly $2^{10}$.

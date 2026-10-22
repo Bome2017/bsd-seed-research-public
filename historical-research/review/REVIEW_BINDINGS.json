@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "scope": "First-review repair, narrative, sources and retained replay records. Hash agreement is not a proof replay. Final verification and manifest excluded to avoid circularity.",
+  "files": {
+    "review/FIRST_REVIEW.md": "699f7fa045047ec638cd8179cc171ba8a1dded8ae37d741773b0bd406be5b9a5",
+    "review/FIRST_REVIEW_FREEZE.md": "250abd8c44a847d7f729f9d21f22ca4c7dc47ca0cd0dddad08e9bfe93e541432",
+    "review/NOTES_FOR_AUTHOR.md": "91a47c439f9ba08a0b6e8a1cf04d4e537c29a2c1742b9c18fbe6d9232f31a737",
+    "review/PRIVACY_REVIEW.md": "6b8c530617b75f35bec549156b8ffac6f664689e37c99e036163478cda5446d0",
+    "review/REVIEW_COVERAGE.md": "c570bd0d2aabae06dc4d3bc869293dd8225d8e51e57e70cf0b9e7ae17278c2c0",
+    "review/SOURCE_CHECKS.md": "0b3ec3c4b62783a4f0792160ef9e77d0bc5d9ad36a7ce845a03681dc612957d7",
+    "review/repairs/run_witness_scan.py": "6a055cae189511d919074b764f241ce95845cf94389689201b5698e2a83afb63",
+    "review/repairs/witness_structure_scan.c": "ecb058edc75439beee85d63b6fb310756077641e370ed3cf6aa69b8ba5839be6",
+    "review/repairs/wverify_distinct.c": "0f908108dcc5b5a5b485f4735bcd9f0891c9bee95b9d43198a216bf875591991",
+    "review/repairs/wverify_distinct.patch": "7db5f10f25a03c32e03c89e81e94812e2f5398e86750d868e0480f59e6742ffe",
+    "review/replay_logs/A3_lean_review.log": "07ec913c6c7979f7077940f01dced7a3ff2c5baf018d12bfc23a36bac86d2ca8",
+    "review/replay_logs/coefficient_verifier_regression.txt": "dea6687953bea86aac3eae71781850e6434d238ed5f0482e4d53fcc6738b81dc",
+    "review/replay_logs/full_saturation_replay.log": "e711dcc56edf80804fb1069a2932a8815122019c2471a8478252b3cfdf785e9d",
+    "review/replay_logs/github_privacy_check.json": "c1372dbf6991449bb969d3b2c3aee59659524df52f4583c2d05489a51fefbcc2",
+    "review/replay_logs/latex_review_build.log": "6c893b4f864b2a928e8a09a60ff6cd5626dac6043f8e437342402bed0cb56e5f",
+    "review/replay_logs/p3_height_replay.log": "0ade6a44890b310eeeba6bf84a0966de386f371c49968c6b9d1f910f527cf8f1",
+    "review/replay_logs/release_negative_controls.json": "ed1ada2b9c5b0b5e53d7c2638e941e129a1ce83b7181423401b765d99426025a",
+    "review/replay_logs/review_build_metadata.json": "bb8eefc0b8477ab05da1e62d9e4fe9c5858dae9a30f788428f804ba8b8be2525",
+    "review/replay_logs/witness_structure_scan.tsv": "d9878e6f2b95463cb6e6e3200bf910518bb6a8aa15bf1e8efa8e673fbd434496",
+    "review/replay_logs/witness_structure_summary.json": "63b328ebe09de9d730e82ea87a6d28d97221f2fa26ed6b34a3f85dcaa8996676",
+    "tools/replay/coefficient_verifier_regression.py": "909f8d423377fe69be902a0e3d97529a8e644a2c5ee409bdc95e7f6bea0388ba",
+    "tools/replay/release_negative_controls.py": "8b2f11f786b3ba92381e7a89fa3f22b4b1269d537f732daa1843049b9712ea16"
+  }
+}

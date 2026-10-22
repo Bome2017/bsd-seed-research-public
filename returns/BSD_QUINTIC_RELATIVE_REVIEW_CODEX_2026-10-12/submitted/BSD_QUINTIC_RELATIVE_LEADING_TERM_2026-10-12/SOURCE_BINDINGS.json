@@ -1,0 +1,49 @@
+{
+  "repository": "Bome2017/bsd-seed-lab",
+  "baseline_commit": "84a7333af028ff5bc694bc82bcb3c768a019f5c6",
+  "inputs": [
+    {
+      "path": "work/returns/BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12/REPORT.md",
+      "git_blob": "903fb0487ef3e4168636a4ec32fcb877936bfcae",
+      "reading_scope": "full",
+      "independently_recertified": false
+    },
+    {
+      "path": "work/returns/BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12/TOWER_AUDIT.md",
+      "git_blob": "6ecd9efddc874e165fa8de91b4174ee0a8a8cbd6",
+      "reading_scope": "full",
+      "independently_recertified": false
+    },
+    {
+      "path": "work/returns/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/PERIOD_AUDIT.md",
+      "git_blob": "ba7e4743c9ddd7e5fd8fc54ab6f2acd04a1c4495",
+      "reading_scope": "full",
+      "independently_recertified": false
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/SYMBOLS_m25.txt",
+      "git_blob": "b0d766f63e90ac9d17b2ca15ee2e387cd6b34ff6",
+      "reading_scope": "full, copied and byte hash checked",
+      "independently_recertified": false
+    },
+    {
+      "path": "work/state-sync-2026-09-30/release/v0.2.6/evidence/src/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md",
+      "git_blob": "291e618f69600e05864c9d2542dc1de1688a37ba",
+      "reading_scope": "lines 38-62 only",
+      "independently_recertified": false
+    }
+  ],
+  "copied_table": {
+    "path": "inputs/SYMBOLS_m25.txt",
+    "sha256": "d70db75fc5d6ac7dfddd8a36eef2aadba772ccdeb23f8a3253c1308065bc365e",
+    "git_blob": "b0d766f63e90ac9d17b2ca15ee2e387cd6b34ff6"
+  },
+  "new_result": "A_F=19^4*A_Q for explicitly BSD-normalized analytic leading terms",
+  "actual_Sha_order_proved": false,
+  "new_padic_coefficient_digits": 0,
+  "new_symbol_values": 0,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "review_grade": "single-assistant written derivation with executed exact checks"
+}

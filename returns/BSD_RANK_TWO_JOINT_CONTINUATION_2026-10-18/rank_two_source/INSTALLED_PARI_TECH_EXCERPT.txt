@@ -1,0 +1,77 @@
+ \subsec{Class group, units, and the GRH}\label{se:GRHbnf}
+ 
+ Some of the functions starting with \kbd{bnf} are implementations of the
+ sub-exponential algorithms for finding class and unit groups under \idx{GRH},
+ due to Hafner-McCurley, \idx{Buchmann} and Cohen-Diaz-Olivier. The general
+ call to the functions concerning class groups of general number fields
+ (i.e.~excluding \kbd{quadclassunit}) involves a polynomial $P$ and a
+ technical vector
+ $$\var{tech} = [c_{1}, c_{2}, \var{nrpid} ],$$
+ where the parameters are to be understood as follows:
+ 
+ $P$ is the defining polynomial for the number field, which must be in
+ $\Z[X]$, irreducible and monic. In fact, if you supply a nonmonic polynomial
+ at this point, \kbd{gp} issues a warning, then \emph{transforms your
+ polynomial} so that it becomes monic. The \kbd{nfinit} routine
+ will return a different result in this case: instead of \kbd{res}, you get a
+ vector \kbd{[res,Mod(a,Q)]}, where \kbd{Mod(a,Q) = Mod(X,P)} gives the change
+ of variables. In all other routines, the variable change is simply lost.
+ 
+ The \var{tech} interface is obsolete and you should not tamper with
+ these parameters. Indeed, from version 2.4.0 on,
+ 
+ \item the results are always rigorous under \idx{GRH} (before that version,
+ they relied on a heuristic strengthening, hence the need for overrides).
+ 
+ \item the influence of these parameters on execution time and stack size is
+ marginal. They \emph{can} be useful to fine-tune and experiment with the
+ \kbd{bnfinit} code, but you will be better off modifying all tuning
+ parameters in the C code (there are many more than just those three).
+ We nevertheless describe it for completeness.
+ 
+ The numbers $c_{1} \leq c_{2}$ are nonnegative real numbers. By default they
+ are chosen so that the result is correct under GRH. For $i = 1,2$, let
+ $B_{i} = c_{i}(\log |d_{K}|)^{2}$, and denote by $S(B)$ the set of maximal
+ ideals of $K$ whose norm is less than $B$. We want $S(B_{1})$ to generate
+ $\Cl(K)$ and hope that $S(B_{2})$ can be \emph{proven} to generate $\Cl(K)$.
+ 
+ More precisely, $S(B_{1})$ is a factorbase used to compute a tentative
+ $\Cl(K)$ by generators and relations. We then check explicitly, using
+ essentially \kbd{bnfisprincipal}, that the elements of $S(B_{2})$ belong to the
+ span of $S(B_{1})$. Under the assumption that $S(B_{2})$ generates $\Cl(K)$, we
+ are done. User-supplied $c_{i}$ are only used to compute initial guesses for
+ the bounds $B_{i}$, and the algorithm increases them until one can \emph{prove}
+ under GRH that $S(B_{2})$ generates $\Cl(K)$. A uniform result of Greni\'e
+ and Molteni says
+ that $c_{2} = 4$ is always suitable, but this bound is very pessimistic and a
+ direct algorithm due to Belabas-Diaz-Friedman, improved by Greni\'e and
+ Molteni, is used to check the condition, assuming GRH. The default values
+ are $c_{1} = c_{2} = 0$. When $c_{1}$ is equal to $0$ the algorithm takes it
+ equal to $c_{2}$.
+ 
+ $\var{nrpid}$ is the maximal number of small norm relations attached to each
+ ideal in the factor base. Set it to $0$ to disable the search for small norm
+ relations. Otherwise, reasonable values are between 4 and 20. The default is
+ 4.
+ 
+ \misctitle{Warning} Make sure you understand the above! By default, most of
+ the \kbd{bnf} routines depend on the correctness of the GRH. In particular,
+ any of the class number, class group structure, class group generators,
+ regulator and fundamental units may be wrong, independently of each other.
+ Any result computed from such a \kbd{bnf} may be wrong. The only guarantee is
+ that the units given generate a subgroup of finite index in the full unit
+ group. You must use \kbd{bnfcertify} to certify the computations
+ unconditionally.
+ 
+ \misctitle{Remarks}
+ 
+ You do not need to supply the technical parameters (under the library you
+ still need to send at least an empty vector, coded as \kbd{NULL}). However,
+ should you choose to set some of them, they \emph{must} be given in the
+ requested order. For example, if you want to specify a given value of
+ \var{nrpid}, you must give some values as well for $c_{1}$ and $c_{2}$,
+ and provide a vector $[c_{1},c_{2},\var{nrpid}]$.
+ 
+ Note also that you can use an $\var{nf}$ instead of $P$, which avoids
+ recomputing the integral basis and analogous quantities.
+ 

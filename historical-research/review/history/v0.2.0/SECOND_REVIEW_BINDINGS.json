@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "scope": "Follow-up lattice, privacy and paper-review revisions. Original first-review bindings untouched. Excludes self, final verification, manifest and delivery metadata to avoid circularity.",
+  "files": {
+    "SHARING.md": "f389c9007756e47dad45b7f827beae0b9e92d5f7386545bb06e2701938c92bc8",
+    "review/PRO_REVIEW_RESPONSE.md": "e8a8d6b4b27d88fc3d6821a9aa64d5c4145d55c28337986094a4a42ff7da3a5b",
+    "review/SECOND_REVIEW.md": "b988ea3759ac4e3f7247e8aaf59313057dac2dc11eb7590e7dd13af9d5b474bd",
+    "review/followup_logs/c13_custody_reconciliation.json": "40aff07178936ac1bb2fbd9242103ecfb04dd3e389b25d0c8d5a25a0c3683c72",
+    "review/followup_logs/corpus_acceptance_receipts.json": "0f66bfc05fc461279e6ef657209e7c945c6adfb928c28c6785ba1a83f333663f",
+    "review/followup_logs/historical_local_replay.txt": "1b3c7fdc0abf77e4bac9d13ab988b13c424acb73b4d077c05a1c2946913b1ae3",
+    "review/followup_logs/independent_lattice_replay.txt": "ff21ddb596eac0f2f65c7d28ea570e951146790e5f5afe14e0708c5380e6d192",
+    "review/followup_logs/lattice_negative_control.txt": "6f520244153ea0acb04f8f8bddf2d33169184228794cf4f4a9d8bc4030c914b9",
+    "review/followup_logs/nested_archive_coverage.json": "f1d8724521dfeb892e0202048939adc80ba3161a3dc2c11b11d7f7ef2955e1a2",
+    "review/followup_logs/pdf_build.json": "43101c6fbc232f724594f03fedb687c7756fd092612dfdb4f8b634e59331e054",
+    "review/followup_logs/pilot_verifier_check.json": "5f2e81f02be195d2dabe9b839be36ecead46a9677ebc3fba5a8fd3d9ecc980f5",
+    "review/followup_logs/privacy_scan.json": "edc2bb744ac57ad0394db6a1a17deb74717f0ba2b1b9dea9d1f98b9ee8a0d64d",
+    "review/followup_logs/source_checks.json": "6edfdff214e57dafe2f7031a88294d73addd367648013883abb495cc418bd3e3",
+    "review/pro_report/MANIFEST.sha256": "fb030602c2cdd69ad67852f6ef88411ae2a50a894aa9d1a96886593190a3e0b5",
+    "review/pro_report/REFEREE_ISSUES.md": "056366f86b86165f57c6d37206adc8eb53ddaa9a6cb94ce1a5e0c0ce986ab932",
+    "review/pro_report/independent_checks.json": "da14cc1d98077e8ddcc8922b9a24080e13415754e73f64b1013e73e72105ec7d",
+    "review/pro_report/independent_checks.py": "eefcbe682a1d3d9214773dbabff22f1096013906909325027bbd03bf8641ee8b",
+    "review/proofs/A3_SIGNATURE_AND_INPUTS.md": "afb6b38350ddb7613ac68c93225d1bf42be33a0a22096be0c17b44a32881c90c",
+    "tools/archive_privacy.py": "5dd3800a81aa6007c0566338423bc41ffd2b1ce2da7211fe00a6bff5ba46c753",
+    "tools/build_evidence.py": "428d30f0a222025da95eed11b2499035b2c402666288460c2800791870123ae4",
+    "tools/replay/archive_privacy_regression.py": "c4cf0707707d01caf15da76d65bbc899ff1bd41b465d7a902fbf028d68519ab7",
+    "tools/replay/lattice_local_checks.py": "03deb23214c2ca7f2f8fa8100075cee8f738998f924a9ca9ee2df471ccea042f",
+    "tools/replay/receipt_join.py": "c3407ea006119ec7fe9a6591bb9c635cdb08a89694c5e00750b9d99e54a96be0",
+    "tools/verify_release.py": "f35f0c31916eb2036831d6ac11964c7e01712a85bd305558620336ebf6f93b07"
+  }
+}

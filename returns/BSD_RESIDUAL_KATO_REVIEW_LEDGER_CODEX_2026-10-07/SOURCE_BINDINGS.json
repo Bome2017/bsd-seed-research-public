@@ -1,0 +1,33 @@
+{
+  "base_commit": "b9c4e1d421b78564904cdd2516ac07f69fcd900e",
+  "prior_manifest_entries_verified": 22,
+  "entries": [
+    {
+      "path": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/REPORT.md",
+      "sha256": "6b90f998499465e839ca977be9d1ad58007fe74c267d9cc145015512d56e0746",
+      "bytes": 2348
+    },
+    {
+      "path": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/INTEGRAL_MATCHING.md",
+      "sha256": "2a2a54928aaa8568011fc0ad8e7d01c2410988c76eba1bef6ed848e422a7f26d",
+      "bytes": 12960
+    },
+    {
+      "path": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/ALGEBRA_REVIEW.md",
+      "sha256": "0f392ff6abce52d080f506fc6503abd1009e614db86cbf4ee90316973e2c8205",
+      "bytes": 2327
+    },
+    {
+      "path": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/ASSUMPTIONS.json",
+      "sha256": "c190c367ec0a8a8eb7b46a1775b0d267aa627548c4c8593f4ec30f9fa17797ad",
+      "bytes": 1947
+    },
+    {
+      "path": "work/returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/MANIFEST.sha256",
+      "sha256": "f01aa1144538ab1ef7cb903e1b27560f8ffda12fbe8ce34f3c7ab636d19faeda",
+      "bytes": 1954
+    }
+  ],
+  "review_source": "User message in this conversation on 2026-10-07; summarized with attribution in REPORT.md; not claimed as a separate verbatim uploaded file.",
+  "review_scope": "Reported desk check of two proof files and preserved Kato text; retained seed inputs not independently recertified."
+}

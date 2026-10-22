@@ -1,0 +1,6 @@
+{"step": 1, "result": "full_mod5_admission", "evidence": "admission/RESULT.json"}
+{"step": 2, "result": "global_torsion_maps_with_group_law", "evidence": "torsion/RESULT.md"}
+{"step": 3, "result": "mixed_place_discovery_and_sealed_held_out_predictions", "evidence": "checks/PREDICTION_CHECK.json"}
+{"step": 4, "result": "both_global_Kummer_torsor_identities", "evidence": "torsors/RESULT.md"}
+{"step": 5, "result": "separate_same_team_review_and_two_prime_action_replay", "evidence": "geometry/GLOBAL_TORSOR_REPLAY.json"}
+{"step": 6, "result": "parent_replays_passed", "checks": ["8 coordinate maps", "4 universal additions", "pairing multipliers", "32 saved torsor facts", "50 distinct action translations", "198528 Sturm coefficient comparisons", "14 local coordinate rows"]}

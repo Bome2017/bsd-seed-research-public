@@ -1,0 +1,4 @@
+FATAL: count identity fails
+MERGE checkpoints 4 units 1445 selected 1445 missing 0 terms 2169602069
+FINGERPRINT sum_units ac56a61d710b8d46 array ac56a61d710b8d46 match 1
+COUNT smooth 1580993509 pairs 3250844699 sum 4831838208 T 4831838207 identity 0

@@ -1,0 +1,5 @@
+# Same-panel point-occupancy adaptation
+
+The 64-row screen completed: 59 fields accepted for provisional selection; five models have nontransitive 3-torsion and are excluded from this degree-eight setup (GP follow-on errors are rejected, never accepted). No accepted provisional class group has 3-rank at least two.
+
+The initial threshold was unnecessarily restrictive. A faithful class sector of dimension one not occupied by the displayed rational points would also avoid the already-settled control problem. Before calculating those occupancies, admit the following changed test on the SAME sealed 64 models only: select each accepted model with a 3-divisible provisional class group; compute the involution on ordinary Cl[3], then the ordinary ideal-class images of all combinations of the two displayed point images whose divisors are multiples of three. Select first case where the faithful class dimension exceeds this point-image rank. A candidate remains provisional, and the displayed pair must be authenticated as 3-saturated before it can exclude all rational points. No new curve rows are added.

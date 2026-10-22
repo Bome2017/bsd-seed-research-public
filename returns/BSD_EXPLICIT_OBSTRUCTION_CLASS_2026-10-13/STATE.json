@@ -1,0 +1,20 @@
+{
+  "status": "EXPLICIT_CONTROL_CLASSES_CONSTRUCTED",
+  "control": "d=43737, rational 5-isogeny pair",
+  "new_results": [
+    "explicit two-generator dual-isogeny Sha kernel",
+    "explicit smooth Pfaffian Hasse-principle obstruction under retained inputs"
+  ],
+  "grade": "written deduction, exact computation, same-team audit",
+  "retained_inputs": [
+    "rank upper bound 2",
+    "5-saturation",
+    "local isogeny reduction/differential data"
+  ],
+  "seed_bound": false,
+  "endpoints": {
+    "FIN": "unchanged",
+    "ORDER9": "unchanged",
+    "Q36": "unchanged"
+  }
+}

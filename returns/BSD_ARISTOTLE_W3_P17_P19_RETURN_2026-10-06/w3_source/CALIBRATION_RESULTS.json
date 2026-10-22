@@ -1,0 +1,262 @@
+{
+ "scope": "CALIBRATION_ON_SMALL_CONDUCTORS_ONLY; no seed value",
+ "11a1_rank0": [
+  {
+   "p": 17,
+   "ap": -2,
+   "ell_mod_p_level2": [
+    13,
+    16,
+    6,
+    3
+   ],
+   "ell_mod_p_level3": [
+    13,
+    16,
+    6,
+    3
+   ]
+  },
+  {
+   "p": 19,
+   "ap": 0,
+   "status": "supersingular_skipped"
+  },
+  {
+   "p": 23,
+   "ap": -1,
+   "ell_mod_p_level2": [
+    8,
+    5,
+    15,
+    2
+   ],
+   "ell_mod_p_level3": [
+    8,
+    5,
+    15,
+    2
+   ]
+  },
+  {
+   "p": 29,
+   "ap": 0,
+   "status": "supersingular_skipped"
+  },
+  {
+   "p": 31,
+   "ap": 7,
+   "ell_mod_p_level2": [
+    4,
+    8,
+    7,
+    3
+   ],
+   "ell_mod_p_level3": [
+    4,
+    8,
+    7,
+    3
+   ]
+  }
+ ],
+ "37a1_rank1": [
+  {
+   "p": 17,
+   "ap": 0,
+   "status": "supersingular_skipped"
+  },
+  {
+   "p": 19,
+   "ap": 0,
+   "status": "supersingular_skipped"
+  },
+  {
+   "p": 23,
+   "ap": 2,
+   "ell_mod_p_level2": [
+    0,
+    13,
+    0,
+    11
+   ],
+   "ell_mod_p_level3": [
+    0,
+    13,
+    0,
+    11
+   ]
+  },
+  {
+   "p": 29,
+   "ap": 6,
+   "ell_mod_p_level2": [
+    0,
+    1,
+    10,
+    14
+   ],
+   "ell_mod_p_level3": [
+    0,
+    1,
+    10,
+    14
+   ]
+  },
+  {
+   "p": 31,
+   "ap": -4,
+   "ell_mod_p_level2": [
+    0,
+    19,
+    24,
+    18
+   ],
+   "ell_mod_p_level3": [
+    0,
+    19,
+    24,
+    18
+   ]
+  }
+ ],
+ "389a1_rank2": [
+  {
+   "p": 17,
+   "ap": -6,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    8,
+    5
+   ],
+   "ell_mod_p_level3": [
+    0,
+    0,
+    8,
+    5
+   ]
+  },
+  {
+   "p": 19,
+   "ap": 5,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    3,
+    16
+   ],
+   "ell_mod_p_level3": [
+    0,
+    0,
+    3,
+    16
+   ]
+  },
+  {
+   "p": 23,
+   "ap": -4,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    13,
+    9
+   ],
+   "ell_mod_p_level3": [
+    0,
+    0,
+    13,
+    9
+   ]
+  },
+  {
+   "p": 29,
+   "ap": -6,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    19,
+    15
+   ],
+   "ell_mod_p_level3": [
+    0,
+    0,
+    19,
+    15
+   ]
+  },
+  {
+   "p": 31,
+   "ap": 4,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    26,
+    19
+   ],
+   "ell_mod_p_level3": [
+    0,
+    0,
+    26,
+    19
+   ]
+  },
+  {
+   "p": 37,
+   "ap": -8,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    17,
+    18
+   ],
+   "ell_mod_p_level3": [
+    0,
+    0,
+    17,
+    18
+   ]
+  },
+  {
+   "p": 41,
+   "ap": -3,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    20,
+    22
+   ],
+   "ell_mod_p_level3": null
+  },
+  {
+   "p": 43,
+   "ap": 12,
+   "ell_mod_p_level2": [
+    0,
+    0,
+    14,
+    22
+   ],
+   "ell_mod_p_level3": null
+  }
+ ],
+ "validator_controls_389a1": {
+  "perturbed_one_value": [
+   "violates Manin relations (not a global modular symbol)",
+   "not in the plus part"
+  ],
+  "random_plus_assignment": [
+   "violates Manin relations (not a global modular symbol)"
+  ],
+  "eisenstein_global_symbol": [
+   "global symbol but not in the specified Hecke eigenspace"
+  ],
+  "all_rejected": true
+ },
+ "checks": {
+  "rank2_ell0_ell1_zero_mod_p": true,
+  "rank1_ell0_zero_ell1_nonzero": true,
+  "level2_equals_level3": true,
+  "nonglobal_assignments_rejected": true
+ }
+}

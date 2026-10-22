@@ -1,0 +1,13 @@
+{
+  "status": "DEPENDENCY_LEDGER_COMPLETE",
+  "weak_order": "DERIVED_FROM_RETAINED_AND_PUBLISHED_INPUTS; INDEPENDENT_REVIEW_PENDING",
+  "tame_comparison": "NORMALIZATION_DERIVED_CONDITIONALLY; ARITHMETIC_IDENTITY_OPEN",
+  "novelty": "NOT_ASSERTED",
+  "FIN": "unchanged",
+  "ORDER9": "unchanged",
+  "Q36": "unchanged",
+  "new_primary_vanishing": false,
+  "remote_job_started": false,
+  "formula_checks": "PASS; NOT_SEED_KATO_EVALUATIONS",
+  "lab_baseline": "56a799e002c80d6928b90f081c99b56935d202b5"
+}

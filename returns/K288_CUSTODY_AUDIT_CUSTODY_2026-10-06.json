@@ -1,0 +1,97 @@
+{
+ "return": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06",
+ "uploaded_utc": "2026-10-07T00:29:08Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "K288_CUSTODY_CONFIRMED",
+ "files": [
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/HANDOFF.md",
+   "sha256": "66f2f1148689c5ebbc9dc6d2da508328784d2f35250a84338a2788882aa8f140",
+   "bytes": 1726
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/K288_AUDIT.json",
+   "sha256": "89adba43420b793a4dceeafcfdd7897d3c1b4b3ca1adac3bbe0d6167f2350995",
+   "bytes": 3193
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/MANIFEST.sha256",
+   "sha256": "461e350c34fee61d918a4eff740befb731d4c86edc65c1011e9e1b73328ebb94",
+   "bytes": 1068
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/PREDICTION_EXTRA.md",
+   "sha256": "9791e0aa72c3022cd53b4381e55b65f481abbf9ee3f06812c13b6fef1beb805c",
+   "bytes": 552
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/PREDICTION_EXTRA.sha256",
+   "sha256": "fe370a25dc631d419de4fe76e6dbb9093ef926760b8d98f7ed1e9c4ceb7f36f9",
+   "bytes": 107
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/RESULT.md",
+   "sha256": "17e24d0804dc8384a10e3530d2a5e0c13261c68518eead1c5a3c2ff1c018783d",
+   "bytes": 8221
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/assemble.py",
+   "sha256": "abbd0a6d9ce5453625b7fbb8e1c73b29711694c47e583e32dc27a2f5231dc0d4",
+   "bytes": 3751
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/c2_from_symbols.json",
+   "sha256": "5719830472f0244a529baab6e0826cebb5bd858a57ab5c295f5560dc30cdf74f",
+   "bytes": 3129
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/c2_from_symbols.py",
+   "sha256": "58584347c1dba3352c987e4b438889cf28af9b30260a646b3ff919929a7c7e53",
+   "bytes": 3951
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/extra_c2.out",
+   "sha256": "a126a1271a0d7fc9920fa7d20731c7209bc3ef32e9c25e4e2e8fa987d1bdeb5e",
+   "bytes": 301
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/extra_rows.gp",
+   "sha256": "112155506249202ff70c76592b4bcdd20ef5b063b0b4fa41b7c659be934a4cc0",
+   "bytes": 2808
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/extra_rows.out",
+   "sha256": "ecf6486dd6cdd8272c2e1633e8cd460cacb0fc285752b72d0f09cbcf3fbefdc8",
+   "bytes": 265
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/tamereg_audit.gp",
+   "sha256": "f735769e33b581798fff9fdb1279f2b2394574101dc77fd251035ddb2109b2bb",
+   "bytes": 2916
+  },
+  {
+   "path": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/tamereg_audit.out",
+   "sha256": "ea299417aa03afe71d0b69c9dde20e639fc08426c44a40ecf905c54f3f9609cf",
+   "bytes": 1212
+  }
+ ],
+ "inputs": {
+  "certified_runs_msl_sha256": {
+   "l103": "cb7d4735b8e43e1a6426274d1daaeac0476e4f3bd93493349e63f06edb78f15a",
+   "p19_l191_v2": "45189f729eaf3d6099ec888f562132ffa48eaa0b3645f453f0c98b61be9dd7a9",
+   "p23_l47": "97407c4f450facd5605d7f9df1f79dbc7c8175367156ddad87341dff986f62ec",
+   "p29_l233_v2": "f5d5c24f8027d2a45b60ecf0be0d90fa782e9623666b28d11ec53cb6780e7bcb",
+   "p31_l311": "22902955a050d77556ca8ddfc2ad76bd0dad6ef3da67047e55a525d1b49f6431",
+   "p37_l149": "07f2a5e8e5c5cd93300ca1126e1255629c053a7279ff1210859560ab96e6b015",
+   "p41_l83": "385557f41b6fab7f5fb09963d4334a6e3d045d8cdb7f66210a3ef81a5d2d90dd",
+   "p43_l173": "f61132e18906c5a407e3fc03560e5fe21a744dd3a02f59eba9809c8d97361bb8",
+   "p47_l283": "5e9c034fd4be8c3147f72b3cdfb70c055a126f2c585fa84ce8b70aafb81297eb"
+  },
+  "prediction_extra_sha256": "9791e0aa72c3022cd53b4381e55b65f481abbf9ee3f06812c13b6fef1beb805c",
+  "aristotle_eb3e82a5_6_regulators_agree": "9/9"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

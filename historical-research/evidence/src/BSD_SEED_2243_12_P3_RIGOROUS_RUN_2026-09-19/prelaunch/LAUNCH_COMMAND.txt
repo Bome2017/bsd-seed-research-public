@@ -1,0 +1,4 @@
+# launched by monitor.sh (governor) with:
+cd ~/BSD_RIGOROUS_STREAM_CORE_2026-09-19 && P3_AUTHORIZED=yes J=16 W=16 OUT=~/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/run nohup p3plan/run_p3.sh >> ~/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/logs/run_p3.out 2>&1 &
+# resume after an interruption: the same command (optionally lower J/W); done segments and complete units are skipped.
+# monitor/governor: nohup ~/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/monitor.sh > logs/monitor.out 2>&1 &   (NO_LAUNCH=1 to monitor an already-running pipeline)

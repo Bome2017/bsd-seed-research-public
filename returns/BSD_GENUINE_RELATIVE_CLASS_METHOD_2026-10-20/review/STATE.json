@@ -1,0 +1,31 @@
+{
+  "status": "INDEPENDENT_REVIEW_COMPLETE_NO_NEW_CLASS_OR_UNIT_BOUND",
+  "exact_pseudo_relations_verified": 196,
+  "faithful_generators_through_retained_GRH_bound": 8918,
+  "new_original_supported_relation_rank": [
+    0,
+    0
+  ],
+  "complete_class_bound": false,
+  "unconditional_generation_certified": false,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "unit_kernel_dimension": 80,
+  "unit_kernel_sign_counts": {
+    "+1": 78,
+    "-1": 2
+  },
+  "new_unit_directions": 0,
+  "private_support_inside_cutoff": 21,
+  "private_support_outside_cutoff": 156,
+  "outside_support_rank": [
+    156,
+    156
+  ],
+  "retained_GRH_complete_presentation_allowance": [
+    8918,
+    8918
+  ],
+  "net_improvement_complete_allowance": 0
+}

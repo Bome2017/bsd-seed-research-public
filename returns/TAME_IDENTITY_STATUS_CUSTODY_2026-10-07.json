@@ -1,0 +1,26 @@
+{
+  "return": "BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07",
+  "base_commit": "677b3f3dab4a061582b4c6e312d484e561e18bf8",
+  "manifest_entries_verified": 16,
+  "source_bindings": 8,
+  "archive_bytes": 52918,
+  "archive_sha256": "7159d564c36d4db2d8b1a4a20a8749eb30a5eab1b7f956413e83c2b4e7ec887a",
+  "exactness_source_custody": {
+    "ordinary_entries": 49,
+    "symbol_concatenation_files": 171,
+    "match": true
+  },
+  "check_scope": "stored residues and endpoint arithmetic; not independent producers or theorem certification",
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED",
+  "final_validation": {
+    "manifest_entries": 16,
+    "source_bindings": 8,
+    "local_lab_equal": true,
+    "archive_members": 17,
+    "checker_byte_equal": true,
+    "local_links_checked": 530,
+    "broken_links": []
+  }
+}

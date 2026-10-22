@@ -1,0 +1,40 @@
+--- buch2.lowmem.c
++++ buch2.profile.c
+@@ -656,6 +656,7 @@
+ {
+   GRHprime_t *pr;
+   long i, ip;
++  ulong bsd_seen=0, bsd_logical=0, bsd_retained=0, bsd_discarded=0;
+   GEN prim;
+   const double L = log((double)C2 + 0.5);
+ 
+@@ -672,6 +673,7 @@
+   for (;; pr++) /* p <= C2 */
+   {
+     ulong p = pr->p;
++    if (++bsd_seen % 1000 == 0) err_printf("BSD_FB_PROFILE p=%lu seen=%lu accepted=%ld stack=%lu retained=%lu logical=%lu discarded=%lu\n",p,bsd_seen,i,(ulong)(pari_mainstack->top-avma),bsd_retained,bsd_logical,bsd_discarded);
+     long k, l, m;
+     GEN LP, nb, f;
+ 
+@@ -697,7 +699,12 @@
+     {
+       pari_sp avp = avma;
+       LP = idealprimedec_limit_f(nf,prim, l);
+-      LP = gerepilecopy(avp, LP);
++      { ulong bsd_before = (ulong)(avp-avma);
++        LP = gerepilecopy(avp, LP);
++        bsd_retained += (ulong)(avp-avma);
++        bsd_discarded += bsd_before-(ulong)(avp-avma);
++        bsd_logical += (ulong)gsizebyte(LP);
++      }
+     }
+     /* keep noninert ideals with Norm <= C2 */
+     if (m == lg(f)) setisclone(LP); /* flag it: all prime divisors in FB */
+@@ -721,6 +728,7 @@
+       for (i=1; i<=F->KCZ; i++) err_printf("++ LV[%ld] = %Ps",i,gel(F->LV,F->FB[i]));
+     }
+   }
++  err_printf("BSD_FB_PROFILE_COMPLETE seen=%lu accepted=%ld stack=%lu retained=%lu logical=%lu discarded=%lu KC=%ld\n",bsd_seen,i,(ulong)(pari_mainstack->top-avma),bsd_retained,bsd_logical,bsd_discarded,F->KC);
+   F->perm = NULL; F->L_jid = NULL;
+   F->ballvol = ballvol(nf_get_degree(nf));
+ }

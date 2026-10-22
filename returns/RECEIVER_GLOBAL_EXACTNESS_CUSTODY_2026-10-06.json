@@ -1,0 +1,20 @@
+{
+  "status": "COPIED_AND_VERIFIED",
+  "manifest_entries_verified": 26,
+  "archives": [
+    {
+      "path": "work/returns/archives/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06.zip",
+      "bytes": 46832,
+      "sha256": "0a34b054d99dfcf0e820a188ee9d20a854bdbd2bb5647ce538477967d6c5f7c5"
+    },
+    {
+      "path": "work/returns/archives/BSD_RECEIVER_GLOBAL_EXACTNESS_2026-10-06.zip",
+      "bytes": 14801,
+      "sha256": "fc843c8bfc3a7e9def27f97e800f4b57bc010e366b435f82341c063068e7fcc3"
+    }
+  ],
+  "mathematical_status": "GLOBAL_EXACTNESS_ADDENDUM_CONFIRMED_UNDER_RETAINED_INPUTS",
+  "supersedes": "Only the remaining 4547 global comparison qualification at commit 6c1cb9398ce6d4791fc7988ee18893cd74bc1cdf",
+  "new_upper_bound": false,
+  "remote_jobs_changed": false
+}

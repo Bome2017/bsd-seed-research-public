@@ -1,0 +1,54 @@
+{
+  "status": "ALL_FRESH_433_SOURCE_ROWS_REPLAYED",
+  "source_columns": 13,
+  "literal_evaluations": 624,
+  "blocks": [
+    {
+      "prime": 223,
+      "all_source_rows_equal": true,
+      "literal_evaluations": 104,
+      "nonunit_literal_representatives": []
+    },
+    {
+      "prime": 967,
+      "all_source_rows_equal": true,
+      "literal_evaluations": 104,
+      "nonunit_literal_representatives": []
+    },
+    {
+      "prime": 1663,
+      "all_source_rows_equal": true,
+      "literal_evaluations": 104,
+      "nonunit_literal_representatives": []
+    },
+    {
+      "prime": 2659,
+      "all_source_rows_equal": true,
+      "literal_evaluations": 104,
+      "nonunit_literal_representatives": []
+    },
+    {
+      "prime": 3163,
+      "all_source_rows_equal": true,
+      "literal_evaluations": 104,
+      "nonunit_literal_representatives": []
+    },
+    {
+      "prime": 3463,
+      "all_source_rows_equal": true,
+      "literal_evaluations": 104,
+      "nonunit_literal_representatives": []
+    }
+  ],
+  "input_bindings": [
+    {
+      "path": "433_scan/source_elements.json",
+      "sha256": "b0eb47803c6c78eca21c04db4b0ed8b273b9167b4a3d0a9d9c49a920cf6737fc"
+    },
+    {
+      "path": "inputs/433a1_signatures.json",
+      "sha256": "bbbc0e2e1a9cfb298ba583a6d876d98f3d581353c7148299a998907fea192447"
+    }
+  ],
+  "scope": "Exact polynomial and Hensel-leading-unit replay of every full-source character, field root and torsion point; no producer libraries or known-class columns. Source completeness and source coordinate binding retained separately."
+}

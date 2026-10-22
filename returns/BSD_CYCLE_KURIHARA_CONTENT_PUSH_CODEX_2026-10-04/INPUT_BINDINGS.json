@@ -1,0 +1,79 @@
+{
+  "bound_at_utc": "2026-10-04T23:32:52.875964+00:00",
+  "bindings": [
+    {
+      "original_path": "/Users/bsm/BSD_NONINVARIANT_CYCLE_PUSH_CODEX_2026-10-04/PROOF.md",
+      "copy": "context/closed_lift_PROOF.md",
+      "bytes": 9417,
+      "sha256": "3ca277ec2e886b712a04ebdaa3cf1ac3747386456833d2b61b67c9dda5d8f5a9"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_CODEX6_WC_INTEGRAL_DESCENT_2026-09-19/HOMOLOGY_SOURCE_THEOREM.md",
+      "copy": "context/homology_source.md",
+      "bytes": 5270,
+      "sha256": "e828a45a6264a2ac4103858109f1c00415b71daa623dcc8e22f07fa6e7a60999"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_CODEX6_WC_INTEGRAL_DESCENT_2026-09-19/INTEGRAL_COMPARISON_ATTACK.md",
+      "copy": "context/integral_comparison.md",
+      "bytes": 5782,
+      "sha256": "2a7ee31414e8abbee075f8fd062f23de7c0f6ba14447ed143f197a02c8c3d98a"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_CODEX6_WC_INTEGRAL_DESCENT_2026-09-19/TWO_PRIME_SUPPORT_THEOREM.md",
+      "copy": "context/two_prime_support.md",
+      "bytes": 3674,
+      "sha256": "75f43f3512490b05c5e4c0c297918431a2277c50aaf3c9115d0531b1b41730e2"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_II_TWO_PRIME_WITNESS.md",
+      "copy": "context/retained_two_prime_bridge.md",
+      "bytes": 7276,
+      "sha256": "32d78ea3358fdd742b8dc0b819c678427cfea66ccd0978ca7ac7f7f1d4bc8df6"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_UNIFORM_DEPTH_V2_REVIEW_CODEX_2026-09-30/input/BSD_UNIFORM_DEPTH_V2_RETURN_2026-09-30/ATTEMPT_I_CHARACTER_DEPTH.md",
+      "copy": "context/retained_character_depth.md",
+      "bytes": 14037,
+      "sha256": "e089c20bc49bb34022790eea972f321d5231443f736cd615462797f670964d9e"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/REPORT.md",
+      "copy": "context/scalar_extension_REPORT.md",
+      "bytes": 5460,
+      "sha256": "c3c4c0b12406cbe6848f58985d79dd9ada26090be8d3b30fe9cd17c35dc0f0b3"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/AUDIT.md",
+      "copy": "context/scalar_extension_AUDIT.md",
+      "bytes": 8270,
+      "sha256": "3691e825537ddebd6a925060d25685d605625910ce6f9bb0df5d502f9c3d59bb"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_TWO_PRIME_SCALAR_EXTENSION_CHECK_CODEX_2026-10-01/NORMALIZATION_CHECK.md",
+      "copy": "context/scalar_normalization.md",
+      "bytes": 2437,
+      "sha256": "7eaf4c88e3a108644f535114b6ef8631fc0d50ad826551afadc2d32c20889540"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_BUILD_MAP/experiments/E08_t0_gate/TASK.md",
+      "copy": "context/E08_historical_task.md",
+      "bytes": 7833,
+      "sha256": "9ca9c33b7e1a1d5b319bed4a2244219f17f9007c48c0fa3c38900722e817c00a"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_COMBINATION_REVIEW_CODEX_2026-09-30/REPORT.md",
+      "copy": "context/combination_review.md",
+      "bytes": 9048,
+      "sha256": "4ae63a658bbc24e2cb70c7e72d5215db5e9194cfe956b96b25e3832cea212324"
+    },
+    {
+      "original_path": "/Users/bsm/BSD_SEED_V026_BANK_2026-09-30/repo/claims/claims.json",
+      "original_sha256": "94a8c171a1d1649274e4751c450729a999fa81ef5564280e88da36732c909453",
+      "copy": "context/RELEASE_CLAIMS_B20_B24.json",
+      "sha256": "2366d363e74aefcff52ecc096a4a7243320128a1698401a2813918e3c0cbbe60",
+      "bytes": 55022,
+      "mode": "exact selected JSON records, reserialized; not a byte-for-byte copy of the full bank"
+    }
+  ]
+}

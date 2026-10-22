@@ -1,0 +1,116 @@
+{
+ "return": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06",
+ "uploaded_utc": "2026-10-07T02:26:20Z",
+ "author": "Claude (Opus 5.5)",
+ "verdict": "PRECISE_OBSTRUCTION (two independent runs and a regrade; the canonical anticyclotomic pairing on E(Q) vanishes for odd p, so no m_E is fixed; not an impossibility proof)",
+ "files": [
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/CLAUDE_CHECK.md",
+   "sha256": "56dc0c4644c73d15d3fcdc70d1a8e91450b24769c038a45bf7c95ace8188e7d3",
+   "bytes": 3162
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/MANIFEST.sha256",
+   "sha256": "9c44e5843130b502df8c9254b25bb872bef8b66e8a55432df57868acb0342d28",
+   "bytes": 1854
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/README.md",
+   "sha256": "3f482ecebef8fc5009bdbce89f5c61e6cc5861be8b9c56ee9894921e28b9f393",
+   "bytes": 2283
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/run_74e483e4/ARISTOTLE_SUMMARY.md",
+   "sha256": "96bfb3447c35854b6d6f9f9f33ec444bd61a7c332651beaeb6e7c713877f2dfa",
+   "bytes": 4603
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/run_74e483e4/DERIVED_GROSS_RESULT.md",
+   "sha256": "6109ae6fbc03ffe1e9356236a516485df7d880e00e4a784ee3d451960e2af42b",
+   "bytes": 26841
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/run_74e483e4/DerivedGross/AXIOMS.txt",
+   "sha256": "b00eae9e506ff833531f18bfa892a387faba792edce0f7b51c6ca8f2be3941e7",
+   "bytes": 2351
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/run_74e483e4/DerivedGross/Parity.lean",
+   "sha256": "5b6c1516b2103f1485bf3cdddb2319ab2f1cd220e28896d081515afb88bb5bce",
+   "bytes": 15043
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/run_74e483e4/DerivedGross/Threshold.lean",
+   "sha256": "b850a69a157fd86298ec8081f489bf70fd2eec844b97d2c3c2ce0e3c5f5f3600",
+   "bytes": 5696
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/run_74e483e4/lakefile.toml.returned",
+   "sha256": "2669273f671721c241743532d60cde846ca81e3ece2dda2751d2381b48db97a7",
+   "bytes": 389
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/ARISTOTLE_SUMMARY.md",
+   "sha256": "85bb982246ff2e94d68093a98c9a1a261ccdbbd765b6e08d5964c2b50e26205d",
+   "bytes": 7984
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/DELTA_TASK_DERIVED_GROSS_TIGHTENED.md",
+   "sha256": "b625548afec73ae6a07d3d9e129f22a535adee9a23d60ea9171dee9b8d501aeb",
+   "bytes": 10266
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/DERIVED_GROSS_RESULT.md",
+   "sha256": "c37ba291ff0537403ef1836010b22d022be1eb518c89147fc182f51a8b39275b",
+   "bytes": 16439
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/RequestProject/DerivedGross/Obstruction.lean",
+   "sha256": "c159ac3db016df86ee31cac3acc93980cbfbb8eddb6b9f8d8774dfa666d39b3d",
+   "bytes": 9639
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/RequestProject/DerivedGross/Threshold.lean",
+   "sha256": "b426e4bdb3c284911c1f7247ae42d9e579b6db4ccb65c1b6b89a3d67ad2ed6f9",
+   "bytes": 6990
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/SUBMISSION_PROMPT_TIGHTENED.txt",
+   "sha256": "35a48f0bc49fe2a4a3e31ce43accc8258a3c1944b2a851807ce8187e6b842156",
+   "bytes": 2053
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/SUBMIT_COMMAND_TIGHTENED.txt",
+   "sha256": "9bb78d0ea676409780cec719f16ce0e049ce19bd052ec95f20c06d94256ca84e",
+   "bytes": 2270
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/THRESHOLD_REGRADE.md",
+   "sha256": "1f95deb8ec37acbc0d7a4f7831614e70d83ea2180fab6343f3dd315d7a3ffaec",
+   "bytes": 8992
+  },
+  {
+   "path": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/runs_523a4561_1d81f21f/lakefile.toml.returned",
+   "sha256": "d29d7f58b8fc26bd7303bdef888352626a3a6062683adf05724ff0a9b2c442e0",
+   "bytes": 310
+  },
+  {
+   "path": "archives/cb9ad0a0-a443-4ea5-91f2-0fbe5ac66cf0-aristotle.tar.gz",
+   "sha256": "0fbfd81e1d400f1170975186d22b1db3a581fd9e1843ffe78da7924caf4bcd18",
+   "bytes": 145542
+  },
+  {
+   "path": "archives/0cd74d26-3413-42c7-b473-faa147bdc48b-aristotle.tar.gz",
+   "sha256": "a3f5d81ed83d407591453c329e6a1a353d8d0a8ea98a7362ee0d6de7bf7fe961",
+   "bytes": 145322
+  }
+ ],
+ "inputs": {
+  "aristotle_runs": "74e483e4 (cb9ad0a0); 523a4561 and 1d81f21f regrade (0cd74d26)",
+  "excluded": "Aristotle citation banner in archive README.md (archives kept unchanged)"
+ },
+ "scope": "custody and file identity; publication does not certify a theorem",
+ "FIN_changed": false,
+ "ORDER9_changed": false,
+ "Q36_changed": false
+}

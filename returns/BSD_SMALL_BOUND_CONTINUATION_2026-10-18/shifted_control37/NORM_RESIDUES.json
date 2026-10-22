@@ -1,0 +1,1610 @@
+[
+  {
+    "q": 1181,
+    "points": [
+      [
+        27,
+        706
+      ],
+      [
+        27,
+        474
+      ],
+      [
+        106,
+        21
+      ],
+      [
+        106,
+        1159
+      ],
+      [
+        141,
+        715
+      ],
+      [
+        141,
+        465
+      ],
+      [
+        285,
+        849
+      ],
+      [
+        285,
+        331
+      ],
+      [
+        318,
+        112
+      ],
+      [
+        318,
+        1068
+      ],
+      [
+        367,
+        721
+      ],
+      [
+        367,
+        459
+      ],
+      [
+        546,
+        737
+      ],
+      [
+        546,
+        443
+      ],
+      [
+        583,
+        608
+      ],
+      [
+        583,
+        572
+      ],
+      [
+        657,
+        838
+      ],
+      [
+        657,
+        342
+      ],
+      [
+        793,
+        600
+      ],
+      [
+        793,
+        580
+      ],
+      [
+        1012,
+        133
+      ],
+      [
+        1012,
+        1047
+      ],
+      [
+        1070,
+        858
+      ],
+      [
+        1070,
+        322
+      ]
+    ],
+    "norms": [
+      {
+        "line_indices": [
+          0,
+          2,
+          4,
+          11,
+          21
+        ],
+        "projected_values": [
+          905,
+          1012,
+          851,
+          968,
+          274
+        ],
+        "norm": 403,
+        "power_residue": 1172
+      },
+      {
+        "line_indices": [
+          0,
+          3,
+          7,
+          15,
+          18
+        ],
+        "projected_values": [
+          905,
+          427,
+          1088,
+          233,
+          540
+        ],
+        "norm": 566,
+        "power_residue": 452
+      },
+      {
+        "line_indices": [
+          0,
+          5,
+          6,
+          12,
+          17
+        ],
+        "projected_values": [
+          905,
+          1152,
+          328,
+          496,
+          907
+        ],
+        "norm": 996,
+        "power_residue": 656
+      },
+      {
+        "line_indices": [
+          0,
+          8,
+          16,
+          19,
+          20
+        ],
+        "projected_values": [
+          905,
+          710,
+          363,
+          477,
+          449
+        ],
+        "norm": 726,
+        "power_residue": 452
+      },
+      {
+        "line_indices": [
+          0,
+          9,
+          10,
+          13,
+          14
+        ],
+        "projected_values": [
+          905,
+          762,
+          1003,
+          195,
+          1114
+        ],
+        "norm": 701,
+        "power_residue": 656
+      },
+      {
+        "line_indices": [
+          1,
+          2,
+          6,
+          14,
+          19
+        ],
+        "projected_values": [
+          190,
+          1012,
+          328,
+          1114,
+          477
+        ],
+        "norm": 289,
+        "power_residue": 81
+      },
+      {
+        "line_indices": [
+          1,
+          3,
+          5,
+          10,
+          20
+        ],
+        "projected_values": [
+          190,
+          427,
+          1152,
+          1003,
+          449
+        ],
+        "norm": 884,
+        "power_residue": 656
+      },
+      {
+        "line_indices": [
+          1,
+          4,
+          7,
+          13,
+          16
+        ],
+        "projected_values": [
+          190,
+          851,
+          1088,
+          195,
+          363
+        ],
+        "norm": 67,
+        "power_residue": 1172
+      },
+      {
+        "line_indices": [
+          1,
+          8,
+          11,
+          12,
+          15
+        ],
+        "projected_values": [
+          190,
+          710,
+          968,
+          496,
+          233
+        ],
+        "norm": 805,
+        "power_residue": 1172
+      },
+      {
+        "line_indices": [
+          1,
+          9,
+          17,
+          18,
+          21
+        ],
+        "projected_values": [
+          190,
+          762,
+          907,
+          540,
+          274
+        ],
+        "norm": 1011,
+        "power_residue": 81
+      },
+      {
+        "line_indices": [
+          2,
+          5,
+          16,
+          18,
+          23
+        ],
+        "projected_values": [
+          1012,
+          1152,
+          363,
+          540,
+          817
+        ],
+        "norm": 470,
+        "power_residue": 81
+      },
+      {
+        "line_indices": [
+          2,
+          7,
+          8,
+          10,
+          17
+        ],
+        "projected_values": [
+          1012,
+          1088,
+          710,
+          1003,
+          907
+        ],
+        "norm": 1011,
+        "power_residue": 81
+      },
+      {
+        "line_indices": [
+          2,
+          9,
+          15,
+          20,
+          22
+        ],
+        "projected_values": [
+          1012,
+          762,
+          233,
+          449,
+          183
+        ],
+        "norm": 729,
+        "power_residue": 452
+      },
+      {
+        "line_indices": [
+          3,
+          4,
+          17,
+          19,
+          22
+        ],
+        "projected_values": [
+          427,
+          851,
+          907,
+          477,
+          183
+        ],
+        "norm": 384,
+        "power_residue": 452
+      },
+      {
+        "line_indices": [
+          3,
+          6,
+          9,
+          11,
+          16
+        ],
+        "projected_values": [
+          427,
+          328,
+          762,
+          968,
+          363
+        ],
+        "norm": 196,
+        "power_residue": 452
+      },
+      {
+        "line_indices": [
+          3,
+          8,
+          14,
+          21,
+          23
+        ],
+        "projected_values": [
+          427,
+          710,
+          1114,
+          274,
+          817
+        ],
+        "norm": 145,
+        "power_residue": 81
+      },
+      {
+        "line_indices": [
+          4,
+          6,
+          10,
+          15,
+          23
+        ],
+        "projected_values": [
+          851,
+          328,
+          1003,
+          233,
+          817
+        ],
+        "norm": 902,
+        "power_residue": 656
+      },
+      {
+        "line_indices": [
+          4,
+          12,
+          14,
+          18,
+          20
+        ],
+        "projected_values": [
+          851,
+          496,
+          1114,
+          540,
+          449
+        ],
+        "norm": 92,
+        "power_residue": 1172
+      },
+      {
+        "line_indices": [
+          5,
+          7,
+          11,
+          14,
+          22
+        ],
+        "projected_values": [
+          1152,
+          1088,
+          968,
+          1114,
+          183
+        ],
+        "norm": 36,
+        "power_residue": 1172
+      },
+      {
+        "line_indices": [
+          5,
+          13,
+          15,
+          19,
+          21
+        ],
+        "projected_values": [
+          1152,
+          195,
+          233,
+          477,
+          274
+        ],
+        "norm": 254,
+        "power_residue": 656
+      },
+      {
+        "line_indices": [
+          6,
+          8,
+          13,
+          18,
+          22
+        ],
+        "projected_values": [
+          328,
+          710,
+          195,
+          540,
+          183
+        ],
+        "norm": 1100,
+        "power_residue": 81
+      },
+      {
+        "line_indices": [
+          7,
+          9,
+          12,
+          19,
+          23
+        ],
+        "projected_values": [
+          1088,
+          762,
+          496,
+          477,
+          817
+        ],
+        "norm": 1084,
+        "power_residue": 452
+      },
+      {
+        "line_indices": [
+          10,
+          12,
+          16,
+          21,
+          22
+        ],
+        "projected_values": [
+          1003,
+          496,
+          363,
+          274,
+          183
+        ],
+        "norm": 805,
+        "power_residue": 1172
+      },
+      {
+        "line_indices": [
+          11,
+          13,
+          17,
+          20,
+          23
+        ],
+        "projected_values": [
+          968,
+          195,
+          907,
+          449,
+          817
+        ],
+        "norm": 212,
+        "power_residue": 656
+      }
+    ],
+    "nontrivial_norm_residue_count": 24
+  },
+  {
+    "q": 3391,
+    "points": [
+      [
+        513,
+        127
+      ],
+      [
+        513,
+        3263
+      ],
+      [
+        641,
+        43
+      ],
+      [
+        641,
+        3347
+      ],
+      [
+        1083,
+        2260
+      ],
+      [
+        1083,
+        1130
+      ],
+      [
+        1540,
+        2030
+      ],
+      [
+        1540,
+        1360
+      ],
+      [
+        1681,
+        686
+      ],
+      [
+        1681,
+        2704
+      ],
+      [
+        1991,
+        519
+      ],
+      [
+        1991,
+        2871
+      ],
+      [
+        2106,
+        21
+      ],
+      [
+        2106,
+        3369
+      ],
+      [
+        2221,
+        1744
+      ],
+      [
+        2221,
+        1646
+      ],
+      [
+        2783,
+        2375
+      ],
+      [
+        2783,
+        1015
+      ],
+      [
+        2988,
+        2111
+      ],
+      [
+        2988,
+        1279
+      ],
+      [
+        3062,
+        803
+      ],
+      [
+        3062,
+        2587
+      ],
+      [
+        3128,
+        409
+      ],
+      [
+        3128,
+        2981
+      ]
+    ],
+    "norms": [
+      {
+        "line_indices": [
+          0,
+          2,
+          7,
+          11,
+          16
+        ],
+        "projected_values": [
+          1102,
+          890,
+          3144,
+          1185,
+          1181
+        ],
+        "norm": 552,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          0,
+          3,
+          5,
+          15,
+          19
+        ],
+        "projected_values": [
+          1102,
+          2139,
+          1455,
+          637,
+          618
+        ],
+        "norm": 5,
+        "power_residue": 926
+      },
+      {
+        "line_indices": [
+          0,
+          4,
+          9,
+          10,
+          20
+        ],
+        "projected_values": [
+          1102,
+          1314,
+          1213,
+          2756,
+          2549
+        ],
+        "norm": 1847,
+        "power_residue": 3171
+      },
+      {
+        "line_indices": [
+          0,
+          6,
+          12,
+          18,
+          21
+        ],
+        "projected_values": [
+          1102,
+          744,
+          2167,
+          1166,
+          882
+        ],
+        "norm": 3035,
+        "power_residue": 926
+      },
+      {
+        "line_indices": [
+          0,
+          8,
+          13,
+          14,
+          17
+        ],
+        "projected_values": [
+          1102,
+          1005,
+          2218,
+          2774,
+          959
+        ],
+        "norm": 449,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          1,
+          2,
+          4,
+          14,
+          18
+        ],
+        "projected_values": [
+          145,
+          890,
+          1314,
+          2774,
+          1166
+        ],
+        "norm": 1272,
+        "power_residue": 3131
+      },
+      {
+        "line_indices": [
+          1,
+          3,
+          6,
+          10,
+          17
+        ],
+        "projected_values": [
+          145,
+          2139,
+          744,
+          2756,
+          959
+        ],
+        "norm": 1571,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          1,
+          5,
+          8,
+          11,
+          21
+        ],
+        "projected_values": [
+          145,
+          1455,
+          1005,
+          1185,
+          882
+        ],
+        "norm": 3358,
+        "power_residue": 2944
+      },
+      {
+        "line_indices": [
+          1,
+          7,
+          13,
+          19,
+          20
+        ],
+        "projected_values": [
+          145,
+          3144,
+          2218,
+          618,
+          2549
+        ],
+        "norm": 55,
+        "power_residue": 3131
+      },
+      {
+        "line_indices": [
+          1,
+          9,
+          12,
+          15,
+          16
+        ],
+        "projected_values": [
+          145,
+          1213,
+          2167,
+          637,
+          1181
+        ],
+        "norm": 2431,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          2,
+          5,
+          9,
+          17,
+          23
+        ],
+        "projected_values": [
+          890,
+          1455,
+          1213,
+          959,
+          524
+        ],
+        "norm": 2003,
+        "power_residue": 3171
+      },
+      {
+        "line_indices": [
+          2,
+          6,
+          8,
+          15,
+          20
+        ],
+        "projected_values": [
+          890,
+          744,
+          1005,
+          637,
+          2549
+        ],
+        "norm": 2391,
+        "power_residue": 3171
+      },
+      {
+        "line_indices": [
+          2,
+          10,
+          19,
+          21,
+          22
+        ],
+        "projected_values": [
+          890,
+          2756,
+          618,
+          882,
+          292
+        ],
+        "norm": 1893,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          3,
+          4,
+          8,
+          16,
+          22
+        ],
+        "projected_values": [
+          2139,
+          1314,
+          1005,
+          1181,
+          292
+        ],
+        "norm": 405,
+        "power_residue": 2944
+      },
+      {
+        "line_indices": [
+          3,
+          7,
+          9,
+          14,
+          21
+        ],
+        "projected_values": [
+          2139,
+          3144,
+          1213,
+          2774,
+          882
+        ],
+        "norm": 38,
+        "power_residue": 2944
+      },
+      {
+        "line_indices": [
+          3,
+          11,
+          18,
+          20,
+          23
+        ],
+        "projected_values": [
+          2139,
+          1185,
+          1166,
+          2549,
+          524
+        ],
+        "norm": 2067,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          4,
+          11,
+          12,
+          17,
+          19
+        ],
+        "projected_values": [
+          1314,
+          1185,
+          2167,
+          959,
+          618
+        ],
+        "norm": 13,
+        "power_residue": 926
+      },
+      {
+        "line_indices": [
+          4,
+          13,
+          15,
+          21,
+          23
+        ],
+        "projected_values": [
+          1314,
+          2218,
+          637,
+          882,
+          524
+        ],
+        "norm": 3115,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          5,
+          10,
+          13,
+          16,
+          18
+        ],
+        "projected_values": [
+          1455,
+          2756,
+          2218,
+          1181,
+          1166
+        ],
+        "norm": 2033,
+        "power_residue": 3131
+      },
+      {
+        "line_indices": [
+          5,
+          12,
+          14,
+          20,
+          22
+        ],
+        "projected_values": [
+          1455,
+          2167,
+          2774,
+          2549,
+          292
+        ],
+        "norm": 249,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          6,
+          9,
+          11,
+          13,
+          22
+        ],
+        "projected_values": [
+          744,
+          1213,
+          1185,
+          2218,
+          292
+        ],
+        "norm": 2902,
+        "power_residue": 2944
+      },
+      {
+        "line_indices": [
+          6,
+          14,
+          16,
+          19,
+          23
+        ],
+        "projected_values": [
+          744,
+          2774,
+          1181,
+          618,
+          524
+        ],
+        "norm": 1372,
+        "power_residue": 3131
+      },
+      {
+        "line_indices": [
+          7,
+          8,
+          10,
+          12,
+          23
+        ],
+        "projected_values": [
+          3144,
+          1005,
+          2756,
+          2167,
+          524
+        ],
+        "norm": 1152,
+        "power_residue": 3171
+      },
+      {
+        "line_indices": [
+          7,
+          15,
+          17,
+          18,
+          22
+        ],
+        "projected_values": [
+          3144,
+          637,
+          959,
+          1166,
+          292
+        ],
+        "norm": 136,
+        "power_residue": 926
+      }
+    ],
+    "nontrivial_norm_residue_count": 16
+  },
+  {
+    "q": 5581,
+    "points": [
+      [
+        250,
+        3188
+      ],
+      [
+        250,
+        2392
+      ],
+      [
+        653,
+        204
+      ],
+      [
+        653,
+        5376
+      ],
+      [
+        658,
+        540
+      ],
+      [
+        658,
+        5040
+      ],
+      [
+        1427,
+        3480
+      ],
+      [
+        1427,
+        2100
+      ],
+      [
+        1756,
+        35
+      ],
+      [
+        1756,
+        5545
+      ],
+      [
+        3555,
+        95
+      ],
+      [
+        3555,
+        5485
+      ],
+      [
+        3676,
+        629
+      ],
+      [
+        3676,
+        4951
+      ],
+      [
+        3842,
+        1331
+      ],
+      [
+        3842,
+        4249
+      ],
+      [
+        4007,
+        4046
+      ],
+      [
+        4007,
+        1534
+      ],
+      [
+        4147,
+        1368
+      ],
+      [
+        4147,
+        4212
+      ],
+      [
+        4301,
+        3624
+      ],
+      [
+        4301,
+        1956
+      ],
+      [
+        5214,
+        1367
+      ],
+      [
+        5214,
+        4213
+      ]
+    ],
+    "norms": [
+      {
+        "line_indices": [
+          0,
+          2,
+          8,
+          21,
+          23
+        ],
+        "projected_values": [
+          4521,
+          5418,
+          4617,
+          3322,
+          2241
+        ],
+        "norm": 167,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          0,
+          3,
+          4,
+          14,
+          17
+        ],
+        "projected_values": [
+          4521,
+          4764,
+          1174,
+          4085,
+          3138
+        ],
+        "norm": 4967,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          0,
+          5,
+          7,
+          11,
+          22
+        ],
+        "projected_values": [
+          4521,
+          2098,
+          5411,
+          565,
+          1085
+        ],
+        "norm": 1082,
+        "power_residue": 2809
+      },
+      {
+        "line_indices": [
+          0,
+          6,
+          9,
+          13,
+          15
+        ],
+        "projected_values": [
+          4521,
+          13,
+          5087,
+          5369,
+          3234
+        ],
+        "norm": 1130,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          0,
+          10,
+          12,
+          16,
+          20
+        ],
+        "projected_values": [
+          4521,
+          1263,
+          2141,
+          355,
+          59
+        ],
+        "norm": 1991,
+        "power_residue": 3771
+      },
+      {
+        "line_indices": [
+          1,
+          2,
+          5,
+          15,
+          16
+        ],
+        "projected_values": [
+          3631,
+          5418,
+          2098,
+          3234,
+          355
+        ],
+        "norm": 1218,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          1,
+          3,
+          9,
+          20,
+          22
+        ],
+        "projected_values": [
+          3631,
+          4764,
+          5087,
+          59,
+          1085
+        ],
+        "norm": 853,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          1,
+          4,
+          6,
+          10,
+          23
+        ],
+        "projected_values": [
+          3631,
+          1174,
+          13,
+          1263,
+          2241
+        ],
+        "norm": 1112,
+        "power_residue": 3771
+      },
+      {
+        "line_indices": [
+          1,
+          7,
+          8,
+          12,
+          14
+        ],
+        "projected_values": [
+          3631,
+          5411,
+          4617,
+          2141,
+          4085
+        ],
+        "norm": 5375,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          1,
+          11,
+          13,
+          17,
+          21
+        ],
+        "projected_values": [
+          3631,
+          565,
+          5369,
+          3138,
+          3322
+        ],
+        "norm": 541,
+        "power_residue": 2809
+      },
+      {
+        "line_indices": [
+          2,
+          4,
+          7,
+          13,
+          20
+        ],
+        "projected_values": [
+          5418,
+          1174,
+          5411,
+          5369,
+          59
+        ],
+        "norm": 1608,
+        "power_residue": 2809
+      },
+      {
+        "line_indices": [
+          2,
+          6,
+          14,
+          18,
+          22
+        ],
+        "projected_values": [
+          5418,
+          13,
+          4085,
+          3751,
+          1085
+        ],
+        "norm": 3833,
+        "power_residue": 4528
+      },
+      {
+        "line_indices": [
+          2,
+          9,
+          12,
+          17,
+          19
+        ],
+        "projected_values": [
+          5418,
+          5087,
+          2141,
+          3138,
+          4360
+        ],
+        "norm": 105,
+        "power_residue": 4528
+      },
+      {
+        "line_indices": [
+          3,
+          5,
+          6,
+          12,
+          21
+        ],
+        "projected_values": [
+          4764,
+          2098,
+          13,
+          2141,
+          3322
+        ],
+        "norm": 5180,
+        "power_residue": 3771
+      },
+      {
+        "line_indices": [
+          3,
+          7,
+          15,
+          19,
+          23
+        ],
+        "projected_values": [
+          4764,
+          5411,
+          3234,
+          4360,
+          2241
+        ],
+        "norm": 3544,
+        "power_residue": 53
+      },
+      {
+        "line_indices": [
+          3,
+          8,
+          13,
+          16,
+          18
+        ],
+        "projected_values": [
+          4764,
+          4617,
+          5369,
+          355,
+          3751
+        ],
+        "norm": 4868,
+        "power_residue": 53
+      },
+      {
+        "line_indices": [
+          4,
+          11,
+          12,
+          15,
+          18
+        ],
+        "projected_values": [
+          1174,
+          565,
+          2141,
+          3234,
+          3751
+        ],
+        "norm": 2205,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          4,
+          16,
+          19,
+          21,
+          22
+        ],
+        "projected_values": [
+          1174,
+          355,
+          4360,
+          3322,
+          1085
+        ],
+        "norm": 359,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          5,
+          10,
+          13,
+          14,
+          19
+        ],
+        "projected_values": [
+          2098,
+          1263,
+          5369,
+          4085,
+          4360
+        ],
+        "norm": 5352,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          5,
+          17,
+          18,
+          20,
+          23
+        ],
+        "projected_values": [
+          2098,
+          3138,
+          3751,
+          59,
+          2241
+        ],
+        "norm": 844,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          6,
+          8,
+          11,
+          19,
+          20
+        ],
+        "projected_values": [
+          13,
+          4617,
+          565,
+          4360,
+          59
+        ],
+        "norm": 2209,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          7,
+          9,
+          10,
+          18,
+          21
+        ],
+        "projected_values": [
+          5411,
+          5087,
+          1263,
+          3751,
+          3322
+        ],
+        "norm": 4770,
+        "power_residue": 1
+      },
+      {
+        "line_indices": [
+          8,
+          10,
+          15,
+          17,
+          22
+        ],
+        "projected_values": [
+          4617,
+          1263,
+          3234,
+          3138,
+          1085
+        ],
+        "norm": 5226,
+        "power_residue": 4528
+      },
+      {
+        "line_indices": [
+          9,
+          11,
+          14,
+          16,
+          23
+        ],
+        "projected_values": [
+          5087,
+          565,
+          4085,
+          355,
+          2241
+        ],
+        "norm": 4599,
+        "power_residue": 53
+      }
+    ],
+    "nontrivial_norm_residue_count": 12
+  }
+]

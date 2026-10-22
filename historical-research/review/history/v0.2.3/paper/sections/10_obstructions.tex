@@ -1,0 +1,128 @@
+\section{Stopped routes}\label{sec:obstructions}
+
+We group the stopped routes by the kind of stop. Entries labeled Research record summarize archived arguments whose full definitions and proofs are in the claim-index evidence; those summaries are not self-contained exclusion theorems. Elementary counterexamples below are stated directly.
+\begin{itemize}[leftmargin=*]
+\item A \emph{proved obstruction} is a theorem about an explicitly delimited class of constructions. Nothing is claimed outside that class.
+\item An \emph{equivalent reformulation} is a target proved equivalent to the open problem. It is not an impossibility.
+\item An \emph{unaffordable} route is a budget decision.
+\item An \emph{unsuccessful attempt} claims nothing.
+\end{itemize}
+
+\subsection{Proved obstructions}
+\begin{obstruction}[\cid{X.1}; elementary]\label{obs:support}
+Integral sources do not bound prime support. Two examples show this:
+\begin{itemize}[leftmargin=*]
+\item The maps $\Z\to\Zp$, $1\mapsto p^2$, are nonzero at every prime and have nonunit image at every prime.
+\item The two-term complex over $\prod_p\Zp$ with differential $(p^2)_p$ is perfect, yet has finite nonzero defects at infinitely many primes.
+\end{itemize}
+Hence source integrality, profinite perfectness, pointwise nonvanishing and pointwise finite primary groups do not, individually or together, imply finite support. By contrast, one fixed nonzero integer $C$ with $\Sha[p]\neq0\Rightarrow p\mid C$ would give finite support.
+\end{obstruction}
+
+\begin{obstruction}[\cid{X.2}; elementary]\label{obs:det}
+Suppose the localization matrix of $\langle P_1,P_2\rangle/p$ is invertible. That says nothing about the quotient $\Sel_p/(E(\Q)/p)$: in an exact sequence $0\to M\to M\oplus Q\to Q\to0$, an isomorphism on $M$ carries no information about $Q$.
+\end{obstruction}
+
+\begin{researchrecord}[\cid{X.5}; written proof, in the stated class]\label{obs:mellin}
+Proposition~\ref{prop:m1} has no realization inside the finite logarithmic class L3. Four facts are established:
+\begin{itemize}[leftmargin=*]
+\item Nonconstant polynomials in $\ell(z)$ have infinite cusp-translation span.
+\item The ordinary algebraic infinitesimal Tate deformation does not give the required jet.
+\item The half-ray maps to a null-homotopic loop in $E$.
+\item No finite algebraic connection, iterated integral or finite exact correction in the class L3 supplies the required local identity.
+\end{itemize}
+The half-ray and full-ray moments satisfy $J_j=(1+(-1)^j)H_j$.
+\end{researchrecord}
+
+\begin{researchrecord}[\cid{X.6}; computer-assisted]\label{obs:jet}
+A normalized, Atkin--Lehner-invariant second derivative $\mathcal E''(z,0)$ of real-analytic Eisenstein series satisfies
+\[
+\int_\gamma\alpha_f\,\mathcal E''(z,0)=\tfrac12L''(E,1)+\Delta ,
+\]
+with an explicit Fourier residual $\Delta$. Two single-vertex completions have certified residuals:
+\begin{itemize}[leftmargin=*]
+\item the midpoint maximal-compact completion: $0.000535614030\le\Delta_{\mathrm{mid}}\le0.000801512867$;
+\item the Fricke-symmetrized endpoint completion: $0.000757821864\le\Delta_*\le0.000841639764$.
+\end{itemize}
+Both residuals are positive, so neither completion reproduces the weighted Mellin period. Arbitrary mixtures in the invariant span lie outside this class.
+\end{researchrecord}
+
+\begin{researchrecord}[\cid{X.7}; written proofs, each in its stated scope]\label{obs:midpoint}
+Four further analyses of the midpoint residual each stop in their stated scope:
+\begin{itemize}[leftmargin=*]
+\item The $U_{4547}$-trace forces the translated residual periods to sum to zero, but it does not force the zeroth period to vanish.
+\item The archived calculation excludes the specified finite combinations of ordinarily convergent Euler-product Dirichlet families and their derivatives by a Mellin-transform uniqueness argument with a nonzero continuous density. The precise representation and convergence class is part of that record; this summary excludes neither every conceivable Euler-product identity nor isolated special-value identities.
+\item The residual matches the Berndt--K\"uhn weight-two series after differentiation, but it has no arithmetic Green-current identification.
+\item The relative/holomorphic Deligne-regulator interpretation on compact $X_0(N)$ is obstructed: the curvature is nonzero and has no smooth extension across the cusp.
+\end{itemize}
+\end{researchrecord}
+
+\begin{obstruction}[\cid{X.8}; written proof]\label{obs:curv}
+Let $J$ be a global $C^1$ scalar function on $Y_0(N)$ such that $J$ and its first derivatives have polynomial-logarithmic growth at every cusp. Then for every holomorphic weight-two cusp form,
+\[
+\int_{Y_0(N)}\alpha_f\wedge dJ=0 .
+\]
+\end{obstruction}
+\begin{proof}
+$\alpha_f\wedge dJ=d(-J\alpha_f)$, and the cusp fluxes vanish by cusp decay. An independent unfolding of the Eisenstein family gives the same result.
+\end{proof}
+The class excludes singular, multivalued and nonexact kernels, and kernels with nonzero boundary flux.
+
+\begin{obstruction}[\cid{X.10}; elementary]\label{obs:torus}
+Let $k$ be a number field, $A/k$ an abelian variety, and $0\to\mathbf G_m^s\to\mathcal G\to A\to0$ a commutative extension. Then
+\[
+\Sha^1(k,\mathcal G)\xrightarrow{\ \sim\ }\Sha(k,A).
+\]
+The same holds for vector-group extensions and for quasi-trivial tori. For tori split by an extension of degree prime to $\ell$, the $\ell$-primary parts agree. In particular, the extension of $E$ by the split torus $\mathbf G_m^2$ attached to $P_1,P_2$ retains exactly the unknown group; it is also anti-affine \cite{brion}.
+\end{obstruction}
+
+\begin{obstruction}[\cid{X.11}; elementary]\label{obs:local}
+Totally positive quadratic integers can approach $36$ while matching arbitrarily much prescribed finite local data. The first-derivative formulas tested in the records have vanishing inputs for this rank-two setting. The bare factorization $L(E/K,s)=L(E,s)L(E^K,s)$ supplies no arithmetic second-derivative comparison by itself. These are scoped tests, not exclusions of every future formula.
+\end{obstruction}
+
+\begin{obstruction}[\cid{X.13}; elementary]\label{obs:ssunit}
+At a supersingular $p\ge5$, $a_p=0$. So $X^2+p$ has no unit root, and ordinary stabilization cannot be used; one has instead $\mathrm{pr}^2(\theta_{n+2})=-p\,\theta_n$. The signed objects of Theorem~\ref{thm:a3} replace the unit-root lane.
+\end{obstruction}
+
+The compression obstruction for the $2243$ certificate (\cid{X.15}) is Proposition~\ref{prop:compress}.
+
+\subsection{Failure of the proposed trace-divisibility inference}
+\begin{obstruction}[\cid{X.3}; counterexample]\label{obs:dm}
+The unrestricted implication tested in the project is
+\[
+\alpha\in\mathfrak P,\ \mathfrak P\mid p\ \Longrightarrow\ \mathrm{Tr}(\alpha)\in p\Z .
+\]
+This is false: $4+i\in\Z[i]$ lies above $17$ but has trace $8$. This elementary counterexample alone is not a source-level refutation under an unstated hypothesis set. The separate Destrempes--Malinin audit is retained in the claim index with its source-specific scope. No exceptional-prime set is imported from that preprint here.
+\end{obstruction}
+
+\subsection{Equivalent reformulations}
+\begin{researchrecord}[\cid{X.9}; written deduction applying published theorems]\label{obs:vis}
+Varying-level visibility covers every relevant class for each fixed residual prime (Tamiozzo \cite{tamiozzo}, with Zhang's hypotheses \cite{zhang}). It gives no horizontal gain, for three reasons:
+\begin{itemize}[leftmargin=*]
+\item An auxiliary prime $\ell$ serves $p$ only if $p\mid D_\ell=(\ell+1)^2-a_\ell^2$, so a finite stock of auxiliary primes serves finitely many $p$.
+\item Functorial descent to a fixed ambient variety that preserves the class up to a $p$-unit is obstructed.
+\item For a fixed embedding, eventual fixed-ambient visibility on the ordinary tail is \emph{equivalent} to eventual ordinary vanishing.
+\end{itemize}
+\end{researchrecord}
+
+\begin{researchrecord}[\cid{X.12}; elementary]\label{obs:stark}
+Over $\Q(\sqrt{-23})$, where $\rank E(K)=3$, a fixed rank-three ambient base-change model within the finitely generated module class is equivalent to finite lane support. A bounded variant gives only $\#\Sha[p]\le p^{B-3}$.
+\end{researchrecord}
+Research records~\ref{thm:o1} and~\ref{thm:divfield} are equivalences of the same kind.
+
+\subsection{Unsuccessful attempts and procedural stops}
+\begin{itemize}[leftmargin=*]
+\item \emph{Eisenstein congruences} (\cid{X.4}). Nonclassical weight-two methods reach only the Selmer subspace of extensions that factor through a chosen automorphic quotient, and nothing bounds the complement. Separately, $1\oplus\rho_E$ has Hodge--Tate weights $\{0,0,1\}$, which are irregular for classical $\GL(3)$ cohomology. The defect is one of coverage, not of arrow direction.
+\item \emph{The prime-by-prime ladder} (\cid{X.14}). It was stopped at $13$: each further prime moves only the conditional threshold.
+\item \emph{Other named constructions} (\cid{X.17}). Each was stopped without an impossibility theorem:
+\begin{itemize}[leftmargin=*]
+\item the cross-cusp kernel RS2 was archived by a stopping rule;
+\item for the Heegner--Stark ideals $I_3$, no method of evaluation was found;
+\item the witness $c_2(p)$ remains open at every prime;
+\item a Saito--Kurokawa tangent inequality points in the wrong direction for this use;
+\item the generalized Kato classes of the H9 program lack a comparison with the rational points;
+\item one Castella--Hsieh branch misses the calibrated line at $p=5$.
+\end{itemize}
+\end{itemize}
+
+\subsection{Unaffordable}
+The $2243$ and $5843$ certificates (\cid{X.16}) need about $1.1\cdot10^5$ and $6.3\cdot10^5$ core-hours. They are parked by decision, and the $2243$ evaluator's restart defect is to be fixed first. This is not a mathematical stop.

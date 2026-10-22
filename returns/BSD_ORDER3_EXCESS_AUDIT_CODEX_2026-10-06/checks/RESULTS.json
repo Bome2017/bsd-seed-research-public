@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "scope": "abstract finite-module and coefficient-base-change controls; no seed computation",
+  "conjugated_module_cases": [
+    {
+      "p": 5,
+      "excess": 0,
+      "length": 6,
+      "ker_t": 2,
+      "ker_t2": 4,
+      "rank_t2": 2,
+      "excess_quotient": 0
+    },
+    {
+      "p": 5,
+      "excess": 2,
+      "length": 8,
+      "ker_t": 4,
+      "ker_t2": 6,
+      "rank_t2": 2,
+      "excess_quotient": 2
+    },
+    {
+      "p": 5,
+      "excess": 4,
+      "length": 10,
+      "ker_t": 6,
+      "ker_t2": 8,
+      "rank_t2": 2,
+      "excess_quotient": 4
+    },
+    {
+      "p": 5,
+      "excess": 6,
+      "length": 12,
+      "ker_t": 8,
+      "ker_t2": 10,
+      "rank_t2": 2,
+      "excess_quotient": 6
+    },
+    {
+      "p": 7,
+      "excess": 0,
+      "length": 6,
+      "ker_t": 2,
+      "ker_t2": 4,
+      "rank_t2": 2,
+      "excess_quotient": 0
+    },
+    {
+      "p": 7,
+      "excess": 2,
+      "length": 8,
+      "ker_t": 4,
+      "ker_t2": 6,
+      "rank_t2": 2,
+      "excess_quotient": 2
+    },
+    {
+      "p": 7,
+      "excess": 4,
+      "length": 10,
+      "ker_t": 6,
+      "ker_t2": 8,
+      "rank_t2": 2,
+      "excess_quotient": 4
+    },
+    {
+      "p": 7,
+      "excess": 6,
+      "length": 12,
+      "ker_t": 8,
+      "ker_t2": 10,
+      "rank_t2": 2,
+      "excess_quotient": 6
+    },
+    {
+      "p": 11,
+      "excess": 0,
+      "length": 6,
+      "ker_t": 2,
+      "ker_t2": 4,
+      "rank_t2": 2,
+      "excess_quotient": 0
+    },
+    {
+      "p": 11,
+      "excess": 2,
+      "length": 8,
+      "ker_t": 4,
+      "ker_t2": 6,
+      "rank_t2": 2,
+      "excess_quotient": 2
+    },
+    {
+      "p": 11,
+      "excess": 4,
+      "length": 10,
+      "ker_t": 6,
+      "ker_t2": 8,
+      "rank_t2": 2,
+      "excess_quotient": 4
+    },
+    {
+      "p": 11,
+      "excess": 6,
+      "length": 12,
+      "ker_t": 8,
+      "ker_t2": 10,
+      "rank_t2": 2,
+      "excess_quotient": 6
+    },
+    {
+      "p": 17,
+      "excess": 0,
+      "length": 6,
+      "ker_t": 2,
+      "ker_t2": 4,
+      "rank_t2": 2,
+      "excess_quotient": 0
+    },
+    {
+      "p": 17,
+      "excess": 2,
+      "length": 8,
+      "ker_t": 4,
+      "ker_t2": 6,
+      "rank_t2": 2,
+      "excess_quotient": 2
+    },
+    {
+      "p": 17,
+      "excess": 4,
+      "length": 10,
+      "ker_t": 6,
+      "ker_t2": 8,
+      "rank_t2": 2,
+      "excess_quotient": 4
+    },
+    {
+      "p": 17,
+      "excess": 6,
+      "length": 12,
+      "ker_t": 8,
+      "ker_t2": 10,
+      "rank_t2": 2,
+      "excess_quotient": 6
+    }
+  ],
+  "wrong_length_two_variant": "REJECTED_BY_FIRST_ORDER_DIMENSION",
+  "dvr_kernel_enumeration": [
+    {
+      "p": 5,
+      "short_kernel_size": 5,
+      "long_kernel_size": 125
+    },
+    {
+      "p": 7,
+      "short_kernel_size": 7,
+      "long_kernel_size": 343
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "CONDITIONAL_TENSOR_RECIPE_SUPPORTED; HOWARD_VALUATION_CORRECTED; ARITHMETIC_REALIZATION_OPEN",
+  "conditional_written_deductions": [
+    "basis independence given geometric maps",
+    "fixed base quotient via rational idempotent",
+    "modified Selmer identification given detecting point plane and self-dual local conditions"
+  ],
+  "unsupported_or_qualified": [
+    "unconditional global-sign arithmetic scalar",
+    "torsion coinvariants imply p-isolation",
+    "unconditional ind(C)=delta_sys",
+    "ell283 as rational-point detector"
+  ],
+  "primary_values_computed": false,
+  "new_uniform_bound": false,
+  "remote_jobs_started": 0,
+  "FIN": "UNCHANGED",
+  "ORDER9": "UNCHANGED",
+  "Q36": "UNCHANGED"
+}

@@ -1,0 +1,16 @@
+{
+  "alldegphi": {
+    "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/master/alldegphi/alldegphi.420000-429999",
+    "sha256": "b149cb96a464c237b95da290afb9b44c103e562160b4622f5baf0efcf50dfaad",
+    "rows": [
+      "424347 b 1 [1,1,1,1878418,-485198548] 20576640"
+    ]
+  },
+  "allgens": {
+    "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/master/allgens/allgens.420000-429999",
+    "sha256": "ba5f426889af87c047374a84a07317de86d1672dce285ee48e2dcc68f1862288",
+    "rows": [
+      "424347 b 1 [1,1,1,1878418,-485198548] 1 [] [480:22723:1]"
+    ]
+  }
+}

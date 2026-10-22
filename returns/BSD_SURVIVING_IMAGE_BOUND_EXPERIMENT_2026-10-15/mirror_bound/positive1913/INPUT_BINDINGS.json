@@ -1,0 +1,27 @@
+[
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/data.gp",
+    "local": "inputs/data.gp",
+    "sha256": "bdbac56d60e62907a577cee78d3e0a6c563f20bf41b3aab68bce8c9e39e6addf"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/affine_norm_certificate.gp",
+    "local": "inputs/affine_norm_certificate.gp",
+    "sha256": "8dd0ad416cfa2338b5708450c1a33c9ee003d0eb773531baf3443f63a26bdc59"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/RESULT.md",
+    "local": "inputs/RESULT.md",
+    "sha256": "bf081b50252a4cd107f98aedfc97119b87776ebf8c72be124502d242281168ea"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/analyze.out",
+    "local": "inputs/analyze.out",
+    "sha256": "c722b5fc9c0039652a906631e206da3ffb8737011b8e7362902f4863d770d6f9"
+  },
+  {
+    "original": "/Users/bsm/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/arithmetic/1913b1/norm_cube_check.out",
+    "local": "inputs/norm_cube_check.out",
+    "sha256": "8dad27c551ec43b7d0e38f246de3f777f3313b314bbbdcd23e24996217aca444"
+  }
+]

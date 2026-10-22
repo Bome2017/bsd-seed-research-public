@@ -1,0 +1,14 @@
+{
+  "status": "SOURCE_COMPARISON_SUPPORTED_UNDER_RETAINED_INPUTS",
+  "date": "2026-10-12",
+  "input_commit": "5110be8805f202ebc9a4a112ec0854fd764a620c",
+  "baseline_commit": "581f7a26a1d110bcd6131739f94569e4810a719e",
+  "new_seed_values": 0,
+  "new_primary_results": 0,
+  "endpoints": {
+    "FIN": "UNCHANGED",
+    "ORDER9": "UNCHANGED",
+    "Q36": "UNCHANGED"
+  },
+  "grade": "written review under retained inputs; separate same-team model audits; no formal or human certification"
+}

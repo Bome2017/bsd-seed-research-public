@@ -1,0 +1,21 @@
+{
+  "grade": "KNOWN_FALSE_GLOBAL_CLASS",
+  "source_exponents": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "origin": "retained scalar-compatible and locally repaired ordinary class lift; not globally additive",
+  "local_and_scalar_admissible": true,
+  "Selmer_membership": false,
+  "purpose": "Negative control: nonzero quotient signature must not itself be called Sha.",
+  "producer_change": "Known-additivity assertion disabled only for this predeclared negative case."
+}

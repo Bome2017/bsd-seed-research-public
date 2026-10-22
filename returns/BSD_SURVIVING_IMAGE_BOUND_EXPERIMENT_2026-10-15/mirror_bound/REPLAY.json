@@ -1,0 +1,40 @@
+{
+  "status": "CLEAN_PAIRED_NORM_REPLAY_PASS",
+  "arithmetic_products_byte_identical": [
+    "paired_certificate.gp",
+    "paired.json"
+  ],
+  "steps": [
+    {
+      "script": "paired.gp",
+      "exit": 0,
+      "stderr": "",
+      "stdout": "RANKS=[2, 2];HOMOLOGY=[0, 1];MIRROR_IMAGE_VALUATION=2;IMAGE_H0=0;IMAGE_CLASS=0\nPAIRED_NORM_CERTIFICATE_COMPLETE;MS=168\n"
+    },
+    {
+      "script": "check_exact.gp",
+      "exit": 0,
+      "stderr": "",
+      "stdout": "NINE_LITERAL_SOURCE_MAP_IDENTITIES_PASS;EXACT_FIELD_MAPS_PASS;NORM_COMPLEX_PASS;A_IMAGE_EQUALS_POINT_PLANE\n"
+    }
+  ],
+  "matrix_check": {
+    "status": "EXACT_PAIRED_MATRIX_CHECK_PASS",
+    "scalar_dimensions": [
+      4,
+      5
+    ],
+    "norm_ranks": [
+      2,
+      2
+    ],
+    "homology_dimensions": [
+      0,
+      1
+    ],
+    "mirror_image_valuation_rank": 2,
+    "mirror_image_H0_dimension": 0,
+    "mirror_homology_represented_by_ordinary_class": true,
+    "no_local_rows_used": true
+  }
+}

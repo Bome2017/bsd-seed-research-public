@@ -1,0 +1,63 @@
+{
+  "group_order": 48,
+  "transvection_order": 3,
+  "subgroups_containing_transvection": 7,
+  "qualifying_subgroups": 1,
+  "unique_qualifying_order": 48,
+  "subgroup_profiles": [
+    {
+      "order": 3,
+      "determinants": [
+        1
+      ],
+      "orbit_size_e1": 1
+    },
+    {
+      "order": 6,
+      "determinants": [
+        1
+      ],
+      "orbit_size_e1": 2
+    },
+    {
+      "order": 6,
+      "determinants": [
+        1,
+        2
+      ],
+      "orbit_size_e1": 1
+    },
+    {
+      "order": 6,
+      "determinants": [
+        1,
+        2
+      ],
+      "orbit_size_e1": 2
+    },
+    {
+      "order": 12,
+      "determinants": [
+        1,
+        2
+      ],
+      "orbit_size_e1": 2
+    },
+    {
+      "order": 24,
+      "determinants": [
+        1
+      ],
+      "orbit_size_e1": 8
+    },
+    {
+      "order": 48,
+      "determinants": [
+        1,
+        2
+      ],
+      "orbit_size_e1": 8
+    }
+  ],
+  "arithmetic_application": "Irreducible degree-eight nonzero torsion-point field gives transitivity; multiplicative discriminant valuation one gives transvection; Weil determinant is surjective."
+}

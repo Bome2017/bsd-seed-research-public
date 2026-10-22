@@ -1,0 +1,48 @@
+PREC = 5440
+Time nfinit & nfrootsof1: 168
+Algebraic bnf: R1 = 4, R2 = 10
+D = 1152661454679541683034131675931321657479768838290720479679584028346298411007954780993505142409246458448331718397546159329526548708322422169608309181904276057305444930135938134737947134820812800000000000000000000000
+LIMC2 = 419775
+Time computing Bach constant: 3057
+Time computing inverse of hR: 1
+LIMC = 4813, LIMC2 = 419775
+Time factorbase (#subFB = 7) and ideal permutations: 13473
+KCZ = 175, KC = 721, n = 739
+1 2 3 4 5 6 7 8 9 10 11 
+#### Look for 728 relations in 203 ideals (small_norm)
+Time small_norm: 23089
+Time hnfspec [721 x 11]: 2
+Time hnfspec floating points: 24
+#### Look for 721 relations in 203 ideals (small_norm)
+Look in p0 = [2, [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0]~, 24, 1]
+Time small_norm: 23486
+#### Look for 721 relations in 202 ideals (small_norm)
+Look in p0 = [3, [1, -1, -1, 1, 1, 0, 0, 1, -1, 0, 0, -1, 0, 0, 1, 1, -1, 0, 1, -1, -1, -1, 0, -1]~, 5, 2]
+Time small_norm: 24275
+#### Look for 721 relations in 203 ideals (small_norm)
+Look in p0 = [3, [1, 1, 0, -1, 0, -1, 1, 1, 0, 0, -1, 1, 1, 1, -1, -1, -1, 0, 0, -1, 1, 0, 1, 1]~, 5, 2]
+Time small_norm: 24451
+#### Look for 721 relations in 201 ideals (small_norm)
+Look in p0 = [3, [3, 0, 1, 1, 1, 1, 1, 0, -1, 0, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]~, 1, 4]
+  ***   at top-level: ...02,0,4];EXACT_FLAG=1");B=bnfinit(NF,1,[0.02,0,
+  ***                                             ^---------------------
+  *** bnfinit: alarm interrupt after 1min, 56,582 ms.
+... skipping file 'unmodified_small_base.gp'
+      117.09 real       116.60 user         0.39 sys
+           732577792  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              179508  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                   5  voluntary context switches
+               11086  involuntary context switches
+       1484798410524  instructions retired
+        544569671522  cycles elapsed
+           729042944  peak memory footprint

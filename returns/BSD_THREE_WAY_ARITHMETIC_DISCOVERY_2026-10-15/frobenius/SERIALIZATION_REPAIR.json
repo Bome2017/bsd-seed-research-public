@@ -1,0 +1,8 @@
+{
+  "reason": "GP write appends; construction replay appended identical second line",
+  "identical_lines_checked": [
+    "norm.json",
+    "affine_norm_certificate.gp"
+  ],
+  "source_character_outcomes_not_generated": true
+}

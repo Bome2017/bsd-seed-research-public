@@ -1,0 +1,44 @@
+{
+  "source_columns": 24,
+  "checks": [
+    {
+      "precision": 8,
+      "raw_local_rank": 0,
+      "chi_local_rank": 0,
+      "joint_rank": 0,
+      "valuation_cancellation": true,
+      "formal_point_binding": true,
+      "nonpower_calibration": true
+    },
+    {
+      "precision": 9,
+      "raw_local_rank": 0,
+      "chi_local_rank": 0,
+      "joint_rank": 0,
+      "valuation_cancellation": true,
+      "formal_point_binding": true,
+      "nonpower_calibration": true
+    }
+  ],
+  "split_ranks": [
+    {
+      "q": 41413,
+      "raw": 0,
+      "chi": 0,
+      "defect": 0
+    },
+    {
+      "q": 44843,
+      "raw": 0,
+      "chi": 0,
+      "defect": 0
+    },
+    {
+      "q": 63533,
+      "raw": 0,
+      "chi": 0,
+      "defect": 0
+    }
+  ],
+  "no_completeness_or_global_power_assertion": true
+}

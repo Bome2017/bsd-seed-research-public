@@ -1,0 +1,1299 @@
+[
+  {
+    "record": "BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04",
+    "entry": "returns/BSD_WEIGHT3_LOCAL_INDEX_RETURN_CODEX_2026-10-04/REPORT.md",
+    "title": "W3_UNIFORM_PARTIAL",
+    "quoted_status_tokens": [
+      "W3_UNIFORM_PARTIAL"
+    ],
+    "opening_excerpt": "I derived the missing ramified local lattice, in an explicitly fixed Gauss-sum frame, and matched its p-power to Kato's Euler factor. I did",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_W3_ONE_SIDED_SCREEN_CLAUDE_2026-10-06/RESULT.md",
+    "title": "W3 under the one-sided detector screen: ℓ₂ and the weight-direction residual",
+    "quoted_status_tokens": [
+      "PASS_WITH_CORRECTIONS",
+      "FINITE_MOMENT_MODULE",
+      "ARITHMETIC_LOW_JETS",
+      "WRITTEN_DERIVATION_UNDER_RETAINED_INPUTS"
+    ],
+    "opening_excerpt": "Claude (Opus 5.5), 2026-10-06. Paper only, $0. The assignment is Pro's redirect: test the W3 quantities under Aristotle's one-sided detector framework, with the weight-direction residuals as the main interest. An independent adversarial review (PASS_WITH_CORRECTIONS) has been applied; see §8. This note corrects one statement in the seed-admission return (§6). **Verdict: `BRIDGE_IN_HAND__GLOBAL_CONTROL_OPEN`, ordinary primes only.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04",
+    "entry": "returns/BSD_W3_GLOBAL_PERIOD_RETURN_CODEX_2026-10-04/REPORT.md",
+    "title": "W3 global-period attack: cofinite integral control, period gate open",
+    "quoted_status_tokens": [
+      "W3_NEW_REDUCTION",
+      "COFINITE_HIDA_CONTROL",
+      "SOURCE_UNIT_REPAIR",
+      "DE_RHAM_TRANSPORT"
+    ],
+    "opening_excerpt": "**Status: W3_NEW_REDUCTION — cofinite integral-control and evaluation step only.** The supplied attack was executed through the integral construction and source",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04",
+    "entry": "returns/BSD_W3_FOUR_VALUE_RETURN_CODEX_2026-10-04/REPORT.md",
+    "title": "W3 four-value review and actual-symbol extraction",
+    "quoted_status_tokens": [
+      "FOUR_VALUE_REDUCTION_CONFIRMED_CONDITIONALLY",
+      "CLASSICAL_SYMBOL_EXTRACTION_DERIVED",
+      "UNIFORM_BOUND_OPEN"
+    ],
+    "opening_excerpt": "**FOUR_VALUE_REDUCTION_CONFIRMED_CONDITIONALLY; CLASSICAL_SYMBOL_EXTRACTION_DERIVED; UNIFORM_BOUND_OPEN.** I checked the supplied reduction and derived an explicit arithmetic way to compute its four values. I did not compute a seed value or prove their nonvanishing uniformly.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05",
+    "entry": "returns/BSD_W3_DISCOVERY_ADMISSION_CODEX_2026-10-05/REPORT.md",
+    "title": "W3 discovery experiment: admission check",
+    "quoted_status_tokens": [
+      "NOT_ADMITTED_SOURCE_CONSTRUCTOR_MISSING",
+      "BSD_W3_FOUR_VALUE_RETURN_CODEX_2026"
+    ],
+    "opening_excerpt": "**NOT_ADMITTED_SOURCE_CONSTRUCTOR_MISSING — stopped at the first gate.** The proposed empirical search requires genuine weight-five/six seed symbols modulo the specified powers of p. The existing `symbol_values.py` performs the final weighted sums **after those symbols are supplied**. Its source and input contract say explicitly that it neither constructs the Hida forms nor authenticates their symbols. The current return records no seed symbols, no seed values, and no demonstrated affordable eva",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04",
+    "entry": "returns/BSD_W3_COHOMOLOGICAL_JET_RETURN_CODEX_2026-10-04/REPORT.md",
+    "title": "W3 arithmetic source and a certificate using ten critical points",
+    "quoted_status_tokens": [
+      "W3_SOURCE_LAW_PROVED_WITH_VARIABLE_SPECIALIZATION_CERTIFICATE",
+      "VARIABLE_WEIGHT_INDEX",
+      "TEN_POINT_CERTIFICATE",
+      "ARITHMETIC_LOW_JETS"
+    ],
+    "opening_excerpt": "Date: 2026-10-04, America/Los_Angeles. **Status: W3_SOURCE_LAW_PROVED_WITH_VARIABLE_SPECIALIZATION_CERTIFICATE.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_VALUATION_MECHANISM_REVIEW_2026-10-13",
+    "entry": "returns/BSD_VALUATION_MECHANISM_REVIEW_2026-10-13/REPORT.md",
+    "title": "Valuation mechanism supported; exact groups for the combined control",
+    "quoted_status_tokens": [
+      "VALUATION_LAW_SUPPORTED_UNDER_RETAINED_INPUTS",
+      "COMBINED_CONTROL_PRIMARY_GROUP_DETERMINED",
+      "MAIN_CONJECTURE_AUDIT",
+      "LEADING_TERM_AUDIT"
+    ],
+    "opening_excerpt": "2026-10-13. **VALUATION_LAW_SUPPORTED_UNDER_RETAINED_INPUTS; COMBINED_CONTROL_PRIMARY_GROUP_DETERMINED.** The submitted mechanism passes the primary-source and retained-data checks. I also applied it to the newer d329233 experiment, which was absent from the submitted application. Its actual nonunit regulator and positive excess give",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_VALUATION_MECHANISM_2026-10-13",
+    "entry": "returns/BSD_VALUATION_MECHANISM_2026-10-13/REPORT.md",
+    "title": "Explaining the measured valuations with integral main-conjecture theorems",
+    "quoted_status_tokens": [
+      "VALUATION_EXPLANATION_SOURCE_MATCHED",
+      "POSITIVE_CONTROL_SHA5_EXACT_DERIVED",
+      "SEED17_NUMERATOR_VALUATION_INFERRED_FROM_OLD_SHA17"
+    ],
+    "opening_excerpt": "2026-10-13. Baseline: `f97843a1b4768606787a9760ea4bad727a3dc4a1`. **VALUATION_EXPLANATION_SOURCE_MATCHED; POSITIVE_CONTROL_SHA5_EXACT_DERIVED; SEED17_NUMERATOR_VALUATION_INFERRED_FROM_OLD_SHA17.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13",
+    "entry": "returns/BSD_UNIT_ADMISSION_CONTINUATION_2026-10-13/REPORT.md",
+    "title": "Continued seed-unit experiment: exact admission and the integral norm index",
+    "quoted_status_tokens": [
+      "UNIT_COMPONENT_EXHAUSTED_AT_3",
+      "INTEGRAL_NORM_INDEX_DERIVED",
+      "NO_UNIFORM_BOUND",
+      "INCIDENCE_NORM_REVIEW"
+    ],
+    "opening_excerpt": "2026-10-13. Status: **UNIT_COMPONENT_EXHAUSTED_AT_3; INTEGRAL_NORM_INDEX_DERIVED; NO_UNIFORM_BOUND.** I continued beyond the explicit unit: reconstructed the complete unit component, calculated which source conditions remove candidates, constructed the actual affine-line norm into the dual field, and tested whether its integral composition identity bounds the surviving component. The calculation reaches a specific arithmetic limit. The norm identities restrict each elementary divisor, but do not",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15",
+    "entry": "returns/BSD_THREE_WAY_ARITHMETIC_DISCOVERY_2026-10-15/REPORT.md",
+    "title": "Three-way arithmetic experiment: a predictive distinction, including the seed",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "Date: 2026-10-15. Parent lab return: `52c2b796933200f0ee3895a6a750089cd801be72`. **Result:** the experiment now distinguishes a false partially admitted class, genuine excess, and rational-point directions using actual source arithmetic. For the false class we constructed a fixed degree-24 polynomial that explains which auxiliary primes miss it. Separately, two explicit point-relative signatures detect the seed's two known 3-primary excess directions. This is an experimental and written arithmet",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_TAME_ROUTE_ENDPOINT_CLAUDE_2026-10-06/STATUS.md",
+    "title": "Tame route after G2: is there a route to the Law that does not encode FIN? (Claude, Opus 5.5, 2026-10-06)",
+    "quoted_status_tokens": [
+      "BSD_COMPARISON_MAP_ADMISSION_2026"
+    ],
+    "opening_excerpt": "The question is Pro's (relayed 10-06): inspect `link_iff_fin_and_kato`, say where the equivalence comes from, and decide whether the Tame Law has an independent construction that does not use Ш-finiteness. This note is paper only and cost $0. Sources: Aristotle 69562e6c (7), `Coinvariant/TameLink.lean` (`link_iff_finite_alarms`, `link_iff_fin_and_kato`) and `Coinvariant/DetectorRule.lean` (`exists_fixed_carrier_iff_finite_alarms`), all recompiled here with standard axioms.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07",
+    "entry": "returns/BSD_TAME_IDENTITY_STATUS_CORRECTION_CODEX_2026-10-07/REPORT.md",
+    "title": "Tame identity, endpoint, and pending-check status correction",
+    "quoted_status_tokens": [
+      "RECORD_REFINEMENT_CORRECTED",
+      "NO_NEW_ARITHMETIC_RESULT"
+    ],
+    "opening_excerpt": "October 7, 2026. **RECORD_REFINEMENT_CORRECTED; NO_NEW_ARITHMETIC_RESULT.** This checks the supplied refinement against the actual exactness report, stored residue table, retained G2/normalization statements, endpoint ledger, and RUN_NOW entries. It does not perform either pending independent audit or certify the antecedent mathematical chain. FIN, ORDER9 and Q36 are unchanged.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SURVIVING_IMAGE_BOUND_EXPERIMENT_2026-10-15",
+    "entry": "returns/BSD_SURVIVING_IMAGE_BOUND_EXPERIMENT_2026-10-15/REPORT.md",
+    "title": "An arithmetic upper bound that retains units and ideal classes",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "2026-10-15. **INDEPENDENT CONTROL UPPER BOUNDS COMPUTED; NO NEW SEED BOUND.** This run changed the object of the experiment from detecting named classes to bounding the entire containing global source. It derived and evaluated a companion-field class-group bound at coefficient3. It also tested, and refuted with actual excess classes, a shortcut that would have discarded the image of the reverse norm.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_STRUCTURAL_DISCOVERY_2026-10-13",
+    "entry": "returns/BSD_STRUCTURAL_DISCOVERY_2026-10-13/REPORT.md",
+    "title": "Actual seed excess: one unit direction and one ideal-class direction",
+    "quoted_status_tokens": [
+      "EXECUTED_STRUCTURAL_EXPERIMENT",
+      "EXPLICIT_SEED_UNIT_SOURCE",
+      "SEED_MATRIX_REVIEW",
+      "NORM_ONE_REVIEW"
+    ],
+    "opening_excerpt": "October 13, 2026. **EXECUTED_STRUCTURAL_EXPERIMENT; EXPLICIT_SEED_UNIT_SOURCE.** The complete one/one classification is conditional on the saved class-group",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_STAGE_A_REVIEW_CLAUDE_2026-10-07",
+    "entry": "returns/BSD_STAGE_A_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+    "title": "Independent desk review of Codex's Stage-A derivation (Claude, Opus 5.5, 2026-10-07)",
+    "quoted_status_tokens": [
+      "BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026",
+      "STAGE_A_DERIVATION",
+      "NEXT_ARITHMETIC_STEP",
+      "SUPPORTED_AT_DESK_LEVEL"
+    ],
+    "opening_excerpt": "**Reviewed.** Lab bb6ed896: - `work/returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/STAGE_A_DERIVATION.md`;",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SMALL_BOUND_CONTINUATION_2026-10-18",
+    "entry": "returns/BSD_SMALL_BOUND_CONTINUATION_2026-10-18/REPORT.md",
+    "title": "Testing small source bounds across coefficient primes",
+    "quoted_status_tokens": [
+      "CLASS_PROOF_REVIEW",
+      "CROSS_PRIME_CERTIFICATE"
+    ],
+    "opening_excerpt": "October 18 UTC / October 17, 2026 local. Parent lab commit: 6eb993b4e778eed5d74ace1fbea2cf4901835045. **Outcome: no cofinite small bound obtained. The seed companion groups at3 are determined conditionally; the actual p7 extension has not supplied an improved norm-kernel bound.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11",
+    "entry": "returns/BSD_SHII_THETA_PERIOD_PUSH_CODEX_2026-10-11/REPORT.md",
+    "title": "Shii theta and local-period follow-through for the BSD seed",
+    "quoted_status_tokens": [
+      "SIGNED_SOURCE_AND_TWO_LAYER_EXTRACTION_DERIVED",
+      "LOCAL_PERIOD_COMPARISON_REPAIRED",
+      "NO_NEW_SEED_BOUND",
+      "SHII_SOURCE_COMPARISON"
+    ],
+    "opening_excerpt": "Date: 2026-10-11. Baseline lab commit: `9793ff7bddd1214afe5d3567beeb27f1d59a0fc8`. **Status: SIGNED_SOURCE_AND_TWO_LAYER_EXTRACTION_DERIVED; LOCAL_PERIOD_COMPARISON_REPAIRED; NO_NEW_SEED_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SEED_P83_CERTIFICATE_2026-10-13",
+    "entry": "returns/BSD_SEED_P83_CERTIFICATE_2026-10-13/REPORT.md",
+    "title": "New seed certificate at coefficient prime 83",
+    "quoted_status_tokens": [
+      "NEW_SEED_83_PRIMARY_VANISHING",
+      "P83_OTA_THEOREM_CHECK",
+      "FINAL_MATHEMATICAL_REVIEW",
+      "ENGINE_CONTRACT_REVIEW"
+    ],
+    "opening_excerpt": "Date: 2026-10-13. **NEW_SEED_83_PRIMARY_VANISHING — computer-assisted, under retained seed and source inputs.** For the fixed curve",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SEED_JET_CONSTRUCTOR_REVIEW_CODEX_2026-10-06",
+    "entry": "returns/BSD_SEED_JET_CONSTRUCTOR_REVIEW_CODEX_2026-10-06/REPORT.md",
+    "title": "Third Aristotle package: review and recommendation",
+    "quoted_status_tokens": [
+      "USE_AS_A_DISTINCT_SOURCE_CONSTRUCTION_EXPERIMENT_WITH_CONTEXT_AND_SCOPE_ADDENDUM"
+    ],
+    "opening_excerpt": "6 October 2026. **USE_AS_A_DISTINCT_SOURCE_CONSTRUCTION_EXPERIMENT_WITH_CONTEXT_AND_SCOPE_ADDENDUM.** Yes: this is a reasonable third research assignment. Its concrete operation differs from the pasted relative-class/transgression assignment. It attempts the missing actual W3 source lift, rather than asking for a bound on the class-group receiver. The broad continuation could independently choose W3; this review has not inspected either running job and does not claim guaranteed non-overlap in th",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SEED_FRONTIER_2026-10-06",
+    "entry": "returns/BSD_SEED_FRONTIER_2026-10-06/CURRENT_FRONTIER.md",
+    "title": "BSD seed: current frontier (canonical state, 2026-10-06)",
+    "quoted_status_tokens": [
+      "SOUND_WITH_CORRECTIONS",
+      "CONFIRMED_WITH_CORRECTIONS",
+      "K288_UNIFORMITY_AUDIT_CODEX"
+    ],
+    "opening_excerpt": "Read this file first. It replaces every earlier frontier, state or summary file in your project. Each item points to its full source inside this packet. Grades are as recorded; nothing here is human-refereed. - **The curve.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20",
+    "entry": "returns/BSD_SEED_COMPLETE_BOUND_SCALING_2026-10-20/REPORT.md",
+    "title": "Testing complete bounds at larger primes and on the actual seed",
+    "quoted_status_tokens": [
+      "UNIFORM_LOCAL_ARITHMETIC_REVIEW"
+    ],
+    "opening_excerpt": "2026-10-20. **SAME-CURVE UNIT BOUND STAYS SMALL AT FIVE; SEED VALUATION CONTRIBUTION CONTROLLED UNIFORMLY; COMPLETE CLASS CONTRIBUTION STILL OPEN.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SEED_ARISTOTLE_2026-10-05",
+    "entry": "returns/BSD_SEED_ARISTOTLE_2026-10-05/REPORT.md",
+    "title": "Full-record Aristotle handoff — completion report",
+    "quoted_status_tokens": [
+      "RESEARCH_HANDOFF_ASSEMBLED_WITH_EXPLICIT_COVERAGE_BOUNDARY",
+      "BSD_SEED_RESEARCH_MAP"
+    ],
+    "opening_excerpt": "Status: **RESEARCH_HANDOFF_ASSEMBLED_WITH_EXPLICIT_COVERAGE_BOUNDARY**. The handoff preserves the complete located compendium and its evidence, adds the",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_SEED_ADMISSION_TEST_CLAUDE_2026-10-06/RESULT.md",
+    "title": "Seed-admission test, W3 and Heegner/Kolyvagin: RESULT",
+    "quoted_status_tokens": [
+      "NO_SEED_OBJECT_IDENTIFIED",
+      "BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026"
+    ],
+    "opening_excerpt": "Claude (Opus 5.5), 2026-10-06. Paper only; no primewise computation; $0. Assignment: Pro's \"SEED-ADMISSION TEST\", relayed by the user. **Verdict: `NO_SEED_OBJECT_IDENTIFIED`.** Neither lane produces a prime-independent integral object I_E with a proved mechanism Ш(E/ℚ)[p] ≠ 0 ⇒ p | I_E for all good p outside an explicit finite set. This negative is scoped to the candidates examined below; it is not an impossibility theorem.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06",
+    "entry": "returns/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/REPORT.md",
+    "title": "Second-order lifting and the actual character-realization gate",
+    "quoted_status_tokens": [
+      "SECOND_ORDER_COMMON_CORRECTION_CRITERION_DERIVED",
+      "FIXED_TAME_EQUAL_CHARACTERISTIC_FORMAL_STAGE_REFUTED",
+      "MIXED_CHARACTERISTIC_CHARACTER_CONSTRUCTED",
+      "POINT_LIFTING_OPEN"
+    ],
+    "opening_excerpt": "Date: 2026-10-06. This continues the supplied Pro review of lab bb6ed896. **SECOND_ORDER_COMMON_CORRECTION_CRITERION_DERIVED.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06",
+    "entry": "returns/BSD_SECOND_ORDER_VARIATION_CODEX_2026-10-06/REPORT.md",
+    "title": "Second-order tuning: a proposed solution of the finite lifting gate",
+    "quoted_status_tokens": [
+      "SECOND_ORDER_VARIATION_DERIVED",
+      "MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY",
+      "VARIATION_AND_TUNING"
+    ],
+    "opening_excerpt": "2026-10-06. **SECOND_ORDER_VARIATION_DERIVED; MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07",
+    "entry": "returns/BSD_SECOND_ORDER_REVIEW_CLAUDE_2026-10-07/REVIEW.md",
+    "title": "Desk review of Codex's second-order return, and where the repaired family lands (Claude, Opus 5.5, 2026-10-07)",
+    "quoted_status_tokens": [
+      "BSD_SECOND_ORDER_W_LIFT_CODEX_2026",
+      "SECOND_ORDER_PROOF",
+      "SUPPORTED_AT_DESK_LEVEL",
+      "TAME_LAW_G1"
+    ],
+    "opening_excerpt": "**Reviewed.** Lab bcb6e11f: `work/returns/BSD_SECOND_ORDER_W_LIFT_CODEX_2026-10-06/`, namely `SECOND_ORDER_PROOF.md`, `CHARACTER_REALIZATION.md` and `REPORT.md`. All three are conditional on the Stage-A span and on Morgan–Smith.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_SCALAR_CLOSURE_GATE_2026-10-18",
+    "entry": "returns/BSD_SCALAR_CLOSURE_GATE_2026-10-18/REPORT.md",
+    "title": "Full scalar closure: the tested family is excluded",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "Date: 2026-10-18. Baseline lab commit: `79fe49d73acf7f134c3d4344481095b2f1a8184f`. **The authorized scalar-closure test completed. It gives the prescribed stopping result: this entire enlarged candidate family supplies no nonzero class in the faithful virtual-unit component. No new unit or class bound was obtained. FIN, ORDER9 and Q36 are unchanged.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07",
+    "entry": "returns/BSD_RUBIN_COORDINATE_FOLLOW_CODEX_2026-10-07/REPORT.md",
+    "title": "Follow-through: the Kato coordinate comparison and actual seed cofactors",
+    "quoted_status_tokens": [
+      "RUBIN_COMPARISON_CONFIRMED_UNDER_RETAINED_INPUTS",
+      "FIXED_SOURCE_COMPARISON_DERIVED_COFINITELY",
+      "NO_PRIMITIVITY_BOUND"
+    ],
+    "opening_excerpt": "2026-10-07. **RUBIN_COMPARISON_CONFIRMED_UNDER_RETAINED_INPUTS; FIXED_SOURCE_COMPARISON_DERIVED_COFINITELY; NO_PRIMITIVITY_BOUND.** I followed the submitted construction through the published source and then into existing seed arithmetic. The comparison survives this written review. I also derived a cofinite normalization statement and computed the seed's actual logarithm/cofactor residues at 5 and 17. No new Kato coefficient or primary vanishing result was obtained.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07",
+    "entry": "returns/BSD_RESIDUAL_KATO_REVIEW_LEDGER_CODEX_2026-10-07/REPORT.md",
+    "title": "Residual Kato criterion — supplied desk review recorded",
+    "quoted_status_tokens": [
+      "DESK_REVIEW_RECORDED",
+      "NO_NEW_ARITHMETIC_RESULT"
+    ],
+    "opening_excerpt": "**Status: DESK_REVIEW_RECORDED; NO_NEW_ARITHMETIC_RESULT.** October 7, 2026.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07",
+    "entry": "returns/BSD_RESIDUAL_KATO_CRITERION_AUDIT_CODEX_2026-10-07/REPORT.md",
+    "title": "Residual derivative criterion: integral matching on a cofinite domain",
+    "quoted_status_tokens": [
+      "CRITERION_ALGEBRA_CONFIRMED",
+      "INTEGRAL_SOURCE_MATCHING_DERIVED_ON_D"
+    ],
+    "opening_excerpt": "**CRITERION_ALGEBRA_CONFIRMED; INTEGRAL_SOURCE_MATCHING_DERIVED_ON_D.** Written proof under retained seed/cohomological inputs; further independent",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RELATIVE_UNIT_EXECUTION_2026-10-18",
+    "entry": "returns/BSD_RELATIVE_UNIT_EXECUTION_2026-10-18/REPORT.md",
+    "title": "Relative-unit construction: executed, no new bound",
+    "quoted_status_tokens": [
+      "SOURCE_COVERAGE_LEMMA",
+      "FINAL_SCOPE_REVIEW",
+      "ACTUAL_RANK_UNMEASURED"
+    ],
+    "opening_excerpt": "Date: 2026-10-18. Baseline: lab commit `89b0566ef61ba78d9d95853508f831ee3ee03440`. **Result: the bounded relative-unit workaround produced no admitted ordinary unit. The intended rank-two joint bound was not reached.** This return records actual field arithmetic and exact finite-family exclusions. It supplies no new seed-prime result, complete-unit bound, ordinary class bound, or uniform theorem. FIN, ORDER9 and Q36 are unchanged.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20",
+    "entry": "returns/BSD_RELATIVE_UNIT_CLASS_ALTERNATIVE_2026-10-20/REPORT.md",
+    "title": "A changed unit/class computation on the actual seed",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "2026-10-20. This return tests the actual seed, rather than adding another control curve. The complete seed unit/class bound has **not** been",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06",
+    "entry": "returns/BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026-10-06/REPORT.md",
+    "title": "Review of the all-prime global receiver addendum",
+    "quoted_status_tokens": [
+      "CONFIRMED_UNDER_RETAINED_INPUTS"
+    ],
+    "opening_excerpt": "Date: 2026-10-06. **CONFIRMED_UNDER_RETAINED_INPUTS.** The supplied argument is correct. It closes the remaining global comparison",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RECEIVER_EXCESS_ADMISSION_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_RECEIVER_EXCESS_ADMISSION_CLAUDE_2026-10-06/ADMISSION.md",
+    "title": "Receiver / excess-class-group congruence object: admission screen (Claude, Opus 5.5, 2026-10-06; scope corrected the same night)",
+    "quoted_status_tokens": [
+      "FIXED_RECEIVER_MODULE",
+      "REDUCTION_TO_NEW_CONGRUENCE_THEOREM",
+      "NO_FIXED_OBJECT",
+      "FIXED_LOCAL_CONDITION_CARRIER"
+    ],
+    "opening_excerpt": "**Question (Pro, 10-06).** Is there a fixed characteristic-zero module M_E, independent of p, with B_p ≠ 0 ⇒ M_E[p] ≠ 0 for all large p? Here B_p ≅ Ш(E/ℚ)[p] for p ≥ 5 (record). The statuses offered were FIXED_RECEIVER_MODULE, REDUCTION_TO_NEW_CONGRUENCE_THEOREM, SELMER_LOOP and NO_FIXED_OBJECT. **`FIXED_LOCAL_CONDITION_CARRIER = SELMER_LOOP`.** This is proved below (Lemma 1).",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18",
+    "entry": "returns/BSD_RANK_TWO_JOINT_CONTINUATION_2026-10-18/REPORT.md",
+    "title": "Rank-two continuation of the coefficient-seven joint bound",
+    "quoted_status_tokens": [
+      "CENTRAL_CHARACTER_PROOF"
+    ],
+    "opening_excerpt": "Date: 2026-10-18 **Result: no rank-two joint unit bound and no complete class bound obtained.** The actual valuation allowance is zero on both new rank-two controls. The tested arithmetic source constructions supplied no nonzero faithful unit directions, so the requested norm/local rank profile remains unmeasured. FIN, ORDER9, Q36 and seed-prime coverage are unchanged.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_QUINTIC_RELATIVE_REVIEW_CODEX_2026-10-12",
+    "entry": "returns/BSD_QUINTIC_RELATIVE_REVIEW_CODEX_2026-10-12/REPORT.md",
+    "title": "Quintic relative result: actual arithmetic continuation and seed disposition",
+    "quoted_status_tokens": [
+      "RELATIVE_ANALYTIC_IDENTITY_SUPPORTED",
+      "FINITE_RELATIVE_SHA_DERIVED_UNDER_RETAINED_INPUTS",
+      "NO_BASE_SEED_BOUND",
+      "RANK_ZERO_SOURCE_CHECK"
+    ],
+    "opening_excerpt": "October 12, 2026. Input: `Bome2017/bsd-seed-lab@8365c394f1017280a6463d7f25afac2e321c0c25`, branch `research/quintic-relative-leading-term-2026-10-12`. **RELATIVE_ANALYTIC_IDENTITY_SUPPORTED; FINITE_RELATIVE_SHA_DERIVED_UNDER_RETAINED_INPUTS; NO_BASE_SEED_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_QUINTIC_RELATIVE_LEADING_TERM_2026-10-12",
+    "entry": "returns/BSD_QUINTIC_RELATIVE_LEADING_TERM_2026-10-12/REPORT.md",
+    "title": "Exact relative leading term over the first quintic layer",
+    "quoted_status_tokens": [
+      "EXACT_RELATIVE_LEADING_TERM_DERIVED_UNDER_RETAINED_INPUTS",
+      "NO_NEW_SHA_ORDER"
+    ],
+    "opening_excerpt": "2026-10-12. Baseline lab commit: `84a7333af028ff5bc694bc82bcb3c768a019f5c6`. **EXACT_RELATIVE_LEADING_TERM_DERIVED_UNDER_RETAINED_INPUTS; NO_NEW_SHA_ORDER.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_PRIMARY_TORSION_BOUND_2026-10-22",
+    "entry": "returns/BSD_PRIMARY_TORSION_BOUND_2026-10-22/REPORT.md",
+    "title": "Primary-class continuation and public research edition",
+    "quoted_status_tokens": [
+      "EXPLICIT_PRIMARY_PACKING",
+      "PRIMARY_PACKING_RESULT",
+      "PRO_PACKET_REVIEW"
+    ],
+    "opening_excerpt": "Started October 20; resumed and completed October 22, 2026. **Direct primary-torsion construction tested; no improved small class bound.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_PAIRED_EXCESS_EXPERIMENT_2026-10-12",
+    "entry": "returns/BSD_PAIRED_EXCESS_EXPERIMENT_2026-10-12/REPORT.md",
+    "title": "Positive Sha excess with a nonunit regulator: a new combined control",
+    "quoted_status_tokens": [
+      "PAIRED_PREDICTION_REPRODUCED",
+      "POSITIVE_EXCESS_NONUNIT_REGULATOR_CONTROL_COMPUTED",
+      "COMBINED_EXCESS_PROOF",
+      "PAIRING_AND_GEOMETRY"
+    ],
+    "opening_excerpt": "2026-10-12. **PAIRED_PREDICTION_REPRODUCED; POSITIVE_EXCESS_NONUNIT_REGULATOR_CONTROL_COMPUTED.** This return continues the discovery experiment after the supplied Pro recheck. It independently computes the predicted partner value, then constructs and measures a new control combining the two features previously available only separately: independently established odd-primary Sha excess and a nonunit regulator. No seed coefficient or BSD endpoint is claimed.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06",
+    "entry": "returns/BSD_ORDER3_EXCESS_AUDIT_CODEX_2026-10-06/REPORT.md",
+    "title": "Order-three tuning: arithmetic normalization and the surviving excess",
+    "quoted_status_tokens": [
+      "ORDER3_EXCESS_IDENTIFIED_CONDITIONALLY",
+      "NO_BSD_BOUND",
+      "MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY",
+      "EXCESS_NORMAL_FORM"
+    ],
+    "opening_excerpt": "2026-10-06. **ORDER3_EXCESS_IDENTIFIED_CONDITIONALLY; NO_BSD_BOUND.** The user's assessment of commit `423fdd10` is consistent with this recheck:",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_OPENAI_RELEASE_SCREEN_CLAUDE_2026-10-06/GATE4_CHECK.md",
+    "title": "Rank-two determinant switch and the OpenAI release sweep: Gate 4 and lane status (Claude, Opus 5.5, 2026-10-06; corrected the same night)",
+    "quoted_status_tokens": [
+      "GATE4_FAILS_WITH_THE_CURRENT_KNOWN_ANCHOR",
+      "GATE4_FAILS_STRUCTURALLY",
+      "UNIFORM_STEP_FINDINGS"
+    ],
+    "opening_excerpt": "**Proposal (Pro, 10-06).** Extend OpenAI's generic-rank-one \"exact determinant-switch lemma\" to generic rank two, so that the determinant line det H¹_η ⊗ (det H²_η)⁻¹ is carried by (P₁∧P₂) ⊗ (P₁^∨∧P₂^∨). The aim is to strip the 2d Ш-surplus dimensions of Sel_p while preserving the Mordell–Weil plane. Pro set four gates: 1. a rank-two switch theorem;",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_OPENAI_RELEASE_AUDIT_CLAUDE_2026-10-06/OPENAI_RELEASE_AUDIT.md",
+    "title": "OpenAI math release: consolidated audit for the BSD seed (Claude, Opus 5.5, 2026-10-06)",
+    "quoted_status_tokens": [
+      "PRECISE_CORANK2_BREAK",
+      "BSD_SEED_FRONTIER_2026",
+      "EXTERNAL_OPENAI_RESULT002_TRANSPLANT",
+      "GATE4_FAILS_WITH_THE_CURRENT_KNOWN_ANCHOR"
+    ],
+    "opening_excerpt": "**Repository.** github.com/openai/math, under the Apache-2.0 license. It holds 722 manuscripts in 372 families, at mixed verification levels; its README warns that some unformalized results may contain issues. **Formalization status.** `lean/formalization.yaml` was read on 10-06. It lists about 250 entries, and none of them is a manuscript on BSD, Selmer groups, Ш, converse theorems, Goldfeld density or elliptic curves. Pro reported the same.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11",
+    "entry": "returns/BSD_OPENAI_MATH_SCREEN_CODEX_2026-10-11/REPORT.md",
+    "title": "OpenAI math: what can actually be reused for the BSD seed",
+    "quoted_status_tokens": [
+      "RELEVANT_SOURCE_MECHANISMS_IDENTIFIED",
+      "NO_NEW_SEED_BOUND_OR_COMPARISON_ESTABLISHED"
+    ],
+    "opening_excerpt": "Date: October 11, 2026. **RELEVANT_SOURCE_MECHANISMS_IDENTIFIED; NO_NEW_SEED_BOUND_OR_COMPARISON_ESTABLISHED.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_OPENAI_MATH_SCAN_CLAUDE_2026-10-11",
+    "entry": "returns/BSD_OPENAI_MATH_SCAN_CLAUDE_2026-10-11/REPORT.md",
+    "title": "openai/math scan for the BSD seed lab — final report (2026-10-11)",
+    "quoted_status_tokens": [
+      "ONLY_CONDITIONAL_ITEMS",
+      "CODEX_LEADS_CROSSCHECK"
+    ],
+    "opening_excerpt": "**ONLY_CONDITIONAL_ITEMS.** `openai/math` (public GitHub, commit `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`, released 2026-10-06/07) holds 719 AI-generated, unrefereed manuscripts in 372 families, produced by an unreleased OpenAI model. About 42 % of top-line results (300/719, `history.md` 2026-10-07 entry) carry Lean formalizations checked by the authors' own \"comparator\" workflow, whose catalogue status is `review: status: unchecked` (`lean/formalization.yaml:1777-1778`); the BSD family 002 an",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11",
+    "entry": "returns/BSD_OPENAI_CM_COMPARISON_PUSH_CODEX_2026-10-11/REPORT.md",
+    "title": "OpenAI CM comparison: actual construction attempt for the BSD seed",
+    "quoted_status_tokens": [
+      "FINITE_MODULUS_CONSTRUCTION_REPAIRED",
+      "EXPLICIT_CM_MAP_DERIVED",
+      "NO_NEW_UPPER_BOUND",
+      "CM_MAP_ATTEMPT"
+    ],
+    "opening_excerpt": "October 11, 2026. **FINITE_MODULUS_CONSTRUCTION_REPAIRED; EXPLICIT_CM_MAP_DERIVED; NO_NEW_UPPER_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12",
+    "entry": "returns/BSD_ODD_EXCESS_CONTROL_EXPERIMENT_2026-10-12/REPORT.md",
+    "title": "A rank-two positive-excess control, with an independently computed numerator",
+    "quoted_status_tokens": [
+      "POSITIVE_ODD_EXCESS_CONTROL_CONSTRUCTED",
+      "NONUNIT_CORRECTED_RATIO_OBSERVED"
+    ],
+    "opening_excerpt": "2026-10-12. **POSITIVE_ODD_EXCESS_CONTROL_CONSTRUCTED; NONUNIT_CORRECTED_RATIO_OBSERVED.** This continues the actual coefficient–regulator experiment after Pro's review. It constructs the missing kind of positive control instead of collecting further unit-quotient examples. The result is a written isogeny argument supported by exact computations and a new p-adic coefficient. It is not an independent review, a novelty claim, a formal certificate, or a new seed bound.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_NEW_SOURCE_DELTA_CODEX_2026-10-11",
+    "entry": "returns/BSD_NEW_SOURCE_DELTA_CODEX_2026-10-11/REPORT.md",
+    "title": "Oxford release and previously unchecked source delta",
+    "quoted_status_tokens": [
+      "NEW_RELEVANT_SOURCES_CHECKED",
+      "SUPERSINGULAR_HYPOTHESIS_SCREEN_PASSES",
+      "NO_NEW_SEED_BOUND",
+      "SHII_SEED_ARITHMETIC"
+    ],
+    "opening_excerpt": "Date: October 11, 2026. Status: **NEW_RELEVANT_SOURCES_CHECKED; SUPERSINGULAR_HYPOTHESIS_SCREEN_PASSES; NO_NEW_SEED_BOUND.** There is one confirmed new Oxford recording and several relevant sources that the searched project record either had not located or had listed only as unchecked titles. The strongest additions are an applicable supersingular Fitting theorem and a later local interpolation formula addressing an explicit gap in a previously overlooked theta-class thesis. Neither supplies the",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04",
+    "entry": "returns/BSD_MAGMA_COUNTEREXAMPLE_CHECK_CODEX_2026-10-04/REPORT.md",
+    "title": "Magma counterexample story and the seed",
+    "quoted_status_tokens": [
+      "NO_SEED_COUNTEREXAMPLE_EVIDENCE"
+    ],
+    "opening_excerpt": "Date: October 4, 2026. Status: **INCIDENT_IDENTIFIED; NO_SEED_COUNTEREXAMPLE_EVIDENCE**. This is a source and retained-evidence check, not a new BSD theorem or a fresh replay of the large seed certificates.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13",
+    "entry": "returns/BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13/REPORT.md",
+    "title": "Local detector review and an executed seed comparison",
+    "quoted_status_tokens": [
+      "LOCAL_DETECTOR_SUPPORTED",
+      "SEED_LOCAL_TARGET_WITH_ZERO_GLOBAL_IMAGE_COMPUTED"
+    ],
+    "opening_excerpt": "2026-10-13. **LOCAL_DETECTOR_SUPPORTED; SEED_LOCAL_TARGET_WITH_ZERO_GLOBAL_IMAGE_COMPUTED.** Pro's one-place nontriviality proof and degree-five splitting-field argument survive this separate-agent review under their stated retained inputs. I also executed a bounded comparison on the actual seed. It finds a nonzero local quotient outside the global point image at auxiliary prime 1783, even though the separately retained seed 5-primary certificate rules out a nonzero global Selmer class with that",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_LOCAL_OBSTRUCTION_DETECTOR_2026-10-13",
+    "entry": "returns/BSD_LOCAL_OBSTRUCTION_DETECTOR_2026-10-13/REPORT.md",
+    "title": "The obstruction classes have a two-entry local signature",
+    "quoted_status_tokens": [
+      "EXPLICIT_LOCAL_DETECTOR_DERIVED",
+      "GLOBAL_CLASS_GROUP_NOT_NEEDED_FOR_LOWER_BOUND",
+      "NO_NEW_SEED_BOUND"
+    ],
+    "opening_excerpt": "2026-10-13. Baseline lab commit `257af6888c80fda3b90d481cf2d94f9950701811`. **EXPLICIT_LOCAL_DETECTOR_DERIVED; GLOBAL_CLASS_GROUP_NOT_NEEDED_FOR_LOWER_BOUND; NO_NEW_SEED_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_KERNEL_COMPLETENESS_PILOT_2026-10-15",
+    "entry": "returns/BSD_KERNEL_COMPLETENESS_PILOT_2026-10-15/REPORT.md",
+    "title": "Common-point consistency and complete-source kernel pilot",
+    "quoted_status_tokens": [
+      "COMMON_POINT_CONTRACT"
+    ],
+    "opening_excerpt": "Date: 2026-10-15. **A STRICTLY STRONGER DETECTOR ON ACTUAL SEED DATA; NO NEW SEED BOUND.** The user asked for experiments directed at completeness or kernel control. This return executes two tests, using the saved exact descent arithmetic. It finds information that the previous separate local quotients discarded. It does not compute new torsion-field data, prove a new upper bound for the seed, or advance FIN, ORDER9 or Q36.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07",
+    "entry": "returns/BSD_KATO_EXCESS_CONTENT_SOURCE_TEST_CODEX_2026-10-07/REPORT.md",
+    "title": "Attempt to bound the actual derivative's excess content",
+    "quoted_status_tokens": [
+      "NO_NEW_EXCESS_CONTENT_ESTIMATE_FROM_TESTED_INPUTS"
+    ],
+    "opening_excerpt": "**NO_NEW_EXCESS_CONTENT_ESTIMATE_FROM_TESTED_INPUTS.** October 7, 2026. I tested whether the fixed Kato source or refined Kolyvagin indivisibility supplies the arithmetic upper bound requested in the current target. Neither gives it in the tested application. This is a bounded failed attempt, not a claim that the derivative direction is exhausted.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07",
+    "entry": "returns/BSD_KATO_DERIVATIVE_MW_PLACEMENT_CODEX_2026-10-07/REPORT.md",
+    "title": "The derivative lies in the integral point lattice",
+    "quoted_status_tokens": [
+      "MW_PLACEMENT_DERIVED_FROM_RETAINED_WEAK_ORDER_INPUTS"
+    ],
+    "opening_excerpt": "**MW_PLACEMENT_DERIVED_FROM_RETAINED_WEAK_ORDER_INPUTS.** Written deduction; independent review pending.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07",
+    "entry": "returns/BSD_KATO_CONTENT_REVIEW_LEDGER_CODEX_2026-10-07/REPORT.md",
+    "title": "Desk review of the derivative-content bound recorded",
+    "quoted_status_tokens": [
+      "NEW_LENGTH_ARGUMENT_SUPPORTED_UNDER_RETAINED_INPUTS",
+      "USER_SUPPLIED_DESK_REVIEW_RECORDED",
+      "FINITE_ERROR_CHECK",
+      "BSD_KATO_CONTENT_BOUND_CODEX_2026"
+    ],
+    "opening_excerpt": "2026-10-07. **NEW_LENGTH_ARGUMENT_SUPPORTED_UNDER_RETAINED_INPUTS — USER_SUPPLIED_DESK_REVIEW_RECORDED.** The user supplied a detailed review of the maximal-minor and global-duality argument at lab commit c194a996a627e5bdff5c237e43f9f4c2300b7ecf. It supports the conditional bound",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07",
+    "entry": "returns/BSD_KATO_CONTENT_BOUND_CODEX_2026-10-07/REPORT.md",
+    "title": "Derivative content gives a quantitative Sha bound",
+    "quoted_status_tokens": [
+      "KATO_DERIVATIVE_CONTENT_BOUND_DERIVED_CONDITIONALLY",
+      "CONTENT_BOUND_PROOF"
+    ],
+    "opening_excerpt": "2026-10-07. **KATO_DERIVATIVE_CONTENT_BOUND_DERIVED_CONDITIONALLY.** Written deduction under the retained integral Kato, control, lattice and seed inputs. Independent review is required; this is not a formal certificate or a claim of literature novelty. For the actual transported smoothed derivative",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_K288_CUSTODY_AUDIT_CLAUDE_2026-10-06/RESULT.md",
+    "title": "K288 raw custody audit: RESULT",
+    "quoted_status_tokens": [
+      "K288_CUSTODY_CONFIRMED"
+    ],
+    "opening_excerpt": "Claude (Opus 5.5), 2026-10-06. $0: no new L-value computation; inputs are the nine certified singleton runs. Assignment: step 1 of Pro's 10-06 re-prioritization (\"Raw K288 custody audit first\"), relayed by the user. **Best-case endpoint effect, stated before running:** it pins down the nine K288 residues under one stated convention, so that the W-identity attack (steps 2–3) has audited inputs. It does not move FIN, ORDER9 or Q36 by itself.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15",
+    "entry": "returns/BSD_JOINT_REPAIR_TARGET_EXPERIMENT_2026-10-15/REPORT.md",
+    "title": "Joint repair experiment: arithmetic values, genuine unit excess, and point occupancy",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "Date: 2026-10-15. Parent return: lab commit `f4f96e41ff8d5a60dfd49c17a7d2b654e8a20ec9`. **Result: the concrete experiment was executed. It distinguishes arithmetic that a rank-only account misses, and constructs two positive unit-excess controls. It supplies no independent upper bound for the seed. FIN, ORDER9 and Q36 remain open.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18",
+    "entry": "returns/BSD_JOINT_BOUND_SCALING_EXPERIMENT_2026-10-18/REPORT.md",
+    "title": "Actual joint upper-bound experiment at coefficient seven",
+    "quoted_status_tokens": [
+      "ACTUAL_P7_COMPLETE_UNIT_JOINT_KERNEL_ZERO_ON_CONTROL",
+      "CLASS_CONTRIBUTION_RETAINED",
+      "NO_SEED_BOUND"
+    ],
+    "opening_excerpt": "2026-10-18. Status: **ACTUAL_P7_COMPLETE_UNIT_JOINT_KERNEL_ZERO_ON_CONTROL; CLASS_CONTRIBUTION_RETAINED; NO_SEED_BOUND**. This run executes the joint global/local proposal. It changes an unsuccessful source rather than continuing to add rows to it. The successful arithmetic is on 11a1 at coefficient 7, a rank-zero control in the same full residual-image framework, not on the rank-two seed or the earlier rank-two 389a1 control. No known Selmer or Sha value was used to construct its source or rows",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13",
+    "entry": "returns/BSD_JOINT_ADMISSION_AND_METHOD_DISTILLATION_2026-10-13/REPORT.md",
+    "title": "Joint admission experiment and distillation of successful seed methods",
+    "quoted_status_tokens": [
+      "SHARED_RESIDUAL_SCALAR",
+      "POINT_PLACEMENT_DISTINGUISHES_EQUAL_NORM_INDICES"
+    ],
+    "opening_excerpt": "Date: 2026-10-13. **EXECUTED_COMPARISON; SHARED_RESIDUAL_SCALAR; POINT_PLACEMENT_DISTINGUISHES_EQUAL_NORM_INDICES.** The requested comparison was carried out alongside the promised unit/class experiment. It found an explicit common source behind most successful seed certificates, reconstructed their corrected leading residues, and computed three complete descent controls. It did not construct a uniform bound or settle a new seed prime. FIN, ORDER9 and Q36 remain unchanged.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06",
+    "entry": "returns/BSD_HEEGNER_JET_RETURN_REVIEW_CODEX_2026-10-06/REPORT.md",
+    "title": "Revised Heegner return and completed W3 constructor: review",
+    "quoted_status_tokens": [
+      "SOURCE_CERTIFICATES_REPLAYED",
+      "EXISTING_SEED_EVALUATOR_CONNECTED",
+      "UNIFORM_BOUND_OPEN"
+    ],
+    "opening_excerpt": "Date: 2026-10-06. Status: **SOURCE_CERTIFICATES_REPLAYED; EXISTING_SEED_EVALUATOR_CONNECTED; UNIFORM_BOUND_OPEN**. The two Pro assessments recommend opposite priorities. They each identify valid ingredients, but neither establishes that its preferred lane is closer to a uniform theorem. The concrete change in these returns is that W3 now supplies recombinable source rows, and its weight-two extraction can use an evaluator already present in the project. I connected and checked that extraction ag",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07",
+    "entry": "returns/BSD_GLOBAL_SUPPORT_B_REVISION_CODEX_2026-10-07/REPORT.md",
+    "title": "Global-support B: October 7 correction revision",
+    "quoted_status_tokens": [
+      "PREPARED_NOT_SUBMITTED",
+      "NO_NEW_ARITHMETIC_RESULT"
+    ],
+    "opening_excerpt": "**PREPARED_NOT_SUBMITTED; NO_NEW_ARITHMETIC_RESULT.** The supplied assessment is useful for correcting the next assignment. It",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05",
+    "entry": "returns/BSD_GLOBAL_BIEXTENSION_RETURN_CODEX_2026-10-05/REPORT.md",
+    "title": "Global biextension scalar attack — construction return",
+    "quoted_status_tokens": [
+      "NO_GLOBAL_SCALAR_CONSTRUCTED",
+      "GLOBAL_BIEXTENSION_PARTIAL"
+    ],
+    "opening_excerpt": "**NO_GLOBAL_SCALAR_CONSTRUCTED** · 2026-10-05 I carried out the proposed construction through the actual seed fibers and its saved modular symbols. The Neron side can be repaired and written explicitly. I did not construct the modular section or a rational scalar controlling the primes. This return therefore establishes no new BSD obligation for the seed.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_GLOBAL_ADMISSION_EXPERIMENT_2026-10-13",
+    "entry": "returns/BSD_GLOBAL_ADMISSION_EXPERIMENT_2026-10-13/REPORT.md",
+    "title": "An executed global-admission experiment",
+    "quoted_status_tokens": [
+      "CONTROL_ADMISSION_COMPUTED",
+      "SEED_SOURCES_CONSTRUCTED_AND_TESTED",
+      "NO_NEW_SEED_BOUND"
+    ],
+    "opening_excerpt": "October 13, 2026. **CONTROL_ADMISSION_COMPUTED; SEED_SOURCES_CONSTRUCTED_AND_TESTED; NO_NEW_SEED_BOUND.** The experiment produced an explicit arithmetic test that excludes a locally valid class on the isogenous control partner, without using a known Sha answer, an L-value or a regulator. It also constructed and repaired actual field elements for the seed. None of those seed candidates passes the complete global conditions yet.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07",
+    "entry": "returns/BSD_GITHUB_CORRECTNESS_AUDIT_CODEX_2026-10-07/REPORT.md",
+    "title": "Recent GitHub correctness audit",
+    "quoted_status_tokens": [
+      "RECENT_RETURN_CUSTODY_AND_REPLAYS_PASS",
+      "CURRENT_NAVIGATION_REPAIRED",
+      "TWO_MINOR_BD_CORRECTIONS_RECORDED"
+    ],
+    "opening_excerpt": "October 7, 2026. **RECENT_RETURN_CUSTODY_AND_REPLAYS_PASS; CURRENT_NAVIGATION_REPAIRED; TWO_MINOR_BD_CORRECTIONS_RECORDED.** The ten latest mathematical/review returns, from the BKS combination ledger through the BD review at `f74e4420`, were checked against their proofs, status files, subsequent reviews, source bindings, and archives. No new blocking error was found in the checked deductions under their stated retained inputs. This is a bounded same-assistant review, not a guarantee that every ",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_GENUINE_RELATIVE_CLASS_METHOD_2026-10-20",
+    "entry": "returns/BSD_GENUINE_RELATIVE_CLASS_METHOD_2026-10-20/REPORT.md",
+    "title": "Actual seed: relative-class reduction tested",
+    "quoted_status_tokens": [
+      "NO_NEW_COMPLETE_SEED_BOUND_FROM_TESTED_RELATIVE_FAMILY"
+    ],
+    "opening_excerpt": "Date: 2026-10-20. Verdict: **NO_NEW_COMPLETE_SEED_BOUND_FROM_TESTED_RELATIVE_FAMILY**. I implemented and tested a relative-class method on the original seed, not",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_FIN_SOURCE_EXPERIMENTS_2026-10-21",
+    "entry": "returns/BSD_FIN_SOURCE_EXPERIMENTS_2026-10-21/REPORT.md",
+    "title": "FIN continuation: exact source experiments and an obstruction to the current analytic estimate",
+    "quoted_status_tokens": [
+      "NO_NEW_COMPLETE_SEED_BOUND",
+      "SOURCE_FAMILY_PROOF",
+      "COMBINED_SUPPORT_RESULT",
+      "COMBINED_DIRECT_CHECK"
+    ],
+    "opening_excerpt": "**21 October 2026 — NO_NEW_COMPLETE_SEED_BOUND.** I executed new bounded experiments on the actual coefficient-five point field. They did not produce the needed ordinary units or a smaller complete class-lift allowance. The return also proves that the specific October 20 whole-class-order expression cannot, by itself, reach the parity-relaxed source bound of three at any good coefficient prime.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_FIN_RELATIVE_DISCRIMINANT_GATE_2026-10-21",
+    "entry": "returns/BSD_FIN_RELATIVE_DISCRIMINANT_GATE_2026-10-21/REPORT.md",
+    "title": "October 21 FIN return: uniform local discriminant gate closed; small class bound remains open",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "**Status:** WRITTEN UNIFORM RELATIVE DISCRIMINANT POSITIVITY (under retained local type-III and full-image inputs); independently checked finite orbit arithmetic. Mathematical FIN, ORDER9, Q36 remain OPEN. For all good coefficient primes p>=5, set n=p^2-1, A_p=Q(nonzero p-torsion point), and K_p its central scalar-minus-one fixed field. The quadratic relative discriminant norm satisfies",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12",
+    "entry": "returns/BSD_FINITE_SOURCE_PALETTE_REVIEW_CODEX_2026-10-12/REPORT.md",
+    "title": "Finite-source palette: reviewed normalization and seed consequence",
+    "quoted_status_tokens": [
+      "SOURCE_COMPARISON_SUPPORTED_UNDER_RETAINED_INPUTS",
+      "ORIGINAL_PERIOD_RECEIPT_BOUND",
+      "NO_NEW_SEED_VALUE_OR_BOUND",
+      "BSD_FINITE_SOURCE_PALETTE_2026"
+    ],
+    "opening_excerpt": "Date: 2026-10-12. **Verdict: SOURCE_COMPARISON_SUPPORTED_UNDER_RETAINED_INPUTS; ORIGINAL_PERIOD_RECEIPT_BOUND; NO_NEW_SEED_VALUE_OR_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_FINITE_SOURCE_PALETTE_2026-10-12",
+    "entry": "returns/BSD_FINITE_SOURCE_PALETTE_2026-10-12/REPORT.md",
+    "title": "An explicit source family for the reviewed ordinary ratio certificate",
+    "quoted_status_tokens": [
+      "EXPLICIT_SOURCE_NORMALIZATION_DERIVED",
+      "FINITE_SMOOTHING_PALETTE_CONSTRUCTED",
+      "NO_NEW_RATIO_BOUND"
+    ],
+    "opening_excerpt": "Date: 2026-10-12. Baseline lab commit: `581f7a26a1d110bcd6131739f94569e4810a719e`.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13",
+    "entry": "returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/REPORT.md",
+    "title": "Explicit obstruction classes and a genus-one covering",
+    "quoted_status_tokens": [
+      "EXPLICIT_CONTROL_CLASSES_CONSTRUCTED",
+      "DESCENT_FUNCTION_AND_NONTRIVIALITY",
+      "SOURCES_AND_INPUTS"
+    ],
+    "opening_excerpt": "Date: 2026-10-13. **EXPLICIT_CONTROL_CLASSES_CONSTRUCTED.** Written descent calculation with exact arithmetic, source matching, and a separate same-team audit. Not human review, Lean verification, or a novelty claim. The experiment was executed: on the d=43737 positive control, two actual locally admissible classes have been computed and proved to survive the rational-point quotient. One has been converted into an explicit smooth genus-one curve with points over every completion of Q and no rati",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06",
+    "entry": "returns/BSD_EXCESS_CONTROL_ATTEMPT_CODEX_2026-10-06/REPORT.md",
+    "title": "Independent excess-control attempt and two Aristotle projects",
+    "quoted_status_tokens": [
+      "NO_INDEPENDENT_BOUND_CONSTRUCTED",
+      "ARISTOTLE_PACKAGES_PREPARED_NOT_SUBMITTED"
+    ],
+    "opening_excerpt": "Date: October 6, 2026, Pacific. **NO_INDEPENDENT_BOUND_CONSTRUCTED; ARISTOTLE_PACKAGES_PREPARED_NOT_SUBMITTED.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_DIRECT_BASE_CONTROL_REVIEW_CODEX_2026-10-12",
+    "entry": "returns/BSD_DIRECT_BASE_CONTROL_REVIEW_CODEX_2026-10-12/REPORT.md",
+    "title": "Direct base control: checked map and conditional Kato bound",
+    "quoted_status_tokens": [
+      "CLEAN_TAME_TARGET_MATCHED",
+      "CONDITIONAL_KATO_BOUND_AVAILABLE",
+      "NO_SMALL_VALUE_ESTABLISHED",
+      "NO_NEW_SEED_BOUND"
+    ],
+    "opening_excerpt": "2026-10-12. **MAP_SUPPORTED; CLEAN_TAME_TARGET_MATCHED; CONDITIONAL_KATO_BOUND_AVAILABLE; NO_SMALL_VALUE_ESTABLISHED; NO_NEW_SEED_BOUND.** The degree-p modification does reach the base seed's Sha. The fixed-quintic obstruction does not exclude it. This review also supplies an explicit domain on which its finite kernel is the standard Selmer group of an actual abelian variety, and checks a published integral upper bound for that group. It does not produce a value small enough to settle a coeffici",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_DIRECT_BASE_CONTROL_PROBE_2026-10-12",
+    "entry": "returns/BSD_DIRECT_BASE_CONTROL_PROBE_2026-10-12/REPORT.md",
+    "title": "Direct base-control probe",
+    "quoted_status_tokens": [
+      "NO_NEW_SEED_BOUND"
+    ],
+    "opening_excerpt": "2026-10-12. Baseline: Bome2017/bsd-seed-lab@ad45789840b7a59e3d090b791bbfe66904924834. **NO_NEW_SEED_BOUND. A coefficient-prime norm-kernel map is derived below; it is not admitted as a new seed-finishing result.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_DIRECTION_REVIEW_CODEX_2026-10-06",
+    "entry": "returns/BSD_DIRECTION_REVIEW_CODEX_2026-10-06/REPORT.md",
+    "title": "Pro's direction assessment: checked against the two returns",
+    "quoted_status_tokens": [
+      "ASSESSMENT_CONFIRMED_WITH_CORRECTIONS_AND_ORDINARY_CRITERION_MATCHED",
+      "BSD_RECEIVER_GLOBAL_EXACTNESS_REVIEW_CODEX_2026"
+    ],
+    "opening_excerpt": "Status: **ASSESSMENT_CONFIRMED_WITH_CORRECTIONS_AND_ORDINARY_CRITERION_MATCHED**. Date: 2026-10-06. Scope: the two supplied Aristotle archives, Pro's pasted assessment, and the supplied jet-progress transcript. This is not a live inspection of running Aristotle jobs, a full audit of every new norm sequence, or a fresh Lean replay.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_DEFORMATION_FREEZE_CODEX_2026-10-06",
+    "entry": "returns/BSD_DEFORMATION_FREEZE_CODEX_2026-10-06/REPORT.md",
+    "title": "Finite-order deformation lane: frozen",
+    "quoted_status_tokens": [
+      "FROZEN_AT_ORDER3",
+      "NO_BSD_BOUND",
+      "MIXED_CHAR_ORDER3_W_LIFT_DERIVED_CONDITIONALLY",
+      "ORDER3_EXCESS_IDENTIFIED_CONDITIONALLY"
+    ],
+    "opening_excerpt": "2026-10-06. **FROZEN_AT_ORDER3; NO_BSD_BOUND.** This records the user's decision after reviewing `aa516d30`. It is a",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12",
+    "entry": "returns/BSD_CYCLOTOMIC5_MOMENT_REVIEW_CODEX_2026-10-12/REPORT.md",
+    "title": "Review: the seed's cyclotomic 5-tower and single-table extraction",
+    "quoted_status_tokens": [
+      "CYCLOTOMIC_5_TOWER_DEDUCTION_SUPPORTED_UNDER_RETAINED_INPUTS",
+      "ONE_TABLE_EXTRACTION_SUPPORTED",
+      "BSD_CYCLOTOMIC5_AND_MOMENT_2026"
+    ],
+    "opening_excerpt": "Date: 2026-10-12. **Verdict: CYCLOTOMIC_5_TOWER_DEDUCTION_SUPPORTED_UNDER_RETAINED_INPUTS; ONE_TABLE_EXTRACTION_SUPPORTED.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CYCLOTOMIC5_AND_MOMENT_2026-10-12",
+    "entry": "returns/BSD_CYCLOTOMIC5_AND_MOMENT_2026-10-12/REPORT.md",
+    "title": "Seed arithmetic in the cyclotomic 5-tower, and a one-table numerator extractor",
+    "quoted_status_tokens": [
+      "CYCLOTOMIC_5_TOWER_VANISHING_DERIVED_UNDER_RETAINED_INPUTS",
+      "ONE_TABLE_QUADRATIC_EXTRACTION_DERIVED",
+      "OLD_SEED_NUMERATOR_REPLAYED"
+    ],
+    "opening_excerpt": "2026-10-12. Baseline: `0e8bb6859d1391e6d449b1ef02aff2cfd85310f1`. **Status: CYCLOTOMIC_5_TOWER_VANISHING_DERIVED_UNDER_RETAINED_INPUTS; ONE_TABLE_QUADRATIC_EXTRACTION_DERIVED; OLD_SEED_NUMERATOR_REPLAYED.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04",
+    "entry": "returns/BSD_CYCLE_KURIHARA_CONTENT_PUSH_CODEX_2026-10-04/REPORT.md",
+    "title": "Closed cycle to two-prime Kurihara content: result",
+    "quoted_status_tokens": [
+      "NO_TWO_PRIME_COMPARISON_FROM_TESTED_CONSTRUCTIONS",
+      "CLOSED_CYCLE_AUDIT",
+      "MIXED_COMPARISON_ATTEMPT"
+    ],
+    "opening_excerpt": "**Status: NO_TWO_PRIME_COMPARISON_FROM_TESTED_CONSTRUCTIONS.** I carried out the proposed comparison in the mixed augmentation quotient and then checked finite combinations across different pairs. I did not prove the membership -2 in I_p^(2), disprove it for the seed, or obtain a uniform vanishing theorem. The failure of the tested maps is explicit below; it is not a claim that every arithmetic comparison is impossible.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06",
+    "entry": "returns/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06/REPORT.md",
+    "title": "Current state reconciled; an arithmetic Stage-A construction",
+    "quoted_status_tokens": [
+      "STAGE_A_EXCESS_OBSTRUCTION_DERIVED",
+      "HIGHER_POINT_LIFTS_AND_UNIFORM_CONTROL_OPEN",
+      "STAGE_A_DERIVATION",
+      "NEXT_ARITHMETIC_STEP"
+    ],
+    "opening_excerpt": "Date: 2026-10-06. **Result: STAGE_A_EXCESS_OBSTRUCTION_DERIVED; HIGHER_POINT_LIFTS_AND_UNIFORM_CONTROL_OPEN.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CORRELATED_VALUATION_EXPERIMENT_2026-10-12",
+    "entry": "returns/BSD_CORRELATED_VALUATION_EXPERIMENT_2026-10-12/REPORT.md",
+    "title": "Correlated divisibility measured on actual rank-two arithmetic",
+    "quoted_status_tokens": [
+      "MATCHED_EXTRA_DIVISIBILITY_ON_CONTROLS",
+      "TWO_HEIGHT_GEOMETRIES_OBSERVED"
+    ],
+    "opening_excerpt": "Date: 2026-10-12. Status: **MATCHED_EXTRA_DIVISIBILITY_ON_CONTROLS; TWO_HEIGHT_GEOMETRIES_OBSERVED**. Grade: same-session computational experiment using PARI/GP 2.17.3, with exact modular-symbol tables and separate rational-arithmetic checks. Not a proof of a new uniform theorem, independent review, novelty claim, or new seed-primary result.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15",
+    "entry": "returns/BSD_COMPLETE_NORM_KERNEL_EXPERIMENT_2026-10-15/REPORT.md",
+    "title": "Complete norm maps, common-point kernels, and an adaptive class-source test",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "Date: 2026-10-15. Status: **ACTUAL COMPLETE-SOURCE EXPERIMENTS; SPLIT-PRIME SEPARATION DEDUCTION; NO NEW SEED BOUND**. This continues the experiments from lab commit87cdf8c9. The original question was whether the new detector could control an entire containing source rather than only the already-known classes. We computed actual norm maps, then used the results to strengthen the detector argument and to extend the experiment to a nontrivial class-group source. No new seed coefficient prime, FIN,",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11",
+    "entry": "returns/BSD_COMPARISON_EXPERIMENT_CODEX_2026-10-11/REPORT.md",
+    "title": "Executed arithmetic-comparison experiment",
+    "quoted_status_tokens": [
+      "GLOBAL_POINT_CLASS_COMPARISONS_CONSTRUCTED_ON_CONTROL_MODEL",
+      "CM_SOURCE_INDEX_OPEN",
+      "NO_SEED_BOUND",
+      "GLOBAL_TORSOR_REVIEW"
+    ],
+    "opening_excerpt": "Date: October 11, 2026. Status: **GLOBAL_POINT_CLASS_COMPARISONS_CONSTRUCTED_ON_CONTROL_MODEL; CM_SOURCE_INDEX_OPEN; NO_SEED_BOUND.** This return executes the preceding discovery brief and follows an observed relation through an exact global construction. It is a computer-assisted written argument, with a separate same-team mathematical review. It is not a Lean certificate, an independent external certification, or a novelty claim.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_COMPARISON_DISCOVERY_PROCESS_CODEX_2026-10-11",
+    "entry": "returns/BSD_COMPARISON_DISCOVERY_PROCESS_CODEX_2026-10-11/REPORT.md",
+    "title": "Discovering the arithmetic comparison for the BSD seed",
+    "quoted_status_tokens": [
+      "DISCOVERY_PROCESS_SPECIFIED",
+      "NO_NEW_COMPARISON_OR_BOUND"
+    ],
+    "opening_excerpt": "Date: 2026-10-11. Lab baseline: `0d107bb0fa3356a7d20b007528251b7898b60f18`. **Status: DISCOVERY_PROCESS_SPECIFIED; NO_NEW_COMPARISON_OR_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15",
+    "entry": "returns/BSD_COMPANION_CLASS_AND_CHARACTER_EXPERIMENT_2026-10-15/REPORT.md",
+    "title": "Companion-class bounds and an actual larger-prime norm experiment",
+    "quoted_status_tokens": [
+      "P5_NORM_ADDENDUM"
+    ],
+    "opening_excerpt": "Started October15; recovered and completed October17,2026. Parent lab commit d61b2af9653be14e1da758ae81f26209bde2a117.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CM_SOURCE_INDEX_CODEX_2026-10-11",
+    "entry": "returns/BSD_CM_SOURCE_INDEX_CODEX_2026-10-11/REPORT.md",
+    "title": "Actual CM source comparison on the 167 control",
+    "quoted_status_tokens": [
+      "ACTUAL_CM_COMPARISON_NONZERO_MOD5",
+      "SQUARED_RATIO_4",
+      "BASIS_AND_DEGREE_REVIEW",
+      "GRAPH_NORM_C"
+    ],
+    "opening_excerpt": "Date: 2026-10-11. Predecessor: lab commit `19866bd9ef40cb1abd82a964fe4de16685902adc`. **Result: ACTUAL_CM_COMPARISON_NONZERO_MOD5; SQUARED_RATIO_4.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20",
+    "entry": "returns/BSD_CLOSED_CLASS_CONSTRUCTION_2026-10-20/REPORT.md",
+    "title": "Complete class bound on the actual seed: obtained, but too coarse for FIN",
+    "quoted_status_tokens": [
+      "COARSE_COMPLETE_RELATIVE_CLASS_BOUND_DERIVED",
+      "COMPLETE_CLASS_BOUND"
+    ],
+    "opening_excerpt": "Date: 2026-10-20. Status: **COARSE_COMPLETE_RELATIVE_CLASS_BOUND_DERIVED**. This attempt changes the method from collecting relations to bounding the entire relative ideal class group analytically. It includes classes missing from every collected factor base. It produces a written bound under the retained exact field inputs, with exact outward numerical checks. The bound is too large to give the required small surviving source. FIN, ORDER9, Q36 and seed-prime coverage are unchanged.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CLAUDE_SCALING_RECONCILIATION_2026-10-18",
+    "entry": "returns/BSD_CLAUDE_SCALING_RECONCILIATION_2026-10-18/REPORT.md",
+    "title": "Claude reconciliation focused on the scaling bound",
+    "quoted_status_tokens": [],
+    "opening_excerpt": "2026-10-18. Baseline lab commit: `797eb5efc1793b7f5f3e5edadcc2e78b76c1560c`. **Result: no overlooked larger-prime norm-rank bound was found in the inspected material. Claude's compatible-repair arithmetic is useful: it supports a joint upper-bound target that is less restrictive than demanding growing incidence-norm rank alone. The saved complete-source calculation has been independently rechecked. No new bound across coefficient primes is proved.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15",
+    "entry": "returns/BSD_CLAUDE_RECONCILIATION_AND_CONTINUATION_CODEX_2026-10-15/REPORT.md",
+    "title": "Claude reconciliation and continued arithmetic experiments",
+    "quoted_status_tokens": [
+      "CLAUDE_DELTA_REVIEWED",
+      "ACTUAL_JOINT_CLASS_OBSTRUCTION_COMPUTED"
+    ],
+    "opening_excerpt": "2026-10-15. **CLAUDE_DELTA_REVIEWED; ACTUAL_JOINT_CLASS_OBSTRUCTION_COMPUTED.** FIN, ORDER9 and Q36 remain open. I located nine local Claude folders from October13–15 that were absent from the lab's current branch, reviewed their reports and the relevant producers/source statements, and independently reconstructed the principal saved arithmetic. I then continued two specific experiments. This is a targeted review and actual continuation, not an assertion that every historical file or theorem has",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_CLASS_MAP_AND_PARTIAL_RELATIONS_2026-10-20",
+    "entry": "returns/BSD_CLASS_MAP_AND_PARTIAL_RELATIONS_2026-10-20/REPORT.md",
+    "title": "Two FIN-directed experiments executed",
+    "quoted_status_tokens": [
+      "BOUNDED_TESTS_COMPLETED",
+      "NO_NEW_SEED_BOUND"
+    ],
+    "opening_excerpt": "Date: October 20, 2026. Status: **BOUNDED_TESTS_COMPLETED; NO_NEW_SEED_BOUND.** Both authorized directions were tested. The cancellation lane supplies an exact exclusion of its selected family. The class lane corrects an overlooked consequence of prior work, screens a new fixed panel, and computes a complete faithful S-source upper bound of two on the rank-two control 1664n1 at coefficient prime 3. This bound includes units, the nonzero ordinary class contribution, and allowed valuations. It doe",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_BOCKSTEIN_CERTIFICATE_REVIEW_CODEX_2026-10-12",
+    "entry": "returns/BSD_BOCKSTEIN_CERTIFICATE_REVIEW_CODEX_2026-10-12/REPORT.md",
+    "title": "Reviewed Bockstein certificate and its arithmetic continuation",
+    "quoted_status_tokens": [
+      "REFINEMENT_SUPPORTED_UNDER_RETAINED_INPUTS",
+      "PRIMITIVE_TARGET_IDENTIFIED",
+      "MATCHED_HEIGHT_RATIO_DERIVED",
+      "NO_NEW_SEED_VALUE"
+    ],
+    "opening_excerpt": "2026-10-12. **REFINEMENT_SUPPORTED_UNDER_RETAINED_INPUTS; PRIMITIVE_TARGET_IDENTIFIED; MATCHED_HEIGHT_RATIO_DERIVED; NO_NEW_SEED_VALUE.** The uploaded exact-content argument survives separate same-team mathematical review and replay of its supplied controls. I also pushed its main unfinished interface: the primitive target of the Bockstein can be identified from the known point lattice and the retained duality sequence. Combining this with the specified BKS height comparison removes the separate",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07",
+    "entry": "returns/BSD_BKS_FOUNDATION_AUDIT_CODEX_2026-10-07/REPORT.md",
+    "title": "The three remaining weak-order interfaces",
+    "quoted_status_tokens": [
+      "SOURCE_INTERFACES_PASS_WITH_LATTICE_CLARIFICATION"
+    ],
+    "opening_excerpt": "**SOURCE_INTERFACES_PASS_WITH_LATTICE_CLARIFICATION.** The written finiteness-free derivative construction survives this",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07",
+    "entry": "returns/BSD_BKS_COMBINATION_LEDGER_CODEX_2026-10-07/REPORT.md",
+    "title": "BKS source comparison and a finiteness-free weak-order deduction",
+    "quoted_status_tokens": [
+      "WEAK_CYCLOTOMIC_ORDER_DERIVED_WITHOUT_SHA_FINITENESS",
+      "TAME_NORMALIZATION_PINNED",
+      "NO_NEW_UNIFORM_BOUND",
+      "WEAK_ORDER_PROOF"
+    ],
+    "opening_excerpt": "**Status: WEAK_CYCLOTOMIC_ORDER_DERIVED_WITHOUT_SHA_FINITENESS; TAME_NORMALIZATION_PINNED; NO_NEW_UNIFORM_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07",
+    "entry": "returns/BSD_BD_INTEGRAL_REVIEW_CODEX_2026-10-07/REPORT.md",
+    "title": "Integral BD return: what survives and what needs repair",
+    "quoted_status_tokens": [
+      "CONDITIONAL_TENSOR_RECIPE_SUPPORTED",
+      "HOWARD_VALUATION_CORRECTED",
+      "ARITHMETIC_REALIZATION_OPEN"
+    ],
+    "opening_excerpt": "October 7, 2026. **CONDITIONAL_TENSOR_RECIPE_SUPPORTED; HOWARD_VALUATION_CORRECTED; ARITHMETIC_REALIZATION_OPEN.** There is a construction worth retaining here: a tensor-valued quotient that cancels the arbitrary choice of an isomorphism between the level-raised Galois representation and E[m]. Its algebra is coherent. The supplied return does not yet establish every geometric map needed to instantiate it for the proposed seed setting, so its headline claim of a fully defined canonical arithmetic",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_W3_P17_P19_RETURN_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_W3_P17_P19_RETURN_2026-10-06/README.md",
+    "title": "Aristotle W3 runs on the seed at p = 17, 19 and 31, plus the Heegner ν note: canonical return (2026-10-06)",
+    "quoted_status_tokens": [
+      "W3_P17_REPORT",
+      "HEEGNER_NU_NOTE",
+      "W3_SOURCE_REPORT"
+    ],
+    "opening_excerpt": "**What this is.** One archive, 9a3a411e, containing two Aristotle runs on the reviewed W3 source-construction supplement: - **Run be7a0018.** W3 evaluated on the actual seed at p = 17 and p = 19, with weight-two plus symbols at denominators p², and the Heegner ν note over ℚ(√−23).",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_UPPER_CONTROL_REVIEW_2026-10-06/REPORT.md",
+    "title": "Aristotle upper-control return: independent review",
+    "quoted_status_tokens": [
+      "EXACTNESS_EXTENSION_CONFIRMED_WITH_CORRECTIONS",
+      "NO_NEW_UPPER_BOUND"
+    ],
+    "opening_excerpt": "Date: 2026-10-06. **Verdict: EXACTNESS_EXTENSION_CONFIRMED_WITH_CORRECTIONS; NO_NEW_UPPER_BOUND.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_SUBMISSION_2026-10-05",
+    "entry": "returns/BSD_ARISTOTLE_SUBMISSION_2026-10-05/START_HERE.md",
+    "title": "Aristotle/Harmonic BSD research submission",
+    "quoted_status_tokens": [
+      "OFFLINE_SDK_PREFLIGHT"
+    ],
+    "opening_excerpt": "This is the SDK-compatible research input. The larger FULL ZIP is the preservation archive and exceeds the SDK's single-input limit.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_RETURNS_CHECK_CLAUDE_2026-10-06/CHECK.md",
+    "title": "Check of the six Aristotle tarballs attached 2026-10-06 (Claude, Opus 5.5)",
+    "quoted_status_tokens": [
+      "BSD_ARISTOTLE_RETURN_2026",
+      "BSD_K288_CUSTODY_AUDIT_2026",
+      "BSD_BUILD_MAP",
+      "G1G2_REVIEW_2026"
+    ],
+    "opening_excerpt": "| tarball | sha256 (prefix) | status | |---|---|---|",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_RESEARCH_CONTINUATION_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_RESEARCH_CONTINUATION_2026-10-06/REPORT.md",
+    "title": "Redesigned Aristotle continuation",
+    "quoted_status_tokens": [
+      "PREPARED_NOT_SUBMITTED",
+      "BSD_ARISTOTLE_CONTINUATION_2026",
+      "WHAT_WE_LEARNED"
+    ],
+    "opening_excerpt": "Status: PREPARED_NOT_SUBMITTED. No new mathematical theorem is claimed. The first full job is evidence that Aristotle can use the supplied project to",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/README.md",
+    "title": "Aristotle project: the rank-two global anchor (BSD seed, 2026-10-06)",
+    "quoted_status_tokens": [
+      "DELTA_TASK_RANK2_ANCHOR",
+      "BSD_SEED_FRONTIER_2026"
+    ],
+    "opening_excerpt": "**Read order** 1. `CURRENT_FRONTIER.md`",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_RANK2_ANCHOR_RETURN_2026-10-06/README.md",
+    "title": "Aristotle rank-two-anchor run: canonical return (2026-10-06)",
+    "quoted_status_tokens": [
+      "BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026",
+      "DELTA_TASK_RANK2_ANCHOR",
+      "BSD_SEED_FRONTIER_2026",
+      "RESULT_RANK2_ANCHOR"
+    ],
+    "opening_excerpt": "**Status:** submitted by the user on 2026-10-06 (Aristotle run 119f14f9). Returned **`PRECISE_OBSTRUCTION`**: none of the known constructions tested supplies a rank-two global anchor. This is **not** a proof that no anchor can exist. - **The task:** `BSD_ARISTOTLE_RANK2_ANCHOR_SUBMISSION_2026-10-06/DELTA_TASK_RANK2_ANCHOR.md`, run on the canonical packet `BSD_SEED_FRONTIER_2026-10-06` (revision 2).",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07",
+    "entry": "returns/BSD_ARISTOTLE_OPENAI_RANK2_SUBMISSION_2026-10-07/README.md",
+    "title": "Aristotle project: OpenAI rank-two obstruction / determinant mechanism, admission test (BSD seed, 2026-10-07)",
+    "quoted_status_tokens": [
+      "DELTA_TASK_OPENAI_RANK2",
+      "BSD_SEED_FRONTIER_2026",
+      "ONE_MOTIVE_RESULT",
+      "W3_P17_P19_REPORT"
+    ],
+    "opening_excerpt": "**Read order** 1. `CURRENT_FRONTIER.md`",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07",
+    "entry": "returns/BSD_ARISTOTLE_OPENAI_RANK2_REV2_SUBMISSION_2026-10-07/README.md",
+    "title": "Aristotle project (revision 2): audit the tame Stage-A derivation, then build point sections toward a rank-two switch (BSD seed, 2026-10-07)",
+    "quoted_status_tokens": [
+      "DELTA_TASK_OPENAI_RANK2_REV2",
+      "SUPPORTED_AT_DESK_LEVEL",
+      "POINT_SECTIONS_ORDER3",
+      "SECOND_ORDER_OBSTRUCTED"
+    ],
+    "opening_excerpt": "**Read order** 1. `CURRENT_FRONTIER.md`",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07",
+    "entry": "returns/BSD_ARISTOTLE_OPENAI_RANK2_RETURN_2026-10-07/README.md",
+    "title": "Aristotle OpenAI rank-two mechanism run (revision 1): canonical return (2026-10-07)",
+    "quoted_status_tokens": [
+      "EXCESS_OBSTRUCTION_PROVED",
+      "GENERIC_RANK1_ONLY",
+      "EXCESS_OBSTRUCTION_RETURN"
+    ],
+    "opening_excerpt": "**Status: `EXCESS_OBSTRUCTION_PROVED`. Stage B first fails at `GENERIC_RANK1_ONLY`. Stage C was not entered.** **Stage A (PROVED; Lean skeleton).** For p ∉ B*, supersingular p included, tame commutator-difference directions at Frobenius-acyclic primes γ ≡ 1 (mod p) obstruct exactly the strict classes outside ℓ_p = W_p ∩ S_p⁰.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_NESTED_RETURN_REVIEW_2026-10-06/REPORT.md",
+    "title": "Aristotle nested-reading return checked",
+    "quoted_status_tokens": [
+      "SMALL_NESTED_CONTENT_RECOVERY_CONFIRMED",
+      "CONTENT_RECOVERED_EXECUTION_REPORTED",
+      "ORIGINAL_CHECKER_RESULT",
+      "FULL_RESEARCH_START_PROMPT"
+    ],
+    "opening_excerpt": "Date: October 6, 2026. **SMALL_NESTED_CONTENT_RECOVERY_CONFIRMED; EXECUTION_REPORTED.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_NESTED_GATE_2026-10-05",
+    "entry": "returns/BSD_ARISTOTLE_NESTED_GATE_2026-10-05/REPORT.md",
+    "title": "Tiny Aristotle runtime gate prepared",
+    "quoted_status_tokens": [
+      "PREPARED_NOT_SUBMITTED_REMOTE_RUNTIME_UNTESTED"
+    ],
+    "opening_excerpt": "Date: October 5, 2026. Status: **PREPARED_NOT_SUBMITTED_REMOTE_RUNTIME_UNTESTED**.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_JET_INTERIM_STEERING_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_JET_INTERIM_STEERING_2026-10-06/REPORT.md",
+    "title": "Interim Aristotle jet-run steering",
+    "quoted_status_tokens": [
+      "STEER_BACK_TO_THE_ASSIGNED_SPARSE_CONSTRUCTION",
+      "NO_METHOD_REFUTATION_ESTABLISHED"
+    ],
+    "opening_excerpt": "6 October 2026. **STEER_BACK_TO_THE_ASSIGNED_SPARSE_CONSTRUCTION; NO_METHOD_REFUTATION_ESTABLISHED.** This is an assessment of the user-pasted progress transcript, not a final return audit or a live inspection of the remote job. No message was sent and no running job was changed.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07",
+    "entry": "returns/BSD_ARISTOTLE_EXCESS_A_REVIEW_CODEX_2026-10-07/REPORT.md",
+    "title": "Aristotle Lane A: independent review with material corrections",
+    "quoted_status_tokens": [
+      "NO_BOUND_OUTCOME_CONFIRMED",
+      "CLAIMED_A1_A2_IDENTIFICATION_NOT_ESTABLISHED"
+    ],
+    "opening_excerpt": "Date: 2026-10-07. Input: `50139472-2e04-4136-ae67-3ceff118f4ab-aristotle.tar.gz`. **Verdict: NO_BOUND_OUTCOME_CONFIRMED; CLAIMED_A1_A2_IDENTIFICATION_NOT_ESTABLISHED.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07",
+    "entry": "returns/BSD_ARISTOTLE_EXCESS_A_CORRECTION_REVIEW_CODEX_2026-10-07/REPORT.md",
+    "title": "Corrected Aristotle Lane A: review and host certificate recovery",
+    "quoted_status_tokens": [
+      "CORRECTIONS_ACCEPTED_WITH_QUALIFICATIONS",
+      "D23_HOST_CUSTODY_AND_RECOMBINATION_PASS",
+      "HOST_METADATA_REPLAY",
+      "FRESH_COMBINE_RECEIPT"
+    ],
+    "opening_excerpt": "Date: 2026-10-07. Input: `50139472-2e04-4136-ae67-3ceff118f4ab-aristotle (1).tar.gz`. **CORRECTIONS_ACCEPTED_WITH_QUALIFICATIONS; D23_HOST_CUSTODY_AND_RECOMBINATION_PASS.**",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/README.md",
+    "title": "Aristotle project: a derived Gross identity over ℚ(√−7) (BSD seed, 2026-10-06)",
+    "quoted_status_tokens": [
+      "DELTA_TASK_DERIVED_GROSS",
+      "BSD_SEED_FRONTIER_2026",
+      "RANK2_ANCHOR_RESULT",
+      "BSD_ARISTOTLE_DERIVED_GROSS_PROJECT_2026"
+    ],
+    "opening_excerpt": "**Read order** 1. `CURRENT_FRONTIER.md`",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_DERIVED_GROSS_RETURN_2026-10-06/README.md",
+    "title": "Aristotle derived-Gross runs over ℚ(√−7): canonical return (2026-10-06)",
+    "quoted_status_tokens": [
+      "BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026",
+      "DELTA_TASK_DERIVED_GROSS",
+      "BSD_SEED_FRONTIER_2026",
+      "DERIVED_GROSS_RESULT"
+    ],
+    "opening_excerpt": "**Status.** The user submitted the run. Two independent runs and one regrade all return **`PRECISE_OBSTRUCTION`**. With the pairing attached to the theta element's own group, the degree-two Gross-point identity over ℚ(√−7) is degenerate (0 = 0), and no constant m_E is ever fixed. This does **not** prove that a rank-two anchor cannot exist. **Task.** `../BSD_ARISTOTLE_DERIVED_GROSS_SUBMISSION_2026-10-06/DELTA_TASK_DERIVED_GROSS.md`, run on the canonical packet `BSD_SEED_FRONTIER_2026-10-06` (revi",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_BFR_REVIEW_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_BFR_REVIEW_2026-10-06/REPORT.md",
+    "title": "Independent review of Aristotle's BSD return",
+    "quoted_status_tokens": [
+      "BFR_CONFIRMED_UNDER_RETAINED_INPUTS_WITH_CORRECTIONS"
+    ],
+    "opening_excerpt": "Date: 2026-10-06. Status: **BFR_CONFIRMED_UNDER_RETAINED_INPUTS_WITH_CORRECTIONS**. **Aristotle produced a valid extension of the forward receiver to the three bad",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_1MOTIVE_SUBMISSION_2026-10-06/README.md",
+    "title": "Aristotle project: a fixed 1-motive receiver for the BSD seed (2026-10-06)",
+    "quoted_status_tokens": [
+      "DELTA_TASK_1MOTIVE",
+      "BSD_SEED_FRONTIER_2026",
+      "RANK2_ANCHOR_RESULT",
+      "DERIVED_GROSS_RESULT"
+    ],
+    "opening_excerpt": "**Read order** 1. `CURRENT_FRONTIER.md`",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  },
+  {
+    "record": "BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06",
+    "entry": "returns/BSD_ARISTOTLE_1MOTIVE_RETURN_2026-10-06/README.md",
+    "title": "Aristotle fixed-1-motive run: canonical return (2026-10-06)",
+    "quoted_status_tokens": [
+      "NO_CANONICAL_GENERATOR",
+      "ONE_MOTIVE_RESULT"
+    ],
+    "opening_excerpt": "**Two runs, one verdict.** - **Run 2318738a** used package revision 1 and returned `ETNC_CIRCULAR`.",
+    "publication_grade": "Retained source record; no new proof certification by this export."
+  }
+]

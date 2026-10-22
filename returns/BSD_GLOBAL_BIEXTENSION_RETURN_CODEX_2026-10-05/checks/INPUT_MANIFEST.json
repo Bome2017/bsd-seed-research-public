@@ -1,0 +1,23 @@
+{
+  "zip_sha256": "88cbfaf0217dd23e8d24a247434bbb75530282cd79cb97d26a75ebfd73a8b2fc",
+  "entries": [
+    {
+      "path": "ATTACK.md",
+      "expected": "8983de3a721c4355052a1a3f7a0e31ef26f01b8f454f2d9f813680d89e6032af",
+      "actual": "8983de3a721c4355052a1a3f7a0e31ef26f01b8f454f2d9f813680d89e6032af",
+      "match": true
+    },
+    {
+      "path": "README.md",
+      "expected": "25eb5d2c50171bfcd78adb1a49da0b2f51983f3160ae5659a5cc910d99622ea7",
+      "actual": "25eb5d2c50171bfcd78adb1a49da0b2f51983f3160ae5659a5cc910d99622ea7",
+      "match": true
+    },
+    {
+      "path": "TARGET.json",
+      "expected": "de404b659ffe69911d8557d421c87967e357b249ee58f350d0c435c022fcb075",
+      "actual": "de404b659ffe69911d8557d421c87967e357b249ee58f350d0c435c022fcb075",
+      "match": true
+    }
+  ]
+}

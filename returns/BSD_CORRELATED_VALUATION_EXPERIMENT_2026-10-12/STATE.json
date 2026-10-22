@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "result": "MATCHED_EXTRA_DIVISIBILITY_ON_CONTROLS; TWO_HEIGHT_GEOMETRIES_OBSERVED",
+  "valid_arithmetic_rows": 5,
+  "exact_finite_table_rows": 2,
+  "known_invalid_runs": [
+    "655a1_p31_n5"
+  ],
+  "seed_endpoints": "unchanged"
+}

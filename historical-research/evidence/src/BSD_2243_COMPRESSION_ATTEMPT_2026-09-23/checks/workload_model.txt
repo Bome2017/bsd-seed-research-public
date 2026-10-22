@@ -1,0 +1,5 @@
+kappa = 7.334539e-13  scale = 8.5666e+12
+R0/R1 current per-symbol (R1 leaves T unchanged)        T = 3.9120e+13 ( 1.000x)  total     110622.5 lch ( 1.000x)  production 83.9%
+R6 aggregation to column classes (Gauss-period tail)    T = 4.6224e+13 ( 1.182x)  total     134570.1 lch ( 1.216x)  production 84.2%
+R3 T_5 relation (denominator 5p^2; sums only)           T = 1.9560e+14 ( 5.000x)  total     735762.4 lch ( 6.651x)  production 86.4%  [producer rate extrapolated above 1.687e14]
+R7 Kurihara n = 54056092922301293 : cutoff ~ 1.991e+25 (5.089e+11x) -- not modelled (outside every measured range)

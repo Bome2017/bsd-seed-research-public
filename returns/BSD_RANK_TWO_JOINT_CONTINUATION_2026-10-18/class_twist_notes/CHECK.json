@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "twist_d": -47,
+  "x_twist": "-47*x+16",
+  "Y_twist": "-47*sqrt(-47)*Y; Y=2y+1",
+  "twist_cubic_identity": true,
+  "actual_divisor_checks": [
+    {
+      "place": 7,
+      "degree_check": 48,
+      "sigma_cube_identity": true,
+      "faithful_eigenspace_dimensions": {
+        "3": 0,
+        "5": 0
+      }
+    },
+    {
+      "place": 11,
+      "degree_check": 48,
+      "sigma_cube_identity": true,
+      "faithful_eigenspace_dimensions": {
+        "3": 0,
+        "5": 0
+      }
+    },
+    {
+      "place": 47,
+      "degree_check": 48,
+      "sigma_cube_identity": true,
+      "faithful_eigenspace_dimensions": {
+        "3": 0,
+        "5": 0
+      }
+    }
+  ],
+  "t_D_chi": 0,
+  "class_bound_proved": false
+}

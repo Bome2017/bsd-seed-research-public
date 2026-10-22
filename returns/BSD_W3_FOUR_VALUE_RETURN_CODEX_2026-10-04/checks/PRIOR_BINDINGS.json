@@ -1,0 +1,62 @@
+{
+  "commit": "a87b1af093f56efb5bce384b36d2463db2aa2dde",
+  "passed": 8,
+  "files": [
+    {
+      "name": "REPORT.md",
+      "expected_git_blob": "ed20d6ebdf66b7726e2e1c6dfdb88b2222f53cb2",
+      "actual_git_blob": "ed20d6ebdf66b7726e2e1c6dfdb88b2222f53cb2",
+      "match": true,
+      "sha256": "7b9ba4888821ea2e84e84a0b211c22c02f53acfa9daf89986511c184e724cb1e"
+    },
+    {
+      "name": "HANDOFF.md",
+      "expected_git_blob": "0f44d84bb4595fd70965add8bf6aed07cae5cdde",
+      "actual_git_blob": "0f44d84bb4595fd70965add8bf6aed07cae5cdde",
+      "match": true,
+      "sha256": "899432fa0bbadedf723f84ec51be7c5dc7c95c401e575576d21272bf4a20cc10"
+    },
+    {
+      "name": "ARITHMETIC_SOURCE.md",
+      "expected_git_blob": "dd06e5817b4e7574a610260117ed827706129d30",
+      "actual_git_blob": "dd06e5817b4e7574a610260117ed827706129d30",
+      "match": true,
+      "sha256": "03dd48d42a2f19c3938c3cf0ceeb50ddae604e3cfe99a0402a8d3fea9e1f8d07"
+    },
+    {
+      "name": "ARITHMETIC_LOW_JETS.md",
+      "expected_git_blob": "69721618c4dd634d805b77c7a7a933e4581cbc4e",
+      "actual_git_blob": "69721618c4dd634d805b77c7a7a933e4581cbc4e",
+      "match": true,
+      "sha256": "364e00153f50dbb547c5e42ac7df941313804d7e88355d43176165f5a764245b"
+    },
+    {
+      "name": "VARIABLE_WEIGHT_INDEX.md",
+      "expected_git_blob": "a54c0a5402ffbcb08be953d92261da2e2b2b1c03",
+      "actual_git_blob": "a54c0a5402ffbcb08be953d92261da2e2b2b1c03",
+      "match": true,
+      "sha256": "d4018b5263b69fc23472992e051471f5ae58939fc4bfc06993541e257d22ac39"
+    },
+    {
+      "name": "FINITE_ARITHMETIC_SOURCE.md",
+      "expected_git_blob": "0723296b40161fa65cda1fcd1e4dbb541d08dcb8",
+      "actual_git_blob": "0723296b40161fa65cda1fcd1e4dbb541d08dcb8",
+      "match": true,
+      "sha256": "ba80abb8105ef97010d42c0ff2ca0d5b4d7a11bb85f1ab054c2b730bcdf28519"
+    },
+    {
+      "name": "TEN_POINT_CERTIFICATE.md",
+      "expected_git_blob": "bf82647d14dc9f2f1e96ad5b4fc663ac9f9eec52",
+      "actual_git_blob": "bf82647d14dc9f2f1e96ad5b4fc663ac9f9eec52",
+      "match": true,
+      "sha256": "3a128bf9c7b505b46b7a5ed21d7633b4788c48923bf4d62bd4a2ace545be6a38"
+    },
+    {
+      "name": "SOURCES.md",
+      "expected_git_blob": "1e4fc1b1e31d64e98453da5f1b40ac035a9fd1e5",
+      "actual_git_blob": "1e4fc1b1e31d64e98453da5f1b40ac035a9fd1e5",
+      "match": true,
+      "sha256": "61867c105151d5c168ffe022a2aa9b49a5806134dcdeb294a950f6482339373d"
+    }
+  ]
+}

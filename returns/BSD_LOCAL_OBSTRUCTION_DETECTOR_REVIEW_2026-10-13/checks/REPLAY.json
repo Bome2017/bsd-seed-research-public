@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "independent_local",
+      "exit_code": 0,
+      "stderr_empty": true
+    },
+    {
+      "check": "seed_probe",
+      "exit_code": 0,
+      "stderr_empty": true
+    }
+  ]
+}

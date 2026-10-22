@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "interval_cases_compared_to_direct_integer_enumeration": 41925,
+  "inadmissible_primes_rejected": 8,
+  "includes_negative_endpoints_and_empty_lattice": true,
+  "supplied_exact_replay_matches_except_timing": true,
+  "cpu_seconds": 1.379308,
+  "scope": "Arithmetic acceptance implementation only; no seed interval or theorem proof"
+}

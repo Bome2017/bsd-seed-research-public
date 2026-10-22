@@ -1,0 +1,81 @@
+{
+ "custody": {
+  "manifest_entries_present_and_matching": 17,
+  "manifest_entries_mismatching": [],
+  "manifest_entries_absent": 1053,
+  "absent_atomic_units": 1031,
+  "absent_other": [
+   "CHECKPOINTS.jsonl",
+   "RESULT_T3456106495.json",
+   "RESUME.md",
+   "STATE.json",
+   "benchmark_early.log",
+   "benchmark_early.time",
+   "benchmark_late.log",
+   "benchmark_late.time",
+   "benchmark_smooth.log",
+   "benchmark_smooth.time",
+   "block_test.time",
+   "block_test_initial_failed.time",
+   "build.log",
+   "integrate_completion.py",
+   "kernel_test.time",
+   "retained_arbcore.c",
+   "run_T3456106495.time",
+   "supervise.py",
+   "supervisor.lock",
+   "supervisor.log",
+   "twist",
+   "twist.c"
+  ],
+  "RESULT.input_bindings_sha256_matches": true,
+  "RESULT.build_bindings_sha256_matches": true,
+  "RESULT.engine_log_sha256_matches": true,
+  "RESULT.combine_log_sha256_matches": true,
+  "build_bound_files_present": {
+   "twist.c": false,
+   "retained_arbcore.c": false,
+   "twist": false,
+   "build.sh": true,
+   "DESIGN.md": true,
+   "kernel_test.log": true,
+   "block_test.log": true
+  },
+  "coefficient_corpus_paths_are_external_host_paths": true,
+  "input_bindings_witness_replay": false
+ },
+ "tail_and_endpoints": {
+  "c": "3.38757467380422134351792132211411742919",
+  "tail_bound_B": "0.33504179704832082395470608266752864982",
+  "log_TAIL_BOUND": "0.3350417970483208239547061 +/- 1.74e-26",
+  "lower": "39.512236515270552748045293917",
+  "upper": "40.182320109367195251954706082",
+  "inside_[39.512236,40.182321]": true
+ },
+ "root_number": {
+  "N_factorization": {
+   "2": 3,
+   "3": 1,
+   "2243": 1,
+   "4547": 2,
+   "5843": 1
+  },
+  "chi(q)": {
+   "2": 1,
+   "3": 1,
+   "2243": 1,
+   "4547": 1,
+   "5843": 1
+  },
+  "chi(-N)": -1,
+  "w(E^-23)=chi(-N)*w(E) with imported w(E)=+1": -1
+ },
+ "models_equal_c4_c6": true,
+ "float_2026_10_06": {
+  "L_prime": 39.84727806412273,
+  "split_t_1.2": 39.84727806412956,
+  "fe_discrepancy": 6.828315690654563e-12,
+  "minus_certified_partial_2S_T": -2.4819613742010915e-07,
+  "inside_certified_interval": true
+ }
+}

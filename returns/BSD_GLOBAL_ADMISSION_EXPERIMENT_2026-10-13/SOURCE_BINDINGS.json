@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-13",
+  "repository": "Bome2017/bsd-seed-lab",
+  "baseline_commit": "b1ac0bf93739eaa3d54b369485b52c6fba480fd6",
+  "retained_sources": [
+    {
+      "repository_path": "work/returns/BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13/REPORT.md",
+      "sha256": "420180a203dd8a4be2dfa9efabcb2c5ccb740fd9828874eab1d80b4ca18cf958",
+      "bytes": 6362
+    },
+    {
+      "repository_path": "work/returns/BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13/seed_probe/RESULT.md",
+      "sha256": "94224d65af837f9391bb920f34bd4cb41443d5d7ee05b8a1b8ec3b427248869d",
+      "bytes": 3620
+    },
+    {
+      "repository_path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/theory/DESCENT_FUNCTION_AND_NONTRIVIALITY.md",
+      "sha256": "112e7747322c06712d095ede752e212bcc3e22ad1b187185ef82cf3fa93be86e",
+      "bytes": 7861
+    },
+    {
+      "repository_path": "work/returns/BSD_EXPLICIT_OBSTRUCTION_CLASS_2026-10-13/AUDIT.md",
+      "sha256": "5293b38e82fae15e1183bfd7b92f0633e10807d770cd214732036cb4181e7c6d",
+      "bytes": 7516
+    },
+    {
+      "repository_path": "work/returns/BSD_LOCAL_OBSTRUCTION_DETECTOR_REVIEW_2026-10-13/TRANSFER_ANALYSIS.md",
+      "sha256": "47a3ef322a4d456726ed891a3a440aa959894e1ffe972ce2762b90a5ba0404bb",
+      "bytes": 7733
+    }
+  ],
+  "historical_seed_bindings": "seed/HISTORICAL_BINDINGS.json",
+  "primary_sources": [
+    {
+      "title": "Miller and Stoll, Explicit isogeny descent",
+      "url": "https://www.mathe2.uni-bayreuth.de/stoll/papers/isogeny-descent.pdf",
+      "used": "Theorem 11 and definition of source and local unit quotient; freshly read this turn"
+    },
+    {
+      "title": "Schaefer and Stoll, How to do a p-descent, long version",
+      "url": "https://www.mathe2.uni-bayreuth.de/stoll/papers/p-descent-long.pdf",
+      "used": "local support reduction; Corollary7.9 and incidence norm; freshly read this turn",
+      "sha256": "d1900c03c034d7ba7a5a02b4a7096a03613926f79e54c6e856cf2d636c42a81f"
+    }
+  ],
+  "other_source_reading_scope": "duality/SOURCES.md",
+  "grade": "Hashes bind source identity, not mathematical validity. Prior Sha answers are not inputs to the new admission computation."
+}

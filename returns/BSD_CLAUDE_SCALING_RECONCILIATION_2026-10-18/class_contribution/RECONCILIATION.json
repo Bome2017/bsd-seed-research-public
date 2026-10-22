@@ -1,0 +1,16 @@
+{
+  "matches_prior_matrix_bindings": {
+    "718b1": true,
+    "997c1": true,
+    "1070a1": true,
+    "1141a1": true,
+    "1246c1_retry600": true,
+    "1480a1": true,
+    "1525c1": true,
+    "1613a1_grh": true,
+    "mirror389": true
+  },
+  "newly_discovered_arithmetic": false,
+  "old_CLAUDE_count_correction": "five new rank-two controls, eight total; mirror separate",
+  "source_recomputed_here": "finite-field filtered bounds on unchanged certified source matrices"
+}

@@ -1,0 +1,27 @@
+  *** mspadicinit: Warning: increasing stack size to 16000000.
+  *** mspadicinit: Warning: increasing stack size to 32000000.
+  *** mspadicinit: Warning: increasing stack size to 64000000.
+  *** mspadicinit: Warning: increasing stack size to 128000000.
+  *** mspadicinit: Warning: increasing stack size to 256000000.
+  *** mspadicinit: Warning: increasing stack size to 512000000.
+  *** mspadicinit: Warning: increasing stack size to 1024000000.
+  *** mspadicinit: Warning: increasing stack size to 1500000256.
+  ***   at top-level: mp=mspadicinit(ms,p,nn)
+  ***                    ^--------------------
+  *** mspadicinit: the PARI stack overflows !
+  current stack size: 1500000256 (1430.512 Mbytes)
+  [hint] you can increase 'parisizemax' using default()
+
+... skipping file 'checks/one_row.gp'
+  ***   at top-level: mu=mspadicmoments(mp,phi)
+  ***                    ^----------------------
+  *** mspadicmoments: incorrect type in checkmspadic (t_POL).
+  ***   at top-level: l0=mspadicL(mu,0,0)
+  ***                    ^----------------
+  *** mspadicL: incorrect type in checkoms [apply mspadicmoments] (t_POL).
+  ***   at top-level: l1=mspadicL(mu,0,1)
+  ***                    ^----------------
+  *** mspadicL: incorrect type in checkoms [apply mspadicmoments] (t_POL).
+  ***   at top-level: l2=mspadicL(mu,0,2)/2
+  ***                    ^------------------
+  *** mspadicL: incorrect type in checkoms [apply mspadicmoments] (t_POL).

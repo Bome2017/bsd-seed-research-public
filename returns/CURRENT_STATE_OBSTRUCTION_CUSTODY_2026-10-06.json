@@ -1,0 +1,18 @@
+{
+  "review": "BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06",
+  "manifest_entries": 130,
+  "copied_bytes_verified": true,
+  "archive": "archives/BSD_CURRENT_STATE_OBSTRUCTION_PUSH_CODEX_2026-10-06.zip",
+  "archive_sha256": "db19dfb22f7510cda480a4465a7066b464ede5f6431ebe8fe8058183c69b956f",
+  "archive_bytes": 544766,
+  "lab_source_head_reviewed": "00f6d152",
+  "research_status_head": "9ebaca3b80adfd4a18e77eebe23c9db3bc201448",
+  "grade": "same-worker written Stage-A derivation; independent review required",
+  "endpoint_effect": "FIN ORDER9 Q36 unchanged",
+  "publication_authorization": "Standing user request: Each time upload to lab GitHub so I can show pro 6",
+  "source_archives_already_published_by_concurrent_writer": [
+    "2318738a-17a5-4380-8152-96849f45a3ea-aristotle.tar.gz",
+    "a6077c4a-8876-4c56-afef-5687d98141a1-aristotle.tar.gz",
+    "BSD_ARISTOTLE_OPENAI_RANK2_PROJECT_2026-10-06.tar.gz"
+  ]
+}

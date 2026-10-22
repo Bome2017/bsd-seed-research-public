@@ -1,0 +1,7 @@
+4:# run for the seed with the rigorous core.  Refuses to start on the seed unless P3_AUTHORIZED=yes.  Every stage is restartable.
+15:TARGETS=${TARGETS:-"81:3:1 27:3:1"}          # seed: M = 3 -> s = -w a_3 = +1;  add "49:1:1 7:1:1" for p = 7 (M = 1 -> s = w = +1)
+16:LATDEN=${LATDEN:-1024}; SEGQ=${SEGQ:-16777216}; QB=4096; J=${J:-12}; W=${W:-12}; OUT=${OUT:-$R/runs/p3}; FAST=${FAST-fast}   # FAST="" for curves without the seed-type 2-torsion point (0,0)
+18:if [ "$AI" = "$SEED_AI" ] && [ "${P3_AUTHORIZED:-no}" != "yes" ]; then
+19:  echo "REFUSED: run_p3.sh on the seed needs P3_AUTHORIZED=yes (operator decision; see P3_RUN_PLAN.md)"; exit 2; fi
+6b7b071c19d472b8358ac904cb72c15585a260f9891504797053ff43fc1a55aa  p3plan/run_p3.sh
+1922291c13154d2abb484343108c122c71483f5bf68b18cb277a74e770d65566  p3plan/p3_check.py

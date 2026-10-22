@@ -1,0 +1,94 @@
+Using multiprecision floating point with 50 bits precision.
+Curve [0,45470,0,91790289,0] :	Working with minimal curve [0,-1,0,-597383344,5572681004764] via [u,r,s,t] = [1,-15157,0,0]
+
+1 points of order 2:
+[15157:0:1]
+
+Using 2-isogenous curve [0,-90940,0,1700359744,0] (minimal model [0,-1,0,-66020924,-65074271436])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 2
+rk(S^{phi}(E'))=	2
+rk(S^{phi'}(E))=	2
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+...skipping -- no second descent requested
+No second local descent done, rank bound = 2
+rk(phi'(S^{2}(E)))<=	2
+rk(phi(S^{2}(E')))<=	2
+rk(S^{2}(E))<=	3
+rk(S^{2}(E'))<=	3
+
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(45470,91790289)
+(c',d')=(-90940,1700359744)
+(-2243,0,45470,0,-40923):  (x:y:z) = (1:48:1)
+	Curve E 	Point [-2243:-107664:1], height = 4.2641810048688
+After first global descent, this component of the rank = 2
+-------------------------------------------------------
+2. E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+(4547,0,-90940,0,373952):  (x:y:z) = (2:288:1)
+	Curve E' 	Point [18188:2619072:1], height = 4.3111499832544
+	Curve E 	Point [5184:-1355400:1], height = 8.6222999665088
+After first global descent, this component of the rank = 2
+
+-------------------------------------------------------
+Summary of results:
+-------------------------------------------------------
+	rank(E) = 2
+	#E(Q)/2E(Q) = 8
+
+Information on III(E/Q):
+	 III(E/Q)[phi'] is trivial
+	 III(E/Q)[2]    is trivial
+Information on III(E'/Q):
+	 III(E'/Q)[phi] is trivial
+	 III(E'/Q)[2]   is trivial
+
+-------------------------------------------------------
+
+List of points on E = [0,-1,0,-597383344,5572681004764]:
+
+I.  Points on E mod phi(E')
+Point [12914:-107664:1], height = 4.2641810048688
+
+II. Points on phi(E') mod 2E
+Point [20341:-1355400:1], height = 8.6222999665088
+-------------------------------------------------------
+Computing full set of 4 coset representatives for
+2E(Q) in E(Q) (modulo torsion), and sorting into height order....done.
+
+
+Used descent via 2-isogeny with isogenous curve E' = [0,-1,0,-66020924,-65074271436]
+Rank = 2
+Rank of S^2(E)  = 3
+Rank of S^2(E') = 3
+Rank of S^phi(E') = 2
+Rank of S^phi'(E) = 2
+
+Searching for points (bound = 8)...done:
+  found points which generate a subgroup of rank 0
+  and regulator 1
+Processing points found during 2-descent...done:
+2-descent increases rank to 2,   now regulator = 17.79651747249
+No saturation being done
+Transferring points from minimal curve [0,-1,0,-597383344,5572681004764] back to original curve [0,45470,0,91790289,0]
+
+Generator 1 is [-2243:-107664:1]; height 4.2641810048688
+Generator 2 is [5184:-1355400:1]; height 8.6222999665088
+
+Regulator = 17.79651747249
+
+The rank has been determined unconditionally.
+The basis given is for a subgroup of full rank of the Mordell-Weil group
+ (modulo torsion), possibly of index greater than 1
+
+ (0.135393 seconds)
+

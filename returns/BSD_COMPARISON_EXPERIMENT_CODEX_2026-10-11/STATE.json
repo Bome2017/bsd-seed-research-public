@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETED",
+  "result": "GLOBAL_POINT_CLASS_COMPARISONS_CONSTRUCTED_ON_CONTROL_MODEL",
+  "date_local": "2026-10-11",
+  "baseline_lab_commit": "790e118677dbe6a6415df998d76c246f772f1d62",
+  "grade": "computer-assisted written proof; separate same-team review; not external or Lean certification",
+  "completed": [
+    "full_mod5_Sturm_admission",
+    "explicit_Galois_equivariant_torsion_maps",
+    "universal_addition_and_pairing_checks",
+    "true_local_Kummer_measurements",
+    "sealed_held_out_tests_8_of_8",
+    "two_explicit_degree25_global_Kummer_comparisons",
+    "independent_same_team_affinity_review_and_replay"
+  ],
+  "open": [
+    "actual_Shimura_CM_index_n",
+    "integral_quotient_component_factor_k",
+    "any_seed_Kato_comparison_or_cofinite_content_bound"
+  ],
+  "endpoint_change": false,
+  "paid_jobs": false,
+  "remote_research_jobs": false,
+  "publication_scope": "authorized_lab_branch_only"
+}

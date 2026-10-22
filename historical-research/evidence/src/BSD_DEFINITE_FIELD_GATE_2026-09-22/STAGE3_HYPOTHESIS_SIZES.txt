@@ -1,0 +1,21 @@
+BLV Hyp 1.1 anomalous condition (ordinary case):
+   p SPLIT in K : need a_p != 1 (mod p)
+   p INERT in K : need a_p != +-1 (mod p)
+For p>=7, Hasse (|a_p|<=2sqrt p < p-1) makes a_p = +-1 (mod p) <=> a_p = +-1 exactly.
+
+primes 5 <= p < 30000, p not | N, with a_p = +-1  (K = Q(sqrt-7)):
+      p  a_p   p in K   EXCLUDED by Hyp 1.1
+
+0 primes with a_p = +-1; 0 actually excluded.
+Lang-Trotter predicts #{p<=x : a_p = t} ~ C_t sqrt(x)/log x  => CONJECTURALLY INFINITE, density 0.
+NOT proved infinite (unlike supersingular, which Elkies proves infinite). NOT proved finite either.
+
+--- (Ram) repair: the additive places 2 and 4547 ---
+v_q(j) < 0 only at q = [3, 2243, 5843] => j is INTEGRAL at 2 and 4547
+=> potentially GOOD reduction at 2 and 4547 (not potentially multiplicative)
+=> inertia at l acts on T_p(E) through a finite group of order e | 24
+=> for p >= 5 we have p ∤ 24, so reduction mod p is injective on that group
+=> rho-bar_p IS ramified at 2 and at 4547 for every p >= 5.  (Ram) now covers ALL l | N.
+
+--- p ∤ h_K ---
+h(-7) = 1, so 'p does not divide h_K' is VACUOUS for D = -7. No primes excluded.

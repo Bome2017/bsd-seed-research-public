@@ -1,0 +1,618 @@
+{
+  "captured_utc": "2026-09-19T16:25:15.709141+00:00",
+  "scope": "Hashes bind located bytes; reading scope is per entry; hashing is not proof verification.",
+  "entries": [
+    {
+      "id": "S01",
+      "path": "/Users/bsm/.codex/attachments/dc89e4d6-a859-49db-901e-0ef7124abee5/Pasted text.txt",
+      "sha256": "69a17875fbef6ac2a0ba65542b83ad62b6e8bade7a55386e99ce24e54304039f",
+      "bytes": 23206,
+      "scope": "User mandate, read in full"
+    },
+    {
+      "id": "S02",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/00_READ_FIRST.md",
+      "sha256": "dd9151549f40c6035effe6b4838cf3fa7ddb8f4d040ff88003975e7641cbf944",
+      "bytes": 10476,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S03",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MASTER_BSD_DAG.md",
+      "sha256": "a5a95388d5bc9c51841508d4aadab95b93a9c2366cf9eb3616f95ddf1ca15587",
+      "bytes": 6368,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S04",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/FIN_FRONTIER.md",
+      "sha256": "9eb45d8d69781535299dc366a50a48b77fcbc6c53ebbbe2f17d10066f0ca8b3b",
+      "bytes": 11061,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S05",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/FORMULA_FRONTIER.md",
+      "sha256": "2b3cd187161b7f0c9e940c33abbcc0cf8e86d7936e99016a9c13ac958e3efd4e",
+      "bytes": 10640,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S06",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SEED_PROVED_STATE.md",
+      "sha256": "cf312815d8b47cdb63a6d476f2ca669e85c281718fb43791e33fdb8ebbafad86",
+      "bytes": 9276,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S07",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/ROUTES_AND_STOPS.md",
+      "sha256": "bb16f54f8e63a41f3c63cbd3a904b48d708dad82591caba9e44dbd378aee642e",
+      "bytes": 7208,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S08",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/DO_NOT_RESURRECT.md",
+      "sha256": "19732b5de57f4d2510429ad6c1581e847c0e2db098d8749cce81229657dab8b5",
+      "bytes": 9193,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S09",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/CODEX_QUESTIONS.md",
+      "sha256": "a92a4977151e235f4e026f81dee8644bd5ff498a61f618519358ad22580c1904",
+      "bytes": 6473,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S10",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/SOURCE_AND_HASH_INDEX.md",
+      "sha256": "8f7016fd57fc640e477fa79ccc49507e1c09861521f4b25da497e81e9b27565f",
+      "bytes": 11024,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S11",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/STATE.json",
+      "sha256": "452436e52040c718577c8228d5792270cac96ada388514fe5d649f460110c998",
+      "bytes": 5728,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S12",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/RESUME.md",
+      "sha256": "5904a8e05d50c019ca126d702c10806027e320fdd828854379fda0ffe984ac6d",
+      "bytes": 2082,
+      "scope": "Handoff index/status read; checked against governing source results",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S13",
+      "path": "/Users/bsm/BSD_CODEX6_MASTER_HANDOFF_2026-09-19/MANIFEST.sha256",
+      "sha256": "e70b17b70639cdc6f96361ca182d535022475ad1088b9043a3eee185403471bc",
+      "bytes": 923,
+      "scope": "Parsed and all 11 entries checked"
+    },
+    {
+      "id": "S14",
+      "path": "/Users/bsm/SEED_2243_12_MASTER_CERTIFICATE_2026-09-18/00_CERTIFICATE.md",
+      "sha256": "1645f4849571c2ac3f49b6d859347dff779ba8726008e150bc741e561a89a690",
+      "bytes": 9332,
+      "scope": "Statement, nodes and qualifications; sealed p5 theorem supersedes N7",
+      "matches_handoff_expected": true,
+      "anchor_line": 44
+    },
+    {
+      "id": "S15",
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/ANALYTIC_RANK_CERTIFICATE.md",
+      "sha256": "ef0d90f1e17d68c89459aad2dcbe3822f8fb52c58f6fecd118fa5b3cbebdc614",
+      "bytes": 10223,
+      "scope": "Theorem and proof steps 1-5; no coefficient-stream replay",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S16",
+      "path": "/Users/bsm/BSD_RIGOROUS_STREAM_CORE_2026-09-19/00_REPORT.md",
+      "sha256": "cb6f57810f3a9b298c2400525b1b7ed1c2660503f8aabfc4e5f61eee7c04875c",
+      "bytes": 10175,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S17",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/SHA3_THEOREM.md",
+      "sha256": "276e3ccabbec3548a48d13b3fe1e6a6fb40724a45b010e42ad1fe227af30a549",
+      "bytes": 8180,
+      "scope": "Theorem and dependency/provenance chain; numerical run imported",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S18",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_CERTIFICATE.md",
+      "sha256": "1913ea078daf46c9adf058ad02b82cfa35c8ede35b09b623407484038c9698e8",
+      "bytes": 7886,
+      "scope": "Period interval and selected certificate passages",
+      "matches_handoff_expected": true,
+      "anchor_line": 23
+    },
+    {
+      "id": "S19",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/P3_FINAL_REPORT.md",
+      "sha256": "4433478aa1b9e1286a9921917a6f9b7c5e349c3d3d6a46db0db40f88b8fbe6a2",
+      "bytes": 8173,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S20",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P3_RIGOROUS_RUN_2026-09-19/addenda/P3_R2_PERIOD_PROVENANCE_AUDIT.md",
+      "sha256": "2b984abaa1a20fa91a8ad6795b1f3da3fd647832924aaba6049627ff3274892d",
+      "bytes": 6391,
+      "scope": "Opening 42 lines and R2 boundary",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S21",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/FULL_BSD_SEED_DAG.md",
+      "sha256": "3e1c96b05eda41a0eb9652c4d92e09a67c1b604e4fb4c7a03d7fce0770985d20",
+      "bytes": 12894,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S22",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F1_P3_HOSTILE_AUDIT.md",
+      "sha256": "099c84a350f33afa9d2ad668c7de650e45958ee19db2d3410f86bb03c2bbd3a8",
+      "bytes": 40732,
+      "scope": "Opening verdict and correction scope",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S23",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F2_MINIMAL_FULL_BSD_AUDIT.md",
+      "sha256": "96e16935e1b19883aa068f9451017e6316f7ac164ec26547fccf801e81e4cd49",
+      "bytes": 47875,
+      "scope": "Opening verdict/minimal-set correction and selected route findings",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S24",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F3_LARGE_P_SHA_HUNT.md",
+      "sha256": "f04a1b3f0cb229ea967ab52d60bd95df98d019a0958dee7baf642237d2d479df",
+      "bytes": 47246,
+      "scope": "Selected source/theorem table and conclusion; no repeat full survey",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S25",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_SECOND_DERIVATIVE_RATIONALITY_HUNT.md",
+      "sha256": "1894fc91ff1605972ff434649c38c32a9abdf2fbf5d270885c085dec012204c7",
+      "bytes": 61807,
+      "scope": "Opening rationality analysis and retained route summary",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S26",
+      "path": "/Users/bsm/BSD_SEED_2243_12_RANK2_GLOBAL_OBJECT_2026-09-18/RANK2_GLOBAL_OBJECT_COMPOSITION.md",
+      "sha256": "6b347683743eee1ba21649c379b076b4e3c7bcd85d212fdafd69e13ebf138bcf",
+      "bytes": 31233,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S27",
+      "path": "/Users/bsm/BSD_SEED_2243_12_LINE_HOSTILE_AUDIT_2026-09-19/LINE_HOSTILE_AUDIT.md",
+      "sha256": "4e7208397257f75fc955dcb0da04d73b184bccf08cb50d1f94cac3332733c178",
+      "bytes": 21890,
+      "scope": "Selected source limitations plus normalization/core-pair/C-prime proof",
+      "matches_handoff_expected": true,
+      "anchor_line": 103
+    },
+    {
+      "id": "S28",
+      "path": "/Users/bsm/SEED_2243_12_MECHANISM_LANES_2026-09-18/00_LANE1_SYNTHESIS.md",
+      "sha256": "fab04792bd667a0805fc6554cf1e420dea6947a05f15e1cada89dd1da99bbfb5",
+      "bytes": 24961,
+      "scope": "Opening NC5/operator/current-construction findings",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S29",
+      "path": "/Users/bsm/BSD_LANE2_SEED_TO_FAMILY_2026-09-18/LANE2_REPORT.md",
+      "sha256": "277eba753f7b541a6390420b1cd31837647bcee9bce3f657962140e3944369e4",
+      "bytes": 13867,
+      "scope": "Selected first 170 lines: congruence transport, one-bit, model correction",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S30",
+      "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/00_REPORT.md",
+      "sha256": "5d7e98b091198b1f305742ef0cea3208ede48003f858c6035f621e9a30ee7d6e",
+      "bytes": 41001,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S31",
+      "path": "/Users/bsm/BSD_SEED_2243_12_LANE4_AUDIT_FORMAL_2026-09-18/00_REPORT.md",
+      "sha256": "6a29866d31fe08f7dd5c686066c9eb97397657be0a40d52c03c9798d322415ee",
+      "bytes": 13324,
+      "scope": "Opening 120 lines: theorem/imports/Lean audit; no rebuild",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S32",
+      "path": "/Users/bsm/H9R19_WEIGHTED_RECIPROCITY_2026-09-15/08_PROGRAM_STATUS_FREEZE.md",
+      "sha256": "7062cfd0c5fe2f212e29f7d3aa244b088f262e38bb5a189f996cd66cc4850685",
+      "bytes": 65302,
+      "scope": "Headings/status search and selected later H9R23, coefficient, C1, residual-image and p5 blocks",
+      "matches_handoff_expected": true,
+      "anchor_line": 221
+    },
+    {
+      "id": "S33",
+      "path": "/Users/bsm/BSD_SEED_2243_12_R2_LEADING_TERM_BRIDGE_2026-09-19/R2_LEADING_TERM_BRIDGE_DESIGN.md",
+      "sha256": "6e0ff500095737c687c304fe934bda32c36ff1e511e8810293a93a61b74f9d04",
+      "bytes": 14866,
+      "scope": "Opening design; governing later corrections via handoff/unit audit",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S34",
+      "path": "/Users/bsm/BSD_SEED_2243_12_R2_LEADING_TERM_BRIDGE_2026-09-19/LEMMA_U_AND_P5_UNIT_AUDIT.md",
+      "sha256": "cc95623276f3f4e90640c6eebab5c714c323855addd3154073e9326cf46f9e13",
+      "bytes": 14592,
+      "scope": "Selected proof/comparison/normalization sections",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S35",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_RIGOROUS_REPORT.md",
+      "sha256": "eb583f83f9b4c78331f34d7240ee90df3fee634edacfd07183f3a182ac5b9c77",
+      "bytes": 7846,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S36",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_CERTIFICATE.md",
+      "sha256": "2dfa96d000efa7a4862674f5cdc7953341fcc5fb3ef0e4308281456eba441d77",
+      "bytes": 8142,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S37",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/SHA5_RIGOROUS_THEOREM.md",
+      "sha256": "adfa6a96cd23041938d91c92629c4572b3c967a3d02b639d8aef0d73106a27d0",
+      "bytes": 5792,
+      "scope": "Opening 75 lines including N0-N11 and sealed N7; run not replayed",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S38",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_REPLAY.md",
+      "sha256": "4a00292c74b8b0d795e3c59cf3ec6c1d76d598b162aa027ecec6457392c3318b",
+      "bytes": 2984,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S39",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_RESOURCE_LOG.md",
+      "sha256": "630fa14ddec1d47807f31b736d7c5cba8ecafbdcf57de1d1045dd35bb70a1c58",
+      "bytes": 2259,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S40",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/P5_MANIFEST.sha256",
+      "sha256": "d010edc983503ecbdd9b3e87738839797ff1771f26a60c96ceddfdcd974fcd44",
+      "bytes": 915905,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S41",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/STATE.json",
+      "sha256": "c2bb05a2c83bbb8d5f51ad2da92303eed44aec959e0450f3b814758037f1708b",
+      "bytes": 2490,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S42",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/run/P3_CHECK.txt",
+      "sha256": "cbef3def433279e904244245617ec7067109c477e03a17276325d2bfd10ab458",
+      "bytes": 633,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S43",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/downstream/P5_DOWNSTREAM.txt",
+      "sha256": "3b100824795bdd9445bbf91fa03ad24d25f8271e6f7e358d1cf9cfc49506fdba",
+      "bytes": 2177,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S44",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/downstream/INTEGRITY.txt",
+      "sha256": "8f14edece2db3f46763880361102b4f2fe8acc019bdeb695e10f69b675a13a9c",
+      "bytes": 1767,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S45",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/downstream/CROSS_RUN_P3.txt",
+      "sha256": "de48225ff58e80a0260204a14b87586c6e6e02d6a65eb446f5c426dca6e360f8",
+      "bytes": 560,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S46",
+      "path": "/Users/bsm/BSD_SEED_2243_12_P5_RIGOROUS_UPGRADE_2026-09-19/logs/stageW_summary.txt",
+      "sha256": "863110b74eef7c792045117e0524f1ffff7d93cf0ed74a54e2930a2d865d9e3f",
+      "bytes": 396,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S47",
+      "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/CRITERION_SS_HOSTILE_GATE.md",
+      "sha256": "7c58bb165fe75ac92390ded335e1d616f4cc455ea9b9c06a47150ed33765fe59",
+      "bytes": 16773,
+      "scope": "Opening 70 lines: corrected criterion, cost and verdict",
+      "matches_handoff_expected": true,
+      "anchor_line": 1
+    },
+    {
+      "id": "S48",
+      "path": "/Users/bsm/BSD_SEED_2243_12_CRITERION_SS_HOSTILE_GATE_2026-09-19/AUDIT_MANIFEST.sha256",
+      "sha256": "805e255ac54126c179e82675b566b3fe79c2021a841a000b716de21ec4284a80",
+      "bytes": 809,
+      "scope": "Custody/hash only here; result imported through governing source",
+      "matches_handoff_expected": true
+    },
+    {
+      "id": "S49",
+      "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/06_period_regulator.md",
+      "sha256": "7b3e32bcd2f536b0e1b581b3d81babf62488b081df566b24fb6083e69f0eb93f",
+      "bytes": 4194,
+      "scope": "Full numerical method, normalization and values; corrected z-bound prose",
+      "anchor_line": 1
+    },
+    {
+      "id": "S50",
+      "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/rig_lib.sage",
+      "sha256": "38bb5f5aa7248c74f67748033aa5d16c8dc62f1a130a39b2d40ed06ec6e9fec4",
+      "bytes": 5209,
+      "scope": "Height/AGM library and tail-bound implementation read; not executed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S51",
+      "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/scripts/s06_seed.sage",
+      "sha256": "b3dc4476867f27811b34f7f9c938839b6e92a44fb81ec0b384fc0fee3bfef3ed",
+      "bytes": 2942,
+      "scope": "Seed driver read; not executed",
+      "anchor_line": 1
+    },
+    {
+      "id": "S52",
+      "path": "/Users/bsm/BSD_SEED_2243_12_FULL_BSD_LANE3_2026-09-18/B_invariants/out/s06_seed.out",
+      "sha256": "300c1b2ffedf19c8bacaa052ca4a5c96fb2cf88effd826363aebee6eed7a566f",
+      "bytes": 3526,
+      "scope": "Historical printed interval output; not an independent old replay",
+      "anchor_line": 1
+    },
+    {
+      "id": "S53",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/D/ota_1509.00682.txt",
+      "sha256": "4bb177618ed9fded191bb06b59653767df0d9a58a00cd1d37fe7b1204b976f51",
+      "bytes": 140153,
+      "scope": "Primary pp35-38: Theorems5.17/6.4; local v1 numbering",
+      "anchor_line": 2069
+    },
+    {
+      "id": "S54",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/C/BKS_1910.07404.txt",
+      "sha256": "e8218aa90c874b551e2a4abb358eb8938da4b7fe3dd95ab8a2fc6bfc12f1c8be",
+      "bytes": 191733,
+      "scope": "Primary Hyp2.2/comparisons, Theorem7.8 and augmentation map definitions",
+      "anchor_line": 2750
+    },
+    {
+      "id": "S55",
+      "path": "/Users/bsm/BSD_SEED_2243_12_GLOBAL_ARCHITECT_2026-09-18/fable_audits/F4_work/sources/D/bks2_2103.11535.txt",
+      "sha256": "c05164c2eae0c3fc46e5bfdcd87860cb77f97239e0ed02344cebb0384b0cd7b0",
+      "bytes": 89343,
+      "scope": "Located/hash only; detailed BKS II claims carried via LINE audit; web abstract consulted",
+      "anchor_line": 1
+    },
+    {
+      "id": "S56",
+      "path": "/Users/bsm/BSD_SEED_2243_12_FIN_ASSUMED_FORMULA_AUDIT_2026-09-19/FIN_ASSUMED_FORMULA_REDUCTION_AUDIT.md",
+      "sha256": "1d8d689a2d591994938aa372560ad30299c0a2bec318690d4f2e7b82ab8e316c",
+      "bytes": 22051,
+      "scope": "Substantial selected reading of FIN-assumed rationality reduction",
+      "anchor_line": 1
+    },
+    {
+      "id": "S57",
+      "path": "/Users/bsm/H9R16C_SEALED_MILESTONE_2026-09-15/00_MILESTONE.md",
+      "sha256": "554be8617b0b5148c6635808e6bab112d216de46de3d9d309776f955fdc25ac4",
+      "bytes": 3629,
+      "scope": "Sealed compatible tower statement and grade",
+      "anchor_line": 1
+    },
+    {
+      "id": "S58",
+      "path": "/Users/bsm/H9R16C_SEALED_MILESTONE_2026-09-15/05_NON_CLAIMS.md",
+      "sha256": "ffa0331cc920add596b113392f8f8ad3cb1443508514a399d7456f15da520fb1",
+      "bytes": 4156,
+      "scope": "Read nonclaims; no MW target or real leading-term comparison",
+      "anchor_line": 1
+    },
+    {
+      "id": "S59",
+      "path": "/Users/bsm/H9R23_CM_COMPARISON_SUFFICIENCY_CHECK.md",
+      "sha256": "570c71837cdce92b5183444cf7fd42ef164cdcee3ae5c7f1b641e25ba13e99fb",
+      "bytes": 12045,
+      "scope": "Read full: moving-character contraction and CM scope",
+      "anchor_line": 1
+    },
+    {
+      "id": "S60",
+      "path": "/Users/bsm/H9R23_CORRESPONDENCE_NO_LIFT_HARDENING.md",
+      "sha256": "54936e56e4b2581fb77f4b777ae8f67d2764071bf14971b919d8a8e525413761",
+      "bytes": 11817,
+      "scope": "Read full: saturated lattice, Bockstein, Hodge-Tate and Chow qualifications",
+      "anchor_line": 1
+    },
+    {
+      "id": "S61",
+      "path": "/Users/bsm/BSD_C1_STRICT_CLASSGROUP_BRIDGE_2026-09-17/00_BRIDGE.md",
+      "sha256": "e1892af7f594dc9ed1a816ffa4031266e13a084e07d3409c7785275fc00833ca",
+      "bytes": 9070,
+      "scope": "Opening theorem; later C1 status in current ledger",
+      "anchor_line": 1
+    },
+    {
+      "id": "S62",
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/01_BSD_SUCCESSOR_MASTER_STATUS_AND_DEPENDENCY_MAP.md",
+      "sha256": "5e0bdaf2193054157d4d458f89b92d0ce910a1d9266f91e87cf8dd826504f9ba",
+      "bytes": 20943,
+      "scope": "Selected status reconstruction",
+      "anchor_line": 1
+    },
+    {
+      "id": "S63",
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/05_H9_CURRENT_FRONTIER.md",
+      "sha256": "109d96a19154f97cb2ffe00201487ca07691a3410a5a2f2b62fb4e09477e21d0",
+      "bytes": 19263,
+      "scope": "Selected H5-H9 and strict-line/current-frontier passages",
+      "anchor_line": 205
+    },
+    {
+      "id": "S64",
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/14_WHOLE_MAP_ASSEMBLY_AND_MISSING_INPUT_AUDIT_2026-09-16.md",
+      "sha256": "30ded0faf0f69369c44a7e7adef70ea486dd6657cdc71e6cce501ffb3d507bf9",
+      "bytes": 24895,
+      "scope": "Selected reconstruction/H5-H9 statuses; full final H41 seal and custody addenda",
+      "anchor_line": 187
+    },
+    {
+      "id": "S65",
+      "path": "/Users/bsm/BSD_WHOLE_PROGRAM_SUCCESSOR_AUDIT_2026-09-15/_work/RECOVERED_H5_H9_CHECKPOINT_FULL_TEXT.txt",
+      "sha256": "a25e24c257da4472e51792a22b47b4efd3ace4edcf39cb1fa36820dd9d5d88e9",
+      "bytes": 108030,
+      "scope": "H9 label inventory and final 2500 characters only; same older H9R16-C endpoint"
+    },
+    {
+      "id": "S66",
+      "path": "/Users/bsm/H41_CLAUDE_HANDOFF_2026-09-16.md",
+      "sha256": "cd736b85c6e7f0736181c3106e726009295927a98334a25e845db1871249c202",
+      "bytes": 2741,
+      "scope": "Read full; historical handoff superseded by later sealed status",
+      "anchor_line": 1
+    },
+    {
+      "id": "S67",
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/STATUS.md",
+      "sha256": "5f8e37bf0bfd1752150a44168cab5cef41ec114ebe7c88d189fa1528d48601a5",
+      "bytes": 1428,
+      "scope": "Current qualified assembly status; no full proof rebuild",
+      "anchor_line": 1
+    },
+    {
+      "id": "S68",
+      "path": "/Users/bsm/run013-62a1-bsd2-2026-08-22/BSD_CHAIN.md",
+      "sha256": "f767c276c91ea1db332d048a97fda6ea40667bf279762b7a5d26c2e259a15f2a",
+      "bytes": 9068,
+      "scope": "Selected arithmetic/analytic chain including Zhai and assembly",
+      "anchor_line": 140
+    },
+    {
+      "id": "S69",
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/SUCCESSOR_SCOPE.md",
+      "sha256": "9bfbdf6ee07f02c57a5897d9fd33ab1132af694fbf3a09951a5ba9c22d8a68a2",
+      "bytes": 880,
+      "scope": "Full packaging/semantic boundary",
+      "anchor_line": 1
+    },
+    {
+      "id": "S70",
+      "path": "/Users/bsm/run013-family-minimisation-successor-2026-09-10/INDEPENDENT_REFEREE_VERIFICATION.md",
+      "sha256": "480207c5689b36d7ae1e3a9348eeb061cd5b259143d74a846137c1e245d9d541",
+      "bytes": 5222,
+      "scope": "Opening 80 lines including conventional versus Lean boundary",
+      "anchor_line": 1
+    },
+    {
+      "id": "S71",
+      "path": "/Users/bsm/run014-aristotle-johnson-bridge-2026-08-24/HANDOFF_RECORD.md",
+      "sha256": "77fcbf34d6ad77046975361f5ab57ce7143e2c456ecc4d49ad251919c5fd2a6b",
+      "bytes": 2267,
+      "scope": "Read full: coding-theory Johnson bridge identity, not BSD",
+      "anchor_line": 1
+    },
+    {
+      "id": "S72",
+      "path": "/Users/bsm/run014-clay-seam-2026-08-23/MCSP_SEAM_ASSESSMENT.md",
+      "sha256": "2cda038d49bc7244e4f8749b388e0fb1cf5367b4b1076864b3081852fe1a10a7",
+      "bytes": 7383,
+      "scope": "Opening 70 lines: complexity research identity only",
+      "anchor_line": 1
+    },
+    {
+      "id": "S73",
+      "path": "/Users/bsm/Downloads/BSD H5-H6-H6A-H6B Checkpoint — 2026-09-14-2.docx",
+      "sha256": "f05fc78f99873496639d760b5169d6c67dd936d172c4be0b482a15a09abb5d9d",
+      "bytes": 72322,
+      "scope": "OOXML paragraphs/status-label/tail check; no visual review"
+    },
+    {
+      "id": "S74",
+      "path": "/Users/bsm/Downloads/BSD H5-H6-H6A-H6B Checkpoint — 2026-09-14.docx",
+      "sha256": "3e5741f33bd1dadafb129484b657ee792a15471ca51b80c3ac464223c2c4d3cb",
+      "bytes": 72322,
+      "scope": "OOXML paragraphs/status-label/tail check; no visual review"
+    },
+    {
+      "id": "S75",
+      "path": "/Users/bsm/Desktop/BSD H5-H6-H6A-H6B Checkpoint — 2026-09-14.docx",
+      "sha256": "7b39d1444fc3bd7bfe3d0977fb440b02a53e2fab0a4787d649d2b92b70eed8ad",
+      "bytes": 72322,
+      "scope": "OOXML paragraphs/status-label/tail check; no visual review"
+    }
+  ]
+}

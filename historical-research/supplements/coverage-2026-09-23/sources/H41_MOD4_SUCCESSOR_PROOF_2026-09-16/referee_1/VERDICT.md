@@ -1,0 +1,154 @@
+# Referee 1 verdict: H41 mod-4 successor proof object
+
+Object: `PROOF.md`, sha256 `0cf7a5f9e598d8d8f722fc2a238d03e7cd24dacdafd6c57631c6c01f7c955043` (matches `MANIFEST.sha256`).
+Mandate: fresh, hostile, no repair. Nothing outside `referee_1/` was edited. Line numbers `Lnn` refer to PROOF.md; `src:Lnn` to the named primary text.
+Not read: `src/claude_first_draft_02.md`, `src/H41_MOD4_INDEPENDENT_AUDIT_2026-09-16.md`, `src/H41_CLAUDE_HANDOFF_2026-09-16.md`, and every file under `~/H41_VERTEX_EXCLUSION_AUDIT_2026-09-16/` and `~/H41_POSITIVE_KILL_TEST_2026-09-16/`. I listed those two directories with `ls` and opened nothing in them. No "PASS/PROVED/sealed" label was used as authority.
+
+## (a) Overall verdict
+
+**PASS WITH REMARKS.** No BLOCKING defect found. Every load-bearing step I could check against a primary statement holds. The proof relies on correct standard facts, but in six places the object gives no citation, or a citation that does not state the fact (defects 1–6, 11). Those fixes are citations, not new mathematics.
+
+## (b) Gate verdicts
+
+**G1 (sec 4, L83–96; I8 L30–33; I11 L41–42): PASS WITH REMARKS.**
+- **Stabilizers.** Verified. Over F̄_2 the supersingular curve has Aut = SL_2(F_3) of order 24. C_2 = ker F is the unique subgroup scheme of order 2, so every automorphism preserves it. The kernel of Aut → PGL(E[3]) is ±1, and PSL_2(F_3) ≅ A_4 acts on the 4 points of P^1(F_3).
+  - Order-2 elements (x²+1) fix no line of E[3].
+  - An order-3 element fixes exactly one line of E[3], and 2 or 0 lines of E[l] as l ≡ 1 or 2 mod 3.
+  - Aut(E,C_l)/±1 → (Z/l)^×/±1 is injective, since α ≠ ±1 has no eigenvalue ±1 when l ≥ 5.
+  - Hence Stab_G(y) ≅ Stab_{A_4}(C_3,C_l), of order e_x ∈ {1,3}.
+- **Local chart (L91–92).** The action preserves the branches (order 3 versus a swap of order 2). It linearizes as x→ζx, y→ζ⁻¹y, using branch-preserving unit multiples, Teichmüller cube roots and normalization of the product. It is effective, because G acts faithfully on the connected Y_Q. The invariants are R[[x³]] ⊕ y³R[[y³]] = R[[U,V]]/(UV−8). The completed local ring of the quotient equals the invariants of the stabilizer, by the decomposition-group argument. All correct, but stated tersely (defects 8, 9).
+- **Mass (L93).** Verified. There are (l²−1)/6 fine points and Aut acts freely (Γ_1(l) is rigid), so orbit–stabilizer gives Σ1/e_x = (l+1)/3. Independently, the sum equals #(P¹(F_3)×P¹(F_l))/12.
+- **Φ_J ⊗ Z_2 = Z/4 (L94–96).** Correct. δ = [v_0]−[v_∞] has order lcm(e_x)·Σ1/e_x and |Φ_J| = ∏e_y·Σ1/e_x. With all e_x odd and v_2((l+1)/3) = 2 (l ≡ 3 mod 8), Φ_J[2^∞] = ⟨δ⟩ ≅ Z/4. The regression at l = 11, 19, 43 reproduced.
+- **What is not supported by the cited texts:**
+  - Regularity and the W[[x,y]]/(xy−2) local rings for the Γ_0(6)∩Γ_1(l) fine model (defect 4).
+  - X_R = Y_R/G (defect 8).
+  - That the cusp 0 reduces to C_0 (defect 5).
+
+**G2 (sec 6, L108–121): PASS WITH REMARKS.**
+- **No factor e_x.** Supported. BR Cor 5.6 (src:L782–790) and Prop 6.1 (src:L800–810) give τ'∘α_P = α_p∘τ. BR §3.1–3.3 (src:L348–367) identifies harmonic 1-forms with H_1(Γ) by edge coefficients, with α(p) = ∫_q^p. So (trop(ỹ), u) restricted to edge x has slope u_x per unit length t = v(U). The edge length enters only through the pairing (2.7.1).
+- **Functoriality trop(π(y))(ξ) = trop(y)(π*ξ) (L112).** This is an **unstated import**. BR treats only the polarization J^∨→J (src:L565–627), and PROOF.md gives no citation or proof (defect 1). I checked that the step is true:
+  - The lift π̃: E_J^an → G_m^an restricts on T_J to an analytic, hence algebraic, character. By rigidity of tori, and the Néron-model map on formal completions, that character is π*ξ.
+  - π̃ maps A_0(J) into {|T| = 1}, by the Néron mapping property and connectedness.
+  - Together these give (trop_J(ỹ), u) = −log|π̃(ỹ)|.
+- **Lift and residue (L114–116).** Correct. A_x is contractible. g = γU^w(1+h) on a closed subannulus (BPR Prop 2.2, src:L208–211, over an algebraically closed field). Res d log(1+h) = 0 because log(1+h) converges. Changing the lift by a power of q_0 changes neither slope nor residue.
+- **u_x ≡ 2 mod 4 (L117–118).** Follows. a·u_x = c_π·Res_x(ω_f) exactly, and v(Res_x ω_f) = 1, so v_2(u_x) = 1 with u_x ∈ Z.
+- **Remark.** The identification X_J ≅ H_1(Γ,Z) under which the monodromy pairing is the length pairing must be the same one used in Cor 5.6 and Prop 6.1. The cited BR Thm 2.3 does not state this (defect 2).
+
+**G3 (sec 5, L99–106): PASS WITH REMARKS.**
+- **Slope formula.** BPR Thm 5.15 (src:L1175–1182) gives affinity on edges (2), harmonicity (4), and ray slope = ord (5), for the punctured curve with V = {C_∞, C_0}. Harmonicity at C_∞ gives Σ_x (B−A)/e_x = l²−1, so B−A = 3(l−1) and e_x | B−A. Then s_x ∈ {3(l−1), l−1} ≡ 2 mod 4, since l−1 ≡ 2 mod 8. Orientation is consistent: t = v(U_x) increases from C_∞ to C_0 for every x.
+- **Residues.** Res_x(d log F) = s_x is correct. The dualizing module of R[[U,V]]/(UV−2^e) is generated by dU/U, and the normal form a_0+Σa_iU^i+Σb_jV^j gives residues in R. So δ ∈ 4H⁰ implies Res_x(ω_f) ≡ s_x mod 4R.
+- **Remarks.** The base change to an algebraically closed complete field and the punctured vertex set are not stated (defect 10). The cusp location is used for the rays (defect 5).
+- **Consistency observation (heuristic, not used for the verdict).** For C = ∏d^{−r_d/2} in F∘w_N = C/F, v_2(C) = 3(l−1) on the positive branch and 3(2^{m+1}−1) on the negative branch. Both equal the B−A of L103 and of the negative Theorem A. This is what one expects if A = 0 (unit q-expansion content) and w_N swaps the components integrally.
+
+**G4 (sec 3, L67–81): PASS WITH REMARKS.**
+- **Lemma (L68–73).** Correct: faithful flatness of completion, generization to ξ_1, transport by w to ξ_2 using w*s = −s, then S2 for an invertible sheaf on normal X, then induction.
+- **Integrality of d log F (L76).** Correct. At a vertical generic point, O_ξ is a DVR with uniformizer 2 and X_R is smooth there, so F = 2^{ord}·unit and d log(unit) ∈ Ω¹. Horizontally there are simple poles only at 0 and ∞, and Ω(cusps) is invertible.
+- **Expansion at ∞ (L77).** Correct given the Tate-curve identification (defect 6). My check B, which expands the eta product directly, confirms 4 | a_n − θ_n and 8 | θ_0.
+- **w_N (L78–79).** w_2 interchanges the two generic stalks: Česnavičius 1604.02165 Lemma 2.7 proof (src:L399–400). That w_{N/2} preserves them is asserted without citation (defect 7).
+- **Exact antisymmetry.** F∘w_N = C/F holds exactly, from η(−1/τ) = √(τ/i)η(τ), Σr_d = 0 and r_{N/d} = −r_d. So w_N*θ = −θ.
+- **Fricke sign.** ε_N = ∏(−a_p) = −1 is correct (uncited, defect 7).
+- **Conclusion.** δ ∈ 4H⁰(X_R, Ω(cusps)) follows.
+
+**G5 (sec 7, sec 9; L123–130, L148–155): PASS WITH REMARKS.**
+- **Conrad–Stein hypotheses.** CS Lemma 6.3 (src:L333–351) applies to the actual optimal π: J has a symmetric principal polarization, J is semistable at 2, and E_0 is purely toric (split multiplicative, a_2 = +1). Thm 8.2 (src:L681) holds over any DVR. With X_A = Zξ, Hom(π*X_A, Z) ≅ Z by evaluation at u, and the cokernel is Φ_{E_0} ≅ Z/n_0 (CS Ex. 4.3, src:L216–220). So ⟨X_J, u⟩ = n_0 Z. Using the length pairing here needs defect 2.
+- **4 | n_0 ⇒ E_0 = E.** Correct given I1–I2. My check C confirms the Φ_2 edges E–B, B–F, B–G (not E–F, E–G, F–G), the minimal Δ formulas, c_4 odd, and n_E=4(m−2), n_B=2(m−2), n_F=n_G=m−2 for ε = ±1. Cremona data at N = 62, 66, 114 agree.
+- **κ.** Saturation of H_1 in Z^S gives v_2(κ) = min v_2(u_x): 1 on the positive branch; κ odd on the negative branch.
+- **Image of Φ(π).** CS Prop 6.5 (src:L395–423) gives im(Φ_J→Φ_A) ≅ Φ_L of order n_0/|κ|, cyclic in Z/n_0. Its 2-part has order 2 (positive) or 4 (negative). PROOF.md cites an undefined "Lemma 4.1 (I9 + K2)" instead (defect 3).
+- **t.** Specialization is functorial and sp_J(c) generates Φ_J⊗Z_2 (sec 4; GRAPH_LEMMA Thm G(iv) for the negative branch). With I4 this gives t = 2 (positive) and t = 4 (negative).
+- **Seed.** With I5 (W audit (1), and z = A_num/t reduced), 4λ is odd.
+- **Negative branch (L119–120, L149).** a·e_x·u_x ≡ −c_π(B−A) mod 4R for every x, with a ∈ R^×. So e_x u_x ≡ C mod 4 and ⟨X_J,u⟩ ⊂ 4Z. Correct.
+- **Regression.** Cremona curvedata gives 4λ = 1, 1, 5, 3, 3, 7, 9, 81, 117, 13 at the ten levels, all odd.
+
+**G6 (sec 2, L50–65): PASS.**
+- **Eta side.** θ_0 = −(l²−1) (resp. −(p²−1)/8), and θ_n = −Σ_{d|n} r_d d σ(n/d).
+- **Eisenstein weights.** w = (1,−2,−1,2,−1,2,1,−2) and (1,−2,−1,2) are multiplicative. The local factor of 1−2V_2 on σ(2^a) is 1, so E+_n = 3^b l^c σ(m) and E−_n = p^c σ(m).
+- **The 12 congruences.** Checked by hand for l, p ≡ 3 mod 4, and 8 | θ_0.
+- **Good odd primes.** P = (r,r) has 2P = (0,0), so 4 | #E(F_v), and a_{v^j} ≡ σ(v^j) by the shared recursion.
+- **Prime 2.** Y²+XY = X³ is a split node, and c_4 = 1+16b+16b² is odd.
+- **Bad odd primes.** r ≡ 1/4, the tangent cone is y² = −(1/4)u², so the reduction is nonsplit for primes ≡ 3 mod 4. c_4 = 16(1−4r+r²) ≡ 1 is a unit, so the reduction is multiplicative. At m = 7, c_4 = 16897 ≢ 0 mod 3.
+- **Direct check.** My check B compares θ from the eta product with point-count a_n (n ≤ 200) at N = 66, 258, 114, 62, 254. θ_1 = −67 and θ_2 = −131 at l = 11 are confirmed.
+
+**G7 (sec 1, sec 8; L17–48, L132–155): PASS WITH REMARKS.**
+- **I1.** Master map §G states that all odd isogenies are eliminated. My check C confirms the 2-isogeny graph.
+- **I3.** Matches the master/W table rows "D<0 E 1 1 0" and "D>0 E 2 1 0".
+- **I4.** Matches the W table: t | 4 (negative E), t | 2 (positive E). Independently, positive E has Δ>0, P=(r,r) lies on the non-identity real component, and (0,0) lies on the identity component.
+- **I5.** Matches W audit (1)–(2), with B_ℓ = 4b_ℓ.
+- **I6.** Matches ROOT_ARITHMETIC §4 and KAPPA Input 2. My check A: Ligozat orders at every cusp, symbolic in l and p.
+- **I7.** Exact: 1703.02951v3 Thm 1.2 = Thm 2.13 (src:L60–63, L432–435). The alternative Thm 1.4(i), 1.5(i) (3 | N) and 1.5(ii) (N = 2p) also fits.
+- **I12.** Theorem A and Theorem B texts are quoted accurately.
+- **I13.** BH Thm 2.13 (src:L336–348) has hypotheses (i)–(vii) and no optimality hypothesis. Rem 2.11's dependencies are [6] BSTW, [8] CCSS, [23] Keller–Yin.
+- **Twist 2-part (L133–136).** Correct: x(2Q) = (x²−b)²/(4y²) for y² = x³+ax²+bx, and (r/q) = (−1/q)(2/q)^m = −1.
+- **Zhai 1.7 (src:L204–209).** Every hypothesis holds: E optimal, c_π = ±1 odd, Δ>0, E[2](Q) ≠ 0, L ≠ 0, q ≡ 1 mod 4, (q,N) = 1. L^alg uses Ω⁺ (src:L55–60), Ω_R = 2Ω⁺, ord_2 N_q = 2 = 1−(−1). Conclusion valuation 1 with Ω⁺, hence 0 with Ω_R, since Δ(E^(q)) = q⁶Δ > 0.
+- **Zhai 1.5 (src:L156–162), negative.** Δ<0, Ω_R = Ω⁺, ord_2 N_q = 2 = −(−2). Correct.
+- **BH positive (L141–145).** Correct:
+  - (i) disc Q(√q) = q, prime to 3N.
+  - (iv) a_3 = −1.
+  - (v) Frobenius at 5 (disc −16) and at 7 (−12, −28) exclude 3-, 5- and 7-isogenies for every odd m; check D confirms on the minimal model.
+  - (vi) Witnesses: l for residual 2 and 3, and 3 for residual l.
+  - (vii) a_q ≡ 2 mod 8, so q is ordinary.
+- **Remarks.**
+  - I2 on the positive branch cites a lemma proved only for r = +2^m (defect 11).
+  - BH on the negative branch is not in the object (defect 12).
+  - Custody labels (defect 13).
+
+## (c) Defects
+
+1. **CITATION.** L110–113, L121 (G2). "Functoriality of the Raynaud extension for π gives trop(π(y))(ξ) = trop(y)(u)" is load-bearing. It is not stated in BR, which covers only the polarization, and PROOF.md gives no citation or proof. **Needed:** a precise citation for functoriality of Raynaud uniformizations and formal analytic subgroups under homomorphisms of semistable abelian varieties, or a short proof. The proof must show: the lift π̃ restricts on T_J to the character π*ξ of the Néron special-fibre torus, and π̃(A_0(J)) ⊆ A_0(E_0).
+2. **CITATION.** L36–38, L110, L125 (G2/G5). "By BR Thm 2.3, X_J = H_1(Γ,Z) with the length pairing". Thm 2.3 (src:L161–162) is stated for a regular, split semistable model with unit edge lengths (src:L122–126), under an identification whose proof is cited to [BL02]. BR never states that this is the identification of §4.5.2 used in Cor 5.6 and Prop 6.1. **Needed:**
+   - BR Thm 2.9 (src:L265–266, L863–888): analytic monodromy pairing = length pairing under the §4.5.2 identification.
+   - BR Rem 6.3 (src:L857–861): analytic pairing = Grothendieck's for Λ = Z. This is only cited in BR, to Coleman 2000, so Coleman must be cited.
+   - Plus the passage from the coarse model (lengths e_x) to the regular model (subdivided paths).
+3. **CITATION.** L128 (G5). "Lemma 4.1 form (I9 + K2 content)" is undefined in PROOF.md. It points to KAPPA_PARITY_PROOF.md L185–189, whose (K2) is labelled there "External citations, not in the corpus; numbering to be confirmed". **Needed:** cite CS Prop 6.5 (src:L395–423) together with Lemma 6.3 for the image of Φ(π).
+4. **CITATION.** L41–42, L84–85 (G1). I11 cites "Katz–Mazur 13.4.7, as used in Cesnavicius 1604.02165 sec 2-3". Česnavičius §§2–3 do not cite KM 13.4.7 (grep: only KM 2.7.4, 1.12.9, 12.4.4, 6.1.1), and KM is not local. The quoted regularity statement in 1604 §2.6 (src:L372–375) is for Γ = Γ_1(n), not Γ_0(6)∩Γ_1(l). **Needed:** a verifiable source for representability, regularity and the local rings W[[x,y]]/(xy−2) at supersingular points of [Γ_0(2)]×[Γ_0(3)]×[Γ_1(l)] over Z_(2). One route: 1604 §3.1 (src:L499, the Γ_0(n) stack is regular) and §3.8 (src:L684–687, transversal crossing), plus étaleness of forgetting Γ_1(l) to Γ_0(l), plus a regular-node lemma.
+5. **CITATION.** L32, L96, L101 (G1/G3). "C_0 (étale-type, containing 0-bar)". The cited passages give only that ∞ extends to a Z-point of the smooth locus (1703 Rem 5.3, src:L1064) and, implicitly, that ∞-bar lies on the μ-component (1703 Lemma 5.4 proof). Nothing cited places 0-bar on the other component. This is load-bearing for sp_J(c) = [v_0]−[v_∞] and for the rays in sec 5. **Needed:** a citation (Deligne–Rapoport VII or equivalent), or a derivation from w_N extending to an automorphism of the model.
+6. **CITATION.** L33, L77 (G4). "∞-bar … completed local ring R[[q]] and Ω(cusps) generated by dq/q (Tate curve; q-expansion principle)", with classical q-expansions of F and ω_f. In the cited texts this is stated only for Γ_1(n) (1604 Thm 2.5 proof, src:L336–338, citing DR VII.2.1 and KM 1.12.9). **Needed:** the corresponding Γ_0(N) statement cited at its source.
+7. **NON-BLOCKING.** L78–79, L65 (G4). The claim that w_{N/2} is an automorphism of the model preserving components (only the two generic stalks are used), and the Atkin–Lehner eigenvalue ε_p = −a_p, are asserted without citation. Both are standard and true. **Needed:** citations.
+8. **NON-BLOCKING.** L86 (G1). "X_R = Y_R/G (normal quotient = coarse model)" and "completed local ring = stabilizer invariants" have no argument. **Needed:** that the forgetful map Y → X is finite and G-invariant, that Y/G → X is finite and birational onto normal X, and the decomposition-group computation of completions. The N = 2p analogue exists (GRAPH_LEMMA Lemma 3.2) but is not transported or cited.
+9. **NON-BLOCKING.** L91–92, L94 (G1). Linearization, branch preservation and effectiveness are asserted in one line each. The minimal resolution of UV = 2³ (a chain of two reduced (−2)-curves), used in "regular graph", is not cited. **Needed:** the argument or a citation (the N = 2p analogues are GRAPH_LEMMA Lemmas 3.4–3.6).
+10. **NON-BLOCKING.** L99–106, L114–115 (G2/G3). BPR (src:L23) and BR's Thm 1.3 and Prop 2.2 usage require an algebraically closed complete field. Sec 5–6 work on X_R over W(F̄_2) without stating the base change and the compatibility of skeleta and residues (BR §5.1, src:L652–657). The punctured curve (which cusps are in D) and its semistable vertex set are not specified. **Needed:** explicit statements.
+11. **CITATION.** L19 (G5/G7). I2 is used on both branches but cites "parity proof Lemma 4.2 (receipts m = 3..11)". That lemma (KAPPA_PARITY_PROOF.md L191–198) is written and proved for r = +2^m (b = −2^{m−2}, Δ = −2^{4m−8}p). For ε = −1 the support is the master-map table (§G), a reconstruction of a Stage I/II import. The values are correct (my check C, symbolic in r for both signs, and Cremona data). **Needed:** a citation that covers ε = −1.
+12. **NON-BLOCKING.** L153 (G7). Corollary N(iv)–(v) defers the BH 2.13 hypotheses on the negative branch to "~/H41_VERTEX_EXCLUSION_AUDIT_2026-09-16/01", which is not a primary source and was not read, per mandate. The object is not self-contained for Cor N(v). My independent check passes:
+    - (i) q ≡ 5 mod 8, q ∤ 2p, q ≠ 3.
+    - (iv) a_3 = 0.
+    - (v) Frobenius at 5 (a_5 = ±2) excludes 3 and 7; at 3 (a_3 = 0, disc −12 ≡ 3 mod 5) excludes 5.
+    - (vi) Residual 2: witness p (v_pΔ = 1). Residual p: witness 2 (v_2Δ = 4(m−2), and p ∤ 4(m−2)).
+    - (vii) Ordinary at q.
+
+    **Needed:** the verification written in the object.
+13. **NON-BLOCKING (custody).** L47, L5. PROOF.md calls the negative inputs "sealed … ADD_017 … A-ref". The supplied files `~/H41_KAPPA_PARITY_2026-09-14/{KAPPA_PARITY_PROOF,GRAPH_LEMMA}.md` both carry the header "revision 2. UNSEALED, UNAUDITED", and PROOF.md pins no hash for these inputs. I read the proofs of Theorem G, Theorem A, and Lemmas 4.1–4.2 and found them consistent. **Needed:** pin the sealed versions by sha256.
+14. **NON-BLOCKING.** L112. "trop(π(y))(ξ)" is written on J^an. The identity holds on universal covers (E_J^an → G_m^an), and on skeleta only modulo the lattices. **Needed:** state it on universal covers.
+15. **NON-BLOCKING.** L170–171. "the displayed E is proved optimal with Manin constant 1" at ten levels rests on database flags (Cremona opt_man), not verified here as proofs. Not load-bearing; the passage is labelled FINITE EVIDENCE.
+
+BLOCKING defects: **0**.
+
+## (d) Statements I could not verify from a primary source
+
+1. KM 13.4.7, and the regularity and local-ring structure of the Γ_0(6)∩Γ_1(l) fine model over Z_(2) (I11). Katz–Mazur is not local.
+2. That the cusp 0 of X_0(N) reduces to the étale component (I8, L96).
+3. The Tate-curve completion R[[q]] at ∞-bar for Γ_0(N) with classical q-expansions (I8 L33). DR VII.2.1 and KM 1.12.9 are seen only as cited inside Česnavičius.
+4. Functoriality of Raynaud uniformization and tropicalization under π (L112). Checked by the argument sketched under G2, not by a source.
+5. Coincidence of BR Thm 2.3's identification with the §4.5.2 identification, and BR Rem 6.3, which is proved in Coleman 2000 (not local).
+6. That w_{N/2} extends over Z_(2) preserving the components, and ε_p = −a_p.
+7. Deligne–Rapoport VI.6.9 and V.1.16, seen only as quoted in Česnavičius 1604 §§2.6 and 3.8.
+8. Aut(E_ss/F̄_2) ≅ SL_2(F_3). Read only as Mazur 1977 quoted in GRAPH_LEMMA [S1]; the Mazur corpus file was not opened. Standard.
+9. Grothendieck SGA 7 IX 11.5 and its functoriality. Read only through Conrad–Stein §4.1 and Prop 6.5.
+10. The underlying Stage I/II proofs behind I1 (odd-isogeny exclusion via Mazur's theorem), I3–I5 (identity-component review, W identities (1)–(2), "t = reduced denominator of z"), and I12 Theorem A (Selmer computation). Only the quoted summary documents were read. My checks C and D and the Cremona regressions are consistent with them.
+11. Mazur's theorem that a semistable E/Q has no rational ℓ-isogeny for ℓ ≥ 11 (BH's [30]).
+12. Cremona's optimality and Manin-constant flags as proofs (L171).
+13. Zhai and Banwait–Huang: statements checked; their proofs and external dependencies (BSTW, CCSS, Keller–Yin) were not.
+
+## (e) Commands run
+
+All computations ran with `nice -n 19`, one process at a time, no background jobs. The 1-minute load average was 2.9–3.6 before each run.
+- `uptime` (several times).
+- `nice -n 19 python3 checks/run_all_checks.py /Users/bsm/run013-bsd-scout-2026-08-22/_data/ecdata/opt_man`, 7.5 s. Output identical to `checks/run_all_checks_output.txt`; the only diff lines were the `time -p` lines. The temporary copy in the session scratchpad was deleted.
+- `nice -n 19 python3 referee_1/referee_checks.py /Users/bsm/run013-bsd-scout-2026-08-22/_data/ecdata`, 7.8 s. Output is in `referee_1/referee_checks_output.txt`. Sections:
+  - A: Ligozat orders at every cusp.
+  - B: θ from the eta product against point-count a_n mod 4.
+  - C: vertex Δ_min, c_4, n_V for ε = ±1, and Φ_2 isogeny edges.
+  - D: Frobenius exclusions on the minimal model for all odd m.
+  - E: twist 2-part, q < 1200.
+  - F: Cremona λ at the ten levels.
+- `shasum -a 256 -c MANIFEST.sha256`: the checked object files (PROOF.md, checks, three primary src texts) are OK.
+- `shasum -a 256` of every relied-upon file, written to `referee_1/FILES_READ.sha256`.
+- Read-only inspection: `ls`, `grep`, `sed -n`, `head`, `awk` on the primary texts, the imported inputs and the Cremona ecdata files.
